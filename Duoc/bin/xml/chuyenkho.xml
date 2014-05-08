@@ -1,0 +1,68 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="stt" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sttt" type="xs:decimal" minOccurs="0" />
+                <xs:element name="mabd" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ma" type="xs:string" minOccurs="0" />
+                <xs:element name="ten" type="xs:string" minOccurs="0" />
+                <xs:element name="tenhc" type="xs:string" minOccurs="0" />
+                <xs:element name="dang" type="xs:string" minOccurs="0" />
+                <xs:element name="tennguon" type="xs:string" minOccurs="0" />
+                <xs:element name="tennhomcc" type="xs:string" minOccurs="0" />
+                <xs:element name="handung" type="xs:string" minOccurs="0" />
+                <xs:element name="losx" type="xs:string" minOccurs="0" />
+                <xs:element name="soluong" type="xs:decimal" minOccurs="0" />
+                <xs:element name="dongia" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sotien" type="xs:decimal" minOccurs="0" />
+                <xs:element name="giaban" type="xs:decimal" minOccurs="0" />
+                <xs:element name="manguon" type="xs:decimal" minOccurs="0" />
+                <xs:element name="nhomcc" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tenhang" type="xs:string" minOccurs="0" />
+                <xs:element name="manhom" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tennhom" type="xs:string" minOccurs="0" />
+                <xs:element name="tennuoc" type="xs:string" minOccurs="0" />
+                <xs:element name="noingoai" type="xs:string" minOccurs="0" />
+                <xs:element name="sttnn" type="xs:decimal" minOccurs="0" />
+                <xs:element name="gianovat" type="xs:decimal" minOccurs="0" />
+                <xs:element name="vtyt" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <stt>1</stt>
+    <sttt>120113000000398130</sttt>
+    <mabd>266</mabd>
+    <ma>ACE021</ma>
+    <ten>ACEFALGAN (Paracetamol) 150mg</ten>
+    <tenhc>Paracetamol</tenhc>
+    <dang>Gói</dang>
+    <tennguon>Sự Nghiệp</tennguon>
+    <tennhomcc>CTY CỔ PHẦN DƯỢC PHẨM EUVIPHARM</tennhomcc>
+    <handung>0614</handung>
+    <losx>0051004</losx>
+    <soluong>20.0000</soluong>
+    <dongia>1065.7500000000</dongia>
+    <sotien>21315.00000000000000</sotien>
+    <giaban>1300.0000</giaban>
+    <manguon>1</manguon>
+    <nhomcc>519</nhomcc>
+    <tenhang>EUVIPHARM</tenhang>
+    <tennhom>Thuốc giảm đau, hạ sốt, chống viêm không  Steroid, trị gút và bệnh xương khớp</tennhom>
+    <tennuoc>Việt Nam</tennuoc>
+    <noingoai>Thuốc nội</noingoai>
+    <sttnn>1</sttnn>
+    <gianovat>1015.0000000000</gianovat>
+    <vtyt>0</vtyt>
+  </Table>
+</NewDataSet>

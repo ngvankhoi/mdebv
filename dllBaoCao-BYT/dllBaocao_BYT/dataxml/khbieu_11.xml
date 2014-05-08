@@ -1,0 +1,102 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ma" type="xs:decimal" minOccurs="0" />
+                <xs:element name="stt" type="xs:string" minOccurs="0" />
+                <xs:element name="ten" type="xs:string" minOccurs="0" />
+                <xs:element name="c01" type="xs:decimal" minOccurs="0" />
+                <xs:element name="c02" type="xs:decimal" minOccurs="0" />
+                <xs:element name="c03" type="xs:decimal" minOccurs="0" />
+                <xs:element name="c04" type="xs:decimal" minOccurs="0" />
+                <xs:element name="c05" type="xs:decimal" minOccurs="0" />
+                <xs:element name="c06" type="xs:decimal" minOccurs="0" />
+                <xs:element name="c07" type="xs:decimal" minOccurs="0" />
+                <xs:element name="c08" type="xs:decimal" minOccurs="0" />
+                <xs:element name="c09" type="xs:decimal" minOccurs="0" />
+                <xs:element name="c10" type="xs:decimal" minOccurs="0" />
+                <xs:element name="c11" type="xs:decimal" minOccurs="0" />
+                <xs:element name="c12" type="xs:decimal" minOccurs="0" />
+                <xs:element name="c13" type="xs:decimal" minOccurs="0" />
+                <xs:element name="c14" type="xs:decimal" minOccurs="0" />
+                <xs:element name="c15" type="xs:decimal" minOccurs="0" />
+                <xs:element name="c16" type="xs:decimal" minOccurs="0" />
+                <xs:element name="c17" type="xs:decimal" minOccurs="0" />
+                <xs:element name="c18" type="xs:decimal" minOccurs="0" />
+                <xs:element name="c19" type="xs:decimal" minOccurs="0" />
+                <xs:element name="c20" type="xs:decimal" minOccurs="0" />
+                <xs:element name="c21" type="xs:decimal" minOccurs="0" />
+                <xs:element name="c22" type="xs:decimal" minOccurs="0" />
+                <xs:element name="c23" type="xs:decimal" minOccurs="0" />
+                <xs:element name="c24" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <ma>-1</ma>
+    <stt>A</stt>
+    <ten>Tổng số</ten>
+    <c01>1</c01>
+    <c02>1</c02>
+    <c03>1</c03>
+    <c04>1</c04>
+    <c05>1</c05>
+    <c06>0</c06>
+    <c07>0</c07>
+    <c08>0</c08>
+    <c09>0</c09>
+    <c10>0</c10>
+    <c11>0</c11>
+    <c12>0</c12>
+    <c13>0</c13>
+    <c14>0</c14>
+    <c15>0</c15>
+    <c16>0</c16>
+    <c17>0</c17>
+    <c18>0</c18>
+    <c19>0</c19>
+    <c20>0</c20>
+    <c21>0</c21>
+    <c22>0</c22>
+    <c23>0</c23>
+    <c24>0</c24>
+  </Table>
+  <Table>
+    <ma>1</ma>
+    <stt>1</stt>
+    <ten>Bệnh Viện Đa Khoa Mđrăk</ten>
+    <c01>1</c01>
+    <c02>1</c02>
+    <c03>1</c03>
+    <c04>1</c04>
+    <c05>1</c05>
+    <c06>0</c06>
+    <c07>0</c07>
+    <c08>0</c08>
+    <c09>0</c09>
+    <c10>0</c10>
+    <c11>0</c11>
+    <c12>0</c12>
+    <c13>0</c13>
+    <c14>0</c14>
+    <c15>0</c15>
+    <c16>0</c16>
+    <c17>0</c17>
+    <c18>0</c18>
+    <c19>0</c19>
+    <c20>0</c20>
+    <c21>0</c21>
+    <c22>0</c22>
+    <c23>0</c23>
+    <c24>0</c24>
+  </Table>
+</NewDataSet>

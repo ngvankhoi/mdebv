@@ -1,0 +1,160 @@
+
+
+***********************************************************************
+Fatal NI connect error 12535, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.0.20)(PORT=1521))(CONNECT_DATA=(SID=medisoft)(SERVER=DEDICATED)(CID=(PROGRAM=H:\MySource\Oracle_Source\PhusanHN\DllQuanLyPhongGiuong_Project\DllPhonggiuong\bin\Debug\DllPhonggiuong.exe)(HOST=NAMKHANH)(USER=Phan?Nam?Khanh))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.1.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.1.0 - Production
+  Time: 21-APR-2008 01:49:32
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 0
+    ns main err code: 12535
+    TNS-12535: TNS:operation timed out
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: Operation timed out
+    nt secondary err code: 60
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12535, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.0.20)(PORT=1521))(CONNECT_DATA=(SID=medisoft)(SERVER=DEDICATED)(CID=(PROGRAM=H:\MySource\Oracle_Source\PhusanHN\DllQuanLyPhongGiuong_Project\DllPhonggiuong\bin\Debug\DllPhonggiuong.exe)(HOST=NAMKHANH)(USER=Phan?Nam?Khanh))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.1.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.1.0 - Production
+  Time: 22-MAY-2008 22:29:30
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 0
+    ns main err code: 12535
+    TNS-12535: TNS:operation timed out
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: Operation timed out
+    nt secondary err code: 60
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12535, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.0.1)(PORT=1521))(CONNECT_DATA=(SID=medisoft)(SERVER=DEDICATED)(CID=(PROGRAM=H:\MySource\Oracle_Source\PhusanHN\DllQuanLyPhongGiuong_Project\DllPhonggiuong\bin\Debug\DllPhonggiuong.exe)(HOST=NAMKHANH)(USER=Phan?Nam?Khanh))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.1.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.1.0 - Production
+  Time: 10-JUN-2008 09:21:18
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 0
+    ns main err code: 12535
+    TNS-12535: TNS:operation timed out
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: Operation timed out
+    nt secondary err code: 60
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12535, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=192.168.0.20)(PORT=1521))(CONNECT_DATA=(SID=medisoft)(SERVER=DEDICATED)(CID=(PROGRAM=H:\MySource\Oracle_Source\PhusanHN\DllQuanLyPhongGiuong_Project\DllPhonggiuong\bin\Debug\DllPhonggiuong.exe)(HOST=NAMKHANH)(USER=Phan?Nam?Khanh))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.1.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.1.0 - Production
+  Time: 04-JUL-2008 11:56:46
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 0
+    ns main err code: 12535
+    TNS-12535: TNS:operation timed out
+    ns secondary err code: 12560
+    nt main err code: 505
+    TNS-00505: Operation timed out
+    nt secondary err code: 60
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=localhost)(PORT=1521))(CONNECT_DATA=(SID=medisoft)(SERVER=DEDICATED)(CID=(PROGRAM=H:\MySource\Oracle_Source\PhusanHN\DllQuanLyPhongGiuong_Project\DllPhonggiuong\bin\Debug\DllPhonggiuong.exe)(HOST=NAMKHANH)(USER=Phan?Nam?Khanh))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.1.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.1.0 - Production
+  Time: 20-AUG-2008 23:08:05
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 0
+    ns main err code: 12541
+    TNS-12541: TNS:no listener
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: No listener
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=localhost)(PORT=1521))(CONNECT_DATA=(SID=medisoft)(SERVER=DEDICATED)(CID=(PROGRAM=H:\MySource\Oracle_Source\PhusanHN\DllQuanLyPhongGiuong_Project\DllPhonggiuong\bin\Debug\DllPhonggiuong.exe)(HOST=NAMKHANH)(USER=Phan?Nam?Khanh))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.1.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.1.0 - Production
+  Time: 20-AUG-2008 23:08:46
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 0
+    ns main err code: 12541
+    TNS-12541: TNS:no listener
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: No listener
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=NAMKHANH)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=medisoft)(CID=(PROGRAM=H:\MySource\Oracle_Source\PhusanHN\DllQuanLyPhongGiuong_Project\DllPhonggiuong\bin\Debug\DllPhonggiuong.exe)(HOST=NAMKHANH)(USER=Phan?Nam?Khanh))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.1.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.1.0 - Production
+  Time: 14-OCT-2008 11:35:10
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 0
+    ns main err code: 12541
+    TNS-12541: TNS:no listener
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: No listener
+    nt secondary err code: 61
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12541, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=localhost)(PORT=1521))(CONNECT_DATA=(SID=medisoft)(SERVER=DEDICATED)(CID=(PROGRAM=H:\MySource\Oracle_Source\PhusanHN\DllQuanLyPhongGiuong_Project\DllPhonggiuong\bin\Debug\DllPhonggiuong.exe)(HOST=NAMKHANH)(USER=Phan?Nam?Khanh))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 9.2.0.1.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 9.2.0.1.0 - Production
+  Time: 11-DEC-2008 15:17:18
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 0
+    ns main err code: 12541
+    TNS-12541: TNS:no listener
+    ns secondary err code: 12560
+    nt main err code: 511
+    TNS-00511: No listener
+    nt secondary err code: 61
+    nt OS err code: 0

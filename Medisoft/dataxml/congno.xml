@@ -1,0 +1,110 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="id" type="xs:decimal" minOccurs="0" />
+                <xs:element name="mabn" type="xs:string" minOccurs="0" />
+                <xs:element name="hoten" type="xs:string" minOccurs="0" />
+                <xs:element name="maql" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ngayvao" type="xs:string" minOccurs="0" />
+                <xs:element name="ngayra" type="xs:string" minOccurs="0" />
+                <xs:element name="den" type="xs:string" minOccurs="0" />
+                <xs:element name="thuoc" type="xs:decimal" minOccurs="0" />
+                <xs:element name="vienphi" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sotien" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tamung" type="xs:decimal" minOccurs="0" />
+                <xs:element name="conlai" type="xs:decimal" minOccurs="0" />
+                <xs:element name="mien" type="xs:decimal" minOccurs="0" />
+                <xs:element name="doituong" type="xs:string" minOccurs="0" />
+                <xs:element name="sothe" type="xs:string" minOccurs="0" />
+                <xs:element name="bhyttra" type="xs:decimal" default="0" minOccurs="0" />
+                <xs:element name="bntra" type="xs:decimal" default="0" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <id>121201012221107101059</id>
+    <mabn>12004929</mabn>
+    <hoten>PHẠM VĂN BUÔNG</hoten>
+    <maql>121201012127598101059</maql>
+    <ngayvao>01/12/2012 01:22</ngayvao>
+    <ngayra xml:space="preserve"> </ngayra>
+    <den>03/12/2012</den>
+    <thuoc>0</thuoc>
+    <vienphi>369400.00</vienphi>
+    <sotien>369400.00</sotien>
+    <tamung>200000.0000</tamung>
+    <conlai>-126120.0000</conlai>
+    <mien>0</mien>
+    <doituong>Bảo hiểm</doituong>
+    <sothe>XV791030060007491013</sothe>
+    <bhyttra>295520.00</bhyttra>
+    <bntra>73880.00</bntra>
+  </Table>
+  <Table>
+    <id>121126134737861101049</id>
+    <mabn>12003804</mabn>
+    <hoten>TĂNG THỊ VÂN</hoten>
+    <maql>121126134642218101049</maql>
+    <ngayvao>26/11/2012 13:47</ngayvao>
+    <ngayra xml:space="preserve"> </ngayra>
+    <den>03/12/2012</den>
+    <thuoc>0</thuoc>
+    <vienphi>655000.00</vienphi>
+    <sotien>655000.00</sotien>
+    <tamung>0</tamung>
+    <conlai>0.00</conlai>
+    <mien>0</mien>
+    <doituong>Bảo hiểm</doituong>
+    <sothe>CK291150010004891555</sothe>
+    <bhyttra>655000.00</bhyttra>
+    <bntra>0.00</bntra>
+  </Table>
+  <Table>
+    <id>121123153505910101059</id>
+    <mabn>12001465</mabn>
+    <hoten>TRẦN THỊ MAI</hoten>
+    <maql>121123153230371101059</maql>
+    <ngayvao>23/11/2012 15:34</ngayvao>
+    <ngayra xml:space="preserve"> </ngayra>
+    <den>03/12/2012</den>
+    <thuoc>0</thuoc>
+    <vienphi>801000.00</vienphi>
+    <sotien>801000.00</sotien>
+    <tamung>350000.0000</tamung>
+    <conlai>-189800.0000</conlai>
+    <mien>0</mien>
+    <doituong>Bảo hiểm</doituong>
+    <sothe>XV791030100017591013</sothe>
+    <bhyttra>640800.00</bhyttra>
+    <bntra>160200.00</bntra>
+  </Table>
+  <Table>
+    <id>121124113335645101049</id>
+    <mabn>12004124</mabn>
+    <hoten>DUƠNG THỊ BẢY</hoten>
+    <maql>121102111640242101006</maql>
+    <ngayvao>24/11/2012 11:21</ngayvao>
+    <ngayra xml:space="preserve"> </ngayra>
+    <den>03/12/2012</den>
+    <thuoc>0</thuoc>
+    <vienphi>1752200.00</vienphi>
+    <sotien>1752200.00</sotien>
+    <tamung>701616.0000</tamung>
+    <conlai>-351176.0000</conlai>
+    <mien>0</mien>
+    <doituong>Bảo hiểm</doituong>
+    <sothe>GD791030010401191013</sothe>
+    <bhyttra>1401760.00</bhyttra>
+    <bntra>350440.00</bntra>
+  </Table>
+</NewDataSet>

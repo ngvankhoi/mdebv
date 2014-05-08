@@ -1,0 +1,55 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="MA" type="xs:unsignedByte" minOccurs="0" />
+                <xs:element name="TEN" type="xs:string" minOccurs="0" />
+                <xs:element name="STT" type="xs:unsignedByte" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <MA>0</MA>
+    <TEN>Trên đường đi</TEN>
+    <STT>11</STT>
+  </Table>
+  <Table>
+    <MA>1</MA>
+    <TEN>Tại nhà</TEN>
+    <STT>12</STT>
+  </Table>
+  <Table>
+    <MA>2</MA>
+    <TEN>Trường học</TEN>
+    <STT>13</STT>
+  </Table>
+  <Table>
+    <MA>3</MA>
+    <TEN>Nơi làm việc</TEN>
+    <STT>14</STT>
+  </Table>
+  <Table>
+    <MA>4</MA>
+    <TEN>Nơi công cộng</TEN>
+    <STT>15</STT>
+  </Table>
+  <Table>
+    <MA>5</MA>
+    <TEN>Hồ, ao, sông</TEN>
+    <STT>16</STT>
+  </Table>
+  <Table>
+    <MA>6</MA>
+    <TEN>Khác</TEN>
+    <STT>17</STT>
+  </Table>
+</NewDataSet>

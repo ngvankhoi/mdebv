@@ -1,0 +1,150 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Table" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="stt" type="xs:decimal" minOccurs="0" />
+                <xs:element name="doituong" type="xs:string" minOccurs="0" />
+                <xs:element name="mabd" type="xs:int" minOccurs="0" />
+                <xs:element name="ma" type="xs:string" minOccurs="0" />
+                <xs:element name="ten" type="xs:string" minOccurs="0" />
+                <xs:element name="tenhc" type="xs:string" minOccurs="0" />
+                <xs:element name="dang" type="xs:string" minOccurs="0" />
+                <xs:element name="tenkho" type="xs:string" minOccurs="0" />
+                <xs:element name="soluong" type="xs:decimal" minOccurs="0" />
+                <xs:element name="madoituong" type="xs:decimal" minOccurs="0" />
+                <xs:element name="makho" type="xs:decimal" minOccurs="0" />
+                <xs:element name="cachdung" type="xs:string" minOccurs="0" />
+                <xs:element name="mahc" type="xs:string" minOccurs="0" />
+                <xs:element name="diung" type="xs:string" minOccurs="0" />
+                <xs:element name="manguon" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tutruc" type="xs:int" minOccurs="0" />
+                <xs:element name="idvpkhoa" type="xs:int" minOccurs="0" />
+                <xs:element name="solan" type="xs:decimal" minOccurs="0" />
+                <xs:element name="lan" type="xs:decimal" minOccurs="0" />
+                <xs:element name="dongia" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sotien" type="xs:decimal" minOccurs="0" />
+                <xs:element name="giaban" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sotienban" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sttin" type="xs:decimal" minOccurs="0" />
+                <xs:element name="nhomin" type="xs:string" minOccurs="0" />
+                <xs:element name="tu" type="xs:string" minOccurs="0" />
+                <xs:element name="den" type="xs:string" minOccurs="0" />
+                <xs:element name="id" type="xs:decimal" minOccurs="0" />
+                <xs:element name="loaiba" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sotoa" type="xs:decimal" minOccurs="0" />
+                <xs:element name="hangsx" type="xs:string" minOccurs="0" />
+                <xs:element name="nuocsx" type="xs:string" minOccurs="0" />
+                <xs:element name="tenthuoc" type="xs:string" minOccurs="0" />
+                <xs:element name="hamluong" type="xs:string" minOccurs="0" />
+                <xs:element name="lanin" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ngaynghi" type="xs:decimal" minOccurs="0" />
+                <xs:element name="gaynghien" type="xs:decimal" minOccurs="0" />
+                <xs:element name="huongthan" type="xs:decimal" minOccurs="0" />
+                <xs:element name="idnhom" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sttnhom" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tennhom" type="xs:string" minOccurs="0" />
+                <xs:element name="loidan" type="xs:string" minOccurs="0" />
+                <xs:element name="dongy" type="xs:decimal" minOccurs="0" />
+                <xs:element name="Image" type="xs:base64Binary" minOccurs="0" />
+                <xs:element name="ngayhen" type="xs:string" minOccurs="0" />
+                <xs:element name="ghichuhen" type="xs:string" minOccurs="0" />
+                <xs:element name="tungay" type="xs:string" minOccurs="0" />
+                <xs:element name="denngay" type="xs:string" minOccurs="0" />
+                <xs:element name="noidkkcb" type="xs:string" minOccurs="0" />
+                <xs:element name="tenuser" type="xs:string" minOccurs="0" />
+                <xs:element name="sophieu" type="xs:decimal" minOccurs="0" />
+                <xs:element name="nguoinha" type="xs:string" minOccurs="0" />
+                <xs:element name="giuong" type="xs:string" minOccurs="0" />
+                <xs:element name="maicd" type="xs:string" minOccurs="0" />
+                <xs:element name="mach" type="xs:decimal" minOccurs="0" />
+                <xs:element name="nhietdo" type="xs:decimal" minOccurs="0" />
+                <xs:element name="huyetap" type="xs:string" minOccurs="0" />
+                <xs:element name="cannang" type="xs:decimal" minOccurs="0" />
+                <xs:element name="chieucao" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tennn" type="xs:string" minOccurs="0" />
+                <xs:element name="ttmat" type="xs:string" minOccurs="0" />
+                <xs:element name="c16" type="xs:int" default="0" minOccurs="0" />
+                <xs:element name="ngaynghi_songay" type="xs:int" default="0" minOccurs="0" />
+                <xs:element name="ngaynghi_tungay" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="ngaynghi_denngay" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="songayhen" type="xs:int" default="1" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <stt>1</stt>
+    <doituong>BHYT</doituong>
+    <mabd>0</mabd>
+    <ma>DOM002</ma>
+    <ten>ĐỞM KIM HOÀN </ten>
+    <tenhc>Nghệ, Trần Bì, Cao Mật</tenhc>
+    <dang>Viên</dang>
+    <tenkho>Kho lẻ  BHYT</tenkho>
+    <soluong>1.0000</soluong>
+    <madoituong>1</madoituong>
+    <makho>4</makho>
+    <cachdung>Uống ngày 1 lần , lần 1 Viên</cachdung>
+    <mahc>NGH023+</mahc>
+    <diung xml:space="preserve"> </diung>
+    <manguon>8</manguon>
+    <tutruc>0</tutruc>
+    <idvpkhoa>0</idvpkhoa>
+    <solan>1</solan>
+    <lan>1.0000</lan>
+    <dongia>119.9996875000</dongia>
+    <sotien>119.99968750000000</sotien>
+    <giaban>162.0000</giaban>
+    <sotienban>162.00000000</sotienban>
+    <sttin>1</sttin>
+    <nhomin>Thuốc Thường</nhomin>
+    <tu>02/04/2012</tu>
+    <den>02/04/2012</den>
+    <id>120402000000006168</id>
+    <loaiba>3</loaiba>
+    <sotoa>3</sotoa>
+    <hangsx>CTCP dược phẩm OPC</hangsx>
+    <nuocsx>Việt Nam</nuocsx>
+    <tenthuoc>ĐỞM KIM HOÀN</tenthuoc>
+    <hamluong />
+    <lanin>4</lanin>
+    <ngaynghi>0</ngaynghi>
+    <gaynghien>0</gaynghien>
+    <huongthan>0</huongthan>
+    <idnhom>34</idnhom>
+    <sttnhom>17</sttnhom>
+    <tennhom>Nhuận tràng - Tả hạ - Tiêu thực - Bình vị -Kiện tỳ</tennhom>
+    <loidan>Uống ngày 1 lần , lần 1 Viên</loidan>
+    <dongy>0</dongy>
+    <ngayhen>03/04/2012</ngayhen>
+    <ghichuhen />
+    <tungay>01/01/2012</tungay>
+    <denngay>31/12/2012</denngay>
+    <noidkkcb>TTYT Cao su Dầu Tiếng</noidkkcb>
+    <tenuser>Administrator</tenuser>
+    <sophieu>0</sophieu>
+    <nguoinha />
+    <giuong />
+    <maicd>E10</maicd>
+    <mach>0</mach>
+    <nhietdo>0.00</nhietdo>
+    <huyetap />
+    <cannang>0.00</cannang>
+    <chieucao>0</chieucao>
+    <tennn>Công nhân</tennn>
+    <ttmat />
+    <c16>0</c16>
+    <ngaynghi_songay>0</ngaynghi_songay>
+    <ngaynghi_tungay />
+    <ngaynghi_denngay />
+    <songayhen>1</songayhen>
+  </Table>
+</NewDataSet>

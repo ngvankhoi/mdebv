@@ -1,0 +1,1761 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table1">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="loai" type="xs:string" minOccurs="0" />
+                <xs:element name="tenloai" type="xs:string" minOccurs="0" />
+                <xs:element name="id" type="xs:string" minOccurs="0" />
+                <xs:element name="ten" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table1>
+    <loai>000</loai>
+    <tenloai>1.Khám bệnh</tenloai>
+    <id>000</id>
+    <ten>Đăng ký khám bệnh</ten>
+  </Table1>
+  <Table1>
+    <loai>000</loai>
+    <tenloai>1.Khám bệnh</tenloai>
+    <id>001</id>
+    <ten>Phiếu khám bệnh</ten>
+  </Table1>
+  <Table1>
+    <loai>000</loai>
+    <tenloai>1.Khám bệnh</tenloai>
+    <id>002</id>
+    <ten>Phiếu khám bệnh (Mẫu 2)</ten>
+  </Table1>
+  <Table1>
+    <loai>000</loai>
+    <tenloai>1.Khám bệnh</tenloai>
+    <id>003</id>
+    <ten>Chuyển phòng khám</ten>
+  </Table1>
+  <Table1>
+    <loai>000</loai>
+    <tenloai>1.Khám bệnh</tenloai>
+    <id>004</id>
+    <ten>Phiếu thanh toán dịch vụ</ten>
+  </Table1>
+  <Table1>
+    <loai>000</loai>
+    <tenloai>1.Khám bệnh</tenloai>
+    <id>005</id>
+    <ten>Danh sách đăng ký khám bệnh</ten>
+  </Table1>
+  <Table1>
+    <loai>000</loai>
+    <tenloai>1.Khám bệnh</tenloai>
+    <id>006</id>
+    <ten>Danh sách khám bệnh</ten>
+  </Table1>
+  <Table1>
+    <loai>000</loai>
+    <tenloai>1.Khám bệnh</tenloai>
+    <id>303</id>
+    <ten>Tìm kiếm thông tin người bệnh</ten>
+  </Table1>
+  <Table1>
+    <loai>000</loai>
+    <tenloai>1.Khám bệnh</tenloai>
+    <id>308</id>
+    <ten>Thông tin đăng ký khám bệnh</ten>
+  </Table1>
+  <Table1>
+    <loai>000</loai>
+    <tenloai>1.Khám bệnh</tenloai>
+    <id>301</id>
+    <ten>Danh sách đã in chi phí khám bệnh</ten>
+  </Table1>
+  <Table1>
+    <loai>000</loai>
+    <tenloai>1.Khám bệnh</tenloai>
+    <id>007</id>
+    <ten>Sổ khám bệnh</ten>
+  </Table1>
+  <Table1>
+    <loai>000</loai>
+    <tenloai>1.Khám bệnh</tenloai>
+    <id>008</id>
+    <ten>Báo cáo phòng tiếp bệnh</ten>
+  </Table1>
+  <Table1>
+    <loai>000</loai>
+    <tenloai>1.Khám bệnh</tenloai>
+    <id>009</id>
+    <ten>Báo cáo số liệu khám bệnh</ten>
+  </Table1>
+  <Table1>
+    <loai>000</loai>
+    <tenloai>1.Khám bệnh</tenloai>
+    <id>010</id>
+    <ten>Sửa đối tượng</ten>
+  </Table1>
+  <Table1>
+    <loai>000</loai>
+    <tenloai>1.Khám bệnh</tenloai>
+    <id>011</id>
+    <ten>Truy vấn thông tin</ten>
+  </Table1>
+  <Table1>
+    <loai>000</loai>
+    <tenloai>1.Khám bệnh</tenloai>
+    <id>012</id>
+    <ten>Tình hình bệnh tật tại phòng khám theo đối tượng</ten>
+  </Table1>
+  <Table1>
+    <loai>000</loai>
+    <tenloai>1.Khám bệnh</tenloai>
+    <id>013</id>
+    <ten>Đối chiếu</ten>
+  </Table1>
+  <Table1>
+    <loai>000</loai>
+    <tenloai>1.Khám bệnh</tenloai>
+    <id>014</id>
+    <ten>Danh sách chỉ định</ten>
+  </Table1>
+  <Table1>
+    <loai>000</loai>
+    <tenloai>1.Khám bệnh</tenloai>
+    <id>015</id>
+    <ten>Danh sách được chỉ định chưa thực hiện</ten>
+  </Table1>
+  <Table1>
+    <loai>000</loai>
+    <tenloai>1.Khám bệnh</tenloai>
+    <id>016</id>
+    <ten>Danh sách đã nộp tiền nhưng chưa thực hiện</ten>
+  </Table1>
+  <Table1>
+    <loai>000</loai>
+    <tenloai>1.Khám bệnh</tenloai>
+    <id>017</id>
+    <ten>Danh sách đã thực hiện</ten>
+  </Table1>
+  <Table1>
+    <loai>001</loai>
+    <tenloai>2.Ngoại trú</tenloai>
+    <id>025</id>
+    <ten>Bệnh án ngoại trú</ten>
+  </Table1>
+  <Table1>
+    <loai>001</loai>
+    <tenloai>2.Ngoại trú</tenloai>
+    <id>026</id>
+    <ten>Sửa đối tượng các dịch vụ</ten>
+  </Table1>
+  <Table1>
+    <loai>001</loai>
+    <tenloai>2.Ngoại trú</tenloai>
+    <id>027</id>
+    <ten>Phiếu thanh toán dịch vụ</ten>
+  </Table1>
+  <Table1>
+    <loai>001</loai>
+    <tenloai>2.Ngoại trú</tenloai>
+    <id>028</id>
+    <ten>Phiếu tổng hợp thuốc  viện phí</ten>
+  </Table1>
+  <Table1>
+    <loai>001</loai>
+    <tenloai>2.Ngoại trú</tenloai>
+    <id>029</id>
+    <ten>Danh sách người bệnh vào điều trị ngoại trú</ten>
+  </Table1>
+  <Table1>
+    <loai>001</loai>
+    <tenloai>2.Ngoại trú</tenloai>
+    <id>030</id>
+    <ten>Danh sách người bệnh kết thúc điều trị ngoại trú</ten>
+  </Table1>
+  <Table1>
+    <loai>001</loai>
+    <tenloai>2.Ngoại trú</tenloai>
+    <id>031</id>
+    <ten>Danh sách người bệnh đang điều trị</ten>
+  </Table1>
+  <Table1>
+    <loai>001</loai>
+    <tenloai>2.Ngoại trú</tenloai>
+    <id>032</id>
+    <ten>Tổng hợp tình hình người bệnh</ten>
+  </Table1>
+  <Table1>
+    <loai>001</loai>
+    <tenloai>2.Ngoại trú</tenloai>
+    <id>033</id>
+    <ten>Danh sách nhập xuất</ten>
+  </Table1>
+  <Table1>
+    <loai>001</loai>
+    <tenloai>2.Ngoại trú</tenloai>
+    <id>034</id>
+    <ten>Hoạt động phẫu thủ thuật</ten>
+  </Table1>
+  <Table1>
+    <loai>001</loai>
+    <tenloai>2.Ngoại trú</tenloai>
+    <id>035</id>
+    <ten>Báo cáo ngoại trú theo bệnh</ten>
+  </Table1>
+  <Table1>
+    <loai>002</loai>
+    <tenloai>3.Phòng lưu</tenloai>
+    <id>036</id>
+    <ten>Nhập phòng lưu</ten>
+  </Table1>
+  <Table1>
+    <loai>002</loai>
+    <tenloai>3.Phòng lưu</tenloai>
+    <id>037</id>
+    <ten>Sửa đối tượng các dịch vụ</ten>
+  </Table1>
+  <Table1>
+    <loai>002</loai>
+    <tenloai>3.Phòng lưu</tenloai>
+    <id>038</id>
+    <ten>Phiếu thanh toán dịch vụ</ten>
+  </Table1>
+  <Table1>
+    <loai>002</loai>
+    <tenloai>3.Phòng lưu</tenloai>
+    <id>039</id>
+    <ten>Danh sách người bệnh vào phòng lưu</ten>
+  </Table1>
+  <Table1>
+    <loai>002</loai>
+    <tenloai>3.Phòng lưu</tenloai>
+    <id>040</id>
+    <ten>Danh sách người bệnh ra phòng lưu</ten>
+  </Table1>
+  <Table1>
+    <loai>002</loai>
+    <tenloai>3.Phòng lưu</tenloai>
+    <id>041</id>
+    <ten>Danh sách người bệnh đang nằm phòng lưu</ten>
+  </Table1>
+  <Table1>
+    <loai>002</loai>
+    <tenloai>3.Phòng lưu</tenloai>
+    <id>042</id>
+    <ten>Tổng hợp tình hình người bệnh</ten>
+  </Table1>
+  <Table1>
+    <loai>002</loai>
+    <tenloai>3.Phòng lưu</tenloai>
+    <id>331</id>
+    <ten>Sổ khám bệnh (phòng lưu)</ten>
+  </Table1>
+  <Table1>
+    <loai>003</loai>
+    <tenloai>4.Nội trú</tenloai>
+    <id>043</id>
+    <ten>Nhập viện</ten>
+  </Table1>
+  <Table1>
+    <loai>003</loai>
+    <tenloai>4.Nội trú</tenloai>
+    <id>044</id>
+    <ten>Nhập khoa</ten>
+  </Table1>
+  <Table1>
+    <loai>003</loai>
+    <tenloai>4.Nội trú</tenloai>
+    <id>045</id>
+    <ten>Nhập phẫu thủ thuật</ten>
+  </Table1>
+  <Table1>
+    <loai>003</loai>
+    <tenloai>4.Nội trú</tenloai>
+    <id>321</id>
+    <ten>Nhập thủ thuật</ten>
+  </Table1>
+  <Table1>
+    <loai>003</loai>
+    <tenloai>4.Nội trú</tenloai>
+    <id>320</id>
+    <ten>Lịch phẫu thủ thuật</ten>
+  </Table1>
+  <Table1>
+    <loai>003</loai>
+    <tenloai>4.Nội trú</tenloai>
+    <id>046</id>
+    <ten>Tường trình phẫu thủ thuật</ten>
+  </Table1>
+  <Table1>
+    <loai>003</loai>
+    <tenloai>4.Nội trú</tenloai>
+    <id>047</id>
+    <ten>Danh sách phẫu thuật, thủ thuật</ten>
+  </Table1>
+  <Table1>
+    <loai>003</loai>
+    <tenloai>4.Nội trú</tenloai>
+    <id>048</id>
+    <ten>Truy vấn thông tin</ten>
+  </Table1>
+  <Table1>
+    <loai>003</loai>
+    <tenloai>4.Nội trú</tenloai>
+    <id>049</id>
+    <ten>Chuyển phòng giường</ten>
+  </Table1>
+  <Table1>
+    <loai>003</loai>
+    <tenloai>4.Nội trú</tenloai>
+    <id>050</id>
+    <ten>Xuất khoa</ten>
+  </Table1>
+  <Table1>
+    <loai>003</loai>
+    <tenloai>4.Nội trú</tenloai>
+    <id>051</id>
+    <ten>Xuất viện</ten>
+  </Table1>
+  <Table1>
+    <loai>003</loai>
+    <tenloai>4.Nội trú</tenloai>
+    <id>052</id>
+    <ten>Dự trù thuốc, Vật tư y tế theo người bệnh</ten>
+  </Table1>
+  <Table1>
+    <loai>003</loai>
+    <tenloai>4.Nội trú</tenloai>
+    <id>053</id>
+    <ten>Phiếu xuất cơ số tủ trực theo người bệnh</ten>
+  </Table1>
+  <Table1>
+    <loai>003</loai>
+    <tenloai>4.Nội trú</tenloai>
+    <id>054</id>
+    <ten>Phiếu xuất cơ số tủ trực theo khoa/phòng</ten>
+  </Table1>
+  <Table1>
+    <loai>003</loai>
+    <tenloai>4.Nội trú</tenloai>
+    <id>055</id>
+    <ten>Phiếu hoàn trả thuốc, Vật tư y tế theo người bệnh</ten>
+  </Table1>
+  <Table1>
+    <loai>003</loai>
+    <tenloai>4.Nội trú</tenloai>
+    <id>056</id>
+    <ten>Dự trù lĩnh hao phí theo khoa/phòng</ten>
+  </Table1>
+  <Table1>
+    <loai>003</loai>
+    <tenloai>4.Nội trú</tenloai>
+    <id>057</id>
+    <ten>Phiếu hoàn trả thuốc, Vật tư y tế thừa theo khoa/phòng</ten>
+  </Table1>
+  <Table1>
+    <loai>003</loai>
+    <tenloai>4.Nội trú</tenloai>
+    <id>322</id>
+    <ten>Đơn thuốc</ten>
+  </Table1>
+  <Table1>
+    <loai>003</loai>
+    <tenloai>4.Nội trú</tenloai>
+    <id>323</id>
+    <ten>Phiếu lĩnh / hoàn trả (đơn thuốc)</ten>
+  </Table1>
+  <Table1>
+    <loai>003</loai>
+    <tenloai>4.Nội trú</tenloai>
+    <id>324</id>
+    <ten>Phiếu xuất (đơn thuốc)</ten>
+  </Table1>
+  <Table1>
+    <loai>003</loai>
+    <tenloai>4.Nội trú</tenloai>
+    <id>058</id>
+    <ten>Phiếu dự trù tài sản</ten>
+  </Table1>
+  <Table1>
+    <loai>003</loai>
+    <tenloai>4.Nội trú</tenloai>
+    <id>059</id>
+    <ten>Phiếu hoàn trả tài sản</ten>
+  </Table1>
+  <Table1>
+    <loai>003</loai>
+    <tenloai>4.Nội trú</tenloai>
+    <id>060</id>
+    <ten>Xem cơ số tủ trực hiện tại</ten>
+  </Table1>
+  <Table1>
+    <loai>003</loai>
+    <tenloai>4.Nội trú</tenloai>
+    <id>061</id>
+    <ten>Xem cơ số tủ trực từ ngày ... đến ngày</ten>
+  </Table1>
+  <Table1>
+    <loai>003</loai>
+    <tenloai>4.Nội trú</tenloai>
+    <id>062</id>
+    <ten>Xem tài sản tại khoa</ten>
+  </Table1>
+  <Table1>
+    <loai>003</loai>
+    <tenloai>4.Nội trú</tenloai>
+    <id>063</id>
+    <ten>Báo cáo sử dụng</ten>
+  </Table1>
+  <Table1>
+    <loai>003</loai>
+    <tenloai>4.Nội trú</tenloai>
+    <id>064</id>
+    <ten>Phiếu tổng hợp y lệnh</ten>
+  </Table1>
+  <Table1>
+    <loai>003</loai>
+    <tenloai>4.Nội trú</tenloai>
+    <id>065</id>
+    <ten>In phiếu lĩnh</ten>
+  </Table1>
+  <Table1>
+    <loai>003</loai>
+    <tenloai>4.Nội trú</tenloai>
+    <id>066</id>
+    <ten>In phiếu xuất</ten>
+  </Table1>
+  <Table1>
+    <loai>003</loai>
+    <tenloai>4.Nội trú</tenloai>
+    <id>067</id>
+    <ten>Phiếu tổng hợp thuốc</ten>
+  </Table1>
+  <Table1>
+    <loai>003</loai>
+    <tenloai>4.Nội trú</tenloai>
+    <id>068</id>
+    <ten>In phiếu công khai sử dụng thuốc  dịch vụ</ten>
+  </Table1>
+  <Table1>
+    <loai>003</loai>
+    <tenloai>4.Nội trú</tenloai>
+    <id>304</id>
+    <ten>Danh sách các phiếu đã dự trù</ten>
+  </Table1>
+  <Table1>
+    <loai>003</loai>
+    <tenloai>4.Nội trú</tenloai>
+    <id>307</id>
+    <ten>Phiếu báo ăn</ten>
+  </Table1>
+  <Table1>
+    <loai>003</loai>
+    <tenloai>4.Nội trú</tenloai>
+    <id>309</id>
+    <ten>In phiếu báo ăn</ten>
+  </Table1>
+  <Table1>
+    <loai>003</loai>
+    <tenloai>4.Nội trú</tenloai>
+    <id>311</id>
+    <ten>Phiếu chấm ăn hàng ngày để thanh toán ra viện</ten>
+  </Table1>
+  <Table1>
+    <loai>003</loai>
+    <tenloai>4.Nội trú</tenloai>
+    <id>069</id>
+    <ten>Chỉ định dịch vụ</ten>
+  </Table1>
+  <Table1>
+    <loai>003</loai>
+    <tenloai>4.Nội trú</tenloai>
+    <id>070</id>
+    <ten>Viện phí tại khoa</ten>
+  </Table1>
+  <Table1>
+    <loai>003</loai>
+    <tenloai>4.Nội trú</tenloai>
+    <id>071</id>
+    <ten>Chỉ định đi khám</ten>
+  </Table1>
+  <Table1>
+    <loai>003</loai>
+    <tenloai>4.Nội trú</tenloai>
+    <id>072</id>
+    <ten>Phiếu thanh toán ra viện</ten>
+  </Table1>
+  <Table1>
+    <loai>003</loai>
+    <tenloai>4.Nội trú</tenloai>
+    <id>073</id>
+    <ten>Danh sách chỉ định  viện phí</ten>
+  </Table1>
+  <Table1>
+    <loai>003</loai>
+    <tenloai>4.Nội trú</tenloai>
+    <id>074</id>
+    <ten>In giấy ra viện</ten>
+  </Table1>
+  <Table1>
+    <loai>003</loai>
+    <tenloai>4.Nội trú</tenloai>
+    <id>075</id>
+    <ten>In giấy chuyển viện</ten>
+  </Table1>
+  <Table1>
+    <loai>003</loai>
+    <tenloai>4.Nội trú</tenloai>
+    <id>317</id>
+    <ten>Biên bản kiểm thảo tử vong</ten>
+  </Table1>
+  <Table1>
+    <loai>003</loai>
+    <tenloai>4.Nội trú</tenloai>
+    <id>076</id>
+    <ten>Sửa đối tượng các dịch vụ</ten>
+  </Table1>
+  <Table1>
+    <loai>003</loai>
+    <tenloai>4.Nội trú</tenloai>
+    <id>077</id>
+    <ten>Dấu sinh tồn</ten>
+  </Table1>
+  <Table1>
+    <loai>003</loai>
+    <tenloai>4.Nội trú</tenloai>
+    <id>078</id>
+    <ten>Công nợ</ten>
+  </Table1>
+  <Table1>
+    <loai>003</loai>
+    <tenloai>4.Nội trú</tenloai>
+    <id>079</id>
+    <ten>Bảng thanh toán chi phí điều trị nội trú</ten>
+  </Table1>
+  <Table1>
+    <loai>003</loai>
+    <tenloai>4.Nội trú</tenloai>
+    <id>080</id>
+    <ten>Bảng tổng hợp chi phí điều trị nội trú</ten>
+  </Table1>
+  <Table1>
+    <loai>003</loai>
+    <tenloai>4.Nội trú</tenloai>
+    <id>081</id>
+    <ten>Bảng thanh toán chi phí KCB ngoại trú</ten>
+  </Table1>
+  <Table1>
+    <loai>003</loai>
+    <tenloai>4.Nội trú</tenloai>
+    <id>082</id>
+    <ten>Bảng tổng hợp chi phí KCB ngoại trú</ten>
+  </Table1>
+  <Table1>
+    <loai>003</loai>
+    <tenloai>4.Nội trú</tenloai>
+    <id>083</id>
+    <ten>Chi chí điều trị theo người bệnh</ten>
+  </Table1>
+  <Table1>
+    <loai>003</loai>
+    <tenloai>4.Nội trú</tenloai>
+    <id>084</id>
+    <ten>Chi phí  số ngày điều trị theo chẩn đoán</ten>
+  </Table1>
+  <Table1>
+    <loai>003</loai>
+    <tenloai>4.Nội trú</tenloai>
+    <id>085</id>
+    <ten>Sử dụng thuốc trước  sau mỗ</ten>
+  </Table1>
+  <Table1>
+    <loai>003</loai>
+    <tenloai>4.Nội trú</tenloai>
+    <id>086</id>
+    <ten>Danh sách người bệnh sử dụng 1 loại thuốc</ten>
+  </Table1>
+  <Table1>
+    <loai>003</loai>
+    <tenloai>4.Nội trú</tenloai>
+    <id>087</id>
+    <ten>Danh sách người bệnh sử dụng thuốc  vật tư</ten>
+  </Table1>
+  <Table1>
+    <loai>003</loai>
+    <tenloai>4.Nội trú</tenloai>
+    <id>088</id>
+    <ten>Tổng hợp người bệnh  thuốc</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>5.Nhập tổng hợp</tenloai>
+    <id>121</id>
+    <ten>Biểu 01-CVCC</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>5.Nhập tổng hợp</tenloai>
+    <id>122</id>
+    <ten>Biểu 02-KB</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>5.Nhập tổng hợp</tenloai>
+    <id>123</id>
+    <ten>Biểu 03.1-ĐT</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>5.Nhập tổng hợp</tenloai>
+    <id>124</id>
+    <ten>Biểu 04-PT/TT</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>5.Nhập tổng hợp</tenloai>
+    <id>125</id>
+    <ten>Biểu 05-SKSS</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>5.Nhập tổng hợp</tenloai>
+    <id>126</id>
+    <ten>Biểu 06-CLS</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>5.Nhập tổng hợp</tenloai>
+    <id>127</id>
+    <ten>Biểu 07-DBV</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>5.Nhập tổng hợp</tenloai>
+    <id>128</id>
+    <ten>Biểu 08-TTB</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>5.Nhập tổng hợp</tenloai>
+    <id>129</id>
+    <ten>Biểu 09.1-CĐT</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>5.Nhập tổng hợp</tenloai>
+    <id>130</id>
+    <ten>Biểu 09.2-NCKH</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>5.Nhập tổng hợp</tenloai>
+    <id>131</id>
+    <ten>Biểu 10.1-TC</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>5.Nhập tổng hợp</tenloai>
+    <id>132</id>
+    <ten>Biểu 10.2.1-TCTVP/BH</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>5.Nhập tổng hợp</tenloai>
+    <id>133</id>
+    <ten>Biểu 10.2.2-TCC</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>5.Nhập tổng hợp</tenloai>
+    <id>134</id>
+    <ten>Biểu 10.3-TC/KT</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>5.Nhập tổng hợp</tenloai>
+    <id>135</id>
+    <ten>Biểu 11-BTTV</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>5.Nhập tổng hợp</tenloai>
+    <id>136</id>
+    <ten>Biểu 01 - Dân số, đơn vị hành chính, trạm y tế xã</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>5.Nhập tổng hợp</tenloai>
+    <id>137</id>
+    <ten>Biểu 02 - Thông tin về sinh, tử</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>5.Nhập tổng hợp</tenloai>
+    <id>138</id>
+    <ten>Biểu 03 - Tình hình thu, chi ngân sách ngành y tế địa phương</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>5.Nhập tổng hợp</tenloai>
+    <id>139</id>
+    <ten>Biểu 04 - Tình hình thu, chi ngân sách của tuyến xã</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>5.Nhập tổng hợp</tenloai>
+    <id>140</id>
+    <ten>Biểu 05 - Tình hình cơ sở y tế và giường bệnh</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>5.Nhập tổng hợp</tenloai>
+    <id>141</id>
+    <ten>Biểu 06 - Tình hình nhân lực y tế toàn huyện</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>5.Nhập tổng hợp</tenloai>
+    <id>142</id>
+    <ten>Biểu 07 - Tình hình sản xuất kinh doanh dược của huyện</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>5.Nhập tổng hợp</tenloai>
+    <id>143</id>
+    <ten>Biểu 08 - Tình hình trang thiết bị y tế của địa phương</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>5.Nhập tổng hợp</tenloai>
+    <id>144</id>
+    <ten>Biểu 09 - Chăm sóc sức khỏe trẻ em</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>5.Nhập tổng hợp</tenloai>
+    <id>145</id>
+    <ten>Biểu 10 - Tình hình chăm sóc sức khỏe bà mẹ</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>5.Nhập tổng hợp</tenloai>
+    <id>146</id>
+    <ten>Biểu 11 - Thực hiện công tác kế hoạch hóa gia đình</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>5.Nhập tổng hợp</tenloai>
+    <id>147</id>
+    <ten>Biểu 12.1 - Công tác khám chữa bệnh và dịch vụ y tế</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>5.Nhập tổng hợp</tenloai>
+    <id>148</id>
+    <ten>Biểu 12.2 - Công tác khám chữa bệnh và dịch vụ y tế</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>5.Nhập tổng hợp</tenloai>
+    <id>149</id>
+    <ten>Biểu 12.3 - Công tác khám chữa bệnh và dịch vụ y tế</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>5.Nhập tổng hợp</tenloai>
+    <id>150</id>
+    <ten>Biểu 12.4 - Công tác khám chữa bệnh và dịch vụ y tế</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>5.Nhập tổng hợp</tenloai>
+    <id>151</id>
+    <ten>Biểu 13.1 - Thực hiện công tác phòng bệnh</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>5.Nhập tổng hợp</tenloai>
+    <id>152</id>
+    <ten>Biểu 13.2 - Thực hiện công tác phòng bệnh</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>5.Nhập tổng hợp</tenloai>
+    <id>153</id>
+    <ten>Biểu 13.3 - Thực hiện công tác phòng bệnh</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>5.Nhập tổng hợp</tenloai>
+    <id>154</id>
+    <ten>Biểu 14.1 - Các bệnh lây và bệnh quan trọng</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>5.Nhập tổng hợp</tenloai>
+    <id>155</id>
+    <ten>Biểu 14.2 - Các bệnh lây và bệnh quan trọng</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>5.Nhập tổng hợp</tenloai>
+    <id>156</id>
+    <ten>Biểu 14.3 - Các bệnh lây và bệnh quan trọng</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>5.Nhập tổng hợp</tenloai>
+    <id>157</id>
+    <ten>Biểu 14.4 - Các bệnh lây và bệnh quan trọng</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>5.Nhập tổng hợp</tenloai>
+    <id>158</id>
+    <ten>Biểu 14.5 - Báo cáo thống kê tai nạn, thương tích</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>5.Nhập tổng hợp</tenloai>
+    <id>159</id>
+    <ten>Biểu 15 - Tình hình bệnh tật, tử vong tại bệnh viện</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>6.Báo cáo</tenloai>
+    <id>160</id>
+    <ten>Tình hình cán bộ, công chức, viên chức (Biểu 01-CCVC)</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>6.Báo cáo</tenloai>
+    <id>161</id>
+    <ten>Hoạt động khám bệnh (Biểu 02-KB)</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>6.Báo cáo</tenloai>
+    <id>162</id>
+    <ten>Hoạt động điều trị (Biểu 03.1-ĐT)</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>6.Báo cáo</tenloai>
+    <id>163</id>
+    <ten>Hoạt động phẩu thuật, thủ thuật (Biểu 04-PT/TT)</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>6.Báo cáo</tenloai>
+    <id>164</id>
+    <ten>Hoạt động sức khỏe sinh sản (Biểu 05-SKSS)</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>6.Báo cáo</tenloai>
+    <id>165</id>
+    <ten>Hoạt động cận lâm sàng (Biểu 06-CLS)</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>6.Báo cáo</tenloai>
+    <id>166</id>
+    <ten>Dược bệnh viện (Biểu 07-DBV)</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>6.Báo cáo</tenloai>
+    <id>167</id>
+    <ten>Trang thiết bị y tế (Biểu 08-TTB)</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>6.Báo cáo</tenloai>
+    <id>168</id>
+    <ten>Hoạt động chỉ đạo tuyến (Biểu 09.1-CĐT)</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>6.Báo cáo</tenloai>
+    <id>169</id>
+    <ten>Hoạt động nghiên cứu khoa học (Biểu 09.2-NCKH)</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>6.Báo cáo</tenloai>
+    <id>170</id>
+    <ten>Hoạt động tài chính (Biểu 10.1-TC)</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>6.Báo cáo</tenloai>
+    <id>171</id>
+    <ten>HĐTC - Chi tiết về thu viện phí,Bảo hiểm (Biểu 10.2.1-TCTVP/BH)</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>6.Báo cáo</tenloai>
+    <id>172</id>
+    <ten>HĐTC - Chi tiết về các khoản chi (Biểu 10.2.2-TCC)</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>6.Báo cáo</tenloai>
+    <id>173</id>
+    <ten>HĐTC - Các khoản không thu được (Biểu 10.3-TC/KT)</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>6.Báo cáo</tenloai>
+    <id>174</id>
+    <ten>Tình hình bệnh tật, tử vong tại bệnh viện (Biểu 11-BTTV)</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>6.Báo cáo</tenloai>
+    <id>175</id>
+    <ten>In trang bìa báo cáo</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>6.Báo cáo</tenloai>
+    <id>176</id>
+    <ten>Biểu 01 - Dân số, đơn vị hành chính, trạm y tế xã</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>6.Báo cáo</tenloai>
+    <id>177</id>
+    <ten>Biểu 02 - Thông tin về sinh, tử</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>6.Báo cáo</tenloai>
+    <id>178</id>
+    <ten>Biểu 03 - Tình hình thu, chi ngân sách ngành y tế địa phương</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>6.Báo cáo</tenloai>
+    <id>179</id>
+    <ten>Biểu 04 - Tình hình thu, chi ngân sách của tuyến xã</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>6.Báo cáo</tenloai>
+    <id>180</id>
+    <ten>Biểu 05 - Tình hình cơ sở y tế và giường bệnh</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>6.Báo cáo</tenloai>
+    <id>181</id>
+    <ten>Biểu 06 - Tình hình nhân lực y tế toàn huyện</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>6.Báo cáo</tenloai>
+    <id>182</id>
+    <ten>Biểu 07 - Tình hình sản xuất kinh doanh dược của huyện</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>6.Báo cáo</tenloai>
+    <id>183</id>
+    <ten>Biểu 08 - Tình hình trang thiết bị y tế của địa phương</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>6.Báo cáo</tenloai>
+    <id>184</id>
+    <ten>Biểu 09 - Chăm sóc sức khỏe trẻ em</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>6.Báo cáo</tenloai>
+    <id>185</id>
+    <ten>Biểu 10 - Tình hình chăm sóc sức khỏe bà mẹ</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>6.Báo cáo</tenloai>
+    <id>186</id>
+    <ten>Biểu 11 - Thực hiện công tác kế hoạch hóa gia đình</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>6.Báo cáo</tenloai>
+    <id>187</id>
+    <ten>Biểu 12.1 - Công tác khám chữa bệnh và dịch vụ y tế</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>6.Báo cáo</tenloai>
+    <id>188</id>
+    <ten>Biểu 12.2 - Công tác khám chữa bệnh và dịch vụ y tế</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>6.Báo cáo</tenloai>
+    <id>189</id>
+    <ten>Biểu 12.3 - Công tác khám chữa bệnh và dịch vụ y tế</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>6.Báo cáo</tenloai>
+    <id>190</id>
+    <ten>Biểu 12.4 - Công tác khám chữa bệnh và dịch vụ y tế</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>6.Báo cáo</tenloai>
+    <id>191</id>
+    <ten>Biểu 13.1 - Thực hiện công tác phòng bệnh</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>6.Báo cáo</tenloai>
+    <id>192</id>
+    <ten>Biểu 13.2 - Thực hiện công tác phòng bệnh</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>6.Báo cáo</tenloai>
+    <id>193</id>
+    <ten>Biểu 13.3 - Thực hiện công tác phòng bệnh</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>6.Báo cáo</tenloai>
+    <id>194</id>
+    <ten>Biểu 14.1 - Các bệnh lây và bệnh quan trọng</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>6.Báo cáo</tenloai>
+    <id>195</id>
+    <ten>Biểu 14.2 - Các bệnh lây và bệnh quan trọng</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>6.Báo cáo</tenloai>
+    <id>196</id>
+    <ten>Biểu 14.3 - Các bệnh lây và bệnh quan trọng</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>6.Báo cáo</tenloai>
+    <id>197</id>
+    <ten>Biểu 14.4 - Các bệnh lây và bệnh quan trọng</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>6.Báo cáo</tenloai>
+    <id>198</id>
+    <ten>Biểu 14.5 - Báo cáo thống kê tai nạn, thương tích</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>6.Báo cáo</tenloai>
+    <id>199</id>
+    <ten>Biểu 15 - Tình hình bệnh tật, tử vong tại bệnh viện</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>6.Báo cáo</tenloai>
+    <id>200</id>
+    <ten>In trang bìa báo cáo</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>6.Báo cáo</tenloai>
+    <id>201</id>
+    <ten>Hiện diện</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>6.Báo cáo</tenloai>
+    <id>202</id>
+    <ten>Nhập viện</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>6.Báo cáo</tenloai>
+    <id>203</id>
+    <ten>Nhập khoa</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>6.Báo cáo</tenloai>
+    <id>204</id>
+    <ten>Xuất khoa</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>6.Báo cáo</tenloai>
+    <id>205</id>
+    <ten>Xuất viện</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>6.Báo cáo</tenloai>
+    <id>206</id>
+    <ten>Cơ quan y tế chuyển đến</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>6.Báo cáo</tenloai>
+    <id>207</id>
+    <ten>Chuyển viện</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>6.Báo cáo</tenloai>
+    <id>208</id>
+    <ten>Tử vong</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>6.Báo cáo</tenloai>
+    <id>209</id>
+    <ten>Trẻ sơ sinh</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>6.Báo cáo</tenloai>
+    <id>210</id>
+    <ten>Tai nạn thương tích</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>6.Báo cáo</tenloai>
+    <id>211</id>
+    <ten>Phỏng</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>6.Báo cáo</tenloai>
+    <id>212</id>
+    <ten>Phẫu thuật - thủ thuật</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>6.Báo cáo</tenloai>
+    <id>213</id>
+    <ten>Nhập xuất viện</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>6.Báo cáo</tenloai>
+    <id>214</id>
+    <ten>Nhập xuất khoa</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>6.Báo cáo</tenloai>
+    <id>215</id>
+    <ten>Nhập xuất khoa theo số lưu trữ</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>6.Báo cáo</tenloai>
+    <id>329</id>
+    <ten>Sổ vào viện - ra viện - chuyển viện</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>6.Báo cáo</tenloai>
+    <id>330</id>
+    <ten>Sổ lưu trữ hồ sơ bệnh án</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>6.Báo cáo</tenloai>
+    <id>216</id>
+    <ten>Hồ sơ bệnh án</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>6.Báo cáo</tenloai>
+    <id>217</id>
+    <ten>Biểu thống kê</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>6.Báo cáo</tenloai>
+    <id>218</id>
+    <ten>Danh sách người bệnh</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>6.Báo cáo</tenloai>
+    <id>219</id>
+    <ten>Tổng hợp</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>6.Báo cáo</tenloai>
+    <id>305</id>
+    <ten>Danh sách theo loại</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>6.Báo cáo</tenloai>
+    <id>220</id>
+    <ten>Danh sách người bệnh</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>6.Báo cáo</tenloai>
+    <id>221</id>
+    <ten>Tổng hợp</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>6.Báo cáo</tenloai>
+    <id>222</id>
+    <ten>Danh sách người bệnh</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>6.Báo cáo</tenloai>
+    <id>223</id>
+    <ten>Tổng hợp</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>6.Báo cáo</tenloai>
+    <id>224</id>
+    <ten>Danh sách bệnh nhân</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>6.Báo cáo</tenloai>
+    <id>225</id>
+    <ten>Tổng hợp</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>6.Báo cáo</tenloai>
+    <id>226</id>
+    <ten>Danh sách người bệnh</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>6.Báo cáo</tenloai>
+    <id>227</id>
+    <ten>Tổng hợp</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>6.Báo cáo</tenloai>
+    <id>228</id>
+    <ten>Tổng hợp tình hình người bệnh</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>6.Báo cáo</tenloai>
+    <id>229</id>
+    <ten>Thống kê điều trị nội trú</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>6.Báo cáo</tenloai>
+    <id>230</id>
+    <ten>Thống kê số liệu theo biểu đồ</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>6.Báo cáo</tenloai>
+    <id>231</id>
+    <ten>Tổng hợp theo mã ICD10</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>6.Báo cáo</tenloai>
+    <id>232</id>
+    <ten>Tổng hợp theo mã Phẫu thuật - thủ thuật</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>6.Báo cáo</tenloai>
+    <id>233</id>
+    <ten>Tổng hợp theo ngày điều trị</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>6.Báo cáo</tenloai>
+    <id>234</id>
+    <ten>Tổng hợp tình trạng ra viện</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>6.Báo cáo</tenloai>
+    <id>235</id>
+    <ten>Tình hình mắc bệnh theo địa phương</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>6.Báo cáo</tenloai>
+    <id>236</id>
+    <ten>So sánh tình hình mắc bệnh theo năm</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>6.Báo cáo</tenloai>
+    <id>237</id>
+    <ten>Tình hình bệnh tật, tử vong tại khoa</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>6.Báo cáo</tenloai>
+    <id>238</id>
+    <ten>Hoạt động phẫu thuật, thủ thuật theo khoa</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>6.Báo cáo</tenloai>
+    <id>239</id>
+    <ten>Số bệnh án đã nhập kho</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>6.Báo cáo</tenloai>
+    <id>240</id>
+    <ten>Thống kê số liệu theo bản đồ</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>6.Báo cáo</tenloai>
+    <id>327</id>
+    <ten>Báo cáo tiền sử bệnh</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>6.Báo cáo</tenloai>
+    <id>300</id>
+    <ten>Báo cáo đặc thù "Bệnh Viện Đa Khoa Bình An - Kiên Giang"</ten>
+  </Table1>
+  <Table1>
+    <loai>006</loai>
+    <tenloai>7.Tiện ích</tenloai>
+    <id>241</id>
+    <ten>ICD10</ten>
+  </Table1>
+  <Table1>
+    <loai>006</loai>
+    <tenloai>7.Tiện ích</tenloai>
+    <id>242</id>
+    <ten>Phẩu thuật, thủ thuật</ten>
+  </Table1>
+  <Table1>
+    <loai>006</loai>
+    <tenloai>7.Tiện ích</tenloai>
+    <id>243</id>
+    <ten>Bệnh viện</ten>
+  </Table1>
+  <Table1>
+    <loai>006</loai>
+    <tenloai>7.Tiện ích</tenloai>
+    <id>244</id>
+    <ten>Tỉnh/Thành phố</ten>
+  </Table1>
+  <Table1>
+    <loai>006</loai>
+    <tenloai>7.Tiện ích</tenloai>
+    <id>245</id>
+    <ten>Quận/Huyện</ten>
+  </Table1>
+  <Table1>
+    <loai>006</loai>
+    <tenloai>7.Tiện ích</tenloai>
+    <id>246</id>
+    <ten>Phường xã</ten>
+  </Table1>
+  <Table1>
+    <loai>006</loai>
+    <tenloai>7.Tiện ích</tenloai>
+    <id>247</id>
+    <ten>Danh mục theo qui định Vụ Điều Trị</ten>
+  </Table1>
+  <Table1>
+    <loai>006</loai>
+    <tenloai>7.Tiện ích</tenloai>
+    <id>248</id>
+    <ten>Biểu mẫu báo cáo</ten>
+  </Table1>
+  <Table1>
+    <loai>006</loai>
+    <tenloai>7.Tiện ích</tenloai>
+    <id>310</id>
+    <ten>Khai báo ICD10</ten>
+  </Table1>
+  <Table1>
+    <loai>006</loai>
+    <tenloai>7.Tiện ích</tenloai>
+    <id>250</id>
+    <ten>Khai báo phẫu thuật - thủ thuật</ten>
+  </Table1>
+  <Table1>
+    <loai>006</loai>
+    <tenloai>7.Tiện ích</tenloai>
+    <id>251</id>
+    <ten>Khai báo cơ quan y tế chuyển đến</ten>
+  </Table1>
+  <Table1>
+    <loai>006</loai>
+    <tenloai>7.Tiện ích</tenloai>
+    <id>252</id>
+    <ten>Khai báo nơi đăng ký KCB</ten>
+  </Table1>
+  <Table1>
+    <loai>006</loai>
+    <tenloai>7.Tiện ích</tenloai>
+    <id>253</id>
+    <ten>Khai báo khoa</ten>
+  </Table1>
+  <Table1>
+    <loai>006</loai>
+    <tenloai>7.Tiện ích</tenloai>
+    <id>254</id>
+    <ten>Khai báo phòng khám</ten>
+  </Table1>
+  <Table1>
+    <loai>006</loai>
+    <tenloai>7.Tiện ích</tenloai>
+    <id>255</id>
+    <ten>Khai báo viết tắt</ten>
+  </Table1>
+  <Table1>
+    <loai>006</loai>
+    <tenloai>7.Tiện ích</tenloai>
+    <id>256</id>
+    <ten>Khai báo phương pháp vô cảm</ten>
+  </Table1>
+  <Table1>
+    <loai>006</loai>
+    <tenloai>7.Tiện ích</tenloai>
+    <id>257</id>
+    <ten>Khai báo nhóm máu</ten>
+  </Table1>
+  <Table1>
+    <loai>006</loai>
+    <tenloai>7.Tiện ích</tenloai>
+    <id>258</id>
+    <ten>Khai báo nghề nghiệp</ten>
+  </Table1>
+  <Table1>
+    <loai>006</loai>
+    <tenloai>7.Tiện ích</tenloai>
+    <id>259</id>
+    <ten>Khai báo bệnh án sử dụng</ten>
+  </Table1>
+  <Table1>
+    <loai>006</loai>
+    <tenloai>7.Tiện ích</tenloai>
+    <id>260</id>
+    <ten>Khai báo xử trí khám bệnh</ten>
+  </Table1>
+  <Table1>
+    <loai>006</loai>
+    <tenloai>7.Tiện ích</tenloai>
+    <id>261</id>
+    <ten>Khai báo đối tượng</ten>
+  </Table1>
+  <Table1>
+    <loai>006</loai>
+    <tenloai>7.Tiện ích</tenloai>
+    <id>262</id>
+    <ten>Khai báo nhân viên</ten>
+  </Table1>
+  <Table1>
+    <loai>006</loai>
+    <tenloai>7.Tiện ích</tenloai>
+    <id>263</id>
+    <ten>Cơ sở y tế, Trạm y tế</ten>
+  </Table1>
+  <Table1>
+    <loai>006</loai>
+    <tenloai>7.Tiện ích</tenloai>
+    <id>264</id>
+    <ten>Cơ sở sản xuất kinh doanh</ten>
+  </Table1>
+  <Table1>
+    <loai>006</loai>
+    <tenloai>7.Tiện ích</tenloai>
+    <id>265</id>
+    <ten>Danh mục thuốc</ten>
+  </Table1>
+  <Table1>
+    <loai>006</loai>
+    <tenloai>7.Tiện ích</tenloai>
+    <id>266</id>
+    <ten>Danh mục cách dùng</ten>
+  </Table1>
+  <Table1>
+    <loai>006</loai>
+    <tenloai>7.Tiện ích</tenloai>
+    <id>267</id>
+    <ten>Danh mục ký giấy ra viện</ten>
+  </Table1>
+  <Table1>
+    <loai>006</loai>
+    <tenloai>7.Tiện ích</tenloai>
+    <id>268</id>
+    <ten>Khai báo phòng mỗ</ten>
+  </Table1>
+  <Table1>
+    <loai>006</loai>
+    <tenloai>7.Tiện ích</tenloai>
+    <id>269</id>
+    <ten>Khai báo đơn thuốc theo bác sỹ   tên bệnh</ten>
+  </Table1>
+  <Table1>
+    <loai>006</loai>
+    <tenloai>7.Tiện ích</tenloai>
+    <id>270</id>
+    <ten>Danh mục thông tin sản khoa/sơ sinh</ten>
+  </Table1>
+  <Table1>
+    <loai>006</loai>
+    <tenloai>7.Tiện ích</tenloai>
+    <id>271</id>
+    <ten>Danh mục số thẻ bảo hiểm y tế</ten>
+  </Table1>
+  <Table1>
+    <loai>006</loai>
+    <tenloai>7.Tiện ích</tenloai>
+    <id>273</id>
+    <ten>Kết xuất số liệu nộp Sở, Bộ Y tế</ten>
+  </Table1>
+  <Table1>
+    <loai>006</loai>
+    <tenloai>7.Tiện ích</tenloai>
+    <id>325</id>
+    <ten>Xem hồ sơ bệnh án</ten>
+  </Table1>
+  <Table1>
+    <loai>006</loai>
+    <tenloai>7.Tiện ích</tenloai>
+    <id>328</id>
+    <ten>Thông tin SmartCard</ten>
+  </Table1>
+  <Table1>
+    <loai>006</loai>
+    <tenloai>7.Tiện ích</tenloai>
+    <id>335</id>
+    <ten>Hệ thống tin nhắn</ten>
+  </Table1>
+  <Table1>
+    <loai>006</loai>
+    <tenloai>7.Tiện ích</tenloai>
+    <id>274</id>
+    <ten>Khai báo thông số hệ thống</ten>
+  </Table1>
+  <Table1>
+    <loai>006</loai>
+    <tenloai>7.Tiện ích</tenloai>
+    <id>315</id>
+    <ten>Khai báo thông số máy Admin</ten>
+  </Table1>
+  <Table1>
+    <loai>006</loai>
+    <tenloai>7.Tiện ích</tenloai>
+    <id>275</id>
+    <ten>Phân quyền sử dụng</ten>
+  </Table1>
+  <Table1>
+    <loai>006</loai>
+    <tenloai>7.Tiện ích</tenloai>
+    <id>334</id>
+    <ten>Sửa mã thẻ  giá trị sử dụng</ten>
+  </Table1>
+  <Table1>
+    <loai>006</loai>
+    <tenloai>7.Tiện ích</tenloai>
+    <id>276</id>
+    <ten>Sửa mã người bệnh</ten>
+  </Table1>
+  <Table1>
+    <loai>006</loai>
+    <tenloai>7.Tiện ích</tenloai>
+    <id>277</id>
+    <ten>Sửa thông tin hành chính người bệnh</ten>
+  </Table1>
+  <Table1>
+    <loai>006</loai>
+    <tenloai>7.Tiện ích</tenloai>
+    <id>278</id>
+    <ten>Sửa số liệu tỉnh/thành,quận/huyện,phường xã ...</ten>
+  </Table1>
+  <Table1>
+    <loai>006</loai>
+    <tenloai>7.Tiện ích</tenloai>
+    <id>279</id>
+    <ten>Xóa thông tin nhập sai từ hồ sơ bệnh án</ten>
+  </Table1>
+  <Table1>
+    <loai>006</loai>
+    <tenloai>7.Tiện ích</tenloai>
+    <id>280</id>
+    <ten>Hủy bỏ số liệu chuyển xuống viện phí</ten>
+  </Table1>
+  <Table1>
+    <loai>006</loai>
+    <tenloai>7.Tiện ích</tenloai>
+    <id>281</id>
+    <ten>Chỉnh sửa ngày nhập sai từ hồ sơ bệnh án</ten>
+  </Table1>
+  <Table1>
+    <loai>006</loai>
+    <tenloai>7.Tiện ích</tenloai>
+    <id>282</id>
+    <ten>Thay đổi mật khẩu</ten>
+  </Table1>
+  <Table1>
+    <loai>006</loai>
+    <tenloai>7.Tiện ích</tenloai>
+    <id>336</id>
+    <ten>Thay đổi mật khẩu bác sỹ</ten>
+  </Table1>
+  <Table1>
+    <loai>006</loai>
+    <tenloai>7.Tiện ích</tenloai>
+    <id>283</id>
+    <ten>Truy vấn thông tin theo người dùng</ten>
+  </Table1>
+  <Table1>
+    <loai>006</loai>
+    <tenloai>7.Tiện ích</tenloai>
+    <id>284</id>
+    <ten>Quản lý cơ sở dữ liệu</ten>
+  </Table1>
+  <Table1>
+    <loai>006</loai>
+    <tenloai>7.Tiện ích</tenloai>
+    <id>285</id>
+    <ten>Sao lưu số liệu</ten>
+  </Table1>
+  <Table1>
+    <loai>006</loai>
+    <tenloai>7.Tiện ích</tenloai>
+    <id>286</id>
+    <ten>Tạo lại số liệu tháng năm</ten>
+  </Table1>
+  <Table1>
+    <loai>006</loai>
+    <tenloai>7.Tiện ích</tenloai>
+    <id>287</id>
+    <ten>Quản lý khai thác số liệu</ten>
+  </Table1>
+  <Table1>
+    <loai>006</loai>
+    <tenloai>7.Tiện ích</tenloai>
+    <id>306</id>
+    <ten>Chỉnh sửa ICD10</ten>
+  </Table1>
+  <Table1>
+    <loai>006</loai>
+    <tenloai>7.Tiện ích</tenloai>
+    <id>288</id>
+    <ten>Loại phòng</ten>
+  </Table1>
+  <Table1>
+    <loai>006</loai>
+    <tenloai>7.Tiện ích</tenloai>
+    <id>289</id>
+    <ten>Phòng</ten>
+  </Table1>
+  <Table1>
+    <loai>006</loai>
+    <tenloai>7.Tiện ích</tenloai>
+    <id>290</id>
+    <ten>Giường</ten>
+  </Table1>
+  <Table1>
+    <loai>006</loai>
+    <tenloai>7.Tiện ích</tenloai>
+    <id>291</id>
+    <ten>Kết xuất thông tin lỗi của hệ thống</ten>
+  </Table1>
+  <Table1>
+    <loai>006</loai>
+    <tenloai>7.Tiện ích</tenloai>
+    <id>292</id>
+    <ten>Gửi thông tin qua mạng nội bộ</ten>
+  </Table1>
+  <Table1>
+    <loai>006</loai>
+    <tenloai>7.Tiện ích</tenloai>
+    <id>293</id>
+    <ten>Đăng ký các thư viện Windows</ten>
+  </Table1>
+  <Table1>
+    <loai>006</loai>
+    <tenloai>7.Tiện ích</tenloai>
+    <id>294</id>
+    <ten>Thông báo qua mạng nội bộ</ten>
+  </Table1>
+  <Table1>
+    <loai>006</loai>
+    <tenloai>7.Tiện ích</tenloai>
+    <id>298</id>
+    <ten>Cập nhật ICD10</ten>
+  </Table1>
+  <Table1>
+    <loai>006</loai>
+    <tenloai>7.Tiện ích</tenloai>
+    <id>312</id>
+    <ten>Phân loại triệu chứng lâm sàng</ten>
+  </Table1>
+  <Table1>
+    <loai>006</loai>
+    <tenloai>7.Tiện ích</tenloai>
+    <id>313</id>
+    <ten>Triệu chứng lâm sàng</ten>
+  </Table1>
+  <Table1>
+    <loai>006</loai>
+    <tenloai>7.Tiện ích</tenloai>
+    <id>314</id>
+    <ten>Danh mục</ten>
+  </Table1>
+  <Table1>
+    <loai>006</loai>
+    <tenloai>7.Tiện ích</tenloai>
+    <id>318</id>
+    <ten>Danh mục đơn vị đăng ký khám sức khỏe</ten>
+  </Table1>
+  <Table1>
+    <loai>006</loai>
+    <tenloai>7.Tiện ích</tenloai>
+    <id>319</id>
+    <ten>Giá trị mặc nhiên khám sức khỏe</ten>
+  </Table1>
+  <Table1>
+    <loai>006</loai>
+    <tenloai>7.Tiện ích</tenloai>
+    <id>326</id>
+    <ten>Danh mục theo dõi tiền sử bệnh</ten>
+  </Table1>
+  <Table1>
+    <loai>006</loai>
+    <tenloai>7.Tiện ích</tenloai>
+    <id>333</id>
+    <ten>Chuyển danh mục số thẻ bảo hiểm</ten>
+  </Table1>
+  <Table1>
+    <loai>006</loai>
+    <tenloai>7.Tiện ích</tenloai>
+    <id>299</id>
+    <ten>Log Off Admin Software</ten>
+  </Table1>
+</NewDataSet>

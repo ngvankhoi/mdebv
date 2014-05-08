@@ -1,0 +1,194 @@
+<?xml version="1.0" standalone="yes" ?>
+<NewDataSet>
+	<xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xs:element name="NewDataSet" msdata:IsDataSet="true">
+			<xs:complexType>
+				<xs:choice maxOccurs="unbounded">
+					<xs:element name="Table">
+						<xs:complexType>
+							<xs:sequence>
+								<xs:element name="MAKHO" type="xs:decimal" minOccurs="0" />
+								<xs:element name="MABD" type="xs:decimal" minOccurs="0" />
+								<xs:element name="SOLUONG" type="xs:decimal" minOccurs="0" />
+								<xs:element name="TEN" type="xs:string" minOccurs="0" />
+								<xs:element name="TENHC" type="xs:string" minOccurs="0" />
+								<xs:element name="DANG" type="xs:string" minOccurs="0" />
+								<xs:element name="HAMLUONG" type="xs:string" minOccurs="0" />
+								<xs:element name="MANHOM" type="xs:decimal" minOccurs="0" />
+								<xs:element name="TENNHOM" type="xs:string" minOccurs="0" />
+								<xs:element name="HOTEN" type="xs:string" minOccurs="0" />
+								<xs:element name="NAMSINH" type="xs:string" minOccurs="0" />
+								<xs:element name="PHAI" type="xs:decimal" minOccurs="0" />
+								<xs:element name="MA" type="xs:string" minOccurs="0" />
+								<xs:element name="DONGIA" type="xs:decimal" minOccurs="0" />
+								<xs:element name="SOPHIEU" type="xs:decimal" minOccurs="0" />
+								<xs:element name="LANIN" type="xs:decimal" minOccurs="0" />
+								<xs:element name="STT" type="xs:string" minOccurs="0" />
+							</xs:sequence>
+						</xs:complexType>
+					</xs:element>
+				</xs:choice>
+			</xs:complexType>
+		</xs:element>
+	</xs:schema>
+	<Table>
+		<MAKHO>2</MAKHO>
+		<MABD>35</MABD>
+		<SOLUONG>4</SOLUONG>
+		<TEN>Alphachymotrypsin  ( H/20 , V/10 )</TEN>
+		<TENHC>Alphachymostrypsin</TENHC>
+		<DANG>Viên</DANG>
+		<HAMLUONG></HAMLUONG>
+		<MANHOM>4</MANHOM>
+		<TENNHOM>Thuốc</TENNHOM>
+		<HOTEN>TRẦN HOÀNG HÀ</HOTEN>
+		<NAMSINH>1985</NAMSINH>
+		<PHAI>1</PHAI>
+		<MA>ALP000</MA>
+		<DONGIA>1400.7</DONGIA>
+	</Table>
+	<Table>
+		<MAKHO>2</MAKHO>
+		<MABD>35</MABD>
+		<SOLUONG>4</SOLUONG>
+		<TEN>Alphachymotrypsin  ( H/20 , V/10 )</TEN>
+		<TENHC>Alphachymostrypsin</TENHC>
+		<DANG>Viên</DANG>
+		<HAMLUONG></HAMLUONG>
+		<MANHOM>4</MANHOM>
+		<TENNHOM>Thuốc</TENNHOM>
+		<HOTEN>PHAN THỊ MỸ NƯƠNG</HOTEN>
+		<NAMSINH>1983</NAMSINH>
+		<PHAI>1</PHAI>
+		<MA>ALP000</MA>
+		<DONGIA>1400.7</DONGIA>
+	</Table>
+	<Table>
+		<MAKHO>2</MAKHO>
+		<MABD>192</MABD>
+		<SOLUONG>4</SOLUONG>
+		<TEN>Cephalexin</TEN>
+		<TENHC>CEPHALEXIN</TENHC>
+		<DANG>viên</DANG>
+		<HAMLUONG>500mg  ( V/10 )</HAMLUONG>
+		<MANHOM>4</MANHOM>
+		<TENNHOM>Thuốc</TENNHOM>
+		<HOTEN>TRẦN HOÀNG HÀ</HOTEN>
+		<NAMSINH>1985</NAMSINH>
+		<PHAI>1</PHAI>
+		<MA>CEP003</MA>
+		<DONGIA>1879.5</DONGIA>
+	</Table>
+	<Table>
+		<MAKHO>2</MAKHO>
+		<MABD>192</MABD>
+		<SOLUONG>4</SOLUONG>
+		<TEN>Cephalexin</TEN>
+		<TENHC>CEPHALEXIN</TENHC>
+		<DANG>viên</DANG>
+		<HAMLUONG>500mg  ( V/10 )</HAMLUONG>
+		<MANHOM>4</MANHOM>
+		<TENNHOM>Thuốc</TENNHOM>
+		<HOTEN>PHAN THỊ MỸ NƯƠNG</HOTEN>
+		<NAMSINH>1983</NAMSINH>
+		<PHAI>1</PHAI>
+		<MA>CEP003</MA>
+		<DONGIA>1879.5</DONGIA>
+	</Table>
+	<Table>
+		<MAKHO>2</MAKHO>
+		<MABD>361</MABD>
+		<SOLUONG>1</SOLUONG>
+		<TEN>Enervon C</TEN>
+		<TENHC>vit C, B1, B2, B6, B12, PP..</TENHC>
+		<DANG>viên</DANG>
+		<HAMLUONG></HAMLUONG>
+		<MANHOM>4</MANHOM>
+		<TENNHOM>Thuốc</TENNHOM>
+		<HOTEN>TRẦN HOÀNG HÀ</HOTEN>
+		<NAMSINH>1985</NAMSINH>
+		<PHAI>1</PHAI>
+		<MA>ENR000</MA>
+		<DONGIA>1071</DONGIA>
+	</Table>
+	<Table>
+		<MAKHO>2</MAKHO>
+		<MABD>361</MABD>
+		<SOLUONG>1</SOLUONG>
+		<TEN>Enervon C</TEN>
+		<TENHC>vit C, B1, B2, B6, B12, PP..</TENHC>
+		<DANG>viên</DANG>
+		<HAMLUONG></HAMLUONG>
+		<MANHOM>4</MANHOM>
+		<TENNHOM>Thuốc</TENNHOM>
+		<HOTEN>PHAN THỊ MỸ NƯƠNG</HOTEN>
+		<NAMSINH>1983</NAMSINH>
+		<PHAI>1</PHAI>
+		<MA>ENR000</MA>
+		<DONGIA>1071</DONGIA>
+	</Table>
+	<Table>
+		<MAKHO>2</MAKHO>
+		<MABD>735</MABD>
+		<SOLUONG>3</SOLUONG>
+		<TEN>PANADOL</TEN>
+		<TENHC>Paracetamol</TENHC>
+		<DANG>viên</DANG>
+		<HAMLUONG>500MG</HAMLUONG>
+		<MANHOM>4</MANHOM>
+		<TENNHOM>Thuốc</TENNHOM>
+		<HOTEN>TRẦN HOÀNG HÀ</HOTEN>
+		<NAMSINH>1985</NAMSINH>
+		<PHAI>1</PHAI>
+		<MA>PAN000</MA>
+		<DONGIA>556.5</DONGIA>
+	</Table>
+	<Table>
+		<MAKHO>2</MAKHO>
+		<MABD>735</MABD>
+		<SOLUONG>3</SOLUONG>
+		<TEN>PANADOL</TEN>
+		<TENHC>Paracetamol</TENHC>
+		<DANG>viên</DANG>
+		<HAMLUONG>500MG</HAMLUONG>
+		<MANHOM>4</MANHOM>
+		<TENNHOM>Thuốc</TENNHOM>
+		<HOTEN>PHAN THỊ MỸ NƯƠNG</HOTEN>
+		<NAMSINH>1983</NAMSINH>
+		<PHAI>1</PHAI>
+		<MA>PAN000</MA>
+		<DONGIA>556.5</DONGIA>
+	</Table>
+	<Table>
+		<MAKHO>2</MAKHO>
+		<MABD>857</MABD>
+		<SOLUONG>2</SOLUONG>
+		<TEN>SIDERFOL   (H/100)</TEN>
+		<TENHC></TENHC>
+		<DANG>Viên</DANG>
+		<HAMLUONG></HAMLUONG>
+		<MANHOM>4</MANHOM>
+		<TENNHOM>Thuốc</TENNHOM>
+		<HOTEN>TRẦN HOÀNG HÀ</HOTEN>
+		<NAMSINH>1985</NAMSINH>
+		<PHAI>1</PHAI>
+		<MA>SID000</MA>
+		<DONGIA>900.008</DONGIA>
+	</Table>
+	<Table>
+		<MAKHO>2</MAKHO>
+		<MABD>857</MABD>
+		<SOLUONG>2</SOLUONG>
+		<TEN>SIDERFOL   (H/100)</TEN>
+		<TENHC></TENHC>
+		<DANG>Viên</DANG>
+		<HAMLUONG></HAMLUONG>
+		<MANHOM>4</MANHOM>
+		<TENNHOM>Thuốc</TENNHOM>
+		<HOTEN>PHAN THỊ MỸ NƯƠNG</HOTEN>
+		<NAMSINH>1983</NAMSINH>
+		<PHAI>1</PHAI>
+		<MA>SID000</MA>
+		<DONGIA>900.008</DONGIA>
+	</Table>
+</NewDataSet>

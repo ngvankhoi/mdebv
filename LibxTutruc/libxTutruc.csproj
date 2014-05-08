@@ -1,0 +1,204 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E25FA910-6688-4ACE-B9BF-6DC354331F65}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>App.ico</ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>libxTutruc</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>libxTutruc</RootNamespace>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="dichso, Version=1.0.3870.21254, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Duoc\bin\Debug\dichso.dll</HintPath>
+    </Reference>
+    <Reference Include="LibDuoc, Version=1.0.3743.25374, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\LibDuoc\bin\Debug\LibDuoc.dll</HintPath>
+    </Reference>
+    <Reference Include="LibList, Version=1.0.2878.20770, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Duoc\bin\Debug\LibList.dll</HintPath>
+    </Reference>
+    <Reference Include="LibMedi, Version=1.0.3743.25377, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\LibMedi\bin\Debug\LibMedi.dll</HintPath>
+    </Reference>
+    <Reference Include="LibVienphi, Version=1.0.3743.20415, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\LibVienphi\bin\Debug\LibVienphi.dll</HintPath>
+    </Reference>
+    <Reference Include="MaskedBox">
+      <Name>MaskedBox</Name>
+      <HintPath>..\Medisoft\bin\Debug\MaskedBox.dll</HintPath>
+    </Reference>
+    <Reference Include="MaskedTextBox">
+      <Name>MaskedTextBox</Name>
+      <HintPath>..\Medisoft\bin\Debug\MaskedTextBox.dll</HintPath>
+    </Reference>
+    <Reference Include="MultiColumnListBox">
+      <Name>MultiColumnListBox</Name>
+      <HintPath>..\Medisoft\bin\Debug\MultiColumnListBox.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+    <Reference Include="Wildgrape.Aqua.Controls">
+      <Name>Wildgrape.Aqua.Controls</Name>
+      <HintPath>..\Medisoft\bin\Debug\Wildgrape.Aqua.Controls.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App.ico" />
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Bogotiengviet.cs" />
+    <Compile Include="CustomColumnStyles.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmChonkhoa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmChonthongso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDonthuoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmXtutruc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmXuatkhoa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Language.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <EmbeddedResource Include="CustomColumnStyles.resx">
+      <DependentUpon>CustomColumnStyles.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmChonkhoa.resx">
+      <DependentUpon>frmChonkhoa.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmChonthongso.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmChonthongso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDonthuoc.resx">
+      <DependentUpon>frmDonthuoc.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmXtutruc.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmXtutruc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmXuatkhoa.resx">
+      <DependentUpon>frmXuatkhoa.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\dllReportM\dllReportM.csproj">
+      <Project>{EB41D2E3-0273-46A4-BDDA-F3FCE23AF310}</Project>
+      <Name>dllReportM</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\dllvpkhoa_chidinh\dllvpkhoa_chidinh.csproj">
+      <Project>{8117C1EC-C3A6-4858-B79E-494087ED1AA5}</Project>
+      <Name>dllvpkhoa_chidinh</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

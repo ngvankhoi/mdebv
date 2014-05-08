@@ -1,0 +1,171 @@
+<?xml version="1.0" standalone="yes" ?>
+<NewDataSet>
+	<xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xs:element name="NewDataSet" msdata:IsDataSet="true">
+			<xs:complexType>
+				<xs:choice maxOccurs="unbounded">
+					<xs:element name="Table">
+						<xs:complexType>
+							<xs:sequence>
+								<xs:element name="ma" type="xs:string" minOccurs="0" />
+								<xs:element name="ten" type="xs:string" minOccurs="0" />
+							</xs:sequence>
+						</xs:complexType>
+					</xs:element>
+				</xs:choice>
+			</xs:complexType>
+		</xs:element>
+	</xs:schema>
+	<Table>
+		<ma>mabv</ma>
+		<ten>Mã BV</ten>
+	</Table>
+	<Table>
+		<ma>tenbv</ma>
+		<ten>Tên bệnh viện</ten>
+	</Table>
+	<Table>
+		<ma>tentt</ma>
+		<ten>Tỉnh</ten>
+	</Table>
+	<Table>
+		<ma>matinh</ma>
+		<ten>Mã tỉnh</ten>
+	</Table>
+	<Table>
+		<ma>mavung</ma>
+		<ten>Vùng</ten>
+	</Table>
+	<Table>
+		<ma>matuyen</ma>
+		<ten>Tuyến</ten>
+	</Table>
+	<Table>
+		<ma>maloai</ma>
+		<ten>Loại</ten>
+	</Table>
+	<Table>
+		<ma>mahang</ma>
+		<ten>Hạng</ten>
+	</Table>
+	<Table>
+		<ma>c01</ma>
+		<ten>TS giường KH</ten>
+	</Table>
+	<Table>
+		<ma>c02</ma>
+		<ten>TS lần khám bệnh</ten>
+	</Table>
+	<Table>
+		<ma>c03</ma>
+		<ten>TS lần khám BHYT</ten>
+	</Table>
+	<Table>
+		<ma>c04</ma>
+		<ten>Số người ĐT ngoại trú</ten>
+	</Table>
+	<Table>
+		<ma>c05</ma>
+		<ten>Số ngày ĐT ngoại trú</ten>
+	</Table>
+	<Table>
+		<ma>c06</ma>
+		<ten>Số BNĐT nội trú</ten>
+	</Table>
+	<Table>
+		<ma>c07</ma>
+		<ten>TS ngày ĐT nội trú</ten>
+	</Table>
+	<Table>
+		<ma>c08</ma>
+		<ten>Ngày ĐT trung bình</ten>
+	</Table>
+	<Table>
+		<ma>c09</ma>
+		<ten>Công suất SDGB %</ten>
+	</Table>
+	<Table>
+		<ma>c10</ma>
+		<ten>TSBN tử vong</ten>
+	</Table>
+	<Table>
+		<ma>c11</ma>
+		<ten>TS lần PT</ten>
+	</Table>
+	<Table>
+		<ma>c12</ma>
+		<ten>TS ca đẻ tại BV</ten>
+	</Table>
+	<Table>
+		<ma>c13</ma>
+		<ten>TS lít máu SD tại BV</ten>
+	</Table>
+	<Table>
+		<ma>c14</ma>
+		<ten>TS XN sinh hóa</ten>
+	</Table>
+	<Table>
+		<ma>c15</ma>
+		<ten>TS XN huyết học</ten>
+	</Table>
+	<Table>
+		<ma>c16</ma>
+		<ten>TS XN vi sinh vật</ten>
+	</Table>
+	<Table>
+		<ma>c17</ma>
+		<ten>TS giải phẫu BL</ten>
+	</Table>
+	<Table>
+		<ma>c18</ma>
+		<ten>TS chụp XQ</ten>
+	</Table>
+	<Table>
+		<ma>c19</ma>
+		<ten>TS chụp Scan,MRI</ten>
+	</Table>
+	<Table>
+		<ma>c20</ma>
+		<ten>TS siêu âm</ten>
+	</Table>
+	<Table>
+		<ma>c21</ma>
+		<ten>TS nội soi</ten>
+	</Table>
+	<Table>
+		<ma>c22</ma>
+		<ten>TS khám,chữa miễn phí</ten>
+	</Table>
+	<Table>
+		<ma>c23</ma>
+		<ten>Người nghèo có giấy chứng nhận</ten>
+	</Table>
+	<Table>
+		<ma>c24</ma>
+		<ten>Các đối tượng khác được xét miễn</ten>
+	</Table>
+	<Table>
+		<ma>c25</ma>
+		<ten>TS tai biến trong điều trị</ten>
+	</Table>
+	<Table>
+		<ma>c26</ma>
+		<ten>Tai biến sử dụng thuốc</ten>
+	</Table>
+	<Table>
+		<ma>c27</ma>
+		<ten>Tai biến do truyền máu</ten>
+	</Table>
+	<Table>
+		<ma>c28</ma>
+		<ten>Tai biến do phẫu thuật</ten>
+	</Table>
+	<Table>
+		<ma>c29</ma>
+		<ten>Tai biến do thủ thuật</ten>
+	</Table>
+	<Table>
+		<ma>c30</ma>
+		<ten>Tai biến khác</ten>
+	</Table>
+</NewDataSet>

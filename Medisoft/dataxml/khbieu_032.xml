@@ -1,0 +1,2075 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ma" type="xs:string" minOccurs="0" />
+                <xs:element name="stt" type="xs:string" minOccurs="0" />
+                <xs:element name="ten" type="xs:string" minOccurs="0" />
+                <xs:element name="c01" type="xs:decimal" minOccurs="0" />
+                <xs:element name="c02" type="xs:decimal" minOccurs="0" />
+                <xs:element name="c03" type="xs:decimal" minOccurs="0" />
+                <xs:element name="c04" type="xs:decimal" minOccurs="0" />
+                <xs:element name="c05" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <ma>0</ma>
+    <stt>A</stt>
+    <ten>Tổng số</ten>
+    <c01>30</c01>
+    <c02>28</c02>
+    <c03>18</c03>
+    <c04>6</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6051109</ma>
+    <stt>1</stt>
+    <ten>Ea Bar</ten>
+    <c01>5</c01>
+    <c02>4</c02>
+    <c03>3</c03>
+    <c04>1</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6051113</ma>
+    <stt>2</stt>
+    <ten>Tân Hòa</ten>
+    <c01>5</c01>
+    <c02>4</c02>
+    <c03>3</c03>
+    <c04>1</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6050101</ma>
+    <stt>3</stt>
+    <ten>P. Tân Lập</ten>
+    <c01>5</c01>
+    <c02>4</c02>
+    <c03>3</c03>
+    <c04>1</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6050103</ma>
+    <stt>4</stt>
+    <ten>P. Tân Hoà</ten>
+    <c01>5</c01>
+    <c02>4</c02>
+    <c03>3</c03>
+    <c04>1</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6050105</ma>
+    <stt>5</stt>
+    <ten>P. Tân An</ten>
+    <c01>5</c01>
+    <c02>4</c02>
+    <c03>3</c03>
+    <c04>1</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6050107</ma>
+    <stt>6</stt>
+    <ten>P. Thống Nhất</ten>
+    <c01>5</c01>
+    <c02>4</c02>
+    <c03>3</c03>
+    <c04>1</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6050109</ma>
+    <stt>7</stt>
+    <ten>P. Thành Nhất</ten>
+    <c01>0</c01>
+    <c02>4</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6050111</ma>
+    <stt>8</stt>
+    <ten>P. Thắng Lợi</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6050113</ma>
+    <stt>9</stt>
+    <ten>P. Tân Lợi</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6050115</ma>
+    <stt>10</stt>
+    <ten>P. Thành Công</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6050117</ma>
+    <stt>11</stt>
+    <ten>P. Tân Thành</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6050119</ma>
+    <stt>12</stt>
+    <ten>P. Tân Tiến</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6050121</ma>
+    <stt>13</stt>
+    <ten>P. Tự An</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6050123</ma>
+    <stt>14</stt>
+    <ten>P. Ea Tam</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6050125</ma>
+    <stt>15</stt>
+    <ten>P. Khánh Xuân</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6050127</ma>
+    <stt>16</stt>
+    <ten>Hòa Thuận</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6050129</ma>
+    <stt>17</stt>
+    <ten>Cư ÊBur</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6050131</ma>
+    <stt>18</stt>
+    <ten>Ea Tu</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6050133</ma>
+    <stt>19</stt>
+    <ten>Hòa Thắng</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6050135</ma>
+    <stt>20</stt>
+    <ten>Ea Kao</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6050501</ma>
+    <stt>21</stt>
+    <ten>Ea  Rôk</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6050503</ma>
+    <stt>22</stt>
+    <ten>Ya Tờ Mốt</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6050505</ma>
+    <stt>23</stt>
+    <ten>Ea Lê</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6050507</ma>
+    <stt>24</stt>
+    <ten>Ea Bung</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6050509</ma>
+    <stt>25</stt>
+    <ten>Cư M' Lan</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6050511</ma>
+    <stt>26</stt>
+    <ten>Cư KBang</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6050513</ma>
+    <stt>27</stt>
+    <ten>Ia Lốp</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6050515</ma>
+    <stt>28</stt>
+    <ten>TT. Ea Súp</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6051101</ma>
+    <stt>29</stt>
+    <ten>Krông Na</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6051103</ma>
+    <stt>30</stt>
+    <ten>Ea Huar</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6051105</ma>
+    <stt>31</stt>
+    <ten>Ea Wer</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6051107</ma>
+    <stt>32</stt>
+    <ten>Cuôr KNia</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6051111</ma>
+    <stt>33</stt>
+    <ten>Ea Nuôl</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6051501</ma>
+    <stt>34</stt>
+    <ten>TT. Ea Kar</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6051503</ma>
+    <stt>35</stt>
+    <ten>TT. Ea Knốp</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6051505</ma>
+    <stt>36</stt>
+    <ten>Ea Sô</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6051507</ma>
+    <stt>37</stt>
+    <ten>Xuân Phú</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6051509</ma>
+    <stt>38</stt>
+    <ten>Cư Huê</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6051511</ma>
+    <stt>39</stt>
+    <ten>Ea Tih</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6051513</ma>
+    <stt>40</stt>
+    <ten>Ea Đar</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6051515</ma>
+    <stt>41</stt>
+    <ten>Ea Kmút</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6051517</ma>
+    <stt>42</stt>
+    <ten>Cư Ni</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6051519</ma>
+    <stt>43</stt>
+    <ten>Ea Păn</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6051521</ma>
+    <stt>44</stt>
+    <ten>Ea Ô</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6051523</ma>
+    <stt>45</stt>
+    <ten>Cư Jiang</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6053113</ma>
+    <stt>46</stt>
+    <ten>Đắk Phơi</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6053115</ma>
+    <stt>47</stt>
+    <ten>Đắk Nuê</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6053117</ma>
+    <stt>48</stt>
+    <ten>Krông Nô</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6050701</ma>
+    <stt>49</stt>
+    <ten>ĐLiê Ya</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6050703</ma>
+    <stt>50</stt>
+    <ten>Ea Tóh</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6050705</ma>
+    <stt>51</stt>
+    <ten>Ea Tam</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6050707</ma>
+    <stt>52</stt>
+    <ten>Phú Lộc</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6050709</ma>
+    <stt>53</stt>
+    <ten>Tam Giang</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6050711</ma>
+    <stt>54</stt>
+    <ten>Krông Năng</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6050713</ma>
+    <stt>55</stt>
+    <ten>Ea Hồ</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6050715</ma>
+    <stt>56</stt>
+    <ten>Phú Xuân</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6050901</ma>
+    <stt>57</stt>
+    <ten>TT. Buôn Hồ</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6050903</ma>
+    <stt>58</stt>
+    <ten>Cư Né</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6050905</ma>
+    <stt>59</stt>
+    <ten>Cư Pơng</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6050907</ma>
+    <stt>60</stt>
+    <ten>Pơng DRang</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6050909</ma>
+    <stt>61</stt>
+    <ten>Đoàn Kết</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6050911</ma>
+    <stt>62</stt>
+    <ten>Ea BLang</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6050913</ma>
+    <stt>63</stt>
+    <ten>Ea Drông</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6050915</ma>
+    <stt>64</stt>
+    <ten>Thống Nhất</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6050917</ma>
+    <stt>65</stt>
+    <ten>Ea Siên</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6050919</ma>
+    <stt>66</stt>
+    <ten>Bình Thuận</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6050921</ma>
+    <stt>67</stt>
+    <ten>Cư Bao</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6051901</ma>
+    <stt>68</stt>
+    <ten>TT. Phước An</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6051903</ma>
+    <stt>69</stt>
+    <ten>KRông Búk</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6051905</ma>
+    <stt>70</stt>
+    <ten>Ea Kly</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6051907</ma>
+    <stt>71</stt>
+    <ten>Ea Kênh</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6051909</ma>
+    <stt>72</stt>
+    <ten>Ea Phê</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6051911</ma>
+    <stt>73</stt>
+    <ten>Ea KNuec</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6051913</ma>
+    <stt>74</stt>
+    <ten>Ea Yông</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6051915</ma>
+    <stt>75</stt>
+    <ten>Hòa An</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6053501</ma>
+    <stt>76</stt>
+    <ten>TT. Gia Nghĩa</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6053503</ma>
+    <stt>77</stt>
+    <ten>Đắk Rung</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6053505</ma>
+    <stt>78</stt>
+    <ten>Quảng Sơn</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6053507</ma>
+    <stt>79</stt>
+    <ten>Trường Xuân</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6053509</ma>
+    <stt>80</stt>
+    <ten>Đắk Ha</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6053511</ma>
+    <stt>81</stt>
+    <ten>Đắk R'Măng</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6053513</ma>
+    <stt>82</stt>
+    <ten>Quảng Thành</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6053515</ma>
+    <stt>83</stt>
+    <ten>Đắk Nia</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6053517</ma>
+    <stt>84</stt>
+    <ten>Quảng Khê</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6053519</ma>
+    <stt>85</stt>
+    <ten>Đắk Plao</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6053521</ma>
+    <stt>86</stt>
+    <ten>Đắk Som</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6052323</ma>
+    <stt>87</stt>
+    <ten>Quảng Điền</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6052501</ma>
+    <stt>88</stt>
+    <ten>TT.  Krông Kmar</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6052503</ma>
+    <stt>89</stt>
+    <ten>Dang Kang</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6052505</ma>
+    <stt>90</stt>
+    <ten>Cư KTy</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6052507</ma>
+    <stt>91</stt>
+    <ten>Hòa Thành</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6052509</ma>
+    <stt>92</stt>
+    <ten>Hòa Tân</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6052511</ma>
+    <stt>93</stt>
+    <ten>Hòa Phong</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6052513</ma>
+    <stt>94</stt>
+    <ten>Hòa Lễ</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6052515</ma>
+    <stt>95</stt>
+    <ten>Ea Trul</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6052517</ma>
+    <stt>96</stt>
+    <ten>Khuê Ngọc Điền</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6052519</ma>
+    <stt>97</stt>
+    <ten>Cư Pui</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6052521</ma>
+    <stt>98</stt>
+    <ten>Hòa Sơn</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6052523</ma>
+    <stt>99</stt>
+    <ten>Cư Drăm</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6052525</ma>
+    <stt>100</stt>
+    <ten>Yang Mao</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6052701</ma>
+    <stt>101</stt>
+    <ten>TT. Đắk Mil</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6052703</ma>
+    <stt>102</stt>
+    <ten>Đắk Gằn</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6052705</ma>
+    <stt>103</stt>
+    <ten>Đức Mạnh</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6052707</ma>
+    <stt>104</stt>
+    <ten>Đắk Lao</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6052709</ma>
+    <stt>105</stt>
+    <ten>Đắk Sắk</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6052711</ma>
+    <stt>106</stt>
+    <ten>Đức Minh</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6052713</ma>
+    <stt>107</stt>
+    <ten>Thuận An</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6052715</ma>
+    <stt>108</stt>
+    <ten>Đắk Môl</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6052717</ma>
+    <stt>109</stt>
+    <ten>Thuận Hạnh</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6052719</ma>
+    <stt>110</stt>
+    <ten>Đắk Song</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6052721</ma>
+    <stt>111</stt>
+    <ten>Đắk R' La</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6052901</ma>
+    <stt>112</stt>
+    <ten>Đắk Sôr</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6052903</ma>
+    <stt>113</stt>
+    <ten>Nam Đà</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6052905</ma>
+    <stt>114</stt>
+    <ten>Buôn Choah</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6052907</ma>
+    <stt>115</stt>
+    <ten>Đắk Mâm</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6052909</ma>
+    <stt>116</stt>
+    <ten>Đắk Rồ</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6052911</ma>
+    <stt>117</stt>
+    <ten>Nam Nung</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6052913</ma>
+    <stt>118</stt>
+    <ten>Đức Xuyên</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6052915</ma>
+    <stt>119</stt>
+    <ten>Ea R'Bin</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6052917</ma>
+    <stt>120</stt>
+    <ten>Đắk Nang</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6052919</ma>
+    <stt>121</stt>
+    <ten>Quảng Phú</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6052921</ma>
+    <stt>122</stt>
+    <ten>Nam Ka</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6053101</ma>
+    <stt>123</stt>
+    <ten>TT. Liên Sơn</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6053103</ma>
+    <stt>124</stt>
+    <ten>Yang Tao</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6053105</ma>
+    <stt>125</stt>
+    <ten>Bông Krang</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6053107</ma>
+    <stt>126</stt>
+    <ten>Đắk Liêng</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6053109</ma>
+    <stt>127</stt>
+    <ten>Buôn Triết</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6053111</ma>
+    <stt>128</stt>
+    <ten>Buôn Tría</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6051917</ma>
+    <stt>129</stt>
+    <ten>Ea Kuăng</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6051919</ma>
+    <stt>130</stt>
+    <ten>Hoà Đông</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6051921</ma>
+    <stt>131</stt>
+    <ten>Ea Hiu</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6051923</ma>
+    <stt>132</stt>
+    <ten>Hòa Tiến</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6051925</ma>
+    <stt>133</stt>
+    <ten>Tân Tiến</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6051927</ma>
+    <stt>134</stt>
+    <ten>Vụ Bổn</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6051929</ma>
+    <stt>135</stt>
+    <ten>Ea Uy</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6051931</ma>
+    <stt>136</stt>
+    <ten>Ea Yiêng</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6052101</ma>
+    <stt>137</stt>
+    <ten>TT. Ea T'Ling</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6052103</ma>
+    <stt>138</stt>
+    <ten>Eapô</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6052105</ma>
+    <stt>139</stt>
+    <ten>Nam Dong</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6052107</ma>
+    <stt>140</stt>
+    <ten>Hòa Xuân</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6052109</ma>
+    <stt>141</stt>
+    <ten>Đắk DRông</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6052111</ma>
+    <stt>142</stt>
+    <ten>Hòa Khánh</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6052113</ma>
+    <stt>143</stt>
+    <ten>Hòa Phú</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6052115</ma>
+    <stt>144</stt>
+    <ten>Tâm Thắng</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6052117</ma>
+    <stt>145</stt>
+    <ten>Trúc Sơn</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6052301</ma>
+    <stt>146</stt>
+    <ten>TT. Buôn Trấp</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6052303</ma>
+    <stt>147</stt>
+    <ten>Cư Ê Wi</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6052305</ma>
+    <stt>148</stt>
+    <ten>Ea Ktur</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6052307</ma>
+    <stt>149</stt>
+    <ten>Ea Tiêu</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6052309</ma>
+    <stt>150</stt>
+    <ten>Ea BHốk</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6052311</ma>
+    <stt>151</stt>
+    <ten>Ea Hu</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6052313</ma>
+    <stt>152</stt>
+    <ten>Ea Na</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6052315</ma>
+    <stt>153</stt>
+    <ten>Hòa Hiệp</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6052317</ma>
+    <stt>154</stt>
+    <ten>Ea Bông</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6052319</ma>
+    <stt>155</stt>
+    <ten>Dur KMăl</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6052321</ma>
+    <stt>156</stt>
+    <ten>Bình Hòa</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6051525</ma>
+    <stt>157</stt>
+    <ten>Cư Jiang</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6050301</ma>
+    <stt>158</stt>
+    <ten>Thị trấn Ea Drăng</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6050303</ma>
+    <stt>159</stt>
+    <ten>Xã Ea H'leo</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6050305</ma>
+    <stt>160</stt>
+    <ten>Xã Ea Sol</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6050307</ma>
+    <stt>161</stt>
+    <ten>Xã Ea Ral</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6050309</ma>
+    <stt>162</stt>
+    <ten>Xã Ea Wy</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6050311</ma>
+    <stt>163</stt>
+    <ten>Xã Cư Mốt</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6050313</ma>
+    <stt>164</stt>
+    <ten>Xã Ea Hiao</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6050315</ma>
+    <stt>165</stt>
+    <ten>Xã Ea Khal</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6050317</ma>
+    <stt>166</stt>
+    <ten>Xã Dlê Yang</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6050319</ma>
+    <stt>167</stt>
+    <ten>Xã Ea Nam</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6051301</ma>
+    <stt>168</stt>
+    <ten>Thị trấn Ea Pốk</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6051303</ma>
+    <stt>169</stt>
+    <ten>Thị trấn  Quảng Phú</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6051305</ma>
+    <stt>170</stt>
+    <ten>Xã Quảng  Tiến</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6051307</ma>
+    <stt>171</stt>
+    <ten>Xã Ea Kiết</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6051309</ma>
+    <stt>172</stt>
+    <ten>Xã Ea Tar</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6051311</ma>
+    <stt>173</stt>
+    <ten>Xã Cư Dliê M'nông</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6051313</ma>
+    <stt>174</stt>
+    <ten>Xã Ea H'đinh</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6051315</ma>
+    <stt>175</stt>
+    <ten>Xã Ea Tul</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6051317</ma>
+    <stt>176</stt>
+    <ten>Xã Ea KPam</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6051319</ma>
+    <stt>177</stt>
+    <ten>Xã Ea M'DRóh</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6051321</ma>
+    <stt>178</stt>
+    <ten>Xã Cư M'gar</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6051323</ma>
+    <stt>179</stt>
+    <ten>Xã Ea D'Rơng</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6051325</ma>
+    <stt>180</stt>
+    <ten>Xã Ea M'nang</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6051327</ma>
+    <stt>181</stt>
+    <ten>Xã Cư Suê</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6051329</ma>
+    <stt>182</stt>
+    <ten>Xã Cuor Đăng</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6051701</ma>
+    <stt>183</stt>
+    <ten>Thị trấn M'Đrắk</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6051703</ma>
+    <stt>184</stt>
+    <ten>Xã Cư Prao</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6051705</ma>
+    <stt>185</stt>
+    <ten>Xã Ea Pil</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6051707</ma>
+    <stt>186</stt>
+    <ten>Xã Ea Lai</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6051711</ma>
+    <stt>187</stt>
+    <ten>Xã Krông Jing</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6051715</ma>
+    <stt>188</stt>
+    <ten>Xã Ea Riêng</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6051717</ma>
+    <stt>189</stt>
+    <ten>Xã Cư M'ta</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6051723</ma>
+    <stt>190</stt>
+    <ten>Xã Ea Trang</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6053301</ma>
+    <stt>191</stt>
+    <ten>Xã Quảng Trực</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6053303</ma>
+    <stt>192</stt>
+    <ten>Xã Đắk Búk So</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6053305</ma>
+    <stt>193</stt>
+    <ten>Xã Đắk R'Tíh</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6053307</ma>
+    <stt>194</stt>
+    <ten>Xã Quảng Tân</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6053309</ma>
+    <stt>195</stt>
+    <ten>Xã Nhân Cơ</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6053311</ma>
+    <stt>196</stt>
+    <ten>Xã Kiến Đức</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6053313</ma>
+    <stt>197</stt>
+    <ten>Xã Quảng Tín</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6053315</ma>
+    <stt>198</stt>
+    <ten>Xã Đạo Nghĩa</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6053317</ma>
+    <stt>199</stt>
+    <ten>Xã Đắk Sin</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6051721</ma>
+    <stt>200</stt>
+    <ten>Xã KRông á</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6051719</ma>
+    <stt>201</stt>
+    <ten>Xã Cư K Róa</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6051713</ma>
+    <stt>202</stt>
+    <ten>Xã Ea M' Doal</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6051709</ma>
+    <stt>203</stt>
+    <ten>Xã Ea MLay</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6051725</ma>
+    <stt>204</stt>
+    <ten>Xã Cư San</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+</NewDataSet>

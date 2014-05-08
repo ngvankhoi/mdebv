@@ -1,0 +1,85 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="id" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ma" type="xs:string" minOccurs="0" />
+                <xs:element name="ten" type="xs:string" minOccurs="0" />
+                <xs:element name="dvt" type="xs:string" minOccurs="0" />
+                <xs:element name="hamluong" type="xs:string" minOccurs="0" />
+                <xs:element name="tenhc" type="xs:string" minOccurs="0" />
+                <xs:element name="soluong" type="xs:decimal" minOccurs="0" />
+                <xs:element name="giaban" type="xs:decimal" minOccurs="0" />
+                <xs:element name="giamua" type="xs:decimal" minOccurs="0" />
+                <xs:element name="cachdung" type="xs:string" minOccurs="0" />
+                <xs:element name="idnhom" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tennhom" type="xs:string" minOccurs="0" />
+                <xs:element name="stt_nhom" type="xs:decimal" minOccurs="0" />
+                <xs:element name="mabn" type="xs:string" minOccurs="0" />
+                <xs:element name="hoten" type="xs:string" minOccurs="0" />
+                <xs:element name="namsinh" type="xs:string" minOccurs="0" />
+                <xs:element name="diachi" type="xs:string" minOccurs="0" />
+                <xs:element name="sothe" type="xs:string" minOccurs="0" />
+                <xs:element name="denngay" type="xs:string" minOccurs="0" />
+                <xs:element name="ngay" type="xs:string" minOccurs="0" />
+                <xs:element name="userid" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sohieu" type="xs:string" minOccurs="0" />
+                <xs:element name="sobienlai" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sotien" type="xs:decimal" minOccurs="0" />
+                <xs:element name="bhyttra" type="xs:decimal" minOccurs="0" />
+                <xs:element name="bntra" type="xs:decimal" minOccurs="0" />
+                <xs:element name="makp" type="xs:string" minOccurs="0" />
+                <xs:element name="tenbv" type="xs:string" minOccurs="0" />
+                <xs:element name="tenkp" type="xs:string" minOccurs="0" />
+                <xs:element name="maicd" type="xs:string" minOccurs="0" />
+                <xs:element name="chandoan" type="xs:string" minOccurs="0" />
+                <xs:element name="phai" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tamung" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <id>405</id>
+    <ma>KRHM1456</ma>
+    <ten>Khám chuyên khoa RHM 1456</ten>
+    <dvt>Lần</dvt>
+    <hamluong />
+    <tenhc />
+    <soluong>1.0000</soluong>
+    <giaban>70000</giaban>
+    <giamua>70000</giamua>
+    <cachdung />
+    <idnhom>4</idnhom>
+    <tennhom>Công khám</tennhom>
+    <stt_nhom>4</stt_nhom>
+    <mabn>1104021349</mabn>
+    <hoten>TINH TE</hoten>
+    <namsinh>1988</namsinh>
+    <diachi>, , Phú Thạnh, Q. Tân Phú, Tp. H C M</diachi>
+    <sothe />
+    <denngay />
+    <ngay>02/08/2011</ngay>
+    <userid>263</userid>
+    <sohieu />
+    <sobienlai>484</sobienlai>
+    <sotien>70000.0000</sotien>
+    <bhyttra>0.0000</bhyttra>
+    <bntra>0.0000</bntra>
+    <makp>412</makp>
+    <tenbv />
+    <tenkp>Phòng RHM [P22-Lầu 1]</tenkp>
+    <maicd />
+    <chandoan />
+    <phai>0</phai>
+    <tamung>0</tamung>
+  </Table>
+</NewDataSet>

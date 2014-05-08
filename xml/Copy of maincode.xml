@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" standalone="yes"?>
+<Import>
+  <Row>
+    <Con>Data Source=MEDISOFT;user id=MEDIbvmat;password=MEDIbvmat</Con>
+    <Ip>192.168.1.105</Ip>
+    <Post>5432</Post>
+    <UserID>medisoft</UserID>
+    <Password>links1920</Password>
+    <User>medibv</User>
+    <Database>medisoft2007</Database>
+    <Mabv>821.3.01</Mabv>
+    <Tenbv>Bệnh viện Trưng Vương</Tenbv>
+    <Syte>Sở Y Tế Tp. HCM</Syte>
+    <Diachi />
+    <Dienthoai />
+    <Fox>D:\SYTHCM60\DBF</Fox>
+  </Row>
+</Import>

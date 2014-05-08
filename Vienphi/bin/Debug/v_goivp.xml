@@ -1,0 +1,43 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="id" type="xs:decimal" minOccurs="0" />
+                <xs:element name="stt" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ma" type="xs:string" minOccurs="0" />
+                <xs:element name="ten" type="xs:string" minOccurs="0" />
+                <xs:element name="dvt" type="xs:string" minOccurs="0" />
+                <xs:element name="soluong" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sotien" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tenloai" type="xs:string" minOccurs="0" />
+                <xs:element name="tennhom" type="xs:string" minOccurs="0" />
+                <xs:element name="id_loai" type="xs:decimal" minOccurs="0" />
+                <xs:element name="id_nhom" type="xs:decimal" minOccurs="0" />
+                <xs:element name="madoituong" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <id>1011</id>
+    <stt>1</stt>
+    <ma>DAT006</ma>
+    <ten>đặt sond dạ dày lưu</ten>
+    <dvt>Lần</dvt>
+    <soluong>1</soluong>
+    <sotien>15000</sotien>
+    <tenloai>Bỏng</tenloai>
+    <tennhom>Phẫu thuật - thủ thuật</tennhom>
+    <id_loai>23</id_loai>
+    <id_nhom>5</id_nhom>
+    <madoituong>0</madoituong>
+  </Table>
+</NewDataSet>

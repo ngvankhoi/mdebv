@@ -1,0 +1,988 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="id" type="xs:decimal" minOccurs="0" />
+                <xs:element name="quyenso" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sobienlai" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sohieu" type="xs:string" minOccurs="0" />
+                <xs:element name="mabn" type="xs:string" minOccurs="0" />
+                <xs:element name="hoten" type="xs:string" minOccurs="0" />
+                <xs:element name="namsinh" type="xs:string" minOccurs="0" />
+                <xs:element name="tinh" type="xs:string" minOccurs="0" />
+                <xs:element name="quan" type="xs:string" minOccurs="0" />
+                <xs:element name="xa" type="xs:string" minOccurs="0" />
+                <xs:element name="sonha" type="xs:string" minOccurs="0" />
+                <xs:element name="thon" type="xs:string" minOccurs="0" />
+                <xs:element name="gioitinh" type="xs:string" minOccurs="0" />
+                <xs:element name="lanin" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ngaysinh" type="xs:string" minOccurs="0" />
+                <xs:element name="mabhyt" type="xs:string" minOccurs="0" />
+                <xs:element name="giatriden" type="xs:string" minOccurs="0" />
+                <xs:element name="tenkp" type="xs:string" minOccurs="0" />
+                <xs:element name="ngaythu" type="xs:string" minOccurs="0" />
+                <xs:element name="tenkpct" type="xs:string" minOccurs="0" />
+                <xs:element name="tentt" type="xs:string" minOccurs="0" />
+                <xs:element name="tenquan" type="xs:string" minOccurs="0" />
+                <xs:element name="tenpxa" type="xs:string" minOccurs="0" />
+                <xs:element name="id_vp" type="xs:decimal" minOccurs="0" />
+                <xs:element name="id_loai" type="xs:decimal" minOccurs="0" />
+                <xs:element name="id_nhom" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tenvp" type="xs:string" minOccurs="0" />
+                <xs:element name="tenloaivp" type="xs:string" minOccurs="0" />
+                <xs:element name="tennhomvp" type="xs:string" minOccurs="0" />
+                <xs:element name="sttvp" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sttloaivp" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sttnhomvp" type="xs:decimal" minOccurs="0" />
+                <xs:element name="dvt" type="xs:string" minOccurs="0" />
+                <xs:element name="soluong" type="xs:decimal" minOccurs="0" />
+                <xs:element name="dongia" type="xs:decimal" minOccurs="0" />
+                <xs:element name="giamua" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sotien" type="xs:decimal" minOccurs="0" />
+                <xs:element name="bhtra" type="xs:decimal" minOccurs="0" />
+                <xs:element name="mien" type="xs:decimal" minOccurs="0" />
+                <xs:element name="thieu" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tongmien" type="xs:decimal" minOccurs="0" />
+                <xs:element name="madoituong" type="xs:decimal" minOccurs="0" />
+                <xs:element name="nguoithu" type="xs:string" minOccurs="0" />
+                <xs:element name="hoantra" type="xs:int" minOccurs="0" />
+                <xs:element name="ghichu" type="xs:string" minOccurs="0" />
+                <xs:element name="nha" type="xs:string" minOccurs="0" />
+                <xs:element name="coquan" type="xs:string" minOccurs="0" />
+                <xs:element name="didong" type="xs:string" minOccurs="0" />
+                <xs:element name="email" type="xs:string" minOccurs="0" />
+                <xs:element name="doituong" type="xs:string" minOccurs="0" />
+                <xs:element name="gia_bh" type="xs:decimal" minOccurs="0" />
+                <xs:element name="gia_dv" type="xs:decimal" minOccurs="0" />
+                <xs:element name="gia_th" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tamung" type="xs:decimal" minOccurs="0" />
+                <xs:element name="nopthem" type="xs:decimal" minOccurs="0" />
+                <xs:element name="thua" type="xs:decimal" minOccurs="0" />
+                <xs:element name="hangsx" type="xs:string" minOccurs="0" />
+                <xs:element name="nuocsx" type="xs:string" minOccurs="0" />
+                <xs:element name="bhyttra_ct" type="xs:decimal" minOccurs="0" />
+                <xs:element name="vat" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tungay" type="xs:string" minOccurs="0" />
+                <xs:element name="denngay" type="xs:string" minOccurs="0" />
+                <xs:element name="sovaovien" type="xs:string" minOccurs="0" />
+                <xs:element name="traituyen" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tenbv" type="xs:string" minOccurs="0" />
+                <xs:element name="thangtuoi" type="xs:string" minOccurs="0" />
+                <xs:element name="lien" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <id>101139140226130828983</id>
+    <quyenso>15</quyenso>
+    <sobienlai>13</sobienlai>
+    <sohieu>1</sohieu>
+    <mabn>14001934</mabn>
+    <hoten>TEST BBN DICH VU</hoten>
+    <namsinh>1989</namsinh>
+    <tinh>Bình Dương</tinh>
+    <quan>Không xác định</quan>
+    <xa>Không xác định</xa>
+    <sonha />
+    <thon />
+    <gioitinh>Nam</gioitinh>
+    <lanin>1</lanin>
+    <mabhyt>GD779854212580779025</mabhyt>
+    <giatriden>31/12/2014</giatriden>
+    <tenkp>Khoa Ngoại</tenkp>
+    <ngaythu>25/02/2014</ngaythu>
+    <tenkpct>Khoa Ngoại</tenkpct>
+    <tentt>Bình Dương</tentt>
+    <tenquan>Không xác định</tenquan>
+    <tenpxa>Không xác định</tenpxa>
+    <id_vp>-190658</id_vp>
+    <id_loai>76</id_loai>
+    <id_nhom>2</id_nhom>
+    <tenvp>Chụp tim phổi thẳng</tenvp>
+    <tenloaivp>X quang thường quy</tenloaivp>
+    <tennhomvp>Chẩn đoán hình ảnh</tennhomvp>
+    <sttvp>1</sttvp>
+    <sttloaivp>76</sttloaivp>
+    <sttnhomvp>2</sttnhomvp>
+    <dvt>Lần</dvt>
+    <soluong>1.0000</soluong>
+    <dongia>29000.0000</dongia>
+    <giamua>0.0000000000</giamua>
+    <sotien>29000.00000000</sotien>
+    <bhtra>1373761.5800</bhtra>
+    <mien>0.0000</mien>
+    <thieu>0.0000</thieu>
+    <tongmien>0.0000</tongmien>
+    <madoituong>1</madoituong>
+    <nguoithu>1</nguoithu>
+    <hoantra>0</hoantra>
+    <ghichu>Bệnh trào ngược dạ dày-thực quản</ghichu>
+    <doituong>Bảo hiểm</doituong>
+    <gia_bh>29000</gia_bh>
+    <gia_dv>29000</gia_dv>
+    <gia_th>29000</gia_th>
+    <tamung>0</tamung>
+    <nopthem>0.0000</nopthem>
+    <thua>0.0000</thua>
+    <bhyttra_ct>23200.0000</bhyttra_ct>
+    <vat>0.00</vat>
+    <tungay>20/02/2014</tungay>
+    <denngay>25/02/2014</denngay>
+    <sovaovien>0000566/14</sovaovien>
+    <traituyen>0</traituyen>
+    <tenbv>Bệnh viện Thống Nhất</tenbv>
+  </Table>
+  <Table>
+    <id>101139140226130828983</id>
+    <quyenso>15</quyenso>
+    <sobienlai>13</sobienlai>
+    <sohieu>1</sohieu>
+    <mabn>14001934</mabn>
+    <hoten>TEST BBN DICH VU</hoten>
+    <namsinh>1989</namsinh>
+    <tinh>Bình Dương</tinh>
+    <quan>Không xác định</quan>
+    <xa>Không xác định</xa>
+    <sonha />
+    <thon />
+    <gioitinh>Nam</gioitinh>
+    <lanin>1</lanin>
+    <mabhyt>GD779854212580779025</mabhyt>
+    <giatriden>31/12/2014</giatriden>
+    <tenkp>Khoa Ngoại</tenkp>
+    <ngaythu>25/02/2014</ngaythu>
+    <tenkpct>Khoa Ngoại</tenkpct>
+    <tentt>Bình Dương</tentt>
+    <tenquan>Không xác định</tenquan>
+    <tenpxa>Không xác định</tenpxa>
+    <id_vp>1538</id_vp>
+    <id_loai>80</id_loai>
+    <id_nhom>1</id_nhom>
+    <tenvp>Nước tiểu 10 thông số ( máy )</tenvp>
+    <tenloaivp>Xét nghiệm Nước tiểu</tenloaivp>
+    <tennhomvp>Xét nghiệm</tennhomvp>
+    <sttvp>99999</sttvp>
+    <sttloaivp>80</sttloaivp>
+    <sttnhomvp>1</sttnhomvp>
+    <dvt>Lần</dvt>
+    <soluong>1.0000</soluong>
+    <dongia>35000.0000</dongia>
+    <giamua>0.0000000000</giamua>
+    <sotien>35000.00000000</sotien>
+    <bhtra>1373761.5800</bhtra>
+    <mien>0.0000</mien>
+    <thieu>0.0000</thieu>
+    <tongmien>0.0000</tongmien>
+    <madoituong>1</madoituong>
+    <nguoithu>1</nguoithu>
+    <hoantra>0</hoantra>
+    <ghichu>Bệnh trào ngược dạ dày-thực quản</ghichu>
+    <doituong>Bảo hiểm</doituong>
+    <gia_bh>35000</gia_bh>
+    <gia_dv>35000</gia_dv>
+    <gia_th>35000</gia_th>
+    <tamung>0</tamung>
+    <nopthem>0.0000</nopthem>
+    <thua>0.0000</thua>
+    <bhyttra_ct>28000.0000</bhyttra_ct>
+    <vat>0.00</vat>
+    <tungay>20/02/2014</tungay>
+    <denngay>25/02/2014</denngay>
+    <sovaovien>0000566/14</sovaovien>
+    <traituyen>0</traituyen>
+    <tenbv>Bệnh viện Thống Nhất</tenbv>
+  </Table>
+  <Table>
+    <id>101139140226130828983</id>
+    <quyenso>15</quyenso>
+    <sobienlai>13</sobienlai>
+    <sohieu>1</sohieu>
+    <mabn>14001934</mabn>
+    <hoten>TEST BBN DICH VU</hoten>
+    <namsinh>1989</namsinh>
+    <tinh>Bình Dương</tinh>
+    <quan>Không xác định</quan>
+    <xa>Không xác định</xa>
+    <sonha />
+    <thon />
+    <gioitinh>Nam</gioitinh>
+    <lanin>1</lanin>
+    <mabhyt>GD779854212580779025</mabhyt>
+    <giatriden>31/12/2014</giatriden>
+    <tenkp>Khoa Ngoại</tenkp>
+    <ngaythu>25/02/2014</ngaythu>
+    <tenkpct>Khoa Ngoại</tenkpct>
+    <tentt>Bình Dương</tentt>
+    <tenquan>Không xác định</tenquan>
+    <tenpxa>Không xác định</tenpxa>
+    <id_vp>-191470</id_vp>
+    <id_loai>8</id_loai>
+    <id_nhom>2</id_nhom>
+    <tenvp>CT scanner bụng</tenvp>
+    <tenloaivp>CT scanner</tenloaivp>
+    <tennhomvp>Chẩn đoán hình ảnh</tennhomvp>
+    <sttvp>1</sttvp>
+    <sttloaivp>8</sttloaivp>
+    <sttnhomvp>2</sttnhomvp>
+    <dvt>Lần</dvt>
+    <soluong>1.0000</soluong>
+    <dongia>328000.0000</dongia>
+    <giamua>0.0000000000</giamua>
+    <sotien>328000.00000000</sotien>
+    <bhtra>1373761.5800</bhtra>
+    <mien>0.0000</mien>
+    <thieu>0.0000</thieu>
+    <tongmien>0.0000</tongmien>
+    <madoituong>1</madoituong>
+    <nguoithu>1</nguoithu>
+    <hoantra>0</hoantra>
+    <ghichu>Bệnh trào ngược dạ dày-thực quản</ghichu>
+    <doituong>Bảo hiểm</doituong>
+    <gia_bh>328000</gia_bh>
+    <gia_dv>1000000</gia_dv>
+    <gia_th>1000000</gia_th>
+    <tamung>0</tamung>
+    <nopthem>0.0000</nopthem>
+    <thua>0.0000</thua>
+    <bhyttra_ct>262400.0000</bhyttra_ct>
+    <vat>0.00</vat>
+    <tungay>20/02/2014</tungay>
+    <denngay>25/02/2014</denngay>
+    <sovaovien>0000566/14</sovaovien>
+    <traituyen>0</traituyen>
+    <tenbv>Bệnh viện Thống Nhất</tenbv>
+  </Table>
+  <Table>
+    <id>101139140226130828983</id>
+    <quyenso>15</quyenso>
+    <sobienlai>13</sobienlai>
+    <sohieu>1</sohieu>
+    <mabn>14001934</mabn>
+    <hoten>TEST BBN DICH VU</hoten>
+    <namsinh>1989</namsinh>
+    <tinh>Bình Dương</tinh>
+    <quan>Không xác định</quan>
+    <xa>Không xác định</xa>
+    <sonha />
+    <thon />
+    <gioitinh>Nam</gioitinh>
+    <lanin>1</lanin>
+    <mabhyt>GD779854212580779025</mabhyt>
+    <giatriden>31/12/2014</giatriden>
+    <tenkp>Khoa Ngoại</tenkp>
+    <ngaythu>25/02/2014</ngaythu>
+    <tenkpct>Khoa Ngoại</tenkpct>
+    <tentt>Bình Dương</tentt>
+    <tenquan>Không xác định</tenquan>
+    <tenpxa>Không xác định</tenpxa>
+    <id_vp>1310</id_vp>
+    <id_loai>77</id_loai>
+    <id_nhom>1</id_nhom>
+    <tenvp>Cấy cụm tế bào tủy</tenvp>
+    <tenloaivp>Xét nghiệm Huyết học</tenloaivp>
+    <tennhomvp>Xét nghiệm</tennhomvp>
+    <sttvp>99999</sttvp>
+    <sttloaivp>77</sttloaivp>
+    <sttnhomvp>1</sttnhomvp>
+    <dvt>Lần</dvt>
+    <soluong>1.0000</soluong>
+    <dongia>350000.0000</dongia>
+    <giamua>0.0000000000</giamua>
+    <sotien>350000.00000000</sotien>
+    <bhtra>1373761.5800</bhtra>
+    <mien>0.0000</mien>
+    <thieu>0.0000</thieu>
+    <tongmien>0.0000</tongmien>
+    <madoituong>1</madoituong>
+    <nguoithu>1</nguoithu>
+    <hoantra>0</hoantra>
+    <ghichu>Bệnh trào ngược dạ dày-thực quản</ghichu>
+    <doituong>Bảo hiểm</doituong>
+    <gia_bh>350000</gia_bh>
+    <gia_dv>500000</gia_dv>
+    <gia_th>500000</gia_th>
+    <tamung>0</tamung>
+    <nopthem>0.0000</nopthem>
+    <thua>0.0000</thua>
+    <bhyttra_ct>280000.0000</bhyttra_ct>
+    <vat>0.00</vat>
+    <tungay>20/02/2014</tungay>
+    <denngay>25/02/2014</denngay>
+    <sovaovien>0000566/14</sovaovien>
+    <traituyen>0</traituyen>
+    <tenbv>Bệnh viện Thống Nhất</tenbv>
+  </Table>
+  <Table>
+    <id>101139140226130828983</id>
+    <quyenso>15</quyenso>
+    <sobienlai>13</sobienlai>
+    <sohieu>1</sohieu>
+    <mabn>14001934</mabn>
+    <hoten>TEST BBN DICH VU</hoten>
+    <namsinh>1989</namsinh>
+    <tinh>Bình Dương</tinh>
+    <quan>Không xác định</quan>
+    <xa>Không xác định</xa>
+    <sonha />
+    <thon />
+    <gioitinh>Nam</gioitinh>
+    <lanin>1</lanin>
+    <mabhyt>GD779854212580779025</mabhyt>
+    <giatriden>31/12/2014</giatriden>
+    <tenkp>Khoa Ngoại</tenkp>
+    <ngaythu>25/02/2014</ngaythu>
+    <tenkpct>Khoa Ngoại</tenkpct>
+    <tentt>Bình Dương</tentt>
+    <tenquan>Không xác định</tenquan>
+    <tenpxa>Không xác định</tenpxa>
+    <id_vp>191951</id_vp>
+    <id_loai>0</id_loai>
+    <id_nhom>15</id_nhom>
+    <tenvp>Alphachymotrysin [ alphachymotrypsin ] 4,2mg</tenvp>
+    <tennhomvp>Thuốc</tennhomvp>
+    <sttvp>1</sttvp>
+    <sttloaivp>1</sttloaivp>
+    <sttnhomvp>15</sttnhomvp>
+    <dvt>viên</dvt>
+    <soluong>2.0000</soluong>
+    <dongia>315.0000</dongia>
+    <giamua>0.0000000000</giamua>
+    <sotien>630.00000000</sotien>
+    <bhtra>1373761.5800</bhtra>
+    <mien>0.0000</mien>
+    <thieu>0.0000</thieu>
+    <tongmien>0.0000</tongmien>
+    <madoituong>1</madoituong>
+    <nguoithu>1</nguoithu>
+    <hoantra>0</hoantra>
+    <ghichu>Bệnh trào ngược dạ dày-thực quản</ghichu>
+    <doituong>Bảo hiểm</doituong>
+    <gia_bh>0.0000</gia_bh>
+    <gia_dv>315.0000</gia_dv>
+    <gia_th>315.0000</gia_th>
+    <tamung>0</tamung>
+    <nopthem>0.0000</nopthem>
+    <thua>0.0000</thua>
+    <hangsx>Công Ty Cổ Phần Dược Phẩm Tv.pharm</hangsx>
+    <nuocsx>Việt Nam</nuocsx>
+    <bhyttra_ct>504.0000</bhyttra_ct>
+    <vat>5</vat>
+    <tungay>20/02/2014</tungay>
+    <denngay>25/02/2014</denngay>
+    <sovaovien>0000566/14</sovaovien>
+    <traituyen>0</traituyen>
+    <tenbv>Bệnh viện Thống Nhất</tenbv>
+  </Table>
+  <Table>
+    <id>101139140226130828983</id>
+    <quyenso>15</quyenso>
+    <sobienlai>13</sobienlai>
+    <sohieu>1</sohieu>
+    <mabn>14001934</mabn>
+    <hoten>TEST BBN DICH VU</hoten>
+    <namsinh>1989</namsinh>
+    <tinh>Bình Dương</tinh>
+    <quan>Không xác định</quan>
+    <xa>Không xác định</xa>
+    <sonha />
+    <thon />
+    <gioitinh>Nam</gioitinh>
+    <lanin>1</lanin>
+    <mabhyt>GD779854212580779025</mabhyt>
+    <giatriden>31/12/2014</giatriden>
+    <tenkp>Khoa Ngoại</tenkp>
+    <ngaythu>25/02/2014</ngaythu>
+    <tenkpct>Khoa Ngoại</tenkpct>
+    <tentt>Bình Dương</tentt>
+    <tenquan>Không xác định</tenquan>
+    <tenpxa>Không xác định</tenpxa>
+    <id_vp>191464</id_vp>
+    <id_loai>0</id_loai>
+    <id_nhom>15</id_nhom>
+    <tenvp>Cefadroxil [ cefadroxil ] 500mg</tenvp>
+    <tennhomvp>Thuốc</tennhomvp>
+    <sttvp>1</sttvp>
+    <sttloaivp>1</sttloaivp>
+    <sttnhomvp>15</sttnhomvp>
+    <dvt>Viên</dvt>
+    <soluong>2.0000</soluong>
+    <dongia>1155.0000</dongia>
+    <giamua>0.0000000000</giamua>
+    <sotien>2310.00000000</sotien>
+    <bhtra>1373761.5800</bhtra>
+    <mien>0.0000</mien>
+    <thieu>0.0000</thieu>
+    <tongmien>0.0000</tongmien>
+    <madoituong>1</madoituong>
+    <nguoithu>1</nguoithu>
+    <hoantra>0</hoantra>
+    <ghichu>Bệnh trào ngược dạ dày-thực quản</ghichu>
+    <doituong>Bảo hiểm</doituong>
+    <gia_bh>0.0000</gia_bh>
+    <gia_dv>2200.0000</gia_dv>
+    <gia_th>2200.0000</gia_th>
+    <tamung>0</tamung>
+    <nopthem>0.0000</nopthem>
+    <thua>0.0000</thua>
+    <hangsx>Mebiphar</hangsx>
+    <nuocsx>Việt Nam</nuocsx>
+    <bhyttra_ct>1848.0000</bhyttra_ct>
+    <vat>5</vat>
+    <tungay>20/02/2014</tungay>
+    <denngay>25/02/2014</denngay>
+    <sovaovien>0000566/14</sovaovien>
+    <traituyen>0</traituyen>
+    <tenbv>Bệnh viện Thống Nhất</tenbv>
+  </Table>
+  <Table>
+    <id>101139140226130828983</id>
+    <quyenso>15</quyenso>
+    <sobienlai>13</sobienlai>
+    <sohieu>1</sohieu>
+    <mabn>14001934</mabn>
+    <hoten>TEST BBN DICH VU</hoten>
+    <namsinh>1989</namsinh>
+    <tinh>Bình Dương</tinh>
+    <quan>Không xác định</quan>
+    <xa>Không xác định</xa>
+    <sonha />
+    <thon />
+    <gioitinh>Nam</gioitinh>
+    <lanin>1</lanin>
+    <mabhyt>GD779854212580779025</mabhyt>
+    <giatriden>31/12/2014</giatriden>
+    <tenkp>Khoa Ngoại</tenkp>
+    <ngaythu>25/02/2014</ngaythu>
+    <tenkpct>Khoa Ngoại</tenkpct>
+    <tentt>Bình Dương</tentt>
+    <tenquan>Không xác định</tenquan>
+    <tenpxa>Không xác định</tenpxa>
+    <id_vp>190233</id_vp>
+    <id_loai>0</id_loai>
+    <id_nhom>15</id_nhom>
+    <tenvp>Fudilac [ Sắt fumarat + acid folic ] 136mg+250mcg</tenvp>
+    <tennhomvp>Thuốc</tennhomvp>
+    <sttvp>1</sttvp>
+    <sttloaivp>1</sttloaivp>
+    <sttnhomvp>15</sttnhomvp>
+    <dvt>Viên</dvt>
+    <soluong>2.0000</soluong>
+    <dongia>1799.9900</dongia>
+    <giamua>0.0000000000</giamua>
+    <sotien>3599.98000000</sotien>
+    <bhtra>1373761.5800</bhtra>
+    <mien>0.0000</mien>
+    <thieu>0.0000</thieu>
+    <tongmien>0.0000</tongmien>
+    <madoituong>1</madoituong>
+    <nguoithu>1</nguoithu>
+    <hoantra>0</hoantra>
+    <ghichu>Bệnh trào ngược dạ dày-thực quản</ghichu>
+    <doituong>Bảo hiểm</doituong>
+    <gia_bh>0.0000</gia_bh>
+    <gia_dv>1799.9900</gia_dv>
+    <gia_th>1799.9900</gia_th>
+    <tamung>0</tamung>
+    <nopthem>0.0000</nopthem>
+    <thua>0.0000</thua>
+    <hangsx>Cơ Sở Phương Đông</hangsx>
+    <nuocsx>Việt Nam</nuocsx>
+    <bhyttra_ct>2879.9840</bhyttra_ct>
+    <vat>5</vat>
+    <tungay>20/02/2014</tungay>
+    <denngay>25/02/2014</denngay>
+    <sovaovien>0000566/14</sovaovien>
+    <traituyen>0</traituyen>
+    <tenbv>Bệnh viện Thống Nhất</tenbv>
+  </Table>
+  <Table>
+    <id>101139140226130828983</id>
+    <quyenso>15</quyenso>
+    <sobienlai>13</sobienlai>
+    <sohieu>1</sohieu>
+    <mabn>14001934</mabn>
+    <hoten>TEST BBN DICH VU</hoten>
+    <namsinh>1989</namsinh>
+    <tinh>Bình Dương</tinh>
+    <quan>Không xác định</quan>
+    <xa>Không xác định</xa>
+    <sonha />
+    <thon />
+    <gioitinh>Nam</gioitinh>
+    <lanin>1</lanin>
+    <mabhyt>GD779854212580779025</mabhyt>
+    <giatriden>31/12/2014</giatriden>
+    <tenkp>Khoa Ngoại</tenkp>
+    <ngaythu>25/02/2014</ngaythu>
+    <tenkpct>Khoa Ngoại</tenkpct>
+    <tentt>Bình Dương</tentt>
+    <tenquan>Không xác định</tenquan>
+    <tenpxa>Không xác định</tenpxa>
+    <id_vp>190260</id_vp>
+    <id_loai>0</id_loai>
+    <id_nhom>15</id_nhom>
+    <tenvp>Efferalgan [ Acetaminophen ] 300mg</tenvp>
+    <tennhomvp>Thuốc</tennhomvp>
+    <sttvp>1</sttvp>
+    <sttloaivp>1</sttloaivp>
+    <sttnhomvp>15</sttnhomvp>
+    <dvt>Viên trứng</dvt>
+    <soluong>2.0000</soluong>
+    <dongia>2831.0000</dongia>
+    <giamua>0.0000000000</giamua>
+    <sotien>5662.00000000</sotien>
+    <bhtra>1373761.5800</bhtra>
+    <mien>0.0000</mien>
+    <thieu>0.0000</thieu>
+    <tongmien>0.0000</tongmien>
+    <madoituong>1</madoituong>
+    <nguoithu>1</nguoithu>
+    <hoantra>0</hoantra>
+    <ghichu>Bệnh trào ngược dạ dày-thực quản</ghichu>
+    <doituong>Bảo hiểm</doituong>
+    <gia_bh>0.0000</gia_bh>
+    <gia_dv>2831.0000</gia_dv>
+    <gia_th>2831.0000</gia_th>
+    <tamung>0</tamung>
+    <nopthem>0.0000</nopthem>
+    <thua>0.0000</thua>
+    <hangsx>Bristol Myers Squibb</hangsx>
+    <nuocsx>Pháp</nuocsx>
+    <bhyttra_ct>4529.6000</bhyttra_ct>
+    <vat>0</vat>
+    <tungay>20/02/2014</tungay>
+    <denngay>25/02/2014</denngay>
+    <sovaovien>0000566/14</sovaovien>
+    <traituyen>0</traituyen>
+    <tenbv>Bệnh viện Thống Nhất</tenbv>
+  </Table>
+  <Table>
+    <id>101139140226130828983</id>
+    <quyenso>15</quyenso>
+    <sobienlai>13</sobienlai>
+    <sohieu>1</sohieu>
+    <mabn>14001934</mabn>
+    <hoten>TEST BBN DICH VU</hoten>
+    <namsinh>1989</namsinh>
+    <tinh>Bình Dương</tinh>
+    <quan>Không xác định</quan>
+    <xa>Không xác định</xa>
+    <sonha />
+    <thon />
+    <gioitinh>Nam</gioitinh>
+    <lanin>1</lanin>
+    <mabhyt>GD779854212580779025</mabhyt>
+    <giatriden>31/12/2014</giatriden>
+    <tenkp>Khoa Ngoại</tenkp>
+    <ngaythu>25/02/2014</ngaythu>
+    <tenkpct>Khoa Ngoại</tenkpct>
+    <tentt>Bình Dương</tentt>
+    <tenquan>Không xác định</tenquan>
+    <tenpxa>Không xác định</tenpxa>
+    <id_vp>-190990</id_vp>
+    <id_loai>77</id_loai>
+    <id_nhom>1</id_nhom>
+    <tenvp>Tổng phân tích tế bào máu ngoại vi (bằng hệ thống tự động hoàn toàn)</tenvp>
+    <tenloaivp>Xét nghiệm Huyết học</tenloaivp>
+    <tennhomvp>Xét nghiệm</tennhomvp>
+    <sttvp>1</sttvp>
+    <sttloaivp>77</sttloaivp>
+    <sttnhomvp>1</sttnhomvp>
+    <dvt>Lần</dvt>
+    <soluong>1.0000</soluong>
+    <dongia>15000.0000</dongia>
+    <giamua>0.0000000000</giamua>
+    <sotien>15000.00000000</sotien>
+    <bhtra>1373761.5800</bhtra>
+    <mien>0.0000</mien>
+    <thieu>0.0000</thieu>
+    <tongmien>0.0000</tongmien>
+    <madoituong>1</madoituong>
+    <nguoithu>1</nguoithu>
+    <hoantra>0</hoantra>
+    <ghichu>Bệnh trào ngược dạ dày-thực quản</ghichu>
+    <doituong>Bảo hiểm</doituong>
+    <gia_bh>15000</gia_bh>
+    <gia_dv>58000</gia_dv>
+    <gia_th>58000</gia_th>
+    <tamung>0</tamung>
+    <nopthem>0.0000</nopthem>
+    <thua>0.0000</thua>
+    <bhyttra_ct>12000.0000</bhyttra_ct>
+    <vat>0.00</vat>
+    <tungay>20/02/2014</tungay>
+    <denngay>25/02/2014</denngay>
+    <sovaovien>0000566/14</sovaovien>
+    <traituyen>0</traituyen>
+    <tenbv>Bệnh viện Thống Nhất</tenbv>
+  </Table>
+  <Table>
+    <id>101139140226130828983</id>
+    <quyenso>15</quyenso>
+    <sobienlai>13</sobienlai>
+    <sohieu>1</sohieu>
+    <mabn>14001934</mabn>
+    <hoten>TEST BBN DICH VU</hoten>
+    <namsinh>1989</namsinh>
+    <tinh>Bình Dương</tinh>
+    <quan>Không xác định</quan>
+    <xa>Không xác định</xa>
+    <sonha />
+    <thon />
+    <gioitinh>Nam</gioitinh>
+    <lanin>1</lanin>
+    <mabhyt>GD779854212580779025</mabhyt>
+    <giatriden>31/12/2014</giatriden>
+    <tenkp>Khoa Ngoại</tenkp>
+    <ngaythu>25/02/2014</ngaythu>
+    <tenkpct>Khoa Ngoại</tenkpct>
+    <tentt>Bình Dương</tentt>
+    <tenquan>Không xác định</tenquan>
+    <tenpxa>Không xác định</tenpxa>
+    <id_vp>-191372</id_vp>
+    <id_loai>81</id_loai>
+    <id_nhom>1</id_nhom>
+    <tenvp>Protein toàn phần</tenvp>
+    <tenloaivp>Xét nghiệm Sinh hóa</tenloaivp>
+    <tennhomvp>Xét nghiệm</tennhomvp>
+    <sttvp>1</sttvp>
+    <sttloaivp>81</sttloaivp>
+    <sttnhomvp>1</sttnhomvp>
+    <dvt>Lần</dvt>
+    <soluong>1.0000</soluong>
+    <dongia>18000.0000</dongia>
+    <giamua>0.0000000000</giamua>
+    <sotien>18000.00000000</sotien>
+    <bhtra>1373761.5800</bhtra>
+    <mien>0.0000</mien>
+    <thieu>0.0000</thieu>
+    <tongmien>0.0000</tongmien>
+    <madoituong>1</madoituong>
+    <nguoithu>1</nguoithu>
+    <hoantra>0</hoantra>
+    <ghichu>Bệnh trào ngược dạ dày-thực quản</ghichu>
+    <doituong>Bảo hiểm</doituong>
+    <gia_bh>18000</gia_bh>
+    <gia_dv>18000</gia_dv>
+    <gia_th>18000</gia_th>
+    <tamung>0</tamung>
+    <nopthem>0.0000</nopthem>
+    <thua>0.0000</thua>
+    <bhyttra_ct>14400.0000</bhyttra_ct>
+    <vat>0.00</vat>
+    <tungay>20/02/2014</tungay>
+    <denngay>25/02/2014</denngay>
+    <sovaovien>0000566/14</sovaovien>
+    <traituyen>0</traituyen>
+    <tenbv>Bệnh viện Thống Nhất</tenbv>
+  </Table>
+  <Table>
+    <id>101139140226130828983</id>
+    <quyenso>15</quyenso>
+    <sobienlai>13</sobienlai>
+    <sohieu>1</sohieu>
+    <mabn>14001934</mabn>
+    <hoten>TEST BBN DICH VU</hoten>
+    <namsinh>1989</namsinh>
+    <tinh>Bình Dương</tinh>
+    <quan>Không xác định</quan>
+    <xa>Không xác định</xa>
+    <sonha />
+    <thon />
+    <gioitinh>Nam</gioitinh>
+    <lanin>1</lanin>
+    <mabhyt>GD779854212580779025</mabhyt>
+    <giatriden>31/12/2014</giatriden>
+    <tenkp>Khoa Ngoại</tenkp>
+    <ngaythu>25/02/2014</ngaythu>
+    <tenkpct>Khoa Ngoại</tenkpct>
+    <tentt>Bình Dương</tentt>
+    <tenquan>Không xác định</tenquan>
+    <tenpxa>Không xác định</tenpxa>
+    <id_vp>-191371</id_vp>
+    <id_loai>81</id_loai>
+    <id_nhom>1</id_nhom>
+    <tenvp>BILIRUBIN gián tiếp</tenvp>
+    <tenloaivp>Xét nghiệm Sinh hóa</tenloaivp>
+    <tennhomvp>Xét nghiệm</tennhomvp>
+    <sttvp>1</sttvp>
+    <sttloaivp>81</sttloaivp>
+    <sttnhomvp>1</sttnhomvp>
+    <dvt>Lần</dvt>
+    <soluong>1.0000</soluong>
+    <dongia>18000.0000</dongia>
+    <giamua>0.0000000000</giamua>
+    <sotien>18000.00000000</sotien>
+    <bhtra>1373761.5800</bhtra>
+    <mien>0.0000</mien>
+    <thieu>0.0000</thieu>
+    <tongmien>0.0000</tongmien>
+    <madoituong>1</madoituong>
+    <nguoithu>1</nguoithu>
+    <hoantra>0</hoantra>
+    <ghichu>Bệnh trào ngược dạ dày-thực quản</ghichu>
+    <doituong>Bảo hiểm</doituong>
+    <gia_bh>18000</gia_bh>
+    <gia_dv>18000</gia_dv>
+    <gia_th>18000</gia_th>
+    <tamung>0</tamung>
+    <nopthem>0.0000</nopthem>
+    <thua>0.0000</thua>
+    <bhyttra_ct>14400.0000</bhyttra_ct>
+    <vat>0.00</vat>
+    <tungay>20/02/2014</tungay>
+    <denngay>25/02/2014</denngay>
+    <sovaovien>0000566/14</sovaovien>
+    <traituyen>0</traituyen>
+    <tenbv>Bệnh viện Thống Nhất</tenbv>
+  </Table>
+  <Table>
+    <id>101139140226130828983</id>
+    <quyenso>15</quyenso>
+    <sobienlai>13</sobienlai>
+    <sohieu>1</sohieu>
+    <mabn>14001934</mabn>
+    <hoten>TEST BBN DICH VU</hoten>
+    <namsinh>1989</namsinh>
+    <tinh>Bình Dương</tinh>
+    <quan>Không xác định</quan>
+    <xa>Không xác định</xa>
+    <sonha />
+    <thon />
+    <gioitinh>Nam</gioitinh>
+    <lanin>1</lanin>
+    <mabhyt>GD779854212580779025</mabhyt>
+    <giatriden>31/12/2014</giatriden>
+    <tenkp>Khoa Ngoại</tenkp>
+    <ngaythu>25/02/2014</ngaythu>
+    <tenkpct>Khoa Ngoại</tenkpct>
+    <tentt>Bình Dương</tentt>
+    <tenquan>Không xác định</tenquan>
+    <tenpxa>Không xác định</tenpxa>
+    <id_vp>-191370</id_vp>
+    <id_loai>81</id_loai>
+    <id_nhom>1</id_nhom>
+    <tenvp>BILIRUBIN trực tiếp</tenvp>
+    <tenloaivp>Xét nghiệm Sinh hóa</tenloaivp>
+    <tennhomvp>Xét nghiệm</tennhomvp>
+    <sttvp>1</sttvp>
+    <sttloaivp>81</sttloaivp>
+    <sttnhomvp>1</sttnhomvp>
+    <dvt>Lần</dvt>
+    <soluong>1.0000</soluong>
+    <dongia>18000.0000</dongia>
+    <giamua>0.0000000000</giamua>
+    <sotien>18000.00000000</sotien>
+    <bhtra>1373761.5800</bhtra>
+    <mien>0.0000</mien>
+    <thieu>0.0000</thieu>
+    <tongmien>0.0000</tongmien>
+    <madoituong>1</madoituong>
+    <nguoithu>1</nguoithu>
+    <hoantra>0</hoantra>
+    <ghichu>Bệnh trào ngược dạ dày-thực quản</ghichu>
+    <doituong>Bảo hiểm</doituong>
+    <gia_bh>18000</gia_bh>
+    <gia_dv>18000</gia_dv>
+    <gia_th>18000</gia_th>
+    <tamung>0</tamung>
+    <nopthem>0.0000</nopthem>
+    <thua>0.0000</thua>
+    <bhyttra_ct>14400.0000</bhyttra_ct>
+    <vat>0.00</vat>
+    <tungay>20/02/2014</tungay>
+    <denngay>25/02/2014</denngay>
+    <sovaovien>0000566/14</sovaovien>
+    <traituyen>0</traituyen>
+    <tenbv>Bệnh viện Thống Nhất</tenbv>
+  </Table>
+  <Table>
+    <id>101139140226130828983</id>
+    <quyenso>15</quyenso>
+    <sobienlai>13</sobienlai>
+    <sohieu>1</sohieu>
+    <mabn>14001934</mabn>
+    <hoten>TEST BBN DICH VU</hoten>
+    <namsinh>1989</namsinh>
+    <tinh>Bình Dương</tinh>
+    <quan>Không xác định</quan>
+    <xa>Không xác định</xa>
+    <sonha />
+    <thon />
+    <gioitinh>Nam</gioitinh>
+    <lanin>1</lanin>
+    <mabhyt>GD779854212580779025</mabhyt>
+    <giatriden>31/12/2014</giatriden>
+    <tenkp>Khoa Ngoại</tenkp>
+    <ngaythu>25/02/2014</ngaythu>
+    <tenkpct>Khoa Ngoại</tenkpct>
+    <tentt>Bình Dương</tentt>
+    <tenquan>Không xác định</tenquan>
+    <tenpxa>Không xác định</tenpxa>
+    <id_vp>-190661</id_vp>
+    <id_loai>76</id_loai>
+    <id_nhom>2</id_nhom>
+    <tenvp>Chụp tim phổi nghiêng</tenvp>
+    <tenloaivp>X quang thường quy</tenloaivp>
+    <tennhomvp>Chẩn đoán hình ảnh</tennhomvp>
+    <sttvp>1</sttvp>
+    <sttloaivp>76</sttloaivp>
+    <sttnhomvp>2</sttnhomvp>
+    <dvt>Lần</dvt>
+    <soluong>1.0000</soluong>
+    <dongia>29000.0000</dongia>
+    <giamua>0.0000000000</giamua>
+    <sotien>29000.00000000</sotien>
+    <bhtra>1373761.5800</bhtra>
+    <mien>0.0000</mien>
+    <thieu>0.0000</thieu>
+    <tongmien>0.0000</tongmien>
+    <madoituong>1</madoituong>
+    <nguoithu>1</nguoithu>
+    <hoantra>0</hoantra>
+    <ghichu>Bệnh trào ngược dạ dày-thực quản</ghichu>
+    <doituong>Bảo hiểm</doituong>
+    <gia_bh>29000</gia_bh>
+    <gia_dv>29000</gia_dv>
+    <gia_th>29000</gia_th>
+    <tamung>0</tamung>
+    <nopthem>0.0000</nopthem>
+    <thua>0.0000</thua>
+    <bhyttra_ct>23200.0000</bhyttra_ct>
+    <vat>0.00</vat>
+    <tungay>20/02/2014</tungay>
+    <denngay>25/02/2014</denngay>
+    <sovaovien>0000566/14</sovaovien>
+    <traituyen>0</traituyen>
+    <tenbv>Bệnh viện Thống Nhất</tenbv>
+  </Table>
+  <Table>
+    <id>101139140226130828983</id>
+    <quyenso>15</quyenso>
+    <sobienlai>13</sobienlai>
+    <sohieu>1</sohieu>
+    <mabn>14001934</mabn>
+    <hoten>TEST BBN DICH VU</hoten>
+    <namsinh>1989</namsinh>
+    <tinh>Bình Dương</tinh>
+    <quan>Không xác định</quan>
+    <xa>Không xác định</xa>
+    <sonha />
+    <thon />
+    <gioitinh>Nam</gioitinh>
+    <lanin>1</lanin>
+    <mabhyt>GD779854212580779025</mabhyt>
+    <giatriden>31/12/2014</giatriden>
+    <tenkp>Khoa Ngoại</tenkp>
+    <ngaythu>25/02/2014</ngaythu>
+    <tenkpct>Khoa Ngoại</tenkpct>
+    <tentt>Bình Dương</tentt>
+    <tenquan>Không xác định</tenquan>
+    <tenpxa>Không xác định</tenpxa>
+    <id_vp>1695</id_vp>
+    <id_loai>31</id_loai>
+    <id_nhom>2</id_nhom>
+    <tenvp>Nội soi ổ bụng</tenvp>
+    <tenloaivp>Nội soi chẩn đoán</tenloaivp>
+    <tennhomvp>Chẩn đoán hình ảnh</tennhomvp>
+    <sttvp>99999</sttvp>
+    <sttloaivp>31</sttloaivp>
+    <sttnhomvp>2</sttnhomvp>
+    <dvt>Lần</dvt>
+    <soluong>1.0000</soluong>
+    <dongia>354000.0000</dongia>
+    <giamua>0.0000000000</giamua>
+    <sotien>354000.00000000</sotien>
+    <bhtra>1373761.5800</bhtra>
+    <mien>0.0000</mien>
+    <thieu>0.0000</thieu>
+    <tongmien>0.0000</tongmien>
+    <madoituong>1</madoituong>
+    <nguoithu>1</nguoithu>
+    <hoantra>0</hoantra>
+    <ghichu>Bệnh trào ngược dạ dày-thực quản</ghichu>
+    <doituong>Bảo hiểm</doituong>
+    <gia_bh>354000</gia_bh>
+    <gia_dv>354000</gia_dv>
+    <gia_th>354000</gia_th>
+    <tamung>0</tamung>
+    <nopthem>0.0000</nopthem>
+    <thua>0.0000</thua>
+    <bhyttra_ct>283200.0000</bhyttra_ct>
+    <vat>0.00</vat>
+    <tungay>20/02/2014</tungay>
+    <denngay>25/02/2014</denngay>
+    <sovaovien>0000566/14</sovaovien>
+    <traituyen>0</traituyen>
+    <tenbv>Bệnh viện Thống Nhất</tenbv>
+  </Table>
+  <Table>
+    <id>101139140226130828983</id>
+    <quyenso>15</quyenso>
+    <sobienlai>13</sobienlai>
+    <sohieu>1</sohieu>
+    <mabn>14001934</mabn>
+    <hoten>TEST BBN DICH VU</hoten>
+    <namsinh>1989</namsinh>
+    <tinh>Bình Dương</tinh>
+    <quan>Không xác định</quan>
+    <xa>Không xác định</xa>
+    <sonha />
+    <thon />
+    <gioitinh>Nam</gioitinh>
+    <lanin>1</lanin>
+    <mabhyt>GD779854212580779025</mabhyt>
+    <giatriden>31/12/2014</giatriden>
+    <tenkp>Khoa Ngoại</tenkp>
+    <ngaythu>25/02/2014</ngaythu>
+    <tenkpct>Khoa Ngoại</tenkpct>
+    <tentt>Bình Dương</tentt>
+    <tenquan>Không xác định</tenquan>
+    <tenpxa>Không xác định</tenpxa>
+    <id_vp>-190763</id_vp>
+    <id_loai>31</id_loai>
+    <id_nhom>2</id_nhom>
+    <tenvp>Nội soi bàng quang - Nội soi niệu quản</tenvp>
+    <tenloaivp>Nội soi chẩn đoán</tenloaivp>
+    <tennhomvp>Chẩn đoán hình ảnh</tennhomvp>
+    <sttvp>1</sttvp>
+    <sttloaivp>31</sttloaivp>
+    <sttnhomvp>2</sttnhomvp>
+    <dvt>Lần</dvt>
+    <soluong>1.0000</soluong>
+    <dongia>511000.0000</dongia>
+    <giamua>0.0000000000</giamua>
+    <sotien>511000.00000000</sotien>
+    <bhtra>1373761.5800</bhtra>
+    <mien>0.0000</mien>
+    <thieu>0.0000</thieu>
+    <tongmien>0.0000</tongmien>
+    <madoituong>1</madoituong>
+    <nguoithu>1</nguoithu>
+    <hoantra>0</hoantra>
+    <ghichu>Bệnh trào ngược dạ dày-thực quản</ghichu>
+    <doituong>Bảo hiểm</doituong>
+    <gia_bh>511000</gia_bh>
+    <gia_dv>511000</gia_dv>
+    <gia_th>511000</gia_th>
+    <tamung>0</tamung>
+    <nopthem>0.0000</nopthem>
+    <thua>0.0000</thua>
+    <bhyttra_ct>408800.0000</bhyttra_ct>
+    <vat>0.00</vat>
+    <tungay>20/02/2014</tungay>
+    <denngay>25/02/2014</denngay>
+    <sovaovien>0000566/14</sovaovien>
+    <traituyen>0</traituyen>
+    <tenbv>Bệnh viện Thống Nhất</tenbv>
+  </Table>
+</NewDataSet>

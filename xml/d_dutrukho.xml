@@ -1,0 +1,5385 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="MAKHO" type="xs:decimal" minOccurs="0" />
+                <xs:element name="MMYY" type="xs:string" minOccurs="0" />
+                <xs:element name="MABD" type="xs:decimal" minOccurs="0" />
+                <xs:element name="NHAP" type="xs:decimal" minOccurs="0" />
+                <xs:element name="XUAT" type="xs:decimal" minOccurs="0" />
+                <xs:element name="TON" type="xs:decimal" minOccurs="0" />
+                <xs:element name="TUTRUC" type="xs:decimal" minOccurs="0" />
+                <xs:element name="TC" type="xs:decimal" minOccurs="0" />
+                <xs:element name="L1" type="xs:decimal" minOccurs="0" />
+                <xs:element name="D1" type="xs:decimal" minOccurs="0" />
+                <xs:element name="L2" type="xs:decimal" minOccurs="0" />
+                <xs:element name="D2" type="xs:decimal" minOccurs="0" />
+                <xs:element name="NHACC" type="xs:string" minOccurs="0" />
+                <xs:element name="DONVI" type="xs:string" minOccurs="0" />
+                <xs:element name="MA" type="xs:string" minOccurs="0" />
+                <xs:element name="TEN" type="xs:string" minOccurs="0" />
+                <xs:element name="DANG" type="xs:string" minOccurs="0" />
+                <xs:element name="STTNHOM" type="xs:decimal" minOccurs="0" />
+                <xs:element name="TENNHOM" type="xs:string" minOccurs="0" />
+                <xs:element name="TENHANG" type="xs:string" minOccurs="0" />
+                <xs:element name="xuatmax" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ghichu" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <MABD>7255</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>0</XUAT>
+    <TON>6</TON>
+    <TUTRUC>5</TUTRUC>
+    <TC>11</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>PET001</MA>
+    <TEN>Pethidine 0,10g 2ml</TEN>
+    <DANG>ống</DANG>
+    <STTNHOM>1</STTNHOM>
+    <TENNHOM>Thuốc Gây Nghiện</TENNHOM>
+    <TENHANG>Mayne Pharma</TENHANG>
+    <xuatmax>0</xuatmax>
+    <ghichu />
+  </Table>
+  <Table>
+    <MABD>6826</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>0</XUAT>
+    <TON>0</TON>
+    <TUTRUC>44</TUTRUC>
+    <TC>44</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>ADR001</MA>
+    <TEN>Adrenaline 1mg/1ml</TEN>
+    <DANG>ống</DANG>
+    <STTNHOM>2</STTNHOM>
+    <TENNHOM>Thuốc độc A</TENNHOM>
+    <TENHANG>DL TW II, Cty CP</TENHANG>
+    <xuatmax>0</xuatmax>
+    <ghichu />
+  </Table>
+  <Table>
+    <MABD>6827</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>0</XUAT>
+    <TON>3</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>3</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>CAR001</MA>
+    <TEN>Carboplatin 0,015g</TEN>
+    <DANG>Lọ</DANG>
+    <STTNHOM>2</STTNHOM>
+    <TENNHOM>Thuốc độc A</TENNHOM>
+    <TENHANG>Ebewe Pharma</TENHANG>
+    <xuatmax>0</xuatmax>
+    <ghichu />
+  </Table>
+  <Table>
+    <MABD>7247</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>0</XUAT>
+    <TON>0</TON>
+    <TUTRUC>4</TUTRUC>
+    <TC>4</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI>ống</DONVI>
+    <MA>DIG002</MA>
+    <TEN>Digoxine 0,5mg 2ml</TEN>
+    <DANG>ống</DANG>
+    <STTNHOM>2</STTNHOM>
+    <TENNHOM>Thuốc độc A</TENNHOM>
+    <TENHANG>Spofa</TENHANG>
+    <xuatmax>0</xuatmax>
+    <ghichu />
+  </Table>
+  <Table>
+    <MABD>6828</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>0</XUAT>
+    <TON>0</TON>
+    <TUTRUC>40</TUTRUC>
+    <TC>40</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>DOL002</MA>
+    <TEN>Dolicaine 2% 2ml</TEN>
+    <DANG>ống</DANG>
+    <STTNHOM>2</STTNHOM>
+    <TENNHOM>Thuốc độc A</TENNHOM>
+    <TENHANG>DP 2/9, Cty CP</TENHANG>
+    <xuatmax>0</xuatmax>
+    <ghichu />
+  </Table>
+  <Table>
+    <MABD>7415</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>0</XUAT>
+    <TON>0</TON>
+    <TUTRUC>2</TUTRUC>
+    <TC>2</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>DOP002</MA>
+    <TEN>Dopamine 0,20g - 5ml</TEN>
+    <DANG>ống</DANG>
+    <STTNHOM>2</STTNHOM>
+    <TENNHOM>Thuốc độc A</TENNHOM>
+    <TENHANG>Rotex Medica</TENHANG>
+    <xuatmax>0</xuatmax>
+    <ghichu />
+  </Table>
+  <Table>
+    <MABD>8415</MABD>
+    <NHAP>6</NHAP>
+    <XUAT>4</XUAT>
+    <TON>2</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>2</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>DYS001</MA>
+    <TEN>Dysport 500UI</TEN>
+    <DANG>Lọ</DANG>
+    <STTNHOM>2</STTNHOM>
+    <TENNHOM>Thuốc độc A</TENNHOM>
+    <TENHANG>Ipsen Biopharm</TENHANG>
+    <xuatmax>4</xuatmax>
+    <ghichu>4.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>7395</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>20</XUAT>
+    <TON>8</TON>
+    <TUTRUC>10</TUTRUC>
+    <TC>18</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>LID002</MA>
+    <TEN>Lidocaine - Adrenaline 2 - 0,001%</TEN>
+    <DANG>ống</DANG>
+    <STTNHOM>2</STTNHOM>
+    <TENNHOM>Thuốc độc A</TENNHOM>
+    <TENHANG>Egis-Hungary</TENHANG>
+    <xuatmax>20</xuatmax>
+    <ghichu>20.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>8132</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>3</XUAT>
+    <TON>15</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>15</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>MIT001</MA>
+    <TEN>Mitomycine 2mg</TEN>
+    <DANG>Lọ</DANG>
+    <STTNHOM>2</STTNHOM>
+    <TENNHOM>Thuốc độc A</TENNHOM>
+    <TENHANG>Kyowa</TENHANG>
+    <xuatmax>3</xuatmax>
+    <ghichu>3.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>8630</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>34</XUAT>
+    <TON>416</TON>
+    <TUTRUC>40</TUTRUC>
+    <TC>456</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>NIT002</MA>
+    <TEN>Nitromint 2,6mg</TEN>
+    <DANG>Viên</DANG>
+    <STTNHOM>2</STTNHOM>
+    <TENNHOM>Thuốc độc A</TENNHOM>
+    <TENHANG>Egis-Hungary</TENHANG>
+    <xuatmax>34</xuatmax>
+    <ghichu>34.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>8688</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>245</XUAT>
+    <TON>854</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>854</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI>Viên</DONVI>
+    <MA>ACY001</MA>
+    <TEN>Acyclovir Stada 200mg</TEN>
+    <DANG>Viên</DANG>
+    <STTNHOM>3</STTNHOM>
+    <TENNHOM>Thuốc độc B</TENNHOM>
+    <TENHANG>Stada</TENHANG>
+    <xuatmax>245</xuatmax>
+    <ghichu>245.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>7908</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>37</XUAT>
+    <TON>14</TON>
+    <TUTRUC>5</TUTRUC>
+    <TC>19</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>BET004</MA>
+    <TEN>Betene 5,2mg 1ml</TEN>
+    <DANG>ống</DANG>
+    <STTNHOM>3</STTNHOM>
+    <TENNHOM>Thuốc độc B</TENNHOM>
+    <TENHANG>Kwang Myung</TENHANG>
+    <xuatmax>37</xuatmax>
+    <ghichu>37.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>7406</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>0</XUAT>
+    <TON>0</TON>
+    <TUTRUC>4</TUTRUC>
+    <TC>4</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>BRI001</MA>
+    <TEN>Bricanyl 0,5mg</TEN>
+    <DANG>ống</DANG>
+    <STTNHOM>3</STTNHOM>
+    <TENNHOM>Thuốc độc B</TENNHOM>
+    <TENHANG>Switzerland</TENHANG>
+    <xuatmax>0</xuatmax>
+    <ghichu />
+  </Table>
+  <Table>
+    <MABD>9280</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>2</XUAT>
+    <TON>107</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>107</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>CON008</MA>
+    <TEN>Concor 5mg</TEN>
+    <DANG>Viên</DANG>
+    <STTNHOM>3</STTNHOM>
+    <TENNHOM>Thuốc độc B</TENNHOM>
+    <TENHANG>Merck</TENHANG>
+    <xuatmax>2</xuatmax>
+    <ghichu>2.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>6835</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>0</XUAT>
+    <TON>0</TON>
+    <TUTRUC>5</TUTRUC>
+    <TC>5</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>DEC001</MA>
+    <TEN>Dectancyl 0,015g</TEN>
+    <DANG>Lọ</DANG>
+    <STTNHOM>3</STTNHOM>
+    <TENNHOM>Thuốc độc B</TENNHOM>
+    <TENHANG>Roussel</TENHANG>
+    <xuatmax>0</xuatmax>
+    <ghichu />
+  </Table>
+  <Table>
+    <MABD>6836</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>0</XUAT>
+    <TON>95</TON>
+    <TUTRUC>9</TUTRUC>
+    <TC>104</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>DEP001</MA>
+    <TEN>Depersolone 0,03g</TEN>
+    <DANG>ống</DANG>
+    <STTNHOM>3</STTNHOM>
+    <TENNHOM>Thuốc độc B</TENNHOM>
+    <TENHANG>Gedeon Richter</TENHANG>
+    <xuatmax>0</xuatmax>
+    <ghichu />
+  </Table>
+  <Table>
+    <MABD>8291</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>0</XUAT>
+    <TON>758</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>758</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>DEX002</MA>
+    <TEN>Dexamethasone 0,5mg</TEN>
+    <DANG>Viên</DANG>
+    <STTNHOM>3</STTNHOM>
+    <TENNHOM>Thuốc độc B</TENNHOM>
+    <TENHANG>Vidipha</TENHANG>
+    <xuatmax>0</xuatmax>
+    <ghichu />
+  </Table>
+  <Table>
+    <MABD>8451</MABD>
+    <NHAP>500</NHAP>
+    <XUAT>23</XUAT>
+    <TON>703</TON>
+    <TUTRUC>13</TUTRUC>
+    <TC>716</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>DEX003</MA>
+    <TEN>Dexamethasone inj. 2mg/ml</TEN>
+    <DANG>ống</DANG>
+    <STTNHOM>3</STTNHOM>
+    <TENNHOM>Thuốc độc B</TENNHOM>
+    <TENHANG>Ying Yuan</TENHANG>
+    <xuatmax>23</xuatmax>
+    <ghichu>23.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>7244</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>0</XUAT>
+    <TON>0</TON>
+    <TUTRUC>6</TUTRUC>
+    <TC>6</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>DIA006</MA>
+    <TEN>Diaphylline 4,8% 5ml</TEN>
+    <DANG>ống</DANG>
+    <STTNHOM>3</STTNHOM>
+    <TENNHOM>Thuốc độc B</TENNHOM>
+    <TENHANG>Gedeon Richter</TENHANG>
+    <xuatmax>0</xuatmax>
+    <ghichu />
+  </Table>
+  <Table>
+    <MABD>8019</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>0</XUAT>
+    <TON>0</TON>
+    <TUTRUC>4</TUTRUC>
+    <TC>4</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>LOX002</MA>
+    <TEN>Loxen 10mg 10ml</TEN>
+    <DANG>ống</DANG>
+    <STTNHOM>3</STTNHOM>
+    <TENNHOM>Thuốc độc B</TENNHOM>
+    <TENHANG>Novartis</TENHANG>
+    <xuatmax>0</xuatmax>
+    <ghichu />
+  </Table>
+  <Table>
+    <MABD>6841</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>1201</XUAT>
+    <TON>4485</TON>
+    <TUTRUC>116</TUTRUC>
+    <TC>4601</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI>Viên</DONVI>
+    <MA>MED001</MA>
+    <TEN>Medrol 0,016g</TEN>
+    <DANG>Viên</DANG>
+    <STTNHOM>3</STTNHOM>
+    <TENNHOM>Thuốc độc B</TENNHOM>
+    <TENHANG>Upjohn</TENHANG>
+    <xuatmax>1201</xuatmax>
+    <ghichu>1,201.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>8986</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>0</XUAT>
+    <TON>285</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>285</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI>Viên</DONVI>
+    <MA>MES001</MA>
+    <TEN>Mestinon </TEN>
+    <DANG>Viên</DANG>
+    <STTNHOM>3</STTNHOM>
+    <TENNHOM>Thuốc độc B</TENNHOM>
+    <TENHANG>I.C.N</TENHANG>
+    <xuatmax>0</xuatmax>
+    <ghichu />
+  </Table>
+  <Table>
+    <MABD>9224</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>6</XUAT>
+    <TON>66</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>66</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>NAT011</MA>
+    <TEN>Natrilix SR </TEN>
+    <DANG>Viên</DANG>
+    <STTNHOM>3</STTNHOM>
+    <TENNHOM>Thuốc độc B</TENNHOM>
+    <TENHANG>Servier</TENHANG>
+    <xuatmax>6</xuatmax>
+    <ghichu>6.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>6843</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>471</XUAT>
+    <TON>3308</TON>
+    <TUTRUC>110</TUTRUC>
+    <TC>3418</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>PRE001</MA>
+    <TEN>Prednisone 5mg</TEN>
+    <DANG>Viên</DANG>
+    <STTNHOM>3</STTNHOM>
+    <TENNHOM>Thuốc độc B</TENNHOM>
+    <TENHANG>Vidipha</TENHANG>
+    <xuatmax>471</xuatmax>
+    <ghichu>471.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>6959</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>4</XUAT>
+    <TON>18</TON>
+    <TUTRUC>30</TUTRUC>
+    <TC>48</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>PRI001</MA>
+    <TEN>Primperan inj. 0,01g 2ml</TEN>
+    <DANG>ống</DANG>
+    <STTNHOM>3</STTNHOM>
+    <TENNHOM>Thuốc độc B</TENNHOM>
+    <TENHANG>Sanofi</TENHANG>
+    <xuatmax>4</xuatmax>
+    <ghichu>4.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>6846</MABD>
+    <NHAP>4</NHAP>
+    <XUAT>75</XUAT>
+    <TON>94</TON>
+    <TUTRUC>37</TUTRUC>
+    <TC>131</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>SOL002</MA>
+    <TEN>Solumedrol 0,125g</TEN>
+    <DANG>ống</DANG>
+    <STTNHOM>3</STTNHOM>
+    <TENNHOM>Thuốc độc B</TENNHOM>
+    <TENHANG>Pharmacia</TENHANG>
+    <xuatmax>75</xuatmax>
+    <ghichu>75.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>8136</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>80</XUAT>
+    <TON>68</TON>
+    <TUTRUC>5</TUTRUC>
+    <TC>73</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>SOL004</MA>
+    <TEN>Solumedrol 0,50g</TEN>
+    <DANG>Lọ</DANG>
+    <STTNHOM>3</STTNHOM>
+    <TENNHOM>Thuốc độc B</TENNHOM>
+    <TENHANG>Pharmacia</TENHANG>
+    <xuatmax>80</xuatmax>
+    <ghichu>80.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>6926</MABD>
+    <NHAP>2</NHAP>
+    <XUAT>638</XUAT>
+    <TON>2634</TON>
+    <TUTRUC>60</TUTRUC>
+    <TC>2694</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>SPO001</MA>
+    <TEN>Sporal 0,10g</TEN>
+    <DANG>Viên</DANG>
+    <STTNHOM>3</STTNHOM>
+    <TENNHOM>Thuốc độc B</TENNHOM>
+    <TENHANG>Janssen</TENHANG>
+    <xuatmax>638</xuatmax>
+    <ghichu>638.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>14210</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>0</XUAT>
+    <TON>0</TON>
+    <TUTRUC>3</TUTRUC>
+    <TC>3</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI>ống</DONVI>
+    <MA>TAT001</MA>
+    <TEN>Tetanus Antitoxin 1500 IU/ml (SAT) 1500IU/ml</TEN>
+    <DANG>ống</DANG>
+    <STTNHOM>3</STTNHOM>
+    <TENNHOM>Thuốc độc B</TENNHOM>
+    <TENHANG>Human-Hungary</TENHANG>
+    <xuatmax>0</xuatmax>
+    <ghichu />
+  </Table>
+  <Table>
+    <MABD>6852</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>0</XUAT>
+    <TON>20</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>20</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>TEG001</MA>
+    <TEN>Tegretol 0,20g</TEN>
+    <DANG>Viên</DANG>
+    <STTNHOM>3</STTNHOM>
+    <TENNHOM>Thuốc độc B</TENNHOM>
+    <TENHANG>Novartis</TENHANG>
+    <xuatmax>0</xuatmax>
+    <ghichu />
+  </Table>
+  <Table>
+    <MABD>8186</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>26</XUAT>
+    <TON>185</TON>
+    <TUTRUC>15</TUTRUC>
+    <TC>200</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>TEL001</MA>
+    <TEN>Telfast 60mg</TEN>
+    <DANG>Viên</DANG>
+    <STTNHOM>3</STTNHOM>
+    <TENNHOM>Thuốc độc B</TENNHOM>
+    <TENHANG>Aventis</TENHANG>
+    <xuatmax>26</xuatmax>
+    <ghichu>26.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>9129</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>40</XUAT>
+    <TON>132</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>132</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>TEL002</MA>
+    <TEN>Telfast 180mg</TEN>
+    <DANG>Viên</DANG>
+    <STTNHOM>3</STTNHOM>
+    <TENNHOM>Thuốc độc B</TENNHOM>
+    <TENHANG>Aventis</TENHANG>
+    <xuatmax>40</xuatmax>
+    <ghichu>40.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>19177</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>2</XUAT>
+    <TON>10</TON>
+    <TUTRUC>2</TUTRUC>
+    <TC>12</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI>ố</DONVI>
+    <MA>TET003</MA>
+    <TEN>Tetanus antitoxin 1500UI/ml</TEN>
+    <DANG>Ống</DANG>
+    <STTNHOM>3</STTNHOM>
+    <TENNHOM>Thuốc độc B</TENNHOM>
+    <TENHANG>Human-Hungary</TENHANG>
+    <xuatmax>2</xuatmax>
+    <ghichu>2.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>6850</MABD>
+    <NHAP>1000</NHAP>
+    <XUAT>1177</XUAT>
+    <TON>3817</TON>
+    <TUTRUC>70</TUTRUC>
+    <TC>3887</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>DIA002</MA>
+    <TEN>Diazepam 5mg</TEN>
+    <DANG>Viên</DANG>
+    <STTNHOM>4</STTNHOM>
+    <TENNHOM>Thuốc hướng tâm thần</TENNHOM>
+    <TENHANG>Pharmedic</TENHANG>
+    <xuatmax>1177</xuatmax>
+    <ghichu>1,177.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>8017</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>0</XUAT>
+    <TON>0</TON>
+    <TUTRUC>2</TUTRUC>
+    <TC>2</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>EPH001</MA>
+    <TEN>Ephedrin HCl 0,01g</TEN>
+    <DANG>ống</DANG>
+    <STTNHOM>4</STTNHOM>
+    <TENNHOM>Thuốc hướng tâm thần</TENNHOM>
+    <TENHANG>Dược phẩm dược liệu, Cty</TENHANG>
+    <xuatmax>0</xuatmax>
+    <ghichu />
+  </Table>
+  <Table>
+    <MABD>6851</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>0</XUAT>
+    <TON>0</TON>
+    <TUTRUC>3</TUTRUC>
+    <TC>3</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>HYP001</MA>
+    <TEN>Hypnovel 5mg 1ml</TEN>
+    <DANG>ống</DANG>
+    <STTNHOM>4</STTNHOM>
+    <TENNHOM>Thuốc hướng tâm thần</TENNHOM>
+    <TENHANG>Roche</TENHANG>
+    <xuatmax>0</xuatmax>
+    <ghichu />
+  </Table>
+  <Table>
+    <MABD>7851</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>0</XUAT>
+    <TON>535</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>535</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>LEX001</MA>
+    <TEN>Lexomil 6mg</TEN>
+    <DANG>Viên</DANG>
+    <STTNHOM>4</STTNHOM>
+    <TENNHOM>Thuốc hướng tâm thần</TENNHOM>
+    <TENHANG>Roche</TENHANG>
+    <xuatmax>0</xuatmax>
+    <ghichu />
+  </Table>
+  <Table>
+    <MABD>8705</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>0</XUAT>
+    <TON>3</TON>
+    <TUTRUC>3</TUTRUC>
+    <TC>6</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>MID001</MA>
+    <TEN>Midazolam 5mg/ml</TEN>
+    <DANG>ống</DANG>
+    <STTNHOM>4</STTNHOM>
+    <TENNHOM>Thuốc hướng tâm thần</TENNHOM>
+    <TENHANG>Teva</TENHANG>
+    <xuatmax>0</xuatmax>
+    <ghichu />
+  </Table>
+  <Table>
+    <MABD>6824</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>0</XUAT>
+    <TON>3</TON>
+    <TUTRUC>3</TUTRUC>
+    <TC>6</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>SED001</MA>
+    <TEN>Seduxen 0,01g</TEN>
+    <DANG>ống</DANG>
+    <STTNHOM>4</STTNHOM>
+    <TENNHOM>Thuốc hướng tâm thần</TENNHOM>
+    <TENHANG>Gedeon Richter</TENHANG>
+    <xuatmax>0</xuatmax>
+    <ghichu />
+  </Table>
+  <Table>
+    <MABD>8410</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>7.05</XUAT>
+    <TON>12.05</TON>
+    <TUTRUC>1</TUTRUC>
+    <TC>13.05</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>ALP003</MA>
+    <TEN>Alphagan P coll. 0,15% 5ml</TEN>
+    <DANG>Lọ</DANG>
+    <STTNHOM>5</STTNHOM>
+    <TENNHOM>Thuốc nhỏ mắt độc AB</TENNHOM>
+    <TENHANG>Allergan</TENHANG>
+    <xuatmax>7.05</xuatmax>
+    <ghichu>7.05 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>6853</MABD>
+    <NHAP>20</NHAP>
+    <XUAT>10</XUAT>
+    <TON>20</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>20</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>BET001</MA>
+    <TEN>Betoptic coll. 0,25% 5ml</TEN>
+    <DANG>Lọ</DANG>
+    <STTNHOM>5</STTNHOM>
+    <TENNHOM>Thuốc nhỏ mắt độc AB</TENNHOM>
+    <TENHANG>Alcon</TENHANG>
+    <xuatmax>10</xuatmax>
+    <ghichu>10.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>6854</MABD>
+    <NHAP>3001</NHAP>
+    <XUAT>201</XUAT>
+    <TON>3773</TON>
+    <TUTRUC>6</TUTRUC>
+    <TC>3779</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>DEX001</MA>
+    <TEN>Dexacol coll. 5ml</TEN>
+    <DANG>Lọ</DANG>
+    <STTNHOM>5</STTNHOM>
+    <TENNHOM>Thuốc nhỏ mắt độc AB</TENNHOM>
+    <TENHANG>DP 3/2, Cty CP</TENHANG>
+    <xuatmax>201</xuatmax>
+    <ghichu>201.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>6855</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>375</XUAT>
+    <TON>271</TON>
+    <TUTRUC>83</TUTRUC>
+    <TC>354</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>DIC001</MA>
+    <TEN>Dicaine coll. 0,5% 10ml</TEN>
+    <DANG>Lọ</DANG>
+    <STTNHOM>5</STTNHOM>
+    <TENNHOM>Thuốc nhỏ mắt độc AB</TENNHOM>
+    <TENHANG>Pha chế BV.Mắt</TENHANG>
+    <xuatmax>375</xuatmax>
+    <ghichu>375.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>8884</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>0</XUAT>
+    <TON>0</TON>
+    <TUTRUC>1</TUTRUC>
+    <TC>1</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>DIC004</MA>
+    <TEN>Dicain 1% </TEN>
+    <DANG>Lọ</DANG>
+    <STTNHOM>5</STTNHOM>
+    <TENNHOM>Thuốc nhỏ mắt độc AB</TENNHOM>
+    <TENHANG>Viện Mắt Hà Nội</TENHANG>
+    <xuatmax>0</xuatmax>
+    <ghichu />
+  </Table>
+  <Table>
+    <MABD>8798</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>4</XUAT>
+    <TON>63</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>63</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>FML001</MA>
+    <TEN>FML - Neo coll. </TEN>
+    <DANG>Lọ</DANG>
+    <STTNHOM>5</STTNHOM>
+    <TENNHOM>Thuốc nhỏ mắt độc AB</TENNHOM>
+    <TENHANG>Allergan</TENHANG>
+    <xuatmax>4</xuatmax>
+    <ghichu>4.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>9265</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>2</XUAT>
+    <TON>32</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>32</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>FML002</MA>
+    <TEN>FML coll. 0,1%</TEN>
+    <DANG>Lọ</DANG>
+    <STTNHOM>5</STTNHOM>
+    <TENNHOM>Thuốc nhỏ mắt độc AB</TENNHOM>
+    <TENHANG>Allergan</TENHANG>
+    <xuatmax>2</xuatmax>
+    <ghichu>2.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>6858</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>7.4</XUAT>
+    <TON>63.6</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>63.6</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>ISO001</MA>
+    <TEN>Isopto Carpine coll. 2%</TEN>
+    <DANG>Lọ</DANG>
+    <STTNHOM>5</STTNHOM>
+    <TENNHOM>Thuốc nhỏ mắt độc AB</TENNHOM>
+    <TENHANG>Alcon</TENHANG>
+    <xuatmax>7.4</xuatmax>
+    <ghichu>7.40 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>6859</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>0</XUAT>
+    <TON>7</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>7</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>MAX001</MA>
+    <TEN>Maxidex coll. 0,1% 5ml</TEN>
+    <DANG>Lọ</DANG>
+    <STTNHOM>5</STTNHOM>
+    <TENNHOM>Thuốc nhỏ mắt độc AB</TENNHOM>
+    <TENHANG>Alcon</TENHANG>
+    <xuatmax>0</xuatmax>
+    <ghichu />
+  </Table>
+  <Table>
+    <MABD>6861</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>3</XUAT>
+    <TON>57</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>57</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>MAX003</MA>
+    <TEN>Maxitrol pde. 3,5g</TEN>
+    <DANG>Tube</DANG>
+    <STTNHOM>5</STTNHOM>
+    <TENNHOM>Thuốc nhỏ mắt độc AB</TENNHOM>
+    <TENHANG>Alcon</TENHANG>
+    <xuatmax>3</xuatmax>
+    <ghichu>3.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>6862</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>9</XUAT>
+    <TON>140</TON>
+    <TUTRUC>15</TUTRUC>
+    <TC>155</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>MYD001</MA>
+    <TEN>Mydriacyl coll. 1% 5ml</TEN>
+    <DANG>Lọ</DANG>
+    <STTNHOM>5</STTNHOM>
+    <TENNHOM>Thuốc nhỏ mắt độc AB</TENNHOM>
+    <TENHANG>Alcon</TENHANG>
+    <xuatmax>9</xuatmax>
+    <ghichu>9.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>6883</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>23</XUAT>
+    <TON>64</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>64</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>MYD002</MA>
+    <TEN>Mydrin-P coll. 0,5% 10ml</TEN>
+    <DANG>Lọ</DANG>
+    <STTNHOM>5</STTNHOM>
+    <TENNHOM>Thuốc nhỏ mắt độc AB</TENNHOM>
+    <TENHANG>Santen</TENHANG>
+    <xuatmax>23</xuatmax>
+    <ghichu>23.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>6885</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>23</XUAT>
+    <TON>72</TON>
+    <TUTRUC>5</TUTRUC>
+    <TC>77</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>NAC001</MA>
+    <TEN>Naclof coll. 0,1% 5ml</TEN>
+    <DANG>Lọ</DANG>
+    <STTNHOM>5</STTNHOM>
+    <TENNHOM>Thuốc nhỏ mắt độc AB</TENNHOM>
+    <TENHANG>Novartis</TENHANG>
+    <xuatmax>23</xuatmax>
+    <ghichu>23.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>6863</MABD>
+    <NHAP>1</NHAP>
+    <XUAT>2</XUAT>
+    <TON>37</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>37</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>NEO001</MA>
+    <TEN>Neodex coll. 5ml</TEN>
+    <DANG>Lọ</DANG>
+    <STTNHOM>5</STTNHOM>
+    <TENNHOM>Thuốc nhỏ mắt độc AB</TENNHOM>
+    <TENHANG>Pharmedic</TENHANG>
+    <xuatmax>2</xuatmax>
+    <ghichu>2.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>7020</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>0</XUAT>
+    <TON>0</TON>
+    <TUTRUC>5</TUTRUC>
+    <TC>5</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>PIL002</MA>
+    <TEN>Pilocarpine coll. 1% 10ml</TEN>
+    <DANG>Lọ</DANG>
+    <STTNHOM>5</STTNHOM>
+    <TENNHOM>Thuốc nhỏ mắt độc AB</TENNHOM>
+    <TENHANG>Pha chế BV.Mắt</TENHANG>
+    <xuatmax>0</xuatmax>
+    <ghichu />
+  </Table>
+  <Table>
+    <MABD>6864</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>104</XUAT>
+    <TON>123</TON>
+    <TUTRUC>18</TUTRUC>
+    <TC>141</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>PRE002</MA>
+    <TEN>Pred Fort coll. 1% 5ml</TEN>
+    <DANG>Lọ</DANG>
+    <STTNHOM>5</STTNHOM>
+    <TENNHOM>Thuốc nhỏ mắt độc AB</TENNHOM>
+    <TENHANG>Allergan</TENHANG>
+    <xuatmax>104</xuatmax>
+    <ghichu>104.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>6865</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>0</XUAT>
+    <TON>28</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>28</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>SPE001</MA>
+    <TEN>Spersadex comp. coll. 5ml</TEN>
+    <DANG>Lọ</DANG>
+    <STTNHOM>5</STTNHOM>
+    <TENNHOM>Thuốc nhỏ mắt độc AB</TENNHOM>
+    <TENHANG>Ciba</TENHANG>
+    <xuatmax>0</xuatmax>
+    <ghichu />
+  </Table>
+  <Table>
+    <MABD>9197</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>0</XUAT>
+    <TON>0</TON>
+    <TUTRUC>5</TUTRUC>
+    <TC>5</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>TET004</MA>
+    <TEN>Tetracain 10ml 0,5%</TEN>
+    <DANG>Lọ</DANG>
+    <STTNHOM>5</STTNHOM>
+    <TENNHOM>Thuốc nhỏ mắt độc AB</TENNHOM>
+    <TENHANG>DP 3/2, Cty CP</TENHANG>
+    <xuatmax>0</xuatmax>
+    <ghichu />
+  </Table>
+  <Table>
+    <MABD>6867</MABD>
+    <NHAP>1</NHAP>
+    <XUAT>436</XUAT>
+    <TON>1516</TON>
+    <TUTRUC>10</TUTRUC>
+    <TC>1526</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>TOB001</MA>
+    <TEN>Tobradex coll. 5ml</TEN>
+    <DANG>Lọ</DANG>
+    <STTNHOM>5</STTNHOM>
+    <TENNHOM>Thuốc nhỏ mắt độc AB</TENNHOM>
+    <TENHANG>Alcon</TENHANG>
+    <xuatmax>436</xuatmax>
+    <ghichu>436.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>6905</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>3</XUAT>
+    <TON>40</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>40</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>TOB004</MA>
+    <TEN>Tobradex pde. </TEN>
+    <DANG>Tube</DANG>
+    <STTNHOM>5</STTNHOM>
+    <TENNHOM>Thuốc nhỏ mắt độc AB</TENNHOM>
+    <TENHANG>Alcon</TENHANG>
+    <xuatmax>3</xuatmax>
+    <ghichu>3.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>6911</MABD>
+    <NHAP>100</NHAP>
+    <XUAT>54</XUAT>
+    <TON>207</TON>
+    <TUTRUC>10</TUTRUC>
+    <TC>217</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>ZOC001</MA>
+    <TEN>Zocon coll. 0,3% 5ml</TEN>
+    <DANG>Lọ</DANG>
+    <STTNHOM>5</STTNHOM>
+    <TENNHOM>Thuốc nhỏ mắt độc AB</TENNHOM>
+    <TENHANG>F.D.C</TENHANG>
+    <xuatmax>54</xuatmax>
+    <ghichu>54.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>7540</MABD>
+    <NHAP>11</NHAP>
+    <XUAT>7</XUAT>
+    <TON>18</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>18</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>ALE001</MA>
+    <TEN>Alegysal coll. 0,1% 5ml</TEN>
+    <DANG>Lọ</DANG>
+    <STTNHOM>6</STTNHOM>
+    <TENNHOM>Thuốc nhỏ mắt thường</TENNHOM>
+    <TENHANG>Santen</TENHANG>
+    <xuatmax>7</xuatmax>
+    <ghichu>7.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>6870</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>66</XUAT>
+    <TON>308</TON>
+    <TUTRUC>13</TUTRUC>
+    <TC>321</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>ATR002</MA>
+    <TEN>Atropine coll. 1% 5ml</TEN>
+    <DANG>Lọ</DANG>
+    <STTNHOM>6</STTNHOM>
+    <TENNHOM>Thuốc nhỏ mắt thường</TENNHOM>
+    <TENHANG>Pha chế BV.Mắt</TENHANG>
+    <xuatmax>66</xuatmax>
+    <ghichu>66.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>9102</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>2</XUAT>
+    <TON>10</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>10</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>AZO001</MA>
+    <TEN>Azopt coll. 1% 5ml</TEN>
+    <DANG>Lọ</DANG>
+    <STTNHOM>6</STTNHOM>
+    <TENNHOM>Thuốc nhỏ mắt thường</TENNHOM>
+    <TENHANG>Alcon</TENHANG>
+    <xuatmax>2</xuatmax>
+    <ghichu>2.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>14258</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>10</XUAT>
+    <TON>23</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>23</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>CEB005</MA>
+    <TEN>Cebesine coll. 0,4% 10ml</TEN>
+    <DANG>lọ</DANG>
+    <STTNHOM>6</STTNHOM>
+    <TENNHOM>Thuốc nhỏ mắt thường</TENNHOM>
+    <TENHANG>Chauvin</TENHANG>
+    <xuatmax>10</xuatmax>
+    <ghichu>10.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>6877</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>0</XUAT>
+    <TON>7</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>7</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>COR001</MA>
+    <TEN>Correctol coll. 0,1% 5ml</TEN>
+    <DANG>Lọ</DANG>
+    <STTNHOM>6</STTNHOM>
+    <TENNHOM>Thuốc nhỏ mắt thường</TENNHOM>
+    <TENHANG>Alcon</TENHANG>
+    <xuatmax>0</xuatmax>
+    <ghichu />
+  </Table>
+  <Table>
+    <MABD>6879</MABD>
+    <NHAP>6004</NHAP>
+    <XUAT>2133</XUAT>
+    <TON>5982</TON>
+    <TUTRUC>100</TUTRUC>
+    <TC>6082</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>EFT001</MA>
+    <TEN>Efticol coll. 0,9% 10ml</TEN>
+    <DANG>Lọ</DANG>
+    <STTNHOM>6</STTNHOM>
+    <TENNHOM>Thuốc nhỏ mắt thường</TENNHOM>
+    <TENHANG>DP 3/2, Cty CP</TENHANG>
+    <xuatmax>2133</xuatmax>
+    <ghichu>2,133.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>6881</MABD>
+    <NHAP>40</NHAP>
+    <XUAT>27</XUAT>
+    <TON>45</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>45</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>IND001</MA>
+    <TEN>Indocollyre 0,1% 5ml</TEN>
+    <DANG>Lọ</DANG>
+    <STTNHOM>6</STTNHOM>
+    <TENNHOM>Thuốc nhỏ mắt thường</TENNHOM>
+    <TENHANG>Chauvin</TENHANG>
+    <xuatmax>27</xuatmax>
+    <ghichu>27.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>7254</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>0</XUAT>
+    <TON>12</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>12</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>KAR001</MA>
+    <TEN>Kary Uni coll. 0,005% 5ml</TEN>
+    <DANG>Lọ</DANG>
+    <STTNHOM>6</STTNHOM>
+    <TENNHOM>Thuốc nhỏ mắt thường</TENNHOM>
+    <TENHANG>Santen</TENHANG>
+    <xuatmax>0</xuatmax>
+    <ghichu />
+  </Table>
+  <Table>
+    <MABD>6882</MABD>
+    <NHAP>40</NHAP>
+    <XUAT>24</XUAT>
+    <TON>77</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>77</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>LAC001</MA>
+    <TEN>Lacrynorm gel 0,2% 10g</TEN>
+    <DANG>Tube</DANG>
+    <STTNHOM>6</STTNHOM>
+    <TENNHOM>Thuốc nhỏ mắt thường</TENNHOM>
+    <TENHANG>Chauvin</TENHANG>
+    <xuatmax>24</xuatmax>
+    <ghichu>24.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>14215</MABD>
+    <NHAP>3</NHAP>
+    <XUAT>0</XUAT>
+    <TON>3</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>3</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>MIN001</MA>
+    <TEN>Minims Cyclopentolate 0,5%</TEN>
+    <DANG>hộp</DANG>
+    <STTNHOM>6</STTNHOM>
+    <TENNHOM>Thuốc nhỏ mắt thường</TENNHOM>
+    <TENHANG>Chinois-Hungary</TENHANG>
+    <xuatmax>0</xuatmax>
+    <ghichu />
+  </Table>
+  <Table>
+    <MABD>7888</MABD>
+    <NHAP>35</NHAP>
+    <XUAT>0</XUAT>
+    <TON>35</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>35</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>MUC012</MA>
+    <TEN>mực đo nhãn áp </TEN>
+    <DANG>Lọ</DANG>
+    <STTNHOM>6</STTNHOM>
+    <TENNHOM>Thuốc nhỏ mắt thường</TENNHOM>
+    <TENHANG>Pha chế BV.Mắt</TENHANG>
+    <xuatmax>0</xuatmax>
+    <ghichu />
+  </Table>
+  <Table>
+    <MABD>8997</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>59</XUAT>
+    <TON>0</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>0</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>NAT010</MA>
+    <TEN>Natri clorid coll. 0,9% 10ml</TEN>
+    <DANG>Lọ</DANG>
+    <STTNHOM>6</STTNHOM>
+    <TENNHOM>Thuốc nhỏ mắt thường</TENNHOM>
+    <TENHANG>Pharmedic</TENHANG>
+    <xuatmax>59</xuatmax>
+    <ghichu>59.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>6887</MABD>
+    <NHAP>10</NHAP>
+    <XUAT>6</XUAT>
+    <TON>27</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>27</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>NEO003</MA>
+    <TEN>Neosynephrine coll. 10% 10ml</TEN>
+    <DANG>Lọ</DANG>
+    <STTNHOM>6</STTNHOM>
+    <TENNHOM>Thuốc nhỏ mắt thường</TENNHOM>
+    <TENHANG>MSD</TENHANG>
+    <xuatmax>6</xuatmax>
+    <ghichu>6.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>6889</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>0</XUAT>
+    <TON>0</TON>
+    <TUTRUC>10</TUTRUC>
+    <TC>10</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>NOV001</MA>
+    <TEN>Novesine coll. 0,4% 10ml</TEN>
+    <DANG>Lọ</DANG>
+    <STTNHOM>6</STTNHOM>
+    <TENNHOM>Thuốc nhỏ mắt thường</TENNHOM>
+    <TENHANG>France</TENHANG>
+    <xuatmax>0</xuatmax>
+    <ghichu />
+  </Table>
+  <Table>
+    <MABD>7402</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>13</XUAT>
+    <TON>49</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>49</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>OCU009</MA>
+    <TEN>Oculotect Fluid coll. 10ml</TEN>
+    <DANG>Lọ</DANG>
+    <STTNHOM>6</STTNHOM>
+    <TENNHOM>Thuốc nhỏ mắt thường</TENNHOM>
+    <TENHANG>Ciba</TENHANG>
+    <xuatmax>13</xuatmax>
+    <ghichu>13.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>7818</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>0</XUAT>
+    <TON>2</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>2</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>OFT002</MA>
+    <TEN>Oftan Timolol coll. 0,25% 5ml</TEN>
+    <DANG>Lọ</DANG>
+    <STTNHOM>6</STTNHOM>
+    <TENNHOM>Thuốc nhỏ mắt thường</TENNHOM>
+    <TENHANG>Santen</TENHANG>
+    <xuatmax>0</xuatmax>
+    <ghichu />
+  </Table>
+  <Table>
+    <MABD>7398</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>1</XUAT>
+    <TON>1</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>1</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>REF003</MA>
+    <TEN>Refresh plus </TEN>
+    <DANG>Hộp</DANG>
+    <STTNHOM>6</STTNHOM>
+    <TENNHOM>Thuốc nhỏ mắt thường</TENNHOM>
+    <TENHANG>Allergan</TENHANG>
+    <xuatmax>1</xuatmax>
+    <ghichu>1.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>7399</MABD>
+    <NHAP>12</NHAP>
+    <XUAT>3</XUAT>
+    <TON>10</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>10</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>REF004</MA>
+    <TEN>Refresh tears 0,5%</TEN>
+    <DANG>Hộp</DANG>
+    <STTNHOM>6</STTNHOM>
+    <TENNHOM>Thuốc nhỏ mắt thường</TENNHOM>
+    <TENHANG>Allergan</TENHANG>
+    <xuatmax>3</xuatmax>
+    <ghichu>3.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>7539</MABD>
+    <NHAP>100</NHAP>
+    <XUAT>59</XUAT>
+    <TON>130</TON>
+    <TUTRUC>10</TUTRUC>
+    <TC>140</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>SAN001</MA>
+    <TEN>Sanlein coll. 0,1% 5ml</TEN>
+    <DANG>Lọ</DANG>
+    <STTNHOM>6</STTNHOM>
+    <TENNHOM>Thuốc nhỏ mắt thường</TENNHOM>
+    <TENHANG>Santen</TENHANG>
+    <xuatmax>59</xuatmax>
+    <ghichu>59.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>6899</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>2</XUAT>
+    <TON>12</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>12</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>SPE004</MA>
+    <TEN>Spersallerg coll. 10ml</TEN>
+    <DANG>Lọ</DANG>
+    <STTNHOM>6</STTNHOM>
+    <TENNHOM>Thuốc nhỏ mắt thường</TENNHOM>
+    <TENHANG>Ciba</TENHANG>
+    <xuatmax>2</xuatmax>
+    <ghichu>2.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>7532</MABD>
+    <NHAP>10</NHAP>
+    <XUAT>1</XUAT>
+    <TON>9</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>9</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>TEA001</MA>
+    <TEN>Tears natural II coll. </TEN>
+    <DANG>Lọ</DANG>
+    <STTNHOM>6</STTNHOM>
+    <TENNHOM>Thuốc nhỏ mắt thường</TENNHOM>
+    <TENHANG>Alcon</TENHANG>
+    <xuatmax>1</xuatmax>
+    <ghichu>1.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>7419</MABD>
+    <NHAP>50</NHAP>
+    <XUAT>24</XUAT>
+    <TON>59.8</TON>
+    <TUTRUC>8</TUTRUC>
+    <TC>67.8</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>TIM004</MA>
+    <TEN>Timolol coll. 0,5% 5ml</TEN>
+    <DANG>Lọ</DANG>
+    <STTNHOM>6</STTNHOM>
+    <TENNHOM>Thuốc nhỏ mắt thường</TENNHOM>
+    <TENHANG>Chauvin</TENHANG>
+    <xuatmax>24</xuatmax>
+    <ghichu>24.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>19024</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>1</XUAT>
+    <TON>6</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>6</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI>l</DONVI>
+    <MA>TRA002</MA>
+    <TEN>Travatan 0,004%</TEN>
+    <DANG>Lọ</DANG>
+    <STTNHOM>6</STTNHOM>
+    <TENNHOM>Thuốc nhỏ mắt thường</TENNHOM>
+    <TENHANG>Alcon</TENHANG>
+    <xuatmax>1</xuatmax>
+    <ghichu>1.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>6909</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>1</XUAT>
+    <TON>4</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>4</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>VIT003</MA>
+    <TEN>Vitreolent coll. 10ml</TEN>
+    <DANG>Lọ</DANG>
+    <STTNHOM>6</STTNHOM>
+    <TENNHOM>Thuốc nhỏ mắt thường</TENNHOM>
+    <TENHANG>Ciba</TENHANG>
+    <xuatmax>1</xuatmax>
+    <ghichu>1.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>6912</MABD>
+    <NHAP>3</NHAP>
+    <XUAT>20</XUAT>
+    <TON>601</TON>
+    <TUTRUC>20</TUTRUC>
+    <TC>621</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>AMO001</MA>
+    <TEN>Amoxicilline 0,25g</TEN>
+    <DANG>Viên</DANG>
+    <STTNHOM>7</STTNHOM>
+    <TENNHOM>Kháng sinh viên</TENNHOM>
+    <TENHANG>Vidipha</TENHANG>
+    <xuatmax>20</xuatmax>
+    <ghichu>20.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>6913</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>10</XUAT>
+    <TON>720</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>720</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>AMO002</MA>
+    <TEN>Amoxicilline 0,50g</TEN>
+    <DANG>Viên</DANG>
+    <STTNHOM>7</STTNHOM>
+    <TENNHOM>Kháng sinh viên</TENNHOM>
+    <TENHANG>DP 3/2, Cty CP</TENHANG>
+    <xuatmax>10</xuatmax>
+    <ghichu>10.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>6914</MABD>
+    <NHAP>500</NHAP>
+    <XUAT>143.5</XUAT>
+    <TON>805.5</TON>
+    <TUTRUC>20</TUTRUC>
+    <TC>825.5</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>AMO003</MA>
+    <TEN>Amoxicilline gói 0,25g</TEN>
+    <DANG>Gói</DANG>
+    <STTNHOM>7</STTNHOM>
+    <TENNHOM>Kháng sinh viên</TENNHOM>
+    <TENHANG>DP 3/2, Cty CP</TENHANG>
+    <xuatmax>143.5</xuatmax>
+    <ghichu>143.50 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>8605</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>12</XUAT>
+    <TON>208</TON>
+    <TUTRUC>20</TUTRUC>
+    <TC>228</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>CEF007</MA>
+    <TEN>Cefaclor (Mekophar) 125mg</TEN>
+    <DANG>Gói</DANG>
+    <STTNHOM>7</STTNHOM>
+    <TENNHOM>Kháng sinh viên</TENNHOM>
+    <TENHANG>Mekophar-VN</TENHANG>
+    <xuatmax>12</xuatmax>
+    <ghichu>12.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>6917</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>110</XUAT>
+    <TON>451</TON>
+    <TUTRUC>20</TUTRUC>
+    <TC>471</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>CEP001</MA>
+    <TEN>Cephalexine 0,25g</TEN>
+    <DANG>Viên</DANG>
+    <STTNHOM>7</STTNHOM>
+    <TENNHOM>Kháng sinh viên</TENNHOM>
+    <TENHANG>Vidipha</TENHANG>
+    <xuatmax>110</xuatmax>
+    <ghichu>110.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>6918</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>1977</XUAT>
+    <TON>11339</TON>
+    <TUTRUC>207</TUTRUC>
+    <TC>11546</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>CEP002</MA>
+    <TEN>Cephalexine 0,50g</TEN>
+    <DANG>Viên</DANG>
+    <STTNHOM>7</STTNHOM>
+    <TENNHOM>Kháng sinh viên</TENNHOM>
+    <TENHANG>Vidipha</TENHANG>
+    <xuatmax>1977</xuatmax>
+    <ghichu>1,977.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>8037</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>0</XUAT>
+    <TON>0</TON>
+    <TUTRUC>20</TUTRUC>
+    <TC>20</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>CIL002</MA>
+    <TEN>Cilox 0,20g</TEN>
+    <DANG>Viên</DANG>
+    <STTNHOM>7</STTNHOM>
+    <TENNHOM>Kháng sinh viên</TENNHOM>
+    <TENHANG>Europe</TENHANG>
+    <xuatmax>0</xuatmax>
+    <ghichu />
+  </Table>
+  <Table>
+    <MABD>8129</MABD>
+    <NHAP>2</NHAP>
+    <XUAT>56</XUAT>
+    <TON>650</TON>
+    <TUTRUC>48</TUTRUC>
+    <TC>698</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>CIP005</MA>
+    <TEN>Ciprofloxacin 0,50g</TEN>
+    <DANG>Viên</DANG>
+    <STTNHOM>7</STTNHOM>
+    <TENNHOM>Kháng sinh viên</TENNHOM>
+    <TENHANG>Pymepharco</TENHANG>
+    <xuatmax>56</xuatmax>
+    <ghichu>56.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>9338</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>28</XUAT>
+    <TON>178</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>178</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>CIP009</MA>
+    <TEN>Ciprobay 500mg </TEN>
+    <DANG>Viên</DANG>
+    <STTNHOM>7</STTNHOM>
+    <TENNHOM>Kháng sinh viên</TENNHOM>
+    <TENHANG>Bayer</TENHANG>
+    <xuatmax>28</xuatmax>
+    <ghichu>28.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>6921</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>0</XUAT>
+    <TON>50</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>50</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>ERY001</MA>
+    <TEN>Erythormycin 0,50g</TEN>
+    <DANG>Viên</DANG>
+    <STTNHOM>7</STTNHOM>
+    <TENNHOM>Kháng sinh viên</TENNHOM>
+    <TENHANG>Vidipha</TENHANG>
+    <xuatmax>0</xuatmax>
+    <ghichu />
+  </Table>
+  <Table>
+    <MABD>8784</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>0</XUAT>
+    <TON>27</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>27</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>ERY003</MA>
+    <TEN>Eryfar 250mg</TEN>
+    <DANG>Gói</DANG>
+    <STTNHOM>7</STTNHOM>
+    <TENNHOM>Kháng sinh viên</TENNHOM>
+    <TENHANG>Việt Nam</TENHANG>
+    <xuatmax>0</xuatmax>
+    <ghichu />
+  </Table>
+  <Table>
+    <MABD>7371</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>0</XUAT>
+    <TON>5</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>5</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>GAN010</MA>
+    <TEN>Ganidin 0,50g</TEN>
+    <DANG>Viên</DANG>
+    <STTNHOM>7</STTNHOM>
+    <TENNHOM>Kháng sinh viên</TENNHOM>
+    <TENHANG>Vidipha</TENHANG>
+    <xuatmax>0</xuatmax>
+    <ghichu />
+  </Table>
+  <Table>
+    <MABD>6923</MABD>
+    <NHAP>2</NHAP>
+    <XUAT>464</XUAT>
+    <TON>3383</TON>
+    <TUTRUC>50</TUTRUC>
+    <TC>3433</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>KET002</MA>
+    <TEN>Ketoconazol 0,20g</TEN>
+    <DANG>Viên</DANG>
+    <STTNHOM>7</STTNHOM>
+    <TENNHOM>Kháng sinh viên</TENNHOM>
+    <TENHANG>DP 3/2, Cty CP</TENHANG>
+    <xuatmax>464</xuatmax>
+    <ghichu>464.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>6924</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>6</XUAT>
+    <TON>155</TON>
+    <TUTRUC>50</TUTRUC>
+    <TC>205</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>NIZ001</MA>
+    <TEN>Nizoral 0,20g</TEN>
+    <DANG>Viên</DANG>
+    <STTNHOM>7</STTNHOM>
+    <TENNHOM>Kháng sinh viên</TENNHOM>
+    <TENHANG>Janssen</TENHANG>
+    <xuatmax>6</xuatmax>
+    <ghichu>6.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>6925</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>20</XUAT>
+    <TON>108</TON>
+    <TUTRUC>40</TUTRUC>
+    <TC>148</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>PEF001</MA>
+    <TEN>Peflacine 0,40g</TEN>
+    <DANG>Viên</DANG>
+    <STTNHOM>7</STTNHOM>
+    <TENNHOM>Kháng sinh viên</TENNHOM>
+    <TENHANG>Rhône Poulenc-France</TENHANG>
+    <xuatmax>20</xuatmax>
+    <ghichu>20.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>7911</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>0</XUAT>
+    <TON>79</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>79</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>RUL001</MA>
+    <TEN>Rulid 0,15g</TEN>
+    <DANG>Viên</DANG>
+    <STTNHOM>7</STTNHOM>
+    <TENNHOM>Kháng sinh viên</TENNHOM>
+    <TENHANG>Roussel</TENHANG>
+    <xuatmax>0</xuatmax>
+    <ghichu />
+  </Table>
+  <Table>
+    <MABD>8990</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>0</XUAT>
+    <TON>199</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>199</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>VIC002</MA>
+    <TEN>Vicometrim 480mg</TEN>
+    <DANG>Viên</DANG>
+    <STTNHOM>7</STTNHOM>
+    <TENNHOM>Kháng sinh viên</TENNHOM>
+    <TENHANG>Vidipha</TENHANG>
+    <xuatmax>0</xuatmax>
+    <ghichu />
+  </Table>
+  <Table>
+    <MABD>7421</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>0</XUAT>
+    <TON>152</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>152</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>ZIN001</MA>
+    <TEN>Zinnat 0,25g</TEN>
+    <DANG>Viên</DANG>
+    <STTNHOM>7</STTNHOM>
+    <TENNHOM>Kháng sinh viên</TENNHOM>
+    <TENHANG>Glaxo</TENHANG>
+    <xuatmax>0</xuatmax>
+    <ghichu />
+  </Table>
+  <Table>
+    <MABD>8809</MABD>
+    <NHAP>6</NHAP>
+    <XUAT>9</XUAT>
+    <TON>57</TON>
+    <TUTRUC>5</TUTRUC>
+    <TC>62</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>BEE001</MA>
+    <TEN>Beeceftron 1g</TEN>
+    <DANG>Lọ</DANG>
+    <STTNHOM>8</STTNHOM>
+    <TENNHOM>Kháng sinh tiêm</TENNHOM>
+    <TENHANG>Han all</TENHANG>
+    <xuatmax>9</xuatmax>
+    <ghichu>9.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>8733</MABD>
+    <NHAP>4</NHAP>
+    <XUAT>7</XUAT>
+    <TON>66</TON>
+    <TUTRUC>10</TUTRUC>
+    <TC>76</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>BRU001</MA>
+    <TEN>Brulamycine 80mg/2ml</TEN>
+    <DANG>ống</DANG>
+    <STTNHOM>8</STTNHOM>
+    <TENNHOM>Kháng sinh tiêm</TENNHOM>
+    <TENHANG>Hungary</TENHANG>
+    <xuatmax>7</xuatmax>
+    <ghichu>7.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>18964</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>0</XUAT>
+    <TON>48</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>48</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI>h</DONVI>
+    <MA>CEF001</MA>
+    <TEN>Ceftazidime 1000mg</TEN>
+    <DANG>hộp</DANG>
+    <STTNHOM>8</STTNHOM>
+    <TENNHOM>Kháng sinh tiêm</TENNHOM>
+    <TENHANG>Orchid Healthcare</TENHANG>
+    <xuatmax>0</xuatmax>
+    <ghichu />
+  </Table>
+  <Table>
+    <MABD>6928</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>37</XUAT>
+    <TON>129</TON>
+    <TUTRUC>35</TUTRUC>
+    <TC>164</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>CLA001</MA>
+    <TEN>Claforan 1g</TEN>
+    <DANG>Lọ</DANG>
+    <STTNHOM>8</STTNHOM>
+    <TENNHOM>Kháng sinh tiêm</TENNHOM>
+    <TENHANG>Roussel</TENHANG>
+    <xuatmax>37</xuatmax>
+    <ghichu>37.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>9237</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>1</XUAT>
+    <TON>22</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>22</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>FOR024</MA>
+    <TEN>Fortum 1g</TEN>
+    <DANG>Lọ</DANG>
+    <STTNHOM>8</STTNHOM>
+    <TENNHOM>Kháng sinh tiêm</TENNHOM>
+    <TENHANG>Glaxo</TENHANG>
+    <xuatmax>1</xuatmax>
+    <ghichu>1.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>6930</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>3</XUAT>
+    <TON>17</TON>
+    <TUTRUC>17</TUTRUC>
+    <TC>34</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>GEN002</MA>
+    <TEN>Gentamycin 0,08g</TEN>
+    <DANG>ống</DANG>
+    <STTNHOM>8</STTNHOM>
+    <TENNHOM>Kháng sinh tiêm</TENNHOM>
+    <TENHANG>Vidipha</TENHANG>
+    <xuatmax>3</xuatmax>
+    <ghichu>3.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>7918</MABD>
+    <NHAP>1</NHAP>
+    <XUAT>3</XUAT>
+    <TON>16</TON>
+    <TUTRUC>8</TUTRUC>
+    <TC>24</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>GEN004</MA>
+    <TEN>Gentamycin inj. 80mg</TEN>
+    <DANG>ống</DANG>
+    <STTNHOM>8</STTNHOM>
+    <TENNHOM>Kháng sinh tiêm</TENNHOM>
+    <TENHANG>DP 3/2, Cty CP</TENHANG>
+    <xuatmax>3</xuatmax>
+    <ghichu>3.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>14214</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>4</XUAT>
+    <TON>190</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>190</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>GEN008</MA>
+    <TEN>Gentamycin 80mg/2ml</TEN>
+    <DANG>ống</DANG>
+    <STTNHOM>8</STTNHOM>
+    <TENNHOM>Kháng sinh tiêm</TENNHOM>
+    <TENHANG>Tenamyd - Canada</TENHANG>
+    <xuatmax>4</xuatmax>
+    <ghichu>4.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>7238</MABD>
+    <NHAP>2</NHAP>
+    <XUAT>0</XUAT>
+    <TON>12</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>12</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>LIN001</MA>
+    <TEN>Lincomycin 0,60g 2ml</TEN>
+    <DANG>ống</DANG>
+    <STTNHOM>8</STTNHOM>
+    <TENNHOM>Kháng sinh tiêm</TENNHOM>
+    <TENHANG>Canada</TENHANG>
+    <xuatmax>0</xuatmax>
+    <ghichu />
+  </Table>
+  <Table>
+    <MABD>8893</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>0</XUAT>
+    <TON>5</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>5</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>PEN001</MA>
+    <TEN>Peni G 1M UI</TEN>
+    <DANG>Lọ</DANG>
+    <STTNHOM>8</STTNHOM>
+    <TENNHOM>Kháng sinh tiêm</TENNHOM>
+    <TENHANG>Mekophar-VN</TENHANG>
+    <xuatmax>0</xuatmax>
+    <ghichu />
+  </Table>
+  <Table>
+    <MABD>6934</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>1</XUAT>
+    <TON>37</TON>
+    <TUTRUC>5</TUTRUC>
+    <TC>42</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>VAN001</MA>
+    <TEN>Vancocin 0,50g</TEN>
+    <DANG>Lọ</DANG>
+    <STTNHOM>8</STTNHOM>
+    <TENNHOM>Kháng sinh tiêm</TENNHOM>
+    <TENHANG>Abbott</TENHANG>
+    <xuatmax>1</xuatmax>
+    <ghichu>1.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>6935</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>0</XUAT>
+    <TON>5</TON>
+    <TUTRUC>2</TUTRUC>
+    <TC>7</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>ADO001</MA>
+    <TEN>Adona 0,025g 5ml</TEN>
+    <DANG>ống</DANG>
+    <STTNHOM>9</STTNHOM>
+    <TENNHOM>Thuốc tiêm</TENNHOM>
+    <TENHANG>Osaka-Japan</TENHANG>
+    <xuatmax>0</xuatmax>
+    <ghichu />
+  </Table>
+  <Table>
+    <MABD>7363</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>0</XUAT>
+    <TON>0</TON>
+    <TUTRUC>2</TUTRUC>
+    <TC>2</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>ADR002</MA>
+    <TEN>Adrenoxyl 1.500UI  5ml</TEN>
+    <DANG>ống</DANG>
+    <STTNHOM>9</STTNHOM>
+    <TENNHOM>Thuốc tiêm</TENNHOM>
+    <TENHANG>3M </TENHANG>
+    <xuatmax>0</xuatmax>
+    <ghichu />
+  </Table>
+  <Table>
+    <MABD>6936</MABD>
+    <NHAP>6</NHAP>
+    <XUAT>0</XUAT>
+    <TON>7</TON>
+    <TUTRUC>43</TUTRUC>
+    <TC>50</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>ATR003</MA>
+    <TEN>Atropine 0,25mg 1ml</TEN>
+    <DANG>ống</DANG>
+    <STTNHOM>9</STTNHOM>
+    <TENNHOM>Thuốc tiêm</TENNHOM>
+    <TENHANG>Việt Nam</TENHANG>
+    <xuatmax>0</xuatmax>
+    <ghichu />
+  </Table>
+  <Table>
+    <MABD>6939</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>0</XUAT>
+    <TON>0</TON>
+    <TUTRUC>6</TUTRUC>
+    <TC>6</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>CAL001</MA>
+    <TEN>Calcium Sandoz inj. 5ml</TEN>
+    <DANG>ống</DANG>
+    <STTNHOM>9</STTNHOM>
+    <TENNHOM>Thuốc tiêm</TENNHOM>
+    <TENHANG>France</TENHANG>
+    <xuatmax>0</xuatmax>
+    <ghichu />
+  </Table>
+  <Table>
+    <MABD>7840</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>0</XUAT>
+    <TON>10</TON>
+    <TUTRUC>8</TUTRUC>
+    <TC>18</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>CAL002</MA>
+    <TEN>Calcium gluconate 10%</TEN>
+    <DANG>ống</DANG>
+    <STTNHOM>9</STTNHOM>
+    <TENNHOM>Thuốc tiêm</TENNHOM>
+    <TENHANG>Aguettant</TENHANG>
+    <xuatmax>0</xuatmax>
+    <ghichu />
+  </Table>
+  <Table>
+    <MABD>8563</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>0</XUAT>
+    <TON>100</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>100</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>FLU015</MA>
+    <TEN>Fluoralfa 20% 5ml</TEN>
+    <DANG>ống</DANG>
+    <STTNHOM>9</STTNHOM>
+    <TENNHOM>Thuốc tiêm</TENNHOM>
+    <TENHANG>Alpha Intes</TENHANG>
+    <xuatmax>0</xuatmax>
+    <ghichu />
+  </Table>
+  <Table>
+    <MABD>7022</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>0</XUAT>
+    <TON>0</TON>
+    <TUTRUC>5</TUTRUC>
+    <TC>5</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>FUR001</MA>
+    <TEN>Furosemide 0,02g</TEN>
+    <DANG>ống</DANG>
+    <STTNHOM>9</STTNHOM>
+    <TENNHOM>Thuốc tiêm</TENNHOM>
+    <TENHANG>Chinois-Hungary</TENHANG>
+    <xuatmax>0</xuatmax>
+    <ghichu />
+  </Table>
+  <Table>
+    <MABD>6944</MABD>
+    <NHAP>210</NHAP>
+    <XUAT>10</XUAT>
+    <TON>200</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>200</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>HYN001</MA>
+    <TEN>Hynidase 1500UI</TEN>
+    <DANG>ống</DANG>
+    <STTNHOM>9</STTNHOM>
+    <TENNHOM>Thuốc tiêm</TENNHOM>
+    <TENHANG>Shreya</TENHANG>
+    <xuatmax>10</xuatmax>
+    <ghichu>10.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>6947</MABD>
+    <NHAP>600</NHAP>
+    <XUAT>56</XUAT>
+    <TON>756</TON>
+    <TUTRUC>12</TUTRUC>
+    <TC>768</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>LID001</MA>
+    <TEN>Lidocaine 2% 10ml</TEN>
+    <DANG>ống</DANG>
+    <STTNHOM>9</STTNHOM>
+    <TENNHOM>Thuốc tiêm</TENNHOM>
+    <TENHANG>Egis-Hungary</TENHANG>
+    <xuatmax>56</xuatmax>
+    <ghichu>56.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>7418</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>0</XUAT>
+    <TON>0</TON>
+    <TUTRUC>2</TUTRUC>
+    <TC>2</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>LID003</MA>
+    <TEN>Lidocain 2% 2ml</TEN>
+    <DANG>ống</DANG>
+    <STTNHOM>9</STTNHOM>
+    <TENNHOM>Thuốc tiêm</TENNHOM>
+    <TENHANG>Không x định</TENHANG>
+    <xuatmax>0</xuatmax>
+    <ghichu />
+  </Table>
+  <Table>
+    <MABD>7640</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>0</XUAT>
+    <TON>0</TON>
+    <TUTRUC>4</TUTRUC>
+    <TC>4</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>NID001</MA>
+    <TEN>Nidal inj. 0,50g</TEN>
+    <DANG>ống</DANG>
+    <STTNHOM>9</STTNHOM>
+    <TENNHOM>Thuốc tiêm</TENNHOM>
+    <TENHANG>Ampharco-U.S.A.</TENHANG>
+    <xuatmax>0</xuatmax>
+    <ghichu />
+  </Table>
+  <Table>
+    <MABD>6955</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>0</XUAT>
+    <TON>0</TON>
+    <TUTRUC>12</TUTRUC>
+    <TC>12</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>NIS001</MA>
+    <TEN>Nisidol 2ml</TEN>
+    <DANG>ống</DANG>
+    <STTNHOM>9</STTNHOM>
+    <TENNHOM>Thuốc tiêm</TENNHOM>
+    <TENHANG>Fournier</TENHANG>
+    <xuatmax>0</xuatmax>
+    <ghichu />
+  </Table>
+  <Table>
+    <MABD>8606</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>15</XUAT>
+    <TON>52</TON>
+    <TUTRUC>1</TUTRUC>
+    <TC>53</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI>ống</DONVI>
+    <MA>NOO002</MA>
+    <TEN>Nootropyl 12g/60ml</TEN>
+    <DANG>Chai</DANG>
+    <STTNHOM>9</STTNHOM>
+    <TENNHOM>Thuốc tiêm</TENNHOM>
+    <TENHANG>U.C.B</TENHANG>
+    <xuatmax>15</xuatmax>
+    <ghichu>15.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>6951</MABD>
+    <NHAP>800</NHAP>
+    <XUAT>260</XUAT>
+    <TON>821</TON>
+    <TUTRUC>64</TUTRUC>
+    <TC>885</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>NUO001</MA>
+    <TEN>Nước cất 5ml</TEN>
+    <DANG>ống</DANG>
+    <STTNHOM>9</STTNHOM>
+    <TENNHOM>Thuốc tiêm</TENNHOM>
+    <TENHANG>DP 3/2, Cty CP</TENHANG>
+    <xuatmax>260</xuatmax>
+    <ghichu>260.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>6957</MABD>
+    <NHAP>147</NHAP>
+    <XUAT>47</XUAT>
+    <TON>100</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>100</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>OCU004</MA>
+    <TEN>Ocuvis 2% 1,5ml</TEN>
+    <DANG>ống</DANG>
+    <STTNHOM>9</STTNHOM>
+    <TENNHOM>Thuốc tiêm</TENNHOM>
+    <TENHANG>Cima-USA</TENHANG>
+    <xuatmax>47</xuatmax>
+    <ghichu>47.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>6960</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>0</XUAT>
+    <TON>0</TON>
+    <TUTRUC>22</TUTRUC>
+    <TC>22</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>XYL001</MA>
+    <TEN>Xylocaine 2% 20ml</TEN>
+    <DANG>Lọ</DANG>
+    <STTNHOM>9</STTNHOM>
+    <TENNHOM>Thuốc tiêm</TENNHOM>
+    <TENHANG>Astra</TENHANG>
+    <xuatmax>0</xuatmax>
+    <ghichu />
+  </Table>
+  <Table>
+    <MABD>6961</MABD>
+    <NHAP>9019</NHAP>
+    <XUAT>2909</XUAT>
+    <TON>9234</TON>
+    <TUTRUC>330</TUTRUC>
+    <TC>9564</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>ACE001</MA>
+    <TEN>Acetazolamid 0,25g</TEN>
+    <DANG>Viên</DANG>
+    <STTNHOM>10</STTNHOM>
+    <TENNHOM>Thuốc viên</TENNHOM>
+    <TENHANG>Pharmedic</TENHANG>
+    <xuatmax>2909</xuatmax>
+    <ghichu>2,909.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>8530</MABD>
+    <NHAP>2002</NHAP>
+    <XUAT>1140</XUAT>
+    <TON>4394</TON>
+    <TUTRUC>200</TUTRUC>
+    <TC>4594</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>ALA001</MA>
+    <TEN>Alaxan </TEN>
+    <DANG>Viên</DANG>
+    <STTNHOM>10</STTNHOM>
+    <TENNHOM>Thuốc viên</TENNHOM>
+    <TENHANG>Therapharma</TENHANG>
+    <xuatmax>1140</xuatmax>
+    <ghichu>1,140.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>18512</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>26</XUAT>
+    <TON>56</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>56</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>ASP001</MA>
+    <TEN>Aspirin PH8 500mg</TEN>
+    <DANG>viên</DANG>
+    <STTNHOM>10</STTNHOM>
+    <TENNHOM>Thuốc viên</TENNHOM>
+    <TENHANG>3M </TENHANG>
+    <xuatmax>26</xuatmax>
+    <ghichu>26.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>6964</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>0</XUAT>
+    <TON>143</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>143</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>BRO001</MA>
+    <TEN>Bromhexine 8mg</TEN>
+    <DANG>Viên</DANG>
+    <STTNHOM>10</STTNHOM>
+    <TENNHOM>Thuốc viên</TENNHOM>
+    <TENHANG>DP 3/2, Cty CP</TENHANG>
+    <xuatmax>0</xuatmax>
+    <ghichu />
+  </Table>
+  <Table>
+    <MABD>19499</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>5</XUAT>
+    <TON>21</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>21</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI>vi</DONVI>
+    <MA>CAR009</MA>
+    <TEN>Cardilopin 5mg</TEN>
+    <DANG>Viên</DANG>
+    <STTNHOM>10</STTNHOM>
+    <TENNHOM>Thuốc viên</TENNHOM>
+    <TENHANG>Egis-Hungary</TENHANG>
+    <xuatmax>5</xuatmax>
+    <ghichu>5.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>6968</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>38</XUAT>
+    <TON>42</TON>
+    <TUTRUC>10</TUTRUC>
+    <TC>52</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>CHL002</MA>
+    <TEN>Chlorpheniramine 4mg</TEN>
+    <DANG>Viên</DANG>
+    <STTNHOM>10</STTNHOM>
+    <TENNHOM>Thuốc viên</TENNHOM>
+    <TENHANG>Vidipha</TENHANG>
+    <xuatmax>38</xuatmax>
+    <ghichu>38.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>6969</MABD>
+    <NHAP>900</NHAP>
+    <XUAT>974</XUAT>
+    <TON>1458</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>1458</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>CIM001</MA>
+    <TEN>Cimetidine 0,30g</TEN>
+    <DANG>Viên</DANG>
+    <STTNHOM>10</STTNHOM>
+    <TENNHOM>Thuốc viên</TENNHOM>
+    <TENHANG>DP 3/2, Cty CP</TENHANG>
+    <xuatmax>974</xuatmax>
+    <ghichu>974.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>6834</MABD>
+    <NHAP>300</NHAP>
+    <XUAT>102</XUAT>
+    <TON>487</TON>
+    <TUTRUC>45</TUTRUC>
+    <TC>532</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>COV001</MA>
+    <TEN>Coversyl 4mg</TEN>
+    <DANG>Viên</DANG>
+    <STTNHOM>10</STTNHOM>
+    <TENNHOM>Thuốc viên</TENNHOM>
+    <TENHANG>Servier</TENHANG>
+    <xuatmax>102</xuatmax>
+    <ghichu>102.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>6837</MABD>
+    <NHAP>60</NHAP>
+    <XUAT>6</XUAT>
+    <TON>139</TON>
+    <TUTRUC>10</TUTRUC>
+    <TC>149</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>DIA001</MA>
+    <TEN>Diamicron MR 0,03g</TEN>
+    <DANG>Viên</DANG>
+    <STTNHOM>10</STTNHOM>
+    <TENNHOM>Thuốc viên</TENNHOM>
+    <TENHANG>Servier</TENHANG>
+    <xuatmax>6</xuatmax>
+    <ghichu>6.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>6973</MABD>
+    <NHAP>903</NHAP>
+    <XUAT>241</XUAT>
+    <TON>941</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>941</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>DIC002</MA>
+    <TEN>Diclofene 0,05g</TEN>
+    <DANG>Viên</DANG>
+    <STTNHOM>10</STTNHOM>
+    <TENNHOM>Thuốc viên</TENNHOM>
+    <TENHANG>Pharmedic</TENHANG>
+    <xuatmax>241</xuatmax>
+    <ghichu>241.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>6974</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>84</XUAT>
+    <TON>345</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>345</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>DIF001</MA>
+    <TEN>Difrarel E </TEN>
+    <DANG>Viên</DANG>
+    <STTNHOM>10</STTNHOM>
+    <TENNHOM>Thuốc viên</TENNHOM>
+    <TENHANG>France</TENHANG>
+    <xuatmax>84</xuatmax>
+    <ghichu>84.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>6975</MABD>
+    <NHAP>902</NHAP>
+    <XUAT>332</XUAT>
+    <TON>1592</TON>
+    <TUTRUC>50</TUTRUC>
+    <TC>1642</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>DUX001</MA>
+    <TEN>Duxil </TEN>
+    <DANG>Viên</DANG>
+    <STTNHOM>10</STTNHOM>
+    <TENNHOM>Thuốc viên</TENNHOM>
+    <TENHANG>Servier</TENHANG>
+    <xuatmax>332</xuatmax>
+    <ghichu>332.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>8435</MABD>
+    <NHAP>600</NHAP>
+    <XUAT>822</XUAT>
+    <TON>1491</TON>
+    <TUTRUC>210</TUTRUC>
+    <TC>1701</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>EFT002</MA>
+    <TEN>Eftifarene 0,02g</TEN>
+    <DANG>Viên</DANG>
+    <STTNHOM>10</STTNHOM>
+    <TENNHOM>Thuốc viên</TENNHOM>
+    <TENHANG>DP 3/2, Cty CP</TENHANG>
+    <xuatmax>822</xuatmax>
+    <ghichu>822.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>8292</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>93</XUAT>
+    <TON>1409</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>1409</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>ENE001</MA>
+    <TEN>Enervon C </TEN>
+    <DANG>Viên</DANG>
+    <STTNHOM>10</STTNHOM>
+    <TENNHOM>Thuốc viên</TENNHOM>
+    <TENHANG>United Pharma</TENHANG>
+    <xuatmax>93</xuatmax>
+    <ghichu>93.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>9275</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>6</XUAT>
+    <TON>188</TON>
+    <TUTRUC>10</TUTRUC>
+    <TC>198</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>GLU006</MA>
+    <TEN>Glucophage 500mg</TEN>
+    <DANG>Viên</DANG>
+    <STTNHOM>10</STTNHOM>
+    <TENNHOM>Thuốc viên</TENNHOM>
+    <TENHANG>Merck</TENHANG>
+    <xuatmax>6</xuatmax>
+    <ghichu>6.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>6979</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>94</XUAT>
+    <TON>415</TON>
+    <TUTRUC>70</TUTRUC>
+    <TC>485</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>IDA001</MA>
+    <TEN>Idarac 0,20g</TEN>
+    <DANG>Viên</DANG>
+    <STTNHOM>10</STTNHOM>
+    <TENNHOM>Thuốc viên</TENNHOM>
+    <TENHANG>Roussel</TENHANG>
+    <xuatmax>94</xuatmax>
+    <ghichu>94.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>6981</MABD>
+    <NHAP>1502</NHAP>
+    <XUAT>948</XUAT>
+    <TON>1929</TON>
+    <TUTRUC>60</TUTRUC>
+    <TC>1989</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>KAL001</MA>
+    <TEN>Kaldyum retard 0,60g</TEN>
+    <DANG>Viên</DANG>
+    <STTNHOM>10</STTNHOM>
+    <TENNHOM>Thuốc viên</TENNHOM>
+    <TENHANG>Egis-Hungary</TENHANG>
+    <xuatmax>948</xuatmax>
+    <ghichu>948.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>8565</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>0</XUAT>
+    <TON>67</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>67</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>LOP002</MA>
+    <TEN>Loperamid 2mg</TEN>
+    <DANG>Viên</DANG>
+    <STTNHOM>10</STTNHOM>
+    <TENNHOM>Thuốc viên</TENNHOM>
+    <TENHANG>DP 2/9, Cty CP</TENHANG>
+    <xuatmax>0</xuatmax>
+    <ghichu />
+  </Table>
+  <Table>
+    <MABD>8915</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>0</XUAT>
+    <TON>210</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>210</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>MEB001</MA>
+    <TEN>Mebendazol 100mg</TEN>
+    <DANG>Viên</DANG>
+    <STTNHOM>10</STTNHOM>
+    <TENNHOM>Thuốc viên</TENNHOM>
+    <TENHANG>Mekophar-VN</TENHANG>
+    <xuatmax>0</xuatmax>
+    <ghichu />
+  </Table>
+  <Table>
+    <MABD>7499</MABD>
+    <NHAP>20010</NHAP>
+    <XUAT>6045</XUAT>
+    <TON>30415</TON>
+    <TUTRUC>327</TUTRUC>
+    <TC>30742</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>NOF001</MA>
+    <TEN>Noflux </TEN>
+    <DANG>Viên</DANG>
+    <STTNHOM>10</STTNHOM>
+    <TENNHOM>Thuốc viên</TENNHOM>
+    <TENHANG>Y.S.P</TENHANG>
+    <xuatmax>6045</xuatmax>
+    <ghichu>6,045.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>8868</MABD>
+    <NHAP>900</NHAP>
+    <XUAT>120</XUAT>
+    <TON>958</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>958</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>NOO003</MA>
+    <TEN>Nootropyl 800mg</TEN>
+    <DANG>Viên</DANG>
+    <STTNHOM>10</STTNHOM>
+    <TENNHOM>Thuốc viên</TENNHOM>
+    <TENHANG>U.C.B</TENHANG>
+    <xuatmax>120</xuatmax>
+    <ghichu>120.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>8337</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>170</XUAT>
+    <TON>202</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>202</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>OCU013</MA>
+    <TEN>Ocuvite </TEN>
+    <DANG>Viên</DANG>
+    <STTNHOM>10</STTNHOM>
+    <TENNHOM>Thuốc viên</TENNHOM>
+    <TENHANG>Bausch - Lomb</TENHANG>
+    <xuatmax>170</xuatmax>
+    <ghichu>170.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>6967</MABD>
+    <NHAP>12017</NHAP>
+    <XUAT>5943</XUAT>
+    <TON>20953</TON>
+    <TUTRUC>360</TUTRUC>
+    <TC>21313</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>PAR001</MA>
+    <TEN>Paracetamol 0,50g</TEN>
+    <DANG>Viên</DANG>
+    <STTNHOM>10</STTNHOM>
+    <TENNHOM>Thuốc viên</TENNHOM>
+    <TENHANG>DP 3/2, Cty CP</TENHANG>
+    <xuatmax>5943</xuatmax>
+    <ghichu>5,943.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>7403</MABD>
+    <NHAP>1004</NHAP>
+    <XUAT>232</XUAT>
+    <TON>1354</TON>
+    <TUTRUC>50</TUTRUC>
+    <TC>1404</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>PAR003</MA>
+    <TEN>Paracetamol 0,325g</TEN>
+    <DANG>Viên</DANG>
+    <STTNHOM>10</STTNHOM>
+    <TENNHOM>Thuốc viên</TENNHOM>
+    <TENHANG>Pharmedic</TENHANG>
+    <xuatmax>232</xuatmax>
+    <ghichu>232.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>7347</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>0</XUAT>
+    <TON>29</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>29</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>PLE001</MA>
+    <TEN>Plendyl 5mg</TEN>
+    <DANG>Viên</DANG>
+    <STTNHOM>10</STTNHOM>
+    <TENNHOM>Thuốc viên</TENNHOM>
+    <TENHANG>Astra</TENHANG>
+    <xuatmax>0</xuatmax>
+    <ghichu />
+  </Table>
+  <Table>
+    <MABD>6988</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>3</XUAT>
+    <TON>86</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>86</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>PLU001</MA>
+    <TEN>Plurivites </TEN>
+    <DANG>Viên</DANG>
+    <STTNHOM>10</STTNHOM>
+    <TENNHOM>Thuốc viên</TENNHOM>
+    <TENHANG>DP 2/9, Cty CP</TENHANG>
+    <xuatmax>3</xuatmax>
+    <ghichu>3.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>7346</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>0</XUAT>
+    <TON>11</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>11</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>REN001</MA>
+    <TEN>Renitec 10mg</TEN>
+    <DANG>Viên</DANG>
+    <STTNHOM>10</STTNHOM>
+    <TENNHOM>Thuốc viên</TENNHOM>
+    <TENHANG>MSD</TENHANG>
+    <xuatmax>0</xuatmax>
+    <ghichu />
+  </Table>
+  <Table>
+    <MABD>7420</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>4</XUAT>
+    <TON>20</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>20</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>REN003</MA>
+    <TEN>Renitec 5mg</TEN>
+    <DANG>Viên</DANG>
+    <STTNHOM>10</STTNHOM>
+    <TENNHOM>Thuốc viên</TENNHOM>
+    <TENHANG>MSD</TENHANG>
+    <xuatmax>4</xuatmax>
+    <ghichu>4.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>7018</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>0</XUAT>
+    <TON>0</TON>
+    <TUTRUC>12</TUTRUC>
+    <TC>12</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>RIS001</MA>
+    <TEN>Risordan 5mg</TEN>
+    <DANG>Viên</DANG>
+    <STTNHOM>10</STTNHOM>
+    <TENNHOM>Thuốc viên</TENNHOM>
+    <TENHANG>France</TENHANG>
+    <xuatmax>0</xuatmax>
+    <ghichu />
+  </Table>
+  <Table>
+    <MABD>6990</MABD>
+    <NHAP>800</NHAP>
+    <XUAT>69</XUAT>
+    <TON>756</TON>
+    <TUTRUC>120</TUTRUC>
+    <TC>876</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>STO001</MA>
+    <TEN>Stomafar </TEN>
+    <DANG>Viên</DANG>
+    <STTNHOM>10</STTNHOM>
+    <TENNHOM>Thuốc viên</TENNHOM>
+    <TENHANG>Pharmedic</TENHANG>
+    <xuatmax>69</xuatmax>
+    <ghichu>69.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>7860</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>4</XUAT>
+    <TON>19</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>19</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>STU001</MA>
+    <TEN>Stugeron </TEN>
+    <DANG>Viên</DANG>
+    <STTNHOM>10</STTNHOM>
+    <TENNHOM>Thuốc viên</TENNHOM>
+    <TENHANG>Hungary</TENHANG>
+    <xuatmax>4</xuatmax>
+    <ghichu>4.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>6991</MABD>
+    <NHAP>8706</NHAP>
+    <XUAT>6894</XUAT>
+    <TON>7504</TON>
+    <TUTRUC>147</TUTRUC>
+    <TC>7651</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>SYN001</MA>
+    <TEN>Synervit </TEN>
+    <DANG>Viên</DANG>
+    <STTNHOM>10</STTNHOM>
+    <TENNHOM>Thuốc viên</TENNHOM>
+    <TENHANG>DP 3/2, Cty CP</TENHANG>
+    <xuatmax>6894</xuatmax>
+    <ghichu>6,894.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>18860</MABD>
+    <NHAP>608</NHAP>
+    <XUAT>987</XUAT>
+    <TON>926</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>926</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>TAM004</MA>
+    <TEN>Tam thất (viên nang) 500mg</TEN>
+    <DANG>viên</DANG>
+    <STTNHOM>10</STTNHOM>
+    <TENNHOM>Thuốc viên</TENNHOM>
+    <TENHANG>DL TW II, Cty CP</TENHANG>
+    <xuatmax>987</xuatmax>
+    <ghichu>987.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>7748</MABD>
+    <NHAP>961</NHAP>
+    <XUAT>998</XUAT>
+    <TON>1280</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>1280</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>TAN001</MA>
+    <TEN>Tanakan 40mg</TEN>
+    <DANG>Viên</DANG>
+    <STTNHOM>10</STTNHOM>
+    <TENNHOM>Thuốc viên</TENNHOM>
+    <TENHANG>Servier</TENHANG>
+    <xuatmax>998</xuatmax>
+    <ghichu>998.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>6993</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>0</XUAT>
+    <TON>0</TON>
+    <TUTRUC>2</TUTRUC>
+    <TC>2</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>TIM002</MA>
+    <TEN>Timol 0,02g</TEN>
+    <DANG>Viên</DANG>
+    <STTNHOM>10</STTNHOM>
+    <TENNHOM>Thuốc viên</TENNHOM>
+    <TENHANG>Ampharco-U.S.A.</TENHANG>
+    <xuatmax>0</xuatmax>
+    <ghichu />
+  </Table>
+  <Table>
+    <MABD>6994</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>0</XUAT>
+    <TON>740</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>740</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>TOB005</MA>
+    <TEN>Tobicom </TEN>
+    <DANG>Viên</DANG>
+    <STTNHOM>10</STTNHOM>
+    <TENNHOM>Thuốc viên</TENNHOM>
+    <TENHANG>I.C.A</TENHANG>
+    <xuatmax>0</xuatmax>
+    <ghichu />
+  </Table>
+  <Table>
+    <MABD>7895</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>0</XUAT>
+    <TON>0</TON>
+    <TUTRUC>23</TUTRUC>
+    <TC>23</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>TRI007</MA>
+    <TEN>Trivita B </TEN>
+    <DANG>Viên</DANG>
+    <STTNHOM>10</STTNHOM>
+    <TENNHOM>Thuốc viên</TENNHOM>
+    <TENHANG>Pharmedic</TENHANG>
+    <xuatmax>0</xuatmax>
+    <ghichu />
+  </Table>
+  <Table>
+    <MABD>9071</MABD>
+    <NHAP>1200</NHAP>
+    <XUAT>6</XUAT>
+    <TON>1198</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>1198</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>VAS003</MA>
+    <TEN>Vastarel MR 35mg</TEN>
+    <DANG>Viên</DANG>
+    <STTNHOM>10</STTNHOM>
+    <TENNHOM>Thuốc viên</TENNHOM>
+    <TENHANG>Servier</TENHANG>
+    <xuatmax>6</xuatmax>
+    <ghichu>6.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>7000</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>175</XUAT>
+    <TON>431</TON>
+    <TUTRUC>20</TUTRUC>
+    <TC>451</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>VIT005</MA>
+    <TEN>Vit. A 50.000UI</TEN>
+    <DANG>Viên</DANG>
+    <STTNHOM>10</STTNHOM>
+    <TENNHOM>Thuốc viên</TENNHOM>
+    <TENHANG>Egis-Hungary</TENHANG>
+    <xuatmax>175</xuatmax>
+    <ghichu>175.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>7003</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>0</XUAT>
+    <TON>120</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>120</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>VIT008</MA>
+    <TEN>Vit. PP 0,50g</TEN>
+    <DANG>Viên</DANG>
+    <STTNHOM>10</STTNHOM>
+    <TENNHOM>Thuốc viên</TENNHOM>
+    <TENHANG>Pharmedic</TENHANG>
+    <xuatmax>0</xuatmax>
+    <ghichu />
+  </Table>
+  <Table>
+    <MABD>7004</MABD>
+    <NHAP>10008</NHAP>
+    <XUAT>1770</XUAT>
+    <TON>14855</TON>
+    <TUTRUC>130</TUTRUC>
+    <TC>14985</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>VIT009</MA>
+    <TEN>Vit. C 0,50g</TEN>
+    <DANG>Viên</DANG>
+    <STTNHOM>10</STTNHOM>
+    <TENNHOM>Thuốc viên</TENNHOM>
+    <TENHANG>Vidipha</TENHANG>
+    <xuatmax>1770</xuatmax>
+    <ghichu>1,770.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>8698</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>69</XUAT>
+    <TON>962</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>962</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>VIT016</MA>
+    <TEN>Vit. A 5.000 UI</TEN>
+    <DANG>Viên</DANG>
+    <STTNHOM>10</STTNHOM>
+    <TENNHOM>Thuốc viên</TENNHOM>
+    <TENHANG>DP 2/9, Cty CP</TENHANG>
+    <xuatmax>69</xuatmax>
+    <ghichu>69.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>18081</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>0</XUAT>
+    <TON>1</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>1</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>VIT017</MA>
+    <TEN>Vitamine E (VN) 400UI</TEN>
+    <DANG>viên</DANG>
+    <STTNHOM>10</STTNHOM>
+    <TENNHOM>Thuốc viên</TENNHOM>
+    <TENHANG>O.P.V</TENHANG>
+    <xuatmax>0</xuatmax>
+    <ghichu />
+  </Table>
+  <Table>
+    <MABD>9099</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>4.25</XUAT>
+    <TON>12.75</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>12.75</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>ACE006</MA>
+    <TEN>Acemuc 200mg</TEN>
+    <DANG>Gói</DANG>
+    <STTNHOM>11</STTNHOM>
+    <TENNHOM>Thuốc bột, nước</TENNHOM>
+    <TENHANG>Sanofi</TENHANG>
+    <xuatmax>4.25</xuatmax>
+    <ghichu>4.25 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>8354</MABD>
+    <NHAP>30</NHAP>
+    <XUAT>16</XUAT>
+    <TON>38</TON>
+    <TUTRUC>5</TUTRUC>
+    <TC>43</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>CEE001</MA>
+    <TEN>Ceelin drops 15ml</TEN>
+    <DANG>Chai</DANG>
+    <STTNHOM>11</STTNHOM>
+    <TENNHOM>Thuốc bột, nước</TENNHOM>
+    <TENHANG>United Pharma</TENHANG>
+    <xuatmax>16</xuatmax>
+    <ghichu>16.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>7410</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>0</XUAT>
+    <TON>6</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>6</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>NUT005</MA>
+    <TEN>Nutroplex sp. 60ml</TEN>
+    <DANG>Chai</DANG>
+    <STTNHOM>11</STTNHOM>
+    <TENNHOM>Thuốc bột, nước</TENNHOM>
+    <TENHANG>United Pharma</TENHANG>
+    <xuatmax>0</xuatmax>
+    <ghichu />
+  </Table>
+  <Table>
+    <MABD>7242</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>0</XUAT>
+    <TON>0</TON>
+    <TUTRUC>10</TUTRUC>
+    <TC>10</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>EFF001</MA>
+    <TEN>Efferalgan supp. 0,08g</TEN>
+    <DANG>Viên đặt</DANG>
+    <STTNHOM>12</STTNHOM>
+    <TENNHOM>Thuốc dùng ngoài</TENNHOM>
+    <TENHANG>UPSA</TENHANG>
+    <xuatmax>0</xuatmax>
+    <ghichu />
+  </Table>
+  <Table>
+    <MABD>7243</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>0</XUAT>
+    <TON>0</TON>
+    <TUTRUC>10</TUTRUC>
+    <TC>10</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>EFF002</MA>
+    <TEN>Efferalgan supp. 0,15g</TEN>
+    <DANG>Viên đặt</DANG>
+    <STTNHOM>12</STTNHOM>
+    <TENNHOM>Thuốc dùng ngoài</TENNHOM>
+    <TENHANG>UPSA</TENHANG>
+    <xuatmax>0</xuatmax>
+    <ghichu />
+  </Table>
+  <Table>
+    <MABD>7006</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>1</XUAT>
+    <TON>0</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>0</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>FLU003</MA>
+    <TEN>Fluorets </TEN>
+    <DANG>Hộp</DANG>
+    <STTNHOM>12</STTNHOM>
+    <TENNHOM>Thuốc dùng ngoài</TENNHOM>
+    <TENHANG>Chauvin</TENHANG>
+    <xuatmax>1</xuatmax>
+    <ghichu>1.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>9302</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>0</XUAT>
+    <TON>4</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>4</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>LID006</MA>
+    <TEN>Lidocaine Spray 10%</TEN>
+    <DANG>Lọ</DANG>
+    <STTNHOM>12</STTNHOM>
+    <TENNHOM>Thuốc dùng ngoài</TENNHOM>
+    <TENHANG>Egis-Hungary</TENHANG>
+    <xuatmax>0</xuatmax>
+    <ghichu />
+  </Table>
+  <Table>
+    <MABD>7007</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>0</XUAT>
+    <TON>0</TON>
+    <TUTRUC>10</TUTRUC>
+    <TC>10</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>POV001</MA>
+    <TEN>Povidine coll. 5% 20ml</TEN>
+    <DANG>Lọ</DANG>
+    <STTNHOM>12</STTNHOM>
+    <TENNHOM>Thuốc dùng ngoài</TENNHOM>
+    <TENHANG>Pharmedic</TENHANG>
+    <xuatmax>0</xuatmax>
+    <ghichu />
+  </Table>
+  <Table>
+    <MABD>8918</MABD>
+    <NHAP>450</NHAP>
+    <XUAT>70</XUAT>
+    <TON>744</TON>
+    <TUTRUC>20</TUTRUC>
+    <TC>764</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>POV005</MA>
+    <TEN>Povidine 5%</TEN>
+    <DANG>Lọ</DANG>
+    <STTNHOM>12</STTNHOM>
+    <TENNHOM>Thuốc dùng ngoài</TENNHOM>
+    <TENHANG>Pharmedic</TENHANG>
+    <xuatmax>70</xuatmax>
+    <ghichu>70.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>7405</MABD>
+    <NHAP>8</NHAP>
+    <XUAT>8</XUAT>
+    <TON>0</TON>
+    <TUTRUC>3</TUTRUC>
+    <TC>3</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>VEN002</MA>
+    <TEN>Ventoline spray 100mcg</TEN>
+    <DANG>Lọ</DANG>
+    <STTNHOM>12</STTNHOM>
+    <TENNHOM>Thuốc dùng ngoài</TENNHOM>
+    <TENHANG>Glaxo</TENHANG>
+    <xuatmax>8</xuatmax>
+    <ghichu>8.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>6943</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>0</XUAT>
+    <TON>1</TON>
+    <TUTRUC>3</TUTRUC>
+    <TC>4</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>GLU001</MA>
+    <TEN>Glucoza  30% 500ml</TEN>
+    <DANG>Chai</DANG>
+    <STTNHOM>23</STTNHOM>
+    <TENNHOM>Dịch truyền</TENNHOM>
+    <TENHANG>France</TENHANG>
+    <xuatmax>0</xuatmax>
+    <ghichu />
+  </Table>
+  <Table>
+    <MABD>7414</MABD>
+    <NHAP>103</NHAP>
+    <XUAT>126</XUAT>
+    <TON>340</TON>
+    <TUTRUC>39</TUTRUC>
+    <TC>379</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>GLU002</MA>
+    <TEN>Glucoza  5% 500ml</TEN>
+    <DANG>Chai</DANG>
+    <STTNHOM>23</STTNHOM>
+    <TENNHOM>Dịch truyền</TENNHOM>
+    <TENHANG>B.Braun-VN</TENHANG>
+    <xuatmax>126</xuatmax>
+    <ghichu>126.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>6945</MABD>
+    <NHAP>404</NHAP>
+    <XUAT>37</XUAT>
+    <TON>437</TON>
+    <TUTRUC>23</TUTRUC>
+    <TC>460</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>LAC002</MA>
+    <TEN>Lactate Ringer 500ml</TEN>
+    <DANG>Chai</DANG>
+    <STTNHOM>23</STTNHOM>
+    <TENNHOM>Dịch truyền</TENNHOM>
+    <TENHANG>B.Braun</TENHANG>
+    <xuatmax>37</xuatmax>
+    <ghichu>37.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>6950</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>0</XUAT>
+    <TON>0</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>0</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>NAT001</MA>
+    <TEN>Natri Chlorure 0,9% bc 500ml</TEN>
+    <DANG>Chai</DANG>
+    <STTNHOM>23</STTNHOM>
+    <TENNHOM>Dịch truyền</TENNHOM>
+    <TENHANG>Bình Định</TENHANG>
+    <xuatmax>0</xuatmax>
+    <ghichu />
+  </Table>
+  <Table>
+    <MABD>7014</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>0</XUAT>
+    <TON>0</TON>
+    <TUTRUC>4</TUTRUC>
+    <TC>4</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>NAT002</MA>
+    <TEN>Natri Bicarbonate 1,4% 250ml</TEN>
+    <DANG>Chai</DANG>
+    <STTNHOM>23</STTNHOM>
+    <TENNHOM>Dịch truyền</TENNHOM>
+    <TENHANG>France</TENHANG>
+    <xuatmax>0</xuatmax>
+    <ghichu />
+  </Table>
+  <Table>
+    <MABD>8844</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>23</XUAT>
+    <TON>223</TON>
+    <TUTRUC>44</TUTRUC>
+    <TC>267</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>NAT007</MA>
+    <TEN>Natri chlorure 0,9% 500ml</TEN>
+    <DANG>Chai</DANG>
+    <STTNHOM>23</STTNHOM>
+    <TENNHOM>Dịch truyền</TENNHOM>
+    <TENHANG>B.Braun</TENHANG>
+    <xuatmax>23</xuatmax>
+    <ghichu>23.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>8430</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>14</XUAT>
+    <TON>19</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>19</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>NUO005</MA>
+    <TEN>Nước cất 500ml</TEN>
+    <DANG>Chai</DANG>
+    <STTNHOM>23</STTNHOM>
+    <TENNHOM>Dịch truyền</TENNHOM>
+    <TENHANG>Việt Nam</TENHANG>
+    <xuatmax>14</xuatmax>
+    <ghichu>14.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>6874</MABD>
+    <NHAP>1</NHAP>
+    <XUAT>53</XUAT>
+    <TON>88</TON>
+    <TUTRUC>18</TUTRUC>
+    <TC>106</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>CIL001</MA>
+    <TEN>Ciloxan coll. 0,3% 5ml</TEN>
+    <DANG>Lọ</DANG>
+    <STTNHOM>24</STTNHOM>
+    <TENNHOM>Kháng sinh nhỏ mắt</TENNHOM>
+    <TENHANG>Alcon</TENHANG>
+    <xuatmax>53</xuatmax>
+    <ghichu>53.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>6875</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>26</XUAT>
+    <TON>100</TON>
+    <TUTRUC>10</TUTRUC>
+    <TC>110</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>CIP001</MA>
+    <TEN>Ciplox coll. 0,3% 5ml</TEN>
+    <DANG>Lọ</DANG>
+    <STTNHOM>24</STTNHOM>
+    <TENNHOM>Kháng sinh nhỏ mắt</TENNHOM>
+    <TENHANG>Cipla</TENHANG>
+    <xuatmax>26</xuatmax>
+    <ghichu>26.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>9095</MABD>
+    <NHAP>200</NHAP>
+    <XUAT>128</XUAT>
+    <TON>209</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>209</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI>Lọ</DONVI>
+    <MA>CRA002</MA>
+    <TEN>Cravit coll. 0,5% 5ml</TEN>
+    <DANG>Lọ</DANG>
+    <STTNHOM>24</STTNHOM>
+    <TENNHOM>Kháng sinh nhỏ mắt</TENNHOM>
+    <TENHANG>Santen</TENHANG>
+    <xuatmax>128</xuatmax>
+    <ghichu>128.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>9041</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>2</XUAT>
+    <TON>4</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>4</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>FUN002</MA>
+    <TEN>Fungizone coll. 0,15%</TEN>
+    <DANG>Lọ</DANG>
+    <STTNHOM>24</STTNHOM>
+    <TENNHOM>Kháng sinh nhỏ mắt</TENNHOM>
+    <TENHANG>Pha chế BV.Mắt</TENHANG>
+    <xuatmax>2</xuatmax>
+    <ghichu>2.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>7869</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>4.5</XUAT>
+    <TON>0</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>0</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>NAT003</MA>
+    <TEN>Natacyn (Alcon) coll. 5%</TEN>
+    <DANG>Lọ</DANG>
+    <STTNHOM>24</STTNHOM>
+    <TENNHOM>Kháng sinh nhỏ mắt</TENNHOM>
+    <TENHANG>Alcon</TENHANG>
+    <xuatmax>4.5</xuatmax>
+    <ghichu>4.50 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>8363</MABD>
+    <NHAP>80</NHAP>
+    <XUAT>13</XUAT>
+    <TON>74</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>74</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>NAT006</MA>
+    <TEN>Natadrop coll. 5%</TEN>
+    <DANG>Lọ</DANG>
+    <STTNHOM>24</STTNHOM>
+    <TENNHOM>Kháng sinh nhỏ mắt</TENNHOM>
+    <TENHANG>Cipla</TENHANG>
+    <xuatmax>13</xuatmax>
+    <ghichu>13.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>6886</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>0</XUAT>
+    <TON>24</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>24</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>NEO002</MA>
+    <TEN>Neocin coll. 0,5%</TEN>
+    <DANG>Lọ</DANG>
+    <STTNHOM>24</STTNHOM>
+    <TENNHOM>Kháng sinh nhỏ mắt</TENNHOM>
+    <TENHANG>Pharmedic</TENHANG>
+    <xuatmax>0</xuatmax>
+    <ghichu />
+  </Table>
+  <Table>
+    <MABD>6893</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>57</XUAT>
+    <TON>173</TON>
+    <TUTRUC>10</TUTRUC>
+    <TC>183</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>OFL001</MA>
+    <TEN>Oflovid coll. 0,3% 5ml</TEN>
+    <DANG>Lọ</DANG>
+    <STTNHOM>24</STTNHOM>
+    <TENNHOM>Kháng sinh nhỏ mắt</TENNHOM>
+    <TENHANG>Santen</TENHANG>
+    <xuatmax>57</xuatmax>
+    <ghichu>57.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>6894</MABD>
+    <NHAP>50</NHAP>
+    <XUAT>8</XUAT>
+    <TON>85</TON>
+    <TUTRUC>5</TUTRUC>
+    <TC>90</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>OFL002</MA>
+    <TEN>Oflovid pde. 3,5g</TEN>
+    <DANG>Tube</DANG>
+    <STTNHOM>24</STTNHOM>
+    <TENNHOM>Kháng sinh nhỏ mắt</TENNHOM>
+    <TENHANG>Santen</TENHANG>
+    <xuatmax>8</xuatmax>
+    <ghichu>8.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>7914</MABD>
+    <NHAP>1</NHAP>
+    <XUAT>2</XUAT>
+    <TON>18</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>18</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>OKA001</MA>
+    <TEN>Okacin coll. 0,3% 5ml</TEN>
+    <DANG>Lọ</DANG>
+    <STTNHOM>24</STTNHOM>
+    <TENNHOM>Kháng sinh nhỏ mắt</TENNHOM>
+    <TENHANG>Ciba</TENHANG>
+    <xuatmax>2</xuatmax>
+    <ghichu>2.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>8818</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>0</XUAT>
+    <TON>4</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>4</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>PRI004</MA>
+    <TEN>Primoptic coll. 10ml</TEN>
+    <DANG>Lọ</DANG>
+    <STTNHOM>24</STTNHOM>
+    <TENNHOM>Kháng sinh nhỏ mắt</TENNHOM>
+    <TENHANG>Allergan</TENHANG>
+    <xuatmax>0</xuatmax>
+    <ghichu />
+  </Table>
+  <Table>
+    <MABD>6901</MABD>
+    <NHAP>100</NHAP>
+    <XUAT>55</XUAT>
+    <TON>213</TON>
+    <TUTRUC>12</TUTRUC>
+    <TC>225</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>TET001</MA>
+    <TEN>Tetracycline pde. 1% 5g</TEN>
+    <DANG>Tube</DANG>
+    <STTNHOM>24</STTNHOM>
+    <TENNHOM>Kháng sinh nhỏ mắt</TENNHOM>
+    <TENHANG>Vidipha</TENHANG>
+    <xuatmax>55</xuatmax>
+    <ghichu>55.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>6903</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>50</XUAT>
+    <TON>115</TON>
+    <TUTRUC>15</TUTRUC>
+    <TC>130</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>TOB002</MA>
+    <TEN>Tobrex coll. 0,3% 5ml</TEN>
+    <DANG>Lọ</DANG>
+    <STTNHOM>24</STTNHOM>
+    <TENNHOM>Kháng sinh nhỏ mắt</TENNHOM>
+    <TENHANG>Alcon</TENHANG>
+    <xuatmax>50</xuatmax>
+    <ghichu>50.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>6904</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>8</XUAT>
+    <TON>64</TON>
+    <TUTRUC>13</TUTRUC>
+    <TC>77</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>TOB003</MA>
+    <TEN>Tobrex pde. 0,3% 3,5g</TEN>
+    <DANG>Tube</DANG>
+    <STTNHOM>24</STTNHOM>
+    <TENNHOM>Kháng sinh nhỏ mắt</TENNHOM>
+    <TENHANG>Alcon</TENHANG>
+    <xuatmax>8</xuatmax>
+    <ghichu>8.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>19025</MABD>
+    <NHAP>102</NHAP>
+    <XUAT>41</XUAT>
+    <TON>141</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>141</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>VIG001</MA>
+    <TEN>Vigamox coll. 0,5%</TEN>
+    <DANG>Lọ</DANG>
+    <STTNHOM>24</STTNHOM>
+    <TENNHOM>Kháng sinh nhỏ mắt</TENNHOM>
+    <TENHANG>Alcon</TENHANG>
+    <xuatmax>41</xuatmax>
+    <ghichu>41.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>6868</MABD>
+    <NHAP>10</NHAP>
+    <XUAT>10</XUAT>
+    <TON>23</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>23</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC> </NHACC>
+    <DONVI />
+    <MA>ZOV001</MA>
+    <TEN>Zovirax pde. 3% 4,5g</TEN>
+    <DANG>Tube</DANG>
+    <STTNHOM>24</STTNHOM>
+    <TENNHOM>Kháng sinh nhỏ mắt</TENNHOM>
+    <TENHANG>Glaxo</TENHANG>
+    <xuatmax>10</xuatmax>
+    <ghichu>10.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>19548</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>12</XUAT>
+    <TON>79</TON>
+    <TUTRUC>7</TUTRUC>
+    <TC>86</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC>Chánh Đức, Cty TNHH DVTMDP</NHACC>
+    <DONVI>Ố</DONVI>
+    <MA>PAN002</MA>
+    <TEN>Panagesic 20mg/ml</TEN>
+    <DANG>Ống</DANG>
+    <STTNHOM>9</STTNHOM>
+    <TENNHOM>Thuốc tiêm</TENNHOM>
+    <TENHANG>Medochemie</TENHANG>
+    <xuatmax>12</xuatmax>
+    <ghichu>12.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>6878</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>106</XUAT>
+    <TON>0</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>0</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC>Công ty cổ phần y dược phẩm vimedimex</NHACC>
+    <DONVI />
+    <MA>CEL002</MA>
+    <TEN>Celluvisc coll. </TEN>
+    <DANG>Lọ</DANG>
+    <STTNHOM>6</STTNHOM>
+    <TENNHOM>Thuốc nhỏ mắt thường</TENNHOM>
+    <TENHANG>Allergan</TENHANG>
+    <xuatmax>106</xuatmax>
+    <ghichu>106.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>6958</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>14</XUAT>
+    <TON>29</TON>
+    <TUTRUC>10</TUTRUC>
+    <TC>39</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC>Công Ty TNHH DP Vĩnh Tâm</NHACC>
+    <DONVI />
+    <MA>OSM001</MA>
+    <TEN>Osmofundin 20% 250ml</TEN>
+    <DANG>Chai</DANG>
+    <STTNHOM>23</STTNHOM>
+    <TENNHOM>Dịch truyền</TENNHOM>
+    <TENHANG>B.Braun</TENHANG>
+    <xuatmax>14</xuatmax>
+    <ghichu>14.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>19331</MABD>
+    <NHAP>60</NHAP>
+    <XUAT>60</XUAT>
+    <TON>0</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>0</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC>Cty. TNHH DP Hửu  Khánh</NHACC>
+    <DONVI />
+    <MA>GLI001</MA>
+    <TEN>Gliatilin 400mg</TEN>
+    <DANG>viên</DANG>
+    <STTNHOM>10</STTNHOM>
+    <TENNHOM>Thuốc viên</TENNHOM>
+    <TENHANG>Italfarmaco</TENHANG>
+    <xuatmax>60</xuatmax>
+    <ghichu>60.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>6845</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>32</XUAT>
+    <TON>231</TON>
+    <TUTRUC>33</TUTRUC>
+    <TC>264</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC>Cty. TNHH DP Phương Linh</NHACC>
+    <DONVI />
+    <MA>SOL001</MA>
+    <TEN>Solumedrol 0,04g</TEN>
+    <DANG>ống</DANG>
+    <STTNHOM>3</STTNHOM>
+    <TENNHOM>Thuốc độc B</TENNHOM>
+    <TENHANG>Pharmacia</TENHANG>
+    <xuatmax>32</xuatmax>
+    <ghichu>32.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>8998</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>2.2</XUAT>
+    <TON>91.1</TON>
+    <TUTRUC>3</TUTRUC>
+    <TC>94.1</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC>DL TW II, Cty CP (PHYTOPHARMA)</NHACC>
+    <DONVI />
+    <MA>ISO005</MA>
+    <TEN>Isopto Carpine Coll 1%</TEN>
+    <DANG>Lọ</DANG>
+    <STTNHOM>5</STTNHOM>
+    <TENNHOM>Thuốc nhỏ mắt độc AB</TENNHOM>
+    <TENHANG>Alcon</TENHANG>
+    <xuatmax>2.2</xuatmax>
+    <ghichu>2.20 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>6860</MABD>
+    <NHAP>30</NHAP>
+    <XUAT>23</XUAT>
+    <TON>94</TON>
+    <TUTRUC>6</TUTRUC>
+    <TC>100</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC>DL TW II, Cty CP (PHYTOPHARMA)</NHACC>
+    <DONVI />
+    <MA>MAX002</MA>
+    <TEN>Maxitrol coll. 5ml</TEN>
+    <DANG>Lọ</DANG>
+    <STTNHOM>5</STTNHOM>
+    <TENNHOM>Thuốc nhỏ mắt độc AB</TENNHOM>
+    <TENHANG>Alcon</TENHANG>
+    <xuatmax>23</xuatmax>
+    <ghichu>23.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>6871</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>0</XUAT>
+    <TON>1</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>1</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC>DL TW II, Cty CP (PHYTOPHARMA)</NHACC>
+    <DONVI />
+    <MA>CAT001</MA>
+    <TEN>Catacol coll. 0,1% 10ml</TEN>
+    <DANG>Lọ</DANG>
+    <STTNHOM>6</STTNHOM>
+    <TENNHOM>Thuốc nhỏ mắt thường</TENNHOM>
+    <TENHANG>Alcon</TENHANG>
+    <xuatmax>0</xuatmax>
+    <ghichu />
+  </Table>
+  <Table>
+    <MABD>7879</MABD>
+    <NHAP>140</NHAP>
+    <XUAT>60</XUAT>
+    <TON>98</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>98</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC>DL TW II, Cty CP (PHYTOPHARMA)</NHACC>
+    <DONVI />
+    <MA>AUG003</MA>
+    <TEN>Augmentin 625mg</TEN>
+    <DANG>Viên</DANG>
+    <STTNHOM>7</STTNHOM>
+    <TENNHOM>Kháng sinh viên</TENNHOM>
+    <TENHANG>Smith Kline Beecham</TENHANG>
+    <xuatmax>60</xuatmax>
+    <ghichu>60.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>6825</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>0</XUAT>
+    <TON>9</TON>
+    <TUTRUC>10</TUTRUC>
+    <TC>19</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC>DL TW II, Cty CP (PHYTOPHARMA)</NHACC>
+    <DONVI />
+    <MA>ADA001</MA>
+    <TEN>Adalate 0,03g</TEN>
+    <DANG>Viên</DANG>
+    <STTNHOM>10</STTNHOM>
+    <TENNHOM>Thuốc viên</TENNHOM>
+    <TENHANG>Bayer</TENHANG>
+    <xuatmax>0</xuatmax>
+    <ghichu />
+  </Table>
+  <Table>
+    <MABD>6962</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>5</XUAT>
+    <TON>12</TON>
+    <TUTRUC>39</TUTRUC>
+    <TC>51</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC>DL TW II, Cty CP (PHYTOPHARMA)</NHACC>
+    <DONVI />
+    <MA>ADA002</MA>
+    <TEN>Adalate 0,01g</TEN>
+    <DANG>Viên</DANG>
+    <STTNHOM>10</STTNHOM>
+    <TENNHOM>Thuốc viên</TENNHOM>
+    <TENHANG>Bayer</TENHANG>
+    <xuatmax>5</xuatmax>
+    <ghichu>5.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>19490</MABD>
+    <NHAP>10007</NHAP>
+    <XUAT>2219</XUAT>
+    <TON>9225</TON>
+    <TUTRUC>196</TUTRUC>
+    <TC>9421</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC>DP TW - Vidipha, Cty CP</NHACC>
+    <DONVI>v</DONVI>
+    <MA>OFL005</MA>
+    <TEN>Ofloxacin (viên) 200mg</TEN>
+    <DANG>Viên</DANG>
+    <STTNHOM>7</STTNHOM>
+    <TENNHOM>Kháng sinh viên</TENNHOM>
+    <TENHANG>Vidipha</TENHANG>
+    <xuatmax>2219</xuatmax>
+    <ghichu>2,219.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>6873</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>0</XUAT>
+    <TON>0</TON>
+    <TUTRUC>55</TUTRUC>
+    <TC>55</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC>DP TW - Vidipha, Cty CP</NHACC>
+    <DONVI />
+    <MA>CHL001</MA>
+    <TEN>Chloramphenicol coll. 0,4% 10ml</TEN>
+    <DANG>Lọ</DANG>
+    <STTNHOM>24</STTNHOM>
+    <TENNHOM>Kháng sinh nhỏ mắt</TENNHOM>
+    <TENHANG>Vidipha</TENHANG>
+    <xuatmax>0</xuatmax>
+    <ghichu />
+  </Table>
+  <Table>
+    <MABD>14257</MABD>
+    <NHAP>1780</NHAP>
+    <XUAT>733</XUAT>
+    <TON>2436</TON>
+    <TUTRUC>65</TUTRUC>
+    <TC>2501</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC>DP TW - Vidipha, Cty CP</NHACC>
+    <DONVI />
+    <MA>CHL005</MA>
+    <TEN>Chloramphenicol 0,4% 10ml (mua) </TEN>
+    <DANG>lọ</DANG>
+    <STTNHOM>24</STTNHOM>
+    <TENNHOM>Kháng sinh nhỏ mắt</TENNHOM>
+    <TENHANG>Vidipha</TENHANG>
+    <xuatmax>733</xuatmax>
+    <ghichu>733.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>8833</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>4</XUAT>
+    <TON>87</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>87</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC>Dược phẩm 3-2, Cty CP</NHACC>
+    <DONVI />
+    <MA>CIP008</MA>
+    <TEN>Ciprofloxacin coll. 0,3% </TEN>
+    <DANG>Lọ</DANG>
+    <STTNHOM>24</STTNHOM>
+    <TENNHOM>Kháng sinh nhỏ mắt</TENNHOM>
+    <TENHANG>DP 3/2, Cty CP</TENHANG>
+    <xuatmax>4</xuatmax>
+    <ghichu>4.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>6880</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>0</XUAT>
+    <TON>76</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>76</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC>Dược phẩm 3-2, Cty CP</NHACC>
+    <DONVI />
+    <MA>GEN001</MA>
+    <TEN>Gentamycin coll. 0,3%</TEN>
+    <DANG>Lọ</DANG>
+    <STTNHOM>24</STTNHOM>
+    <TENNHOM>Kháng sinh nhỏ mắt</TENNHOM>
+    <TENHANG>DP 3/2, Cty CP</TENHANG>
+    <xuatmax>0</xuatmax>
+    <ghichu />
+  </Table>
+  <Table>
+    <MABD>6920</MABD>
+    <NHAP>2</NHAP>
+    <XUAT>163</XUAT>
+    <TON>533</TON>
+    <TUTRUC>30</TUTRUC>
+    <TC>563</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC>Dược TP.HCM, Cty (SAPHARCO)</NHACC>
+    <DONVI />
+    <MA>DOX001</MA>
+    <TEN>Doxycycline 0,10g</TEN>
+    <DANG>Viên</DANG>
+    <STTNHOM>7</STTNHOM>
+    <TENNHOM>Kháng sinh viên</TENNHOM>
+    <TENHANG>Mekophar-VN</TENHANG>
+    <xuatmax>163</xuatmax>
+    <ghichu>163.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>6966</MABD>
+    <NHAP>1000</NHAP>
+    <XUAT>204</XUAT>
+    <TON>1375</TON>
+    <TUTRUC>50</TUTRUC>
+    <TC>1425</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC>Dược TP.HCM, Cty (SAPHARCO)</NHACC>
+    <DONVI />
+    <MA>ACE002</MA>
+    <TEN>Acemol E 0,10g</TEN>
+    <DANG>Viên</DANG>
+    <STTNHOM>10</STTNHOM>
+    <TENNHOM>Thuốc viên</TENNHOM>
+    <TENHANG>DP 2/9, Cty CP</TENHANG>
+    <xuatmax>204</xuatmax>
+    <ghichu>204.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>8168</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>528</XUAT>
+    <TON>495</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>495</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC>Dược TP.HCM, Cty (SAPHARCO)</NHACC>
+    <DONVI />
+    <MA>CAL003</MA>
+    <TEN>Calcium D (Mekophar) </TEN>
+    <DANG>Viên</DANG>
+    <STTNHOM>10</STTNHOM>
+    <TENNHOM>Thuốc viên</TENNHOM>
+    <TENHANG>Mekophar-VN</TENHANG>
+    <xuatmax>528</xuatmax>
+    <ghichu>528.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>6984</MABD>
+    <NHAP>500</NHAP>
+    <XUAT>278</XUAT>
+    <TON>557</TON>
+    <TUTRUC>80</TUTRUC>
+    <TC>637</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC>Dược TP.HCM, Cty (SAPHARCO)</NHACC>
+    <DONVI />
+    <MA>MAG001</MA>
+    <TEN>Magne B6 </TEN>
+    <DANG>Viên</DANG>
+    <STTNHOM>10</STTNHOM>
+    <TENNHOM>Thuốc viên</TENNHOM>
+    <TENHANG>Sanofi-synthelabo VN</TENHANG>
+    <xuatmax>278</xuatmax>
+    <ghichu>278.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>6989</MABD>
+    <NHAP>2</NHAP>
+    <XUAT>216</XUAT>
+    <TON>783</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>783</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC>Dược TP.HCM, Cty (SAPHARCO)</NHACC>
+    <DONVI />
+    <MA>RUT001</MA>
+    <TEN>Rutin C </TEN>
+    <DANG>Viên</DANG>
+    <STTNHOM>10</STTNHOM>
+    <TENNHOM>Thuốc viên</TENNHOM>
+    <TENHANG>Mekophar-VN</TENHANG>
+    <xuatmax>216</xuatmax>
+    <ghichu>216.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>7002</MABD>
+    <NHAP>180</NHAP>
+    <XUAT>55</XUAT>
+    <TON>360</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>360</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC>Dược TP.HCM, Cty (SAPHARCO)</NHACC>
+    <DONVI />
+    <MA>VIT007</MA>
+    <TEN>Vit. E 400UI</TEN>
+    <DANG>Viên</DANG>
+    <STTNHOM>10</STTNHOM>
+    <TENNHOM>Thuốc viên</TENNHOM>
+    <TENHANG>Ampharco-U.S.A.</TENHANG>
+    <xuatmax>55</xuatmax>
+    <ghichu>55.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>8812</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>0</XUAT>
+    <TON>5</TON>
+    <TUTRUC>1</TUTRUC>
+    <TC>6</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC>Dược TP.HCM, Cty (SAPHARCO)</NHACC>
+    <DONVI />
+    <MA>PHE003</MA>
+    <TEN>Phenergan sp. 90ml </TEN>
+    <DANG>Chai</DANG>
+    <STTNHOM>11</STTNHOM>
+    <TENNHOM>Thuốc bột, nước</TENNHOM>
+    <TENHANG>Rhône Poulenc-France</TENHANG>
+    <xuatmax>0</xuatmax>
+    <ghichu />
+  </Table>
+  <Table>
+    <MABD>7013</MABD>
+    <NHAP>5</NHAP>
+    <XUAT>2</XUAT>
+    <TON>9</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>9</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC>Dược TP.HCM, Cty (SAPHARCO)</NHACC>
+    <DONVI />
+    <MA>THE001</MA>
+    <TEN>Theralene sp. 90ml</TEN>
+    <DANG>Chai</DANG>
+    <STTNHOM>11</STTNHOM>
+    <TENNHOM>Thuốc bột, nước</TENNHOM>
+    <TENHANG>Rhône Poulenc-France</TENHANG>
+    <xuatmax>2</xuatmax>
+    <ghichu>2.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>8993</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>4</XUAT>
+    <TON>3</TON>
+    <TUTRUC>23</TUTRUC>
+    <TC>26</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC>Khuong Duy, Cty TNHH DP</NHACC>
+    <DONVI />
+    <MA>NIF001</MA>
+    <TEN>Nifedipine 20mg </TEN>
+    <DANG>Viên</DANG>
+    <STTNHOM>10</STTNHOM>
+    <TENNHOM>Thuốc viên</TENNHOM>
+    <TENHANG>Allergan</TENHANG>
+    <xuatmax>4</xuatmax>
+    <ghichu>4.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>9261</MABD>
+    <NHAP>100</NHAP>
+    <XUAT>6</XUAT>
+    <TON>188</TON>
+    <TUTRUC>12</TUTRUC>
+    <TC>200</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC>Kim Châu, Cty TNHH DP</NHACC>
+    <DONVI />
+    <MA>ADR003</MA>
+    <TEN>Adrenaline (ngoại) 1mg/ml</TEN>
+    <DANG>ống</DANG>
+    <STTNHOM>2</STTNHOM>
+    <TENNHOM>Thuốc độc A</TENNHOM>
+    <TENHANG>Rotex Medica</TENHANG>
+    <xuatmax>6</xuatmax>
+    <ghichu>6.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>19477</MABD>
+    <NHAP>1000</NHAP>
+    <XUAT>239</XUAT>
+    <TON>1000</TON>
+    <TUTRUC>50</TUTRUC>
+    <TC>1050</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC>Nam Trân, Cty TNHH DP</NHACC>
+    <DONVI>v</DONVI>
+    <MA>TRA004</MA>
+    <TEN>Tranexid 500mg</TEN>
+    <DANG>Viên</DANG>
+    <STTNHOM>3</STTNHOM>
+    <TENNHOM>Thuốc độc B</TENNHOM>
+    <TENHANG>Dexamedica</TENHANG>
+    <xuatmax>239</xuatmax>
+    <ghichu>239.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>8813</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>0</XUAT>
+    <TON>11</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>11</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC>Nam Trân, Cty TNHH DP</NHACC>
+    <DONVI />
+    <MA>CEB003</MA>
+    <TEN>Cebedexacol coll. </TEN>
+    <DANG>Lọ</DANG>
+    <STTNHOM>5</STTNHOM>
+    <TENNHOM>Thuốc nhỏ mắt độc AB</TENNHOM>
+    <TENHANG>Chauvin - B &amp; Lomb</TENHANG>
+    <xuatmax>0</xuatmax>
+    <ghichu />
+  </Table>
+  <Table>
+    <MABD>7897</MABD>
+    <NHAP>200</NHAP>
+    <XUAT>84</XUAT>
+    <TON>196</TON>
+    <TUTRUC>10</TUTRUC>
+    <TC>206</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC>Nam Trân, Cty TNHH DP</NHACC>
+    <DONVI />
+    <MA>FLU011</MA>
+    <TEN>Fluometholon coll. 0,1%</TEN>
+    <DANG>Lọ</DANG>
+    <STTNHOM>5</STTNHOM>
+    <TENNHOM>Thuốc nhỏ mắt độc AB</TENNHOM>
+    <TENHANG>Santen</TENHANG>
+    <xuatmax>84</xuatmax>
+    <ghichu>84.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>6929</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>1</XUAT>
+    <TON>0</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>0</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC>Nam Trân, Cty TNHH DP</NHACC>
+    <DONVI />
+    <MA>FUN001</MA>
+    <TEN>Fungizone 0,05g</TEN>
+    <DANG>Lọ</DANG>
+    <STTNHOM>8</STTNHOM>
+    <TENNHOM>Kháng sinh tiêm</TENNHOM>
+    <TENHANG>Bristol-Myers Squibb</TENHANG>
+    <xuatmax>1</xuatmax>
+    <ghichu>1.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>19473</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>0</XUAT>
+    <TON>30</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>30</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC>Nam Trân, Cty TNHH DP</NHACC>
+    <DONVI>v</DONVI>
+    <MA>NIF002</MA>
+    <TEN>Nifehexal 20mg</TEN>
+    <DANG>Viên</DANG>
+    <STTNHOM>10</STTNHOM>
+    <TENNHOM>Thuốc viên</TENNHOM>
+    <TENHANG>Hexal</TENHANG>
+    <xuatmax>0</xuatmax>
+    <ghichu />
+  </Table>
+  <Table>
+    <MABD>7886</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>10</XUAT>
+    <TON>91</TON>
+    <TUTRUC>5</TUTRUC>
+    <TC>96</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC>Nam Trân, Cty TNHH DP</NHACC>
+    <DONVI />
+    <MA>CEB001</MA>
+    <TEN>Cebemyxine pde. </TEN>
+    <DANG>Tube</DANG>
+    <STTNHOM>24</STTNHOM>
+    <TENNHOM>Kháng sinh nhỏ mắt</TENNHOM>
+    <TENHANG>Chauvin - B &amp; Lomb</TENHANG>
+    <xuatmax>10</xuatmax>
+    <ghichu>10.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>9245</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>15</XUAT>
+    <TON>64</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>64</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC>Nam Trân, Cty TNHH DP</NHACC>
+    <DONVI />
+    <MA>CEB004</MA>
+    <TEN>Cebemyxine coll. </TEN>
+    <DANG>Lọ</DANG>
+    <STTNHOM>24</STTNHOM>
+    <TENNHOM>Kháng sinh nhỏ mắt</TENNHOM>
+    <TENHANG>Chauvin - B &amp; Lomb</TENHANG>
+    <xuatmax>15</xuatmax>
+    <ghichu>15.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>18971</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>0</XUAT>
+    <TON>29</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>29</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC>Nam Trân, Cty TNHH DP</NHACC>
+    <DONVI>l</DONVI>
+    <MA>OPH001</MA>
+    <TEN>Ophtagram coll. 0,3%</TEN>
+    <DANG>lọ</DANG>
+    <STTNHOM>24</STTNHOM>
+    <TENNHOM>Kháng sinh nhỏ mắt</TENNHOM>
+    <TENHANG>Chauvin</TENHANG>
+    <xuatmax>0</xuatmax>
+    <ghichu />
+  </Table>
+  <Table>
+    <MABD>9094</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>0</XUAT>
+    <TON>26</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>26</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC>Nhân Tâm, Cty TNHH DP</NHACC>
+    <DONVI />
+    <MA>APO001</MA>
+    <TEN>Apo - Indomethacin 25mg</TEN>
+    <DANG>Viên</DANG>
+    <STTNHOM>10</STTNHOM>
+    <TENNHOM>Thuốc viên</TENNHOM>
+    <TENHANG>Apotex</TENHANG>
+    <xuatmax>0</xuatmax>
+    <ghichu />
+  </Table>
+  <Table>
+    <MABD>19491</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>0</XUAT>
+    <TON>100</TON>
+    <TUTRUC>0</TUTRUC>
+    <TC>100</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC>Trà Vinh, Cty Dược VTYT</NHACC>
+    <DONVI>lọ</DONVI>
+    <MA>BRU002</MA>
+    <TEN>Brulamycin coll. 0,3%</TEN>
+    <DANG>lọ</DANG>
+    <STTNHOM>24</STTNHOM>
+    <TENNHOM>Kháng sinh nhỏ mắt</TENNHOM>
+    <TENHANG>Teva</TENHANG>
+    <xuatmax>0</xuatmax>
+    <ghichu />
+  </Table>
+  <Table>
+    <MABD>6963</MABD>
+    <NHAP>6484</NHAP>
+    <XUAT>2728</XUAT>
+    <TON>7449</TON>
+    <TUTRUC>50</TUTRUC>
+    <TC>7499</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC>Y Dược phẩm Việt Nam, Cty CP</NHACC>
+    <DONVI />
+    <MA>ALP001</MA>
+    <TEN>Alphachymotrypsine 25 U.C.Hb</TEN>
+    <DANG>Viên</DANG>
+    <STTNHOM>10</STTNHOM>
+    <TENNHOM>Thuốc viên</TENNHOM>
+    <TENHANG>Sanofi</TENHANG>
+    <xuatmax>2728</xuatmax>
+    <ghichu>2,728.00 tháng 01</ghichu>
+  </Table>
+  <Table>
+    <MABD>7236</MABD>
+    <NHAP>0</NHAP>
+    <XUAT>0</XUAT>
+    <TON>0</TON>
+    <TUTRUC>6</TUTRUC>
+    <TC>6</TC>
+    <L1>0</L1>
+    <D1>0</D1>
+    <L2>0</L2>
+    <D2>0</D2>
+    <NHACC>Yteco-Cty CP XNK Y tế</NHACC>
+    <DONVI />
+    <MA>PIP001</MA>
+    <TEN>Pipolphene 0,05g 2ml</TEN>
+    <DANG>ống</DANG>
+    <STTNHOM>3</STTNHOM>
+    <TENNHOM>Thuốc độc B</TENNHOM>
+    <TENHANG>Chinois-Hungary</TENHANG>
+    <xuatmax>0</xuatmax>
+    <ghichu />
+  </Table>
+</NewDataSet>

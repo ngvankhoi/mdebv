@@ -1,0 +1,166 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Table" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="stt" type="xs:decimal" minOccurs="0" />
+                <xs:element name="doituong" type="xs:string" minOccurs="0" />
+                <xs:element name="mabd" type="xs:int" minOccurs="0" />
+                <xs:element name="ma" type="xs:string" minOccurs="0" />
+                <xs:element name="ten" type="xs:string" minOccurs="0" />
+                <xs:element name="tenhc" type="xs:string" minOccurs="0" />
+                <xs:element name="dang" type="xs:string" minOccurs="0" />
+                <xs:element name="tenkho" type="xs:string" minOccurs="0" />
+                <xs:element name="soluong" type="xs:decimal" minOccurs="0" />
+                <xs:element name="madoituong" type="xs:decimal" minOccurs="0" />
+                <xs:element name="makho" type="xs:decimal" minOccurs="0" />
+                <xs:element name="cachdung" type="xs:string" minOccurs="0" />
+                <xs:element name="mahc" type="xs:string" minOccurs="0" />
+                <xs:element name="diung" type="xs:string" minOccurs="0" />
+                <xs:element name="manguon" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tutruc" type="xs:int" minOccurs="0" />
+                <xs:element name="idvpkhoa" type="xs:int" minOccurs="0" />
+                <xs:element name="solan" type="xs:decimal" minOccurs="0" />
+                <xs:element name="lan" type="xs:decimal" minOccurs="0" />
+                <xs:element name="dongia" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sotien" type="xs:decimal" minOccurs="0" />
+                <xs:element name="giaban" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sotienban" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sttin" type="xs:decimal" minOccurs="0" />
+                <xs:element name="nhomin" type="xs:string" minOccurs="0" />
+                <xs:element name="tu" type="xs:string" minOccurs="0" />
+                <xs:element name="den" type="xs:string" minOccurs="0" />
+                <xs:element name="id" type="xs:decimal" minOccurs="0" />
+                <xs:element name="loaiba" type="xs:decimal" minOccurs="0" />
+                <xs:element name="hangsx" type="xs:string" minOccurs="0" />
+                <xs:element name="nuocsx" type="xs:string" minOccurs="0" />
+                <xs:element name="Image" type="xs:base64Binary" minOccurs="0" />
+                <xs:element name="ngayhen" type="xs:string" minOccurs="0" />
+                <xs:element name="ghichuhen" type="xs:string" minOccurs="0" />
+                <xs:element name="tungay" type="xs:string" minOccurs="0" />
+                <xs:element name="denngay" type="xs:string" minOccurs="0" />
+                <xs:element name="noidkkcb" type="xs:string" minOccurs="0" />
+                <xs:element name="tenuser" type="xs:string" minOccurs="0" />
+                <xs:element name="lanin" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sophieu" type="xs:decimal" minOccurs="0" />
+                <xs:element name="nguoinha" type="xs:string" minOccurs="0" />
+                <xs:element name="giuong" type="xs:string" minOccurs="0" />
+                <xs:element name="maicd" type="xs:string" minOccurs="0" />
+                <xs:element name="mach" type="xs:decimal" minOccurs="0" />
+                <xs:element name="nhietdo" type="xs:decimal" minOccurs="0" />
+                <xs:element name="huyetap" type="xs:string" minOccurs="0" />
+                <xs:element name="cannang" type="xs:decimal" minOccurs="0" />
+                <xs:element name="chieucao" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tennn" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <stt>1</stt>
+    <doituong>BHYT</doituong>
+    <mabd>0</mabd>
+    <ma>AMI008</ma>
+    <ten>Aminazin 25mg</ten>
+    <tenhc>Clorpromazin</tenhc>
+    <dang>Viên</dang>
+    <tenkho>Quầy thuốc BHYT </tenkho>
+    <soluong>4.0000</soluong>
+    <madoituong>1</madoituong>
+    <makho>3</makho>
+    <cachdung>Uống 01 viên 13h, 01 viên 18h</cachdung>
+    <mahc>CLO081+</mahc>
+    <diung xml:space="preserve"> </diung>
+    <manguon>1</manguon>
+    <tutruc>0</tutruc>
+    <idvpkhoa>0</idvpkhoa>
+    <solan>1</solan>
+    <lan>1.0000</lan>
+    <dongia>68.0000000000</dongia>
+    <sotien>272.00000000000000</sotien>
+    <giaban>68.0000</giaban>
+    <sotienban>272.00000000</sotienban>
+    <sttin>4</sttin>
+    <nhomin>Thuốc viên ( bỏ )</nhomin>
+    <tu>29/10/2010</tu>
+    <den>31/10/2010</den>
+    <id>101029000000001256</id>
+    <loaiba>3</loaiba>
+    <hangsx>CT CPDP TW2</hangsx>
+    <nuocsx>Việt nam</nuocsx>
+    <ngayhen />
+    <ghichuhen />
+    <tungay>01/01/2010</tungay>
+    <denngay>31/12/2010</denngay>
+    <noidkkcb>Bv đa khoa Thị xã Tam Kỳ</noidkkcb>
+    <tenuser>administrator</tenuser>
+    <lanin>0</lanin>
+    <sophieu>0</sophieu>
+    <nguoinha />
+    <giuong />
+    <maicd>K21</maicd>
+    <mach>0</mach>
+    <nhietdo>0</nhietdo>
+    <huyetap />
+    <cannang>0</cannang>
+    <chieucao>0</chieucao>
+    <tennn>Nông dân</tennn>
+  </Table>
+  <Table>
+    <stt>2</stt>
+    <doituong>BHYT</doituong>
+    <mabd>0</mabd>
+    <ma>ACY003</ma>
+    <ten>Acyclovir Stada 400mg</ten>
+    <tenhc>Acyclovir</tenhc>
+    <dang>Viên</dang>
+    <tenkho>Quầy thuốc BHYT </tenkho>
+    <soluong>1.0000</soluong>
+    <madoituong>1</madoituong>
+    <makho>3</makho>
+    <cachdung />
+    <mahc>ACY001+</mahc>
+    <diung xml:space="preserve"> </diung>
+    <manguon>1</manguon>
+    <tutruc>0</tutruc>
+    <idvpkhoa>0</idvpkhoa>
+    <solan>1</solan>
+    <lan>1.0000</lan>
+    <dongia>2800.0000000000</dongia>
+    <sotien>2800.00000000000000</sotien>
+    <giaban>2800.0000</giaban>
+    <sotienban>2800.00000000</sotienban>
+    <sttin>4</sttin>
+    <nhomin>Thuốc viên ( bỏ )</nhomin>
+    <tu>29/10/2010</tu>
+    <den>31/10/2010</den>
+    <id>101029000000001256</id>
+    <loaiba>3</loaiba>
+    <hangsx>CT liên doanh Stada - VN</hangsx>
+    <nuocsx>Việt nam</nuocsx>
+    <ngayhen />
+    <ghichuhen />
+    <tungay>01/01/2010</tungay>
+    <denngay>31/12/2010</denngay>
+    <noidkkcb>Bv đa khoa Thị xã Tam Kỳ</noidkkcb>
+    <tenuser>administrator</tenuser>
+    <lanin>0</lanin>
+    <sophieu>0</sophieu>
+    <nguoinha />
+    <giuong />
+    <maicd>K21</maicd>
+    <mach>0</mach>
+    <nhietdo>0</nhietdo>
+    <huyetap />
+    <cannang>0</cannang>
+    <chieucao>0</chieucao>
+    <tennn>Nông dân</tennn>
+  </Table>
+</NewDataSet>

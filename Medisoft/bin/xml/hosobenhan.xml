@@ -1,0 +1,247 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Hosobenhan">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="stt" type="xs:decimal" minOccurs="0" />
+                <xs:element name="soluutru" type="xs:string" minOccurs="0" />
+                <xs:element name="mabn" type="xs:string" minOccurs="0" />
+                <xs:element name="benhan" type="xs:string" minOccurs="0" />
+                <xs:element name="hoten" type="xs:string" minOccurs="0" />
+                <xs:element name="nam" type="xs:string" minOccurs="0" />
+                <xs:element name="nu" type="xs:string" minOccurs="0" />
+                <xs:element name="CVC" type="xs:string" minOccurs="0" />
+                <xs:element name="bhyt" type="xs:string" minOccurs="0" />
+                <xs:element name="Thanhthi" type="xs:string" minOccurs="0" />
+                <xs:element name="Nongthon" type="xs:string" minOccurs="0" />
+                <xs:element name="TEduoi12" type="xs:string" minOccurs="0" />
+                <xs:element name="TE1-15" type="xs:string" minOccurs="0" />
+                <xs:element name="nghenghiep" type="xs:string" minOccurs="0" />
+                <xs:element name="diachi" type="xs:string" minOccurs="0" />
+                <xs:element name="noigioithieu" type="xs:string" minOccurs="0" />
+                <xs:element name="vaovien" type="xs:string" minOccurs="0" />
+                <xs:element name="Chuyenvien" type="xs:string" minOccurs="0" />
+                <xs:element name="ravien" type="xs:string" minOccurs="0" />
+                <xs:element name="CDGioithieu" type="xs:string" minOccurs="0" />
+                <xs:element name="CDvao" type="xs:string" minOccurs="0" />
+                <xs:element name="CDRA" type="xs:string" minOccurs="0" />
+                <xs:element name="kq_1" type="xs:string" minOccurs="0" />
+                <xs:element name="kq_2" type="xs:string" minOccurs="0" />
+                <xs:element name="kq_3" type="xs:string" minOccurs="0" />
+                <xs:element name="kq_4" type="xs:string" minOccurs="0" />
+                <xs:element name="kq_5" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Hosobenhan>
+    <stt>1</stt>
+    <soluutru>11702432</soluutru>
+    <mabn>11702432</mabn>
+    <benhan>Bệnh án phụ khoa</benhan>
+    <hoten>NGUYỄN THỊ HỒNG TUYÊN</hoten>
+    <nam />
+    <nu>1987</nu>
+    <CVC />
+    <bhyt>X</bhyt>
+    <Thanhthi />
+    <Nongthon />
+    <TEduoi12 />
+    <TE1-15 />
+    <nghenghiep>Công nhân</nghenghiep>
+    <diachi> Ấp 6 Lộc Thuận,H. Lộc Ninh,Bình Phước</diachi>
+    <noigioithieu />
+    <vaovien>21/11/2011 09:28</vaovien>
+    <Chuyenvien />
+    <ravien>12/12/2011 16:42</ravien>
+    <CDGioithieu />
+    <CDvao>con so 33w(kc) thuận chuyển dạ sanh non</CDvao>
+    <CDRA>Viêm phế quản cấp</CDRA>
+    <kq_1>X</kq_1>
+    <kq_2 />
+    <kq_3 />
+    <kq_4 />
+    <kq_5 />
+  </Hosobenhan>
+  <Hosobenhan>
+    <stt>2</stt>
+    <soluutru>11702436</soluutru>
+    <mabn>11702436</mabn>
+    <benhan>Bệnh án sản khoa</benhan>
+    <hoten>PHẠM THỊ TUYẾT MAI</hoten>
+    <nam />
+    <nu>1985</nu>
+    <CVC>X</CVC>
+    <bhyt>X</bhyt>
+    <Thanhthi />
+    <Nongthon />
+    <TEduoi12 />
+    <TE1-15 />
+    <nghenghiep>Hành chính, sự nghiệp</nghenghiep>
+    <diachi> HÒA CƯỜNG Minh Hòa,Huyên Dầu Tiếng,Bình Dương</diachi>
+    <noigioithieu />
+    <vaovien>21/11/2011 11:54</vaovien>
+    <Chuyenvien />
+    <ravien>13/12/2011 10:31</ravien>
+    <CDGioithieu />
+    <CDvao>CON SO 40,5W(SA) THUẬN BCD</CDvao>
+    <CDRA>Viêm phế quản cấp</CDRA>
+    <kq_1>X</kq_1>
+    <kq_2 />
+    <kq_3 />
+    <kq_4 />
+    <kq_5 />
+  </Hosobenhan>
+  <Hosobenhan>
+    <stt>3</stt>
+    <soluutru>11702443</soluutru>
+    <mabn>11702443</mabn>
+    <benhan>Bệnh án phụ khoa</benhan>
+    <hoten>NGUYỄN THỊ NY LEN</hoten>
+    <nam />
+    <nu>1977</nu>
+    <CVC />
+    <bhyt>X</bhyt>
+    <Thanhthi />
+    <Nongthon />
+    <TEduoi12 />
+    <TE1-15 />
+    <nghenghiep>Công nhân</nghenghiep>
+    <diachi>28/8 BÌNH PHƯỚC B TT. An Thạnh,H. Thuận An,Bình Dương</diachi>
+    <noigioithieu />
+    <vaovien>22/11/2011 13:52</vaovien>
+    <Chuyenvien />
+    <ravien>14/12/2011 17:06</ravien>
+    <CDGioithieu />
+    <CDvao>THAI LẦN 3 16W(SA)/ RA HUYẾT</CDvao>
+    <CDRA>Viêm phế quản cấp</CDRA>
+    <kq_1>X</kq_1>
+    <kq_2 />
+    <kq_3 />
+    <kq_4 />
+    <kq_5 />
+  </Hosobenhan>
+  <Hosobenhan>
+    <stt>4</stt>
+    <soluutru>11702449</soluutru>
+    <mabn>11702449</mabn>
+    <benhan>Bệnh án nội khoa</benhan>
+    <hoten>LÊ THỊ PHƯƠNG LAN</hoten>
+    <nam />
+    <nu>1984</nu>
+    <CVC />
+    <bhyt>X</bhyt>
+    <Thanhthi />
+    <Nongthon />
+    <TEduoi12 />
+    <TE1-15 />
+    <nghenghiep>Nội Trợ</nghenghiep>
+    <diachi>  Thiện Tân,H. Vĩnh Cừu,Đồng Nai</diachi>
+    <noigioithieu />
+    <vaovien>23/11/2011 18:28</vaovien>
+    <Chuyenvien />
+    <ravien>08/12/2011 14:31</ravien>
+    <CDGioithieu />
+    <CDvao>CON SO THAI 37.5 TUẦN (SA) NGÔI MÔNG BCD/TD THIỂU ỐI </CDvao>
+    <CDRA>Múa giật do thấp</CDRA>
+    <kq_1>X</kq_1>
+    <kq_2 />
+    <kq_3 />
+    <kq_4 />
+    <kq_5 />
+  </Hosobenhan>
+  <Hosobenhan>
+    <stt>5</stt>
+    <soluutru>11702457</soluutru>
+    <mabn>11702457</mabn>
+    <benhan>Bệnh án phụ khoa</benhan>
+    <hoten>VÕ THỊ TUYẾT MAI</hoten>
+    <nam />
+    <nu>1980</nu>
+    <CVC />
+    <bhyt>X</bhyt>
+    <Thanhthi />
+    <Nongthon />
+    <TEduoi12 />
+    <TE1-15 />
+    <nghenghiep>Công nhân</nghenghiep>
+    <diachi> ẤP AN HÒA Trung An,H. Củ Chi,Tp. H C M</diachi>
+    <noigioithieu />
+    <vaovien>24/11/2011 09:18</vaovien>
+    <Chuyenvien />
+    <ravien>05/12/2011 15:25</ravien>
+    <CDGioithieu />
+    <CDvao>CON LẦN 2 ĐỦ THÁNG (BCTC) THUẬN CDHD</CDvao>
+    <CDRA>Viêm phế quản cấp</CDRA>
+    <kq_1>X</kq_1>
+    <kq_2 />
+    <kq_3 />
+    <kq_4 />
+    <kq_5 />
+  </Hosobenhan>
+  <Hosobenhan>
+    <stt>6</stt>
+    <soluutru>11888888</soluutru>
+    <mabn>11888888</mabn>
+    <benhan>Bệnh án phụ khoa</benhan>
+    <hoten>VÕ THỊ GÁI TƯ</hoten>
+    <nam />
+    <nu>1986</nu>
+    <CVC />
+    <bhyt>X</bhyt>
+    <Thanhthi />
+    <Nongthon>X</Nongthon>
+    <TEduoi12 />
+    <TE1-15 />
+    <nghenghiep>Nông dân</nghenghiep>
+    <diachi>  An Phú,H. Củ Chi,Tp. H C M</diachi>
+    <noigioithieu />
+    <vaovien>10/12/2011 11:00</vaovien>
+    <Chuyenvien />
+    <ravien>13/12/2011 12:00</ravien>
+    <CDGioithieu />
+    <CDvao>Tăng huyết áp có sẵn gây biến chứng cho thai nghén, cuộc đẻ và sau khi đẻ</CDvao>
+    <CDRA>Tăng huyết áp có sẵn gây biến chứng cho thai nghén, cuộc đẻ và sau khi đẻ</CDRA>
+    <kq_1>X</kq_1>
+    <kq_2 />
+    <kq_3 />
+    <kq_4 />
+    <kq_5 />
+  </Hosobenhan>
+  <Hosobenhan>
+    <stt>7</stt>
+    <soluutru>11999999</soluutru>
+    <mabn>11999999</mabn>
+    <benhan>Bệnh án phụ khoa</benhan>
+    <hoten>HUỲNH VĨNH NGUYÊN</hoten>
+    <nam />
+    <nu>1988</nu>
+    <CVC />
+    <bhyt>X</bhyt>
+    <Thanhthi />
+    <Nongthon />
+    <TEduoi12 />
+    <TE1-15 />
+    <nghenghiep>Công nhân</nghenghiep>
+    <diachi>  P. Phú Lợi,TX. Thủ Dầu Một,Bình Dương</diachi>
+    <noigioithieu />
+    <vaovien>10/12/2011 11:31</vaovien>
+    <Chuyenvien />
+    <ravien>13/12/2011 12:00</ravien>
+    <CDGioithieu />
+    <CDvao>Tăng huyết áp có sẵn gây biến chứng cho thai nghén, cuộc đẻ và sau khi đẻ</CDvao>
+    <CDRA>Tăng huyết áp có sẵn gây biến chứng cho thai nghén, cuộc đẻ và sau khi đẻ</CDRA>
+    <kq_1>X</kq_1>
+    <kq_2 />
+    <kq_3 />
+    <kq_4 />
+    <kq_5 />
+  </Hosobenhan>
+</NewDataSet>

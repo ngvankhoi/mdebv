@@ -1,0 +1,115 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="STT" type="xs:decimal" minOccurs="0" />
+                <xs:element name="STTT" type="xs:decimal" minOccurs="0" />
+                <xs:element name="MABD" type="xs:decimal" minOccurs="0" />
+                <xs:element name="MA" type="xs:string" minOccurs="0" />
+                <xs:element name="TEN" type="xs:string" minOccurs="0" />
+                <xs:element name="TENHC" type="xs:string" minOccurs="0" />
+                <xs:element name="DANG" type="xs:string" minOccurs="0" />
+                <xs:element name="TENKHO" type="xs:string" minOccurs="0" />
+                <xs:element name="TENNGUON" type="xs:string" minOccurs="0" />
+                <xs:element name="TENNHOMCC" type="xs:string" minOccurs="0" />
+                <xs:element name="HANDUNG" type="xs:string" minOccurs="0" />
+                <xs:element name="LOSX" type="xs:string" minOccurs="0" />
+                <xs:element name="SOLUONG" type="xs:decimal" minOccurs="0" />
+                <xs:element name="DONGIA" type="xs:decimal" minOccurs="0" />
+                <xs:element name="SOTIEN" type="xs:decimal" minOccurs="0" />
+                <xs:element name="GIABAN" type="xs:decimal" minOccurs="0" />
+                <xs:element name="CACHDUNG" type="xs:string" minOccurs="0" />
+                <xs:element name="MAKHO" type="xs:decimal" minOccurs="0" />
+                <xs:element name="MANGUON" type="xs:decimal" minOccurs="0" />
+                <xs:element name="NHOMCC" type="xs:decimal" minOccurs="0" />
+                <xs:element name="NHOMIN" type="xs:decimal" minOccurs="0" />
+                <xs:element name="TENNHOMIN" type="xs:string" minOccurs="0" />
+                <xs:element name="LOAIDV" type="xs:decimal" minOccurs="0" />
+                <xs:element name="GIAMUA" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <STT>1</STT>
+    <STTT>5821</STTT>
+    <MABD>857</MABD>
+    <MA>SID000</MA>
+    <TEN>SIDERFOL   (H/100)  </TEN>
+    <DANG>Viên</DANG>
+    <TENKHO>Dược PKTT</TENKHO>
+    <TENNGUON>Bảo hiểm</TENNGUON>
+    <TENNHOMCC>Không xác định</TENNHOMCC>
+    <HANDUNG>0107</HANDUNG>
+    <LOSX>R5001.....</LOSX>
+    <SOLUONG>30</SOLUONG>
+    <DONGIA>900</DONGIA>
+    <SOTIEN>27000</SOTIEN>
+    <GIABAN>900</GIABAN>
+    <CACHDUNG>Ngày 1 lần, Lần 1 Viên</CACHDUNG>
+    <MAKHO>4</MAKHO>
+    <MANGUON>3</MANGUON>
+    <NHOMCC>0</NHOMCC>
+    <NHOMIN>4</NHOMIN>
+    <TENNHOMIN>Thuốc</TENNHOMIN>
+    <LOAIDV>1</LOAIDV>
+  </Table>
+  <Table>
+    <STT>2</STT>
+    <STTT>5404</STTT>
+    <MABD>1007</MABD>
+    <MA>VIT010</MA>
+    <TEN>Vitamin   C 500mg  (V/10 )</TEN>
+    <TENHC>Acid Ascorbic</TENHC>
+    <DANG>Viên</DANG>
+    <TENKHO>Dược PKTT</TENKHO>
+    <TENNGUON>Bảo hiểm</TENNGUON>
+    <TENNHOMCC>Không xác định</TENNHOMCC>
+    <HANDUNG>0407</HANDUNG>
+    <LOSX>120405....</LOSX>
+    <SOLUONG>10</SOLUONG>
+    <DONGIA>113</DONGIA>
+    <SOTIEN>1130</SOTIEN>
+    <GIABAN>113</GIABAN>
+    <CACHDUNG>Ngày 1 lần, Lần 1 Viên</CACHDUNG>
+    <MAKHO>4</MAKHO>
+    <MANGUON>3</MANGUON>
+    <NHOMCC>0</NHOMCC>
+    <NHOMIN>4</NHOMIN>
+    <TENNHOMIN>Thuốc</TENNHOMIN>
+    <LOAIDV>1</LOAIDV>
+  </Table>
+  <Table>
+    <STT>3</STT>
+    <STTT>5773</STTT>
+    <MABD>2356</MABD>
+    <MA>MAG000</MA>
+    <TEN>Magnesi   - B6  </TEN>
+    <TENHC>Magne - B6</TENHC>
+    <DANG>Viên</DANG>
+    <TENKHO>Dược PKTT</TENKHO>
+    <TENNGUON>Bảo hiểm</TENNGUON>
+    <TENNHOMCC>Không xác định</TENNHOMCC>
+    <HANDUNG>0307</HANDUNG>
+    <LOSX>070205....</LOSX>
+    <SOLUONG>20</SOLUONG>
+    <DONGIA>157</DONGIA>
+    <SOTIEN>3140</SOTIEN>
+    <GIABAN>157</GIABAN>
+    <CACHDUNG>Ngày 1 lần, Lần 1 Viên</CACHDUNG>
+    <MAKHO>4</MAKHO>
+    <MANGUON>3</MANGUON>
+    <NHOMCC>0</NHOMCC>
+    <NHOMIN>4</NHOMIN>
+    <TENNHOMIN>Thuốc</TENNHOMIN>
+    <LOAIDV>1</LOAIDV>
+  </Table>
+</NewDataSet>

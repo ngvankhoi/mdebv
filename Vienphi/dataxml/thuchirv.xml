@@ -1,0 +1,269 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ngay" type="xs:string" minOccurs="0" />
+                <xs:element name="ma" type="xs:string" minOccurs="0" />
+                <xs:element name="ten" type="xs:string" minOccurs="0" />
+                <xs:element name="dvt" type="xs:string" minOccurs="0" />
+                <xs:element name="soluong" type="xs:decimal" minOccurs="0" />
+                <xs:element name="dongia" type="xs:decimal" minOccurs="0" />
+                <xs:element name="giamua" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sotien" type="xs:decimal" minOccurs="0" />
+                <xs:element name="bhyttra" type="xs:decimal" minOccurs="0" />
+                <xs:element name="chenhlech" type="xs:decimal" minOccurs="0" />
+                <xs:element name="miendt" type="xs:decimal" minOccurs="0" />
+                <xs:element name="bntra" type="xs:decimal" minOccurs="0" />
+                <xs:element name="vat" type="xs:decimal" minOccurs="0" />
+                <xs:element name="vattu" type="xs:decimal" minOccurs="0" />
+                <xs:element name="doituong" type="xs:string" minOccurs="0" />
+                <xs:element name="tenkp" type="xs:string" minOccurs="0" />
+                <xs:element name="makp" type="xs:string" minOccurs="0" />
+                <xs:element name="madoituong" type="xs:decimal" minOccurs="0" />
+                <xs:element name="mavp" type="xs:decimal" minOccurs="0" />
+                <xs:element name="idchidinh" type="xs:decimal" minOccurs="0" />
+                <xs:element name="onpaid" type="xs:decimal" minOccurs="0" />
+                <xs:element name="mabs" type="xs:string" minOccurs="0" />
+                <xs:element name="id_ktcao" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ktcao" type="xs:decimal" minOccurs="0" />
+                <xs:element name="id" type="xs:decimal" minOccurs="0" />
+                <xs:element name="stt" type="xs:decimal" minOccurs="0" />
+                <xs:element name="toave" type="xs:decimal" minOccurs="0" />
+                <xs:element name="idtonghop" type="xs:decimal" minOccurs="0" />
+                <xs:element name="stttonghop" type="xs:decimal" minOccurs="0" />
+                <xs:element name="id_loai" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <ngay>22/04/2014</ngay>
+    <ma>CHU060</ma>
+    <ten>Chụp tim phổi thẳng số hóa 1 phim (CR)</ten>
+    <dvt>Lần</dvt>
+    <soluong>1</soluong>
+    <dongia>55000</dongia>
+    <giamua>55000</giamua>
+    <sotien>55000</sotien>
+    <bhyttra>44000</bhyttra>
+    <chenhlech>0</chenhlech>
+    <miendt>0</miendt>
+    <bntra>11000</bntra>
+    <vat>0.00</vat>
+    <vattu>0</vattu>
+    <doituong>BHYT</doituong>
+    <tenkp>Phòng Lưu [CC]</tenkp>
+    <makp>99</makp>
+    <madoituong>1</madoituong>
+    <mavp>12661</mavp>
+    <idchidinh>1404221537520451100817</idchidinh>
+    <onpaid>0</onpaid>
+    <mabs>0030</mabs>
+    <id_ktcao>0</id_ktcao>
+    <ktcao>0</ktcao>
+    <id>1404221537520451100817</id>
+    <stt>1</stt>
+    <toave>0</toave>
+    <idtonghop>1404221537520451100817</idtonghop>
+    <stttonghop>0</stttonghop>
+  </Table>
+  <Table>
+    <ngay>22/04/2014</ngay>
+    <ma>SIE067</ma>
+    <ten>Siêu âm phần mềm màu</ten>
+    <dvt>Lần</dvt>
+    <soluong>1</soluong>
+    <dongia>28000</dongia>
+    <giamua>28000</giamua>
+    <sotien>28000</sotien>
+    <bhyttra>22400</bhyttra>
+    <chenhlech>0</chenhlech>
+    <miendt>0</miendt>
+    <bntra>5600</bntra>
+    <vat>0.00</vat>
+    <vattu>0</vattu>
+    <doituong>BHYT</doituong>
+    <tenkp>Phòng Lưu [CC]</tenkp>
+    <makp>99</makp>
+    <madoituong>1</madoituong>
+    <mavp>-71627</mavp>
+    <idchidinh>1404221538213231100817</idchidinh>
+    <onpaid>0</onpaid>
+    <mabs>0030</mabs>
+    <id_ktcao>0</id_ktcao>
+    <ktcao>0</ktcao>
+    <id>1404221538213231100817</id>
+    <stt>1</stt>
+    <toave>0</toave>
+    <idtonghop>1404221538213231100817</idtonghop>
+    <stttonghop>0</stttonghop>
+  </Table>
+  <Table>
+    <ngay>22/04/2014</ngay>
+    <ma>ACY003</ma>
+    <ten>ACYCLOVIR [ Acyclovir ] 200mg</ten>
+    <dvt>Viên</dvt>
+    <soluong>10</soluong>
+    <dongia>756.0000000000</dongia>
+    <giamua>756.0000000000</giamua>
+    <sotien>7560.00</sotien>
+    <bhyttra>6048.00</bhyttra>
+    <chenhlech>0</chenhlech>
+    <miendt>0.00</miendt>
+    <bntra>1512.00</bntra>
+    <vat>0</vat>
+    <vattu>0</vattu>
+    <doituong>BHYT</doituong>
+    <tenkp>Phòng Lưu [CC]</tenkp>
+    <makp>99</makp>
+    <madoituong>1</madoituong>
+    <mavp>72006</mavp>
+    <idchidinh>0</idchidinh>
+    <onpaid>0</onpaid>
+    <mabs>0030</mabs>
+    <id_ktcao>0</id_ktcao>
+    <ktcao>0</ktcao>
+    <id>1404220000000011100817</id>
+    <stt>1</stt>
+    <toave>1</toave>
+    <idtonghop>1404220000000011100817</idtonghop>
+    <stttonghop>1</stttonghop>
+    <id_loai>0</id_loai>
+  </Table>
+  <Table>
+    <ngay>22/04/2014</ngay>
+    <ma>CEF006</ma>
+    <ten>CEFACLOR TVP [ Cefaclor ] 125mg</ten>
+    <dvt>Gói</dvt>
+    <soluong>10</soluong>
+    <dongia>1499.9985000000</dongia>
+    <giamua>1499.9985000000</giamua>
+    <sotien>14999.98</sotien>
+    <bhyttra>11999.984</bhyttra>
+    <chenhlech>0</chenhlech>
+    <miendt>0.000</miendt>
+    <bntra>2999.996</bntra>
+    <vat>0</vat>
+    <vattu>0</vattu>
+    <doituong>BHYT</doituong>
+    <tenkp>Phòng Lưu [CC]</tenkp>
+    <makp>99</makp>
+    <madoituong>1</madoituong>
+    <mavp>72035</mavp>
+    <idchidinh>0</idchidinh>
+    <onpaid>0</onpaid>
+    <mabs>0030</mabs>
+    <id_ktcao>0</id_ktcao>
+    <ktcao>0</ktcao>
+    <id>1404220000000011100817</id>
+    <stt>2</stt>
+    <toave>1</toave>
+    <idtonghop>1404220000000011100817</idtonghop>
+    <stttonghop>2</stttonghop>
+    <id_loai>0</id_loai>
+  </Table>
+  <Table>
+    <ngay>22/04/2014</ngay>
+    <ma>AMO001</ma>
+    <ten>AMOXICILIN [ Amoxicillin ] 500mg</ten>
+    <dvt>Viên</dvt>
+    <soluong>10</soluong>
+    <dongia>604.9995000000</dongia>
+    <giamua>604.9995000000</giamua>
+    <sotien>6050.00</sotien>
+    <bhyttra>4840.00</bhyttra>
+    <chenhlech>0</chenhlech>
+    <miendt>0.00</miendt>
+    <bntra>1210.00</bntra>
+    <vat>0</vat>
+    <vattu>0</vattu>
+    <doituong>BHYT</doituong>
+    <tenkp>Phòng Lưu [CC]</tenkp>
+    <makp>99</makp>
+    <madoituong>1</madoituong>
+    <mavp>72844</mavp>
+    <idchidinh>0</idchidinh>
+    <onpaid>0</onpaid>
+    <mabs>0030</mabs>
+    <id_ktcao>0</id_ktcao>
+    <ktcao>0</ktcao>
+    <id>1404220000000011100817</id>
+    <stt>3</stt>
+    <toave>1</toave>
+    <idtonghop>1404220000000011100817</idtonghop>
+    <stttonghop>3</stttonghop>
+    <id_loai>0</id_loai>
+  </Table>
+  <Table>
+    <ngay>22/04/2014</ngay>
+    <ma>CHU060</ma>
+    <ten>Chụp tim phổi thẳng số hóa 1 phim (CR)</ten>
+    <dvt>Lần</dvt>
+    <soluong>1</soluong>
+    <dongia>55000.0000000000</dongia>
+    <giamua>55000.0000000000</giamua>
+    <sotien>55000.00</sotien>
+    <bhyttra>44000.00</bhyttra>
+    <chenhlech>0</chenhlech>
+    <miendt>0.00</miendt>
+    <bntra>11000.00</bntra>
+    <vat>0.00</vat>
+    <vattu>0</vattu>
+    <doituong>BHYT</doituong>
+    <tenkp>Phòng Lưu [CC]</tenkp>
+    <makp>99</makp>
+    <madoituong>1</madoituong>
+    <mavp>12661</mavp>
+    <idchidinh>0</idchidinh>
+    <onpaid>0</onpaid>
+    <mabs>0030</mabs>
+    <id_ktcao>0</id_ktcao>
+    <ktcao>0</ktcao>
+    <id>1404220000000011100817</id>
+    <stt>1</stt>
+    <toave>1</toave>
+    <idtonghop>1404220000000011100817</idtonghop>
+    <stttonghop>1</stttonghop>
+    <id_loai>0</id_loai>
+  </Table>
+  <Table>
+    <ngay>22/04/2014</ngay>
+    <ma>SIE067</ma>
+    <ten>Siêu âm phần mềm màu</ten>
+    <dvt>Lần</dvt>
+    <soluong>1</soluong>
+    <dongia>28000.0000000000</dongia>
+    <giamua>28000.0000000000</giamua>
+    <sotien>28000.00</sotien>
+    <bhyttra>22400.00</bhyttra>
+    <chenhlech>0</chenhlech>
+    <miendt>0.00</miendt>
+    <bntra>5600.00</bntra>
+    <vat>0.00</vat>
+    <vattu>0</vattu>
+    <doituong>BHYT</doituong>
+    <tenkp>Phòng Lưu [CC]</tenkp>
+    <makp>99</makp>
+    <madoituong>1</madoituong>
+    <mavp>-71627</mavp>
+    <idchidinh>0</idchidinh>
+    <onpaid>0</onpaid>
+    <mabs>0030</mabs>
+    <id_ktcao>0</id_ktcao>
+    <ktcao>0</ktcao>
+    <id>1404220000000011100817</id>
+    <stt>2</stt>
+    <toave>1</toave>
+    <idtonghop>1404220000000011100817</idtonghop>
+    <stttonghop>2</stttonghop>
+    <id_loai>0</id_loai>
+  </Table>
+</NewDataSet>

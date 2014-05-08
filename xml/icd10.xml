@@ -1,0 +1,35 @@
+<?xml version="1.0" standalone="yes" ?>
+<Import>
+	<Row>
+		<bang>select a.mabn,a.maql,b.hoten,c.ten as gioitinh,decode(b.ngaysinh,null,b.namsinh,to_char(b.ngaysinh,'dd/mm/yyyy')) as ngaysinh,d.thon||', '||g.tenpxa||', '||f.tenquan||', '||e.tentt as diachi,0 as id,to_char(h.ngay,'dd/mm/yyyy hh24:mi') as ngayvao,to_char(a.ngay,'dd/mm/yyyy hh24:mi') as ngayra,a.maicd as maicdkhoa,a.chandoan as chandoankhoa,a.maicd as maicdba,a.cschandoan as chandoanba from medibv.xuatvien a inner join medibv.btdbn b on a.mabn=b.mabn inner join medibv.dmphai c on b.phai=c.ma inner join medibv.lienhe d on a.maql=d.maql inner join medibv.btdtt e on d.matt=e.matt inner join medibv.btdquan f on d.maqu=f.maqu inner join medibv.btdpxa g on d.maphuongxa=g.maphuongxa inner join medibv.benhandt h on a.maql=h.maql</bang>
+		<tieude>Xuất viện</tieude>
+		<update>update medibv.xuatvien set maicd='xxx',cschandoan=:yyy where maql=zzz</update>
+		<order>order by b.hoten,a.mabn,a.maql</order>
+		<filter>mabn like '%aaa%' or hoten like '%aaa%' or maicdkhoa like '%aaa' or chandoankhoa like '%aaa%'</filter>
+    <khoa>0</khoa>
+	</Row>
+	<Row>
+		<bang>select a.mabn,a.maql,b.hoten,c.ten as gioitinh,decode(b.ngaysinh,null,b.namsinh,to_char(b.ngaysinh,'dd/mm/yyyy')) as ngaysinh,d.thon||', '||g.tenpxa||', '||f.tenquan||', '||e.tentt as diachi,0 as id,to_char(a.ngay,'dd/mm/yyyy hh24:mi') as ngayvao,to_char(h.ngay,'dd/mm/yyyy hh24:mi') as ngayra,a.maicd as maicdkhoa,a.chandoan as chandoankhoa,a.maicd as maicdba,a.cschandoan as chandoanba from medibv.benhandt a inner join medibv.btdbn b on a.mabn=b.mabn inner join medibv.dmphai c on b.phai=c.ma inner join medibv.lienhe d on a.maql=d.maql inner join medibv.btdtt e on d.matt=e.matt inner join medibv.btdquan f on d.maqu=f.maqu inner join medibv.btdpxa g on d.maphuongxa=g.maphuongxa left join medibv.xuatvien h on a.maql=h.maql</bang>
+		<tieude>Nhận bệnh</tieude>
+		<update>update medibv.benhandt set maicd='xxx',cschandoan=:yyy where maql=zzz</update>
+		<order>order by b.hoten,a.mabn,a.maql</order>
+		<filter>mabn like '%aaa%' or hoten like '%aaa%' or maicdkhoa like '%aaa' or chandoankhoa like '%aaa%'</filter>
+    <khoa>0</khoa>
+	</Row>
+	<Row>
+		<bang>select a.mabn,a.id maql,b.hoten,c.ten as gioitinh,decode(b.ngaysinh,null,b.namsinh,to_char(b.ngaysinh,'dd/mm/yyyy')) as ngaysinh,d.thon||', '||g.tenpxa||', '||f.tenquan||', '||e.tentt as diachi,0 id,to_char(a.ngay,'dd/mm/yyyy hh24:mi') as ngayvao,to_char(h.ngay,'dd/mm/yyyy hh24:mi') as ngayra,a.maicd as maicdkhoa,a.chandoan as chandoankhoa,a.maicd as maicdba,a.cschandoan as chandoanba from medibv.nhapkhoa a inner join medibv.btdbn b on a.mabn=b.mabn inner join medibv.dmphai c on b.phai=c.ma inner join medibv.lienhe d on a.maql=d.maql inner join medibv.btdtt e on d.matt=e.matt inner join medibv.btdquan f on d.maqu=f.maqu inner join medibv.btdpxa g on d.maphuongxa=g.maphuongxa left join medibv.xuatkhoa h on a.id=h.id</bang>
+		<tieude>Nhập khoa</tieude>
+		<update>update medibv.nhapkhoa set maicd='xxx',cschandoan=:yyy where id=zzz</update>
+		<order>order by b.hoten,a.mabn,a.id</order>
+		<filter>mabn like '%aaa%' or hoten like '%aaa%' or maicdkhoa like '%aaa' or chandoankhoa like '%aaa%'</filter>
+    <khoa>0</khoa>
+	</Row>
+	<Row>
+		<bang>select a.mabn,a.id maql,b.hoten,c.ten as gioitinh,decode(b.ngaysinh,null,b.namsinh,to_char(b.ngaysinh,'dd/mm/yyyy')) as ngaysinh,d.thon||', '||g.tenpxa||', '||f.tenquan||', '||e.tentt as diachi,0 id,to_char(a.ngayvao,'dd/mm/yyyy hh24:mi') as ngayvao,to_char(a.ngay,'dd/mm/yyyy hh24:mi') as ngayra,a.maicd as maicdkhoa,a.chandoan as chandoankhoa,a.maicd as maicdba,a.cschandoan as chandoanba from (select h.mabn,a.id,h.maql,a.maicd,a.chandoan,a.cschandoan,h.makp,a.ngay,h.ngay as ngayvao from medibv.xuatkhoa a,medibv.nhapkhoa h where a.id=h.id) a inner join medibv.btdbn b on a.mabn=b.mabn inner join medibv.dmphai c on b.phai=c.ma inner join medibv.lienhe d on a.maql=d.maql inner join medibv.btdtt e on d.matt=e.matt inner join medibv.btdquan f on d.maqu=f.maqu inner join medibv.btdpxa g on d.maphuongxa=g.maphuongxa</bang>
+		<tieude>Xuất khoa</tieude>
+		<update>update medibv.xuatkhoa set maicd='xxx',cschandoan=:yyy where id=zzz</update>
+		<order>order by b.hoten,a.mabn,a.id</order>
+		<filter>mabn like '%aaa%' or hoten like '%aaa%' or maicdkhoa like '%aaa' or chandoankhoa like '%aaa%'</filter>
+    <khoa>0</khoa>
+	</Row>
+</Import>

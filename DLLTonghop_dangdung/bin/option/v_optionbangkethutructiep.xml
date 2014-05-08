@@ -1,0 +1,29 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="Bangkehoantra">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="nguoilapphieu" type="xs:string" minOccurs="0" />
+                <xs:element name="thuquy" type="xs:string" minOccurs="0" />
+                <xs:element name="ketoanvp" type="xs:string" minOccurs="0" />
+                <xs:element name="phongtckt" type="xs:string" minOccurs="0" />
+                <xs:element name="bcchitiet" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Bangkehoantra>
+    <nguoilapphieu>Trương Thị Ngọc Bình</nguoilapphieu>
+    <thuquy />
+    <ketoanvp />
+    <phongtckt />
+    <bcchitiet>0</bcchitiet>
+  </Bangkehoantra>
+</NewDataSet>

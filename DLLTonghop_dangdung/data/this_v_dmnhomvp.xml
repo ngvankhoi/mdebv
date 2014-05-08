@@ -1,0 +1,93 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ID" type="xs:decimal" minOccurs="0" />
+                <xs:element name="STT" type="xs:decimal" minOccurs="0" />
+                <xs:element name="MA" type="xs:decimal" minOccurs="0" />
+                <xs:element name="TEN" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <ID>11</ID>
+    <STT>1</STT>
+    <MA>11</MA>
+    <TEN>Khám bệnh</TEN>
+  </Table>
+  <Table>
+    <ID>4</ID>
+    <STT>2</STT>
+    <MA>4</MA>
+    <TEN>Xét Nghiệm</TEN>
+  </Table>
+  <Table>
+    <ID>26</ID>
+    <STT>3</STT>
+    <MA>26</MA>
+    <TEN>Chẩn đoán hình ảnh</TEN>
+  </Table>
+  <Table>
+    <ID>8</ID>
+    <STT>4</STT>
+    <MA>8</MA>
+    <TEN>Phẩu thuật - thủ thuật</TEN>
+  </Table>
+  <Table>
+    <ID>3</ID>
+    <STT>5</STT>
+    <MA>3</MA>
+    <TEN>Máu, chế phẩm máu</TEN>
+  </Table>
+  <Table>
+    <ID>2</ID>
+    <STT>6</STT>
+    <MA>2</MA>
+    <TEN>Thuốc</TEN>
+  </Table>
+  <Table>
+    <ID>10</ID>
+    <STT>7</STT>
+    <MA>10</MA>
+    <TEN>Vật tư y tế</TEN>
+  </Table>
+  <Table>
+    <ID>15</ID>
+    <STT>8</STT>
+    <MA>15</MA>
+    <TEN>Tiền giường</TEN>
+  </Table>
+  <Table>
+    <ID>17</ID>
+    <STT>9</STT>
+    <MA>17</MA>
+    <TEN>Y học dân tộc</TEN>
+  </Table>
+  <Table>
+    <ID>27</ID>
+    <STT>10</STT>
+    <MA>27</MA>
+    <TEN>Thăm dò chức năng</TEN>
+  </Table>
+  <Table>
+    <ID>12</ID>
+    <STT>11</STT>
+    <MA>12</MA>
+    <TEN>Phí vận chuyển</TEN>
+  </Table>
+  <Table>
+    <ID>20</ID>
+    <STT>12</STT>
+    <MA>20</MA>
+    <TEN>Khác</TEN>
+  </Table>
+</NewDataSet>

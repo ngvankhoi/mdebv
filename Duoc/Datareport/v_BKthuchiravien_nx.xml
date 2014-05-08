@@ -1,0 +1,447 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="id" type="xs:decimal" minOccurs="0" />
+                <xs:element name="mabn" type="xs:string" minOccurs="0" />
+                <xs:element name="mavaovien" type="xs:decimal" minOccurs="0" />
+                <xs:element name="maql" type="xs:decimal" minOccurs="0" />
+                <xs:element name="loai" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ten_loaivp" type="xs:string" minOccurs="0" />
+                <xs:element name="loaibn" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ngayvao" type="xs:string" minOccurs="0" />
+                <xs:element name="ngayra" type="xs:string" minOccurs="0" />
+                <xs:element name="hoten" type="xs:string" minOccurs="0" />
+                <xs:element name="namsinh" type="xs:string" minOccurs="0" />
+                <xs:element name="diachi" type="xs:string" minOccurs="0" />
+                <xs:element name="makp" type="xs:string" minOccurs="0" />
+                <xs:element name="tenkp" type="xs:string" minOccurs="0" />
+                <xs:element name="viettat" type="xs:string" minOccurs="0" />
+                <xs:element name="ngay" type="xs:string" minOccurs="0" />
+                <xs:element name="sotien" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tamung" type="xs:decimal" minOccurs="0" />
+                <xs:element name="mien" type="xs:decimal" minOccurs="0" />
+                <xs:element name="haophi" type="xs:decimal" minOccurs="0" />
+                <xs:element name="bhyt" type="xs:decimal" minOccurs="0" />
+                <xs:element name="nopthem" type="xs:decimal" minOccurs="0" />
+                <xs:element name="thieu" type="xs:decimal" minOccurs="0" />
+                <xs:element name="thua" type="xs:decimal" minOccurs="0" />
+                <xs:element name="chenhlech" type="xs:decimal" minOccurs="0" />
+                <xs:element name="user_hoten" type="xs:string" minOccurs="0" />
+                <xs:element name="user_username" type="xs:string" minOccurs="0" />
+                <xs:element name="userid" type="xs:decimal" minOccurs="0" />
+                <xs:element name="quyenso" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sobienlai" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sohieu" type="xs:string" minOccurs="0" />
+                <xs:element name="sohieubl" type="xs:string" minOccurs="0" />
+                <xs:element name="hoan" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tra" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <id>17000000001</id>
+    <mabn>10035331</mabn>
+    <mavaovien>101117112905890125</mavaovien>
+    <maql>101117164110731130</maql>
+    <loai>1</loai>
+    <ten_loaivp>1. Thường</ten_loaivp>
+    <loaibn>1</loaibn>
+    <ngayvao>17/11/2010</ngayvao>
+    <ngayra>20/11/2010</ngayra>
+    <hoten>ĐOÀN BÍCH THẢO</hoten>
+    <namsinh>1971</namsinh>
+    <diachi>Khóm 1 Phường Châu Phú A Thị xã Châu Đốc An Giang</diachi>
+    <makp>08</makp>
+    <tenkp>Phòng Sanh</tenkp>
+    <viettat>08</viettat>
+    <ngay>20/11/2010</ngay>
+    <sotien>53524.1500</sotien>
+    <tamung>0</tamung>
+    <mien>0</mien>
+    <haophi>0</haophi>
+    <bhyt>35784.1500</bhyt>
+    <nopthem>0.0000</nopthem>
+    <thieu>0.0000</thieu>
+    <thua>0.0000</thua>
+    <chenhlech>0.0000</chenhlech>
+    <user_hoten>Nguyễn Thanh Quang</user_hoten>
+    <user_username>quang</user_username>
+    <userid>7</userid>
+    <quyenso>73</quyenso>
+    <sobienlai>275</sobienlai>
+    <sohieu>VP11.A1/10</sohieu>
+    <sohieubl>VP11.A1/10</sohieubl>
+    <hoan>0</hoan>
+    <tra>0.0000000000</tra>
+  </Table>
+  <Table>
+    <id>17000000002</id>
+    <mabn>10034907</mabn>
+    <mavaovien>101114085731509125</mavaovien>
+    <maql>101114101133384140</maql>
+    <loai>1</loai>
+    <ten_loaivp>1. Thường</ten_loaivp>
+    <loaibn>1</loaibn>
+    <ngayvao>14/11/2010</ngayvao>
+    <ngayra>20/11/2010</ngayra>
+    <hoten>SA RENG</hoten>
+    <namsinh>1946</namsinh>
+    <diachi>Cambodia. Không Xác Định Không Xác Định .</diachi>
+    <makp>07</makp>
+    <tenkp>Hồi Sức Cấp Cứu</tenkp>
+    <viettat>07</viettat>
+    <ngay>20/11/2010</ngay>
+    <sotien>279179.0000</sotien>
+    <tamung>0</tamung>
+    <mien>0</mien>
+    <haophi>0</haophi>
+    <bhyt>0.0000</bhyt>
+    <nopthem>0.0000</nopthem>
+    <thieu>0.0000</thieu>
+    <thua>0.0000</thua>
+    <chenhlech>0.0000</chenhlech>
+    <user_hoten>Nguyễn Thanh Quang</user_hoten>
+    <user_username>quang</user_username>
+    <userid>7</userid>
+    <quyenso>73</quyenso>
+    <sobienlai>276</sobienlai>
+    <sohieu>VP11.A1/10</sohieu>
+    <sohieubl>VP11.A1/10</sohieubl>
+    <hoan>0</hoan>
+    <tra>0.0000000000</tra>
+  </Table>
+  <Table>
+    <id>17000000003</id>
+    <mabn>10034978</mabn>
+    <mavaovien>101114194443167001</mavaovien>
+    <maql>101114195703438107</maql>
+    <loai>1</loai>
+    <ten_loaivp>1. Thường</ten_loaivp>
+    <loaibn>1</loaibn>
+    <ngayvao>14/11/2010</ngayvao>
+    <ngayra>20/11/2010</ngayra>
+    <hoten>NGUYỄN MINH HẠNH</hoten>
+    <namsinh>2010</namsinh>
+    <diachi>Ba Xưa Xã Thạnh Mỹ Tây Huyện Châu Phú An Giang</diachi>
+    <makp>05</makp>
+    <tenkp>Nhi</tenkp>
+    <viettat>05</viettat>
+    <ngay>20/11/2010</ngay>
+    <sotien>69801.5500</sotien>
+    <tamung>200000</tamung>
+    <mien>0</mien>
+    <haophi>0</haophi>
+    <bhyt>4896.5500</bhyt>
+    <nopthem>0.0000</nopthem>
+    <thieu>0.0000</thieu>
+    <thua>0.0000</thua>
+    <chenhlech>0.0000</chenhlech>
+    <user_hoten>Nguyễn Thanh Quang</user_hoten>
+    <user_username>quang</user_username>
+    <userid>7</userid>
+    <quyenso>73</quyenso>
+    <sobienlai>319</sobienlai>
+    <sohieu>VP11.A1/10</sohieu>
+    <sohieubl>VP11.A1/10</sohieubl>
+    <hoan>0</hoan>
+    <tra>0.0000000000</tra>
+  </Table>
+  <Table>
+    <id>17000000004</id>
+    <mabn>10035633</mabn>
+    <mavaovien>101120101918283011</mavaovien>
+    <maql>101120125156035027</maql>
+    <loai>1</loai>
+    <ten_loaivp>1. Thường</ten_loaivp>
+    <loaibn>2</loaibn>
+    <ngayvao>20/11/2010</ngayvao>
+    <ngayra>20/11/2010</ngayra>
+    <hoten>TRẦN THỊ TRÂN</hoten>
+    <namsinh>1988</namsinh>
+    <diachi>Bình Hưng/ Xã Bình Long Huyện Châu Phú An Giang</diachi>
+    <makp>13</makp>
+    <tenkp>Khám Khh Gia Đình</tenkp>
+    <viettat>03</viettat>
+    <ngay>20/11/2010</ngay>
+    <sotien>416600.0000</sotien>
+    <tamung>0</tamung>
+    <mien>0</mien>
+    <haophi>0</haophi>
+    <bhyt>0.0000</bhyt>
+    <nopthem>0.0000</nopthem>
+    <thieu>0.0000</thieu>
+    <thua>0.0000</thua>
+    <chenhlech>0.0000</chenhlech>
+    <user_hoten>Nguyễn Thanh Quang</user_hoten>
+    <user_username>quang</user_username>
+    <userid>7</userid>
+    <quyenso>73</quyenso>
+    <sobienlai>372</sobienlai>
+    <sohieu>VP11.A1/10</sohieu>
+    <sohieubl>VP11.A1/10</sohieubl>
+    <hoan>0</hoan>
+    <tra>0.0000000000</tra>
+  </Table>
+  <Table>
+    <id>17000000005</id>
+    <mabn>10035595</mabn>
+    <mavaovien>101120083935259011</mavaovien>
+    <maql>101120125101963027</maql>
+    <loai>1</loai>
+    <ten_loaivp>1. Thường</ten_loaivp>
+    <loaibn>2</loaibn>
+    <ngayvao>20/11/2010</ngayvao>
+    <ngayra>20/11/2010</ngayra>
+    <hoten>PHAN THỊ KIM HIẾU</hoten>
+    <namsinh>1985</namsinh>
+    <diachi>An Quới/ Xã An Thạnh Trung Huyện Chợ Mới An Giang</diachi>
+    <makp>13</makp>
+    <tenkp>Khám Khh Gia Đình</tenkp>
+    <viettat>03</viettat>
+    <ngay>20/11/2010</ngay>
+    <sotien>416600.0000</sotien>
+    <tamung>0</tamung>
+    <mien>0</mien>
+    <haophi>0</haophi>
+    <bhyt>0.0000</bhyt>
+    <nopthem>0.0000</nopthem>
+    <thieu>0.0000</thieu>
+    <thua>0.0000</thua>
+    <chenhlech>0.0000</chenhlech>
+    <user_hoten>Nguyễn Thanh Quang</user_hoten>
+    <user_username>quang</user_username>
+    <userid>7</userid>
+    <quyenso>73</quyenso>
+    <sobienlai>383</sobienlai>
+    <sohieu>VP11.A1/10</sohieu>
+    <sohieubl>VP11.A1/10</sohieubl>
+    <hoan>0</hoan>
+    <tra>0.0000000000</tra>
+  </Table>
+  <Table>
+    <id>17000000006</id>
+    <mabn>10035529</mabn>
+    <mavaovien>101119155420248011</mavaovien>
+    <maql>101119162427729012</maql>
+    <loai>1</loai>
+    <ten_loaivp>1. Thường</ten_loaivp>
+    <loaibn>1</loaibn>
+    <ngayvao>19/11/2010</ngayvao>
+    <ngayra>20/11/2010</ngayra>
+    <hoten>HÀNG THẾ VINH</hoten>
+    <namsinh>2009</namsinh>
+    <diachi> Phường Châu Phú A Thị xã Châu Đốc An Giang</diachi>
+    <makp>05</makp>
+    <tenkp>Nhi</tenkp>
+    <viettat>05</viettat>
+    <ngay>20/11/2010</ngay>
+    <sotien>353398.8600</sotien>
+    <tamung>0</tamung>
+    <mien>0</mien>
+    <haophi>0</haophi>
+    <bhyt>115774.8600</bhyt>
+    <nopthem>0.0000</nopthem>
+    <thieu>0.0000</thieu>
+    <thua>0.0000</thua>
+    <chenhlech>0.0000</chenhlech>
+    <user_hoten>Nguyễn Thanh Quang</user_hoten>
+    <user_username>quang</user_username>
+    <userid>7</userid>
+    <quyenso>73</quyenso>
+    <sobienlai>401</sobienlai>
+    <sohieu>VP11.A1/10</sohieu>
+    <sohieubl>VP11.A1/10</sohieubl>
+    <hoan>0</hoan>
+    <tra>0.0000000000</tra>
+  </Table>
+  <Table>
+    <id>17000000007</id>
+    <mabn>10035467</mabn>
+    <mavaovien>101119023033260001</mavaovien>
+    <maql>101119031735300036</maql>
+    <loai>1</loai>
+    <ten_loaivp>1. Thường</ten_loaivp>
+    <loaibn>1</loaibn>
+    <ngayvao>19/11/2010</ngayvao>
+    <ngayra>20/11/2010</ngayra>
+    <hoten>NGUYỄN THẾ TOÀN</hoten>
+    <namsinh>2008</namsinh>
+    <diachi>Mỹ Á Xã Núi Voi Huyện Tịnh Biên An Giang</diachi>
+    <makp>05</makp>
+    <tenkp>Nhi</tenkp>
+    <viettat>05</viettat>
+    <ngay>20/11/2010</ngay>
+    <sotien>194869.0000</sotien>
+    <tamung>400000</tamung>
+    <mien>0</mien>
+    <haophi>0</haophi>
+    <bhyt>0.0000</bhyt>
+    <nopthem>0.0000</nopthem>
+    <thieu>0.0000</thieu>
+    <thua>0.0000</thua>
+    <chenhlech>0.0000</chenhlech>
+    <user_hoten>Nguyễn Thanh Quang</user_hoten>
+    <user_username>quang</user_username>
+    <userid>7</userid>
+    <quyenso>73</quyenso>
+    <sobienlai>407</sobienlai>
+    <sohieu>VP11.A1/10</sohieu>
+    <sohieubl>VP11.A1/10</sohieubl>
+    <hoan>0</hoan>
+    <tra>0.0000000000</tra>
+  </Table>
+  <Table>
+    <id>17000000008</id>
+    <mabn>10035564</mabn>
+    <mavaovien>101119165548887011</mavaovien>
+    <maql>101119181012418012</maql>
+    <loai>1</loai>
+    <ten_loaivp>1. Thường</ten_loaivp>
+    <loaibn>1</loaibn>
+    <ngayvao>19/11/2010</ngayvao>
+    <ngayra>20/11/2010</ngayra>
+    <hoten>ĐINH HOÀNG ĐĂNG</hoten>
+    <namsinh>2009</namsinh>
+    <diachi>Châu Quới 2/ Phường Châu Phú B Thị xã Châu Đốc An Giang</diachi>
+    <makp>05</makp>
+    <tenkp>Nhi</tenkp>
+    <viettat>05</viettat>
+    <ngay>20/11/2010</ngay>
+    <sotien>334650.0000</sotien>
+    <tamung>700000</tamung>
+    <mien>0</mien>
+    <haophi>0</haophi>
+    <bhyt>0.0000</bhyt>
+    <nopthem>0.0000</nopthem>
+    <thieu>0.0000</thieu>
+    <thua>0.0000</thua>
+    <chenhlech>0.0000</chenhlech>
+    <user_hoten>Nguyễn Thanh Quang</user_hoten>
+    <user_username>quang</user_username>
+    <userid>7</userid>
+    <quyenso>73</quyenso>
+    <sobienlai>416</sobienlai>
+    <sohieu>VP11.A1/10</sohieu>
+    <sohieubl>VP11.A1/10</sohieubl>
+    <hoan>0</hoan>
+    <tra>0.0000000000</tra>
+  </Table>
+  <Table>
+    <id>17000000009</id>
+    <mabn>10035566</mabn>
+    <mavaovien>101119181046254011</mavaovien>
+    <maql>101119191419013012</maql>
+    <loai>1</loai>
+    <ten_loaivp>1. Thường</ten_loaivp>
+    <loaibn>1</loaibn>
+    <ngayvao>19/11/2010</ngayvao>
+    <ngayra>20/11/2010</ngayra>
+    <hoten>NGUYỄN THỊ GIÀU</hoten>
+    <namsinh>2000</namsinh>
+    <diachi>Bờ Dâu/ Xã Thạnh Mỹ Tây Huyện Châu Phú An Giang</diachi>
+    <makp>05</makp>
+    <tenkp>Nhi</tenkp>
+    <viettat>05</viettat>
+    <ngay>20/11/2010</ngay>
+    <sotien>412537.8600</sotien>
+    <tamung>700000</tamung>
+    <mien>0</mien>
+    <haophi>0</haophi>
+    <bhyt>86571.7000</bhyt>
+    <nopthem>0.0000</nopthem>
+    <thieu>0.0000</thieu>
+    <thua>0.0000</thua>
+    <chenhlech>0.0000</chenhlech>
+    <user_hoten>Nguyễn Thanh Quang</user_hoten>
+    <user_username>quang</user_username>
+    <userid>7</userid>
+    <quyenso>73</quyenso>
+    <sobienlai>417</sobienlai>
+    <sohieu>VP11.A1/10</sohieu>
+    <sohieubl>VP11.A1/10</sohieubl>
+    <hoan>0</hoan>
+    <tra>0.0000000000</tra>
+  </Table>
+  <Table>
+    <id>17000000010</id>
+    <mabn>08004217</mabn>
+    <mavaovien>101120055501217007</mavaovien>
+    <maql>101120055501750007</maql>
+    <loai>1</loai>
+    <ten_loaivp>1. Thường</ten_loaivp>
+    <loaibn>1</loaibn>
+    <ngayvao>20/11/2010</ngayvao>
+    <ngayra>20/11/2010</ngayra>
+    <hoten>NGUYỄN NGỌC THANH</hoten>
+    <namsinh>1937</namsinh>
+    <diachi>Châu Thạnh Phường Châu Phú A Thị xã Châu Đốc An Giang</diachi>
+    <makp>07</makp>
+    <tenkp>Hồi Sức Cấp Cứu</tenkp>
+    <viettat>07</viettat>
+    <ngay>20/11/2010</ngay>
+    <sotien>658388.0500</sotien>
+    <tamung>1000000</tamung>
+    <mien>0</mien>
+    <haophi>0</haophi>
+    <bhyt>311104.0500</bhyt>
+    <nopthem>0.0000</nopthem>
+    <thieu>0.0000</thieu>
+    <thua>0.0000</thua>
+    <chenhlech>0.0000</chenhlech>
+    <user_hoten>Nguyễn Thanh Quang</user_hoten>
+    <user_username>quang</user_username>
+    <userid>7</userid>
+    <quyenso>73</quyenso>
+    <sobienlai>426</sobienlai>
+    <sohieu>VP11.A1/10</sohieu>
+    <sohieubl>VP11.A1/10</sohieubl>
+    <hoan>0</hoan>
+    <tra>0.0000000000</tra>
+  </Table>
+  <Table>
+    <id>17000000011</id>
+    <mabn>10035536</mabn>
+    <mavaovien>101119155523134011</mavaovien>
+    <maql>101119162832468012</maql>
+    <loai>1</loai>
+    <ten_loaivp>1. Thường</ten_loaivp>
+    <loaibn>1</loaibn>
+    <ngayvao>19/11/2010</ngayvao>
+    <ngayra>21/11/2010</ngayra>
+    <hoten>NGUYỄN PHƯỚC KHA</hoten>
+    <namsinh>2009</namsinh>
+    <diachi>Cầu Dây/ Xã Thạnh Mỹ Tây Huyện Châu Phú An Giang</diachi>
+    <makp>05</makp>
+    <tenkp>Nhi</tenkp>
+    <viettat>05</viettat>
+    <ngay>20/11/2010</ngay>
+    <sotien>365696.9500</sotien>
+    <tamung>700000</tamung>
+    <mien>0</mien>
+    <haophi>0</haophi>
+    <bhyt>75435.4700</bhyt>
+    <nopthem>0.0000</nopthem>
+    <thieu>0.0000</thieu>
+    <thua>0.0000</thua>
+    <chenhlech>0.0000</chenhlech>
+    <user_hoten>Nguyễn Thanh Quang</user_hoten>
+    <user_username>quang</user_username>
+    <userid>7</userid>
+    <quyenso>73</quyenso>
+    <sobienlai>431</sobienlai>
+    <sohieu>VP11.A1/10</sohieu>
+    <sohieubl>VP11.A1/10</sohieubl>
+    <hoan>0</hoan>
+    <tra>0.0000000000</tra>
+  </Table>
+</NewDataSet>

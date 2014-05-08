@@ -1,0 +1,239 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="id" type="xs:decimal" minOccurs="0" />
+                <xs:element name="quyenso" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sobienlai" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sohieu" type="xs:string" minOccurs="0" />
+                <xs:element name="mabn" type="xs:string" minOccurs="0" />
+                <xs:element name="hoten" type="xs:string" minOccurs="0" />
+                <xs:element name="namsinh" type="xs:string" minOccurs="0" />
+                <xs:element name="tinh" type="xs:string" minOccurs="0" />
+                <xs:element name="quan" type="xs:string" minOccurs="0" />
+                <xs:element name="xa" type="xs:string" minOccurs="0" />
+                <xs:element name="sonha" type="xs:string" minOccurs="0" />
+                <xs:element name="thon" type="xs:string" minOccurs="0" />
+                <xs:element name="gioitinh" type="xs:string" minOccurs="0" />
+                <xs:element name="lanin" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ngaysinh" type="xs:string" minOccurs="0" />
+                <xs:element name="mabhyt" type="xs:string" minOccurs="0" />
+                <xs:element name="giatriden" type="xs:string" minOccurs="0" />
+                <xs:element name="tenkp" type="xs:string" minOccurs="0" />
+                <xs:element name="ngaythu" type="xs:string" minOccurs="0" />
+                <xs:element name="tenkpct" type="xs:string" minOccurs="0" />
+                <xs:element name="tentt" type="xs:string" minOccurs="0" />
+                <xs:element name="tenquan" type="xs:string" minOccurs="0" />
+                <xs:element name="tenpxa" type="xs:string" minOccurs="0" />
+                <xs:element name="id_vp" type="xs:decimal" minOccurs="0" />
+                <xs:element name="id_loai" type="xs:decimal" minOccurs="0" />
+                <xs:element name="id_nhom" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tenvp" type="xs:string" minOccurs="0" />
+                <xs:element name="tenloaivp" type="xs:string" minOccurs="0" />
+                <xs:element name="tennhomvp" type="xs:string" minOccurs="0" />
+                <xs:element name="sttvp" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sttloaivp" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sttnhomvp" type="xs:decimal" minOccurs="0" />
+                <xs:element name="dvt" type="xs:string" minOccurs="0" />
+                <xs:element name="soluong" type="xs:decimal" minOccurs="0" />
+                <xs:element name="dongia" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sotien" type="xs:decimal" minOccurs="0" />
+                <xs:element name="bhtra" type="xs:int" minOccurs="0" />
+                <xs:element name="mien" type="xs:decimal" minOccurs="0" />
+                <xs:element name="thieu" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tongmien" type="xs:decimal" minOccurs="0" />
+                <xs:element name="madoituong" type="xs:decimal" minOccurs="0" />
+                <xs:element name="nguoithu" type="xs:string" minOccurs="0" />
+                <xs:element name="hoantra" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ghichu" type="xs:string" minOccurs="0" />
+                <xs:element name="nha" type="xs:string" minOccurs="0" />
+                <xs:element name="coquan" type="xs:string" minOccurs="0" />
+                <xs:element name="didong" type="xs:string" minOccurs="0" />
+                <xs:element name="email" type="xs:string" minOccurs="0" />
+                <xs:element name="doituong" type="xs:string" minOccurs="0" />
+                <xs:element name="bacsichidinh" type="xs:string" minOccurs="0" />
+                <xs:element name="bacsithuchien" type="xs:string" minOccurs="0" />
+                <xs:element name="gia_bh" type="xs:decimal" minOccurs="0" />
+                <xs:element name="gia_dv" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ngaycd" type="xs:dateTime" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <id>738130524170055590</id>
+    <quyenso>15</quyenso>
+    <sobienlai>600</sobienlai>
+    <sohieu>Q1</sohieu>
+    <mabn>13000258</mabn>
+    <hoten>TTTT</hoten>
+    <namsinh>1989</namsinh>
+    <tinh>Kiên Giang</tinh>
+    <quan>Không xác định</quan>
+    <xa>Không xác định</xa>
+    <sonha />
+    <thon />
+    <gioitinh>Nữ</gioitinh>
+    <lanin>1</lanin>
+    <ngaysinh>1989</ngaysinh>
+    <mabhyt>. . . . . . . . . . . . . . . . . .</mabhyt>
+    <giatriden>. . . . . . . . . . . . . . . . . .</giatriden>
+    <tenkp>Nội Thần Kinh &amp; EEG,Nội Tim Mạch Và Nội Tiết,Phòng Không Khám</tenkp>
+    <ngaythu>24/05/2013</ngaythu>
+    <tenkpct>Nội Thần Kinh &amp; EEG</tenkpct>
+    <tentt>Kiên Giang</tentt>
+    <tenquan>Không xác định</tenquan>
+    <tenpxa>Không xác định</tenpxa>
+    <id_vp>36155</id_vp>
+    <id_loai>31</id_loai>
+    <id_nhom>7</id_nhom>
+    <tenvp>Nội thần kinh &amp; EEG</tenvp>
+    <tenloaivp>Khám bệnh</tenloaivp>
+    <tennhomvp>Công Khám </tennhomvp>
+    <sttvp>1</sttvp>
+    <sttloaivp>31</sttloaivp>
+    <sttnhomvp>7</sttnhomvp>
+    <dvt>Lần</dvt>
+    <soluong>1.0000</soluong>
+    <dongia>45000</dongia>
+    <sotien>45000.0000</sotien>
+    <bhtra>0</bhtra>
+    <mien>0.0000</mien>
+    <thieu>0.0000</thieu>
+    <tongmien>0</tongmien>
+    <madoituong>2</madoituong>
+    <nguoithu>Administrator </nguoithu>
+    <hoantra>0.0000</hoantra>
+    <ghichu />
+    <nha />
+    <coquan />
+    <didong />
+    <email />
+    <doituong>Thu phí</doituong>
+    <bacsichidinh />
+    <bacsithuchien />
+    <gia_bh>3000.00</gia_bh>
+    <gia_dv>45000.00</gia_dv>
+    <ngaycd>2013-05-24T00:00:00+07:00</ngaycd>
+  </Table>
+  <Table>
+    <id>738130524170055590</id>
+    <quyenso>15</quyenso>
+    <sobienlai>600</sobienlai>
+    <sohieu>Q1</sohieu>
+    <mabn>13000258</mabn>
+    <hoten>TTTT</hoten>
+    <namsinh>1989</namsinh>
+    <tinh>Kiên Giang</tinh>
+    <quan>Không xác định</quan>
+    <xa>Không xác định</xa>
+    <sonha />
+    <thon />
+    <gioitinh>Nữ</gioitinh>
+    <lanin>1</lanin>
+    <ngaysinh>1989</ngaysinh>
+    <mabhyt>. . . . . . . . . . . . . . . . . .</mabhyt>
+    <giatriden>. . . . . . . . . . . . . . . . . .</giatriden>
+    <tenkp>Nội Thần Kinh &amp; EEG,Nội Tim Mạch Và Nội Tiết,Phòng Không Khám</tenkp>
+    <ngaythu>24/05/2013</ngaythu>
+    <tenkpct>Nội Tim Mạch Và Nội Tiết</tenkpct>
+    <tentt>Kiên Giang</tentt>
+    <tenquan>Không xác định</tenquan>
+    <tenpxa>Không xác định</tenpxa>
+    <id_vp>141662</id_vp>
+    <id_loai>35</id_loai>
+    <id_nhom>5</id_nhom>
+    <tenvp>Nội soi tai (Otoscopy)</tenvp>
+    <tenloaivp>Nội soi</tenloaivp>
+    <tennhomvp>Chẩn đoán hình ảnh</tennhomvp>
+    <sttvp>1</sttvp>
+    <sttloaivp>35</sttloaivp>
+    <sttnhomvp>5</sttnhomvp>
+    <dvt>Lần</dvt>
+    <soluong>1.0000</soluong>
+    <dongia>78000</dongia>
+    <sotien>78000.0000</sotien>
+    <bhtra>0</bhtra>
+    <mien>0.0000</mien>
+    <thieu>0.0000</thieu>
+    <tongmien>0</tongmien>
+    <madoituong>2</madoituong>
+    <nguoithu>Administrator </nguoithu>
+    <hoantra>0.0000</hoantra>
+    <ghichu />
+    <nha />
+    <coquan />
+    <didong />
+    <email />
+    <doituong>Thu phí</doituong>
+    <bacsichidinh />
+    <bacsithuchien />
+    <gia_bh>14000.00</gia_bh>
+    <gia_dv>78000.00</gia_dv>
+    <ngaycd>2013-05-24T17:00:00+07:00</ngaycd>
+  </Table>
+  <Table>
+    <id>738130524170055590</id>
+    <quyenso>15</quyenso>
+    <sobienlai>600</sobienlai>
+    <sohieu>Q1</sohieu>
+    <mabn>13000258</mabn>
+    <hoten>TTTT</hoten>
+    <namsinh>1989</namsinh>
+    <tinh>Kiên Giang</tinh>
+    <quan>Không xác định</quan>
+    <xa>Không xác định</xa>
+    <sonha />
+    <thon />
+    <gioitinh>Nữ</gioitinh>
+    <lanin>1</lanin>
+    <ngaysinh>1989</ngaysinh>
+    <mabhyt>. . . . . . . . . . . . . . . . . .</mabhyt>
+    <giatriden>. . . . . . . . . . . . . . . . . .</giatriden>
+    <tenkp>Nội Thần Kinh &amp; EEG,Nội Tim Mạch Và Nội Tiết,Phòng Không Khám</tenkp>
+    <ngaythu>24/05/2013</ngaythu>
+    <tenkpct>Phòng Không Khám</tenkpct>
+    <tentt>Kiên Giang</tentt>
+    <tenquan>Không xác định</tenquan>
+    <tenpxa>Không xác định</tenpxa>
+    <id_vp>69510</id_vp>
+    <id_loai>31</id_loai>
+    <id_nhom>7</id_nhom>
+    <tenvp>Không Khám</tenvp>
+    <tenloaivp>Khám bệnh</tenloaivp>
+    <tennhomvp>Công Khám </tennhomvp>
+    <sttvp>7</sttvp>
+    <sttloaivp>31</sttloaivp>
+    <sttnhomvp>7</sttnhomvp>
+    <dvt>Lần</dvt>
+    <soluong>1.0000</soluong>
+    <dongia>0</dongia>
+    <sotien>0.0000</sotien>
+    <bhtra>0</bhtra>
+    <mien>0.0000</mien>
+    <thieu>0.0000</thieu>
+    <tongmien>0</tongmien>
+    <madoituong>2</madoituong>
+    <nguoithu>Administrator </nguoithu>
+    <hoantra>0.0000</hoantra>
+    <ghichu />
+    <nha />
+    <coquan />
+    <didong />
+    <email />
+    <doituong>Thu phí</doituong>
+    <bacsichidinh />
+    <bacsithuchien />
+    <gia_bh>0.00</gia_bh>
+    <gia_dv>0.00</gia_dv>
+    <ngaycd>2013-05-24T00:00:00+07:00</ngaycd>
+  </Table>
+</NewDataSet>

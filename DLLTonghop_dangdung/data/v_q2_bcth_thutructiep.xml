@@ -1,0 +1,1038 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="MAKP" type="xs:string" minOccurs="0" />
+                <xs:element name="TENKP" type="xs:string" minOccurs="0" />
+                <xs:element name="VIETTAT" type="xs:string" minOccurs="0" />
+                <xs:element name="NGAY" type="xs:string" minOccurs="0" />
+                <xs:element name="THANG" type="xs:string" minOccurs="0" />
+                <xs:element name="NAM" type="xs:string" minOccurs="0" />
+                <xs:element name="SOTIEN" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <NGAY>01</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>500000</SOTIEN>
+  </Table>
+  <Table>
+    <NGAY>03</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>55000</SOTIEN>
+  </Table>
+  <Table>
+    <NGAY>04</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>510000</SOTIEN>
+  </Table>
+  <Table>
+    <NGAY>05</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>245000</SOTIEN>
+  </Table>
+  <Table>
+    <NGAY>06</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>580000</SOTIEN>
+  </Table>
+  <Table>
+    <NGAY>07</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>475000</SOTIEN>
+  </Table>
+  <Table>
+    <NGAY>08</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>400000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>03</MAKP>
+    <TENKP>Khoa Sản</TENKP>
+    <VIETTAT>03</VIETTAT>
+    <NGAY>03</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>60000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>03</MAKP>
+    <TENKP>Khoa Sản</TENKP>
+    <VIETTAT>03</VIETTAT>
+    <NGAY>06</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>130000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>04</MAKP>
+    <TENKP>Tổng Hợp</TENKP>
+    <VIETTAT>04</VIETTAT>
+    <NGAY>06</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>10000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>06</MAKP>
+    <TENKP>Khám I</TENKP>
+    <VIETTAT>06</VIETTAT>
+    <NGAY>01</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>471000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>06</MAKP>
+    <TENKP>Khám I</TENKP>
+    <VIETTAT>06</VIETTAT>
+    <NGAY>04</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>705000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>06</MAKP>
+    <TENKP>Khám I</TENKP>
+    <VIETTAT>06</VIETTAT>
+    <NGAY>05</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>334000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>06</MAKP>
+    <TENKP>Khám I</TENKP>
+    <VIETTAT>06</VIETTAT>
+    <NGAY>06</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>606000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>06</MAKP>
+    <TENKP>Khám I</TENKP>
+    <VIETTAT>06</VIETTAT>
+    <NGAY>07</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>1109000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>06</MAKP>
+    <TENKP>Khám I</TENKP>
+    <VIETTAT>06</VIETTAT>
+    <NGAY>08</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>399000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>06</MAKP>
+    <TENKP>Khám I</TENKP>
+    <VIETTAT>06</VIETTAT>
+    <NGAY>10</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>40000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>07</MAKP>
+    <TENKP>Kham 3</TENKP>
+    <VIETTAT>07</VIETTAT>
+    <NGAY>01</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>1322000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>07</MAKP>
+    <TENKP>Kham 3</TENKP>
+    <VIETTAT>07</VIETTAT>
+    <NGAY>04</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>619000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>07</MAKP>
+    <TENKP>Kham 3</TENKP>
+    <VIETTAT>07</VIETTAT>
+    <NGAY>05</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>688000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>07</MAKP>
+    <TENKP>Kham 3</TENKP>
+    <VIETTAT>07</VIETTAT>
+    <NGAY>06</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>651000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>07</MAKP>
+    <TENKP>Kham 3</TENKP>
+    <VIETTAT>07</VIETTAT>
+    <NGAY>07</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>462000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>07</MAKP>
+    <TENKP>Kham 3</TENKP>
+    <VIETTAT>07</VIETTAT>
+    <NGAY>08</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>1714000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>08</MAKP>
+    <TENKP>Khám Nhi</TENKP>
+    <VIETTAT>08</VIETTAT>
+    <NGAY>01</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>40000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>08</MAKP>
+    <TENKP>Khám Nhi</TENKP>
+    <VIETTAT>08</VIETTAT>
+    <NGAY>04</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>65000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>08</MAKP>
+    <TENKP>Khám Nhi</TENKP>
+    <VIETTAT>08</VIETTAT>
+    <NGAY>05</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>60000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>08</MAKP>
+    <TENKP>Khám Nhi</TENKP>
+    <VIETTAT>08</VIETTAT>
+    <NGAY>06</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>90000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>08</MAKP>
+    <TENKP>Khám Nhi</TENKP>
+    <VIETTAT>08</VIETTAT>
+    <NGAY>07</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>55000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>08</MAKP>
+    <TENKP>Khám Nhi</TENKP>
+    <VIETTAT>08</VIETTAT>
+    <NGAY>08</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>60000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>09</MAKP>
+    <TENKP>Da Liễu</TENKP>
+    <VIETTAT>009</VIETTAT>
+    <NGAY>01</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>25000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>09</MAKP>
+    <TENKP>Da Liễu</TENKP>
+    <VIETTAT>009</VIETTAT>
+    <NGAY>04</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>25000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>09</MAKP>
+    <TENKP>Da Liễu</TENKP>
+    <VIETTAT>009</VIETTAT>
+    <NGAY>05</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>5000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>09</MAKP>
+    <TENKP>Da Liễu</TENKP>
+    <VIETTAT>009</VIETTAT>
+    <NGAY>06</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>15000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>09</MAKP>
+    <TENKP>Da Liễu</TENKP>
+    <VIETTAT>009</VIETTAT>
+    <NGAY>07</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>20000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>09</MAKP>
+    <TENKP>Da Liễu</TENKP>
+    <VIETTAT>009</VIETTAT>
+    <NGAY>08</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>20000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>10</MAKP>
+    <TENKP>Sk Tâm Thần</TENKP>
+    <VIETTAT>10</VIETTAT>
+    <NGAY>05</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>72000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>11</MAKP>
+    <TENKP>Tai Mũi Họng</TENKP>
+    <VIETTAT>11</VIETTAT>
+    <NGAY>05</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>15000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>11</MAKP>
+    <TENKP>Tai Mũi Họng</TENKP>
+    <VIETTAT>11</VIETTAT>
+    <NGAY>07</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>20000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>12</MAKP>
+    <TENKP>Răng Hàm Mặt</TENKP>
+    <VIETTAT>12</VIETTAT>
+    <NGAY>01</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>490000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>12</MAKP>
+    <TENKP>Răng Hàm Mặt</TENKP>
+    <VIETTAT>12</VIETTAT>
+    <NGAY>04</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>625000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>12</MAKP>
+    <TENKP>Răng Hàm Mặt</TENKP>
+    <VIETTAT>12</VIETTAT>
+    <NGAY>05</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>90000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>12</MAKP>
+    <TENKP>Răng Hàm Mặt</TENKP>
+    <VIETTAT>12</VIETTAT>
+    <NGAY>06</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>575000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>12</MAKP>
+    <TENKP>Răng Hàm Mặt</TENKP>
+    <VIETTAT>12</VIETTAT>
+    <NGAY>07</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>300000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>12</MAKP>
+    <TENKP>Răng Hàm Mặt</TENKP>
+    <VIETTAT>12</VIETTAT>
+    <NGAY>08</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>105000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>13</MAKP>
+    <TENKP>Phụ Khoa</TENKP>
+    <VIETTAT>13</VIETTAT>
+    <NGAY>01</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>598000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>13</MAKP>
+    <TENKP>Phụ Khoa</TENKP>
+    <VIETTAT>13</VIETTAT>
+    <NGAY>03</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>40000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>13</MAKP>
+    <TENKP>Phụ Khoa</TENKP>
+    <VIETTAT>13</VIETTAT>
+    <NGAY>04</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>1260000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>13</MAKP>
+    <TENKP>Phụ Khoa</TENKP>
+    <VIETTAT>13</VIETTAT>
+    <NGAY>05</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>820000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>13</MAKP>
+    <TENKP>Phụ Khoa</TENKP>
+    <VIETTAT>13</VIETTAT>
+    <NGAY>06</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>929000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>13</MAKP>
+    <TENKP>Phụ Khoa</TENKP>
+    <VIETTAT>13</VIETTAT>
+    <NGAY>07</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>1535000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>13</MAKP>
+    <TENKP>Phụ Khoa</TENKP>
+    <VIETTAT>13</VIETTAT>
+    <NGAY>08</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>740000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>14</MAKP>
+    <TENKP>Phòng Khám Thai</TENKP>
+    <VIETTAT>14</VIETTAT>
+    <NGAY>01</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>470000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>14</MAKP>
+    <TENKP>Phòng Khám Thai</TENKP>
+    <VIETTAT>14</VIETTAT>
+    <NGAY>02</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>10000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>14</MAKP>
+    <TENKP>Phòng Khám Thai</TENKP>
+    <VIETTAT>14</VIETTAT>
+    <NGAY>03</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>10000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>14</MAKP>
+    <TENKP>Phòng Khám Thai</TENKP>
+    <VIETTAT>14</VIETTAT>
+    <NGAY>04</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>525000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>14</MAKP>
+    <TENKP>Phòng Khám Thai</TENKP>
+    <VIETTAT>14</VIETTAT>
+    <NGAY>05</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>215000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>14</MAKP>
+    <TENKP>Phòng Khám Thai</TENKP>
+    <VIETTAT>14</VIETTAT>
+    <NGAY>06</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>400000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>14</MAKP>
+    <TENKP>Phòng Khám Thai</TENKP>
+    <VIETTAT>14</VIETTAT>
+    <NGAY>07</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>267000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>14</MAKP>
+    <TENKP>Phòng Khám Thai</TENKP>
+    <VIETTAT>14</VIETTAT>
+    <NGAY>08</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>580000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>15</MAKP>
+    <TENKP>Khám 2</TENKP>
+    <VIETTAT>15</VIETTAT>
+    <NGAY>01</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>0</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>15</MAKP>
+    <TENKP>Khám 2</TENKP>
+    <VIETTAT>15</VIETTAT>
+    <NGAY>04</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>0</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>15</MAKP>
+    <TENKP>Khám 2</TENKP>
+    <VIETTAT>15</VIETTAT>
+    <NGAY>05</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>0</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>15</MAKP>
+    <TENKP>Khám 2</TENKP>
+    <VIETTAT>15</VIETTAT>
+    <NGAY>06</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>0</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>15</MAKP>
+    <TENKP>Khám 2</TENKP>
+    <VIETTAT>15</VIETTAT>
+    <NGAY>07</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>15000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>15</MAKP>
+    <TENKP>Khám 2</TENKP>
+    <VIETTAT>15</VIETTAT>
+    <NGAY>08</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>15000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>16</MAKP>
+    <TENKP>Tiêm Ngừa</TENKP>
+    <VIETTAT>16</VIETTAT>
+    <NGAY>01</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>653000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>16</MAKP>
+    <TENKP>Tiêm Ngừa</TENKP>
+    <VIETTAT>16</VIETTAT>
+    <NGAY>04</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>1604000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>16</MAKP>
+    <TENKP>Tiêm Ngừa</TENKP>
+    <VIETTAT>16</VIETTAT>
+    <NGAY>05</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>341000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>16</MAKP>
+    <TENKP>Tiêm Ngừa</TENKP>
+    <VIETTAT>16</VIETTAT>
+    <NGAY>06</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>702000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>16</MAKP>
+    <TENKP>Tiêm Ngừa</TENKP>
+    <VIETTAT>16</VIETTAT>
+    <NGAY>07</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>341000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>16</MAKP>
+    <TENKP>Tiêm Ngừa</TENKP>
+    <VIETTAT>16</VIETTAT>
+    <NGAY>08</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>1380000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>17</MAKP>
+    <TENKP>Không Khám</TENKP>
+    <VIETTAT>17</VIETTAT>
+    <NGAY>01</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>4971000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>17</MAKP>
+    <TENKP>Không Khám</TENKP>
+    <VIETTAT>17</VIETTAT>
+    <NGAY>02</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>80000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>17</MAKP>
+    <TENKP>Không Khám</TENKP>
+    <VIETTAT>17</VIETTAT>
+    <NGAY>03</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>35000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>17</MAKP>
+    <TENKP>Không Khám</TENKP>
+    <VIETTAT>17</VIETTAT>
+    <NGAY>04</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>3646000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>17</MAKP>
+    <TENKP>Không Khám</TENKP>
+    <VIETTAT>17</VIETTAT>
+    <NGAY>05</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>1452000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>17</MAKP>
+    <TENKP>Không Khám</TENKP>
+    <VIETTAT>17</VIETTAT>
+    <NGAY>06</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>2030000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>17</MAKP>
+    <TENKP>Không Khám</TENKP>
+    <VIETTAT>17</VIETTAT>
+    <NGAY>07</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>4094000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>17</MAKP>
+    <TENKP>Không Khám</TENKP>
+    <VIETTAT>17</VIETTAT>
+    <NGAY>08</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>1158000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>18</MAKP>
+    <TENKP>Mắt </TENKP>
+    <VIETTAT>18</VIETTAT>
+    <NGAY>01</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>60000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>18</MAKP>
+    <TENKP>Mắt </TENKP>
+    <VIETTAT>18</VIETTAT>
+    <NGAY>04</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>60000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>18</MAKP>
+    <TENKP>Mắt </TENKP>
+    <VIETTAT>18</VIETTAT>
+    <NGAY>05</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>40000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>18</MAKP>
+    <TENKP>Mắt </TENKP>
+    <VIETTAT>18</VIETTAT>
+    <NGAY>06</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>70000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>18</MAKP>
+    <TENKP>Mắt </TENKP>
+    <VIETTAT>18</VIETTAT>
+    <NGAY>07</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>125000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>18</MAKP>
+    <TENKP>Mắt </TENKP>
+    <VIETTAT>18</VIETTAT>
+    <NGAY>08</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>110000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>22</MAKP>
+    <TENKP>Lao</TENKP>
+    <VIETTAT>22</VIETTAT>
+    <NGAY>01</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>31000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>22</MAKP>
+    <TENKP>Lao</TENKP>
+    <VIETTAT>22</VIETTAT>
+    <NGAY>04</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>144000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>22</MAKP>
+    <TENKP>Lao</TENKP>
+    <VIETTAT>22</VIETTAT>
+    <NGAY>07</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>10000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>22</MAKP>
+    <TENKP>Lao</TENKP>
+    <VIETTAT>22</VIETTAT>
+    <NGAY>08</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>20000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>24</MAKP>
+    <TENKP>K Ngoài Giờ</TENKP>
+    <VIETTAT>24</VIETTAT>
+    <NGAY>01</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>165000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>24</MAKP>
+    <TENKP>K Ngoài Giờ</TENKP>
+    <VIETTAT>24</VIETTAT>
+    <NGAY>02</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>2350000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>24</MAKP>
+    <TENKP>K Ngoài Giờ</TENKP>
+    <VIETTAT>24</VIETTAT>
+    <NGAY>03</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>1572000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>24</MAKP>
+    <TENKP>K Ngoài Giờ</TENKP>
+    <VIETTAT>24</VIETTAT>
+    <NGAY>04</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>305000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>24</MAKP>
+    <TENKP>K Ngoài Giờ</TENKP>
+    <VIETTAT>24</VIETTAT>
+    <NGAY>05</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>190000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>24</MAKP>
+    <TENKP>K Ngoài Giờ</TENKP>
+    <VIETTAT>24</VIETTAT>
+    <NGAY>06</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>150000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>24</MAKP>
+    <TENKP>K Ngoài Giờ</TENKP>
+    <VIETTAT>24</VIETTAT>
+    <NGAY>07</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>340000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>25</MAKP>
+    <TENKP>Cận Lâm Sàng</TENKP>
+    <VIETTAT>25</VIETTAT>
+    <NGAY>01</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>120000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>25</MAKP>
+    <TENKP>Cận Lâm Sàng</TENKP>
+    <VIETTAT>25</VIETTAT>
+    <NGAY>04</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>30000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>25</MAKP>
+    <TENKP>Cận Lâm Sàng</TENKP>
+    <VIETTAT>25</VIETTAT>
+    <NGAY>05</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>80000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>25</MAKP>
+    <TENKP>Cận Lâm Sàng</TENKP>
+    <VIETTAT>25</VIETTAT>
+    <NGAY>06</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>80000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>25</MAKP>
+    <TENKP>Cận Lâm Sàng</TENKP>
+    <VIETTAT>25</VIETTAT>
+    <NGAY>07</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>85000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>25</MAKP>
+    <TENKP>Cận Lâm Sàng</TENKP>
+    <VIETTAT>25</VIETTAT>
+    <NGAY>08</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>160000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>26</MAKP>
+    <TENKP>Đông Y</TENKP>
+    <VIETTAT>26</VIETTAT>
+    <NGAY>01</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>31000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>26</MAKP>
+    <TENKP>Đông Y</TENKP>
+    <VIETTAT>26</VIETTAT>
+    <NGAY>06</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>55000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>26</MAKP>
+    <TENKP>Đông Y</TENKP>
+    <VIETTAT>26</VIETTAT>
+    <NGAY>07</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>25000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>26</MAKP>
+    <TENKP>Đông Y</TENKP>
+    <VIETTAT>26</VIETTAT>
+    <NGAY>08</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>31000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>27</MAKP>
+    <TENKP>Phòng Thủ Thuật</TENKP>
+    <VIETTAT>27</VIETTAT>
+    <NGAY>07</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>15000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>99</MAKP>
+    <TENKP>Phòng lưu</TENKP>
+    <VIETTAT>99</VIETTAT>
+    <NGAY>01</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>320000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>99</MAKP>
+    <TENKP>Phòng lưu</TENKP>
+    <VIETTAT>99</VIETTAT>
+    <NGAY>02</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>324000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>99</MAKP>
+    <TENKP>Phòng lưu</TENKP>
+    <VIETTAT>99</VIETTAT>
+    <NGAY>03</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>103000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>99</MAKP>
+    <TENKP>Phòng lưu</TENKP>
+    <VIETTAT>99</VIETTAT>
+    <NGAY>04</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>160000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>99</MAKP>
+    <TENKP>Phòng lưu</TENKP>
+    <VIETTAT>99</VIETTAT>
+    <NGAY>05</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>225000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>99</MAKP>
+    <TENKP>Phòng lưu</TENKP>
+    <VIETTAT>99</VIETTAT>
+    <NGAY>06</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>30000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>99</MAKP>
+    <TENKP>Phòng lưu</TENKP>
+    <VIETTAT>99</VIETTAT>
+    <NGAY>07</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>170000</SOTIEN>
+  </Table>
+  <Table>
+    <MAKP>99</MAKP>
+    <TENKP>Phòng lưu</TENKP>
+    <VIETTAT>99</VIETTAT>
+    <NGAY>08</NGAY>
+    <THANG>12</THANG>
+    <NAM>2006</NAM>
+    <SOTIEN>90000</SOTIEN>
+  </Table>
+</NewDataSet>

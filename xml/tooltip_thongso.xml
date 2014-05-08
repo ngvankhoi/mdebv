@@ -1,0 +1,541 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="control_name" type="xs:string" minOccurs="0" />
+                <xs:element name="text" type="xs:string" minOccurs="0" />
+                <xs:element name="vie" type="xs:string" minOccurs="0" />
+                <xs:element name="eng" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <control_name>label37</control_name>
+    <text>ngày</text>
+    <vie>ngày</vie>
+  </Table>
+  <Table>
+    <control_name>c105</control_name>
+    <text>1</text>
+    <vie>1</vie>
+  </Table>
+  <Table>
+    <control_name>c10</control_name>
+    <text>30</text>
+    <vie>30</vie>
+  </Table>
+  <Table>
+    <control_name>c22</control_name>
+    <text>30</text>
+    <vie>30</vie>
+  </Table>
+  <Table>
+    <control_name>label7</control_name>
+    <text>Số ngày hoàn trả so với ngày lãnh là :</text>
+    <vie>Số ngày hoàn trả so với ngày lãnh là :</vie>
+  </Table>
+  <Table>
+    <control_name>label36</control_name>
+    <text>Khoảng cách ngày kiểm kê :</text>
+    <vie>Khoảng cách ngày kiểm kê :</vie>
+  </Table>
+  <Table>
+    <control_name>c28</control_name>
+    <text>Lọc ngày trong phiếu lĩnh</text>
+    <vie>Lọc ngày trong phiếu lĩnh</vie>
+  </Table>
+  <Table>
+    <control_name>c45</control_name>
+    <text>Nhập số lượng qui đổi trong phiếu nhập</text>
+    <vie>Nhập số lượng qui đổi trong phiếu nhập</vie>
+  </Table>
+  <Table>
+    <control_name>c04</control_name>
+    <text>Nhập đơn giá</text>
+    <vie>Nhập đơn giá</vie>
+  </Table>
+  <Table>
+    <control_name>c13</control_name>
+    <text>Khoá số liệu tháng 02 năm 14</text>
+    <vie>Khoá số liệu tháng 06 năm 09</vie>
+  </Table>
+  <Table>
+    <control_name>label10</control_name>
+    <text>Ngày làm việc so với ngày hệ thống :</text>
+    <vie>Ngày làm việc so với ngày hệ thống :</vie>
+  </Table>
+  <Table>
+    <control_name>c37</control_name>
+    <text>Lọc ngày trong xuất tủ trực</text>
+    <vie>Lọc ngày trong xuất tủ trực</vie>
+  </Table>
+  <Table>
+    <control_name>c116</control_name>
+    <text>Nhập nhà cung cấp trong danh mục</text>
+    <vie>Nhập nhà cung cấp trong danh mục</vie>
+  </Table>
+  <Table>
+    <control_name>c106</control_name>
+    <text>Bắt buộc phải nhập bác sỹ</text>
+    <vie>Bắt buộc phải nhập bác sỹ</vie>
+  </Table>
+  <Table>
+    <control_name>c29</control_name>
+    <text>Lọc ngày trong phiếu hoàn trả</text>
+    <vie>Lọc ngày trong phiếu hoàn trả</vie>
+  </Table>
+  <Table>
+    <control_name>c97</control_name>
+    <text>Nhập định khoản trong phiếu nhập</text>
+    <vie>Nhập định khoản trong phiếu nhập</vie>
+  </Table>
+  <Table>
+    <control_name>c96</control_name>
+    <text>Nhập người giao hàng trong phiếu nhập</text>
+    <vie>Nhập người giao hàng trong phiếu nhập</vie>
+  </Table>
+  <Table>
+    <control_name>c95</control_name>
+    <text>Nhập biên bản kê trong phiếu nhập</text>
+    <vie>Nhập biên bản kê trong phiếu nhập</vie>
+  </Table>
+  <Table>
+    <control_name>c94</control_name>
+    <text>Nhập chẩn đoán trong xuất ngoại trú</text>
+    <vie>Nhập chẩn đoán trong xuất ngoại trú</vie>
+  </Table>
+  <Table>
+    <control_name>c70</control_name>
+    <text>Lọc theo người nhập trong phiếu bảo hiểm</text>
+    <vie>Lọc theo người nhập trong phiếu bảo hiểm</vie>
+  </Table>
+  <Table>
+    <control_name>c62</control_name>
+    <text>Nhập mã người bệnh  trong bảo hiểm</text>
+    <vie>Nhập mã người bệnh  trong bảo hiểm</vie>
+  </Table>
+  <Table>
+    <control_name>hinh</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>label14</control_name>
+    <text>Tiêu đề :</text>
+    <vie>Tiêu đề :</vie>
+  </Table>
+  <Table>
+    <control_name>kho</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>label15</control_name>
+    <text>Hình :</text>
+    <vie>Hình :</vie>
+  </Table>
+  <Table>
+    <control_name>butHinh</control_name>
+    <text>...</text>
+    <vie>...</vie>
+  </Table>
+  <Table>
+    <control_name>c02</control_name>
+    <text>A01. Mã số tự động</text>
+    <vie>Mã số tự động</vie>
+  </Table>
+  <Table>
+    <control_name>c23</control_name>
+    <text>Nhập tên hoạt chất</text>
+    <vie>Nhập tên hoạt chất</vie>
+  </Table>
+  <Table>
+    <control_name>c05</control_name>
+    <text>Xem trước khi in</text>
+    <vie>Xem trước khi in</vie>
+  </Table>
+  <Table>
+    <control_name>c11</control_name>
+    <text>Nhập dược bệnh viện trong khai báo danh mục</text>
+    <vie>Nhập dược bệnh viện trong khai báo danh mục</vie>
+  </Table>
+  <Table>
+    <control_name>c12</control_name>
+    <text>Nhập nhóm kế toán trong khai báo danh mục</text>
+    <vie>Nhập nhóm kế toán trong khai báo danh mục</vie>
+  </Table>
+  <Table>
+    <control_name>c30</control_name>
+    <text>Lọc ngày trong xuất bảo hiểm</text>
+    <vie>Lọc ngày trong xuất bảo hiểm</vie>
+  </Table>
+  <Table>
+    <control_name>c31</control_name>
+    <text>Lọc ngày trong xuất ngoại trú</text>
+    <vie>Lọc ngày trong xuất ngoại trú</vie>
+  </Table>
+  <Table>
+    <control_name>label1</control_name>
+    <text>Ban giám đốc :</text>
+    <vie>Ban giám đốc :</vie>
+  </Table>
+  <Table>
+    <control_name>c07</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>label13</control_name>
+    <text>Phụ trách  kế toán :</text>
+    <vie>Phụ trách  kế toán :</vie>
+  </Table>
+  <Table>
+    <control_name>c32</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>label2</control_name>
+    <text>Phụ trách bộ phận :</text>
+    <vie>Phụ trách bộ phận :</vie>
+  </Table>
+  <Table>
+    <control_name>c08</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>label3</control_name>
+    <text>Người lập biểu :</text>
+    <vie>Người lập biểu :</vie>
+  </Table>
+  <Table>
+    <control_name>c09</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>label4</control_name>
+    <text>Kế toán kho :</text>
+    <vie>Kế toán kho :</vie>
+  </Table>
+  <Table>
+    <control_name>c15</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>label5</control_name>
+    <text>Thủ kho :</text>
+    <vie>Thủ kho :</vie>
+  </Table>
+  <Table>
+    <control_name>c16</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>label11</control_name>
+    <text>ngày</text>
+    <vie>ngày</vie>
+  </Table>
+  <Table>
+    <control_name>label6</control_name>
+    <text>ngày</text>
+    <vie>ngày</vie>
+  </Table>
+  <Table>
+    <control_name>c26</control_name>
+    <text>Nhập mã số</text>
+    <vie>Nhập mã số</vie>
+  </Table>
+  <Table>
+    <control_name>c27</control_name>
+    <text>Nhập số thẻ trong bảo hiểm</text>
+    <vie>Nhập số thẻ trong bảo hiểm</vie>
+  </Table>
+  <Table>
+    <control_name>c34</control_name>
+    <text>Nhập phòng khám trong bảo hiểm</text>
+    <vie>Nhập phòng khám trong bảo hiểm</vie>
+  </Table>
+  <Table>
+    <control_name>c36</control_name>
+    <text>Nhập chẩn đoán trong bảo hiểm</text>
+    <vie>Nhập chẩn đoán trong bảo hiểm</vie>
+  </Table>
+  <Table>
+    <control_name>c40</control_name>
+    <text>Nhập mã người bệnh trong xuất ngoại trú</text>
+    <vie>Nhập mã người bệnh trong xuất ngoại trú</vie>
+  </Table>
+  <Table>
+    <control_name>c24</control_name>
+    <text>Nhập họ tên trong xuất ngoại trú</text>
+    <vie>Nhập họ tên trong xuất ngoại trú</vie>
+  </Table>
+  <Table>
+    <control_name>c25</control_name>
+    <text>Nhập năm sinh trong xuất ngoại trú</text>
+    <vie>Nhập năm sinh trong xuất ngoại trú</vie>
+  </Table>
+  <Table>
+    <control_name>c41</control_name>
+    <text>Lọc theo người dùng trong duyệt</text>
+    <vie>Lọc theo người dùng trong duyệt</vie>
+  </Table>
+  <Table>
+    <control_name>c35</control_name>
+    <text>Nhập bác sĩ trong bảo hiểm</text>
+    <vie>Nhập bác sĩ trong bảo hiểm</vie>
+  </Table>
+  <Table>
+    <control_name>c38</control_name>
+    <text>Nhập khoa/phòng xuất ngoại trú</text>
+    <vie>Nhập khoa/phòng xuất ngoại trú</vie>
+  </Table>
+  <Table>
+    <control_name>c39</control_name>
+    <text>Nhập bác sỹ trong xuất ngoại trú</text>
+    <vie>Nhập bác sỹ trong xuất ngoại trú</vie>
+  </Table>
+  <Table>
+    <control_name>label9</control_name>
+    <text>Số thẻ 13 ký tự :</text>
+    <vie>Số thẻ 13 ký tự :</vie>
+  </Table>
+  <Table>
+    <control_name>label8</control_name>
+    <text>Bảo hiểm cùng chi trả</text>
+    <vie>Bảo hiểm cùng chi trả</vie>
+  </Table>
+  <Table>
+    <control_name>label43</control_name>
+    <text>Tự nguyện :</text>
+    <vie>Tự nguyện :</vie>
+  </Table>
+  <Table>
+    <control_name>label42</control_name>
+    <text>Vị trí</text>
+    <vie>Vị trí</vie>
+  </Table>
+  <Table>
+    <control_name>c121</control_name>
+    <text>5,2</text>
+    <vie>5,2</vie>
+  </Table>
+  <Table>
+    <control_name>c120</control_name>
+    <text>SS,TT,RR</text>
+    <vie>SS,TT,RR</vie>
+  </Table>
+  <Table>
+    <control_name>label41</control_name>
+    <text>Vị trí</text>
+    <vie>Vị trí</vie>
+  </Table>
+  <Table>
+    <control_name>label28</control_name>
+    <text>số lẻ</text>
+    <vie>số lẻ</vie>
+  </Table>
+  <Table>
+    <control_name>c56</control_name>
+    <text>report</text>
+    <vie>report</vie>
+  </Table>
+  <Table>
+    <control_name>c47</control_name>
+    <text>3000</text>
+    <vie>3000</vie>
+  </Table>
+  <Table>
+    <control_name>c112</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>label40</control_name>
+    <text>Domain :</text>
+    <vie>Domain :</vie>
+  </Table>
+  <Table>
+    <control_name>c84</control_name>
+    <text>3,2</text>
+    <vie>3,2</vie>
+  </Table>
+  <Table>
+    <control_name>c83</control_name>
+    <text>50</text>
+    <vie>50</vie>
+  </Table>
+  <Table>
+    <control_name>label33</control_name>
+    <text>Số thẻ trong tỉnh :</text>
+    <vie>Số thẻ trong tỉnh :</vie>
+  </Table>
+  <Table>
+    <control_name>label31</control_name>
+    <text>Giá bán :</text>
+    <vie>Giá bán :</vie>
+  </Table>
+  <Table>
+    <control_name>c79</control_name>
+    <text>0</text>
+    <vie>0</vie>
+  </Table>
+  <Table>
+    <control_name>label32</control_name>
+    <text>số lẻ</text>
+    <vie>số lẻ</vie>
+  </Table>
+  <Table>
+    <control_name>label24</control_name>
+    <text>Thư mục báo cáo :</text>
+    <vie>Thư mục báo cáo :</vie>
+  </Table>
+  <Table>
+    <control_name>label18</control_name>
+    <text>Công khám bảo hiểm :</text>
+    <vie>Công khám bảo hiểm :</vie>
+  </Table>
+  <Table>
+    <control_name>label25</control_name>
+    <text>Số lượng :</text>
+    <vie>Số lượng :</vie>
+  </Table>
+  <Table>
+    <control_name>c57</control_name>
+    <text>0</text>
+    <vie>0</vie>
+  </Table>
+  <Table>
+    <control_name>label26</control_name>
+    <text>Đơn giá :</text>
+    <vie>Đơn giá :</vie>
+  </Table>
+  <Table>
+    <control_name>c58</control_name>
+    <text>0</text>
+    <vie>0</vie>
+  </Table>
+  <Table>
+    <control_name>label29</control_name>
+    <text>số lẻ</text>
+    <vie>số lẻ</vie>
+  </Table>
+  <Table>
+    <control_name>label27</control_name>
+    <text>Thành tiền :</text>
+    <vie>Thành tiền :</vie>
+  </Table>
+  <Table>
+    <control_name>c59</control_name>
+    <text>0</text>
+    <vie>0</vie>
+  </Table>
+  <Table>
+    <control_name>label30</control_name>
+    <text>số lẻ</text>
+    <vie>số lẻ</vie>
+  </Table>
+  <Table>
+    <control_name>ma13</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>label12</control_name>
+    <text>Số thẻ mới :</text>
+    <vie>Số thẻ mới :</vie>
+  </Table>
+  <Table>
+    <control_name>ma16</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>label19</control_name>
+    <text>Ngoại trú chi trả</text>
+    <vie>Ngoại trú chi trả</vie>
+  </Table>
+  <Table>
+    <control_name>c48</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>c49</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>label21</control_name>
+    <text>&gt;</text>
+    <vie>&gt;</vie>
+  </Table>
+  <Table>
+    <control_name>label22</control_name>
+    <text>&gt;</text>
+    <vie>&gt;</vie>
+  </Table>
+  <Table>
+    <control_name>label20</control_name>
+    <text>Số tiền</text>
+    <vie>Số tiền</vie>
+  </Table>
+  <Table>
+    <control_name>label23</control_name>
+    <text>Vị trí</text>
+    <vie>Vị trí</vie>
+  </Table>
+  <Table>
+    <control_name>c50</control_name>
+    <text>20000</text>
+    <vie>20000</vie>
+  </Table>
+  <Table>
+    <control_name>c52</control_name>
+    <text>5,1</text>
+    <vie>5,1</vie>
+  </Table>
+  <Table>
+    <control_name>c51</control_name>
+    <text>20000</text>
+    <vie>20000</vie>
+  </Table>
+  <Table>
+    <control_name>c53</control_name>
+    <text>5,2</text>
+    <vie>5,2</vie>
+  </Table>
+  <Table>
+    <control_name>dataGrid1</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>dataGrid2</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>butKetthuc</control_name>
+    <text>&amp;Kết thúc</text>
+    <vie>&amp;Kết thúc</vie>
+  </Table>
+  <Table>
+    <control_name>butOK</control_name>
+    <text>&amp;Cập nhật</text>
+    <vie>&amp;Cập nhật</vie>
+  </Table>
+</NewDataSet>

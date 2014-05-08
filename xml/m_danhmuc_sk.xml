@@ -1,0 +1,39 @@
+<?xml version="1.0" standalone="yes" ?>
+<NewDataSet>
+	<xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xs:element name="NewDataSet" msdata:IsDataSet="true">
+			<xs:complexType>
+				<xs:choice maxOccurs="unbounded">
+					<xs:element name="Table">
+						<xs:complexType>
+							<xs:sequence>
+								<xs:element name="TEN" type="xs:string" minOccurs="0" />
+								<xs:element name="SQL" type="xs:string" minOccurs="0" />
+							</xs:sequence>
+						</xs:complexType>
+					</xs:element>
+				</xs:choice>
+			</xs:complexType>
+		</xs:element>
+	</xs:schema>
+	<Table>
+		<SQL>dmngoithai</SQL>
+		<MA>gia_th</MA>
+		<TEN>Ngôi thai</TEN>
+	</Table>
+	<Table>
+		<SQL>dmditat</SQL>
+		<MA>gia_bh</MA>
+		<TEN>Di tật bẩm sinh</TEN>
+	</Table>
+	<Table>
+		<SQL>dmtaibiensanh</SQL>
+		<MA>gia_dv</MA>
+		<TEN>Tai biến sanh </TEN>
+	</Table>
+	<Table>
+		<SQL>dmkieusanh</SQL>
+		<MA>gia_nn</MA>
+		<TEN>Kiểu sanh</TEN>
+	</Table>
+</NewDataSet>

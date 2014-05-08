@@ -1,0 +1,71 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="id" type="xs:decimal" minOccurs="0" />
+                <xs:element name="id_cha" type="xs:decimal" minOccurs="0" />
+                <xs:element name="stt" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ten" type="xs:string" minOccurs="0" />
+                <xs:element name="sql" type="xs:string" minOccurs="0" />
+                <xs:element name="tenfield" type="xs:string" minOccurs="0" />
+                <xs:element name="captionfield" type="xs:string" minOccurs="0" />
+                <xs:element name="width" type="xs:string" minOccurs="0" />
+                <xs:element name="report" type="xs:string" minOccurs="0" />
+                <xs:element name="readonly" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <id>1</id>
+    <id_cha>0</id_cha>
+    <stt>1</stt>
+    <ten>test</ten>
+    <sql>select * from medibv.v_loaivp</sql>
+    <tenfield>loaivp</tenfield>
+    <captionfield>loai</captionfield>
+    <width />
+    <report />
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>2</id>
+    <id_cha>0</id_cha>
+    <stt>2</stt>
+    <ten>Danh sách bệnh nhân</ten>
+    <sql>select distinct (a.mabn), a.hoten,case when a.phai='1' then 'Nữ' else 'Nam' end as phai,a.namsinh, a.sonha||', '||a.thon||', '||e.tenpxa||', '||d.tenquan||', '||c.tentt as diachi ,f.didong
+from medibv.btdbn a, medibvmmyy.benhanpk b, medibv.btdtt c, medibv.btdquan d, medibv.btdpxa e, medibv.dienthoai f
+where a.mabn=b.mabn and a.matt=c.matt and a.maqu=d.maqu and a.maphuongxa=e.maphuongxa and a.mabn=f.mabn
+and to_date(to_char(b.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and to_date(':v_dn','dd/mm/yyyy')</sql>
+    <tenfield>mabn,hoten,phai,namsinh,diachi,didong</tenfield>
+    <captionfield>ID,Họ và tên, GT,NS,Ðịa chỉ, Điện thoại</captionfield>
+    <width>60,170,30,40,350,60</width>
+    <report>rpt_dsbenhan.rpt</report>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>3</id>
+    <id_cha>0</id_cha>
+    <stt>3</stt>
+    <ten>Danh sách khách hàng khuyến mãi</ten>
+    <sql>select to_char(a.ngay,'dd/mm/yyyy') ngay,a.id,a.mabn,case when c.phai =1 then 'nữ' else 'nam' end as phai,b.khuyenmai,c.thon || d.tenpxa || e.tenquan as diachi,f.ten as tendot, b.ten as tenDV,b.mien as sotienKM,
+to_number(to_char(CURRENT_DATE,'yyyy')) - to_number(c.namsinh) as tuoi, c.hoten
+ from medibv0211.v_vienphill a 
+inner join medibv0211.v_vienphict b on a.id=b.id inner join medibv.btdbn c on a.mabn=c.mabn 
+inner join medibv.btdpxa d on c.maphuongxa = d.maphuongxa inner join medibv.btdquan e on c.maqu=e.maqu inner join medibv.v_dot_khuyenmai f on b.khuyenmai=f.id
+where khuyenmai &gt; 0 and to_date(to_char(a.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and to_date(':v_dn','dd/mm/yyyy')</sql>
+    <tenfield>ngay,mabn,hoten,phai,tuoi,diachi,tenDV,sotienKM,tendot</tenfield>
+    <captionfield>Ngày,ID,Họ tên,Giới tính,Tuổi,Địa chỉ,Dịch vụ KM,Số Tiền KM,Mã Chương trình</captionfield>
+    <width />
+    <report>bcdskhuyenmai.rpt</report>
+    <readonly>0</readonly>
+  </Table>
+</NewDataSet>

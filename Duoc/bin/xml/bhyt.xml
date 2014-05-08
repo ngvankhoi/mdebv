@@ -1,0 +1,175 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="sotoa" type="xs:int" minOccurs="0" />
+                <xs:element name="tungay" type="xs:string" minOccurs="0" />
+                <xs:element name="denngay" type="xs:string" minOccurs="0" />
+                <xs:element name="stt" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sttt" type="xs:decimal" minOccurs="0" />
+                <xs:element name="mabd" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ma" type="xs:string" minOccurs="0" />
+                <xs:element name="ten" type="xs:string" minOccurs="0" />
+                <xs:element name="tenhc" type="xs:string" minOccurs="0" />
+                <xs:element name="dang" type="xs:string" minOccurs="0" />
+                <xs:element name="tenkho" type="xs:string" minOccurs="0" />
+                <xs:element name="tennguon" type="xs:string" minOccurs="0" />
+                <xs:element name="tennhomcc" type="xs:string" minOccurs="0" />
+                <xs:element name="handung" type="xs:string" minOccurs="0" />
+                <xs:element name="losx" type="xs:string" minOccurs="0" />
+                <xs:element name="soluong" type="xs:decimal" minOccurs="0" />
+                <xs:element name="dongia" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sotien" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sotienmua" type="xs:decimal" minOccurs="0" />
+                <xs:element name="giaban" type="xs:decimal" minOccurs="0" />
+                <xs:element name="cachdung" type="xs:string" minOccurs="0" />
+                <xs:element name="makho" type="xs:decimal" minOccurs="0" />
+                <xs:element name="manguon" type="xs:decimal" minOccurs="0" />
+                <xs:element name="nhomcc" type="xs:decimal" minOccurs="0" />
+                <xs:element name="nhomin" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tennhomin" type="xs:string" minOccurs="0" />
+                <xs:element name="loaidv" type="xs:int" minOccurs="0" />
+                <xs:element name="manhom" type="xs:decimal" minOccurs="0" />
+                <xs:element name="traituyen" type="xs:int" minOccurs="0" />
+                <xs:element name="hangsx" type="xs:string" minOccurs="0" />
+                <xs:element name="nuocsx" type="xs:string" minOccurs="0" />
+                <xs:element name="Image" type="xs:base64Binary" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <sotoa>1</sotoa>
+    <tungay>01/01/2013</tungay>
+    <denngay>01/01/2014</denngay>
+    <stt>1</stt>
+    <sttt>121207000005717041</sttt>
+    <mabd>276</mabd>
+    <ma>ACY800</ma>
+    <ten>Acyclovir 800mg</ten>
+    <tenhc>Acyclovir</tenhc>
+    <dang>Viên</dang>
+    <tenkho>Kho Bảo Hiểm</tenkho>
+    <tennguon>Bệnh Viện Huyện Văn Bản^10008</tennguon>
+    <tennhomcc>Bệnh viện Bạch Mai</tennhomcc>
+    <handung>0815</handung>
+    <losx>0040</losx>
+    <soluong>2.0000</soluong>
+    <dongia>2200.0000000000</dongia>
+    <sotien>4400.00000000000000</sotien>
+    <sotienmua>4400.00000000000000</sotienmua>
+    <giaban>2200.0000</giaban>
+    <cachdung>Uống ngày 1 lần , lần 2 Viên</cachdung>
+    <makho>3</makho>
+    <manguon>1</manguon>
+    <nhomcc>5</nhomcc>
+    <nhomin>4</nhomin>
+    <tennhomin>Thuốc</tennhomin>
+    <loaidv>1</loaidv>
+    <manhom>1</manhom>
+    <traituyen>1</traituyen>
+    <hangsx>...</hangsx>
+    <nuocsx>..............</nuocsx>
+  </Table>
+  <Table>
+    <sotoa>1</sotoa>
+    <tungay>01/01/2013</tungay>
+    <denngay>01/01/2014</denngay>
+    <stt>1</stt>
+    <sttt>0</sttt>
+    <mabd>-1956</mabd>
+    <ma>KHA013</ma>
+    <ten>Khám lâm sàng chung,khám chuyên khoa (I.5)</ten>
+    <tenhc xml:space="preserve"> </tenhc>
+    <dang>lần</dang>
+    <tenkho xml:space="preserve"> </tenkho>
+    <tennguon>Bệnh Viện Huyện Văn Bản^10008</tennguon>
+    <tennhomcc>Bệnh viện Bạch Mai</tennhomcc>
+    <handung xml:space="preserve"> </handung>
+    <losx xml:space="preserve"> </losx>
+    <soluong>1.00</soluong>
+    <dongia>8000</dongia>
+    <sotien>8000.00</sotien>
+    <sotienmua>8000.00</sotienmua>
+    <giaban>8000</giaban>
+    <cachdung xml:space="preserve"> </cachdung>
+    <makho>0</makho>
+    <manguon>0</manguon>
+    <nhomcc>0</nhomcc>
+    <nhomin>4</nhomin>
+    <tennhomin xml:space="preserve"> </tennhomin>
+    <loaidv>2</loaidv>
+    <manhom>0</manhom>
+    <traituyen>1</traituyen>
+  </Table>
+  <Table>
+    <sotoa>1</sotoa>
+    <tungay>01/01/2013</tungay>
+    <denngay>01/01/2014</denngay>
+    <stt>2</stt>
+    <sttt>0</sttt>
+    <mabd>-4061</mabd>
+    <ma>CHU176</ma>
+    <ten>Phụ lục I/C1.2.6 Chụp XQ Blondeau ( số hóa 1 phim )</ten>
+    <tenhc xml:space="preserve"> </tenhc>
+    <dang>Lần</dang>
+    <tenkho xml:space="preserve"> </tenkho>
+    <tennguon>Bệnh Viện Huyện Văn Bản^10008</tennguon>
+    <tennhomcc>Bệnh viện Bạch Mai</tennhomcc>
+    <handung xml:space="preserve"> </handung>
+    <losx xml:space="preserve"> </losx>
+    <soluong>1.00</soluong>
+    <dongia>55000</dongia>
+    <sotien>55000.00</sotien>
+    <sotienmua>55000.00</sotienmua>
+    <giaban>55000</giaban>
+    <cachdung xml:space="preserve"> </cachdung>
+    <makho>0</makho>
+    <manguon>0</manguon>
+    <nhomcc>0</nhomcc>
+    <nhomin>4</nhomin>
+    <tennhomin xml:space="preserve"> </tennhomin>
+    <loaidv>2</loaidv>
+    <manhom>0</manhom>
+    <traituyen>1</traituyen>
+  </Table>
+  <Table>
+    <sotoa>1</sotoa>
+    <tungay>01/01/2013</tungay>
+    <denngay>01/01/2014</denngay>
+    <stt>3</stt>
+    <sttt>0</sttt>
+    <mabd>-2091</mabd>
+    <ma>NOI016</ma>
+    <ten>Nội soi thực quản-dạ dày-tá tràng ống mềm không sinh thiết (I.110)</ten>
+    <tenhc xml:space="preserve"> </tenhc>
+    <dang>Lần</dang>
+    <tenkho xml:space="preserve"> </tenkho>
+    <tennguon>Bệnh Viện Huyện Văn Bản^10008</tennguon>
+    <tennhomcc>Bệnh viện Bạch Mai</tennhomcc>
+    <handung xml:space="preserve"> </handung>
+    <losx xml:space="preserve"> </losx>
+    <soluong>1.00</soluong>
+    <dongia>112000</dongia>
+    <sotien>112000.00</sotien>
+    <sotienmua>112000.00</sotienmua>
+    <giaban>112000</giaban>
+    <cachdung xml:space="preserve"> </cachdung>
+    <makho>0</makho>
+    <manguon>0</manguon>
+    <nhomcc>0</nhomcc>
+    <nhomin>4</nhomin>
+    <tennhomin xml:space="preserve"> </tennhomin>
+    <loaidv>2</loaidv>
+    <manhom>0</manhom>
+    <traituyen>1</traituyen>
+  </Table>
+</NewDataSet>

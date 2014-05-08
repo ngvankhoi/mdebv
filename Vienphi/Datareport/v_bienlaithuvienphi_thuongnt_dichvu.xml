@@ -1,0 +1,264 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="id" type="xs:decimal" minOccurs="0" />
+                <xs:element name="quyenso" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sobienlai" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sohieu" type="xs:string" minOccurs="0" />
+                <xs:element name="mabn" type="xs:string" minOccurs="0" />
+                <xs:element name="hoten" type="xs:string" minOccurs="0" />
+                <xs:element name="namsinh" type="xs:string" minOccurs="0" />
+                <xs:element name="tinh" type="xs:string" minOccurs="0" />
+                <xs:element name="quan" type="xs:string" minOccurs="0" />
+                <xs:element name="xa" type="xs:string" minOccurs="0" />
+                <xs:element name="sonha" type="xs:string" minOccurs="0" />
+                <xs:element name="thon" type="xs:string" minOccurs="0" />
+                <xs:element name="gioitinh" type="xs:string" minOccurs="0" />
+                <xs:element name="lanin" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ngaysinh" type="xs:string" minOccurs="0" />
+                <xs:element name="mabhyt" type="xs:string" minOccurs="0" />
+                <xs:element name="giatriden" type="xs:string" minOccurs="0" />
+                <xs:element name="tenkp" type="xs:string" minOccurs="0" />
+                <xs:element name="ngaythu" type="xs:string" minOccurs="0" />
+                <xs:element name="tenkpct" type="xs:string" minOccurs="0" />
+                <xs:element name="tentt" type="xs:string" minOccurs="0" />
+                <xs:element name="tenquan" type="xs:string" minOccurs="0" />
+                <xs:element name="tenpxa" type="xs:string" minOccurs="0" />
+                <xs:element name="id_vp" type="xs:decimal" minOccurs="0" />
+                <xs:element name="id_loai" type="xs:decimal" minOccurs="0" />
+                <xs:element name="id_nhom" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tenvp" type="xs:string" minOccurs="0" />
+                <xs:element name="tenloaivp" type="xs:string" minOccurs="0" />
+                <xs:element name="tennhomvp" type="xs:string" minOccurs="0" />
+                <xs:element name="sttvp" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sttloaivp" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sttnhomvp" type="xs:decimal" minOccurs="0" />
+                <xs:element name="dvt" type="xs:string" minOccurs="0" />
+                <xs:element name="soluong" type="xs:decimal" minOccurs="0" />
+                <xs:element name="dongia" type="xs:decimal" minOccurs="0" />
+                <xs:element name="giamua" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sotien" type="xs:decimal" minOccurs="0" />
+                <xs:element name="bhtra" type="xs:decimal" minOccurs="0" />
+                <xs:element name="mien" type="xs:decimal" minOccurs="0" />
+                <xs:element name="thieu" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tongmien" type="xs:decimal" minOccurs="0" />
+                <xs:element name="madoituong" type="xs:decimal" minOccurs="0" />
+                <xs:element name="nguoithu" type="xs:string" minOccurs="0" />
+                <xs:element name="hoantra" type="xs:int" minOccurs="0" />
+                <xs:element name="ghichu" type="xs:string" minOccurs="0" />
+                <xs:element name="nha" type="xs:string" minOccurs="0" />
+                <xs:element name="coquan" type="xs:string" minOccurs="0" />
+                <xs:element name="didong" type="xs:string" minOccurs="0" />
+                <xs:element name="email" type="xs:string" minOccurs="0" />
+                <xs:element name="doituong" type="xs:string" minOccurs="0" />
+                <xs:element name="gia_bh" type="xs:decimal" minOccurs="0" />
+                <xs:element name="gia_dv" type="xs:decimal" minOccurs="0" />
+                <xs:element name="gia_th" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tamung" type="xs:decimal" minOccurs="0" />
+                <xs:element name="nopthem" type="xs:decimal" minOccurs="0" />
+                <xs:element name="thua" type="xs:decimal" minOccurs="0" />
+                <xs:element name="hangsx" type="xs:string" minOccurs="0" />
+                <xs:element name="nuocsx" type="xs:string" minOccurs="0" />
+                <xs:element name="bhyttra_ct" type="xs:decimal" minOccurs="0" />
+                <xs:element name="vat" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tungay" type="xs:string" minOccurs="0" />
+                <xs:element name="denngay" type="xs:string" minOccurs="0" />
+                <xs:element name="sovaovien" type="xs:string" minOccurs="0" />
+                <xs:element name="traituyen" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tenbv" type="xs:string" minOccurs="0" />
+                <xs:element name="thangtuoi" type="xs:string" minOccurs="0" />
+                <xs:element name="lien" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <id>101139140226130845505</id>
+    <quyenso>17</quyenso>
+    <sobienlai>24</sobienlai>
+    <sohieu>HD BH 2013</sohieu>
+    <mabn>14001934</mabn>
+    <hoten>TEST BBN DICH VU</hoten>
+    <namsinh>1989</namsinh>
+    <tinh>Bình Dương</tinh>
+    <quan>Không xác định</quan>
+    <xa>Không xác định</xa>
+    <sonha />
+    <thon />
+    <gioitinh>Nam</gioitinh>
+    <lanin>1</lanin>
+    <mabhyt>GD779854212580779025</mabhyt>
+    <giatriden>31/12/2014</giatriden>
+    <tenkp>Khoa Ngoại</tenkp>
+    <ngaythu>25/02/2014</ngaythu>
+    <tenkpct>Khoa Ngoại</tenkpct>
+    <tentt>Bình Dương</tentt>
+    <tenquan>Không xác định</tenquan>
+    <tenpxa>Không xác định</tenpxa>
+    <id_vp>-191123</id_vp>
+    <id_loai>76</id_loai>
+    <id_nhom>2</id_nhom>
+    <tenvp>Chụp bụng không chuẩn bị</tenvp>
+    <tenloaivp>X quang thường quy</tenloaivp>
+    <tennhomvp>Chẩn đoán hình ảnh</tennhomvp>
+    <sttvp>1</sttvp>
+    <sttloaivp>76</sttloaivp>
+    <sttnhomvp>2</sttnhomvp>
+    <dvt>Lần</dvt>
+    <soluong>1.0000</soluong>
+    <dongia>29000.0000</dongia>
+    <giamua>0.0000000000</giamua>
+    <sotien>29000.00000000</sotien>
+    <bhtra>0.0000</bhtra>
+    <mien>0.0000</mien>
+    <thieu>0.0000</thieu>
+    <tongmien>0.0000</tongmien>
+    <madoituong>10</madoituong>
+    <nguoithu>1</nguoithu>
+    <hoantra>0</hoantra>
+    <ghichu>Bệnh trào ngược dạ dày-thực quản</ghichu>
+    <doituong>Dịch vụ</doituong>
+    <gia_bh>29000</gia_bh>
+    <gia_dv>29000</gia_dv>
+    <gia_th>29000</gia_th>
+    <tamung>0</tamung>
+    <nopthem>0.0000</nopthem>
+    <thua>0.0000</thua>
+    <bhyttra_ct>0.0000</bhyttra_ct>
+    <vat>0.00</vat>
+    <tungay>20/02/2014</tungay>
+    <denngay>25/02/2014</denngay>
+    <sovaovien>0000566/14</sovaovien>
+    <traituyen>0</traituyen>
+    <tenbv>Bệnh viện Thống Nhất</tenbv>
+  </Table>
+  <Table>
+    <id>101139140226130845505</id>
+    <quyenso>17</quyenso>
+    <sobienlai>24</sobienlai>
+    <sohieu>HD BH 2013</sohieu>
+    <mabn>14001934</mabn>
+    <hoten>TEST BBN DICH VU</hoten>
+    <namsinh>1989</namsinh>
+    <tinh>Bình Dương</tinh>
+    <quan>Không xác định</quan>
+    <xa>Không xác định</xa>
+    <sonha />
+    <thon />
+    <gioitinh>Nam</gioitinh>
+    <lanin>1</lanin>
+    <mabhyt>GD779854212580779025</mabhyt>
+    <giatriden>31/12/2014</giatriden>
+    <tenkp>Khoa Ngoại</tenkp>
+    <ngaythu>25/02/2014</ngaythu>
+    <tenkpct>Khoa Ngoại</tenkpct>
+    <tentt>Bình Dương</tentt>
+    <tenquan>Không xác định</tenquan>
+    <tenpxa>Không xác định</tenpxa>
+    <id_vp>-191113</id_vp>
+    <id_loai>65</id_loai>
+    <id_nhom>2</id_nhom>
+    <tenvp>Siêu âm Doppler màu tim 4D(3D REAL TIME)</tenvp>
+    <tenloaivp>Siêu âm</tenloaivp>
+    <tennhomvp>Chẩn đoán hình ảnh</tennhomvp>
+    <sttvp>1</sttvp>
+    <sttloaivp>65</sttloaivp>
+    <sttnhomvp>2</sttnhomvp>
+    <dvt>Lần</dvt>
+    <soluong>1.0000</soluong>
+    <dongia>243000.0000</dongia>
+    <giamua>0.0000000000</giamua>
+    <sotien>243000.00000000</sotien>
+    <bhtra>0.0000</bhtra>
+    <mien>0.0000</mien>
+    <thieu>0.0000</thieu>
+    <tongmien>0.0000</tongmien>
+    <madoituong>10</madoituong>
+    <nguoithu>1</nguoithu>
+    <hoantra>0</hoantra>
+    <ghichu>Bệnh trào ngược dạ dày-thực quản</ghichu>
+    <doituong>Dịch vụ</doituong>
+    <gia_bh>243000</gia_bh>
+    <gia_dv>243000</gia_dv>
+    <gia_th>243000</gia_th>
+    <tamung>0</tamung>
+    <nopthem>0.0000</nopthem>
+    <thua>0.0000</thua>
+    <bhyttra_ct>0.0000</bhyttra_ct>
+    <vat>0.00</vat>
+    <tungay>20/02/2014</tungay>
+    <denngay>25/02/2014</denngay>
+    <sovaovien>0000566/14</sovaovien>
+    <traituyen>0</traituyen>
+    <tenbv>Bệnh viện Thống Nhất</tenbv>
+  </Table>
+  <Table>
+    <id>101139140226130845505</id>
+    <quyenso>17</quyenso>
+    <sobienlai>24</sobienlai>
+    <sohieu>HD BH 2013</sohieu>
+    <mabn>14001934</mabn>
+    <hoten>TEST BBN DICH VU</hoten>
+    <namsinh>1989</namsinh>
+    <tinh>Bình Dương</tinh>
+    <quan>Không xác định</quan>
+    <xa>Không xác định</xa>
+    <sonha />
+    <thon />
+    <gioitinh>Nam</gioitinh>
+    <lanin>1</lanin>
+    <mabhyt>GD779854212580779025</mabhyt>
+    <giatriden>31/12/2014</giatriden>
+    <tenkp>Khoa Ngoại</tenkp>
+    <ngaythu>25/02/2014</ngaythu>
+    <tenkpct>Khoa Ngoại</tenkpct>
+    <tentt>Bình Dương</tentt>
+    <tenquan>Không xác định</tenquan>
+    <tenpxa>Không xác định</tenpxa>
+    <id_vp>-191470</id_vp>
+    <id_loai>8</id_loai>
+    <id_nhom>2</id_nhom>
+    <tenvp>CT scanner bụng</tenvp>
+    <tenloaivp>CT scanner</tenloaivp>
+    <tennhomvp>Chẩn đoán hình ảnh</tennhomvp>
+    <sttvp>1</sttvp>
+    <sttloaivp>8</sttloaivp>
+    <sttnhomvp>2</sttnhomvp>
+    <dvt>Lần</dvt>
+    <soluong>1.0000</soluong>
+    <dongia>672000.0000</dongia>
+    <giamua>0.0000000000</giamua>
+    <sotien>672000.00000000</sotien>
+    <bhtra>0.0000</bhtra>
+    <mien>0.0000</mien>
+    <thieu>0.0000</thieu>
+    <tongmien>0.0000</tongmien>
+    <madoituong>10</madoituong>
+    <nguoithu>1</nguoithu>
+    <hoantra>0</hoantra>
+    <ghichu>Bệnh trào ngược dạ dày-thực quản</ghichu>
+    <doituong>Dịch vụ</doituong>
+    <gia_bh>328000</gia_bh>
+    <gia_dv>1000000</gia_dv>
+    <gia_th>1000000</gia_th>
+    <tamung>0</tamung>
+    <nopthem>0.0000</nopthem>
+    <thua>0.0000</thua>
+    <bhyttra_ct>0.0000</bhyttra_ct>
+    <vat>0.00</vat>
+    <tungay>20/02/2014</tungay>
+    <denngay>25/02/2014</denngay>
+    <sovaovien>0000566/14</sovaovien>
+    <traituyen>0</traituyen>
+    <tenbv>Bệnh viện Thống Nhất</tenbv>
+  </Table>
+</NewDataSet>

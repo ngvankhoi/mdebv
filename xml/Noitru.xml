@@ -1,0 +1,279 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="makp" type="xs:string" minOccurs="0" />
+                <xs:element name="tenkp" type="xs:string" minOccurs="0" />
+                <xs:element name="c02" type="xs:decimal" minOccurs="0" />
+                <xs:element name="c03" type="xs:decimal" minOccurs="0" />
+                <xs:element name="c04" type="xs:decimal" minOccurs="0" />
+                <xs:element name="c05" type="xs:decimal" minOccurs="0" />
+                <xs:element name="c06" type="xs:decimal" minOccurs="0" />
+                <xs:element name="c07" type="xs:decimal" minOccurs="0" />
+                <xs:element name="c08" type="xs:decimal" minOccurs="0" />
+                <xs:element name="c09" type="xs:decimal" minOccurs="0" />
+                <xs:element name="c10" type="xs:decimal" minOccurs="0" />
+                <xs:element name="c11" type="xs:decimal" minOccurs="0" />
+                <xs:element name="c12" type="xs:decimal" minOccurs="0" />
+                <xs:element name="c13" type="xs:decimal" minOccurs="0" />
+                <xs:element name="c14" type="xs:decimal" minOccurs="0" />
+                <xs:element name="C15" type="xs:decimal" minOccurs="0" />
+                <xs:element name="C16" type="xs:decimal" minOccurs="0" />
+                <xs:element name="C17" type="xs:decimal" minOccurs="0" />
+                <xs:element name="C18" type="xs:decimal" minOccurs="0" />
+                <xs:element name="C19" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <makp>02</makp>
+    <tenkp>Hscc</tenkp>
+    <c02>0</c02>
+    <c03>18</c03>
+    <c04>37</c04>
+    <c05>6</c05>
+    <c06>1</c06>
+    <c07>7</c07>
+    <c08>0</c08>
+    <c09>0</c09>
+    <c10>27</c10>
+    <c11>1</c11>
+    <c12>1</c12>
+    <c13>24</c13>
+    <c14>0</c14>
+    <C15>264</C15>
+    <C16>163</C16>
+    <C17>0</C17>
+    <C18>0</C18>
+    <C19>116</C19>
+  </Table>
+  <Table>
+    <makp>03</makp>
+    <tenkp>Khoa Nội</tenkp>
+    <c02>0</c02>
+    <c03>158</c03>
+    <c04>123</c04>
+    <c05>20</c05>
+    <c06>144</c06>
+    <c07>3</c07>
+    <c08>0</c08>
+    <c09>0</c09>
+    <c10>4</c10>
+    <c11>0</c11>
+    <c12>1</c12>
+    <c13>149</c13>
+    <c14>0</c14>
+    <C15>1663</C15>
+    <C16>826</C16>
+    <C17>0</C17>
+    <C18>0</C18>
+    <C19>0</C19>
+  </Table>
+  <Table>
+    <makp>16</makp>
+    <tenkp>Đông Y</tenkp>
+    <c02>0</c02>
+    <c03>5</c03>
+    <c04>1</c04>
+    <c05>1</c05>
+    <c06>0</c06>
+    <c07>0</c07>
+    <c08>0</c08>
+    <c09>0</c09>
+    <c10>1</c10>
+    <c11>0</c11>
+    <c12>0</c12>
+    <c13>6</c13>
+    <c14>0</c14>
+    <C15>69</C15>
+    <C16>7</C16>
+    <C17>0</C17>
+    <C18>0</C18>
+    <C19>0</C19>
+  </Table>
+  <Table>
+    <makp>17</makp>
+    <tenkp>Nhi</tenkp>
+    <c02>0</c02>
+    <c03>86</c03>
+    <c04>105</c04>
+    <c05>5</c05>
+    <c06>88</c06>
+    <c07>13</c07>
+    <c08>9</c08>
+    <c09>0</c09>
+    <c10>0</c10>
+    <c11>0</c11>
+    <c12>0</c12>
+    <c13>86</c13>
+    <c14>0</c14>
+    <C15>969</C15>
+    <C16>594</C16>
+    <C17>0</C17>
+    <C18>0</C18>
+    <C19>0</C19>
+  </Table>
+  <Table>
+    <makp>18</makp>
+    <tenkp>Ngoại</tenkp>
+    <c02>0</c02>
+    <c03>161</c03>
+    <c04>84</c04>
+    <c05>59</c05>
+    <c06>62</c06>
+    <c07>19</c07>
+    <c08>12</c08>
+    <c09>0</c09>
+    <c10>60</c10>
+    <c11>2</c11>
+    <c12>0</c12>
+    <c13>149</c13>
+    <c14>0</c14>
+    <C15>1685</C15>
+    <C16>744</C16>
+    <C17>0</C17>
+    <C18>0</C18>
+    <C19>4</C19>
+  </Table>
+  <Table>
+    <makp>20</makp>
+    <tenkp>Dịch Vụ</tenkp>
+    <c02>0</c02>
+    <c03>23</c03>
+    <c04>0</c04>
+    <c05>25</c05>
+    <c06>30</c06>
+    <c07>0</c07>
+    <c08>0</c08>
+    <c09>0</c09>
+    <c10>3</c10>
+    <c11>0</c11>
+    <c12>0</c12>
+    <c13>15</c13>
+    <c14>0</c14>
+    <C15>154</C15>
+    <C16>98</C16>
+    <C17>0</C17>
+    <C18>0</C18>
+    <C19>0</C19>
+  </Table>
+  <Table>
+    <makp>21</makp>
+    <tenkp>Cấp Cứu Tổng Hợp</tenkp>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+    <c06>0</c06>
+    <c07>0</c07>
+    <c08>0</c08>
+    <c09>0</c09>
+    <c10>0</c10>
+    <c11>0</c11>
+    <c12>0</c12>
+    <c13>0</c13>
+    <c14>0</c14>
+    <C15>0</C15>
+    <C16>0</C16>
+    <C17>0</C17>
+    <C18>0</C18>
+    <C19>0</C19>
+  </Table>
+  <Table>
+    <makp>22</makp>
+    <tenkp>Phụ Sản</tenkp>
+    <c02>0</c02>
+    <c03>239</c03>
+    <c04>215</c04>
+    <c05>48</c05>
+    <c06>197</c06>
+    <c07>1</c07>
+    <c08>2</c08>
+    <c09>0</c09>
+    <c10>72</c10>
+    <c11>3</c11>
+    <c12>0</c12>
+    <c13>227</c13>
+    <c14>0</c14>
+    <C15>2625</C15>
+    <C16>1293</C16>
+    <C17>0</C17>
+    <C18>0</C18>
+    <C19>0</C19>
+  </Table>
+  <Table>
+    <makp>26</makp>
+    <tenkp>Liên Chuyên Khoa</tenkp>
+    <c02>0</c02>
+    <c03>8</c03>
+    <c04>7</c04>
+    <c05>2</c05>
+    <c06>10</c06>
+    <c07>0</c07>
+    <c08>0</c08>
+    <c09>0</c09>
+    <c10>1</c10>
+    <c11>0</c11>
+    <c12>0</c12>
+    <c13>6</c13>
+    <c14>0</c14>
+    <C15>93</C15>
+    <C16>78</C16>
+    <C17>0</C17>
+    <C18>0</C18>
+    <C19>0</C19>
+  </Table>
+  <Table>
+    <makp>27</makp>
+    <tenkp>Vật Lý Trị Liệu-phcn</tenkp>
+    <c02>0</c02>
+    <c03>22</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+    <c06>0</c06>
+    <c07>0</c07>
+    <c08>0</c08>
+    <c09>0</c09>
+    <c10>0</c10>
+    <c11>0</c11>
+    <c12>0</c12>
+    <c13>22</c13>
+    <c14>0</c14>
+    <C15>220</C15>
+    <C16>22</C16>
+    <C17>0</C17>
+    <C18>0</C18>
+    <C19>0</C19>
+  </Table>
+  <Table>
+    <makp>28</makp>
+    <tenkp>Phòng Mổ</tenkp>
+    <c02>0</c02>
+    <c03>27</c03>
+    <c04>18</c04>
+    <c05>107</c05>
+    <c06>4</c06>
+    <c07>6</c07>
+    <c08>0</c08>
+    <c09>0</c09>
+    <c10>111</c10>
+    <c11>0</c11>
+    <c12>0</c12>
+    <c13>31</c13>
+    <c14>0</c14>
+    <C15>219</C15>
+    <C16>106</C16>
+    <C17>0</C17>
+    <C18>14</C18>
+    <C19>32</C19>
+  </Table>
+</NewDataSet>

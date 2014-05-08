@@ -1,0 +1,3753 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="mabd" type="xs:decimal" minOccurs="0" />
+                <xs:element name="stt" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ma" type="xs:string" minOccurs="0" />
+                <xs:element name="hamluong" type="xs:string" minOccurs="0" />
+                <xs:element name="ten" type="xs:string" minOccurs="0" />
+                <xs:element name="dang" type="xs:string" minOccurs="0" />
+                <xs:element name="tenhang" type="xs:string" minOccurs="0" />
+                <xs:element name="tennuoc" type="xs:string" minOccurs="0" />
+                <xs:element name="tenkp" type="xs:string" minOccurs="0" />
+                <xs:element name="TONGCONG" type="xs:decimal" minOccurs="0" />
+                <xs:element name="DONGIA" type="xs:decimal" minOccurs="0" />
+                <xs:element name="THANHTIEN" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <mabd>1506</mabd>
+    <stt>1</stt>
+    <ma>DOC001</ma>
+    <hamluong />
+    <ten>Độc hoạt</ten>
+    <dang>gam</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Xét Nghiệm</tenkp>
+    <TONGCONG>1200.0000</TONGCONG>
+    <DONGIA>110.0000000000</DONGIA>
+    <THANHTIEN>132000</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>189822</mabd>
+    <stt>2</stt>
+    <ma>DOC003</ma>
+    <hamluong />
+    <ten>Độc qui</ten>
+    <dang>gam</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Xét Nghiệm</tenkp>
+    <TONGCONG>1498.0000</TONGCONG>
+    <DONGIA>400.0000000000</DONGIA>
+    <THANHTIEN>599200</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1652</mabd>
+    <stt>3</stt>
+    <ma>DUO003</ma>
+    <hamluong />
+    <ten>Đương quy</ten>
+    <dang>gam</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Xét Nghiệm</tenkp>
+    <TONGCONG>1774.0000</TONGCONG>
+    <DONGIA>215.0000000000</DONGIA>
+    <THANHTIEN>381410</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>189819</mabd>
+    <stt>4</stt>
+    <ma>DAN004</ma>
+    <hamluong />
+    <ten>Đan bì</ten>
+    <dang>gam</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Xét Nghiệm</tenkp>
+    <TONGCONG>742.0000</TONGCONG>
+    <DONGIA>220.0000000000</DONGIA>
+    <THANHTIEN>163240</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1588</mabd>
+    <stt>5</stt>
+    <ma>DAN001</ma>
+    <hamluong />
+    <ten>Đan sâm</ten>
+    <dang>gam</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Xét Nghiệm</tenkp>
+    <TONGCONG>844.0000</TONGCONG>
+    <DONGIA>130.0000000000</DONGIA>
+    <THANHTIEN>109720</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1669</mabd>
+    <stt>6</stt>
+    <ma>DAN003</ma>
+    <hamluong />
+    <ten>Đẳng sâm</ten>
+    <dang>gam</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Xét Nghiệm</tenkp>
+    <TONGCONG>2124.0000</TONGCONG>
+    <DONGIA>430.0000000000</DONGIA>
+    <THANHTIEN>913320</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1670</mabd>
+    <stt>7</stt>
+    <ma>DAI004</ma>
+    <hamluong />
+    <ten>Đại táo</ten>
+    <dang>gam</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Xét Nghiệm</tenkp>
+    <TONGCONG>2424.0000</TONGCONG>
+    <DONGIA>60.0000000000</DONGIA>
+    <THANHTIEN>145440</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1671</mabd>
+    <stt>8</stt>
+    <ma>DOT001</ma>
+    <hamluong />
+    <ten>Đỗ trọng</ten>
+    <dang>gam</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Xét Nghiệm</tenkp>
+    <TONGCONG>2494.0000</TONGCONG>
+    <DONGIA>120.0000000000</DONGIA>
+    <THANHTIEN>299280</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>189820</mabd>
+    <stt>9</stt>
+    <ma>DAO002</ma>
+    <hamluong />
+    <ten>Đào nhân</ten>
+    <dang>gam</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Xét Nghiệm</tenkp>
+    <TONGCONG>120.0000</TONGCONG>
+    <DONGIA>380.0000000000</DONGIA>
+    <THANHTIEN>45600</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>645</mabd>
+    <stt>10</stt>
+    <ma>ACE002</ma>
+    <hamluong>250mg</hamluong>
+    <ten>Acetazolamide</ten>
+    <dang>Viên</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Khám Bệnh</tenkp>
+    <TONGCONG>4.0000</TONGCONG>
+    <DONGIA>620.0000000000</DONGIA>
+    <THANHTIEN>2480</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>646</mabd>
+    <stt>11</stt>
+    <ma>ACI001</ma>
+    <hamluong>200mg</hamluong>
+    <ten>Acyclovir</ten>
+    <dang>Viên</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa CĐHA</tenkp>
+    <TONGCONG>22.0000</TONGCONG>
+    <DONGIA>890.0010000000</DONGIA>
+    <THANHTIEN>19580</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>783</mabd>
+    <stt>12</stt>
+    <ma>ADR003</ma>
+    <hamluong>1mg/1ml</hamluong>
+    <ten>Adrenalin</ten>
+    <dang>ống</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Khám Bệnh</tenkp>
+    <TONGCONG>1.0000</TONGCONG>
+    <DONGIA>5999.7000000000</DONGIA>
+    <THANHTIEN>5999</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>650</mabd>
+    <stt>13</stt>
+    <ma>ADR002</ma>
+    <hamluong>10mg</hamluong>
+    <ten>Adrenoxyl</ten>
+    <dang>Viên</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Liên Chuyên Khoa</tenkp>
+    <TONGCONG>48.0000</TONGCONG>
+    <DONGIA>1400.0000000000</DONGIA>
+    <THANHTIEN>67200</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1732</mabd>
+    <stt>14</stt>
+    <ma>ALS001</ma>
+    <hamluong>200Microgam</hamluong>
+    <ten>Alsoben</ten>
+    <dang>Viên</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Hồi Sức Cấp Cứu</tenkp>
+    <TONGCONG>2.0000</TONGCONG>
+    <DONGIA>5780.0000000000</DONGIA>
+    <THANHTIEN>11560</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1731</mabd>
+    <stt>15</stt>
+    <ma>AMN001</ma>
+    <hamluong>5mg</hamluong>
+    <ten>Amnorpin</ten>
+    <dang>Viên</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa CĐHA</tenkp>
+    <TONGCONG>29.0000</TONGCONG>
+    <DONGIA>3300.0002000000</DONGIA>
+    <THANHTIEN>95700</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>677</mabd>
+    <stt>16</stt>
+    <ma>AMP001</ma>
+    <hamluong>1g</hamluong>
+    <ten>Ampicillin</ten>
+    <dang>lọ</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Hồi Sức Cấp Cứu</tenkp>
+    <TONGCONG>2.0000</TONGCONG>
+    <DONGIA>5700.0000000000</DONGIA>
+    <THANHTIEN>11400</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1473</mabd>
+    <stt>17</stt>
+    <ma>ONG002</ma>
+    <hamluong />
+    <ten>Ống hút đờm</ten>
+    <dang>Cái</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Hồi Sức Cấp Cứu</tenkp>
+    <TONGCONG>17.0000</TONGCONG>
+    <DONGIA>5250.0000000000</DONGIA>
+    <THANHTIEN>89250</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1255</mabd>
+    <stt>18</stt>
+    <ma>ARG001</ma>
+    <hamluong>1%-10ml</hamluong>
+    <ten>Argyrol</ten>
+    <dang>lọ</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Hồi Sức Cấp Cứu</tenkp>
+    <TONGCONG>9.0000</TONGCONG>
+    <DONGIA>6000.0150000000</DONGIA>
+    <THANHTIEN>54000</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>734</mabd>
+    <stt>19</stt>
+    <ma>ASP001</ma>
+    <hamluong>500mg</hamluong>
+    <ten>Aspirin PH8</ten>
+    <dang>Viên</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa CĐHA</tenkp>
+    <TONGCONG>2.0000</TONGCONG>
+    <DONGIA>310.0000000000</DONGIA>
+    <THANHTIEN>620</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1221</mabd>
+    <stt>20</stt>
+    <ma>ATE001</ma>
+    <hamluong>50mg</hamluong>
+    <ten>Atenolon</ten>
+    <dang>Viên</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Liên Chuyên Khoa</tenkp>
+    <TONGCONG>5.0000</TONGCONG>
+    <DONGIA>720.0000000000</DONGIA>
+    <THANHTIEN>3600</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>800</mabd>
+    <stt>21</stt>
+    <ma>ATR001</ma>
+    <hamluong>0,25mg/1ml</hamluong>
+    <ten>Atropin</ten>
+    <dang>ống</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Khám Bệnh</tenkp>
+    <TONGCONG>1.0000</TONGCONG>
+    <DONGIA>600.0000000000</DONGIA>
+    <THANHTIEN>600</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1393</mabd>
+    <stt>22</stt>
+    <ma>BOM002</ma>
+    <hamluong />
+    <ten>Bơm tiêm 10ml</ten>
+    <dang>Cái</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Hồi Sức Cấp Cứu</tenkp>
+    <TONGCONG>210.0000</TONGCONG>
+    <DONGIA>1785.0000000000</DONGIA>
+    <THANHTIEN>365925</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1392</mabd>
+    <stt>23</stt>
+    <ma>BOM001</ma>
+    <hamluong />
+    <ten>Bơm tiêm 1ml</ten>
+    <dang>Cái</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa CĐHA</tenkp>
+    <TONGCONG>39.0000</TONGCONG>
+    <DONGIA>835.0000000000</DONGIA>
+    <THANHTIEN>32565</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1394</mabd>
+    <stt>24</stt>
+    <ma>BOM003</ma>
+    <hamluong />
+    <ten>Bơm tiêm 20ml</ten>
+    <dang>Cái</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Hồi Sức Cấp Cứu</tenkp>
+    <TONGCONG>10.0000</TONGCONG>
+    <DONGIA>2625.0000000000</DONGIA>
+    <THANHTIEN>26250</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1395</mabd>
+    <stt>25</stt>
+    <ma>BOM004</ma>
+    <hamluong />
+    <ten>Bơm tiêm 5ml</ten>
+    <dang>Cái</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa CĐHA</tenkp>
+    <TONGCONG>679.0000</TONGCONG>
+    <DONGIA>945.0000000000</DONGIA>
+    <THANHTIEN>638820</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1388</mabd>
+    <stt>26</stt>
+    <ma>BAN001</ma>
+    <hamluong />
+    <ten>Băng keo liên kết</ten>
+    <dang>Cuộn</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Khám Bệnh</tenkp>
+    <TONGCONG>2.0000</TONGCONG>
+    <DONGIA>14280.0000000000</DONGIA>
+    <THANHTIEN>28560</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1390</mabd>
+    <stt>27</stt>
+    <ma>BAN002</ma>
+    <hamluong />
+    <ten>Băng rốn đông pha H/3Cái</ten>
+    <dang>Cái</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Hồi Sức Cấp Cứu</tenkp>
+    <TONGCONG>39.0000</TONGCONG>
+    <DONGIA>1225.0000000000</DONGIA>
+    <THANHTIEN>47775</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1391</mabd>
+    <stt>28</stt>
+    <ma>BAN003</ma>
+    <hamluong />
+    <ten>Băng thun 2 móc</ten>
+    <dang>Cuộn</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Nội Tổng Hợp</tenkp>
+    <TONGCONG>3.0000</TONGCONG>
+    <DONGIA>11970.0000000000</DONGIA>
+    <THANHTIEN>35910</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1398</mabd>
+    <stt>29</stt>
+    <ma>BAN004</ma>
+    <hamluong />
+    <ten>Băng vải 0,09x0,075x4</ten>
+    <dang>Cuộn</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Nội Tổng Hợp</tenkp>
+    <TONGCONG>7.0000</TONGCONG>
+    <DONGIA>3045.0000000000</DONGIA>
+    <THANHTIEN>21315</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1490</mabd>
+    <stt>30</stt>
+    <ma>BAC001</ma>
+    <hamluong />
+    <ten>Bạch chỉ</ten>
+    <dang>gam</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Xét Nghiệm</tenkp>
+    <TONGCONG>264.0000</TONGCONG>
+    <DONGIA>150.0000000000</DONGIA>
+    <THANHTIEN>39600</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1607</mabd>
+    <stt>31</stt>
+    <ma>BAC008</ma>
+    <hamluong />
+    <ten>Bạch linh</ten>
+    <dang>gam</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Xét Nghiệm</tenkp>
+    <TONGCONG>896.0000</TONGCONG>
+    <DONGIA>160.0000000000</DONGIA>
+    <THANHTIEN>143360</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1650</mabd>
+    <stt>32</stt>
+    <ma>BAC010</ma>
+    <hamluong />
+    <ten>Bạch thược</ten>
+    <dang>gam</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Xét Nghiệm</tenkp>
+    <TONGCONG>1764.0000</TONGCONG>
+    <DONGIA>160.0000000000</DONGIA>
+    <THANHTIEN>282240</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1664</mabd>
+    <stt>33</stt>
+    <ma>BAC012</ma>
+    <hamluong />
+    <ten>Bạch truật</ten>
+    <dang>gam</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Xét Nghiệm</tenkp>
+    <TONGCONG>1842.0000</TONGCONG>
+    <DONGIA>235.0000000000</DONGIA>
+    <THANHTIEN>432870</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1383</mabd>
+    <stt>34</stt>
+    <ma>BOT001</ma>
+    <hamluong />
+    <ten>Bột bó 4 in</ten>
+    <dang>Cuộn</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Nội Tổng Hợp</tenkp>
+    <TONGCONG>2.0000</TONGCONG>
+    <DONGIA>15750.0000000000</DONGIA>
+    <THANHTIEN>31500</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>3</mabd>
+    <stt>35</stt>
+    <ma>BAI001</ma>
+    <hamluong />
+    <ten>Bài thạch</ten>
+    <dang>Viên</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa CĐHA</tenkp>
+    <TONGCONG>30.0000</TONGCONG>
+    <DONGIA>950.0001065000</DONGIA>
+    <THANHTIEN>28500</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1214</mabd>
+    <stt>36</stt>
+    <ma>BIF001</ma>
+    <hamluong>500mg</hamluong>
+    <ten>Bifradin (Cefradin )</ten>
+    <dang>Viên</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa CĐHA</tenkp>
+    <TONGCONG>46.0000</TONGCONG>
+    <DONGIA>2680.0000000000</DONGIA>
+    <THANHTIEN>123280</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>189930</mabd>
+    <stt>37</stt>
+    <ma>BOL001</ma>
+    <hamluong>245mg</hamluong>
+    <ten>Boliverplus</ten>
+    <dang>Viên</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa CĐHA</tenkp>
+    <TONGCONG>80.0000</TONGCONG>
+    <DONGIA>2199.9999000000</DONGIA>
+    <THANHTIEN>175994</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>189995</mabd>
+    <stt>38</stt>
+    <ma>CAL006</ma>
+    <hamluong>500mg</hamluong>
+    <ten>Calcium Boston (Sủi)</ten>
+    <dang>Viên</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Liên Chuyên Khoa</tenkp>
+    <TONGCONG>24.0000</TONGCONG>
+    <DONGIA>3400.0000000000</DONGIA>
+    <THANHTIEN>81600</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>189938</mabd>
+    <stt>39</stt>
+    <ma>CAL004</ma>
+    <hamluong>550mg</hamluong>
+    <ten>Calcium Euvipharm</ten>
+    <dang>ống</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Nội Tổng Hợp</tenkp>
+    <TONGCONG>2.0000</TONGCONG>
+    <DONGIA>4300.0000434028</DONGIA>
+    <THANHTIEN>8600</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>190002</mabd>
+    <stt>40</stt>
+    <ma>CAM002</ma>
+    <hamluong>250mg</hamluong>
+    <ten>Cammic(Tranexamic.A)</ten>
+    <dang>ống</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Hồi Sức Cấp Cứu</tenkp>
+    <TONGCONG>46.0000</TONGCONG>
+    <DONGIA>11000.0000000000</DONGIA>
+    <THANHTIEN>506000</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1665</mabd>
+    <stt>41</stt>
+    <ma>CAM001</ma>
+    <hamluong />
+    <ten>Cam thảo</ten>
+    <dang>gam</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Xét Nghiệm</tenkp>
+    <TONGCONG>1332.0000</TONGCONG>
+    <DONGIA>140.0000000000</DONGIA>
+    <THANHTIEN>186480</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1499</mabd>
+    <stt>42</stt>
+    <ma>CUC001</ma>
+    <hamluong />
+    <ten>Cúc hoa</ten>
+    <dang>gam</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Xét Nghiệm</tenkp>
+    <TONGCONG>604.0000</TONGCONG>
+    <DONGIA>160.0000000000</DONGIA>
+    <THANHTIEN>96640</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1667</mabd>
+    <stt>43</stt>
+    <ma>CAU003</ma>
+    <hamluong />
+    <ten>Cẩu tích</ten>
+    <dang>gam</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Xét Nghiệm</tenkp>
+    <TONGCONG>1064.0000</TONGCONG>
+    <DONGIA>45.0000000000</DONGIA>
+    <THANHTIEN>47880</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1234</mabd>
+    <stt>44</stt>
+    <ma>CAP002</ma>
+    <hamluong>25mg</hamluong>
+    <ten>Captohexal</ten>
+    <dang>Viên</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa CĐHA</tenkp>
+    <TONGCONG>19.0000</TONGCONG>
+    <DONGIA>1200.0000000000</DONGIA>
+    <THANHTIEN>22800</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1558</mabd>
+    <stt>45</stt>
+    <ma>CAT003</ma>
+    <hamluong />
+    <ten>Cát cánh</ten>
+    <dang>gam</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Xét Nghiệm</tenkp>
+    <TONGCONG>204.0000</TONGCONG>
+    <DONGIA>400.0000000000</DONGIA>
+    <THANHTIEN>81600</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>680</mabd>
+    <stt>46</stt>
+    <ma>CEF002</ma>
+    <hamluong>500mg</hamluong>
+    <ten>Cefalexin</ten>
+    <dang>Viên</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa CĐHA</tenkp>
+    <TONGCONG>485.0000</TONGCONG>
+    <DONGIA>1680.0000000000</DONGIA>
+    <THANHTIEN>814800</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>189980</mabd>
+    <stt>47</stt>
+    <ma>CEF004</ma>
+    <hamluong>1g</hamluong>
+    <ten>Cefotaxim(Imetoxim)</ten>
+    <dang>Lọ</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa CĐHA</tenkp>
+    <TONGCONG>242.0000</TONGCONG>
+    <DONGIA>26000.0000000000</DONGIA>
+    <THANHTIEN>6162004</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>189980</mabd>
+    <stt>48</stt>
+    <ma>CEF004</ma>
+    <hamluong>1g</hamluong>
+    <ten>Cefotaxim(Imetoxim)</ten>
+    <dang>Lọ</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa CĐHA</tenkp>
+    <TONGCONG>39.0000</TONGCONG>
+    <DONGIA>26000.1000000000</DONGIA>
+    <THANHTIEN>1014003</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>189927</mabd>
+    <stt>49</stt>
+    <ma>CEN001</ma>
+    <hamluong>500mg</hamluong>
+    <ten>Cenganyl</ten>
+    <dang>Viên</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa CĐHA</tenkp>
+    <TONGCONG>24.0000</TONGCONG>
+    <DONGIA>1050.0000000000</DONGIA>
+    <THANHTIEN>23100</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>189932</mabd>
+    <stt>50</stt>
+    <ma>CEN002</ma>
+    <hamluong>800mg</hamluong>
+    <ten>Cenpira</ten>
+    <dang>Viên</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa CĐHA</tenkp>
+    <TONGCONG>2.0000</TONGCONG>
+    <DONGIA>1499.9995500000</DONGIA>
+    <THANHTIEN>2999</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1406</mabd>
+    <stt>51</stt>
+    <ma>CHI006</ma>
+    <hamluong />
+    <ten>Chỉ Catgus 2/0(Chromic)</ten>
+    <dang>Sợi</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Hồi Sức Cấp Cứu</tenkp>
+    <TONGCONG>14.0000</TONGCONG>
+    <DONGIA>31605.0000000000</DONGIA>
+    <THANHTIEN>442470</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1405</mabd>
+    <stt>52</stt>
+    <ma>CHI005</ma>
+    <hamluong />
+    <ten>Chỉ Dafilon 2/0</ten>
+    <dang>Sợi</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Nội Tổng Hợp</tenkp>
+    <TONGCONG>3.0000</TONGCONG>
+    <DONGIA>22493.1018518519</DONGIA>
+    <THANHTIEN>67479</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1403</mabd>
+    <stt>53</stt>
+    <ma>CHI003</ma>
+    <hamluong />
+    <ten>Chỉ Dafilon 3/0</ten>
+    <dang>Sợi</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Khám Bệnh</tenkp>
+    <TONGCONG>3.0000</TONGCONG>
+    <DONGIA>22470.0000000000</DONGIA>
+    <THANHTIEN>67410</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1410</mabd>
+    <stt>54</stt>
+    <ma>CHI010</ma>
+    <hamluong />
+    <ten>Chỉ Nylon 5/0</ten>
+    <dang>Sợi</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Khám Bệnh</tenkp>
+    <TONGCONG>1.0000</TONGCONG>
+    <DONGIA>14595.0000000000</DONGIA>
+    <THANHTIEN>14595</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1583</mabd>
+    <stt>55</stt>
+    <ma>CHI018</ma>
+    <hamluong />
+    <ten>Chỉ xác</ten>
+    <dang>gam</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Xét Nghiệm</tenkp>
+    <TONGCONG>230.0000</TONGCONG>
+    <DONGIA>50.0000000000</DONGIA>
+    <THANHTIEN>11500</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>189962</mabd>
+    <stt>56</stt>
+    <ma>CIP002</ma>
+    <hamluong>500mg</hamluong>
+    <ten>Ciprofloxacin (Scanax)</ten>
+    <dang>Viên</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa CĐHA</tenkp>
+    <TONGCONG>50.0000</TONGCONG>
+    <DONGIA>1000.0000000000</DONGIA>
+    <THANHTIEN>50000</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>189925</mabd>
+    <stt>57</stt>
+    <ma>CLA001</ma>
+    <hamluong>625mg</hamluong>
+    <ten>Claminat</ten>
+    <dang>Viên</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa CĐHA</tenkp>
+    <TONGCONG>44.0000</TONGCONG>
+    <DONGIA>7450.0000000000</DONGIA>
+    <THANHTIEN>327800</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>689</mabd>
+    <stt>58</stt>
+    <ma>CLO003</ma>
+    <hamluong>0,4%</hamluong>
+    <ten>Cloramphenicol (BĐ)</ten>
+    <dang>Lọ</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Khám Bệnh</tenkp>
+    <TONGCONG>2.0000</TONGCONG>
+    <DONGIA>2679.9990000000</DONGIA>
+    <THANHTIEN>5358</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>757</mabd>
+    <stt>59</stt>
+    <ma>COL001</ma>
+    <hamluong>1mg</hamluong>
+    <ten>Colchicin capel</ten>
+    <dang>Viên</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa CĐHA</tenkp>
+    <TONGCONG>4.0000</TONGCONG>
+    <DONGIA>1200.0000000000</DONGIA>
+    <THANHTIEN>4800</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1344</mabd>
+    <stt>60</stt>
+    <ma>COM001</ma>
+    <hamluong>3mg/2,5ml</hamluong>
+    <ten>Combivent</ten>
+    <dang>typ</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa CĐHA</tenkp>
+    <TONGCONG>28.0000</TONGCONG>
+    <DONGIA>17000.0000000000</DONGIA>
+    <THANHTIEN>476000</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>690</mabd>
+    <stt>61</stt>
+    <ma>COT001</ma>
+    <hamluong>960mg</hamluong>
+    <ten>Cotrim</ten>
+    <dang>Viên</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa CĐHA</tenkp>
+    <TONGCONG>20.0000</TONGCONG>
+    <DONGIA>550.0000000000</DONGIA>
+    <THANHTIEN>11000</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1346</mabd>
+    <stt>62</stt>
+    <ma>DAF002</ma>
+    <hamluong>500mg</hamluong>
+    <ten>Daflavon</ten>
+    <dang>Viên</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Nội Tổng Hợp</tenkp>
+    <TONGCONG>12.0000</TONGCONG>
+    <DONGIA>2300.0000000000</DONGIA>
+    <THANHTIEN>27600</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1426</mabd>
+    <stt>63</stt>
+    <ma>DAY005</ma>
+    <hamluong />
+    <ten>Dây Oxy đôi</ten>
+    <dang>Cái</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Liên Chuyên Khoa</tenkp>
+    <TONGCONG>9.0000</TONGCONG>
+    <DONGIA>7770.0000000000</DONGIA>
+    <THANHTIEN>69930</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>190100</mabd>
+    <stt>64</stt>
+    <ma>DAY009</ma>
+    <hamluong />
+    <ten>Dây truyền kim cánh bướm</ten>
+    <dang>Bộ </dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa CĐHA</tenkp>
+    <TONGCONG>55.0000</TONGCONG>
+    <DONGIA>7350.0000000000</DONGIA>
+    <THANHTIEN>404250</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>190003</mabd>
+    <stt>65</stt>
+    <ma>DEX004</ma>
+    <hamluong>5ml</hamluong>
+    <ten>Dexacol</ten>
+    <dang>Lọ</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Khám Bệnh</tenkp>
+    <TONGCONG>1.0000</TONGCONG>
+    <DONGIA>4515.0000000000</DONGIA>
+    <THANHTIEN>4515</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>654</mabd>
+    <stt>66</stt>
+    <ma>DEX001</ma>
+    <hamluong>4mg</hamluong>
+    <ten>Dexamethason</ten>
+    <dang>ống</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa CĐHA</tenkp>
+    <TONGCONG>22.0000</TONGCONG>
+    <DONGIA>1350.0000000000</DONGIA>
+    <THANHTIEN>29700</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>4</mabd>
+    <stt>67</stt>
+    <ma>DIE001</ma>
+    <hamluong />
+    <ten>Diệp hạ châu</ten>
+    <dang>viên</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Liên Chuyên Khoa</tenkp>
+    <TONGCONG>560.0000</TONGCONG>
+    <DONGIA>444.9994468000</DONGIA>
+    <THANHTIEN>249192</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1347</mabd>
+    <stt>68</stt>
+    <ma>DIA005</ma>
+    <hamluong>4,8%-5ml</hamluong>
+    <ten>Diaphylin</ten>
+    <dang>ống</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa CĐHA</tenkp>
+    <TONGCONG>4.0000</TONGCONG>
+    <DONGIA>10800.0000000000</DONGIA>
+    <THANHTIEN>43200</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>671</mabd>
+    <stt>69</stt>
+    <ma>DIA001</ma>
+    <hamluong>5mg</hamluong>
+    <ten>Diazepam</ten>
+    <dang>Viên</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Nội Tổng Hợp</tenkp>
+    <TONGCONG>13.0000</TONGCONG>
+    <DONGIA>150.0000000000</DONGIA>
+    <THANHTIEN>1950</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>189918</mabd>
+    <stt>70</stt>
+    <ma>DIA011</ma>
+    <hamluong>10mg/2ml</hamluong>
+    <ten>Diazepam</ten>
+    <dang>ống</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Hồi Sức Cấp Cứu</tenkp>
+    <TONGCONG>29.0000</TONGCONG>
+    <DONGIA>7665.0000000000</DONGIA>
+    <THANHTIEN>222285</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>736</mabd>
+    <stt>71</stt>
+    <ma>DIC002</ma>
+    <hamluong>50mg</hamluong>
+    <ten>Diclofenac</ten>
+    <dang>Viên</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Nội Tổng Hợp</tenkp>
+    <TONGCONG>50.0000</TONGCONG>
+    <DONGIA>840.0000000000</DONGIA>
+    <THANHTIEN>42000</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1247</mabd>
+    <stt>72</stt>
+    <ma>DIG001</ma>
+    <hamluong>0.25mg</hamluong>
+    <ten>Digoxin</ten>
+    <dang>Viên</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Liên Chuyên Khoa</tenkp>
+    <TONGCONG>9.0000</TONGCONG>
+    <DONGIA>825.0000000000</DONGIA>
+    <THANHTIEN>7425</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>189919</mabd>
+    <stt>73</stt>
+    <ma>DOR002</ma>
+    <hamluong> 1,5 MIU </hamluong>
+    <ten>Doropycin</ten>
+    <dang>Viên</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa CĐHA</tenkp>
+    <TONGCONG>1.0000</TONGCONG>
+    <DONGIA>2200.0000000000</DONGIA>
+    <THANHTIEN>2200</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>189921</mabd>
+    <stt>74</stt>
+    <ma>DOR004</ma>
+    <hamluong>3 MIU</hamluong>
+    <ten>Doropycin</ten>
+    <dang>Viên</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa CĐHA</tenkp>
+    <TONGCONG>84.0000</TONGCONG>
+    <DONGIA>4249.9999500000</DONGIA>
+    <THANHTIEN>356991</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>702</mabd>
+    <stt>75</stt>
+    <ma>DOR005</ma>
+    <hamluong>0.75MUI</hamluong>
+    <ten>Doropycin</ten>
+    <dang>Gói</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Liên Chuyên Khoa</tenkp>
+    <TONGCONG>9.0000</TONGCONG>
+    <DONGIA>2594.0000000000</DONGIA>
+    <THANHTIEN>23346</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1250</mabd>
+    <stt>76</stt>
+    <ma>DOS001</ma>
+    <hamluong>81mg</hamluong>
+    <ten>Dospirin</ten>
+    <dang>Viên</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa CĐHA</tenkp>
+    <TONGCONG>5.0000</TONGCONG>
+    <DONGIA>160.0000000000</DONGIA>
+    <THANHTIEN>800</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>752</mabd>
+    <stt>77</stt>
+    <ma>ECA001</ma>
+    <hamluong>525mg</hamluong>
+    <ten>Ecaxan</ten>
+    <dang>Viên</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa CĐHA</tenkp>
+    <TONGCONG>4.0000</TONGCONG>
+    <DONGIA>630.0000000000</DONGIA>
+    <THANHTIEN>2520</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>744</mabd>
+    <stt>78</stt>
+    <ma>EFF001</ma>
+    <hamluong>150mg</hamluong>
+    <ten>Efferalgan</ten>
+    <dang>Viên</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Liên Chuyên Khoa</tenkp>
+    <TONGCONG>10.0000</TONGCONG>
+    <DONGIA>2379.0000000000</DONGIA>
+    <THANHTIEN>23790</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>189984</mabd>
+    <stt>79</stt>
+    <ma>ALI002</ma>
+    <hamluong>5mg</hamluong>
+    <ten>Euvilen5mg(Alimemazin)</ten>
+    <dang>Viên</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa CĐHA</tenkp>
+    <TONGCONG>33.0000</TONGCONG>
+    <DONGIA>360.0000000000</DONGIA>
+    <THANHTIEN>11880</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>189935</mabd>
+    <stt>80</stt>
+    <ma>EUV003</ma>
+    <hamluong>50mg</hamluong>
+    <ten>Euvixim</ten>
+    <dang>Gói</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa CĐHA</tenkp>
+    <TONGCONG>47.0000</TONGCONG>
+    <DONGIA>3519.9998750000</DONGIA>
+    <THANHTIEN>165433</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>190192</mabd>
+    <stt>81</stt>
+    <ma>EUV004</ma>
+    <hamluong>0.44mg/1ml</hamluong>
+    <ten>Euvizin</ten>
+    <dang>Lọ</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa CĐHA</tenkp>
+    <TONGCONG>8.0000</TONGCONG>
+    <DONGIA>30000.0000000000</DONGIA>
+    <THANHTIEN>240000</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>189961</mabd>
+    <stt>82</stt>
+    <ma>FRA001</ma>
+    <hamluong>500mg</hamluong>
+    <ten>Franvit C</ten>
+    <dang>Viên</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa CĐHA</tenkp>
+    <TONGCONG>49.0000</TONGCONG>
+    <DONGIA>480.0002812500</DONGIA>
+    <THANHTIEN>21600</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1354</mabd>
+    <stt>83</stt>
+    <ma>FUR001</ma>
+    <hamluong>40mg</hamluong>
+    <ten>Furosemid</ten>
+    <dang>Viên</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa CĐHA</tenkp>
+    <TONGCONG>34.0000</TONGCONG>
+    <DONGIA>280.0000000000</DONGIA>
+    <THANHTIEN>9520</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1355</mabd>
+    <stt>84</stt>
+    <ma>FUR002</ma>
+    <hamluong>20mg</hamluong>
+    <ten>Furosemid</ten>
+    <dang>ống</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Liên Chuyên Khoa</tenkp>
+    <TONGCONG>24.0000</TONGCONG>
+    <DONGIA>4500.0000000000</DONGIA>
+    <THANHTIEN>108000</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1439</mabd>
+    <stt>85</stt>
+    <ma>GAN002</ma>
+    <hamluong />
+    <ten>Găng kiểm tra</ten>
+    <dang>Đôi</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa CĐHA</tenkp>
+    <TONGCONG>217.0000</TONGCONG>
+    <DONGIA>2420.0001333333</DONGIA>
+    <THANHTIEN>525140</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1431</mabd>
+    <stt>86</stt>
+    <ma>GAN001</ma>
+    <hamluong />
+    <ten>Găng tay Phẩu thuật</ten>
+    <dang>đôi</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Hồi Sức Cấp Cứu</tenkp>
+    <TONGCONG>136.0000</TONGCONG>
+    <DONGIA>9135.0000000000</DONGIA>
+    <THANHTIEN>1242360</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>697</mabd>
+    <stt>87</stt>
+    <ma>GEN001</ma>
+    <hamluong>80mg</hamluong>
+    <ten>Gentamicin</ten>
+    <dang>ống</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa CĐHA</tenkp>
+    <TONGCONG>289.0000</TONGCONG>
+    <DONGIA>1499.9985000000</DONGIA>
+    <THANHTIEN>424493</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1254</mabd>
+    <stt>88</stt>
+    <ma>GIN001</ma>
+    <hamluong>60mg</hamluong>
+    <ten>Ginkobilon</ten>
+    <dang>Viên</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa CĐHA</tenkp>
+    <TONGCONG>38.0000</TONGCONG>
+    <DONGIA>2700.0003333333</DONGIA>
+    <THANHTIEN>102600</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>722</mabd>
+    <stt>89</stt>
+    <ma>GLI001</ma>
+    <hamluong>80mg</hamluong>
+    <ten>Glizadinax (Gliclazide )</ten>
+    <dang>Viên</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa CĐHA</tenkp>
+    <TONGCONG>27.0000</TONGCONG>
+    <DONGIA>1155.0000000000</DONGIA>
+    <THANHTIEN>31185</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>663</mabd>
+    <stt>90</stt>
+    <ma>GLU001</ma>
+    <hamluong>10%-500ml</hamluong>
+    <ten>Glucose</ten>
+    <dang>chai</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Hồi Sức Cấp Cứu</tenkp>
+    <TONGCONG>11.0000</TONGCONG>
+    <DONGIA>12200.0000000000</DONGIA>
+    <THANHTIEN>134200</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>663</mabd>
+    <stt>91</stt>
+    <ma>GLU001</ma>
+    <hamluong>10%-500ml</hamluong>
+    <ten>Glucose</ten>
+    <dang>chai</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Hồi Sức Cấp Cứu</tenkp>
+    <TONGCONG>2.0000</TONGCONG>
+    <DONGIA>12200.0025000000</DONGIA>
+    <THANHTIEN>24400</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>664</mabd>
+    <stt>92</stt>
+    <ma>GLU002</ma>
+    <hamluong>5%-500ml</hamluong>
+    <ten>Glucose</ten>
+    <dang>Chai</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa CĐHA</tenkp>
+    <TONGCONG>84.0000</TONGCONG>
+    <DONGIA>9774.0000000000</DONGIA>
+    <THANHTIEN>821016</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1212</mabd>
+    <stt>93</stt>
+    <ma>GLU005</ma>
+    <hamluong>30%-5ml</hamluong>
+    <ten>Glucose</ten>
+    <dang>ống</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Liên Chuyên Khoa</tenkp>
+    <TONGCONG>12.0000</TONGCONG>
+    <DONGIA>1300.0000000000</DONGIA>
+    <THANHTIEN>15600</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>189883</mabd>
+    <stt>94</stt>
+    <ma>GRO002</ma>
+    <hamluong />
+    <ten>grovit 15ml</ten>
+    <dang>Lọ</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa CĐHA</tenkp>
+    <TONGCONG>14.0000</TONGCONG>
+    <DONGIA>19900.0000000000</DONGIA>
+    <THANHTIEN>278600</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1584</mabd>
+    <stt>95</stt>
+    <ma>HUO002</ma>
+    <hamluong />
+    <ten>Hương phụ</ten>
+    <dang>gam</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Xét Nghiệm</tenkp>
+    <TONGCONG>1168.0000</TONGCONG>
+    <DONGIA>70.0000000000</DONGIA>
+    <THANHTIEN>81760</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1590</mabd>
+    <stt>96</stt>
+    <ma>HON001</ma>
+    <hamluong />
+    <ten>Hồng hoa</ten>
+    <dang>gam</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Xét Nghiệm</tenkp>
+    <TONGCONG>540.0000</TONGCONG>
+    <DONGIA>200.0000000000</DONGIA>
+    <THANHTIEN>108000</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1245</mabd>
+    <stt>97</stt>
+    <ma>HEP002</ma>
+    <hamluong>187,8mg</hamluong>
+    <ten>Heptamyl</ten>
+    <dang>Viên</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa CĐHA</tenkp>
+    <TONGCONG>8.0000</TONGCONG>
+    <DONGIA>2250.0000000000</DONGIA>
+    <THANHTIEN>18000</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1672</mabd>
+    <stt>98</stt>
+    <ma>HOA010</ma>
+    <hamluong />
+    <ten>Hoài sơn</ten>
+    <dang>gam</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Xét Nghiệm</tenkp>
+    <TONGCONG>1156.0000</TONGCONG>
+    <DONGIA>80.0000000000</DONGIA>
+    <THANHTIEN>92480</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1673</mabd>
+    <stt>99</stt>
+    <ma>HOA011</ma>
+    <hamluong />
+    <ten>Hoàng kỳ</ten>
+    <dang>gam</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Xét Nghiệm</tenkp>
+    <TONGCONG>672.0000</TONGCONG>
+    <DONGIA>150.0000000000</DONGIA>
+    <THANHTIEN>100800</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>190203</mabd>
+    <stt>100</stt>
+    <ma>HOA004</ma>
+    <hamluong />
+    <ten>Hoàng kỳ chích</ten>
+    <dang>gam</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Xét Nghiệm</tenkp>
+    <TONGCONG>1184.0000</TONGCONG>
+    <DONGIA>150.0000000000</DONGIA>
+    <THANHTIEN>177600</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1547</mabd>
+    <stt>101</stt>
+    <ma>HOA006</ma>
+    <hamluong />
+    <ten>Hoàng liên</ten>
+    <dang>gam</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Xét Nghiệm</tenkp>
+    <TONGCONG>218.0000</TONGCONG>
+    <DONGIA>600.0000000000</DONGIA>
+    <THANHTIEN>130800</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1541</mabd>
+    <stt>102</stt>
+    <ma>HUY001</ma>
+    <hamluong />
+    <ten>Huyền sâm</ten>
+    <dang>gam</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Xét Nghiệm</tenkp>
+    <TONGCONG>160.0000</TONGCONG>
+    <DONGIA>110.0000000000</DONGIA>
+    <THANHTIEN>17600</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>190211</mabd>
+    <stt>103</stt>
+    <ma>HYD002</ma>
+    <hamluong />
+    <ten>Hydrite</ten>
+    <dang>Viên</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa CĐHA</tenkp>
+    <TONGCONG>47.0000</TONGCONG>
+    <DONGIA>1168.0000000000</DONGIA>
+    <THANHTIEN>54896</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1356</mabd>
+    <stt>104</stt>
+    <ma>HYL001</ma>
+    <hamluong>150 ui</hamluong>
+    <ten>Hylase</ten>
+    <dang>Lọ</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Khám Bệnh</tenkp>
+    <TONGCONG>1.0000</TONGCONG>
+    <DONGIA>74500.0000000000</DONGIA>
+    <THANHTIEN>74500</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>190166</mabd>
+    <stt>105</stt>
+    <ma>HYP001</ma>
+    <hamluong>2%</hamluong>
+    <ten>hyprosol</ten>
+    <dang>Lọ</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Khám Bệnh</tenkp>
+    <TONGCONG>1.0000</TONGCONG>
+    <DONGIA>242500.0000000000</DONGIA>
+    <THANHTIEN>242500</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>189977</mabd>
+    <stt>106</stt>
+    <ma>SER001</ma>
+    <hamluong>10mg</hamluong>
+    <ten>Inflazym(Serratiopeptidase)</ten>
+    <dang>Viên</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa CĐHA</tenkp>
+    <TONGCONG>249.0000</TONGCONG>
+    <DONGIA>600.0016000000</DONGIA>
+    <THANHTIEN>149400</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1260</mabd>
+    <stt>107</stt>
+    <ma>KAL002</ma>
+    <hamluong>600mg</hamluong>
+    <ten>Kaleorid</ten>
+    <dang>Viên</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Khám Bệnh</tenkp>
+    <TONGCONG>2.0000</TONGCONG>
+    <DONGIA>210.0000000000</DONGIA>
+    <THANHTIEN>420</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1456</mabd>
+    <stt>108</stt>
+    <ma>KEP001</ma>
+    <hamluong />
+    <ten>Kẹp rốn</ten>
+    <dang>cái</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Hồi Sức Cấp Cứu</tenkp>
+    <TONGCONG>13.0000</TONGCONG>
+    <DONGIA>2100.0000000000</DONGIA>
+    <THANHTIEN>27300</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>189824</mabd>
+    <stt>109</stt>
+    <ma>KYT001</ma>
+    <hamluong />
+    <ten>Kỷ Tử</ten>
+    <dang>gam</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Xét Nghiệm</tenkp>
+    <TONGCONG>1062.0000</TONGCONG>
+    <DONGIA>170.0000000000</DONGIA>
+    <THANHTIEN>180540</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1508</mabd>
+    <stt>110</stt>
+    <ma>KHU001</ma>
+    <hamluong />
+    <ten>Khương hoạt</ten>
+    <dang>gam</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Xét Nghiệm</tenkp>
+    <TONGCONG>772.0000</TONGCONG>
+    <DONGIA>500.0000000000</DONGIA>
+    <THANHTIEN>386000</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1596</mabd>
+    <stt>111</stt>
+    <ma>KHU002</ma>
+    <hamluong />
+    <ten>Khương hoàng</ten>
+    <dang>gam</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Xét Nghiệm</tenkp>
+    <TONGCONG>274.0000</TONGCONG>
+    <DONGIA>100.0000000000</DONGIA>
+    <THANHTIEN>27400</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1445</mabd>
+    <stt>112</stt>
+    <ma>KIM002</ma>
+    <hamluong />
+    <ten>Kim cánh bướm</ten>
+    <dang>Cái</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Nội Tổng Hợp</tenkp>
+    <TONGCONG>1.0000</TONGCONG>
+    <DONGIA>4515.0000000000</DONGIA>
+    <THANHTIEN>4515</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1454</mabd>
+    <stt>113</stt>
+    <ma>KIM011</ma>
+    <hamluong />
+    <ten>Kim lấy thuốc số 18G</ten>
+    <dang>Cái</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa CĐHA</tenkp>
+    <TONGCONG>13.0000</TONGCONG>
+    <DONGIA>480.0000000000</DONGIA>
+    <THANHTIEN>6240</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1453</mabd>
+    <stt>114</stt>
+    <ma>KIM010</ma>
+    <hamluong />
+    <ten>Kim luồn tĩnh mạch 20G(Vasofix)</ten>
+    <dang>Cái</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa CĐHA</tenkp>
+    <TONGCONG>39.0000</TONGCONG>
+    <DONGIA>16485.0000000000</DONGIA>
+    <THANHTIEN>642915</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>190127</mabd>
+    <stt>115</stt>
+    <ma>KIM001</ma>
+    <hamluong />
+    <ten>Kim luồn tĩnh mạch 22G</ten>
+    <dang>Cái</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Liên Chuyên Khoa</tenkp>
+    <TONGCONG>23.0000</TONGCONG>
+    <DONGIA>11088.0000000000</DONGIA>
+    <THANHTIEN>255024</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1461</mabd>
+    <stt>116</stt>
+    <ma>LUO003</ma>
+    <hamluong />
+    <ten>Lưỡi dao số 21</ten>
+    <dang>Cái</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Nội Tổng Hợp</tenkp>
+    <TONGCONG>2.0000</TONGCONG>
+    <DONGIA>4935.0000000000</DONGIA>
+    <THANHTIEN>9870</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>189928</mabd>
+    <stt>117</stt>
+    <ma>L-B001</ma>
+    <hamluong>1gam</hamluong>
+    <ten>L-Bio</ten>
+    <dang>Gói</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa CĐHA</tenkp>
+    <TONGCONG>99.0000</TONGCONG>
+    <DONGIA>1680.0000000000</DONGIA>
+    <THANHTIEN>166320</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1533</mabd>
+    <stt>118</stt>
+    <ma>LIE001</ma>
+    <hamluong />
+    <ten>Liên kiều</ten>
+    <dang>gam</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Xét Nghiệm</tenkp>
+    <TONGCONG>60.0000</TONGCONG>
+    <DONGIA>200.0000000000</DONGIA>
+    <THANHTIEN>12000</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1630</mabd>
+    <stt>119</stt>
+    <ma>LIE003</ma>
+    <hamluong />
+    <ten>Liên nhục</ten>
+    <dang>gam</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Xét Nghiệm</tenkp>
+    <TONGCONG>1902.0000</TONGCONG>
+    <DONGIA>150.0000000000</DONGIA>
+    <THANHTIEN>285300</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1573</mabd>
+    <stt>120</stt>
+    <ma>LIE002</ma>
+    <hamluong />
+    <ten>Liên tâm</ten>
+    <dang>gam</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Xét Nghiệm</tenkp>
+    <TONGCONG>642.0000</TONGCONG>
+    <DONGIA>200.0000000000</DONGIA>
+    <THANHTIEN>128400</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1261</mabd>
+    <stt>121</stt>
+    <ma>LID001</ma>
+    <hamluong>2%-2ml</hamluong>
+    <ten>Lidocaine</ten>
+    <dang>ống</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Hồi Sức Cấp Cứu</tenkp>
+    <TONGCONG>55.0000</TONGCONG>
+    <DONGIA>700.0035000000</DONGIA>
+    <THANHTIEN>38500</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1224</mabd>
+    <stt>122</stt>
+    <ma>LIM001</ma>
+    <hamluong>2,5mg</hamluong>
+    <ten>Limitral (Glyceryl Trinitrate )</ten>
+    <dang>Viên</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa CĐHA</tenkp>
+    <TONGCONG>89.0000</TONGCONG>
+    <DONGIA>845.0000000000</DONGIA>
+    <THANHTIEN>75205</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1330</mabd>
+    <stt>123</stt>
+    <ma>MAG004</ma>
+    <hamluong>15%-10ml</hamluong>
+    <ten>Magiesulfat(Pháp)</ten>
+    <dang>ống</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Hồi Sức Cấp Cứu</tenkp>
+    <TONGCONG>9.0000</TONGCONG>
+    <DONGIA>7999.9920000000</DONGIA>
+    <THANHTIEN>71999</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1330</mabd>
+    <stt>124</stt>
+    <ma>MAG004</ma>
+    <hamluong>15%-10ml</hamluong>
+    <ten>Magiesulfat(Pháp)</ten>
+    <dang>ống</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Hồi Sức Cấp Cứu</tenkp>
+    <TONGCONG>7.0000</TONGCONG>
+    <DONGIA>8000.0000000000</DONGIA>
+    <THANHTIEN>56000</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1264</mabd>
+    <stt>125</stt>
+    <ma>MAG003</ma>
+    <hamluong>475mg</hamluong>
+    <ten>Magnesium B6</ten>
+    <dang>Viên</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa CĐHA</tenkp>
+    <TONGCONG>113.0000</TONGCONG>
+    <DONGIA>445.0005000000</DONGIA>
+    <THANHTIEN>49840</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1492</mabd>
+    <stt>126</stt>
+    <ma>MAH001</ma>
+    <hamluong />
+    <ten>Ma hoàng</ten>
+    <dang>gam</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Xét Nghiệm</tenkp>
+    <TONGCONG>80.0000</TONGCONG>
+    <DONGIA>60.0000000000</DONGIA>
+    <THANHTIEN>4800</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1655</mabd>
+    <stt>127</stt>
+    <ma>MAC002</ma>
+    <hamluong />
+    <ten>Mạch môn</ten>
+    <dang>gam</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Xét Nghiệm</tenkp>
+    <TONGCONG>372.0000</TONGCONG>
+    <DONGIA>300.0000000000</DONGIA>
+    <THANHTIEN>111600</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1277</mabd>
+    <stt>128</stt>
+    <ma>OFL001</ma>
+    <hamluong>200mg</hamluong>
+    <ten>Medliflox</ten>
+    <dang>Viên</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa CĐHA</tenkp>
+    <TONGCONG>24.0000</TONGCONG>
+    <DONGIA>1199.9998500000</DONGIA>
+    <THANHTIEN>26397</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>189964</mabd>
+    <stt>129</stt>
+    <ma>MET007</ma>
+    <hamluong>850mg</hamluong>
+    <ten>Metfomin(Imefase)</ten>
+    <dang>Viên</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa CĐHA</tenkp>
+    <TONGCONG>4.0000</TONGCONG>
+    <DONGIA>1125.0000000000</DONGIA>
+    <THANHTIEN>4500</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>706</mabd>
+    <stt>130</stt>
+    <ma>MET002</ma>
+    <hamluong>250mg</hamluong>
+    <ten>Metronidazon</ten>
+    <dang>Viên</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Hồi Sức Cấp Cứu</tenkp>
+    <TONGCONG>2.0000</TONGCONG>
+    <DONGIA>260.0000000000</DONGIA>
+    <THANHTIEN>520</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>902</mabd>
+    <stt>131</stt>
+    <ma>MIG001</ma>
+    <hamluong>5mg</hamluong>
+    <ten>Miganin-5 (Flunarizin )</ten>
+    <dang>Viên</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa CĐHA</tenkp>
+    <TONGCONG>9.0000</TONGCONG>
+    <DONGIA>1300.0000000000</DONGIA>
+    <THANHTIEN>10400</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>189811</mabd>
+    <stt>132</stt>
+    <ma>MIL001</ma>
+    <hamluong>300mg</hamluong>
+    <ten>Miluirit</ten>
+    <dang>Viên</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa CĐHA</tenkp>
+    <TONGCONG>3.0000</TONGCONG>
+    <DONGIA>2400.0000000000</DONGIA>
+    <THANHTIEN>7200</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>189940</mabd>
+    <stt>133</stt>
+    <ma>MIX001</ma>
+    <hamluong>150mg</hamluong>
+    <ten>Mixpallet</ten>
+    <dang>Viên</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Hồi Sức Cấp Cứu</tenkp>
+    <TONGCONG>82.0000</TONGCONG>
+    <DONGIA>1800.0004166667</DONGIA>
+    <THANHTIEN>147600</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>670</mabd>
+    <stt>134</stt>
+    <ma>MOR001</ma>
+    <hamluong>10mg</hamluong>
+    <ten>Morphine Hcl</ten>
+    <dang>ống</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Liên Chuyên Khoa</tenkp>
+    <TONGCONG>6.0000</TONGCONG>
+    <DONGIA>4242.0000000000</DONGIA>
+    <THANHTIEN>25452</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>189929</mabd>
+    <stt>135</stt>
+    <ma>MYT001</ma>
+    <hamluong>2,0487gam</hamluong>
+    <ten>Mytolan</ten>
+    <dang>Gói</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Liên Chuyên Khoa</tenkp>
+    <TONGCONG>68.0000</TONGCONG>
+    <DONGIA>4150.0000000000</DONGIA>
+    <THANHTIEN>282200</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1275</mabd>
+    <stt>136</stt>
+    <ma>NUO002</ma>
+    <hamluong>5ml</hamluong>
+    <ten>Nước Cất</ten>
+    <dang>ống</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa CĐHA</tenkp>
+    <TONGCONG>302.0000</TONGCONG>
+    <DONGIA>1000.0000500000</DONGIA>
+    <THANHTIEN>292000</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>665</mabd>
+    <stt>137</stt>
+    <ma>NAT001</ma>
+    <hamluong>0,9%-500ml</hamluong>
+    <ten>Natriclorua</ten>
+    <dang>Chai</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa CĐHA</tenkp>
+    <TONGCONG>84.0000</TONGCONG>
+    <DONGIA>10500.0000000000</DONGIA>
+    <THANHTIEN>882000</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>189974</mabd>
+    <stt>138</stt>
+    <ma>NEU001</ma>
+    <hamluong>201mg</hamluong>
+    <ten>Neuritis Injection</ten>
+    <dang>ống</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Liên Chuyên Khoa</tenkp>
+    <TONGCONG>4.0000</TONGCONG>
+    <DONGIA>20000.0000000000</DONGIA>
+    <THANHTIEN>80000</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1597</mabd>
+    <stt>139</stt>
+    <ma>NGU002</ma>
+    <hamluong />
+    <ten>Ngưu tất</ten>
+    <dang>gam</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Xét Nghiệm</tenkp>
+    <TONGCONG>2042.0000</TONGCONG>
+    <DONGIA>120.0000000000</DONGIA>
+    <THANHTIEN>245040</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1642</mabd>
+    <stt>140</stt>
+    <ma>NGU004</ma>
+    <hamluong />
+    <ten>Ngũ vị tử</ten>
+    <dang>gam</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Xét Nghiệm</tenkp>
+    <TONGCONG>120.0000</TONGCONG>
+    <DONGIA>120.0000000000</DONGIA>
+    <THANHTIEN>14400</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1736</mabd>
+    <stt>141</stt>
+    <ma>OMI002</ma>
+    <hamluong>20mg</hamluong>
+    <ten>Omizac(Ngoại )</ten>
+    <dang>Viên</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa CĐHA</tenkp>
+    <TONGCONG>30.0000</TONGCONG>
+    <DONGIA>1600.0000000000</DONGIA>
+    <THANHTIEN>48000</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1279</mabd>
+    <stt>142</stt>
+    <ma>ORE001</ma>
+    <hamluong>27,9g</hamluong>
+    <ten>Orezol</ten>
+    <dang>Gói</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa CĐHA</tenkp>
+    <TONGCONG>16.0000</TONGCONG>
+    <DONGIA>1390.0000000000</DONGIA>
+    <THANHTIEN>22240</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>189853</mabd>
+    <stt>143</stt>
+    <ma>OST001</ma>
+    <hamluong>750mg</hamluong>
+    <ten>Ostoflex  (Glucosamin )</ten>
+    <dang>Viên</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa CĐHA</tenkp>
+    <TONGCONG>2.0000</TONGCONG>
+    <DONGIA>1899.9960000000</DONGIA>
+    <THANHTIEN>3799</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1737</mabd>
+    <stt>144</stt>
+    <ma>OXY005</ma>
+    <hamluong>3%-60ml</hamluong>
+    <ten>Oxy gìa</ten>
+    <dang>Lọ</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Nội Tổng Hợp</tenkp>
+    <TONGCONG>4.0000</TONGCONG>
+    <DONGIA>1900.0012500000</DONGIA>
+    <THANHTIEN>7600</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1332</mabd>
+    <stt>145</stt>
+    <ma>OXY006</ma>
+    <hamluong />
+    <ten>Oxygen</ten>
+    <dang>Lít</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Liên Chuyên Khoa</tenkp>
+    <TONGCONG>5760.0000</TONGCONG>
+    <DONGIA>15.0000000000</DONGIA>
+    <THANHTIEN>86400</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1283</mabd>
+    <stt>146</stt>
+    <ma>OXY002</ma>
+    <hamluong>5ui</hamluong>
+    <ten>Oxytocin</ten>
+    <dang>ống</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Hồi Sức Cấp Cứu</tenkp>
+    <TONGCONG>35.0000</TONGCONG>
+    <DONGIA>5749.9995000000</DONGIA>
+    <THANHTIEN>201246</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>753</mabd>
+    <stt>147</stt>
+    <ma>PAD001</ma>
+    <hamluong>50mg</hamluong>
+    <ten>Padinas</ten>
+    <dang>Viên</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Liên Chuyên Khoa</tenkp>
+    <TONGCONG>132.0000</TONGCONG>
+    <DONGIA>640.0000000000</DONGIA>
+    <THANHTIEN>84480</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1288</mabd>
+    <stt>148</stt>
+    <ma>PAP001</ma>
+    <hamluong>40mg</hamluong>
+    <ten>Papaverin</ten>
+    <dang>Viên</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa CĐHA</tenkp>
+    <TONGCONG>42.0000</TONGCONG>
+    <DONGIA>309.9998333333</DONGIA>
+    <THANHTIEN>13015</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1289</mabd>
+    <stt>149</stt>
+    <ma>PAP002</ma>
+    <hamluong>20mg</hamluong>
+    <ten>Papaverine</ten>
+    <dang>ống</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Hồi Sức Cấp Cứu</tenkp>
+    <TONGCONG>8.0000</TONGCONG>
+    <DONGIA>21000.0000000000</DONGIA>
+    <THANHTIEN>84000</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>738</mabd>
+    <stt>150</stt>
+    <ma>PAR001</ma>
+    <hamluong>500mg</hamluong>
+    <ten>Paracetamol</ten>
+    <dang>Viên</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa CĐHA</tenkp>
+    <TONGCONG>468.0000</TONGCONG>
+    <DONGIA>280.0034545455</DONGIA>
+    <THANHTIEN>131040</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>711</mabd>
+    <stt>151</stt>
+    <ma>PEN001</ma>
+    <hamluong>1MUI</hamluong>
+    <ten>Penicillin</ten>
+    <dang>Lọ</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa CĐHA</tenkp>
+    <TONGCONG>2.0000</TONGCONG>
+    <DONGIA>2310.0000000000</DONGIA>
+    <THANHTIEN>4620</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1493</mabd>
+    <stt>152</stt>
+    <ma>PHO001</ma>
+    <hamluong />
+    <ten>Phòng phong</ten>
+    <dang>gam</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Xét Nghiệm</tenkp>
+    <TONGCONG>1274.0000</TONGCONG>
+    <DONGIA>190.0000000000</DONGIA>
+    <THANHTIEN>242060</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1574</mabd>
+    <stt>153</stt>
+    <ma>PHU003</ma>
+    <hamluong />
+    <ten>Phục thần</ten>
+    <dang>gam</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Xét Nghiệm</tenkp>
+    <TONGCONG>1072.0000</TONGCONG>
+    <DONGIA>180.0000000000</DONGIA>
+    <THANHTIEN>192960</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>713</mabd>
+    <stt>154</stt>
+    <ma>PHA001</ma>
+    <hamluong>500mg</hamluong>
+    <ten>Pharmox</ten>
+    <dang>Viên</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa CĐHA</tenkp>
+    <TONGCONG>472.0000</TONGCONG>
+    <DONGIA>1244.9996875000</DONGIA>
+    <THANHTIEN>587629</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1291</mabd>
+    <stt>155</stt>
+    <ma>POV001</ma>
+    <hamluong>10%-100ml</hamluong>
+    <ten>PovidylIode</ten>
+    <dang>Lọ</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Nội Tổng Hợp</tenkp>
+    <TONGCONG>4.0000</TONGCONG>
+    <DONGIA>13000.0000000000</DONGIA>
+    <THANHTIEN>52000</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>657</mabd>
+    <stt>156</stt>
+    <ma>PRE002</ma>
+    <hamluong>5mg</hamluong>
+    <ten>Prednisolone</ten>
+    <dang>Viên</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa CĐHA</tenkp>
+    <TONGCONG>35.0000</TONGCONG>
+    <DONGIA>420.0000000000</DONGIA>
+    <THANHTIEN>14700</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1293</mabd>
+    <stt>157</stt>
+    <ma>PRI001</ma>
+    <hamluong>10mg</hamluong>
+    <ten>Primperan</ten>
+    <dang>ống</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa CĐHA</tenkp>
+    <TONGCONG>4.0000</TONGCONG>
+    <DONGIA>3570.0000000000</DONGIA>
+    <THANHTIEN>14280</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1494</mabd>
+    <stt>158</stt>
+    <ma>QUE002</ma>
+    <hamluong />
+    <ten>Quế chi</ten>
+    <dang>gam</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Xét Nghiệm</tenkp>
+    <TONGCONG>1022.0000</TONGCONG>
+    <DONGIA>25.0000000000</DONGIA>
+    <THANHTIEN>25550</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>667</mabd>
+    <stt>159</stt>
+    <ma>RIN001</ma>
+    <hamluong>500ml</hamluong>
+    <ten>Ringer Lattat</ten>
+    <dang>Chai</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa CĐHA</tenkp>
+    <TONGCONG>34.0000</TONGCONG>
+    <DONGIA>10500.0000000000</DONGIA>
+    <THANHTIEN>357000</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1644</mabd>
+    <stt>160</stt>
+    <ma>SON006</ma>
+    <hamluong />
+    <ten>Sơn thù</ten>
+    <dang>gam</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Xét Nghiệm</tenkp>
+    <TONGCONG>832.0000</TONGCONG>
+    <DONGIA>250.0000000000</DONGIA>
+    <THANHTIEN>208000</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>189971</mabd>
+    <stt>161</stt>
+    <ma>SAL001</ma>
+    <hamluong>2mg</hamluong>
+    <ten>Salbutamol</ten>
+    <dang>Viên</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa CĐHA</tenkp>
+    <TONGCONG>46.0000</TONGCONG>
+    <DONGIA>88.0000000000</DONGIA>
+    <THANHTIEN>4048</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1337</mabd>
+    <stt>162</stt>
+    <ma>SAN001</ma>
+    <hamluong>1g</hamluong>
+    <ten>santazid</ten>
+    <dang>Lọ</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Nội Tổng Hợp</tenkp>
+    <TONGCONG>24.0000</TONGCONG>
+    <DONGIA>55000.0000000000</DONGIA>
+    <THANHTIEN>1320000</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1300</mabd>
+    <stt>163</stt>
+    <ma>ANT001</ma>
+    <hamluong>500 ui/1ml</hamluong>
+    <ten>SAT(H. thanh k.uống ván)</ten>
+    <dang>ống</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Nội Tổng Hợp</tenkp>
+    <TONGCONG>2.0000</TONGCONG>
+    <DONGIA>20500.0000000000</DONGIA>
+    <THANHTIEN>41000</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1501</mabd>
+    <stt>164</stt>
+    <ma>SAI001</ma>
+    <hamluong />
+    <ten>Sài hồ bắc</ten>
+    <dang>gam</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Xét Nghiệm</tenkp>
+    <TONGCONG>500.0000</TONGCONG>
+    <DONGIA>60.0000000000</DONGIA>
+    <THANHTIEN>30000</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>189881</mabd>
+    <stt>165</stt>
+    <ma>SIN001</ma>
+    <hamluong />
+    <ten>Sinh Địa</ten>
+    <dang>gam</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Xét Nghiệm</tenkp>
+    <TONGCONG>1020.0000</TONGCONG>
+    <DONGIA>100.0000000000</DONGIA>
+    <THANHTIEN>102000</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>189891</mabd>
+    <stt>166</stt>
+    <ma>SON007</ma>
+    <hamluong />
+    <ten>Sonde Folley</ten>
+    <dang>Cái</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Liên Chuyên Khoa</tenkp>
+    <TONGCONG>10.0000</TONGCONG>
+    <DONGIA>18900.0000000000</DONGIA>
+    <THANHTIEN>189000</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1483</mabd>
+    <stt>167</stt>
+    <ma>SON003</ma>
+    <hamluong />
+    <ten>sond Nelaton</ten>
+    <dang>Cái</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Nội Tổng Hợp</tenkp>
+    <TONGCONG>4.0000</TONGCONG>
+    <DONGIA>4440.0000000000</DONGIA>
+    <THANHTIEN>17760</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1303</mabd>
+    <stt>168</stt>
+    <ma>SOR002</ma>
+    <hamluong>5gam</hamluong>
+    <ten>Sorbitol</ten>
+    <dang>Gói</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa CĐHA</tenkp>
+    <TONGCONG>2.0000</TONGCONG>
+    <DONGIA>490.0000000000</DONGIA>
+    <THANHTIEN>980</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1374</mabd>
+    <stt>169</stt>
+    <ma>SUN001</ma>
+    <hamluong />
+    <ten>Suniton</ten>
+    <dang>Viên</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa CĐHA</tenkp>
+    <TONGCONG>374.0000</TONGCONG>
+    <DONGIA>1199.9988095238</DONGIA>
+    <THANHTIEN>448782</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1343</mabd>
+    <stt>170</stt>
+    <ma>SUW001</ma>
+    <hamluong>300mg</hamluong>
+    <ten>Suwelin</ten>
+    <dang>ống</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Liên Chuyên Khoa</tenkp>
+    <TONGCONG>76.0000</TONGCONG>
+    <DONGIA>5329.9995000000</DONGIA>
+    <THANHTIEN>405073</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1514</mabd>
+    <stt>171</stt>
+    <ma>TAN006</ma>
+    <hamluong />
+    <ten>Tang ký sinh</ten>
+    <dang>gam</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Xét Nghiệm</tenkp>
+    <TONGCONG>1022.0000</TONGCONG>
+    <DONGIA>65.0000000000</DONGIA>
+    <THANHTIEN>66430</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1485</mabd>
+    <stt>172</stt>
+    <ma>TUI001</ma>
+    <hamluong />
+    <ten>Túi đựng nước tiểu</ten>
+    <dang>Cái</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Liên Chuyên Khoa</tenkp>
+    <TONGCONG>9.0000</TONGCONG>
+    <DONGIA>6000.0000000000</DONGIA>
+    <THANHTIEN>54000</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1575</mabd>
+    <stt>173</stt>
+    <ma>TAO002</ma>
+    <hamluong />
+    <ten>Táo nhân</ten>
+    <dang>gam</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Xét Nghiệm</tenkp>
+    <TONGCONG>2560.0000</TONGCONG>
+    <DONGIA>360.0000000000</DONGIA>
+    <THANHTIEN>921600</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1363</mabd>
+    <stt>174</stt>
+    <ma>TER001</ma>
+    <hamluong />
+    <ten>Terpincodeine</ten>
+    <dang>Viên</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa CĐHA</tenkp>
+    <TONGCONG>8.0000</TONGCONG>
+    <DONGIA>389.9994000000</DONGIA>
+    <THANHTIEN>3118</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>189934</mabd>
+    <stt>175</stt>
+    <ma>TEV001</ma>
+    <hamluong>10mg</hamluong>
+    <ten>Tevalis</ten>
+    <dang>Viên</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa CĐHA</tenkp>
+    <TONGCONG>35.0000</TONGCONG>
+    <DONGIA>6000.0000000000</DONGIA>
+    <THANHTIEN>210001</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>189934</mabd>
+    <stt>176</stt>
+    <ma>TEV001</ma>
+    <hamluong>10mg</hamluong>
+    <ten>Tevalis</ten>
+    <dang>Viên</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa CĐHA</tenkp>
+    <TONGCONG>3.0000</TONGCONG>
+    <DONGIA>6000.1480000000</DONGIA>
+    <THANHTIEN>18000</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1661</mabd>
+    <stt>177</stt>
+    <ma>THU005</ma>
+    <hamluong />
+    <ten>Thục địa</ten>
+    <dang>gam</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Xét Nghiệm</tenkp>
+    <TONGCONG>2906.0000</TONGCONG>
+    <DONGIA>100.0000000000</DONGIA>
+    <THANHTIEN>290600</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1517</mabd>
+    <stt>178</stt>
+    <ma>THU003</ma>
+    <hamluong />
+    <ten>Thương truật</ten>
+    <dang>gam</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Xét Nghiệm</tenkp>
+    <TONGCONG>180.0000</TONGCONG>
+    <DONGIA>200.0000000000</DONGIA>
+    <THANHTIEN>36000</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1515</mabd>
+    <stt>179</stt>
+    <ma>THI002</ma>
+    <hamluong />
+    <ten>Thiên niên kiện</ten>
+    <dang>gam</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Xét Nghiệm</tenkp>
+    <TONGCONG>80.0000</TONGCONG>
+    <DONGIA>60.0000000000</DONGIA>
+    <THANHTIEN>4800</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>190169</mabd>
+    <stt>180</stt>
+    <ma>THU004</ma>
+    <hamluong />
+    <ten>Thuỷ tinh thể (Optima)</ten>
+    <dang>Cái</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Khám Bệnh</tenkp>
+    <TONGCONG>1.0000</TONGCONG>
+    <DONGIA>291000.0000000000</DONGIA>
+    <THANHTIEN>291000</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1338</mabd>
+    <stt>181</stt>
+    <ma>TIN001</ma>
+    <hamluong>500mg</hamluong>
+    <ten>Tinidazole</ten>
+    <dang>Viên</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Nội Tổng Hợp</tenkp>
+    <TONGCONG>136.0000</TONGCONG>
+    <DONGIA>1365.0000000000</DONGIA>
+    <THANHTIEN>185640</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1315</mabd>
+    <stt>182</stt>
+    <ma>TOC001</ma>
+    <hamluong>200mg</hamluong>
+    <ten>Tocemux</ten>
+    <dang>Gói</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa CĐHA</tenkp>
+    <TONGCONG>100.0000</TONGCONG>
+    <DONGIA>1550.0000000000</DONGIA>
+    <THANHTIEN>155000</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1316</mabd>
+    <stt>183</stt>
+    <ma>TOC002</ma>
+    <hamluong>200mg</hamluong>
+    <ten>Tocemux</ten>
+    <dang>Viên</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa CĐHA</tenkp>
+    <TONGCONG>12.0000</TONGCONG>
+    <DONGIA>750.0000000000</DONGIA>
+    <THANHTIEN>9000</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1728</mabd>
+    <stt>184</stt>
+    <ma>TOR002</ma>
+    <hamluong>200mg</hamluong>
+    <ten>Torfexim</ten>
+    <dang>Viên</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa CĐHA</tenkp>
+    <TONGCONG>78.0000</TONGCONG>
+    <DONGIA>10500.0000000000</DONGIA>
+    <THANHTIEN>819000</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1323</mabd>
+    <stt>185</stt>
+    <ma>TOR001</ma>
+    <hamluong>500mg</hamluong>
+    <ten>Torodroxyl</ten>
+    <dang>Viên</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Khám Bệnh</tenkp>
+    <TONGCONG>134.0000</TONGCONG>
+    <DONGIA>2700.0000000000</DONGIA>
+    <THANHTIEN>361800</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1738</mabd>
+    <stt>186</stt>
+    <ma>TOR003</ma>
+    <hamluong>10mg</hamluong>
+    <ten>Torolium MT</ten>
+    <dang>Viên</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa CĐHA</tenkp>
+    <TONGCONG>10.0000</TONGCONG>
+    <DONGIA>1700.0000000000</DONGIA>
+    <THANHTIEN>17000</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1314</mabd>
+    <stt>187</stt>
+    <ma>TOV003</ma>
+    <hamluong>150mg</hamluong>
+    <ten>Tovalgan</ten>
+    <dang>Gói</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa CĐHA</tenkp>
+    <TONGCONG>56.0000</TONGCONG>
+    <DONGIA>1400.0000000000</DONGIA>
+    <THANHTIEN>78400</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1617</mabd>
+    <stt>188</stt>
+    <ma>TRA003</ma>
+    <hamluong />
+    <ten>Trạch tả</ten>
+    <dang>gam</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Xét Nghiệm</tenkp>
+    <TONGCONG>880.0000</TONGCONG>
+    <DONGIA>110.0000000000</DONGIA>
+    <THANHTIEN>96800</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>189965</mabd>
+    <stt>189</stt>
+    <ma>TRI007</ma>
+    <hamluong>20mg</hamluong>
+    <ten>Triamed(Trimetazidin)</ten>
+    <dang>Viên</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa CĐHA</tenkp>
+    <TONGCONG>50.0000</TONGCONG>
+    <DONGIA>1199.9998500000</DONGIA>
+    <THANHTIEN>59995</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>189981</mabd>
+    <stt>190</stt>
+    <ma>TRI008</ma>
+    <hamluong>20mg</hamluong>
+    <ten>Trimetazidine(Triamed)</ten>
+    <dang>Viên</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Liên Chuyên Khoa</tenkp>
+    <TONGCONG>60.0000</TONGCONG>
+    <DONGIA>1200.0000000000</DONGIA>
+    <THANHTIEN>72000</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1365</mabd>
+    <stt>191</stt>
+    <ma>TRI002</ma>
+    <hamluong />
+    <ten>Triobex(Vitamin 3B)</ten>
+    <dang>Viên</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa CĐHA</tenkp>
+    <TONGCONG>308.0000</TONGCONG>
+    <DONGIA>1000.0000390625</DONGIA>
+    <THANHTIEN>308000</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1331</mabd>
+    <stt>192</stt>
+    <ma>TRI001</ma>
+    <hamluong>250mg/100ml</hamluong>
+    <ten>Trizele</ten>
+    <dang>chai</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Nội Tổng Hợp</tenkp>
+    <TONGCONG>5.0000</TONGCONG>
+    <DONGIA>18600.0000000000</DONGIA>
+    <THANHTIEN>93000</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>189814</mabd>
+    <stt>193</stt>
+    <ma>UAT001</ma>
+    <hamluong />
+    <ten>Uất Kim</ten>
+    <dang>gam</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Xét Nghiệm</tenkp>
+    <TONGCONG>110.0000</TONGCONG>
+    <DONGIA>210.0000000000</DONGIA>
+    <THANHTIEN>23100</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1319</mabd>
+    <stt>194</stt>
+    <ma>VIE001</ma>
+    <hamluong />
+    <ten>Viên sáng mắt</ten>
+    <dang>Gói</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Khám Bệnh</tenkp>
+    <TONGCONG>53.0000</TONGCONG>
+    <DONGIA>2300.0000000000</DONGIA>
+    <THANHTIEN>121900</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1577</mabd>
+    <stt>195</stt>
+    <ma>VIE002</ma>
+    <hamluong />
+    <ten>Viễn chí</ten>
+    <dang>gam</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Xét Nghiệm</tenkp>
+    <TONGCONG>1186.0000</TONGCONG>
+    <DONGIA>460.0000000000</DONGIA>
+    <THANHTIEN>545560</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1320</mabd>
+    <stt>196</stt>
+    <ma>VIF001</ma>
+    <hamluong>75mg</hamluong>
+    <ten>Vifenac</ten>
+    <dang>ống</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa CĐHA</tenkp>
+    <TONGCONG>53.0000</TONGCONG>
+    <DONGIA>4600.0500000000</DONGIA>
+    <THANHTIEN>243800</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>189968</mabd>
+    <stt>197</stt>
+    <ma>VIN002</ma>
+    <hamluong>20mg</hamluong>
+    <ten>Vincopane(Buscopan)</ten>
+    <dang>ống</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Hồi Sức Cấp Cứu</tenkp>
+    <TONGCONG>50.0000</TONGCONG>
+    <DONGIA>10000.0000000000</DONGIA>
+    <THANHTIEN>500000</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1376</mabd>
+    <stt>198</stt>
+    <ma>VIT004</ma>
+    <hamluong />
+    <ten>Vitamin A-D</ten>
+    <dang>Viên</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Khám Bệnh</tenkp>
+    <TONGCONG>48.0000</TONGCONG>
+    <DONGIA>220.0003333333</DONGIA>
+    <THANHTIEN>10560</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1381</mabd>
+    <stt>199</stt>
+    <ma>VIT009</ma>
+    <hamluong>10%-5ml</hamluong>
+    <ten>Vitamin C (Pháp)</ten>
+    <dang>ống</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa CĐHA</tenkp>
+    <TONGCONG>34.0000</TONGCONG>
+    <DONGIA>5160.0003000000</DONGIA>
+    <THANHTIEN>175440</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>909</mabd>
+    <stt>200</stt>
+    <ma>VIT002</ma>
+    <hamluong>5mg/1ml</hamluong>
+    <ten>Vitamin K1</ten>
+    <dang>ống</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Hồi Sức Cấp Cứu</tenkp>
+    <TONGCONG>15.0000</TONGCONG>
+    <DONGIA>9000.0000000000</DONGIA>
+    <THANHTIEN>135000</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1555</mabd>
+    <stt>201</stt>
+    <ma>XIC001</ma>
+    <hamluong />
+    <ten>Xích thược</ten>
+    <dang>gam</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Xét Nghiệm</tenkp>
+    <TONGCONG>148.0000</TONGCONG>
+    <DONGIA>135.0000000000</DONGIA>
+    <THANHTIEN>19980</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1602</mabd>
+    <stt>202</stt>
+    <ma>XUY003</ma>
+    <hamluong />
+    <ten>Xuyên khung</ten>
+    <dang>gam</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Xét Nghiệm</tenkp>
+    <TONGCONG>1346.0000</TONGCONG>
+    <DONGIA>150.0000000000</DONGIA>
+    <THANHTIEN>201900</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>777</mabd>
+    <stt>203</stt>
+    <ma>ZOL002</ma>
+    <hamluong>5mg</hamluong>
+    <ten>Zolastyn</ten>
+    <dang>Viên</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa CĐHA</tenkp>
+    <TONGCONG>9.0000</TONGCONG>
+    <DONGIA>3200.0000000000</DONGIA>
+    <THANHTIEN>28800</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1619</mabd>
+    <stt>204</stt>
+    <ma>YDI001</ma>
+    <hamluong />
+    <ten>Ý dĩ</ten>
+    <dang>gam</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Y Học Cổ Truyền</tenkp>
+    <TONGCONG>70.0000</TONGCONG>
+    <DONGIA>280.0000000000</DONGIA>
+    <THANHTIEN>19600</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1497</mabd>
+    <stt>205</stt>
+    <ma>BAC002</ma>
+    <hamluong />
+    <ten>Bạc hà</ten>
+    <dang>gam</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Y Học Cổ Truyền</tenkp>
+    <TONGCONG>84.0000</TONGCONG>
+    <DONGIA>70.0000000000</DONGIA>
+    <THANHTIEN>5880</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1498</mabd>
+    <stt>206</stt>
+    <ma>CAT002</ma>
+    <hamluong />
+    <ten>Cát căn</ten>
+    <dang>gam</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Y Học Cổ Truyền</tenkp>
+    <TONGCONG>154.0000</TONGCONG>
+    <DONGIA>60.0000000000</DONGIA>
+    <THANHTIEN>9240</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>189818</mabd>
+    <stt>207</stt>
+    <ma>COO001</ma>
+    <hamluong />
+    <ten>Cốt toái  bổ</ten>
+    <dang>gam</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Y Học Cổ Truyền</tenkp>
+    <TONGCONG>304.0000</TONGCONG>
+    <DONGIA>70.0000000000</DONGIA>
+    <THANHTIEN>21280</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1538</mabd>
+    <stt>208</stt>
+    <ma>CHI016</ma>
+    <hamluong />
+    <ten>Chi tử</ten>
+    <dang>gam</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Y Học Cổ Truyền</tenkp>
+    <TONGCONG>144.0000</TONGCONG>
+    <DONGIA>95.0000000000</DONGIA>
+    <THANHTIEN>13680</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>6</mabd>
+    <stt>209</stt>
+    <ma>DUO001</ma>
+    <hamluong />
+    <ten>Dưỡng tâm an thần</ten>
+    <dang>Viên</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Phòng khám YHCT</tenkp>
+    <TONGCONG>160.0000</TONGCONG>
+    <DONGIA>545.0000000000</DONGIA>
+    <THANHTIEN>87200</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1653</mabd>
+    <stt>210</stt>
+    <ma>HAT001</ma>
+    <hamluong />
+    <ten>Hà thủ ô đỏ</ten>
+    <dang>gam</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Y Học Cổ Truyền</tenkp>
+    <TONGCONG>140.0000</TONGCONG>
+    <DONGIA>140.0000000000</DONGIA>
+    <THANHTIEN>19600</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>190205</mabd>
+    <stt>211</stt>
+    <ma>HOE002</ma>
+    <hamluong />
+    <ten>Hoè hoa</ten>
+    <dang>gam</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Y Học Cổ Truyền</tenkp>
+    <TONGCONG>164.0000</TONGCONG>
+    <DONGIA>245.0000000000</DONGIA>
+    <THANHTIEN>40180</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1654</mabd>
+    <stt>212</stt>
+    <ma>LON003</ma>
+    <hamluong />
+    <ten>Long nhãn</ten>
+    <dang>gam</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Y Học Cổ Truyền</tenkp>
+    <TONGCONG>490.0000</TONGCONG>
+    <DONGIA>180.0000000000</DONGIA>
+    <THANHTIEN>88200</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1585</mabd>
+    <stt>213</stt>
+    <ma>MOC002</ma>
+    <hamluong />
+    <ten>Mộc hương</ten>
+    <dang>gam</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Y Học Cổ Truyền</tenkp>
+    <TONGCONG>226.0000</TONGCONG>
+    <DONGIA>100.0000000000</DONGIA>
+    <THANHTIEN>22600</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1631</mabd>
+    <stt>214</stt>
+    <ma>MAC001</ma>
+    <hamluong />
+    <ten>Mạch nha</ten>
+    <dang>gam</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Y Học Cổ Truyền</tenkp>
+    <TONGCONG>164.0000</TONGCONG>
+    <DONGIA>30.0000000000</DONGIA>
+    <THANHTIEN>4920</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1594</mabd>
+    <stt>215</stt>
+    <ma>MOT001</ma>
+    <hamluong />
+    <ten>Một dược</ten>
+    <dang>gam</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Y Học Cổ Truyền</tenkp>
+    <TONGCONG>130.0000</TONGCONG>
+    <DONGIA>130.0000000000</DONGIA>
+    <THANHTIEN>16900</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1550</mabd>
+    <stt>216</stt>
+    <ma>NHA002</ma>
+    <hamluong />
+    <ten>Nhân trần</ten>
+    <dang>gam</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Y Học Cổ Truyền</tenkp>
+    <TONGCONG>192.0000</TONGCONG>
+    <DONGIA>30.0000000000</DONGIA>
+    <THANHTIEN>5760</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1527</mabd>
+    <stt>217</stt>
+    <ma>PHU001</ma>
+    <hamluong />
+    <ten>Phụ tu chế</ten>
+    <dang>gam</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Y Học Cổ Truyền</tenkp>
+    <TONGCONG>194.0000</TONGCONG>
+    <DONGIA>150.0000000000</DONGIA>
+    <THANHTIEN>29100</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1528</mabd>
+    <stt>218</stt>
+    <ma>QUE003</ma>
+    <hamluong />
+    <ten>Quế nhục</ten>
+    <dang>gam</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Y Học Cổ Truyền</tenkp>
+    <TONGCONG>72.0000</TONGCONG>
+    <DONGIA>60.0000000000</DONGIA>
+    <THANHTIEN>4320</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1677</mabd>
+    <stt>219</stt>
+    <ma>TUC001</ma>
+    <hamluong />
+    <ten>Tục đoạn</ten>
+    <dang>gam</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Y Học Cổ Truyền</tenkp>
+    <TONGCONG>406.0000</TONGCONG>
+    <DONGIA>120.0000000000</DONGIA>
+    <THANHTIEN>48720</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1636</mabd>
+    <stt>220</stt>
+    <ma>THA010</ma>
+    <hamluong />
+    <ten>Thần khúc</ten>
+    <dang>gam</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Y Học Cổ Truyền</tenkp>
+    <TONGCONG>84.0000</TONGCONG>
+    <DONGIA>70.0000000000</DONGIA>
+    <THANHTIEN>5880</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1313</mabd>
+    <stt>221</stt>
+    <ma>THA003</ma>
+    <hamluong />
+    <ten>Thấp khớp nam dược</ten>
+    <dang>Viên</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Phòng khám YHCT</tenkp>
+    <TONGCONG>280.0000</TONGCONG>
+    <DONGIA>2480.0002500000</DONGIA>
+    <THANHTIEN>694400</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1660</mabd>
+    <stt>222</stt>
+    <ma>THI004</ma>
+    <hamluong />
+    <ten>Thiên môn</ten>
+    <dang>gam</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Phòng khám YHCT</tenkp>
+    <TONGCONG>112.0000</TONGCONG>
+    <DONGIA>180.0000000000</DONGIA>
+    <THANHTIEN>20160</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1633</mabd>
+    <stt>223</stt>
+    <ma>ODU001</ma>
+    <hamluong />
+    <ten>Ô dước</ten>
+    <dang>gam</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Xét Nghiệm</tenkp>
+    <TONGCONG>80.0000</TONGCONG>
+    <DONGIA>50.0000000000</DONGIA>
+    <THANHTIEN>4000</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1242</mabd>
+    <stt>224</stt>
+    <ma>ADA003</ma>
+    <hamluong>30mg</hamluong>
+    <ten>Adalat LA</ten>
+    <dang>Viên</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Hồi Sức Cấp Cứu</tenkp>
+    <TONGCONG>1.0000</TONGCONG>
+    <DONGIA>9154.0000000000</DONGIA>
+    <THANHTIEN>9154</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>659</mabd>
+    <stt>225</stt>
+    <ma>AMI001</ma>
+    <hamluong>8,5%-500 ml</hamluong>
+    <ten>Amigol</ten>
+    <dang>Chai</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa CĐHA</tenkp>
+    <TONGCONG>3.0000</TONGCONG>
+    <DONGIA>85000.0000000000</DONGIA>
+    <THANHTIEN>255000</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1731</mabd>
+    <stt>226</stt>
+    <ma>AMN001</ma>
+    <hamluong>5mg</hamluong>
+    <ten>Amnorpin</ten>
+    <dang>Viên</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa CĐHA</tenkp>
+    <TONGCONG>23.0000</TONGCONG>
+    <DONGIA>3300.0000000000</DONGIA>
+    <THANHTIEN>75900</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1255</mabd>
+    <stt>227</stt>
+    <ma>ARG001</ma>
+    <hamluong>1%-10ml</hamluong>
+    <ten>Argyrol</ten>
+    <dang>lọ</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Hồi Sức Cấp Cứu</tenkp>
+    <TONGCONG>4.0000</TONGCONG>
+    <DONGIA>5999.9940000000</DONGIA>
+    <THANHTIEN>23999</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1556</mabd>
+    <stt>228</stt>
+    <ma>BAN005</ma>
+    <hamluong />
+    <ten>Bán hạ chế</ten>
+    <dang>gam</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Xét Nghiệm</tenkp>
+    <TONGCONG>50.0000</TONGCONG>
+    <DONGIA>115.0000000000</DONGIA>
+    <THANHTIEN>5750</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1384</mabd>
+    <stt>229</stt>
+    <ma>BOT002</ma>
+    <hamluong />
+    <ten>Bột bó 6 in</ten>
+    <dang>Cuộn</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Nội Tổng Hợp</tenkp>
+    <TONGCONG>5.0000</TONGCONG>
+    <DONGIA>21000.0000000000</DONGIA>
+    <THANHTIEN>105000</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>189930</mabd>
+    <stt>230</stt>
+    <ma>BOL001</ma>
+    <hamluong>245mg</hamluong>
+    <ten>Boliverplus</ten>
+    <dang>Viên</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa CĐHA</tenkp>
+    <TONGCONG>36.0000</TONGCONG>
+    <DONGIA>2199.9998333333</DONGIA>
+    <THANHTIEN>79199</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>189932</mabd>
+    <stt>231</stt>
+    <ma>CEN002</ma>
+    <hamluong>800mg</hamluong>
+    <ten>Cenpira</ten>
+    <dang>Viên</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa CĐHA</tenkp>
+    <TONGCONG>2.0000</TONGCONG>
+    <DONGIA>1499.9995000000</DONGIA>
+    <THANHTIEN>2999</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1418</mabd>
+    <stt>232</stt>
+    <ma>DAY001</ma>
+    <hamluong />
+    <ten>Dây 3 đầu (Theeway)</ten>
+    <dang>Cái</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Liên Chuyên Khoa</tenkp>
+    <TONGCONG>4.0000</TONGCONG>
+    <DONGIA>19005.0000000000</DONGIA>
+    <THANHTIEN>76020</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1419</mabd>
+    <stt>233</stt>
+    <ma>DAY002</ma>
+    <hamluong />
+    <ten>Dây bơm tiêm điện</ten>
+    <dang>Cái</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Liên Chuyên Khoa</tenkp>
+    <TONGCONG>8.0000</TONGCONG>
+    <DONGIA>11760.0000000000</DONGIA>
+    <THANHTIEN>94080</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1427</mabd>
+    <stt>234</stt>
+    <ma>DAY006</ma>
+    <hamluong />
+    <ten>Dây truyền dịch Braw</ten>
+    <dang>Bộ</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Liên Chuyên Khoa</tenkp>
+    <TONGCONG>13.0000</TONGCONG>
+    <DONGIA>10500.0000000000</DONGIA>
+    <THANHTIEN>136500</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1248</mabd>
+    <stt>235</stt>
+    <ma>DIG002</ma>
+    <hamluong>0.5mg/2ml</hamluong>
+    <ten>Digoxin</ten>
+    <dang>ống</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Liên Chuyên Khoa</tenkp>
+    <TONGCONG>8.0000</TONGCONG>
+    <DONGIA>21000.0000000000</DONGIA>
+    <THANHTIEN>168000</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1249</mabd>
+    <stt>236</stt>
+    <ma>DOB002</ma>
+    <hamluong>250mg/20ml</hamluong>
+    <ten>Dobutamin</ten>
+    <dang>ống</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Liên Chuyên Khoa</tenkp>
+    <TONGCONG>4.0000</TONGCONG>
+    <DONGIA>165000.0000000000</DONGIA>
+    <THANHTIEN>660000</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>189922</mabd>
+    <stt>237</stt>
+    <ma>ERY001</ma>
+    <hamluong>365mg</hamluong>
+    <ten>Erybact</ten>
+    <dang>Gói</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Liên Chuyên Khoa</tenkp>
+    <TONGCONG>8.0000</TONGCONG>
+    <DONGIA>1010.0000000000</DONGIA>
+    <THANHTIEN>8080</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1310</mabd>
+    <stt>238</stt>
+    <ma>EUV002</ma>
+    <hamluong>90ml</hamluong>
+    <ten>Euvilen</ten>
+    <dang>Lọ</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa CĐHA</tenkp>
+    <TONGCONG>1.0000</TONGCONG>
+    <DONGIA>15330.0000000000</DONGIA>
+    <THANHTIEN>15330</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>189961</mabd>
+    <stt>239</stt>
+    <ma>FRA001</ma>
+    <hamluong>500mg</hamluong>
+    <ten>Franvit C</ten>
+    <dang>Viên</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa CĐHA</tenkp>
+    <TONGCONG>15.0000</TONGCONG>
+    <DONGIA>480.0000000000</DONGIA>
+    <THANHTIEN>7200</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>697</mabd>
+    <stt>240</stt>
+    <ma>GEN001</ma>
+    <hamluong>80mg</hamluong>
+    <ten>Gentamicin</ten>
+    <dang>ống</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa CĐHA</tenkp>
+    <TONGCONG>6.0000</TONGCONG>
+    <DONGIA>1500.0000000000</DONGIA>
+    <THANHTIEN>9000</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1646</mabd>
+    <stt>241</stt>
+    <ma>HOA009</ma>
+    <hamluong />
+    <ten>Hoàng cầm</ten>
+    <dang>gam</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Xét Nghiệm</tenkp>
+    <TONGCONG>70.0000</TONGCONG>
+    <DONGIA>160.0000000000</DONGIA>
+    <THANHTIEN>11200</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1638</mabd>
+    <stt>242</stt>
+    <ma>KIM015</ma>
+    <hamluong />
+    <ten>Kim anh tử</ten>
+    <dang>gam</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Xét Nghiệm</tenkp>
+    <TONGCONG>98.0000</TONGCONG>
+    <DONGIA>110.0000000000</DONGIA>
+    <THANHTIEN>10780</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1452</mabd>
+    <stt>243</stt>
+    <ma>KIM009</ma>
+    <hamluong />
+    <ten>Kim luồn tĩnh mạch 18G</ten>
+    <dang>Cái</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Hồi Sức Cấp Cứu</tenkp>
+    <TONGCONG>1.0000</TONGCONG>
+    <DONGIA>13230.0000000000</DONGIA>
+    <THANHTIEN>13230</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1459</mabd>
+    <stt>244</stt>
+    <ma>LUO001</ma>
+    <hamluong />
+    <ten>Lưỡi dao mổ số 11</ten>
+    <dang>Cái</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Khám Bệnh</tenkp>
+    <TONGCONG>3.0000</TONGCONG>
+    <DONGIA>4000.0000000000</DONGIA>
+    <THANHTIEN>12000</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1612</mabd>
+    <stt>245</stt>
+    <ma>MOC003</ma>
+    <hamluong />
+    <ten>Mộc thông</ten>
+    <dang>gam</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Xét Nghiệm</tenkp>
+    <TONGCONG>60.0000</TONGCONG>
+    <DONGIA>85.0000000000</DONGIA>
+    <THANHTIEN>5100</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>189940</mabd>
+    <stt>246</stt>
+    <ma>MIX001</ma>
+    <hamluong>150mg</hamluong>
+    <ten>Mixpallet</ten>
+    <dang>Viên</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Hồi Sức Cấp Cứu</tenkp>
+    <TONGCONG>60.0000</TONGCONG>
+    <DONGIA>1800.0000000000</DONGIA>
+    <THANHTIEN>108000</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1275</mabd>
+    <stt>247</stt>
+    <ma>NUO002</ma>
+    <hamluong>5ml</hamluong>
+    <ten>Nước Cất</ten>
+    <dang>ống</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa CĐHA</tenkp>
+    <TONGCONG>252.0000</TONGCONG>
+    <DONGIA>1000.0000000000</DONGIA>
+    <THANHTIEN>252000</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1598</mabd>
+    <stt>248</stt>
+    <ma>NHU001</ma>
+    <hamluong />
+    <ten>Nhũ hương</ten>
+    <dang>gam</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Xét Nghiệm</tenkp>
+    <TONGCONG>110.0000</TONGCONG>
+    <DONGIA>80.0000000000</DONGIA>
+    <THANHTIEN>8800</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1287</mabd>
+    <stt>249</stt>
+    <ma>PAN001</ma>
+    <hamluong>4,26g/100ml</hamluong>
+    <ten>Panthenol Spray</ten>
+    <dang>lọ</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Nội Tổng Hợp</tenkp>
+    <TONGCONG>1.0000</TONGCONG>
+    <DONGIA>103110.0000000000</DONGIA>
+    <THANHTIEN>103110</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>751</mabd>
+    <stt>250</stt>
+    <ma>PAR002</ma>
+    <hamluong>525mg</hamluong>
+    <ten>Partamol Extra</ten>
+    <dang>Viên</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Nội Tổng Hợp</tenkp>
+    <TONGCONG>2.0000</TONGCONG>
+    <DONGIA>460.0050000000</DONGIA>
+    <THANHTIEN>920</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1290</mabd>
+    <stt>251</stt>
+    <ma>POL002</ma>
+    <hamluong />
+    <ten>Polydeson</ten>
+    <dang>Lọ</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Khám Bệnh</tenkp>
+    <TONGCONG>1.0000</TONGCONG>
+    <DONGIA>3200.0000000000</DONGIA>
+    <THANHTIEN>3200</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1301</mabd>
+    <stt>252</stt>
+    <ma>SED003</ma>
+    <hamluong>200mg</hamluong>
+    <ten>Sedacordaron</ten>
+    <dang>Viên</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa CĐHA</tenkp>
+    <TONGCONG>2.0000</TONGCONG>
+    <DONGIA>4000.0000000000</DONGIA>
+    <THANHTIEN>8000</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1482</mabd>
+    <stt>253</stt>
+    <ma>SON002</ma>
+    <hamluong />
+    <ten>Sond dạ dày sơ sinh</ten>
+    <dang>Cái</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Hồi Sức Cấp Cứu</tenkp>
+    <TONGCONG>1.0000</TONGCONG>
+    <DONGIA>8820.0000000000</DONGIA>
+    <THANHTIEN>8820</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1343</mabd>
+    <stt>254</stt>
+    <ma>SUW001</ma>
+    <hamluong>300mg</hamluong>
+    <ten>Suwelin</ten>
+    <dang>ống</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Liên Chuyên Khoa</tenkp>
+    <TONGCONG>9.0000</TONGCONG>
+    <DONGIA>5330.0000000000</DONGIA>
+    <THANHTIEN>47970</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1599</mabd>
+    <stt>255</stt>
+    <ma>TOM001</ma>
+    <hamluong />
+    <ten>Tô mộc</ten>
+    <dang>gam</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Xét Nghiệm</tenkp>
+    <TONGCONG>80.0000</TONGCONG>
+    <DONGIA>42.0000000000</DONGIA>
+    <THANHTIEN>3360</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>189934</mabd>
+    <stt>256</stt>
+    <ma>TEV001</ma>
+    <hamluong>10mg</hamluong>
+    <ten>Tevalis</ten>
+    <dang>Viên</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa CĐHA</tenkp>
+    <TONGCONG>8.0000</TONGCONG>
+    <DONGIA>6000.1466666667</DONGIA>
+    <THANHTIEN>48001</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>189965</mabd>
+    <stt>257</stt>
+    <ma>TRI007</ma>
+    <hamluong>20mg</hamluong>
+    <ten>Triamed(Trimetazidin)</ten>
+    <dang>Viên</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa CĐHA</tenkp>
+    <TONGCONG>2.0000</TONGCONG>
+    <DONGIA>1200.0000000000</DONGIA>
+    <THANHTIEN>2400</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1365</mabd>
+    <stt>258</stt>
+    <ma>TRI002</ma>
+    <hamluong />
+    <ten>Triobex(Vitamin 3B)</ten>
+    <dang>Viên</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa CĐHA</tenkp>
+    <TONGCONG>2.0000</TONGCONG>
+    <DONGIA>1000.0000520833</DONGIA>
+    <THANHTIEN>2000</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1321</mabd>
+    <stt>259</stt>
+    <ma>VIN001</ma>
+    <hamluong>0,5mg/1ml</hamluong>
+    <ten>Vinsalmol  (Salbutamol )</ten>
+    <dang>ống</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Hồi Sức Cấp Cứu</tenkp>
+    <TONGCONG>2.0000</TONGCONG>
+    <DONGIA>10900.0000000000</DONGIA>
+    <THANHTIEN>21800</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>742</mabd>
+    <stt>260</stt>
+    <ma>VIR001</ma>
+    <hamluong>450mg</hamluong>
+    <ten>Viramol</ten>
+    <dang>ống</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Liên Chuyên Khoa</tenkp>
+    <TONGCONG>4.0000</TONGCONG>
+    <DONGIA>8000.0000000000</DONGIA>
+    <THANHTIEN>32000</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1381</mabd>
+    <stt>261</stt>
+    <ma>VIT009</ma>
+    <hamluong>10%-5ml</hamluong>
+    <ten>Vitamin C (Pháp)</ten>
+    <dang>ống</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa CĐHA</tenkp>
+    <TONGCONG>8.0000</TONGCONG>
+    <DONGIA>5160.0000000000</DONGIA>
+    <THANHTIEN>41280</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1609</mabd>
+    <stt>262</stt>
+    <ma>DAN002</ma>
+    <hamluong />
+    <ten>Đăng tâm</ten>
+    <dang>gam</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Y Học Cổ Truyền</tenkp>
+    <TONGCONG>112.0000</TONGCONG>
+    <DONGIA>350.0000000000</DONGIA>
+    <THANHTIEN>39200</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1662</mabd>
+    <stt>263</stt>
+    <ma>BAK001</ma>
+    <hamluong />
+    <ten>Ba kích</ten>
+    <dang>gam</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Y Học Cổ Truyền</tenkp>
+    <TONGCONG>112.0000</TONGCONG>
+    <DONGIA>510.0000000000</DONGIA>
+    <THANHTIEN>57120</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>8</mabd>
+    <stt>264</stt>
+    <ma>DUO002</ma>
+    <hamluong />
+    <ten>Dưỡng tâm ích trí</ten>
+    <dang>Viên</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Phòng khám YHCT</tenkp>
+    <TONGCONG>40.0000</TONGCONG>
+    <DONGIA>1995.0000000000</DONGIA>
+    <THANHTIEN>79800</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1500</mabd>
+    <stt>265</stt>
+    <ma>MAN001</ma>
+    <hamluong />
+    <ten>Mạn kinh tử</ten>
+    <dang>gam</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Y Học Cổ Truyền</tenkp>
+    <TONGCONG>98.0000</TONGCONG>
+    <DONGIA>55.0000000000</DONGIA>
+    <THANHTIEN>5390</THANHTIEN>
+  </Table>
+  <Table>
+    <mabd>1648</mabd>
+    <stt>266</stt>
+    <ma>SAN002</ma>
+    <hamluong />
+    <ten>Sa nhân</ten>
+    <dang>gam</dang>
+    <tenhang>Không xác định</tenhang>
+    <tennuoc>Không xác định</tennuoc>
+    <tenkp>Khoa Y Học Cổ Truyền</tenkp>
+    <TONGCONG>98.0000</TONGCONG>
+    <DONGIA>445.0000000000</DONGIA>
+    <THANHTIEN>43610</THANHTIEN>
+  </Table>
+</NewDataSet>

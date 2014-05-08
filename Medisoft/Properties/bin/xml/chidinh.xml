@@ -1,0 +1,745 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="mabn" type="xs:string" minOccurs="0" />
+                <xs:element name="id" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ngay" type="xs:string" minOccurs="0" />
+                <xs:element name="makp" type="xs:string" minOccurs="0" />
+                <xs:element name="tenkp" type="xs:string" minOccurs="0" />
+                <xs:element name="madoituong" type="xs:decimal" minOccurs="0" />
+                <xs:element name="doituong" type="xs:string" minOccurs="0" />
+                <xs:element name="mavp" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ten" type="xs:string" minOccurs="0" />
+                <xs:element name="dvt" type="xs:string" minOccurs="0" />
+                <xs:element name="soluong" type="xs:decimal" minOccurs="0" />
+                <xs:element name="dongia" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sotien" type="xs:decimal" minOccurs="0" />
+                <xs:element name="maql" type="xs:decimal" minOccurs="0" />
+                <xs:element name="idkhoa" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ma" type="xs:string" minOccurs="0" />
+                <xs:element name="hoten" type="xs:string" minOccurs="0" />
+                <xs:element name="namsinh" type="xs:string" minOccurs="0" />
+                <xs:element name="phai" type="xs:string" minOccurs="0" />
+                <xs:element name="diachi" type="xs:string" minOccurs="0" />
+                <xs:element name="sothe" type="xs:string" minOccurs="0" />
+                <xs:element name="denngay" type="xs:string" minOccurs="0" />
+                <xs:element name="noigioithieu" type="xs:string" minOccurs="0" />
+                <xs:element name="noicap" type="xs:string" minOccurs="0" />
+                <xs:element name="sogiuong" type="xs:string" minOccurs="0" />
+                <xs:element name="ngayvao" type="xs:string" minOccurs="0" />
+                <xs:element name="maicd" type="xs:string" minOccurs="0" />
+                <xs:element name="chandoan" type="xs:string" minOccurs="0" />
+                <xs:element name="sttnhom" type="xs:decimal" minOccurs="0" />
+                <xs:element name="nhom" type="xs:string" minOccurs="0" />
+                <xs:element name="sttloai" type="xs:decimal" minOccurs="0" />
+                <xs:element name="loai" type="xs:string" minOccurs="0" />
+                <xs:element name="mabs" type="xs:string" minOccurs="0" />
+                <xs:element name="tenbs" type="xs:string" minOccurs="0" />
+                <xs:element name="Image" type="xs:base64Binary" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <mabn>08012637</mabn>
+    <id>80703135706738139</id>
+    <ngay>03/07/2008 13:57</ngay>
+    <makp>04</makp>
+    <tenkp>Khoa Nội</tenkp>
+    <madoituong>1</madoituong>
+    <doituong>BHYT</doituong>
+    <mavp>251</mavp>
+    <ten>Huyết đồ (sử dụng máy đếm tự động)</ten>
+    <dvt>Lần</dvt>
+    <soluong>1</soluong>
+    <dongia>50000</dongia>
+    <sotien>50000</sotien>
+    <maql>80703095920013082</maql>
+    <idkhoa>80703105235232139</idkhoa>
+    <ma>HUY001</ma>
+    <hoten>NGUYỄN THỊ VẤN</hoten>
+    <namsinh>1924</namsinh>
+    <phai>Nữ</phai>
+    <diachi>  P. Tam Bình,Q. Thủ Đức,Tp. H C M</diachi>
+    <sothe>79609212079TC79037</sothe>
+    <denngay>28/02/2009</denngay>
+    <noicap>Bệnh Viện Quận Thủ Đức</noicap>
+    <sogiuong />
+    <ngayvao>03/07/2008</ngayvao>
+    <maicd>I10</maicd>
+    <chandoan>Cao huyết áp vô căn (nguyên phát)</chandoan>
+    <sttnhom>1</sttnhom>
+    <nhom>Xét nghiệm </nhom>
+    <sttloai>3</sttloai>
+    <loai>Huyết học</loai>
+  </Table>
+  <Table>
+    <mabn>08012637</mabn>
+    <id>80703135706456139</id>
+    <ngay>03/07/2008 13:57</ngay>
+    <makp>04</makp>
+    <tenkp>Khoa Nội</tenkp>
+    <madoituong>1</madoituong>
+    <doituong>BHYT</doituong>
+    <mavp>10110</mavp>
+    <ten>HBsAg (nhanh)</ten>
+    <dvt>Lần</dvt>
+    <soluong>1</soluong>
+    <dongia>40000</dongia>
+    <sotien>40000</sotien>
+    <maql>80703095920013082</maql>
+    <idkhoa>80703105235232139</idkhoa>
+    <ma>HBS001</ma>
+    <hoten>NGUYỄN THỊ VẤN</hoten>
+    <namsinh>1924</namsinh>
+    <phai>Nữ</phai>
+    <diachi>  P. Tam Bình,Q. Thủ Đức,Tp. H C M</diachi>
+    <sothe>79609212079TC79037</sothe>
+    <denngay>28/02/2009</denngay>
+    <noicap>Bệnh Viện Quận Thủ Đức</noicap>
+    <sogiuong />
+    <ngayvao>03/07/2008</ngayvao>
+    <maicd>I10</maicd>
+    <chandoan>Cao huyết áp vô căn (nguyên phát)</chandoan>
+    <sttnhom>1</sttnhom>
+    <nhom>Xét nghiệm </nhom>
+    <sttloai>7</sttloai>
+    <loai>Miễn dịch</loai>
+  </Table>
+  <Table>
+    <mabn>08012637</mabn>
+    <id>80703135706488139</id>
+    <ngay>03/07/2008 13:57</ngay>
+    <makp>04</makp>
+    <tenkp>Khoa Nội</tenkp>
+    <madoituong>1</madoituong>
+    <doituong>BHYT</doituong>
+    <mavp>325</mavp>
+    <ten>Tổng phân tích Nước tiểu 10 thông số (máy)</ten>
+    <dvt>Lần</dvt>
+    <soluong>1</soluong>
+    <dongia>35000</dongia>
+    <sotien>35000</sotien>
+    <maql>80703095920013082</maql>
+    <idkhoa>80703105235232139</idkhoa>
+    <ma>TON002</ma>
+    <hoten>NGUYỄN THỊ VẤN</hoten>
+    <namsinh>1924</namsinh>
+    <phai>Nữ</phai>
+    <diachi>  P. Tam Bình,Q. Thủ Đức,Tp. H C M</diachi>
+    <sothe>79609212079TC79037</sothe>
+    <denngay>28/02/2009</denngay>
+    <noicap>Bệnh Viện Quận Thủ Đức</noicap>
+    <sogiuong />
+    <ngayvao>03/07/2008</ngayvao>
+    <maicd>I10</maicd>
+    <chandoan>Cao huyết áp vô căn (nguyên phát)</chandoan>
+    <sttnhom>1</sttnhom>
+    <nhom>Xét nghiệm </nhom>
+    <sttloai>1</sttloai>
+    <loai>Nước tiểu</loai>
+  </Table>
+  <Table>
+    <mabn>08012637</mabn>
+    <id>80703135706401139</id>
+    <ngay>03/07/2008 13:57</ngay>
+    <makp>04</makp>
+    <tenkp>Khoa Nội</tenkp>
+    <madoituong>1</madoituong>
+    <doituong>BHYT</doituong>
+    <mavp>280</mavp>
+    <ten>Ure máu</ten>
+    <dvt>Lần</dvt>
+    <soluong>1</soluong>
+    <dongia>6000</dongia>
+    <sotien>6000</sotien>
+    <maql>80703095920013082</maql>
+    <idkhoa>80703105235232139</idkhoa>
+    <ma>URE001</ma>
+    <hoten>NGUYỄN THỊ VẤN</hoten>
+    <namsinh>1924</namsinh>
+    <phai>Nữ</phai>
+    <diachi>  P. Tam Bình,Q. Thủ Đức,Tp. H C M</diachi>
+    <sothe>79609212079TC79037</sothe>
+    <denngay>28/02/2009</denngay>
+    <noicap>Bệnh Viện Quận Thủ Đức</noicap>
+    <sogiuong />
+    <ngayvao>03/07/2008</ngayvao>
+    <maicd>I10</maicd>
+    <chandoan>Cao huyết áp vô căn (nguyên phát)</chandoan>
+    <sttnhom>1</sttnhom>
+    <nhom>Xét nghiệm </nhom>
+    <sttloai>9</sttloai>
+    <loai>Sinh hoá</loai>
+  </Table>
+  <Table>
+    <mabn>08012637</mabn>
+    <id>80703135706596139</id>
+    <ngay>03/07/2008 13:57</ngay>
+    <makp>04</makp>
+    <tenkp>Khoa Nội</tenkp>
+    <madoituong>1</madoituong>
+    <doituong>BHYT</doituong>
+    <mavp>278</mavp>
+    <ten>Triglycéride</ten>
+    <dvt>Lần</dvt>
+    <soluong>1</soluong>
+    <dongia>15000</dongia>
+    <sotien>15000</sotien>
+    <maql>80703095920013082</maql>
+    <idkhoa>80703105235232139</idkhoa>
+    <ma>TRI001</ma>
+    <hoten>NGUYỄN THỊ VẤN</hoten>
+    <namsinh>1924</namsinh>
+    <phai>Nữ</phai>
+    <diachi>  P. Tam Bình,Q. Thủ Đức,Tp. H C M</diachi>
+    <sothe>79609212079TC79037</sothe>
+    <denngay>28/02/2009</denngay>
+    <noicap>Bệnh Viện Quận Thủ Đức</noicap>
+    <sogiuong />
+    <ngayvao>03/07/2008</ngayvao>
+    <maicd>I10</maicd>
+    <chandoan>Cao huyết áp vô căn (nguyên phát)</chandoan>
+    <sttnhom>1</sttnhom>
+    <nhom>Xét nghiệm </nhom>
+    <sttloai>9</sttloai>
+    <loai>Sinh hoá</loai>
+  </Table>
+  <Table>
+    <mabn>08012637</mabn>
+    <id>80703135706791139</id>
+    <ngay>03/07/2008 13:57</ngay>
+    <makp>04</makp>
+    <tenkp>Khoa Nội</tenkp>
+    <madoituong>1</madoituong>
+    <doituong>BHYT</doituong>
+    <mavp>10373</mavp>
+    <ten>SGPT</ten>
+    <dvt>Lần</dvt>
+    <soluong>1</soluong>
+    <dongia>15000</dongia>
+    <sotien>15000</sotien>
+    <maql>80703095920013082</maql>
+    <idkhoa>80703105235232139</idkhoa>
+    <ma>SGP001</ma>
+    <hoten>NGUYỄN THỊ VẤN</hoten>
+    <namsinh>1924</namsinh>
+    <phai>Nữ</phai>
+    <diachi>  P. Tam Bình,Q. Thủ Đức,Tp. H C M</diachi>
+    <sothe>79609212079TC79037</sothe>
+    <denngay>28/02/2009</denngay>
+    <noicap>Bệnh Viện Quận Thủ Đức</noicap>
+    <sogiuong />
+    <ngayvao>03/07/2008</ngayvao>
+    <maicd>I10</maicd>
+    <chandoan>Cao huyết áp vô căn (nguyên phát)</chandoan>
+    <sttnhom>1</sttnhom>
+    <nhom>Xét nghiệm </nhom>
+    <sttloai>9</sttloai>
+    <loai>Sinh hoá</loai>
+  </Table>
+  <Table>
+    <mabn>08012637</mabn>
+    <id>80703135706508139</id>
+    <ngay>03/07/2008 13:57</ngay>
+    <makp>04</makp>
+    <tenkp>Khoa Nội</tenkp>
+    <madoituong>1</madoituong>
+    <doituong>BHYT</doituong>
+    <mavp>257</mavp>
+    <ten>SGOT</ten>
+    <dvt>Lần</dvt>
+    <soluong>1</soluong>
+    <dongia>15000</dongia>
+    <sotien>15000</sotien>
+    <maql>80703095920013082</maql>
+    <idkhoa>80703105235232139</idkhoa>
+    <ma>SGO001</ma>
+    <hoten>NGUYỄN THỊ VẤN</hoten>
+    <namsinh>1924</namsinh>
+    <phai>Nữ</phai>
+    <diachi>  P. Tam Bình,Q. Thủ Đức,Tp. H C M</diachi>
+    <sothe>79609212079TC79037</sothe>
+    <denngay>28/02/2009</denngay>
+    <noicap>Bệnh Viện Quận Thủ Đức</noicap>
+    <sogiuong />
+    <ngayvao>03/07/2008</ngayvao>
+    <maicd>I10</maicd>
+    <chandoan>Cao huyết áp vô căn (nguyên phát)</chandoan>
+    <sttnhom>1</sttnhom>
+    <nhom>Xét nghiệm </nhom>
+    <sttloai>9</sttloai>
+    <loai>Sinh hoá</loai>
+  </Table>
+  <Table>
+    <mabn>08012637</mabn>
+    <id>80703135706703139</id>
+    <ngay>03/07/2008 13:57</ngay>
+    <makp>04</makp>
+    <tenkp>Khoa Nội</tenkp>
+    <madoituong>1</madoituong>
+    <doituong>BHYT</doituong>
+    <mavp>279</mavp>
+    <ten>LDL - Cholesterrol</ten>
+    <dvt>Lần</dvt>
+    <soluong>1</soluong>
+    <dongia>15000</dongia>
+    <sotien>15000</sotien>
+    <maql>80703095920013082</maql>
+    <idkhoa>80703105235232139</idkhoa>
+    <ma>CHO008</ma>
+    <hoten>NGUYỄN THỊ VẤN</hoten>
+    <namsinh>1924</namsinh>
+    <phai>Nữ</phai>
+    <diachi>  P. Tam Bình,Q. Thủ Đức,Tp. H C M</diachi>
+    <sothe>79609212079TC79037</sothe>
+    <denngay>28/02/2009</denngay>
+    <noicap>Bệnh Viện Quận Thủ Đức</noicap>
+    <sogiuong />
+    <ngayvao>03/07/2008</ngayvao>
+    <maicd>I10</maicd>
+    <chandoan>Cao huyết áp vô căn (nguyên phát)</chandoan>
+    <sttnhom>1</sttnhom>
+    <nhom>Xét nghiệm </nhom>
+    <sttloai>9</sttloai>
+    <loai>Sinh hoá</loai>
+  </Table>
+  <Table>
+    <mabn>08012637</mabn>
+    <id>80703135707669139</id>
+    <ngay>03/07/2008 13:57</ngay>
+    <makp>04</makp>
+    <tenkp>Khoa Nội</tenkp>
+    <madoituong>1</madoituong>
+    <doituong>BHYT</doituong>
+    <mavp>276</mavp>
+    <ten>HDL - Cholesterol</ten>
+    <dvt>Lần</dvt>
+    <soluong>1</soluong>
+    <dongia>15000</dongia>
+    <sotien>15000</sotien>
+    <maql>80703095920013082</maql>
+    <idkhoa>80703105235232139</idkhoa>
+    <ma>CHO007</ma>
+    <hoten>NGUYỄN THỊ VẤN</hoten>
+    <namsinh>1924</namsinh>
+    <phai>Nữ</phai>
+    <diachi>  P. Tam Bình,Q. Thủ Đức,Tp. H C M</diachi>
+    <sothe>79609212079TC79037</sothe>
+    <denngay>28/02/2009</denngay>
+    <noicap>Bệnh Viện Quận Thủ Đức</noicap>
+    <sogiuong />
+    <ngayvao>03/07/2008</ngayvao>
+    <maicd>I10</maicd>
+    <chandoan>Cao huyết áp vô căn (nguyên phát)</chandoan>
+    <sttnhom>1</sttnhom>
+    <nhom>Xét nghiệm </nhom>
+    <sttloai>9</sttloai>
+    <loai>Sinh hoá</loai>
+  </Table>
+  <Table>
+    <mabn>08012637</mabn>
+    <id>80703135707700139</id>
+    <ngay>03/07/2008 13:57</ngay>
+    <makp>04</makp>
+    <tenkp>Khoa Nội</tenkp>
+    <madoituong>1</madoituong>
+    <doituong>BHYT</doituong>
+    <mavp>260</mavp>
+    <ten>Glucose / máu</ten>
+    <dvt>Lần</dvt>
+    <soluong>1</soluong>
+    <dongia>12000</dongia>
+    <sotien>12000</sotien>
+    <maql>80703095920013082</maql>
+    <idkhoa>80703105235232139</idkhoa>
+    <ma>GLU001</ma>
+    <hoten>NGUYỄN THỊ VẤN</hoten>
+    <namsinh>1924</namsinh>
+    <phai>Nữ</phai>
+    <diachi>  P. Tam Bình,Q. Thủ Đức,Tp. H C M</diachi>
+    <sothe>79609212079TC79037</sothe>
+    <denngay>28/02/2009</denngay>
+    <noicap>Bệnh Viện Quận Thủ Đức</noicap>
+    <sogiuong />
+    <ngayvao>03/07/2008</ngayvao>
+    <maicd>I10</maicd>
+    <chandoan>Cao huyết áp vô căn (nguyên phát)</chandoan>
+    <sttnhom>1</sttnhom>
+    <nhom>Xét nghiệm </nhom>
+    <sttloai>9</sttloai>
+    <loai>Sinh hoá</loai>
+  </Table>
+  <Table>
+    <mabn>08012637</mabn>
+    <id>80703135707418139</id>
+    <ngay>03/07/2008 13:57</ngay>
+    <makp>04</makp>
+    <tenkp>Khoa Nội</tenkp>
+    <madoituong>1</madoituong>
+    <doituong>BHYT</doituong>
+    <mavp>10362</mavp>
+    <ten>Điện giải đồ (Na+, K+, Cl- )</ten>
+    <dvt>Lần</dvt>
+    <soluong>1</soluong>
+    <dongia>12000</dongia>
+    <sotien>12000</sotien>
+    <maql>80703095920013082</maql>
+    <idkhoa>80703105235232139</idkhoa>
+    <ma>DIE010</ma>
+    <hoten>NGUYỄN THỊ VẤN</hoten>
+    <namsinh>1924</namsinh>
+    <phai>Nữ</phai>
+    <diachi>  P. Tam Bình,Q. Thủ Đức,Tp. H C M</diachi>
+    <sothe>79609212079TC79037</sothe>
+    <denngay>28/02/2009</denngay>
+    <noicap>Bệnh Viện Quận Thủ Đức</noicap>
+    <sogiuong />
+    <ngayvao>03/07/2008</ngayvao>
+    <maicd>I10</maicd>
+    <chandoan>Cao huyết áp vô căn (nguyên phát)</chandoan>
+    <sttnhom>1</sttnhom>
+    <nhom>Xét nghiệm </nhom>
+    <sttloai>9</sttloai>
+    <loai>Sinh hoá</loai>
+  </Table>
+  <Table>
+    <mabn>08012637</mabn>
+    <id>80703135707613139</id>
+    <ngay>03/07/2008 13:57</ngay>
+    <makp>04</makp>
+    <tenkp>Khoa Nội</tenkp>
+    <madoituong>1</madoituong>
+    <doituong>BHYT</doituong>
+    <mavp>259</mavp>
+    <ten>Creatinine máu</ten>
+    <dvt>Lần</dvt>
+    <soluong>1</soluong>
+    <dongia>6000</dongia>
+    <sotien>6000</sotien>
+    <maql>80703095920013082</maql>
+    <idkhoa>80703105235232139</idkhoa>
+    <ma>CRE001</ma>
+    <hoten>NGUYỄN THỊ VẤN</hoten>
+    <namsinh>1924</namsinh>
+    <phai>Nữ</phai>
+    <diachi>  P. Tam Bình,Q. Thủ Đức,Tp. H C M</diachi>
+    <sothe>79609212079TC79037</sothe>
+    <denngay>28/02/2009</denngay>
+    <noicap>Bệnh Viện Quận Thủ Đức</noicap>
+    <sogiuong />
+    <ngayvao>03/07/2008</ngayvao>
+    <maicd>I10</maicd>
+    <chandoan>Cao huyết áp vô căn (nguyên phát)</chandoan>
+    <sttnhom>1</sttnhom>
+    <nhom>Xét nghiệm </nhom>
+    <sttloai>9</sttloai>
+    <loai>Sinh hoá</loai>
+  </Table>
+  <Table>
+    <mabn>08012637</mabn>
+    <id>80703135707808139</id>
+    <ngay>03/07/2008 13:57</ngay>
+    <makp>04</makp>
+    <tenkp>Khoa Nội</tenkp>
+    <madoituong>1</madoituong>
+    <doituong>BHYT</doituong>
+    <mavp>275</mavp>
+    <ten>Cholesterol Total</ten>
+    <dvt>Lần</dvt>
+    <soluong>1</soluong>
+    <dongia>15000</dongia>
+    <sotien>15000</sotien>
+    <maql>80703095920013082</maql>
+    <idkhoa>80703105235232139</idkhoa>
+    <ma>CHO001</ma>
+    <hoten>NGUYỄN THỊ VẤN</hoten>
+    <namsinh>1924</namsinh>
+    <phai>Nữ</phai>
+    <diachi>  P. Tam Bình,Q. Thủ Đức,Tp. H C M</diachi>
+    <sothe>79609212079TC79037</sothe>
+    <denngay>28/02/2009</denngay>
+    <noicap>Bệnh Viện Quận Thủ Đức</noicap>
+    <sogiuong />
+    <ngayvao>03/07/2008</ngayvao>
+    <maicd>I10</maicd>
+    <chandoan>Cao huyết áp vô căn (nguyên phát)</chandoan>
+    <sttnhom>1</sttnhom>
+    <nhom>Xét nghiệm </nhom>
+    <sttloai>9</sttloai>
+    <loai>Sinh hoá</loai>
+  </Table>
+  <Table>
+    <mabn>08012637</mabn>
+    <id>80703135707004139</id>
+    <ngay>03/07/2008 13:57</ngay>
+    <makp>04</makp>
+    <tenkp>Khoa Nội</tenkp>
+    <madoituong>1</madoituong>
+    <doituong>BHYT</doituong>
+    <mavp>273</mavp>
+    <ten>Ca huyết</ten>
+    <dvt>Lần</dvt>
+    <soluong>1</soluong>
+    <dongia>15000</dongia>
+    <sotien>15000</sotien>
+    <maql>80703095920013082</maql>
+    <idkhoa>80703105235232139</idkhoa>
+    <ma>CAH001</ma>
+    <hoten>NGUYỄN THỊ VẤN</hoten>
+    <namsinh>1924</namsinh>
+    <phai>Nữ</phai>
+    <diachi>  P. Tam Bình,Q. Thủ Đức,Tp. H C M</diachi>
+    <sothe>79609212079TC79037</sothe>
+    <denngay>28/02/2009</denngay>
+    <noicap>Bệnh Viện Quận Thủ Đức</noicap>
+    <sogiuong />
+    <ngayvao>03/07/2008</ngayvao>
+    <maicd>I10</maicd>
+    <chandoan>Cao huyết áp vô căn (nguyên phát)</chandoan>
+    <sttnhom>1</sttnhom>
+    <nhom>Xét nghiệm </nhom>
+    <sttloai>9</sttloai>
+    <loai>Sinh hoá</loai>
+  </Table>
+  <Table>
+    <mabn>08012637</mabn>
+    <id>80703135707557139</id>
+    <ngay>03/07/2008 13:57</ngay>
+    <makp>04</makp>
+    <tenkp>Khoa Nội</tenkp>
+    <madoituong>1</madoituong>
+    <doituong>BHYT</doituong>
+    <mavp>10331</mavp>
+    <ten>Bilirubine TT</ten>
+    <dvt>Lần</dvt>
+    <soluong>1</soluong>
+    <dongia>15000</dongia>
+    <sotien>15000</sotien>
+    <maql>80703095920013082</maql>
+    <idkhoa>80703105235232139</idkhoa>
+    <ma>BIL002</ma>
+    <hoten>NGUYỄN THỊ VẤN</hoten>
+    <namsinh>1924</namsinh>
+    <phai>Nữ</phai>
+    <diachi>  P. Tam Bình,Q. Thủ Đức,Tp. H C M</diachi>
+    <sothe>79609212079TC79037</sothe>
+    <denngay>28/02/2009</denngay>
+    <noicap>Bệnh Viện Quận Thủ Đức</noicap>
+    <sogiuong />
+    <ngayvao>03/07/2008</ngayvao>
+    <maicd>I10</maicd>
+    <chandoan>Cao huyết áp vô căn (nguyên phát)</chandoan>
+    <sttnhom>1</sttnhom>
+    <nhom>Xét nghiệm </nhom>
+    <sttloai>9</sttloai>
+    <loai>Sinh hoá</loai>
+  </Table>
+  <Table>
+    <mabn>08012637</mabn>
+    <id>80703135707112139</id>
+    <ngay>03/07/2008 13:57</ngay>
+    <makp>04</makp>
+    <tenkp>Khoa Nội</tenkp>
+    <madoituong>1</madoituong>
+    <doituong>BHYT</doituong>
+    <mavp>271</mavp>
+    <ten>Bilirubine TP</ten>
+    <dvt>Lần</dvt>
+    <soluong>1</soluong>
+    <dongia>15000</dongia>
+    <sotien>15000</sotien>
+    <maql>80703095920013082</maql>
+    <idkhoa>80703105235232139</idkhoa>
+    <ma>BIL001</ma>
+    <hoten>NGUYỄN THỊ VẤN</hoten>
+    <namsinh>1924</namsinh>
+    <phai>Nữ</phai>
+    <diachi>  P. Tam Bình,Q. Thủ Đức,Tp. H C M</diachi>
+    <sothe>79609212079TC79037</sothe>
+    <denngay>28/02/2009</denngay>
+    <noicap>Bệnh Viện Quận Thủ Đức</noicap>
+    <sogiuong />
+    <ngayvao>03/07/2008</ngayvao>
+    <maicd>I10</maicd>
+    <chandoan>Cao huyết áp vô căn (nguyên phát)</chandoan>
+    <sttnhom>1</sttnhom>
+    <nhom>Xét nghiệm </nhom>
+    <sttloai>9</sttloai>
+    <loai>Sinh hoá</loai>
+  </Table>
+  <Table>
+    <mabn>08012637</mabn>
+    <id>80703135707307139</id>
+    <ngay>03/07/2008 13:57</ngay>
+    <makp>04</makp>
+    <tenkp>Khoa Nội</tenkp>
+    <madoituong>1</madoituong>
+    <doituong>BHYT</doituong>
+    <mavp>10333</mavp>
+    <ten>Bilirubine GT</ten>
+    <dvt>Lần</dvt>
+    <soluong>1</soluong>
+    <dongia>15000</dongia>
+    <sotien>15000</sotien>
+    <maql>80703095920013082</maql>
+    <idkhoa>80703105235232139</idkhoa>
+    <ma>BIL003</ma>
+    <hoten>NGUYỄN THỊ VẤN</hoten>
+    <namsinh>1924</namsinh>
+    <phai>Nữ</phai>
+    <diachi>  P. Tam Bình,Q. Thủ Đức,Tp. H C M</diachi>
+    <sothe>79609212079TC79037</sothe>
+    <denngay>28/02/2009</denngay>
+    <noicap>Bệnh Viện Quận Thủ Đức</noicap>
+    <sogiuong />
+    <ngayvao>03/07/2008</ngayvao>
+    <maicd>I10</maicd>
+    <chandoan>Cao huyết áp vô căn (nguyên phát)</chandoan>
+    <sttnhom>1</sttnhom>
+    <nhom>Xét nghiệm </nhom>
+    <sttloai>9</sttloai>
+    <loai>Sinh hoá</loai>
+  </Table>
+  <Table>
+    <mabn>08012637</mabn>
+    <id>80703135707025139</id>
+    <ngay>03/07/2008 13:57</ngay>
+    <makp>04</makp>
+    <tenkp>Khoa Nội</tenkp>
+    <madoituong>1</madoituong>
+    <doituong>BHYT</doituong>
+    <mavp>20617</mavp>
+    <ten>Acid uric máu</ten>
+    <dvt>Lần</dvt>
+    <soluong>1</soluong>
+    <dongia>12000</dongia>
+    <sotien>12000</sotien>
+    <maql>80703095920013082</maql>
+    <idkhoa>80703105235232139</idkhoa>
+    <ma>ACI001</ma>
+    <hoten>NGUYỄN THỊ VẤN</hoten>
+    <namsinh>1924</namsinh>
+    <phai>Nữ</phai>
+    <diachi>  P. Tam Bình,Q. Thủ Đức,Tp. H C M</diachi>
+    <sothe>79609212079TC79037</sothe>
+    <denngay>28/02/2009</denngay>
+    <noicap>Bệnh Viện Quận Thủ Đức</noicap>
+    <sogiuong />
+    <ngayvao>03/07/2008</ngayvao>
+    <maicd>I10</maicd>
+    <chandoan>Cao huyết áp vô căn (nguyên phát)</chandoan>
+    <sttnhom>1</sttnhom>
+    <nhom>Xét nghiệm </nhom>
+    <sttloai>9</sttloai>
+    <loai>Sinh hoá</loai>
+  </Table>
+  <Table>
+    <mabn>08012637</mabn>
+    <id>80703135706185139</id>
+    <ngay>03/07/2008 13:57</ngay>
+    <makp>04</makp>
+    <tenkp>Khoa Nội</tenkp>
+    <madoituong>1</madoituong>
+    <doituong>BHYT</doituong>
+    <mavp>1007</mavp>
+    <ten>ECG (Đo điện tim)</ten>
+    <dvt>Lần</dvt>
+    <soluong>1</soluong>
+    <dongia>12000</dongia>
+    <sotien>12000</sotien>
+    <maql>80703095920013082</maql>
+    <idkhoa>80703105235232139</idkhoa>
+    <ma>ECG001</ma>
+    <hoten>NGUYỄN THỊ VẤN</hoten>
+    <namsinh>1924</namsinh>
+    <phai>Nữ</phai>
+    <diachi>  P. Tam Bình,Q. Thủ Đức,Tp. H C M</diachi>
+    <sothe>79609212079TC79037</sothe>
+    <denngay>28/02/2009</denngay>
+    <noicap>Bệnh Viện Quận Thủ Đức</noicap>
+    <sogiuong />
+    <ngayvao>03/07/2008</ngayvao>
+    <maicd>I10</maicd>
+    <chandoan>Cao huyết áp vô căn (nguyên phát)</chandoan>
+    <sttnhom>2</sttnhom>
+    <nhom>CĐHA</nhom>
+    <sttloai>35</sttloai>
+    <loai>ECG</loai>
+  </Table>
+  <Table>
+    <mabn>08012637</mabn>
+    <id>80703135706206139</id>
+    <ngay>03/07/2008 13:57</ngay>
+    <makp>04</makp>
+    <tenkp>Khoa Nội</tenkp>
+    <madoituong>1</madoituong>
+    <doituong>BHYT</doituong>
+    <mavp>20</mavp>
+    <ten>Siêu âm tổng quát</ten>
+    <dvt>Lần</dvt>
+    <soluong>1</soluong>
+    <dongia>20000</dongia>
+    <sotien>20000</sotien>
+    <maql>80703095920013082</maql>
+    <idkhoa>80703105235232139</idkhoa>
+    <ma>SIE022</ma>
+    <hoten>NGUYỄN THỊ VẤN</hoten>
+    <namsinh>1924</namsinh>
+    <phai>Nữ</phai>
+    <diachi>  P. Tam Bình,Q. Thủ Đức,Tp. H C M</diachi>
+    <sothe>79609212079TC79037</sothe>
+    <denngay>28/02/2009</denngay>
+    <noicap>Bệnh Viện Quận Thủ Đức</noicap>
+    <sogiuong />
+    <ngayvao>03/07/2008</ngayvao>
+    <maicd>I10</maicd>
+    <chandoan>Cao huyết áp vô căn (nguyên phát)</chandoan>
+    <sttnhom>2</sttnhom>
+    <nhom>CĐHA</nhom>
+    <sttloai>36</sttloai>
+    <loai>Siêu âm</loai>
+  </Table>
+  <Table>
+    <mabn>08012637</mabn>
+    <id>80703135707578139</id>
+    <ngay>03/07/2008 13:57</ngay>
+    <makp>04</makp>
+    <tenkp>Khoa Nội</tenkp>
+    <madoituong>1</madoituong>
+    <doituong>BHYT</doituong>
+    <mavp>73040</mavp>
+    <ten>XQ Tim phổi thẳng</ten>
+    <dvt>Lần</dvt>
+    <soluong>1</soluong>
+    <dongia>20000</dongia>
+    <sotien>20000</sotien>
+    <maql>80703095920013082</maql>
+    <idkhoa>80703105235232139</idkhoa>
+    <ma>XQT001</ma>
+    <hoten>NGUYỄN THỊ VẤN</hoten>
+    <namsinh>1924</namsinh>
+    <phai>Nữ</phai>
+    <diachi>  P. Tam Bình,Q. Thủ Đức,Tp. H C M</diachi>
+    <sothe>79609212079TC79037</sothe>
+    <denngay>28/02/2009</denngay>
+    <noicap>Bệnh Viện Quận Thủ Đức</noicap>
+    <sogiuong />
+    <ngayvao>03/07/2008</ngayvao>
+    <maicd>I10</maicd>
+    <chandoan>Cao huyết áp vô căn (nguyên phát)</chandoan>
+    <sttnhom>2</sttnhom>
+    <nhom>CĐHA</nhom>
+    <sttloai>33</sttloai>
+    <loai>X Quang</loai>
+  </Table>
+</NewDataSet>

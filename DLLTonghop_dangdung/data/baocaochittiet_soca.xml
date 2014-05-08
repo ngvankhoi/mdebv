@@ -1,0 +1,1679 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ID" type="xs:decimal" minOccurs="0" />
+                <xs:element name="MA" type="xs:string" minOccurs="0" />
+                <xs:element name="TEN" type="xs:string" minOccurs="0" />
+                <xs:element name="SOCA" type="xs:decimal" minOccurs="0" />
+                <xs:element name="DONGIA" type="xs:decimal" minOccurs="0" />
+                <xs:element name="SOTIEN" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <ID>1948</ID>
+    <MA>D-XN5</MA>
+    <TEN>BUN</TEN>
+    <SOCA>2</SOCA>
+    <DONGIA>10000</DONGIA>
+    <SOTIEN>20000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1821</ID>
+    <MA>B-RTMT1</MA>
+    <TEN>Bơm rửa tuyến mang tai  1 bên (có thuốc)</TEN>
+    <SOCA>1</SOCA>
+    <DONGIA>100000</DONGIA>
+    <SOTIEN>100000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1819</ID>
+    <MA>B-RX</MA>
+    <TEN>Bơm rửa xoang</TEN>
+    <SOCA>4</SOCA>
+    <DONGIA>50000</DONGIA>
+    <SOTIEN>200000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1827</ID>
+    <MA>D-XN19</MA>
+    <TEN>Bạch cầu</TEN>
+    <SOCA>4</SOCA>
+    <DONGIA>5000</DONGIA>
+    <SOTIEN>20000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1754</ID>
+    <MA>L-ST</MA>
+    <TEN>Chọc sinh thiết u vùng hàm mặt</TEN>
+    <SOCA>1</SOCA>
+    <DONGIA>500000</DONGIA>
+    <SOTIEN>500000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1520</ID>
+    <MA>C-PTC3</MA>
+    <TEN>Chụp đo sọ</TEN>
+    <SOCA>53</SOCA>
+    <DONGIA>150000</DONGIA>
+    <SOTIEN>7950000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1483</ID>
+    <MA>F-NN3</MA>
+    <TEN>Chữa tuỷ chết ( chưa tính tiền trám hoàn tất ) : Răng 1 chân</TEN>
+    <SOCA>17</SOCA>
+    <DONGIA>100000</DONGIA>
+    <SOTIEN>1700000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1484</ID>
+    <MA>F-NN4</MA>
+    <TEN>Chữa tủy chết ( chưa tính tiền trám hoàn tất ) : Răng nhiều chân</TEN>
+    <SOCA>16</SOCA>
+    <DONGIA>130000</DONGIA>
+    <SOTIEN>2080000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1833</ID>
+    <MA>F-NN5</MA>
+    <TEN>Chữa tủy lại (chưa tính tiền trám hoàn tất) : Răng 1 chân</TEN>
+    <SOCA>5</SOCA>
+    <DONGIA>150000</DONGIA>
+    <SOTIEN>750000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1833</ID>
+    <MA>F-NN5</MA>
+    <TEN>Chữa tủy lại (chưa tính tiền trám hoàn tất) : Răng 1 chân</TEN>
+    <SOCA>2</SOCA>
+    <DONGIA>200000</DONGIA>
+    <SOTIEN>400000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1486</ID>
+    <MA>F-NN6</MA>
+    <TEN>Chữa tủy lại răng nhiều chân</TEN>
+    <SOCA>2</SOCA>
+    <DONGIA>200000</DONGIA>
+    <SOTIEN>400000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1486</ID>
+    <MA>F-NN6</MA>
+    <TEN>Chữa tủy lại răng nhiều chân</TEN>
+    <SOCA>4</SOCA>
+    <DONGIA>300000</DONGIA>
+    <SOTIEN>1200000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1839</ID>
+    <MA>F-NN8</MA>
+    <TEN>Chữa tủy thối (chưa tính tiền trám hoàn tất ) : Răng nhiều chân</TEN>
+    <SOCA>16</SOCA>
+    <DONGIA>140000</DONGIA>
+    <SOTIEN>2240000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1837</ID>
+    <MA>F-NN7</MA>
+    <TEN>Chữa tủy thối (chưa tính tiền trám hoàn tất) : Răng 1 chân</TEN>
+    <SOCA>22</SOCA>
+    <DONGIA>110000</DONGIA>
+    <SOTIEN>2420000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1837</ID>
+    <MA>F-NN7</MA>
+    <TEN>Chữa tủy thối (chưa tính tiền trám hoàn tất) : Răng 1 chân</TEN>
+    <SOCA>1</SOCA>
+    <DONGIA>120000</DONGIA>
+    <SOTIEN>120000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>2033</ID>
+    <MA>H-RTE15</MA>
+    <TEN>Chữa tủy thối (chưa tính tiền trám răng hoàn tất ) : Răng 1 chân</TEN>
+    <SOCA>8</SOCA>
+    <DONGIA>100000</DONGIA>
+    <SOTIEN>800000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>2034</ID>
+    <MA>H-RTE16</MA>
+    <TEN>Chữa tủy thối (chưa tính tiền trám răng hoàn tất) : Răng nhiều chân</TEN>
+    <SOCA>4</SOCA>
+    <DONGIA>120000</DONGIA>
+    <SOTIEN>480000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>2004</ID>
+    <MA>F-NN2</MA>
+    <TEN>Chữa tủy viêm (Chưa tính tiền trám hoàn tất) : Răng nhiều chân</TEN>
+    <SOCA>52</SOCA>
+    <DONGIA>120000</DONGIA>
+    <SOTIEN>6240000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>2004</ID>
+    <MA>F-NN2</MA>
+    <TEN>Chữa tủy viêm (Chưa tính tiền trám hoàn tất) : Răng nhiều chân</TEN>
+    <SOCA>42</SOCA>
+    <DONGIA>180000</DONGIA>
+    <SOTIEN>7560000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>2003</ID>
+    <MA>F-NN1</MA>
+    <TEN>Chữa tủy viêm (Chưa tính tiền trám hoàn tất): Răng 1 chân</TEN>
+    <SOCA>14</SOCA>
+    <DONGIA>80000</DONGIA>
+    <SOTIEN>1120000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>2003</ID>
+    <MA>F-NN1</MA>
+    <TEN>Chữa tủy viêm (Chưa tính tiền trám hoàn tất): Răng 1 chân</TEN>
+    <SOCA>34</SOCA>
+    <DONGIA>100000</DONGIA>
+    <SOTIEN>3400000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>2032</ID>
+    <MA>H-RTE14</MA>
+    <TEN>Chữa tủy viêm (chưa tính tiền trám hoàn tất ) : Răng nhiều chân</TEN>
+    <SOCA>5</SOCA>
+    <DONGIA>100000</DONGIA>
+    <SOTIEN>500000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1515</ID>
+    <MA>J-CHCD1</MA>
+    <TEN>Chỉnh hình cố định 1 hàm</TEN>
+    <SOCA>2</SOCA>
+    <DONGIA>7000000</DONGIA>
+    <SOTIEN>14000000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1159</ID>
+    <MA>J-CHCD2</MA>
+    <TEN>Chỉnh hình cố định 2 hàm</TEN>
+    <SOCA>13</SOCA>
+    <DONGIA>12000000</DONGIA>
+    <SOTIEN>156000000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>2005</ID>
+    <MA>J-CHCD3</MA>
+    <TEN>Chỉnh hình cố định từng phần</TEN>
+    <SOCA>1</SOCA>
+    <DONGIA>2000000</DONGIA>
+    <SOTIEN>2000000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1606</ID>
+    <MA>J-CHTL1</MA>
+    <TEN>Chỉnh hình tháo lắp 1 hàm</TEN>
+    <SOCA>5</SOCA>
+    <DONGIA>2000000</DONGIA>
+    <SOTIEN>10000000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1158</ID>
+    <MA>J-CHTL2</MA>
+    <TEN>Chỉnh hình tháo lắp 2 hàm</TEN>
+    <SOCA>1</SOCA>
+    <DONGIA>3000000</DONGIA>
+    <SOTIEN>3000000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1467</ID>
+    <MA>M-DTK3</MA>
+    <TEN>Chỉnh khớp đơn giãn không quá 3 răng</TEN>
+    <SOCA>31</SOCA>
+    <DONGIA>50000</DONGIA>
+    <SOTIEN>1550000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>2015</ID>
+    <MA>G-CV1</MA>
+    <TEN>Cạo vôi độ 1 (+) : 1 hàm</TEN>
+    <SOCA>3</SOCA>
+    <DONGIA>30000</DONGIA>
+    <SOTIEN>90000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1650</ID>
+    <MA>G-CV2</MA>
+    <TEN>Cạo vôi độ 1 (+) : 2 hàm</TEN>
+    <SOCA>21</SOCA>
+    <DONGIA>60000</DONGIA>
+    <SOTIEN>1260000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1650</ID>
+    <MA>G-CV2</MA>
+    <TEN>Cạo vôi độ 1 (+) : 2 hàm</TEN>
+    <SOCA>1</SOCA>
+    <DONGIA>100000</DONGIA>
+    <SOTIEN>100000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>2057</ID>
+    <MA>G-CV4</MA>
+    <TEN>Cạo vôi độ 2 (++) : 2 hàm</TEN>
+    <SOCA>38</SOCA>
+    <DONGIA>80000</DONGIA>
+    <SOTIEN>3040000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>2057</ID>
+    <MA>G-CV4</MA>
+    <TEN>Cạo vôi độ 2 (++) : 2 hàm</TEN>
+    <SOCA>37</SOCA>
+    <DONGIA>120000</DONGIA>
+    <SOTIEN>4440000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1651</ID>
+    <MA>G-CV3</MA>
+    <TEN>Cạo vôi độ 2(++) :1 hàm</TEN>
+    <SOCA>20</SOCA>
+    <DONGIA>40000</DONGIA>
+    <SOTIEN>800000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1651</ID>
+    <MA>G-CV3</MA>
+    <TEN>Cạo vôi độ 2(++) :1 hàm</TEN>
+    <SOCA>1</SOCA>
+    <DONGIA>100000</DONGIA>
+    <SOTIEN>100000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>2058</ID>
+    <MA>G-CV5</MA>
+    <TEN>Cạo vôi độ 3 (+++) : 1 hàm</TEN>
+    <SOCA>33</SOCA>
+    <DONGIA>50000</DONGIA>
+    <SOTIEN>1650000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>2058</ID>
+    <MA>G-CV5</MA>
+    <TEN>Cạo vôi độ 3 (+++) : 1 hàm</TEN>
+    <SOCA>1</SOCA>
+    <DONGIA>80000</DONGIA>
+    <SOTIEN>80000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1652</ID>
+    <MA>G-CV6</MA>
+    <TEN>Cạo vôi độ 3 (+++) : 2 hàm</TEN>
+    <SOCA>45</SOCA>
+    <DONGIA>100000</DONGIA>
+    <SOTIEN>4500000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1652</ID>
+    <MA>G-CV6</MA>
+    <TEN>Cạo vôi độ 3 (+++) : 2 hàm</TEN>
+    <SOCA>6</SOCA>
+    <DONGIA>130000</DONGIA>
+    <SOTIEN>780000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>2061</ID>
+    <MA>G-CV7</MA>
+    <TEN>Cạo vôi độ 4 (++++) và vết dính nhiều : 1 hàm</TEN>
+    <SOCA>2</SOCA>
+    <DONGIA>60000</DONGIA>
+    <SOTIEN>120000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1653</ID>
+    <MA>G-CV8</MA>
+    <TEN>Cạo vôi độ 4 (++++) và vết dính nhiều : 2 hàm</TEN>
+    <SOCA>6</SOCA>
+    <DONGIA>120000</DONGIA>
+    <SOTIEN>720000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1653</ID>
+    <MA>G-CV8</MA>
+    <TEN>Cạo vôi độ 4 (++++) và vết dính nhiều : 2 hàm</TEN>
+    <SOCA>10</SOCA>
+    <DONGIA>160000</DONGIA>
+    <SOTIEN>1600000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1743</ID>
+    <MA>L-PTTMT3</MA>
+    <TEN>Cắt bỏ u lành tính vùng tuyến mang tai hoặc dưới hàm từ 2 - 5cm</TEN>
+    <SOCA>1</SOCA>
+    <DONGIA>3000000</DONGIA>
+    <SOTIEN>3000000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1979</ID>
+    <MA>E-CC1</MA>
+    <TEN>Cắt chóp 1 chân răng</TEN>
+    <SOCA>1</SOCA>
+    <DONGIA>150000</DONGIA>
+    <SOTIEN>150000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1979</ID>
+    <MA>E-CC1</MA>
+    <TEN>Cắt chóp 1 chân răng</TEN>
+    <SOCA>1</SOCA>
+    <DONGIA>180000</DONGIA>
+    <SOTIEN>180000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1980</ID>
+    <MA>E-CC2</MA>
+    <TEN>Cắt chóp 2 chân răng</TEN>
+    <SOCA>2</SOCA>
+    <DONGIA>180000</DONGIA>
+    <SOTIEN>360000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1980</ID>
+    <MA>E-CC2</MA>
+    <TEN>Cắt chóp 2 chân răng</TEN>
+    <SOCA>1</SOCA>
+    <DONGIA>230000</DONGIA>
+    <SOTIEN>230000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1571</ID>
+    <MA>E-CC</MA>
+    <TEN>Cắt chỉ</TEN>
+    <SOCA>39</SOCA>
+    <DONGIA>10000</DONGIA>
+    <SOTIEN>390000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1804</ID>
+    <MA>B-CC</MA>
+    <TEN>Cắt chỉ (hm)</TEN>
+    <SOCA>14</SOCA>
+    <DONGIA>20000</DONGIA>
+    <SOTIEN>280000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1994</ID>
+    <MA>E-CNM</MA>
+    <TEN>Cắt niêm mạc tăng sinh (1 sextant)</TEN>
+    <SOCA>19</SOCA>
+    <DONGIA>150000</DONGIA>
+    <SOTIEN>2850000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1924</ID>
+    <MA>I-CTCR</MA>
+    <TEN>Cắt tháo cầu răng</TEN>
+    <SOCA>29</SOCA>
+    <DONGIA>50000</DONGIA>
+    <SOTIEN>1450000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1713</ID>
+    <MA>L-CĐHD1</MA>
+    <TEN>Cắt đoạn xương hàm dưới</TEN>
+    <SOCA>2</SOCA>
+    <DONGIA>3000000</DONGIA>
+    <SOTIEN>6000000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1721</ID>
+    <MA>L-CĐXH</MA>
+    <TEN>Cố định xương hàm gãy = nẹp, cung</TEN>
+    <SOCA>2</SOCA>
+    <DONGIA>300000</DONGIA>
+    <SOTIEN>600000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1721</ID>
+    <MA>L-CĐXH</MA>
+    <TEN>Cố định xương hàm gãy = nẹp, cung</TEN>
+    <SOCA>2</SOCA>
+    <DONGIA>1000000</DONGIA>
+    <SOTIEN>2000000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1949</ID>
+    <MA>D-XN6</MA>
+    <TEN>GLYCEMIE</TEN>
+    <SOCA>11</SOCA>
+    <DONGIA>10000</DONGIA>
+    <SOTIEN>110000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1731</ID>
+    <MA>L-GD</MA>
+    <TEN>Ghép da rời rộng mỗi chiều &gt; 5cm</TEN>
+    <SOCA>1</SOCA>
+    <DONGIA>4000000</DONGIA>
+    <SOTIEN>4000000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1618</ID>
+    <MA>D-GPBL</MA>
+    <TEN>Giải phẩu bệnh lý</TEN>
+    <SOCA>11</SOCA>
+    <DONGIA>30000</DONGIA>
+    <SOTIEN>330000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1946</ID>
+    <MA>D-XN3</MA>
+    <TEN>Gs (Nhóm máu)</TEN>
+    <SOCA>6</SOCA>
+    <DONGIA>10000</DONGIA>
+    <SOTIEN>60000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>2065</ID>
+    <MA>K-PI10</MA>
+    <TEN>Gắn Abument + Houseing hoặc phần kết nối cho PHTL (Anthogyr)</TEN>
+    <SOCA>2</SOCA>
+    <DONGIA>3000000</DONGIA>
+    <SOTIEN>6000000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1968</ID>
+    <MA>E-GMV</MA>
+    <TEN>Gắp mảnh vở thân răng</TEN>
+    <SOCA>3</SOCA>
+    <DONGIA>20000</DONGIA>
+    <SOTIEN>60000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1954</ID>
+    <MA>D-XN11</MA>
+    <TEN>HIV</TEN>
+    <SOCA>30</SOCA>
+    <DONGIA>45000</DONGIA>
+    <SOTIEN>1350000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1955</ID>
+    <MA>D-XN12</MA>
+    <TEN>HbsAg</TEN>
+    <SOCA>2</SOCA>
+    <DONGIA>25000</DONGIA>
+    <SOTIEN>50000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1826</ID>
+    <MA>D-XN18</MA>
+    <TEN>Hematocrit</TEN>
+    <SOCA>4</SOCA>
+    <DONGIA>5000</DONGIA>
+    <SOTIEN>20000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1583</ID>
+    <MA>I-HM6</MA>
+    <TEN>Hàm phục hình hướng dẫn hàm dưới bị cắt đoạn</TEN>
+    <SOCA>1</SOCA>
+    <DONGIA>200000</DONGIA>
+    <SOTIEN>200000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1898</ID>
+    <MA>I-TLHK1</MA>
+    <TEN>Khung bộ kim loại</TEN>
+    <SOCA>16</SOCA>
+    <DONGIA>900000</DONGIA>
+    <SOTIEN>14400000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1937</ID>
+    <MA>N-PK01</MA>
+    <TEN>Khám cấp giấy chấn thương</TEN>
+    <SOCA>12</SOCA>
+    <DONGIA>20000</DONGIA>
+    <SOTIEN>240000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1462</ID>
+    <MA>B-KHM1</MA>
+    <TEN>Khám hàm mặt định bệnh</TEN>
+    <SOCA>348</SOCA>
+    <DONGIA>30000</DONGIA>
+    <SOTIEN>10440000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>3133</ID>
+    <MA>B-KHMR</MA>
+    <TEN>Khám hàm mặt định bệnh (R)</TEN>
+    <SOCA>49</SOCA>
+    <DONGIA>30000</DONGIA>
+    <SOTIEN>1470000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1802</ID>
+    <MA>B-KHC</MA>
+    <TEN>Khám hội chẩn</TEN>
+    <SOCA>2</SOCA>
+    <DONGIA>50000</DONGIA>
+    <SOTIEN>100000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1959</ID>
+    <MA>A-KRTQ1</MA>
+    <TEN>Khám răng miệng định bệnh</TEN>
+    <SOCA>791</SOCA>
+    <DONGIA>15000</DONGIA>
+    <SOTIEN>11865000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>2021</ID>
+    <MA>H-RTE1</MA>
+    <TEN>Khám răng trẻ em (trên 6 tuổi)</TEN>
+    <SOCA>165</SOCA>
+    <DONGIA>10000</DONGIA>
+    <SOTIEN>1650000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1361</ID>
+    <MA>A-KRTQ5</MA>
+    <TEN>Khám và tư vấn có ảnh Oral Camera</TEN>
+    <SOCA>1</SOCA>
+    <DONGIA>70000</DONGIA>
+    <SOTIEN>70000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1460</ID>
+    <MA>A-KRTQ2</MA>
+    <TEN>Khám định bệnh có tư vấn theo yêu cầu người bệnh (&lt;25 phút)</TEN>
+    <SOCA>4</SOCA>
+    <DONGIA>30000</DONGIA>
+    <SOTIEN>120000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1970</ID>
+    <MA>E-KVT</MA>
+    <TEN>Khâu vết thương phần mềm</TEN>
+    <SOCA>1</SOCA>
+    <DONGIA>60000</DONGIA>
+    <SOTIEN>60000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1899</ID>
+    <MA>I-TLHK2</MA>
+    <TEN>Lưới kim loại 1 hàm</TEN>
+    <SOCA>1</SOCA>
+    <DONGIA>200000</DONGIA>
+    <SOTIEN>200000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1900</ID>
+    <MA>I-TLHK3</MA>
+    <TEN>Lưới kim loại 2 hàm</TEN>
+    <SOCA>1</SOCA>
+    <DONGIA>400000</DONGIA>
+    <SOTIEN>400000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1927</ID>
+    <MA>I-DNC</MA>
+    <TEN>Lấy dấu nghiên cứu 2 hàm</TEN>
+    <SOCA>2</SOCA>
+    <DONGIA>50000</DONGIA>
+    <SOTIEN>100000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1739</ID>
+    <MA>L-PTN1</MA>
+    <TEN>Lấy nang xương hàm 2 - 5 cm</TEN>
+    <SOCA>1</SOCA>
+    <DONGIA>1700000</DONGIA>
+    <SOTIEN>1700000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1582</ID>
+    <MA>I-HM5</MA>
+    <TEN>Máng phẩu thuật</TEN>
+    <SOCA>2</SOCA>
+    <DONGIA>170000</DONGIA>
+    <SOTIEN>340000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1913</ID>
+    <MA>N-MNN</MA>
+    <TEN>Móc bằng nhựa mềm</TEN>
+    <SOCA>5</SOCA>
+    <DONGIA>350000</DONGIA>
+    <SOTIEN>1750000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1945</ID>
+    <MA>D-XN2</MA>
+    <TEN>NGFL</TEN>
+    <SOCA>3</SOCA>
+    <DONGIA>25000</DONGIA>
+    <SOTIEN>75000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>3481</ID>
+    <MA>NTH_32</MA>
+    <TEN>Nhập tổng hợp: Tiền mua plate - vis</TEN>
+    <SOCA>1</SOCA>
+    <DONGIA>1866800</DONGIA>
+    <SOTIEN>1866800</SOTIEN>
+  </Table>
+  <Table>
+    <ID>3481</ID>
+    <MA>NTH_32</MA>
+    <TEN>Nhập tổng hợp: Tiền mua plate - vis</TEN>
+    <SOCA>1</SOCA>
+    <DONGIA>2443036</DONGIA>
+    <SOTIEN>2443036</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1964</ID>
+    <MA>E-NR01</MA>
+    <TEN>Nhổ răng 1 chân</TEN>
+    <SOCA>79</SOCA>
+    <DONGIA>30000</DONGIA>
+    <SOTIEN>2370000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>2022</ID>
+    <MA>H-RTE2</MA>
+    <TEN>Nhổ răng cửa sữa hay răng sữa lung lay</TEN>
+    <SOCA>85</SOCA>
+    <DONGIA>15000</DONGIA>
+    <SOTIEN>1275000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>2024</ID>
+    <MA>H-RTE4</MA>
+    <TEN>Nhổ răng cửa vĩnh viễn</TEN>
+    <SOCA>7</SOCA>
+    <DONGIA>30000</DONGIA>
+    <SOTIEN>210000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>2023</ID>
+    <MA>H-RTE3</MA>
+    <TEN>Nhổ răng hàm sữa</TEN>
+    <SOCA>80</SOCA>
+    <DONGIA>20000</DONGIA>
+    <SOTIEN>1600000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>2025</ID>
+    <MA>H-RTE5</MA>
+    <TEN>Nhổ răng hàm vĩnh viễn</TEN>
+    <SOCA>9</SOCA>
+    <DONGIA>40000</DONGIA>
+    <SOTIEN>360000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1965</ID>
+    <MA>E-NR02</MA>
+    <TEN>Nhổ răng nhiều chân</TEN>
+    <SOCA>203</SOCA>
+    <DONGIA>40000</DONGIA>
+    <SOTIEN>8120000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1971</ID>
+    <MA>E-NRPT</MA>
+    <TEN>Nhổ răng phẩu thuật</TEN>
+    <SOCA>41</SOCA>
+    <DONGIA>80000</DONGIA>
+    <SOTIEN>3280000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1971</ID>
+    <MA>E-NRPT</MA>
+    <TEN>Nhổ răng phẩu thuật</TEN>
+    <SOCA>11</SOCA>
+    <DONGIA>100000</DONGIA>
+    <SOTIEN>1100000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1975</ID>
+    <MA>E-NN1</MA>
+    <TEN>Nạo nang kích thước : #2cm (gây tê)</TEN>
+    <SOCA>1</SOCA>
+    <DONGIA>180000</DONGIA>
+    <SOTIEN>180000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1975</ID>
+    <MA>E-NN1</MA>
+    <TEN>Nạo nang kích thước : #2cm (gây tê)</TEN>
+    <SOCA>1</SOCA>
+    <DONGIA>200000</DONGIA>
+    <SOTIEN>200000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1976</ID>
+    <MA>E-NN2</MA>
+    <TEN>Nạo nang kích thước : 2 - 4cm (gây tê)</TEN>
+    <SOCA>1</SOCA>
+    <DONGIA>250000</DONGIA>
+    <SOTIEN>250000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1977</ID>
+    <MA>E-NN3</MA>
+    <TEN>Nạo nang kích thước : &gt; 4cm (gây tê)</TEN>
+    <SOCA>2</SOCA>
+    <DONGIA>300000</DONGIA>
+    <SOTIEN>600000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>2017</ID>
+    <MA>G-NT1</MA>
+    <TEN>Nạo túi (gây tê) : 1 răng</TEN>
+    <SOCA>63</SOCA>
+    <DONGIA>20000</DONGIA>
+    <SOTIEN>1260000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>2017</ID>
+    <MA>G-NT1</MA>
+    <TEN>Nạo túi (gây tê) : 1 răng</TEN>
+    <SOCA>1</SOCA>
+    <DONGIA>30000</DONGIA>
+    <SOTIEN>30000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>2019</ID>
+    <MA>G-NA</MA>
+    <TEN>Nạo áp-xe nha chu : 1 răng</TEN>
+    <SOCA>5</SOCA>
+    <DONGIA>30000</DONGIA>
+    <SOTIEN>150000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1967</ID>
+    <MA>E-NOR</MA>
+    <TEN>Nạo ổ răng</TEN>
+    <SOCA>1</SOCA>
+    <DONGIA>30000</DONGIA>
+    <SOTIEN>30000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>2011</ID>
+    <MA>C-PN</MA>
+    <TEN>Phim mặt nhai (occlusa) : Chuẩn</TEN>
+    <SOCA>22</SOCA>
+    <DONGIA>30000</DONGIA>
+    <SOTIEN>660000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>2068</ID>
+    <MA>C-PP</MA>
+    <TEN>Phim phổi</TEN>
+    <SOCA>28</SOCA>
+    <DONGIA>25000</DONGIA>
+    <SOTIEN>700000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1997</ID>
+    <MA>C-PQC1</MA>
+    <TEN>Phim quanh chóp chẩn đoán</TEN>
+    <SOCA>390</SOCA>
+    <DONGIA>10000</DONGIA>
+    <SOTIEN>3900000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1516</ID>
+    <MA>C-PQC2</MA>
+    <TEN>Phim quanh chóp theo yêu cầu chuyên khoa - Đo chiều dài obt</TEN>
+    <SOCA>445</SOCA>
+    <DONGIA>12000</DONGIA>
+    <SOTIEN>5340000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1943</ID>
+    <MA>C-PQC4</MA>
+    <TEN>Phim quay chóp theo yêu cầu chuyên khoa - Kỷ thuật song song</TEN>
+    <SOCA>1</SOCA>
+    <DONGIA>15000</DONGIA>
+    <SOTIEN>15000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>2012</ID>
+    <MA>C-PTC2</MA>
+    <TEN>Phim toàn cảnh : Chuyên khoa (PTHM,C.HÌNH,N.CHU...)</TEN>
+    <SOCA>180</SOCA>
+    <DONGIA>100000</DONGIA>
+    <SOTIEN>18000000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>2075</ID>
+    <MA>C-PTC1</MA>
+    <TEN>Phim toàn cảnh : Chẩn đoán</TEN>
+    <SOCA>49</SOCA>
+    <DONGIA>50000</DONGIA>
+    <SOTIEN>2450000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1707</ID>
+    <MA>L-PTCTHM10</MA>
+    <TEN>Phẩu thuật gãy cung tiếp</TEN>
+    <SOCA>1</SOCA>
+    <DONGIA>2000000</DONGIA>
+    <SOTIEN>2000000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1708</ID>
+    <MA>L-PTCTHM11</MA>
+    <TEN>Phẩu thuật gãy cung tiếp, hàm gò má 1 bên</TEN>
+    <SOCA>6</SOCA>
+    <DONGIA>2000000</DONGIA>
+    <SOTIEN>12000000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1703</ID>
+    <MA>L-PTCTHM6</MA>
+    <TEN>Phẩu thuật gãy hàm gò má / Coronal (không tính plaque vis)</TEN>
+    <SOCA>3</SOCA>
+    <DONGIA>2500000</DONGIA>
+    <SOTIEN>7500000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1705</ID>
+    <MA>L-PTCTHM8</MA>
+    <TEN>Phẩu thuật gãy xương hàm trên Lefort II</TEN>
+    <SOCA>3</SOCA>
+    <DONGIA>2000000</DONGIA>
+    <SOTIEN>6000000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1738</ID>
+    <MA>L-PTKU</MA>
+    <TEN>Phẩu thuật khoét u</TEN>
+    <SOCA>1</SOCA>
+    <DONGIA>1500000</DONGIA>
+    <SOTIEN>1500000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1710</ID>
+    <MA>L-PTCTHM13</MA>
+    <TEN>Phẩu thuật kết hợp xương gãy xương hàm dưới - Lefort II,III</TEN>
+    <SOCA>7</SOCA>
+    <DONGIA>2200000</DONGIA>
+    <SOTIEN>15400000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>2080</ID>
+    <MA>G-PNC2</MA>
+    <TEN>Phẩu thuật nha chu loại IIC*</TEN>
+    <SOCA>1</SOCA>
+    <DONGIA>250000</DONGIA>
+    <SOTIEN>250000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1161</ID>
+    <MA>L-PTCTHM1</MA>
+    <TEN>Phẩu thuật đa chấn thương hàm mặt hàm trên</TEN>
+    <SOCA>3</SOCA>
+    <DONGIA>2500000</DONGIA>
+    <SOTIEN>7500000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1493</ID>
+    <MA>K-PI4</MA>
+    <TEN>Phẩu thuật đặt  Healing</TEN>
+    <SOCA>2</SOCA>
+    <DONGIA>1000000</DONGIA>
+    <SOTIEN>2000000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>2078</ID>
+    <MA>G-PNC1</MA>
+    <TEN>Phẫu thuật cắt u nướu</TEN>
+    <SOCA>1</SOCA>
+    <DONGIA>120000</DONGIA>
+    <SOTIEN>120000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1699</ID>
+    <MA>L-PTCTHM2</MA>
+    <TEN>Phẫu thuật đa chấn thương hàm mặt hàm dưới</TEN>
+    <SOCA>9</SOCA>
+    <DONGIA>2500000</DONGIA>
+    <SOTIEN>22500000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>2120</ID>
+    <MA>I-CĐ13</MA>
+    <TEN>Phục hình cố định : Cùi giả răng cửa</TEN>
+    <SOCA>7</SOCA>
+    <DONGIA>100000</DONGIA>
+    <SOTIEN>700000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1912</ID>
+    <MA>I-CĐ2</MA>
+    <TEN>Phục hình cố định : Mão kim loại</TEN>
+    <SOCA>25</SOCA>
+    <DONGIA>300000</DONGIA>
+    <SOTIEN>7500000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1918</ID>
+    <MA>ICĐ10</MA>
+    <TEN>Phục hình cố định : Răng chốt nhựa đúc</TEN>
+    <SOCA>4</SOCA>
+    <DONGIA>350000</DONGIA>
+    <SOTIEN>1400000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1366</ID>
+    <MA>I-CĐ6</MA>
+    <TEN>Phục hình cố định : cầu răng sứ kim loại</TEN>
+    <SOCA>8</SOCA>
+    <DONGIA>800000</DONGIA>
+    <SOTIEN>6400000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1366</ID>
+    <MA>I-CĐ6</MA>
+    <TEN>Phục hình cố định : cầu răng sứ kim loại</TEN>
+    <SOCA>79</SOCA>
+    <DONGIA>1000000</DONGIA>
+    <SOTIEN>79000000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>2096</ID>
+    <MA>I-CD9</MA>
+    <TEN>Phục hình cố định : răng chốt đơn giãn</TEN>
+    <SOCA>4</SOCA>
+    <DONGIA>300000</DONGIA>
+    <SOTIEN>1200000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1364</ID>
+    <MA>I-CĐ3</MA>
+    <TEN>Phục hình cố định cầu răng kim loại</TEN>
+    <SOCA>1</SOCA>
+    <DONGIA>300000</DONGIA>
+    <SOTIEN>300000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1365</ID>
+    <MA>I-CĐ4</MA>
+    <TEN>Phục hình cố định cố định mão sứ kim loại</TEN>
+    <SOCA>4</SOCA>
+    <DONGIA>800000</DONGIA>
+    <SOTIEN>3200000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1365</ID>
+    <MA>I-CĐ4</MA>
+    <TEN>Phục hình cố định cố định mão sứ kim loại</TEN>
+    <SOCA>132</SOCA>
+    <DONGIA>1000000</DONGIA>
+    <SOTIEN>132000000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>2051</ID>
+    <MA>I-TL8</MA>
+    <TEN>Phục hình thao lắp răng : 8 răng</TEN>
+    <SOCA>3</SOCA>
+    <DONGIA>800000</DONGIA>
+    <SOTIEN>2400000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>2083</ID>
+    <MA>I-TLTB1</MA>
+    <TEN>Phục hình tháo lắp : 1 hàm toàn bộ</TEN>
+    <SOCA>6</SOCA>
+    <DONGIA>1300000</DONGIA>
+    <SOTIEN>7800000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>2044</ID>
+    <MA>I-TL1</MA>
+    <TEN>Phục hình tháo lắp : 1 răng</TEN>
+    <SOCA>4</SOCA>
+    <DONGIA>100000</DONGIA>
+    <SOTIEN>400000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>2054</ID>
+    <MA>I-TL11</MA>
+    <TEN>Phục hình tháo lắp : 11 răng</TEN>
+    <SOCA>2</SOCA>
+    <DONGIA>950000</DONGIA>
+    <SOTIEN>1900000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>2054</ID>
+    <MA>I-TL11</MA>
+    <TEN>Phục hình tháo lắp : 11 răng</TEN>
+    <SOCA>3</SOCA>
+    <DONGIA>1000000</DONGIA>
+    <SOTIEN>3000000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>2056</ID>
+    <MA>I-TL13</MA>
+    <TEN>Phục hình tháo lắp : 13 răng</TEN>
+    <SOCA>1</SOCA>
+    <DONGIA>1100000</DONGIA>
+    <SOTIEN>1100000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>2084</ID>
+    <MA>I-TLTB2</MA>
+    <TEN>Phục hình tháo lắp : 2 hàm toàn bộ</TEN>
+    <SOCA>3</SOCA>
+    <DONGIA>2200000</DONGIA>
+    <SOTIEN>6600000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>2045</ID>
+    <MA>I-TL2</MA>
+    <TEN>Phục hình tháo lắp : 2 răng</TEN>
+    <SOCA>3</SOCA>
+    <DONGIA>200000</DONGIA>
+    <SOTIEN>600000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>2046</ID>
+    <MA>I-TL3</MA>
+    <TEN>Phục hình tháo lắp : 3 răng</TEN>
+    <SOCA>2</SOCA>
+    <DONGIA>300000</DONGIA>
+    <SOTIEN>600000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>2047</ID>
+    <MA>I-TL4</MA>
+    <TEN>Phục hình tháo lắp : 4 răng</TEN>
+    <SOCA>2</SOCA>
+    <DONGIA>400000</DONGIA>
+    <SOTIEN>800000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>2048</ID>
+    <MA>I-TL5</MA>
+    <TEN>Phục hình tháo lắp :5 răng</TEN>
+    <SOCA>5</SOCA>
+    <DONGIA>500000</DONGIA>
+    <SOTIEN>2500000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>2053</ID>
+    <MA>I-TL10</MA>
+    <TEN>Phục hình tháo lắp răng : 10 răng</TEN>
+    <SOCA>2</SOCA>
+    <DONGIA>900000</DONGIA>
+    <SOTIEN>1800000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>2053</ID>
+    <MA>I-TL10</MA>
+    <TEN>Phục hình tháo lắp răng : 10 răng</TEN>
+    <SOCA>1</SOCA>
+    <DONGIA>950000</DONGIA>
+    <SOTIEN>950000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>2050</ID>
+    <MA>I-TL7</MA>
+    <TEN>Phục hình tháo lắp răng ; 7 răng</TEN>
+    <SOCA>2</SOCA>
+    <DONGIA>700000</DONGIA>
+    <SOTIEN>1400000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1849</ID>
+    <MA>F-POST</MA>
+    <TEN>Post cắm ( 1 post)</TEN>
+    <SOCA>27</SOCA>
+    <DONGIA>100000</DONGIA>
+    <SOTIEN>2700000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1722</ID>
+    <MA>L-RCKHX</MA>
+    <TEN>Rút chỉ thép kết hợp xương, treo xương</TEN>
+    <SOCA>1</SOCA>
+    <DONGIA>1100000</DONGIA>
+    <SOTIEN>1100000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1942</ID>
+    <MA>I-CĐRT</MA>
+    <TEN>Răng tạm cố định</TEN>
+    <SOCA>48</SOCA>
+    <DONGIA>50000</DONGIA>
+    <SOTIEN>2400000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1816</ID>
+    <MA>B-RA</MA>
+    <TEN>Rạch abès</TEN>
+    <SOCA>2</SOCA>
+    <DONGIA>100000</DONGIA>
+    <SOTIEN>200000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1573</ID>
+    <MA>E-RK</MA>
+    <TEN>Rạch áp xe dẫn lưu</TEN>
+    <SOCA>2</SOCA>
+    <DONGIA>40000</DONGIA>
+    <SOTIEN>80000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1533</ID>
+    <MA>D-XN16</MA>
+    <TEN>SGOT</TEN>
+    <SOCA>2</SOCA>
+    <DONGIA>15000</DONGIA>
+    <SOTIEN>30000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1617</ID>
+    <MA>D-XN17</MA>
+    <TEN>SGPT</TEN>
+    <SOCA>2</SOCA>
+    <DONGIA>15000</DONGIA>
+    <SOTIEN>30000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1818</ID>
+    <MA>B-ST</MA>
+    <TEN>Sinh thiết (tê)</TEN>
+    <SOCA>1</SOCA>
+    <DONGIA>200000</DONGIA>
+    <SOTIEN>200000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1916</ID>
+    <MA>N-SKL</MA>
+    <TEN>Sứ kim loại quý (vàng)</TEN>
+    <SOCA>2</SOCA>
+    <DONGIA>4000000</DONGIA>
+    <SOTIEN>8000000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1933</ID>
+    <MA>I-SCH4</MA>
+    <TEN>Sửa chữa hàm : Đệm hàm giám tiếp</TEN>
+    <SOCA>1</SOCA>
+    <DONGIA>300000</DONGIA>
+    <SOTIEN>300000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1932</ID>
+    <MA>I-SCH3</MA>
+    <TEN>Sửa chữa hàm : Đệm hàm trực tiếp</TEN>
+    <SOCA>3</SOCA>
+    <DONGIA>150000</DONGIA>
+    <SOTIEN>450000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1936</ID>
+    <MA>I-SCR3</MA>
+    <TEN>Sửa chữa răng : Gắn thêm 1 răng mới</TEN>
+    <SOCA>1</SOCA>
+    <DONGIA>100000</DONGIA>
+    <SOTIEN>100000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1755</ID>
+    <MA>L-SS</MA>
+    <TEN>Sửa sẹo xấu, nếp nhăn nhỏ</TEN>
+    <SOCA>1</SOCA>
+    <DONGIA>2000000</DONGIA>
+    <SOTIEN>2000000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>3242</ID>
+    <MA>D-XN23</MA>
+    <TEN>TCK</TEN>
+    <SOCA>35</SOCA>
+    <DONGIA>15000</DONGIA>
+    <SOTIEN>525000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>3241</ID>
+    <MA>D-XN22</MA>
+    <TEN>TQ</TEN>
+    <SOCA>32</SOCA>
+    <DONGIA>15000</DONGIA>
+    <SOTIEN>480000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>3216</ID>
+    <MA>D-XN21</MA>
+    <TEN>TS</TEN>
+    <SOCA>5</SOCA>
+    <DONGIA>5000</DONGIA>
+    <SOTIEN>25000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1944</ID>
+    <MA>D-XN1</MA>
+    <TEN>TS-TC</TEN>
+    <SOCA>106</SOCA>
+    <DONGIA>10000</DONGIA>
+    <SOTIEN>1060000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1972</ID>
+    <MA>E-TB</MA>
+    <TEN>Thay băng</TEN>
+    <SOCA>12</SOCA>
+    <DONGIA>15000</DONGIA>
+    <SOTIEN>180000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1599</ID>
+    <MA>B-TB</MA>
+    <TEN>Thay băng (HM)</TEN>
+    <SOCA>3</SOCA>
+    <DONGIA>20000</DONGIA>
+    <SOTIEN>60000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1597</ID>
+    <MA>B-TH</MA>
+    <TEN>Tháo  hàm</TEN>
+    <SOCA>37</SOCA>
+    <DONGIA>50000</DONGIA>
+    <SOTIEN>1850000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>2876</ID>
+    <MA>B-TSL</MA>
+    <TEN>Tiêm sẹo lồi ( thuốc của bệnh nhân )</TEN>
+    <SOCA>3</SOCA>
+    <DONGIA>100000</DONGIA>
+    <SOTIEN>300000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>2875</ID>
+    <MA>B-TXH</MA>
+    <TEN>Tiêm xơ hóa ( thuốc của bệnh nhân )</TEN>
+    <SOCA>3</SOCA>
+    <DONGIA>100000</DONGIA>
+    <SOTIEN>300000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1185</ID>
+    <MA>COM</MA>
+    <TEN>Tiền Cơm</TEN>
+    <SOCA>8</SOCA>
+    <DONGIA>15000</DONGIA>
+    <SOTIEN>120000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1182</ID>
+    <MA>TGT1</MA>
+    <TEN>Tiền giường (Hậu Phẫu)</TEN>
+    <SOCA>28</SOCA>
+    <DONGIA>90000</DONGIA>
+    <SOTIEN>2520000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1181</ID>
+    <MA>TGT</MA>
+    <TEN>Tiền giường (Tiền Phẫu)</TEN>
+    <SOCA>522</SOCA>
+    <DONGIA>40000</DONGIA>
+    <SOTIEN>20880000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>2110</ID>
+    <MA>PLV</MA>
+    <TEN>Tiền mua plate - vis</TEN>
+    <SOCA>1</SOCA>
+    <DONGIA>659300</DONGIA>
+    <SOTIEN>659300</SOTIEN>
+  </Table>
+  <Table>
+    <ID>2110</ID>
+    <MA>PLV</MA>
+    <TEN>Tiền mua plate - vis</TEN>
+    <SOCA>1</SOCA>
+    <DONGIA>1262200</DONGIA>
+    <SOTIEN>1262200</SOTIEN>
+  </Table>
+  <Table>
+    <ID>2110</ID>
+    <MA>PLV</MA>
+    <TEN>Tiền mua plate - vis</TEN>
+    <SOCA>1</SOCA>
+    <DONGIA>1563300</DONGIA>
+    <SOTIEN>1563300</SOTIEN>
+  </Table>
+  <Table>
+    <ID>2110</ID>
+    <MA>PLV</MA>
+    <TEN>Tiền mua plate - vis</TEN>
+    <SOCA>1</SOCA>
+    <DONGIA>2068900</DONGIA>
+    <SOTIEN>2068900</SOTIEN>
+  </Table>
+  <Table>
+    <ID>2110</ID>
+    <MA>PLV</MA>
+    <TEN>Tiền mua plate - vis</TEN>
+    <SOCA>1</SOCA>
+    <DONGIA>3439200</DONGIA>
+    <SOTIEN>3439200</SOTIEN>
+  </Table>
+  <Table>
+    <ID>2110</ID>
+    <MA>PLV</MA>
+    <TEN>Tiền mua plate - vis</TEN>
+    <SOCA>1</SOCA>
+    <DONGIA>3172100</DONGIA>
+    <SOTIEN>3172100</SOTIEN>
+  </Table>
+  <Table>
+    <ID>2110</ID>
+    <MA>PLV</MA>
+    <TEN>Tiền mua plate - vis</TEN>
+    <SOCA>1</SOCA>
+    <DONGIA>702400</DONGIA>
+    <SOTIEN>702400</SOTIEN>
+  </Table>
+  <Table>
+    <ID>2110</ID>
+    <MA>PLV</MA>
+    <TEN>Tiền mua plate - vis</TEN>
+    <SOCA>1</SOCA>
+    <DONGIA>659400</DONGIA>
+    <SOTIEN>659400</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1947</ID>
+    <MA>D-XN4</MA>
+    <TEN>Tiểu cầu</TEN>
+    <SOCA>9</SOCA>
+    <DONGIA>5000</DONGIA>
+    <SOTIEN>45000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1824</ID>
+    <MA>B-TPN</MA>
+    <TEN>Tiểu phẩu cắt nốt ruồi</TEN>
+    <SOCA>1</SOCA>
+    <DONGIA>300000</DONGIA>
+    <SOTIEN>300000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>2873</ID>
+    <MA>B-TPHMAT</MA>
+    <TEN>Tiểu phẩu hàm mặt ( u nhỏ lành tính )</TEN>
+    <SOCA>3</SOCA>
+    <DONGIA>300000</DONGIA>
+    <SOTIEN>900000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1823</ID>
+    <MA>B-TPHM</MA>
+    <TEN>Tiểu phẩu hàm mặt (thẩm mỹ)</TEN>
+    <SOCA>2</SOCA>
+    <DONGIA>500000</DONGIA>
+    <SOTIEN>1000000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1973</ID>
+    <MA>E-KL</MA>
+    <TEN>Tiểu phẩu răng lệch (gây tê)</TEN>
+    <SOCA>25</SOCA>
+    <DONGIA>150000</DONGIA>
+    <SOTIEN>3750000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1973</ID>
+    <MA>E-KL</MA>
+    <TEN>Tiểu phẩu răng lệch (gây tê)</TEN>
+    <SOCA>14</SOCA>
+    <DONGIA>250000</DONGIA>
+    <SOTIEN>3500000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1974</ID>
+    <MA>E-RN</MA>
+    <TEN>Tiểu phẩu răng ngầm (gây tê)</TEN>
+    <SOCA>3</SOCA>
+    <DONGIA>180000</DONGIA>
+    <SOTIEN>540000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1974</ID>
+    <MA>E-RN</MA>
+    <TEN>Tiểu phẩu răng ngầm (gây tê)</TEN>
+    <SOCA>12</SOCA>
+    <DONGIA>300000</DONGIA>
+    <SOTIEN>3600000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1998</ID>
+    <MA>F-T2</MA>
+    <TEN>Trám Amalgam</TEN>
+    <SOCA>50</SOCA>
+    <DONGIA>70000</DONGIA>
+    <SOTIEN>3500000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>2001</ID>
+    <MA>F-T5</MA>
+    <TEN>Trám Composite quang trùng hợp</TEN>
+    <SOCA>132</SOCA>
+    <DONGIA>120000</DONGIA>
+    <SOTIEN>15840000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>2002</ID>
+    <MA>F-T6</MA>
+    <TEN>Trám Composite quang trùng hợp (xoang loại II hoặc xoang lớn hơn)</TEN>
+    <SOCA>215</SOCA>
+    <DONGIA>150000</DONGIA>
+    <SOTIEN>32250000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1999</ID>
+    <MA>F-T3</MA>
+    <TEN>Trám Glass lonomer Cement ( xoang nhỏ )</TEN>
+    <SOCA>8</SOCA>
+    <DONGIA>40000</DONGIA>
+    <SOTIEN>320000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1999</ID>
+    <MA>F-T3</MA>
+    <TEN>Trám Glass lonomer Cement ( xoang nhỏ )</TEN>
+    <SOCA>3</SOCA>
+    <DONGIA>80000</DONGIA>
+    <SOTIEN>240000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>2000</ID>
+    <MA>F-T4</MA>
+    <TEN>Trám Glass lonomer Cement (xoang lớn)</TEN>
+    <SOCA>71</SOCA>
+    <DONGIA>70000</DONGIA>
+    <SOTIEN>4970000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>2000</ID>
+    <MA>F-T4</MA>
+    <TEN>Trám Glass lonomer Cement (xoang lớn)</TEN>
+    <SOCA>12</SOCA>
+    <DONGIA>100000</DONGIA>
+    <SOTIEN>1200000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>2029</ID>
+    <MA>H-RTE9</MA>
+    <TEN>Trám răng sữa vĩnh viễn với G.I.C</TEN>
+    <SOCA>39</SOCA>
+    <DONGIA>50000</DONGIA>
+    <SOTIEN>1950000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>2027</ID>
+    <MA>H-RTE7</MA>
+    <TEN>Trám răng sữa với Eugenate</TEN>
+    <SOCA>1</SOCA>
+    <DONGIA>20000</DONGIA>
+    <SOTIEN>20000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>2028</ID>
+    <MA>H-RTE8</MA>
+    <TEN>Trám răng sữa với G.I.C</TEN>
+    <SOCA>40</SOCA>
+    <DONGIA>40000</DONGIA>
+    <SOTIEN>1600000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>2030</ID>
+    <MA>H-RTE10</MA>
+    <TEN>Trám răng vĩnh viễn với Amalgam</TEN>
+    <SOCA>7</SOCA>
+    <DONGIA>50000</DONGIA>
+    <SOTIEN>350000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1664</ID>
+    <MA>H-RTE12</MA>
+    <TEN>Trám xoang II,IV hay xoang lớn với Composite quang trùng hợp</TEN>
+    <SOCA>6</SOCA>
+    <DONGIA>120000</DONGIA>
+    <SOTIEN>720000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1489</ID>
+    <MA>F-TTR1</MA>
+    <TEN>Tẩy trắng răng 1 hàm</TEN>
+    <SOCA>4</SOCA>
+    <DONGIA>1000000</DONGIA>
+    <SOTIEN>4000000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1490</ID>
+    <MA>F-TTR2</MA>
+    <TEN>Tẩy trắng răng 2 hàm</TEN>
+    <SOCA>2</SOCA>
+    <DONGIA>1500000</DONGIA>
+    <SOTIEN>3000000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1919</ID>
+    <MA>N-TTRP2</MA>
+    <TEN>Tẩy trắng răng tại chổ bằng đèn Plasma 2 hàm</TEN>
+    <SOCA>1</SOCA>
+    <DONGIA>1800000</DONGIA>
+    <SOTIEN>1800000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1956</ID>
+    <MA>D-XN13</MA>
+    <TEN>XN mổ mê + HIV + HbsAg</TEN>
+    <SOCA>25</SOCA>
+    <DONGIA>180000</DONGIA>
+    <SOTIEN>4500000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1564</ID>
+    <MA>C-PB</MA>
+    <TEN>XQ Blondeau</TEN>
+    <SOCA>41</SOCA>
+    <DONGIA>20000</DONGIA>
+    <SOTIEN>820000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1565</ID>
+    <MA>C-PF</MA>
+    <TEN>XQ Face</TEN>
+    <SOCA>32</SOCA>
+    <DONGIA>20000</DONGIA>
+    <SOTIEN>640000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1566</ID>
+    <MA>C-PH</MA>
+    <TEN>XQ Hirtz</TEN>
+    <SOCA>62</SOCA>
+    <DONGIA>20000</DONGIA>
+    <SOTIEN>1240000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>2180</ID>
+    <MA>C-PM</MA>
+    <TEN>XQ Maxi</TEN>
+    <SOCA>1</SOCA>
+    <DONGIA>20000</DONGIA>
+    <SOTIEN>20000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>2097</ID>
+    <MA>C-PRO</MA>
+    <TEN>XQ Profile</TEN>
+    <SOCA>7</SOCA>
+    <DONGIA>20000</DONGIA>
+    <SOTIEN>140000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>2107</ID>
+    <MA>C - TOW</MA>
+    <TEN>XQ Towne</TEN>
+    <SOCA>6</SOCA>
+    <DONGIA>20000</DONGIA>
+    <SOTIEN>120000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1567</ID>
+    <MA>C-PW</MA>
+    <TEN>XQ Waters</TEN>
+    <SOCA>50</SOCA>
+    <DONGIA>20000</DONGIA>
+    <SOTIEN>1000000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>3208</ID>
+    <MA>L-YC</MA>
+    <TEN>Y CHỨNG</TEN>
+    <SOCA>30</SOCA>
+    <DONGIA>20000</DONGIA>
+    <SOTIEN>600000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>1988</ID>
+    <MA>E-DCSH</MA>
+    <TEN>Điều chỉnh sóng hàm (sextant)</TEN>
+    <SOCA>2</SOCA>
+    <DONGIA>150000</DONGIA>
+    <SOTIEN>300000</SOTIEN>
+  </Table>
+  <Table>
+    <ID>2016</ID>
+    <MA>G-DB2</MA>
+    <TEN>Đánh bóng : 2 hàm</TEN>
+    <SOCA>72</SOCA>
+    <DONGIA>30000</DONGIA>
+    <SOTIEN>2160000</SOTIEN>
+  </Table>
+</NewDataSet>

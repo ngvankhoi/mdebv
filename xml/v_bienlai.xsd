@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<xs:schema id="BienLai" targetNamespace="http://tempuri.org/v_bienlai.xsd" xmlns:mstns="http://tempuri.org/v_bienlai.xsd" xmlns="http://tempuri.org/v_bienlai.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+	<xs:element name="BienLai" msdata:IsDataSet="true" msdata:EnforceConstraints="False">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="BienLaiTamUng">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="syt" type="xs:string" minOccurs="0" />
+							<xs:element name="bv" type="xs:string" minOccurs="0" />
+							<xs:element name="diachibv" type="xs:string" minOccurs="0" />
+							<xs:element name="tongcucthue" type="xs:string" minOccurs="0" />
+							<xs:element name="cucthue" type="xs:string" minOccurs="0" />
+							<xs:element name="masothue" type="xs:string" minOccurs="0" />
+							<xs:element name="mauso" type="xs:string" minOccurs="0" />
+							<xs:element name="quyenso" type="xs:string" minOccurs="0" />
+							<xs:element name="sobienlai" type="xs:string" minOccurs="0" />
+							<xs:element name="hoten" type="xs:string" minOccurs="0" />
+							<xs:element name="mabn" type="xs:string" minOccurs="0" />
+							<xs:element name="namsinh" type="xs:string" minOccurs="0" />
+							<xs:element name="ngaysinh" type="xs:string" minOccurs="0" />
+							<xs:element name="diachi" type="xs:string" minOccurs="0" />
+							<xs:element name="khoa" type="xs:string" minOccurs="0" />
+							<xs:element name="lydo" type="xs:string" minOccurs="0" />
+							<xs:element name="sotien" type="xs:string" minOccurs="0" />
+							<xs:element name="chutien" type="xs:string" minOccurs="0" />
+							<xs:element name="diengiai" type="xs:string" minOccurs="0" />
+							<xs:element name="lien" type="xs:string" minOccurs="0" />
+							<xs:element name="ngayin" type="xs:string" minOccurs="0" />
+							<xs:element name="nguoiin" type="xs:string" minOccurs="0" />
+							<xs:element name="nguoithu" type="xs:string" minOccurs="0" />
+							<xs:element name="ghichu" type="xs:string" minOccurs="0" />
+							<xs:element name="st" type="xs:decimal" minOccurs="0" />
+							<xs:element name="gioitinh" type="xs:string" minOccurs="0" />
+							<xs:element name="image" type="xs:base64Binary" minOccurs="0" />
+							<xs:element name="imageidvp" type="xs:base64Binary" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

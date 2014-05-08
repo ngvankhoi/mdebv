@@ -1,0 +1,39 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="hoten" type="xs:string" minOccurs="0" />
+                <xs:element name="mabn" type="xs:string" minOccurs="0" />
+                <xs:element name="donvi" type="xs:string" minOccurs="0" />
+                <xs:element name="dcdonvi" type="xs:string" minOccurs="0" />
+                <xs:element name="masothue" type="xs:string" minOccurs="0" />
+                <xs:element name="dcnhan" type="xs:string" minOccurs="0" />
+                <xs:element name="nguoinhan" type="xs:string" minOccurs="0" />
+                <xs:element name="sotien" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ngay" type="xs:string" minOccurs="0" />
+                <xs:element name="mavaovien" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <hoten>NGUYỄN THỊ LỆ THU</hoten>
+    <mabn>1104020886</mabn>
+    <donvi>W</donvi>
+    <dcdonvi>WE</dcdonvi>
+    <masothue>1222</masothue>
+    <dcnhan>R</dcnhan>
+    <nguoinhan>E</nguoinhan>
+    <sotien>260000.0000</sotien>
+    <ngay>25/07/2011</ngay>
+    <mavaovien>0</mavaovien>
+  </Table>
+</NewDataSet>

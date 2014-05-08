@@ -1,0 +1,31 @@
+<?xml version="1.0" standalone="yes" ?>
+<NewDataSet>
+	<xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+			<xs:complexType>
+				<xs:choice minOccurs="0" maxOccurs="unbounded">
+					<xs:element name="Table">
+						<xs:complexType>
+							<xs:sequence>
+								<xs:element name="schema" type="xs:string" minOccurs="0" />
+								<xs:element name="tablename" type="xs:string" minOccurs="0" />
+								<xs:element name="key" type="xs:string" minOccurs="0" />
+								<xs:element name="field" type="xs:string" minOccurs="0" />
+								<xs:element name="lastday" type="xs:int" minOccurs="0" />
+							</xs:sequence>
+						</xs:complexType>
+					</xs:element>
+				</xs:choice>
+			</xs:complexType>
+		</xs:element>
+	</xs:schema>
+	<!-- do phần tiếp đón gọi trước-->
+	<!--medisoft-->
+	<!--kết thúc table liên quan đến btdbn-->
+	<!--tiep don-->
+	<!--Kham benh-->
+	<!--danh muc biet duoc-->
+	<!--=============================================================================-->
+	<!--Cac table cap nhat cuoi ngay-->
+	<!--Chẩn đoán hình ảnh-->
+</NewDataSet>

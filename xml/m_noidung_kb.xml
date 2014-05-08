@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" standalone="yes" ?>
+<NewDataSet>
+	<xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xs:element name="NewDataSet" msdata:IsDataSet="true">
+			<xs:complexType>
+				<xs:choice maxOccurs="unbounded">
+					<xs:element name="Table">
+						<xs:complexType>
+							<xs:sequence>
+								<xs:element name="ID" type="xs:decimal" minOccurs="0" />
+								<xs:element name="NOIDUNG" type="xs:string" minOccurs="0" />
+								<xs:element name="SQL" type="xs:string" minOccurs="0" />
+							</xs:sequence>
+						</xs:complexType>
+					</xs:element>
+				</xs:choice>
+			</xs:complexType>
+		</xs:element>
+	</xs:schema>
+	<Table>
+		<ID>1</ID>
+		<NOIDUNG>Tiếp đón</NOIDUNG>
+		<SQL>select count(*) from tiepdon a,btdbn b,btdtt c,btdquan d,btdpxa e,btdnn f where a.mabn=b.mabn and b.matt=c.matt and b.maqu=d.maqu and b.maphuongxa=e.maphuongxa and b.mann=f.mann</SQL>
+	</Table>
+	<Table>
+		<ID>2</ID>
+		<NOIDUNG>Khám bệnh</NOIDUNG>
+		<SQL>select count(*) from benhandt a,btdbn b,btdtt c,btdquan d,btdpxa e,btdnn f where a.mabn=b.mabn and b.matt=c.matt and b.maqu=d.maqu and b.maphuongxa=e.maphuongxa and b.mann=f.mann and a.loaiba=3</SQL>
+	</Table>
+	<Table>
+		<ID>3</ID>
+		<NOIDUNG>Có tiếp đón nhưng không khám bệnh</NOIDUNG>
+	</Table>
+	<Table>
+		<ID>4</ID>
+		<NOIDUNG>Đối tượng</NOIDUNG>
+	</Table>
+	<Table>
+		<ID>5</ID>
+		<NOIDUNG>Trẻ em</NOIDUNG>
+	</Table>
+	<Table>
+		<ID>6</ID>
+		<NOIDUNG>Xử trí</NOIDUNG>
+	</Table>
+	<Table>
+		<ID>7</ID>
+		<NOIDUNG>Nghề nghiệp</NOIDUNG>
+	</Table>
+	<Table>
+		<ID>8</ID>
+		<NOIDUNG>Bệnh tật</NOIDUNG>
+	</Table>
+	<Table>
+		<ID>9</ID>
+		<NOIDUNG>Nhập viện</NOIDUNG>
+	</Table>
+	<Table>
+		<ID>10</ID>
+		<NOIDUNG>Địa phương</NOIDUNG>
+	</Table>
+	<Table>
+		<ID>11</ID>
+		<NOIDUNG>Độ tuổi</NOIDUNG>
+	</Table>
+	<Table>
+		<ID>12</ID>
+		<NOIDUNG>Giới tính</NOIDUNG>
+	</Table>
+	<Table>
+		<ID>13</ID>
+		<NOIDUNG>Phòng khám (tiếp đón)</NOIDUNG>
+	</Table>
+	<Table>
+		<ID>14</ID>
+		<NOIDUNG>Phòng khám (khám bệnh)</NOIDUNG>
+	</Table>
+	<Table>
+		<ID>15</ID>
+		<NOIDUNG>Mã ICD</NOIDUNG>
+	</Table>
+	<Table>
+		<ID>16</ID>
+		<NOIDUNG>Tuổi</NOIDUNG>
+	</Table>
+</NewDataSet>

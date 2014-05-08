@@ -1,0 +1,208 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="BienLaiTamUng">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="syt" type="xs:string" minOccurs="0" />
+                <xs:element name="bv" type="xs:string" minOccurs="0" />
+                <xs:element name="diachibv" type="xs:string" minOccurs="0" />
+                <xs:element name="tongcucthue" type="xs:string" minOccurs="0" />
+                <xs:element name="cucthue" type="xs:string" minOccurs="0" />
+                <xs:element name="masothue" type="xs:string" minOccurs="0" />
+                <xs:element name="mauso" type="xs:string" minOccurs="0" />
+                <xs:element name="quyenso" type="xs:string" minOccurs="0" />
+                <xs:element name="sobienlai" type="xs:string" minOccurs="0" />
+                <xs:element name="ngayin" type="xs:string" minOccurs="0" />
+                <xs:element name="nguoiin" type="xs:string" minOccurs="0" />
+                <xs:element name="ghichu" type="xs:string" minOccurs="0" />
+                <xs:element name="lien" type="xs:string" minOccurs="0" />
+                <xs:element name="mabn" type="xs:string" minOccurs="0" />
+                <xs:element name="hoten" type="xs:string" minOccurs="0" />
+                <xs:element name="ngaysinh" type="xs:string" minOccurs="0" />
+                <xs:element name="gioitinh" type="xs:string" minOccurs="0" />
+                <xs:element name="khoa" type="xs:string" minOccurs="0" />
+                <xs:element name="diachi" type="xs:string" minOccurs="0" />
+                <xs:element name="lydo" type="xs:string" minOccurs="0" />
+                <xs:element name="sotien" type="xs:string" minOccurs="0" />
+                <xs:element name="chutien" type="xs:string" minOccurs="0" />
+                <xs:element name="tongcp" type="xs:string" minOccurs="0" />
+                <xs:element name="tamung" type="xs:string" minOccurs="0" />
+                <xs:element name="bhyt" type="xs:string" minOccurs="0" />
+                <xs:element name="mien" type="xs:string" minOccurs="0" />
+                <xs:element name="lydomien" type="xs:string" minOccurs="0" />
+                <xs:element name="nguoithu" type="xs:string" minOccurs="0" />
+                <xs:element name="sothe" type="xs:string" minOccurs="0" />
+                <xs:element name="id" type="xs:decimal" minOccurs="0" />
+                <xs:element name="lanin" type="xs:string" minOccurs="0" />
+                <xs:element name="TonghuongBHYT" type="xs:decimal" minOccurs="0" />
+                <xs:element name="BNdongchitra" type="xs:decimal" minOccurs="0" />
+                <xs:element name="thangtuoi" type="xs:decimal" minOccurs="0" />
+                <xs:element name="BNtuchitra" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Chitiet">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="madoituong" type="xs:int" minOccurs="0" />
+                <xs:element name="mavp" type="xs:int" minOccurs="0" />
+                <xs:element name="tenvp" type="xs:string" minOccurs="0" />
+                <xs:element name="id_loaivp" type="xs:int" minOccurs="0" />
+                <xs:element name="loaivp" type="xs:string" minOccurs="0" />
+                <xs:element name="id_nhomvp" type="xs:int" minOccurs="0" />
+                <xs:element name="nhomvp" type="xs:string" minOccurs="0" />
+                <xs:element name="sotien" type="xs:decimal" minOccurs="0" />
+                <xs:element name="vat" type="xs:decimal" minOccurs="0" />
+                <xs:element name="id" type="xs:decimal" minOccurs="0" />
+                <xs:element name="gia_dv" type="xs:decimal" minOccurs="0" />
+                <xs:element name="gia_bh" type="xs:decimal" minOccurs="0" />
+                <xs:element name="hangsx" type="xs:string" minOccurs="0" />
+                <xs:element name="nuocsx" type="xs:string" minOccurs="0" />
+                <xs:element name="tenbv" type="xs:string" minOccurs="0" />
+                <xs:element name="ngayvao" type="xs:string" minOccurs="0" />
+                <xs:element name="ngayra" type="xs:string" minOccurs="0" />
+                <xs:element name="traituyen" type="xs:string" minOccurs="0" />
+                <xs:element name="chandoan" type="xs:string" minOccurs="0" />
+                <xs:element name="maicd" type="xs:string" minOccurs="0" />
+                <xs:element name="tungay" type="xs:string" minOccurs="0" />
+                <xs:element name="denngay" type="xs:string" minOccurs="0" />
+                <xs:element name="namsinh" type="xs:string" minOccurs="0" />
+                <xs:element name="soluong" type="xs:string" minOccurs="0" />
+                <xs:element name="lanin" type="xs:string" minOccurs="0" />
+                <xs:element name="TonghuongBHYT" type="xs:decimal" minOccurs="0" />
+                <xs:element name="BNdongchitra" type="xs:decimal" minOccurs="0" />
+                <xs:element name="BNtuchitra" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <BienLaiTamUng>
+    <syt>Sở Y tế ĐĂCNÔNG</syt>
+    <bv>Bệnh viện đa khoa Huyện Krông Pắc</bv>
+    <diachibv>Đường 23/3</diachibv>
+    <tongcucthue>TỔNG CỤC THUẾ</tongcucthue>
+    <cucthue>CỤC THUẾ</cucthue>
+    <masothue />
+    <mauso />
+    <quyenso>14_VPTG</quyenso>
+    <sobienlai>19002</sobienlai>
+    <ngayin>02/05/2014</ngayin>
+    <nguoiin>Administrator</nguoiin>
+    <ghichu />
+    <lien>Liên 1: Giao cho bệnh nhân</lien>
+    <mabn>14037137</mabn>
+    <hoten>THUY TEST NTRU</hoten>
+    <ngaysinh />
+    <gioitinh>Nam</gioitinh>
+    <khoa>Phòng 08</khoa>
+    <diachi>Không Xác Định, Không Xác Định, Bình Dương</diachi>
+    <lydo>NS đại tràng ống mềm có sinh thiết(1),NS đại tràng ống mềm không sinh thiết(1),BN cùng chi trả 20% BHYT: Tập do liệt ngoại biên(1),</lydo>
+    <sotien>69,800</sotien>
+    <chutien>Sáu mươi chín ngàn tám trăm  đồng</chutien>
+    <tongcp>349,000</tongcp>
+    <tamung>0</tamung>
+    <bhyt>279,200</bhyt>
+    <mien>0</mien>
+    <lydomien>- Tổng chi phí: 349,000
+- BHYT chi trả : 279,200
+- BN cùng chi trả : 69,800</lydomien>
+    <nguoithu>Administrator</nguoithu>
+    <sothe>HN736583525078365739</sothe>
+    <id>78140502132901105</id>
+    <lanin>0</lanin>
+    <TonghuongBHYT>349000</TonghuongBHYT>
+    <BNdongchitra>69800</BNdongchitra>
+    <BNtuchitra>0</BNtuchitra>
+  </BienLaiTamUng>
+  <Chitiet>
+    <madoituong>1</madoituong>
+    <mavp>-385</mavp>
+    <id_loaivp>247</id_loaivp>
+    <loaivp>Nội soi trực tràng</loaivp>
+    <id_nhomvp>2</id_nhomvp>
+    <nhomvp>Chẩn đoán hình ảnh</nhomvp>
+    <sotien>40000.0000</sotien>
+    <vat>0</vat>
+    <id>78140502132901105</id>
+    <gia_dv>200000</gia_dv>
+    <gia_bh>200000</gia_bh>
+    <hangsx />
+    <nuocsx />
+    <tenbv>Bệnh viện Việt Nam - Cu Ba</tenbv>
+    <ngayvao>05/02/2014 13:28:00</ngayvao>
+    <traituyen>0</traituyen>
+    <chandoan>Di chứng do tác động của vật lạ vào qua lỗ tự nhiên</chandoan>
+    <maicd>T98.0</maicd>
+    <tungay>01/01/2014 00:00:00</tungay>
+    <denngay>12/31/2014 00:00:00</denngay>
+    <namsinh>1988</namsinh>
+    <soluong>1.0000</soluong>
+    <lanin>0</lanin>
+    <TonghuongBHYT>349000</TonghuongBHYT>
+    <BNdongchitra>69800</BNdongchitra>
+    <BNtuchitra>0</BNtuchitra>
+  </Chitiet>
+  <Chitiet>
+    <madoituong>1</madoituong>
+    <mavp>-384</mavp>
+    <id_loaivp>247</id_loaivp>
+    <loaivp>Nội soi trực tràng</loaivp>
+    <id_nhomvp>2</id_nhomvp>
+    <nhomvp>Chẩn đoán hình ảnh</nhomvp>
+    <sotien>27800.0000</sotien>
+    <vat>0</vat>
+    <id>78140502132901105</id>
+    <gia_dv>139000</gia_dv>
+    <gia_bh>139000</gia_bh>
+    <hangsx />
+    <nuocsx />
+    <tenbv>Bệnh viện Việt Nam - Cu Ba</tenbv>
+    <ngayvao>05/02/2014 13:28:00</ngayvao>
+    <traituyen>0</traituyen>
+    <chandoan>Di chứng do tác động của vật lạ vào qua lỗ tự nhiên</chandoan>
+    <maicd>T98.0</maicd>
+    <tungay>01/01/2014 00:00:00</tungay>
+    <denngay>12/31/2014 00:00:00</denngay>
+    <namsinh>1988</namsinh>
+    <soluong>1.0000</soluong>
+    <lanin>0</lanin>
+    <TonghuongBHYT>349000</TonghuongBHYT>
+    <BNdongchitra>69800</BNdongchitra>
+    <BNtuchitra>0</BNtuchitra>
+  </Chitiet>
+  <Chitiet>
+    <madoituong>1</madoituong>
+    <mavp>-59</mavp>
+    <id_loaivp>73</id_loaivp>
+    <loaivp>Vật lý trị liệu</loaivp>
+    <id_nhomvp>19</id_nhomvp>
+    <nhomvp>Vật lý trị liệu </nhomvp>
+    <sotien>2000.0000</sotien>
+    <vat>0</vat>
+    <id>78140502132901105</id>
+    <gia_dv>10000</gia_dv>
+    <gia_bh>10000</gia_bh>
+    <hangsx />
+    <nuocsx />
+    <tenbv>Bệnh viện Việt Nam - Cu Ba</tenbv>
+    <ngayvao>05/02/2014 13:28:00</ngayvao>
+    <traituyen>0</traituyen>
+    <chandoan>Di chứng do tác động của vật lạ vào qua lỗ tự nhiên</chandoan>
+    <maicd>T98.0</maicd>
+    <tungay>01/01/2014 00:00:00</tungay>
+    <denngay>12/31/2014 00:00:00</denngay>
+    <namsinh>1988</namsinh>
+    <soluong>1.0000</soluong>
+    <lanin>0</lanin>
+    <TonghuongBHYT>349000</TonghuongBHYT>
+    <BNdongchitra>69800</BNdongchitra>
+    <BNtuchitra>0</BNtuchitra>
+  </Chitiet>
+</NewDataSet>

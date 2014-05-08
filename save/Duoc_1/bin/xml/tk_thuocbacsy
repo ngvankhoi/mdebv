@@ -1,0 +1,79 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:Locale="en-US">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="MA" type="xs:string" minOccurs="0" />
+                <xs:element name="HOTEN" type="xs:string" minOccurs="0" />
+                <xs:element name="SOLUONG" type="xs:decimal" minOccurs="0" />
+                <xs:element name="SOTIEN" type="xs:decimal" minOccurs="0" />
+                <xs:element name="mabd" type="xs:string" minOccurs="0" />
+                <xs:element name="tenbd" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <MA>0003</MA>
+    <HOTEN>Bs. Nguyễn Trọng Hiếu</HOTEN>
+    <SOLUONG>230.0000</SOLUONG>
+    <SOTIEN>251850.00000000</SOTIEN>
+    <mabd>ACT003</mabd>
+    <tenbd>Acticarbine</tenbd>
+  </Table>
+  <Table>
+    <MA>0046</MA>
+    <HOTEN>Bs. Lê Thị Thiên Hương</HOTEN>
+    <SOLUONG>92.0000</SOLUONG>
+    <SOTIEN>100740.00000000</SOTIEN>
+    <mabd>ACT003</mabd>
+    <tenbd>Acticarbine</tenbd>
+  </Table>
+  <Table>
+    <MA>0048</MA>
+    <HOTEN>Bs. Trần Trường Giang</HOTEN>
+    <SOLUONG>22.0000</SOLUONG>
+    <SOTIEN>24090.00000000</SOTIEN>
+    <mabd>ACT003</mabd>
+    <tenbd>Acticarbine</tenbd>
+  </Table>
+  <Table>
+    <MA>0050</MA>
+    <HOTEN>Bs. Trầm Thị Phương Mai</HOTEN>
+    <SOLUONG>38.0000</SOLUONG>
+    <SOTIEN>41610.00000000</SOTIEN>
+    <mabd>ACT003</mabd>
+    <tenbd>Acticarbine</tenbd>
+  </Table>
+  <Table>
+    <MA>0055</MA>
+    <HOTEN>Bs. Thạch Ngọc Chiến</HOTEN>
+    <SOLUONG>116.0000</SOLUONG>
+    <SOTIEN>127020.00000000</SOTIEN>
+    <mabd>ACT003</mabd>
+    <tenbd>Acticarbine</tenbd>
+  </Table>
+  <Table>
+    <MA>0057</MA>
+    <HOTEN>Mua Lẻ</HOTEN>
+    <SOLUONG>70.0000</SOLUONG>
+    <SOTIEN>76650.00000000</SOTIEN>
+    <mabd>ACT003</mabd>
+    <tenbd>Acticarbine</tenbd>
+  </Table>
+  <Table>
+    <MA>0064</MA>
+    <HOTEN>Bs. Thạch Thị Chanđa</HOTEN>
+    <SOLUONG>46.0000</SOLUONG>
+    <SOTIEN>50370.00000000</SOTIEN>
+    <mabd>ACT003</mabd>
+    <tenbd>Acticarbine</tenbd>
+  </Table>
+</NewDataSet>

@@ -1,0 +1,2415 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="id" type="xs:decimal" minOccurs="0" />
+                <xs:element name="mabn" type="xs:string" minOccurs="0" />
+                <xs:element name="mavaovien" type="xs:decimal" minOccurs="0" />
+                <xs:element name="maql" type="xs:decimal" minOccurs="0" />
+                <xs:element name="loai" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ten_loaivp" type="xs:string" minOccurs="0" />
+                <xs:element name="loaibn" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ngayvao" type="xs:string" minOccurs="0" />
+                <xs:element name="ngayra" type="xs:string" minOccurs="0" />
+                <xs:element name="hoten" type="xs:string" minOccurs="0" />
+                <xs:element name="namsinh" type="xs:string" minOccurs="0" />
+                <xs:element name="diachi" type="xs:string" minOccurs="0" />
+                <xs:element name="tentt" type="xs:string" minOccurs="0" />
+                <xs:element name="tenquan" type="xs:string" minOccurs="0" />
+                <xs:element name="tenpxa" type="xs:string" minOccurs="0" />
+                <xs:element name="makp" type="xs:string" minOccurs="0" />
+                <xs:element name="tenkp" type="xs:string" minOccurs="0" />
+                <xs:element name="viettat" type="xs:string" minOccurs="0" />
+                <xs:element name="ngay" type="xs:string" minOccurs="0" />
+                <xs:element name="thuoc" type="xs:decimal" minOccurs="0" />
+                <xs:element name="vienphi" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sotien" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tamung" type="xs:decimal" minOccurs="0" />
+                <xs:element name="mien" type="xs:decimal" minOccurs="0" />
+                <xs:element name="bhyt" type="xs:decimal" minOccurs="0" />
+                <xs:element name="nopthem" type="xs:decimal" minOccurs="0" />
+                <xs:element name="thieu" type="xs:decimal" minOccurs="0" />
+                <xs:element name="thua" type="xs:decimal" minOccurs="0" />
+                <xs:element name="chenhlech" type="xs:decimal" minOccurs="0" />
+                <xs:element name="user_hoten" type="xs:string" minOccurs="0" />
+                <xs:element name="user_username" type="xs:string" minOccurs="0" />
+                <xs:element name="userid" type="xs:decimal" minOccurs="0" />
+                <xs:element name="quyenso" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sobienlai" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sohieu" type="xs:string" minOccurs="0" />
+                <xs:element name="sohieubl" type="xs:string" minOccurs="0" />
+                <xs:element name="hoan" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tra" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <id>4140221113928409</id>
+    <mabn>14017503</mabn>
+    <mavaovien>140214144139004016</mavaovien>
+    <maql>140214144139091016</maql>
+    <loai>1</loai>
+    <ten_loaivp>Trong giờ</ten_loaivp>
+    <loaibn>1</loaibn>
+    <ngayvao>21/02/2014</ngayvao>
+    <ngayra>21/02/2014</ngayra>
+    <hoten>NGUYỄN THANH PHONG</hoten>
+    <namsinh>16/07/1946</namsinh>
+    <diachi />
+    <tentt>Bình Dương</tentt>
+    <tenquan>H. Bến Cát</tenquan>
+    <tenpxa>X. Trừ Văn Thố</tenpxa>
+    <makp>17</makp>
+    <tenkp>Khoa A1</tenkp>
+    <viettat>99</viettat>
+    <ngay>21/02/2014</ngay>
+    <thuoc>0</thuoc>
+    <vienphi>0</vienphi>
+    <sotien>3000.00000000</sotien>
+    <tamung>0</tamung>
+    <mien>0.0000</mien>
+    <bhyt>0.0000</bhyt>
+    <nopthem>0.0000</nopthem>
+    <thieu>0.0000</thieu>
+    <thua>0.0000</thua>
+    <chenhlech>0.0000</chenhlech>
+    <user_hoten>Vũ Thị Minh Phương</user_hoten>
+    <user_username>vuphuong</user_username>
+    <userid>34</userid>
+    <quyenso>23</quyenso>
+    <sobienlai>52</sobienlai>
+    <sohieu>14_NOITRU</sohieu>
+    <sohieubl>NT</sohieubl>
+    <hoan>0</hoan>
+    <tra>0.0000000000</tra>
+  </Table>
+  <Table>
+    <id>7140215134715322</id>
+    <mabn>14502524</mabn>
+    <mavaovien>140204071652298012</mavaovien>
+    <maql>140204114246927011</maql>
+    <loai>1</loai>
+    <ten_loaivp>Trong giờ</ten_loaivp>
+    <loaibn>1</loaibn>
+    <ngayvao>15/02/2014</ngayvao>
+    <ngayra>13/02/2014</ngayra>
+    <hoten>LÊ VĂN THÀNH</hoten>
+    <namsinh>1988</namsinh>
+    <diachi />
+    <tentt>Bình Dương</tentt>
+    <tenquan>TX. Thuận An</tenquan>
+    <tenpxa>Không Xác Định</tenpxa>
+    <makp>24</makp>
+    <tenkp>Khoa B4</tenkp>
+    <viettat>24</viettat>
+    <ngay>15/02/2014</ngay>
+    <thuoc>0</thuoc>
+    <vienphi>30000.0000000000</vienphi>
+    <sotien>30000.00000000</sotien>
+    <tamung>0</tamung>
+    <mien>0.0000</mien>
+    <bhyt>0.0000</bhyt>
+    <nopthem>0.0000</nopthem>
+    <thieu>0.0000</thieu>
+    <thua>0.0000</thua>
+    <chenhlech>0.0000</chenhlech>
+    <user_hoten>Vũ Thị Minh Phương</user_hoten>
+    <user_username>vuphuong</user_username>
+    <userid>34</userid>
+    <quyenso>23</quyenso>
+    <sobienlai>41</sobienlai>
+    <sohieu>14_NOITRU</sohieu>
+    <sohieubl>NT</sohieubl>
+    <hoan>0</hoan>
+    <tra>0.0000000000</tra>
+  </Table>
+  <Table>
+    <id>7140215134715322</id>
+    <mabn>14502524</mabn>
+    <mavaovien>140204071652298012</mavaovien>
+    <maql>140204114246927011</maql>
+    <loai>1</loai>
+    <ten_loaivp>Trong giờ</ten_loaivp>
+    <loaibn>1</loaibn>
+    <ngayvao>15/02/2014</ngayvao>
+    <ngayra>13/02/2014</ngayra>
+    <hoten>LÊ VĂN THÀNH</hoten>
+    <namsinh>1988</namsinh>
+    <diachi />
+    <tentt>Bình Dương</tentt>
+    <tenquan>TX. Thuận An</tenquan>
+    <tenpxa>Không Xác Định</tenpxa>
+    <makp>24</makp>
+    <tenkp>Khoa B4</tenkp>
+    <viettat>24</viettat>
+    <ngay>15/02/2014</ngay>
+    <thuoc>0</thuoc>
+    <vienphi>10000.0000000000</vienphi>
+    <sotien>10000.00000000</sotien>
+    <tamung>0</tamung>
+    <mien>0.0000</mien>
+    <bhyt>0.0000</bhyt>
+    <nopthem>0.0000</nopthem>
+    <thieu>0.0000</thieu>
+    <thua>0.0000</thua>
+    <chenhlech>0.0000</chenhlech>
+    <user_hoten>Vũ Thị Minh Phương</user_hoten>
+    <user_username>vuphuong</user_username>
+    <userid>34</userid>
+    <quyenso>23</quyenso>
+    <sobienlai>41</sobienlai>
+    <sohieu>14_NOITRU</sohieu>
+    <sohieubl>NT</sohieubl>
+    <hoan>0</hoan>
+    <tra>0.0000000000</tra>
+  </Table>
+  <Table>
+    <id>7140215151436592</id>
+    <mabn>14502524</mabn>
+    <mavaovien>140204071652298012</mavaovien>
+    <maql>140204114246927011</maql>
+    <loai>1</loai>
+    <ten_loaivp>Trong giờ</ten_loaivp>
+    <loaibn>1</loaibn>
+    <ngayvao>15/02/2014</ngayvao>
+    <ngayra>13/02/2014</ngayra>
+    <hoten>LÊ VĂN THÀNH</hoten>
+    <namsinh>1988</namsinh>
+    <diachi />
+    <tentt>Bình Dương</tentt>
+    <tenquan>TX. Thuận An</tenquan>
+    <tenpxa>Không Xác Định</tenpxa>
+    <makp>24</makp>
+    <tenkp>Khoa B4</tenkp>
+    <viettat>24</viettat>
+    <ngay>15/02/2014</ngay>
+    <thuoc>0</thuoc>
+    <vienphi>30000.0000000000</vienphi>
+    <sotien>30000.00000000</sotien>
+    <tamung>0</tamung>
+    <mien>0.0000</mien>
+    <bhyt>0.0000</bhyt>
+    <nopthem>0.0000</nopthem>
+    <thieu>0.0000</thieu>
+    <thua>0.0000</thua>
+    <chenhlech>0.0000</chenhlech>
+    <user_hoten>Vũ Thị Minh Phương</user_hoten>
+    <user_username>vuphuong</user_username>
+    <userid>34</userid>
+    <quyenso>23</quyenso>
+    <sobienlai>44</sobienlai>
+    <sohieu>14_NOITRU</sohieu>
+    <sohieubl>NT</sohieubl>
+    <hoan>0</hoan>
+    <tra>0.0000000000</tra>
+  </Table>
+  <Table>
+    <id>7140215151436592</id>
+    <mabn>14502524</mabn>
+    <mavaovien>140204071652298012</mavaovien>
+    <maql>140204114246927011</maql>
+    <loai>1</loai>
+    <ten_loaivp>Trong giờ</ten_loaivp>
+    <loaibn>1</loaibn>
+    <ngayvao>15/02/2014</ngayvao>
+    <ngayra>13/02/2014</ngayra>
+    <hoten>LÊ VĂN THÀNH</hoten>
+    <namsinh>1988</namsinh>
+    <diachi />
+    <tentt>Bình Dương</tentt>
+    <tenquan>TX. Thuận An</tenquan>
+    <tenpxa>Không Xác Định</tenpxa>
+    <makp>24</makp>
+    <tenkp>Khoa B4</tenkp>
+    <viettat>24</viettat>
+    <ngay>15/02/2014</ngay>
+    <thuoc>0</thuoc>
+    <vienphi>454545.0000000000</vienphi>
+    <sotien>454545.00000000</sotien>
+    <tamung>0</tamung>
+    <mien>0.0000</mien>
+    <bhyt>0.0000</bhyt>
+    <nopthem>0.0000</nopthem>
+    <thieu>0.0000</thieu>
+    <thua>0.0000</thua>
+    <chenhlech>0.0000</chenhlech>
+    <user_hoten>Vũ Thị Minh Phương</user_hoten>
+    <user_username>vuphuong</user_username>
+    <userid>34</userid>
+    <quyenso>23</quyenso>
+    <sobienlai>44</sobienlai>
+    <sohieu>14_NOITRU</sohieu>
+    <sohieubl>NT</sohieubl>
+    <hoan>0</hoan>
+    <tra>0.0000000000</tra>
+  </Table>
+  <Table>
+    <id>7140215151957171</id>
+    <mabn>14502524</mabn>
+    <mavaovien>140204071652298012</mavaovien>
+    <maql>140204114246927011</maql>
+    <loai>1</loai>
+    <ten_loaivp>Trong giờ</ten_loaivp>
+    <loaibn>1</loaibn>
+    <ngayvao>15/02/2014</ngayvao>
+    <ngayra>13/02/2014</ngayra>
+    <hoten>LÊ VĂN THÀNH</hoten>
+    <namsinh>1988</namsinh>
+    <diachi />
+    <tentt>Bình Dương</tentt>
+    <tenquan>TX. Thuận An</tenquan>
+    <tenpxa>Không Xác Định</tenpxa>
+    <makp>24</makp>
+    <tenkp>Khoa B4</tenkp>
+    <viettat>24</viettat>
+    <ngay>15/02/2014</ngay>
+    <thuoc>0</thuoc>
+    <vienphi>60000.0000000000</vienphi>
+    <sotien>60000.00000000</sotien>
+    <tamung>0</tamung>
+    <mien>0.0000</mien>
+    <bhyt>0.0000</bhyt>
+    <nopthem>0.0000</nopthem>
+    <thieu>0.0000</thieu>
+    <thua>0.0000</thua>
+    <chenhlech>0.0000</chenhlech>
+    <user_hoten>Vũ Thị Minh Phương</user_hoten>
+    <user_username>vuphuong</user_username>
+    <userid>34</userid>
+    <quyenso>23</quyenso>
+    <sobienlai>46</sobienlai>
+    <sohieu>14_NOITRU</sohieu>
+    <sohieubl>NT</sohieubl>
+    <hoan>0</hoan>
+    <tra>0.0000000000</tra>
+  </Table>
+  <Table>
+    <id>7140215151957171</id>
+    <mabn>14502524</mabn>
+    <mavaovien>140204071652298012</mavaovien>
+    <maql>140204114246927011</maql>
+    <loai>1</loai>
+    <ten_loaivp>Trong giờ</ten_loaivp>
+    <loaibn>1</loaibn>
+    <ngayvao>15/02/2014</ngayvao>
+    <ngayra>13/02/2014</ngayra>
+    <hoten>LÊ VĂN THÀNH</hoten>
+    <namsinh>1988</namsinh>
+    <diachi />
+    <tentt>Bình Dương</tentt>
+    <tenquan>TX. Thuận An</tenquan>
+    <tenpxa>Không Xác Định</tenpxa>
+    <makp>24</makp>
+    <tenkp>Khoa B4</tenkp>
+    <viettat>24</viettat>
+    <ngay>15/02/2014</ngay>
+    <thuoc>0</thuoc>
+    <vienphi>8000.0000000000</vienphi>
+    <sotien>8000.00000000</sotien>
+    <tamung>0</tamung>
+    <mien>0.0000</mien>
+    <bhyt>0.0000</bhyt>
+    <nopthem>0.0000</nopthem>
+    <thieu>0.0000</thieu>
+    <thua>0.0000</thua>
+    <chenhlech>0.0000</chenhlech>
+    <user_hoten>Vũ Thị Minh Phương</user_hoten>
+    <user_username>vuphuong</user_username>
+    <userid>34</userid>
+    <quyenso>23</quyenso>
+    <sobienlai>46</sobienlai>
+    <sohieu>14_NOITRU</sohieu>
+    <sohieubl>NT</sohieubl>
+    <hoan>0</hoan>
+    <tra>0.0000000000</tra>
+  </Table>
+  <Table>
+    <id>39140214161503590</id>
+    <mabn>14018258</mabn>
+    <mavaovien>140211164056731016</mavaovien>
+    <maql>140211224120858011</maql>
+    <loai>1</loai>
+    <ten_loaivp>Trong giờ</ten_loaivp>
+    <loaibn>4</loaibn>
+    <ngayvao>14/02/2014</ngayvao>
+    <ngayra>11/02/2014</ngayra>
+    <hoten>LÊ THỊ MỸ NHÂN</hoten>
+    <namsinh>01/01/1994</namsinh>
+    <diachi />
+    <tentt>Bình Dương</tentt>
+    <tenquan>Không Xác Định</tenquan>
+    <tenpxa>Không Xác Định</tenpxa>
+    <makp>18</makp>
+    <tenkp>Khoa A2</tenkp>
+    <viettat>18</viettat>
+    <ngay>14/02/2014</ngay>
+    <thuoc>0</thuoc>
+    <vienphi>30000.0000000000</vienphi>
+    <sotien>30000.00000000</sotien>
+    <tamung>300000</tamung>
+    <mien>0.0000</mien>
+    <bhyt>0.0000</bhyt>
+    <nopthem>0.0000</nopthem>
+    <thieu>0.0000</thieu>
+    <thua>0.0000</thua>
+    <chenhlech>0.0000</chenhlech>
+    <user_hoten>Vũ Thị Minh Phương</user_hoten>
+    <user_username>vuphuong</user_username>
+    <userid>34</userid>
+    <quyenso>23</quyenso>
+    <sobienlai>36</sobienlai>
+    <sohieu>14_NOITRU</sohieu>
+    <sohieubl>NT</sohieubl>
+    <hoan>0</hoan>
+    <tra>0.0000000000</tra>
+  </Table>
+  <Table>
+    <id>39140214161503590</id>
+    <mabn>14018258</mabn>
+    <mavaovien>140211164056731016</mavaovien>
+    <maql>140211224120858011</maql>
+    <loai>1</loai>
+    <ten_loaivp>Trong giờ</ten_loaivp>
+    <loaibn>4</loaibn>
+    <ngayvao>14/02/2014</ngayvao>
+    <ngayra>11/02/2014</ngayra>
+    <hoten>LÊ THỊ MỸ NHÂN</hoten>
+    <namsinh>01/01/1994</namsinh>
+    <diachi />
+    <tentt>Bình Dương</tentt>
+    <tenquan>Không Xác Định</tenquan>
+    <tenpxa>Không Xác Định</tenpxa>
+    <makp>18</makp>
+    <tenkp>Khoa A2</tenkp>
+    <viettat>18</viettat>
+    <ngay>14/02/2014</ngay>
+    <thuoc>0</thuoc>
+    <vienphi>114000.0000000000</vienphi>
+    <sotien>114000.00000000</sotien>
+    <tamung>300000</tamung>
+    <mien>0.0000</mien>
+    <bhyt>0.0000</bhyt>
+    <nopthem>0.0000</nopthem>
+    <thieu>0.0000</thieu>
+    <thua>0.0000</thua>
+    <chenhlech>0.0000</chenhlech>
+    <user_hoten>Vũ Thị Minh Phương</user_hoten>
+    <user_username>vuphuong</user_username>
+    <userid>34</userid>
+    <quyenso>23</quyenso>
+    <sobienlai>36</sobienlai>
+    <sohieu>14_NOITRU</sohieu>
+    <sohieubl>NT</sohieubl>
+    <hoan>0</hoan>
+    <tra>0.0000000000</tra>
+  </Table>
+  <Table>
+    <id>39140214161503590</id>
+    <mabn>14018258</mabn>
+    <mavaovien>140211164056731016</mavaovien>
+    <maql>140211224120858011</maql>
+    <loai>1</loai>
+    <ten_loaivp>Trong giờ</ten_loaivp>
+    <loaibn>4</loaibn>
+    <ngayvao>14/02/2014</ngayvao>
+    <ngayra>11/02/2014</ngayra>
+    <hoten>LÊ THỊ MỸ NHÂN</hoten>
+    <namsinh>01/01/1994</namsinh>
+    <diachi />
+    <tentt>Bình Dương</tentt>
+    <tenquan>Không Xác Định</tenquan>
+    <tenpxa>Không Xác Định</tenpxa>
+    <makp>18</makp>
+    <tenkp>Khoa A2</tenkp>
+    <viettat>18</viettat>
+    <ngay>14/02/2014</ngay>
+    <thuoc>0</thuoc>
+    <vienphi>60000.0000000000</vienphi>
+    <sotien>60000.00000000</sotien>
+    <tamung>300000</tamung>
+    <mien>0.0000</mien>
+    <bhyt>0.0000</bhyt>
+    <nopthem>0.0000</nopthem>
+    <thieu>0.0000</thieu>
+    <thua>0.0000</thua>
+    <chenhlech>0.0000</chenhlech>
+    <user_hoten>Vũ Thị Minh Phương</user_hoten>
+    <user_username>vuphuong</user_username>
+    <userid>34</userid>
+    <quyenso>23</quyenso>
+    <sobienlai>36</sobienlai>
+    <sohieu>14_NOITRU</sohieu>
+    <sohieubl>NT</sohieubl>
+    <hoan>0</hoan>
+    <tra>0.0000000000</tra>
+  </Table>
+  <Table>
+    <id>60140213092833291</id>
+    <mabn>14011110</mabn>
+    <mavaovien>140206222607041011</mavaovien>
+    <maql>140206222607928011</maql>
+    <loai>1</loai>
+    <ten_loaivp>Trong giờ</ten_loaivp>
+    <loaibn>1</loaibn>
+    <ngayvao>13/02/2014</ngayvao>
+    <ngayra>12/02/2014</ngayra>
+    <hoten>NGUYỄN THỊ KIM CHUNG</hoten>
+    <namsinh>02/02/1994</namsinh>
+    <diachi />
+    <tentt>Bình Dương</tentt>
+    <tenquan>Không Xác Định</tenquan>
+    <tenpxa>Không Xác Định</tenpxa>
+    <makp>19</makp>
+    <tenkp>Khoa A3</tenkp>
+    <viettat>19</viettat>
+    <ngay>13/02/2014</ngay>
+    <thuoc>0</thuoc>
+    <vienphi>10000.0000000000</vienphi>
+    <sotien>10000.00000000</sotien>
+    <tamung>0</tamung>
+    <mien>0.0000</mien>
+    <bhyt>110000.0000</bhyt>
+    <nopthem>0.0000</nopthem>
+    <thieu>0.0000</thieu>
+    <thua>0.0000</thua>
+    <chenhlech>0.0000</chenhlech>
+    <user_hoten>Vũ Thị Minh Phương</user_hoten>
+    <user_username>vuphuong</user_username>
+    <userid>34</userid>
+    <quyenso>23</quyenso>
+    <sobienlai>7</sobienlai>
+    <sohieu>14_NOITRU</sohieu>
+    <sohieubl>NT</sohieubl>
+    <hoan>0</hoan>
+    <tra>0.0000000000</tra>
+  </Table>
+  <Table>
+    <id>60140213092833291</id>
+    <mabn>14011110</mabn>
+    <mavaovien>140206222607041011</mavaovien>
+    <maql>140206222607928011</maql>
+    <loai>1</loai>
+    <ten_loaivp>Trong giờ</ten_loaivp>
+    <loaibn>1</loaibn>
+    <ngayvao>13/02/2014</ngayvao>
+    <ngayra>12/02/2014</ngayra>
+    <hoten>NGUYỄN THỊ KIM CHUNG</hoten>
+    <namsinh>02/02/1994</namsinh>
+    <diachi />
+    <tentt>Bình Dương</tentt>
+    <tenquan>Không Xác Định</tenquan>
+    <tenpxa>Không Xác Định</tenpxa>
+    <makp>19</makp>
+    <tenkp>Khoa A3</tenkp>
+    <viettat>19</viettat>
+    <ngay>13/02/2014</ngay>
+    <thuoc>0</thuoc>
+    <vienphi>30000.0000000000</vienphi>
+    <sotien>30000.00000000</sotien>
+    <tamung>0</tamung>
+    <mien>0.0000</mien>
+    <bhyt>110000.0000</bhyt>
+    <nopthem>0.0000</nopthem>
+    <thieu>0.0000</thieu>
+    <thua>0.0000</thua>
+    <chenhlech>0.0000</chenhlech>
+    <user_hoten>Vũ Thị Minh Phương</user_hoten>
+    <user_username>vuphuong</user_username>
+    <userid>34</userid>
+    <quyenso>23</quyenso>
+    <sobienlai>7</sobienlai>
+    <sohieu>14_NOITRU</sohieu>
+    <sohieubl>NT</sohieubl>
+    <hoan>0</hoan>
+    <tra>0.0000000000</tra>
+  </Table>
+  <Table>
+    <id>60140213092833291</id>
+    <mabn>14011110</mabn>
+    <mavaovien>140206222607041011</mavaovien>
+    <maql>140206222607928011</maql>
+    <loai>1</loai>
+    <ten_loaivp>Trong giờ</ten_loaivp>
+    <loaibn>1</loaibn>
+    <ngayvao>13/02/2014</ngayvao>
+    <ngayra>12/02/2014</ngayra>
+    <hoten>NGUYỄN THỊ KIM CHUNG</hoten>
+    <namsinh>02/02/1994</namsinh>
+    <diachi />
+    <tentt>Bình Dương</tentt>
+    <tenquan>Không Xác Định</tenquan>
+    <tenpxa>Không Xác Định</tenpxa>
+    <makp>19</makp>
+    <tenkp>Khoa A3</tenkp>
+    <viettat>19</viettat>
+    <ngay>13/02/2014</ngay>
+    <thuoc>0</thuoc>
+    <vienphi>180000.0000000000</vienphi>
+    <sotien>180000.00000000</sotien>
+    <tamung>0</tamung>
+    <mien>0.0000</mien>
+    <bhyt>110000.0000</bhyt>
+    <nopthem>0.0000</nopthem>
+    <thieu>0.0000</thieu>
+    <thua>0.0000</thua>
+    <chenhlech>0.0000</chenhlech>
+    <user_hoten>Vũ Thị Minh Phương</user_hoten>
+    <user_username>vuphuong</user_username>
+    <userid>34</userid>
+    <quyenso>23</quyenso>
+    <sobienlai>7</sobienlai>
+    <sohieu>14_NOITRU</sohieu>
+    <sohieubl>NT</sohieubl>
+    <hoan>0</hoan>
+    <tra>0.0000000000</tra>
+  </Table>
+  <Table>
+    <id>60140213104645018</id>
+    <mabn>14011110</mabn>
+    <mavaovien>140206222607041011</mavaovien>
+    <maql>140206222607928011</maql>
+    <loai>1</loai>
+    <ten_loaivp>Trong giờ</ten_loaivp>
+    <loaibn>1</loaibn>
+    <ngayvao>13/02/2014</ngayvao>
+    <ngayra>12/02/2014</ngayra>
+    <hoten>NGUYỄN THỊ KIM CHUNG</hoten>
+    <namsinh>02/02/1994</namsinh>
+    <diachi />
+    <tentt>Bình Dương</tentt>
+    <tenquan>Không Xác Định</tenquan>
+    <tenpxa>Không Xác Định</tenpxa>
+    <makp>19</makp>
+    <tenkp>Khoa A3</tenkp>
+    <viettat>19</viettat>
+    <ngay>13/02/2014</ngay>
+    <thuoc>0</thuoc>
+    <vienphi>10000.0000000000</vienphi>
+    <sotien>10000.00000000</sotien>
+    <tamung>0</tamung>
+    <mien>0.0000</mien>
+    <bhyt>0.0000</bhyt>
+    <nopthem>0.0000</nopthem>
+    <thieu>0.0000</thieu>
+    <thua>0.0000</thua>
+    <chenhlech>0.0000</chenhlech>
+    <user_hoten>Vũ Thị Minh Phương</user_hoten>
+    <user_username>vuphuong</user_username>
+    <userid>34</userid>
+    <quyenso>23</quyenso>
+    <sobienlai>14</sobienlai>
+    <sohieu>14_NOITRU</sohieu>
+    <sohieubl>NT</sohieubl>
+    <hoan>0</hoan>
+    <tra>0.0000000000</tra>
+  </Table>
+  <Table>
+    <id>60140213104645018</id>
+    <mabn>14011110</mabn>
+    <mavaovien>140206222607041011</mavaovien>
+    <maql>140206222607928011</maql>
+    <loai>1</loai>
+    <ten_loaivp>Trong giờ</ten_loaivp>
+    <loaibn>1</loaibn>
+    <ngayvao>13/02/2014</ngayvao>
+    <ngayra>12/02/2014</ngayra>
+    <hoten>NGUYỄN THỊ KIM CHUNG</hoten>
+    <namsinh>02/02/1994</namsinh>
+    <diachi />
+    <tentt>Bình Dương</tentt>
+    <tenquan>Không Xác Định</tenquan>
+    <tenpxa>Không Xác Định</tenpxa>
+    <makp>19</makp>
+    <tenkp>Khoa A3</tenkp>
+    <viettat>19</viettat>
+    <ngay>13/02/2014</ngay>
+    <thuoc>0</thuoc>
+    <vienphi>30000.0000000000</vienphi>
+    <sotien>30000.00000000</sotien>
+    <tamung>0</tamung>
+    <mien>0.0000</mien>
+    <bhyt>0.0000</bhyt>
+    <nopthem>0.0000</nopthem>
+    <thieu>0.0000</thieu>
+    <thua>0.0000</thua>
+    <chenhlech>0.0000</chenhlech>
+    <user_hoten>Vũ Thị Minh Phương</user_hoten>
+    <user_username>vuphuong</user_username>
+    <userid>34</userid>
+    <quyenso>23</quyenso>
+    <sobienlai>14</sobienlai>
+    <sohieu>14_NOITRU</sohieu>
+    <sohieubl>NT</sohieubl>
+    <hoan>0</hoan>
+    <tra>0.0000000000</tra>
+  </Table>
+  <Table>
+    <id>60140213104645018</id>
+    <mabn>14011110</mabn>
+    <mavaovien>140206222607041011</mavaovien>
+    <maql>140206222607928011</maql>
+    <loai>1</loai>
+    <ten_loaivp>Trong giờ</ten_loaivp>
+    <loaibn>1</loaibn>
+    <ngayvao>13/02/2014</ngayvao>
+    <ngayra>12/02/2014</ngayra>
+    <hoten>NGUYỄN THỊ KIM CHUNG</hoten>
+    <namsinh>02/02/1994</namsinh>
+    <diachi />
+    <tentt>Bình Dương</tentt>
+    <tenquan>Không Xác Định</tenquan>
+    <tenpxa>Không Xác Định</tenpxa>
+    <makp>19</makp>
+    <tenkp>Khoa A3</tenkp>
+    <viettat>19</viettat>
+    <ngay>13/02/2014</ngay>
+    <thuoc>0</thuoc>
+    <vienphi>132000.0000000000</vienphi>
+    <sotien>132000.00000000</sotien>
+    <tamung>0</tamung>
+    <mien>0.0000</mien>
+    <bhyt>0.0000</bhyt>
+    <nopthem>0.0000</nopthem>
+    <thieu>0.0000</thieu>
+    <thua>0.0000</thua>
+    <chenhlech>0.0000</chenhlech>
+    <user_hoten>Vũ Thị Minh Phương</user_hoten>
+    <user_username>vuphuong</user_username>
+    <userid>34</userid>
+    <quyenso>23</quyenso>
+    <sobienlai>14</sobienlai>
+    <sohieu>14_NOITRU</sohieu>
+    <sohieubl>NT</sohieubl>
+    <hoan>0</hoan>
+    <tra>0.0000000000</tra>
+  </Table>
+  <Table>
+    <id>60140213104645018</id>
+    <mabn>14011110</mabn>
+    <mavaovien>140206222607041011</mavaovien>
+    <maql>140206222607928011</maql>
+    <loai>1</loai>
+    <ten_loaivp>Trong giờ</ten_loaivp>
+    <loaibn>1</loaibn>
+    <ngayvao>13/02/2014</ngayvao>
+    <ngayra>12/02/2014</ngayra>
+    <hoten>NGUYỄN THỊ KIM CHUNG</hoten>
+    <namsinh>02/02/1994</namsinh>
+    <diachi />
+    <tentt>Bình Dương</tentt>
+    <tenquan>Không Xác Định</tenquan>
+    <tenpxa>Không Xác Định</tenpxa>
+    <makp>19</makp>
+    <tenkp>Khoa A3</tenkp>
+    <viettat>19</viettat>
+    <ngay>13/02/2014</ngay>
+    <thuoc>0</thuoc>
+    <vienphi>180000.0000000000</vienphi>
+    <sotien>180000.00000000</sotien>
+    <tamung>0</tamung>
+    <mien>0.0000</mien>
+    <bhyt>0.0000</bhyt>
+    <nopthem>0.0000</nopthem>
+    <thieu>0.0000</thieu>
+    <thua>0.0000</thua>
+    <chenhlech>0.0000</chenhlech>
+    <user_hoten>Vũ Thị Minh Phương</user_hoten>
+    <user_username>vuphuong</user_username>
+    <userid>34</userid>
+    <quyenso>23</quyenso>
+    <sobienlai>14</sobienlai>
+    <sohieu>14_NOITRU</sohieu>
+    <sohieubl>NT</sohieubl>
+    <hoan>0</hoan>
+    <tra>0.0000000000</tra>
+  </Table>
+  <Table>
+    <id>60140214090033625</id>
+    <mabn>14014737</mabn>
+    <mavaovien>140211080027711023</mavaovien>
+    <maql>140211103544888016</maql>
+    <loai>1</loai>
+    <ten_loaivp>Trong giờ</ten_loaivp>
+    <loaibn>1</loaibn>
+    <ngayvao>14/02/2014</ngayvao>
+    <ngayra>13/02/2014</ngayra>
+    <hoten>CHÂU VĂN THẮNG</hoten>
+    <namsinh>01/01/1982</namsinh>
+    <diachi />
+    <tentt>Cà mau</tentt>
+    <tenquan>Không Xác Định</tenquan>
+    <tenpxa>Không Xác Định</tenpxa>
+    <makp>24</makp>
+    <tenkp>Khoa B4</tenkp>
+    <viettat>24</viettat>
+    <ngay>14/02/2014</ngay>
+    <thuoc>0</thuoc>
+    <vienphi>3000.0000000000</vienphi>
+    <sotien>3000.00000000</sotien>
+    <tamung>1500000</tamung>
+    <mien>0.0000</mien>
+    <bhyt>0.0000</bhyt>
+    <nopthem>0.0000</nopthem>
+    <thieu>0.0000</thieu>
+    <thua>0.0000</thua>
+    <chenhlech>0.0000</chenhlech>
+    <user_hoten>Vũ Thị Minh Phương</user_hoten>
+    <user_username>vuphuong</user_username>
+    <userid>34</userid>
+    <quyenso>23</quyenso>
+    <sobienlai>15</sobienlai>
+    <sohieu>14_NOITRU</sohieu>
+    <sohieubl>NT</sohieubl>
+    <hoan>0</hoan>
+    <tra>0.0000000000</tra>
+  </Table>
+  <Table>
+    <id>60140214090033625</id>
+    <mabn>14014737</mabn>
+    <mavaovien>140211080027711023</mavaovien>
+    <maql>140211103544888016</maql>
+    <loai>1</loai>
+    <ten_loaivp>Trong giờ</ten_loaivp>
+    <loaibn>1</loaibn>
+    <ngayvao>14/02/2014</ngayvao>
+    <ngayra>13/02/2014</ngayra>
+    <hoten>CHÂU VĂN THẮNG</hoten>
+    <namsinh>01/01/1982</namsinh>
+    <diachi />
+    <tentt>Cà mau</tentt>
+    <tenquan>Không Xác Định</tenquan>
+    <tenpxa>Không Xác Định</tenpxa>
+    <makp>24</makp>
+    <tenkp>Khoa B4</tenkp>
+    <viettat>24</viettat>
+    <ngay>14/02/2014</ngay>
+    <thuoc>0</thuoc>
+    <vienphi>30000.0000000000</vienphi>
+    <sotien>30000.00000000</sotien>
+    <tamung>1500000</tamung>
+    <mien>0.0000</mien>
+    <bhyt>0.0000</bhyt>
+    <nopthem>0.0000</nopthem>
+    <thieu>0.0000</thieu>
+    <thua>0.0000</thua>
+    <chenhlech>0.0000</chenhlech>
+    <user_hoten>Vũ Thị Minh Phương</user_hoten>
+    <user_username>vuphuong</user_username>
+    <userid>34</userid>
+    <quyenso>23</quyenso>
+    <sobienlai>15</sobienlai>
+    <sohieu>14_NOITRU</sohieu>
+    <sohieubl>NT</sohieubl>
+    <hoan>0</hoan>
+    <tra>0.0000000000</tra>
+  </Table>
+  <Table>
+    <id>60140214090033625</id>
+    <mabn>14014737</mabn>
+    <mavaovien>140211080027711023</mavaovien>
+    <maql>140211103544888016</maql>
+    <loai>1</loai>
+    <ten_loaivp>Trong giờ</ten_loaivp>
+    <loaibn>1</loaibn>
+    <ngayvao>14/02/2014</ngayvao>
+    <ngayra>13/02/2014</ngayra>
+    <hoten>CHÂU VĂN THẮNG</hoten>
+    <namsinh>01/01/1982</namsinh>
+    <diachi />
+    <tentt>Cà mau</tentt>
+    <tenquan>Không Xác Định</tenquan>
+    <tenpxa>Không Xác Định</tenpxa>
+    <makp>24</makp>
+    <tenkp>Khoa B4</tenkp>
+    <viettat>24</viettat>
+    <ngay>14/02/2014</ngay>
+    <thuoc>0</thuoc>
+    <vienphi>60000.0000000000</vienphi>
+    <sotien>60000.00000000</sotien>
+    <tamung>1500000</tamung>
+    <mien>0.0000</mien>
+    <bhyt>0.0000</bhyt>
+    <nopthem>0.0000</nopthem>
+    <thieu>0.0000</thieu>
+    <thua>0.0000</thua>
+    <chenhlech>0.0000</chenhlech>
+    <user_hoten>Vũ Thị Minh Phương</user_hoten>
+    <user_username>vuphuong</user_username>
+    <userid>34</userid>
+    <quyenso>23</quyenso>
+    <sobienlai>15</sobienlai>
+    <sohieu>14_NOITRU</sohieu>
+    <sohieubl>NT</sohieubl>
+    <hoan>0</hoan>
+    <tra>0.0000000000</tra>
+  </Table>
+  <Table>
+    <id>60140214090033625</id>
+    <mabn>14014737</mabn>
+    <mavaovien>140211080027711023</mavaovien>
+    <maql>140211103544888016</maql>
+    <loai>1</loai>
+    <ten_loaivp>Trong giờ</ten_loaivp>
+    <loaibn>1</loaibn>
+    <ngayvao>14/02/2014</ngayvao>
+    <ngayra>13/02/2014</ngayra>
+    <hoten>CHÂU VĂN THẮNG</hoten>
+    <namsinh>01/01/1982</namsinh>
+    <diachi />
+    <tentt>Cà mau</tentt>
+    <tenquan>Không Xác Định</tenquan>
+    <tenpxa>Không Xác Định</tenpxa>
+    <makp>24</makp>
+    <tenkp>Khoa B4</tenkp>
+    <viettat>24</viettat>
+    <ngay>14/02/2014</ngay>
+    <thuoc>0</thuoc>
+    <vienphi>789000.0000000000</vienphi>
+    <sotien>789000.00000000</sotien>
+    <tamung>1500000</tamung>
+    <mien>0.0000</mien>
+    <bhyt>0.0000</bhyt>
+    <nopthem>0.0000</nopthem>
+    <thieu>0.0000</thieu>
+    <thua>0.0000</thua>
+    <chenhlech>0.0000</chenhlech>
+    <user_hoten>Vũ Thị Minh Phương</user_hoten>
+    <user_username>vuphuong</user_username>
+    <userid>34</userid>
+    <quyenso>23</quyenso>
+    <sobienlai>15</sobienlai>
+    <sohieu>14_NOITRU</sohieu>
+    <sohieubl>NT</sohieubl>
+    <hoan>0</hoan>
+    <tra>0.0000000000</tra>
+  </Table>
+  <Table>
+    <id>60140214090754171</id>
+    <mabn>14007292</mabn>
+    <mavaovien>140210093656412016</mavaovien>
+    <maql>140210093656022016</maql>
+    <loai>1</loai>
+    <ten_loaivp>Trong giờ</ten_loaivp>
+    <loaibn>1</loaibn>
+    <ngayvao>14/02/2014</ngayvao>
+    <ngayra>13/02/2014</ngayra>
+    <hoten>HÀ VĂN GIANG</hoten>
+    <namsinh>18/05/1990</namsinh>
+    <diachi />
+    <tentt>Bình Dương</tentt>
+    <tenquan>TX. Thuận An</tenquan>
+    <tenpxa>Không Xác Định</tenpxa>
+    <makp>18</makp>
+    <tenkp>Khoa A2</tenkp>
+    <viettat>18</viettat>
+    <ngay>14/02/2014</ngay>
+    <thuoc>0</thuoc>
+    <vienphi>30000.0000000000</vienphi>
+    <sotien>30000.00000000</sotien>
+    <tamung>500000</tamung>
+    <mien>0.0000</mien>
+    <bhyt>0.0000</bhyt>
+    <nopthem>0.0000</nopthem>
+    <thieu>0.0000</thieu>
+    <thua>0.0000</thua>
+    <chenhlech>0.0000</chenhlech>
+    <user_hoten>Vũ Thị Minh Phương</user_hoten>
+    <user_username>vuphuong</user_username>
+    <userid>34</userid>
+    <quyenso>23</quyenso>
+    <sobienlai>16</sobienlai>
+    <sohieu>14_NOITRU</sohieu>
+    <sohieubl>NT</sohieubl>
+    <hoan>0</hoan>
+    <tra>0.0000000000</tra>
+  </Table>
+  <Table>
+    <id>60140214090754171</id>
+    <mabn>14007292</mabn>
+    <mavaovien>140210093656412016</mavaovien>
+    <maql>140210093656022016</maql>
+    <loai>1</loai>
+    <ten_loaivp>Trong giờ</ten_loaivp>
+    <loaibn>1</loaibn>
+    <ngayvao>14/02/2014</ngayvao>
+    <ngayra>13/02/2014</ngayra>
+    <hoten>HÀ VĂN GIANG</hoten>
+    <namsinh>18/05/1990</namsinh>
+    <diachi />
+    <tentt>Bình Dương</tentt>
+    <tenquan>TX. Thuận An</tenquan>
+    <tenpxa>Không Xác Định</tenpxa>
+    <makp>18</makp>
+    <tenkp>Khoa A2</tenkp>
+    <viettat>18</viettat>
+    <ngay>14/02/2014</ngay>
+    <thuoc>0</thuoc>
+    <vienphi>147000.0000000000</vienphi>
+    <sotien>147000.00000000</sotien>
+    <tamung>500000</tamung>
+    <mien>0.0000</mien>
+    <bhyt>0.0000</bhyt>
+    <nopthem>0.0000</nopthem>
+    <thieu>0.0000</thieu>
+    <thua>0.0000</thua>
+    <chenhlech>0.0000</chenhlech>
+    <user_hoten>Vũ Thị Minh Phương</user_hoten>
+    <user_username>vuphuong</user_username>
+    <userid>34</userid>
+    <quyenso>23</quyenso>
+    <sobienlai>16</sobienlai>
+    <sohieu>14_NOITRU</sohieu>
+    <sohieubl>NT</sohieubl>
+    <hoan>0</hoan>
+    <tra>0.0000000000</tra>
+  </Table>
+  <Table>
+    <id>60140214101807699</id>
+    <mabn>14004830</mabn>
+    <mavaovien>140210070328741011</mavaovien>
+    <maql>140210070328630011</maql>
+    <loai>1</loai>
+    <ten_loaivp>Trong giờ</ten_loaivp>
+    <loaibn>1</loaibn>
+    <ngayvao>14/02/2014</ngayvao>
+    <ngayra>11/02/2014</ngayra>
+    <hoten>HOÀNG XUÂN THẮNG</hoten>
+    <namsinh>1990</namsinh>
+    <diachi />
+    <tentt>Bình Dương</tentt>
+    <tenquan>TX. Dĩ An</tenquan>
+    <tenpxa>P.Dĩ An</tenpxa>
+    <makp>18</makp>
+    <tenkp>Khoa A2</tenkp>
+    <viettat>18</viettat>
+    <ngay>14/02/2014</ngay>
+    <thuoc>0</thuoc>
+    <vienphi>30000.0000000000</vienphi>
+    <sotien>30000.00000000</sotien>
+    <tamung>0</tamung>
+    <mien>0.0000</mien>
+    <bhyt>0.0000</bhyt>
+    <nopthem>0.0000</nopthem>
+    <thieu>0.0000</thieu>
+    <thua>0.0000</thua>
+    <chenhlech>0.0000</chenhlech>
+    <user_hoten>Vũ Thị Minh Phương</user_hoten>
+    <user_username>vuphuong</user_username>
+    <userid>34</userid>
+    <quyenso>23</quyenso>
+    <sobienlai>18</sobienlai>
+    <sohieu>14_NOITRU</sohieu>
+    <sohieubl>NT</sohieubl>
+    <hoan>0</hoan>
+    <tra>0.0000000000</tra>
+  </Table>
+  <Table>
+    <id>60140214101807699</id>
+    <mabn>14004830</mabn>
+    <mavaovien>140210070328741011</mavaovien>
+    <maql>140210070328630011</maql>
+    <loai>1</loai>
+    <ten_loaivp>Trong giờ</ten_loaivp>
+    <loaibn>1</loaibn>
+    <ngayvao>14/02/2014</ngayvao>
+    <ngayra>11/02/2014</ngayra>
+    <hoten>HOÀNG XUÂN THẮNG</hoten>
+    <namsinh>1990</namsinh>
+    <diachi />
+    <tentt>Bình Dương</tentt>
+    <tenquan>TX. Dĩ An</tenquan>
+    <tenpxa>P.Dĩ An</tenpxa>
+    <makp>18</makp>
+    <tenkp>Khoa A2</tenkp>
+    <viettat>18</viettat>
+    <ngay>14/02/2014</ngay>
+    <thuoc>0</thuoc>
+    <vienphi>81000.0000000000</vienphi>
+    <sotien>81000.00000000</sotien>
+    <tamung>0</tamung>
+    <mien>0.0000</mien>
+    <bhyt>0.0000</bhyt>
+    <nopthem>0.0000</nopthem>
+    <thieu>0.0000</thieu>
+    <thua>0.0000</thua>
+    <chenhlech>0.0000</chenhlech>
+    <user_hoten>Vũ Thị Minh Phương</user_hoten>
+    <user_username>vuphuong</user_username>
+    <userid>34</userid>
+    <quyenso>23</quyenso>
+    <sobienlai>18</sobienlai>
+    <sohieu>14_NOITRU</sohieu>
+    <sohieubl>NT</sohieubl>
+    <hoan>0</hoan>
+    <tra>0.0000000000</tra>
+  </Table>
+  <Table>
+    <id>60140214102355193</id>
+    <mabn>14506524</mabn>
+    <mavaovien>140213140407047012</mavaovien>
+    <maql>140213170953147011</maql>
+    <loai>1</loai>
+    <ten_loaivp>Trong giờ</ten_loaivp>
+    <loaibn>4</loaibn>
+    <ngayvao>14/02/2014</ngayvao>
+    <ngayra>13/02/2014</ngayra>
+    <hoten>BÙI VĂN THIỆN</hoten>
+    <namsinh>1980</namsinh>
+    <diachi />
+    <tentt>Tp. HCM</tentt>
+    <tenquan>Q. Thủ Đức</tenquan>
+    <tenpxa>P. Bình Chiểu</tenpxa>
+    <makp>18</makp>
+    <tenkp>Khoa A2</tenkp>
+    <viettat>18</viettat>
+    <ngay>14/02/2014</ngay>
+    <thuoc>0</thuoc>
+    <vienphi>49000.0000000000</vienphi>
+    <sotien>49000.00000000</sotien>
+    <tamung>1000000</tamung>
+    <mien>0.0000</mien>
+    <bhyt>0.0000</bhyt>
+    <nopthem>0.0000</nopthem>
+    <thieu>0.0000</thieu>
+    <thua>0.0000</thua>
+    <chenhlech>0.0000</chenhlech>
+    <user_hoten>Vũ Thị Minh Phương</user_hoten>
+    <user_username>vuphuong</user_username>
+    <userid>34</userid>
+    <quyenso>23</quyenso>
+    <sobienlai>19</sobienlai>
+    <sohieu>14_NOITRU</sohieu>
+    <sohieubl>NT</sohieubl>
+    <hoan>0</hoan>
+    <tra>0.0000000000</tra>
+  </Table>
+  <Table>
+    <id>60140214102355193</id>
+    <mabn>14506524</mabn>
+    <mavaovien>140213140407047012</mavaovien>
+    <maql>140213170953147011</maql>
+    <loai>1</loai>
+    <ten_loaivp>Trong giờ</ten_loaivp>
+    <loaibn>4</loaibn>
+    <ngayvao>14/02/2014</ngayvao>
+    <ngayra>13/02/2014</ngayra>
+    <hoten>BÙI VĂN THIỆN</hoten>
+    <namsinh>1980</namsinh>
+    <diachi />
+    <tentt>Tp. HCM</tentt>
+    <tenquan>Q. Thủ Đức</tenquan>
+    <tenpxa>P. Bình Chiểu</tenpxa>
+    <makp>18</makp>
+    <tenkp>Khoa A2</tenkp>
+    <viettat>18</viettat>
+    <ngay>14/02/2014</ngay>
+    <thuoc>0</thuoc>
+    <vienphi>10000.0000000000</vienphi>
+    <sotien>10000.00000000</sotien>
+    <tamung>1000000</tamung>
+    <mien>0.0000</mien>
+    <bhyt>0.0000</bhyt>
+    <nopthem>0.0000</nopthem>
+    <thieu>0.0000</thieu>
+    <thua>0.0000</thua>
+    <chenhlech>0.0000</chenhlech>
+    <user_hoten>Vũ Thị Minh Phương</user_hoten>
+    <user_username>vuphuong</user_username>
+    <userid>34</userid>
+    <quyenso>23</quyenso>
+    <sobienlai>19</sobienlai>
+    <sohieu>14_NOITRU</sohieu>
+    <sohieubl>NT</sohieubl>
+    <hoan>0</hoan>
+    <tra>0.0000000000</tra>
+  </Table>
+  <Table>
+    <id>60140214102355193</id>
+    <mabn>14506524</mabn>
+    <mavaovien>140213140407047012</mavaovien>
+    <maql>140213170953147011</maql>
+    <loai>1</loai>
+    <ten_loaivp>Trong giờ</ten_loaivp>
+    <loaibn>4</loaibn>
+    <ngayvao>14/02/2014</ngayvao>
+    <ngayra>13/02/2014</ngayra>
+    <hoten>BÙI VĂN THIỆN</hoten>
+    <namsinh>1980</namsinh>
+    <diachi />
+    <tentt>Tp. HCM</tentt>
+    <tenquan>Q. Thủ Đức</tenquan>
+    <tenpxa>P. Bình Chiểu</tenpxa>
+    <makp>18</makp>
+    <tenkp>Khoa A2</tenkp>
+    <viettat>18</viettat>
+    <ngay>14/02/2014</ngay>
+    <thuoc>0</thuoc>
+    <vienphi>55000.0000000000</vienphi>
+    <sotien>55000.00000000</sotien>
+    <tamung>1000000</tamung>
+    <mien>0.0000</mien>
+    <bhyt>0.0000</bhyt>
+    <nopthem>0.0000</nopthem>
+    <thieu>0.0000</thieu>
+    <thua>0.0000</thua>
+    <chenhlech>0.0000</chenhlech>
+    <user_hoten>Vũ Thị Minh Phương</user_hoten>
+    <user_username>vuphuong</user_username>
+    <userid>34</userid>
+    <quyenso>23</quyenso>
+    <sobienlai>19</sobienlai>
+    <sohieu>14_NOITRU</sohieu>
+    <sohieubl>NT</sohieubl>
+    <hoan>0</hoan>
+    <tra>0.0000000000</tra>
+  </Table>
+  <Table>
+    <id>60140214102355193</id>
+    <mabn>14506524</mabn>
+    <mavaovien>140213140407047012</mavaovien>
+    <maql>140213170953147011</maql>
+    <loai>1</loai>
+    <ten_loaivp>Trong giờ</ten_loaivp>
+    <loaibn>4</loaibn>
+    <ngayvao>14/02/2014</ngayvao>
+    <ngayra>13/02/2014</ngayra>
+    <hoten>BÙI VĂN THIỆN</hoten>
+    <namsinh>1980</namsinh>
+    <diachi />
+    <tentt>Tp. HCM</tentt>
+    <tenquan>Q. Thủ Đức</tenquan>
+    <tenpxa>P. Bình Chiểu</tenpxa>
+    <makp>18</makp>
+    <tenkp>Khoa A2</tenkp>
+    <viettat>18</viettat>
+    <ngay>14/02/2014</ngay>
+    <thuoc>0</thuoc>
+    <vienphi>10000.0000000000</vienphi>
+    <sotien>10000.00000000</sotien>
+    <tamung>1000000</tamung>
+    <mien>0.0000</mien>
+    <bhyt>0.0000</bhyt>
+    <nopthem>0.0000</nopthem>
+    <thieu>0.0000</thieu>
+    <thua>0.0000</thua>
+    <chenhlech>0.0000</chenhlech>
+    <user_hoten>Vũ Thị Minh Phương</user_hoten>
+    <user_username>vuphuong</user_username>
+    <userid>34</userid>
+    <quyenso>23</quyenso>
+    <sobienlai>19</sobienlai>
+    <sohieu>14_NOITRU</sohieu>
+    <sohieubl>NT</sohieubl>
+    <hoan>0</hoan>
+    <tra>0.0000000000</tra>
+  </Table>
+  <Table>
+    <id>60140214102355193</id>
+    <mabn>14506524</mabn>
+    <mavaovien>140213140407047012</mavaovien>
+    <maql>140213170953147011</maql>
+    <loai>1</loai>
+    <ten_loaivp>Trong giờ</ten_loaivp>
+    <loaibn>4</loaibn>
+    <ngayvao>14/02/2014</ngayvao>
+    <ngayra>13/02/2014</ngayra>
+    <hoten>BÙI VĂN THIỆN</hoten>
+    <namsinh>1980</namsinh>
+    <diachi />
+    <tentt>Tp. HCM</tentt>
+    <tenquan>Q. Thủ Đức</tenquan>
+    <tenpxa>P. Bình Chiểu</tenpxa>
+    <makp>18</makp>
+    <tenkp>Khoa A2</tenkp>
+    <viettat>18</viettat>
+    <ngay>14/02/2014</ngay>
+    <thuoc>0</thuoc>
+    <vienphi>104000.0000000000</vienphi>
+    <sotien>104000.00000000</sotien>
+    <tamung>1000000</tamung>
+    <mien>0.0000</mien>
+    <bhyt>0.0000</bhyt>
+    <nopthem>0.0000</nopthem>
+    <thieu>0.0000</thieu>
+    <thua>0.0000</thua>
+    <chenhlech>0.0000</chenhlech>
+    <user_hoten>Vũ Thị Minh Phương</user_hoten>
+    <user_username>vuphuong</user_username>
+    <userid>34</userid>
+    <quyenso>23</quyenso>
+    <sobienlai>19</sobienlai>
+    <sohieu>14_NOITRU</sohieu>
+    <sohieubl>NT</sohieubl>
+    <hoan>0</hoan>
+    <tra>0.0000000000</tra>
+  </Table>
+  <Table>
+    <id>60140214102355193</id>
+    <mabn>14506524</mabn>
+    <mavaovien>140213140407047012</mavaovien>
+    <maql>140213170953147011</maql>
+    <loai>1</loai>
+    <ten_loaivp>Trong giờ</ten_loaivp>
+    <loaibn>4</loaibn>
+    <ngayvao>14/02/2014</ngayvao>
+    <ngayra>13/02/2014</ngayra>
+    <hoten>BÙI VĂN THIỆN</hoten>
+    <namsinh>1980</namsinh>
+    <diachi />
+    <tentt>Tp. HCM</tentt>
+    <tenquan>Q. Thủ Đức</tenquan>
+    <tenpxa>P. Bình Chiểu</tenpxa>
+    <makp>18</makp>
+    <tenkp>Khoa A2</tenkp>
+    <viettat>18</viettat>
+    <ngay>14/02/2014</ngay>
+    <thuoc>0</thuoc>
+    <vienphi>30000.0000000000</vienphi>
+    <sotien>30000.00000000</sotien>
+    <tamung>1000000</tamung>
+    <mien>0.0000</mien>
+    <bhyt>0.0000</bhyt>
+    <nopthem>0.0000</nopthem>
+    <thieu>0.0000</thieu>
+    <thua>0.0000</thua>
+    <chenhlech>0.0000</chenhlech>
+    <user_hoten>Vũ Thị Minh Phương</user_hoten>
+    <user_username>vuphuong</user_username>
+    <userid>34</userid>
+    <quyenso>23</quyenso>
+    <sobienlai>19</sobienlai>
+    <sohieu>14_NOITRU</sohieu>
+    <sohieubl>NT</sohieubl>
+    <hoan>0</hoan>
+    <tra>0.0000000000</tra>
+  </Table>
+  <Table>
+    <id>60140214102355193</id>
+    <mabn>14506524</mabn>
+    <mavaovien>140213140407047012</mavaovien>
+    <maql>140213170953147011</maql>
+    <loai>1</loai>
+    <ten_loaivp>Trong giờ</ten_loaivp>
+    <loaibn>4</loaibn>
+    <ngayvao>14/02/2014</ngayvao>
+    <ngayra>13/02/2014</ngayra>
+    <hoten>BÙI VĂN THIỆN</hoten>
+    <namsinh>1980</namsinh>
+    <diachi />
+    <tentt>Tp. HCM</tentt>
+    <tenquan>Q. Thủ Đức</tenquan>
+    <tenpxa>P. Bình Chiểu</tenpxa>
+    <makp>18</makp>
+    <tenkp>Khoa A2</tenkp>
+    <viettat>18</viettat>
+    <ngay>14/02/2014</ngay>
+    <thuoc>0</thuoc>
+    <vienphi>175000.0000000000</vienphi>
+    <sotien>175000.00000000</sotien>
+    <tamung>1000000</tamung>
+    <mien>0.0000</mien>
+    <bhyt>0.0000</bhyt>
+    <nopthem>0.0000</nopthem>
+    <thieu>0.0000</thieu>
+    <thua>0.0000</thua>
+    <chenhlech>0.0000</chenhlech>
+    <user_hoten>Vũ Thị Minh Phương</user_hoten>
+    <user_username>vuphuong</user_username>
+    <userid>34</userid>
+    <quyenso>23</quyenso>
+    <sobienlai>19</sobienlai>
+    <sohieu>14_NOITRU</sohieu>
+    <sohieubl>NT</sohieubl>
+    <hoan>0</hoan>
+    <tra>0.0000000000</tra>
+  </Table>
+  <Table>
+    <id>60140214102355193</id>
+    <mabn>14506524</mabn>
+    <mavaovien>140213140407047012</mavaovien>
+    <maql>140213170953147011</maql>
+    <loai>1</loai>
+    <ten_loaivp>Trong giờ</ten_loaivp>
+    <loaibn>4</loaibn>
+    <ngayvao>14/02/2014</ngayvao>
+    <ngayra>13/02/2014</ngayra>
+    <hoten>BÙI VĂN THIỆN</hoten>
+    <namsinh>1980</namsinh>
+    <diachi />
+    <tentt>Tp. HCM</tentt>
+    <tenquan>Q. Thủ Đức</tenquan>
+    <tenpxa>P. Bình Chiểu</tenpxa>
+    <makp>18</makp>
+    <tenkp>Khoa A2</tenkp>
+    <viettat>18</viettat>
+    <ngay>14/02/2014</ngay>
+    <thuoc>0</thuoc>
+    <vienphi>55000.0000000000</vienphi>
+    <sotien>55000.00000000</sotien>
+    <tamung>1000000</tamung>
+    <mien>0.0000</mien>
+    <bhyt>0.0000</bhyt>
+    <nopthem>0.0000</nopthem>
+    <thieu>0.0000</thieu>
+    <thua>0.0000</thua>
+    <chenhlech>0.0000</chenhlech>
+    <user_hoten>Vũ Thị Minh Phương</user_hoten>
+    <user_username>vuphuong</user_username>
+    <userid>34</userid>
+    <quyenso>23</quyenso>
+    <sobienlai>19</sobienlai>
+    <sohieu>14_NOITRU</sohieu>
+    <sohieubl>NT</sohieubl>
+    <hoan>0</hoan>
+    <tra>0.0000000000</tra>
+  </Table>
+  <Table>
+    <id>60140214140830252</id>
+    <mabn>14017474</mabn>
+    <mavaovien>140210133622770016</mavaovien>
+    <maql>140210145827047016</maql>
+    <loai>1</loai>
+    <ten_loaivp>Trong giờ</ten_loaivp>
+    <loaibn>1</loaibn>
+    <ngayvao>14/02/2014</ngayvao>
+    <ngayra>14/02/2014</ngayra>
+    <hoten>LÊ THANH HAI</hoten>
+    <namsinh>15/08/1990</namsinh>
+    <diachi />
+    <tentt>Bình Dương</tentt>
+    <tenquan>TX. Thuận An</tenquan>
+    <tenpxa>P. Bình Hòa</tenpxa>
+    <makp>18</makp>
+    <tenkp>Khoa A2</tenkp>
+    <viettat>18</viettat>
+    <ngay>14/02/2014</ngay>
+    <thuoc>0</thuoc>
+    <vienphi>30000.0000000000</vienphi>
+    <sotien>30000.00000000</sotien>
+    <tamung>500000</tamung>
+    <mien>0.0000</mien>
+    <bhyt>0.0000</bhyt>
+    <nopthem>0.0000</nopthem>
+    <thieu>0.0000</thieu>
+    <thua>0.0000</thua>
+    <chenhlech>0.0000</chenhlech>
+    <user_hoten>Vũ Thị Minh Phương</user_hoten>
+    <user_username>vuphuong</user_username>
+    <userid>34</userid>
+    <quyenso>23</quyenso>
+    <sobienlai>22</sobienlai>
+    <sohieu>14_NOITRU</sohieu>
+    <sohieubl>NT</sohieubl>
+    <hoan>0</hoan>
+    <tra>0.0000000000</tra>
+  </Table>
+  <Table>
+    <id>60140214140830252</id>
+    <mabn>14017474</mabn>
+    <mavaovien>140210133622770016</mavaovien>
+    <maql>140210145827047016</maql>
+    <loai>1</loai>
+    <ten_loaivp>Trong giờ</ten_loaivp>
+    <loaibn>1</loaibn>
+    <ngayvao>14/02/2014</ngayvao>
+    <ngayra>14/02/2014</ngayra>
+    <hoten>LÊ THANH HAI</hoten>
+    <namsinh>15/08/1990</namsinh>
+    <diachi />
+    <tentt>Bình Dương</tentt>
+    <tenquan>TX. Thuận An</tenquan>
+    <tenpxa>P. Bình Hòa</tenpxa>
+    <makp>18</makp>
+    <tenkp>Khoa A2</tenkp>
+    <viettat>18</viettat>
+    <ngay>14/02/2014</ngay>
+    <thuoc>0</thuoc>
+    <vienphi>115000.0000000000</vienphi>
+    <sotien>115000.00000000</sotien>
+    <tamung>500000</tamung>
+    <mien>0.0000</mien>
+    <bhyt>0.0000</bhyt>
+    <nopthem>0.0000</nopthem>
+    <thieu>0.0000</thieu>
+    <thua>0.0000</thua>
+    <chenhlech>0.0000</chenhlech>
+    <user_hoten>Vũ Thị Minh Phương</user_hoten>
+    <user_username>vuphuong</user_username>
+    <userid>34</userid>
+    <quyenso>23</quyenso>
+    <sobienlai>22</sobienlai>
+    <sohieu>14_NOITRU</sohieu>
+    <sohieubl>NT</sohieubl>
+    <hoan>0</hoan>
+    <tra>0.0000000000</tra>
+  </Table>
+  <Table>
+    <id>60140214140955971</id>
+    <mabn>14016820</mabn>
+    <mavaovien>140208161021769016</mavaovien>
+    <maql>140208175030952055</maql>
+    <loai>1</loai>
+    <ten_loaivp>Trong giờ</ten_loaivp>
+    <loaibn>4</loaibn>
+    <ngayvao>14/02/2014</ngayvao>
+    <ngayra>08/02/2014</ngayra>
+    <hoten>NGUYỄN VĂN HƯNG</hoten>
+    <namsinh>20/05/1984</namsinh>
+    <diachi />
+    <tentt>Bình Dương</tentt>
+    <tenquan>Không Xác Định</tenquan>
+    <tenpxa>Không Xác Định</tenpxa>
+    <makp>18</makp>
+    <tenkp>Khoa A2</tenkp>
+    <viettat>18</viettat>
+    <ngay>14/02/2014</ngay>
+    <thuoc>0</thuoc>
+    <vienphi>30000.0000000000</vienphi>
+    <sotien>30000.00000000</sotien>
+    <tamung>400000</tamung>
+    <mien>0.0000</mien>
+    <bhyt>0.0000</bhyt>
+    <nopthem>0.0000</nopthem>
+    <thieu>0.0000</thieu>
+    <thua>0.0000</thua>
+    <chenhlech>0.0000</chenhlech>
+    <user_hoten>Vũ Thị Minh Phương</user_hoten>
+    <user_username>vuphuong</user_username>
+    <userid>34</userid>
+    <quyenso>23</quyenso>
+    <sobienlai>23</sobienlai>
+    <sohieu>14_NOITRU</sohieu>
+    <sohieubl>NT</sohieubl>
+    <hoan>0</hoan>
+    <tra>0.0000000000</tra>
+  </Table>
+  <Table>
+    <id>60140214140955971</id>
+    <mabn>14016820</mabn>
+    <mavaovien>140208161021769016</mavaovien>
+    <maql>140208175030952055</maql>
+    <loai>1</loai>
+    <ten_loaivp>Trong giờ</ten_loaivp>
+    <loaibn>4</loaibn>
+    <ngayvao>14/02/2014</ngayvao>
+    <ngayra>08/02/2014</ngayra>
+    <hoten>NGUYỄN VĂN HƯNG</hoten>
+    <namsinh>20/05/1984</namsinh>
+    <diachi />
+    <tentt>Bình Dương</tentt>
+    <tenquan>Không Xác Định</tenquan>
+    <tenpxa>Không Xác Định</tenpxa>
+    <makp>18</makp>
+    <tenkp>Khoa A2</tenkp>
+    <viettat>18</viettat>
+    <ngay>14/02/2014</ngay>
+    <thuoc>0</thuoc>
+    <vienphi>196000.0000000000</vienphi>
+    <sotien>196000.00000000</sotien>
+    <tamung>400000</tamung>
+    <mien>0.0000</mien>
+    <bhyt>0.0000</bhyt>
+    <nopthem>0.0000</nopthem>
+    <thieu>0.0000</thieu>
+    <thua>0.0000</thua>
+    <chenhlech>0.0000</chenhlech>
+    <user_hoten>Vũ Thị Minh Phương</user_hoten>
+    <user_username>vuphuong</user_username>
+    <userid>34</userid>
+    <quyenso>23</quyenso>
+    <sobienlai>23</sobienlai>
+    <sohieu>14_NOITRU</sohieu>
+    <sohieubl>NT</sohieubl>
+    <hoan>0</hoan>
+    <tra>0.0000000000</tra>
+  </Table>
+  <Table>
+    <id>60140214141208434</id>
+    <mabn>13705753</mabn>
+    <mavaovien>140209063542568011</mavaovien>
+    <maql>140209063542460011</maql>
+    <loai>1</loai>
+    <ten_loaivp>Trong giờ</ten_loaivp>
+    <loaibn>1</loaibn>
+    <ngayvao>14/02/2014</ngayvao>
+    <ngayra>14/02/2014</ngayra>
+    <hoten>NGUYỄN VĂN LONG</hoten>
+    <namsinh>1991</namsinh>
+    <diachi />
+    <tentt>Bình Dương</tentt>
+    <tenquan>TX. Dĩ An</tenquan>
+    <tenpxa>Không Xác Định</tenpxa>
+    <makp>18</makp>
+    <tenkp>Khoa A2</tenkp>
+    <viettat>18</viettat>
+    <ngay>14/02/2014</ngay>
+    <thuoc>0</thuoc>
+    <vienphi>30000.0000000000</vienphi>
+    <sotien>30000.00000000</sotien>
+    <tamung>400000</tamung>
+    <mien>0.0000</mien>
+    <bhyt>0.0000</bhyt>
+    <nopthem>0.0000</nopthem>
+    <thieu>0.0000</thieu>
+    <thua>0.0000</thua>
+    <chenhlech>0.0000</chenhlech>
+    <user_hoten>Vũ Thị Minh Phương</user_hoten>
+    <user_username>vuphuong</user_username>
+    <userid>34</userid>
+    <quyenso>23</quyenso>
+    <sobienlai>24</sobienlai>
+    <sohieu>14_NOITRU</sohieu>
+    <sohieubl>NT</sohieubl>
+    <hoan>0</hoan>
+    <tra>0.0000000000</tra>
+  </Table>
+  <Table>
+    <id>60140214141208434</id>
+    <mabn>13705753</mabn>
+    <mavaovien>140209063542568011</mavaovien>
+    <maql>140209063542460011</maql>
+    <loai>1</loai>
+    <ten_loaivp>Trong giờ</ten_loaivp>
+    <loaibn>1</loaibn>
+    <ngayvao>14/02/2014</ngayvao>
+    <ngayra>14/02/2014</ngayra>
+    <hoten>NGUYỄN VĂN LONG</hoten>
+    <namsinh>1991</namsinh>
+    <diachi />
+    <tentt>Bình Dương</tentt>
+    <tenquan>TX. Dĩ An</tenquan>
+    <tenpxa>Không Xác Định</tenpxa>
+    <makp>18</makp>
+    <tenkp>Khoa A2</tenkp>
+    <viettat>18</viettat>
+    <ngay>14/02/2014</ngay>
+    <thuoc>0</thuoc>
+    <vienphi>155000.0000000000</vienphi>
+    <sotien>155000.00000000</sotien>
+    <tamung>400000</tamung>
+    <mien>0.0000</mien>
+    <bhyt>0.0000</bhyt>
+    <nopthem>0.0000</nopthem>
+    <thieu>0.0000</thieu>
+    <thua>0.0000</thua>
+    <chenhlech>0.0000</chenhlech>
+    <user_hoten>Vũ Thị Minh Phương</user_hoten>
+    <user_username>vuphuong</user_username>
+    <userid>34</userid>
+    <quyenso>23</quyenso>
+    <sobienlai>24</sobienlai>
+    <sohieu>14_NOITRU</sohieu>
+    <sohieubl>NT</sohieubl>
+    <hoan>0</hoan>
+    <tra>0.0000000000</tra>
+  </Table>
+  <Table>
+    <id>60140214141300749</id>
+    <mabn>14016517</mabn>
+    <mavaovien>140209021530884011</mavaovien>
+    <maql>140209021530295011</maql>
+    <loai>1</loai>
+    <ten_loaivp>Trong giờ</ten_loaivp>
+    <loaibn>1</loaibn>
+    <ngayvao>14/02/2014</ngayvao>
+    <ngayra>12/02/2014</ngayra>
+    <hoten>LÊ THỊ THỊNH</hoten>
+    <namsinh>13/12/1982</namsinh>
+    <diachi />
+    <tentt>Bình Dương</tentt>
+    <tenquan>Không Xác Định</tenquan>
+    <tenpxa>Không Xác Định</tenpxa>
+    <makp>18</makp>
+    <tenkp>Khoa A2</tenkp>
+    <viettat>18</viettat>
+    <ngay>14/02/2014</ngay>
+    <thuoc>0</thuoc>
+    <vienphi>30000.0000000000</vienphi>
+    <sotien>30000.00000000</sotien>
+    <tamung>500000</tamung>
+    <mien>0.0000</mien>
+    <bhyt>0.0000</bhyt>
+    <nopthem>0.0000</nopthem>
+    <thieu>0.0000</thieu>
+    <thua>0.0000</thua>
+    <chenhlech>0.0000</chenhlech>
+    <user_hoten>Vũ Thị Minh Phương</user_hoten>
+    <user_username>vuphuong</user_username>
+    <userid>34</userid>
+    <quyenso>23</quyenso>
+    <sobienlai>25</sobienlai>
+    <sohieu>14_NOITRU</sohieu>
+    <sohieubl>NT</sohieubl>
+    <hoan>0</hoan>
+    <tra>0.0000000000</tra>
+  </Table>
+  <Table>
+    <id>60140214141300749</id>
+    <mabn>14016517</mabn>
+    <mavaovien>140209021530884011</mavaovien>
+    <maql>140209021530295011</maql>
+    <loai>1</loai>
+    <ten_loaivp>Trong giờ</ten_loaivp>
+    <loaibn>1</loaibn>
+    <ngayvao>14/02/2014</ngayvao>
+    <ngayra>12/02/2014</ngayra>
+    <hoten>LÊ THỊ THỊNH</hoten>
+    <namsinh>13/12/1982</namsinh>
+    <diachi />
+    <tentt>Bình Dương</tentt>
+    <tenquan>Không Xác Định</tenquan>
+    <tenpxa>Không Xác Định</tenpxa>
+    <makp>18</makp>
+    <tenkp>Khoa A2</tenkp>
+    <viettat>18</viettat>
+    <ngay>14/02/2014</ngay>
+    <thuoc>0</thuoc>
+    <vienphi>148000.0000000000</vienphi>
+    <sotien>148000.00000000</sotien>
+    <tamung>500000</tamung>
+    <mien>0.0000</mien>
+    <bhyt>0.0000</bhyt>
+    <nopthem>0.0000</nopthem>
+    <thieu>0.0000</thieu>
+    <thua>0.0000</thua>
+    <chenhlech>0.0000</chenhlech>
+    <user_hoten>Vũ Thị Minh Phương</user_hoten>
+    <user_username>vuphuong</user_username>
+    <userid>34</userid>
+    <quyenso>23</quyenso>
+    <sobienlai>25</sobienlai>
+    <sohieu>14_NOITRU</sohieu>
+    <sohieubl>NT</sohieubl>
+    <hoan>0</hoan>
+    <tra>0.0000000000</tra>
+  </Table>
+  <Table>
+    <id>60140214141601177</id>
+    <mabn>14004892</mabn>
+    <mavaovien>140210100638277055</mavaovien>
+    <maql>140210100638134055</maql>
+    <loai>1</loai>
+    <ten_loaivp>Trong giờ</ten_loaivp>
+    <loaibn>1</loaibn>
+    <ngayvao>14/02/2014</ngayvao>
+    <ngayra>13/02/2014</ngayra>
+    <hoten>ĐÀO THỊ LÊ</hoten>
+    <namsinh>1983</namsinh>
+    <diachi />
+    <tentt>Bình Dương</tentt>
+    <tenquan>TX. Dĩ An</tenquan>
+    <tenpxa>P.Tân Đông Hiệp</tenpxa>
+    <makp>18</makp>
+    <tenkp>Khoa A2</tenkp>
+    <viettat>18</viettat>
+    <ngay>14/02/2014</ngay>
+    <thuoc>0</thuoc>
+    <vienphi>30000.0000000000</vienphi>
+    <sotien>30000.00000000</sotien>
+    <tamung>500000</tamung>
+    <mien>0.0000</mien>
+    <bhyt>0.0000</bhyt>
+    <nopthem>0.0000</nopthem>
+    <thieu>0.0000</thieu>
+    <thua>0.0000</thua>
+    <chenhlech>0.0000</chenhlech>
+    <user_hoten>Vũ Thị Minh Phương</user_hoten>
+    <user_username>vuphuong</user_username>
+    <userid>34</userid>
+    <quyenso>23</quyenso>
+    <sobienlai>27</sobienlai>
+    <sohieu>14_NOITRU</sohieu>
+    <sohieubl>NT</sohieubl>
+    <hoan>0</hoan>
+    <tra>0.0000000000</tra>
+  </Table>
+  <Table>
+    <id>60140214141601177</id>
+    <mabn>14004892</mabn>
+    <mavaovien>140210100638277055</mavaovien>
+    <maql>140210100638134055</maql>
+    <loai>1</loai>
+    <ten_loaivp>Trong giờ</ten_loaivp>
+    <loaibn>1</loaibn>
+    <ngayvao>14/02/2014</ngayvao>
+    <ngayra>13/02/2014</ngayra>
+    <hoten>ĐÀO THỊ LÊ</hoten>
+    <namsinh>1983</namsinh>
+    <diachi />
+    <tentt>Bình Dương</tentt>
+    <tenquan>TX. Dĩ An</tenquan>
+    <tenpxa>P.Tân Đông Hiệp</tenpxa>
+    <makp>18</makp>
+    <tenkp>Khoa A2</tenkp>
+    <viettat>18</viettat>
+    <ngay>14/02/2014</ngay>
+    <thuoc>0</thuoc>
+    <vienphi>106000.0000000000</vienphi>
+    <sotien>106000.00000000</sotien>
+    <tamung>500000</tamung>
+    <mien>0.0000</mien>
+    <bhyt>0.0000</bhyt>
+    <nopthem>0.0000</nopthem>
+    <thieu>0.0000</thieu>
+    <thua>0.0000</thua>
+    <chenhlech>0.0000</chenhlech>
+    <user_hoten>Vũ Thị Minh Phương</user_hoten>
+    <user_username>vuphuong</user_username>
+    <userid>34</userid>
+    <quyenso>23</quyenso>
+    <sobienlai>27</sobienlai>
+    <sohieu>14_NOITRU</sohieu>
+    <sohieubl>NT</sohieubl>
+    <hoan>0</hoan>
+    <tra>0.0000000000</tra>
+  </Table>
+  <Table>
+    <id>4140221113928409</id>
+    <mabn>14017503</mabn>
+    <mavaovien>140214144139004016</mavaovien>
+    <maql>140214144139091016</maql>
+    <loai>1</loai>
+    <ten_loaivp>Trong giờ</ten_loaivp>
+    <loaibn>1</loaibn>
+    <ngayvao>21/02/2014</ngayvao>
+    <ngayra>21/02/2014</ngayra>
+    <hoten>NGUYỄN THANH PHONG</hoten>
+    <namsinh>16/07/1946</namsinh>
+    <diachi />
+    <tentt>Bình Dương</tentt>
+    <tenquan>H. Bến Cát</tenquan>
+    <tenpxa>X. Trừ Văn Thố</tenpxa>
+    <makp>17</makp>
+    <tenkp>Khoa A1</tenkp>
+    <viettat>99</viettat>
+    <ngay>21/02/2014</ngay>
+    <thuoc>0</thuoc>
+    <vienphi>3000.0000000000</vienphi>
+    <sotien>0</sotien>
+    <tamung>0</tamung>
+    <mien>0</mien>
+    <bhyt>0</bhyt>
+    <nopthem>0</nopthem>
+    <thieu>0</thieu>
+    <thua>0</thua>
+    <chenhlech>0</chenhlech>
+    <user_hoten>Vũ Thị Minh Phương</user_hoten>
+    <user_username>vuphuong</user_username>
+    <userid>34</userid>
+    <quyenso>23</quyenso>
+    <sobienlai>52</sobienlai>
+    <sohieu>14_NOITRU</sohieu>
+    <sohieubl>NT</sohieubl>
+    <hoan>0</hoan>
+    <tra>0</tra>
+  </Table>
+  <Table>
+    <id>7140215134715322</id>
+    <mabn>14502524</mabn>
+    <mavaovien>140204071652298012</mavaovien>
+    <maql>140204114246927011</maql>
+    <loai>1</loai>
+    <ten_loaivp>Trong giờ</ten_loaivp>
+    <loaibn>1</loaibn>
+    <ngayvao>15/02/2014</ngayvao>
+    <ngayra>13/02/2014</ngayra>
+    <hoten>LÊ VĂN THÀNH</hoten>
+    <namsinh>1988</namsinh>
+    <diachi />
+    <tentt>Bình Dương</tentt>
+    <tenquan>TX. Thuận An</tenquan>
+    <tenpxa>Không Xác Định</tenpxa>
+    <makp>24</makp>
+    <tenkp>Khoa B4</tenkp>
+    <viettat>24</viettat>
+    <ngay>15/02/2014</ngay>
+    <thuoc>0</thuoc>
+    <vienphi>0</vienphi>
+    <sotien>0</sotien>
+    <tamung>0</tamung>
+    <mien>0</mien>
+    <bhyt>0</bhyt>
+    <nopthem>0</nopthem>
+    <thieu>0</thieu>
+    <thua>0</thua>
+    <chenhlech>0</chenhlech>
+    <user_hoten>Vũ Thị Minh Phương</user_hoten>
+    <user_username>vuphuong</user_username>
+    <userid>34</userid>
+    <quyenso>23</quyenso>
+    <sobienlai>41</sobienlai>
+    <sohieu>14_NOITRU</sohieu>
+    <sohieubl>NT</sohieubl>
+    <hoan>0</hoan>
+    <tra>0</tra>
+  </Table>
+  <Table>
+    <id>7140215151436592</id>
+    <mabn>14502524</mabn>
+    <mavaovien>140204071652298012</mavaovien>
+    <maql>140204114246927011</maql>
+    <loai>1</loai>
+    <ten_loaivp>Trong giờ</ten_loaivp>
+    <loaibn>1</loaibn>
+    <ngayvao>15/02/2014</ngayvao>
+    <ngayra>13/02/2014</ngayra>
+    <hoten>LÊ VĂN THÀNH</hoten>
+    <namsinh>1988</namsinh>
+    <diachi />
+    <tentt>Bình Dương</tentt>
+    <tenquan>TX. Thuận An</tenquan>
+    <tenpxa>Không Xác Định</tenpxa>
+    <makp>24</makp>
+    <tenkp>Khoa B4</tenkp>
+    <viettat>24</viettat>
+    <ngay>15/02/2014</ngay>
+    <thuoc>0</thuoc>
+    <vienphi>0</vienphi>
+    <sotien>0</sotien>
+    <tamung>0</tamung>
+    <mien>0</mien>
+    <bhyt>0</bhyt>
+    <nopthem>0</nopthem>
+    <thieu>0</thieu>
+    <thua>0</thua>
+    <chenhlech>0</chenhlech>
+    <user_hoten>Vũ Thị Minh Phương</user_hoten>
+    <user_username>vuphuong</user_username>
+    <userid>34</userid>
+    <quyenso>23</quyenso>
+    <sobienlai>44</sobienlai>
+    <sohieu>14_NOITRU</sohieu>
+    <sohieubl>NT</sohieubl>
+    <hoan>0</hoan>
+    <tra>0</tra>
+  </Table>
+  <Table>
+    <id>7140215151957171</id>
+    <mabn>14502524</mabn>
+    <mavaovien>140204071652298012</mavaovien>
+    <maql>140204114246927011</maql>
+    <loai>1</loai>
+    <ten_loaivp>Trong giờ</ten_loaivp>
+    <loaibn>1</loaibn>
+    <ngayvao>15/02/2014</ngayvao>
+    <ngayra>13/02/2014</ngayra>
+    <hoten>LÊ VĂN THÀNH</hoten>
+    <namsinh>1988</namsinh>
+    <diachi />
+    <tentt>Bình Dương</tentt>
+    <tenquan>TX. Thuận An</tenquan>
+    <tenpxa>Không Xác Định</tenpxa>
+    <makp>24</makp>
+    <tenkp>Khoa B4</tenkp>
+    <viettat>24</viettat>
+    <ngay>15/02/2014</ngay>
+    <thuoc>0</thuoc>
+    <vienphi>0</vienphi>
+    <sotien>0</sotien>
+    <tamung>0</tamung>
+    <mien>0</mien>
+    <bhyt>0</bhyt>
+    <nopthem>0</nopthem>
+    <thieu>0</thieu>
+    <thua>0</thua>
+    <chenhlech>0</chenhlech>
+    <user_hoten>Vũ Thị Minh Phương</user_hoten>
+    <user_username>vuphuong</user_username>
+    <userid>34</userid>
+    <quyenso>23</quyenso>
+    <sobienlai>46</sobienlai>
+    <sohieu>14_NOITRU</sohieu>
+    <sohieubl>NT</sohieubl>
+    <hoan>0</hoan>
+    <tra>0</tra>
+  </Table>
+  <Table>
+    <id>39140214161503590</id>
+    <mabn>14018258</mabn>
+    <mavaovien>140211164056731016</mavaovien>
+    <maql>140211224120858011</maql>
+    <loai>1</loai>
+    <ten_loaivp>Trong giờ</ten_loaivp>
+    <loaibn>4</loaibn>
+    <ngayvao>14/02/2014</ngayvao>
+    <ngayra>11/02/2014</ngayra>
+    <hoten>LÊ THỊ MỸ NHÂN</hoten>
+    <namsinh>01/01/1994</namsinh>
+    <diachi />
+    <tentt>Bình Dương</tentt>
+    <tenquan>Không Xác Định</tenquan>
+    <tenpxa>Không Xác Định</tenpxa>
+    <makp>18</makp>
+    <tenkp>Khoa A2</tenkp>
+    <viettat>18</viettat>
+    <ngay>14/02/2014</ngay>
+    <thuoc>0</thuoc>
+    <vienphi>0</vienphi>
+    <sotien>0</sotien>
+    <tamung>0</tamung>
+    <mien>0</mien>
+    <bhyt>0</bhyt>
+    <nopthem>0</nopthem>
+    <thieu>0</thieu>
+    <thua>0</thua>
+    <chenhlech>0</chenhlech>
+    <user_hoten>Vũ Thị Minh Phương</user_hoten>
+    <user_username>vuphuong</user_username>
+    <userid>34</userid>
+    <quyenso>23</quyenso>
+    <sobienlai>36</sobienlai>
+    <sohieu>14_NOITRU</sohieu>
+    <sohieubl>NT</sohieubl>
+    <hoan>0</hoan>
+    <tra>0</tra>
+  </Table>
+  <Table>
+    <id>60140213092833291</id>
+    <mabn>14011110</mabn>
+    <mavaovien>140206222607041011</mavaovien>
+    <maql>140206222607928011</maql>
+    <loai>1</loai>
+    <ten_loaivp>Trong giờ</ten_loaivp>
+    <loaibn>1</loaibn>
+    <ngayvao>13/02/2014</ngayvao>
+    <ngayra>12/02/2014</ngayra>
+    <hoten>NGUYỄN THỊ KIM CHUNG</hoten>
+    <namsinh>02/02/1994</namsinh>
+    <diachi />
+    <tentt>Bình Dương</tentt>
+    <tenquan>Không Xác Định</tenquan>
+    <tenpxa>Không Xác Định</tenpxa>
+    <makp>19</makp>
+    <tenkp>Khoa A3</tenkp>
+    <viettat>19</viettat>
+    <ngay>13/02/2014</ngay>
+    <thuoc>0</thuoc>
+    <vienphi>0</vienphi>
+    <sotien>0</sotien>
+    <tamung>0</tamung>
+    <mien>0</mien>
+    <bhyt>0</bhyt>
+    <nopthem>0</nopthem>
+    <thieu>0</thieu>
+    <thua>0</thua>
+    <chenhlech>0</chenhlech>
+    <user_hoten>Vũ Thị Minh Phương</user_hoten>
+    <user_username>vuphuong</user_username>
+    <userid>34</userid>
+    <quyenso>23</quyenso>
+    <sobienlai>7</sobienlai>
+    <sohieu>14_NOITRU</sohieu>
+    <sohieubl>NT</sohieubl>
+    <hoan>0</hoan>
+    <tra>0</tra>
+  </Table>
+  <Table>
+    <id>60140213104645018</id>
+    <mabn>14011110</mabn>
+    <mavaovien>140206222607041011</mavaovien>
+    <maql>140206222607928011</maql>
+    <loai>1</loai>
+    <ten_loaivp>Trong giờ</ten_loaivp>
+    <loaibn>1</loaibn>
+    <ngayvao>13/02/2014</ngayvao>
+    <ngayra>12/02/2014</ngayra>
+    <hoten>NGUYỄN THỊ KIM CHUNG</hoten>
+    <namsinh>02/02/1994</namsinh>
+    <diachi />
+    <tentt>Bình Dương</tentt>
+    <tenquan>Không Xác Định</tenquan>
+    <tenpxa>Không Xác Định</tenpxa>
+    <makp>19</makp>
+    <tenkp>Khoa A3</tenkp>
+    <viettat>19</viettat>
+    <ngay>13/02/2014</ngay>
+    <thuoc>0</thuoc>
+    <vienphi>0</vienphi>
+    <sotien>0</sotien>
+    <tamung>0</tamung>
+    <mien>0</mien>
+    <bhyt>0</bhyt>
+    <nopthem>0</nopthem>
+    <thieu>0</thieu>
+    <thua>0</thua>
+    <chenhlech>0</chenhlech>
+    <user_hoten>Vũ Thị Minh Phương</user_hoten>
+    <user_username>vuphuong</user_username>
+    <userid>34</userid>
+    <quyenso>23</quyenso>
+    <sobienlai>14</sobienlai>
+    <sohieu>14_NOITRU</sohieu>
+    <sohieubl>NT</sohieubl>
+    <hoan>0</hoan>
+    <tra>0</tra>
+  </Table>
+  <Table>
+    <id>60140214090033625</id>
+    <mabn>14014737</mabn>
+    <mavaovien>140211080027711023</mavaovien>
+    <maql>140211103544888016</maql>
+    <loai>1</loai>
+    <ten_loaivp>Trong giờ</ten_loaivp>
+    <loaibn>1</loaibn>
+    <ngayvao>14/02/2014</ngayvao>
+    <ngayra>13/02/2014</ngayra>
+    <hoten>CHÂU VĂN THẮNG</hoten>
+    <namsinh>01/01/1982</namsinh>
+    <diachi />
+    <tentt>Cà mau</tentt>
+    <tenquan>Không Xác Định</tenquan>
+    <tenpxa>Không Xác Định</tenpxa>
+    <makp>24</makp>
+    <tenkp>Khoa B4</tenkp>
+    <viettat>24</viettat>
+    <ngay>14/02/2014</ngay>
+    <thuoc>0</thuoc>
+    <vienphi>0</vienphi>
+    <sotien>0</sotien>
+    <tamung>0</tamung>
+    <mien>0</mien>
+    <bhyt>0</bhyt>
+    <nopthem>0</nopthem>
+    <thieu>0</thieu>
+    <thua>0</thua>
+    <chenhlech>0</chenhlech>
+    <user_hoten>Vũ Thị Minh Phương</user_hoten>
+    <user_username>vuphuong</user_username>
+    <userid>34</userid>
+    <quyenso>23</quyenso>
+    <sobienlai>15</sobienlai>
+    <sohieu>14_NOITRU</sohieu>
+    <sohieubl>NT</sohieubl>
+    <hoan>0</hoan>
+    <tra>0</tra>
+  </Table>
+  <Table>
+    <id>60140214090754171</id>
+    <mabn>14007292</mabn>
+    <mavaovien>140210093656412016</mavaovien>
+    <maql>140210093656022016</maql>
+    <loai>1</loai>
+    <ten_loaivp>Trong giờ</ten_loaivp>
+    <loaibn>1</loaibn>
+    <ngayvao>14/02/2014</ngayvao>
+    <ngayra>13/02/2014</ngayra>
+    <hoten>HÀ VĂN GIANG</hoten>
+    <namsinh>18/05/1990</namsinh>
+    <diachi />
+    <tentt>Bình Dương</tentt>
+    <tenquan>TX. Thuận An</tenquan>
+    <tenpxa>Không Xác Định</tenpxa>
+    <makp>18</makp>
+    <tenkp>Khoa A2</tenkp>
+    <viettat>18</viettat>
+    <ngay>14/02/2014</ngay>
+    <thuoc>0</thuoc>
+    <vienphi>0</vienphi>
+    <sotien>0</sotien>
+    <tamung>0</tamung>
+    <mien>0</mien>
+    <bhyt>0</bhyt>
+    <nopthem>0</nopthem>
+    <thieu>0</thieu>
+    <thua>0</thua>
+    <chenhlech>0</chenhlech>
+    <user_hoten>Vũ Thị Minh Phương</user_hoten>
+    <user_username>vuphuong</user_username>
+    <userid>34</userid>
+    <quyenso>23</quyenso>
+    <sobienlai>16</sobienlai>
+    <sohieu>14_NOITRU</sohieu>
+    <sohieubl>NT</sohieubl>
+    <hoan>0</hoan>
+    <tra>0</tra>
+  </Table>
+  <Table>
+    <id>60140214101807699</id>
+    <mabn>14004830</mabn>
+    <mavaovien>140210070328741011</mavaovien>
+    <maql>140210070328630011</maql>
+    <loai>1</loai>
+    <ten_loaivp>Trong giờ</ten_loaivp>
+    <loaibn>1</loaibn>
+    <ngayvao>14/02/2014</ngayvao>
+    <ngayra>11/02/2014</ngayra>
+    <hoten>HOÀNG XUÂN THẮNG</hoten>
+    <namsinh>1990</namsinh>
+    <diachi />
+    <tentt>Bình Dương</tentt>
+    <tenquan>TX. Dĩ An</tenquan>
+    <tenpxa>P.Dĩ An</tenpxa>
+    <makp>18</makp>
+    <tenkp>Khoa A2</tenkp>
+    <viettat>18</viettat>
+    <ngay>14/02/2014</ngay>
+    <thuoc>0</thuoc>
+    <vienphi>0</vienphi>
+    <sotien>0</sotien>
+    <tamung>0</tamung>
+    <mien>0</mien>
+    <bhyt>0</bhyt>
+    <nopthem>0</nopthem>
+    <thieu>0</thieu>
+    <thua>0</thua>
+    <chenhlech>0</chenhlech>
+    <user_hoten>Vũ Thị Minh Phương</user_hoten>
+    <user_username>vuphuong</user_username>
+    <userid>34</userid>
+    <quyenso>23</quyenso>
+    <sobienlai>18</sobienlai>
+    <sohieu>14_NOITRU</sohieu>
+    <sohieubl>NT</sohieubl>
+    <hoan>0</hoan>
+    <tra>0</tra>
+  </Table>
+  <Table>
+    <id>60140214102355193</id>
+    <mabn>14506524</mabn>
+    <mavaovien>140213140407047012</mavaovien>
+    <maql>140213170953147011</maql>
+    <loai>1</loai>
+    <ten_loaivp>Trong giờ</ten_loaivp>
+    <loaibn>4</loaibn>
+    <ngayvao>14/02/2014</ngayvao>
+    <ngayra>13/02/2014</ngayra>
+    <hoten>BÙI VĂN THIỆN</hoten>
+    <namsinh>1980</namsinh>
+    <diachi />
+    <tentt>Tp. HCM</tentt>
+    <tenquan>Q. Thủ Đức</tenquan>
+    <tenpxa>P. Bình Chiểu</tenpxa>
+    <makp>18</makp>
+    <tenkp>Khoa A2</tenkp>
+    <viettat>18</viettat>
+    <ngay>14/02/2014</ngay>
+    <thuoc>0</thuoc>
+    <vienphi>0</vienphi>
+    <sotien>0</sotien>
+    <tamung>0</tamung>
+    <mien>0</mien>
+    <bhyt>0</bhyt>
+    <nopthem>0</nopthem>
+    <thieu>0</thieu>
+    <thua>0</thua>
+    <chenhlech>0</chenhlech>
+    <user_hoten>Vũ Thị Minh Phương</user_hoten>
+    <user_username>vuphuong</user_username>
+    <userid>34</userid>
+    <quyenso>23</quyenso>
+    <sobienlai>19</sobienlai>
+    <sohieu>14_NOITRU</sohieu>
+    <sohieubl>NT</sohieubl>
+    <hoan>0</hoan>
+    <tra>0</tra>
+  </Table>
+  <Table>
+    <id>60140214140830252</id>
+    <mabn>14017474</mabn>
+    <mavaovien>140210133622770016</mavaovien>
+    <maql>140210145827047016</maql>
+    <loai>1</loai>
+    <ten_loaivp>Trong giờ</ten_loaivp>
+    <loaibn>1</loaibn>
+    <ngayvao>14/02/2014</ngayvao>
+    <ngayra>14/02/2014</ngayra>
+    <hoten>LÊ THANH HAI</hoten>
+    <namsinh>15/08/1990</namsinh>
+    <diachi />
+    <tentt>Bình Dương</tentt>
+    <tenquan>TX. Thuận An</tenquan>
+    <tenpxa>P. Bình Hòa</tenpxa>
+    <makp>18</makp>
+    <tenkp>Khoa A2</tenkp>
+    <viettat>18</viettat>
+    <ngay>14/02/2014</ngay>
+    <thuoc>0</thuoc>
+    <vienphi>0</vienphi>
+    <sotien>0</sotien>
+    <tamung>0</tamung>
+    <mien>0</mien>
+    <bhyt>0</bhyt>
+    <nopthem>0</nopthem>
+    <thieu>0</thieu>
+    <thua>0</thua>
+    <chenhlech>0</chenhlech>
+    <user_hoten>Vũ Thị Minh Phương</user_hoten>
+    <user_username>vuphuong</user_username>
+    <userid>34</userid>
+    <quyenso>23</quyenso>
+    <sobienlai>22</sobienlai>
+    <sohieu>14_NOITRU</sohieu>
+    <sohieubl>NT</sohieubl>
+    <hoan>0</hoan>
+    <tra>0</tra>
+  </Table>
+  <Table>
+    <id>60140214140955971</id>
+    <mabn>14016820</mabn>
+    <mavaovien>140208161021769016</mavaovien>
+    <maql>140208175030952055</maql>
+    <loai>1</loai>
+    <ten_loaivp>Trong giờ</ten_loaivp>
+    <loaibn>4</loaibn>
+    <ngayvao>14/02/2014</ngayvao>
+    <ngayra>08/02/2014</ngayra>
+    <hoten>NGUYỄN VĂN HƯNG</hoten>
+    <namsinh>20/05/1984</namsinh>
+    <diachi />
+    <tentt>Bình Dương</tentt>
+    <tenquan>Không Xác Định</tenquan>
+    <tenpxa>Không Xác Định</tenpxa>
+    <makp>18</makp>
+    <tenkp>Khoa A2</tenkp>
+    <viettat>18</viettat>
+    <ngay>14/02/2014</ngay>
+    <thuoc>0</thuoc>
+    <vienphi>0</vienphi>
+    <sotien>0</sotien>
+    <tamung>0</tamung>
+    <mien>0</mien>
+    <bhyt>0</bhyt>
+    <nopthem>0</nopthem>
+    <thieu>0</thieu>
+    <thua>0</thua>
+    <chenhlech>0</chenhlech>
+    <user_hoten>Vũ Thị Minh Phương</user_hoten>
+    <user_username>vuphuong</user_username>
+    <userid>34</userid>
+    <quyenso>23</quyenso>
+    <sobienlai>23</sobienlai>
+    <sohieu>14_NOITRU</sohieu>
+    <sohieubl>NT</sohieubl>
+    <hoan>0</hoan>
+    <tra>0</tra>
+  </Table>
+  <Table>
+    <id>60140214141208434</id>
+    <mabn>13705753</mabn>
+    <mavaovien>140209063542568011</mavaovien>
+    <maql>140209063542460011</maql>
+    <loai>1</loai>
+    <ten_loaivp>Trong giờ</ten_loaivp>
+    <loaibn>1</loaibn>
+    <ngayvao>14/02/2014</ngayvao>
+    <ngayra>14/02/2014</ngayra>
+    <hoten>NGUYỄN VĂN LONG</hoten>
+    <namsinh>1991</namsinh>
+    <diachi />
+    <tentt>Bình Dương</tentt>
+    <tenquan>TX. Dĩ An</tenquan>
+    <tenpxa>Không Xác Định</tenpxa>
+    <makp>18</makp>
+    <tenkp>Khoa A2</tenkp>
+    <viettat>18</viettat>
+    <ngay>14/02/2014</ngay>
+    <thuoc>0</thuoc>
+    <vienphi>0</vienphi>
+    <sotien>0</sotien>
+    <tamung>0</tamung>
+    <mien>0</mien>
+    <bhyt>0</bhyt>
+    <nopthem>0</nopthem>
+    <thieu>0</thieu>
+    <thua>0</thua>
+    <chenhlech>0</chenhlech>
+    <user_hoten>Vũ Thị Minh Phương</user_hoten>
+    <user_username>vuphuong</user_username>
+    <userid>34</userid>
+    <quyenso>23</quyenso>
+    <sobienlai>24</sobienlai>
+    <sohieu>14_NOITRU</sohieu>
+    <sohieubl>NT</sohieubl>
+    <hoan>0</hoan>
+    <tra>0</tra>
+  </Table>
+  <Table>
+    <id>60140214141300749</id>
+    <mabn>14016517</mabn>
+    <mavaovien>140209021530884011</mavaovien>
+    <maql>140209021530295011</maql>
+    <loai>1</loai>
+    <ten_loaivp>Trong giờ</ten_loaivp>
+    <loaibn>1</loaibn>
+    <ngayvao>14/02/2014</ngayvao>
+    <ngayra>12/02/2014</ngayra>
+    <hoten>LÊ THỊ THỊNH</hoten>
+    <namsinh>13/12/1982</namsinh>
+    <diachi />
+    <tentt>Bình Dương</tentt>
+    <tenquan>Không Xác Định</tenquan>
+    <tenpxa>Không Xác Định</tenpxa>
+    <makp>18</makp>
+    <tenkp>Khoa A2</tenkp>
+    <viettat>18</viettat>
+    <ngay>14/02/2014</ngay>
+    <thuoc>0</thuoc>
+    <vienphi>0</vienphi>
+    <sotien>0</sotien>
+    <tamung>0</tamung>
+    <mien>0</mien>
+    <bhyt>0</bhyt>
+    <nopthem>0</nopthem>
+    <thieu>0</thieu>
+    <thua>0</thua>
+    <chenhlech>0</chenhlech>
+    <user_hoten>Vũ Thị Minh Phương</user_hoten>
+    <user_username>vuphuong</user_username>
+    <userid>34</userid>
+    <quyenso>23</quyenso>
+    <sobienlai>25</sobienlai>
+    <sohieu>14_NOITRU</sohieu>
+    <sohieubl>NT</sohieubl>
+    <hoan>0</hoan>
+    <tra>0</tra>
+  </Table>
+  <Table>
+    <id>60140214141601177</id>
+    <mabn>14004892</mabn>
+    <mavaovien>140210100638277055</mavaovien>
+    <maql>140210100638134055</maql>
+    <loai>1</loai>
+    <ten_loaivp>Trong giờ</ten_loaivp>
+    <loaibn>1</loaibn>
+    <ngayvao>14/02/2014</ngayvao>
+    <ngayra>13/02/2014</ngayra>
+    <hoten>ĐÀO THỊ LÊ</hoten>
+    <namsinh>1983</namsinh>
+    <diachi />
+    <tentt>Bình Dương</tentt>
+    <tenquan>TX. Dĩ An</tenquan>
+    <tenpxa>P.Tân Đông Hiệp</tenpxa>
+    <makp>18</makp>
+    <tenkp>Khoa A2</tenkp>
+    <viettat>18</viettat>
+    <ngay>14/02/2014</ngay>
+    <thuoc>0</thuoc>
+    <vienphi>0</vienphi>
+    <sotien>0</sotien>
+    <tamung>0</tamung>
+    <mien>0</mien>
+    <bhyt>0</bhyt>
+    <nopthem>0</nopthem>
+    <thieu>0</thieu>
+    <thua>0</thua>
+    <chenhlech>0</chenhlech>
+    <user_hoten>Vũ Thị Minh Phương</user_hoten>
+    <user_username>vuphuong</user_username>
+    <userid>34</userid>
+    <quyenso>23</quyenso>
+    <sobienlai>27</sobienlai>
+    <sohieu>14_NOITRU</sohieu>
+    <sohieubl>NT</sohieubl>
+    <hoan>0</hoan>
+    <tra>0</tra>
+  </Table>
+</NewDataSet>

@@ -1,0 +1,51 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="OptionBHYT">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="mabhyt" type="xs:string" minOccurs="0" />
+                <xs:element name="tu" type="xs:string" minOccurs="0" />
+                <xs:element name="den" type="xs:string" minOccurs="0" />
+                <xs:element name="tyle" type="xs:string" minOccurs="0" />
+                <xs:element name="dieukien" type="xs:string" minOccurs="0" />
+                <xs:element name="sotiengh" type="xs:string" minOccurs="0" />
+                <xs:element name="tylegh" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <OptionBHYT>
+    <mabhyt>AA+BB+CB+DB+EB+FB+BG+GB+HH+OO+PO+QO+RR+SS+TT+H1+H2+QQ</mabhyt>
+    <tu>4</tu>
+    <den>5</den>
+    <tyle>80</tyle>
+    <dieukien>&lt;</dieukien>
+    <sotiengh>0</sotiengh>
+    <tylegh>80</tylegh>
+  </OptionBHYT>
+  <OptionBHYT>
+    <mabhyt>A+B+G+C+D+E+F+L+R+S+X+T+U+V+W+3</mabhyt>
+    <tu>5</tu>
+    <den>5</den>
+    <tyle>80</tyle>
+    <dieukien>&lt;</dieukien>
+    <sotiengh>0</sotiengh>
+    <tylegh>80</tylegh>
+  </OptionBHYT>
+  <OptionBHYT>
+    <mabhyt>0302L</mabhyt>
+    <tu>1</tu>
+    <den>5</den>
+    <tyle>100</tyle>
+    <dieukien>&lt;</dieukien>
+    <sotiengh>20,000</sotiengh>
+    <tylegh>80</tylegh>
+  </OptionBHYT>
+</NewDataSet>

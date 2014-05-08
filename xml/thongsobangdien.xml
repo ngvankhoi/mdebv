@@ -1,0 +1,78 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="thongso">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="sizefont" type="xs:int" default="1" minOccurs="0" />
+                <xs:element name="sizefont_dk" type="xs:int" default="1" minOccurs="0" />
+                <xs:element name="tocdo" type="xs:int" default="1" minOccurs="0" />
+                <xs:element name="domin" type="xs:int" default="1" minOccurs="0" />
+                <xs:element name="mauchu_r" type="xs:int" default="0" minOccurs="0" />
+                <xs:element name="mauchu_g" type="xs:int" default="0" minOccurs="0" />
+                <xs:element name="mauchu_b" type="xs:int" default="0" minOccurs="0" />
+                <xs:element name="maunen_r" type="xs:int" default="246" minOccurs="0" />
+                <xs:element name="maunen_g" type="xs:int" default="246" minOccurs="0" />
+                <xs:element name="maunen_b" type="xs:int" default="246" minOccurs="0" />
+                <xs:element name="mauchu_dk_r" type="xs:int" default="0" minOccurs="0" />
+                <xs:element name="mauchu_dk_g" type="xs:int" default="0" minOccurs="0" />
+                <xs:element name="mauchu_dk_b" type="xs:int" default="0" minOccurs="0" />
+                <xs:element name="maunen_dk_r" type="xs:int" default="246" minOccurs="0" />
+                <xs:element name="maunen_dk_g" type="xs:int" default="246" minOccurs="0" />
+                <xs:element name="maunen_dk_b" type="xs:int" default="246" minOccurs="0" />
+                <xs:element name="vitri_x" type="xs:int" default="0" minOccurs="0" />
+                <xs:element name="vitri_y" type="xs:int" default="0" minOccurs="0" />
+                <xs:element name="kt_rong" type="xs:int" default="1024" minOccurs="0" />
+                <xs:element name="kt_cao" type="xs:int" default="728" minOccurs="0" />
+                <xs:element name="port" type="xs:int" default="3" minOccurs="0" />
+                <xs:element name="config" type="xs:string" default="3,9600,None,1,8" minOccurs="0" />
+                <xs:element name="isload" type="xs:string" default="False" minOccurs="0" />
+                <xs:element name="img_back" type="xs:base64Binary" minOccurs="0" />
+                <xs:element name="img_size" type="xs:string" minOccurs="0" />
+                <xs:element name="hinhnen" type="xs:string" minOccurs="0" />
+                <xs:element name="logo2" type="xs:base64Binary" minOccurs="0" />
+                <xs:element name="logo2_height" type="xs:string" minOccurs="0" />
+                <xs:element name="ngayud_banner" type="xs:string" minOccurs="0" />
+                <xs:element name="manhinhcuon" type="xs:int" default="0" minOccurs="0" />
+                <xs:element name="KhongLoadDSCLS" type="xs:int" default="0" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <thongso>
+    <sizefont>45</sizefont>
+    <sizefont_dk>1</sizefont_dk>
+    <tocdo>1</tocdo>
+    <domin>1</domin>
+    <mauchu_r>246</mauchu_r>
+    <mauchu_g>246</mauchu_g>
+    <mauchu_b>246</mauchu_b>
+    <maunen_r>0</maunen_r>
+    <maunen_g>0</maunen_g>
+    <maunen_b>0</maunen_b>
+    <mauchu_dk_r>246</mauchu_dk_r>
+    <mauchu_dk_g>246</mauchu_dk_g>
+    <mauchu_dk_b>246</mauchu_dk_b>
+    <maunen_dk_r>0</maunen_dk_r>
+    <maunen_dk_g>0</maunen_dk_g>
+    <maunen_dk_b>0</maunen_dk_b>
+    <vitri_x>5</vitri_x>
+    <vitri_y>12</vitri_y>
+    <kt_rong>1024</kt_rong>
+    <kt_cao>728</kt_cao>
+    <port>3</port>
+    <config>3,9600,None,1,8</config>
+    <isload>false</isload>
+    <img_size>0x0</img_size>
+    <hinhnen>0</hinhnen>
+    <logo2_height>1</logo2_height>
+    <manhinhcuon>1</manhinhcuon>
+    <KhongLoadDSCLS>0</KhongLoadDSCLS>
+  </thongso>
+</NewDataSet>

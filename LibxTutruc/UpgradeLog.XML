@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="libxTutruc">
+</Property><Property Name="Solution File" Value="D:\Medisoft_2007\libxTutruc\libxTutruc.sln">
+</Property><Property Name="Date" Value="Saturday, March 01, 2008">
+</Property><Property Name="Time" Value="11:31 AM">
+</Property></Properties><Event ErrorLevel="0" Project="libxTutruc" Source="libxTutruc.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="libxTutruc" Source="libxTutruc.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="LibMedi" Source="..\LibMedi\LibMedi.csproj" Description="The project file does not require conversion.">
+</Event><Event ErrorLevel="3" Project="LibMedi" Source="..\LibMedi\LibMedi.csproj" Description="No Conversion Required">
+</Event><Event ErrorLevel="0" Project="LibDuoc" Source="..\LibDuoc\LibDuoc.csproj" Description="The project file does not require conversion.">
+</Event><Event ErrorLevel="3" Project="LibDuoc" Source="..\LibDuoc\LibDuoc.csproj" Description="No Conversion Required">
+</Event><Event ErrorLevel="0" Project="LibVienphi" Source="..\LibVienphi\LibVienphi.csproj" Description="The project file does not require conversion.">
+</Event><Event ErrorLevel="3" Project="LibVienphi" Source="..\LibVienphi\LibVienphi.csproj" Description="No Conversion Required">
+</Event><Event ErrorLevel="0" Project="" Source="libxTutruc.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="libxTutruc.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="libxTutruc" Source="libxTutruc.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

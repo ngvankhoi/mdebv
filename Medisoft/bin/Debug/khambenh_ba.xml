@@ -1,0 +1,73 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="maql" type="xs:decimal" minOccurs="0" />
+                <xs:element name="lydo" type="xs:string" minOccurs="0" />
+                <xs:element name="hb_benhly" type="xs:string" minOccurs="0" />
+                <xs:element name="hb_banthan" type="xs:string" minOccurs="0" />
+                <xs:element name="hb_giadinh" type="xs:string" minOccurs="0" />
+                <xs:element name="kb_toanthan" type="xs:string" minOccurs="0" />
+                <xs:element name="kb_bophan" type="xs:string" minOccurs="0" />
+                <xs:element name="kb_tomtat" type="xs:string" minOccurs="0" />
+                <xs:element name="kb_xuli" type="xs:string" minOccurs="0" />
+                <xs:element name="kb_chuy" type="xs:string" minOccurs="0" />
+                <xs:element name="sobo" type="xs:string" minOccurs="0" />
+                <xs:element name="phanbiet" type="xs:string" minOccurs="0" />
+                <xs:element name="userid" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ngayud" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="mabn" type="xs:string" minOccurs="0" />
+                <xs:element name="mach" type="xs:decimal" minOccurs="0" />
+                <xs:element name="nhietdo" type="xs:decimal" minOccurs="0" />
+                <xs:element name="huyetap" type="xs:string" minOccurs="0" />
+                <xs:element name="nhiptho" type="xs:decimal" minOccurs="0" />
+                <xs:element name="cannang" type="xs:decimal" minOccurs="0" />
+                <xs:element name="chieucao" type="xs:decimal" minOccurs="0" />
+                <xs:element name="c01" type="xs:string" minOccurs="0" />
+                <xs:element name="c02" type="xs:string" minOccurs="0" />
+                <xs:element name="c03" type="xs:string" minOccurs="0" />
+                <xs:element name="c04" type="xs:string" minOccurs="0" />
+                <xs:element name="c05" type="xs:string" minOccurs="0" />
+                <xs:element name="Image" type="xs:base64Binary" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <maql>110709185248024003</maql>
+    <lydo>r</lydo>
+    <hb_benhly>t</hb_benhly>
+    <hb_banthan>y</hb_banthan>
+    <hb_giadinh>ff</hb_giadinh>
+    <kb_toanthan>dd</kb_toanthan>
+    <kb_bophan>ss</kb_bophan>
+    <kb_tomtat>ttt</kb_tomtat>
+    <kb_xuli />
+    <kb_chuy />
+    <sobo />
+    <phanbiet />
+    <userid>463</userid>
+    <ngayud>2011-07-09T18:52:48.906+07:00</ngayud>
+    <mabn>3302232323</mabn>
+    <mach>0</mach>
+    <nhietdo>0.00</nhietdo>
+    <huyetap />
+    <nhiptho>0</nhiptho>
+    <cannang>0.00</cannang>
+    <chieucao>0</chieucao>
+    <c01 />
+    <c02 />
+    <c03 />
+    <c04 />
+    <c05 />
+    <Image />
+  </Table>
+</NewDataSet>

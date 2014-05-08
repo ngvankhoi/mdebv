@@ -1,0 +1,189 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="makp" type="xs:string" minOccurs="0" />
+                <xs:element name="tenkp" type="xs:string" minOccurs="0" />
+                <xs:element name="c01" type="xs:decimal" minOccurs="0" />
+                <xs:element name="c02" type="xs:decimal" minOccurs="0" />
+                <xs:element name="c03" type="xs:decimal" minOccurs="0" />
+                <xs:element name="c04" type="xs:decimal" minOccurs="0" />
+                <xs:element name="c05" type="xs:decimal" minOccurs="0" />
+                <xs:element name="c06" type="xs:decimal" minOccurs="0" />
+                <xs:element name="c07" type="xs:decimal" minOccurs="0" />
+                <xs:element name="c08" type="xs:decimal" minOccurs="0" />
+                <xs:element name="c09" type="xs:decimal" minOccurs="0" />
+                <xs:element name="c10" type="xs:decimal" minOccurs="0" />
+                <xs:element name="c11" type="xs:decimal" minOccurs="0" />
+                <xs:element name="c12" type="xs:decimal" minOccurs="0" />
+                <xs:element name="c13" type="xs:decimal" minOccurs="0" />
+                <xs:element name="c14" type="xs:decimal" minOccurs="0" />
+                <xs:element name="c15" type="xs:decimal" minOccurs="0" />
+                <xs:element name="c16" type="xs:decimal" minOccurs="0" />
+                <xs:element name="c17" type="xs:decimal" minOccurs="0" />
+                <xs:element name="c18" type="xs:decimal" minOccurs="0" />
+                <xs:element name="c19" type="xs:decimal" minOccurs="0" />
+                <xs:element name="c20" type="xs:decimal" minOccurs="0" />
+                <xs:element name="c21" type="xs:decimal" minOccurs="0" />
+                <xs:element name="c22" type="xs:decimal" minOccurs="0" />
+                <xs:element name="c23" type="xs:decimal" minOccurs="0" />
+                <xs:element name="c24" type="xs:decimal" minOccurs="0" />
+                <xs:element name="c25" type="xs:decimal" minOccurs="0" />
+                <xs:element name="c26" type="xs:decimal" minOccurs="0" />
+                <xs:element name="c27" type="xs:decimal" minOccurs="0" />
+                <xs:element name="c28" type="xs:decimal" minOccurs="0" />
+                <xs:element name="c29" type="xs:decimal" minOccurs="0" />
+                <xs:element name="c30" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <makp>01</makp>
+    <tenkp>Khám Bệnh</tenkp>
+  </Table>
+  <Table>
+    <makp>16</makp>
+    <tenkp>Đông Y</tenkp>
+  </Table>
+  <Table>
+    <makp>29</makp>
+    <tenkp>Bvsk (ngoài Bv)</tenkp>
+  </Table>
+  <Table>
+    <makp>28</makp>
+    <tenkp>Phòng Mổ</tenkp>
+  </Table>
+  <Table>
+    <makp>20</makp>
+    <tenkp>Dịch Vụ</tenkp>
+  </Table>
+  <Table>
+    <makp>17</makp>
+    <tenkp>Nhi</tenkp>
+  </Table>
+  <Table>
+    <makp>26</makp>
+    <tenkp>Liên Chuyên Khoa</tenkp>
+  </Table>
+  <Table>
+    <makp>22</makp>
+    <tenkp>Phụ Sản</tenkp>
+  </Table>
+  <Table>
+    <makp>13</makp>
+    <tenkp>Khám Mắt</tenkp>
+  </Table>
+  <Table>
+    <makp>12</makp>
+    <tenkp>Khám Răng Hàm Mặt</tenkp>
+  </Table>
+  <Table>
+    <makp>11</makp>
+    <tenkp>Khám Tai Mũi Họng</tenkp>
+  </Table>
+  <Table>
+    <makp>05</makp>
+    <tenkp>Khám Nội 2</tenkp>
+  </Table>
+  <Table>
+    <makp>06</makp>
+    <tenkp>Khám Nội 3</tenkp>
+  </Table>
+  <Table>
+    <makp>08</makp>
+    <tenkp>Khám Đông Y </tenkp>
+  </Table>
+  <Table>
+    <makp>19</makp>
+    <tenkp>Khám Nhi</tenkp>
+  </Table>
+  <Table>
+    <makp>03</makp>
+    <tenkp>Khoa Nội</tenkp>
+  </Table>
+  <Table>
+    <makp>10</makp>
+    <tenkp>Khám Ngoại</tenkp>
+  </Table>
+  <Table>
+    <makp>09</makp>
+    <tenkp>Khám Sản</tenkp>
+  </Table>
+  <Table>
+    <makp>24</makp>
+    <tenkp>Khám Nội 6</tenkp>
+  </Table>
+  <Table>
+    <makp>07</makp>
+    <tenkp>Khám Nội 4</tenkp>
+  </Table>
+  <Table>
+    <makp>15</makp>
+    <tenkp>Khám Nội 5</tenkp>
+  </Table>
+  <Table>
+    <makp>02</makp>
+    <tenkp>Hscc</tenkp>
+  </Table>
+  <Table>
+    <makp>30</makp>
+    <tenkp>Mắt</tenkp>
+  </Table>
+  <Table>
+    <makp>04</makp>
+    <tenkp>Khám Nội 1</tenkp>
+  </Table>
+  <Table>
+    <makp>32</makp>
+    <tenkp>Khám Hô Hấp</tenkp>
+  </Table>
+  <Table>
+    <makp>35</makp>
+    <tenkp>Pk Kế Hoạch Sản</tenkp>
+  </Table>
+  <Table>
+    <makp>14</makp>
+    <tenkp>Khám Cấp Cứu</tenkp>
+  </Table>
+  <Table>
+    <makp>21</makp>
+    <tenkp>Cấp Cứu Tổng Hợp</tenkp>
+  </Table>
+  <Table>
+    <makp>99</makp>
+    <tenkp>Phòng Lưu</tenkp>
+  </Table>
+  <Table>
+    <makp>23</makp>
+    <tenkp>Phòng Khám Vật Lý Tri Liệu</tenkp>
+  </Table>
+  <Table>
+    <makp>27</makp>
+    <tenkp>Vật Lý Trị Liệu-phcn</tenkp>
+  </Table>
+  <Table>
+    <makp>18</makp>
+    <tenkp>Ngoại</tenkp>
+  </Table>
+  <Table>
+    <makp>25</makp>
+    <tenkp>Tiểu Phẫu Pk Ngoại</tenkp>
+  </Table>
+  <Table>
+    <makp>34</makp>
+    <tenkp>Tiểu Phẩu Pk Sản</tenkp>
+  </Table>
+  <Table>
+    <makp>33</makp>
+    <tenkp>Phòng Mổ Tiểu Phẫu</tenkp>
+  </Table>
+</NewDataSet>

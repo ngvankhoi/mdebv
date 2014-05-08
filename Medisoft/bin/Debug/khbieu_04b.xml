@@ -1,0 +1,346 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ma" type="xs:decimal" minOccurs="0" />
+                <xs:element name="stt" type="xs:string" minOccurs="0" />
+                <xs:element name="ten" type="xs:string" minOccurs="0" />
+                <xs:element name="c01" type="xs:decimal" minOccurs="0" />
+                <xs:element name="c02" type="xs:decimal" minOccurs="0" />
+                <xs:element name="c03" type="xs:decimal" minOccurs="0" />
+                <xs:element name="c04" type="xs:decimal" minOccurs="0" />
+                <xs:element name="c05" type="xs:decimal" minOccurs="0" />
+                <xs:element name="c06" type="xs:decimal" minOccurs="0" />
+                <xs:element name="c07" type="xs:decimal" minOccurs="0" />
+                <xs:element name="c08" type="xs:decimal" minOccurs="0" />
+                <xs:element name="c09" type="xs:decimal" minOccurs="0" />
+                <xs:element name="c10" type="xs:decimal" minOccurs="0" />
+                <xs:element name="c11" type="xs:decimal" minOccurs="0" />
+                <xs:element name="c12" type="xs:decimal" minOccurs="0" />
+                <xs:element name="c13" type="xs:decimal" minOccurs="0" />
+                <xs:element name="c14" type="xs:decimal" minOccurs="0" />
+                <xs:element name="c15" type="xs:decimal" minOccurs="0" />
+                <xs:element name="c16" type="xs:decimal" minOccurs="0" />
+                <xs:element name="c17" type="xs:decimal" minOccurs="0" />
+                <xs:element name="c18" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <ma>0</ma>
+    <stt>A</stt>
+    <ten>Tổng số</ten>
+    <c01>270</c01>
+    <c02>10</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+    <c06>0</c06>
+    <c07>0</c07>
+    <c08>0</c08>
+    <c09>0</c09>
+    <c10>0</c10>
+    <c11>0</c11>
+    <c12>0</c12>
+    <c13>0</c13>
+    <c14>0</c14>
+    <c15>0</c15>
+    <c16>0</c16>
+    <c17>0</c17>
+  </Table>
+  <Table>
+    <ma>1</ma>
+    <stt>1</stt>
+    <ten>Thị trấn M'Đrắk</ten>
+    <c01>30</c01>
+    <c02>10</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+    <c06>0</c06>
+    <c07>0</c07>
+    <c08>0</c08>
+    <c09>0</c09>
+    <c10>0</c10>
+    <c11>0</c11>
+    <c12>0</c12>
+    <c13>0</c13>
+    <c14>0</c14>
+    <c15>0</c15>
+    <c16>0</c16>
+    <c17>0</c17>
+  </Table>
+  <Table>
+    <ma>3</ma>
+    <stt>2</stt>
+    <ten>Xã Cư Prao</ten>
+    <c01>60</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+    <c06>0</c06>
+    <c07>0</c07>
+    <c08>0</c08>
+    <c09>0</c09>
+    <c10>0</c10>
+    <c11>0</c11>
+    <c12>0</c12>
+    <c13>0</c13>
+    <c14>0</c14>
+    <c15>0</c15>
+    <c16>0</c16>
+    <c17>0</c17>
+  </Table>
+  <Table>
+    <ma>5</ma>
+    <stt>3</stt>
+    <ten>Xã Ea Pil</ten>
+    <c01>30</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+    <c06>0</c06>
+    <c07>0</c07>
+    <c08>0</c08>
+    <c09>0</c09>
+    <c10>0</c10>
+    <c11>0</c11>
+    <c12>0</c12>
+    <c13>0</c13>
+    <c14>0</c14>
+    <c15>0</c15>
+    <c16>0</c16>
+    <c17>0</c17>
+  </Table>
+  <Table>
+    <ma>7</ma>
+    <stt>4</stt>
+    <ten>Xã Ea Lai</ten>
+    <c01>60</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+    <c06>0</c06>
+    <c07>0</c07>
+    <c08>0</c08>
+    <c09>0</c09>
+    <c10>0</c10>
+    <c11>0</c11>
+    <c12>0</c12>
+    <c13>0</c13>
+    <c14>0</c14>
+    <c15>0</c15>
+    <c16>0</c16>
+    <c17>0</c17>
+  </Table>
+  <Table>
+    <ma>9</ma>
+    <stt>5</stt>
+    <ten>Xã Ea MLay</ten>
+    <c01>30</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+    <c06>0</c06>
+    <c07>0</c07>
+    <c08>0</c08>
+    <c09>0</c09>
+    <c10>0</c10>
+    <c11>0</c11>
+    <c12>0</c12>
+    <c13>0</c13>
+    <c14>0</c14>
+    <c15>0</c15>
+    <c16>0</c16>
+    <c17>0</c17>
+  </Table>
+  <Table>
+    <ma>11</ma>
+    <stt>6</stt>
+    <ten>Xã Krông Jing</ten>
+    <c01>60</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+    <c06>0</c06>
+    <c07>0</c07>
+    <c08>0</c08>
+    <c09>0</c09>
+    <c10>0</c10>
+    <c11>0</c11>
+    <c12>0</c12>
+    <c13>0</c13>
+    <c14>0</c14>
+    <c15>0</c15>
+    <c16>0</c16>
+    <c17>0</c17>
+  </Table>
+  <Table>
+    <ma>13</ma>
+    <stt>7</stt>
+    <ten>Xã Ea M' Doal</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+    <c06>0</c06>
+    <c07>0</c07>
+    <c08>0</c08>
+    <c09>0</c09>
+    <c10>0</c10>
+    <c11>0</c11>
+    <c12>0</c12>
+    <c13>0</c13>
+    <c14>0</c14>
+    <c15>0</c15>
+    <c16>0</c16>
+    <c17>0</c17>
+  </Table>
+  <Table>
+    <ma>15</ma>
+    <stt>8</stt>
+    <ten>Xã Ea Riêng</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+    <c06>0</c06>
+    <c07>0</c07>
+    <c08>0</c08>
+    <c09>0</c09>
+    <c10>0</c10>
+    <c11>0</c11>
+    <c12>0</c12>
+    <c13>0</c13>
+    <c14>0</c14>
+    <c15>0</c15>
+    <c16>0</c16>
+    <c17>0</c17>
+  </Table>
+  <Table>
+    <ma>17</ma>
+    <stt>9</stt>
+    <ten>Xã Cư M'ta</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+    <c06>0</c06>
+    <c07>0</c07>
+    <c08>0</c08>
+    <c09>0</c09>
+    <c10>0</c10>
+    <c11>0</c11>
+    <c12>0</c12>
+    <c13>0</c13>
+    <c14>0</c14>
+    <c15>0</c15>
+    <c16>0</c16>
+    <c17>0</c17>
+  </Table>
+  <Table>
+    <ma>19</ma>
+    <stt>10</stt>
+    <ten>Xã Cư K Róa</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+    <c06>0</c06>
+    <c07>0</c07>
+    <c08>0</c08>
+    <c09>0</c09>
+    <c10>0</c10>
+    <c11>0</c11>
+    <c12>0</c12>
+    <c13>0</c13>
+    <c14>0</c14>
+    <c15>0</c15>
+    <c16>0</c16>
+    <c17>0</c17>
+  </Table>
+  <Table>
+    <ma>21</ma>
+    <stt>11</stt>
+    <ten>Xã KRông á</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+    <c06>0</c06>
+    <c07>0</c07>
+    <c08>0</c08>
+    <c09>0</c09>
+    <c10>0</c10>
+    <c11>0</c11>
+    <c12>0</c12>
+    <c13>0</c13>
+    <c14>0</c14>
+    <c15>0</c15>
+    <c16>0</c16>
+    <c17>0</c17>
+  </Table>
+  <Table>
+    <ma>23</ma>
+    <stt>12</stt>
+    <ten>Xã Ea Trang</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+    <c06>0</c06>
+    <c07>0</c07>
+    <c08>0</c08>
+    <c09>0</c09>
+    <c10>0</c10>
+    <c11>0</c11>
+    <c12>0</c12>
+    <c13>0</c13>
+    <c14>0</c14>
+    <c15>0</c15>
+    <c16>0</c16>
+    <c17>0</c17>
+  </Table>
+  <Table>
+    <ma>25</ma>
+    <stt>13</stt>
+    <ten>Xã Cư San</ten>
+    <c01>0</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+    <c06>0</c06>
+    <c07>0</c07>
+    <c08>0</c08>
+    <c09>0</c09>
+    <c10>0</c10>
+    <c11>0</c11>
+    <c12>0</c12>
+    <c13>0</c13>
+    <c14>0</c14>
+    <c15>0</c15>
+    <c16>0</c16>
+    <c17>0</c17>
+  </Table>
+</NewDataSet>

@@ -1,0 +1,583 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="MAKHO" type="xs:decimal" minOccurs="0" />
+                <xs:element name="TENKHO" type="xs:string" minOccurs="0" />
+                <xs:element name="STT" type="xs:string" minOccurs="0" />
+                <xs:element name="MABD" type="xs:decimal" minOccurs="0" />
+                <xs:element name="MA" type="xs:string" minOccurs="0" />
+                <xs:element name="TEN" type="xs:string" minOccurs="0" />
+                <xs:element name="DANG" type="xs:string" minOccurs="0" />
+                <xs:element name="TENHC" type="xs:string" minOccurs="0" />
+                <xs:element name="MANHOM" type="xs:decimal" minOccurs="0" />
+                <xs:element name="TENNHOM" type="xs:string" minOccurs="0" />
+                <xs:element name="TENHANG" type="xs:string" minOccurs="0" />
+                <xs:element name="SLYEUCAU" type="xs:decimal" minOccurs="0" />
+                <xs:element name="SOLUONG" type="xs:decimal" minOccurs="0" />
+                <xs:element name="DICHSO" type="xs:string" minOccurs="0" />
+                <xs:element name="SOPHIEU" type="xs:decimal" minOccurs="0" />
+                <xs:element name="LANIN" type="xs:decimal" minOccurs="0" />
+                <xs:element name="DONGIA" type="xs:decimal" minOccurs="0" />
+                <xs:element name="HOTEN" type="xs:string" minOccurs="0" />
+                <xs:element name="NAMSINH" type="xs:string" minOccurs="0" />
+                <xs:element name="PHAI" type="xs:decimal" minOccurs="0" />
+                <xs:element name="NGUOILINH" type="xs:string" minOccurs="0" />
+                <xs:element name="NGAYYLENH" type="xs:string" minOccurs="0" />
+                <xs:element name="TUDEN" type="xs:string" minOccurs="0" />
+                <xs:element name="NGUOINHAP" type="xs:string" minOccurs="0" />
+                <xs:element name="NGUOIDUYET" type="xs:string" minOccurs="0" />
+                <xs:element name="LOSX" type="xs:string" minOccurs="0" />
+                <xs:element name="HANDUNG" type="xs:string" minOccurs="0" />
+                <xs:element name="CHANDOAN" type="xs:string" minOccurs="0" />
+                <xs:element name="MAICD" type="xs:string" minOccurs="0" />
+                <xs:element name="NGAYDUYET" type="xs:string" minOccurs="0" />
+                <xs:element name="MABN" type="xs:string" minOccurs="0" />
+                <xs:element name="MANHOM1" type="xs:string" minOccurs="0" />
+                <xs:element name="TENNHOM1" type="xs:string" minOccurs="0" />
+                <xs:element name="giaban" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <MAKHO>4</MAKHO>
+    <TENKHO>Kho lẻ BHYT</TENKHO>
+    <STT>1</STT>
+    <MABD>72708</MABD>
+    <MA>AGI002</MA>
+    <TEN>AGIROVASTIN (Rosuvastatin) 10mg</TEN>
+    <DANG>Viên</DANG>
+    <TENHC>Rosuvastatin</TENHC>
+    <MANHOM>1</MANHOM>
+    <TENNHOM>Thuốc Thường</TENNHOM>
+    <TENHANG>Agimexpharm</TENHANG>
+    <SLYEUCAU>1.0000</SLYEUCAU>
+    <SOLUONG>1.0000</SOLUONG>
+    <DICHSO />
+    <SOPHIEU>31</SOPHIEU>
+    <LANIN>3</LANIN>
+    <DONGIA>4499.0000000000</DONGIA>
+    <NGUOILINH />
+    <NGAYYLENH>10/04/2013(Lãnh lần 2 (Khoa Ngoại)),</NGAYYLENH>
+    <NGUOIDUYET>Nguyễn Thị Lệ Chi</NGUOIDUYET>
+    <NGAYDUYET>10/04/2013,</NGAYDUYET>
+  </Table>
+  <Table>
+    <MAKHO>4</MAKHO>
+    <TENKHO>Kho lẻ BHYT</TENKHO>
+    <STT>1</STT>
+    <MABD>13588</MABD>
+    <MA>ALP004</MA>
+    <TEN>ALPHACHYMOTRYPSINE (# Alpha Choay) </TEN>
+    <DANG>Viên</DANG>
+    <TENHC>Alphachymotrypsine</TENHC>
+    <MANHOM>1</MANHOM>
+    <TENNHOM>Thuốc Thường</TENNHOM>
+    <TENHANG>Mediplantex</TENHANG>
+    <SLYEUCAU>22.0000</SLYEUCAU>
+    <SOLUONG>22.0000</SOLUONG>
+    <DICHSO />
+    <DONGIA>360.0000000000</DONGIA>
+    <NGAYYLENH>10/04/2013(Lãnh lần 2 (Khoa Ngoại)),</NGAYYLENH>
+    <NGUOIDUYET>Nguyễn Thị Lệ Chi</NGUOIDUYET>
+    <NGAYDUYET>10/04/2013,</NGAYDUYET>
+  </Table>
+  <Table>
+    <MAKHO>4</MAKHO>
+    <TENKHO>Kho lẻ BHYT</TENKHO>
+    <STT>1</STT>
+    <MABD>7528</MABD>
+    <MA>AUG004</MA>
+    <TEN>AUGBACTAM 625mg</TEN>
+    <DANG>Viên</DANG>
+    <TENHC>Amoxicillin 500mg; Acid clavulanic 125mg</TENHC>
+    <MANHOM>1</MANHOM>
+    <TENNHOM>Thuốc Thường</TENNHOM>
+    <TENHANG>Mekophar</TENHANG>
+    <SLYEUCAU>10.0000</SLYEUCAU>
+    <SOLUONG>10.0000</SOLUONG>
+    <DICHSO />
+    <DONGIA>3894.9992000000</DONGIA>
+    <NGAYYLENH>10/04/2013(Lãnh lần 2 (Khoa Ngoại)),</NGAYYLENH>
+    <NGUOIDUYET>Nguyễn Thị Lệ Chi</NGUOIDUYET>
+    <NGAYDUYET>10/04/2013,</NGAYDUYET>
+  </Table>
+  <Table>
+    <MAKHO>4</MAKHO>
+    <TENKHO>Kho lẻ BHYT</TENKHO>
+    <STT>1</STT>
+    <MABD>71993</MABD>
+    <MA>CEF004</MA>
+    <TEN>CEFTRIAXONE SODIUM INJ 1000mg</TEN>
+    <DANG>Lọ</DANG>
+    <TENHC>Ceftriaxone</TENHC>
+    <MANHOM>1</MANHOM>
+    <TENNHOM>Thuốc Thường</TENNHOM>
+    <TENHANG>Aurobindo</TENHANG>
+    <SLYEUCAU>2.0000</SLYEUCAU>
+    <SOLUONG>2.0000</SOLUONG>
+    <DICHSO />
+    <DONGIA>37729.9965909091</DONGIA>
+    <NGAYYLENH>10/04/2013(Lãnh lần 2 (Khoa Ngoại)),</NGAYYLENH>
+    <NGUOIDUYET>Nguyễn Thị Lệ Chi</NGUOIDUYET>
+    <NGAYDUYET>10/04/2013,</NGAYDUYET>
+  </Table>
+  <Table>
+    <MAKHO>4</MAKHO>
+    <TENKHO>Kho lẻ BHYT</TENKHO>
+    <STT>1</STT>
+    <MABD>71814</MABD>
+    <MA>DEX017</MA>
+    <TEN>DEXTROSE (Glucose) 5% 500ml</TEN>
+    <DANG>Chai</DANG>
+    <TENHC>Glucose</TENHC>
+    <MANHOM>1</MANHOM>
+    <TENNHOM>Thuốc Thường</TENNHOM>
+    <TENHANG>Euro-Med</TENHANG>
+    <SLYEUCAU>2.0000</SLYEUCAU>
+    <SOLUONG>2.0000</SOLUONG>
+    <DICHSO />
+    <DONGIA>9450.0000000000</DONGIA>
+    <NGAYYLENH>10/04/2013(Lãnh lần 2 (Khoa Ngoại)),</NGAYYLENH>
+    <NGUOIDUYET>Nguyễn Thị Lệ Chi</NGUOIDUYET>
+    <NGAYDUYET>10/04/2013,</NGAYDUYET>
+  </Table>
+  <Table>
+    <MAKHO>4</MAKHO>
+    <TENKHO>Kho lẻ BHYT</TENKHO>
+    <STT>1</STT>
+    <MABD>11726</MABD>
+    <MA>LAC005</MA>
+    <TEN>LACTACYD FH 60ml</TEN>
+    <DANG>Chai</DANG>
+    <TENHC>Lactoserum, Lactic Acid</TENHC>
+    <MANHOM>1</MANHOM>
+    <TENNHOM>Thuốc Thường</TENNHOM>
+    <TENHANG>Sanofi-Synthelabo Vietnam</TENHANG>
+    <SLYEUCAU>1.0000</SLYEUCAU>
+    <SOLUONG>1.0000</SOLUONG>
+    <DICHSO />
+    <DONGIA>15336.0000000000</DONGIA>
+    <NGAYYLENH>10/04/2013(Lãnh lần 2 (Khoa Ngoại)),</NGAYYLENH>
+    <NGUOIDUYET>Nguyễn Thị Lệ Chi</NGUOIDUYET>
+    <NGAYDUYET>10/04/2013,</NGAYDUYET>
+  </Table>
+  <Table>
+    <MAKHO>4</MAKHO>
+    <TENKHO>Kho lẻ BHYT</TENKHO>
+    <STT>1</STT>
+    <MABD>10689</MABD>
+    <MA>OME001</MA>
+    <TEN>OMEPRAZOL 20mg</TEN>
+    <DANG>Viên</DANG>
+    <TENHC>Omeprazole</TENHC>
+    <MANHOM>1</MANHOM>
+    <TENNHOM>Thuốc Thường</TENNHOM>
+    <TENHANG>Swyzer Laboratories Ltd</TENHANG>
+    <SLYEUCAU>1.0000</SLYEUCAU>
+    <SOLUONG>1.0000</SOLUONG>
+    <DICHSO />
+    <DONGIA>360.0000000000</DONGIA>
+    <NGAYYLENH>10/04/2013(Lãnh lần 2 (Khoa Ngoại)),</NGAYYLENH>
+    <NGUOIDUYET>Nguyễn Thị Lệ Chi</NGUOIDUYET>
+    <NGAYDUYET>10/04/2013,</NGAYDUYET>
+  </Table>
+  <Table>
+    <MAKHO>4</MAKHO>
+    <TENKHO>Kho lẻ BHYT</TENKHO>
+    <STT>1</STT>
+    <MABD>66644</MABD>
+    <MA>PAR035</MA>
+    <TEN>PARACETAMOL 500mg</TEN>
+    <DANG>Viên</DANG>
+    <TENHC>Paracetamol</TENHC>
+    <MANHOM>1</MANHOM>
+    <TENNHOM>Thuốc Thường</TENNHOM>
+    <TENHANG>Mekophar</TENHANG>
+    <SLYEUCAU>12.0000</SLYEUCAU>
+    <SOLUONG>12.0000</SOLUONG>
+    <DICHSO />
+    <DONGIA>90.0000000000</DONGIA>
+    <NGAYYLENH>10/04/2013(Lãnh lần 2 (Khoa Ngoại)),</NGAYYLENH>
+    <NGUOIDUYET>Nguyễn Thị Lệ Chi</NGUOIDUYET>
+    <NGAYDUYET>10/04/2013,</NGAYDUYET>
+  </Table>
+  <Table>
+    <MAKHO>4</MAKHO>
+    <TENKHO>Kho lẻ BHYT</TENKHO>
+    <STT>1</STT>
+    <MABD>69987</MABD>
+    <MA>PAR008</MA>
+    <TEN>PARACETAMOL-BIVID 1g/100ml</TEN>
+    <DANG>Chai</DANG>
+    <TENHC>Paracetamol</TENHC>
+    <MANHOM>1</MANHOM>
+    <TENNHOM>Thuốc Thường</TENNHOM>
+    <TENHANG>Sanavita</TENHANG>
+    <SLYEUCAU>1.0000</SLYEUCAU>
+    <SOLUONG>1.0000</SOLUONG>
+    <DICHSO />
+    <DONGIA>40950.0000000000</DONGIA>
+    <NGAYYLENH>10/04/2013(Lãnh lần 2 (Khoa Ngoại)),</NGAYYLENH>
+    <NGUOIDUYET>Nguyễn Thị Lệ Chi</NGUOIDUYET>
+    <NGAYDUYET>10/04/2013,</NGAYDUYET>
+  </Table>
+  <Table>
+    <MAKHO>4</MAKHO>
+    <TENKHO>Kho lẻ BHYT</TENKHO>
+    <STT>1</STT>
+    <MABD>72313</MABD>
+    <MA>PLE001</MA>
+    <TEN>PLETAAL (Cilostazol) 100mg</TEN>
+    <DANG>Viên</DANG>
+    <TENHC>Cilostazol</TENHC>
+    <MANHOM>1</MANHOM>
+    <TENNHOM>Thuốc Thường</TENNHOM>
+    <TENHANG>Korea Otsuka Pharm</TENHANG>
+    <SLYEUCAU>2.0000</SLYEUCAU>
+    <SOLUONG>2.0000</SOLUONG>
+    <DICHSO />
+    <DONGIA>8165.0000000000</DONGIA>
+    <NGAYYLENH>10/04/2013(Lãnh lần 2 (Khoa Ngoại)),</NGAYYLENH>
+    <NGUOIDUYET>Nguyễn Thị Lệ Chi</NGUOIDUYET>
+    <NGAYDUYET>10/04/2013,</NGAYDUYET>
+  </Table>
+  <Table>
+    <MAKHO>4</MAKHO>
+    <TENKHO>Kho lẻ BHYT</TENKHO>
+    <STT>1</STT>
+    <MABD>71716</MABD>
+    <MA>SOS001</MA>
+    <TEN>SODIUM CHLORIDE (Natrichloride) 0,9%500ml</TEN>
+    <DANG>Chai</DANG>
+    <TENHC>Natri Chloride</TENHC>
+    <MANHOM>1</MANHOM>
+    <TENNHOM>Thuốc Thường</TENNHOM>
+    <TENHANG>Euro-Med Laboratories - Philippines</TENHANG>
+    <SLYEUCAU>2.0000</SLYEUCAU>
+    <SOLUONG>2.0000</SOLUONG>
+    <DICHSO />
+    <DONGIA>12285.0000000000</DONGIA>
+    <NGAYYLENH>10/04/2013(Lãnh lần 2 (Khoa Ngoại)),</NGAYYLENH>
+    <NGUOIDUYET>Nguyễn Thị Lệ Chi</NGUOIDUYET>
+    <NGAYDUYET>10/04/2013,</NGAYDUYET>
+  </Table>
+  <Table>
+    <MAKHO>4</MAKHO>
+    <TENKHO>Kho lẻ BHYT</TENKHO>
+    <STT>1</STT>
+    <MABD>72732</MABD>
+    <MA>SUN004</MA>
+    <TEN>SUNCARDIVAS (Carvediol) 6.25mg</TEN>
+    <DANG>Viên</DANG>
+    <TENHC>Carvedilol</TENHC>
+    <MANHOM>1</MANHOM>
+    <TENNHOM>Thuốc Thường</TENNHOM>
+    <TENHANG>Sun Pharmaceutical Industries Ltd, India</TENHANG>
+    <SLYEUCAU>1.0000</SLYEUCAU>
+    <SOLUONG>1.0000</SOLUONG>
+    <DICHSO />
+    <DONGIA>1300.0000000000</DONGIA>
+    <NGAYYLENH>10/04/2013(Lãnh lần 2 (Khoa Ngoại)),</NGAYYLENH>
+    <NGUOIDUYET>Nguyễn Thị Lệ Chi</NGUOIDUYET>
+    <NGAYDUYET>10/04/2013,</NGAYDUYET>
+  </Table>
+  <Table>
+    <MAKHO>4</MAKHO>
+    <TENKHO>Kho lẻ BHYT</TENKHO>
+    <STT>1</STT>
+    <MABD>259</MABD>
+    <MA>TV.002</MA>
+    <TEN>TV.CEFUROXIME 500mg</TEN>
+    <DANG>Viên</DANG>
+    <TENHC>Cefuroxime</TENHC>
+    <MANHOM>1</MANHOM>
+    <TENNHOM>Thuốc Thường</TENNHOM>
+    <TENHANG>TV.PHARM</TENHANG>
+    <SLYEUCAU>10.0000</SLYEUCAU>
+    <SOLUONG>10.0000</SOLUONG>
+    <DICHSO />
+    <DONGIA>4750.0000000000</DONGIA>
+    <NGAYYLENH>10/04/2013(Lãnh lần 2 (Khoa Ngoại)),</NGAYYLENH>
+    <NGUOIDUYET>Nguyễn Thị Lệ Chi</NGUOIDUYET>
+    <NGAYDUYET>10/04/2013,</NGAYDUYET>
+  </Table>
+  <Table>
+    <MAKHO>4</MAKHO>
+    <TENKHO>Kho lẻ BHYT</TENKHO>
+    <STT>1</STT>
+    <MABD>65632</MABD>
+    <MA>LOR010</MA>
+    <TEN>VACO LORATADINE 10mg</TEN>
+    <DANG>Viên</DANG>
+    <TENHC>Loratadin</TENHC>
+    <MANHOM>1</MANHOM>
+    <TENNHOM>Thuốc Thường</TENNHOM>
+    <TENHANG>CTY CỔ PHẦN DƯỢC VACOPHARM</TENHANG>
+    <SLYEUCAU>10.0000</SLYEUCAU>
+    <SOLUONG>10.0000</SOLUONG>
+    <DICHSO />
+    <DONGIA>179.9999250000</DONGIA>
+    <NGAYYLENH>10/04/2013(Lãnh lần 2 (Khoa Ngoại)),</NGAYYLENH>
+    <NGUOIDUYET>Nguyễn Thị Lệ Chi</NGUOIDUYET>
+    <NGAYDUYET>10/04/2013,</NGAYDUYET>
+  </Table>
+  <Table>
+    <MAKHO>4</MAKHO>
+    <TENKHO>Kho lẻ BHYT</TENKHO>
+    <STT>5</STT>
+    <MABD>421</MABD>
+    <MA>BOM013</MA>
+    <TEN>BƠM TIÊM 10CC </TEN>
+    <DANG>Ống</DANG>
+    <TENHC />
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Vật Tư Y Tế</TENNHOM>
+    <TENHANG>Vihanmedico</TENHANG>
+    <SLYEUCAU>2.0000</SLYEUCAU>
+    <SOLUONG>2.0000</SOLUONG>
+    <DICHSO />
+    <SOPHIEU>29</SOPHIEU>
+    <LANIN>3</LANIN>
+    <DONGIA>1100.0000000000</DONGIA>
+    <NGUOILINH />
+    <NGAYYLENH>10/04/2013(Lãnh lần 2 (Khoa Ngoại)),</NGAYYLENH>
+    <NGUOIDUYET>Nguyễn Thị Lệ Chi</NGUOIDUYET>
+    <NGAYDUYET>10/04/2013,</NGAYDUYET>
+  </Table>
+  <Table>
+    <MAKHO>4</MAKHO>
+    <TENKHO>Kho lẻ BHYT</TENKHO>
+    <STT>5</STT>
+    <MABD>420</MABD>
+    <MA>BOM012</MA>
+    <TEN>BƠM TIÊM 3CC </TEN>
+    <DANG>Ống</DANG>
+    <TENHC />
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Vật Tư Y Tế</TENNHOM>
+    <TENHANG>Vihanmedico</TENHANG>
+    <SLYEUCAU>2.0000</SLYEUCAU>
+    <SOLUONG>2.0000</SOLUONG>
+    <DICHSO />
+    <DONGIA>690.0000000000</DONGIA>
+    <NGAYYLENH>10/04/2013(Lãnh lần 2 (Khoa Ngoại)),</NGAYYLENH>
+    <NGUOIDUYET>Nguyễn Thị Lệ Chi</NGUOIDUYET>
+    <NGAYDUYET>10/04/2013,</NGAYDUYET>
+  </Table>
+  <Table>
+    <MAKHO>4</MAKHO>
+    <TENKHO>Kho lẻ BHYT</TENKHO>
+    <STT>5</STT>
+    <MABD>67560</MABD>
+    <MA>DAY065</MA>
+    <TEN>DÂY TRUYỀN DỊCH AM </TEN>
+    <DANG>Sợi</DANG>
+    <TENHC />
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Vật Tư Y Tế</TENNHOM>
+    <TENHANG>Omiga</TENHANG>
+    <SLYEUCAU>1.0000</SLYEUCAU>
+    <SOLUONG>1.0000</SOLUONG>
+    <DICHSO />
+    <DONGIA>3255.0000000000</DONGIA>
+    <NGAYYLENH>10/04/2013(Lãnh lần 2 (Khoa Ngoại)),</NGAYYLENH>
+    <NGUOIDUYET>Nguyễn Thị Lệ Chi</NGUOIDUYET>
+    <NGAYDUYET>10/04/2013,</NGAYDUYET>
+  </Table>
+  <Table>
+    <MAKHO>4</MAKHO>
+    <TENKHO>Kho lẻ BHYT</TENKHO>
+    <STT>5</STT>
+    <MABD>12201</MABD>
+    <MA>GAN014</MA>
+    <TEN>GĂNG TAY SẠCH </TEN>
+    <DANG>Đôi</DANG>
+    <TENHC />
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Vật Tư Y Tế</TENNHOM>
+    <TENHANG>Duo Pharma(M)Sdn. Bdn. - Malaysia</TENHANG>
+    <SLYEUCAU>2.0000</SLYEUCAU>
+    <SOLUONG>2.0000</SOLUONG>
+    <DICHSO />
+    <DONGIA>1685.7800000000</DONGIA>
+    <NGAYYLENH>10/04/2013(Lãnh lần 2 (Khoa Ngoại)),</NGAYYLENH>
+    <NGUOIDUYET>Nguyễn Thị Lệ Chi</NGUOIDUYET>
+    <NGAYDUYET>10/04/2013,</NGAYDUYET>
+  </Table>
+  <Table>
+    <MAKHO>4</MAKHO>
+    <TENKHO>Kho lẻ BHYT</TENKHO>
+    <STT>5</STT>
+    <MABD>66798</MABD>
+    <MA>KIM068</MA>
+    <TEN>KIM RÚT THUỐC </TEN>
+    <DANG>Cây</DANG>
+    <TENHC />
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Vật Tư Y Tế</TENNHOM>
+    <TENHANG>Vihanmedico</TENHANG>
+    <SLYEUCAU>2.0000</SLYEUCAU>
+    <SOLUONG>2.0000</SOLUONG>
+    <DICHSO />
+    <DONGIA>340.0000000000</DONGIA>
+    <NGAYYLENH>10/04/2013(Lãnh lần 2 (Khoa Ngoại)),</NGAYYLENH>
+    <NGUOIDUYET>Nguyễn Thị Lệ Chi</NGUOIDUYET>
+    <NGAYDUYET>10/04/2013,</NGAYDUYET>
+  </Table>
+  <Table>
+    <MAKHO>5</MAKHO>
+    <TENKHO>Kho lẻ không BHYT</TENKHO>
+    <STT>1</STT>
+    <MABD>66863</MABD>
+    <MA>LID001</MA>
+    <TEN>LIDOCAIN INJ 2%/2ml</TEN>
+    <DANG>Ống</DANG>
+    <TENHC>Lidocain</TENHC>
+    <MANHOM>1</MANHOM>
+    <TENNHOM>Thuốc Thường</TENNHOM>
+    <TENHANG>Pymepharco</TENHANG>
+    <SLYEUCAU>0</SLYEUCAU>
+    <SOLUONG>2.0000</SOLUONG>
+    <DICHSO>Hai</DICHSO>
+    <SOPHIEU>31</SOPHIEU>
+    <LANIN>4</LANIN>
+    <DONGIA>2100.0000000000</DONGIA>
+    <NGUOILINH />
+    <NGAYYLENH>10/04/2013(Lãnh lần 2 (Khoa Ngoại)),</NGAYYLENH>
+    <NGUOIDUYET>Nguyễn Thị Lệ Chi</NGUOIDUYET>
+    <NGAYDUYET>10/04/2013,</NGAYDUYET>
+  </Table>
+  <Table>
+    <MAKHO>5</MAKHO>
+    <TENKHO>Kho lẻ không BHYT</TENKHO>
+    <STT>1</STT>
+    <MABD>71975</MABD>
+    <MA>ORG001</MA>
+    <TEN>ORGAMETRIL (Lynestrenol) 5mg</TEN>
+    <DANG>Viên</DANG>
+    <TENHC>Lynestrenol</TENHC>
+    <MANHOM>1</MANHOM>
+    <TENNHOM>Thuốc Thường</TENNHOM>
+    <TENHANG>Organon</TENHANG>
+    <SLYEUCAU>0</SLYEUCAU>
+    <SOLUONG>40.0000</SOLUONG>
+    <DICHSO>Bốn mươi</DICHSO>
+    <DONGIA>1800.0000000000</DONGIA>
+    <NGAYYLENH>10/04/2013(Lãnh lần 2 (Khoa Ngoại)),</NGAYYLENH>
+    <NGUOIDUYET>Nguyễn Thị Lệ Chi</NGUOIDUYET>
+    <NGAYDUYET>10/04/2013,</NGAYDUYET>
+  </Table>
+  <Table>
+    <MAKHO>5</MAKHO>
+    <TENKHO>Kho lẻ không BHYT</TENKHO>
+    <STT>5</STT>
+    <MABD>419</MABD>
+    <MA>BOM011</MA>
+    <TEN>BƠM TIÊM 5CC </TEN>
+    <DANG>Ống</DANG>
+    <TENHC />
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Vật Tư Y Tế</TENNHOM>
+    <TENHANG>Vihanmedico</TENHANG>
+    <SLYEUCAU>0</SLYEUCAU>
+    <SOLUONG>2.0000</SOLUONG>
+    <DICHSO>Hai</DICHSO>
+    <SOPHIEU>29</SOPHIEU>
+    <LANIN>4</LANIN>
+    <DONGIA>700.0000000000</DONGIA>
+    <NGUOILINH />
+    <NGAYYLENH>10/04/2013(Lãnh lần 2 (Khoa Ngoại)),</NGAYYLENH>
+    <NGUOIDUYET>Nguyễn Thị Lệ Chi</NGUOIDUYET>
+    <NGAYDUYET>10/04/2013,</NGAYDUYET>
+  </Table>
+  <Table>
+    <MAKHO>5</MAKHO>
+    <TENKHO>Kho lẻ không BHYT</TENKHO>
+    <STT>5</STT>
+    <MABD>67670</MABD>
+    <MA>GAN010</MA>
+    <TEN>GĂNG TAY PHẨU THUẬT SỐ 7 (Đã tiệt trùng) </TEN>
+    <DANG>Đôi</DANG>
+    <TENHC />
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Vật Tư Y Tế</TENNHOM>
+    <TENHANG>Merufa</TENHANG>
+    <SLYEUCAU>0</SLYEUCAU>
+    <SOLUONG>2.0000</SOLUONG>
+    <DICHSO>Hai</DICHSO>
+    <DONGIA>5450.0000000000</DONGIA>
+    <NGAYYLENH>10/04/2013(Lãnh lần 2 (Khoa Ngoại)),</NGAYYLENH>
+    <NGUOIDUYET>Nguyễn Thị Lệ Chi</NGUOIDUYET>
+    <NGAYDUYET>10/04/2013,</NGAYDUYET>
+  </Table>
+  <Table>
+    <MAKHO>4</MAKHO>
+    <TENKHO>Kho lẻ không BHYT</TENKHO>
+    <STT>5</STT>
+    <MABD>12201</MABD>
+    <MA>GAN014</MA>
+    <TEN>GĂNG TAY SẠCH </TEN>
+    <DANG>Đôi</DANG>
+    <TENHC />
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Vật Tư Y Tế</TENNHOM>
+    <TENHANG>Duo Pharma(M)Sdn. Bdn. - Malaysia</TENHANG>
+    <SLYEUCAU>2.0000</SLYEUCAU>
+    <SOLUONG>2.0000</SOLUONG>
+    <DICHSO />
+    <DONGIA>1685.7800000000</DONGIA>
+    <NGAYYLENH>10/04/2013(Lãnh lần 2 (Khoa Ngoại)),</NGAYYLENH>
+    <NGUOIDUYET>Nguyễn Thị Lệ Chi</NGUOIDUYET>
+    <NGAYDUYET>10/04/2013,</NGAYDUYET>
+  </Table>
+  <Table>
+    <MAKHO>5</MAKHO>
+    <TENKHO>Kho lẻ không BHYT</TENKHO>
+    <STT>5</STT>
+    <MABD>66786</MABD>
+    <MA>KHA032</MA>
+    <TEN>KHẨU TRANG GIẤY </TEN>
+    <DANG>Cái</DANG>
+    <TENHC />
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Vật Tư Y Tế</TENNHOM>
+    <TENHANG>Mundschutz-Malaysia</TENHANG>
+    <SLYEUCAU>0</SLYEUCAU>
+    <SOLUONG>4.0000</SOLUONG>
+    <DICHSO>Bốn</DICHSO>
+    <DONGIA>520.0000000000</DONGIA>
+    <NGAYYLENH>10/04/2013(Lãnh lần 2 (Khoa Ngoại)),</NGAYYLENH>
+    <NGUOIDUYET>Nguyễn Thị Lệ Chi</NGUOIDUYET>
+    <NGAYDUYET>10/04/2013,</NGAYDUYET>
+  </Table>
+  <Table>
+    <MAKHO>5</MAKHO>
+    <TENKHO>Kho lẻ không BHYT</TENKHO>
+    <STT>5</STT>
+    <MABD>72420</MABD>
+    <MA>NON002</MA>
+    <TEN>NÓN GIẤY NỮ TIỆT TRÙNG </TEN>
+    <DANG>Cái</DANG>
+    <TENHC />
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Vật Tư Y Tế</TENNHOM>
+    <TENHANG>Cty TNHH Thời Thanh Bình</TENHANG>
+    <SLYEUCAU>0</SLYEUCAU>
+    <SOLUONG>4.0000</SOLUONG>
+    <DICHSO>Bốn</DICHSO>
+    <DONGIA>1000.0000000000</DONGIA>
+    <NGAYYLENH>10/04/2013(Lãnh lần 2 (Khoa Ngoại)),</NGAYYLENH>
+    <NGUOIDUYET>Nguyễn Thị Lệ Chi</NGUOIDUYET>
+    <NGAYDUYET>10/04/2013,</NGAYDUYET>
+  </Table>
+</NewDataSet>

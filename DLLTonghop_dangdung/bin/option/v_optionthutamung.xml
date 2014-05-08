@@ -1,0 +1,90 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="MA" type="xs:string" minOccurs="0" />
+                <xs:element name="TEN" type="xs:string" minOccurs="0" />
+                <xs:element name="GIATRI" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <MA>chkXemlai</MA>
+    <TEN>Xem lại hoá đơn đã thu trong lần điều trị</TEN>
+    <GIATRI>0</GIATRI>
+  </Table>
+  <Table>
+    <MA>chkNhapsau</MA>
+    <TEN>Cho phép nhập sau khi đã làm thủ tục xuất viện</TEN>
+    <GIATRI>0</GIATRI>
+  </Table>
+  <Table>
+    <MA>chkChophepinnhieulan</MA>
+    <TEN>Cho phép in nhiều lần</TEN>
+    <GIATRI>0</GIATRI>
+  </Table>
+  <Table>
+    <MA>chkInrieng</MA>
+    <TEN>Mỗi nội dung thu chi tiết in 1 hoá đơn</TEN>
+    <GIATRI>0</GIATRI>
+  </Table>
+  <Table>
+    <MA>chkInchitiet</MA>
+    <TEN>In số tiền chi tiết trong hoá đơn</TEN>
+    <GIATRI>0</GIATRI>
+  </Table>
+  <Table>
+    <MA>chkSystemColor</MA>
+    <TEN>Màu hệ thống</TEN>
+    <GIATRI>0</GIATRI>
+  </Table>
+  <Table>
+    <MA>chkLoaibn</MA>
+    <TEN>Loại bệnh nhân</TEN>
+    <GIATRI>0</GIATRI>
+  </Table>
+  <Table>
+    <MA>chkSotienchitiet</MA>
+    <TEN>Nhập số tiền chi tiết (Theo loại viện phí)</TEN>
+    <GIATRI>0</GIATRI>
+  </Table>
+  <Table>
+    <MA>chkMacdinhkhongin</MA>
+    <TEN>Mặc định không in</TEN>
+    <GIATRI>0</GIATRI>
+  </Table>
+  <Table>
+    <MA>chkChisuaxoatrongngay</MA>
+    <TEN>Chỉ cho phép sữa, hủy hoá đơn thu trong ngày</TEN>
+    <GIATRI>0</GIATRI>
+  </Table>
+  <Table>
+    <MA>chkChosua</MA>
+    <TEN>Cho phép sữa biên lai</TEN>
+    <GIATRI>0</GIATRI>
+  </Table>
+  <Table>
+    <MA>chkChohuy</MA>
+    <TEN>Cho phép hủy biên lai</TEN>
+    <GIATRI>0</GIATRI>
+  </Table>
+  <Table>
+    <MA>txtSotienmacdinh</MA>
+    <TEN>txtSotienmacdinh</TEN>
+    <GIATRI>300,000</GIATRI>
+  </Table>
+  <Table>
+    <MA>cbDoiTuong</MA>
+    <TEN>cbDoiTuong</TEN>
+    <GIATRI>2</GIATRI>
+  </Table>
+</NewDataSet>

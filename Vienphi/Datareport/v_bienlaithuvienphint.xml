@@ -1,0 +1,225 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="BienLaiTamUng">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="syt" type="xs:string" minOccurs="0" />
+                <xs:element name="bv" type="xs:string" minOccurs="0" />
+                <xs:element name="diachibv" type="xs:string" minOccurs="0" />
+                <xs:element name="tongcucthue" type="xs:string" minOccurs="0" />
+                <xs:element name="cucthue" type="xs:string" minOccurs="0" />
+                <xs:element name="masothue" type="xs:string" minOccurs="0" />
+                <xs:element name="mauso" type="xs:string" minOccurs="0" />
+                <xs:element name="quyenso" type="xs:string" minOccurs="0" />
+                <xs:element name="sobienlai" type="xs:string" minOccurs="0" />
+                <xs:element name="ngayin" type="xs:string" minOccurs="0" />
+                <xs:element name="nguoiin" type="xs:string" minOccurs="0" />
+                <xs:element name="ghichu" type="xs:string" minOccurs="0" />
+                <xs:element name="lien" type="xs:string" minOccurs="0" />
+                <xs:element name="mabn" type="xs:string" minOccurs="0" />
+                <xs:element name="hoten" type="xs:string" minOccurs="0" />
+                <xs:element name="ngaysinh" type="xs:string" minOccurs="0" />
+                <xs:element name="gioitinh" type="xs:string" minOccurs="0" />
+                <xs:element name="khoa" type="xs:string" minOccurs="0" />
+                <xs:element name="diachi" type="xs:string" minOccurs="0" />
+                <xs:element name="lydo" type="xs:string" minOccurs="0" />
+                <xs:element name="sotien" type="xs:string" minOccurs="0" />
+                <xs:element name="chutien" type="xs:string" minOccurs="0" />
+                <xs:element name="tongcp" type="xs:string" minOccurs="0" />
+                <xs:element name="tamung" type="xs:string" minOccurs="0" />
+                <xs:element name="bhyt" type="xs:string" minOccurs="0" />
+                <xs:element name="mien" type="xs:string" minOccurs="0" />
+                <xs:element name="lydomien" type="xs:string" minOccurs="0" />
+                <xs:element name="nguoithu" type="xs:string" minOccurs="0" />
+                <xs:element name="id" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sothe" type="xs:string" minOccurs="0" />
+                <xs:element name="noicap" type="xs:string" minOccurs="0" />
+                <xs:element name="tu" type="xs:string" minOccurs="0" />
+                <xs:element name="den" type="xs:string" minOccurs="0" />
+                <xs:element name="traituyen" type="xs:string" minOccurs="0" />
+                <xs:element name="ngayvv" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Chitiet">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="madoituong" type="xs:int" minOccurs="0" />
+                <xs:element name="mavp" type="xs:int" minOccurs="0" />
+                <xs:element name="tenvp" type="xs:string" minOccurs="0" />
+                <xs:element name="id_loaivp" type="xs:int" minOccurs="0" />
+                <xs:element name="loaivp" type="xs:string" minOccurs="0" />
+                <xs:element name="id_nhomvp" type="xs:int" minOccurs="0" />
+                <xs:element name="nhomvp" type="xs:string" minOccurs="0" />
+                <xs:element name="sotien" type="xs:decimal" minOccurs="0" />
+                <xs:element name="vat" type="xs:decimal" minOccurs="0" />
+                <xs:element name="id" type="xs:decimal" minOccurs="0" />
+                <xs:element name="gia_dv" type="xs:decimal" minOccurs="0" />
+                <xs:element name="gia_bh" type="xs:decimal" minOccurs="0" />
+                <xs:element name="dongia" type="xs:decimal" minOccurs="0" />
+                <xs:element name="soluong" type="xs:decimal" minOccurs="0" />
+                <xs:element name="bhyttra_ct" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ngoaidanhmuc" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <BienLaiTamUng>
+    <syt>Sở Y tế ĐĂCNÔNG</syt>
+    <bv>Bệnh viện đa khoa Huyện Krông Pắc</bv>
+    <diachibv>Đường 23/3</diachibv>
+    <tongcucthue>TỔNG CỤC THUẾ</tongcucthue>
+    <cucthue>CỤC THUẾ</cucthue>
+    <masothue />
+    <mauso />
+    <quyenso>TẠM ỨNG</quyenso>
+    <sobienlai>24777</sobienlai>
+    <ngayin>23/04/2014</ngayin>
+    <nguoiin>Nguyễn Văn Tư</nguoiin>
+    <ghichu />
+    <lien>Liên 1: Giao cho bệnh nhân</lien>
+    <mabn>1200777777</mabn>
+    <hoten>NGUYỄN THỊ TRANG</hoten>
+    <ngaysinh>1985</ngaysinh>
+    <gioitinh>Nữ</gioitinh>
+    <khoa>Phòng Lưu [CC]</khoa>
+    <diachi>P. Phú Hòa, TP. Thủ Dầu Một, Bình Dương</diachi>
+    <lydo>Thanh toán viện phí ra viện :</lydo>
+    <sotien>0</sotien>
+    <chutien>Không đồng</chutien>
+    <tongcp>111,609.98</tongcp>
+    <tamung>0</tamung>
+    <bhyt>111,609.98</bhyt>
+    <mien>0</mien>
+    <lydomien>- Tổng chi phí: 111,609.98
+- BHYT trả: 111,609.98
+- Thu thêm: </lydomien>
+    <nguoithu>Nguyễn Văn Tư</nguoithu>
+    <id>1100817140423105152686</id>
+  </BienLaiTamUng>
+  <BienLaiTamUng>
+    <syt>Sở Y tế ĐĂCNÔNG</syt>
+    <bv>Bệnh viện đa khoa Huyện Krông Pắc</bv>
+    <diachibv>Đường 23/3</diachibv>
+    <tongcucthue>TỔNG CỤC THUẾ</tongcucthue>
+    <cucthue>CỤC THUẾ</cucthue>
+    <masothue />
+    <mauso />
+    <quyenso>TẠM ỨNG</quyenso>
+    <sobienlai>24777</sobienlai>
+    <ngayin>23/04/2014</ngayin>
+    <nguoiin>Nguyễn Văn Tư</nguoiin>
+    <ghichu />
+    <lien>Liên 2: : Lưu khoa/phòng</lien>
+    <mabn>1200777777</mabn>
+    <hoten>NGUYỄN THỊ TRANG</hoten>
+    <ngaysinh>1985</ngaysinh>
+    <gioitinh>Nữ</gioitinh>
+    <khoa>Phòng Lưu [CC]</khoa>
+    <diachi>P. Phú Hòa, TP. Thủ Dầu Một, Bình Dương</diachi>
+    <lydo>Thanh toán viện phí ra viện :</lydo>
+    <sotien>0</sotien>
+    <chutien>Không đồng</chutien>
+    <tongcp>111,609.98</tongcp>
+    <tamung>0</tamung>
+    <bhyt>111,609.98</bhyt>
+    <mien>0</mien>
+    <lydomien>- Tổng chi phí: 111,609.98
+- BHYT trả: 111,609.98
+- Thu thêm: </lydomien>
+    <nguoithu>Nguyễn Văn Tư</nguoithu>
+    <id>1100817140423105152686</id>
+  </BienLaiTamUng>
+  <BienLaiTamUng>
+    <syt>Sở Y tế ĐĂCNÔNG</syt>
+    <bv>Bệnh viện đa khoa Huyện Krông Pắc</bv>
+    <diachibv>Đường 23/3</diachibv>
+    <tongcucthue>TỔNG CỤC THUẾ</tongcucthue>
+    <cucthue>CỤC THUẾ</cucthue>
+    <masothue />
+    <mauso />
+    <quyenso>TẠM ỨNG</quyenso>
+    <sobienlai>24777</sobienlai>
+    <ngayin>23/04/2014</ngayin>
+    <nguoiin>Nguyễn Văn Tư</nguoiin>
+    <ghichu />
+    <lien>Liên 3: Lưu Viện Phí</lien>
+    <mabn>1200777777</mabn>
+    <hoten>NGUYỄN THỊ TRANG</hoten>
+    <ngaysinh>1985</ngaysinh>
+    <gioitinh>Nữ</gioitinh>
+    <khoa>Phòng Lưu [CC]</khoa>
+    <diachi>P. Phú Hòa, TP. Thủ Dầu Một, Bình Dương</diachi>
+    <lydo>Thanh toán viện phí ra viện :</lydo>
+    <sotien>0</sotien>
+    <chutien>Không đồng</chutien>
+    <tongcp>111,609.98</tongcp>
+    <tamung>0</tamung>
+    <bhyt>111,609.98</bhyt>
+    <mien>0</mien>
+    <lydomien>- Tổng chi phí: 111,609.98
+- BHYT trả: 111,609.98
+- Thu thêm: </lydomien>
+    <nguoithu>Nguyễn Văn Tư</nguoithu>
+    <id>1100817140423105152686</id>
+  </BienLaiTamUng>
+  <Chitiet>
+    <madoituong>1</madoituong>
+    <mavp>72006</mavp>
+    <id_loaivp>-1</id_loaivp>
+    <id_nhomvp>15</id_nhomvp>
+    <nhomvp>Thuốc, dich truyền</nhomvp>
+    <sotien>0.0000</sotien>
+    <vat>0</vat>
+    <id>1100817140423105152686</id>
+  </Chitiet>
+  <Chitiet>
+    <madoituong>1</madoituong>
+    <mavp>72035</mavp>
+    <id_loaivp>-1</id_loaivp>
+    <id_nhomvp>15</id_nhomvp>
+    <nhomvp>Thuốc, dich truyền</nhomvp>
+    <sotien>0.0000</sotien>
+    <vat>0</vat>
+    <id>1100817140423105152686</id>
+  </Chitiet>
+  <Chitiet>
+    <madoituong>1</madoituong>
+    <mavp>72844</mavp>
+    <id_loaivp>-1</id_loaivp>
+    <id_nhomvp>15</id_nhomvp>
+    <nhomvp>Thuốc, dich truyền</nhomvp>
+    <sotien>0.0000</sotien>
+    <vat>0</vat>
+    <id>1100817140423105152686</id>
+  </Chitiet>
+  <Chitiet>
+    <madoituong>1</madoituong>
+    <mavp>12661</mavp>
+    <id_loaivp>75</id_loaivp>
+    <loaivp>X quang kỹ thuật số</loaivp>
+    <id_nhomvp>2</id_nhomvp>
+    <nhomvp>Chẩn đoán hình ảnh</nhomvp>
+    <sotien>0.0000</sotien>
+    <vat>0</vat>
+    <id>1100817140423105152686</id>
+  </Chitiet>
+  <Chitiet>
+    <madoituong>1</madoituong>
+    <mavp>-71627</mavp>
+    <id_loaivp>65</id_loaivp>
+    <loaivp>Siêu âm</loaivp>
+    <id_nhomvp>2</id_nhomvp>
+    <nhomvp>Chẩn đoán hình ảnh</nhomvp>
+    <sotien>0.0000</sotien>
+    <vat>0</vat>
+    <id>1100817140423105152686</id>
+  </Chitiet>
+</NewDataSet>

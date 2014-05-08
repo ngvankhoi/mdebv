@@ -1,0 +1,143 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="BienLaiTamUng">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="syt" type="xs:string" minOccurs="0" />
+                <xs:element name="bv" type="xs:string" minOccurs="0" />
+                <xs:element name="diachibv" type="xs:string" minOccurs="0" />
+                <xs:element name="tongcucthue" type="xs:string" minOccurs="0" />
+                <xs:element name="cucthue" type="xs:string" minOccurs="0" />
+                <xs:element name="masothue" type="xs:string" minOccurs="0" />
+                <xs:element name="mauso" type="xs:string" minOccurs="0" />
+                <xs:element name="quyenso" type="xs:string" minOccurs="0" />
+                <xs:element name="sohieuquyenso" type="xs:string" minOccurs="0" />
+                <xs:element name="sobienlai" type="xs:string" minOccurs="0" />
+                <xs:element name="ngayin" type="xs:string" minOccurs="0" />
+                <xs:element name="nguoiin" type="xs:string" minOccurs="0" />
+                <xs:element name="ghichu" type="xs:string" minOccurs="0" />
+                <xs:element name="sovaovien" type="xs:string" minOccurs="0" />
+                <xs:element name="lien" type="xs:string" minOccurs="0" />
+                <xs:element name="mabn" type="xs:string" minOccurs="0" />
+                <xs:element name="hoten" type="xs:string" minOccurs="0" />
+                <xs:element name="ngaysinh" type="xs:string" minOccurs="0" />
+                <xs:element name="gioitinh" type="xs:string" minOccurs="0" />
+                <xs:element name="khoa" type="xs:string" minOccurs="0" />
+                <xs:element name="diachi" type="xs:string" minOccurs="0" />
+                <xs:element name="lydo" type="xs:string" minOccurs="0" />
+                <xs:element name="loaivp" type="xs:string" minOccurs="0" />
+                <xs:element name="sotien" type="xs:string" minOccurs="0" />
+                <xs:element name="chutien" type="xs:string" minOccurs="0" />
+                <xs:element name="nguoithu" type="xs:string" minOccurs="0" />
+                <xs:element name="diengiai" type="xs:string" minOccurs="0" />
+                <xs:element name="bacsithuchien" type="xs:string" minOccurs="0" />
+                <xs:element name="bacsilamsang" type="xs:string" minOccurs="0" />
+                <xs:element name="sttkham" type="xs:string" minOccurs="0" />
+                <xs:element name="id" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Chitiet">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="madoituong" type="xs:int" minOccurs="0" />
+                <xs:element name="mavp" type="xs:int" minOccurs="0" />
+                <xs:element name="tenvp" type="xs:string" minOccurs="0" />
+                <xs:element name="id_loaivp" type="xs:int" minOccurs="0" />
+                <xs:element name="loaivp" type="xs:string" minOccurs="0" />
+                <xs:element name="id_nhomvp" type="xs:int" minOccurs="0" />
+                <xs:element name="nhomvp" type="xs:string" minOccurs="0" />
+                <xs:element name="sotien" type="xs:decimal" minOccurs="0" />
+                <xs:element name="vat" type="xs:decimal" minOccurs="0" />
+                <xs:element name="id" type="xs:decimal" minOccurs="0" />
+                <xs:element name="gia_dv" type="xs:decimal" minOccurs="0" />
+                <xs:element name="gia_bh" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <BienLaiTamUng>
+    <syt>Sở Y Tế An Giang</syt>
+    <bv>BỆNH VIỆN ĐA KHOA KHU VỰC TỈNH</bv>
+    <diachibv>Số 5 Lê Lợi - Phường B - Thị Xã Châu Đốc - Tỉnh An Giang</diachibv>
+    <tongcucthue>TỔNG CỤC THUẾ</tongcucthue>
+    <cucthue>CỤC THUẾ</cucthue>
+    <masothue />
+    <mauso />
+    <quyenso>117</quyenso>
+    <sohieuquyenso>TROPHITRINH</sohieuquyenso>
+    <sobienlai>157839</sobienlai>
+    <ngayin>12/03/2011</ngayin>
+    <nguoiin>admin</nguoiin>
+    <ghichu>(In lần 1)</ghichu>
+    <lien>Liên 1:Giao bệnh nhân</lien>
+    <mabn>11121212</mabn>
+    <hoten>TEST TT</hoten>
+    <ngaysinh>1979</ngaysinh>
+    <gioitinh>Nữ</gioitinh>
+    <khoa>Khám Phụ Khoa</khoa>
+    <diachi>Bình Dương</diachi>
+    <lydo>Khám phụ khoa [42,000 đ]</lydo>
+    <loaivp>Công khám bệnh</loaivp>
+    <sotien>42,000</sotien>
+    <chutien>Bốn mươi hai ngàn  đồng</chutien>
+    <nguoithu>admin</nguoithu>
+    <diengiai />
+    <bacsithuchien>^1</bacsithuchien>
+    <bacsilamsang />
+    <sttkham>1</sttkham>
+    <id>93000000001</id>
+  </BienLaiTamUng>
+  <BienLaiTamUng>
+    <syt>Sở Y Tế An Giang</syt>
+    <bv>BỆNH VIỆN ĐA KHOA KHU VỰC TỈNH</bv>
+    <diachibv>Số 5 Lê Lợi - Phường B - Thị Xã Châu Đốc - Tỉnh An Giang</diachibv>
+    <tongcucthue>TỔNG CỤC THUẾ</tongcucthue>
+    <cucthue>CỤC THUẾ</cucthue>
+    <masothue />
+    <mauso />
+    <quyenso>117</quyenso>
+    <sohieuquyenso>TROPHITRINH</sohieuquyenso>
+    <sobienlai>157839</sobienlai>
+    <ngayin>12/03/2011</ngayin>
+    <nguoiin>admin</nguoiin>
+    <ghichu>(In lần 1)</ghichu>
+    <lien>Liên 2: Lưu</lien>
+    <mabn>11121212</mabn>
+    <hoten>TEST TT</hoten>
+    <ngaysinh>1979</ngaysinh>
+    <gioitinh>Nữ</gioitinh>
+    <khoa>Khám Phụ Khoa</khoa>
+    <diachi>Bình Dương</diachi>
+    <lydo>Khám phụ khoa [42,000 đ]</lydo>
+    <loaivp>Công khám bệnh</loaivp>
+    <sotien>42,000</sotien>
+    <chutien>Bốn mươi hai ngàn  đồng</chutien>
+    <nguoithu>admin</nguoithu>
+    <diengiai />
+    <bacsithuchien>^1</bacsithuchien>
+    <bacsilamsang />
+    <sttkham>1</sttkham>
+    <id>93000000001</id>
+  </BienLaiTamUng>
+  <Chitiet>
+    <madoituong>2</madoituong>
+    <mavp>3</mavp>
+    <id_loaivp>30</id_loaivp>
+    <loaivp>Công khám bệnh</loaivp>
+    <id_nhomvp>1</id_nhomvp>
+    <nhomvp>Công khám</nhomvp>
+    <sotien>42000.00000000</sotien>
+    <vat>0</vat>
+    <id>93000000001</id>
+    <gia_dv>45000</gia_dv>
+    <gia_bh>3000</gia_bh>
+  </Chitiet>
+</NewDataSet>

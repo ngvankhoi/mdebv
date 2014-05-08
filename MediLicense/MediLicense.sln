@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediLicense", "MediLicense.csproj", "{07740335-C803-4EB1-B967-13B0B03FE7C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Medisoft2009.License", "..\MedisoftLicense\Medisoft2009.License.csproj", "{DC43CAB0-746A-415E-8FC1-D2AB764C5926}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{07740335-C803-4EB1-B967-13B0B03FE7C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07740335-C803-4EB1-B967-13B0B03FE7C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07740335-C803-4EB1-B967-13B0B03FE7C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07740335-C803-4EB1-B967-13B0B03FE7C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC43CAB0-746A-415E-8FC1-D2AB764C5926}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC43CAB0-746A-415E-8FC1-D2AB764C5926}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC43CAB0-746A-415E-8FC1-D2AB764C5926}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC43CAB0-746A-415E-8FC1-D2AB764C5926}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

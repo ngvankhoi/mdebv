@@ -1,0 +1,81 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="tenkp" type="xs:string" minOccurs="0" />
+                <xs:element name="hoten" type="xs:string" minOccurs="0" />
+                <xs:element name="phai" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ngaysinh" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="namsinh" type="xs:string" minOccurs="0" />
+                <xs:element name="cholam" type="xs:string" minOccurs="0" />
+                <xs:element name="sonha" type="xs:string" minOccurs="0" />
+                <xs:element name="thon" type="xs:string" minOccurs="0" />
+                <xs:element name="tentt" type="xs:string" minOccurs="0" />
+                <xs:element name="tenquan" type="xs:string" minOccurs="0" />
+                <xs:element name="tenpxa" type="xs:string" minOccurs="0" />
+                <xs:element name="sothe" type="xs:string" minOccurs="0" />
+                <xs:element name="tungay" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="denngay" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="mabv" type="xs:string" minOccurs="0" />
+                <xs:element name="tenbv" type="xs:string" minOccurs="0" />
+                <xs:element name="sovaovien" type="xs:string" minOccurs="0" />
+                <xs:element name="id" type="xs:decimal" minOccurs="0" />
+                <xs:element name="mabn" type="xs:string" minOccurs="0" />
+                <xs:element name="mavaovien" type="xs:decimal" minOccurs="0" />
+                <xs:element name="maql" type="xs:decimal" minOccurs="0" />
+                <xs:element name="idkhoa" type="xs:decimal" minOccurs="0" />
+                <xs:element name="makp" type="xs:string" minOccurs="0" />
+                <xs:element name="ngay" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="madoituong" type="xs:decimal" minOccurs="0" />
+                <xs:element name="loai" type="xs:decimal" minOccurs="0" />
+                <xs:element name="loaibn" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ten" type="xs:string" minOccurs="0" />
+                <xs:element name="sotien" type="xs:decimal" minOccurs="0" />
+                <xs:element name="idduyet" type="xs:decimal" minOccurs="0" />
+                <xs:element name="done" type="xs:decimal" minOccurs="0" />
+                <xs:element name="userid" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ngayud" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="no" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <tenkp>Khoa Nội </tenkp>
+    <hoten>MAI THỊ KIM NHUNG</hoten>
+    <phai>1</phai>
+    <namsinh>1983</namsinh>
+    <cholam />
+    <sonha />
+    <thon>KÊNH 9</thon>
+    <tentt>Kiên Giang</tentt>
+    <tenquan>H. Kiên Lương</tenquan>
+    <tenpxa>Kiên Bình</tenpxa>
+    <sovaovien>0005957/13</sovaovien>
+    <id>130906161737821101113</id>
+    <mabn>13021004</mabn>
+    <mavaovien>130816052658674101049</mavaovien>
+    <maql>130816052658316101049</maql>
+    <idkhoa>130816092303425101054</idkhoa>
+    <makp>11</makp>
+    <ngay>2013-09-06T00:00:00+07:00</ngay>
+    <madoituong>2</madoituong>
+    <loai>0</loai>
+    <loaibn>1</loaibn>
+    <ten>Tạm ứng</ten>
+    <sotien>800000.00</sotien>
+    <idduyet>0</idduyet>
+    <done>0</done>
+    <userid>0</userid>
+    <ngayud>2013-09-06T16:17:37.8298+07:00</ngayud>
+    <no>1</no>
+  </Table>
+</NewDataSet>

@@ -1,0 +1,1020 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:Locale="en-US">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="MANGUON" type="xs:decimal" minOccurs="0" />
+                <xs:element name="MABD" type="xs:decimal" minOccurs="0" />
+                <xs:element name="MA" type="xs:string" minOccurs="0" />
+                <xs:element name="TENHC" type="xs:string" minOccurs="0" />
+                <xs:element name="STT" type="xs:decimal" minOccurs="0" />
+                <xs:element name="TENNHOM" type="xs:string" minOccurs="0" />
+                <xs:element name="TENNGUON" type="xs:string" minOccurs="0" />
+                <xs:element name="TEN" type="xs:string" minOccurs="0" />
+                <xs:element name="DANG" type="xs:string" minOccurs="0" />
+                <xs:element name="TENHANG" type="xs:string" minOccurs="0" />
+                <xs:element name="DONGIA" type="xs:decimal" minOccurs="0" />
+                <xs:element name="HANDUNG" type="xs:string" minOccurs="0" />
+                <xs:element name="LOSX" type="xs:string" minOccurs="0" />
+                <xs:element name="TONDAU" type="xs:decimal" minOccurs="0" />
+                <xs:element name="SLNHAP" type="xs:decimal" minOccurs="0" />
+                <xs:element name="SLXUAT" type="xs:decimal" minOccurs="0" />
+                <xs:element name="nuocsx" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <MABD>177653</MABD>
+    <MA>ADR001</MA>
+    <TENHC>Adrenalin</TENHC>
+    <STT>4</STT>
+    <TENNHOM>Thuốc thường ống </TENNHOM>
+    <TEN>Adrenalin 1mg</TEN>
+    <DANG>Ống</DANG>
+    <TENHANG>Vĩnh Phúc</TENHANG>
+    <DONGIA>3399.9950000000</DONGIA>
+    <HANDUNG>0914</HANDUNG>
+    <LOSX>030312</LOSX>
+    <TONDAU>2.0000</TONDAU>
+    <SLNHAP>0</SLNHAP>
+    <SLXUAT>0</SLXUAT>
+    <nuocsx>Việt Nam</nuocsx>
+  </Table>
+  <Table>
+    <MABD>177653</MABD>
+    <MA>ADR001</MA>
+    <TENHC>Adrenalin</TENHC>
+    <STT>4</STT>
+    <TENNHOM>Thuốc thường ống </TENNHOM>
+    <TEN>Adrenalin 1mg</TEN>
+    <DANG>Ống</DANG>
+    <TENHANG>Vĩnh Phúc</TENHANG>
+    <DONGIA>3400.0050000000</DONGIA>
+    <HANDUNG>0115</HANDUNG>
+    <LOSX>070712</LOSX>
+    <TONDAU>9.0000</TONDAU>
+    <SLNHAP>0</SLNHAP>
+    <SLXUAT>0</SLXUAT>
+    <nuocsx>Việt Nam</nuocsx>
+  </Table>
+  <Table>
+    <MABD>180570</MABD>
+    <MA>ALP004</MA>
+    <TENHC>Alphachymotrypsin</TENHC>
+    <STT>4</STT>
+    <TENNHOM>Thuốc thường ống </TENNHOM>
+    <TEN>Alpha-Tryesil 5000IU </TEN>
+    <DANG>Ống</DANG>
+    <TENHANG>Zhejiang Ruixin</TENHANG>
+    <DONGIA>10799.9955000000</DONGIA>
+    <HANDUNG>1214</HANDUNG>
+    <LOSX>111201</LOSX>
+    <TONDAU>1.0000</TONDAU>
+    <SLNHAP>0</SLNHAP>
+    <SLXUAT>0</SLXUAT>
+    <nuocsx>Trung Quốc</nuocsx>
+  </Table>
+  <Table>
+    <MABD>177105</MABD>
+    <MA>ATR001</MA>
+    <TENHC>Atropin</TENHC>
+    <STT>4</STT>
+    <TENNHOM>Thuốc thường ống </TENNHOM>
+    <TEN>Atropin 0.25mg</TEN>
+    <DANG>Ống</DANG>
+    <TENHANG>Vĩnh Phúc</TENHANG>
+    <DONGIA>735.0000000000</DONGIA>
+    <HANDUNG>1014</HANDUNG>
+    <LOSX>181011</LOSX>
+    <TONDAU>2.0000</TONDAU>
+    <SLNHAP>0</SLNHAP>
+    <SLXUAT>0</SLXUAT>
+    <nuocsx>Việt Nam</nuocsx>
+  </Table>
+  <Table>
+    <MABD>177105</MABD>
+    <MA>ATR001</MA>
+    <TENHC>Atropin</TENHC>
+    <STT>4</STT>
+    <TENNHOM>Thuốc thường ống </TENNHOM>
+    <TEN>Atropin 0.25mg</TEN>
+    <DANG>Ống</DANG>
+    <TENHANG>Vĩnh Phúc</TENHANG>
+    <DONGIA>735.0000000000</DONGIA>
+    <HANDUNG>0214</HANDUNG>
+    <LOSX>037</LOSX>
+    <TONDAU>3.0000</TONDAU>
+    <SLNHAP>0</SLNHAP>
+    <SLXUAT>0</SLXUAT>
+    <nuocsx>Việt Nam</nuocsx>
+  </Table>
+  <Table>
+    <MABD>177105</MABD>
+    <MA>ATR001</MA>
+    <TENHC>Atropin</TENHC>
+    <STT>4</STT>
+    <TENNHOM>Thuốc thường ống </TENNHOM>
+    <TEN>Atropin 0.25mg</TEN>
+    <DANG>Ống</DANG>
+    <TENHANG>Vĩnh Phúc</TENHANG>
+    <DONGIA>600.0020000000</DONGIA>
+    <HANDUNG>0515</HANDUNG>
+    <LOSX>020512</LOSX>
+    <TONDAU>10.0000</TONDAU>
+    <SLNHAP>0</SLNHAP>
+    <SLXUAT>0</SLXUAT>
+    <nuocsx>Việt Nam</nuocsx>
+  </Table>
+  <Table>
+    <MABD>177105</MABD>
+    <MA>ATR001</MA>
+    <TENHC>Atropin</TENHC>
+    <STT>4</STT>
+    <TENNHOM>Thuốc thường ống </TENNHOM>
+    <TEN>Atropin 0.25mg</TEN>
+    <DANG>Ống</DANG>
+    <TENHANG>Vĩnh Phúc</TENHANG>
+    <DONGIA>735.0000000000</DONGIA>
+    <HANDUNG>0614</HANDUNG>
+    <LOSX>090611</LOSX>
+    <TONDAU>35.0000</TONDAU>
+    <SLNHAP>0</SLNHAP>
+    <SLXUAT>0</SLXUAT>
+    <nuocsx>Việt Nam</nuocsx>
+  </Table>
+  <Table>
+    <MABD>177109</MABD>
+    <MA>CAL002</MA>
+    <TENHC>Calci chloride</TENHC>
+    <STT>4</STT>
+    <TENNHOM>Thuốc thường ống </TENNHOM>
+    <TEN>Calci chloride 10%</TEN>
+    <DANG>Ống</DANG>
+    <TENHANG>TWI</TENHANG>
+    <DONGIA>1470.0000000000</DONGIA>
+    <HANDUNG>0114</HANDUNG>
+    <LOSX>611002</LOSX>
+    <TONDAU>1.0000</TONDAU>
+    <SLNHAP>0</SLNHAP>
+    <SLXUAT>0</SLXUAT>
+    <nuocsx>Việt Nam</nuocsx>
+  </Table>
+  <Table>
+    <MABD>177109</MABD>
+    <MA>CAL002</MA>
+    <TENHC>Calci chloride</TENHC>
+    <STT>4</STT>
+    <TENNHOM>Thuốc thường ống </TENNHOM>
+    <TEN>Calci chloride 10%</TEN>
+    <DANG>Ống</DANG>
+    <TENHANG>TWI</TENHANG>
+    <DONGIA>1470.0000000000</DONGIA>
+    <HANDUNG>1014</HANDUNG>
+    <LOSX>611011</LOSX>
+    <TONDAU>4.0000</TONDAU>
+    <SLNHAP>0</SLNHAP>
+    <SLXUAT>0</SLXUAT>
+    <nuocsx>Việt Nam</nuocsx>
+  </Table>
+  <Table>
+    <MABD>177109</MABD>
+    <MA>CAL002</MA>
+    <TENHC>Calci chloride</TENHC>
+    <STT>4</STT>
+    <TENNHOM>Thuốc thường ống </TENNHOM>
+    <TEN>Calci chloride 10%</TEN>
+    <DANG>Ống</DANG>
+    <TENHANG>TWI</TENHANG>
+    <DONGIA>1470.0000000000</DONGIA>
+    <HANDUNG>0614</HANDUNG>
+    <LOSX>611008</LOSX>
+    <TONDAU>5.0000</TONDAU>
+    <SLNHAP>0</SLNHAP>
+    <SLXUAT>0</SLXUAT>
+    <nuocsx>Việt Nam</nuocsx>
+  </Table>
+  <Table>
+    <MABD>180370</MABD>
+    <MA>DEX004</MA>
+    <TENHC>Glucose</TENHC>
+    <STT>4</STT>
+    <TENNHOM>Thuốc thường ống </TENNHOM>
+    <TEN>Dextrose 10% 500ml </TEN>
+    <DANG>Chai</DANG>
+    <TENHANG>Euromed</TENHANG>
+    <DONGIA>12449.9854166667</DONGIA>
+    <HANDUNG>0517</HANDUNG>
+    <LOSX>022268</LOSX>
+    <TONDAU>2.0000</TONDAU>
+    <SLNHAP>0</SLNHAP>
+    <SLXUAT>0</SLXUAT>
+    <nuocsx>Philipin</nuocsx>
+  </Table>
+  <Table>
+    <MABD>180370</MABD>
+    <MA>DEX004</MA>
+    <TENHC>Glucose</TENHC>
+    <STT>4</STT>
+    <TENNHOM>Thuốc thường ống </TENNHOM>
+    <TEN>Dextrose 10% 500ml </TEN>
+    <DANG>Chai</DANG>
+    <TENHANG>Euromed</TENHANG>
+    <DONGIA>11999.9250000000</DONGIA>
+    <HANDUNG>1116</HANDUNG>
+    <LOSX>022265</LOSX>
+    <TONDAU>3.0000</TONDAU>
+    <SLNHAP>0</SLNHAP>
+    <SLXUAT>0</SLXUAT>
+    <nuocsx>Philipin</nuocsx>
+  </Table>
+  <Table>
+    <MABD>180370</MABD>
+    <MA>DEX004</MA>
+    <TENHC>Glucose</TENHC>
+    <STT>4</STT>
+    <TENNHOM>Thuốc thường ống </TENNHOM>
+    <TEN>Dextrose 10% 500ml </TEN>
+    <DANG>Chai</DANG>
+    <TENHANG>Euromed</TENHANG>
+    <DONGIA>13500.0000000000</DONGIA>
+    <HANDUNG>0517</HANDUNG>
+    <LOSX>022268</LOSX>
+    <TONDAU>5.0000</TONDAU>
+    <SLNHAP>0</SLNHAP>
+    <SLXUAT>0</SLXUAT>
+    <nuocsx>Philipin</nuocsx>
+  </Table>
+  <Table>
+    <MABD>180369</MABD>
+    <MA>DEX003</MA>
+    <TENHC>Glucose</TENHC>
+    <STT>4</STT>
+    <TENNHOM>Thuốc thường ống </TENNHOM>
+    <TEN>Dextrose 5% 500ml </TEN>
+    <DANG>Chai</DANG>
+    <TENHANG>Euromed</TENHANG>
+    <DONGIA>12499.9979166667</DONGIA>
+    <HANDUNG>0816</HANDUNG>
+    <LOSX>012983</LOSX>
+    <TONDAU>2.0000</TONDAU>
+    <SLNHAP>0</SLNHAP>
+    <SLXUAT>0</SLXUAT>
+    <nuocsx>Philipin</nuocsx>
+  </Table>
+  <Table>
+    <MABD>180369</MABD>
+    <MA>DEX003</MA>
+    <TENHC>Glucose</TENHC>
+    <STT>4</STT>
+    <TENNHOM>Thuốc thường ống </TENNHOM>
+    <TEN>Dextrose 5% 500ml </TEN>
+    <DANG>Chai</DANG>
+    <TENHANG>Euromed</TENHANG>
+    <DONGIA>12499.9979166667</DONGIA>
+    <HANDUNG>0417</HANDUNG>
+    <LOSX>012001</LOSX>
+    <TONDAU>13.0000</TONDAU>
+    <SLNHAP>0</SLNHAP>
+    <SLXUAT>0</SLXUAT>
+    <nuocsx>Philipin</nuocsx>
+  </Table>
+  <Table>
+    <MABD>177658</MABD>
+    <MA>DIA002</MA>
+    <TENHC>Aminophylline</TENHC>
+    <STT>4</STT>
+    <TENNHOM>Thuốc thường ống </TENNHOM>
+    <TEN>Diaphyllin 4.8%</TEN>
+    <DANG>Ống</DANG>
+    <TENHANG>Richter</TENHANG>
+    <DONGIA>10500.0000000000</DONGIA>
+    <HANDUNG>0116</HANDUNG>
+    <LOSX>A11243A</LOSX>
+    <TONDAU>5.0000</TONDAU>
+    <SLNHAP>0</SLNHAP>
+    <SLXUAT>0</SLXUAT>
+    <nuocsx>Hungary</nuocsx>
+  </Table>
+  <Table>
+    <MABD>176922</MABD>
+    <MA>DIG001</MA>
+    <TENHC>Digoxin</TENHC>
+    <STT>4</STT>
+    <TENNHOM>Thuốc thường ống </TENNHOM>
+    <TEN>Digoxin 0.5mg</TEN>
+    <DANG>Ống</DANG>
+    <TENHANG>Polfa</TENHANG>
+    <DONGIA>18900.0000000000</DONGIA>
+    <HANDUNG>0512</HANDUNG>
+    <LOSX>01AS0610</LOSX>
+    <TONDAU>1.0000</TONDAU>
+    <SLNHAP>0</SLNHAP>
+    <SLXUAT>0</SLXUAT>
+    <nuocsx>Ba Lan</nuocsx>
+  </Table>
+  <Table>
+    <MABD>176922</MABD>
+    <MA>DIG001</MA>
+    <TENHC>Digoxin</TENHC>
+    <STT>4</STT>
+    <TENNHOM>Thuốc thường ống </TENNHOM>
+    <TEN>Digoxin 0.5mg</TEN>
+    <DANG>Ống</DANG>
+    <TENHANG>Polfa</TENHANG>
+    <DONGIA>21000.0000000000</DONGIA>
+    <HANDUNG>0214</HANDUNG>
+    <LOSX>02AS0212</LOSX>
+    <TONDAU>1.0000</TONDAU>
+    <SLNHAP>0</SLNHAP>
+    <SLXUAT>0</SLXUAT>
+    <nuocsx>Ba Lan</nuocsx>
+  </Table>
+  <Table>
+    <MABD>176922</MABD>
+    <MA>DIG001</MA>
+    <TENHC>Digoxin</TENHC>
+    <STT>4</STT>
+    <TENNHOM>Thuốc thường ống </TENNHOM>
+    <TEN>Digoxin 0.5mg</TEN>
+    <DANG>Ống</DANG>
+    <TENHANG>Polfa</TENHANG>
+    <DONGIA>18900.0000000000</DONGIA>
+    <HANDUNG>0613</HANDUNG>
+    <LOSX>01AS0611</LOSX>
+    <TONDAU>3.0000</TONDAU>
+    <SLNHAP>0</SLNHAP>
+    <SLXUAT>0</SLXUAT>
+    <nuocsx>Ba Lan</nuocsx>
+  </Table>
+  <Table>
+    <MABD>177624</MABD>
+    <MA>DIM001</MA>
+    <TENHC>Diphenhydramin</TENHC>
+    <STT>4</STT>
+    <TENNHOM>Thuốc thường ống </TENNHOM>
+    <TEN>Dimedron 10mg</TEN>
+    <DANG>Ống</DANG>
+    <TENHANG>Vĩnh Phúc</TENHANG>
+    <DONGIA>700.0035000000</DONGIA>
+    <HANDUNG>0515</HANDUNG>
+    <LOSX>090512</LOSX>
+    <TONDAU>5.0000</TONDAU>
+    <SLNHAP>0</SLNHAP>
+    <SLXUAT>0</SLXUAT>
+    <nuocsx>Việt Nam</nuocsx>
+  </Table>
+  <Table>
+    <MABD>176936</MABD>
+    <MA>DOB001</MA>
+    <TENHC>Dobutamin</TENHC>
+    <STT>4</STT>
+    <TENNHOM>Thuốc thường ống </TENNHOM>
+    <TEN>Dobutamin 250mg</TEN>
+    <DANG>Ống</DANG>
+    <TENHANG>Rotex</TENHANG>
+    <DONGIA>120750.0000000000</DONGIA>
+    <HANDUNG>0614</HANDUNG>
+    <LOSX>10384</LOSX>
+    <TONDAU>1.0000</TONDAU>
+    <SLNHAP>0</SLNHAP>
+    <SLXUAT>0</SLXUAT>
+    <nuocsx>Đức</nuocsx>
+  </Table>
+  <Table>
+    <MABD>176936</MABD>
+    <MA>DOB001</MA>
+    <TENHC>Dobutamin</TENHC>
+    <STT>4</STT>
+    <TENNHOM>Thuốc thường ống </TENNHOM>
+    <TEN>Dobutamin 250mg</TEN>
+    <DANG>Ống</DANG>
+    <TENHANG>Rotex</TENHANG>
+    <DONGIA>120750.0000000000</DONGIA>
+    <HANDUNG>1113</HANDUNG>
+    <LOSX>00557</LOSX>
+    <TONDAU>4.0000</TONDAU>
+    <SLNHAP>0</SLNHAP>
+    <SLXUAT>0</SLXUAT>
+    <nuocsx>Đức</nuocsx>
+  </Table>
+  <Table>
+    <MABD>180459</MABD>
+    <MA>DOP003</MA>
+    <TENHC>Dopamin</TENHC>
+    <STT>4</STT>
+    <TENNHOM>Thuốc thường ống </TENNHOM>
+    <TEN>Dopamine HCL 200mg 5ml</TEN>
+    <DANG>Ống</DANG>
+    <TENHANG>Warsaw</TENHANG>
+    <DONGIA>16499.9100000000</DONGIA>
+    <HANDUNG>0613</HANDUNG>
+    <LOSX>02AW0611</LOSX>
+    <TONDAU>1.0000</TONDAU>
+    <SLNHAP>0</SLNHAP>
+    <SLXUAT>0</SLXUAT>
+    <nuocsx>Ba Lan</nuocsx>
+  </Table>
+  <Table>
+    <MABD>180459</MABD>
+    <MA>DOP003</MA>
+    <TENHC>Dopamin</TENHC>
+    <STT>4</STT>
+    <TENNHOM>Thuốc thường ống </TENNHOM>
+    <TEN>Dopamine HCL 200mg 5ml</TEN>
+    <DANG>Ống</DANG>
+    <TENHANG>Warsaw</TENHANG>
+    <DONGIA>16500.0050000000</DONGIA>
+    <HANDUNG>0613</HANDUNG>
+    <LOSX>02AW611</LOSX>
+    <TONDAU>3.0000</TONDAU>
+    <SLNHAP>0</SLNHAP>
+    <SLXUAT>0</SLXUAT>
+    <nuocsx>Ba Lan</nuocsx>
+  </Table>
+  <Table>
+    <MABD>179193</MABD>
+    <MA>EXA001</MA>
+    <TENHC>Tranexamic</TENHC>
+    <STT>4</STT>
+    <TENNHOM>Thuốc thường ống </TENNHOM>
+    <TEN>Examin 250mg</TEN>
+    <DANG>Ống</DANG>
+    <TENHANG>Huons</TENHANG>
+    <DONGIA>10500.0000000000</DONGIA>
+    <HANDUNG>0814</HANDUNG>
+    <LOSX>1010</LOSX>
+    <TONDAU>2.0000</TONDAU>
+    <SLNHAP>0</SLNHAP>
+    <SLXUAT>0</SLXUAT>
+    <nuocsx>Hàn Quốc</nuocsx>
+  </Table>
+  <Table>
+    <MABD>179193</MABD>
+    <MA>EXA001</MA>
+    <TENHC>Tranexamic</TENHC>
+    <STT>4</STT>
+    <TENNHOM>Thuốc thường ống </TENNHOM>
+    <TEN>Examin 250mg</TEN>
+    <DANG>Ống</DANG>
+    <TENHANG>Huons</TENHANG>
+    <DONGIA>10500.0000000000</DONGIA>
+    <HANDUNG>0615</HANDUNG>
+    <LOSX>2004</LOSX>
+    <TONDAU>2.0000</TONDAU>
+    <SLNHAP>0</SLNHAP>
+    <SLXUAT>0</SLXUAT>
+    <nuocsx>Hàn Quốc</nuocsx>
+  </Table>
+  <Table>
+    <MABD>179193</MABD>
+    <MA>EXA001</MA>
+    <TENHC>Tranexamic</TENHC>
+    <STT>4</STT>
+    <TENNHOM>Thuốc thường ống </TENNHOM>
+    <TEN>Examin 250mg</TEN>
+    <DANG>Ống</DANG>
+    <TENHANG>Huons</TENHANG>
+    <DONGIA>10500.0000000000</DONGIA>
+    <HANDUNG>1014</HANDUNG>
+    <LOSX>1013</LOSX>
+    <TONDAU>6.0000</TONDAU>
+    <SLNHAP>0</SLNHAP>
+    <SLXUAT>0</SLXUAT>
+    <nuocsx>Hàn Quốc</nuocsx>
+  </Table>
+  <Table>
+    <MABD>180687</MABD>
+    <MA>FUR005</MA>
+    <TENHC>Furocemid 20mg</TENHC>
+    <STT>4</STT>
+    <TENNHOM>Thuốc thường ống </TENNHOM>
+    <TEN>Furocemid 20mg/2ml </TEN>
+    <DANG>Ống</DANG>
+    <TENHANG>Vinphaco</TENHANG>
+    <DONGIA>3880.0019841270</DONGIA>
+    <HANDUNG>0615</HANDUNG>
+    <LOSX>080612</LOSX>
+    <TONDAU>40.0000</TONDAU>
+    <SLNHAP>0</SLNHAP>
+    <SLXUAT>0</SLXUAT>
+    <nuocsx>Việt Nam</nuocsx>
+  </Table>
+  <Table>
+    <MABD>179151</MABD>
+    <MA>HAE001</MA>
+    <TENHC>Tinh bột este hóa(hydroxyetyl sttarch</TENHC>
+    <STT>4</STT>
+    <TENNHOM>Thuốc thường ống </TENNHOM>
+    <TEN>Haes - Steril ( Hemohes ) 6%</TEN>
+    <DANG>Chai</DANG>
+    <TENHANG>Fresenius</TENHANG>
+    <DONGIA>126000.0000000000</DONGIA>
+    <HANDUNG>0417</HANDUNG>
+    <LOSX>14FD3318</LOSX>
+    <TONDAU>1.0000</TONDAU>
+    <SLNHAP>0</SLNHAP>
+    <SLXUAT>0</SLXUAT>
+    <nuocsx>Đức</nuocsx>
+  </Table>
+  <Table>
+    <MABD>176954</MABD>
+    <MA>HEP001</MA>
+    <TENHC>Heparin</TENHC>
+    <STT>4</STT>
+    <TENNHOM>Thuốc thường ống </TENNHOM>
+    <TEN>Heparin 25000UI5ml</TEN>
+    <DANG>Lọ</DANG>
+    <TENHANG>Rotex</TENHANG>
+    <DONGIA>63000.0000000000</DONGIA>
+    <HANDUNG>0415</HANDUNG>
+    <LOSX>00266</LOSX>
+    <TONDAU>10.0000</TONDAU>
+    <SLNHAP>0</SLNHAP>
+    <SLXUAT>0</SLXUAT>
+    <nuocsx>Đức</nuocsx>
+  </Table>
+  <Table>
+    <MABD>180368</MABD>
+    <MA>LAC003</MA>
+    <TENHC>Lactate ringer</TENHC>
+    <STT>4</STT>
+    <TENNHOM>Thuốc thường ống </TENNHOM>
+    <TEN>Lactated Ringers 500ml </TEN>
+    <DANG>Chai</DANG>
+    <TENHANG>Euromed</TENHANG>
+    <DONGIA>9999.9900000000</DONGIA>
+    <HANDUNG>1116</HANDUNG>
+    <LOSX>072947</LOSX>
+    <TONDAU>1.0000</TONDAU>
+    <SLNHAP>0</SLNHAP>
+    <SLXUAT>0</SLXUAT>
+    <nuocsx>Philipin</nuocsx>
+  </Table>
+  <Table>
+    <MABD>180368</MABD>
+    <MA>LAC003</MA>
+    <TENHC>Lactate ringer</TENHC>
+    <STT>4</STT>
+    <TENNHOM>Thuốc thường ống </TENNHOM>
+    <TEN>Lactated Ringers 500ml </TEN>
+    <DANG>Chai</DANG>
+    <TENHANG>Euromed</TENHANG>
+    <DONGIA>12499.9979166667</DONGIA>
+    <HANDUNG>0417</HANDUNG>
+    <LOSX>072961</LOSX>
+    <TONDAU>9.0000</TONDAU>
+    <SLNHAP>0</SLNHAP>
+    <SLXUAT>0</SLXUAT>
+    <nuocsx>Philipin</nuocsx>
+  </Table>
+  <Table>
+    <MABD>180371</MABD>
+    <MA>LID003</MA>
+    <TENHC>Lidocain</TENHC>
+    <STT>4</STT>
+    <TENNHOM>Thuốc thường ống </TENNHOM>
+    <TEN>Lidocain 2% </TEN>
+    <DANG>Ống</DANG>
+    <TENHANG>Vĩnh Phúc</TENHANG>
+    <DONGIA>650.0024444445</DONGIA>
+    <HANDUNG>0614</HANDUNG>
+    <LOSX>230611</LOSX>
+    <TONDAU>10.0000</TONDAU>
+    <SLNHAP>0</SLNHAP>
+    <SLXUAT>0</SLXUAT>
+    <nuocsx>Việt Nam</nuocsx>
+  </Table>
+  <Table>
+    <MABD>176991</MABD>
+    <MA>MET001</MA>
+    <TENHC>Methylprednisolone</TENHC>
+    <STT>4</STT>
+    <TENNHOM>Thuốc thường ống </TENNHOM>
+    <TEN>Methylprednisolone 40mg</TEN>
+    <DANG>Lọ</DANG>
+    <TENHANG>Teva</TENHANG>
+    <DONGIA>34650.0000000000</DONGIA>
+    <HANDUNG>0813</HANDUNG>
+    <LOSX>6550811</LOSX>
+    <TONDAU>11.0000</TONDAU>
+    <SLNHAP>0</SLNHAP>
+    <SLXUAT>0</SLXUAT>
+    <nuocsx>Hungary</nuocsx>
+  </Table>
+  <Table>
+    <MABD>177010</MABD>
+    <MA>NAL001</MA>
+    <TENHC>Naloxon</TENHC>
+    <STT>4</STT>
+    <TENNHOM>Thuốc thường ống </TENNHOM>
+    <TEN>Naloxon 0,4mg/ml</TEN>
+    <DANG>Ống</DANG>
+    <TENHANG>Rotex</TENHANG>
+    <DONGIA>44100.0000000000</DONGIA>
+    <HANDUNG>0314</HANDUNG>
+    <LOSX>111081</LOSX>
+    <TONDAU>5.0000</TONDAU>
+    <SLNHAP>0</SLNHAP>
+    <SLXUAT>0</SLXUAT>
+    <nuocsx>Đức</nuocsx>
+  </Table>
+  <Table>
+    <MABD>180367</MABD>
+    <MA>NAT010</MA>
+    <TENHC>Natrichloride</TENHC>
+    <STT>4</STT>
+    <TENNHOM>Thuốc thường ống </TENNHOM>
+    <TEN>Natri chloride 0,9% 500ml</TEN>
+    <DANG>Chai</DANG>
+    <TENHANG>Euromed</TENHANG>
+    <DONGIA>12499.9980392157</DONGIA>
+    <HANDUNG>0317</HANDUNG>
+    <LOSX>082186</LOSX>
+    <TONDAU>44.0000</TONDAU>
+    <SLNHAP>0</SLNHAP>
+    <SLXUAT>0</SLXUAT>
+    <nuocsx>Philipin</nuocsx>
+  </Table>
+  <Table>
+    <MABD>179793</MABD>
+    <MA>NAL002</MA>
+    <TENHC>Natrichloride</TENHC>
+    <STT>4</STT>
+    <TENNHOM>Thuốc thường ống </TENNHOM>
+    <TEN>Natri Clorid 10% 5ml </TEN>
+    <DANG>Ống</DANG>
+    <TENHANG>Vĩnh Phúc</TENHANG>
+    <DONGIA>2999.8500000000</DONGIA>
+    <HANDUNG>0414</HANDUNG>
+    <LOSX>010411</LOSX>
+    <TONDAU>2.0000</TONDAU>
+    <SLNHAP>0</SLNHAP>
+    <SLXUAT>0</SLXUAT>
+    <nuocsx>Việt Nam</nuocsx>
+  </Table>
+  <Table>
+    <MABD>179793</MABD>
+    <MA>NAL002</MA>
+    <TENHC>Natrichloride</TENHC>
+    <STT>4</STT>
+    <TENNHOM>Thuốc thường ống </TENNHOM>
+    <TEN>Natri Clorid 10% 5ml </TEN>
+    <DANG>Ống</DANG>
+    <TENHANG>Vĩnh Phúc</TENHANG>
+    <DONGIA>2100.0000000000</DONGIA>
+    <HANDUNG>1113</HANDUNG>
+    <LOSX>031110</LOSX>
+    <TONDAU>4.0000</TONDAU>
+    <SLNHAP>0</SLNHAP>
+    <SLXUAT>0</SLXUAT>
+    <nuocsx>Việt Nam</nuocsx>
+  </Table>
+  <Table>
+    <MABD>177179</MABD>
+    <MA>NAT004</MA>
+    <TENHC>Natribicacbonat</TENHC>
+    <STT>4</STT>
+    <TENNHOM>Thuốc thường ống </TENNHOM>
+    <TEN>Natribicacbonat 4.2% 250ml</TEN>
+    <DANG>Chai</DANG>
+    <TENHANG>B.Braun</TENHANG>
+    <DONGIA>89880.0000000000</DONGIA>
+    <HANDUNG>0413</HANDUNG>
+    <LOSX>111438061</LOSX>
+    <TONDAU>1.0000</TONDAU>
+    <SLNHAP>0</SLNHAP>
+    <SLXUAT>0</SLXUAT>
+    <nuocsx>Đức</nuocsx>
+  </Table>
+  <Table>
+    <MABD>177179</MABD>
+    <MA>NAT004</MA>
+    <TENHC>Natribicacbonat</TENHC>
+    <STT>4</STT>
+    <TENNHOM>Thuốc thường ống </TENNHOM>
+    <TEN>Natribicacbonat 4.2% 250ml</TEN>
+    <DANG>Chai</DANG>
+    <TENHANG>B.Braun</TENHANG>
+    <DONGIA>89880.0000000000</DONGIA>
+    <HANDUNG>0613</HANDUNG>
+    <LOSX>112318064</LOSX>
+    <TONDAU>1.0000</TONDAU>
+    <SLNHAP>0</SLNHAP>
+    <SLXUAT>0</SLXUAT>
+    <nuocsx>Đức</nuocsx>
+  </Table>
+  <Table>
+    <MABD>179155</MABD>
+    <MA>NEW001</MA>
+    <TENHC>Ceftazidime</TENHC>
+    <STT>4</STT>
+    <TENNHOM>Thuốc thường ống </TENNHOM>
+    <TEN>Newzim 1g</TEN>
+    <DANG>Lọ</DANG>
+    <TENHANG>Kukje </TENHANG>
+    <DONGIA>58800.0000000000</DONGIA>
+    <HANDUNG>1113</HANDUNG>
+    <LOSX>MTZ310009X</LOSX>
+    <TONDAU>4.0000</TONDAU>
+    <SLNHAP>0</SLNHAP>
+    <SLXUAT>0</SLXUAT>
+    <nuocsx>Hàn Quốc</nuocsx>
+  </Table>
+  <Table>
+    <MABD>179155</MABD>
+    <MA>NEW001</MA>
+    <TENHC>Ceftazidime</TENHC>
+    <STT>4</STT>
+    <TENNHOM>Thuốc thường ống </TENNHOM>
+    <TEN>Newzim 1g</TEN>
+    <DANG>Lọ</DANG>
+    <TENHANG>Kukje </TENHANG>
+    <DONGIA>73500.0000000000</DONGIA>
+    <HANDUNG>0114</HANDUNG>
+    <LOSX>MTZ21202X</LOSX>
+    <TONDAU>6.0000</TONDAU>
+    <SLNHAP>0</SLNHAP>
+    <SLXUAT>0</SLXUAT>
+    <nuocsx>Hàn Quốc</nuocsx>
+  </Table>
+  <Table>
+    <MABD>180679</MABD>
+    <MA>NUO009</MA>
+    <TENHC>Nước cất pha  tiêm</TENHC>
+    <STT>4</STT>
+    <TENNHOM>Thuốc thường ống </TENNHOM>
+    <TEN>Nước cất 5ml ( Sterilised Water Inj ) </TEN>
+    <DANG>Ống</DANG>
+    <TENHANG>Gujaral</TENHANG>
+    <DONGIA>1299.9000000000</DONGIA>
+    <HANDUNG>0115</HANDUNG>
+    <LOSX>2F542004</LOSX>
+    <TONDAU>20.0000</TONDAU>
+    <SLNHAP>0</SLNHAP>
+    <SLXUAT>0</SLXUAT>
+    <nuocsx>Ấn Độ</nuocsx>
+  </Table>
+  <Table>
+    <MABD>177174</MABD>
+    <MA>MAN001</MA>
+    <TENHC>Manitol</TENHC>
+    <STT>4</STT>
+    <TENNHOM>Thuốc thường ống </TENNHOM>
+    <TEN>Osmofuldin 20% 250ml</TEN>
+    <DANG>Chai</DANG>
+    <TENHANG>B.Braun</TENHANG>
+    <DONGIA>21000.0000000000</DONGIA>
+    <HANDUNG>1214</HANDUNG>
+    <LOSX>115217741</LOSX>
+    <TONDAU>1.0000</TONDAU>
+    <SLNHAP>0</SLNHAP>
+    <SLXUAT>0</SLXUAT>
+    <nuocsx>Việt Nam</nuocsx>
+  </Table>
+  <Table>
+    <MABD>177174</MABD>
+    <MA>MAN001</MA>
+    <TENHC>Manitol</TENHC>
+    <STT>4</STT>
+    <TENNHOM>Thuốc thường ống </TENNHOM>
+    <TEN>Osmofuldin 20% 250ml</TEN>
+    <DANG>Chai</DANG>
+    <TENHANG>B.Braun</TENHANG>
+    <DONGIA>23000.0000000000</DONGIA>
+    <HANDUNG>0113</HANDUNG>
+    <LOSX>115227742</LOSX>
+    <TONDAU>1.0000</TONDAU>
+    <SLNHAP>0</SLNHAP>
+    <SLXUAT>0</SLXUAT>
+    <nuocsx>Việt Nam</nuocsx>
+  </Table>
+  <Table>
+    <MABD>180405</MABD>
+    <MA>PAR005</MA>
+    <TENHC>Paracetamol</TENHC>
+    <STT>4</STT>
+    <TENNHOM>Thuốc thường ống </TENNHOM>
+    <TEN>Paracetamol 1g 100ml</TEN>
+    <DANG>Lọ</DANG>
+    <TENHANG>Sanavita</TENHANG>
+    <DONGIA>44999.9971428572</DONGIA>
+    <HANDUNG>0515</HANDUNG>
+    <LOSX>120055</LOSX>
+    <TONDAU>1.0000</TONDAU>
+    <SLNHAP>0</SLNHAP>
+    <SLXUAT>0</SLXUAT>
+    <nuocsx>Đức</nuocsx>
+  </Table>
+  <Table>
+    <MABD>180405</MABD>
+    <MA>PAR005</MA>
+    <TENHC>Paracetamol</TENHC>
+    <STT>4</STT>
+    <TENNHOM>Thuốc thường ống </TENNHOM>
+    <TEN>Paracetamol 1g 100ml</TEN>
+    <DANG>Lọ</DANG>
+    <TENHANG>Sanavita</TENHANG>
+    <DONGIA>44999.9973333333</DONGIA>
+    <HANDUNG>0115</HANDUNG>
+    <LOSX>120007</LOSX>
+    <TONDAU>2.0000</TONDAU>
+    <SLNHAP>0</SLNHAP>
+    <SLXUAT>0</SLXUAT>
+    <nuocsx>Đức</nuocsx>
+  </Table>
+  <Table>
+    <MABD>180405</MABD>
+    <MA>PAR005</MA>
+    <TENHC>Paracetamol</TENHC>
+    <STT>4</STT>
+    <TENNHOM>Thuốc thường ống </TENNHOM>
+    <TEN>Paracetamol 1g 100ml</TEN>
+    <DANG>Lọ</DANG>
+    <TENHANG>Sanavita</TENHANG>
+    <DONGIA>44999.9973333333</DONGIA>
+    <HANDUNG>0515</HANDUNG>
+    <LOSX>12005</LOSX>
+    <TONDAU>2.0000</TONDAU>
+    <SLNHAP>0</SLNHAP>
+    <SLXUAT>0</SLXUAT>
+    <nuocsx>Đức</nuocsx>
+  </Table>
+  <Table>
+    <MABD>177181</MABD>
+    <MA>PIR003</MA>
+    <TENHC>Piracetam</TENHC>
+    <STT>4</STT>
+    <TENNHOM>Thuốc thường ống </TENNHOM>
+    <TEN>Piracetam 3g</TEN>
+    <DANG>Ống</DANG>
+    <TENHANG>Egis</TENHANG>
+    <DONGIA>33915.0000000000</DONGIA>
+    <HANDUNG>0314</HANDUNG>
+    <LOSX>U040A0312</LOSX>
+    <TONDAU>2.0000</TONDAU>
+    <SLNHAP>0</SLNHAP>
+    <SLXUAT>0</SLXUAT>
+    <nuocsx>Hungary</nuocsx>
+  </Table>
+  <Table>
+    <MABD>177181</MABD>
+    <MA>PIR003</MA>
+    <TENHC>Piracetam</TENHC>
+    <STT>4</STT>
+    <TENNHOM>Thuốc thường ống </TENNHOM>
+    <TEN>Piracetam 3g</TEN>
+    <DANG>Ống</DANG>
+    <TENHANG>Egis</TENHANG>
+    <DONGIA>33915.0000000000</DONGIA>
+    <HANDUNG>0214</HANDUNG>
+    <LOSX>U032A0212</LOSX>
+    <TONDAU>3.0000</TONDAU>
+    <SLNHAP>0</SLNHAP>
+    <SLXUAT>0</SLXUAT>
+    <nuocsx>Hungary</nuocsx>
+  </Table>
+  <Table>
+    <MABD>180477</MABD>
+    <MA>POT001</MA>
+    <TENHC>Kali Cloride</TENHC>
+    <STT>4</STT>
+    <TENNHOM>Thuốc thường ống </TENNHOM>
+    <TEN>Potassium(Kali Cloride) 10%</TEN>
+    <DANG>Ống</DANG>
+    <TENHANG>Aguettane</TENHANG>
+    <DONGIA>8400.0000000000</DONGIA>
+    <HANDUNG>0814</HANDUNG>
+    <LOSX>4400568</LOSX>
+    <TONDAU>2.0000</TONDAU>
+    <SLNHAP>0</SLNHAP>
+    <SLXUAT>0</SLXUAT>
+    <nuocsx>Pháp</nuocsx>
+  </Table>
+  <Table>
+    <MABD>180477</MABD>
+    <MA>POT001</MA>
+    <TENHC>Kali Cloride</TENHC>
+    <STT>4</STT>
+    <TENNHOM>Thuốc thường ống </TENNHOM>
+    <TEN>Potassium(Kali Cloride) 10%</TEN>
+    <DANG>Ống</DANG>
+    <TENHANG>Aguettane</TENHANG>
+    <DONGIA>8400.0000000000</DONGIA>
+    <HANDUNG>0914</HANDUNG>
+    <LOSX>440568</LOSX>
+    <TONDAU>8.0000</TONDAU>
+    <SLNHAP>0</SLNHAP>
+    <SLXUAT>0</SLXUAT>
+    <nuocsx>Pháp</nuocsx>
+  </Table>
+  <Table>
+    <MABD>179723</MABD>
+    <MA>SAL006</MA>
+    <TENHC>Salbutamol</TENHC>
+    <STT>4</STT>
+    <TENNHOM>Thuốc thường ống </TENNHOM>
+    <TEN>Salbutamol 0.05% 1ml</TEN>
+    <DANG>Ống</DANG>
+    <TENHANG>Renaudin</TENHANG>
+    <DONGIA>12999.9450000000</DONGIA>
+    <HANDUNG>0813</HANDUNG>
+    <LOSX>112760</LOSX>
+    <TONDAU>9.0000</TONDAU>
+    <SLNHAP>0</SLNHAP>
+    <SLXUAT>0</SLXUAT>
+    <nuocsx>Pháp</nuocsx>
+  </Table>
+  <Table>
+    <MABD>179723</MABD>
+    <MA>SAL006</MA>
+    <TENHC>Salbutamol</TENHC>
+    <STT>4</STT>
+    <TENNHOM>Thuốc thường ống </TENNHOM>
+    <TEN>Salbutamol 0.05% 1ml</TEN>
+    <DANG>Ống</DANG>
+    <TENHANG>Renaudin</TENHANG>
+    <DONGIA>12999.9450000000</DONGIA>
+    <HANDUNG>1113</HANDUNG>
+    <LOSX>112799</LOSX>
+    <TONDAU>21.0000</TONDAU>
+    <SLNHAP>0</SLNHAP>
+    <SLXUAT>0</SLXUAT>
+    <nuocsx>Pháp</nuocsx>
+  </Table>
+  <Table>
+    <MABD>177190</MABD>
+    <MA>VIT004</MA>
+    <TENHC>Vitamin</TENHC>
+    <STT>4</STT>
+    <TENNHOM>Thuốc thường ống </TENNHOM>
+    <TEN>Vitamin K 5mg</TEN>
+    <DANG>Ống</DANG>
+    <TENHANG>Vĩnh Phúc</TENHANG>
+    <DONGIA>3675.0000000000</DONGIA>
+    <HANDUNG>0614</HANDUNG>
+    <LOSX>020611</LOSX>
+    <TONDAU>2.0000</TONDAU>
+    <SLNHAP>0</SLNHAP>
+    <SLXUAT>0</SLXUAT>
+    <nuocsx>Việt Nam</nuocsx>
+  </Table>
+  <Table>
+    <MABD>177190</MABD>
+    <MA>VIT004</MA>
+    <TENHC>Vitamin</TENHC>
+    <STT>4</STT>
+    <TENNHOM>Thuốc thường ống </TENNHOM>
+    <TEN>Vitamin K 5mg</TEN>
+    <DANG>Ống</DANG>
+    <TENHANG>Vĩnh Phúc</TENHANG>
+    <DONGIA>3360.0000000000</DONGIA>
+    <HANDUNG>0115</HANDUNG>
+    <LOSX>010112</LOSX>
+    <TONDAU>4.0000</TONDAU>
+    <SLNHAP>0</SLNHAP>
+    <SLXUAT>0</SLXUAT>
+    <nuocsx>Việt Nam</nuocsx>
+  </Table>
+  <Table>
+    <MABD>177190</MABD>
+    <MA>VIT004</MA>
+    <TENHC>Vitamin</TENHC>
+    <STT>4</STT>
+    <TENNHOM>Thuốc thường ống </TENNHOM>
+    <TEN>Vitamin K 5mg</TEN>
+    <DANG>Ống</DANG>
+    <TENHANG>Vĩnh Phúc</TENHANG>
+    <DONGIA>3675.0000000000</DONGIA>
+    <HANDUNG>1014</HANDUNG>
+    <LOSX>031011</LOSX>
+    <TONDAU>4.0000</TONDAU>
+    <SLNHAP>0</SLNHAP>
+    <SLXUAT>0</SLXUAT>
+    <nuocsx>Việt Nam</nuocsx>
+  </Table>
+  <Table>
+    <MABD>177095</MABD>
+    <MA>ALP001</MA>
+    <TENHC>Alphachymotrypsin</TENHC>
+    <STT>4</STT>
+    <TENNHOM>Thuốc thường ống </TENNHOM>
+    <TEN>Zentoalpha 5000ui</TEN>
+    <DANG>Ống</DANG>
+    <TENHANG>Kangtai</TENHANG>
+    <DONGIA>7350.0000000000</DONGIA>
+    <HANDUNG>0115</HANDUNG>
+    <LOSX>120123</LOSX>
+    <TONDAU>5.0000</TONDAU>
+    <SLNHAP>0</SLNHAP>
+    <SLXUAT>0</SLXUAT>
+    <nuocsx>Trung Quốc</nuocsx>
+  </Table>
+</NewDataSet>

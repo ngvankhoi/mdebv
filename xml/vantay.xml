@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" standalone="yes"?>
+<Import>
+  <Row>
+    <ConOle>Provider=Microsoft.Jet.Oledb.4.0;Data Source=t:\data\vantay.mdb</ConOle>
+    <ShareName>\\quang\public</ShareName>
+    <LocalDrive>t:</LocalDrive>
+    <userid></userid>
+    <password></password>
+    <Score>280</Score>
+  </Row>
+</Import>

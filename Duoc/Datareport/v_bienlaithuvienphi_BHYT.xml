@@ -1,0 +1,196 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="BienLaiTamUng">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="syt" type="xs:string" minOccurs="0" />
+                <xs:element name="bv" type="xs:string" minOccurs="0" />
+                <xs:element name="diachibv" type="xs:string" minOccurs="0" />
+                <xs:element name="tongcucthue" type="xs:string" minOccurs="0" />
+                <xs:element name="cucthue" type="xs:string" minOccurs="0" />
+                <xs:element name="masothue" type="xs:string" minOccurs="0" />
+                <xs:element name="mauso" type="xs:string" minOccurs="0" />
+                <xs:element name="quyenso" type="xs:string" minOccurs="0" />
+                <xs:element name="sobienlai" type="xs:string" minOccurs="0" />
+                <xs:element name="ngayin" type="xs:string" minOccurs="0" />
+                <xs:element name="nguoiin" type="xs:string" minOccurs="0" />
+                <xs:element name="ghichu" type="xs:string" minOccurs="0" />
+                <xs:element name="lien" type="xs:string" minOccurs="0" />
+                <xs:element name="mabn" type="xs:string" minOccurs="0" />
+                <xs:element name="hoten" type="xs:string" minOccurs="0" />
+                <xs:element name="ngaysinh" type="xs:string" minOccurs="0" />
+                <xs:element name="gioitinh" type="xs:string" minOccurs="0" />
+                <xs:element name="khoa" type="xs:string" minOccurs="0" />
+                <xs:element name="diachi" type="xs:string" minOccurs="0" />
+                <xs:element name="lydo" type="xs:string" minOccurs="0" />
+                <xs:element name="sotien" type="xs:string" minOccurs="0" />
+                <xs:element name="chutien" type="xs:string" minOccurs="0" />
+                <xs:element name="tongcp" type="xs:string" minOccurs="0" />
+                <xs:element name="tamung" type="xs:string" minOccurs="0" />
+                <xs:element name="bhyt" type="xs:string" minOccurs="0" />
+                <xs:element name="mien" type="xs:string" minOccurs="0" />
+                <xs:element name="lydomien" type="xs:string" minOccurs="0" />
+                <xs:element name="nguoithu" type="xs:string" minOccurs="0" />
+                <xs:element name="sothe" type="xs:string" minOccurs="0" />
+                <xs:element name="id" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Chitiet">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="madoituong" type="xs:int" minOccurs="0" />
+                <xs:element name="mavp" type="xs:int" minOccurs="0" />
+                <xs:element name="tenvp" type="xs:string" minOccurs="0" />
+                <xs:element name="id_loaivp" type="xs:int" minOccurs="0" />
+                <xs:element name="loaivp" type="xs:string" minOccurs="0" />
+                <xs:element name="id_nhomvp" type="xs:int" minOccurs="0" />
+                <xs:element name="nhomvp" type="xs:string" minOccurs="0" />
+                <xs:element name="sotien" type="xs:decimal" minOccurs="0" />
+                <xs:element name="vat" type="xs:decimal" minOccurs="0" />
+                <xs:element name="id" type="xs:decimal" minOccurs="0" />
+                <xs:element name="gia_dv" type="xs:decimal" minOccurs="0" />
+                <xs:element name="gia_bh" type="xs:decimal" minOccurs="0" />
+                <xs:element name="hangsx" type="xs:string" minOccurs="0" />
+                <xs:element name="nuocsx" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <BienLaiTamUng>
+    <syt>Sở Y Tế Hà Giang</syt>
+    <bv>BỆNH VIỆN ĐA KHOA KHU VỰC TỈNH</bv>
+    <diachibv>Tổ 10 - P.Minh Khai - Thành phố Hà Giang</diachibv>
+    <tongcucthue>TỔNG CỤC THUẾ</tongcucthue>
+    <cucthue>CỤC THUẾ</cucthue>
+    <masothue />
+    <mauso />
+    <quyenso>T-UNG</quyenso>
+    <sobienlai>19</sobienlai>
+    <ngayin>22/03/2011</ngayin>
+    <nguoiin>Administrator</nguoiin>
+    <ghichu />
+    <lien>Liên 1: Giao cho bệnh nhân</lien>
+    <mabn>11001234</mabn>
+    <hoten>TEST B</hoten>
+    <ngaysinh>1979</ngaysinh>
+    <gioitinh>Nam</gioitinh>
+    <khoa>PK Nội BHYT 28</khoa>
+    <diachi>Hà Nội</diachi>
+    <lydo>Azithromycin(4),Khám chuyên khoa nội(1),Siêu âm Doppler màu tim(1),BN cùng chi trả 20% BHYT: Tiền Công Khám BHYT(1),</lydo>
+    <sotien>27,000</sotien>
+    <chutien>Hai mươi bảy ngàn  đồng</chutien>
+    <tongcp>135,000</tongcp>
+    <tamung>0</tamung>
+    <bhyt>108,000</bhyt>
+    <mien>0</mien>
+    <lydomien>- Tổng chi phí: 135,000
+- Tổng chi phí được hưởng BHYT : 135,000
+- BHYT chi trả : 108,000
+- BN đồng chi trả : 27,000</lydomien>
+    <nguoithu>Administrator</nguoithu>
+    <sothe>HD7222221111111</sothe>
+    <id>31000000001</id>
+  </BienLaiTamUng>
+  <BienLaiTamUng>
+    <syt>Sở Y Tế Hà Giang</syt>
+    <bv>BỆNH VIỆN ĐA KHOA KHU VỰC TỈNH</bv>
+    <diachibv>Tổ 10 - P.Minh Khai - Thành phố Hà Giang</diachibv>
+    <tongcucthue>TỔNG CỤC THUẾ</tongcucthue>
+    <cucthue>CỤC THUẾ</cucthue>
+    <masothue />
+    <mauso />
+    <quyenso>T-UNG</quyenso>
+    <sobienlai>19</sobienlai>
+    <ngayin>22/03/2011</ngayin>
+    <nguoiin>Administrator</nguoiin>
+    <ghichu />
+    <lien>Liên 2: Lưu</lien>
+    <mabn>11001234</mabn>
+    <hoten>TEST B</hoten>
+    <ngaysinh>1979</ngaysinh>
+    <gioitinh>Nam</gioitinh>
+    <khoa>PK Nội BHYT 28</khoa>
+    <diachi>Hà Nội</diachi>
+    <lydo>Azithromycin(4),Khám chuyên khoa nội(1),Siêu âm Doppler màu tim(1),BN cùng chi trả 20% BHYT: Tiền Công Khám BHYT(1),</lydo>
+    <sotien>27,000</sotien>
+    <chutien>Hai mươi bảy ngàn  đồng</chutien>
+    <tongcp>135,000</tongcp>
+    <tamung>0</tamung>
+    <bhyt>108,000</bhyt>
+    <mien>0</mien>
+    <lydomien>- Tổng chi phí: 135,000
+- Tổng chi phí được hưởng BHYT : 135,000
+- BHYT chi trả : 108,000
+- BN đồng chi trả : 27,000</lydomien>
+    <nguoithu>Administrator</nguoithu>
+    <sothe>HD7222221111111</sothe>
+    <id>31000000001</id>
+  </BienLaiTamUng>
+  <Chitiet>
+    <madoituong>1</madoituong>
+    <mavp>90131</mavp>
+    <id_loaivp>-1</id_loaivp>
+    <id_nhomvp>15</id_nhomvp>
+    <nhomvp>Thuốc</nhomvp>
+    <sotien>2000.0000</sotien>
+    <vat>0</vat>
+    <id>31000000001</id>
+    <gia_dv>2500.0000</gia_dv>
+    <gia_bh>0.0000</gia_bh>
+    <hangsx>Không xác định</hangsx>
+    <nuocsx>Việt Nam</nuocsx>
+  </Chitiet>
+  <Chitiet>
+    <madoituong>1</madoituong>
+    <mavp>89861</mavp>
+    <id_loaivp>20</id_loaivp>
+    <loaivp>Khám nội khoa</loaivp>
+    <id_nhomvp>4</id_nhomvp>
+    <nhomvp>Công khám</nhomvp>
+    <sotien>500.0000</sotien>
+    <vat>0</vat>
+    <id>31000000001</id>
+    <gia_dv>2500</gia_dv>
+    <gia_bh>2500</gia_bh>
+    <hangsx />
+    <nuocsx />
+  </Chitiet>
+  <Chitiet>
+    <madoituong>1</madoituong>
+    <mavp>90795</mavp>
+    <id_loaivp>65</id_loaivp>
+    <loaivp>Siêu âm</loaivp>
+    <id_nhomvp>2</id_nhomvp>
+    <nhomvp>Chẩn đoán hình ảnh</nhomvp>
+    <sotien>24000.0000</sotien>
+    <vat>0</vat>
+    <id>31000000001</id>
+    <gia_dv>120000</gia_dv>
+    <gia_bh>120000</gia_bh>
+    <hangsx />
+    <nuocsx />
+  </Chitiet>
+  <Chitiet>
+    <madoituong>1</madoituong>
+    <mavp>89858</mavp>
+    <id_loaivp>17</id_loaivp>
+    <loaivp>Khám chuyên khoa</loaivp>
+    <id_nhomvp>4</id_nhomvp>
+    <nhomvp>Công khám</nhomvp>
+    <sotien>500.0000</sotien>
+    <vat>0</vat>
+    <id>31000000001</id>
+    <gia_dv>2500</gia_dv>
+    <gia_bh>2500</gia_bh>
+    <hangsx />
+    <nuocsx />
+  </Chitiet>
+</NewDataSet>

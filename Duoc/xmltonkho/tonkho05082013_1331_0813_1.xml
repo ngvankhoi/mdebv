@@ -1,0 +1,66 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="id" type="xs:decimal" minOccurs="0" />
+                <xs:element name="makho" type="xs:decimal" minOccurs="0" />
+                <xs:element name="manguon" type="xs:decimal" minOccurs="0" />
+                <xs:element name="nhomcc" type="xs:decimal" minOccurs="0" />
+                <xs:element name="stt" type="xs:decimal" minOccurs="0" />
+                <xs:element name="idn" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sttn" type="xs:decimal" minOccurs="0" />
+                <xs:element name="mabd" type="xs:decimal" minOccurs="0" />
+                <xs:element name="handung" type="xs:string" minOccurs="0" />
+                <xs:element name="losx" type="xs:string" minOccurs="0" />
+                <xs:element name="tondau" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sttondau" type="xs:decimal" minOccurs="0" />
+                <xs:element name="slnhap" type="xs:decimal" minOccurs="0" />
+                <xs:element name="stnhap" type="xs:decimal" minOccurs="0" />
+                <xs:element name="slxuat" type="xs:decimal" minOccurs="0" />
+                <xs:element name="stxuat" type="xs:decimal" minOccurs="0" />
+                <xs:element name="giaban" type="xs:decimal" minOccurs="0" />
+                <xs:element name="giamua" type="xs:decimal" minOccurs="0" />
+                <xs:element name="userid" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ngayud" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="idcomputer" type="xs:decimal" minOccurs="0" />
+                <xs:element name="mmyy" type="xs:string" minOccurs="0" />
+                <xs:element name="idsystem" type="xs:decimal" minOccurs="0" />
+                <xs:element name="change" type="xs:decimal" minOccurs="0" />
+                <xs:element name="mac" type="xs:string" minOccurs="0" />
+                <xs:element name="tondaumv" type="xs:decimal" minOccurs="0" />
+                <xs:element name="slxuatmv" type="xs:decimal" minOccurs="0" />
+                <xs:element name="vitri" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <id>6</id>
+    <makho>1</makho>
+    <stt>130805000000003004</stt>
+    <idn>130805000000005004</idn>
+    <sttn>1</sttn>
+    <mabd>1</mabd>
+    <tondau>0.0000</tondau>
+    <slnhap>-1000.0000</slnhap>
+    <slxuat>0.0000</slxuat>
+    <userid>0</userid>
+    <ngayud>2013-08-05T11:42:07.634794+07:00</ngayud>
+    <idcomputer>0</idcomputer>
+    <mmyy>0813</mmyy>
+    <idsystem>0</idsystem>
+    <change>0</change>
+    <mac>000000000000000000000000000000000000000000000000000000000000</mac>
+    <tondaumv>0.00</tondaumv>
+    <slxuatmv>0.00</slxuatmv>
+    <vitri>0</vitri>
+  </Table>
+</NewDataSet>

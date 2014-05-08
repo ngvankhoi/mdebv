@@ -1,0 +1,63 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="id" type="xs:decimal" minOccurs="0" />
+                <xs:element name="hoten" type="xs:string" minOccurs="0" />
+                <xs:element name="ngayhd" type="xs:string" minOccurs="0" />
+                <xs:element name="ngayhen" type="xs:string" minOccurs="0" />
+                <xs:element name="congty" type="xs:string" minOccurs="0" />
+                <xs:element name="dccongty" type="xs:string" minOccurs="0" />
+                <xs:element name="masothue" type="xs:string" minOccurs="0" />
+                <xs:element name="ghichu" type="xs:string" minOccurs="0" />
+                <xs:element name="vat" type="xs:decimal" minOccurs="0" />
+                <xs:element name="bntracls" type="xs:decimal" minOccurs="0" />
+                <xs:element name="bndongtracls" type="xs:decimal" minOccurs="0" />
+                <xs:element name="bntrathuoc" type="xs:decimal" minOccurs="0" />
+                <xs:element name="bndongtrathuoc" type="xs:decimal" minOccurs="0" />
+                <xs:element name="congkham" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <id>-3000000011</id>
+    <hoten>NGUYỄN THỊ LỆ THU</hoten>
+    <ngayhd>21/07/2011</ngayhd>
+    <ngayhen>25/07/2011</ngayhen>
+    <congty>W</congty>
+    <dccongty>WE</dccongty>
+    <masothue>1222</masothue>
+    <ghichu />
+    <vat>5</vat>
+    <bntracls>0</bntracls>
+    <bndongtracls>0</bndongtracls>
+    <bntrathuoc>14000.0000</bntrathuoc>
+    <bndongtrathuoc>0</bndongtrathuoc>
+    <congkham>0</congkham>
+  </Table>
+  <Table>
+    <id>3000000010</id>
+    <hoten>TRONG GIỜ 1</hoten>
+    <ngayhd>21/07/2011</ngayhd>
+    <ngayhen>25/07/2011</ngayhen>
+    <congty>CTY ABC</congty>
+    <dccongty>C</dccongty>
+    <masothue>2345</masothue>
+    <ghichu />
+    <vat>0.00</vat>
+    <bntracls>390000.0000</bntracls>
+    <bndongtracls>0</bndongtracls>
+    <bntrathuoc>0</bntrathuoc>
+    <bndongtrathuoc>0</bndongtrathuoc>
+    <congkham>80000.0000</congkham>
+  </Table>
+</NewDataSet>

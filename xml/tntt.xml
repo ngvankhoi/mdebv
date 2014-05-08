@@ -1,0 +1,33 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="MABN" type="xs:string" minOccurs="0" />
+                <xs:element name="HOTEN" type="xs:string" minOccurs="0" />
+                <xs:element name="NGAYSINH" type="xs:string" minOccurs="0" />
+                <xs:element name="NAMSINH" type="xs:string" minOccurs="0" />
+                <xs:element name="NGHENGHIEP" type="xs:string" minOccurs="0" />
+                <xs:element name="NOILAMVIEC" type="xs:string" minOccurs="0" />
+                <xs:element name="SOCMND" type="xs:string" minOccurs="0" />
+                <xs:element name="NOICAP" type="xs:string" minOccurs="0" />
+                <xs:element name="DIACHI" type="xs:string" minOccurs="0" />
+                <xs:element name="NGAYVV" type="xs:string" minOccurs="0" />
+                <xs:element name="NGAYRV" type="xs:string" minOccurs="0" />
+                <xs:element name="LYDO" type="xs:string" minOccurs="0" />
+                <xs:element name="CHANDOAN" type="xs:string" minOccurs="0" />
+                <xs:element name="DIEUTRI" type="xs:string" minOccurs="0" />
+                <xs:element name="TTTTV" type="xs:string" minOccurs="0" />
+                <xs:element name="TTTTR" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+</NewDataSet>

@@ -1,0 +1,27 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ngay" type="xs:string" minOccurs="0" />
+                <xs:element name="may" type="xs:string" minOccurs="0" />
+                <xs:element name="tenuser" type="xs:string" minOccurs="0" />
+                <xs:element name="noidung" type="xs:string" minOccurs="0" />
+                <xs:element name="ins" type="xs:decimal" minOccurs="0" />
+                <xs:element name="upd" type="xs:decimal" minOccurs="0" />
+                <xs:element name="del" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tableid" type="xs:decimal" minOccurs="0" />
+                <xs:element name="computerid" type="xs:decimal" minOccurs="0" />
+                <xs:element name="userid" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+</NewDataSet>

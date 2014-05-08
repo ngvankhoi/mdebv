@@ -1,0 +1,224 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{771DB861-2CCC-4B0E-9C6D-DE69838DA9DE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>tiemchung</RootNamespace>
+    <AssemblyName>tiemchung</AssemblyName>
+    <StartupObject>
+    </StartupObject>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ChartControl, Version=1.0.1528.18672, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\dllvpkhoa_chidinh\bin\Debug\ChartControl.dll</HintPath>
+    </Reference>
+    <Reference Include="chart_control, Version=1.0.2126.30983, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Medisoft_gam070811\bin\Debug\chart_control.dll</HintPath>
+    </Reference>
+    <Reference Include="dllReportM, Version=1.0.4332.18725, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\dllReportM\bin\Debug\dllReportM.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.Excel, Version=1.3.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="Interop.Office, Version=2.1.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="LibDuoc, Version=1.0.5168.21015, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\LibDuoc\bin\Debug\LibDuoc.dll</HintPath>
+    </Reference>
+    <Reference Include="LibLicense, Version=1.0.2729.19536, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="LibList, Version=1.0.2987.16578, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="LibNetSend, Version=1.0.2037.15445, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\dllvpkhoa_chidinh\bin\Debug\LibNetSend.dll</HintPath>
+    </Reference>
+    <Reference Include="MaskedBox, Version=1.0.2334.25504, Culture=neutral" />
+    <Reference Include="MaskedTextBox, Version=1.0.1704.27792, Culture=neutral" />
+    <Reference Include="Mono.Security, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756" />
+    <Reference Include="MultiColumnListBox, Version=1.0.3106.36656, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="MultiColumnListBoxColor, Version=1.0.2592.31483, Culture=neutral" />
+    <Reference Include="Npgsql, Version=0.7.0.0, Culture=neutral, PublicKeyToken=5d8b90d52f46fda7" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="VietKeyInput, Version=1.0.2384.16337, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\dllReportM\bin\Debug\VietKeyInput.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Bogotiengviet.cs" />
+    <Compile Include="CustomColumnStyles.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="frmBBHuyVaccin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBBHuyVaccin.Designer.cs">
+      <DependentUpon>frmBBHuyVaccin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmChonthongso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPhanungsautiemchung.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPhanungsautiemchung.designer.cs">
+      <DependentUpon>frmPhanungsautiemchung.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPhieutiemchung.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSoquanlyTiem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSoquanlyTiem.Designer.cs">
+      <DependentUpon>frmSoquanlyTiem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSoquanlyVaccin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSoquanlyVaccin.Designer.cs">
+      <DependentUpon>frmSoquanlyVaccin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frmtc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmtc.Designer.cs">
+      <DependentUpon>Frmtc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTheodoinhietdotulanh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTheodoinhietdotulanh.Designer.cs">
+      <DependentUpon>frmTheodoinhietdotulanh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Language.cs" />
+    <Compile Include="LibTiemchung.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="CustomColumnStyles.resx">
+      <DependentUpon>CustomColumnStyles.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBBHuyVaccin.resx">
+      <DependentUpon>frmBBHuyVaccin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmChonthongso.resx">
+      <DependentUpon>frmChonthongso.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPhanungsautiemchung.resx">
+      <DependentUpon>frmPhanungsautiemchung.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPhieutiemchung.resx">
+      <DependentUpon>frmPhieutiemchung.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSoquanlyTiem.resx">
+      <DependentUpon>frmSoquanlyTiem.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSoquanlyVaccin.resx">
+      <DependentUpon>frmSoquanlyVaccin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmtc.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Frmtc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTheodoinhietdotulanh.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmTheodoinhietdotulanh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LibMedi\LibMedi.csproj">
+      <Project>{95A47237-99CE-4B55-9867-D4CF46AA9E08}</Project>
+      <Name>LibMedi</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\F5.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close_r.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\undo_ok.GIF" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,67 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="BienLaiTamUng">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="syt" type="xs:string" minOccurs="0" />
+                <xs:element name="bv" type="xs:string" minOccurs="0" />
+                <xs:element name="diachibv" type="xs:string" minOccurs="0" />
+                <xs:element name="tongcucthue" type="xs:string" minOccurs="0" />
+                <xs:element name="cucthue" type="xs:string" minOccurs="0" />
+                <xs:element name="masothue" type="xs:string" minOccurs="0" />
+                <xs:element name="mauso" type="xs:string" minOccurs="0" />
+                <xs:element name="quyenso" type="xs:string" minOccurs="0" />
+                <xs:element name="sobienlai" type="xs:string" minOccurs="0" />
+                <xs:element name="ngayin" type="xs:string" minOccurs="0" />
+                <xs:element name="nguoiin" type="xs:string" minOccurs="0" />
+                <xs:element name="ghichu" type="xs:string" minOccurs="0" />
+                <xs:element name="lien" type="xs:string" minOccurs="0" />
+                <xs:element name="mabn" type="xs:string" minOccurs="0" />
+                <xs:element name="hoten" type="xs:string" minOccurs="0" />
+                <xs:element name="ngaysinh" type="xs:string" minOccurs="0" />
+                <xs:element name="gioitinh" type="xs:string" minOccurs="0" />
+                <xs:element name="khoa" type="xs:string" minOccurs="0" />
+                <xs:element name="diachi" type="xs:string" minOccurs="0" />
+                <xs:element name="lydo" type="xs:string" minOccurs="0" />
+                <xs:element name="sotien" type="xs:string" minOccurs="0" />
+                <xs:element name="chutien" type="xs:string" minOccurs="0" />
+                <xs:element name="nguoithu" type="xs:string" minOccurs="0" />
+                <xs:element name="lanin" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <BienLaiTamUng>
+    <syt>Sở Y Tế An Giang</syt>
+    <bv>Bệnh Viện Đa Khoa Nhật Tân</bv>
+    <diachibv>Tổ 14, Châu Long 7, P.B TX Châu Đốc, An Giang</diachibv>
+    <tongcucthue>TỔNG CỤC THUẾ</tongcucthue>
+    <cucthue>CỤC THUẾ</cucthue>
+    <masothue />
+    <mauso />
+    <quyenso>VP11/10</quyenso>
+    <sobienlai>6155</sobienlai>
+    <ngayin>19/11/2010</ngayin>
+    <nguoiin>Test</nguoiin>
+    <ghichu />
+    <lien>Liên 1: Giao cho bệnh nhân</lien>
+    <mabn>10035495</mabn>
+    <hoten>LÂM NGỌC ĐIỆP</hoten>
+    <ngaysinh>1943</ngaysinh>
+    <gioitinh>Nam</gioitinh>
+    <khoa>Nội</khoa>
+    <diachi>Xã Mỹ Đức, Huyện Châu Phú, An Giang</diachi>
+    <lydo>Tạm ứng nhập viện</lydo>
+    <sotien>100000</sotien>
+    <chutien>Một trăm ngàn  đồng</chutien>
+    <nguoithu>Test</nguoithu>
+    <lanin>1</lanin>
+  </BienLaiTamUng>
+</NewDataSet>

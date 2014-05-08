@@ -1,0 +1,23 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table1>
+    <ToaDo_X>0</ToaDo_X>
+    <ToaDo_Y>0</ToaDo_Y>
+    <ChieuRong>1024</ChieuRong>
+    <ChieuCao>768</ChieuCao>
+    <TieuDe_cochu>20</TieuDe_cochu>
+    <TieuDe_maunen_r>0</TieuDe_maunen_r>
+    <TieuDe_maunen_g>0</TieuDe_maunen_g>
+    <TieuDe_maunen_b>0</TieuDe_maunen_b>
+    <TieuDe_mauchu_r>255</TieuDe_mauchu_r>
+    <TieuDe_mauchu_g>0</TieuDe_mauchu_g>
+    <TieuDe_mauchu_b>0</TieuDe_mauchu_b>
+    <DanhSach_cochu>20</DanhSach_cochu>
+    <DanhSach_maunen_r>0</DanhSach_maunen_r>
+    <DanhSach_maunen_g>0</DanhSach_maunen_g>
+    <DanhSach_maunen_b>0</DanhSach_maunen_b>
+    <DanhSach_mauchu_r>0</DanhSach_mauchu_r>
+    <DanhSach_mauchu_g>223</DanhSach_mauchu_g>
+    <DanhSach_mauchu_b>0</DanhSach_mauchu_b>
+  </Table1>
+</NewDataSet>

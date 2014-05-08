@@ -1,0 +1,142 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="mabn" type="xs:string" minOccurs="0" />
+                <xs:element name="maql" type="xs:decimal" minOccurs="0" />
+                <xs:element name="hoten" type="xs:string" minOccurs="0" />
+                <xs:element name="ngaysinh" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="namsinh" type="xs:string" minOccurs="0" />
+                <xs:element name="phai" type="xs:decimal" minOccurs="0" />
+                <xs:element name="gioitinh" type="xs:string" minOccurs="0" />
+                <xs:element name="soluutru" type="xs:string" minOccurs="0" />
+                <xs:element name="tenkp" type="xs:string" minOccurs="0" />
+                <xs:element name="ngayvv" type="xs:string" minOccurs="0" />
+                <xs:element name="ngayrv" type="xs:string" minOccurs="0" />
+                <xs:element name="ngayn" type="xs:string" minOccurs="0" />
+                <xs:element name="ngaymuon" type="xs:string" minOccurs="0" />
+                <xs:element name="ngaytra" type="xs:string" minOccurs="0" />
+                <xs:element name="bacsimuon" type="xs:string" minOccurs="0" />
+                <xs:element name="sttba" type="xs:decimal" minOccurs="0" />
+                <xs:element name="gia" type="xs:string" minOccurs="0" />
+                <xs:element name="tang" type="xs:string" minOccurs="0" />
+                <xs:element name="vitri_o" type="xs:string" minOccurs="0" />
+                <xs:element name="ketqua" type="xs:string" minOccurs="0" />
+                <xs:element name="tenbv" type="xs:string" minOccurs="0" />
+                <xs:element name="doituong" type="xs:string" minOccurs="0" />
+                <xs:element name="tennn" type="xs:string" minOccurs="0" />
+                <xs:element name="dentu" type="xs:string" minOccurs="0" />
+                <xs:element name="diachi" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <mabn>08141111</mabn>
+    <maql>81224113412854195</maql>
+    <hoten>NGUYỄN VĂN MÔNG</hoten>
+    <namsinh>1927</namsinh>
+    <phai>0</phai>
+    <gioitinh>Nam</gioitinh>
+    <soluutru>ng/09/000001</soluutru>
+    <tenkp>Khoa Ngoại</tenkp>
+    <ngayvv>24/12/2008 11:32</ngayvv>
+    <ngayrv>01/01/2009 10:00</ngayrv>
+    <ngayn>26/03/2009 00:03</ngayn>
+    <ngaymuon xml:space="preserve"> </ngaymuon>
+    <ngaytra xml:space="preserve"> </ngaytra>
+    <bacsimuon xml:space="preserve"> </bacsimuon>
+    <sttba>1</sttba>
+    <gia />
+    <tang />
+    <vitri_o />
+    <ketqua>Đở, giảm</ketqua>
+    <doituong>Thu phí</doituong>
+    <tennn>Mất Sức Lao Động</tennn>
+    <dentu>Tự đến</dentu>
+    <diachi>Ấp Tân Phú  - Tân Hiệp B - H. Tân Hiệp - Kiên Giang</diachi>
+  </Table>
+  <Table>
+    <mabn>08141174</mabn>
+    <maql>81225102233526200</maql>
+    <hoten>NGUYỄN VĂN TRỌNG</hoten>
+    <namsinh>1936</namsinh>
+    <phai>0</phai>
+    <gioitinh>Nam</gioitinh>
+    <soluutru>000001/09</soluutru>
+    <tenkp>Khoa Ngoại</tenkp>
+    <ngayvv>25/12/2008 10:21</ngayvv>
+    <ngayrv>02/01/2009 16:00</ngayrv>
+    <ngayn>22/05/2009 00:05</ngayn>
+    <ngaymuon xml:space="preserve"> </ngaymuon>
+    <ngaytra xml:space="preserve"> </ngaytra>
+    <bacsimuon xml:space="preserve"> </bacsimuon>
+    <sttba>5</sttba>
+    <gia />
+    <tang />
+    <vitri_o />
+    <ketqua>Khỏi</ketqua>
+    <doituong>Thu phí</doituong>
+    <tennn>Mất Sức Lao Động</tennn>
+    <dentu>Tự đến</dentu>
+    <diachi>Ấp Hòa Hớn - Định Hòa - H. Gò Quao - Kiên Giang</diachi>
+  </Table>
+  <Table>
+    <mabn>08093429</mabn>
+    <maql>90102134627285200</maql>
+    <hoten>LA PHI TÙNG</hoten>
+    <namsinh>1968</namsinh>
+    <phai>0</phai>
+    <gioitinh>Nam</gioitinh>
+    <soluutru>000001/09</soluutru>
+    <tenkp>Khoa Ngoại</tenkp>
+    <ngayvv>02/01/2009 13:45</ngayvv>
+    <ngayrv>03/01/2009 10:00</ngayrv>
+    <ngayn>22/05/2009 00:05</ngayn>
+    <ngaymuon xml:space="preserve"> </ngaymuon>
+    <ngaytra xml:space="preserve"> </ngaytra>
+    <bacsimuon xml:space="preserve"> </bacsimuon>
+    <sttba>7</sttba>
+    <gia />
+    <tang />
+    <vitri_o />
+    <ketqua>Đở, giảm</ketqua>
+    <doituong>Thu phí</doituong>
+    <tennn>Nông dân</tennn>
+    <dentu>Tự đến</dentu>
+    <diachi>38C - Khu Phố Vĩnh Viễn - P. Vĩnh Hiệp - Tp. Rạch Giá - Kiên Giang</diachi>
+  </Table>
+  <Table>
+    <mabn>09901444</mabn>
+    <maql>90330114509010200</maql>
+    <hoten>HUỲNH VĂN SÁNG</hoten>
+    <namsinh>1957</namsinh>
+    <phai>0</phai>
+    <gioitinh>Nam</gioitinh>
+    <soluutru>ng/09/000005</soluutru>
+    <tenkp>Khoa Ngoại</tenkp>
+    <ngayvv>30/03/2009 11:44</ngayvv>
+    <ngayrv>06/04/2009 12:33</ngayrv>
+    <ngayn>29/05/2009 00:05</ngayn>
+    <ngaymuon xml:space="preserve"> </ngaymuon>
+    <ngaytra xml:space="preserve"> </ngaytra>
+    <bacsimuon xml:space="preserve"> </bacsimuon>
+    <sttba>13</sttba>
+    <gia />
+    <tang />
+    <vitri_o />
+    <ketqua>Khỏi</ketqua>
+    <doituong>Thu phí</doituong>
+    <tennn>Buôn Bán</tennn>
+    <dentu>Tự đến</dentu>
+    <diachi>32 - Số 4 - P. Linh Tây - Q. Thủ Đức - H C M</diachi>
+  </Table>
+</NewDataSet>

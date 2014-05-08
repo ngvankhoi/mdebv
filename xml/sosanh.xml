@@ -1,0 +1,65 @@
+<?xml version="1.0" standalone="yes" ?>
+<NewDataSet>
+	<xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xs:element name="NewDataSet" msdata:IsDataSet="true">
+			<xs:complexType>
+				<xs:choice maxOccurs="unbounded">
+					<xs:element name="Table">
+						<xs:complexType>
+							<xs:sequence>
+								<xs:element name="ma" type="xs:string" minOccurs="0" />
+								<xs:element name="ten" type="xs:string" minOccurs="0" />
+								<xs:element name="sql1" type="xs:string" minOccurs="0" />
+								<xs:element name="sql2" type="xs:string" minOccurs="0" />
+							</xs:sequence>
+						</xs:complexType>
+					</xs:element>
+				</xs:choice>
+			</xs:complexType>
+		</xs:element>
+	</xs:schema>
+	<Table>
+		<ma>00</ma>
+		<ten>Tổng số ngày điều trị cao nhất</ten>
+		<sql1></sql1>
+		<sql2></sql2>
+	</Table>
+	<Table>
+		<ma>01</ma>
+		<ten>Tổng số ca mắc bệnh cao nhất so với tổng số ca mắc bệnh</ten>
+	</Table>
+	<Table>
+		<ma>02</ma>
+		<ten>Tổng số ca tử vong cao nhất so với tổng số ca mắc bệnh</ten>
+		<sql1>ttlucrv=7</sql1>
+		<sql2></sql2>
+	</Table>
+	<Table>
+		<ma>03</ma>
+		<ten>Tổng số ca tử vong cao nhất so với tổng số ca tử vong</ten>
+		<sql1>ttlucrv=7</sql1>
+		<sql2>ttlucrv=7</sql2>
+	</Table>
+	<Table>
+		<ma>04</ma>
+		<ten>Tổng số ca trẻ em (&lt;15) mắc bệnh cao nhất so với tổng số ca mắc bệnh</ten>
+		<sql1>to_number(to_char(sysdate,'yyyy'))-to_number(namsinh)&lt;=14</sql1>
+	</Table>
+	<Table>
+		<ma>05</ma>
+		<ten>Tổng số ca trẻ em (&lt;15) tử vong cao nhất so với tổng số ca tử vong </ten>
+		<sql1>to_number(to_char(sysdate,'yyyy'))-to_number(namsinh)&lt;=14 and ttlucrv=7</sql1>
+		<sql2>ttlucrv=7</sql2>
+	</Table>
+	<Table>
+		<ma>06</ma>
+		<ten>Tổng số ca trẻ em (0-4) mắc bệnh cao nhất so với tổng số ca mắc bệnh</ten>
+		<sql1>to_number(to_char(sysdate,'yyyy'))-to_number(namsinh)&lt;=4</sql1>
+	</Table>
+	<Table>
+		<ma>07</ma>
+		<ten>Tổng số ca trẻ em (0-4) tử vong cao nhất so với tổng số ca tử vong </ten>
+		<sql1>to_number(to_char(sysdate,'yyyy'))-to_number(namsinh)&lt;=4 and ttlucrv=7</sql1>
+		<sql2>ttlucrv=7</sql2>
+	</Table>
+</NewDataSet>

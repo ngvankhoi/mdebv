@@ -1,0 +1,195 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ngay" type="xs:string" minOccurs="0" />
+                <xs:element name="mavp" type="xs:string" minOccurs="0" />
+                <xs:element name="tenvp" type="xs:string" minOccurs="0" />
+                <xs:element name="idloaivp" type="xs:decimal" minOccurs="0" />
+                <xs:element name="loaivp" type="xs:string" minOccurs="0" />
+                <xs:element name="idnhomvp" type="xs:decimal" minOccurs="0" />
+                <xs:element name="nhomvp" type="xs:string" minOccurs="0" />
+                <xs:element name="madoituong" type="xs:decimal" minOccurs="0" />
+                <xs:element name="socahepa" type="xs:decimal" minOccurs="0" />
+                <xs:element name="socabhyt" type="xs:decimal" minOccurs="0" />
+                <xs:element name="socaphuthu" type="xs:decimal" minOccurs="0" />
+                <xs:element name="dongiahepa" type="xs:decimal" minOccurs="0" />
+                <xs:element name="dongiaphuthu" type="xs:decimal" minOccurs="0" />
+                <xs:element name="dongiabhyt" type="xs:decimal" minOccurs="0" />
+                <xs:element name="phuthu" type="xs:decimal" minOccurs="0" />
+                <xs:element name="id_loaitg" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <ngay>28/07/2011</ngay>
+    <mavp>NOISOI05</mavp>
+    <tenvp>Soi dạ dày</tenvp>
+    <idloaivp>31</idloaivp>
+    <loaivp>Nội soi chẩn đoán</loaivp>
+    <idnhomvp>2</idnhomvp>
+    <nhomvp>Chẩn đoán hình ảnh</nhomvp>
+    <madoituong>1</madoituong>
+    <socahepa>0</socahepa>
+    <socabhyt>1.0000</socabhyt>
+    <socaphuthu>0</socaphuthu>
+    <dongiahepa>0</dongiahepa>
+    <dongiaphuthu>0</dongiaphuthu>
+    <dongiabhyt>30000.0000000000</dongiabhyt>
+    <phuthu>2</phuthu>
+    <id_loaitg>1</id_loaitg>
+  </Table>
+  <Table>
+    <ngay>28/07/2011</ngay>
+    <mavp>NOISOI05</mavp>
+    <tenvp>Soi dạ dày</tenvp>
+    <idloaivp>31</idloaivp>
+    <loaivp>Nội soi chẩn đoán</loaivp>
+    <idnhomvp>2</idnhomvp>
+    <nhomvp>Chẩn đoán hình ảnh</nhomvp>
+    <madoituong>9</madoituong>
+    <socahepa>0</socahepa>
+    <socabhyt>0</socabhyt>
+    <socaphuthu>1.0000</socaphuthu>
+    <dongiahepa>0</dongiahepa>
+    <dongiaphuthu>175000.0000000000</dongiaphuthu>
+    <dongiabhyt>0</dongiabhyt>
+    <phuthu>1</phuthu>
+    <id_loaitg>1</id_loaitg>
+  </Table>
+  <Table>
+    <ngay>28/07/2011</ngay>
+    <mavp>XMMD12</mavp>
+    <tenvp>Anti HCV (Elisa)</tenvp>
+    <idloaivp>79</idloaivp>
+    <loaivp>Xét Nghiệm Miễn dịch</loaivp>
+    <idnhomvp>1</idnhomvp>
+    <nhomvp>Xét nghiệm</nhomvp>
+    <madoituong>9</madoituong>
+    <socahepa>1.0000</socahepa>
+    <socabhyt>0</socabhyt>
+    <socaphuthu>0</socaphuthu>
+    <dongiahepa>110000.0000000000</dongiahepa>
+    <dongiaphuthu>0</dongiaphuthu>
+    <dongiabhyt>0</dongiabhyt>
+    <phuthu>0</phuthu>
+    <id_loaitg>1</id_loaitg>
+  </Table>
+  <Table>
+    <ngay>28/07/2011</ngay>
+    <mavp>XNHSMAU38</mavp>
+    <tenvp>Triglycerid</tenvp>
+    <idloaivp>81</idloaivp>
+    <loaivp>Xét nghiệm Sinh hóa</loaivp>
+    <idnhomvp>1</idnhomvp>
+    <nhomvp>Xét nghiệm</nhomvp>
+    <madoituong>1</madoituong>
+    <socahepa>0</socahepa>
+    <socabhyt>1.0000</socabhyt>
+    <socaphuthu>0</socaphuthu>
+    <dongiahepa>0</dongiahepa>
+    <dongiaphuthu>0</dongiaphuthu>
+    <dongiabhyt>15000.0000000000</dongiabhyt>
+    <phuthu>2</phuthu>
+    <id_loaitg>1</id_loaitg>
+  </Table>
+  <Table>
+    <ngay>28/07/2011</ngay>
+    <mavp>XNHSMAU38</mavp>
+    <tenvp>Triglycerid</tenvp>
+    <idloaivp>81</idloaivp>
+    <loaivp>Xét nghiệm Sinh hóa</loaivp>
+    <idnhomvp>1</idnhomvp>
+    <nhomvp>Xét nghiệm</nhomvp>
+    <madoituong>9</madoituong>
+    <socahepa>0</socahepa>
+    <socabhyt>0</socabhyt>
+    <socaphuthu>1.0000</socaphuthu>
+    <dongiahepa>0</dongiahepa>
+    <dongiaphuthu>10000.0000000000</dongiaphuthu>
+    <dongiabhyt>0</dongiabhyt>
+    <phuthu>1</phuthu>
+    <id_loaitg>1</id_loaitg>
+  </Table>
+  <Table>
+    <ngay>28/07/2011</ngay>
+    <mavp>XNHSMAU38</mavp>
+    <tenvp>Triglycerid</tenvp>
+    <idloaivp>81</idloaivp>
+    <loaivp>Xét nghiệm Sinh hóa</loaivp>
+    <idnhomvp>1</idnhomvp>
+    <nhomvp>Xét nghiệm</nhomvp>
+    <madoituong>9</madoituong>
+    <socahepa>1.0000</socahepa>
+    <socabhyt>0</socabhyt>
+    <socaphuthu>0</socaphuthu>
+    <dongiahepa>25000.0000000000</dongiahepa>
+    <dongiaphuthu>0</dongiaphuthu>
+    <dongiabhyt>0</dongiabhyt>
+    <phuthu>0</phuthu>
+    <id_loaitg>1</id_loaitg>
+  </Table>
+  <Table>
+    <ngay>28/07/2011</ngay>
+    <mavp>XNHSMAU39</mavp>
+    <tenvp>HDL-LDL</tenvp>
+    <idloaivp>81</idloaivp>
+    <loaivp>Xét nghiệm Sinh hóa</loaivp>
+    <idnhomvp>1</idnhomvp>
+    <nhomvp>Xét nghiệm</nhomvp>
+    <madoituong>1</madoituong>
+    <socahepa>0</socahepa>
+    <socabhyt>1.0000</socabhyt>
+    <socaphuthu>0</socaphuthu>
+    <dongiahepa>0</dongiahepa>
+    <dongiaphuthu>0</dongiaphuthu>
+    <dongiabhyt>30000.0000000000</dongiabhyt>
+    <phuthu>2</phuthu>
+    <id_loaitg>1</id_loaitg>
+  </Table>
+  <Table>
+    <ngay>28/07/2011</ngay>
+    <mavp>XNHSMAU39</mavp>
+    <tenvp>HDL-LDL</tenvp>
+    <idloaivp>81</idloaivp>
+    <loaivp>Xét nghiệm Sinh hóa</loaivp>
+    <idnhomvp>1</idnhomvp>
+    <nhomvp>Xét nghiệm</nhomvp>
+    <madoituong>9</madoituong>
+    <socahepa>0</socahepa>
+    <socabhyt>0</socabhyt>
+    <socaphuthu>1.0000</socaphuthu>
+    <dongiahepa>0</dongiahepa>
+    <dongiaphuthu>20000.0000000000</dongiaphuthu>
+    <dongiabhyt>0</dongiabhyt>
+    <phuthu>1</phuthu>
+    <id_loaitg>1</id_loaitg>
+  </Table>
+  <Table>
+    <ngay>28/07/2011</ngay>
+    <mavp>XNHSMAU39</mavp>
+    <tenvp>HDL-LDL</tenvp>
+    <idloaivp>81</idloaivp>
+    <loaivp>Xét nghiệm Sinh hóa</loaivp>
+    <idnhomvp>1</idnhomvp>
+    <nhomvp>Xét nghiệm</nhomvp>
+    <madoituong>9</madoituong>
+    <socahepa>1.0000</socahepa>
+    <socabhyt>0</socabhyt>
+    <socaphuthu>0</socaphuthu>
+    <dongiahepa>50000.0000000000</dongiahepa>
+    <dongiaphuthu>0</dongiaphuthu>
+    <dongiabhyt>0</dongiabhyt>
+    <phuthu>0</phuthu>
+    <id_loaitg>1</id_loaitg>
+  </Table>
+</NewDataSet>

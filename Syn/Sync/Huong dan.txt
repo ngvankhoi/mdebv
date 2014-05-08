@@ -1,0 +1,20 @@
+﻿1. Cấu hình máy chủ
+câu lệnh tạo database link
+sql = "CREATE PUBLIC DATABASE LINK " + server.DbLink + " CONNECT TO " + server.Userdb + " IDENTIFIED BY '" + server.Passworddb + "' USING libpq 'host=" + server.Host + " port=" + server.Port + " dbname=" + server.DatabaseName + "';";
+- tạo table client trên máy server trung tâm để lưu lại
+ các thông tin máy trạm. nhưng không thể tạo qua kết nối database link nên phải tạo bằng tay.
+ hiện tại chưa tìm ra giải pháp.
+ - Xu ly them field chuyendi vao cac table
+ thay doi chuoi connect thanh cac toi cac may
+ - sử lý event log ghi lại trường hợp lỗi trong quá trình cập nhật ?
+   + thoi gian bat dau chuyen :thoigian
+   + ten chuyen(Chuyen toan bo hay chuyen dinh ky): ten
+   + user dang nhap: userid
+   + server chuyen: srvSend
+   + server nhan ve: srvReceive
+   + schema : schema
+   + table chuyen: table
+   + event: event
+   + Tên máy :computer
+   + ngày chuyển: ngay
+   + code: loai loi

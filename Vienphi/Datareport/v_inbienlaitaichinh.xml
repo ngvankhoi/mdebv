@@ -1,0 +1,288 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="id" type="xs:decimal" minOccurs="0" />
+                <xs:element name="quyenso" type="xs:string" minOccurs="0" />
+                <xs:element name="sobienlai" type="xs:string" minOccurs="0" />
+                <xs:element name="ngayhd" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="noidung" type="xs:string" minOccurs="0" />
+                <xs:element name="tendv" type="xs:string" minOccurs="0" />
+                <xs:element name="masothue" type="xs:string" minOccurs="0" />
+                <xs:element name="sotaikhoan" type="xs:string" minOccurs="0" />
+                <xs:element name="diachi" type="xs:string" minOccurs="0" />
+                <xs:element name="sotien" type="xs:decimal" minOccurs="0" />
+                <xs:element name="vat" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tkno" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tkco" type="xs:decimal" minOccurs="0" />
+                <xs:element name="userid" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ngayud" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="done" type="xs:decimal" minOccurs="0" />
+                <xs:element name="nguoinhan" type="xs:string" minOccurs="0" />
+                <xs:element name="dcnhan" type="xs:string" minOccurs="0" />
+                <xs:element name="mabn" type="xs:string" minOccurs="0" />
+                <xs:element name="loai" type="xs:decimal" minOccurs="0" />
+                <xs:element name="madoituong" type="xs:decimal" minOccurs="0" />
+                <xs:element name="traituyen" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tamung" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ngayhen" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="mien" type="xs:decimal" minOccurs="0" />
+                <xs:element name="bhyt" type="xs:decimal" minOccurs="0" />
+                <xs:element name="lanin" type="xs:decimal" minOccurs="0" />
+                <xs:element name="hdcls" type="xs:decimal" minOccurs="0" />
+                <xs:element name="mavaovien" type="xs:decimal" minOccurs="0" />
+                <xs:element name="mabn1" type="xs:string" minOccurs="0" />
+                <xs:element name="hoten" type="xs:string" minOccurs="0" />
+                <xs:element name="ngaysinh" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="namsinh" type="xs:string" minOccurs="0" />
+                <xs:element name="phai" type="xs:decimal" minOccurs="0" />
+                <xs:element name="mann" type="xs:string" minOccurs="0" />
+                <xs:element name="madantoc" type="xs:string" minOccurs="0" />
+                <xs:element name="sonha" type="xs:string" minOccurs="0" />
+                <xs:element name="thon" type="xs:string" minOccurs="0" />
+                <xs:element name="cholam" type="xs:string" minOccurs="0" />
+                <xs:element name="matt" type="xs:string" minOccurs="0" />
+                <xs:element name="maqu" type="xs:string" minOccurs="0" />
+                <xs:element name="maphuongxa" type="xs:string" minOccurs="0" />
+                <xs:element name="userid1" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ngayud1" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="hotenkdau" type="xs:string" minOccurs="0" />
+                <xs:element name="nam" type="xs:string" minOccurs="0" />
+                <xs:element name="image" type="xs:base64Binary" minOccurs="0" />
+                <xs:element name="barcode" type="xs:base64Binary" minOccurs="0" />
+                <xs:element name="cmnd" type="xs:string" minOccurs="0" />
+                <xs:element name="msthue" type="xs:string" minOccurs="0" />
+                <xs:element name="chuyendi" type="xs:string" minOccurs="0" />
+                <xs:element name="maphu" type="xs:string" minOccurs="0" />
+                <xs:element name="id1" type="xs:decimal" minOccurs="0" />
+                <xs:element name="stt" type="xs:decimal" minOccurs="0" />
+                <xs:element name="mabn2" type="xs:string" minOccurs="0" />
+                <xs:element name="makp" type="xs:string" minOccurs="0" />
+                <xs:element name="chiphi" type="xs:decimal" minOccurs="0" />
+                <xs:element name="bhyt1" type="xs:decimal" minOccurs="0" />
+                <xs:element name="mien1" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tamung1" type="xs:decimal" minOccurs="0" />
+                <xs:element name="done1" type="xs:decimal" minOccurs="0" />
+                <xs:element name="loai1" type="xs:decimal" minOccurs="0" />
+                <xs:element name="idvienphi" type="xs:string" minOccurs="0" />
+                <xs:element name="soluong" type="xs:decimal" minOccurs="0" />
+                <xs:element name="dongia" type="xs:decimal" minOccurs="0" />
+                <xs:element name="vat1" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sotien1" type="xs:decimal" minOccurs="0" />
+                <xs:element name="mavp" type="xs:decimal" minOccurs="0" />
+                <xs:element name="madoituong1" type="xs:decimal" minOccurs="0" />
+                <xs:element name="nguoithu" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <id>3000000011</id>
+    <quyenso>0</quyenso>
+    <sobienlai>0</sobienlai>
+    <ngayhd>2011-07-21T00:00:00+07:00</ngayhd>
+    <noidung />
+    <tendv>W</tendv>
+    <masothue>1222</masothue>
+    <sotaikhoan />
+    <diachi>WE</diachi>
+    <sotien>260000.0000</sotien>
+    <vat>0</vat>
+    <tkno>0.0000</tkno>
+    <tkco>0.0000</tkco>
+    <userid>263</userid>
+    <ngayud>2011-07-21T10:56:35.468936+07:00</ngayud>
+    <done>1</done>
+    <nguoinhan>E</nguoinhan>
+    <dcnhan>R</dcnhan>
+    <mabn>1104020886</mabn>
+    <loai>2</loai>
+    <madoituong>0</madoituong>
+    <traituyen>0</traituyen>
+    <tamung>0</tamung>
+    <ngayhen>2011-07-25T00:00:00+07:00</ngayhen>
+    <mien>0.0000</mien>
+    <bhyt>0.0000</bhyt>
+    <hdcls>1</hdcls>
+    <mavaovien>110721103414036003</mavaovien>
+    <mabn1>1104020886</mabn1>
+    <hoten>NGUYỄN THỊ LỆ THU</hoten>
+    <namsinh>1966</namsinh>
+    <phai>1</phai>
+    <mann>04</mann>
+    <madantoc>25</madantoc>
+    <sonha />
+    <thon />
+    <cholam />
+    <matt>701</matt>
+    <maqu>70101</maqu>
+    <maphuongxa>7010103</maphuongxa>
+    <userid1>4490</userid1>
+    <ngayud1>2011-07-21T10:34:15.031979+07:00</ngayud1>
+    <hotenkdau>NGUYENTHILETHU</hotenkdau>
+    <nam>0711+</nam>
+    <cmnd />
+    <msthue />
+    <chuyendi>000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</chuyendi>
+    <id1>3000000011</id1>
+    <stt>1</stt>
+    <mabn2>1104020886</mabn2>
+    <makp />
+    <chiphi>80000.0000</chiphi>
+    <bhyt1>0.0000</bhyt1>
+    <mien1>0.0000</mien1>
+    <tamung1>0</tamung1>
+    <done1>1</done1>
+    <loai1>2</loai1>
+    <idvienphi>3000000011</idvienphi>
+    <soluong>1.0000</soluong>
+    <dongia>80000.0000000000</dongia>
+    <vat1>0.00</vat1>
+    <sotien1>80000.00</sotien1>
+    <mavp>398</mavp>
+    <madoituong1>2</madoituong1>
+    <nguoithu>Chi nhánh 4</nguoithu>
+  </Table>
+  <Table>
+    <id>3000000011</id>
+    <quyenso>0</quyenso>
+    <sobienlai>0</sobienlai>
+    <ngayhd>2011-07-21T00:00:00+07:00</ngayhd>
+    <noidung />
+    <tendv>W</tendv>
+    <masothue>1222</masothue>
+    <sotaikhoan />
+    <diachi>WE</diachi>
+    <sotien>260000.0000</sotien>
+    <vat>0</vat>
+    <tkno>0.0000</tkno>
+    <tkco>0.0000</tkco>
+    <userid>263</userid>
+    <ngayud>2011-07-21T10:56:35.468936+07:00</ngayud>
+    <done>1</done>
+    <nguoinhan>E</nguoinhan>
+    <dcnhan>R</dcnhan>
+    <mabn>1104020886</mabn>
+    <loai>2</loai>
+    <madoituong>0</madoituong>
+    <traituyen>0</traituyen>
+    <tamung>0</tamung>
+    <ngayhen>2011-07-25T00:00:00+07:00</ngayhen>
+    <mien>0.0000</mien>
+    <bhyt>0.0000</bhyt>
+    <hdcls>1</hdcls>
+    <mavaovien>110721103414036003</mavaovien>
+    <mabn1>1104020886</mabn1>
+    <hoten>NGUYỄN THỊ LỆ THU</hoten>
+    <namsinh>1966</namsinh>
+    <phai>1</phai>
+    <mann>04</mann>
+    <madantoc>25</madantoc>
+    <sonha />
+    <thon />
+    <cholam />
+    <matt>701</matt>
+    <maqu>70101</maqu>
+    <maphuongxa>7010103</maphuongxa>
+    <userid1>4490</userid1>
+    <ngayud1>2011-07-21T10:34:15.031979+07:00</ngayud1>
+    <hotenkdau>NGUYENTHILETHU</hotenkdau>
+    <nam>0711+</nam>
+    <cmnd />
+    <msthue />
+    <chuyendi>000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</chuyendi>
+    <id1>3000000011</id1>
+    <stt>2</stt>
+    <mabn2>1104020886</mabn2>
+    <makp />
+    <chiphi>30000.0000</chiphi>
+    <bhyt1>0.0000</bhyt1>
+    <mien1>0.0000</mien1>
+    <tamung1>0</tamung1>
+    <done1>1</done1>
+    <loai1>2</loai1>
+    <idvienphi>3000000011</idvienphi>
+    <soluong>1.0000</soluong>
+    <dongia>30000.0000000000</dongia>
+    <vat1>0.00</vat1>
+    <sotien1>30000.00</sotien1>
+    <mavp>763</mavp>
+    <madoituong1>2</madoituong1>
+    <nguoithu>Chi nhánh 4</nguoithu>
+  </Table>
+  <Table>
+    <id>3000000011</id>
+    <quyenso>0</quyenso>
+    <sobienlai>0</sobienlai>
+    <ngayhd>2011-07-21T00:00:00+07:00</ngayhd>
+    <noidung />
+    <tendv>W</tendv>
+    <masothue>1222</masothue>
+    <sotaikhoan />
+    <diachi>WE</diachi>
+    <sotien>260000.0000</sotien>
+    <vat>0</vat>
+    <tkno>0.0000</tkno>
+    <tkco>0.0000</tkco>
+    <userid>263</userid>
+    <ngayud>2011-07-21T10:56:35.468936+07:00</ngayud>
+    <done>1</done>
+    <nguoinhan>E</nguoinhan>
+    <dcnhan>R</dcnhan>
+    <mabn>1104020886</mabn>
+    <loai>2</loai>
+    <madoituong>0</madoituong>
+    <traituyen>0</traituyen>
+    <tamung>0</tamung>
+    <ngayhen>2011-07-25T00:00:00+07:00</ngayhen>
+    <mien>0.0000</mien>
+    <bhyt>0.0000</bhyt>
+    <hdcls>1</hdcls>
+    <mavaovien>110721103414036003</mavaovien>
+    <mabn1>1104020886</mabn1>
+    <hoten>NGUYỄN THỊ LỆ THU</hoten>
+    <namsinh>1966</namsinh>
+    <phai>1</phai>
+    <mann>04</mann>
+    <madantoc>25</madantoc>
+    <sonha />
+    <thon />
+    <cholam />
+    <matt>701</matt>
+    <maqu>70101</maqu>
+    <maphuongxa>7010103</maphuongxa>
+    <userid1>4490</userid1>
+    <ngayud1>2011-07-21T10:34:15.031979+07:00</ngayud1>
+    <hotenkdau>NGUYENTHILETHU</hotenkdau>
+    <nam>0711+</nam>
+    <cmnd />
+    <msthue />
+    <chuyendi>000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</chuyendi>
+    <id1>3000000011</id1>
+    <stt>3</stt>
+    <mabn2>1104020886</mabn2>
+    <makp />
+    <chiphi>150000.0000</chiphi>
+    <bhyt1>0.0000</bhyt1>
+    <mien1>0.0000</mien1>
+    <tamung1>0</tamung1>
+    <done1>1</done1>
+    <loai1>2</loai1>
+    <idvienphi>3000000011</idvienphi>
+    <soluong>1.0000</soluong>
+    <dongia>150000.0000000000</dongia>
+    <vat1>0.00</vat1>
+    <sotien1>150000.00</sotien1>
+    <mavp>471</mavp>
+    <madoituong1>2</madoituong1>
+    <nguoithu>Chi nhánh 4</nguoithu>
+  </Table>
+</NewDataSet>

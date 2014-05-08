@@ -1,0 +1,2394 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ten" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <ten>CREATE TABLE xxx.benhancc(mabn varchar(10),mavaovien numeric(25) DEFAULT 0,maql numeric(25) NOT NULL DEFAULT 0,makp varchar(3),ngay timestamp,dentu numeric(1) DEFAULT 0,  nhantu numeric(1) DEFAULT 0,  madoituong numeric(2) DEFAULT 0,  chandoan text,  maicd varchar(9),  ngayrv timestamp,  ketqua numeric(1) DEFAULT 0,  ttlucrv numeric(2) DEFAULT 0,  chandoanrv text,  maicdrv varchar(9),  mabs varchar(4),  sovaovien varchar(10),  soluutru varchar(10),  giuong varchar(10),  bienchung numeric(1) DEFAULT 0,  taibien numeric(1) DEFAULT 0,  giaiphau numeric(1) DEFAULT 0,  userid numeric(7) DEFAULT 0,  ngayud timestamp DEFAULT now(),  CONSTRAINT pk_benhancc PRIMARY KEY (maql) USING INDEX TABLESPACE medi_index,  CONSTRAINT fk_benhanpk_btdbn FOREIGN KEY (mabn)      REFERENCES medibv.btdbn (mabn) MATCH SIMPLE      ON UPDATE NO ACTION ON DELETE SET NULL,  CONSTRAINT fk_benhanpk_btdkp_bv FOREIGN KEY (makp)      REFERENCES medibv.btdkp_bv (makp) MATCH SIMPLE      ON UPDATE NO ACTION ON DELETE SET NULL,  CONSTRAINT fk_benhanpk_doituong FOREIGN KEY (madoituong)      REFERENCES medibv.doituong (madoituong) MATCH SIMPLE      ON UPDATE NO ACTION ON DELETE SET NULL) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.benhanpk(mabn varchar(10),mavaovien numeric(25) DEFAULT 0,maql numeric(25) NOT NULL DEFAULT 0,makp varchar(3),ngay timestamp,dentu numeric(1) DEFAULT 0,nhantu numeric(1) DEFAULT 0,madoituong numeric(2) DEFAULT 0,chandoan text,maicd varchar(9),ttlucrv numeric(2) DEFAULT 0,mabs varchar(4),sovaovien varchar(10),bienchung numeric(1) DEFAULT 0,taibien numeric(1) DEFAULT 0,giaiphau numeric(1) DEFAULT 0,mangtr numeric(25) DEFAULT 0,userid numeric(7) DEFAULT 0,ngayud timestamp DEFAULT now(),CONSTRAINT pk_benhanpk PRIMARY KEY (maql) USING INDEX TABLESPACE medi_index,CONSTRAINT fk_benhancc_btdbn FOREIGN KEY (mabn)REFERENCES medibv.btdbn (mabn) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_benhancc_btdkp_bv FOREIGN KEY (makp)REFERENCES medibv.btdkp_bv (makp) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_benhancc_doituong FOREIGN KEY (madoituong)REFERENCES medibv.doituong (madoituong) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.bhyt(mabn varchar(10),maql numeric(25) NOT NULL DEFAULT 0,sothe varchar(20),denngay timestamp,mabv varchar(8),maphu numeric(1) DEFAULT 0,tungay timestamp,CONSTRAINT pk_bhyt PRIMARY KEY (maql) USING INDEX TABLESPACE medi_index,CONSTRAINT fk_bhyt_btdbn FOREIGN KEY (mabn)REFERENCES medibv.btdbn (mabn) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.bhytcls(id numeric(25) NOT NULL DEFAULT 0,stt numeric(3) NOT NULL DEFAULT 0,mavp numeric(5) DEFAULT 0,soluong numeric(5) DEFAULT 0,dongia numeric(25) DEFAULT 0,idchidinh numeric(25) DEFAULT 0,CONSTRAINT pk_bhytcls PRIMARY KEY (id, stt) USING INDEX TABLESPACE medi_index,CONSTRAINT fk_bhytcls_bhytkb FOREIGN KEY(id) REFERENCES xxx.bhytkb (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_bhytcls_v_giavp FOREIGN KEY (mavp) REFERENCES medibv.v_giavp (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.bhytds(mabn varchar(10) NOT NULL,hoten text,namsinh varchar(4),diachi text,CONSTRAINT pk_bhytds PRIMARY KEY (mabn) USING INDEX TABLESPACE medi_index) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.bhytkb(id numeric(25) NOT NULL DEFAULT 0,nhom numeric(2) DEFAULT 0,quyenso numeric(7) DEFAULT 0,sobienlai numeric(10) DEFAULT 0,ngay timestamp,mabn varchar(10),mavaovien numeric(25) DEFAULT 0,maql numeric(25) NOT NULL DEFAULT 0,makp varchar(3),chandoan text,maicd varchar(9),mabs varchar(4),sothe varchar(20),maphu numeric(1) DEFAULT 0,mabv varchar(8),congkham numeric(10) DEFAULT 0,thuoc numeric(15,4) DEFAULT 0,cls numeric(10) DEFAULT 0,bntra numeric(15,4) DEFAULT 0,bhyttra numeric(15,4) DEFAULT 0,userid numeric(7) DEFAULT 0,ngayud timestamp DEFAULT now(),done numeric(1) DEFAULT 0,sotoa numeric(7) DEFAULT 0,loaiba numeric(1) DEFAULT 3,CONSTRAINT pk_bhytkb PRIMARY KEY (id) USING INDEX TABLESPACE medi_index,CONSTRAINT fk_bhytkb_bhytds FOREIGN KEY (mabn)REFERENCES xxx.bhytds (mabn) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.bhytthuoc(id numeric(25) NOT NULL DEFAULT 0,stt numeric(3) NOT NULL DEFAULT 0,sttt numeric(25) DEFAULT 0,makho numeric(6) DEFAULT 0,mabd numeric(7) DEFAULT 0,soluong numeric(10,2) DEFAULT 0,cachdung text,CONSTRAINT pk_bhytthuoc PRIMARY KEY (id, stt) USING INDEX TABLESPACE medi_index,CONSTRAINT fk_bhytthuoc_bhytkb FOREIGN KEY (id)REFERENCES xxx.bhytkb (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL, CONSTRAINT fk_bhytthuoc_d_dmbd FOREIGN KEY (mabd) REFERENCES medibv.d_dmbd (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL)WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.cdkemtheo(id numeric(25) NOT NULL DEFAULT 0,maql numeric(25) NOT NULL DEFAULT 0,loai numeric(3) NOT NULL DEFAULT 0,chandoan text,maicd varchar(9) NOT NULL,stt numeric(2) NOT NULL DEFAULT 0,CONSTRAINT pk_cdkemtheo PRIMARY KEY (id, loai, maicd, maql, stt) USING INDEX TABLESPACE medi_index) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.cdnguyennhan(id numeric(25) NOT NULL DEFAULT 0,maql numeric(25) NOT NULL DEFAULT 0,chandoan text,maicd varchar(9),CONSTRAINT pk_cdnguyennhan PRIMARY KEY (id, maql) USING INDEX TABLESPACE medi_index) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.cdsankhoa(maql numeric(25) NOT NULL DEFAULT 0,ngay timestamp,cachthucde text,kiemsoat numeric(1) DEFAULT 0,mataibien varchar(10), CONSTRAINT pk_cdsankhoa PRIMARY KEY (maql) USING INDEX TABLESPACE medi_index) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.cdungbuou(id numeric(25) DEFAULT 0,maql numeric(25) DEFAULT 0,t_v text,n_v text,m_v text,giaidoan_v text,t_r text,n_r text, m_r text,giaidoan_r text) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.cls_hen(id numeric(25) NOT NULL DEFAULT 0,songay numeric(7) DEFAULT 0,ghichu text,loai numeric(1) DEFAULT 0,ngaychup timestamp, ngaytra timestamp,CONSTRAINT pk_cls_hen PRIMARY KEY (id) USING INDEX TABLESPACE medi_index) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.cls_hinh(id numeric(25) NOT NULL DEFAULT 0,stt numeric(3) DEFAULT 0,hinh text,CONSTRAINT pk_cls_hinh PRIMARY KEY (id) USING INDEX TABLESPACE medi_index) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.cls_ketqua(id numeric(25) NOT NULL DEFAULT 0,loai numeric(2) DEFAULT 0,mabn varchar(10),mavaovien numeric(25),maql numeric(25),ngay timestamp,madoituong numeric(2),idcls varchar(11),idvp varchar(12),bscd text,makpcd text,bvcd text,cp numeric(10) DEFAULT 0,lt numeric(10) DEFAULT 0,bh numeric(10) DEFAULT 0,chandoan text,ketqua text,mabs varchar(4),maktv varchar(4),idmay numeric(7) DEFAULT 0,idvung numeric(7) DEFAULT 0,idvungdg numeric(7) DEFAULT 0,idloai numeric(7) DEFAULT 0,kqcuoi numeric(1) DEFAULT 0,madia varchar(20),soluongphim numeric(5) DEFAULT 0,nhankq text,userid numeric(7) DEFAULT 0, ngayud timestamp DEFAULT now(),CONSTRAINT pk_cls_ketqua PRIMARY KEY (id) USING INDEX TABLESPACE medi_index) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.cls_mat(id numeric(25) NOT NULL DEFAULT 0,mp numeric(1) DEFAULT 0,mt numeric(1) DEFAULT 0,CONSTRAINT pk_cls_mat PRIMARY KEY (id) USING INDEX TABLESPACE medi_index) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.cls_motact(id numeric(25) NOT NULL DEFAULT 0,canquang numeric(1) DEFAULT 0,gayme numeric(1) DEFAULT 0, phanung numeric(1) DEFAULT 0,sa numeric(1) DEFAULT 0,CONSTRAINT pk_cls_motact PRIMARY KEY (id) USING INDEX TABLESPACE medi_index) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.cls_sdthuoc(id numeric(25) NOT NULL DEFAULT 0,thuoc numeric(7) DEFAULT 0,soluong numeric(10,2) DEFAULT 0,CONSTRAINT pk_cls_sdthuoc PRIMARY KEY (id) USING INDEX TABLESPACE medi_index) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.cls_thuchien(  id numeric(25) NOT NULL DEFAULT 0,mabn varchar(10),mavaovien numeric(25) DEFAULT 0,maql numeric(25) DEFAULT 0,makp varchar(3),ngay timestamp,loai numeric(2) DEFAULT 0,bscd varchar(4),bsth varchar(4),maicd varchar(9),chandoan text,loaibn numeric(1) DEFAULT 0,kham numeric(25) DEFAULT 0,madoituong numeric(2) DEFAULT 0,ma varchar(10),ten text, ketqua numeric(7) DEFAULT 0,denghi numeric(7) DEFAULT 0,ghichu text,userid numeric(7) DEFAULT 0,ngayud timestamp DEFAULT now(),ytaphu varchar(4),CONSTRAINT pk_cls_thuchien PRIMARY KEY (id) USING INDEX TABLESPACE medi_index,CONSTRAINT fk_cls_thuchien_btdbn FOREIGN KEY (mabn)REFERENCES medibv.btdbn (mabn) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.d_bienlai(id numeric(25) NOT NULL DEFAULT 0,sohieu varchar(20),sobienlai numeric(10) DEFAULT 0,sotien numeric(15,4) DEFAULT 0,CONSTRAINT pk_d_bienlai PRIMARY KEY (id) USING INDEX TABLESPACE medi_index,CONSTRAINT fk_d_bienlai_d_ngtrull FOREIGN KEY (id)REFERENCES xxx.d_ngtrull (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL)WITH OIDS;CREATE TABLE xxx.d_bienlai(id numeric(25) NOT NULL DEFAULT 0,sohieu varchar(20),sobienlai numeric(10) DEFAULT 0,sotien numeric(15,4) DEFAULT 0,CONSTRAINT pk_d_bienlai PRIMARY KEY (id) USING INDEX TABLESPACE medi_index,CONSTRAINT fk_d_bienlai_d_ngtrull FOREIGN KEY (id)REFERENCES xxx.d_ngtrull (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL)WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.d_bucstt(id numeric(25) NOT NULL DEFAULT 0,stt numeric(3) NOT NULL DEFAULT 0,sttt numeric(25) DEFAULT 0,makho numeric(6) DEFAULT 0,mabd numeric(7) DEFAULT 0,soluong numeric(10,2) DEFAULT 0,sttduyet numeric(3) DEFAULT 0,CONSTRAINT pk_d_bucstt PRIMARY KEY (id, stt) USING INDEX TABLESPACE medi_index,CONSTRAINT fk_d_bucstt_d_dmbd FOREIGN KEY (mabd)REFERENCES medibv.d_dmbd (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_d_bucstt_d_dmkho FOREIGN KEY (makho)REFERENCES medibv.d_dmkho (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL, CONSTRAINT fk_d_bucstt_d_theodoi FOREIGN KEY (sttt)REFERENCES xxx.d_theodoi (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_d_bucstt_d_xuatsdll FOREIGN KEY (id) REFERENCES xxx.d_xuatsdll (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL)WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.d_capsotoa(id numeric(2) NOT NULL DEFAULT 0,ngay timestamp NOT NULL,loai numeric(2) NOT NULL DEFAULT 0,sotoa numeric(7) DEFAULT 0,CONSTRAINT pk_d_capsotoa PRIMARY KEY (id, loai, ngay) USING INDEX TABLESPACE medi_index) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.d_chandoan(id numeric(25) NOT NULL DEFAULT 0,loai numeric(1) NOT NULL DEFAULT 0,maicd varchar(9) NOT NULL,chandoan text,CONSTRAINT pk_d_chandoan PRIMARY KEY (id, loai, maicd) USING INDEX TABLESPACE medi_index) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.d_chuyenct(id numeric(25) NOT NULL DEFAULT 0,stt numeric(3) NOT NULL DEFAULT 0,sttt numeric(25) DEFAULT 0,makho numeric(6) DEFAULT 0,mabd numeric(7) DEFAULT 0,soluong numeric(10,2) DEFAULT 0,nguonchuyen numeric(2) DEFAULT 0,stttchuyen numeric(25) DEFAULT 0,CONSTRAINT pk_d_chuyenct PRIMARY KEY (id, stt) USING INDEX TABLESPACE medi_index,CONSTRAINT fk_d_chuyenct_d_chuyenll FOREIGN KEY (id) REFERENCES xxx.d_chuyenll (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL, CONSTRAINT fk_d_chuyenct_d_dmbd FOREIGN KEY (mabd) REFERENCES medibv.d_dmbd (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL, CONSTRAINT fk_d_chuyenct_d_dmkho FOREIGN KEY (makho)REFERENCES medibv.d_dmkho (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_d_chuyenct_d_dmnguon FOREIGN KEY (nguonchuyen) REFERENCES medibv.d_dmnguon (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL, CONSTRAINT fk_d_chuyenct_d_theodoi FOREIGN KEY (sttt) REFERENCES xxx.d_theodoi (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL)WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.d_chuyenll(id numeric(25) NOT NULL DEFAULT 0,nhom numeric(2) DEFAULT 0,sophieu varchar(20),ngay timestamp,lydo text,userid numeric(7) DEFAULT 0,ngayud timestamp DEFAULT now(),CONSTRAINT pk_d_chuyenll PRIMARY KEY (id) USING INDEX TABLESPACE medi_index) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.d_ctghisoct(id numeric(25) NOT NULL DEFAULT 0,makho numeric(6) NOT NULL DEFAULT 0,makp numeric(6) NOT NULL DEFAULT 0,"no" varchar(10),co varchar(10),sotien numeric(15,4) DEFAULT 0,diengiai text,CONSTRAINT pk_d_ctghisoct PRIMARY KEY (id, makho, makp) USING INDEX TABLESPACE medi_index,CONSTRAINT fk_d_ctghisoct_d_ctghisoll FOREIGN KEY (id) REFERENCES xxx.d_ctghisoll (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_d_ctghisoct_d_dmkho FOREIGN KEY (makho) REFERENCES medibv.d_dmkho (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_d_ctghisoct_d_duockp FOREIGN KEY (makp) REFERENCES medibv.d_duockp (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.d_ctghisoll(id numeric(25) NOT NULL DEFAULT 0,nhom numeric(2) DEFAULT 0,soct varchar(10),ngay timestamp,userid numeric(7) DEFAULT 0,ngayud timestamp DEFAULT now(),CONSTRAINT pk_d_ctghisoll PRIMARY KEY (id) USING INDEX TABLESPACE medi_index)WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.d_daduyet(nhom numeric(2) NOT NULL DEFAULT 0,ngay timestamp NOT NULL,makp numeric(6) NOT NULL DEFAULT 0,loai numeric(2) NOT NULL DEFAULT 0,phieu numeric(3) NOT NULL DEFAULT 0,makho numeric(6) NOT NULL DEFAULT 0,ngayud timestamp NOT NULL DEFAULT now(),CONSTRAINT fk_d_daduyet_d_dmkho FOREIGN KEY (makho)REFERENCES medibv.d_dmkho (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_d_daduyet_d_dmphieu FOREIGN KEY (loai) REFERENCES medibv.d_dmphieu (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_d_daduyet_d_duockp FOREIGN KEY (makp) REFERENCES medibv.d_duockp (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_d_daduyet_d_loaiphieu FOREIGN KEY (phieu) REFERENCES medibv.d_loaiphieu (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_d_daduyet_d_nhomkho FOREIGN KEY (nhom) REFERENCES medibv.d_nhomkho (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL)WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.d_dausinhton(id numeric(25) NOT NULL DEFAULT 0,idkhoa numeric(25) DEFAULT 0,iddutru numeric(25) DEFAULT 0,ngay timestamp,mabs varchar(4),manv varchar(4),mach numeric(5) DEFAULT 0,nhietdo numeric(7) DEFAULT 0,huyetap varchar(7),nhiptho numeric(5) DEFAULT 0,cannang numeric(5) DEFAULT 0,phong varchar(10),giuong varchar(10),ghichu text,CONSTRAINT pk_d_dausinhton PRIMARY KEY (id) USING INDEX TABLESPACE medi_index)WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.d_dutrucapct(id numeric(25) NOT NULL DEFAULT 0,manguon numeric(2) NOT NULL DEFAULT 0,mabd numeric(6) NOT NULL DEFAULT 0,slyeucau numeric(10,2) DEFAULT 0,slthuc numeric(10,2) DEFAULT 0,CONSTRAINT pk_d_dutrucapct PRIMARY KEY (id, mabd, manguon) USING INDEX TABLESPACE medi_index,CONSTRAINT fk_d_dutrucapct_d_dmbd FOREIGN KEY (mabd) REFERENCES medibv.d_dmbd (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_d_dutrucapct_d_dmnguon FOREIGN KEY (manguon) REFERENCES medibv.d_dmnguon (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_d_dutrucapct_d_dutrucapll FOREIGN KEY (id) REFERENCES xxx.d_dutrucapll (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.d_dutrucapll(id numeric(25) NOT NULL DEFAULT 0,nhom numeric(2) DEFAULT 0,sophieu varchar(20),ngay timestamp,loai varchar(2),khox numeric(3) DEFAULT 0,khon numeric(3) DEFAULT 0,userid numeric(7) DEFAULT 0,ngayud timestamp DEFAULT now(),done numeric(1) DEFAULT 0,CONSTRAINT pk_d_dutrucapll PRIMARY KEY (id) USING INDEX TABLESPACE medi_index) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.d_dutruct(id numeric(25) NOT NULL DEFAULT 0,stt numeric(3) NOT NULL DEFAULT 0,madoituong numeric(2) DEFAULT 0,makho numeric(6) DEFAULT 0,mabd numeric(7) DEFAULT 0,slyeucau numeric(10,2) DEFAULT 0,slthuc numeric(10,2) DEFAULT 0,cachdung text,manguon numeric(2) DEFAULT 0,tutruc numeric(1) DEFAULT 0,solan numeric(2) DEFAULT 1,lan numeric(10,2) DEFAULT 0,CONSTRAINT pk_d_dutruct PRIMARY KEY (id, stt) USING INDEX TABLESPACE medi_index, CONSTRAINT fk_d_dutruct_d_dmbd FOREIGN KEY (mabd) REFERENCES medibv.d_dmbd (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_d_dutruct_d_dmkho FOREIGN KEY (makho) REFERENCES medibv.d_dmkho (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_d_dutruct_d_dmnguon FOREIGN KEY (manguon) REFERENCES medibv.d_dmnguon (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_d_dutruct_d_doituong FOREIGN KEY (madoituong) REFERENCES medibv.d_doituong (madoituong) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_d_dutruct_d_dutrull FOREIGN KEY (id) REFERENCES xxx.d_dutrull (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.d_dutrull(id numeric(25) NOT NULL DEFAULT 0,idduyet numeric(25) DEFAULT 0,mabn varchar(10),mavaovien numeric(25) DEFAULT 0,maql numeric(25) DEFAULT 0,idkhoa numeric(25) DEFAULT 0,ngayvv timestamp,songay numeric(2) DEFAULT 1,CONSTRAINT pk_d_dutrull PRIMARY KEY (id) USING INDEX TABLESPACE medi_index,CONSTRAINT fk_d_dutrull_btdbn FOREIGN KEY (mabn) REFERENCES medibv.btdbn (mabn) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL, CONSTRAINT fk_d_dutrull_d_duyet FOREIGN KEY (idduyet)REFERENCES xxx.d_duyet (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL)WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.d_duyet(id numeric(25) NOT NULL DEFAULT 0,nhom numeric(2) DEFAULT 0,ngay timestamp,loai numeric(2) DEFAULT 0,phieu numeric(3) DEFAULT 0,makp numeric(6) DEFAULT 0,done numeric(1) DEFAULT 0,userid numeric(7) DEFAULT 0,ngayud timestamp DEFAULT now(),makhoa numeric(3) DEFAULT 0,CONSTRAINT pk_d_duyet PRIMARY KEY (id) USING INDEX TABLESPACE medi_index,CONSTRAINT fk_d_duyet_d_dmphieu FOREIGN KEY (loai) REFERENCES medibv.d_dmphieu (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_d_duyet_d_duockp FOREIGN KEY (makp)REFERENCES medibv.d_duockp (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_d_duyet_d_loaiphieu FOREIGN KEY (phieu) REFERENCES medibv.d_loaiphieu (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.d_error(message text,computer varchar(20),tables varchar(20),ngayud timestamp DEFAULT now()) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.d_haophict(id numeric(25) NOT NULL DEFAULT 0,stt numeric(3) NOT NULL DEFAULT 0,madoituong numeric(1) DEFAULT 0,makho numeric(6) DEFAULT 0,mabd numeric(7) DEFAULT 0,slyeucau numeric(10,2) DEFAULT 0,slthuc numeric(10,2) DEFAULT 0,manguon numeric(2) DEFAULT 0,tutruc numeric(1) DEFAULT 0,CONSTRAINT pk_d_haophict PRIMARY KEY (id, stt) USING INDEX TABLESPACE medi_index,CONSTRAINT fk_d_haophict_d_dmbd FOREIGN KEY (mabd) REFERENCES medibv.d_dmbd (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_d_haophict_d_dmkho FOREIGN KEY (makho) REFERENCES medibv.d_dmkho (id) MATCH SIMPLE  ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_d_haophict_d_dmnguon FOREIGN KEY (manguon) REFERENCES medibv.d_dmnguon (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_d_haophict_d_haophill FOREIGN KEY (id) REFERENCES xxx.d_haophill (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.d_haophill(id numeric(25) NOT NULL DEFAULT 0,idduyet numeric(25) DEFAULT 0,sophieu varchar(8),CONSTRAINT pk_d_haophill PRIMARY KEY (id) USING INDEX TABLESPACE medi_index,CONSTRAINT fk_d_haophill_d_duyet FOREIGN KEY (idduyet) REFERENCES xxx.d_duyet (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.d_hoantract(id numeric(25) NOT NULL DEFAULT 0,stt numeric(3) NOT NULL DEFAULT 0,ngay timestamp,madoituong numeric(2) DEFAULT 0,makho numeric(6) DEFAULT 0,mabd numeric(7) DEFAULT 0,slyeucau numeric(10,2) DEFAULT 0,slthuc numeric(10,2) DEFAULT 0,manguon numeric(2) DEFAULT 0,CONSTRAINT pk_d_hoantract PRIMARY KEY (id, stt) USING INDEX TABLESPACE medi_index,CONSTRAINT fk_d_hoantract_d_dmbd FOREIGN KEY (mabd) REFERENCES medibv.d_dmbd (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_d_hoantract_d_dmkho FOREIGN KEY (makho) REFERENCES medibv.d_dmkho (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_d_hoantract_d_dmnguon FOREIGN KEY (manguon) REFERENCES medibv.d_dmnguon (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_d_hoantract_d_doituong FOREIGN KEY (madoituong) REFERENCES medibv.d_doituong (madoituong) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_d_hoantract_d_hoantrall FOREIGN KEY (id) REFERENCES xxx.d_hoantrall (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.d_hoantrall(id numeric(25) NOT NULL DEFAULT 0,idduyet numeric(25) DEFAULT 0,mabn varchar(10),mavaovien numeric(25) DEFAULT 0,maql numeric(25) DEFAULT 0,idkhoa numeric(25) DEFAULT 0,ngayvv timestamp,lydo numeric(2) DEFAULT 0,thuoc numeric(1) DEFAULT 0,CONSTRAINT pk_d_hoantrall PRIMARY KEY (id) USING INDEX TABLESPACE medi_index,CONSTRAINT fk_d_hoantrall_d_duyet FOREIGN KEY (idduyet) REFERENCES xxx.d_duyet (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL)WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.d_huybanct(id numeric(25) NOT NULL DEFAULT 0,stt numeric(3) NOT NULL DEFAULT 0,sttt numeric(25) DEFAULT 0,makho numeric(6) DEFAULT 0,mabd numeric(7) DEFAULT 0,soluong numeric(10,2) DEFAULT 0,giaban numeric(25) DEFAULT 0,CONSTRAINT pk_d_huybanct PRIMARY KEY (id, stt) USING INDEX TABLESPACE medi_index,CONSTRAINT fk_d_huybanct_d_dmbd FOREIGN KEY (mabd) REFERENCES medibv.d_dmbd (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_d_huybanct_d_dmkho FOREIGN KEY (makho) REFERENCES medibv.d_dmkho (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_d_huybanct_d_huybanll FOREIGN KEY (id) REFERENCES xxx.d_huybanll (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_d_huybanct_d_theodoi FOREIGN KEY (sttt) REFERENCES xxx.d_theodoi (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL)WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.d_huybanll(id numeric(25) NOT NULL DEFAULT 0,nhom numeric(2) DEFAULT 0,mabn varchar(10),hoten text,namsinh varchar(4),ngay timestamp,mabs varchar(4),makp numeric(6) DEFAULT 0,loai numeric(2) DEFAULT 0,done numeric(1) DEFAULT 0,userid numeric(7) DEFAULT 0,ngayud timestamp DEFAULT now(),lanin numeric(2) DEFAULT 0,sotoa numeric(7) DEFAULT 0,maql numeric(25) DEFAULT 0,idduyet numeric(25) DEFAULT 0,CONSTRAINT pk_d_huybanll PRIMARY KEY (id) USING INDEX TABLESPACE medi_index)WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.d_kiemtra(nhom numeric(2) NOT NULL DEFAULT 0,ngay timestamp NOT NULL,userid numeric(7) DEFAULT 0,ngayud timestamp DEFAULT now(),CONSTRAINT pk_d_kiemtra PRIMARY KEY (nhom, ngay) USING INDEX TABLESPACE medi_index) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.d_ngayduyet(nhom numeric(2) DEFAULT 0,loai numeric(2) DEFAULT 0,makp numeric(6) DEFAULT 0,ngay timestamp,idduyet numeric(25) DEFAULT 0,phieu numeric(3) DEFAULT 0,makho text,sttduyet text,CONSTRAINT fk_d_ngayduyet_d_dmphieu FOREIGN KEY (loai) REFERENCES medibv.d_dmphieu (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_d_ngayduyet_d_duockp FOREIGN KEY (makp)REFERENCES medibv.d_duockp (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_d_ngayduyet_d_loaiphieu FOREIGN KEY (phieu) REFERENCES medibv.d_loaiphieu (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL)WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.d_ngaylanh(id numeric(25) NOT NULL DEFAULT 0,stt numeric(4) NOT NULL DEFAULT 0,ngay timestamp,CONSTRAINT pk_d_ngaylanh PRIMARY KEY (id, stt) USING INDEX TABLESPACE medi_index)WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.d_ngtruct(id numeric(25) NOT NULL DEFAULT 0,stt numeric(3) NOT NULL DEFAULT 0,sttt numeric(25) DEFAULT 0,makho numeric(6) DEFAULT 0,mabd numeric(7) DEFAULT 0,soluong numeric(10,2) DEFAULT 0,giaban numeric(25) DEFAULT 0,CONSTRAINT pk_d_ngtruct PRIMARY KEY (id, stt) USING INDEX TABLESPACE medi_index,CONSTRAINT fk_d_ngtruct_d_dmbd FOREIGN KEY (mabd) REFERENCES medibv.d_dmbd (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_d_ngtruct_d_dmkho FOREIGN KEY (makho) REFERENCES medibv.d_dmkho (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_d_ngtruct_d_ngtrull FOREIGN KEY (id) REFERENCES xxx.d_ngtrull (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_d_ngtruct_d_theodoi FOREIGN KEY (sttt) REFERENCES xxx.d_theodoi (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL)WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.d_ngtrull(id numeric(25) NOT NULL DEFAULT 0,nhom numeric(2) DEFAULT 0,mabn varchar(10),hoten text,namsinh varchar(4),ngay timestamp,mabs varchar(4),makp numeric(6) DEFAULT 0,loai numeric(2) DEFAULT 0,done numeric(1) DEFAULT 0,userid numeric(7) DEFAULT 0,ngayud timestamp DEFAULT now(),lanin numeric(2) DEFAULT 0,sotoa numeric(7) DEFAULT 0,maql numeric(25) DEFAULT 0,idduyet numeric(25) DEFAULT 0,CONSTRAINT pk_d_ngtrull PRIMARY KEY (id) USING INDEX TABLESPACE medi_index) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.d_nhapct(id numeric(25) NOT NULL DEFAULT 0,stt numeric(3) NOT NULL DEFAULT 0,mabd numeric(7) DEFAULT 0,handung varchar(4),losx varchar(20),vat numeric(3) DEFAULT 0,soluong numeric(10,2) DEFAULT 0,dongia numeric(15,4) DEFAULT 0,sotien numeric(15,4) DEFAULT 0,giaban numeric(25) DEFAULT 0,giamua numeric(24,10) DEFAULT 0,sl1 numeric(10,2) DEFAULT 0,sl2 numeric(5) DEFAULT 0,tyle numeric(7,2) DEFAULT 0,cuocvc numeric(15,4) DEFAULT 0,chaythu numeric(15,4) DEFAULT 0,tailieu text,giabancu numeric(25) DEFAULT 0,namsx numeric(4) DEFAULT 0,baohanh numeric(7) DEFAULT 0,nguongoc numeric(2) DEFAULT 0,tinhtrang numeric(2) DEFAULT 0,sothe varchar(20),CONSTRAINT pk_d_nhapct PRIMARY KEY (id, stt) USING INDEX TABLESPACE medi_index,CONSTRAINT fk_d_nhapct_d_dmbd FOREIGN KEY (mabd)REFERENCES medibv.d_dmbd (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_d_nhapct_d_nhapll FOREIGN KEY (id) REFERENCES xxx.d_nhapll (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.d_nhapct2(id numeric(25) NOT NULL DEFAULT 0,stt numeric(3) NOT NULL DEFAULT 0,mabd numeric(7) NOT NULL DEFAULT 0,soluong numeric(10,2) DEFAULT 0,sotien numeric(15,4) DEFAULT 0,CONSTRAINT pk_d_nhapct2 PRIMARY KEY (id, mabd, stt) USING INDEX TABLESPACE medi_index,CONSTRAINT fk_d_nhapct2_d_dmbd FOREIGN KEY (mabd) REFERENCES medibv.d_dmbd (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_d_nhapct2_d_nhapll FOREIGN KEY (id) REFERENCES xxx.d_nhapll (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.d_nhapll(id numeric(25) NOT NULL DEFAULT 0,nhom numeric(2) DEFAULT 0,sophieu varchar(20),ngaysp timestamp,sohd text,ngayhd timestamp,bbkiem varchar(15),ngaykiem timestamp,loai varchar(1),nguoigiao varchar(30),madv numeric(4) DEFAULT 0,makho numeric(6) DEFAULT 0,manguon numeric(2) DEFAULT 0,nhomcc numeric(4) DEFAULT 0,"no" text,co varchar(10),userid numeric(7) DEFAULT 0,ngayud timestamp DEFAULT now(),paid numeric(1) DEFAULT 0,lydo numeric(2) DEFAULT 0,CONSTRAINT pk_d_nhapll PRIMARY KEY (id) USING INDEX TABLESPACE medi_index,CONSTRAINT fk_d_nhapll_d_dmkho FOREIGN KEY (makho) REFERENCES medibv.d_dmkho (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL, CONSTRAINT fk_d_nhapll_d_dmnguon FOREIGN KEY (manguon)  REFERENCES medibv.d_dmnguon (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_d_nhapll_d_dmnx FOREIGN KEY (madv) REFERENCES medibv.d_dmnx (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_d_nhapll_d_dmnx_cc FOREIGN KEY (nhomcc) REFERENCES medibv.d_dmnx (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.d_nhapslct(id numeric(25) NOT NULL DEFAULT 0,stt numeric(3) NOT NULL DEFAULT 0,mabd numeric(7) DEFAULT 0,handung varchar(4),losx varchar(20),soluong numeric(10,2) DEFAULT 0,sl1 numeric(10,2) DEFAULT 0,sl2 numeric(5) DEFAULT 0,CONSTRAINT pk_d_nhapslct PRIMARY KEY (id, stt) USING INDEX TABLESPACE medi_index,CONSTRAINT fk_d_nhapslct_d_dmbd FOREIGN KEY (mabd) REFERENCES medibv.d_dmbd (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_d_nhapslct_d_nhapslll FOREIGN KEY (id) REFERENCES xxx.d_nhapslll (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.d_nhapslll(id numeric(25) NOT NULL DEFAULT 0,nhom numeric(2) DEFAULT 0,sophieu varchar(20),ngaysp timestamp,sohd text,ngayhd timestamp,loai varchar(1),nguoigiao varchar(30),madv numeric(4) DEFAULT 0, makho numeric(6) DEFAULT 0,done numeric(1) DEFAULT 0,userid numeric(7) DEFAULT 0,ngayud timestamp DEFAULT now(),CONSTRAINT pk_d_nhapslll PRIMARY KEY (id) USING INDEX TABLESPACE medi_index,CONSTRAINT fk_d_nhapslll_d_dmkho FOREIGN KEY (makho) REFERENCES medibv.d_dmkho (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_d_nhapslll_d_dmnx FOREIGN KEY (madv) REFERENCES medibv.d_dmnx (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.d_phieuxuat(id numeric(25) NOT NULL DEFAULT 0,soct varchar(10),ngay timestamp,makp numeric(6) DEFAULT 0,nhom numeric(2) DEFAULT 0,loai varchar(10),phieu varchar(20),kho varchar(20),sotien numeric(15,4) DEFAULT 0,"no" varchar(20),co varchar(20),diengiai text,userid numeric(7) DEFAULT 0,ngayud timestamp DEFAULT now(),CONSTRAINT pk_d_phieuxuat PRIMARY KEY (id) USING INDEX TABLESPACE medi_index,CONSTRAINT fk_d_phieuxuat_d_duockp FOREIGN KEY (makp) REFERENCES medibv.d_duockp (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.d_solankiemtra(makho numeric(6) NOT NULL DEFAULT 0,lan numeric(3) DEFAULT 0,userid numeric(7) NOT NULL DEFAULT 0,ngayud timestamp DEFAULT now(),CONSTRAINT pk_d_solankiemtra PRIMARY KEY (makho, userid) USING INDEX TABLESPACE medi_index,CONSTRAINT fk_d_solankiemtra_d_dmkho FOREIGN KEY (makho) REFERENCES medibv.d_dmkho (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.d_solankiemtracstt(makp numeric(6) NOT NULL DEFAULT 0,makho numeric(6) NOT NULL DEFAULT 0,lan numeric(3) DEFAULT 0,userid numeric(7) NOT NULL DEFAULT 0,ngayud timestamp DEFAULT now(),CONSTRAINT pk_d_solankiemtracstt PRIMARY KEY (makho, makp, userid) USING INDEX TABLESPACE medi_index,CONSTRAINT fk_d_solankiemtracstt_d_dmkho FOREIGN KEY (makho) REFERENCES medibv.d_dmkho (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_d_solankiemtracstt_d_duockp FOREIGN KEY (makp) REFERENCES medibv.d_duockp (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.d_sophieu(nhom numeric(2) NOT NULL DEFAULT 0,ngay timestamp NOT NULL,makp numeric(6) NOT NULL DEFAULT 0,loai numeric(2) NOT NULL DEFAULT 0,phieu numeric(3) NOT NULL DEFAULT 0,loaiin numeric(2) NOT NULL DEFAULT 0,makho numeric(6) NOT NULL DEFAULT 0,madoituong varchar(20) NOT NULL,so numeric(10) DEFAULT 0,lanin numeric(3) DEFAULT 0,manguon text NOT NULL,nguoilinh text,CONSTRAINT pk_d_sophieu PRIMARY KEY (loai, loaiin, madoituong, makho, makp, manguon, ngay, nhom, phieu) USING INDEX TABLESPACE medi_index,CONSTRAINT fk_d_sophieu_d_dmkho FOREIGN KEY (makho) REFERENCES medibv.d_dmkho (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_d_sophieu_d_dmphieu FOREIGN KEY (loai) REFERENCES medibv.d_dmphieu (id) MATCH SIMPLE  ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_d_sophieu_d_duockp FOREIGN KEY (makp) REFERENCES medibv.d_duockp (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_d_sophieu_d_loaiphieu FOREIGN KEY (phieu)  REFERENCES medibv.d_loaiphieu (id) MATCH SIMPLE  ON UPDATE NO ACTION ON DELETE SET NULL) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.d_thanhtoan(id numeric(25) NOT NULL DEFAULT 0,ngay timestamp DEFAULT now(),"no" varchar(10),co varchar(10),sotien numeric(15,4) DEFAULT 0,datra numeric(15,4) DEFAULT 0,userid numeric(7) DEFAULT 0,ngayud timestamp DEFAULT now(),CONSTRAINT pk_d_thanhtoan PRIMARY KEY (id) USING INDEX TABLESPACE medi_index,CONSTRAINT fk_d_thanhtoan_d_nhapll FOREIGN KEY (id) REFERENCES xxx.d_nhapll (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.d_theodoi(id numeric(25) NOT NULL DEFAULT 0,mabd numeric(7) DEFAULT 0,manguon numeric(2) DEFAULT 0,nhomcc numeric(4) DEFAULT 0,handung varchar(4),losx varchar(20),sothe varchar(20),namsx numeric(4) DEFAULT 0,namsd numeric(4) DEFAULT 0,baohanh numeric(7) DEFAULT 0,nguongoc numeric(2) DEFAULT 0,tinhtrang numeric(2) DEFAULT 0,giamua numeric(24,10) DEFAULT 0,giaban numeric(15,4) DEFAULT 0,ngayud timestamp DEFAULT now(),CONSTRAINT pk_d_thedoi PRIMARY KEY (id) USING INDEX TABLESPACE medi_index,CONSTRAINT fk_d_theodoi_d_dmbd FOREIGN KEY (mabd) REFERENCES medibv.d_dmbd (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_d_theodoi_d_dmnguon FOREIGN KEY (manguon) REFERENCES medibv.d_dmnguon (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.d_theodoiduyet(nhom numeric(2) NOT NULL DEFAULT 0,ngay timestamp NOT NULL,loai numeric(2) NOT NULL DEFAULT 0,makp numeric(6) NOT NULL DEFAULT 0,CONSTRAINT pk_d_theodoiduyet PRIMARY KEY (loai, makp, ngay, nhom) USING INDEX TABLESPACE medi_index,CONSTRAINT fk_d_theodoiduyet_d_dmphieu FOREIGN KEY (loai) REFERENCES medibv.d_dmphieu (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_d_theodoiduyet_d_duockp FOREIGN KEY (makp) REFERENCES medibv.d_duockp (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.d_theodoigia(mabd numeric(7) NOT NULL DEFAULT 0,ngay timestamp NOT NULL,dongia numeric(24,10) DEFAULT 0,ngayud timestamp DEFAULT now(),CONSTRAINT pk_d_theodoigia PRIMARY KEY (mabd, ngay) USING INDEX TABLESPACE medi_index,CONSTRAINT fk_d_theodoigia_d_dmbd FOREIGN KEY (mabd) REFERENCES medibv.d_dmbd (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.d_theodoitscd(nam numeric(4) NOT NULL DEFAULT 0,sttt numeric(25) NOT NULL DEFAULT 0,tyle numeric(7,2) DEFAULT 0,phanloai numeric(1) DEFAULT 0,CONSTRAINT pk_d_theodoitscd PRIMARY KEY (makho, nam, sttt) USING INDEX TABLESPACE medi_index,CONSTRAINT fk_d_theodoitscd_d_theodoi FOREIGN KEY (sttt) REFERENCES xxx.d_theodoi (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.d_thucbucstt(id numeric(25) NOT NULL DEFAULT 0,sttt numeric(25) NOT NULL DEFAULT 0,makho numeric(6) NOT NULL DEFAULT 0,mabd numeric(7) DEFAULT 0,soluong numeric(10,2) DEFAULT 0,stt numeric(3) NOT NULL DEFAULT 0,CONSTRAINT pk_d_thucbucstt PRIMARY KEY (id, makho, stt, sttt) USING INDEX TABLESPACE medi_index,CONSTRAINT fk_d_thucbucstt_d_dmbd FOREIGN KEY (mabd) REFERENCES medibv.d_dmbd (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_d_thucbucstt_d_dmkho FOREIGN KEY (makho) REFERENCES medibv.d_dmkho (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_d_thucbucstt_d_theodoi FOREIGN KEY (sttt) REFERENCES xxx.d_theodoi (id) MATCH SIMPLE  ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_d_thucbucstt_d_xuatsdll FOREIGN KEY (id) REFERENCES xxx.d_xuatsdll (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.d_thucxuat(id numeric(25) NOT NULL DEFAULT 0,sttt numeric(25) NOT NULL DEFAULT 0,madoituong numeric(2) NOT NULL DEFAULT 0,makho numeric(6) NOT NULL DEFAULT 0,mabd numeric(7) DEFAULT 0,soluong numeric(10,2) DEFAULT 0,stt numeric(4) NOT NULL DEFAULT 0,CONSTRAINT pk_d_thucxuat PRIMARY KEY (id, madoituong, makho, stt, sttt) USING INDEX TABLESPACE medi_index,CONSTRAINT fk_d_thucxuat_d_dmbd FOREIGN KEY (mabd) REFERENCES medibv.d_dmbd (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_d_thucxuat_d_dmkho FOREIGN KEY (makho) REFERENCES medibv.d_dmkho (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_d_thucxuat_d_theodoi FOREIGN KEY (sttt) REFERENCES xxx.d_theodoi (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_d_thucxuat_d_xuatsdll FOREIGN KEY (id) REFERENCES xxx.d_xuatsdll (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.d_thucxuat2(id numeric(25) NOT NULL DEFAULT 0,sttt numeric(25) NOT NULL DEFAULT 0,makho numeric(6) NOT NULL DEFAULT 0,mabd numeric(7) DEFAULT 0,soluong numeric(10,2) DEFAULT 0,giamua numeric(24,10) DEFAULT 0,stt numeric(4) NOT NULL DEFAULT 0,CONSTRAINT pk_d_thucxuat2 PRIMARY KEY (id, makho, stt, sttt) USING INDEX TABLESPACE medi_index,CONSTRAINT fk_d_thucxuat2_d_dmbd FOREIGN KEY (mabd) REFERENCES medibv.d_dmbd (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_d_thucxuat2_d_dmkho FOREIGN KEY (makho) REFERENCES medibv.d_dmkho (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_d_thucxuat2_d_theodoi FOREIGN KEY (sttt) REFERENCES xxx.d_theodoi (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_d_thucxuat2_d_xuatsdll FOREIGN KEY (id) REFERENCES xxx.d_xuatsdll (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.d_thuocbhytct(id numeric(25) NOT NULL DEFAULT 0,stt numeric(3) NOT NULL DEFAULT 0,makho numeric(6) DEFAULT 0,  mabd numeric(7) DEFAULT 0,slyeucau numeric(10,2) DEFAULT 0,slthuc numeric(10,2) DEFAULT 0,cachdung text,manguon numeric(2) DEFAULT 0,solan numeric(2) DEFAULT 1,lan numeric(10,2) DEFAULT 0,CONSTRAINT pk_d_thuocbhytct PRIMARY KEY (id, stt) USING INDEX TABLESPACE medi_index,CONSTRAINT fk_d_thucbhytct_d_dmbd FOREIGN KEY (mabd)  REFERENCES medibv.d_dmbd (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_d_thucbhytct_d_dmkho FOREIGN KEY (makho) REFERENCES medibv.d_dmkho (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_d_thucbhytct_d_dmnguon FOREIGN KEY (manguon) REFERENCES medibv.d_dmnguon (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_d_thuocbhytct_d_thuocbhytll FOREIGN KEY (id) REFERENCES xxx.d_thuocbhytll (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.d_thuocbhytll(id numeric(25) NOT NULL DEFAULT 0,nhom numeric(2) DEFAULT 0,ngay timestamp,mabn varchar(10),mavaovien numeric(25) DEFAULT 0,maql numeric(25) DEFAULT 0,done numeric(1) DEFAULT 0,madoituong numeric(2) DEFAULT 0,ghichu text,songay numeric(2) DEFAULT 0,idduyet numeric(25) DEFAULT 0,makp varchar(3),mabs varchar(4),chandoan text,maicd varchar(9),loaiba numeric(1) DEFAULT 3,userid numeric(7) DEFAULT 0,ngayud timestamp DEFAULT now(),CONSTRAINT pk_d_thuocbhytll PRIMARY KEY (id) USING INDEX TABLESPACE medi_index,CONSTRAINT fk_d_thucbhytll_btdbn FOREIGN KEY (mabn) REFERENCES medibv.btdbn (mabn) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.d_tienthuoc(mabn varchar(10) NOT NULL,mavaovien numeric(25) DEFAULT 0,maql numeric(25) NOT NULL DEFAULT 0,idkhoa numeric(25) NOT NULL DEFAULT 0,ngay timestamp NOT NULL,makp numeric(6) NOT NULL DEFAULT 0,madoituong numeric(2) NOT NULL DEFAULT 0,mabd numeric(7) NOT NULL DEFAULT 0,soluong numeric(10,2) DEFAULT 0,giaban numeric(25) DEFAULT 0,giamua numeric(24,10) NOT NULL DEFAULT 0,done numeric(1) DEFAULT 0,CONSTRAINT pk_d_tienthuoc PRIMARY KEY (giamua, idkhoa, mabd, mabn, madoituong, makp, maql, ngay) USING INDEX TABLESPACE medi_index,CONSTRAINT fk_d_tienthuoc_btdbn FOREIGN KEY (mabn) REFERENCES medibv.btdbn (mabn) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_d_tienthuoc_d_dmbd FOREIGN KEY (mabd) REFERENCES medibv.d_dmbd (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_d_tienthuoc_d_duockp FOREIGN KEY (makp) REFERENCES medibv.d_duockp (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.d_toathuocct(id numeric(25) NOT NULL DEFAULT 0,stt numeric(3) NOT NULL DEFAULT 0,mabd numeric(7) DEFAULT 0,soluong numeric(10,2) DEFAULT 0,cachdung text,done numeric(1) DEFAULT 0,solan numeric(2) DEFAULT 1,lan numeric(10,2) DEFAULT 0,CONSTRAINT pk_d_toathuocct PRIMARY KEY (id, stt) USING INDEX TABLESPACE medi_index,CONSTRAINT fk_d_toathuocct_d_toathuocll FOREIGN KEY (id) REFERENCES xxx.d_toathuocll (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.d_toathuocll(id numeric(25) NOT NULL DEFAULT 0,sophieu numeric(5) DEFAULT 0,mabn varchar(10),maql numeric(25) DEFAULT 0,ngay timestamp,makp varchar(3),chandoan text,maicd varchar(9),mabs varchar(4), ghichu text, userid numeric(7) DEFAULT 0,ngayud timestamp DEFAULT now(),idngtru numeric(25) DEFAULT 0,done numeric(1) DEFAULT 0,songay numeric(2) DEFAULT 1,CONSTRAINT pk_d_toathuocll PRIMARY KEY (id) USING INDEX TABLESPACE medi_index,CONSTRAINT fk_d_toathuocll_btdbn FOREIGN KEY (mabn) REFERENCES medibv.btdbn (mabn) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.d_tonkhoct(makho numeric(6) NOT NULL DEFAULT 0,stt numeric(25) NOT NULL DEFAULT 0,idn numeric(25) DEFAULT 0,sttn numeric(3) DEFAULT 0,mabd numeric(7) DEFAULT 0,tondau numeric(10,2) DEFAULT 0,slnhap numeric(10,2) DEFAULT 0,slxuat numeric(10,2) DEFAULT 0,CONSTRAINT pk_d_tonkhoct PRIMARY KEY (makho, stt) USING INDEX TABLESPACE medi_index,CONSTRAINT fk_d_tonkhoct_d_dmbd FOREIGN KEY (mabd) REFERENCES medibv.d_dmbd (id) MATCH SIMPLE  ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_d_tonkhoct_d_dmkho FOREIGN KEY (makho) REFERENCES medibv.d_dmkho (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_d_tonkhoct_d_theodoi FOREIGN KEY (stt) REFERENCES xxx.d_theodoi (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.d_tonkhokemtheo(makhot numeric(3) NOT NULL DEFAULT 0,sttt numeric(25) NOT NULL DEFAULT 0,makho numeric(6) NOT NULL DEFAULT 0,stt numeric(25) NOT NULL DEFAULT 0,idn numeric(25) DEFAULT 0,sttn numeric(3) DEFAULT 0,mabd numeric(7) DEFAULT 0,tondau numeric(10,2) DEFAULT 0,slnhap numeric(10,2) DEFAULT 0,slxuat numeric(10,2) DEFAULT 0,giamua numeric(24,10) DEFAULT 0,CONSTRAINT pk_d_tonkhokemtheo PRIMARY KEY (makho, makhot, stt, sttt) USING INDEX TABLESPACE medi_index,CONSTRAINT fk_d_tonkhokemtheo_d_dmbd FOREIGN KEY (mabd) REFERENCES medibv.d_dmbd (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_d_tonkhokemtheo_d_dmkho FOREIGN KEY (makhot) REFERENCES medibv.d_dmkho (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_d_tonkhokemtheo_d_theodoi FOREIGN KEY (sttt) REFERENCES xxx.d_theodoi (id) MATCH SIMPLE  ON UPDATE NO ACTION ON DELETE SET NULL) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.d_tonkhoth(makho numeric(6) NOT NULL DEFAULT 0,mabd numeric(7) NOT NULL DEFAULT 0,tondau numeric(10,2) DEFAULT 0,slnhap numeric(10,2) DEFAULT 0,slxuat numeric(10,2) DEFAULT 0,slyeucau numeric(10,2) DEFAULT 0,manguon numeric(2) NOT NULL DEFAULT 0,CONSTRAINT pk_d_tonkhoth PRIMARY KEY (mabd, makho, manguon) USING INDEX TABLESPACE medi_index,CONSTRAINT fk_d_tonkhoth_d_dmbd FOREIGN KEY (mabd) REFERENCES medibv.d_dmbd (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_d_tonkhoth_d_dmkho FOREIGN KEY (makho) REFERENCES medibv.d_dmkho (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_d_tonkhoth_d_dmnguon FOREIGN KEY (manguon) REFERENCES medibv.d_dmnguon (id) MATCH SIMPLE  ON UPDATE NO ACTION ON DELETE SET NULL) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.d_tutrucct(makp numeric(6) NOT NULL DEFAULT 0,makho numeric(6) NOT NULL DEFAULT 0,stt numeric(25) NOT NULL DEFAULT 0,mabd numeric(7) DEFAULT 0,tondau numeric(10,2) DEFAULT 0,slnhap numeric(10,2) DEFAULT 0,slxuat numeric(10,2) DEFAULT 0,CONSTRAINT pk_d_tutrucct PRIMARY KEY (makho, makp, stt) USING INDEX TABLESPACE medi_index,CONSTRAINT fk_d_tutrucct_d_dmbd FOREIGN KEY (mabd) REFERENCES medibv.d_dmbd (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_d_tutrucct_d_dmkho FOREIGN KEY (makho) REFERENCES medibv.d_dmkho (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_d_tutrucct_d_duockp FOREIGN KEY (makp) REFERENCES medibv.d_duockp (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_d_tutrucct_d_theodoi FOREIGN KEY (stt) REFERENCES xxx.d_theodoi (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.d_tutruckemtheo(makhot numeric(3) NOT NULL DEFAULT 0,sttt numeric(25) NOT NULL DEFAULT 0,makp numeric(6) NOT NULL DEFAULT 0,makho numeric(6) NOT NULL DEFAULT 0,stt numeric(25) NOT NULL DEFAULT 0,mabd numeric(7) DEFAULT 0,tondau numeric(10,2) DEFAULT 0,slnhap numeric(10,2) DEFAULT 0,slxuat numeric(10,2) DEFAULT 0,giamua numeric(24,10) DEFAULT 0,CONSTRAINT pk_d_tutruckemtheo PRIMARY KEY (makho, makhot, makp, stt, sttt) USING INDEX TABLESPACE medi_index,CONSTRAINT fk_d_tutruckemtheo_d_dmbd FOREIGN KEY (mabd) REFERENCES medibv.d_dmbd (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_d_tutruckemtheo_d_dmkho FOREIGN KEY (makhot) REFERENCES medibv.d_dmkho (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_d_tutruckemtheo_d_duockp FOREIGN KEY (makp) REFERENCES medibv.d_duockp (id) MATCH SIMPLE  ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_d_tutruckemtheo_d_theodoi FOREIGN KEY (sttt) REFERENCES xxx.d_theodoi (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.d_tutructh(makp numeric(6) NOT NULL DEFAULT 0,makho numeric(6) NOT NULL DEFAULT 0,mabd numeric(7) NOT NULL DEFAULT 0,tondau numeric(10,2) DEFAULT 0,slnhap numeric(10,2) DEFAULT 0,slxuat numeric(10,2) DEFAULT 0,slyeucau numeric(10,2) DEFAULT 0,manguon numeric(2) NOT NULL DEFAULT 0,CONSTRAINT pk_d_tutructh PRIMARY KEY (mabd, makho, makp, manguon) USING INDEX TABLESPACE medi_index,CONSTRAINT fk_d_tutructh_d_dmbd FOREIGN KEY (mabd) REFERENCES medibv.d_dmbd (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_d_tutructh_d_dmkho FOREIGN KEY (makho) REFERENCES medibv.d_dmkho (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_d_tutructh_d_dmnguon FOREIGN KEY (manguon) REFERENCES medibv.d_dmnguon (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_d_tutructh_d_duockp FOREIGN KEY (makp) REFERENCES medibv.d_duockp (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.d_xtutrucct(id numeric(25) NOT NULL DEFAULT 0,stt numeric(3) NOT NULL DEFAULT 0,madoituong numeric(2) DEFAULT 0,makho numeric(6) DEFAULT 0,mabd numeric(7) DEFAULT 0,slyeucau numeric(10,2) DEFAULT 0,slthuc numeric(10,2) DEFAULT 0,cachdung text,manguon numeric(2) DEFAULT 0,idvpkhoa numeric(25) DEFAULT 0,solan numeric(2) DEFAULT 1,lan numeric(10,2) DEFAULT 0,CONSTRAINT pk_d_xtutrucct PRIMARY KEY (id, stt) USING INDEX TABLESPACE medi_index,CONSTRAINT fk_d_xtutrucct_d_dmbd FOREIGN KEY (mabd) REFERENCES medibv.d_dmbd (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_d_xtutrucct_d_dmkho FOREIGN KEY (makho) REFERENCES medibv.d_dmkho (id) MATCH SIMPLE  ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_d_xtutrucct_d_dmnguon FOREIGN KEY (manguon) REFERENCES medibv.d_dmnguon (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_d_xtutrucct_d_doituong FOREIGN KEY (madoituong) REFERENCES medibv.d_doituong (madoituong) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_d_xtutrucct_d_xtutrucll FOREIGN KEY (id) REFERENCES xxx.d_xtutrucll (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.d_xtutrucll(id numeric(25) NOT NULL DEFAULT 0,idduyet numeric(25) DEFAULT 0,mabn varchar(10),mavaovien numeric(25) DEFAULT 0,maql numeric(25) DEFAULT 0,idkhoa numeric(25) DEFAULT 0,ngayvv timestamp,"read" numeric(1) DEFAULT 0,songay numeric(2) DEFAULT 0,CONSTRAINT pk_d_xtutrucll PRIMARY KEY (id) USING INDEX TABLESPACE medi_index,CONSTRAINT fk_d_xtutrucll_btdbn FOREIGN KEY (mabn) REFERENCES medibv.btdbn (mabn) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_d_xtutrucll_d_duyet FOREIGN KEY (idduyet) REFERENCES xxx.d_duyet (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.d_xuatct(id numeric(25) NOT NULL DEFAULT 0,stt numeric(3) NOT NULL DEFAULT 0,sttt numeric(25) DEFAULT 0,mabd numeric(7) DEFAULT 0,soluong numeric(10,2) DEFAULT 0,mabs varchar(4),hotenbn text,CONSTRAINT pk_d_xuatct PRIMARY KEY (id, stt) USING INDEX TABLESPACE medi_index,CONSTRAINT fk_d_xuatct_d_dmbd FOREIGN KEY (mabd) REFERENCES medibv.d_dmbd (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_d_xuatct_d_theodoi FOREIGN KEY (sttt) REFERENCES xxx.d_theodoi (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_d_xuatct_d_xuatll FOREIGN KEY (id) REFERENCES xxx.d_xuatll (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.d_xuatll(id numeric(25) NOT NULL DEFAULT 0,nhom numeric(2) DEFAULT 0,sophieu varchar(20),ngay timestamp,loai varchar(2),khox numeric(3) DEFAULT 0,khon numeric(3) DEFAULT 0,lydo text,userid numeric(7) DEFAULT 0,ngayud timestamp DEFAULT now(),idduyet numeric(25) DEFAULT 0,CONSTRAINT pk_d_xuatll PRIMARY KEY (id) USING INDEX TABLESPACE medi_index) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.d_xuatsdct(id numeric(25) NOT NULL DEFAULT 0,stt numeric(4) NOT NULL DEFAULT 0,sttt numeric(25) DEFAULT 0, madoituong numeric(2) DEFAULT 0,makho numeric(6) DEFAULT 0,mabd numeric(7) DEFAULT 0,soluong numeric(10,2) DEFAULT 0,sttduyet numeric(3) DEFAULT 0,CONSTRAINT pk_d_xuatsdct PRIMARY KEY (id, stt) USING INDEX TABLESPACE medi_index,CONSTRAINT fk_d_xuatsdct_d_dmbd FOREIGN KEY (mabd) REFERENCES medibv.d_dmbd (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_d_xuatsdct_d_dmkho FOREIGN KEY (makho) REFERENCES medibv.d_dmkho (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_d_xuatsdct_d_theodoi FOREIGN KEY (sttt) REFERENCES xxx.d_theodoi (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_d_xuatsdct_d_xuatsdll FOREIGN KEY (id) REFERENCES xxx.d_xuatsdll (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.d_xuatsdll(id numeric(25) NOT NULL DEFAULT 0,nhom numeric(2) DEFAULT 0,mabn varchar(10),mavaovien numeric(25) DEFAULT 0,maql numeric(25) DEFAULT 0,idkhoa numeric(25) DEFAULT 0,ngay timestamp,loai numeric(2) DEFAULT 0,phieu numeric(3) DEFAULT 0,makp numeric(6) DEFAULT 0,userid numeric(7) DEFAULT 0,ngayud timestamp DEFAULT now(),idduyet numeric(25) DEFAULT 0,thuoc numeric(1) DEFAULT 0,makhoa numeric(3) DEFAULT 0,lydo numeric(2) DEFAULT 0,lk numeric(1) DEFAULT 0,ghichu text,CONSTRAINT pk_d_xuatsdll PRIMARY KEY (id) USING INDEX TABLESPACE medi_index,CONSTRAINT fk_d_xuatsdll_d_dmphieu FOREIGN KEY (loai) REFERENCES medibv.d_dmphieu (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_d_xuatsdll_d_duockp FOREIGN KEY (makp) REFERENCES medibv.d_duockp (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_d_xuatsdll_d_loaiphieu FOREIGN KEY (phieu) REFERENCES medibv.d_loaiphieu (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.dasuamadt(maql numeric(25) DEFAULT 0,idkhoa numeric(25) DEFAULT 0) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.dausinhton(maql numeric(25) NOT NULL DEFAULT 0,mach numeric(5) DEFAULT 0,nhietdo numeric(5) DEFAULT 0,huyetap varchar(7),CONSTRAINT pk_dausinhton PRIMARY KEY (maql) USING INDEX TABLESPACE medi_index) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.error(message text,computer varchar(20),tables varchar(20),ngayud timestamp DEFAULT now()) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.eve_tables(tableid numeric(5) NOT NULL DEFAULT 0,ngay timestamp NOT NULL,userid numeric(7) NOT NULL DEFAULT 0,computerid numeric(5) NOT NULL DEFAULT 0,ins numeric(7) DEFAULT 0,upd numeric(7) DEFAULT 0,del numeric(7) DEFAULT 0,CONSTRAINT pk_eve_tables PRIMARY KEY (tableid, ngay, userid, computerid) USING INDEX TABLESPACE medi_index,CONSTRAINT fk_eve_tables_dmcomputer FOREIGN KEY (computerid) REFERENCES medibv.dmcomputer (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_eve_tables_dmtables FOREIGN KEY (tableid) REFERENCES medibv.dmtables (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.eve_upd_del(tableid numeric(5) DEFAULT 0,ngay timestamp DEFAULT now(),userid numeric(7) DEFAULT 0,computerid numeric(5) DEFAULT 0,command varchar(3),noidung text,CONSTRAINT fk_eve_upd_del_dmcomputer FOREIGN KEY (computerid) REFERENCES medibv.dmcomputer (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_eve_upd_del_dmtables FOREIGN KEY (tableid) REFERENCES medibv.dmtables (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.giayravien(maql numeric(25) NOT NULL DEFAULT 0,dieutri text,loidan text,kyravien numeric(2) DEFAULT 0,lanin numeric(3) DEFAULT 0,userid numeric(7) DEFAULT 0,ngayud timestamp DEFAULT now(),CONSTRAINT pk_giayravien PRIMARY KEY (maql) USING INDEX TABLESPACE medi_index) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.khoacdkham(mabn varchar(10),mavaovien numeric(25) DEFAULT 0,maql numeric(25) NOT NULL DEFAULT 0,makp varchar(3),ngay timestamp,userid numeric(7) DEFAULT 0,ngayud timestamp DEFAULT now(),CONSTRAINT pk_khoacdkham PRIMARY KEY (maql) USING INDEX TABLESPACE medi_index,CONSTRAINT fk_khoacdkham_btdbn FOREIGN KEY (mabn) REFERENCES medibv.btdbn (mabn) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.lienhe(maql numeric(25) NOT NULL DEFAULT 0,sonha varchar(15),thon text,cholam text,matt varchar(3),maqu varchar(5),maphuongxa varchar(7),tuoivao varchar(4),soluutru varchar(10),honnhan numeric(1) DEFAULT 0,mabs varchar(4),loai numeric(1) DEFAULT 0,bnmoi numeric(1) DEFAULT 0,CONSTRAINT pk_lienhe PRIMARY KEY (maql) USING INDEX TABLESPACE medi_index) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.lydokham(maql numeric(25) NOT NULL DEFAULT 0,lydo text,CONSTRAINT pk_lydokham PRIMARY KEY (maql) USING INDEX TABLESPACE medi_index) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.ng_chia(id numeric(25) NOT NULL DEFAULT 0,manv numeric(4) NOT NULL,sotien numeric(25),CONSTRAINT pk_ng_chia PRIMARY KEY (id, manv) USING INDEX TABLESPACE medi_index) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.ng_dmnv(ngay timestamp NOT NULL,id numeric(4) NOT NULL DEFAULT 0,idloai numeric(2),stt numeric(4),ma varchar(10),ten varchar(100),userid numeric(7) DEFAULT 0,ngayud timestamp DEFAULT now(),CONSTRAINT pk_ng_dmnv PRIMARY KEY (ngay, id) USING INDEX TABLESPACE medi_index) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.ng_hoantra(id numeric(25) NOT NULL DEFAULT 0,quyenso numeric(7) DEFAULT 0,sobienlai numeric(10) DEFAULT 0,ngay timestamp,mabn varchar(10),mavaovien numeric(25) DEFAULT 0,maql numeric(25) DEFAULT 0,hoten text,makp varchar(3),sotien numeric(15,4) DEFAULT 0,ghichu text,userid numeric(7) DEFAULT 0,ngayud timestamp DEFAULT now(),loai numeric(1) DEFAULT 0,loaibn numeric(2) DEFAULT 0,CONSTRAINT pk_ng_hoantra PRIMARY KEY (id) USING INDEX TABLESPACE medi_index) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.ng_hoantract(id numeric(25) NOT NULL DEFAULT 0,loaivp numeric(7) NOT NULL DEFAULT 0,sotien numeric(15,4) DEFAULT 0,CONSTRAINT pk_ng_hoantract PRIMARY KEY (id, loaivp) USING INDEX TABLESPACE medi_index,CONSTRAINT fk_ng_hoantract_ng_hoantra FOREIGN KEY (id) REFERENCES xxx.ng_hoantra (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.ng_huybienlai(id numeric(25) NOT NULL DEFAULT 0,tables varchar(20) NOT NULL,loai numeric(2) DEFAULT 0,mabn varchar(10),hoten text,makp varchar(3),ngay timestamp,quyenso numeric(7) DEFAULT 0,sobienlai numeric(10) DEFAULT 0,lydo text,userid numeric(7) DEFAULT 0,ngayud timestamp DEFAULT now(),CONSTRAINT pk_ng_huybienlai PRIMARY KEY (id, tables) USING INDEX TABLESPACE medi_index) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.ng_tiencong(ngay timestamp NOT NULL,idct numeric(25) NOT NULL DEFAULT 0,mavp numeric(7) NOT NULL DEFAULT 0,idnv numeric(4) NOT NULL DEFAULT 0,soluong numeric(3) DEFAULT 0,phan numeric(5,2) DEFAULT 0,sotien numeric(25) DEFAULT 0,CONSTRAINT pk_ng_tiencong PRIMARY KEY (ngay, idct, mavp, idnv) USING INDEX TABLESPACE medi_index) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.ng_vienphict(id numeric(25) NOT NULL DEFAULT 0,idll numeric(25),mavp numeric(7),ten text,soluong numeric(7) DEFAULT 0,dongia numeric(25),sotiennop numeric(25),CONSTRAINT pk_ng_vienphict PRIMARY KEY (id) USING INDEX TABLESPACE medi_index,CONSTRAINT fk_ng_vienphict_ng_vienphill FOREIGN KEY (id) REFERENCES xxx.ng_vienphill (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.ng_vienphill(id numeric(25) NOT NULL DEFAULT 0,loai numeric(2),quyenso numeric(7),sobienlai numeric(10),ngay timestamp,mabn varchar(10),hoten text,masothue varchar(20),lanin numeric(2) DEFAULT 0,userid numeric(7) DEFAULT 0,ngayud timestamp DEFAULT now(),CONSTRAINT pk_ng_vienphill PRIMARY KEY (id) USING INDEX TABLESPACE medi_index) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.ngaykb(  maql numeric(25) NOT NULL DEFAULT 0,mabn varchar(10),ngay timestamp,CONSTRAINT pk_ngaykb PRIMARY KEY (maql) USING INDEX TABLESPACE medi_index) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.noigioithieu(maql numeric(25) NOT NULL DEFAULT 0,mabv varchar(8),chandoan text,maicd varchar(9),CONSTRAINT pk_noigioithieu PRIMARY KEY (maql) USING INDEX TABLESPACE medi_index) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.pttt(id numeric(25) NOT NULL DEFAULT 0,mabn varchar(10), mavaovien numeric(25) DEFAULT 0,maql numeric(25) DEFAULT 0,sophieu numeric(5) DEFAULT 0,makp varchar(3),ngay timestamp,chandoant text,maicdt varchar(9),chandoans text,maicds varchar(9),mapt varchar(6),tenpt text,phuongphap varchar(2),tinhhinh numeric(1) DEFAULT 0,ptv varchar(4),taibien numeric(1) DEFAULT 0,tuvong numeric(1) DEFAULT 0,userid numeric(7) DEFAULT 0,ngayud timestamp DEFAULT now(),mamau varchar(10),ngaykt timestamp,mach numeric(5) DEFAULT 0,nhietdo numeric(5) DEFAULT 0,huyetap varchar(7),phu1 varchar(4),phu2 varchar(4),bsgayme varchar(4),ktvgayme varchar(4),hoisuc varchar(4),dungcu varchar(4),noidung text,loaibn numeric(1) DEFAULT 0,mapmo varchar(2),somat numeric(1) DEFAULT 0,molaimien numeric(1) DEFAULT 0,idvpkhoa numeric(25) DEFAULT 0,idduoc numeric(25) DEFAULT 0,idkhoa numeric(25) DEFAULT 0,mavp numeric(7) DEFAULT 0,madoituong numeric(2) DEFAULT 0,loai numeric(1) DEFAULT 0,CONSTRAINT pk_pttt PRIMARY KEY (id) USING INDEX TABLESPACE medi_index,CONSTRAINT fk_pttt_btdbn FOREIGN KEY (mabn) REFERENCES medibv.btdbn (mabn) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_pttt_btdkp_bv FOREIGN KEY (makp) REFERENCES medibv.btdkp_bv (makp) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.pttt_lichmo(  id numeric(25) NOT NULL DEFAULT 0,mabn varchar(10),maql numeric(25) DEFAULT 0,idkhoa numeric(25) DEFAULT 0,makp varchar(3),ngay timestamp,stt numeric(3) DEFAULT 0,maicd varchar(9),mamau varchar(10),phuongphap varchar(2),ptv varchar(4),gayme varchar(4),phu varchar(4),userid numeric(7) DEFAULT 0,ngayud timestamp DEFAULT now(),CONSTRAINT pk_pttt_lichmo PRIMARY KEY (id) USING INDEX TABLESPACE medi_index,CONSTRAINT fk_pttt_lichmo_btdbn FOREIGN KEY (mabn) REFERENCES medibv.btdbn (mabn) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_pttt_lichmo_btdkp_bv FOREIGN KEY (makp) REFERENCES medibv.btdkp_bv (makp) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.quanhe(maql numeric(25) NOT NULL DEFAULT 0,quanhe varchar(30),hoten text,diachi text,dienthoai varchar(20),CONSTRAINT pk_quanhe PRIMARY KEY (maql) USING INDEX TABLESPACE medi_index) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.sukien(mabn varchar(10),matiepdon numeric(25) NOT NULL DEFAULT 0,noitiepdon numeric(2) NOT NULL DEFAULT 0,macap numeric(25) NOT NULL DEFAULT 0,CONSTRAINT pk_sukien PRIMARY KEY (macap, matiepdon, noitiepdon) USING INDEX TABLESPACE medi_index) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.tainantt(mabn varchar(10),maql numeric(25) NOT NULL DEFAULT 0,ngay timestamp,diadiem numeric(1) DEFAULT 0,bophan numeric(1) DEFAULT 0,nguyennhan numeric(1) DEFAULT 0,ngodoc numeric(1) DEFAULT 0,dienbien numeric(1) DEFAULT 0,xutri numeric(1) DEFAULT 0,thon text,matt varchar(3),maqu varchar(5),maphuongxa varchar(7),CONSTRAINT pk_tainantt PRIMARY KEY (maql) USING INDEX TABLESPACE medi_index,CONSTRAINT fk_tainantt_btdbn FOREIGN KEY (mabn) REFERENCES medibv.btdbn (mabn) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_tainantt_btdpxa FOREIGN KEY (maphuongxa) REFERENCES medibv.btdpxa (maphuongxa) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_tainantt_btdquan FOREIGN KEY (maqu) REFERENCES medibv.btdquan (maqu) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_tainantt_btdtt FOREIGN KEY (matt) REFERENCES medibv.btdtt (matt) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.tiepdon(mabn varchar(10),maql numeric(25) NOT NULL DEFAULT 0,makp varchar(3),ngay timestamp,madoituong numeric(2) DEFAULT 0,sovaovien varchar(10),tuoivao varchar(4),done varchar(1),bnmoi numeric(1) DEFAULT 0,noitiepdon numeric(2) DEFAULT 0,loai numeric(1) DEFAULT 0,userid numeric(7) DEFAULT 0,ngayud timestamp DEFAULT now(),CONSTRAINT pk_tiepdon PRIMARY KEY (maql) USING INDEX TABLESPACE medi_index,CONSTRAINT fk_tiepdon_btdbn FOREIGN KEY (mabn) REFERENCES medibv.btdbn (mabn) MATCH SIMPLE  ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_tiepdon_btdkp_bv FOREIGN KEY (makp) REFERENCES medibv.btdkp_bv (makp) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_tiepdon_doituong FOREIGN KEY (madoituong) REFERENCES medibv.doituong (madoituong) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.ttbong(maql numeric(25) NOT NULL DEFAULT 0,ngay timestamp,CONSTRAINT pk_ttbong PRIMARY KEY (maql) USING INDEX TABLESPACE medi_index) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.ttkhamthai(mabn varchar(10),maql numeric(25) NOT NULL DEFAULT 0,para varchar(8),kinhcc timestamp,ngaysanh timestamp,dacdiem text,CONSTRAINT pk_ttkhamthai PRIMARY KEY (maql) USING INDEX TABLESPACE medi_index,CONSTRAINT fk_ttkhamthai_btdbn FOREIGN KEY (mabn) REFERENCES medibv.btdbn (mabn) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.ttmat(maql numeric(25) NOT NULL DEFAULT 0,mp varchar(10),mt varchar(10),nhanapp varchar(10),nhanapt varchar(10),CONSTRAINT pk_ttmat PRIMARY KEY (maql) USING INDEX TABLESPACE medi_index) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.tttamthan(maql numeric(25) NOT NULL DEFAULT 0,vanhoa varchar(30),CONSTRAINT pk_tttamthan PRIMARY KEY (maql) USING INDEX TABLESPACE medi_index) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.tttiepdon(maql numeric(25) NOT NULL,manv varchar(4),bacsy text,benhvien text,kythuat text,dienthoai text,CONSTRAINT pk_tttiepdon PRIMARY KEY (maql) USING INDEX TABLESPACE medi_index) WITHOUT OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.v_bhyt(id numeric(25) NOT NULL DEFAULT 0,sothe varchar(20),maphu numeric(1) DEFAULT 0,mabv varchar(8),noigioithieu varchar(8),CONSTRAINT pk_v_bhyt PRIMARY KEY (id) USING INDEX TABLESPACE medi_index) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.v_chidinh(id numeric(25) NOT NULL DEFAULT 0,mabn varchar(10),mavaovien numeric(25) DEFAULT 0,maql numeric(25) DEFAULT 0,idkhoa numeric(25) DEFAULT 0,ngay timestamp,loai numeric(1) DEFAULT 0,makp varchar(3),madoituong numeric(2) DEFAULT 0,mavp numeric(7) DEFAULT 0,soluong numeric(7) DEFAULT 0,dongia numeric(25) DEFAULT 0,paid numeric(1) DEFAULT 0,done numeric(1) DEFAULT 0,vattu numeric(10) DEFAULT 0,tinhtrang numeric(1) DEFAULT 0,thuchien numeric(1) DEFAULT 0,computer varchar(20),userid numeric(7) DEFAULT 0,ngayud timestamp DEFAULT now(),CONSTRAINT pk_v_chidinh PRIMARY KEY (id) USING INDEX TABLESPACE medi_index,CONSTRAINT fk_v_chidinh_btdbn FOREIGN KEY (mabn) REFERENCES medibv.btdbn (mabn) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_v_chidinh_btdkp_bv FOREIGN KEY (makp) REFERENCES medibv.btdkp_bv (makp) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_v_chidinh_v_giavp FOREIGN KEY (mavp) REFERENCES medibv.v_giavp (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.v_congno(mabn varchar(10),mavaovien numeric(25) DEFAULT 0,maql numeric(25) NOT NULL DEFAULT 0,idkhoa numeric(25) NOT NULL DEFAULT 0,mavp numeric(7) NOT NULL DEFAULT 0,sotien numeric(15,4) DEFAULT 0,dathu numeric(15,4) DEFAULT 0,CONSTRAINT pk_v_congno PRIMARY KEY (idkhoa, maql, mavp) USING INDEX TABLESPACE medi_index,CONSTRAINT fk_v_congno_btdbn FOREIGN KEY (mabn) REFERENCES medibv.btdbn (mabn) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.v_error(message text,computer varchar(20),tables varchar(20),ngayud timestamp DEFAULT now()) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.v_giuong(id numeric(25) NOT NULL DEFAULT 0,mavp numeric(7) NOT NULL DEFAULT 0,ngay timestamp NOT NULL,dongia numeric(10) DEFAULT 0,CONSTRAINT pk_v_giuong PRIMARY KEY (id, mavp, ngay) USING INDEX TABLESPACE medi_index) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.v_hoantra(id numeric(25) NOT NULL DEFAULT 0,quyenso numeric(7) DEFAULT 0,sobienlai numeric(10) DEFAULT 0,ngay timestamp,mabn varchar(10),mavaovien numeric(25) DEFAULT 0,maql numeric(25) DEFAULT 0,hoten text,makp varchar(3),sotien numeric(15,4) DEFAULT 0,ghichu text,userid numeric(7) DEFAULT 0,ngayud timestamp DEFAULT now(),loai numeric(1) DEFAULT 0,loaibn numeric(2) DEFAULT 0,CONSTRAINT pk_v_hoantra PRIMARY KEY (id) USING INDEX TABLESPACE medi_index) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.v_hoantract(id numeric(25) NOT NULL DEFAULT 0,loaivp numeric(7) NOT NULL DEFAULT 0,sotien numeric(15,4) DEFAULT 0,CONSTRAINT pk_v_hoantract PRIMARY KEY (id, loaivp) USING INDEX TABLESPACE medi_index,CONSTRAINT fk_v_hoantract_v_hoantra FOREIGN KEY (id) REFERENCES xxx.v_hoantra (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.v_huybienlai(id numeric(25) NOT NULL DEFAULT 0,tables varchar(20) NOT NULL,loai numeric(2) DEFAULT 0,mabn varchar(10),hoten text,makp varchar(3),ngay timestamp,quyenso numeric(7) DEFAULT 0,sobienlai numeric(10) DEFAULT 0,lydo text,userid numeric(7) DEFAULT 0,ngayud timestamp DEFAULT now(),CONSTRAINT pk_v_huybienlai PRIMARY KEY (id, tables) USING INDEX TABLESPACE medi_index) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.v_mienngtru(id numeric(25) NOT NULL DEFAULT 0,sotien numeric(15,4) DEFAULT 0,ghichu text,maduyet numeric(4) DEFAULT 0,lydo numeric(2) DEFAULT 0,CONSTRAINT pk_v_mienngtru PRIMARY KEY (id) USING INDEX TABLESPACE medi_index) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.v_miennoitru(id numeric(25) NOT NULL DEFAULT 0,lydo numeric(2) DEFAULT 0,ghichu text,maduyet numeric(4) DEFAULT 0,CONSTRAINT pk_v_miennoitru PRIMARY KEY (id) USING INDEX TABLESPACE medi_index) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.v_nhom(id numeric(25) NOT NULL DEFAULT 0,ma numeric(3) NOT NULL DEFAULT 0,sotien numeric(15,4) DEFAULT 0,CONSTRAINT pk_v_nhom PRIMARY KEY (id, ma) USING INDEX TABLESPACE medi_index) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.v_phieuchict(id numeric(25) NOT NULL DEFAULT 0,stt numeric(3) NOT NULL DEFAULT 0,mavp numeric(7) DEFAULT 0,sotien numeric(15,4) DEFAULT 0,CONSTRAINT pk_v_phieuchict PRIMARY KEY (id, stt) USING INDEX TABLESPACE medi_index,CONSTRAINT fk_v_phieuchict_v_phieuchill FOREIGN KEY (id) REFERENCES xxx.v_phieuchill (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.v_phieuchill(id numeric(25) NOT NULL DEFAULT 0,quyenso numeric(7) DEFAULT 0,sobienlai numeric(10) DEFAULT 0,ngay timestamp,mabn varchar(10),maql numeric(25) DEFAULT 0,idkhoa numeric(25) DEFAULT 0,makp varchar(3),hoten text,loai numeric(2) DEFAULT 0,loaibn numeric(2) DEFAULT 0,userid numeric(7) DEFAULT 0,ngayud timestamp DEFAULT now(),CONSTRAINT pk_v_phieuchill PRIMARY KEY (id) USING INDEX TABLESPACE medi_index) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.v_tamung(id numeric(25) NOT NULL DEFAULT 0,mabn varchar(10),mavaovien numeric(25) DEFAULT 0,maql numeric(25) DEFAULT 0,idkhoa numeric(25) DEFAULT 0,quyenso numeric(7) DEFAULT 0,sobienlai numeric(10) DEFAULT 0,ngay timestamp,loai numeric(1) DEFAULT 0,makp varchar(3),madoituong numeric(2) DEFAULT 0,sotien numeric(15,4) DEFAULT 0,userid numeric(7) DEFAULT 0,ngayud timestamp DEFAULT now(),done numeric(1) DEFAULT 0,lanin numeric(2) DEFAULT 0,loaibn numeric(2) DEFAULT 0,idttrv numeric(25) DEFAULT 0,CONSTRAINT pk_v_tamung PRIMARY KEY (id) USING INDEX TABLESPACE medi_index,CONSTRAINT fk_v_tamung_btdbn FOREIGN KEY (mabn) REFERENCES medibv.btdbn (mabn) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_v_tamung_btdkp_bv FOREIGN KEY (makp) REFERENCES medibv.btdkp_bv (makp) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.v_tamungct(id numeric(25) NOT NULL DEFAULT 0,loaivp numeric(3) NOT NULL DEFAULT 0,sotien numeric(15,4) DEFAULT 0,CONSTRAINT pk_v_tamungct PRIMARY KEY (id, loaivp) USING INDEX TABLESPACE medi_index,CONSTRAINT fk_v_tamungct_v_tamung FOREIGN KEY (id) REFERENCES xxx.v_tamung (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.v_thngayct(id numeric(25) NOT NULL DEFAULT 0,ngay timestamp NOT NULL,mavp numeric(7) NOT NULL DEFAULT 0,soluong numeric(10,2) DEFAULT 0,dongia numeric(24,10) NOT NULL DEFAULT 0,sotien numeric(15,4) DEFAULT 0,CONSTRAINT pk_v_thngayct PRIMARY KEY (dongia, id, mavp, ngay) USING INDEX TABLESPACE medi_index,CONSTRAINT fk_v_thngayct_v_thngayll FOREIGN KEY (id) REFERENCES xxx.v_thngayll (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.v_thngayll(id numeric(25) NOT NULL DEFAULT 0,madoituong numeric(2) DEFAULT 0,mabn varchar(10),mavaovien numeric(25) DEFAULT 0,maql numeric(25) DEFAULT 0,ngayvao timestamp,tu timestamp,den timestamp,giuong varchar(10),makp varchar(3),conlai numeric(15,4) DEFAULT 0,sotien numeric(15,4) DEFAULT 0,datra numeric(15,4) DEFAULT 0,done numeric(1) DEFAULT 0,CONSTRAINT pk_v_thngayll PRIMARY KEY (id) USING INDEX TABLESPACE medi_index,CONSTRAINT fk_v_thngayll_btdbn FOREIGN KEY (mabn) REFERENCES medibv.btdbn (mabn) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_v_thngayll_btdkp_bv FOREIGN KEY (makp) REFERENCES medibv.btdkp_bv (makp) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.v_thvpbhyt(id numeric(25) NOT NULL DEFAULT 0,sothe varchar(20),maphu numeric(1) DEFAULT 0,noigioithieu varchar(8),noicap varchar(8),CONSTRAINT pk_v_thvpbhyt PRIMARY KEY (id) USING INDEX TABLESPACE medi_index,CONSTRAINT fk_v_thvpbhyt_v_thvpll FOREIGN KEY (id) REFERENCES xxx.v_thvpll (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.v_thvpct(id numeric(25) NOT NULL DEFAULT 0,ngay timestamp NOT NULL,makp varchar(3) NOT NULL,madoituong numeric(2) NOT NULL DEFAULT 0,mavp numeric(7) NOT NULL DEFAULT 0,soluong numeric(10,2) DEFAULT 0,dongia numeric(24,10) NOT NULL DEFAULT 0,sotien numeric(15,4) DEFAULT 0,vattu numeric(10) DEFAULT 0,CONSTRAINT pk_v_thvpct PRIMARY KEY (dongia, id, madoituong, makp, mavp, ngay) USING INDEX TABLESPACE medi_index,CONSTRAINT fk_v_thvpct_v_thvpll FOREIGN KEY (id) REFERENCES xxx.v_thvpll (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.v_thvpll(id numeric(25) NOT NULL DEFAULT 0,mabn varchar(10),mavaovien numeric(25) DEFAULT 0,maql numeric(25) DEFAULT 0,idkhoa numeric(25) DEFAULT 0,ngayvao timestamp,ngayra timestamp,giuong varchar(10),makp varchar(3),chandoan text,maicd varchar(9),sotien numeric(15,4) DEFAULT 0,tamung numeric(10) DEFAULT 0,bhyt numeric(15,4) DEFAULT 0,mien numeric(15,4) DEFAULT 0,done numeric(1) DEFAULT 0,CONSTRAINT pk_v_thvpll PRIMARY KEY (id) USING INDEX TABLESPACE medi_index,CONSTRAINT fk_v_thvpll_btdbn FOREIGN KEY (mabn) REFERENCES medibv.btdbn (mabn) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.v_trongoi(id numeric(25) NOT NULL DEFAULT 0,sotien numeric(10) DEFAULT 0,tamung numeric(10) DEFAULT 0,hoantra numeric(10) DEFAULT 0,pm numeric(1) DEFAULT 0,yc numeric(1) DEFAULT 0,ghichu text,CONSTRAINT pk_v_trongoi PRIMARY KEY (id) USING INDEX TABLESPACE medi_index) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.v_ttrvbhyt(id numeric(25) NOT NULL DEFAULT 0,sothe varchar(20),maphu numeric(1) DEFAULT 0,tungay timestamp,ngay timestamp,mabv varchar(8),noigioithieu varchar(8),CONSTRAINT pk_v_ttrvbhyt PRIMARY KEY (id) USING INDEX TABLESPACE medi_index,CONSTRAINT fk_v_ttrvbhyt_v_ttrvll FOREIGN KEY (id) REFERENCES xxx.v_ttrvll (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.v_ttrvct(id numeric(25) NOT NULL DEFAULT 0,stt numeric(5) NOT NULL DEFAULT 0,ngay timestamp,makp varchar(3),madoituong numeric(2) DEFAULT 0,mavp numeric(7) DEFAULT 0,soluong numeric(10,2) DEFAULT 0,dongia numeric(24,10) DEFAULT 0,vat numeric(3) DEFAULT 0,vattu numeric(10) DEFAULT 0,sotien numeric(15,4) DEFAULT 0,CONSTRAINT pk_v_ttrvct PRIMARY KEY (id, stt) USING INDEX TABLESPACE medi_index,CONSTRAINT fk_v_ttrvct_v_ttrvll FOREIGN KEY (id) REFERENCES xxx.v_ttrvll (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.v_ttrvds(id numeric(25) NOT NULL DEFAULT 0,mabn varchar(10),mavaovien numeric(25) DEFAULT 0,maql numeric(25) DEFAULT 0,idkhoa numeric(25) DEFAULT 0,giuong varchar(10),ngayvao timestamp,ngayra timestamp,chandoan text,maicd varchar(9),CONSTRAINT pk_v_ttrvds PRIMARY KEY (id) USING INDEX TABLESPACE medi_index,CONSTRAINT fk_v_ttrvds_btdbn FOREIGN KEY (mabn) REFERENCES medibv.btdbn (mabn) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.v_ttrvll(id numeric(25) NOT NULL DEFAULT 0,loaibn numeric(2) DEFAULT 0,loai numeric(2) DEFAULT 0,quyenso numeric(7) DEFAULT 0,sobienlai numeric(10) DEFAULT 0,ngay timestamp,makp varchar(3),sotien numeric(15,4) DEFAULT 0,tamung numeric(10) DEFAULT 0,mien numeric(15,4) DEFAULT 0,bhyt numeric(15,4) DEFAULT 0,userid numeric(7) DEFAULT 0,ngayud timestamp DEFAULT now(),nopthem numeric(15,4) DEFAULT 0,thieu numeric(15,4) DEFAULT 0,vattu numeric(10) DEFAULT 0,lanin numeric(2) DEFAULT 0,idtonghop numeric(25) DEFAULT 0,chenhlech numeric(15,4) DEFAULT 0,CONSTRAINT pk_v_ttrvll PRIMARY KEY (id) USING INDEX TABLESPACE medi_index,CONSTRAINT fk_v_ttrvll_v_ttrvds FOREIGN KEY (id) REFERENCES xxx.v_ttrvds (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.v_ttrvnhom(id numeric(25) NOT NULL DEFAULT 0,ma numeric(3) NOT NULL DEFAULT 0,sotien numeric(15,4) DEFAULT 0,CONSTRAINT pk_v_ttrvnhom PRIMARY KEY (id, ma) USING INDEX TABLESPACE medi_index,CONSTRAINT fk_v_ttrvnhom_v_ttrvll FOREIGN KEY (id) REFERENCES xxx.v_ttrvll (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.v_ttrvpttt(id numeric(25) NOT NULL DEFAULT 0,ngay timestamp,songay_tpt numeric(3) DEFAULT 0,songay_spt numeric(3) DEFAULT 0,mavp numeric(7) DEFAULT 0,so numeric(1) DEFAULT 0,loaipt numeric(1) DEFAULT 0,tenpt text,CONSTRAINT pk_v_ttrvpttt PRIMARY KEY (id) USING INDEX TABLESPACE medi_index,CONSTRAINT fk_v_ttrvpttt_v_ttrvll FOREIGN KEY (id) REFERENCES xxx.v_ttrvll (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.v_ttrvptttct(id numeric(25) NOT NULL DEFAULT 0,stt numeric(1) NOT NULL DEFAULT 0,songay numeric(3) DEFAULT 0,dongia numeric(10) DEFAULT 0,loaipt numeric(2) DEFAULT 0,CONSTRAINT pk_v_ttrvptttct PRIMARY KEY (id, stt) USING INDEX TABLESPACE medi_index,CONSTRAINT fk_v_ttrvptttct_v_ttrvll FOREIGN KEY (id) REFERENCES xxx.v_ttrvll (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.v_vienphict(id numeric(25) NOT NULL DEFAULT 0,stt numeric(3) NOT NULL DEFAULT 0,madoituong numeric(2) DEFAULT 0,mavp numeric(7) DEFAULT 0,ten text,soluong numeric(10,2) DEFAULT 0,dongia numeric(15,4) DEFAULT 0,mien numeric(15,4) DEFAULT 0,thieu numeric(15,4) DEFAULT 0,vattu numeric(10) DEFAULT 0,mabs varchar(4),makp varchar(3),tra numeric(15,4) DEFAULT 0,ngaytra timestamp,lanin numeric(2) DEFAULT 0,done numeric(1) DEFAULT 0,CONSTRAINT pk_v_vienphict PRIMARY KEY (id, stt) USING INDEX TABLESPACE medi_index,CONSTRAINT fk_v_vienphict_v_vienphill FOREIGN KEY (id) REFERENCES xxx.v_vienphill (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.v_vienphill(id numeric(25) NOT NULL DEFAULT 0,quyenso numeric(7) DEFAULT 0,sobienlai numeric(10) DEFAULT 0,ngay timestamp,mabn varchar(10),mavaovien numeric(25) DEFAULT 0,maql numeric(25) DEFAULT 0,idkhoa numeric(25) DEFAULT 0,makp varchar(3),hoten text,phai numeric(1) DEFAULT 0,namsinh varchar(4),diachi text,loai numeric(2) DEFAULT 0,loaibn numeric(2) DEFAULT 0,lanin numeric(2) DEFAULT 0,userid numeric(7) DEFAULT 0,ngayud timestamp DEFAULT now(),masothue varchar(20),CONSTRAINT pk_v_vienphill PRIMARY KEY (id) USING INDEX TABLESPACE medi_index) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.v_vpkhoa(id numeric(25) NOT NULL DEFAULT 0,mabn varchar(10),mavaovien numeric(25) DEFAULT 0,maql numeric(25) DEFAULT 0,idkhoa numeric(25) DEFAULT 0,ngay timestamp,makp varchar(3),madoituong numeric(2) DEFAULT 0,mavp numeric(7) DEFAULT 0,soluong numeric(10,2) DEFAULT 0,dongia numeric(15,4) DEFAULT 0,done numeric(1) DEFAULT 0,userid numeric(7) DEFAULT 0,ngayud timestamp DEFAULT now(),vattu numeric(10) DEFAULT 0,readonly numeric(1) DEFAULT 0,buoi numeric(1) DEFAULT 0,CONSTRAINT pk_v_vpkhoa PRIMARY KEY (id) USING INDEX TABLESPACE medi_index,CONSTRAINT fk_v_vpkhoa_btdbn FOREIGN KEY (mabn) REFERENCES medibv.btdbn (mabn) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_v_vpkhoa_btdkp_bv FOREIGN KEY (makp) REFERENCES medibv.btdkp_bv (makp) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_v_vpkhoa_v_giavp FOREIGN KEY (mavp) REFERENCES medibv.v_giavp (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.xutrikbct(maql numeric(25) NOT NULL DEFAULT 0,xutri text,makp varchar(3),CONSTRAINT pk_xutrikbct PRIMARY KEY (maql) USING INDEX TABLESPACE medi_index) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>create table xxx.ct_btdbn(iddonvi numeric(10),stt numeric(3) default 0,mabn varchar(10),hoten text,namsinh varchar(4),phai numeric(1) default 0,hotenkdau text,done numeric(1) default 0,userid numeric(7),ngayud timestamp default now(), CONSTRAINT pk_ct_btdbn PRIMARY KEY (mabn) USING INDEX TABLESPACE medi_index)WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.ct_ketqua(id numeric(25) NOT NULL DEFAULT 0,iddonvi numeric(10) DEFAULT 0,mabn varchar(10),ngay timestamp,mabs varchar(4),loai numeric(2) DEFAULT 0, ketluan text,  userid numeric(7) DEFAULT 0,  ngayud timestamp DEFAULT now(),  CONSTRAINT pk_ct_ketqua PRIMARY KEY (id) USING INDEX TABLESPACE medi_index,  CONSTRAINT fk_ct_ketqua_ct_btdbn FOREIGN KEY (mabn)      REFERENCES xxx.ct_btdbn (mabn) MATCH SIMPLE      ON UPDATE NO ACTION ON DELETE SET NULL,  CONSTRAINT fk_ct_ketqua_ct_donvi FOREIGN KEY (iddonvi)      REFERENCES medibv.ct_donvi (id) MATCH SIMPLE      ON UPDATE NO ACTION ON DELETE SET NULL,  CONSTRAINT fk_ct_ketqua_ct_loai FOREIGN KEY (loai)      REFERENCES medibv.ct_loai (id) MATCH SIMPLE      ON UPDATE NO ACTION ON DELETE SET NULL) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.ct_chitiet(id numeric(25) NOT NULL DEFAULT 0,stt numeric(3) NOT NULL DEFAULT 0,mavp numeric(7) DEFAULT 0,ten text,dongia numeric(10) DEFAULT 0,  ngoaihd numeric(1) DEFAULT 0,  lamthem text,  ketqua text,  ghichu text,  CONSTRAINT pk_ct_chitiet PRIMARY KEY (id, stt) USING INDEX TABLESPACE medi_index,  CONSTRAINT fk_ct_chitiet_ct_ketqua FOREIGN KEY (id)      REFERENCES xxx.ct_ketqua (id) MATCH SIMPLE      ON UPDATE NO ACTION ON DELETE SET NULL) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.d_nhapbbll(id numeric(25) NOT NULL DEFAULT 0,nhom numeric(2) DEFAULT 0,sophieu varchar(20),ngaysp timestamp,sohd text,ngayhd timestamp,bbkiem varchar(15),ngaykiem timestamp,loai varchar(1),nguoigiao varchar(30),madv numeric(4) DEFAULT 0,makho numeric(6) DEFAULT 0,manguon numeric(2) DEFAULT 0,nhomcc numeric(4) DEFAULT 0,"no" text,co varchar(10),userid numeric(7) DEFAULT 0,ngayud timestamp DEFAULT now(),paid numeric(1) DEFAULT 0,lydo numeric(2) DEFAULT 0,CONSTRAINT pk_d_nhapbbll PRIMARY KEY (id) USING INDEX TABLESPACE medi_index,CONSTRAINT fk_d_nhapbbll_d_dmkho FOREIGN KEY (makho) REFERENCES medibv.d_dmkho (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL, CONSTRAINT fk_d_nhapbbll_d_dmnguon FOREIGN KEY (manguon)  REFERENCES medibv.d_dmnguon (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_d_nhapbbll_d_dmnx FOREIGN KEY (madv) REFERENCES medibv.d_dmnx (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_d_nhapbbll_d_dmnx_cc FOREIGN KEY (nhomcc) REFERENCES medibv.d_dmnx (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.d_nhapbbct(id numeric(25) NOT NULL DEFAULT 0,stt numeric(3) NOT NULL DEFAULT 0,mabd numeric(7) DEFAULT 0,handung varchar(4),losx varchar(20),vat numeric(3) DEFAULT 0,soluong numeric(10,2) DEFAULT 0,dongia numeric(15,4) DEFAULT 0,sotien numeric(15,4) DEFAULT 0,giaban numeric(25) DEFAULT 0,giamua numeric(24,10) DEFAULT 0,sl1 numeric(10,2) DEFAULT 0,sl2 numeric(5) DEFAULT 0,tyle numeric(7,2) DEFAULT 0,cuocvc numeric(15,4) DEFAULT 0,chaythu numeric(15,4) DEFAULT 0,tailieu text,giabancu numeric(25) DEFAULT 0,namsx numeric(4) DEFAULT 0,baohanh numeric(7) DEFAULT 0,nguongoc numeric(2) DEFAULT 0,tinhtrang numeric(2) DEFAULT 0,sothe varchar(20),CONSTRAINT pk_d_nhapbbct PRIMARY KEY (id, stt) USING INDEX TABLESPACE medi_index,CONSTRAINT fk_d_nhapbbct_d_dmbd FOREIGN KEY (mabd)REFERENCES medibv.d_dmbd (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_d_nhapbbct_d_nhapbbll FOREIGN KEY (id) REFERENCES xxx.d_nhapbbll (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_dutruct ADD COLUMN ghichu varchar(10);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_dutruct ADD COLUMN slylenh numeric(10, 2) DEFAULT 0;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_xtutrucct ADD COLUMN ghichu varchar(10);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_xtutrucct ADD COLUMN slylenh numeric(10, 2) DEFAULT 0;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_hoantract ADD COLUMN ghichu varchar(10);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_hoantract ADD COLUMN sttt numeric(12, 0) DEFAULT 0;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_ngtrull ADD COLUMN idduyet numeric(3) DEFAULT 0;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_huybanll ADD COLUMN idduyet numeric(3) DEFAULT 0;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.d_dmbd ADD COLUMN loaibn numeric(1, 0) DEFAULT 0;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.d_dmbd ADD COLUMN lamtron numeric(1, 0) DEFAULT 0;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.d_dmbd ADD COLUMN songay numeric(3, 0) DEFAULT 0;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.d_dmbd ADD COLUMN hide numeric(1, 0) DEFAULT 0;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.d_dmbd ADD COLUMN phattron numeric(1, 0) DEFAULT 0;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE medibv.m_license(computer_key text, license_key text,CONSTRAINT pk_m_license PRIMARY KEY (computer_key) USING INDEX TABLESPACE medi_index) WITH OIDS TABLESPACE medi_data;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE medibv.d_license(computer_key text, license_key text,CONSTRAINT pk_d_license PRIMARY KEY (computer_key) USING INDEX TABLESPACE medi_index) WITH OIDS TABLESPACE medi_data;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE medibv.v_license(computer_key text,   license_key text,CONSTRAINT pk_v_license PRIMARY KEY (computer_key) USING INDEX TABLESPACE medi_index) WITH OIDS TABLESPACE medi_data;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE medibv.version( medisoft text,duoc text,khottb text,vienphi text,xetnghiem text) WITH OIDS TABLESPACE medi_data;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.cls_phanloai ADD COLUMN ma varchar(11);</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE medibv.cls_mau(id numeric(25) NOT NULL DEFAULT 0,loai numeric(2) DEFAULT 0,mabs varchar(4),vung numeric(7),chandoan text,ten text,CONSTRAINT pk_cls_mau PRIMARY KEY (id) USING INDEX TABLESPACE medi_index) WITH OIDS TABLESPACE medi_data;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_theodoitscd DROP COLUMN makho;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.d_dmbd ALTER manhom TYPE numeric(3, 0);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.tiepdon ADD COLUMN mavaovien numeric(11, 0) DEFAULT 0;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.inchiphipk(mabn varchar(10),mavaovien numeric(11, 0) DEFAULT 0,ngay timestamp,makp varchar(3),lan numeric(2, 0) DEFAULT 0,CONSTRAINT pk_inchiphipk PRIMARY KEY (mavaovien) USING INDEX TABLESPACE medi_index) WITH OIDS TABLESPACE medi_data;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE medibv.dmloaiphong(id numeric(2) NOT NULL DEFAULT 0,stt numeric(2),ma varchar(10),ten text,userid numeric(7) DEFAULT 0,ngayud timestamp default now(),  CONSTRAINT pk_dmloaiphong PRIMARY KEY (id) USING INDEX TABLESPACE medi_index) WITH OIDS TABLESPACE medi_data;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE medibv.dmphong(makp varchar(3),id numeric(5) NOT NULL DEFAULT 0,stt numeric(5),ma varchar(10),ten text,loai numeric(2),loaivp numeric(3),userid numeric(7) DEFAULT 0,ngayud timestamp default now(),CONSTRAINT pk_dmphong PRIMARY KEY (id) USING INDEX TABLESPACE medi_index,CONSTRAINT fk_dmphong_btdkp_bv FOREIGN KEY (makp) REFERENCES medibv.btdkp_bv (makp) MATCH SIMPLE  ON UPDATE NO ACTION ON DELETE SET NULL) WITH OIDS TABLESPACE medi_data;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE medibv.dmgiuong(idphong numeric(5),id numeric(7) NOT NULL DEFAULT 0,stt numeric(7) default 0, ma varchar(20),ten text,bhyt numeric(3) default 0,gia_th numeric(10) default 0,gia_bh numeric(10) default 0,  gia_cs numeric(10) default 0,gia_dv numeric(10) default 0,gia_nn numeric(12,2) default 0,  soluong numeric(3) default 0,tinhtrang numeric(1) default 0,userid numeric(7) DEFAULT 0,ngayud timestamp default now(),  CONSTRAINT pk_dmgiuong PRIMARY KEY (id) USING INDEX TABLESPACE medi_index,  CONSTRAINT fk_dmgiuong_dmphong FOREIGN KEY (idphong) REFERENCES medibv.dmphong (id) MATCH SIMPLE  ON UPDATE NO ACTION ON DELETE SET NULL) WITH OIDS TABLESPACE medi_data;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE medibv.theodoigiuong(id numeric(25),makp varchar(3),mabn varchar(10),mavaovien numeric(25),maql numeric(25),idkhoa numeric(25),madoituong numeric(2),idgiuong numeric(7),tu timestamp,den timestamp,soluong numeric(3) DEFAULT 0,dongia numeric(12,2) default 0,  userid numeric(7),tungay timestamp default now(),CONSTRAINT pk_theodoigiuong PRIMARY KEY (id) USING INDEX TABLESPACE medi_index,CONSTRAINT fk_theodoigiuong_dmgiuong FOREIGN KEY (idgiuong) REFERENCES medibv.dmgiuong (id) MATCH SIMPLE  ON UPDATE NO ACTION ON DELETE SET NULL) WITH OIDS TABLESPACE medi_data;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.hiendien ADD COLUMN idgiuong numeric(7, 0) DEFAULT 0;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE medibv.tuchoilydo(id numeric(2) NOT NULL DEFAULT 0,ten text,CONSTRAINT pk_tuchoilydo PRIMARY KEY (id) USING INDEX TABLESPACE medi_index) WITH OIDS TABLESPACE medi_data;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_daduyet ADD COLUMN done numeric(1) DEFAULT 0;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.d_dmkho ADD COLUMN dutru numeric(1) DEFAULT 1;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.benhancc ALTER giuong TYPE varchar(20);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.nhapkhoa ALTER giuong TYPE varchar(20);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.v_thvpll ALTER giuong TYPE varchar(20);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.v_thngayll ALTER giuong TYPE varchar(20);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.v_ttrvds ALTER giuong TYPE varchar(20);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_dausinhton ALTER giuong TYPE varchar(20);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.d_dlogin ADD COLUMN thuhoi numeric(1, 0) DEFAULT 0;</ten>
+  </Table>
+  <Table>
+    <ten>create table xxx.di_duyet(id numeric(25),ngay timestamp,makp varchar(3),phieu numeric(2),sobn numeric(4),hienco numeric(4),vao numeric(3),ra numeric(3),cat numeric(3),bao numeric(3),yta varchar(4),done numeric(1) default 0,userid numeric(7),ngayud timestamp DEFAULT now(),constraint pk_di_duyet primary key(id) USING INDEX TABLESPACE medi_index) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>create table xxx.di_kthucdonll(id numeric(25),idduyet numeric(25),mabn varchar(10),maql numeric(25),idkhoa numeric(25),madoituong numeric(2),idcu numeric(2),moi numeric(1) default 0,dacbiet numeric(1) default 0,giuong varchar(20),constraint pk_di_kthucdonll primary key(id) USING INDEX TABLESPACE medi_index) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>create table xxx.di_kthucdonct(id numeric(25),stt numeric(3),idgioan numeric(3),idthucdon numeric(7),soluong numeric(2) default 1,dongia numeric(10),constraint pk_di_kthucdonct primary key(id,stt) USING INDEX TABLESPACE medi_index) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>create table xxx.di_thucdonll(id numeric(25),idduyet numeric(25),mabn varchar(10),maql numeric(25),idkhoa numeric(25),madoituong numeric(2),idcu numeric(2),moi numeric(1) default 0,dacbiet numeric(1) default 0,giuong varchar(20),userid numeric(7),ngayud timestamp DEFAULT now(),constraint pk_di_thucdonll primary key(id) USING INDEX TABLESPACE medi_index) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>create table xxx.di_thucdonct(id numeric(25),stt numeric(3),idgioan numeric(3),idthucdon numeric(7),soluong numeric(2) default 1,dongia numeric(10),constraint pk_di_thucdonct primary key(id,stt) USING INDEX TABLESPACE medi_index) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>create table xxx.di_nauan(id numeric(25),ngay timestamp,ghichu1 text,ghichu2 text,userid numeric(7),ngayud timestamp DEFAULT now(),constraint pk_di_nauan primary key(id) USING INDEX TABLESPACE medi_index) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>create table xxx.di_nauanct(id numeric(25),idgioan numeric(3),chedoan text,thucpham text,constraint pk_di_nauanct primary key(id,idgioan) USING INDEX TABLESPACE medi_index) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>create table xxx.di_anlong(id numeric(25),idchedoan numeric(5),sang text,chieu text,constraint pk_di_anlong primary key(id,idchedoan) USING INDEX TABLESPACE medi_index) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.pttt ADD COLUMN noisoi numeric(1, 0) DEFAULT 0;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.doituong ADD COLUMN dai varchar(30);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_theodoitscd ADD COLUMN phutrach text;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_theodoitscd ADD COLUMN chucdanh text;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_theodoitscd ADD COLUMN daotao text;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_theodoitscd ADD COLUMN coquan text;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_theodoitscd ADD COLUMN tailieu text;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_theodoitscd ADD COLUMN quyetdinh text;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_theodoitscd ADD COLUMN ngay timestamp;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_theodoitscd ADD COLUMN tuoitho text;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_theodoitscd ADD COLUMN baotri numeric(7, 0);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_theodoitscd ADD COLUMN tinhhinh text;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_theodoitscd ADD COLUMN khauhao text;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_nhapct ADD COLUMN giamuacu numeric(24,10) DEFAULT 0;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_nhapll ADD COLUMN chietkhau numeric(5, 2) DEFAULT 0;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_nhapbbll ADD COLUMN chietkhau numeric(5, 2) DEFAULT 0;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_theodoi ADD COLUMN chietkhau numeric(5, 2) DEFAULT 0;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.d_dmbd ADD COLUMN sldonggoi numeric(7, 0) DEFAULT 1;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.d_duyetkho(idduyet numeric(25) NOT NULL DEFAULT 0,makho numeric(6) NOT NULL DEFAULT 0,done numeric(1) DEFAULT 0,CONSTRAINT pk_d_duyetkho PRIMARY KEY (idduyet, makho) USING INDEX TABLESPACE medi_index) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_xuatsdll ALTER lydo TYPE numeric(3, 0);</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE medibv.d_dangduyet(nhom numeric(2, 0) DEFAULT 0,tu varchar(10),den varchar(10),loai numeric(3, 0) DEFAULT 0,makp numeric(3, 0) DEFAULT 0,computer varchar(50),ngayud timestamp DEFAULT now(),CONSTRAINT pk_d_dangduyet PRIMARY KEY (nhom, tu, den, loai, makp) USING INDEX TABLESPACE medi_index) WITH OIDS TABLESPACE medi_data;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.doituong ADD COLUMN chenhlech numeric(1, 0) DEFAULT 0;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.btdbn ADD COLUMN image bytea;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.btdbn ADD COLUMN barcode bytea;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE medibv.pttt_loai(id numeric(2, 0) DEFAULT 0,ten text,CONSTRAINT pk_pttt_loai PRIMARY KEY (id) USING INDEX TABLESPACE medi_index) WITH OIDS TABLESPACE medi_data;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE medibv.pttt_bs(id numeric(11, 0) DEFAULT 0,loai numeric(2, 0) DEFAULT 0,mabs varchar(4),CONSTRAINT pk_pttt_bs PRIMARY KEY (id, mabs) USING INDEX TABLESPACE medi_data) WITH OIDS TABLESPACE medi_data;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE medibv.khongdau(codau text,khongdau text,CONSTRAINT pk_khongdau PRIMARY KEY (codau) USING INDEX TABLESPACE medi_index) WITH OIDS TABLESPACE medi_data;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.d_dmbd ADD COLUMN madoituong numeric(2, 0) DEFAULT 0;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.hen(maql numeric(11, 0) DEFAULT 0,songay numeric(5, 0) DEFAULT 0,ghichu text,loai numeric(1, 0) DEFAULT 0,tiepdon numeric(1, 0) DEFAULT 0,CONSTRAINT pk_hen PRIMARY KEY (maql) USING INDEX TABLESPACE medi_index) WITH OIDS TABLESPACE medi_data;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.tainantt ADD COLUMN lydo text;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.tainantt ADD COLUMN chandoan text;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.tainantt ADD COLUMN dieutri text;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.tainantt ADD COLUMN lucvao text;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.tainantt ADD COLUMN lucra text;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_theodoi ALTER namsx TYPE varchar(10);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_theodoi ALTER namsd TYPE varchar(10);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_nhapct ALTER namsx TYPE varchar(10);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_nhapbbct ALTER namsx TYPE varchar(10);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.d_tscdkhoa ALTER namsx TYPE varchar(10);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.d_tscdkhoa ALTER namsd TYPE varchar(10);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.d_tscdsc ADD COLUMN image bytea;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.d_tscdlc ADD COLUMN image bytea;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.d_dmbd ADD COLUMN giaban2 numeric(18, 4) DEFAULT 0;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_nhapct ADD COLUMN giaban2 numeric(11, 0) DEFAULT 0;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_nhapct ADD COLUMN tyle2 numeric(7, 2) DEFAULT 0;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_theodoi ADD COLUMN giaban2 numeric(15, 4) DEFAULT 0;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.pttt ADD COLUMN idchidinh numeric(12, 0) DEFAULT 0;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.chuyenvien ADD COLUMN lamsang text;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.chuyenvien ADD COLUMN xn text;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.chuyenvien ADD COLUMN chandoan text;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.chuyenvien ADD COLUMN thuoc text;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.chuyenvien ADD COLUMN tinhtrang text;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.chuyenvien ADD COLUMN lydo text;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.chuyenvien ADD COLUMN ngay timestamp;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.chuyenvien ADD COLUMN vanchuyen text;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.chuyenvien ADD COLUMN nguoidua text;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.chuyenvien ADD COLUMN lanin numeric(3, 0) DEFAULT 0;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.chuyenvien ADD COLUMN userid numeric(5, 0) DEFAULT 0;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.chuyenvien ADD COLUMN ngayud timestamp DEFAULT now();</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.d_tscdsc ADD COLUMN nguoisuachua text;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.d_tscdsc ADD COLUMN nguoigiamsat text;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.d_dmbd ADD COLUMN image bytea;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE medibv.d_tscdimage(id numeric(25) NOT NULL DEFAULT 0,stt numeric(5) NOT NULL DEFAULT 0,loai numeric(1) DEFAULT 0,tt numeric(3) default 0,image bytea,CONSTRAINT pk_d_tscdimage PRIMARY KEY (id,stt,loai,tt) USING INDEX TABLESPACE medi_index) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.benhandt ADD COLUMN cschandoan text;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.xuatvien ADD COLUMN cschandoan text;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.nhapkhoa ADD COLUMN cschandoan text;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.xuatkhoa ADD COLUMN cschandoan text;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.stttiepdon(id numeric(5) DEFAULT 0,ngay timestamp DEFAULT now(),stt numeric(5) DEFAULT 0,CONSTRAINT pk_stttiepdon PRIMARY KEY (id, ngay) USING INDEX TABLESPACE medi_index) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.sttkham(makp varchar(3) DEFAULT 0,ngay timestamp DEFAULT now(),stt numeric(5) DEFAULT 0,CONSTRAINT pk_sttkham PRIMARY KEY (makp, ngay) USING INDEX TABLESPACE medi_index) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.di_kthucdonct ADD COLUMN e numeric(7, 0) DEFAULT 0;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.di_kthucdonct ADD COLUMN p numeric(7, 2) DEFAULT 0;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.di_kthucdonct ADD COLUMN l numeric(7, 2) DEFAULT 0;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.di_kthucdonct ADD COLUMN g numeric(7, 2) DEFAULT 0;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.dausinhton ADD COLUMN cannang numeric(7, 2) DEFAULT 0;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.dausinhton ADD COLUMN chieucao numeric(5, 0) DEFAULT 0;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.trieuchung(maql numeric(25) NOT NULL DEFAULT 0,ten text,CONSTRAINT pk_trieuchung PRIMARY KEY (maql) USING INDEX TABLESPACE medi_index) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE medibv.trieuchungl(id numeric(3),stt numeric(3),ten varchar(100),userid numeric(7) default 0,ngayud timestamp default now(),CONSTRAINT pk_trieuchungl PRIMARY KEY (id) USING INDEX TABLESPACE medi_index) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE medibv.trieuchungct(id numeric(5),idloai numeric(3),stt numeric(3),ten varchar(100),userid numeric(7) default 0,ngayud timestamp default now(),CONSTRAINT pk_trieuchungct PRIMARY KEY (id) USING INDEX TABLESPACE medi_index) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.di_kthucdonct ADD COLUMN idchedoan numeric(7, 0) DEFAULT 0;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.di_thucdonll ADD COLUMN makp varchar(3);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.di_thucdonll ADD COLUMN ngay timestamp;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.di_thucdonll ADD COLUMN phieu numeric(2) DEFAULT 0;</ten>
+  </Table>
+  <Table>
+    <ten>alter table xxx.d_theodoi add column gianovat numeric(24,10) DEFAULT 0;</ten>
+  </Table>
+  <Table>
+    <ten>alter table xxx.v_chidinh add column idchidinh numeric(25) DEFAULT 0;</ten>
+  </Table>
+  <Table>
+    <ten>alter table xxx.d_xuatsdll add column ngayylenh timestamp;</ten>
+  </Table>
+  <Table>
+    <ten>update xxx.d_xuatsdll set ngayylenh=ngay where ngayylenh is null;</ten>
+  </Table>
+  <Table>
+    <ten>update xxx.v_thvpll alter maicd type varchar(50);</ten>
+  </Table>
+  <Table>
+    <ten>update xxx.v_ttrvds alter maicd type varchar(50);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.d_dutrukho ADD COLUMN manguon numeric(2) DEFAULT -1;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.d_dutruthang ADD COLUMN manguon numeric(2) DEFAULT -1;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_nhapll drop CONSTRAINT fk_d_nhapll_d_dmnx_cc;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_nhapll drop CONSTRAINT fk_d_nhapll_d_dmnx;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_nhapct ALTER dongia TYPE numeric(24,10);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.benhanpk ALTER mavaovien type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.benhanpk ALTER maql type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.benhancc alter mavaovien type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.benhancc alter maql type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.bhyt alter maql type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.cdkemtheo alter id type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.cdkemtheo alter maql type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.cdnguyennhan alter id type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.cdnguyennhan alter maql type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.cdsankhoa alter maql type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.cdungbuou alter id type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.cdungbuou alter maql type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_dausinhton alter id type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_dausinhton alter idkhoa type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_dausinhton alter iddutru type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_duyet alter id type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_dutrull alter id type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_dutrull alter idduyet type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_dutrull alter mavaovien type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_dutrull alter maql type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_dutrull alter idkhoa type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_dutruct alter id type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_haophill alter id type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_haophill alter idduyet type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_haophict alter id type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_hoantrall alter id type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_hoantrall alter idduyet type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_hoantrall alter mavaovien type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_hoantrall alter maql type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_hoantrall alter idkhoa type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_hoantract alter id type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_ngaylanh alter id type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_thuocbhytll alter id type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_thuocbhytll ALTER mavaovien TYPE numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_thuocbhytll ALTER maql TYPE numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_thuocbhytll ALTER idduyet TYPE numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_thuocbhytct alter id type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_toathuocll alter id type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_toathuocll ALTER maql TYPE numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_toathuocll ALTER idngtru TYPE numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_toathuocct alter id type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_xtutrucll alter id type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_xtutrucll alter idduyet type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_xtutrucll alter mavaovien type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_xtutrucll alter maql type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_xtutrucll alter idkhoa type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_xtutrucct alter id type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.dasuamadt alter maql type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.dasuamadt alter idkhoa type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.dausinhton alter maql type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.giayravien alter maql type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.lienhe alter maql type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.lydokham alter maql type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.ngaykb alter maql type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.noigioithieu alter maql type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.pttt alter id type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.pttt alter mavaovien type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.pttt alter maql type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.pttt ALTER idvpkhoa TYPE numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.pttt ALTER idduoc TYPE numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.pttt ALTER idkhoa TYPE numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.pttt ALTER idchidinh TYPE numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.pttt_lichmo alter id type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.pttt_lichmo alter  maql type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.pttt_lichmo alter  idkhoa type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.quanhe alter maql type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.sukien alter matiepdon type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.sukien alter macap type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.tainantt alter maql type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.tiepdon alter mavaovien type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.tiepdon alter maql type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.ttbong alter maql type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.ttkhamthai alter maql type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.ttmat alter maql type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.xutrikbct alter maql type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.khoacdkham alter mavaovien type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.khoacdkham alter maql type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.hen alter maql type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.trieuchung alter maql type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_theodoi alter id type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.bhytkb alter id type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.bhytkb alter mavaovien type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.bhytkb alter maql type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.bhytthuoc alter id type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.bhytthuoc alter sttt type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.bhytcls alter id type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_chandoan alter id type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_chuyenll alter id type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_chuyenct alter id type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_chuyenct altersttt type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_ctghisoll alter id type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_ctghisoct alter id type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_dutrucapll alter id type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_dutrucapct alter id type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_huybanll alter id type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_huybanct alter id type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_huybanct alter sttt type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_ngtrull alter id type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_ngtruct alter id type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_ngtruct alter sttt type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_bienlai alter id type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_nhapll alter id type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_nhapct alter id type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_nhapbbll alter id type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_nhapbbct alter id type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_nhapct2 alter id type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_nhapslll alter id type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_nhapslct alter id type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_phieuxuat alter id type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_thanhtoan alter id type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_theodoitscd alter sttt type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_tienthuoc alter mavaovien type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_tienthuoc alter maql type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_tienthuoc alter idkhoa type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_tonkhoct alter stt type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_tonkhoct ALTER idn TYPE numeric(18, 0);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_tonkhokemtheo alter sttt type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_tutrucct alter stt type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_tutruckemtheo alter sttt type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_xuatll alter id type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_xuatll ALTER idduyet TYPE numeric(18, 0);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_xuatct alter id type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_xuatct alter sttt type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_xuatsdll alter id type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_xuatsdll alter mavaovien type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_xuatsdll alter maql type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_xuatsdll alter idkhoa type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_xuatsdll alter idduyet type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_xuatsdct alter id type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_xuatsdct alter sttt type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_bucstt alter id type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_bucstt alter sttt type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_thucbucstt alter id type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_thucbucstt alter sttt type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_thucxuat alter id type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_thucxuat alter sttt type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_thucxuat2 alter id type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_thucxuat2 alter sttt type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_duyetkho alter idduyet type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.v_bhyt alter id type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.v_chidinh alter id type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.v_chidinh alter mavaovien type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.v_chidinh alter maql type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.v_chidinh alter idkhoa type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.v_chidinh ALTER idchidinh TYPE numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.v_congno alter mavaovien type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.v_congno alter maql type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.v_congno alter idkhoa type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.v_giuong alter id type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.v_hoantra alter id type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.v_hoantract alter id type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.v_mienngtru alter id type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.v_miennoitru alter id type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.v_nhom alter id type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.v_phieuchill alter id type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.v_phieuchict alter id type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.v_tamung alter id type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.v_tamung alter mavaovien type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.v_tamung alter maql type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.v_tamung alter idkhoa type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.v_tamungct alter id type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.v_thngayll alter id type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.v_thngayll alter mavaovien type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.v_thngayll alter maql type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.v_thngayct alter id type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.v_thvpll alter id type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.v_thvpll alter mavaovien type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.v_thvpll alter maql type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.v_thvpll alter idkhoa type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.v_thvpct alter id type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.v_thvpbhyt alter id type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.v_ttrvds alter id type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.v_ttrvds alter mavaovien type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.v_ttrvds alter maql type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.v_ttrvds alter idkhoa type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.v_ttrvll alter id type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.v_ttrvbhyt alter id type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.v_ttrvct alter id type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.v_ttrvnhom alter id type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.v_ttrvpttt alter id type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.v_ttrvptttct alter id type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.v_trongoi alter id type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.v_vienphill alter id type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.v_vienphill alter mavaovien type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.v_vienphill alter maql type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.v_vienphill alter idkhoa type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.v_vienphict alter id type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.v_vpkhoa alter id type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.v_vpkhoa alter mavaovien type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.v_vpkhoa alter maql type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.v_vpkhoa alter idkhoa type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.v_huybienlai alter id type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.tttiepdon alter maql type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.inchiphipk alter mavaovien type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.di_duyet alter id type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.di_kthucdonll alter id type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.di_kthucdonll alter	idduyet type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.di_kthucdonll alter	maql type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.di_kthucdonll alter	idkhoa type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.di_kthucdonct alter id type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.di_thucdonll alter id type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.di_thucdonll alter idduyet type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.di_thucdonll alter maql type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.di_thucdonll alter idkhoa type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.di_thucdonct alter id type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.di_nauan alter id type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.di_nauanct alter id type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.di_anlong alter id type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.di_ngayduyet alter idduyet type numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_xtutrucct ALTER idvpkhoa TYPE numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_tutruckemtheo ALTER stt TYPE numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_tonkhokemtheo ALTER stt TYPE numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_tonkhokemtheo ALTER idn TYPE numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.benhanpk ALTER mangtr TYPE numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.bhytcls ALTER idchidinh TYPE numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_chuyenct ALTER stttchuyen TYPE numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_hoantract ALTER sttt TYPE numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_huybanll ALTER maql TYPE numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_ngayduyet ALTER idduyet TYPE numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_ngtrull ALTER maql TYPE numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.di_thucdonct ALTER vpkhoa TYPE numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.tttamthan ALTER maql TYPE numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.v_hoantra ALTER mavaovien TYPE numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.v_hoantra ALTER maql TYPE numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.v_phieuchill ALTER maql TYPE numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.v_phieuchill ALTER idkhoa TYPE numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.v_tamung ALTER idttrv TYPE numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.v_ttrvll ALTER idtonghop TYPE numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.dmphong ADD COLUMN dichvu numeric(1) DEFAULT 0;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.d_htrathuocll(id numeric(25) NOT NULL DEFAULT 0,nhom numeric(2) DEFAULT 0,ngay timestamp,mabn varchar(10),mavaovien numeric(25) DEFAULT 0,maql numeric(25) DEFAULT 0,madoituong numeric(2) DEFAULT 0,makp varchar(3), mabs varchar(4), loaiba numeric(1) DEFAULT 3,ghichu text,idduyet numeric(25) default 0,done numeric(1) DEFAULT 0,userid numeric(7) DEFAULT 0,ngayud timestamp DEFAULT now(),CONSTRAINT pk_d_htrathuocll PRIMARY KEY (id),CONSTRAINT fk_d_htrathuocll_btdbn FOREIGN KEY (mabn) REFERENCES medibv.btdbn (mabn) MATCH SIMPLE  ON UPDATE NO ACTION ON DELETE SET NULL) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.d_htrathuocct(id numeric(25) NOT NULL DEFAULT 0,stt numeric(3) NOT NULL DEFAULT 0,sttt numeric(25) DEFAULT 0,ngay timestamp,makho numeric(6) DEFAULT 0,mabd numeric(7) DEFAULT 0,soluong numeric(10,2) DEFAULT 0,giaban numeric(11) DEFAULT 0,CONSTRAINT pk_d_htrathuocct PRIMARY KEY (id, stt),CONSTRAINT fk_d_htrathuocct_d_dmbd FOREIGN KEY (mabd) REFERENCES medibv.d_dmbd (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_d_htrathuocct_d_dmkho FOREIGN KEY (makho) REFERENCES medibv.d_dmkho (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_d_htrathuocct_d_htrathuocll FOREIGN KEY (id) REFERENCES xxx.d_htrathuocll (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.btdkp_bv ALTER mavp TYPE numeric(7);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.btdkp_bv ADD COLUMN mavptk numeric(7) DEFAULT 0;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.btdkp_add ALTER mavp TYPE numeric(7);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.btdkp_add ADD COLUMN mavptk numeric(7) DEFAULT 0;</ten>
+  </Table>
+  <Table>
+    <ten>update medibv.btdkp_bv set mavptk=mavp where mavptk=0;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE medibv.xuattamlydo(id numeric(2) NOT NULL DEFAULT 0,ten text,constraint pk_xuattamlydo primary key(id)) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE medibv.xuattam(id numeric(25) NOT NULL DEFAULT 0,mabn varchar(10),maql numeric(25),idkhoa numeric(25),ngayvv timestamp,makp varchar(3),ngayvk timestamp,chandoan text,lydo numeric(2),ghichu text,tinhtrangra text,mabs varchar(4),ngayra timestamp,ngayvao timestamp,tinhtrangvao text,giuong varchar(20),idgiuong numeric(7) default 0,userid numeric(7),ngayud timestamp default now(),constraint pk_xuattam primary key(id)) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.v_quyenso ADD COLUMN computerid numeric(5) DEFAULT 0;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE medibv.dmbschidinh(ten text NOT NULL,benhvien text NOT NULL,khoa text,CONSTRAINT pk_dmbschidinh PRIMARY KEY (ten, benhvien) USING INDEX TABLESPACE medi_index) WITHOUT OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE medibv.dmbvchidinh(ten text NOT NULL,CONSTRAINT pk_dmbvchidinh PRIMARY KEY (ten) USING INDEX TABLESPACE medi_index) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.d_sophieukb(mabn varchar(10),mavaovien numeric(18, 0) DEFAULT 0,ngay timestamp,madoituong numeric(2, 0) DEFAULT 0,so numeric(5, 0) DEFAULT 0,lanin numeric(5, 0) DEFAULT 0,ghichu text,userid numeric(5, 0) DEFAULT 0,ngayud timestamp DEFAULT now(),CONSTRAINT pk_d_sophieukb PRIMARY KEY (mabn, mavaovien, ngay, madoituong) USING INDEX TABLESPACE medi_index) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.bhytthuoc ADD COLUMN giaban numeric(18, 0) DEFAULT 0;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_thucbucstt ADD COLUMN giaban numeric(18, 0) DEFAULT 0;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_thucxuat ADD COLUMN giaban numeric(18, 0) DEFAULT 0;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_bucstt ADD COLUMN giaban numeric(18, 0) DEFAULT 0;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_xuatsdct ADD COLUMN giaban numeric(18, 0) DEFAULT 0;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_xuatct ADD COLUMN giaban numeric(18, 0) DEFAULT 0;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_capsotoa DROP CONSTRAINT pk_d_capsotoa;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_capsotoa ADD COLUMN userid numeric(5, 0) DEFAULT 0;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_capsotoa ADD CONSTRAINT pk_d_capsotoa PRIMARY KEY (id, ngay, loai, userid) USING INDEX TABLESPACE medi_index;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.thongso ADD COLUMN tendef text;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.thongso ADD COLUMN tencur text;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_nhapct ADD COLUMN tyle_ggia numeric(5, 2) DEFAULT 0;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_nhapct ADD COLUMN st_ggia numeric(24, 10) DEFAULT 0;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_theodoi ADD COLUMN tyle_ggia numeric(5, 2) DEFAULT 0;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_theodoi ADD COLUMN st_ggia numeric(24, 10) DEFAULT 0;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE medibv.d_dutrukho(makho numeric(6) NOT NULL DEFAULT 0,mmyy varchar(4) NOT NULL,mabd numeric(7) NOT NULL DEFAULT 0,nhap numeric(10) DEFAULT 0,  xuat numeric(10) DEFAULT 0,  ton numeric(10) DEFAULT 0,  tutruc numeric(10) DEFAULT 0,  tc numeric(10) DEFAULT 0,  l1 numeric(10) DEFAULT 0,  d1 numeric(10) DEFAULT 0,  l2 numeric(10) DEFAULT 0,  d2 numeric(10) DEFAULT 0,  nhacc text,  donvi text,  dau numeric(12,2) DEFAULT 0,  dongia numeric(24,10) DEFAULT 0,  manguon numeric(2) DEFAULT -1,  CONSTRAINT pk_d_dutrukho PRIMARY KEY (makho, mmyy, mabd) USING INDEX TABLESPACE medi_index) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.btdkp_bv ADD COLUMN loaicd text;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.btdkp_bv ADD COLUMN muccd text;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.btdkp_add ADD COLUMN loaicd text;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.btdkp_add ADD COLUMN muccd text;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.lydokham ADD COLUMN phanbiet text;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.sokhamthai(mabn varchar(10),mavaovien numeric(25) DEFAULT 0,cao numeric(5) DEFAULT 0,para varchar(8),dacdiem text,chuky numeric(2) DEFAULT 0,tinhchat numeric(1) DEFAULT 0,luongkinh numeric(1) DEFAULT 0,songay numeric(2) DEFAULT 0,vat1 text,vat2 text,tiensu text,ngaykc timestamp,ngaydd timestamp,userid numeric(7) DEFAULT 0,ngayud timestamp DEFAULT now(),CONSTRAINT pk_sokhamthai PRIMARY KEY (mavaovien) USING INDEX TABLESPACE medi_index) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.sokhamthaict(mavaovien numeric(25) DEFAULT 0,maql numeric(25) DEFAULT 0,ngay timestamp,cannang numeric(7,2) DEFAULT 0,huyetap varchar(7),mach numeric(5) DEFAULT 0,phu numeric(1) DEFAULT 0,bctc text,timthai text,ngoi numeric(3) default 0,ketluan text,CONSTRAINT pk_sokhamthaict PRIMARY KEY (maql) USING INDEX TABLESPACE medi_index) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE medibv.bbtuvong(mabn varchar(10),maql numeric(25) NOT NULL DEFAULT 0,ngay timestamp,lydo text,benhsu text,chandoan text,ngoaichan text,lamsang text,sinhthiet text,dieutri text,dienbien text,tinhthan text,chetngay timestamp,comat text,nguyennhan text,chandoant text,chandoangpb text,kiemdiem text,chutoa varchar(4),thuky varchar(4),khth varchar(4),userid numeric(7) DEFAULT 0,ngayud timestamp DEFAULT now(),CONSTRAINT pk_bbtuvong PRIMARY KEY (maql) USING INDEX TABLESPACE medi_index)WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE medibv.bbtuvongnv(maql numeric(25) NOT NULL DEFAULT 0,manv varchar(4) NOT NULL,chucvu text,CONSTRAINT pk_bbtuvongnv PRIMARY KEY (maql, manv) USING INDEX TABLESPACE medi_index)  WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.giayravien ADD COLUMN benhly text,ADD COLUMN nhommau numeric(1, 0) DEFAULT 0,ADD COLUMN rh varchar(50),ADD COLUMN ngaytk timestamp,ADD COLUMN taikham text,ADD COLUMN bskham varchar(4),ADD COLUMN chandoan text;</ten>
+  </Table>
+  <Table>
+    <ten>alter table xxx.d_tienthuoc add column idttrv numeric(25) default 0;</ten>
+  </Table>
+  <Table>
+    <ten>alter table xxx.v_chidinh add column idttrv numeric(25) default 0;</ten>
+  </Table>
+  <Table>
+    <ten>alter table xxx.v_vpkhoa add column idttrv numeric(25) default 0;</ten>
+  </Table>
+  <Table>
+    <ten>alter table xxx.v_thvpll add column idttrv numeric(25) default 0;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE medibv.tusat(mabn varchar(10),mavaovien numeric(25) NOT NULL DEFAULT 0,maql numeric(25) NOT NULL DEFAULT 0,ngay timestamp,nguyennhan numeric(2),hinhthuc numeric(2),tinhtrang numeric(2),ghichu text,userid numeric(7) DEFAULT 0,ngayud timestamp DEFAULT now(),CONSTRAINT pk_tusat PRIMARY KEY (maql))WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE medibv.tusathinhthuc(id numeric(2) NOT NULL DEFAULT 0,ten text,CONSTRAINT pk_tusathinhthuc PRIMARY KEY (id))WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE medibv.tusatnghenghiep(id numeric(2) NOT NULL DEFAULT 0,ten text,CONSTRAINT pk_tusatnghenghiep PRIMARY KEY (id))WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE medibv.tusatnguyennhan(id numeric(2) NOT NULL DEFAULT 0,ten text,CONSTRAINT pk_tusatnguyennhan PRIMARY KEY (id))WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE medibv.tusattinhtrang(id numeric(2) NOT NULL DEFAULT 0,ten text,CONSTRAINT pk_tusattinhtrang PRIMARY KEY (id))WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>alter table medibv.btdnn_bv add column mannts numeric(2) default 0;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.bhyt DROP CONSTRAINT pk_bhyt;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.bhyt ADD COLUMN sudung numeric(1) DEFAULT 1;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.bhyt ADD CONSTRAINT pk_bhyt PRIMARY KEY (maql, sothe) USING INDEX TABLESPACE medi_index;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.bhyt ADD COLUMN sudung numeric(1) DEFAULT 1;</ten>
+  </Table>
+  <Table>
+    <ten>alter table xxx.v_ttrvct add column sothe varchar(20);</ten>
+  </Table>
+  <Table>
+    <ten>alter table xxx.v_thvpct add column sothe varchar(20);</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE medibv.dmphanloaisk(id numeric(2) NOT NULL DEFAULT 0,ten text,CONSTRAINT pk_dmphanloaisk PRIMARY KEY (id)) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE medibv.kskdoan(id numeric(25),sohd varchar(20),ngay timestamp,loai numeric(1) DEFAULT 0,ma varchar(3),ten text,diachi text,dienthoai varchar(50),fax varchar(50),email text, masothue varchar(20),  nguoilienhe text,  ghichu text,  userid numeric(7) DEFAULT 0,done numeric(1) default 0, ngayud timestamp DEFAULT now(),  CONSTRAINT pk_kskdoan PRIMARY KEY (id)) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE medibv.kskdonvi(id numeric(25),  iddoan numeric(25),  stt numeric(2) DEFAULT 0,  ma varchar(2),  ten text,  tu timestamp,  den timestamp,  sodk numeric(5) DEFAULT 0,  dakham numeric(5) DEFAULT 0,  userid numeric(7) DEFAULT 0,  ngayud timestamp DEFAULT now(),  CONSTRAINT pk_kskdonvi PRIMARY KEY (id)) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE medibv.kskmuc(id numeric(25),  iddoan numeric(25) ,  stt numeric(3)  DEFAULT 0,  phai numeric(1) DEFAULT 0,  tt varchar(2),  namsinh varchar(4),  ghichu text,  CONSTRAINT pk_kskmuc PRIMARY KEY (id))WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE medibv.kskmucct(id numeric(25),  stt numeric(3) DEFAULT 0,  mavp numeric(7) DEFAULT 0,  gia_nv numeric(10) DEFAULT 0,  gia_ngv numeric(10) DEFAULT 0,  ghichu text,  CONSTRAINT pk_kskmucct PRIMARY KEY (id, mavp)) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>create table medibv.kskbtdbn(iddonvi numeric(25),stt numeric(7),mabn varchar(10),hoten text,namsinh varchar(4),phai numeric(1),mann varchar(2),dienthoai varchar(50),diachi text,hotenkdau varchar(100),userid numeric(7),done numeric(1) default 0,ngayud timestamp default now(),constraint pk_kskbtdbn primary key(iddonvi,mabn)) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>create table medibv.kskloai(id numeric(2),ten text,constraint pk_kskloai primary key(id))WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>create table medibv.ba_danhmuc(id numeric(25),loai numeric(3),stt numeric(5),ten text,ngayud timestamp default now(),constraint pk_ba_danhmuc primary key(id)) with oids;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.v_giavp ADD COLUMN thuong numeric(1) DEFAULT 0;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.v_giavp ADD COLUMN readonly numeric(1) DEFAULT 0;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.v_giavp ADD COLUMN ndm numeric(1) DEFAULT 0;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.v_giavp ADD COLUMN tylekhuyenmai numeric(3) DEFAULT 0;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.v_giavp_luu ADD COLUMN thuong numeric(1) DEFAULT 0;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.v_giavp_luu ADD COLUMN readonly numeric(1) DEFAULT 0;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.v_giavp_luu ADD COLUMN ndm numeric(1) DEFAULT 0;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.v_giavp_luu ADD COLUMN tylekhuyenmai numeric(3) DEFAULT 0;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.v_giavp ADD COLUMN gia_ksk numeric(10, 0) DEFAULT 0;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.v_giavp ADD COLUMN vattu_ksk numeric(10, 0) DEFAULT 0;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.v_giavp_luu ADD COLUMN gia_ksk numeric(10, 0) DEFAULT 0;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.v_giavp_luu ADD COLUMN vattu_ksk numeric(10, 0) DEFAULT 0;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.v_vienphill ADD COLUMN makptd varchar(2);</ten>
+  </Table>
+  <Table>
+    <ten>alter table medibv.v_giavp add column hide numeric(1) default 0;</ten>
+  </Table>
+  <Table>
+    <ten>alter table medibv.v_giavp_luu add column hide numeric(1) default 0;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.d_treoduyet ALTER id TYPE numeric(25);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.d_duockp ADD COLUMN tutruc varchar(254);</ten>
+  </Table>
+  <Table>
+    <ten>update medibv.d_duockp set tutruc=matutruc where tutruc is null;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.bask_chiso(mabn varchar(10),maql numeric(25) NOT NULL DEFAULT 0,ngay timestamp,socmnd varchar(20),capngay timestamp,tai varchar(3),lydo text,tiensu text,  CONSTRAINT pk_bask_chiso PRIMARY KEY (maql) USING INDEX TABLESPACE medi_index) WITH OIDS TABLESPACE medi_data;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.bask_cls(maql numeric(25) NOT NULL DEFAULT 0,mavaovien numeric(25) DEFAULT 0,stt numeric(3) default 0,idchidinh numeric(25) default 0,loai numeric(1) default 0,  ketluan text,  image bytea,  CONSTRAINT pk_bask_cls PRIMARY KEY (idchidinh) USING INDEX TABLESPACE medi_index) WITH OIDS TABLESPACE medi_data;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.bask_donvi(mabn varchar(10),maql numeric(25) NOT NULL DEFAULT 0,madonvi numeric(25) DEFAULT 0,mach numeric(3) DEFAULT 0,chieucao numeric(6) DEFAULT 0, nhietdo numeric(5,2) DEFAULT 0,  cannang numeric(7,2) DEFAULT 0,  huyetap varchar(7),  nhiptho numeric(3) DEFAULT 0,  CONSTRAINT pk_bask_donvi PRIMARY KEY (maql) USING INDEX TABLESPACE medi_index) WITH OIDS TABLESPACE medi_data;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.bask_mat(  maql numeric(25) NOT NULL DEFAULT 0,  mavaovien numeric(25) DEFAULT 0,  ngay timestamp,  makp varchar(3),  mat text,  thiluc text,  tlcp text,  tlct text,  tlkp text,  tlkt text,  sop text,  sot text,  sacgiac text,  khac text,  mabs varchar(4),  userid numeric(7) DEFAULT 0,  ngayud timestamp DEFAULT now(),  CONSTRAINT pk_bask_mat PRIMARY KEY (maql) USING INDEX TABLESPACE medi_index) WITH OIDS TABLESPACE medi_data;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.bask_ngkhoa(  maql numeric(25) NOT NULL DEFAULT 0,  mavaovien numeric(25) DEFAULT 0,  ngay timestamp,  makp varchar(3),  ngoai text,  dalieu text,  khac text,  mabs varchar(4),  userid numeric(7) DEFAULT 0,  ngayud timestamp DEFAULT now(),  CONSTRAINT pk_bask_ngkhoa PRIMARY KEY (maql) USING INDEX TABLESPACE medi_index) WITH OIDS TABLESPACE medi_data;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.bask_noikhoa(  maql numeric(25) NOT NULL DEFAULT 0,  mavaovien numeric(25) DEFAULT 0,  ngay timestamp,  makp varchar(3),  toanthan text,  tonghop text,  timmach text,  tamthan text,  thankinh text,  khac text,  mabs varchar(4),  userid numeric(7) DEFAULT 0,  ngayud timestamp DEFAULT now(),  CONSTRAINT pk_bask_noikhoa PRIMARY KEY (maql) USING INDEX TABLESPACE medi_index) WITH OIDS TABLESPACE medi_data;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.bask_rmh(  maql numeric(25) NOT NULL DEFAULT 0,  mavaovien numeric(25) DEFAULT 0,  ngay timestamp,  makp varchar(3),  rhm text,  saurang text,  nhanhu text,  matrang text,  hammat text,  khac text,  mabs varchar(4),  userid numeric(7) DEFAULT 0,  ngayud timestamp DEFAULT now(),  CONSTRAINT pk_bask_rmh PRIMARY KEY (maql) USING INDEX TABLESPACE medi_index) WITH OIDS TABLESPACE medi_data;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.bask_sanphu(  maql numeric(25) NOT NULL DEFAULT 0,  mavaovien numeric(25) DEFAULT 0,  ngay timestamp,  makp varchar(3),  san text,  phu text,  khac text,  mabs varchar(4),  userid numeric(7) DEFAULT 0,  ngayud timestamp DEFAULT now(),  CONSTRAINT pk_bask_sanphu PRIMARY KEY (maql) USING INDEX TABLESPACE medi_index) WITH OIDS TABLESPACE medi_data;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.bask_tmh(  maql numeric(25) NOT NULL DEFAULT 0,  mavaovien numeric(25) DEFAULT 0,  ngay timestamp,  makp varchar(3),  tmh text,  thuongt text,  thamt text,  thuongp text,  thamp text,  khac text,  mabs varchar(4),  userid numeric(7) DEFAULT 0,  ngayud timestamp DEFAULT now(),  CONSTRAINT pk_bask_tmh PRIMARY KEY (maql) USING INDEX TABLESPACE medi_index) WITH OIDS TABLESPACE medi_data;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.bask_tongket(  maql numeric(25) NOT NULL DEFAULT 0,  mavaovien numeric(25) DEFAULT 0,  ngay timestamp,  makp varchar(3),  phanloai numeric(2) DEFAULT 0,  ketluan text,  khac text,  mabs varchar(4),  userid numeric(7) DEFAULT 0,  ngayud timestamp DEFAULT now(),  CONSTRAINT pk_bask_tongket PRIMARY KEY (maql) USING INDEX TABLESPACE medi_index) WITH OIDS TABLESPACE medi_data;</ten>
+  </Table>
+  <Table>
+    <ten>alter table medibv.d_dmnx add column hide numeric(1) default 0;</ten>
+  </Table>
+  <Table>
+    <ten>alter table xxx.v_ttrvll add column thua numeric(15,4) DEFAULT 0;</ten>
+  </Table>
+  <Table>
+    <ten>create table medibv.links_histhongso(id numeric(2),id_code numeric(3) default 0,giatri text,ghichu text,xml numeric(1) default 0,path_ketqua text,ngayud timestamp default now(),constraint pk_links_histhongso primary key(id)) with oids;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE medibv.theodoitiensu(mabn varchar(10),banthan text,giadinh text,ngoaikhoa text,ngayud timestamp DEFAULT now(), CONSTRAINT pk_theodoitiensu PRIMARY KEY (mabn)) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>create table xxx.sophieurv(mabn varchar2(8),maql numeric(25),loaiba numeric(1),ngay timestamp,madoituong numeric(2),so numeric(5) default 0,lanin numeric(5) default 1,ghichu varchar2(254),constraint pk_sophieurv primary key(maql,ngay)) with oids;</ten>
+  </Table>
+  <Table>
+    <ten>create table xxx.capsotoa(id numeric(3),ngay timestamp,loai numeric(3),sotoa numeric(7) default 0,userid numeric(7),constraint pk_capsotoa primary key(id,ngay,loai,userid)) with oids;</ten>
+  </Table>
+  <Table>
+    <ten>alter TABLE medibv.bbtuvongnv add column stt numeric(1) default 1;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_ngtrull ADD COLUMN diachi text;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_ngtrull ADD COLUMN ghichu text;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.d_dutruthang DROP CONSTRAINT pk_d_dutruthang;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.d_dutruthang ADD COLUMN lan numeric(3) DEFAULT 1;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.d_dutruthang ADD CONSTRAINT pk_d_dutruthang PRIMARY KEY (nhom, mmyy, mabd, manguon, lan) USING INDEX TABLESPACE medi_index;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.d_dutrukho DROP CONSTRAINT pk_d_dutrukho;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.d_dutrukho ADD COLUMN lan numeric(3) DEFAULT 1;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.d_dutrukho ADD CONSTRAINT pk_d_dutrukho PRIMARY KEY (makho, mmyy, mabd, manguon, lan) USING INDEX TABLESPACE medi_index;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.v_chidinh ADD COLUMN loaiba numeric(1) default 3;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.v_chidinh ADD COLUMN maicd varchar(9);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.v_chidinh ADD COLUMN chandoan text;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.v_chidinh ADD COLUMN mabs varchar(4);</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.ba_khambenh(maql numeric(25) DEFAULT 0,benhsu text,tiensu text,toanthan text,bophan text,CONSTRAINT pk_ba_khambenh PRIMARY KEY (maql) USING INDEX TABLESPACE medi_index) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.quanhe ADD COLUMN phuongtien text;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE medibv.v_trongoipk(id numeric(7) NOT NULL DEFAULT 0,makp varchar(3) NOT NULL DEFAULT 0,sotien numeric(12) DEFAULT 0,stt numeric(3) DEFAULT 0,CONSTRAINT pk_v_trongoipk PRIMARY KEY (id, makp) USING INDEX TABLESPACE medi_index) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.dmpttt ADD COLUMN mavp numeric(7) DEFAULT 0;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE xxx.d_bbkk(makho numeric(6) DEFAULT 0,makp numeric(6) DEFAULT 0,sttt numeric(25) DEFAULT 0,mabd numeric(7) DEFAULT 0,slton numeric(12, 2) DEFAULT 0,slkk numeric(12, 2) DEFAULT 0,thua numeric(10, 2) DEFAULT 0,thieu numeric(10, 2) DEFAULT 0,userid numeric(7) DEFAULT 0,ngayud timestamp DEFAULT now(),CONSTRAINT pk_d_bbkk PRIMARY KEY (makho, makp, sttt) USING INDEX TABLESPACE medi_index) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE medibv.tiepdon(mabn varchar(10),mavaovien numeric(25) DEFAULT 0,maql numeric(25) NOT NULL DEFAULT 0,makp varchar(3),ngay timestamp,madoituong numeric(2) DEFAULT 0,sovaovien varchar(10),tuoivao varchar(4),done varchar(1),bnmoi numeric(1) DEFAULT 0,noitiepdon numeric(2) DEFAULT 0,loai numeric(1) DEFAULT 0,ngayhen timestamp,userid numeric(7) DEFAULT 0,ngayud timestamp DEFAULT now(),CONSTRAINT pk_tiepdon PRIMARY KEY (maql) USING INDEX TABLESPACE medi_index,CONSTRAINT fk_tiepdon_btdbn FOREIGN KEY (mabn) REFERENCES medibv.btdbn (mabn) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_tiepdon_btdkp_bv FOREIGN KEY (makp) REFERENCES medibv.btdkp_bv (makp) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL,CONSTRAINT fk_tiepdon_doituong FOREIGN KEY (madoituong) REFERENCES medibv.doituong (madoituong) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.v_thvpct ADD COLUMN done numeric(1) default 0;</ten>
+  </Table>
+  <Table>
+    <ten>create table xxx.tainangt(maql numeric(25),sophieu varchar(20),ngay timestamp,socap numeric(1) default 0,ptvv text,pttn text,ptgaytn numeric(2) default 0,ptgaykhac text,mubaohiem numeric(1) default 0,gaiquai numeric(1) default 0,bivo numeric(1) default 0,loaimu text,ruoubia numeric(1) default 0,camquan numeric(1) default 0,mau numeric(5) default 0,hoitho numeric(5) default 0,sonao numeric(1) default 0,glassgow numeric(5) default 0,cotsongco numeric(1) default 0,thuongkhac numeric(1) default 0,nhapvien numeric(1) default 0,mocapcuu numeric(1) default 0,tuvong numeric(1) default 0,xinve numeric(1) default 0,mabv varchar(8),manv varchar(4),constraint pk_tainangt primary key(maql) USING INDEX TABLESPACE medi_index) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>alter TABLE medibv.v_trongoipk add column idgiavp numeric(7) default 0;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.v_trongoipk DROP CONSTRAINT pk_v_trongoipk;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.v_trongoipk ADD CONSTRAINT pk_v_trongoipk PRIMARY KEY (idgiavp, id, makp) USING INDEX TABLESPACE medi_index;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.v_tamung ADD COLUMN datru numeric(15,4) default 0;</ten>
+  </Table>
+  <Table>
+    <ten>create table xxx.v_tamungdatru(id numeric(25),idttrv numeric(25),ngay timestamp,sotien numeric(15,4) default 0,constraint pk_v_tamungdatru primary key(id,idttrv) USING INDEX TABLESPACE medi_index) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>create table xxx.pttt_hinh(id numeric(25),image1 bytea,image2 bytea,constraint pk_pttt_hinh primary key(id) using index tablespace medi_index) with oids;</ten>
+  </Table>
+  <Table>
+    <ten>alter table medibv.pttt_mau add column image1 bytea;</ten>
+  </Table>
+  <Table>
+    <ten>alter table medibv.pttt_mau add column image2 bytea;</ten>
+  </Table>
+  <Table>
+    <ten>alter table medibv.dmpttt add column image1 bytea;</ten>
+  </Table>
+  <Table>
+    <ten>alter table medibv.dmpttt add column image2 bytea;</ten>
+  </Table>
+  <Table>
+    <ten>alter table xxx.d_thuocbhytct add column madoituong numeric(2) default 1;</ten>
+  </Table>
+  <Table>
+    <ten>alter table xxx.d_ngtruct add column paid numeric(1) default 1;</ten>
+  </Table>
+  <Table>
+    <ten>alter table xxx.d_huybanct add column paid numeric(1) default 1;</ten>
+  </Table>
+  <Table>
+    <ten>alter table xxx.d_ngtruct add column madoituong numeric(2) default 1;</ten>
+  </Table>
+  <Table>
+    <ten>alter table xxx.d_huybanct add column madoituong numeric(2) default 1;</ten>
+  </Table>
+  <Table>
+    <ten>alter table xxx.d_ngtruct add column idttrv numeric(25) default 0;</ten>
+  </Table>
+  <Table>
+    <ten>alter table xxx.d_huybanct add column idttrv numeric(25) default 0;</ten>
+  </Table>
+  <Table>
+    <ten>alter table xxx.v_chidinh add column ngaythuchien timestamp;</ten>
+  </Table>
+  <Table>
+    <ten>update xxx.v_chidinh set ngaythuchien=ngay where ngaythuchien is null;</ten>
+  </Table>
+  <Table>
+    <ten>create table medibv.dmtyleban(tu numeric(10),den numeric(10),tyle numeric(7,2) default 0,userid numeric(7),ngayud timestamp default now(),constraint pk_dmtyleban primary key(tu,den) USING INDEX TABLESPACE medi_index) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_tienthuoc add column id numeric(25) default 0;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_tienthuoc DROP CONSTRAINT pk_d_tienthuoc;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_tienthuoc ADD CONSTRAINT pk_d_tienthuoc PRIMARY KEY (id,mabn,maql, idkhoa, ngay, makp, madoituong, mabd, giamua, done) USING INDEX TABLESPACE medi_index;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.v_loaivp ALTER computer TYPE text;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.dmcomputer ALTER computer TYPE text;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.dmcomputer ADD COLUMN medisoft numeric(1, 0) DEFAULT 0;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.dmcomputer ADD COLUMN duoc numeric(1, 0) DEFAULT 0;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.dmcomputer ADD COLUMN vienphi numeric(1, 0) DEFAULT 0;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.dmcomputer ADD COLUMN xn numeric(1, 0) DEFAULT 0;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.dmcomputer ADD COLUMN cls numeric(1, 0) DEFAULT 0;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.dmcomputer ADD COLUMN fmedisoft text;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.dmcomputer ADD COLUMN fduoc text;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.dmcomputer ADD COLUMN fvienphi text;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.dmcomputer ADD COLUMN fxn text;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.dmcomputer ADD COLUMN fcls text;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.v_chidinh ALTER computer TYPE text;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.d_dmkho ALTER computer TYPE text;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.d_duockp ALTER computer TYPE text;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.v_loaivp ADD COLUMN computervp text;</ten>
+  </Table>
+  <Table>
+    <ten>alter table xxx.v_chidinh add column idtrongoi numeric(7) default 0;</ten>
+  </Table>
+  <Table>
+    <ten>alter table xxx.v_chidinh add column hide numeric(1) default 0;</ten>
+  </Table>
+  <Table>
+    <ten>alter table medibv.di_dmthucdon add column hide numeric(1) default 0;</ten>
+  </Table>
+  <Table>
+    <ten>create table medibv.xn_laymau_ct(id numeric(25),idchidinh numeric(25),madoituong numeric(2),mavp numeric(7),soluong numeric(10,2),dongia numeric(12,2),mmyy varchar(4),constraint pk_xn_laymau_ct primary key(id,idchidinh)  USING INDEX TABLESPACE medi_index) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>alter table medibv.d_dmbd add column dangsx varchar(20);</ten>
+  </Table>
+  <Table>
+    <ten>alter table medibv.d_dmbd add column dangsd varchar(20);</ten>
+  </Table>
+  <Table>
+    <ten>alter table medibv.d_dmbd add column maatc text;</ten>
+  </Table>
+  <Table>
+    <ten>alter table medibv.d_dmbd add column atc text;</ten>
+  </Table>
+  <Table>
+    <ten>alter table medibv.d_dmbd add column generic text;</ten>
+  </Table>
+  <Table>
+    <ten>create table medibv.d_tuongtac(hc1 text,hc2 text,nhom1 text,nhom2 text,effect text,donang text,canlamgi text,coche text,ngayud timestamp default now(),constraint pk_d_tuongtac primary key(hc1,hc2)  USING INDEX TABLESPACE medi_index) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>create table medibv.benhmantinh(mabn varchar(10),chandoan text,maicd varchar(9),ghichu text,userid numeric(7) default 0,ngayud timestamp default now(),constraint pk_benhmantinh primary key(mabn,maicd)  USING INDEX TABLESPACE medi_index) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>alter table medibv.icd10 add column id numeric(5) default 0;</ten>
+  </Table>
+  <Table>
+    <ten>alter table medibv.d_theodonct add column stt numeric(3) default 1;</ten>
+  </Table>
+  <Table>
+    <ten>create table medibv.theodoitsu(mabn varchar(10),noidung text,constraint pk_theodoitsu primary key(mabn)  USING INDEX TABLESPACE medi_index) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>create table medibv.dmtheodoi(id numeric(3),stt numeric(3),ten text,constraint pk_dmtheodoi primary key(id)  USING INDEX TABLESPACE medi_index) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>alter table medibv.dmpttt add column id numeric(4) default 1;</ten>
+  </Table>
+  <Table>
+    <ten>create table medibv.m_menuitems(id numeric(5),stt numeric(5),ten text,loai numeric(3) default 0,tenloai text,constraint pk_m_menuitems primary key(id)  USING INDEX TABLESPACE medi_index) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>create table medibv.d_menuitems(id numeric(5),stt numeric(5),ten text,loai numeric(3) default 0,tenloai text,constraint pk_d_menuitems primary key(id)  USING INDEX TABLESPACE medi_index) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>create table medibv.v_menuitems(id numeric(5),stt numeric(5),ten text,loai numeric(3) default 0,tenloai text,constraint pk_v_menuitems primary key(id)  USING INDEX TABLESPACE medi_index) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE medibv.dmloaithe(ma varchar(2),ten text,nhom numeric(1, 0) DEFAULT 0,thu20 numeric(1, 0) DEFAULT 0,CONSTRAINT pk_dmloaithe PRIMARY KEY (ma) USING INDEX TABLESPACE medi_index) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE medibv.dmthe(mabn varchar(10),sothe varchar(20),mathe varchar(13),madt varchar(2),makcb varchar(5),hoten text,namsinh varchar(4),gioitinh numeric(1, 0) DEFAULT 0,diachi text,matt varchar(3),maqu varchar(5),maphuongxa varchar(7),cholam text,tungay timestamp,denngay timestamp,mabv varchar(8),sudung numeric(1, 0) DEFAULT 1,madoituong numeric(2, 0) DEFAULT 1,ngay1 timestamp,ngay2 timestamp,ngay3 timestamp,CONSTRAINT pk_dmthe PRIMARY KEY (sothe) USING INDEX TABLESPACE medi_index) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>alter table medibv.bhyt add column ngay1 timestamp;</ten>
+  </Table>
+  <Table>
+    <ten>alter table medibv.bhyt add column ngay2 timestamp;</ten>
+  </Table>
+  <Table>
+    <ten>alter table medibv.bhyt add column ngay3 timestamp;</ten>
+  </Table>
+  <Table>
+    <ten>alter table xxx.bhyt add column ngay1 timestamp;</ten>
+  </Table>
+  <Table>
+    <ten>alter table xxx.bhyt add column ngay2 timestamp;</ten>
+  </Table>
+  <Table>
+    <ten>alter table xxx.bhyt add column ngay3 timestamp;</ten>
+  </Table>
+  <Table>
+    <ten>alter table medibv.d_dmbd add column gia_bh numeric(18,4) default 0;</ten>
+  </Table>
+  <Table>
+    <ten>alter table medibv.d_dmbd add column kythuat numeric(1) default -1;</ten>
+  </Table>
+  <Table>
+    <ten>alter table medibv.v_giavp add column kythuat numeric(1) default -1;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE medibv.d_dmbd_luu(id numeric(7) NOT NULL DEFAULT 0,ma varchar(10),ten text,dang varchar(20),hamluong varchar(20),manhom numeric(3) DEFAULT 0,bhyt numeric(3) DEFAULT 0,nhom numeric(2) DEFAULT 0,dongia numeric(24,10) DEFAULT 0,giaban numeric(18,4) DEFAULT 0,ngayud timestamp DEFAULT now(),gia_bh numeric(18,4) DEFAULT 0)WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>alter table medibv.dmbs add column password_ text;</ten>
+  </Table>
+  <Table>
+    <ten>alter table medibv.dmbs add column dienthoai text;</ten>
+  </Table>
+  <Table>
+    <ten>alter table medibv.dmbs add column didong text;</ten>
+  </Table>
+  <Table>
+    <ten>alter table medibv.dmbs add column message text;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.d_suamadt ALTER soluong TYPE numeric(10, 2);</ten>
+  </Table>
+  <Table>
+    <ten>alter table medibv.bhyt add column ngaytrinh timestamp;</ten>
+  </Table>
+  <Table>
+    <ten>alter table medibv.bhyt add column ngayduyet timestamp;</ten>
+  </Table>
+  <Table>
+    <ten>alter table medibv.bhyt add column ngaygiahan timestamp;</ten>
+  </Table>
+  <Table>
+    <ten>alter table xxx.v_thvpll add column idthuoc text;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_theodoitscd alter loai type numeric(2);</ten>
+  </Table>
+  <Table>
+    <ten>alter table medibv.doituong add column donvi numeric(3) default 0;</ten>
+  </Table>
+  <Table>
+    <ten>create table medibv.dmdvchitra(id numeric(3),ten text,constraint pk_dmdvchitra primary key(id));</ten>
+  </Table>
+  <Table>
+    <ten>alter table medibv.doituong add column ngaysinh numeric(1) default 0;</ten>
+  </Table>
+  <Table>
+    <ten>alter table medibv.d_dmkho add column phieu text;</ten>
+  </Table>
+  <Table>
+    <ten>alter table medibv.d_dmkho add column loaiphieu text;</ten>
+  </Table>
+  <Table>
+    <ten>alter table medibv.d_duockp add column phieu text;</ten>
+  </Table>
+  <Table>
+    <ten>alter table medibv.d_duockp add column loaiphieu text;</ten>
+  </Table>
+  <Table>
+    <ten>alter table medibv.giayravien add column kyrakhoa varchar(4);</ten>
+  </Table>
+  <Table>
+    <ten>create table medibv.ttptttkhoa(id numeric(25),mabn varchar(10),maql numeric(25),idkhoa numeric(25),noidung text,userid numeric(7),ngayud timestamp default now(),constraint pk_ttptttkhoa primary key(id));</ten>
+  </Table>
+  <Table>
+    <ten>create table medibv.d_khonghi(makho numeric(6),ngay varchar(10),ghichu text,userid numeric(7),ngayud timestamp default now(),constraint pk_d_khonghi primary key(makho,ngay));</ten>
+  </Table>
+  <Table>
+    <ten>alter table medibv.dmbenhan_bv add column phong numeric(1) default 1;</ten>
+  </Table>
+  <Table>
+    <ten>alter table xxx.benhancc add column mabsnb varchar(4);</ten>
+  </Table>
+  <Table>
+    <ten>update xxx.benhancc set mabsnb=mabs where mabsnb is null;</ten>
+  </Table>
+  <Table>
+    <ten>alter table medibv.giayravien add column ttnguoibenhlucrv text;</ten>
+  </Table>
+  <Table>
+    <ten>alter table medibv.d_dmnx add column macongno numeric(7) default 0;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE medibv.a_dmloaidt(id numeric(2) NOT NULL,ten varchar(254),sudung numeric(1) DEFAULT 1,userid numeric(7) DEFAULT 0,ngayud timestamp DEFAULT now(),CONSTRAINT pk_a_dmloaidt PRIMARY KEY (id) USING INDEX TABLESPACE medi_index)WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE medibv.a_dmdt(id numeric(7) NOT NULL,madt varchar(6),tendt varchar(254),makp numeric(6) DEFAULT 0,loaidt numeric(2) DEFAULT 0,diachi varchar(254),dienthoai varchar(20),email varchar(100),fax varchar(20),masothue varchar(20),sotaikhoan varchar(20),nganhang varchar(254),tinhtp varchar(100),daidien varchar(254),dtnr varchar(20),dtdd varchar(20),socmnd varchar(20),capngay timestamp,noicap varchar(254),mavt varchar(10),huy numeric(1) DEFAULT 0,sudung numeric(1) DEFAULT 1,medisoft varchar(4),madvqhns varchar(20),userid numeric(7) DEFAULT 0,ngayud timestamp DEFAULT now(),CONSTRAINT pk_a_dmdt PRIMARY KEY (id) USING INDEX TABLESPACE medi_index,CONSTRAINT fk_a_dmdt_a_dmloaidt FOREIGN KEY (loaidt) REFERENCES medibv.a_dmloaidt (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE SET NULL) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE medibv.license(computer_key text NOT NULL,license_key text,computer text,ngayud timestamp default now(),CONSTRAINT pk_license PRIMARY KEY (computer_key) USING INDEX TABLESPACE medi_index)  WITH OIDS; </ten>
+  </Table>
+  <Table>
+    <ten>create table medibv.d_hcton(nhom number(2),mmyy varchar2(4),userid number(5) default 0,ngayud date default sysdate,constraint pk_d_hcton primary key(nhom,mmyy) USING INDEX TABLESPACE medi_index)  WITH OIDS; </ten>
+  </Table>
+  <Table>
+    <ten>alter table medibv.d_dmbd add column chenhlech numeric(1) default 0;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.pttt_thuoc ALTER madoituong TYPE numeric(2);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.pttt_thuoc ALTER soluong TYPE numeric(12,4);</ten>
+  </Table>
+  <Table>
+    <ten>alter table xxx.d_daduyet add column duyettreole numeric(1) default 0;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.d_khonghi DROP CONSTRAINT pk_d_khonghi;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.d_khonghi ADD COLUMN tu timestamp;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.d_khonghi ADD COLUMN den timestamp;</ten>
+  </Table>
+  <Table>
+    <ten>update medibv.d_khonghi set tu=to_timestamp(ngay,'dd/mm/yyyy hh24:mi') where tu is null;</ten>
+  </Table>
+  <Table>
+    <ten>update medibv.d_khonghi set den=to_timestamp(ngay,'dd/mm/yyyy hh24:mi') where den is null;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.d_khonghi ADD CONSTRAINT pk_d_khonghi PRIMARY KEY (makho, tu, den) USING INDEX TABLESPACE medi_index;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.d_dmkho ADD COLUMN tkco varchar2(20);</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.d_dmnguon ADD COLUMN ketoan numeric(2) default 1;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.d_dmnx ADD COLUMN macongno numeric(7) default 0;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE medibv.a_dmtcnkp(id numeric(3) NOT NULL,ten varchar(254),huy numeric(1) DEFAULT 0,userid numeric(7) DEFAULT 0,ngayud timestamp DEFAULT now(),CONSTRAINT pk_a_dmtcnkp PRIMARY KEY (id) USING INDEX TABLESPACE medi_index) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.d_nhapll ADD COLUMN ketoan numeric(20) default 0;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.a_dlogin ADD COLUMN right1 text;</ten>
+  </Table>
+  <Table>
+    <ten>alter table medibv.a_ctctzzz add column ngoaite numeric(7) DEFAULT 0;</ten>
+  </Table>
+  <Table>
+    <ten>alter table medibv.a_ctctzzz add column tygia numeric(10,2) DEFAULT 0;</ten>
+  </Table>
+  <Table>
+    <ten>alter table medibv.a_hoatdong add column stt numeric(5) default 1;</ten>
+  </Table>
+  <Table>
+    <ten>alter table medibv.a_bcnghang add column stt numeric(5) default 1;</ten>
+  </Table>
+  <Table>
+    <ten>alter table medibv.a_dmchuong add column stt numeric(5) default 1;</ten>
+  </Table>
+  <Table>
+    <ten>alter table medibv.a_dmtcnkp add column sudung numeric(5) default 1;</ten>
+  </Table>
+  <Table>
+    <ten>alter table medibv.a_dmtcnkp add column stt numeric(5) default 1;</ten>
+  </Table>
+  <Table>
+    <ten>alter table medibv.a_nghiepvu add column stt numeric(5) default 1;</ten>
+  </Table>
+  <Table>
+    <ten>alter table medibv.a_dmloaidt add column stt numeric(5) default 1;</ten>
+  </Table>
+  <Table>
+    <ten>alter table medibv.a_dmloaibk add column stt numeric(5) default 1;</ten>
+  </Table>
+  <Table>
+    <ten>alter table medibv.a_dmlk add column stt numeric(5) default 1;</ten>
+  </Table>
+  <Table>
+    <ten>alter table medibv.a_dmcapphat add column stt numeric(5) default 1;</ten>
+  </Table>
+  <Table>
+    <ten>alter table medibv.a_dmdt add column stt numeric(5) default 1;</ten>
+  </Table>
+  <Table>
+    <ten>alter table medibv.a_dmngoaite add column stt numeric(5) default 1;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE medibv.a_dmtables(id numeric(5) NOT NULL DEFAULT 0,tables varchar(20),diengiai text,fields text,CONSTRAINT pk_a_dmtables PRIMARY KEY (id) USING INDEX TABLESPACE medi_index) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>alter table medibv.a_dmkhoanmuc add column stt numeric(5) default 1;</ten>
+  </Table>
+  <Table>
+    <ten>alter table medibv.d_dmkho add column useridkt numeric(5) default 0;</ten>
+  </Table>
+  <Table>
+    <ten>alter table medibv.d_dmnguon add column stk numeric(1) default 0;</ten>
+  </Table>
+  <Table>
+    <ten>alter table xxx.v_chidinh add column duyet numeric(1) default 1;</ten>
+  </Table>
+  <Table>
+    <ten>alter table xxx.d_bucstt add column sltreo numeric(12,4) default 0;</ten>
+  </Table>
+  <Table>
+    <ten>alter table xxx.d_bucstt add column madoituong numeric(2) default 1;</ten>
+  </Table>
+  <Table>
+    <ten>alter table xxx.d_daduyet add column duyettreole numeric(1) default 0;</ten>
+  </Table>
+  <Table>
+    <ten>alter table medibv.d_doituong add column makho text;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.d_dmkho ADD COLUMN tkno varchar2(20);</ten>
+  </Table>
+  <Table>
+    <ten>alter table xxx.pttt add column idchidinh numeric(25) DEFAULT 0;</ten>
+  </Table>
+  <Table>
+    <ten>alter table xxx.v_chidinh add column ghichu text;</ten>
+  </Table>
+  <Table>
+    <ten>alter table xxx.d_tienthuoc add column datra numeric(24,10) default 0;</ten>
+  </Table>
+  <Table>
+    <ten>alter table medibv.tuvong add column ghichu text;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE medibv.giayxacnhan(mabn varchar(10),maql numeric(25) DEFAULT 0,lydo text,phuongphap text,thuoc text,sotien numeric(14,2) default 0, lanin numeric(3) DEFAULT 0,  userid numeric(7) DEFAULT 0,  ngayud timestamp DEFAULT now(),  CONSTRAINT pk_giayxacnhan PRIMARY KEY (maql)) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE medibv.d_chatluong(id numeric(2) NOT NULL DEFAULT 0,ten text,nhom numeric(2) DEFAULT 0,stt numeric(2) DEFAULT 0,ngayud timestamp DEFAULT now(),CONSTRAINT pk_d_chatluong PRIMARY KEY (id) USING INDEX TABLESPACE medi_index)WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE medibv.d_tieuchuan(id numeric(2) NOT NULL DEFAULT 0,ten text,nhom numeric(2) DEFAULT 0,stt numeric(2) DEFAULT 0,ngayud timestamp DEFAULT now(),CONSTRAINT pk_d_tieuchuan PRIMARY KEY (id) USING INDEX TABLESPACE medi_index)WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE medibv.d_dmthaull(id numeric(25) NOT NULL DEFAULT 0,nhom numeric(2) DEFAULT 0,madv numeric(4) DEFAULT 0,so varchar(20),ngay timestamp,tu timestamp,den timestamp,ghichu text,done numeric(1) DEFAULT 0,userid numeric(7) DEFAULT 0,ngayud timestamp DEFAULT now(),CONSTRAINT pk_d_dmthaull PRIMARY KEY (id) USING INDEX TABLESPACE medi_index,CONSTRAINT fk_d_dmthaull_d_dmnx FOREIGN KEY (madv)REFERENCES medibv.d_dmnx (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE NO ACTION) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE medibv.d_dmthauct(id numeric(25) NOT NULL DEFAULT 0,idll numeric(25) DEFAULT 0,mabd numeric(7) DEFAULT 0,nguyenlieu text,cl_nguyenlieu numeric(3) DEFAULT 0,chatluong numeric(3) DEFAULT 0,soluong numeric(12,2) DEFAULT 0,sldutru numeric(12,2) DEFAULT 0,slnhap numeric(12,2) DEFAULT 0,dongia numeric(12,4) DEFAULT 0,ngayud timestamp,CONSTRAINT pk_d_dnthauct PRIMARY KEY (id) USING INDEX TABLESPACE medi_index,CONSTRAINT fk_d_dmthauct_d_dmbd FOREIGN KEY (mabd) REFERENCES medibv.d_dmbd (id) MATCH SIMPLE ON UPDATE NO ACTION ON DELETE NO ACTION)WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE medibv.dmhuyet(id numeric(7, 0) DEFAULT 0,stt numeric(7, 0) DEFAULT 0,ten text,mabs varchar(4),maicd varchar(9),noidung text,userid numeric(5, 0) DEFAULT 0,ngayud timestamp DEFAULT now(),CONSTRAINT pk_dmhuyet PRIMARY KEY (id) USING INDEX TABLESPACE medi_index) WITH OIDS TABLESPACE medi_data;</ten>
+  </Table>
+  <Table>
+    <ten>CREATE TABLE medibv.bsnghi(mabs varchar2(4),tu timestamp NOT NULL,den timestamp NOT NULL,ghichu text,mabsc varchar2(4),userid numeric(7),ngayud timestamp DEFAULT now(),  CONSTRAINT pk_bsnghi PRIMARY KEY (mabs, tu, den) USING INDEX TABLESPACE medi_index) WITH OIDS;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.v_thvpll ALTER maicd TYPE text;</ten>
+  </Table>
+  <Table>
+    <ten>alter table xxx.d_tienthuoc add column gianovat numeric(24,10) NOT NULL DEFAULT 0;</ten>
+  </Table>
+  <Table>
+    <ten>alter table medibv.d_suamadt add column gianovat numeric(24,10) NOT NULL DEFAULT 0;</ten>
+  </Table>
+  <Table>
+    <ten>alter table medibv.d_suamadt add column kpmoi text;</ten>
+  </Table>
+  <Table>
+    <ten>alter table medibv.d_dmkho add column dongy numeric(1) default 0;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.v_giavp add column giavtth numeric(10) default 0;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.btdkp_bv add column giavtth numeric(10) default 0;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE medibv.btdkp_add add column giavtth numeric(10) default 0;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.v_ttrvll ADD COLUMN quyensodv numeric(7, 0) DEFAULT 0;</ten>
+  </Table>
+  <Table>
+    <ten>ALTER TABLE xxx.v_ttrvll ADD COLUMN sobienlaidv numeric(10, 0) DEFAULT 0;</ten>
+  </Table>
+</NewDataSet>

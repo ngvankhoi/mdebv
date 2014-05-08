@@ -1,0 +1,753 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="menu">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="loai" type="xs:string" minOccurs="0" />
+                <xs:element name="tenloai" type="xs:string" minOccurs="0" />
+                <xs:element name="id" type="xs:string" minOccurs="0" />
+                <xs:element name="ten" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <menu>
+    <loai>000</loai>
+    <tenloai>Medisoft</tenloai>
+    <id>0001</id>
+    <ten>M1. Báo cáo trực lãnh đạo</ten>
+  </menu>
+  <menu>
+    <loai>000</loai>
+    <tenloai>Medisoft</tenloai>
+    <id>0002</id>
+    <ten>M2. Báo cáo trẻ em dưới 5 tuổi chết</ten>
+  </menu>
+  <menu>
+    <loai>000</loai>
+    <tenloai>Medisoft</tenloai>
+    <id>0003</id>
+    <ten>M3. Báo cáo hoạt động khám chữa bệnh và các dịch vụ y tế</ten>
+  </menu>
+  <menu>
+    <loai>000</loai>
+    <tenloai>Medisoft</tenloai>
+    <id>0004</id>
+    <ten>M4. Thông tin chuyển viện</ten>
+  </menu>
+  <menu>
+    <loai>000</loai>
+    <tenloai>Medisoft</tenloai>
+    <id>0005</id>
+    <ten>M5. Phẫu thuật - thủ thuật</ten>
+  </menu>
+  <menu>
+    <loai>000</loai>
+    <tenloai>Medisoft</tenloai>
+    <id>0006</id>
+    <ten>M6. Báo cáo bệnh nhân sốt xuất huyết </ten>
+  </menu>
+  <menu>
+    <loai>000</loai>
+    <tenloai>Medisoft</tenloai>
+    <id>0007</id>
+    <ten>M7. Báo cáo tình hình PTTT</ten>
+  </menu>
+  <menu>
+    <loai>000</loai>
+    <tenloai>Medisoft</tenloai>
+    <id>0008</id>
+    <ten>M8. Sổ lưu trữ hố sơ bệnh án</ten>
+  </menu>
+  <menu>
+    <loai>000</loai>
+    <tenloai>Medisoft</tenloai>
+    <id>0009</id>
+    <ten>M9. Sồ vào viện - ra viện - chuyển viện</ten>
+  </menu>
+  <menu>
+    <loai>000</loai>
+    <tenloai>Medisoft</tenloai>
+    <id>0010</id>
+    <ten>M10. Sổ lưu trữ Hồ sơ bệnh án tử vong</ten>
+  </menu>
+  <menu>
+    <loai>000</loai>
+    <tenloai>Medisoft</tenloai>
+    <id>0011</id>
+    <ten>M11. Hoạt động điều trị nội trú</ten>
+  </menu>
+  <menu>
+    <loai>001</loai>
+    <tenloai>Viện phí</tenloai>
+    <id>0101</id>
+    <ten>V1. Doanh số theo bác sỹ (Theo chỉ định)</ten>
+  </menu>
+  <menu>
+    <loai>001</loai>
+    <tenloai>Viện phí</tenloai>
+    <id>0102</id>
+    <ten>V2.Doanh thu theo bác sĩ (Theo công khám)</ten>
+  </menu>
+  <menu>
+    <loai>001</loai>
+    <tenloai>Viện phí</tenloai>
+    <id>0103</id>
+    <ten>V3. Doanh thu toàn bệnh viện</ten>
+  </menu>
+  <menu>
+    <loai>001</loai>
+    <tenloai>Viện phí</tenloai>
+    <id>0104</id>
+    <ten>V4. Doanh số theo bác sỹ(Theo đơn thuốc)</ten>
+  </menu>
+  <menu>
+    <loai>001</loai>
+    <tenloai>Viện phí</tenloai>
+    <id>0105</id>
+    <ten>V5. Báo cáo doanh thu theo người thu</ten>
+  </menu>
+  <menu>
+    <loai>001</loai>
+    <tenloai>Viện phí</tenloai>
+    <id>0106</id>
+    <ten>V6. Báo cáo doanh thu theo bác sĩ ngoài bệnh viện</ten>
+  </menu>
+  <menu>
+    <loai>001</loai>
+    <tenloai>Viện phí</tenloai>
+    <id>0107</id>
+    <ten>V7. Bảng kê thu trực tiếp</ten>
+  </menu>
+  <menu>
+    <loai>001</loai>
+    <tenloai>Viện phí</tenloai>
+    <id>0108</id>
+    <ten>V8. Bảng kê thu tạm ứng</ten>
+  </menu>
+  <menu>
+    <loai>001</loai>
+    <tenloai>Viện phí</tenloai>
+    <id>0109</id>
+    <ten>V9. Bảng kê thu chi ra viện</ten>
+  </menu>
+  <menu>
+    <loai>002</loai>
+    <tenloai>Cận lâm sàng</tenloai>
+    <id>0201</id>
+    <ten>CLS1. Báo cáo hoá chất sử dụng trong xét nghiệm</ten>
+  </menu>
+  <menu>
+    <loai>002</loai>
+    <tenloai>Cận lâm sàng</tenloai>
+    <id>0202</id>
+    <ten>CLS2.Báo cáo theo tên hoặc loại viện phí (kỹ thuật CDHA)</ten>
+  </menu>
+  <menu>
+    <loai>002</loai>
+    <tenloai>Cận lâm sàng</tenloai>
+    <id>0203</id>
+    <ten>CLS3. Báo cáo hoạt động CLS</ten>
+  </menu>
+  <menu>
+    <loai>002</loai>
+    <tenloai>Cận lâm sàng</tenloai>
+    <id>0204</id>
+    <ten>CLS4. Thống kê chỉ định cận lâm sàng</ten>
+  </menu>
+  <menu>
+    <loai>003</loai>
+    <tenloai>Phát thuốc</tenloai>
+    <id>0301</id>
+    <ten>P1.1 Phát thuốc</ten>
+  </menu>
+  <menu>
+    <loai>003</loai>
+    <tenloai>Phát thuốc</tenloai>
+    <id>0302</id>
+    <ten>P2.1 Phát thuốc</ten>
+  </menu>
+  <menu>
+    <loai>003</loai>
+    <tenloai>Phát thuốc</tenloai>
+    <id>0303</id>
+    <ten>P3.1 Phát thuốc</ten>
+  </menu>
+  <menu>
+    <loai>003</loai>
+    <tenloai>Phát thuốc</tenloai>
+    <id>0304</id>
+    <ten>P4.1 Phát thuốc</ten>
+  </menu>
+  <menu>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>0401</id>
+    <ten>D1.1 Báo cáo nhập xuất tồn kho Mẫu I</ten>
+  </menu>
+  <menu>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>0402</id>
+    <ten>D1.2 Báo cáo nhập xuất tồn kho </ten>
+  </menu>
+  <menu>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>0403</id>
+    <ten>D1.3 Báo cáo nhập xuất tồn kho mẫu III</ten>
+  </menu>
+  <menu>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>0404</id>
+    <ten>D1.4 Nhập - xuất - tồn theo nhóm báo cáo</ten>
+  </menu>
+  <menu>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>0405</id>
+    <ten>D1.5 Nhập - xuất - tồn theo nhóm dược bệnh viện</ten>
+  </menu>
+  <menu>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>0486</id>
+    <ten>D1.6 Tồn kho</ten>
+  </menu>
+  <menu>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>0476</id>
+    <ten>D1.7 Báo cáo tiền thuốc sử dụng</ten>
+  </menu>
+  <menu>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>0477</id>
+    <ten>D1.8 Biến động giá thuốc</ten>
+  </menu>
+  <menu>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>0478</id>
+    <ten>D1.9 Thuốc gần hết hạn dùng</ten>
+  </menu>
+  <menu>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>0406</id>
+    <ten>D2.1 Nhập kho từng tháng</ten>
+  </menu>
+  <menu>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>0407</id>
+    <ten>D3.1 Báo cáo thuốc sử dụng theo ngày</ten>
+  </menu>
+  <menu>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>0408</id>
+    <ten>D3.2 Xuất kho từ tháng ... đến tháng</ten>
+  </menu>
+  <menu>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>0409</id>
+    <ten>D3.3 Xuất kho (Chi tiết theo tủ trực)</ten>
+  </menu>
+  <menu>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>0410</id>
+    <ten>D3.4 Xuất kho từng tháng</ten>
+  </menu>
+  <menu>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>0475</id>
+    <ten>D3.5 Thống kê nhập xuất kho theo ngày</ten>
+  </menu>
+  <menu>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>0476</id>
+    <ten>D3.6 Xuất kho tổng hợp theo ngày</ten>
+  </menu>
+  <menu>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>0484</id>
+    <ten>D3.7 Tổng hợp xuất kho theo từng đối tượng(Phòng khám)</ten>
+  </menu>
+  <menu>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>0411</id>
+    <ten>Phiếu nhập</ten>
+  </menu>
+  <menu>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>0412</id>
+    <ten>Phiếu kiểm nhập theo nhóm</ten>
+  </menu>
+  <menu>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>0413</id>
+    <ten>Kiểm nhập</ten>
+  </menu>
+  <menu>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>0414</id>
+    <ten>Bảng kê hóa đơn mua hàng</ten>
+  </menu>
+  <menu>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>0415</id>
+    <ten>Kiểm nhập lọc theo số hóa đơn</ten>
+  </menu>
+  <menu>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>0416</id>
+    <ten>Kiểm kê vật tư, sản phẩm, hàng hoá</ten>
+  </menu>
+  <menu>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>0417</id>
+    <ten>Kiểm kê vật tư, sản phẩm, hàng hoá (nhóm)</ten>
+  </menu>
+  <menu>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>0418</id>
+    <ten>Thanh lý, hủy</ten>
+  </menu>
+  <menu>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>0419</id>
+    <ten>Biên bản kiểm kê TSCĐ  Dụng cụ</ten>
+  </menu>
+  <menu>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>0420</id>
+    <ten>Phiếu kiểm kê kho</ten>
+  </menu>
+  <menu>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>0421</id>
+    <ten>D4.1 Toa thuốc bán lẻ</ten>
+  </menu>
+  <menu>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>0422</id>
+    <ten>D4.2 Nhập xuất tồn</ten>
+  </menu>
+  <menu>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>0423</id>
+    <ten>D4.3 Thu tiền thuốc</ten>
+  </menu>
+  <menu>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>0424</id>
+    <ten>D4.4 Biên bản kiểm kê</ten>
+  </menu>
+  <menu>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>0425</id>
+    <ten>D4.5 Nhập xuất tồn chi tiết</ten>
+  </menu>
+  <menu>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>0426</id>
+    <ten>D4.6 Tổng hợp lãi gộp</ten>
+  </menu>
+  <menu>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>0427</id>
+    <ten>D4.7 Thống kê thuốc theo bác sỹ</ten>
+  </menu>
+  <menu>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>0428</id>
+    <ten>D4.8 Bảng kê xuất bán hàng</ten>
+  </menu>
+  <menu>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>0429</id>
+    <ten>D4.9 Theo dõi giá thuốc</ten>
+  </menu>
+  <menu>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>0430</id>
+    <ten>D4.10 In phiếu xuất kho</ten>
+  </menu>
+  <menu>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>0431</id>
+    <ten>D5.1 Sổ chi tiết vật tư, sản phẩm, hàng hóa</ten>
+  </menu>
+  <menu>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>0432</id>
+    <ten>D5.2 Sổ theo dõi tài sản cố định và dụng cụ</ten>
+  </menu>
+  <menu>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>0433</id>
+    <ten>D5.3 Sổ kho</ten>
+  </menu>
+  <menu>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>0434</id>
+    <ten>D5.4 Thẻ kho</ten>
+  </menu>
+  <menu>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>0435</id>
+    <ten>D5.5 Thẻ kho theo cơ số tủ trực</ten>
+  </menu>
+  <menu>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>0436</id>
+    <ten>D5.6 Chi tiết xuất kho theo mặt hàng</ten>
+  </menu>
+  <menu>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>0437</id>
+    <ten>D7.1 In đơn thuốc</ten>
+  </menu>
+  <menu>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>0438</id>
+    <ten>D7.2 In phiếu xuất kho</ten>
+  </menu>
+  <menu>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>0439</id>
+    <ten>D7.3 In phiếu xuất kho phòng mỗ</ten>
+  </menu>
+  <menu>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>0440</id>
+    <ten>D7.4 Tổng hợp phiếu xuất theo khoa</ten>
+  </menu>
+  <menu>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>0441</id>
+    <ten>D7.5 Báo cáo cơ số tủ trực các khoa</ten>
+  </menu>
+  <menu>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>0442</id>
+    <ten>D7.6 Sử dụng nội trú từ ngày ... đến ngày</ten>
+  </menu>
+  <menu>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>0443</id>
+    <ten>D7.7 Báo cáo nhập - xuất - tồn tủ trực theo khoa</ten>
+  </menu>
+  <menu>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>0444</id>
+    <ten>D7.8 Xuất kho theo ngày chi tiết ngoại trú,nội trú</ten>
+  </menu>
+  <menu>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>0445</id>
+    <ten>Báo cáo nhập xuất tồn chi tiết các kho</ten>
+  </menu>
+  <menu>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>0446</id>
+    <ten>Báo cáo nhập xuất tồn chi tiết kho chẵn</ten>
+  </menu>
+  <menu>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>0447</id>
+    <ten>Báo cáo thuốc theo nhóm.</ten>
+  </menu>
+  <menu>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>0448</id>
+    <ten>Báo cáo xuất kho chuyển kho.</ten>
+  </menu>
+  <menu>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>0449</id>
+    <ten>Báo cáo chi tiết nhập.</ten>
+  </menu>
+  <menu>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>0450</id>
+    <ten>Nhập xuất tồn toàn viện </ten>
+  </menu>
+  <menu>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>0451</id>
+    <ten>Báo cáo nhập xuất tồn khoa (Tủ trực)</ten>
+  </menu>
+  <menu>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>0452</id>
+    <ten>Báo cáo nhập xuất tồn kho</ten>
+  </menu>
+  <menu>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>0453</id>
+    <ten>Nhập xuất tồn chi tiết toàn viện (Kho + tủ trực)</ten>
+  </menu>
+  <menu>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>0454</id>
+    <ten>Báo cáo nhập - xuất - tồn kho</ten>
+  </menu>
+  <menu>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>0455</id>
+    <ten>Báo cáo xuất khác</ten>
+  </menu>
+  <menu>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>0456</id>
+    <ten>Biên bản kiểm kê vật tư, sản phẩm, hàng hóa</ten>
+  </menu>
+  <menu>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>0457</id>
+    <ten>Biên bản kiểm nhập </ten>
+  </menu>
+  <menu>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>0458</id>
+    <ten>Biên bản thanh lý</ten>
+  </menu>
+  <menu>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>0459</id>
+    <ten>Báo cáo sử dụng theo nhóm toàn viện</ten>
+  </menu>
+  <menu>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>0460</id>
+    <ten>Báo cáo sử dụng thuốc Độc - Gây nghiện - Hướng thần</ten>
+  </menu>
+  <menu>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>0461</id>
+    <ten>Báo cáo sử dụng theo ngày</ten>
+  </menu>
+  <menu>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>0462</id>
+    <ten>Báo cáo giá trị tồn kho khoa dược</ten>
+  </menu>
+  <menu>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>0463</id>
+    <ten>Báo cáo tiền thuốc sử dụng tại các khoa</ten>
+  </menu>
+  <menu>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>0464</id>
+    <ten>Báo cáo hoàn trả theo khoa phòng</ten>
+  </menu>
+  <menu>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>0465</id>
+    <ten>Báo cáo xuất kho chi tiết</ten>
+  </menu>
+  <menu>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>0467</id>
+    <ten>Báo cáo xuất chuyển nguồn</ten>
+  </menu>
+  <menu>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>0468</id>
+    <ten>Báo cáo xuất chuyển kho</ten>
+  </menu>
+  <menu>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>0469</id>
+    <ten>Báo cáo thuốc chương trình</ten>
+  </menu>
+  <menu>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>0470</id>
+    <ten>Báo cáo dược bệnh viện</ten>
+  </menu>
+  <menu>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>0471</id>
+    <ten>Cập nhật đơn giá</ten>
+  </menu>
+  <menu>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>0472</id>
+    <ten>Danh mục nhóm biệt dược</ten>
+  </menu>
+  <menu>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>0473</id>
+    <ten>Danh mục khác tính tăng cơ số tủ trực</ten>
+  </menu>
+  <menu>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>0474</id>
+    <ten>Danh mục nhóm nguồn</ten>
+  </menu>
+  <menu>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>0479</id>
+    <ten>D10.1 Đơn thuốc</ten>
+  </menu>
+  <menu>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>0480</id>
+    <ten>D11.1 Đơn thuốc</ten>
+  </menu>
+  <menu>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>0481</id>
+    <ten>D11.2 Đơn thuốc trẻ em &lt; 6 tuổi</ten>
+  </menu>
+  <menu>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>0482</id>
+    <ten>D11.3 Tổng hợp xuất kho theo đơn</ten>
+  </menu>
+  <menu>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>0485</id>
+    <ten>D12. Truy vấn ngày nhập thuốc</ten>
+  </menu>
+  <menu>
+    <loai>006</loai>
+    <tenloai>Tiện ích</tenloai>
+    <id>0601</id>
+    <ten>Dự trù theo kho</ten>
+  </menu>
+  <menu>
+    <loai>006</loai>
+    <tenloai>Tiện ích</tenloai>
+    <id>0603</id>
+    <ten>Phân quyền sử dụng theo người sử dụng</ten>
+  </menu>
+  <menu>
+    <loai>006</loai>
+    <tenloai>Tiện ích</tenloai>
+    <id>0604</id>
+    <ten>Cấu hình thông số báo cáo</ten>
+  </menu>
+  <menu>
+    <loai>006</loai>
+    <tenloai>Tiện ích</tenloai>
+    <id>0605</id>
+    <ten>Khai báo mẫu báo cáo</ten>
+  </menu>
+  <menu>
+    <loai>006</loai>
+    <tenloai>Tiện ích</tenloai>
+    <id>0606</id>
+    <ten>Nhóm khoa phòng</ten>
+  </menu>
+  <menu>
+    <loai>006</loai>
+    <tenloai>Tiện ích</tenloai>
+    <id>0607</id>
+    <ten>Nhóm đối tượng</ten>
+  </menu>
+  <menu>
+    <loai>006</loai>
+    <tenloai>Tiện ích</tenloai>
+    <id>0608</id>
+    <ten>Loại nhân viên</ten>
+  </menu>
+  <menu>
+    <loai>006</loai>
+    <tenloai>Tiện ích</tenloai>
+    <id>0609</id>
+    <ten>Danh mục khác</ten>
+  </menu>
+  <menu>
+    <loai>006</loai>
+    <tenloai>Tiện ích</tenloai>
+    <id>0610</id>
+    <ten>Cập nhật số liệu</ten>
+  </menu>
+</NewDataSet>

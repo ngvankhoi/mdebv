@@ -1,0 +1,127 @@
+<?xml version="1.0" standalone="yes" ?>
+<NewDataSet>
+	<xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xs:element name="NewDataSet" msdata:IsDataSet="true">
+			<xs:complexType>
+				<xs:choice maxOccurs="unbounded">
+					<xs:element name="Table">
+						<xs:complexType>
+							<xs:sequence>
+								<xs:element name="ma" type="xs:string" minOccurs="0" />
+								<xs:element name="ten" type="xs:string" minOccurs="0" />
+								<xs:element name="sql1" type="xs:string" minOccurs="0" />
+								<xs:element name="sql2" type="xs:string" minOccurs="0" />
+								<xs:element name="gr1" type="xs:string" minOccurs="0" />
+								<xs:element name="gr2" type="xs:string" minOccurs="0" />
+							</xs:sequence>
+						</xs:complexType>
+					</xs:element>
+				</xs:choice>
+			</xs:complexType>
+		</xs:element>
+	</xs:schema>
+	<Table>
+		<ma>c01/c01</ma>
+		<ten>Tổng số ca mắc bệnh đến khám cao nhất</ten>
+		<sql1>select a.ma,sum(a.c01) as solieu from medibv.bieu_11 a,medibv.dm_11 b</sql1>
+		<sql2>select sum(a.c01) as solieu from medibv.bieu_11 a,medibv.dm_11 b</sql2>
+		<gr1>group by a.ma order by sum(a.c01) desc</gr1>
+		<gr2></gr2>
+	</Table>
+	<Table>
+		<ma>c02/c02</ma>
+		<ten>Tổng số ca mắc bệnh trẻ em đến khám cao nhất</ten>
+		<sql1>select a.ma,sum(a.c02) as solieu from medibv.bieu_11 a,medibv.dm_11 b</sql1>
+		<sql2>select sum(a.c02) as solieu from medibv.bieu_11 a,medibv.dm_11 b</sql2>
+		<gr1>group by a.ma order by sum(a.c02) desc</gr1>
+		<gr2></gr2>
+	</Table>
+	<Table>
+		<ma>c02/c01</ma>
+		<ten>Tổng số ca mắc bệnh trẻ em đến khám cao nhất so với tổng số khám bệnh</ten>
+		<sql1>select a.ma,sum(a.c02) as solieu from medibv.bieu_11 a,medibv.dm_11 b</sql1>
+		<sql2>select sum(a.c01) as solieu from medibv.bieu_11 a,medibv.dm_11 b</sql2>
+		<gr1>group by a.ma order by sum(a.c02) desc</gr1>
+		<gr2></gr2>
+	</Table>
+	<Table>
+		<ma>c04/c04</ma>
+		<ten>Tổng số ca mắc bệnh cao nhất so với tổng số ca mắc bệnh</ten>
+		<sql1>select a.ma,sum(a.c04) as solieu from medibv.bieu_11 a,medibv.dm_11 b</sql1>
+		<sql2>select sum(a.c04) as solieu from medibv.bieu_11 a,medibv.dm_11 b</sql2>
+		<gr1>group by a.ma order by sum(a.c04) desc</gr1>
+		<gr2></gr2>
+	</Table>
+	<Table>
+		<ma>c05/c04</ma>
+		<ten>Tổng số ca tử vong cao nhất so với tổng số ca mắc bệnh</ten>
+		<sql1>select a.ma,sum(a.c05) as solieu from medibv.bieu_11 a,medibv.dm_11 b</sql1>
+		<sql2>select sum(a.c04) as solieu from medibv.bieu_11 a,medibv.dm_11 b</sql2>
+		<gr1>group by a.ma order by sum(a.c05) desc</gr1>
+		<gr2></gr2>
+	</Table>
+	<Table>
+		<ma>c05/c05</ma>
+		<ten>Tổng số ca tử vong cao nhất so với tổng số ca tử vong</ten>
+		<sql1>select a.ma,sum(a.c05) as solieu from medibv.bieu_11 a,medibv.dm_11 b</sql1>
+		<sql2>select sum(a.c05) as solieu from medibv.bieu_11 a,medibv.dm_11 b</sql2>
+		<gr1>group by a.ma order by sum(a.c05) desc</gr1>
+		<gr2></gr2>
+	</Table>
+	<Table>
+		<ma>c06/c06</ma>
+		<ten>Tổng số ca có ngày điều trị cao</ten>
+		<sql1>select a.ma,sum(a.c06) as solieu from medibv.bieu_11 a,medibv.dm_11 b</sql1>
+		<sql2>select sum(a.c06) as solieu from medibv.bieu_11 a,medibv.dm_11 b</sql2>
+		<gr1>group by a.ma order by sum(a.c06) desc</gr1>
+		<gr2></gr2>
+	</Table>
+	<Table>
+		<ma>c11/c06</ma>
+		<ten>Tổng số ca (&lt;15) có ngày điều trị cao</ten>
+		<sql1>select a.ma,sum(a.c11) as solieu from medibv.bieu_11 a,medibv.dm_11 b</sql1>
+		<sql2>select sum(a.c11) as solieu from medibv.bieu_11 a,medibv.dm_11 b</sql2>
+		<gr1>group by a.ma order by sum(a.c11) desc</gr1>
+		<gr2></gr2>
+	</Table>
+	<Table>
+		<ma>c12/c06</ma>
+		<ten>Tổng số ca (0-4) có ngày điều trị cao</ten>
+		<sql1>select a.ma,sum(a.c12) as solieu from medibv.bieu_11 a,medibv.dm_11 b</sql1>
+		<sql2>select sum(a.c12) as solieu from medibv.bieu_11 a,medibv.dm_11 b</sql2>
+		<gr1>group by a.ma order by sum(a.c12) desc</gr1>
+		<gr2></gr2>
+	</Table>
+	<Table>
+		<ma>c07/c04</ma>
+		<ten>Tổng số ca trẻ em (&lt;15) mắc bệnh cao nhất so với tổng số ca mắc bệnh chung</ten>
+		<sql1>select a.ma,sum(a.c07) as solieu from medibv.bieu_11 a,medibv.dm_11 b</sql1>
+		<sql2>select sum(a.c04) as solieu from medibv.bieu_11 a,medibv.dm_11 b</sql2>
+		<gr1>group by a.ma order by sum(a.c07) desc</gr1>
+		<gr2></gr2>
+	</Table>
+	<Table>
+		<ma>c08/c05</ma>
+		<ten>Tổng số ca trẻ em (&lt;15) tử vong cao nhất so với tổng số ca tử vong chung</ten>
+		<sql1>select a.ma,sum(a.c09) as solieu from medibv.bieu_11 a,medibv.dm_11 b</sql1>
+		<sql2>select sum(a.c05) as solieu from medibv.bieu_11 a,medibv.dm_11 b</sql2>
+		<gr1>group by a.ma order by sum(a.c09) desc</gr1>
+		<gr2></gr2>
+	</Table>
+	<Table>
+		<ma>c08/c04</ma>
+		<ten>Tổng số ca trẻ em (0-4) mắc bệnh cao nhất so với tổng số ca mắc bệnh chung</ten>
+		<sql1>select a.ma,sum(a.c08) as solieu from medibv.bieu_11 a,medibv.dm_11 b</sql1>
+		<sql2>select sum(a.c04) as solieu from medibv.bieu_11 a,medibv.dm_11 b</sql2>
+		<gr1>group by a.ma order by sum(a.c08) desc</gr1>
+		<gr2></gr2>
+	</Table>
+	<Table>
+		<ma>c10/c05</ma>
+		<ten>Tổng số ca trẻ em (0-4) tử vong cao nhất so với tổng số ca tử vong chung</ten>
+		<sql1>select a.ma,sum(a.c10) as solieu from medibv.bieu_11 a,medibv.dm_11 b</sql1>
+		<sql2>select sum(a.c05) as solieu from medibv.bieu_11 a,medibv.dm_11 b</sql2>
+		<gr1>group by a.ma order by sum(a.c10) desc</gr1>
+		<gr2></gr2>
+	</Table>
+</NewDataSet>

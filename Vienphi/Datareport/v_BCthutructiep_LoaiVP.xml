@@ -1,0 +1,454 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="stt" type="xs:int" minOccurs="0" />
+                <xs:element name="id" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ma" type="xs:string" minOccurs="0" />
+                <xs:element name="ten" type="xs:string" minOccurs="0" />
+                <xs:element name="soluong" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sotien" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sotiengiamua" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sotiendichvu" type="xs:decimal" minOccurs="0" />
+                <xs:element name="bhyttra" type="xs:decimal" minOccurs="0" />
+                <xs:element name="bntra" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <stt>8</stt>
+    <id>-99</id>
+    <ma>Thieu</ma>
+    <ten>Thiếu</ten>
+    <soluong>0</soluong>
+    <sotiengiamua>0</sotiengiamua>
+    <sotiendichvu>0</sotiendichvu>
+    <bhyttra>0</bhyttra>
+    <bntra>0</bntra>
+  </Table>
+  <Table>
+    <stt>8</stt>
+    <id>-98</id>
+    <ma>Mien</ma>
+    <ten>Miễn</ten>
+    <soluong>0</soluong>
+    <sotiengiamua>0</sotiengiamua>
+    <sotiendichvu>0</sotiendichvu>
+    <bhyttra>0</bhyttra>
+    <bntra>0</bntra>
+  </Table>
+  <Table>
+    <stt>8</stt>
+    <id>-97</id>
+    <ma>BHYT</ma>
+    <ten>BHYT</ten>
+    <soluong>0</soluong>
+    <sotiengiamua>0</sotiengiamua>
+    <sotiendichvu>0</sotiendichvu>
+    <bhyttra>0</bhyttra>
+    <bntra>0</bntra>
+  </Table>
+  <Table>
+    <stt>1</stt>
+    <id>0</id>
+    <ma />
+    <ten />
+    <soluong>95.0000</soluong>
+    <sotien>920061.0000000000</sotien>
+    <sotiengiamua>0.00000000000000</sotiengiamua>
+    <sotiendichvu>0.0000000000</sotiendichvu>
+    <bhyttra>0.0000</bhyttra>
+    <bntra>0</bntra>
+  </Table>
+  <Table>
+    <stt>1</stt>
+    <id>1</id>
+    <ma>KTQ</ma>
+    <ten>Khám nội TQ</ten>
+    <soluong>426.0000</soluong>
+    <sotien>14910000.0000</sotien>
+    <sotiengiamua>0</sotiengiamua>
+    <sotiendichvu>0</sotiendichvu>
+    <bhyttra>0</bhyttra>
+    <bntra>0</bntra>
+  </Table>
+  <Table>
+    <stt>1</stt>
+    <id>2</id>
+    <ma>KNG</ma>
+    <ten>Khám ngoại TQ</ten>
+    <soluong>8.0000</soluong>
+    <sotien>400000.0000</sotien>
+    <sotiengiamua>0</sotiengiamua>
+    <sotiendichvu>0</sotiendichvu>
+    <bhyttra>0</bhyttra>
+    <bntra>0</bntra>
+  </Table>
+  <Table>
+    <stt>1</stt>
+    <id>4</id>
+    <ma>XNHH</ma>
+    <ten>Huyết học</ten>
+    <soluong>146.0000</soluong>
+    <sotien>8585000.0000000000</sotien>
+    <sotiengiamua>0.00000000000000</sotiengiamua>
+    <sotiendichvu>0.0000000000</sotiendichvu>
+    <bhyttra>0.0000</bhyttra>
+    <bntra>0</bntra>
+  </Table>
+  <Table>
+    <stt>1</stt>
+    <id>5</id>
+    <ma>XNHS</ma>
+    <ten>Hóa sinh</ten>
+    <soluong>1068.0000</soluong>
+    <sotien>27910000.0000000000</sotien>
+    <sotiengiamua>0.00000000000000</sotiengiamua>
+    <sotiendichvu>0.0000000000</sotiendichvu>
+    <bhyttra>0.0000</bhyttra>
+    <bntra>0</bntra>
+  </Table>
+  <Table>
+    <stt>1</stt>
+    <id>8</id>
+    <ma>MD</ma>
+    <ten>Miễn dịch</ten>
+    <soluong>212.0000</soluong>
+    <sotien>9775000.0000</sotien>
+    <sotiengiamua>0</sotiengiamua>
+    <sotiendichvu>0</sotiendichvu>
+    <bhyttra>0</bhyttra>
+    <bntra>0</bntra>
+  </Table>
+  <Table>
+    <stt>1</stt>
+    <id>9</id>
+    <ma>NS</ma>
+    <ten>Nội soi</ten>
+    <soluong>3.0000</soluong>
+    <sotien>570000.0000</sotien>
+    <sotiengiamua>0</sotiengiamua>
+    <sotiendichvu>0</sotiendichvu>
+    <bhyttra>0</bhyttra>
+    <bntra>0</bntra>
+  </Table>
+  <Table>
+    <stt>1</stt>
+    <id>10</id>
+    <ma>NT</ma>
+    <ten>Nước tiểu</ten>
+    <soluong>58.0000</soluong>
+    <sotien>2030000.0000</sotien>
+    <sotiengiamua>0</sotiengiamua>
+    <sotiendichvu>0</sotiendichvu>
+    <bhyttra>0</bhyttra>
+    <bntra>0</bntra>
+  </Table>
+  <Table>
+    <stt>1</stt>
+    <id>11</id>
+    <ma>DTT</ma>
+    <ten>Điện tim</ten>
+    <soluong>69.0000</soluong>
+    <sotien>2415000.0000000000</sotien>
+    <sotiengiamua>0.00000000000000</sotiengiamua>
+    <sotiendichvu>0.0000000000</sotiendichvu>
+    <bhyttra>0.0000</bhyttra>
+    <bntra>0</bntra>
+  </Table>
+  <Table>
+    <stt>1</stt>
+    <id>12</id>
+    <ma>XQ</ma>
+    <ten>X Quang </ten>
+    <soluong>0.0000</soluong>
+    <sotien>0.0000</sotien>
+    <sotiengiamua>0</sotiengiamua>
+    <sotiendichvu>0</sotiendichvu>
+    <bhyttra>0</bhyttra>
+    <bntra>0</bntra>
+  </Table>
+  <Table>
+    <stt>1</stt>
+    <id>13</id>
+    <ma>CT</ma>
+    <ten>CT Scan</ten>
+    <soluong>11.0000</soluong>
+    <sotien>7700000.0000</sotien>
+    <sotiengiamua>0</sotiengiamua>
+    <sotiendichvu>0</sotiendichvu>
+    <bhyttra>0</bhyttra>
+    <bntra>0</bntra>
+  </Table>
+  <Table>
+    <stt>1</stt>
+    <id>17</id>
+    <ma>SADT</ma>
+    <ten>Thăm dò chức năng</ten>
+    <soluong>17.0000</soluong>
+    <sotien>850000.0000</sotien>
+    <sotiengiamua>0</sotiengiamua>
+    <sotiendichvu>0</sotiendichvu>
+    <bhyttra>0</bhyttra>
+    <bntra>0</bntra>
+  </Table>
+  <Table>
+    <stt>1</stt>
+    <id>25</id>
+    <ma>THUOC</ma>
+    <ten>Thuốc</ten>
+    <soluong>27.0000</soluong>
+    <sotien>9850.0000000000</sotien>
+    <sotiengiamua>0.00000000000000</sotiengiamua>
+    <sotiendichvu>0.0000000000</sotiendichvu>
+    <bhyttra>0.0000</bhyttra>
+    <bntra>0</bntra>
+  </Table>
+  <Table>
+    <stt>1</stt>
+    <id>27</id>
+    <ma>GITT</ma>
+    <ten>Giường thông thường</ten>
+    <soluong>3.0000</soluong>
+    <sotien>300000.0000000000</sotien>
+    <sotiengiamua>0.00000000000000</sotiengiamua>
+    <sotiendichvu>0.0000000000</sotiendichvu>
+    <bhyttra>0.0000</bhyttra>
+    <bntra>0</bntra>
+  </Table>
+  <Table>
+    <stt>1</stt>
+    <id>28</id>
+    <ma>GIYC</ma>
+    <ten>Giường yêu cầu</ten>
+    <soluong>20.0000</soluong>
+    <sotien>4000000.0000000000</sotien>
+    <sotiengiamua>0.00000000000000</sotiengiamua>
+    <sotiendichvu>0.0000000000</sotiendichvu>
+    <bhyttra>0.0000</bhyttra>
+    <bntra>0</bntra>
+  </Table>
+  <Table>
+    <stt>1</stt>
+    <id>29</id>
+    <ma>KHAC</ma>
+    <ten>Loại khác</ten>
+    <soluong>90.0000</soluong>
+    <sotien>2055000.0000000000</sotien>
+    <sotiengiamua>0.00000000000000</sotiengiamua>
+    <sotiendichvu>0.0000000000</sotiendichvu>
+    <bhyttra>0.0000</bhyttra>
+    <bntra>0</bntra>
+  </Table>
+  <Table>
+    <stt>1</stt>
+    <id>32</id>
+    <ma>PT02</ma>
+    <ten>PT- TT Khoa Sản</ten>
+    <soluong>12.0000</soluong>
+    <sotien>5200000.0000</sotien>
+    <sotiengiamua>0</sotiengiamua>
+    <sotiendichvu>0</sotiendichvu>
+    <bhyttra>0</bhyttra>
+    <bntra>0</bntra>
+  </Table>
+  <Table>
+    <stt>1</stt>
+    <id>37</id>
+    <ma>NG</ma>
+    <ten>Ngày thường</ten>
+    <soluong>6.0000</soluong>
+    <sotien>350000.0000</sotien>
+    <sotiengiamua>0</sotiengiamua>
+    <sotiendichvu>0</sotiendichvu>
+    <bhyttra>0</bhyttra>
+    <bntra>0</bntra>
+  </Table>
+  <Table>
+    <stt>1</stt>
+    <id>40</id>
+    <ma>SA</ma>
+    <ten>Siêu âm màu</ten>
+    <soluong>210.0000</soluong>
+    <sotien>18300000.0000</sotien>
+    <sotiengiamua>0</sotiengiamua>
+    <sotiendichvu>0</sotiendichvu>
+    <bhyttra>0</bhyttra>
+    <bntra>0</bntra>
+  </Table>
+  <Table>
+    <stt>1</stt>
+    <id>41</id>
+    <ma>KPK</ma>
+    <ten>Khám phụ khoa</ten>
+    <soluong>54.0000</soluong>
+    <sotien>2700000.0000</sotien>
+    <sotiengiamua>0</sotiengiamua>
+    <sotiendichvu>0</sotiendichvu>
+    <bhyttra>0</bhyttra>
+    <bntra>0</bntra>
+  </Table>
+  <Table>
+    <stt>1</stt>
+    <id>44</id>
+    <ma>SAD</ma>
+    <ten>Siêu âm trắng đen</ten>
+    <soluong>1.0000</soluong>
+    <sotien>45000.0000</sotien>
+    <sotiengiamua>0</sotiengiamua>
+    <sotiendichvu>0</sotiendichvu>
+    <bhyttra>0</bhyttra>
+    <bntra>0</bntra>
+  </Table>
+  <Table>
+    <stt>1</stt>
+    <id>45</id>
+    <ma>XQKTS</ma>
+    <ten>XQuangKTS</ten>
+    <soluong>144.0000</soluong>
+    <sotien>12990000.0000</sotien>
+    <sotiengiamua>0</sotiengiamua>
+    <sotiendichvu>0</sotiendichvu>
+    <bhyttra>0</bhyttra>
+    <bntra>0</bntra>
+  </Table>
+  <Table>
+    <stt>1</stt>
+    <id>46</id>
+    <ma>KP</ma>
+    <ten>Khoa nội</ten>
+    <soluong>16.0000</soluong>
+    <sotien>800000.0000000000</sotien>
+    <sotiengiamua>0.00000000000000</sotiengiamua>
+    <sotiendichvu>0.0000000000</sotiendichvu>
+    <bhyttra>0.0000</bhyttra>
+    <bntra>0</bntra>
+  </Table>
+  <Table>
+    <stt>1</stt>
+    <id>47</id>
+    <ma>GICC</ma>
+    <ten>Gìương cấp cứu</ten>
+    <soluong>1.0000</soluong>
+    <sotien>300000.0000</sotien>
+    <sotiengiamua>0</sotiengiamua>
+    <sotiendichvu>0</sotiendichvu>
+    <bhyttra>0</bhyttra>
+    <bntra>0</bntra>
+  </Table>
+  <Table>
+    <stt>2</stt>
+    <id>0</id>
+    <ma>212</ma>
+    <ten>Thu tiền tạm ứng</ten>
+    <soluong>0</soluong>
+    <sotien>12000000.0000</sotien>
+    <sotiengiamua>0</sotiengiamua>
+    <sotiendichvu>0</sotiendichvu>
+    <bhyttra>0</bhyttra>
+    <bntra>0</bntra>
+  </Table>
+  <Table>
+    <stt>2</stt>
+    <id>0</id>
+    <ma>213</ma>
+    <ten>Thu tiền tạm ứng</ten>
+    <soluong>0</soluong>
+    <sotien>10500000.0000</sotien>
+    <sotiengiamua>0</sotiengiamua>
+    <sotiendichvu>0</sotiendichvu>
+    <bhyttra>0</bhyttra>
+    <bntra>0</bntra>
+  </Table>
+  <Table>
+    <stt>3</stt>
+    <id>0</id>
+    <ma>212</ma>
+    <ten>Hoàn tiền tạm ứng</ten>
+    <soluong>0</soluong>
+    <sotien>-3500000.0000</sotien>
+    <sotiengiamua>0</sotiengiamua>
+    <sotiendichvu>0</sotiendichvu>
+    <bhyttra>0</bhyttra>
+    <bntra>0</bntra>
+  </Table>
+  <Table>
+    <stt>3</stt>
+    <id>0</id>
+    <ma>213</ma>
+    <ten>Hoàn tiền tạm ứng</ten>
+    <soluong>0</soluong>
+    <sotien>-1000000.0000</sotien>
+    <sotiengiamua>0</sotiengiamua>
+    <sotiendichvu>0</sotiendichvu>
+    <bhyttra>0</bhyttra>
+    <bntra>0</bntra>
+  </Table>
+  <Table>
+    <stt>6</stt>
+    <id>0</id>
+    <ma>212</ma>
+    <ten>Lê Thị Cẩm Dung</ten>
+    <soluong>0</soluong>
+    <sotien>79397333.0000000000</sotien>
+    <sotiengiamua>0.00000000000000</sotiengiamua>
+    <sotiendichvu>0.0000000000</sotiendichvu>
+    <bhyttra>0.0000</bhyttra>
+    <bntra>0</bntra>
+  </Table>
+  <Table>
+    <stt>6</stt>
+    <id>0</id>
+    <ma>213</ma>
+    <ten>Trương Huỳnh Ánh Ngọc</ten>
+    <soluong>0</soluong>
+    <sotien>43717578.0000000000</sotien>
+    <sotiengiamua>0.00000000000000</sotiengiamua>
+    <sotiendichvu>0.0000000000</sotiendichvu>
+    <bhyttra>0.0000</bhyttra>
+    <bntra>0</bntra>
+  </Table>
+  <Table>
+    <stt>8</stt>
+    <id>-99</id>
+    <ma>Thieu</ma>
+    <ten>Thiếu</ten>
+    <soluong>0</soluong>
+    <sotiengiamua>0</sotiengiamua>
+    <sotiendichvu>0</sotiendichvu>
+    <bhyttra>0</bhyttra>
+    <bntra>0</bntra>
+  </Table>
+  <Table>
+    <stt>8</stt>
+    <id>-98</id>
+    <ma>Mien</ma>
+    <ten>Miễn</ten>
+    <soluong>0</soluong>
+    <sotiengiamua>0</sotiengiamua>
+    <sotiendichvu>0</sotiendichvu>
+    <bhyttra>0</bhyttra>
+    <bntra>0</bntra>
+  </Table>
+  <Table>
+    <stt>8</stt>
+    <id>-97</id>
+    <ma>BHYT</ma>
+    <ten>BHYT</ten>
+    <soluong>0</soluong>
+    <sotien>0</sotien>
+    <sotiengiamua>0</sotiengiamua>
+    <sotiendichvu>0</sotiendichvu>
+    <bhyttra>0</bhyttra>
+    <bntra>0</bntra>
+  </Table>
+</NewDataSet>

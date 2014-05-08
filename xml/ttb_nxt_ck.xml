@@ -1,0 +1,67 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="STTT" type="xs:decimal" minOccurs="0" />
+                <xs:element name="MANHOM" type="xs:decimal" minOccurs="0" />
+                <xs:element name="TENNHOM" type="xs:string" minOccurs="0" />
+                <xs:element name="MABD" type="xs:decimal" minOccurs="0" />
+                <xs:element name="MA" type="xs:string" minOccurs="0" />
+                <xs:element name="TEN" type="xs:string" minOccurs="0" />
+                <xs:element name="TENHC" type="xs:string" minOccurs="0" />
+                <xs:element name="DANG" type="xs:string" minOccurs="0" />
+                <xs:element name="TONDAU" type="xs:decimal" minOccurs="0" />
+                <xs:element name="STTONDAU" type="xs:decimal" minOccurs="0" />
+                <xs:element name="SLNHAP" type="xs:decimal" minOccurs="0" />
+                <xs:element name="STNHAP" type="xs:decimal" minOccurs="0" />
+                <xs:element name="SLXUAT" type="xs:decimal" minOccurs="0" />
+                <xs:element name="STXUAT" type="xs:decimal" minOccurs="0" />
+                <xs:element name="STT" type="xs:decimal" minOccurs="0" />
+                <xs:element name="IDNN" type="xs:decimal" minOccurs="0" />
+                <xs:element name="NOINGOAI" type="xs:string" minOccurs="0" />
+                <xs:element name="SLXUAT_CK" type="xs:decimal" minOccurs="0" />
+                <xs:element name="STXUAT_CK" type="xs:decimal" minOccurs="0" />
+                <xs:element name="SLNHAP_CK" type="xs:decimal" minOccurs="0" />
+                <xs:element name="STNHAP_CK" type="xs:decimal" minOccurs="0" />
+                <xs:element name="DONGIA" type="xs:decimal" minOccurs="0" />
+                <xs:element name="MANGUON" type="xs:decimal" minOccurs="0" />
+                <xs:element name="GIABAN" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <STTT>0</STTT>
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Thuốc</TENNHOM>
+    <MABD>2176</MABD>
+    <MA>LIS001</MA>
+    <TEN>Listerrin 250ml</TEN>
+    <TENHC />
+    <DANG>chai</DANG>
+    <TONDAU>24</TONDAU>
+    <STTONDAU>576840</STTONDAU>
+    <SLNHAP>0</SLNHAP>
+    <STNHAP>0</STNHAP>
+    <SLXUAT>3</SLXUAT>
+    <STXUAT>72105</STXUAT>
+    <STT>1</STT>
+    <IDNN>2</IDNN>
+    <NOINGOAI>Kho 2 </NOINGOAI>
+    <SLXUAT_CK>21</SLXUAT_CK>
+    <STXUAT_CK>504735</STXUAT_CK>
+    <SLNHAP_CK>0</SLNHAP_CK>
+    <STNHAP_CK>0</STNHAP_CK>
+    <DONGIA>24035</DONGIA>
+    <MANGUON>0</MANGUON>
+    <GIABAN>0</GIABAN>
+  </Table>
+</NewDataSet>

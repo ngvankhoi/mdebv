@@ -1,0 +1,2661 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ID" type="xs:decimal" minOccurs="0" />
+                <xs:element name="MA" type="xs:string" minOccurs="0" />
+                <xs:element name="TEN" type="xs:string" minOccurs="0" />
+                <xs:element name="DVT" type="xs:string" minOccurs="0" />
+                <xs:element name="ID_LOAI" type="xs:decimal" minOccurs="0" />
+                <xs:element name="STT_LOAI" type="xs:decimal" minOccurs="0" />
+                <xs:element name="TEN_LOAI" type="xs:string" minOccurs="0" />
+                <xs:element name="ID_NHOM" type="xs:decimal" minOccurs="0" />
+                <xs:element name="STT_NHOM" type="xs:decimal" minOccurs="0" />
+                <xs:element name="TEN_NHOM" type="xs:string" minOccurs="0" />
+                <xs:element name="SOTIEN" type="xs:decimal" minOccurs="0" />
+                <xs:element name="BHYT" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <ID>10506</ID>
+    <MA>AUR001</MA>
+    <TEN>A  Uric</TEN>
+    <DVT>Lần</DVT>
+    <ID_LOAI>61</ID_LOAI>
+    <STT_LOAI>13</STT_LOAI>
+    <TEN_LOAI>Huyết học</TEN_LOAI>
+    <ID_NHOM>4</ID_NHOM>
+    <STT_NHOM>2</STT_NHOM>
+    <TEN_NHOM>Xét Nghiệm</TEN_NHOM>
+    <SOTIEN>10000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>11952</ID>
+    <MA>NIC001</MA>
+    <TEN>ACETAPHEN 300MG</TEN>
+    <DVT>ỐNG</DVT>
+    <ID_LOAI>132</ID_LOAI>
+    <STT_LOAI>50</STT_LOAI>
+    <TEN_LOAI>INJ - Thuốc chích</TEN_LOAI>
+    <ID_NHOM>2</ID_NHOM>
+    <STT_NHOM>6</STT_NHOM>
+    <TEN_NHOM>Thuốc</TEN_NHOM>
+    <SOTIEN>120000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>11947</ID>
+    <MA>AMI002</MA>
+    <TEN>AMINOPLASMAL 250ML</TEN>
+    <DVT>CHAI</DVT>
+    <ID_LOAI>133</ID_LOAI>
+    <STT_LOAI>51</STT_LOAI>
+    <TEN_LOAI>Dịch truyền</TEN_LOAI>
+    <ID_NHOM>2</ID_NHOM>
+    <STT_NHOM>6</STT_NHOM>
+    <TEN_NHOM>Thuốc</TEN_NHOM>
+    <SOTIEN>540000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>11945</ID>
+    <MA>AMI001</MA>
+    <TEN>AMINOPLASMAL 500ML</TEN>
+    <DVT>CHAI</DVT>
+    <ID_LOAI>133</ID_LOAI>
+    <STT_LOAI>51</STT_LOAI>
+    <TEN_LOAI>Dịch truyền</TEN_LOAI>
+    <ID_NHOM>2</ID_NHOM>
+    <STT_NHOM>6</STT_NHOM>
+    <TEN_NHOM>Thuốc</TEN_NHOM>
+    <SOTIEN>2800000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>11937</ID>
+    <MA>ANA002</MA>
+    <TEN>ANALGIN 600MG</TEN>
+    <DVT>ỐNG</DVT>
+    <ID_LOAI>132</ID_LOAI>
+    <STT_LOAI>50</STT_LOAI>
+    <TEN_LOAI>INJ - Thuốc chích</TEN_LOAI>
+    <ID_NHOM>2</ID_NHOM>
+    <STT_NHOM>6</STT_NHOM>
+    <TEN_NHOM>Thuốc</TEN_NHOM>
+    <SOTIEN>660000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>10607</ID>
+    <MA>ASO001</MA>
+    <TEN>ASO</TEN>
+    <DVT>Lần</DVT>
+    <ID_LOAI>109</ID_LOAI>
+    <STT_LOAI>17</STT_LOAI>
+    <TEN_LOAI>Huyết học miễn dịch</TEN_LOAI>
+    <ID_NHOM>4</ID_NHOM>
+    <STT_NHOM>2</STT_NHOM>
+    <TEN_NHOM>Xét Nghiệm</TEN_NHOM>
+    <SOTIEN>100000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>12602</ID>
+    <MA>AUG001</MA>
+    <TEN>AUGMENTINE 1G</TEN>
+    <DVT>LẦN</DVT>
+    <ID_LOAI>132</ID_LOAI>
+    <STT_LOAI>50</STT_LOAI>
+    <TEN_LOAI>INJ - Thuốc chích</TEN_LOAI>
+    <ID_NHOM>2</ID_NHOM>
+    <STT_NHOM>6</STT_NHOM>
+    <TEN_NHOM>Thuốc</TEN_NHOM>
+    <SOTIEN>400000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>11904</ID>
+    <MA>BEC003</MA>
+    <TEN>BECOZYME</TEN>
+    <DVT>ỐNG</DVT>
+    <ID_LOAI>132</ID_LOAI>
+    <STT_LOAI>50</STT_LOAI>
+    <TEN_LOAI>INJ - Thuốc chích</TEN_LOAI>
+    <ID_NHOM>2</ID_NHOM>
+    <STT_NHOM>6</STT_NHOM>
+    <TEN_NHOM>Thuốc</TEN_NHOM>
+    <SOTIEN>120000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>11930</ID>
+    <MA>BEN002</MA>
+    <TEN>BENZOESTRADIOL</TEN>
+    <DVT>ỐNG</DVT>
+    <ID_LOAI>132</ID_LOAI>
+    <STT_LOAI>50</STT_LOAI>
+    <TEN_LOAI>INJ - Thuốc chích</TEN_LOAI>
+    <ID_NHOM>2</ID_NHOM>
+    <STT_NHOM>6</STT_NHOM>
+    <TEN_NHOM>Thuốc</TEN_NHOM>
+    <SOTIEN>120000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>11905</ID>
+    <MA>BUS001</MA>
+    <TEN>BUSCOMINE 20mg</TEN>
+    <DVT>ỐNG</DVT>
+    <ID_LOAI>132</ID_LOAI>
+    <STT_LOAI>50</STT_LOAI>
+    <TEN_LOAI>INJ - Thuốc chích</TEN_LOAI>
+    <ID_NHOM>2</ID_NHOM>
+    <STT_NHOM>6</STT_NHOM>
+    <TEN_NHOM>Thuốc</TEN_NHOM>
+    <SOTIEN>220000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>11939</ID>
+    <MA>BUS002</MA>
+    <TEN>BUSCOPAN(20MG)</TEN>
+    <DVT>ỐNG</DVT>
+    <ID_LOAI>132</ID_LOAI>
+    <STT_LOAI>50</STT_LOAI>
+    <TEN_LOAI>INJ - Thuốc chích</TEN_LOAI>
+    <ID_NHOM>2</ID_NHOM>
+    <STT_NHOM>6</STT_NHOM>
+    <TEN_NHOM>Thuốc</TEN_NHOM>
+    <SOTIEN>330000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>10491</ID>
+    <MA>BIL001</MA>
+    <TEN>Bilirubine</TEN>
+    <DVT>Lần</DVT>
+    <ID_LOAI>61</ID_LOAI>
+    <STT_LOAI>13</STT_LOAI>
+    <TEN_LOAI>Huyết học</TEN_LOAI>
+    <ID_NHOM>4</ID_NHOM>
+    <STT_NHOM>2</STT_NHOM>
+    <TEN_NHOM>Xét Nghiệm</TEN_NHOM>
+    <SOTIEN>18000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>12635</ID>
+    <MA>BOC001</MA>
+    <TEN>Bóc tuyến Bartholin</TEN>
+    <DVT>Lần</DVT>
+    <ID_LOAI>103</ID_LOAI>
+    <STT_LOAI>46</STT_LOAI>
+    <TEN_LOAI>Sản phụ khoa</TEN_LOAI>
+    <ID_NHOM>8</ID_NHOM>
+    <STT_NHOM>4</STT_NHOM>
+    <TEN_NHOM>Phẩu thuật - thủ thuật</TEN_NHOM>
+    <SOTIEN>400000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>10537</ID>
+    <MA>CA1001</MA>
+    <TEN>CA  125</TEN>
+    <DVT>Lần</DVT>
+    <ID_LOAI>61</ID_LOAI>
+    <STT_LOAI>13</STT_LOAI>
+    <TEN_LOAI>Huyết học</TEN_LOAI>
+    <ID_NHOM>4</ID_NHOM>
+    <STT_NHOM>2</STT_NHOM>
+    <TEN_NHOM>Xét Nghiệm</TEN_NHOM>
+    <SOTIEN>270000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>11908</ID>
+    <MA>CAL005</MA>
+    <TEN>CALCISANDOZ 500mg</TEN>
+    <DVT>ỐNG</DVT>
+    <ID_LOAI>132</ID_LOAI>
+    <STT_LOAI>50</STT_LOAI>
+    <TEN_LOAI>INJ - Thuốc chích</TEN_LOAI>
+    <ID_NHOM>2</ID_NHOM>
+    <STT_NHOM>6</STT_NHOM>
+    <TEN_NHOM>Thuốc</TEN_NHOM>
+    <SOTIEN>315000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>11910</ID>
+    <MA>CEF001</MA>
+    <TEN>CEFTRIAXONE 1g</TEN>
+    <DVT>ỐNG</DVT>
+    <ID_LOAI>132</ID_LOAI>
+    <STT_LOAI>50</STT_LOAI>
+    <TEN_LOAI>INJ - Thuốc chích</TEN_LOAI>
+    <ID_NHOM>2</ID_NHOM>
+    <STT_NHOM>6</STT_NHOM>
+    <TEN_NHOM>Thuốc</TEN_NHOM>
+    <SOTIEN>240000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>11938</ID>
+    <MA>CER002</MA>
+    <TEN>CEREBROLYSIN</TEN>
+    <DVT>ỐNG</DVT>
+    <ID_LOAI>132</ID_LOAI>
+    <STT_LOAI>50</STT_LOAI>
+    <TEN_LOAI>INJ - Thuốc chích</TEN_LOAI>
+    <ID_NHOM>2</ID_NHOM>
+    <STT_NHOM>6</STT_NHOM>
+    <TEN_NHOM>Thuốc</TEN_NHOM>
+    <SOTIEN>120000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>12233</ID>
+    <MA>CAO003</MA>
+    <TEN>Cao răng</TEN>
+    <DVT>chiếc</DVT>
+    <ID_LOAI>126</ID_LOAI>
+    <STT_LOAI>47</STT_LOAI>
+    <TEN_LOAI>Bỏng</TEN_LOAI>
+    <ID_NHOM>8</ID_NHOM>
+    <STT_NHOM>4</STT_NHOM>
+    <TEN_NHOM>Phẩu thuật - thủ thuật</TEN_NHOM>
+    <SOTIEN>50000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>12241</ID>
+    <MA>CAO004</MA>
+    <TEN>Cao răng</TEN>
+    <DVT>Lần</DVT>
+    <ID_LOAI>2</ID_LOAI>
+    <STT_LOAI>40</STT_LOAI>
+    <TEN_LOAI>PTTT Răng - Hàm - Mặt</TEN_LOAI>
+    <ID_NHOM>8</ID_NHOM>
+    <STT_NHOM>4</STT_NHOM>
+    <TEN_NHOM>Phẩu thuật - thủ thuật</TEN_NHOM>
+    <SOTIEN>410000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>10447</ID>
+    <MA>CHI001</MA>
+    <TEN>Chiếu hồng ngoại</TEN>
+    <DVT>Lần</DVT>
+    <ID_LOAI>104</ID_LOAI>
+    <STT_LOAI>48</STT_LOAI>
+    <TEN_LOAI>PTTT Y học dân tộc</TEN_LOAI>
+    <ID_NHOM>8</ID_NHOM>
+    <STT_NHOM>4</STT_NHOM>
+    <TEN_NHOM>Phẩu thuật - thủ thuật</TEN_NHOM>
+    <SOTIEN>60000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>10486</ID>
+    <MA>CHO001</MA>
+    <TEN>Cholesterol-t</TEN>
+    <DVT>Lần</DVT>
+    <ID_LOAI>61</ID_LOAI>
+    <STT_LOAI>13</STT_LOAI>
+    <TEN_LOAI>Huyết học</TEN_LOAI>
+    <ID_NHOM>4</ID_NHOM>
+    <STT_NHOM>2</STT_NHOM>
+    <TEN_NHOM>Xét Nghiệm</TEN_NHOM>
+    <SOTIEN>15000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>12195</ID>
+    <MA>CHA010</MA>
+    <TEN>Châm Cứu</TEN>
+    <DVT>lần</DVT>
+    <ID_LOAI>104</ID_LOAI>
+    <STT_LOAI>48</STT_LOAI>
+    <TEN_LOAI>PTTT Y học dân tộc</TEN_LOAI>
+    <ID_NHOM>8</ID_NHOM>
+    <STT_NHOM>4</STT_NHOM>
+    <TEN_NHOM>Phẩu thuật - thủ thuật</TEN_NHOM>
+    <SOTIEN>20000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>12646</ID>
+    <MA>CHA012</MA>
+    <TEN>Châm cứu dịch vụ</TEN>
+    <DVT>lần</DVT>
+    <ID_LOAI>104</ID_LOAI>
+    <STT_LOAI>48</STT_LOAI>
+    <TEN_LOAI>PTTT Y học dân tộc</TEN_LOAI>
+    <ID_NHOM>8</ID_NHOM>
+    <STT_NHOM>4</STT_NHOM>
+    <TEN_NHOM>Phẩu thuật - thủ thuật</TEN_NHOM>
+    <SOTIEN>10000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>12217</ID>
+    <MA>CHI004</MA>
+    <TEN>Chích Ngừa Viêm Gan</TEN>
+    <DVT>Lần</DVT>
+    <ID_LOAI>132</ID_LOAI>
+    <STT_LOAI>50</STT_LOAI>
+    <TEN_LOAI>INJ - Thuốc chích</TEN_LOAI>
+    <ID_NHOM>2</ID_NHOM>
+    <STT_NHOM>6</STT_NHOM>
+    <TEN_NHOM>Thuốc</TEN_NHOM>
+    <SOTIEN>1200000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>12644</ID>
+    <MA>CHI014</MA>
+    <TEN>Chích thuốc dịch vụ</TEN>
+    <DVT>lần</DVT>
+    <ID_LOAI>132</ID_LOAI>
+    <STT_LOAI>50</STT_LOAI>
+    <TEN_LOAI>INJ - Thuốc chích</TEN_LOAI>
+    <ID_NHOM>2</ID_NHOM>
+    <STT_NHOM>6</STT_NHOM>
+    <TEN_NHOM>Thuốc</TEN_NHOM>
+    <SOTIEN>310000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>11556</ID>
+    <MA>CHA009</MA>
+    <TEN>Chẩn đoán mô bệnh học bệnh phẩm phẫu thuật</TEN>
+    <DVT>Lần</DVT>
+    <ID_LOAI>111</ID_LOAI>
+    <STT_LOAI>16</STT_LOAI>
+    <TEN_LOAI>Giải phẫu bệnh lý</TEN_LOAI>
+    <ID_NHOM>4</ID_NHOM>
+    <STT_NHOM>2</STT_NHOM>
+    <TEN_NHOM>Xét Nghiệm</TEN_NHOM>
+    <SOTIEN>100000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>11557</ID>
+    <MA>CHO014</MA>
+    <TEN>Chọc hút nhuộm chẩn đoán các u nang (1u)</TEN>
+    <DVT>Lần</DVT>
+    <ID_LOAI>111</ID_LOAI>
+    <STT_LOAI>16</STT_LOAI>
+    <TEN_LOAI>Giải phẫu bệnh lý</TEN_LOAI>
+    <ID_NHOM>4</ID_NHOM>
+    <STT_NHOM>2</STT_NHOM>
+    <TEN_NHOM>Xét Nghiệm</TEN_NHOM>
+    <SOTIEN>100000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>12090</ID>
+    <MA>CHO020</MA>
+    <TEN>Chọc xoang bh</TEN>
+    <DVT>Lần</DVT>
+    <ID_LOAI>1</ID_LOAI>
+    <STT_LOAI>41</STT_LOAI>
+    <TEN_LOAI>PTTT Tai - Mũi - Họng</TEN_LOAI>
+    <ID_NHOM>8</ID_NHOM>
+    <STT_NHOM>4</STT_NHOM>
+    <TEN_NHOM>Phẩu thuật - thủ thuật</TEN_NHOM>
+    <SOTIEN>420000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>12620</ID>
+    <MA>CHO030</MA>
+    <TEN>Chọc xoang dịch vụ</TEN>
+    <DVT>lần</DVT>
+    <ID_LOAI>123</ID_LOAI>
+    <STT_LOAI>33</STT_LOAI>
+    <TEN_LOAI>Thủ thuật nội soi</TEN_LOAI>
+    <ID_NHOM>26</ID_NHOM>
+    <STT_NHOM>3</STT_NHOM>
+    <TEN_NHOM>Chẩn đoán hình ảnh</TEN_NHOM>
+    <SOTIEN>330000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>10620</ID>
+    <MA>CHU001</MA>
+    <TEN>Chụp B-H</TEN>
+    <DVT>Lần</DVT>
+    <ID_LOAI>58</ID_LOAI>
+    <STT_LOAI>31</STT_LOAI>
+    <TEN_LOAI>X Quang</TEN_LOAI>
+    <ID_NHOM>26</ID_NHOM>
+    <STT_NHOM>3</STT_NHOM>
+    <TEN_NHOM>Chẩn đoán hình ảnh</TEN_NHOM>
+    <SOTIEN>2310000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>12649</ID>
+    <MA>CHU055</MA>
+    <TEN>Chụp B-H bhtp</TEN>
+    <DVT>lần</DVT>
+    <ID_LOAI>58</ID_LOAI>
+    <STT_LOAI>31</STT_LOAI>
+    <TEN_LOAI>X Quang</TEN_LOAI>
+    <ID_NHOM>26</ID_NHOM>
+    <STT_NHOM>3</STT_NHOM>
+    <TEN_NHOM>Chẩn đoán hình ảnh</TEN_NHOM>
+    <SOTIEN>30000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>10621</ID>
+    <MA>CHU002</MA>
+    <TEN>Chụp Blondeau- hitz chấn thương</TEN>
+    <DVT>Lần</DVT>
+    <ID_LOAI>58</ID_LOAI>
+    <STT_LOAI>31</STT_LOAI>
+    <TEN_LOAI>X Quang</TEN_LOAI>
+    <ID_NHOM>26</ID_NHOM>
+    <STT_NHOM>3</STT_NHOM>
+    <TEN_NHOM>Chẩn đoán hình ảnh</TEN_NHOM>
+    <SOTIEN>385000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>12625</ID>
+    <MA>CHU051</MA>
+    <TEN>Chụp bàn chân thẳng - nghiêng</TEN>
+    <DVT>`lần</DVT>
+    <ID_LOAI>58</ID_LOAI>
+    <STT_LOAI>31</STT_LOAI>
+    <TEN_LOAI>X Quang</TEN_LOAI>
+    <ID_NHOM>26</ID_NHOM>
+    <STT_NHOM>3</STT_NHOM>
+    <TEN_NHOM>Chẩn đoán hình ảnh</TEN_NHOM>
+    <SOTIEN>210000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>12097</ID>
+    <MA>CHU048</MA>
+    <TEN>Chụp bàn tay</TEN>
+    <DVT>Lần</DVT>
+    <ID_LOAI>58</ID_LOAI>
+    <STT_LOAI>31</STT_LOAI>
+    <TEN_LOAI>X Quang</TEN_LOAI>
+    <ID_NHOM>26</ID_NHOM>
+    <STT_NHOM>3</STT_NHOM>
+    <TEN_NHOM>Chẩn đoán hình ảnh</TEN_NHOM>
+    <SOTIEN>480000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>12628</ID>
+    <MA>CHU054</MA>
+    <TEN>Chụp cổ chân thẳng - nghiêng</TEN>
+    <DVT>lần</DVT>
+    <ID_LOAI>58</ID_LOAI>
+    <STT_LOAI>31</STT_LOAI>
+    <TEN_LOAI>X Quang</TEN_LOAI>
+    <ID_NHOM>26</ID_NHOM>
+    <STT_NHOM>3</STT_NHOM>
+    <TEN_NHOM>Chẩn đoán hình ảnh</TEN_NHOM>
+    <SOTIEN>30000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>12627</ID>
+    <MA>CHU053</MA>
+    <TEN>Chụp cổ tay thẳng - nghiêng</TEN>
+    <DVT>lần</DVT>
+    <ID_LOAI>58</ID_LOAI>
+    <STT_LOAI>31</STT_LOAI>
+    <TEN_LOAI>X Quang</TEN_LOAI>
+    <ID_NHOM>26</ID_NHOM>
+    <STT_NHOM>3</STT_NHOM>
+    <TEN_NHOM>Chẩn đoán hình ảnh</TEN_NHOM>
+    <SOTIEN>90000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>10636</ID>
+    <MA>CHU010</MA>
+    <TEN>Chụp cột sống ngực</TEN>
+    <DVT>Lần</DVT>
+    <ID_LOAI>58</ID_LOAI>
+    <STT_LOAI>31</STT_LOAI>
+    <TEN_LOAI>X Quang</TEN_LOAI>
+    <ID_NHOM>26</ID_NHOM>
+    <STT_NHOM>3</STT_NHOM>
+    <TEN_NHOM>Chẩn đoán hình ảnh</TEN_NHOM>
+    <SOTIEN>330000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>12660</ID>
+    <MA>CHU059</MA>
+    <TEN>Chụp cột sống thắt lưng thẳng nghiêng</TEN>
+    <DVT>lần</DVT>
+    <ID_LOAI>58</ID_LOAI>
+    <STT_LOAI>31</STT_LOAI>
+    <TEN_LOAI>X Quang</TEN_LOAI>
+    <ID_NHOM>26</ID_NHOM>
+    <STT_NHOM>3</STT_NHOM>
+    <TEN_NHOM>Chẩn đoán hình ảnh</TEN_NHOM>
+    <SOTIEN>315000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>10641</ID>
+    <MA>CHU014</MA>
+    <TEN>Chụp dạ dày có baryte</TEN>
+    <DVT>Lần</DVT>
+    <ID_LOAI>58</ID_LOAI>
+    <STT_LOAI>31</STT_LOAI>
+    <TEN_LOAI>X Quang</TEN_LOAI>
+    <ID_NHOM>26</ID_NHOM>
+    <STT_NHOM>3</STT_NHOM>
+    <TEN_NHOM>Chẩn đoán hình ảnh</TEN_NHOM>
+    <SOTIEN>360000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>10623</ID>
+    <MA>CHU004</MA>
+    <TEN>Chụp gót chân</TEN>
+    <DVT>Lần</DVT>
+    <ID_LOAI>58</ID_LOAI>
+    <STT_LOAI>31</STT_LOAI>
+    <TEN_LOAI>X Quang</TEN_LOAI>
+    <ID_NHOM>26</ID_NHOM>
+    <STT_NHOM>3</STT_NHOM>
+    <TEN_NHOM>Chẩn đoán hình ảnh</TEN_NHOM>
+    <SOTIEN>30000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>12626</ID>
+    <MA>CHU052</MA>
+    <TEN>Chụp khuỷ tay thẳng - nghiêng</TEN>
+    <DVT>Lần</DVT>
+    <ID_LOAI>58</ID_LOAI>
+    <STT_LOAI>31</STT_LOAI>
+    <TEN_LOAI>X Quang</TEN_LOAI>
+    <ID_NHOM>26</ID_NHOM>
+    <STT_NHOM>3</STT_NHOM>
+    <TEN_NHOM>Chẩn đoán hình ảnh</TEN_NHOM>
+    <SOTIEN>30000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>10628</ID>
+    <MA>CHU009</MA>
+    <TEN>Chụp schuller</TEN>
+    <DVT>Lần</DVT>
+    <ID_LOAI>58</ID_LOAI>
+    <STT_LOAI>31</STT_LOAI>
+    <TEN_LOAI>X Quang</TEN_LOAI>
+    <ID_NHOM>26</ID_NHOM>
+    <STT_NHOM>3</STT_NHOM>
+    <TEN_NHOM>Chẩn đoán hình ảnh</TEN_NHOM>
+    <SOTIEN>90000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>12265</ID>
+    <MA>CHU049</MA>
+    <TEN>Chụp sọ thẳng - nghiêng</TEN>
+    <DVT>LẦN</DVT>
+    <ID_LOAI>58</ID_LOAI>
+    <STT_LOAI>31</STT_LOAI>
+    <TEN_LOAI>X Quang</TEN_LOAI>
+    <ID_NHOM>26</ID_NHOM>
+    <STT_NHOM>3</STT_NHOM>
+    <TEN_NHOM>Chẩn đoán hình ảnh</TEN_NHOM>
+    <SOTIEN>210000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>10624</ID>
+    <MA>CHU005</MA>
+    <TEN>Chụp sọ thẳng- Nghiêng</TEN>
+    <DVT>Lần</DVT>
+    <ID_LOAI>58</ID_LOAI>
+    <STT_LOAI>31</STT_LOAI>
+    <TEN_LOAI>X Quang</TEN_LOAI>
+    <ID_NHOM>26</ID_NHOM>
+    <STT_NHOM>3</STT_NHOM>
+    <TEN_NHOM>Chẩn đoán hình ảnh</TEN_NHOM>
+    <SOTIEN>665000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>10626</ID>
+    <MA>CHU007</MA>
+    <TEN>Chụp thực quản có cản quang</TEN>
+    <DVT>Lần</DVT>
+    <ID_LOAI>58</ID_LOAI>
+    <STT_LOAI>31</STT_LOAI>
+    <TEN_LOAI>X Quang</TEN_LOAI>
+    <ID_NHOM>26</ID_NHOM>
+    <STT_NHOM>3</STT_NHOM>
+    <TEN_NHOM>Chẩn đoán hình ảnh</TEN_NHOM>
+    <SOTIEN>450000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>12661</ID>
+    <MA>CHU060</MA>
+    <TEN>Chụp tim phổi thẳng</TEN>
+    <DVT>lần</DVT>
+    <ID_LOAI>58</ID_LOAI>
+    <STT_LOAI>31</STT_LOAI>
+    <TEN_LOAI>X Quang</TEN_LOAI>
+    <ID_NHOM>26</ID_NHOM>
+    <STT_NHOM>3</STT_NHOM>
+    <TEN_NHOM>Chẩn đoán hình ảnh</TEN_NHOM>
+    <SOTIEN>2490000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>10640</ID>
+    <MA>CHU013</MA>
+    <TEN>Chụp ổ răng</TEN>
+    <DVT>Lần</DVT>
+    <ID_LOAI>58</ID_LOAI>
+    <STT_LOAI>31</STT_LOAI>
+    <TEN_LOAI>X Quang</TEN_LOAI>
+    <ID_NHOM>26</ID_NHOM>
+    <STT_NHOM>3</STT_NHOM>
+    <TEN_NHOM>Chẩn đoán hình ảnh</TEN_NHOM>
+    <SOTIEN>75000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>12612</ID>
+    <MA>CHU050</MA>
+    <TEN>Chữa tuỷ</TEN>
+    <DVT>CÁI</DVT>
+    <ID_LOAI>2</ID_LOAI>
+    <STT_LOAI>40</STT_LOAI>
+    <TEN_LOAI>PTTT Răng - Hàm - Mặt</TEN_LOAI>
+    <ID_NHOM>8</ID_NHOM>
+    <STT_NHOM>4</STT_NHOM>
+    <TEN_NHOM>Phẩu thuật - thủ thuật</TEN_NHOM>
+    <SOTIEN>970000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>11168</ID>
+    <MA>NHO005</MA>
+    <TEN>Chữa tuỷ răng 1 chân(BHYT/BD)</TEN>
+    <DVT>Lần</DVT>
+    <ID_LOAI>2</ID_LOAI>
+    <STT_LOAI>40</STT_LOAI>
+    <TEN_LOAI>PTTT Răng - Hàm - Mặt</TEN_LOAI>
+    <ID_NHOM>8</ID_NHOM>
+    <STT_NHOM>4</STT_NHOM>
+    <TEN_NHOM>Phẩu thuật - thủ thuật</TEN_NHOM>
+    <SOTIEN>150000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>10484</ID>
+    <MA>CRE001</MA>
+    <TEN>Creatinin</TEN>
+    <DVT>Lần</DVT>
+    <ID_LOAI>61</ID_LOAI>
+    <STT_LOAI>13</STT_LOAI>
+    <TEN_LOAI>Huyết học</TEN_LOAI>
+    <ID_NHOM>4</ID_NHOM>
+    <STT_NHOM>2</STT_NHOM>
+    <TEN_NHOM>Xét Nghiệm</TEN_NHOM>
+    <SOTIEN>10000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>12330</ID>
+    <MA>CAM008</MA>
+    <TEN>Cà mặt hột (1 mặt)</TEN>
+    <DVT>Lần</DVT>
+    <ID_LOAI>3</ID_LOAI>
+    <STT_LOAI>42</STT_LOAI>
+    <TEN_LOAI>PTTT Mắt</TEN_LOAI>
+    <ID_NHOM>8</ID_NHOM>
+    <STT_NHOM>4</STT_NHOM>
+    <TEN_NHOM>Phẩu thuật - thủ thuật</TEN_NHOM>
+    <SOTIEN>50000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>10634</ID>
+    <MA>CAC001</MA>
+    <TEN>Các khớp khuỷu tay, cổ tay, gối, cổ chân.</TEN>
+    <DVT>Lần</DVT>
+    <ID_LOAI>58</ID_LOAI>
+    <STT_LOAI>31</STT_LOAI>
+    <TEN_LOAI>X Quang</TEN_LOAI>
+    <ID_NHOM>26</ID_NHOM>
+    <STT_NHOM>3</STT_NHOM>
+    <TEN_NHOM>Chẩn đoán hình ảnh</TEN_NHOM>
+    <SOTIEN>990000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>12092</ID>
+    <MA>CON001</MA>
+    <TEN>CÔNG THỨC MÁU</TEN>
+    <DVT>Lần</DVT>
+    <ID_LOAI>61</ID_LOAI>
+    <STT_LOAI>13</STT_LOAI>
+    <TEN_LOAI>Huyết học</TEN_LOAI>
+    <ID_NHOM>4</ID_NHOM>
+    <STT_NHOM>2</STT_NHOM>
+    <TEN_NHOM>Xét Nghiệm</TEN_NHOM>
+    <SOTIEN>6825000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>12094</ID>
+    <MA>CAO001</MA>
+    <TEN>Cạo vôi răng</TEN>
+    <DVT>cái</DVT>
+    <ID_LOAI>126</ID_LOAI>
+    <STT_LOAI>47</STT_LOAI>
+    <TEN_LOAI>Bỏng</TEN_LOAI>
+    <ID_NHOM>8</ID_NHOM>
+    <STT_NHOM>4</STT_NHOM>
+    <TEN_NHOM>Phẩu thuật - thủ thuật</TEN_NHOM>
+    <SOTIEN>1040000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>12232</ID>
+    <MA>CAO002</MA>
+    <TEN>Cạo vôi răng</TEN>
+    <DVT>chiếc</DVT>
+    <ID_LOAI>126</ID_LOAI>
+    <STT_LOAI>47</STT_LOAI>
+    <TEN_LOAI>Bỏng</TEN_LOAI>
+    <ID_NHOM>8</ID_NHOM>
+    <STT_NHOM>4</STT_NHOM>
+    <TEN_NHOM>Phẩu thuật - thủ thuật</TEN_NHOM>
+    <SOTIEN>250000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>12678</ID>
+    <MA>CAT042</MA>
+    <TEN>Cắt chỉ bh</TEN>
+    <DVT>lần</DVT>
+    <ID_LOAI>123</ID_LOAI>
+    <STT_LOAI>33</STT_LOAI>
+    <TEN_LOAI>Thủ thuật nội soi</TEN_LOAI>
+    <ID_NHOM>26</ID_NHOM>
+    <STT_NHOM>3</STT_NHOM>
+    <TEN_NHOM>Chẩn đoán hình ảnh</TEN_NHOM>
+    <SOTIEN>10000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>12684</ID>
+    <MA>CAT043</MA>
+    <TEN>Cắt chỉ dịch vụ</TEN>
+    <DVT>l</DVT>
+    <ID_LOAI>123</ID_LOAI>
+    <STT_LOAI>33</STT_LOAI>
+    <TEN_LOAI>Thủ thuật nội soi</TEN_LOAI>
+    <ID_NHOM>26</ID_NHOM>
+    <STT_NHOM>3</STT_NHOM>
+    <TEN_NHOM>Chẩn đoán hình ảnh</TEN_NHOM>
+    <SOTIEN>80000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>10465</ID>
+    <MA>NAN002</MA>
+    <TEN>Cố định gãy xương đòn</TEN>
+    <DVT>Lần</DVT>
+    <ID_LOAI>105</ID_LOAI>
+    <STT_LOAI>43</STT_LOAI>
+    <TEN_LOAI>PTTT Ngoại khoa tổng quát</TEN_LOAI>
+    <ID_NHOM>8</ID_NHOM>
+    <STT_NHOM>4</STT_NHOM>
+    <TEN_NHOM>Phẩu thuật - thủ thuật</TEN_NHOM>
+    <SOTIEN>50000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>12193</ID>
+    <MA>COT003</MA>
+    <TEN>Cột Sống Thắt Lưng</TEN>
+    <DVT>lần</DVT>
+    <ID_LOAI>58</ID_LOAI>
+    <STT_LOAI>31</STT_LOAI>
+    <TEN_LOAI>X Quang</TEN_LOAI>
+    <ID_NHOM>26</ID_NHOM>
+    <STT_NHOM>3</STT_NHOM>
+    <TEN_NHOM>Chẩn đoán hình ảnh</TEN_NHOM>
+    <SOTIEN>560000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>10635</ID>
+    <MA>COT001</MA>
+    <TEN>Cột sống cổ thẳng, nghiêng.</TEN>
+    <DVT>Lần</DVT>
+    <ID_LOAI>58</ID_LOAI>
+    <STT_LOAI>31</STT_LOAI>
+    <TEN_LOAI>X Quang</TEN_LOAI>
+    <ID_NHOM>26</ID_NHOM>
+    <STT_NHOM>3</STT_NHOM>
+    <TEN_NHOM>Chẩn đoán hình ảnh</TEN_NHOM>
+    <SOTIEN>315000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>11912</ID>
+    <MA>DEP001</MA>
+    <TEN>DEPERSOLON 30mg</TEN>
+    <DVT>ỐNG</DVT>
+    <ID_LOAI>132</ID_LOAI>
+    <STT_LOAI>50</STT_LOAI>
+    <TEN_LOAI>INJ - Thuốc chích</TEN_LOAI>
+    <ID_NHOM>2</ID_NHOM>
+    <STT_NHOM>6</STT_NHOM>
+    <TEN_NHOM>Thuốc</TEN_NHOM>
+    <SOTIEN>120000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>12358</ID>
+    <MA>DEX004</MA>
+    <TEN>DEXTROSE</TEN>
+    <DVT>lần</DVT>
+    <ID_LOAI>133</ID_LOAI>
+    <STT_LOAI>51</STT_LOAI>
+    <TEN_LOAI>Dịch truyền</TEN_LOAI>
+    <ID_NHOM>2</ID_NHOM>
+    <STT_NHOM>6</STT_NHOM>
+    <TEN_NHOM>Thuốc</TEN_NHOM>
+    <SOTIEN>300000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>11949</ID>
+    <MA>DEX003</MA>
+    <TEN>DEXTROSE 10% 500ML</TEN>
+    <DVT>CHAI</DVT>
+    <ID_LOAI>133</ID_LOAI>
+    <STT_LOAI>51</STT_LOAI>
+    <TEN_LOAI>Dịch truyền</TEN_LOAI>
+    <ID_NHOM>2</ID_NHOM>
+    <STT_NHOM>6</STT_NHOM>
+    <TEN_NHOM>Thuốc</TEN_NHOM>
+    <SOTIEN>550000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>12606</ID>
+    <MA>DEX005</MA>
+    <TEN>DEXTROSE 10%500ML ( BH )</TEN>
+    <DVT>CHAI</DVT>
+    <ID_LOAI>133</ID_LOAI>
+    <STT_LOAI>51</STT_LOAI>
+    <TEN_LOAI>Dịch truyền</TEN_LOAI>
+    <ID_NHOM>2</ID_NHOM>
+    <STT_NHOM>6</STT_NHOM>
+    <TEN_NHOM>Thuốc</TEN_NHOM>
+    <SOTIEN>1160000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>11911</ID>
+    <MA>CLO001</MA>
+    <TEN>DICLOFENAC 75mg /3ml</TEN>
+    <DVT>ỐNG</DVT>
+    <ID_LOAI>132</ID_LOAI>
+    <STT_LOAI>50</STT_LOAI>
+    <TEN_LOAI>INJ - Thuốc chích</TEN_LOAI>
+    <ID_NHOM>2</ID_NHOM>
+    <STT_NHOM>6</STT_NHOM>
+    <TEN_NHOM>Thuốc</TEN_NHOM>
+    <SOTIEN>140000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>11916</ID>
+    <MA>GEN001</MA>
+    <TEN>GENTAMYCINE 80mg</TEN>
+    <DVT>ỐNG</DVT>
+    <ID_LOAI>101</ID_LOAI>
+    <STT_LOAI>52</STT_LOAI>
+    <TEN_LOAI>Tiền thuốc</TEN_LOAI>
+    <ID_NHOM>2</ID_NHOM>
+    <STT_NHOM>6</STT_NHOM>
+    <TEN_NHOM>Thuốc</TEN_NHOM>
+    <SOTIEN>500000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>12614</ID>
+    <MA>GEN002</MA>
+    <TEN>GENTAMYCINE80MG</TEN>
+    <DVT>ỐNG</DVT>
+    <ID_LOAI>132</ID_LOAI>
+    <STT_LOAI>50</STT_LOAI>
+    <TEN_LOAI>INJ - Thuốc chích</TEN_LOAI>
+    <ID_NHOM>2</ID_NHOM>
+    <STT_NHOM>6</STT_NHOM>
+    <TEN_NHOM>Thuốc</TEN_NHOM>
+    <SOTIEN>120000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>12082</ID>
+    <MA>LAC004</MA>
+    <TEN>GLUCOSE 10% 500ML</TEN>
+    <DVT>Lần</DVT>
+    <ID_LOAI>133</ID_LOAI>
+    <STT_LOAI>51</STT_LOAI>
+    <TEN_LOAI>Dịch truyền</TEN_LOAI>
+    <ID_NHOM>2</ID_NHOM>
+    <STT_NHOM>6</STT_NHOM>
+    <TEN_NHOM>Thuốc</TEN_NHOM>
+    <SOTIEN>400000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>12056</ID>
+    <MA>GLU001</MA>
+    <TEN>GLUCOSE 5% 500ML</TEN>
+    <DVT>CHAI</DVT>
+    <ID_LOAI>133</ID_LOAI>
+    <STT_LOAI>51</STT_LOAI>
+    <TEN_LOAI>Dịch truyền</TEN_LOAI>
+    <ID_NHOM>2</ID_NHOM>
+    <STT_NHOM>6</STT_NHOM>
+    <TEN_NHOM>Thuốc</TEN_NHOM>
+    <SOTIEN>850000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>12605</ID>
+    <MA>GLU003</MA>
+    <TEN>GLUCOSE 5% 500ML ( BH )</TEN>
+    <DVT>CHAI</DVT>
+    <ID_LOAI>133</ID_LOAI>
+    <STT_LOAI>51</STT_LOAI>
+    <TEN_LOAI>Dịch truyền</TEN_LOAI>
+    <ID_NHOM>2</ID_NHOM>
+    <STT_NHOM>6</STT_NHOM>
+    <TEN_NHOM>Thuốc</TEN_NHOM>
+    <SOTIEN>520000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>10482</ID>
+    <MA>GLY001</MA>
+    <TEN>Glycemie</TEN>
+    <DVT>Lần</DVT>
+    <ID_LOAI>61</ID_LOAI>
+    <STT_LOAI>13</STT_LOAI>
+    <TEN_LOAI>Huyết học</TEN_LOAI>
+    <ID_NHOM>4</ID_NHOM>
+    <STT_NHOM>2</STT_NHOM>
+    <TEN_NHOM>Xét Nghiệm</TEN_NHOM>
+    <SOTIEN>20000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>11437</ID>
+    <MA>GRO002</MA>
+    <TEN>Gross</TEN>
+    <DVT>Lần</DVT>
+    <ID_LOAI>129</ID_LOAI>
+    <STT_LOAI>12</STT_LOAI>
+    <TEN_LOAI>Sinh hoá</TEN_LOAI>
+    <ID_NHOM>4</ID_NHOM>
+    <STT_NHOM>2</STT_NHOM>
+    <TEN_NHOM>Xét Nghiệm</TEN_NHOM>
+    <SOTIEN>75000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>10579</ID>
+    <MA>HBS001</MA>
+    <TEN>HBsAg</TEN>
+    <DVT>Lần</DVT>
+    <ID_LOAI>109</ID_LOAI>
+    <STT_LOAI>17</STT_LOAI>
+    <TEN_LOAI>Huyết học miễn dịch</TEN_LOAI>
+    <ID_NHOM>4</ID_NHOM>
+    <STT_NHOM>2</STT_NHOM>
+    <TEN_NHOM>Xét Nghiệm</TEN_NHOM>
+    <SOTIEN>920000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>10538</ID>
+    <MA>HCG001</MA>
+    <TEN>HCG</TEN>
+    <DVT>Lần</DVT>
+    <ID_LOAI>61</ID_LOAI>
+    <STT_LOAI>13</STT_LOAI>
+    <TEN_LOAI>Huyết học</TEN_LOAI>
+    <ID_NHOM>4</ID_NHOM>
+    <STT_NHOM>2</STT_NHOM>
+    <TEN_NHOM>Xét Nghiệm</TEN_NHOM>
+    <SOTIEN>75000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>10487</ID>
+    <MA>HDL001</MA>
+    <TEN>HDL-C</TEN>
+    <DVT>Lần</DVT>
+    <ID_LOAI>61</ID_LOAI>
+    <STT_LOAI>13</STT_LOAI>
+    <TEN_LOAI>Huyết học</TEN_LOAI>
+    <ID_NHOM>4</ID_NHOM>
+    <STT_NHOM>2</STT_NHOM>
+    <TEN_NHOM>Xét Nghiệm</TEN_NHOM>
+    <SOTIEN>30000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>12234</ID>
+    <MA>HIV003</MA>
+    <TEN>HIV</TEN>
+    <DVT>LẤN</DVT>
+    <ID_LOAI>126</ID_LOAI>
+    <STT_LOAI>47</STT_LOAI>
+    <TEN_LOAI>Bỏng</TEN_LOAI>
+    <ID_NHOM>8</ID_NHOM>
+    <STT_NHOM>4</STT_NHOM>
+    <TEN_NHOM>Phẩu thuật - thủ thuật</TEN_NHOM>
+    <SOTIEN>320000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>11917</ID>
+    <MA>HYD001</MA>
+    <TEN>HYDROCORTISON 100mg</TEN>
+    <DVT>ỐNG</DVT>
+    <ID_LOAI>132</ID_LOAI>
+    <STT_LOAI>50</STT_LOAI>
+    <TEN_LOAI>INJ - Thuốc chích</TEN_LOAI>
+    <ID_NHOM>2</ID_NHOM>
+    <STT_NHOM>6</STT_NHOM>
+    <TEN_NHOM>Thuốc</TEN_NHOM>
+    <SOTIEN>630000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>10503</ID>
+    <MA>ION001</MA>
+    <TEN>Ion đồ</TEN>
+    <DVT>Lần</DVT>
+    <ID_LOAI>61</ID_LOAI>
+    <STT_LOAI>13</STT_LOAI>
+    <TEN_LOAI>Huyết học</TEN_LOAI>
+    <ID_NHOM>4</ID_NHOM>
+    <STT_NHOM>2</STT_NHOM>
+    <TEN_NHOM>Xét Nghiệm</TEN_NHOM>
+    <SOTIEN>30000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>11918</ID>
+    <MA>K-C001</MA>
+    <TEN>K-CORT 80mg</TEN>
+    <DVT>ỐNG</DVT>
+    <ID_LOAI>132</ID_LOAI>
+    <STT_LOAI>50</STT_LOAI>
+    <TEN_LOAI>INJ - Thuốc chích</TEN_LOAI>
+    <ID_NHOM>2</ID_NHOM>
+    <STT_NHOM>6</STT_NHOM>
+    <TEN_NHOM>Thuốc</TEN_NHOM>
+    <SOTIEN>840000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>12613</ID>
+    <MA>KSK001</MA>
+    <TEN>KSKHÕETE</TEN>
+    <DVT>LẦN</DVT>
+    <ID_LOAI>60</ID_LOAI>
+    <STT_LOAI>1</STT_LOAI>
+    <TEN_LOAI>Khám bệnh</TEN_LOAI>
+    <ID_NHOM>11</ID_NHOM>
+    <STT_NHOM>1</STT_NHOM>
+    <TEN_NHOM>Khám bệnh</TEN_NHOM>
+    <SOTIEN>15000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>12322</ID>
+    <MA>KVT001</MA>
+    <TEN>KVT</TEN>
+    <DVT>Lần</DVT>
+    <ID_LOAI>105</ID_LOAI>
+    <STT_LOAI>43</STT_LOAI>
+    <TEN_LOAI>PTTT Ngoại khoa tổng quát</TEN_LOAI>
+    <ID_NHOM>8</ID_NHOM>
+    <STT_NHOM>4</STT_NHOM>
+    <TEN_NHOM>Phẩu thuật - thủ thuật</TEN_NHOM>
+    <SOTIEN>3308000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>10632</ID>
+    <MA>KHU001</MA>
+    <TEN>Khung chậu</TEN>
+    <DVT>Lần</DVT>
+    <ID_LOAI>58</ID_LOAI>
+    <STT_LOAI>31</STT_LOAI>
+    <TEN_LOAI>X Quang</TEN_LOAI>
+    <ID_NHOM>26</ID_NHOM>
+    <STT_NHOM>3</STT_NHOM>
+    <TEN_NHOM>Chẩn đoán hình ảnh</TEN_NHOM>
+    <SOTIEN>120000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>3454</ID>
+    <MA>KHA001</MA>
+    <TEN>Khám bệnh</TEN>
+    <DVT>Lần</DVT>
+    <ID_LOAI>60</ID_LOAI>
+    <STT_LOAI>1</STT_LOAI>
+    <TEN_LOAI>Khám bệnh</TEN_LOAI>
+    <ID_NHOM>11</ID_NHOM>
+    <STT_NHOM>1</STT_NHOM>
+    <TEN_NHOM>Khám bệnh</TEN_NHOM>
+    <SOTIEN>13540000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>12122</ID>
+    <MA>KHA042</MA>
+    <TEN>Khám răng</TEN>
+    <DVT>Lần</DVT>
+    <ID_LOAI>2</ID_LOAI>
+    <STT_LOAI>40</STT_LOAI>
+    <TEN_LOAI>PTTT Răng - Hàm - Mặt</TEN_LOAI>
+    <ID_NHOM>8</ID_NHOM>
+    <STT_NHOM>4</STT_NHOM>
+    <TEN_NHOM>Phẩu thuật - thủ thuật</TEN_NHOM>
+    <SOTIEN>130000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>11754</ID>
+    <MA>KHA038</MA>
+    <TEN>Khám sản</TEN>
+    <DVT>Lần</DVT>
+    <ID_LOAI>103</ID_LOAI>
+    <STT_LOAI>46</STT_LOAI>
+    <TEN_LOAI>Sản phụ khoa</TEN_LOAI>
+    <ID_NHOM>8</ID_NHOM>
+    <STT_NHOM>4</STT_NHOM>
+    <TEN_NHOM>Phẩu thuật - thủ thuật</TEN_NHOM>
+    <SOTIEN>3580000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>12685</ID>
+    <MA>KHA050</MA>
+    <TEN>Khám sức khoẻ trẻ em</TEN>
+    <DVT>l</DVT>
+    <ID_LOAI>123</ID_LOAI>
+    <STT_LOAI>33</STT_LOAI>
+    <TEN_LOAI>Thủ thuật nội soi</TEN_LOAI>
+    <ID_NHOM>26</ID_NHOM>
+    <STT_NHOM>3</STT_NHOM>
+    <TEN_NHOM>Chẩn đoán hình ảnh</TEN_NHOM>
+    <SOTIEN>40000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>11948</ID>
+    <MA>LAC003</MA>
+    <TEN>LACTATE RINGER 500ml</TEN>
+    <DVT>CHAI</DVT>
+    <ID_LOAI>133</ID_LOAI>
+    <STT_LOAI>51</STT_LOAI>
+    <TEN_LOAI>Dịch truyền</TEN_LOAI>
+    <ID_NHOM>2</ID_NHOM>
+    <STT_NHOM>6</STT_NHOM>
+    <TEN_NHOM>Thuốc</TEN_NHOM>
+    <SOTIEN>8700000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>12607</ID>
+    <MA>LAC005</MA>
+    <TEN>LACTATERINGER 500ML ( BH )</TEN>
+    <DVT>CHAI</DVT>
+    <ID_LOAI>133</ID_LOAI>
+    <STT_LOAI>51</STT_LOAI>
+    <TEN_LOAI>Dịch truyền</TEN_LOAI>
+    <ID_NHOM>2</ID_NHOM>
+    <STT_NHOM>6</STT_NHOM>
+    <TEN_NHOM>Thuốc</TEN_NHOM>
+    <SOTIEN>5880000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>11921</ID>
+    <MA>LAR001</MA>
+    <TEN>LAROSCORBINE 500mg</TEN>
+    <DVT>ỐNG</DVT>
+    <ID_LOAI>132</ID_LOAI>
+    <STT_LOAI>50</STT_LOAI>
+    <TEN_LOAI>INJ - Thuốc chích</TEN_LOAI>
+    <ID_NHOM>2</ID_NHOM>
+    <STT_NHOM>6</STT_NHOM>
+    <TEN_NHOM>Thuốc</TEN_NHOM>
+    <SOTIEN>1960000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>10488</ID>
+    <MA>LDL001</MA>
+    <TEN>LDL-C</TEN>
+    <DVT>Lần</DVT>
+    <ID_LOAI>61</ID_LOAI>
+    <STT_LOAI>13</STT_LOAI>
+    <TEN_LOAI>Huyết học</TEN_LOAI>
+    <ID_NHOM>4</ID_NHOM>
+    <STT_NHOM>2</STT_NHOM>
+    <TEN_NHOM>Xét Nghiệm</TEN_NHOM>
+    <SOTIEN>20000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>12238</ID>
+    <MA>LAY027</MA>
+    <TEN>LẤY CAO RĂNG</TEN>
+    <DVT>CÁI</DVT>
+    <ID_LOAI>126</ID_LOAI>
+    <STT_LOAI>47</STT_LOAI>
+    <TEN_LOAI>Bỏng</TEN_LOAI>
+    <ID_NHOM>8</ID_NHOM>
+    <STT_NHOM>4</STT_NHOM>
+    <TEN_NHOM>Phẩu thuật - thủ thuật</TEN_NHOM>
+    <SOTIEN>200000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>12688</ID>
+    <MA>LAY030</MA>
+    <TEN>Lấy dị vật dịch vụ</TEN>
+    <DVT>lần</DVT>
+    <ID_LOAI>123</ID_LOAI>
+    <STT_LOAI>33</STT_LOAI>
+    <TEN_LOAI>Thủ thuật nội soi</TEN_LOAI>
+    <ID_NHOM>26</ID_NHOM>
+    <STT_NHOM>3</STT_NHOM>
+    <TEN_NHOM>Chẩn đoán hình ảnh</TEN_NHOM>
+    <SOTIEN>260000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>10409</ID>
+    <MA>LAY002</MA>
+    <TEN>Lấy dị vật giác mạc nông 1 mắt</TEN>
+    <DVT>Lần</DVT>
+    <ID_LOAI>3</ID_LOAI>
+    <STT_LOAI>42</STT_LOAI>
+    <TEN_LOAI>PTTT Mắt</TEN_LOAI>
+    <ID_NHOM>8</ID_NHOM>
+    <STT_NHOM>4</STT_NHOM>
+    <TEN_NHOM>Phẩu thuật - thủ thuật</TEN_NHOM>
+    <SOTIEN>50000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>10408</ID>
+    <MA>LAY001</MA>
+    <TEN>Lấy dị vật kết mạc 1 mắt</TEN>
+    <DVT>Lần</DVT>
+    <ID_LOAI>3</ID_LOAI>
+    <STT_LOAI>42</STT_LOAI>
+    <TEN_LOAI>PTTT Mắt</TEN_LOAI>
+    <ID_NHOM>8</ID_NHOM>
+    <STT_NHOM>4</STT_NHOM>
+    <TEN_NHOM>Phẩu thuật - thủ thuật</TEN_NHOM>
+    <SOTIEN>270000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>11110</ID>
+    <MA>DOT017</MA>
+    <TEN>Lấy dị vật tai</TEN>
+    <DVT>Lần</DVT>
+    <ID_LOAI>1</ID_LOAI>
+    <STT_LOAI>41</STT_LOAI>
+    <TEN_LOAI>PTTT Tai - Mũi - Họng</TEN_LOAI>
+    <ID_NHOM>8</ID_NHOM>
+    <STT_NHOM>4</STT_NHOM>
+    <TEN_NHOM>Phẩu thuật - thủ thuật</TEN_NHOM>
+    <SOTIEN>150000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>12088</ID>
+    <MA>MO001</MA>
+    <TEN>Mổ</TEN>
+    <DVT>Lần</DVT>
+    <ID_LOAI>105</ID_LOAI>
+    <STT_LOAI>43</STT_LOAI>
+    <TEN_LOAI>PTTT Ngoại khoa tổng quát</TEN_LOAI>
+    <ID_NHOM>8</ID_NHOM>
+    <STT_NHOM>4</STT_NHOM>
+    <TEN_NHOM>Phẩu thuật - thủ thuật</TEN_NHOM>
+    <SOTIEN>810000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>12341</ID>
+    <MA>MOA001</MA>
+    <TEN>Mổ áp xe - lớn1</TEN>
+    <DVT>Lần</DVT>
+    <ID_LOAI>105</ID_LOAI>
+    <STT_LOAI>43</STT_LOAI>
+    <TEN_LOAI>PTTT Ngoại khoa tổng quát</TEN_LOAI>
+    <ID_NHOM>8</ID_NHOM>
+    <STT_NHOM>4</STT_NHOM>
+    <TEN_NHOM>Phẩu thuật - thủ thuật</TEN_NHOM>
+    <SOTIEN>200000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>12609</ID>
+    <MA>NAC003</MA>
+    <TEN>NACL 0,9 % 500 ML (BH )</TEN>
+    <DVT>CHAI</DVT>
+    <ID_LOAI>133</ID_LOAI>
+    <STT_LOAI>51</STT_LOAI>
+    <TEN_LOAI>Dịch truyền</TEN_LOAI>
+    <ID_NHOM>2</ID_NHOM>
+    <STT_NHOM>6</STT_NHOM>
+    <TEN_NHOM>Thuốc</TEN_NHOM>
+    <SOTIEN>480000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>12091</ID>
+    <MA>NAC002</MA>
+    <TEN>NACL 0.9% 500ML</TEN>
+    <DVT>Lần</DVT>
+    <ID_LOAI>101</ID_LOAI>
+    <STT_LOAI>52</STT_LOAI>
+    <TEN_LOAI>Tiền thuốc</TEN_LOAI>
+    <ID_NHOM>2</ID_NHOM>
+    <STT_NHOM>6</STT_NHOM>
+    <TEN_NHOM>Thuốc</TEN_NHOM>
+    <SOTIEN>1400000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>11951</ID>
+    <MA>NAC001</MA>
+    <TEN>NATRICLORUA  0.9% 500ML</TEN>
+    <DVT>CHAI</DVT>
+    <ID_LOAI>101</ID_LOAI>
+    <STT_LOAI>52</STT_LOAI>
+    <TEN_LOAI>Tiền thuốc</TEN_LOAI>
+    <ID_NHOM>2</ID_NHOM>
+    <STT_NHOM>6</STT_NHOM>
+    <TEN_NHOM>Thuốc</TEN_NHOM>
+    <SOTIEN>200000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>11929</ID>
+    <MA>NEU001</MA>
+    <TEN>NEUROBION</TEN>
+    <DVT>ỐNG</DVT>
+    <ID_LOAI>132</ID_LOAI>
+    <STT_LOAI>50</STT_LOAI>
+    <TEN_LOAI>INJ - Thuốc chích</TEN_LOAI>
+    <ID_NHOM>2</ID_NHOM>
+    <STT_NHOM>6</STT_NHOM>
+    <TEN_NHOM>Thuốc</TEN_NHOM>
+    <SOTIEN>40000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>11927</ID>
+    <MA>NID001</MA>
+    <TEN>NIDAL</TEN>
+    <DVT>ỐNG</DVT>
+    <ID_LOAI>132</ID_LOAI>
+    <STT_LOAI>50</STT_LOAI>
+    <TEN_LOAI>INJ - Thuốc chích</TEN_LOAI>
+    <ID_NHOM>2</ID_NHOM>
+    <STT_NHOM>6</STT_NHOM>
+    <TEN_NHOM>Thuốc</TEN_NHOM>
+    <SOTIEN>90000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>12391</ID>
+    <MA>NHO014</MA>
+    <TEN>Nhổ chân răng</TEN>
+    <DVT>Lần</DVT>
+    <ID_LOAI>2</ID_LOAI>
+    <STT_LOAI>40</STT_LOAI>
+    <TEN_LOAI>PTTT Răng - Hàm - Mặt</TEN_LOAI>
+    <ID_NHOM>8</ID_NHOM>
+    <STT_NHOM>4</STT_NHOM>
+    <TEN_NHOM>Phẩu thuật - thủ thuật</TEN_NHOM>
+    <SOTIEN>2050000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>12123</ID>
+    <MA>NHO006</MA>
+    <TEN>Nhổ răng</TEN>
+    <DVT>LẦN</DVT>
+    <ID_LOAI>2</ID_LOAI>
+    <STT_LOAI>40</STT_LOAI>
+    <TEN_LOAI>PTTT Răng - Hàm - Mặt</TEN_LOAI>
+    <ID_NHOM>8</ID_NHOM>
+    <STT_NHOM>4</STT_NHOM>
+    <TEN_NHOM>Phẩu thuật - thủ thuật</TEN_NHOM>
+    <SOTIEN>1500000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>12187</ID>
+    <MA>NHO013</MA>
+    <TEN>Nhổ răng</TEN>
+    <DVT>cái</DVT>
+    <ID_LOAI>2</ID_LOAI>
+    <STT_LOAI>40</STT_LOAI>
+    <TEN_LOAI>PTTT Răng - Hàm - Mặt</TEN_LOAI>
+    <ID_NHOM>8</ID_NHOM>
+    <STT_NHOM>4</STT_NHOM>
+    <TEN_NHOM>Phẩu thuật - thủ thuật</TEN_NHOM>
+    <SOTIEN>800000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>10439</ID>
+    <MA>NHO001</MA>
+    <TEN>Nhổ răng sót</TEN>
+    <DVT>Lần</DVT>
+    <ID_LOAI>2</ID_LOAI>
+    <STT_LOAI>40</STT_LOAI>
+    <TEN_LOAI>PTTT Răng - Hàm - Mặt</TEN_LOAI>
+    <ID_NHOM>8</ID_NHOM>
+    <STT_NHOM>4</STT_NHOM>
+    <TEN_NHOM>Phẩu thuật - thủ thuật</TEN_NHOM>
+    <SOTIEN>480000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>12124</ID>
+    <MA>NHO007</MA>
+    <TEN>Nhổ răng sữa</TEN>
+    <DVT>Lần</DVT>
+    <ID_LOAI>2</ID_LOAI>
+    <STT_LOAI>40</STT_LOAI>
+    <TEN_LOAI>PTTT Răng - Hàm - Mặt</TEN_LOAI>
+    <ID_NHOM>8</ID_NHOM>
+    <STT_NHOM>4</STT_NHOM>
+    <TEN_NHOM>Phẩu thuật - thủ thuật</TEN_NHOM>
+    <SOTIEN>180000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>10442</ID>
+    <MA>NHO003</MA>
+    <TEN>Nhổ răng số 8 bình thường</TEN>
+    <DVT>Lần</DVT>
+    <ID_LOAI>2</ID_LOAI>
+    <STT_LOAI>40</STT_LOAI>
+    <TEN_LOAI>PTTT Răng - Hàm - Mặt</TEN_LOAI>
+    <ID_NHOM>8</ID_NHOM>
+    <STT_NHOM>4</STT_NHOM>
+    <TEN_NHOM>Phẩu thuật - thủ thuật</TEN_NHOM>
+    <SOTIEN>80000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>12128</ID>
+    <MA>NHO011</MA>
+    <TEN>Nhổ răng số 8 có biến chứng nghiêng</TEN>
+    <DVT>Lần</DVT>
+    <ID_LOAI>2</ID_LOAI>
+    <STT_LOAI>40</STT_LOAI>
+    <TEN_LOAI>PTTT Răng - Hàm - Mặt</TEN_LOAI>
+    <ID_NHOM>8</ID_NHOM>
+    <STT_NHOM>4</STT_NHOM>
+    <TEN_NHOM>Phẩu thuật - thủ thuật</TEN_NHOM>
+    <SOTIEN>500000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>12126</ID>
+    <MA>NHO009</MA>
+    <TEN>Nhổ răng vĩnh viễn khó ( 3 chân)</TEN>
+    <DVT>Lần</DVT>
+    <ID_LOAI>2</ID_LOAI>
+    <STT_LOAI>40</STT_LOAI>
+    <TEN_LOAI>PTTT Răng - Hàm - Mặt</TEN_LOAI>
+    <ID_NHOM>8</ID_NHOM>
+    <STT_NHOM>4</STT_NHOM>
+    <TEN_NHOM>Phẩu thuật - thủ thuật</TEN_NHOM>
+    <SOTIEN>1020000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>12125</ID>
+    <MA>NHO008</MA>
+    <TEN>Nhổ răng vĩnh viễn lung lay</TEN>
+    <DVT>Lần</DVT>
+    <ID_LOAI>2</ID_LOAI>
+    <STT_LOAI>40</STT_LOAI>
+    <TEN_LOAI>PTTT Răng - Hàm - Mặt</TEN_LOAI>
+    <ID_NHOM>8</ID_NHOM>
+    <STT_NHOM>4</STT_NHOM>
+    <TEN_NHOM>Phẩu thuật - thủ thuật</TEN_NHOM>
+    <SOTIEN>40000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>10469</ID>
+    <MA>NAN006</MA>
+    <TEN>Nắn , bó bột xương cánh tay, cẳng tay, bàn tay</TEN>
+    <DVT>Lần</DVT>
+    <ID_LOAI>105</ID_LOAI>
+    <STT_LOAI>43</STT_LOAI>
+    <TEN_LOAI>PTTT Ngoại khoa tổng quát</TEN_LOAI>
+    <ID_NHOM>8</ID_NHOM>
+    <STT_NHOM>4</STT_NHOM>
+    <TEN_NHOM>Phẩu thuật - thủ thuật</TEN_NHOM>
+    <SOTIEN>300000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>10468</ID>
+    <MA>NAN005</MA>
+    <TEN>Nắn bó bột xương đùi, xương cẳng, bàn chân</TEN>
+    <DVT>Lần</DVT>
+    <ID_LOAI>105</ID_LOAI>
+    <STT_LOAI>43</STT_LOAI>
+    <TEN_LOAI>PTTT Ngoại khoa tổng quát</TEN_LOAI>
+    <ID_NHOM>8</ID_NHOM>
+    <STT_NHOM>4</STT_NHOM>
+    <TEN_NHOM>Phẩu thuật - thủ thuật</TEN_NHOM>
+    <SOTIEN>300000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>12393</ID>
+    <MA>NEP001</MA>
+    <TEN>Nẹp ngón tay, chân</TEN>
+    <DVT>lần</DVT>
+    <ID_LOAI>105</ID_LOAI>
+    <STT_LOAI>43</STT_LOAI>
+    <TEN_LOAI>PTTT Ngoại khoa tổng quát</TEN_LOAI>
+    <ID_NHOM>8</ID_NHOM>
+    <STT_NHOM>4</STT_NHOM>
+    <TEN_NHOM>Phẩu thuật - thủ thuật</TEN_NHOM>
+    <SOTIEN>100000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>11950</ID>
+    <MA>PAN001</MA>
+    <TEN>PANTOGEN 500ML</TEN>
+    <DVT>CHAI</DVT>
+    <ID_LOAI>133</ID_LOAI>
+    <STT_LOAI>51</STT_LOAI>
+    <TEN_LOAI>Dịch truyền</TEN_LOAI>
+    <ID_NHOM>2</ID_NHOM>
+    <STT_NHOM>6</STT_NHOM>
+    <TEN_NHOM>Thuốc</TEN_NHOM>
+    <SOTIEN>3920000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>11922</ID>
+    <MA>PRI001</MA>
+    <TEN>PRIMPERAN 10mg</TEN>
+    <DVT>ỐNG</DVT>
+    <ID_LOAI>132</ID_LOAI>
+    <STT_LOAI>50</STT_LOAI>
+    <TEN_LOAI>INJ - Thuốc chích</TEN_LOAI>
+    <ID_NHOM>2</ID_NHOM>
+    <STT_NHOM>6</STT_NHOM>
+    <TEN_NHOM>Thuốc</TEN_NHOM>
+    <SOTIEN>380000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>11933</ID>
+    <MA>PRO006</MA>
+    <TEN>PROGESTEROL</TEN>
+    <DVT>ỐNG</DVT>
+    <ID_LOAI>132</ID_LOAI>
+    <STT_LOAI>50</STT_LOAI>
+    <TEN_LOAI>INJ - Thuốc chích</TEN_LOAI>
+    <ID_NHOM>2</ID_NHOM>
+    <STT_NHOM>6</STT_NHOM>
+    <TEN_NHOM>Thuốc</TEN_NHOM>
+    <SOTIEN>300000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>12641</ID>
+    <MA>PAP001</MA>
+    <TEN>Pap`s</TEN>
+    <DVT>lần</DVT>
+    <ID_LOAI>103</ID_LOAI>
+    <STT_LOAI>46</STT_LOAI>
+    <TEN_LOAI>Sản phụ khoa</TEN_LOAI>
+    <ID_NHOM>8</ID_NHOM>
+    <STT_NHOM>4</STT_NHOM>
+    <TEN_NHOM>Phẩu thuật - thủ thuật</TEN_NHOM>
+    <SOTIEN>750000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>10561</ID>
+    <MA>PHA004</MA>
+    <TEN>Phân tích nước tiểu (10 thông số)</TEN>
+    <DVT>Lần</DVT>
+    <ID_LOAI>107</ID_LOAI>
+    <STT_LOAI>15</STT_LOAI>
+    <TEN_LOAI>Nước tiểu</TEN_LOAI>
+    <ID_NHOM>4</ID_NHOM>
+    <STT_NHOM>2</STT_NHOM>
+    <TEN_NHOM>Xét Nghiệm</TEN_NHOM>
+    <SOTIEN>680000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>11472</ID>
+    <MA>RF(001</MA>
+    <TEN>RF (rheumatoid Factor)</TEN>
+    <DVT>Lần</DVT>
+    <ID_LOAI>129</ID_LOAI>
+    <STT_LOAI>12</STT_LOAI>
+    <TEN_LOAI>Sinh hoá</TEN_LOAI>
+    <ID_NHOM>4</ID_NHOM>
+    <STT_NHOM>2</STT_NHOM>
+    <TEN_NHOM>Xét Nghiệm</TEN_NHOM>
+    <SOTIEN>20000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>12099</ID>
+    <MA>RHM001</MA>
+    <TEN>RHM</TEN>
+    <DVT>Lần</DVT>
+    <ID_LOAI>60</ID_LOAI>
+    <STT_LOAI>1</STT_LOAI>
+    <TEN_LOAI>Khám bệnh</TEN_LOAI>
+    <ID_NHOM>11</ID_NHOM>
+    <STT_NHOM>1</STT_NHOM>
+    <TEN_NHOM>Khám bệnh</TEN_NHOM>
+    <SOTIEN>380000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>12120</ID>
+    <MA>RAC007</MA>
+    <TEN>Rạch abces amygdale</TEN>
+    <DVT>Lần</DVT>
+    <ID_LOAI>1</ID_LOAI>
+    <STT_LOAI>41</STT_LOAI>
+    <TEN_LOAI>PTTT Tai - Mũi - Họng</TEN_LOAI>
+    <ID_NHOM>8</ID_NHOM>
+    <STT_NHOM>4</STT_NHOM>
+    <TEN_NHOM>Phẩu thuật - thủ thuật</TEN_NHOM>
+    <SOTIEN>50000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>12087</ID>
+    <MA>RVT001</MA>
+    <TEN>Rửa VT nhỏ</TEN>
+    <DVT>Lần</DVT>
+    <ID_LOAI>105</ID_LOAI>
+    <STT_LOAI>43</STT_LOAI>
+    <TEN_LOAI>PTTT Ngoại khoa tổng quát</TEN_LOAI>
+    <ID_NHOM>8</ID_NHOM>
+    <STT_NHOM>4</STT_NHOM>
+    <TEN_NHOM>Phẩu thuật - thủ thuật</TEN_NHOM>
+    <SOTIEN>770000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>12623</ID>
+    <MA>RUA012</MA>
+    <TEN>Rửa mắt</TEN>
+    <DVT>lần</DVT>
+    <ID_LOAI>3</ID_LOAI>
+    <STT_LOAI>42</STT_LOAI>
+    <TEN_LOAI>PTTT Mắt</TEN_LOAI>
+    <ID_NHOM>8</ID_NHOM>
+    <STT_NHOM>4</STT_NHOM>
+    <TEN_NHOM>Phẩu thuật - thủ thuật</TEN_NHOM>
+    <SOTIEN>280000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>11105</ID>
+    <MA>RUA006</MA>
+    <TEN>Rửa tai, rửa mũi,</TEN>
+    <DVT>Lần</DVT>
+    <ID_LOAI>1</ID_LOAI>
+    <STT_LOAI>41</STT_LOAI>
+    <TEN_LOAI>PTTT Tai - Mũi - Họng</TEN_LOAI>
+    <ID_NHOM>8</ID_NHOM>
+    <STT_NHOM>4</STT_NHOM>
+    <TEN_NHOM>Phẩu thuật - thủ thuật</TEN_NHOM>
+    <SOTIEN>60000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>12664</ID>
+    <MA>RUA015</MA>
+    <TEN>Rửa vt dịch vụ</TEN>
+    <DVT>lần</DVT>
+    <ID_LOAI>126</ID_LOAI>
+    <STT_LOAI>47</STT_LOAI>
+    <TEN_LOAI>Bỏng</TEN_LOAI>
+    <ID_NHOM>8</ID_NHOM>
+    <STT_NHOM>4</STT_NHOM>
+    <TEN_NHOM>Phẩu thuật - thủ thuật</TEN_NHOM>
+    <SOTIEN>290000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>12645</ID>
+    <MA>RUA014</MA>
+    <TEN>Rửa vết thương dịch vụ</TEN>
+    <DVT>lần</DVT>
+    <ID_LOAI>105</ID_LOAI>
+    <STT_LOAI>43</STT_LOAI>
+    <TEN_LOAI>PTTT Ngoại khoa tổng quát</TEN_LOAI>
+    <ID_NHOM>8</ID_NHOM>
+    <STT_NHOM>4</STT_NHOM>
+    <TEN_NHOM>Phẩu thuật - thủ thuật</TEN_NHOM>
+    <SOTIEN>20000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>11944</ID>
+    <MA>SAT002</MA>
+    <TEN>SAT</TEN>
+    <DVT>ỐNG</DVT>
+    <ID_LOAI>132</ID_LOAI>
+    <STT_LOAI>50</STT_LOAI>
+    <TEN_LOAI>INJ - Thuốc chích</TEN_LOAI>
+    <ID_NHOM>2</ID_NHOM>
+    <STT_NHOM>6</STT_NHOM>
+    <TEN_NHOM>Thuốc</TEN_NHOM>
+    <SOTIEN>1140000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>12096</ID>
+    <MA>SAT003</MA>
+    <TEN>SAT</TEN>
+    <DVT>LẦN</DVT>
+    <ID_LOAI>132</ID_LOAI>
+    <STT_LOAI>50</STT_LOAI>
+    <TEN_LOAI>INJ - Thuốc chích</TEN_LOAI>
+    <ID_NHOM>2</ID_NHOM>
+    <STT_NHOM>6</STT_NHOM>
+    <TEN_NHOM>Thuốc</TEN_NHOM>
+    <SOTIEN>480000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>10492</ID>
+    <MA>SGO001</MA>
+    <TEN>SGOT</TEN>
+    <DVT>Lần</DVT>
+    <ID_LOAI>61</ID_LOAI>
+    <STT_LOAI>13</STT_LOAI>
+    <TEN_LOAI>Huyết học</TEN_LOAI>
+    <ID_NHOM>4</ID_NHOM>
+    <STT_NHOM>2</STT_NHOM>
+    <TEN_NHOM>Xét Nghiệm</TEN_NHOM>
+    <SOTIEN>50000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>10518</ID>
+    <MA>SGO002</MA>
+    <TEN>SGOT- SGPT( AST/ ALT)</TEN>
+    <DVT>Lần</DVT>
+    <ID_LOAI>61</ID_LOAI>
+    <STT_LOAI>13</STT_LOAI>
+    <TEN_LOAI>Huyết học</TEN_LOAI>
+    <ID_NHOM>4</ID_NHOM>
+    <STT_NHOM>2</STT_NHOM>
+    <TEN_NHOM>Xét Nghiệm</TEN_NHOM>
+    <SOTIEN>220000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>10493</ID>
+    <MA>SGP001</MA>
+    <TEN>SGPT</TEN>
+    <DVT>Lần</DVT>
+    <ID_LOAI>61</ID_LOAI>
+    <STT_LOAI>13</STT_LOAI>
+    <TEN_LOAI>Huyết học</TEN_LOAI>
+    <ID_NHOM>4</ID_NHOM>
+    <STT_NHOM>2</STT_NHOM>
+    <TEN_NHOM>Xét Nghiệm</TEN_NHOM>
+    <SOTIEN>50000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>12387</ID>
+    <MA>SOI024</MA>
+    <TEN>SOI TƯƠI HT</TEN>
+    <DVT>Lần</DVT>
+    <ID_LOAI>107</ID_LOAI>
+    <STT_LOAI>15</STT_LOAI>
+    <TEN_LOAI>Nước tiểu</TEN_LOAI>
+    <ID_NHOM>4</ID_NHOM>
+    <STT_NHOM>2</STT_NHOM>
+    <TEN_NHOM>Xét Nghiệm</TEN_NHOM>
+    <SOTIEN>405000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>12581</ID>
+    <MA>SIE027</MA>
+    <TEN>Siêu âm</TEN>
+    <DVT>lần</DVT>
+    <ID_LOAI>79</ID_LOAI>
+    <STT_LOAI>30</STT_LOAI>
+    <TEN_LOAI>Siêu âm</TEN_LOAI>
+    <ID_NHOM>26</ID_NHOM>
+    <STT_NHOM>3</STT_NHOM>
+    <TEN_NHOM>Chẩn đoán hình ảnh</TEN_NHOM>
+    <SOTIEN>35000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>10615</ID>
+    <MA>SIE008</MA>
+    <TEN>Siêu âm phần mềm</TEN>
+    <DVT>Lần</DVT>
+    <ID_LOAI>79</ID_LOAI>
+    <STT_LOAI>30</STT_LOAI>
+    <TEN_LOAI>Siêu âm</TEN_LOAI>
+    <ID_NHOM>26</ID_NHOM>
+    <STT_NHOM>3</STT_NHOM>
+    <TEN_NHOM>Chẩn đoán hình ảnh</TEN_NHOM>
+    <SOTIEN>120000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>12604</ID>
+    <MA>SIE028</MA>
+    <TEN>Siêu âm phụ khoa</TEN>
+    <DVT>lần</DVT>
+    <ID_LOAI>79</ID_LOAI>
+    <STT_LOAI>30</STT_LOAI>
+    <TEN_LOAI>Siêu âm</TEN_LOAI>
+    <ID_NHOM>26</ID_NHOM>
+    <STT_NHOM>3</STT_NHOM>
+    <TEN_NHOM>Chẩn đoán hình ảnh</TEN_NHOM>
+    <SOTIEN>2500000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>12518</ID>
+    <MA>SIE026</MA>
+    <TEN>Siêu âm phụ khoa đầu dò AĐ</TEN>
+    <DVT>lần</DVT>
+    <ID_LOAI>79</ID_LOAI>
+    <STT_LOAI>30</STT_LOAI>
+    <TEN_LOAI>Siêu âm</TEN_LOAI>
+    <ID_NHOM>26</ID_NHOM>
+    <STT_NHOM>3</STT_NHOM>
+    <TEN_NHOM>Chẩn đoán hình ảnh</TEN_NHOM>
+    <SOTIEN>960000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>12106</ID>
+    <MA>SIE017</MA>
+    <TEN>Siêu âm thai 3 chiều</TEN>
+    <DVT>Lần</DVT>
+    <ID_LOAI>79</ID_LOAI>
+    <STT_LOAI>30</STT_LOAI>
+    <TEN_LOAI>Siêu âm</TEN_LOAI>
+    <ID_NHOM>26</ID_NHOM>
+    <STT_NHOM>3</STT_NHOM>
+    <TEN_NHOM>Chẩn đoán hình ảnh</TEN_NHOM>
+    <SOTIEN>200000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>12515</ID>
+    <MA>SIE023</MA>
+    <TEN>Siêu âm thai 4 chiều(có đĩa)</TEN>
+    <DVT>lần</DVT>
+    <ID_LOAI>79</ID_LOAI>
+    <STT_LOAI>30</STT_LOAI>
+    <TEN_LOAI>Siêu âm</TEN_LOAI>
+    <ID_NHOM>26</ID_NHOM>
+    <STT_NHOM>3</STT_NHOM>
+    <TEN_NHOM>Chẩn đoán hình ảnh</TEN_NHOM>
+    <SOTIEN>240000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>12237</ID>
+    <MA>SIE019</MA>
+    <TEN>Siêu âm thai trắng đen</TEN>
+    <DVT>LẦN</DVT>
+    <ID_LOAI>79</ID_LOAI>
+    <STT_LOAI>30</STT_LOAI>
+    <TEN_LOAI>Siêu âm</TEN_LOAI>
+    <ID_NHOM>26</ID_NHOM>
+    <STT_NHOM>3</STT_NHOM>
+    <TEN_NHOM>Chẩn đoán hình ảnh</TEN_NHOM>
+    <SOTIEN>8520000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>12236</ID>
+    <MA>SIE018</MA>
+    <TEN>Siêu âm trắng đen</TEN>
+    <DVT>LẦN</DVT>
+    <ID_LOAI>79</ID_LOAI>
+    <STT_LOAI>30</STT_LOAI>
+    <TEN_LOAI>Siêu âm</TEN_LOAI>
+    <ID_NHOM>26</ID_NHOM>
+    <STT_NHOM>3</STT_NHOM>
+    <TEN_NHOM>Chẩn đoán hình ảnh</TEN_NHOM>
+    <SOTIEN>60000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>10614</ID>
+    <MA>SIE007</MA>
+    <TEN>Siêu âm tuyến giáp trắng đen</TEN>
+    <DVT>Lần</DVT>
+    <ID_LOAI>79</ID_LOAI>
+    <STT_LOAI>30</STT_LOAI>
+    <TEN_LOAI>Siêu âm</TEN_LOAI>
+    <ID_NHOM>26</ID_NHOM>
+    <STT_NHOM>3</STT_NHOM>
+    <TEN_NHOM>Chẩn đoán hình ảnh</TEN_NHOM>
+    <SOTIEN>140000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>10611</ID>
+    <MA>SIE004</MA>
+    <TEN>Siêu âm tuyến vú trắng đen</TEN>
+    <DVT>Lần</DVT>
+    <ID_LOAI>79</ID_LOAI>
+    <STT_LOAI>30</STT_LOAI>
+    <TEN_LOAI>Siêu âm</TEN_LOAI>
+    <ID_NHOM>26</ID_NHOM>
+    <STT_NHOM>3</STT_NHOM>
+    <TEN_NHOM>Chẩn đoán hình ảnh</TEN_NHOM>
+    <SOTIEN>60000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>12326</ID>
+    <MA>SIE022</MA>
+    <TEN>Siêu âm tổng quát màu</TEN>
+    <DVT>Lần</DVT>
+    <ID_LOAI>79</ID_LOAI>
+    <STT_LOAI>30</STT_LOAI>
+    <TEN_LOAI>Siêu âm</TEN_LOAI>
+    <ID_NHOM>26</ID_NHOM>
+    <STT_NHOM>3</STT_NHOM>
+    <TEN_NHOM>Chẩn đoán hình ảnh</TEN_NHOM>
+    <SOTIEN>120000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>10610</ID>
+    <MA>SIE003</MA>
+    <TEN>Siêu âm tổng quát trắng đen</TEN>
+    <DVT>Lần</DVT>
+    <ID_LOAI>79</ID_LOAI>
+    <STT_LOAI>30</STT_LOAI>
+    <TEN_LOAI>Siêu âm</TEN_LOAI>
+    <ID_NHOM>26</ID_NHOM>
+    <STT_NHOM>3</STT_NHOM>
+    <TEN_NHOM>Chẩn đoán hình ảnh</TEN_NHOM>
+    <SOTIEN>5440000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>12166</ID>
+    <MA>SOI023</MA>
+    <TEN>Soi cổ tử cung</TEN>
+    <DVT>Lần</DVT>
+    <ID_LOAI>103</ID_LOAI>
+    <STT_LOAI>46</STT_LOAI>
+    <TEN_LOAI>Sản phụ khoa</TEN_LOAI>
+    <ID_NHOM>8</ID_NHOM>
+    <STT_NHOM>4</STT_NHOM>
+    <TEN_NHOM>Phẩu thuật - thủ thuật</TEN_NHOM>
+    <SOTIEN>60000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>12681</ID>
+    <MA>STR001</MA>
+    <TEN>Strongyloides</TEN>
+    <DVT>lần</DVT>
+    <ID_LOAI>106</ID_LOAI>
+    <STT_LOAI>14</STT_LOAI>
+    <TEN_LOAI>Vi sinh</TEN_LOAI>
+    <ID_NHOM>4</ID_NHOM>
+    <STT_NHOM>2</STT_NHOM>
+    <TEN_NHOM>Xét Nghiệm</TEN_NHOM>
+    <SOTIEN>50000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>12682</ID>
+    <MA>SAN003</MA>
+    <TEN>Sán heo</TEN>
+    <DVT>lần</DVT>
+    <ID_LOAI>106</ID_LOAI>
+    <STT_LOAI>14</STT_LOAI>
+    <TEN_LOAI>Vi sinh</TEN_LOAI>
+    <ID_NHOM>4</ID_NHOM>
+    <STT_NHOM>2</STT_NHOM>
+    <TEN_NHOM>Xét Nghiệm</TEN_NHOM>
+    <SOTIEN>50000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>12603</ID>
+    <MA>SOB001</MA>
+    <TEN>Sổ bảo hiểm</TEN>
+    <DVT>quyển</DVT>
+    <ID_LOAI>128</ID_LOAI>
+    <STT_LOAI>30</STT_LOAI>
+    <TEN_LOAI>SKB</TEN_LOAI>
+    <ID_NHOM>20</ID_NHOM>
+    <STT_NHOM>12</STT_NHOM>
+    <TEN_NHOM>Khác</TEN_NHOM>
+    <SOTIEN>4120000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>11252</ID>
+    <MA>SOK001</MA>
+    <TEN>Sổ khám bệnh</TEN>
+    <DVT>Quyển</DVT>
+    <ID_LOAI>128</ID_LOAI>
+    <STT_LOAI>30</STT_LOAI>
+    <TEN_LOAI>SKB</TEN_LOAI>
+    <ID_NHOM>20</ID_NHOM>
+    <STT_NHOM>12</STT_NHOM>
+    <TEN_NHOM>Khác</TEN_NHOM>
+    <SOTIEN>7385000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>10576</ID>
+    <MA>T3/001</MA>
+    <TEN>T3/T4/TSH/FT4/FT3</TEN>
+    <DVT>Lần</DVT>
+    <ID_LOAI>109</ID_LOAI>
+    <STT_LOAI>17</STT_LOAI>
+    <TEN_LOAI>Huyết học miễn dịch</TEN_LOAI>
+    <ID_NHOM>4</ID_NHOM>
+    <STT_NHOM>2</STT_NHOM>
+    <TEN_NHOM>Xét Nghiệm</TEN_NHOM>
+    <SOTIEN>150000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>11923</ID>
+    <MA>TAN004</MA>
+    <TEN>TANGANYL 5mg/2ml</TEN>
+    <DVT>ỐNG</DVT>
+    <ID_LOAI>132</ID_LOAI>
+    <STT_LOAI>50</STT_LOAI>
+    <TEN_LOAI>INJ - Thuốc chích</TEN_LOAI>
+    <ID_NHOM>2</ID_NHOM>
+    <STT_NHOM>6</STT_NHOM>
+    <TEN_NHOM>Thuốc</TEN_NHOM>
+    <SOTIEN>210000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>10527</ID>
+    <MA>TES002</MA>
+    <TEN>Test nhanh thử Giang mai VDRL</TEN>
+    <DVT>Lần</DVT>
+    <ID_LOAI>61</ID_LOAI>
+    <STT_LOAI>13</STT_LOAI>
+    <TEN_LOAI>Huyết học</TEN_LOAI>
+    <ID_NHOM>4</ID_NHOM>
+    <STT_NHOM>2</STT_NHOM>
+    <TEN_NHOM>Xét Nghiệm</TEN_NHOM>
+    <SOTIEN>90000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>12673</ID>
+    <MA>THA012</MA>
+    <TEN>Thay băng , rửa vết thương bh</TEN>
+    <DVT>lần</DVT>
+    <ID_LOAI>126</ID_LOAI>
+    <STT_LOAI>47</STT_LOAI>
+    <TEN_LOAI>Bỏng</TEN_LOAI>
+    <ID_NHOM>8</ID_NHOM>
+    <STT_NHOM>4</STT_NHOM>
+    <TEN_NHOM>Phẩu thuật - thủ thuật</TEN_NHOM>
+    <SOTIEN>25000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>12672</ID>
+    <MA>THA011</MA>
+    <TEN>Thay băng bh</TEN>
+    <DVT>lần</DVT>
+    <ID_LOAI>126</ID_LOAI>
+    <STT_LOAI>47</STT_LOAI>
+    <TEN_LOAI>Bỏng</TEN_LOAI>
+    <ID_NHOM>8</ID_NHOM>
+    <STT_NHOM>4</STT_NHOM>
+    <TEN_NHOM>Phẩu thuật - thủ thuật</TEN_NHOM>
+    <SOTIEN>185000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>11283</ID>
+    <MA>THA006</MA>
+    <TEN>Thay băng bỏng</TEN>
+    <DVT>Lần</DVT>
+    <ID_LOAI>126</ID_LOAI>
+    <STT_LOAI>47</STT_LOAI>
+    <TEN_LOAI>Bỏng</TEN_LOAI>
+    <ID_NHOM>8</ID_NHOM>
+    <STT_NHOM>4</STT_NHOM>
+    <TEN_NHOM>Phẩu thuật - thủ thuật</TEN_NHOM>
+    <SOTIEN>100000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>12180</ID>
+    <MA>THA009</MA>
+    <TEN>Thay băng, cắt chỉ</TEN>
+    <DVT>Lần</DVT>
+    <ID_LOAI>105</ID_LOAI>
+    <STT_LOAI>43</STT_LOAI>
+    <TEN_LOAI>PTTT Ngoại khoa tổng quát</TEN_LOAI>
+    <ID_NHOM>8</ID_NHOM>
+    <STT_NHOM>4</STT_NHOM>
+    <TEN_NHOM>Phẩu thuật - thủ thuật</TEN_NHOM>
+    <SOTIEN>180000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>12636</ID>
+    <MA>THE001</MA>
+    <TEN>Theo dõi tim thai , cơn gò bằng Monitor</TEN>
+    <DVT>Lần</DVT>
+    <ID_LOAI>103</ID_LOAI>
+    <STT_LOAI>46</STT_LOAI>
+    <TEN_LOAI>Sản phụ khoa</TEN_LOAI>
+    <ID_NHOM>8</ID_NHOM>
+    <STT_NHOM>4</STT_NHOM>
+    <TEN_NHOM>Phẩu thuật - thủ thuật</TEN_NHOM>
+    <SOTIEN>50000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>12086</ID>
+    <MA>THA008</MA>
+    <TEN>Tháo vòng</TEN>
+    <DVT>Lần</DVT>
+    <ID_LOAI>126</ID_LOAI>
+    <STT_LOAI>47</STT_LOAI>
+    <TEN_LOAI>Bỏng</TEN_LOAI>
+    <ID_NHOM>8</ID_NHOM>
+    <STT_NHOM>4</STT_NHOM>
+    <TEN_NHOM>Phẩu thuật - thủ thuật</TEN_NHOM>
+    <SOTIEN>240000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>12687</ID>
+    <MA>THO016</MA>
+    <TEN>Thông tiểu</TEN>
+    <DVT>lần</DVT>
+    <ID_LOAI>123</ID_LOAI>
+    <STT_LOAI>33</STT_LOAI>
+    <TEN_LOAI>Thủ thuật nội soi</TEN_LOAI>
+    <ID_NHOM>26</ID_NHOM>
+    <STT_NHOM>3</STT_NHOM>
+    <TEN_NHOM>Chẩn đoán hình ảnh</TEN_NHOM>
+    <SOTIEN>50000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>10630</ID>
+    <MA>TIM002</MA>
+    <TEN>Tim phổi thẳng (BHYT- BD)</TEN>
+    <DVT>Lần</DVT>
+    <ID_LOAI>58</ID_LOAI>
+    <STT_LOAI>31</STT_LOAI>
+    <TEN_LOAI>X Quang</TEN_LOAI>
+    <ID_NHOM>26</ID_NHOM>
+    <STT_NHOM>3</STT_NHOM>
+    <TEN_NHOM>Chẩn đoán hình ảnh</TEN_NHOM>
+    <SOTIEN>30000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>12057</ID>
+    <MA>TIE004</MA>
+    <TEN>Tiền thuốc</TEN>
+    <DVT>Lần</DVT>
+    <ID_LOAI>101</ID_LOAI>
+    <STT_LOAI>52</STT_LOAI>
+    <TEN_LOAI>Tiền thuốc</TEN_LOAI>
+    <ID_NHOM>2</ID_NHOM>
+    <STT_NHOM>6</STT_NHOM>
+    <TEN_NHOM>Thuốc</TEN_NHOM>
+    <SOTIEN>63917500</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>12680</ID>
+    <MA>TOX001</MA>
+    <TEN>Toxacara</TEN>
+    <DVT>lần</DVT>
+    <ID_LOAI>106</ID_LOAI>
+    <STT_LOAI>14</STT_LOAI>
+    <TEN_LOAI>Vi sinh</TEN_LOAI>
+    <ID_NHOM>4</ID_NHOM>
+    <STT_NHOM>2</STT_NHOM>
+    <TEN_NHOM>Xét Nghiệm</TEN_NHOM>
+    <SOTIEN>50000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>10489</ID>
+    <MA>TRI005</MA>
+    <TEN>Triglyceride</TEN>
+    <DVT>Lần</DVT>
+    <ID_LOAI>61</ID_LOAI>
+    <STT_LOAI>13</STT_LOAI>
+    <TEN_LOAI>Huyết học</TEN_LOAI>
+    <ID_NHOM>4</ID_NHOM>
+    <STT_NHOM>2</STT_NHOM>
+    <TEN_NHOM>Xét Nghiệm</TEN_NHOM>
+    <SOTIEN>30000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>12133</ID>
+    <MA>TRA006</MA>
+    <TEN>Trám composite xoang I</TEN>
+    <DVT>Lần</DVT>
+    <ID_LOAI>2</ID_LOAI>
+    <STT_LOAI>40</STT_LOAI>
+    <TEN_LOAI>PTTT Răng - Hàm - Mặt</TEN_LOAI>
+    <ID_NHOM>8</ID_NHOM>
+    <STT_NHOM>4</STT_NHOM>
+    <TEN_NHOM>Phẩu thuật - thủ thuật</TEN_NHOM>
+    <SOTIEN>240000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>12530</ID>
+    <MA>TRA012</MA>
+    <TEN>Trám composite xoang II</TEN>
+    <DVT>lần</DVT>
+    <ID_LOAI>2</ID_LOAI>
+    <STT_LOAI>40</STT_LOAI>
+    <TEN_LOAI>PTTT Răng - Hàm - Mặt</TEN_LOAI>
+    <ID_NHOM>8</ID_NHOM>
+    <STT_NHOM>4</STT_NHOM>
+    <TEN_NHOM>Phẩu thuật - thủ thuật</TEN_NHOM>
+    <SOTIEN>140000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>12608</ID>
+    <MA>TRA014</MA>
+    <TEN>Trám răng</TEN>
+    <DVT>cái</DVT>
+    <ID_LOAI>2</ID_LOAI>
+    <STT_LOAI>40</STT_LOAI>
+    <TEN_LOAI>PTTT Răng - Hàm - Mặt</TEN_LOAI>
+    <ID_NHOM>8</ID_NHOM>
+    <STT_NHOM>4</STT_NHOM>
+    <TEN_NHOM>Phẩu thuật - thủ thuật</TEN_NHOM>
+    <SOTIEN>2320000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>10485</ID>
+    <MA>URE001</MA>
+    <TEN>Ure</TEN>
+    <DVT>Lần</DVT>
+    <ID_LOAI>61</ID_LOAI>
+    <STT_LOAI>13</STT_LOAI>
+    <TEN_LOAI>Huyết học</TEN_LOAI>
+    <ID_NHOM>4</ID_NHOM>
+    <STT_NHOM>2</STT_NHOM>
+    <TEN_NHOM>Xét Nghiệm</TEN_NHOM>
+    <SOTIEN>10000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>12095</ID>
+    <MA>VAT004</MA>
+    <TEN>VAT</TEN>
+    <DVT>Lần</DVT>
+    <ID_LOAI>132</ID_LOAI>
+    <STT_LOAI>50</STT_LOAI>
+    <TEN_LOAI>INJ - Thuốc chích</TEN_LOAI>
+    <ID_NHOM>2</ID_NHOM>
+    <STT_NHOM>6</STT_NHOM>
+    <TEN_NHOM>Thuốc</TEN_NHOM>
+    <SOTIEN>4025000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>11924</ID>
+    <MA>VIS001</MA>
+    <TEN>VISCERALGIN 500mg</TEN>
+    <DVT>ỐNG</DVT>
+    <ID_LOAI>132</ID_LOAI>
+    <STT_LOAI>50</STT_LOAI>
+    <TEN_LOAI>INJ - Thuốc chích</TEN_LOAI>
+    <ID_NHOM>2</ID_NHOM>
+    <STT_NHOM>6</STT_NHOM>
+    <TEN_NHOM>Thuốc</TEN_NHOM>
+    <SOTIEN>560000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>11925</ID>
+    <MA>VIT002</MA>
+    <TEN>VITAMINE C 500mg/5ml</TEN>
+    <DVT>ỐNG</DVT>
+    <ID_LOAI>132</ID_LOAI>
+    <STT_LOAI>50</STT_LOAI>
+    <TEN_LOAI>INJ - Thuốc chích</TEN_LOAI>
+    <ID_NHOM>2</ID_NHOM>
+    <STT_NHOM>6</STT_NHOM>
+    <TEN_NHOM>Thuốc</TEN_NHOM>
+    <SOTIEN>1080000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>11940</ID>
+    <MA>VOL001</MA>
+    <TEN>VOLTAREN 75MG/3ML</TEN>
+    <DVT>ỐNG</DVT>
+    <ID_LOAI>132</ID_LOAI>
+    <STT_LOAI>50</STT_LOAI>
+    <TEN_LOAI>INJ - Thuốc chích</TEN_LOAI>
+    <ID_NHOM>2</ID_NHOM>
+    <STT_NHOM>6</STT_NHOM>
+    <TEN_NHOM>Thuốc</TEN_NHOM>
+    <SOTIEN>385000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>12662</ID>
+    <MA>XEC001</MA>
+    <TEN>Xe chuyển viện</TEN>
+    <DVT>lần</DVT>
+    <ID_LOAI>81</ID_LOAI>
+    <STT_LOAI>70</STT_LOAI>
+    <TEN_LOAI>Giường</TEN_LOAI>
+    <ID_NHOM>15</ID_NHOM>
+    <STT_NHOM>8</STT_NHOM>
+    <TEN_NHOM>Tiền giường</TEN_NHOM>
+    <SOTIEN>200000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>12653</ID>
+    <MA>XON007</MA>
+    <TEN>Xông họng bhtp</TEN>
+    <DVT>lần</DVT>
+    <ID_LOAI>123</ID_LOAI>
+    <STT_LOAI>33</STT_LOAI>
+    <TEN_LOAI>Thủ thuật nội soi</TEN_LOAI>
+    <ID_NHOM>26</ID_NHOM>
+    <STT_NHOM>3</STT_NHOM>
+    <TEN_NHOM>Chẩn đoán hình ảnh</TEN_NHOM>
+    <SOTIEN>20000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>12621</ID>
+    <MA>XON004</MA>
+    <TEN>Xông khí dung dịch vụ</TEN>
+    <DVT>lần</DVT>
+    <ID_LOAI>123</ID_LOAI>
+    <STT_LOAI>33</STT_LOAI>
+    <TEN_LOAI>Thủ thuật nội soi</TEN_LOAI>
+    <ID_NHOM>26</ID_NHOM>
+    <STT_NHOM>3</STT_NHOM>
+    <TEN_NHOM>Chẩn đoán hình ảnh</TEN_NHOM>
+    <SOTIEN>150000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>12630</ID>
+    <MA>XON006</MA>
+    <TEN>Xông mũi bhtphcm</TEN>
+    <DVT>lần</DVT>
+    <ID_LOAI>123</ID_LOAI>
+    <STT_LOAI>33</STT_LOAI>
+    <TEN_LOAI>Thủ thuật nội soi</TEN_LOAI>
+    <ID_NHOM>26</ID_NHOM>
+    <STT_NHOM>3</STT_NHOM>
+    <TEN_NHOM>Chẩn đoán hình ảnh</TEN_NHOM>
+    <SOTIEN>100000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>12619</ID>
+    <MA>XON003</MA>
+    <TEN>XÔNG HỌNG</TEN>
+    <DVT>Lần</DVT>
+    <ID_LOAI>126</ID_LOAI>
+    <STT_LOAI>47</STT_LOAI>
+    <TEN_LOAI>Bỏng</TEN_LOAI>
+    <ID_NHOM>8</ID_NHOM>
+    <STT_NHOM>4</STT_NHOM>
+    <TEN_NHOM>Phẩu thuật - thủ thuật</TEN_NHOM>
+    <SOTIEN>640000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>10629</ID>
+    <MA>XUO001</MA>
+    <TEN>Xương đòn, phổi đỉnh ưỡn</TEN>
+    <DVT>Lần</DVT>
+    <ID_LOAI>58</ID_LOAI>
+    <STT_LOAI>31</STT_LOAI>
+    <TEN_LOAI>X Quang</TEN_LOAI>
+    <ID_NHOM>26</ID_NHOM>
+    <STT_NHOM>3</STT_NHOM>
+    <TEN_NHOM>Chẩn đoán hình ảnh</TEN_NHOM>
+    <SOTIEN>20000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>10633</ID>
+    <MA>XUO002</MA>
+    <TEN>Xương đùi thẳng, nghiêng</TEN>
+    <DVT>Lần</DVT>
+    <ID_LOAI>58</ID_LOAI>
+    <STT_LOAI>31</STT_LOAI>
+    <TEN_LOAI>X Quang</TEN_LOAI>
+    <ID_NHOM>26</ID_NHOM>
+    <STT_NHOM>3</STT_NHOM>
+    <TEN_NHOM>Chẩn đoán hình ảnh</TEN_NHOM>
+    <SOTIEN>70000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>12323</ID>
+    <MA>DHM001</MA>
+    <TEN>Điều hoà máy</TEN>
+    <DVT>Lần</DVT>
+    <ID_LOAI>103</ID_LOAI>
+    <STT_LOAI>46</STT_LOAI>
+    <TEN_LOAI>Sản phụ khoa</TEN_LOAI>
+    <ID_NHOM>8</ID_NHOM>
+    <STT_NHOM>4</STT_NHOM>
+    <TEN_NHOM>Phẩu thuật - thủ thuật</TEN_NHOM>
+    <SOTIEN>980000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>12183</ID>
+    <MA>DIE052</MA>
+    <TEN>Điều hoà thuốc</TEN>
+    <DVT>Lần</DVT>
+    <ID_LOAI>103</ID_LOAI>
+    <STT_LOAI>46</STT_LOAI>
+    <TEN_LOAI>Sản phụ khoa</TEN_LOAI>
+    <ID_NHOM>8</ID_NHOM>
+    <STT_NHOM>4</STT_NHOM>
+    <TEN_NHOM>Phẩu thuật - thủ thuật</TEN_NHOM>
+    <SOTIEN>22200000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>12610</ID>
+    <MA>DIE053</MA>
+    <TEN>Điều hoà thuốc</TEN>
+    <DVT>l</DVT>
+    <ID_LOAI>126</ID_LOAI>
+    <STT_LOAI>47</STT_LOAI>
+    <TEN_LOAI>Bỏng</TEN_LOAI>
+    <ID_NHOM>8</ID_NHOM>
+    <STT_NHOM>4</STT_NHOM>
+    <TEN_NHOM>Phẩu thuật - thủ thuật</TEN_NHOM>
+    <SOTIEN>2380000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>12108</ID>
+    <MA>DOT023</MA>
+    <TEN>Đo thị lực đơn giản</TEN>
+    <DVT>Lần</DVT>
+    <ID_LOAI>3</ID_LOAI>
+    <STT_LOAI>42</STT_LOAI>
+    <TEN_LOAI>PTTT Mắt</TEN_LOAI>
+    <ID_NHOM>8</ID_NHOM>
+    <STT_NHOM>4</STT_NHOM>
+    <TEN_NHOM>Phẩu thuật - thủ thuật</TEN_NHOM>
+    <SOTIEN>30000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>10643</ID>
+    <MA>DIE002</MA>
+    <TEN>Đo điện tim</TEN>
+    <DVT>Lần</DVT>
+    <ID_LOAI>80</ID_LOAI>
+    <STT_LOAI>21</STT_LOAI>
+    <TEN_LOAI>ECG</TEN_LOAI>
+    <ID_NHOM>4</ID_NHOM>
+    <STT_NHOM>2</STT_NHOM>
+    <TEN_NHOM>Xét Nghiệm</TEN_NHOM>
+    <SOTIEN>380000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>12356</ID>
+    <MA>DAT003</MA>
+    <TEN>Đặt vòng</TEN>
+    <DVT>Lần</DVT>
+    <ID_LOAI>103</ID_LOAI>
+    <STT_LOAI>46</STT_LOAI>
+    <TEN_LOAI>Sản phụ khoa</TEN_LOAI>
+    <ID_NHOM>8</ID_NHOM>
+    <STT_NHOM>4</STT_NHOM>
+    <TEN_NHOM>Phẩu thuật - thủ thuật</TEN_NHOM>
+    <SOTIEN>650000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>12611</ID>
+    <MA>DAT004</MA>
+    <TEN>Đặt vòng BH</TEN>
+    <DVT>Lần</DVT>
+    <ID_LOAI>126</ID_LOAI>
+    <STT_LOAI>47</STT_LOAI>
+    <TEN_LOAI>Bỏng</TEN_LOAI>
+    <ID_NHOM>8</ID_NHOM>
+    <STT_NHOM>4</STT_NHOM>
+    <TEN_NHOM>Phẩu thuật - thủ thuật</TEN_NHOM>
+    <SOTIEN>100000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>12648</ID>
+    <MA>DOT032</MA>
+    <TEN>Đốt họng hạt dịch vụ</TEN>
+    <DVT>lần</DVT>
+    <ID_LOAI>123</ID_LOAI>
+    <STT_LOAI>33</STT_LOAI>
+    <TEN_LOAI>Thủ thuật nội soi</TEN_LOAI>
+    <ID_NHOM>26</ID_NHOM>
+    <STT_NHOM>3</STT_NHOM>
+    <TEN_NHOM>Chẩn đoán hình ảnh</TEN_NHOM>
+    <SOTIEN>150000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <ID>12624</ID>
+    <MA>DOT031</MA>
+    <TEN>Đốt mào gà</TEN>
+    <DVT>lần</DVT>
+    <ID_LOAI>103</ID_LOAI>
+    <STT_LOAI>46</STT_LOAI>
+    <TEN_LOAI>Sản phụ khoa</TEN_LOAI>
+    <ID_NHOM>8</ID_NHOM>
+    <STT_NHOM>4</STT_NHOM>
+    <TEN_NHOM>Phẩu thuật - thủ thuật</TEN_NHOM>
+    <SOTIEN>150000</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+</NewDataSet>

@@ -1,0 +1,105 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="mabn" type="xs:string" minOccurs="0" />
+                <xs:element name="hoten" type="xs:string" minOccurs="0" />
+                <xs:element name="namsinh" type="xs:string" minOccurs="0" />
+                <xs:element name="phai" type="xs:string" minOccurs="0" />
+                <xs:element name="tennn" type="xs:string" minOccurs="0" />
+                <xs:element name="diachi" type="xs:string" minOccurs="0" />
+                <xs:element name="mabn1" type="xs:string" minOccurs="0" />
+                <xs:element name="maql" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ngay" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="lydo" type="xs:string" minOccurs="0" />
+                <xs:element name="benhsu" type="xs:string" minOccurs="0" />
+                <xs:element name="chandoan" type="xs:string" minOccurs="0" />
+                <xs:element name="ngoaichan" type="xs:string" minOccurs="0" />
+                <xs:element name="lamsang" type="xs:string" minOccurs="0" />
+                <xs:element name="sinhthiet" type="xs:string" minOccurs="0" />
+                <xs:element name="dieutri" type="xs:string" minOccurs="0" />
+                <xs:element name="dienbien" type="xs:string" minOccurs="0" />
+                <xs:element name="tinhthan" type="xs:string" minOccurs="0" />
+                <xs:element name="chetngay" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="comat" type="xs:string" minOccurs="0" />
+                <xs:element name="nguyennhan" type="xs:string" minOccurs="0" />
+                <xs:element name="chandoant" type="xs:string" minOccurs="0" />
+                <xs:element name="chandoangpb" type="xs:string" minOccurs="0" />
+                <xs:element name="kiemdiem" type="xs:string" minOccurs="0" />
+                <xs:element name="chutoa" type="xs:string" minOccurs="0" />
+                <xs:element name="thuky" type="xs:string" minOccurs="0" />
+                <xs:element name="khth" type="xs:string" minOccurs="0" />
+                <xs:element name="userid" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ngayud" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="chutoa1" type="xs:string" minOccurs="0" />
+                <xs:element name="thuky1" type="xs:string" minOccurs="0" />
+                <xs:element name="khth1" type="xs:string" minOccurs="0" />
+                <xs:element name="stt" type="xs:int" minOccurs="0" />
+                <xs:element name="chucvu1" type="xs:string" minOccurs="0" />
+                <xs:element name="tennv1" type="xs:string" minOccurs="0" />
+                <xs:element name="chucvu2" type="xs:string" minOccurs="0" />
+                <xs:element name="tennv2" type="xs:string" minOccurs="0" />
+                <xs:element name="chucvu3" type="xs:string" minOccurs="0" />
+                <xs:element name="tennv3" type="xs:string" minOccurs="0" />
+                <xs:element name="chucvu4" type="xs:string" minOccurs="0" />
+                <xs:element name="tennv4" type="xs:string" minOccurs="0" />
+                <xs:element name="maql1" type="xs:decimal" minOccurs="0" />
+                <xs:element name="gioitinh" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <mabn>09903861</mabn>
+    <hoten>ĐOÀN THANH TUẤN</hoten>
+    <namsinh>1986</namsinh>
+    <phai>Nữ</phai>
+    <tennn>Công nhân</tennn>
+    <diachi> Phú Hòa Phú Quý,H. Cai Lậy,Tiền Giang</diachi>
+    <mabn1>09903861</mabn1>
+    <maql>90803051152438276</maql>
+    <ngay>2009-08-03T05:11:00+07:00</ngay>
+    <lydo />
+    <benhsu />
+    <chandoan>Viêm ruột thừa cấp</chandoan>
+    <ngoaichan />
+    <lamsang />
+    <sinhthiet />
+    <dieutri />
+    <dienbien />
+    <tinhthan />
+    <chetngay>2009-10-21T12:34:00+07:00</chetngay>
+    <comat />
+    <nguyennhan />
+    <chandoant>Viêm ruột thừa cấp</chandoant>
+    <chandoangpb />
+    <kiemdiem>www</kiemdiem>
+    <chutoa>0001</chutoa>
+    <thuky>0025</thuky>
+    <khth>0023</khth>
+    <userid>345</userid>
+    <ngayud>2009-10-21T12:35:48.812397+07:00</ngayud>
+    <chutoa1>Lưu Thị Xuân</chutoa1>
+    <thuky1>Mai Thị Nhị</thuky1>
+    <khth1>Bùi Hữu Tân</khth1>
+    <stt>0</stt>
+    <chucvu1 />
+    <tennv1>Mai Thị Nhị</tennv1>
+    <chucvu2 xml:space="preserve"> </chucvu2>
+    <tennv2 xml:space="preserve"> </tennv2>
+    <chucvu3 xml:space="preserve"> </chucvu3>
+    <tennv3 xml:space="preserve"> </tennv3>
+    <chucvu4 xml:space="preserve"> </chucvu4>
+    <tennv4 xml:space="preserve"> </tennv4>
+    <maql1>90803051152438276</maql1>
+    <gioitinh>0</gioitinh>
+  </Table>
+</NewDataSet>

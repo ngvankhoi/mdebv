@@ -1,0 +1,55 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="MA" type="xs:string" minOccurs="0" />
+                <xs:element name="TEN" type="xs:string" minOccurs="0" />
+                <xs:element name="GIATRI" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <MA>chkChohuy</MA>
+    <TEN>Cho phép hủy biên lai</TEN>
+    <GIATRI>0</GIATRI>
+  </Table>
+  <Table>
+    <MA>chkChisuaxoatrongngay</MA>
+    <TEN>Chỉ sữa, hủy hoá đơn thu trong ngày</TEN>
+    <GIATRI>1</GIATRI>
+  </Table>
+  <Table>
+    <MA>chkChosua</MA>
+    <TEN>Cho phép sữa biên lai</TEN>
+    <GIATRI>1</GIATRI>
+  </Table>
+  <Table>
+    <MA>chkInsotienchitiettronghoadon</MA>
+    <TEN>In số tiền chi tiết trong hoá đơn</TEN>
+    <GIATRI>0</GIATRI>
+  </Table>
+  <Table>
+    <MA>chkDoituong</MA>
+    <TEN>Đối tượng</TEN>
+    <GIATRI>0</GIATRI>
+  </Table>
+  <Table>
+    <MA>chkLoaibn</MA>
+    <TEN>Loại bệnh nhân</TEN>
+    <GIATRI>0</GIATRI>
+  </Table>
+  <Table>
+    <MA>txtTieude</MA>
+    <TEN>THU VIỆN PHÍ HẰNG NGÀY</TEN>
+    <GIATRI>0</GIATRI>
+  </Table>
+</NewDataSet>

@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="yes"?>
+<Import>
+  <Row>
+    <Con>Data Source=MEDISOFT;user id=MEDIbv_hv;password=MEDIbv_hv</Con>
+    <Mabv>701.3.06</Mabv>
+    <Tenbv>Bệnh Viện Hùng Vương</Tenbv>
+    <Syte>Sở Y Tế TP.HCM</Syte>
+    <Diachi>TP.Hồ Chí Minh</Diachi>
+    <Dienthoai>9325713</Dienthoai>
+    <Fox>C:\SYTHCM60\DBF</Fox>
+  </Row>
+</Import>

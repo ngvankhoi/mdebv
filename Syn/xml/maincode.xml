@@ -1,0 +1,24 @@
+<?xml version="1.0" standalone="yes"?>
+<Import>
+  <Row>
+    <Con />
+    <Ip>172.168.1.8</Ip>
+    <!--<Ip>10.0.13.250</Ip>-->
+    <!--<Ip>172.168.10.8</Ip>-->
+    <Post>5432</Post>
+    <UserID />
+    <Password />
+    <User />
+    <Database>vanphuc_1</Database>
+    <Mabv>701.1.01</Mabv>
+    <Tenbv>bv</Tenbv>
+    <Syte>Sở Y Tế Kiên Giang</Syte>
+    <Diachi>80 - 82 Nguyễn Trung Trực, Phường Vĩnh Bảo</Diachi>
+    <Dienthoai>077 3949949</Dienthoai>
+    <Fox />
+    <xxxx />
+    <xxxxx />
+    <Madvqhns />
+    <Mabvbhyt>49111</Mabvbhyt>    
+  </Row>
+</Import>

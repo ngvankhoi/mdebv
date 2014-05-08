@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="tusat">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="id_nn" type="xs:decimal" minOccurs="0" />
+                <xs:element name="id_ht" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tongso" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sochet" type="xs:decimal" minOccurs="0" />
+                <xs:element name="nu" type="xs:decimal" minOccurs="0" />
+                <xs:element name="canbo" type="xs:decimal" minOccurs="0" />
+                <xs:element name="thuongbinh" type="xs:decimal" minOccurs="0" />
+                <xs:element name="dangvien" type="xs:decimal" minOccurs="0" />
+                <xs:element name="duoi18" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tu18-28" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tren60" type="xs:decimal" minOccurs="0" />
+                <xs:element name="nn_tusat" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ht_tusat" type="xs:decimal" minOccurs="0" />                
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+</NewDataSet>

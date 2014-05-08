@@ -1,0 +1,87 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table1">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="makp" type="xs:string" minOccurs="0" />
+                <xs:element name="tenkp" type="xs:string" minOccurs="0" />
+                <xs:element name="tongso" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ngtru" type="xs:decimal" minOccurs="0" />
+                <xs:element name="cv" type="xs:decimal" minOccurs="0" />
+                <xs:element name="Nhapvien" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table1>
+    <makp>04</makp>
+    <tenkp>Pk Nội </tenkp>
+    <tongso>748</tongso>
+    <ngtru>0</ngtru>
+    <cv>2</cv>
+    <Nhapvien>0</Nhapvien>
+  </Table1>
+  <Table1>
+    <makp>06</makp>
+    <tenkp>Pk Răng - Hàm - Mặt</tenkp>
+    <tongso>67</tongso>
+    <ngtru>0</ngtru>
+    <cv>0</cv>
+    <Nhapvien>0</Nhapvien>
+  </Table1>
+  <Table1>
+    <makp>07</makp>
+    <tenkp>Pk Phụ Sản</tenkp>
+    <tongso>142</tongso>
+    <ngtru>0</ngtru>
+    <cv>0</cv>
+    <Nhapvien>4</Nhapvien>
+  </Table1>
+  <Table1>
+    <makp>05</makp>
+    <tenkp>Pk Ngoại</tenkp>
+    <tongso>301</tongso>
+    <ngtru>0</ngtru>
+    <cv>0</cv>
+    <Nhapvien>0</Nhapvien>
+  </Table1>
+  <Table1>
+    <makp>12</makp>
+    <tenkp>Khám Bướu Cổ</tenkp>
+    <tongso>84</tongso>
+    <ngtru>0</ngtru>
+    <cv>0</cv>
+    <Nhapvien>0</Nhapvien>
+  </Table1>
+  <Table1>
+    <makp>08</makp>
+    <tenkp>Pk Mắt</tenkp>
+    <tongso>139</tongso>
+    <ngtru>0</ngtru>
+    <cv>0</cv>
+    <Nhapvien>0</Nhapvien>
+  </Table1>
+  <Table1>
+    <makp>09</makp>
+    <tenkp>Pk Tai-mũi Họng</tenkp>
+    <tongso>178</tongso>
+    <ngtru>0</ngtru>
+    <cv>0</cv>
+    <Nhapvien>0</Nhapvien>
+  </Table1>
+  <Table1>
+    <makp>03</makp>
+    <tenkp>Pk Nhi</tenkp>
+    <tongso>89</tongso>
+    <ngtru>0</ngtru>
+    <cv>0</cv>
+    <Nhapvien>0</Nhapvien>
+  </Table1>
+</NewDataSet>

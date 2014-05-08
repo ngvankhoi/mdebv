@@ -1,0 +1,264 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="id" type="xs:decimal" minOccurs="0" />
+                <xs:element name="id_cha" type="xs:decimal" minOccurs="0" />
+                <xs:element name="stt" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ten" type="xs:string" minOccurs="0" />
+                <xs:element name="sql" type="xs:string" minOccurs="0" />
+                <xs:element name="tenfield" type="xs:string" minOccurs="0" />
+                <xs:element name="captionfield" type="xs:string" minOccurs="0" />
+                <xs:element name="width" type="xs:string" minOccurs="0" />
+                <xs:element name="report" type="xs:string" minOccurs="0" />
+                <xs:element name="readonly" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <id>1</id>
+    <id_cha>0</id_cha>
+    <stt>1</stt>
+    <ten>Phòng khám</ten>
+    <sql />
+    <tenfield />
+    <captionfield />
+    <width />
+    <report />
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>2</id>
+    <id_cha>0</id_cha>
+    <stt>2</stt>
+    <ten>Viện phí</ten>
+    <sql />
+    <tenfield />
+    <captionfield />
+    <width />
+    <report />
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>3</id>
+    <id_cha>2</id_cha>
+    <stt>1</stt>
+    <ten>1.</ten>
+    <sql />
+    <tenfield />
+    <captionfield />
+    <width />
+    <report />
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>5</id>
+    <id_cha>2</id_cha>
+    <stt>3</stt>
+    <ten>3. Bảng kê tổng hợp các khoản thu - chi viện phí - tach mien phi</ten>
+    <sql>select loai,ten,sum(tienthu) tienthu,sum(tienchi) tienchi,sum(mien) mien,sum(tienthu) - sum(tienchi) ton from (
+
+select 1 loai,'Kham Benh' ten,b.soluong* b.dongia tienthu,0 tienchi,0 mien from medibvmmyy.v_vienphill a,medibvmmyy.v_vienphict b, medibv.v_giavp c, medibv.v_loaivp d where a.id=b.id and b.mavp=c.id and c.id_loai=d.id and to_date(to_char(a.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and to_date(':v_dn','dd/mm/yyyy') and d.id_nhom=7 
+union all 
+select 2 loai,'Can Lam Sang' ten,b.soluong* b.dongia-b.mien tienthu,0 tienchi,b.mien from medibvmmyy.v_vienphill a,medibvmmyy.v_vienphict b,medibv.v_giavp c,medibv.v_loaivp d where a.id=b.id and b.mavp=c.id and c.id_loai=d.id and to_date(to_char(a.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and to_date(':v_dn','dd/mm/yyyy') and d.id_nhom&lt;&gt;7 
+union all 
+select 3 loai,'Tam Ung' ten,a.sotien tienthu,0 tienchi,0 mien from medibvmmyy.v_tamung a where to_date(to_char(a.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and to_date(':v_dn','dd/mm/yyyy') 
+union all 
+select 4 loai,'Thanh Toan Noi Tru' ten,a.sotien-a.tamung-a.bhyt-a.mien tienthu,0 tienchi,0 mien from medibvmmyy.v_ttrvll a where a.sotien-a.tamung-a.bhyt-a.mien&gt;0  and to_date(to_char(a.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and to_date(':v_dn','dd/mm/yyyy') 
+union all 
+select 5 loai,'Hoan Tra' ten,0 tienthu,a.sotien tienchi,0 mien from medibvmmyy.v_hoantra a where to_date(to_char(a.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and to_date(':v_dn','dd/mm/yyyy') 
+union all 
+select 5 loai,'Hoan tra' ten,0 tienthu,abs(a.sotien-a.tamung-a.bhyt-a.mien) tienchi,0 mien from medibvmmyy.v_ttrvll a where a.sotien-a.tamung-a.bhyt-a.mien&lt;0  and to_date(to_char(a.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and to_date(':v_dn','dd/mm/yyyy') 
+union all
+select 6 loai,'Mien giam' ten,0 tienthu,0 tienchi ,b.mien mien from medibvmmyy.v_vienphict b,medibvmmyy.v_vienphill a,medibv.v_giavp c where a.id=b.id and b.mien&lt;&gt;0 and c.id=b.mavp and c.bhyt=100 and c.chenhlech=0 and to_date(to_char(a.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and to_date(':v_dn','dd/mm/yyyy') 
+union all
+select 6 loai,'Mien giam' ten,0 tienthu,0 tienchi,a.mien mien  from medibvmmyy.v_ttrvll a where to_date(to_char(a.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and to_date(':v_dn','dd/mm/yyyy') 
+union all
+select 6 loai,'Mien giam' ten,0 tienthu,0 tienchi, d.sotien mien from medibvmmyy.v_vienphict b,medibvmmyy.v_vienphill a,medibv.v_giavp c, medibvmmyy.v_mienngtru d where a.id=b.id and b.mien=0 and c.id=b.mavp and a.id=d.id and to_date(to_char(a.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and to_date(':v_dn','dd/mm/yyyy') 
+) vp group by loai,ten</sql>
+    <tenfield>loai,ten,tienthu,tienchi,mien,ton</tenfield>
+    <captionfield>STT, Các khoản thu chi, Số tiền thu, Số tiền chi,Số tiền miễn, Tồn</captionfield>
+    <width>40,150,100,100,100,100</width>
+    <report>v_bangketonghopthuchi.rpt</report>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>4</id>
+    <id_cha>2</id_cha>
+    <stt>2</stt>
+    <ten>2. Bảng kê tổng hợp các khoản thu - chi viện phí</ten>
+    <sql>select loai,ten,sum(tienthu) tienthu,sum(tienchi) tienchi,sum(mien) mien,sum(tienthu) - sum(tienchi) ton from (
+select 1 loai,'Kham Benh' ten,b.soluong* b.dongia tienthu,0 tienchi,0 mien from medibvmmyy.v_vienphill a,medibvmmyy.v_vienphict b,medibv.v_giavp c,medibv.v_loaivp d where a.id=b.id and b.mavp=c.id and c.id_loai=d.id and to_date(to_char(a.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and to_date(':v_dn','dd/mm/yyyy') and d.id_nhom=7 
+union all 
+select 2 loai,'Can Lam Sang' ten,b.soluong* b.dongia-b.mien tienthu,0 tienchi,b.mien from medibvmmyy.v_vienphill a,medibvmmyy.v_vienphict b,medibv.v_giavp c,medibv.v_loaivp d where a.id=b.id and b.mavp=c.id and c.id_loai=d.id and to_date(to_char(a.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and to_date(':v_dn','dd/mm/yyyy') and d.id_nhom&lt;&gt;7 
+union all 
+select 3 loai,'Tam Ung' ten,a.sotien tienthu,0 tienchi,0 mien from medibvmmyy.v_tamung a where to_date(to_char(a.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and to_date(':v_dn','dd/mm/yyyy') 
+union all 
+select 4 loai,'Thanh Toan Noi Tru' ten,a.sotien-a.tamung-a.bhyt-a.mien tienthu,0 tienchi,0 mien from medibvmmyy.v_ttrvll a where a.sotien-a.tamung-a.bhyt-a.mien&gt;0  and to_date(to_char(a.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and to_date(':v_dn','dd/mm/yyyy') 
+union all 
+select 5 loai,'Hoan Tra' ten,0 tienthu,a.sotien tienchi,0 mien from medibvmmyy.v_hoantra a where to_date(to_char(a.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and to_date(':v_dn','dd/mm/yyyy') 
+union all 
+select 5 loai,'Hoan tra' ten,0 tienthu,abs(a.sotien-a.tamung-a.bhyt-a.mien) tienchi,0 mien from medibvmmyy.v_ttrvll a where a.sotien-a.tamung-a.bhyt-a.mien&lt;0  and to_date(to_char(a.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and to_date(':v_dn','dd/mm/yyyy') 
+union all
+select 6 loai,'Mien giam' ten,0 tienthu,b.mien tienchi , 0 mien from medibvmmyy.v_vienphict b,medibvmmyy.v_vienphill a,medibv.v_giavp c where a.id=b.id and b.mien&lt;&gt;0 and c.id=b.mavp and c.bhyt=100 and c.chenhlech=0 and to_date(to_char(a.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and to_date(':v_dn','dd/mm/yyyy') 
+union all
+select 6 loai,'Mien giam' ten,0 tienthu, a.mien tienchi, 0 mien  from medibvmmyy.v_ttrvll a where to_date(to_char(a.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and to_date(':v_dn','dd/mm/yyyy') 
+union all
+select 6 loai,'Mien giam' ten,0 tienthu, d.sotien tienchi, 0 mien from medibvmmyy.v_vienphict b,medibvmmyy.v_vienphill a,medibv.v_giavp c, medibvmmyy.v_mienngtru d where a.id=b.id and b.mien=0 and c.id=b.mavp and a.id=d.id and to_date(to_char(a.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and to_date(':v_dn','dd/mm/yyyy') 
+)  vp group by loai,ten</sql>
+    <tenfield>loai,ten,tienthu,tienchi,ton</tenfield>
+    <captionfield>STT, Các khoản thu chi, Số tiền thu, Số tiền chi, Tồn</captionfield>
+    <width>40,150,100,100,100</width>
+    <report>v_bangketonghopthuchi.rpt</report>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>7</id>
+    <id_cha>6</id_cha>
+    <stt>1</stt>
+    <ten>1. Báo cáo tồng hợp</ten>
+    <sql>select f.tenkp,d.ten tenloai,c.ten dichvu,c.gia_th dongia,sum(a.soluong) soluong,c.gia_th*sum(a.soluong) thanhtien
+ from medibvmmyy.v_ttrvct a,medibv.v_giavp c,medibv.v_loaivp d,medibv.d_duockp e,medibv.btdkp_bv f
+ where a.mavp=c.id and c.id_loai=d.id and a.makp=e.id and e.makp=f.makp and a.madoituong&lt;&gt;1 and
+to_date(to_char(a.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and  to_date(':v_dn','dd/mm/yyyy') 
+group by f.tenkp,d.ten,c.ten,c.gia_th</sql>
+    <tenfield>tenloai,dichvu,dongia,soluong,thanhtien</tenfield>
+    <captionfield>tenloai,dichvu,dongia,soluong,thanhtien</captionfield>
+    <width />
+    <report>thnoitrumoi.rpt</report>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>6</id>
+    <id_cha>0</id_cha>
+    <stt>3</stt>
+    <ten>Báo cáo tổng hợp</ten>
+    <sql />
+    <tenfield />
+    <captionfield />
+    <width />
+    <report />
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>8</id>
+    <id_cha>6</id_cha>
+    <stt>2</stt>
+    <ten>2. Bảng kê Nội trú tổng hợp theo khoa - Thu phí</ten>
+    <sql>select f.tenkp,d.ten tenloai,c.ten dichvu,c.gia_th dongia, sum(a.soluong) soluong,c.gia_th*sum(a.soluong) thanhtien
+ from medibvmmyy.v_ttrvll aa, medibvmmyy.v_ttrvct a,medibv.v_giavp c,medibv.v_loaivp d,medibv.d_duockp e,medibv.btdkp_bv f
+ where aa.id=a.id and a.mavp=c.id and c.id_loai=d.id and a.makp=e.id and e.makp=f.makp and a.madoituong=2 and a.mavp&lt;&gt;2035 and
+to_date(to_char(aa.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and  to_date(':v_dn','dd/mm/yyyy') 
+group by f.tenkp,d.ten,c.ten,c.gia_th
+UNION ALL
+select f.tenkp, d2.ten as tenloai,c.ten dichvu, a.dongia,sum(a.soluong) soluong, a.dongia*sum(a.soluong) thanhtien
+ from medibvmmyy.v_ttrvll aa, medibvmmyy.v_ttrvct a, medibv.d_dmbd c, medibv.d_dmnhom d1, medibv.v_nhomvp d2, medibv.d_duockp e,medibv.btdkp_bv f
+ where aa.id=a.id and a.mavp=c.id and c.manhom=d1.id and d1.nhomvp=d2.ma and a.makp=e.id and e.makp=f.makp and a.madoituong=2  and
+to_date(to_char(aa.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and  to_date(':v_dn','dd/mm/yyyy') 
+group by f.tenkp,c.ten,a.dongia, d2.ten</sql>
+    <tenfield>tenkp,tenloai,dichvu,dongia,soluong,thanhtien</tenfield>
+    <captionfield>tenkp,tenloai,dichvu,dongia,soluong,thanhtien</captionfield>
+    <width />
+    <report>thnoitrutheokhoa.rpt</report>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>9</id>
+    <id_cha>6</id_cha>
+    <stt>3</stt>
+    <ten>3. BHYT</ten>
+    <sql>select f.tenkp,d.ten tenloai,c.ten dichvu, a.dongia, sum(a.soluong) soluong,a.dongia*sum(a.soluong) thanhtien, SUM(a.bhyttra) as bhyttra, sum(a.sotien-a.bhyttra) as bntra
+ from medibvmmyy.v_ttrvll aa, medibvmmyy.v_ttrvct a,medibv.v_giavp c,medibv.v_loaivp d,medibv.d_duockp e,medibv.btdkp_bv f
+ where aa.id=a.id and a.mavp=c.id and c.id_loai=d.id and a.makp=e.id and e.makp=f.makp and a.madoituong=1 and a.mavp&lt;&gt;2035 and
+to_date(to_char(aa.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and  to_date(':v_dn','dd/mm/yyyy') 
+group by f.tenkp,d.ten,c.ten, a.dongia
+
+UNION ALL
+select f.tenkp, d2.ten as tenloai,c.ten dichvu, a.dongia,sum(a.soluong) soluong, a.dongia*sum(a.soluong) thanhtien, SUM(a.bhyttra) as bhyttra, sum(a.sotien-a.bhyttra) as bntra
+ from medibvmmyy.v_ttrvll aa,medibvmmyy.v_ttrvct a, medibv.d_dmbd c, medibv.d_dmnhom d1, medibv.v_nhomvp d2, medibv.d_duockp e,medibv.btdkp_bv f
+ where aa.id=a.id and  a.mavp=c.id and c.manhom=d1.id and d1.nhomvp=d2.ma and a.makp=e.id and e.makp=f.makp and a.madoituong=1  and
+to_date(to_char(aa.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and  to_date(':v_dn','dd/mm/yyyy') 
+group by f.tenkp,c.ten,a.dongia, d2.ten</sql>
+    <tenfield>tenkp, tenloai, dichvu, dongia, soluong, thanhtien, bhyttra, bntra</tenfield>
+    <captionfield>tenkp, tenloai, dichvu, dongia, soluong, thanhtien, bhyttra, bntra</captionfield>
+    <width />
+    <report>thnoitrutheokhoa_2.rpt</report>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>10</id>
+    <id_cha>6</id_cha>
+    <stt>4</stt>
+    <ten>4. Chênh lệch</ten>
+    <sql>select f.tenkp,d.ten tenloai,c.ten dichvu, a.dongia, sum(a.soluong) soluong,a.dongia*sum(a.soluong) thanhtien
+ from medibvmmyy.v_ttrvll aa, medibvmmyy.v_ttrvct a,medibv.v_giavp c,medibv.v_loaivp d,medibv.d_duockp e,medibv.btdkp_bv f
+ where aa.id=a.id and a.mavp=c.id and c.id_loai=d.id and a.makp=e.id and e.makp=f.makp and a.madoituong=7 and a.mavp&lt;&gt;2035 and
+to_date(to_char(aa.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and  to_date(':v_dn','dd/mm/yyyy') 
+group by f.tenkp,d.ten,c.ten, a.dongia
+UNION ALL
+select f.tenkp, d2.ten as tenloai,c.ten dichvu, a.dongia,sum(a.soluong) soluong, a.dongia*sum(a.soluong) thanhtien
+ from medibvmmyy.v_ttrvll aa, medibvmmyy.v_ttrvct a, medibv.d_dmbd c, medibv.d_dmnhom d1, medibv.v_nhomvp d2, medibv.d_duockp e,medibv.btdkp_bv f
+ where aa.id=a.id and a.mavp=c.id and c.manhom=d1.id and d1.nhomvp=d2.ma and a.makp=e.id and e.makp=f.makp and a.madoituong=7  and
+to_date(to_char(aa.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and  to_date(':v_dn','dd/mm/yyyy') 
+group by f.tenkp,c.ten,a.dongia, d2.ten</sql>
+    <tenfield>tenkp, tenloai, dichvu, dongia, soluong, thanhtien</tenfield>
+    <captionfield>tenkp, tenloai, dichvu, dongia, soluong, thanhtien</captionfield>
+    <width />
+    <report>thnoitrutheokhoa.rpt</report>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>12</id>
+    <id_cha>6</id_cha>
+    <stt>6</stt>
+    <ten>6. Thu trực tiếp - chênh lệch</ten>
+    <sql>select d.ten tenloai,c.ten dichvu,b.dongia dongia,sum(b.soluong) soluong,b.dongia*sum(b.soluong) thanhtien
+from medibvmmyy.v_vienphill a,medibvmmyy.v_vienphict b,medibv.v_giavp c,medibv.v_loaivp d 
+where a.id=b.id and b.mavp=c.id and c.id_loai=d.id 
+and to_date(to_char(a.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and  to_date(':v_dn','dd/mm/yyyy')  and b.madoituong=7
+group by d.ten,c.ten,b.dongia</sql>
+    <tenfield>tenloai, dichvu, soluong, dongia, thanhtien</tenfield>
+    <captionfield>tenloai, dichvu, soluong, dongia, thanhtien</captionfield>
+    <width />
+    <report>thngoaitru.rpt</report>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>11</id>
+    <id_cha>6</id_cha>
+    <stt>5</stt>
+    <ten>5. Bảng kê Ngoại trú tổng hợp - thu phí</ten>
+    <sql>select d.ten tenloai,c.ten dichvu,b.dongia dongia,sum(b.soluong) soluong,b.dongia*sum(b.soluong) thanhtien
+from medibvmmyy.v_vienphill a,medibvmmyy.v_vienphict b,medibv.v_giavp c,medibv.v_loaivp d 
+where a.id=b.id and b.mavp=c.id and c.id_loai=d.id 
+and to_date(to_char(a.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and  to_date(':v_dn','dd/mm/yyyy')  and b.madoituong=2
+group by d.ten,c.ten,b.dongia,c.gia_th</sql>
+    <tenfield>tenloai,dichvu,dongia,soluong,thanhtien</tenfield>
+    <captionfield>tenloai,dichvu,dongia,soluong,thanhtien</captionfield>
+    <width />
+    <report>thngoaitru.rpt</report>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>13</id>
+    <id_cha>6</id_cha>
+    <stt>7</stt>
+    <ten>7. Bảng kê tổng hợp CDHA</ten>
+    <sql>select d.ten tenloai,c.ten dichvu,c.gia_th dongia, sum(b.solan) soluong,c.gia_th*sum(b.solan) thanhtien  from medibvmmyy.cdha_bnll a , medibvmmyy.cdha_bnct b,
+medibv.cdha_kythuat kt, medibv.v_giavp c, medibv.v_loaivp d where a.id=b.id and b.makt=kt.makt and kt.id_vp=c.id and c.id_loai=d.id and to_date(to_char(a.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and to_date(':v_dn','dd/mm/yyyy') group by d.ten,c.ten,c.gia_th</sql>
+    <tenfield>tenloai,dichvu,dongia,soluong,thanhtien</tenfield>
+    <captionfield>tenloai,dichvu,dongia,soluong,thanhtien</captionfield>
+    <width />
+    <report>thcdha.rpt</report>
+    <readonly>0</readonly>
+  </Table>
+</NewDataSet>

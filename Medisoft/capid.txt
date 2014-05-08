@@ -1,0 +1,8 @@
+﻿Lưu ý:
+Đề nghị các đồng chí khi cấp id mà sử dụng table capid, d_capid... thì ghi chú lại mã mình dùng.
+ví dụ:
+
+d_capid.ma=1: dùng để cấp id cho table d_dmbd và v_giavp
+nghĩa là: d_capid.id where ma=1 >= (max(max(d_dmbd.id), max(v_giavp.id))
+
+

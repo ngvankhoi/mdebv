@@ -1,0 +1,100 @@
+<?xml version="1.0" standalone="yes" ?>
+<NewDataSet>
+	<xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+			<xs:complexType>
+				<xs:choice minOccurs="0" maxOccurs="unbounded">
+					<xs:element name="DKTAINANTT">
+						<xs:complexType>
+							<xs:sequence>
+								<xs:element name="ID" type="xs:decimal" minOccurs="0" />
+								<xs:element name="TEN" type="xs:string" minOccurs="0" />
+								<xs:element name="VALUE" type="xs:string" minOccurs="0" />
+							</xs:sequence>
+						</xs:complexType>
+					</xs:element>
+				</xs:choice>
+			</xs:complexType>
+		</xs:element>
+	</xs:schema>
+	<DKTAINANTT>
+		<ID>1</ID>
+		<TEN>C01</TEN>
+		<VALUE>PHAI=0</VALUE>
+	</DKTAINANTT>
+	<DKTAINANTT>
+		<ID>2</ID>
+		<TEN>C02</TEN>
+		<VALUE>PHAI=1</VALUE>
+	</DKTAINANTT>
+	<DKTAINANTT>
+		<ID>3</ID>
+		<TEN>C03</TEN>
+		<VALUE>TUOI&lt; 16  AND PHAI=0</VALUE>
+	</DKTAINANTT>
+	<DKTAINANTT>
+		<ID>4</ID>
+		<TEN>C04</TEN>
+		<VALUE>TUOI&lt; 16  AND PHAI=1</VALUE>
+	</DKTAINANTT>
+	<DKTAINANTT>
+		<ID>5</ID>
+		<TEN>C05</TEN>
+		<VALUE>TUOI&gt;=16 AND TUOI &lt;= 18  AND PHAI=0 </VALUE>
+	</DKTAINANTT>
+	<DKTAINANTT>
+		<ID>6</ID>
+		<TEN>C06</TEN>
+		<VALUE>TUOI&gt;=16 AND TUOI &lt;= 18  AND PHAI=1</VALUE>
+	</DKTAINANTT>
+	<DKTAINANTT>
+		<ID>7</ID>
+		<TEN>C07</TEN>
+		<VALUE>TUOI&gt;=19 AND TUOI&lt;=30 AND PHAI=0  </VALUE>
+	</DKTAINANTT>
+	<DKTAINANTT>
+		<ID>8</ID>
+		<TEN>C08</TEN>
+		<VALUE>TUOI&gt;=19 AND TUOI&lt;=30  AND PHAI=1</VALUE>
+	</DKTAINANTT>
+	<DKTAINANTT>
+		<ID>9</ID>
+		<TEN>C09</TEN>
+		<VALUE>TUOI&gt;= 31 AND TUOI&lt;=40 AND PHAI=0</VALUE>
+	</DKTAINANTT>
+	<DKTAINANTT>
+		<ID>10</ID>
+		<TEN>C10</TEN>
+		<VALUE>TUOI&gt;= 31 AND TUOI&lt;=40 AND PHAI=1</VALUE>
+	</DKTAINANTT>
+	<DKTAINANTT>
+		<ID>11</ID>
+		<TEN>C11</TEN>
+		<VALUE>TUOI&gt;= 41 AND TUOI&lt;=50 AND PHAI=0</VALUE>
+	</DKTAINANTT>
+	<DKTAINANTT>
+		<ID>12</ID>
+		<TEN>C12</TEN>
+		<VALUE>TUOI&gt;= 41 AND TUOI&lt;=50 AND PHAI=1</VALUE>
+	</DKTAINANTT>
+	<DKTAINANTT>
+		<ID>13</ID>
+		<TEN>C13</TEN>
+		<VALUE>TUOI&gt;= 51 AND TUOI&lt;=60 AND PHAI=0</VALUE>
+	</DKTAINANTT>
+	<DKTAINANTT>
+		<ID>14</ID>
+		<TEN>C14</TEN>
+		<VALUE>TUOI&gt;= 51 AND TUOI&lt;=60  AND PHAI=1</VALUE>
+	</DKTAINANTT>
+	<DKTAINANTT>
+		<ID>15</ID>
+		<TEN>C15</TEN>
+		<VALUE>TUOI&gt;60 AND PHAI=0</VALUE>
+	</DKTAINANTT>
+	<DKTAINANTT>
+		<ID>16</ID>
+		<TEN>C16</TEN>
+		<VALUE>TUOI&gt;60 AND PHAI=1</VALUE>
+	</DKTAINANTT>
+</NewDataSet>

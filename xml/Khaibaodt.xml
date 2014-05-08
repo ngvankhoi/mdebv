@@ -1,0 +1,85 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="BHXH">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="stt" type="xs:int" minOccurs="0" />
+                <xs:element name="loai" type="xs:int" minOccurs="0" />
+                <xs:element name="ma" type="xs:string" minOccurs="0" />
+                <xs:element name="ten" type="xs:string" minOccurs="0" />
+                <xs:element name="readonly" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <BHXH>
+    <stt>1</stt>
+    <loai>0</loai>
+    <ma>AA,A1,AL,AV,</ma>
+    <ten>HCSN</ten>
+    <readonly>0</readonly>
+  </BHXH>
+  <BHXH>
+    <stt>2</stt>
+    <loai>0</loai>
+    <ma>BB,CB,B1,</ma>
+    <ten>DNNN</ten>
+    <readonly>0</readonly>
+  </BHXH>
+  <BHXH>
+    <stt>3</stt>
+    <loai>0</loai>
+    <ma>DB,B2,CX,</ma>
+    <ten>DNTN</ten>
+    <readonly>0</readonly>
+  </BHXH>
+  <BHXH>
+    <stt>4</stt>
+    <loai>0</loai>
+    <ma>EB,B3,</ma>
+    <ten>DNNG</ten>
+    <readonly>0</readonly>
+  </BHXH>
+  <BHXH>
+    <stt>5</stt>
+    <loai>0</loai>
+    <ma>HH,</ma>
+    <ten>Phường xã</ten>
+    <readonly>0</readonly>
+  </BHXH>
+  <BHXH>
+    <stt>6</stt>
+    <loai>0</loai>
+    <ma>H1,D1,</ma>
+    <ten>HĐND,ĐBQH</ten>
+    <readonly>0</readonly>
+  </BHXH>
+  <BHXH>
+    <stt>7</stt>
+    <loai>0</loai>
+    <ma>MI,D2,D3,</ma>
+    <ten>TNSQ</ten>
+    <readonly>0</readonly>
+  </BHXH>
+  <BHXH>
+    <stt>8</stt>
+    <loai>1</loai>
+    <ma>AA,A1,AL,AV,BB,CB,B1,DB,B2,CX,EB,B3,HH,H1,D1,MI,D2,D3,</ma>
+    <ten>Bắt buộc</ten>
+    <readonly>0</readonly>
+  </BHXH>
+  <BHXH>
+    <stt>9</stt>
+    <loai>1</loai>
+    <ma>T1,T2,T3,T4,</ma>
+    <ten>Tự nguyện</ten>
+    <readonly>0</readonly>
+  </BHXH>
+</NewDataSet>

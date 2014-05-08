@@ -1,0 +1,76 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Table" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="stt" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sttt" type="xs:decimal" minOccurs="0" />
+                <xs:element name="mabd" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ma" type="xs:string" minOccurs="0" />
+                <xs:element name="ten" type="xs:string" minOccurs="0" />
+                <xs:element name="tenhc" type="xs:string" minOccurs="0" />
+                <xs:element name="dang" type="xs:string" minOccurs="0" />
+                <xs:element name="tenkho" type="xs:string" minOccurs="0" />
+                <xs:element name="tennguon" type="xs:string" minOccurs="0" />
+                <xs:element name="tennhomcc" type="xs:string" minOccurs="0" />
+                <xs:element name="handung" type="xs:string" minOccurs="0" />
+                <xs:element name="losx" type="xs:string" minOccurs="0" />
+                <xs:element name="soluong" type="xs:decimal" minOccurs="0" />
+                <xs:element name="dongia" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sotien" type="xs:decimal" minOccurs="0" />
+                <xs:element name="giaban" type="xs:decimal" minOccurs="0" />
+                <xs:element name="giamua" type="xs:decimal" minOccurs="0" />
+                <xs:element name="makho" type="xs:decimal" minOccurs="0" />
+                <xs:element name="manguon" type="xs:decimal" minOccurs="0" />
+                <xs:element name="nhomcc" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sotienban" type="xs:decimal" minOccurs="0" />
+                <xs:element name="soluongcu" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sotiencu" type="xs:decimal" minOccurs="0" />
+                <xs:element name="madoituong" type="xs:decimal" minOccurs="0" />
+                <xs:element name="paid" type="xs:decimal" minOccurs="0" />
+                <xs:element name="cachdung" type="xs:string" minOccurs="0" />
+                <xs:element name="sothang" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sohieu" type="xs:string" minOccurs="0" />
+                <xs:element name="sobienlai" type="xs:decimal" minOccurs="0" />
+                <xs:element name="lien" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <stt>1</stt>
+    <sttt>131001000000013008</sttt>
+    <mabd>179453</mabd>
+    <ma>AUG001</ma>
+    <ten>augmentin 1g</ten>
+    <tenhc>amoxilin 500mg; clavilinat 500mg</tenhc>
+    <dang>Viên</dang>
+    <tenkho>Nhà thuốc</tenkho>
+    <tennguon>Kinh phí</tennguon>
+    <tennhomcc>Cty CP Dược Phẩm Hà Tây</tennhomcc>
+    <handung>0418</handung>
+    <losx>L001</losx>
+    <soluong>10.0000</soluong>
+    <dongia>5250.0000000000</dongia>
+    <sotien>52500.00000000000000</sotien>
+    <giaban>6000.0000000000</giaban>
+    <giamua>5250.0000000000</giamua>
+    <makho>4</makho>
+    <manguon>1</manguon>
+    <nhomcc>506</nhomcc>
+    <sotienban>60000.00000000000000</sotienban>
+    <soluongcu>10.0000</soluongcu>
+    <sotiencu>52500.00000000000000</sotiencu>
+    <madoituong>2</madoituong>
+    <paid>1</paid>
+    <cachdung>uống ngày 3 lần , lần 1muong cafe.</cachdung>
+    <lien>1</lien>
+  </Table>
+</NewDataSet>

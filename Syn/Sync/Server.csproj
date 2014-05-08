@@ -1,0 +1,313 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A404DE28-5ADB-46AD-8A87-8554DC51E09B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Server</RootNamespace>
+    <AssemblyName>Server</AssemblyName>
+    <ApplicationIcon>Synchronize.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="LibList, Version=1.0.3843.28232, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\GangThepMoi\LibList\bin\Debug\LibList.dll</HintPath>
+    </Reference>
+    <Reference Include="LibMedi, Version=1.0.4570.30822, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\LibMedi\bin\Debug\LibMedi.dll</HintPath>
+    </Reference>
+    <Reference Include="MultiColumnListBox, Version=1.0.3526.13938, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\GangThepMoi\LibList\bin\Debug\MultiColumnListBox.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpZipLib, Version=0.4.0.0, Culture=neutral, PublicKeyToken=fbebc9694da332b7">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\code\Medisoft 2003 Access 5.1\Medisoft\bin\Debug\SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Wildgrape.Aqua.Controls, Version=1.0.0.0, Culture=neutral, PublicKeyToken=246dc3e8eef83553">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Duoc\bin\Debug\Wildgrape.Aqua.Controls.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmCauHinhMail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCauHinhMail.Designer.cs">
+      <DependentUpon>frmCauHinhMail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmchonngay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmchonngay.Designer.cs">
+      <DependentUpon>frmchonngay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDmemail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDmemail.designer.cs">
+      <DependentUpon>frmDmemail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmdmTable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmdmTable.Designer.cs">
+      <DependentUpon>frmdmTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmConstraint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConstraint.Designer.cs">
+      <DependentUpon>frmConstraint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDmTableAuto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDmTableAuto.Designer.cs">
+      <DependentUpon>frmDmTableAuto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDoingay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDongBoKSK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDongBoKSK.Designer.cs">
+      <DependentUpon>frmDongBoKSK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDsMaytram.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDsMaytram.Designer.cs">
+      <DependentUpon>frmDsMaytram.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEventlog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEventlog.Designer.cs">
+      <DependentUpon>frmEventlog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmHuongdan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHuongdan.Designer.cs">
+      <DependentUpon>frmHuongdan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmKhaibaomaychu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmKhaibaomaychu.Designer.cs">
+      <DependentUpon>frmKhaibaomaychu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmKhaibaomaytram.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmKhaibaomaytram.Designer.cs">
+      <DependentUpon>frmKhaibaomaytram.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMatkhau.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMatkhau.designer.cs">
+      <DependentUpon>frmMatkhau.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmQuanlyDatabase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQuanlyDatabase.Designer.cs">
+      <DependentUpon>frmQuanlyDatabase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSynTable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSynTable.Designer.cs">
+      <DependentUpon>frmSynTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmThongso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmThongso.Designer.cs">
+      <DependentUpon>frmThongso.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmServer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmServer.Designer.cs">
+      <DependentUpon>frmServer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmThucong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmThucong.Designer.cs">
+      <DependentUpon>frmThucong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmCauHinhMail.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmCauHinhMail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmchonngay.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmchonngay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDmemail.resx">
+      <DependentUpon>frmDmemail.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmdmTable.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmdmTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConstraint.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmConstraint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDmTableAuto.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmDmTableAuto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDoingay.resx">
+      <DependentUpon>frmDoingay.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDongBoKSK.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmDongBoKSK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDsMaytram.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmDsMaytram.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEventlog.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmEventlog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHuongdan.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmHuongdan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmKhaibaomaychu.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmKhaibaomaychu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmKhaibaomaytram.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmKhaibaomaytram.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMatkhau.resx">
+      <DependentUpon>frmMatkhau.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQuanlyDatabase.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmQuanlyDatabase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSynTable.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmSynTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmThongso.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmThongso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmServer.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmServer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmThucong.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmThucong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\synchro.png" />
+    <None Include="bin\Debug\Synchronize.ico" />
+    <Content Include="bin\Debug\arrowdown.ico" />
+    <Content Include="bin\Debug\down.ico" />
+    <Content Include="bin\Debug\Download.ico" />
+    <Content Include="bin\Debug\StockIndexDown.ico" />
+    <Content Include="Huong dan.txt" />
+    <None Include="Resources\openinnewwindow.gif" />
+    <Content Include="Synchronize.ico" />
+    <None Include="Resources\1280x800_HD_Wallpaper_185_Zixpk.jpg" />
+    <None Include="Resources\abstract-wallpaper.jpg" />
+    <None Include="Resources\ActiveSync.gif" />
+    <None Include="Resources\close_r.gif" />
+    <None Include="Resources\key-manytoone.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DAL\DAL.csproj">
+      <Project>{9125595C-BD3D-4EC4-BA93-63C39B1D043D}</Project>
+      <Name>DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UI\UI.csproj">
+      <Project>{BF2D0B03-D3D1-4924-9276-806238AAC81A}</Project>
+      <Name>UI</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

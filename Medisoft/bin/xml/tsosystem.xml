@@ -1,0 +1,120 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="text" type="xs:string" minOccurs="0" />
+                <xs:element name="text_vn" type="xs:string" minOccurs="0" />
+                <xs:element name="text_en" type="xs:string" minOccurs="0" />
+                <xs:element name="text_ot" type="xs:string" minOccurs="0" />
+                <xs:element name="tag" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <text>Tổng quát</text>
+    <text_vn>Tổng quát</text_vn>
+    <text_en>General</text_en>
+    <text_ot />
+    <tag>p01</tag>
+  </Table>
+  <Table>
+    <text>Hành chính</text>
+    <text_vn>Hành chính</text_vn>
+    <text_en>Demographics</text_en>
+    <text_ot />
+    <tag>p02</tag>
+  </Table>
+  <Table>
+    <text>Chuyên môn</text>
+    <text_vn>Chuyên môn</text_vn>
+    <text_en>Medical data</text_en>
+    <text_ot />
+    <tag>p03</tag>
+  </Table>
+  <Table>
+    <text>Mã số - Tự động</text>
+    <text_vn>Mã số - Tự động</text_vn>
+    <text_en>Auto-ID</text_en>
+    <text_ot />
+    <tag>p04</tag>
+  </Table>
+  <Table>
+    <text>Đối tượng</text>
+    <text_vn>Đối tượng</text_vn>
+    <text_en>Patient class</text_en>
+    <text_ot />
+    <tag>p05</tag>
+  </Table>
+  <Table>
+    <text>Dược</text>
+    <text_vn>Dược</text_vn>
+    <text_en>Drugs</text_en>
+    <text_ot />
+    <tag>p06</tag>
+  </Table>
+  <Table>
+    <text>Viện phí</text>
+    <text_vn>Viện phí</text_vn>
+    <text_en>Billing</text_en>
+    <text_ot />
+    <tag>p07</tag>
+  </Table>
+  <Table>
+    <text>CLS</text>
+    <text_vn>CLS</text_vn>
+    <text_en>Diagnostic services</text_en>
+    <text_ot />
+    <tag>p08</tag>
+  </Table>
+  <Table>
+    <text>Phẩu thuật</text>
+    <text_vn>Phẩu thuật</text_vn>
+    <text_en>Surgery</text_en>
+    <text_ot />
+    <tag>p09</tag>
+  </Table>
+  <Table>
+    <text>Phòng, giường</text>
+    <text_vn>Phòng, giường</text_vn>
+    <text_en>Room , Bed</text_en>
+    <text_ot />
+    <tag>p10</tag>
+  </Table>
+  <Table>
+    <text>Bảng điện</text>
+    <text_vn>Bảng điện</text_vn>
+    <text_en>Didital board</text_en>
+    <text_ot />
+    <tag>p11</tag>
+  </Table>
+  <Table>
+    <text>Khác</text>
+    <text_vn>Khác</text_vn>
+    <text_en>Others</text_en>
+    <text_ot />
+    <tag>p12</tag>
+  </Table>
+  <Table>
+    <text>Khám sức khỏe</text>
+    <text_vn>Khám sức khỏe</text_vn>
+    <text_en>Health check-up</text_en>
+    <text_ot />
+    <tag>p13</tag>
+  </Table>
+  <Table>
+    <text>Tiêm chủng</text>
+    <text_vn>Tiêm chủng</text_vn>
+    <text_en>Immunization</text_en>
+    <text_ot />
+    <tag>p14</tag>
+  </Table>
+</NewDataSet>

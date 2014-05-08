@@ -1,0 +1,294 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="YYMMDD" type="xs:string" minOccurs="0" />
+                <xs:element name="NGAY" type="xs:string" minOccurs="0" />
+                <xs:element name="SONHAP" type="xs:string" minOccurs="0" />
+                <xs:element name="SOXUAT" type="xs:string" minOccurs="0" />
+                <xs:element name="MABD" type="xs:decimal" minOccurs="0" />
+                <xs:element name="MA" type="xs:string" minOccurs="0" />
+                <xs:element name="TEN" type="xs:string" minOccurs="0" />
+                <xs:element name="TENHC" type="xs:string" minOccurs="0" />
+                <xs:element name="DANG" type="xs:string" minOccurs="0" />
+                <xs:element name="TENHANG" type="xs:string" minOccurs="0" />
+                <xs:element name="TENNUOC" type="xs:string" minOccurs="0" />
+                <xs:element name="DIENGIAI" type="xs:string" minOccurs="0" />
+                <xs:element name="TONDAU" type="xs:decimal" minOccurs="0" />
+                <xs:element name="STTONDAU" type="xs:decimal" minOccurs="0" />
+                <xs:element name="SLNHAP" type="xs:decimal" minOccurs="0" />
+                <xs:element name="STNHAP" type="xs:decimal" minOccurs="0" />
+                <xs:element name="SLXUAT" type="xs:decimal" minOccurs="0" />
+                <xs:element name="STXUAT" type="xs:decimal" minOccurs="0" />
+                <xs:element name="TONCUOI" type="xs:decimal" minOccurs="0" />
+                <xs:element name="STTONCUOI" type="xs:decimal" minOccurs="0" />
+                <xs:element name="DONGIA" type="xs:decimal" minOccurs="0" />
+                <xs:element name="HANDUNG" type="xs:string" minOccurs="0" />
+                <xs:element name="LOSX" type="xs:string" minOccurs="0" />
+                <xs:element name="sltra" type="xs:decimal" default="0" minOccurs="0" />
+                <xs:element name="sttra" type="xs:decimal" default="0" minOccurs="0" />
+                <xs:element name="ngaysp" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <YYMMDD />
+    <NGAY />
+    <SONHAP />
+    <SOXUAT />
+    <MABD>614369</MABD>
+    <MA>AMO001</MA>
+    <TEN>Amoxicilin 0,5g</TEN>
+    <TENHC>Amoxicillin</TENHC>
+    <DANG>Viên</DANG>
+    <TENHANG>Thephaco</TENHANG>
+    <TENNUOC>Việt Nam</TENNUOC>
+    <DIENGIAI>Tồn đầu</DIENGIAI>
+    <TONDAU>4280.0000</TONDAU>
+    <STTONDAU>2589400.00000000000000</STTONDAU>
+    <SLNHAP>0</SLNHAP>
+    <STNHAP>0</STNHAP>
+    <SLXUAT>0</SLXUAT>
+    <STXUAT>0</STXUAT>
+    <TONCUOI>4280.0000</TONCUOI>
+    <STTONCUOI>2589400.00000000000000</STTONCUOI>
+    <HANDUNG>0215</HANDUNG>
+    <LOSX />
+    <sltra>0</sltra>
+    <sttra>0</sttra>
+    <ngaysp />
+  </Table>
+  <Table>
+    <YYMMDD>140402</YYMMDD>
+    <NGAY>02/04/2014</NGAY>
+    <SONHAP />
+    <SOXUAT>DN774508650038274115</SOXUAT>
+    <MABD>614369</MABD>
+    <MA>AMO001</MA>
+    <TEN>Amoxicilin 0,5g</TEN>
+    <TENHC>Amoxicillin</TENHC>
+    <DANG>Viên</DANG>
+    <TENHANG>Thephaco</TENHANG>
+    <TENNUOC>Việt Nam</TENNUOC>
+    <DIENGIAI>BHYT Ngoại trú [NGUYỄN BÁ TÒNG]</DIENGIAI>
+    <TONDAU>0</TONDAU>
+    <STTONDAU>0</STTONDAU>
+    <SLNHAP>0</SLNHAP>
+    <STNHAP>0</STNHAP>
+    <SLXUAT>20.0000</SLXUAT>
+    <STXUAT>12100.00000000000000</STXUAT>
+    <TONCUOI>4260.0000</TONCUOI>
+    <STTONCUOI>2577300.00000000000000</STTONCUOI>
+    <DONGIA>0</DONGIA>
+    <HANDUNG>0816</HANDUNG>
+    <LOSX>011</LOSX>
+    <sltra>0</sltra>
+    <sttra>0</sttra>
+    <ngaysp />
+  </Table>
+  <Table>
+    <YYMMDD>140402</YYMMDD>
+    <NGAY>02/04/2014</NGAY>
+    <SONHAP />
+    <SOXUAT>BT474020230036074113</SOXUAT>
+    <MABD>614369</MABD>
+    <MA>AMO001</MA>
+    <TEN>Amoxicilin 0,5g</TEN>
+    <TENHC>Amoxicillin</TENHC>
+    <DANG>Viên</DANG>
+    <TENHANG>Thephaco</TENHANG>
+    <TENNUOC>Việt Nam</TENNUOC>
+    <DIENGIAI>BHYT Ngoại trú [NGUYỄN MINH VƯƠNG]</DIENGIAI>
+    <TONDAU>0</TONDAU>
+    <STTONDAU>0</STTONDAU>
+    <SLNHAP>0</SLNHAP>
+    <STNHAP>0</STNHAP>
+    <SLXUAT>15.0000</SLXUAT>
+    <STXUAT>9075.00000000000000</STXUAT>
+    <TONCUOI>4245.0000</TONCUOI>
+    <STTONCUOI>2568225.00000000000000</STTONCUOI>
+    <DONGIA>0</DONGIA>
+    <HANDUNG>0816</HANDUNG>
+    <LOSX>011</LOSX>
+    <sltra>0</sltra>
+    <sttra>0</sttra>
+    <ngaysp />
+  </Table>
+  <Table>
+    <YYMMDD>140402</YYMMDD>
+    <NGAY>02/04/2014</NGAY>
+    <SONHAP />
+    <SOXUAT>CK274000520052574113</SOXUAT>
+    <MABD>614369</MABD>
+    <MA>AMO001</MA>
+    <TEN>Amoxicilin 0,5g</TEN>
+    <TENHC>Amoxicillin</TENHC>
+    <DANG>Viên</DANG>
+    <TENHANG>Thephaco</TENHANG>
+    <TENNUOC>Việt Nam</TENNUOC>
+    <DIENGIAI>BHYT Ngoại trú [LÊ THỊ CHIẾN]</DIENGIAI>
+    <TONDAU>0</TONDAU>
+    <STTONDAU>0</STTONDAU>
+    <SLNHAP>0</SLNHAP>
+    <STNHAP>0</STNHAP>
+    <SLXUAT>40.0000</SLXUAT>
+    <STXUAT>24200.00000000000000</STXUAT>
+    <TONCUOI>4205.0000</TONCUOI>
+    <STTONCUOI>2544025.00000000000000</STTONCUOI>
+    <DONGIA>0</DONGIA>
+    <HANDUNG>0816</HANDUNG>
+    <LOSX>011</LOSX>
+    <sltra>0</sltra>
+    <sttra>0</sttra>
+    <ngaysp />
+  </Table>
+  <Table>
+    <YYMMDD>140402</YYMMDD>
+    <NGAY>02/04/2014</NGAY>
+    <SONHAP />
+    <SOXUAT>DN774020190007174115</SOXUAT>
+    <MABD>614369</MABD>
+    <MA>AMO001</MA>
+    <TEN>Amoxicilin 0,5g</TEN>
+    <TENHC>Amoxicillin</TENHC>
+    <DANG>Viên</DANG>
+    <TENHANG>Thephaco</TENHANG>
+    <TENNUOC>Việt Nam</TENNUOC>
+    <DIENGIAI>BHYT Ngoại trú [NGUYỄN THANH LIÊM]</DIENGIAI>
+    <TONDAU>0</TONDAU>
+    <STTONDAU>0</STTONDAU>
+    <SLNHAP>0</SLNHAP>
+    <STNHAP>0</STNHAP>
+    <SLXUAT>40.0000</SLXUAT>
+    <STXUAT>24200.00000000000000</STXUAT>
+    <TONCUOI>4165.0000</TONCUOI>
+    <STTONCUOI>2519825.00000000000000</STTONCUOI>
+    <DONGIA>0</DONGIA>
+    <HANDUNG>0816</HANDUNG>
+    <LOSX>011</LOSX>
+    <sltra>0</sltra>
+    <sttra>0</sttra>
+    <ngaysp />
+  </Table>
+  <Table>
+    <YYMMDD>140403</YYMMDD>
+    <NGAY>03/04/2014</NGAY>
+    <SONHAP>0002</SONHAP>
+    <SOXUAT />
+    <MABD>614369</MABD>
+    <MA>AMO001</MA>
+    <TEN>Amoxicilin 0,5g</TEN>
+    <TENHC>Amoxicillin</TENHC>
+    <DANG>Viên</DANG>
+    <TENHANG>Thephaco</TENHANG>
+    <TENNUOC>Việt Nam</TENNUOC>
+    <DIENGIAI>Nhập từ :Kho chẳn</DIENGIAI>
+    <TONDAU>0</TONDAU>
+    <STTONDAU>0</STTONDAU>
+    <SLNHAP>3000.0000</SLNHAP>
+    <STNHAP>1814998.50000000000000</STNHAP>
+    <SLXUAT>0</SLXUAT>
+    <STXUAT>0</STXUAT>
+    <TONCUOI>7165.0000</TONCUOI>
+    <STTONCUOI>4334823.50000000000000</STTONCUOI>
+    <DONGIA>0</DONGIA>
+    <HANDUNG>0316</HANDUNG>
+    <LOSX>095</LOSX>
+    <sltra>0</sltra>
+    <sttra>0</sttra>
+    <ngaysp />
+  </Table>
+  <Table>
+    <YYMMDD>140403</YYMMDD>
+    <NGAY>03/04/2014</NGAY>
+    <SONHAP />
+    <SOXUAT>CN674020120030874102</SOXUAT>
+    <MABD>614369</MABD>
+    <MA>AMO001</MA>
+    <TEN>Amoxicilin 0,5g</TEN>
+    <TENHC>Amoxicillin</TENHC>
+    <DANG>Viên</DANG>
+    <TENHANG>Thephaco</TENHANG>
+    <TENNUOC>Việt Nam</TENNUOC>
+    <DIENGIAI>BHYT Ngoại trú [NGUYỄN QUANG CẢNH]</DIENGIAI>
+    <TONDAU>0</TONDAU>
+    <STTONDAU>0</STTONDAU>
+    <SLNHAP>0</SLNHAP>
+    <STNHAP>0</STNHAP>
+    <SLXUAT>15.0000</SLXUAT>
+    <STXUAT>9075.00000000000000</STXUAT>
+    <TONCUOI>7150.0000</TONCUOI>
+    <STTONCUOI>4325748.50000000000000</STTONCUOI>
+    <DONGIA>0</DONGIA>
+    <HANDUNG>0816</HANDUNG>
+    <LOSX>011</LOSX>
+    <sltra>0</sltra>
+    <sttra>0</sttra>
+    <ngaysp />
+  </Table>
+  <Table>
+    <YYMMDD>140404</YYMMDD>
+    <NGAY>04/04/2014</NGAY>
+    <SONHAP />
+    <SOXUAT>GD774020160067474115</SOXUAT>
+    <MABD>614369</MABD>
+    <MA>AMO001</MA>
+    <TEN>Amoxicilin 0,5g</TEN>
+    <TENHC>Amoxicillin</TENHC>
+    <DANG>Viên</DANG>
+    <TENHANG>Thephaco</TENHANG>
+    <TENNUOC>Việt Nam</TENNUOC>
+    <DIENGIAI>BHYT Ngoại trú [LÊ VĂN TUẤN]</DIENGIAI>
+    <TONDAU>0</TONDAU>
+    <STTONDAU>0</STTONDAU>
+    <SLNHAP>0</SLNHAP>
+    <STNHAP>0</STNHAP>
+    <SLXUAT>40.0000</SLXUAT>
+    <STXUAT>24200.00000000000000</STXUAT>
+    <TONCUOI>7110.0000</TONCUOI>
+    <STTONCUOI>4301548.50000000000000</STTONCUOI>
+    <DONGIA>0</DONGIA>
+    <HANDUNG>0816</HANDUNG>
+    <LOSX>011</LOSX>
+    <sltra>0</sltra>
+    <sttra>0</sttra>
+    <ngaysp />
+  </Table>
+  <Table>
+    <YYMMDD>140418</YYMMDD>
+    <NGAY>18/04/2014</NGAY>
+    <SONHAP />
+    <SOXUAT>GD789358937573520011</SOXUAT>
+    <MABD>614369</MABD>
+    <MA>AMO001</MA>
+    <TEN>Amoxicilin 0,5g</TEN>
+    <TENHC>Amoxicillin</TENHC>
+    <DANG>Viên</DANG>
+    <TENHANG>Thephaco</TENHANG>
+    <TENNUOC>Việt Nam</TENNUOC>
+    <DIENGIAI>BHYT Ngoại trú [LÊ HOÀNG THÁI]</DIENGIAI>
+    <TONDAU>0</TONDAU>
+    <STTONDAU>0</STTONDAU>
+    <SLNHAP>0</SLNHAP>
+    <STNHAP>0</STNHAP>
+    <SLXUAT>10.0000</SLXUAT>
+    <STXUAT>6050.00000000000000</STXUAT>
+    <TONCUOI>7100.0000</TONCUOI>
+    <STTONCUOI>4295498.50000000000000</STTONCUOI>
+    <DONGIA>0</DONGIA>
+    <HANDUNG>0215</HANDUNG>
+    <LOSX />
+    <sltra>0</sltra>
+    <sttra>0</sttra>
+    <ngaysp />
+  </Table>
+</NewDataSet>

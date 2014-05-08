@@ -1,0 +1,111 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ID" type="xs:decimal" minOccurs="0" />
+                <xs:element name="USERID" type="xs:string" minOccurs="0" />
+                <xs:element name="HOTEN" type="xs:string" minOccurs="0" />
+                <xs:element name="SOCA" type="xs:decimal" minOccurs="0" />
+                <xs:element name="BHYT" type="xs:decimal" minOccurs="0" />
+                <xs:element name="THUPHI" type="xs:decimal" minOccurs="0" />
+                <xs:element name="MIEN" type="xs:decimal" minOccurs="0" />
+                <xs:element name="KHAC" type="xs:decimal" minOccurs="0" />
+                <xs:element name="TREEM" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <ID>13</ID>
+    <USERID>bstuyet</USERID>
+    <HOTEN>Bs.Vũ Mộng Tuyết</HOTEN>
+    <SOCA>21</SOCA>
+    <BHYT>19</BHYT>
+    <THUPHI>2</THUPHI>
+    <MIEN>0</MIEN>
+    <KHAC>0</KHAC>
+    <TREEM>0</TREEM>
+  </Table>
+  <Table>
+    <ID>7</ID>
+    <USERID>bstuat</USERID>
+    <HOTEN>Bs.Đào Cảnh Tuất</HOTEN>
+    <SOCA>54</SOCA>
+    <BHYT>46</BHYT>
+    <THUPHI>8</THUPHI>
+    <MIEN>0</MIEN>
+    <KHAC>0</KHAC>
+    <TREEM>0</TREEM>
+  </Table>
+  <Table>
+    <ID>20</ID>
+    <USERID>huong</USERID>
+    <HOTEN>Hương</HOTEN>
+    <SOCA>36</SOCA>
+    <BHYT>36</BHYT>
+    <THUPHI>0</THUPHI>
+    <MIEN>0</MIEN>
+    <KHAC>0</KHAC>
+    <TREEM>0</TREEM>
+  </Table>
+  <Table>
+    <ID>31</ID>
+    <USERID>truc</USERID>
+    <HOTEN>Trúc</HOTEN>
+    <SOCA>1106</SOCA>
+    <BHYT>458</BHYT>
+    <THUPHI>648</THUPHI>
+    <MIEN>0</MIEN>
+    <KHAC>0</KHAC>
+    <TREEM>0</TREEM>
+  </Table>
+  <Table>
+    <ID>1</ID>
+    <USERID>admin</USERID>
+    <HOTEN>admin</HOTEN>
+    <SOCA>132</SOCA>
+    <BHYT>132</BHYT>
+    <THUPHI>0</THUPHI>
+    <MIEN>0</MIEN>
+    <KHAC>0</KHAC>
+    <TREEM>0</TREEM>
+  </Table>
+  <Table>
+    <ID>44</ID>
+    <USERID>new</USERID>
+    <HOTEN>new</HOTEN>
+    <SOCA>1</SOCA>
+    <BHYT>0</BHYT>
+    <THUPHI>1</THUPHI>
+    <MIEN>0</MIEN>
+    <KHAC>0</KHAC>
+    <TREEM>0</TREEM>
+  </Table>
+  <Table>
+    <ID>28</ID>
+    <USERID>thu</USERID>
+    <HOTEN>Đào Thị Bích Thư</HOTEN>
+    <SOCA>944</SOCA>
+    <BHYT>356</BHYT>
+    <THUPHI>588</THUPHI>
+    <MIEN>0</MIEN>
+    <KHAC>0</KHAC>
+    <TREEM>0</TREEM>
+  </Table>
+  <Table>
+    <SOCA>7</SOCA>
+    <BHYT>2</BHYT>
+    <THUPHI>5</THUPHI>
+    <MIEN>0</MIEN>
+    <KHAC>0</KHAC>
+    <TREEM>0</TREEM>
+  </Table>
+</NewDataSet>

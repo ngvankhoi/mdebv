@@ -1,0 +1,117 @@
+<?xml version="1.0" standalone="yes" ?>
+<NewDataSet>
+	<xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xs:element name="NewDataSet" msdata:IsDataSet="true">
+			<xs:complexType>
+				<xs:choice maxOccurs="unbounded">
+					<xs:element name="Table">
+						<xs:complexType>
+							<xs:sequence>
+								<xs:element name="stt" type="xs:string" minOccurs="0" />
+								<xs:element name="nhom" type="xs:string" minOccurs="0" />
+								<xs:element name="ma" type="xs:string" minOccurs="0" />
+								<xs:element name="ten" type="xs:string" minOccurs="0" />
+							</xs:sequence>
+						</xs:complexType>
+					</xs:element>
+				</xs:choice>
+			</xs:complexType>
+		</xs:element>
+	</xs:schema>
+	<Table>
+		<stt>01</stt>
+		<nhom>A</nhom>
+		<ma>A91+A91.1+A91.-1+A91.+1</ma>
+		<ten>A1: SXH ĐỘ I</ten>
+	</Table>
+	<Table>
+		<stt>02</stt>
+		<nhom>A</nhom>
+		<ma>A91.2+A91.-2+A91.+2</ma>
+		<ten>A2: SXH ĐỘ II</ten>
+	</Table>
+	<Table>
+		<stt>03</stt>
+		<nhom>A</nhom>
+		<ma>A91.3+A91.-3+A91.+3</ma>
+		<ten>A3: SXH ĐỘ III</ten>
+	</Table>
+	<Table>
+		<stt>04</stt>
+		<nhom>A</nhom>
+		<ma>A91.4+A91.-4+A91.+4</ma>
+		<ten>A4: SXH ĐỘ IV</ten>
+	</Table>
+	<Table>
+		<stt>05</stt>
+		<nhom>C</nhom>
+		<ma>A83.0</ma>
+		<ten>C1: VIÊM NÃO NHẬT BẢN</ten>
+	</Table>
+	<Table>
+		<stt>06</stt>
+		<nhom>C</nhom>
+		<ma>A86</ma>
+		<ten>C2: VIÊM NÃO SIÊU VI</ten>
+	</Table>
+	<Table>
+		<stt>07</stt>
+		<nhom>C</nhom>
+		<ma>A87?</ma>
+		<ten>C3: VIÊM MÀNG NÃO SIÊU VI</ten>
+	</Table>
+	<Table>
+		<stt>08</stt>
+		<nhom>C</nhom>
+		<ma>G04?</ma>
+		<ten>C4: VIÊM NÃO, VIÊM TỦY</ten>
+	</Table>
+	<Table>
+		<stt>09</stt>
+		<nhom>D</nhom>
+		<ma>B05?</ma>
+		<ten>D1: SỞI</ten>
+	</Table>
+	<Table>
+		<stt>10</stt>
+		<nhom>B</nhom>
+		<ma>B50?</ma>
+		<ten>B1: SỐT RÉT DO Plasmodium falciparum </ten>
+	</Table>
+	<Table>
+		<stt>11</stt>
+		<nhom>B</nhom>
+		<ma>B51?</ma>
+		<ten>B2: SỐT RÉT DO Plasmodium vivax  </ten>
+	</Table>
+	<Table>
+		<stt>12</stt>
+		<nhom>B</nhom>
+		<ma>B54?</ma>
+		<ten>B3: SỐT RÉT LÂM SÀNG</ten>
+	</Table>
+	<Table>
+		<stt>13</stt>
+		<nhom>B</nhom>
+		<ma>B52?</ma>
+		<ten>B4: SỐT RÉT DO Plasmodium malariae</ten>
+	</Table>
+	<Table>
+		<stt>14</stt>
+		<nhom>J</nhom>
+		<ma>J?</ma>
+		<ten>J: BỆNH ĐƯỜNG HÔ HẤP</ten>
+	</Table>
+	<Table>
+		<stt>15</stt>
+		<nhom>K</nhom>
+		<ma>-</ma>
+		<ten>K: CÁC BỆNH KHÁC</ten>
+	</Table>
+	<Table>
+		<stt>00</stt>
+		<nhom>A</nhom>
+		<ma>A90</ma>
+		<ten>A0:Dengue</ten>
+	</Table>
+</NewDataSet>

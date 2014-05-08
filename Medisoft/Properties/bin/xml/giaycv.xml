@@ -1,0 +1,90 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="MAQL" type="xs:decimal" minOccurs="0" />
+                <xs:element name="TENBV" type="xs:string" minOccurs="0" />
+                <xs:element name="TENKP" type="xs:string" minOccurs="0" />
+                <xs:element name="MABN" type="xs:string" minOccurs="0" />
+                <xs:element name="HOTEN" type="xs:string" minOccurs="0" />
+                <xs:element name="NAMSINH" type="xs:string" minOccurs="0" />
+                <xs:element name="PHAI" type="xs:string" minOccurs="0" />
+                <xs:element name="TENNN" type="xs:string" minOccurs="0" />
+                <xs:element name="DANTOC" type="xs:string" minOccurs="0" />
+                <xs:element name="DOITUONG" type="xs:string" minOccurs="0" />
+                <xs:element name="SOTHE" type="xs:string" minOccurs="0" />
+                <xs:element name="DENNGAY" type="xs:string" minOccurs="0" />
+                <xs:element name="DIACHI" type="xs:string" minOccurs="0" />
+                <xs:element name="NOILAMVIEC" type="xs:string" minOccurs="0" />
+                <xs:element name="NGAYVAO" type="xs:string" minOccurs="0" />
+                <xs:element name="NGAYRA" type="xs:string" minOccurs="0" />
+                <xs:element name="CHANDOAN" type="xs:string" minOccurs="0" />
+                <xs:element name="MAICD" type="xs:string" minOccurs="0" />
+                <xs:element name="TENBS" type="xs:string" minOccurs="0" />
+                <xs:element name="NOIDKKCB" type="xs:string" minOccurs="0" />
+                <xs:element name="NOIGIOITHIEU" type="xs:string" minOccurs="0" />
+                <xs:element name="LAMSANG" type="xs:string" minOccurs="0" />
+                <xs:element name="XN" type="xs:string" minOccurs="0" />
+                <xs:element name="THUOC" type="xs:string" minOccurs="0" />
+                <xs:element name="TINHTRANG" type="xs:string" minOccurs="0" />
+                <xs:element name="LYDO" type="xs:string" minOccurs="0" />
+                <xs:element name="NGAY" type="xs:string" minOccurs="0" />
+                <xs:element name="VANCHUYEN" type="xs:string" minOccurs="0" />
+                <xs:element name="NGUOIDUA" type="xs:string" minOccurs="0" />
+                <xs:element name="loaibn" type="xs:decimal" minOccurs="0" />
+                <xs:element name="lanin" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <MAQL>81007130530495048</MAQL>
+    <TENBV>Bệnh Viện Bạch Mai</TENBV>
+    <TENKP>Khoa Nội</TENKP>
+    <MABN>08024748</MABN>
+    <HOTEN>MA THỊ CHƯ</HOTEN>
+    <NAMSINH>1982</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <TENNN>Công nhân</TENNN>
+    <DANTOC>*Kinh</DANTOC>
+    <DOITUONG>BHYT</DOITUONG>
+    <SOTHE>10000600766BV10001</SOTHE>
+    <DENNGAY>31/12/2008</DENNGAY>
+    <DIACHI>  ,P. Thống Nhất ,TX. Cam Đường ,Lào Cai</DIACHI>
+    <NOILAMVIEC>Công Ty Mỏ Tuyển Đồng Sin Quyền</NOILAMVIEC>
+    <NGAYVAO>07/10/2008 10:35</NGAYVAO>
+    <NGAYRA>13/10/2008 15:00</NGAYRA>
+    <CHANDOAN>Đau đầu;</CHANDOAN>
+    <MAICD>R51;</MAICD>
+    <TENBS>Nguyễn Thị Định</TENBS>
+    <NOIDKKCB>Bệnh viện đa khoa số I</NOIDKKCB>
+    <NOIGIOITHIEU />
+    <LAMSANG />
+    <XN />
+    <THUOC>Efferalgan codein 500mg+30mg 5.0 Viên;
+Cavinton 10mg/2ml 14.0 Ống;
+Pondil 50mg/5ml 14.0 Ống;
+Glucose 5% - 500ml 7.0 Chai;
+Piracetam 400mg 28.0 Viên;
+Infusion set (dây truyền dịch) 7.0 Bộ;
+Neurozicen - 3B 50mg+5mg 14.0 Viên;
+Găng tay Malaysia 14.0 đôi;
+Bơm tiêm nhựa 5ml 22.0 Cái;
+</THUOC>
+    <TINHTRANG />
+    <LYDO />
+    <NGAY>13/10/2008 15:00</NGAY>
+    <VANCHUYEN />
+    <NGUOIDUA />
+    <loaibn>0</loaibn>
+    <lanin>4</lanin>
+  </Table>
+</NewDataSet>

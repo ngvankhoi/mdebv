@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="STTT" type="xs:decimal" minOccurs="0" />
+                <xs:element name="MANHOM" type="xs:decimal" minOccurs="0" />
+                <xs:element name="TENNHOM" type="xs:string" minOccurs="0" />
+                <xs:element name="MABD" type="xs:decimal" minOccurs="0" />
+                <xs:element name="MA" type="xs:string" minOccurs="0" />
+                <xs:element name="TEN" type="xs:string" minOccurs="0" />
+                <xs:element name="TENHC" type="xs:string" minOccurs="0" />
+                <xs:element name="DANG" type="xs:string" minOccurs="0" />
+                <xs:element name="TONDAU" type="xs:decimal" minOccurs="0" />
+                <xs:element name="STTONDAU" type="xs:decimal" minOccurs="0" />
+ 		<xs:element name="TONDAUKHO" type="xs:decimal" minOccurs="0" />
+                <xs:element name="STTONDAUKHO" type="xs:decimal" minOccurs="0" />
+		<xs:element name="TONDAUTTRUC" type="xs:decimal" minOccurs="0" />
+                <xs:element name="STTONDAUTTRUC" type="xs:decimal" minOccurs="0" />
+                <xs:element name="SLNHAP" type="xs:decimal" minOccurs="0" />
+                <xs:element name="STNHAP" type="xs:decimal" minOccurs="0" />
+		<xs:element name="SLNHAP_TN" type="xs:decimal" minOccurs="0" />
+                <xs:element name="STNHAP_TN" type="xs:decimal" minOccurs="0" />
+		<xs:element name="SLDUYETHTKP" type="xs:decimal" minOccurs="0" />
+                <xs:element name="STDUYETHTKP" type="xs:decimal" minOccurs="0" />
+		<xs:element name="SLDUYETHTNB_THUPHI" type="xs:decimal" minOccurs="0" />
+                <xs:element name="STDUYETHTNB_THUPHI" type="xs:decimal" minOccurs="0" />	
+		<xs:element name="SLDUYETHTNB_BHYT" type="xs:decimal" minOccurs="0" />
+                <xs:element name="STDUYETHTNB_BHYT" type="xs:decimal" minOccurs="0" />	
+		<xs:element name="SLDUYETHTNB_DTKHAC" type="xs:decimal" minOccurs="0" />
+                <xs:element name="STDUYETHTNB_DTKHAC" type="xs:decimal" minOccurs="0" />
+                <xs:element name="SLXUAT" type="xs:decimal" minOccurs="0" />
+                <xs:element name="STXUAT" type="xs:decimal" minOccurs="0" />
+		<xs:element name="SLXUAT_KHAC" type="xs:decimal" minOccurs="0" />
+ 		<xs:element name="STXUAT_KHAC" type="xs:decimal" minOccurs="0" />
+                <xs:element name="SLXUAT_HTNCC" type="xs:decimal" minOccurs="0" />
+		<xs:element name="STXUAT_HTNCC" type="xs:decimal" minOccurs="0" />
+                <xs:element name="SLXUAT_BAN" type="xs:decimal" minOccurs="0" />
+		<xs:element name="STXUAT_BAN" type="xs:decimal" minOccurs="0" />    
+      		<xs:element name="SLDUYETTHUOCBHYT" type="xs:decimal" minOccurs="0" />
+		<xs:element name="STDUYETTHUOCBHYT" type="xs:decimal" minOccurs="0" />   
+		<xs:element name="SLDUYETTHUOCTQ_THUPHI" type="xs:decimal" minOccurs="0" />
+		<xs:element name="STDUYETTHUOCTQ_THUPHI" type="xs:decimal" minOccurs="0" />   
+		<xs:element name="SLDUYETTHUOCTQ_BHYT" type="xs:decimal" minOccurs="0" />
+		<xs:element name="STDUYETTHUOCTQ_BHYT" type="xs:decimal" minOccurs="0" />        
+		<xs:element name="SLDUYETTHUOCTQ_DTKHAC" type="xs:decimal" minOccurs="0" />
+		<xs:element name="STDUYETTHUOCTQ_DTKHAC" type="xs:decimal" minOccurs="0" />   
+		<xs:element name="SLDUYETCAPHPKP" type="xs:decimal" minOccurs="0" />
+		<xs:element name="STDUYETCAPHPKP" type="xs:decimal" minOccurs="0" />  
+		<xs:element name="SLXUATTTRUC_THUPHI" type="xs:decimal" minOccurs="0" />
+		<xs:element name="STXUATTTRUC_THUPHI" type="xs:decimal" minOccurs="0" />   
+		<xs:element name="SLXUATTTRUC_BHYT" type="xs:decimal" minOccurs="0" />
+		<xs:element name="STXUATTTRUC_BHYT" type="xs:decimal" minOccurs="0" />        
+		<xs:element name="SLXUATTTRUC_DTKHAC" type="xs:decimal" minOccurs="0" />
+		<xs:element name="STXUATTTRUC_DTKHAC" type="xs:decimal" minOccurs="0" />   
+                <xs:element name="STT" type="xs:decimal" minOccurs="0" />
+                <xs:element name="IDNN" type="xs:decimal" minOccurs="0" />
+                <xs:element name="NOINGOAI" type="xs:string" minOccurs="0" />
+                <xs:element name="SLXUAT_CK" type="xs:decimal" minOccurs="0" />
+                <xs:element name="STXUAT_CK" type="xs:decimal" minOccurs="0" />              
+ 		<xs:element name="SLXUAT_BHYT" type="xs:decimal" minOccurs="0" />
+                <xs:element name="STXUAT_BHYT" type="xs:decimal" minOccurs="0" />
+ 		<xs:element name="SLXUAT_THUPHI" type="xs:decimal" minOccurs="0" />
+                <xs:element name="STXUAT_THUPHI" type="xs:decimal" minOccurs="0" />
+ 		<xs:element name="SLXUAT_DTKHAC" type="xs:decimal" minOccurs="0" />
+                <xs:element name="STXUAT_DTKHAC" type="xs:decimal" minOccurs="0" />
+  		<xs:element name="SLNHAP_CK" type="xs:decimal" minOccurs="0" />
+                <xs:element name="STNHAP_CK" type="xs:decimal" minOccurs="0" />
+                <xs:element name="DONGIA" type="xs:decimal" minOccurs="0" />
+                <xs:element name="MANGUON" type="xs:decimal" minOccurs="0" />
+                <xs:element name="GIABAN" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <STTT>0</STTT>
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Thuốc</TENNHOM>
+    <MABD>2176</MABD>
+    <MA>LIS001</MA>
+    <TEN>Listerrin 250ml</TEN>
+    <TENHC />
+    <DANG>chai</DANG>
+    <TONDAU>24</TONDAU>
+    <STTONDAU>576840</STTONDAU>
+    <TONDAUKHO>24</TONDAUKHO>
+    <STTONDAUKHO>576840</STTONDAUKHO>
+    <TONDAUTTRUC>24</TONDAUTTRUC>
+    <STTONDAUTTRUC>576840</STTONDAUTTRUC>
+    <SLNHAP>0</SLNHAP>
+    <STNHAP>0</STNHAP>
+    <SLNHAP_M>0</SLNHAP_M>
+    <STNHAP_M>0</STNHAP_M>
+    <SLNHAP_TN>0</SLNHAP_TN>
+    <STNHAP_TN>0</STNHAP_TN>
+    <SLDUYETHTKP>0</SLDUYETHTKP>
+    <STDUYETHTKP>0</STDUYETHTKP>
+    <SLDUYETHTBN_THUPHI>0</SLDUYETHTBN_THUPHI>
+    <STDUYETHTKP_THUPHI>0</STDUYETHTKP_THUPHI>
+    <SLDUYETHTBN_BHYT>0</SLDUYETHTBN_BHYT>
+    <STDUYETHTKP_BHYT>0</STDUYETHTKP_BHYT>
+    <SLDUYETHTBN_DTKHAC>0</SLDUYETHTBN_DTKHAC>
+    <STDUYETHTKP_DTKHAC>0</STDUYETHTKP_DTKHAC>
+    <SLXUAT>3</SLXUAT>
+    <STXUAT>72105</STXUAT>
+    <SLXUAT_KHAC>0</SLXUAT_KHAC>
+    <STXUAT_KHAC>0</STXUAT_KHAC>
+    <SLXUAT_HTNCC>0</SLXUAT_HTNCC>
+    <STXUAT_HTNCC>0</STXUAT_HTNCC>
+    <SLXUAT_BAN>0</SLXUAT_BAN>
+    <STXUAT_BAN>0</STXUAT_BAN>
+    <SLDUYETTHUOCBHYT>0</SLDUYETTHUOCBHYT>
+    <STDUYETTHUOCBHYT>0</STDUYETTHUOCBHYT>
+    <SLDUYETTHUOCTQ_THUPHI>0</SLDUYETTHUOCTQ_THUPHI>
+    <STDUYETTHUOCTQ_THUPHI>0</STDUYETTHUOCTQ_THUPHI>
+    <SLDUYETTHUOCTQ_BHYT>0</SLDUYETTHUOCTQ_BHYT>
+    <STDUYETTHUOCTQ_BHYT>0</STDUYETTHUOCTQ_BHYT>
+    <SLDUYETTHUOCTQ_DTKHAC>0</SLDUYETTHUOCTQ_DTKHAC>
+    <STDUYETTHUOCTQ_DTKHAC>0</STDUYETTHUOCTQ_DTKHAC>
+    <SLDUYETCAPHPKP>0</SLDUYETCAPHPKP>
+    <STDUYETCAPHPKP>0</STDUYETCAPHPKP>
+    <SLXUATTTRUC_THUPHI>0</SLXUATTTRUC_THUPHI>
+    <STXUATTTRUC_THUPHI>0</STXUATTTRUC_THUPHI>
+    <SLXUATTTRUC_BHYT>0</SLXUATTTRUC_BHYT>
+    <STXUATTTRUC_BHYT>0</STXUATTTRUC_BHYT>
+    <SLXUATTTRUC_DTKHAC>0</SLXUATTTRUC_DTKHAC>
+    <STXUATTTRUC_DTKHAC>0</STXUATTTRUC_DTKHAC>
+    <STT>1</STT>
+    <IDNN>2</IDNN>
+    <NOINGOAI>Kho 2 </NOINGOAI>
+    <SLXUAT_CK>21</SLXUAT_CK>
+    <STXUAT_CK>504735</STXUAT_CK>
+    <SLNHAP_CK>0</SLNHAP_CK>
+    <STNHAP_CK>0</STNHAP_CK>
+    <SLXUAT_BHYT>21</SLXUAT_BHYT>
+    <STXUAT_BHYT>504735</STXUAT_BHYT>
+    <SLXUAT_THUPHI>21</SLXUAT_THUPHI>
+    <STXUAT_THUPHI>504735</STXUAT_THUPHI>
+    <SLXUAT_DTKHAC>21</SLXUAT_DTKHAC>
+    <STXUAT_DTKHAC>504735</STXUAT_DTKHAC>
+    <DONGIA>24035</DONGIA>
+    <MANGUON>0</MANGUON>
+    <GIABAN>0</GIABAN>
+  </Table>
+</NewDataSet>

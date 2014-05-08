@@ -1,0 +1,11 @@
+<?xml version="1.0" standalone="yes" ?>
+<NewDataSet>
+	<Table>
+		<table>di_dmloaitp</table>
+		<sql>select * from medibv.di_dmthucpham where idloai=</sql>
+	</Table>
+	<Table>
+		<table>di_dmphieu</table>
+		<sql>select * from xxx.di_duyet where idphieu=</sql>
+	</Table>
+</NewDataSet>

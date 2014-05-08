@@ -1,0 +1,895 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="id" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ma" type="xs:string" minOccurs="0" />
+                <xs:element name="ten" type="xs:string" minOccurs="0" />
+                <xs:element name="dvt" type="xs:string" minOccurs="0" />
+                <xs:element name="hamluong" type="xs:string" minOccurs="0" />
+                <xs:element name="tenhc" type="xs:string" minOccurs="0" />
+                <xs:element name="soluong" type="xs:decimal" minOccurs="0" />
+                <xs:element name="giaban" type="xs:decimal" minOccurs="0" />
+                <xs:element name="giamua" type="xs:decimal" minOccurs="0" />
+                <xs:element name="cachdung" type="xs:string" minOccurs="0" />
+                <xs:element name="id_nhom" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tennhom" type="xs:string" minOccurs="0" />
+                <xs:element name="stt_nhom" type="xs:decimal" minOccurs="0" />
+                <xs:element name="mabn" type="xs:string" minOccurs="0" />
+                <xs:element name="hoten" type="xs:string" minOccurs="0" />
+                <xs:element name="namsinh" type="xs:string" minOccurs="0" />
+                <xs:element name="diachi" type="xs:string" minOccurs="0" />
+                <xs:element name="traituyen" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sothe" type="xs:string" minOccurs="0" />
+                <xs:element name="tungay" type="xs:string" minOccurs="0" />
+                <xs:element name="denngay" type="xs:string" minOccurs="0" />
+                <xs:element name="ngay" type="xs:string" minOccurs="0" />
+                <xs:element name="ngayct" type="xs:string" minOccurs="0" />
+                <xs:element name="ngayvao" type="xs:string" minOccurs="0" />
+                <xs:element name="ngayra" type="xs:string" minOccurs="0" />
+                <xs:element name="userid" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sohieu" type="xs:string" minOccurs="0" />
+                <xs:element name="sobienlai" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sotien" type="xs:decimal" minOccurs="0" />
+                <xs:element name="bhyttra" type="xs:decimal" minOccurs="0" />
+                <xs:element name="nopthem" type="xs:decimal" minOccurs="0" />
+                <xs:element name="mabv" type="xs:string" minOccurs="0" />
+                <xs:element name="tenbv" type="xs:string" minOccurs="0" />
+                <xs:element name="tenkp" type="xs:string" minOccurs="0" />
+                <xs:element name="maicd" type="xs:string" minOccurs="0" />
+                <xs:element name="chandoan" type="xs:string" minOccurs="0" />
+                <xs:element name="phai" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tamung" type="xs:decimal" minOccurs="0" />
+                <xs:element name="dkkcb" type="xs:string" minOccurs="0" />
+                <xs:element name="bhtra" type="xs:decimal" minOccurs="0" />
+                <xs:element name="bntra" type="xs:decimal" minOccurs="0" />
+                <xs:element name="maql" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tenuser" type="xs:string" minOccurs="0" />
+                <xs:element name="madoituong" type="xs:decimal" minOccurs="0" />
+                <xs:element name="doituong" type="xs:string" minOccurs="0" />
+                <xs:element name="kythuat" type="xs:decimal" minOccurs="0" />
+                <xs:element name="idnhombhyt" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sttbhyt" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tennhombhyt" type="xs:string" minOccurs="0" />
+                <xs:element name="sttbhyt1" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tennhombhyt1" type="xs:string" minOccurs="0" />
+                <xs:element name="soluutru" type="xs:string" minOccurs="0" />
+                <xs:element name="chandoansobo" type="xs:string" minOccurs="0" />
+                <xs:element name="phanbiet" type="xs:string" minOccurs="0" />
+                <xs:element name="idchinhanh" type="xs:decimal" minOccurs="0" />
+                <xs:element name="idchinhanhden" type="xs:decimal" minOccurs="0" />
+                <xs:element name="dain38" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sotoa" type="xs:string" minOccurs="0" />
+                <xs:element name="trieuchung" type="xs:string" minOccurs="0" />
+                <xs:element name="ghichu" type="xs:string" minOccurs="0" />
+                <xs:element name="somau01" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <id>468</id>
+    <ma>SA14</ma>
+    <ten>Siêu âm bụng màu</ten>
+    <dvt>Lần</dvt>
+    <hamluong />
+    <tenhc />
+    <soluong>1.0000</soluong>
+    <giaban>80000</giaban>
+    <giamua>80000</giamua>
+    <cachdung />
+    <id_nhom>2</id_nhom>
+    <tennhom>Chẩn đoán hình ảnh</tennhom>
+    <stt_nhom>4</stt_nhom>
+    <mabn>1104021454</mabn>
+    <hoten>PHAT VIỆT</hoten>
+    <namsinh>1988</namsinh>
+    <diachi>, , P. 3, Q. 4, Tp. H C M</diachi>
+    <traituyen>0</traituyen>
+    <sothe>GD744444444333379060</sothe>
+    <tungay>01/01/2011</tungay>
+    <denngay>31/12/2011</denngay>
+    <ngay>06/08/2011</ngay>
+    <ngayct>06/08/2011</ngayct>
+    <ngayvao>06/08/2011 13:17</ngayvao>
+    <ngayra>06/08/2011 13:17</ngayra>
+    <userid>263</userid>
+    <sohieu>CN4</sohieu>
+    <sobienlai>-1</sobienlai>
+    <sotien>80000.0000</sotien>
+    <bhyttra>80000.0000</bhyttra>
+    <nopthem>0.0000</nopthem>
+    <mabv>79060</mabv>
+    <tenbv />
+    <tenkp>Phòng Khám [P6-T.Trệt],</tenkp>
+    <maicd />
+    <chandoan>viêm dạ dày,</chandoan>
+    <phai>0</phai>
+    <tamung>0</tamung>
+    <dkkcb>Phòng khám đa khoa Phước An</dkkcb>
+    <bhtra>80000.0000</bhtra>
+    <bntra>0.0000</bntra>
+    <maql>110806132242387003</maql>
+    <tenuser>Nguyễn Thu Ngân</tenuser>
+    <madoituong>1</madoituong>
+    <doituong>BHYT</doituong>
+    <kythuat>-1</kythuat>
+    <idnhombhyt>2</idnhombhyt>
+    <sttbhyt>4</sttbhyt>
+    <tennhombhyt>Chẩn đoán hình ảnh</tennhombhyt>
+    <sttbhyt1>4</sttbhyt1>
+    <tennhombhyt1>Chẩn đoán hình ảnh</tennhombhyt1>
+    <soluutru>041108000177</soluutru>
+    <chandoansobo>viêm dạ dày</chandoansobo>
+    <phanbiet>e</phanbiet>
+    <idchinhanh>4</idchinhanh>
+    <idchinhanhden>3</idchinhanhden>
+    <dain38>2</dain38>
+    <sotoa />
+    <trieuchung>viêm dạ dày,</trieuchung>
+    <ghichu>viêm dạ dày</ghichu>
+    <somau01>2</somau01>
+  </Table>
+  <Table>
+    <id>0</id>
+    <ma />
+    <ten />
+    <dvt />
+    <hamluong />
+    <tenhc />
+    <soluong>0</soluong>
+    <giaban>0</giaban>
+    <giamua>0</giamua>
+    <cachdung />
+    <id_nhom>0</id_nhom>
+    <tennhom />
+    <stt_nhom>0</stt_nhom>
+    <mabn>1104021454</mabn>
+    <hoten>PHAT VIỆT</hoten>
+    <namsinh>1988</namsinh>
+    <diachi>, , P. 3, Q. 4, Tp. H C M</diachi>
+    <traituyen>0</traituyen>
+    <sothe>GD744444444333379060</sothe>
+    <tungay>31/12/2011</tungay>
+    <denngay>31/12/2011</denngay>
+    <ngay>06/08/2011</ngay>
+    <ngayct>06/08/2011</ngayct>
+    <ngayvao>06/08/2011 13:17</ngayvao>
+    <ngayra>06/08/2011 13:17</ngayra>
+    <userid>263</userid>
+    <sohieu>CN4</sohieu>
+    <sobienlai>-1</sobienlai>
+    <sotien>0</sotien>
+    <bhyttra>0</bhyttra>
+    <nopthem>0.0000</nopthem>
+    <mabv>79060</mabv>
+    <tenbv />
+    <tenkp>Phòng Khám [P6-T.Trệt],</tenkp>
+    <maicd />
+    <chandoan>viêm dạ dày,</chandoan>
+    <phai>0</phai>
+    <tamung>0</tamung>
+    <dkkcb>Phòng khám đa khoa Phước An</dkkcb>
+    <bhtra>0</bhtra>
+    <bntra>0</bntra>
+    <maql>110806132242387003</maql>
+    <tenuser>Nguyễn Thu Ngân</tenuser>
+    <madoituong>1</madoituong>
+    <doituong>BHYT</doituong>
+    <kythuat>-1</kythuat>
+    <idnhombhyt>9</idnhombhyt>
+    <sttbhyt>1</sttbhyt>
+    <tennhombhyt>Công khám</tennhombhyt>
+    <sttbhyt1>1</sttbhyt1>
+    <tennhombhyt1>Công khám</tennhombhyt1>
+    <soluutru>041108000177</soluutru>
+    <sotoa />
+    <trieuchung>viêm dạ dày,</trieuchung>
+    <ghichu>viêm dạ dày</ghichu>
+    <somau01>2</somau01>
+  </Table>
+  <Table>
+    <id>0</id>
+    <ma />
+    <ten />
+    <dvt />
+    <hamluong />
+    <tenhc />
+    <soluong>0</soluong>
+    <giaban>0</giaban>
+    <giamua>0</giamua>
+    <cachdung />
+    <id_nhom>0</id_nhom>
+    <tennhom />
+    <stt_nhom>0</stt_nhom>
+    <mabn>1104021454</mabn>
+    <hoten>PHAT VIỆT</hoten>
+    <namsinh>1988</namsinh>
+    <diachi>, , P. 3, Q. 4, Tp. H C M</diachi>
+    <traituyen>0</traituyen>
+    <sothe>GD744444444333379060</sothe>
+    <tungay>31/12/2011</tungay>
+    <denngay>31/12/2011</denngay>
+    <ngay>06/08/2011</ngay>
+    <ngayct>06/08/2011</ngayct>
+    <ngayvao>06/08/2011 13:17</ngayvao>
+    <ngayra>06/08/2011 13:17</ngayra>
+    <userid>263</userid>
+    <sohieu>CN4</sohieu>
+    <sobienlai>-1</sobienlai>
+    <sotien>0</sotien>
+    <bhyttra>0</bhyttra>
+    <nopthem>0.0000</nopthem>
+    <mabv>79060</mabv>
+    <tenbv />
+    <tenkp>Phòng Khám [P6-T.Trệt],</tenkp>
+    <maicd />
+    <chandoan>viêm dạ dày,</chandoan>
+    <phai>0</phai>
+    <tamung>0</tamung>
+    <dkkcb>Phòng khám đa khoa Phước An</dkkcb>
+    <bhtra>0</bhtra>
+    <bntra>0</bntra>
+    <maql>110806132242387003</maql>
+    <tenuser>Nguyễn Thu Ngân</tenuser>
+    <madoituong>1</madoituong>
+    <doituong>BHYT</doituong>
+    <kythuat>-1</kythuat>
+    <idnhombhyt>11</idnhombhyt>
+    <sttbhyt>2</sttbhyt>
+    <tennhombhyt>Ngày điều trị ngoại trú</tennhombhyt>
+    <sttbhyt1>2</sttbhyt1>
+    <tennhombhyt1>Ngày điều trị ngoại trú</tennhombhyt1>
+    <soluutru>041108000177</soluutru>
+    <sotoa />
+    <trieuchung>viêm dạ dày,</trieuchung>
+    <ghichu>viêm dạ dày</ghichu>
+    <somau01>2</somau01>
+  </Table>
+  <Table>
+    <id>0</id>
+    <ma />
+    <ten />
+    <dvt />
+    <hamluong />
+    <tenhc />
+    <soluong>0</soluong>
+    <giaban>0</giaban>
+    <giamua>0</giamua>
+    <cachdung />
+    <id_nhom>0</id_nhom>
+    <tennhom />
+    <stt_nhom>0</stt_nhom>
+    <mabn>1104021454</mabn>
+    <hoten>PHAT VIỆT</hoten>
+    <namsinh>1988</namsinh>
+    <diachi>, , P. 3, Q. 4, Tp. H C M</diachi>
+    <traituyen>0</traituyen>
+    <sothe>GD744444444333379060</sothe>
+    <tungay>31/12/2011</tungay>
+    <denngay>31/12/2011</denngay>
+    <ngay>06/08/2011</ngay>
+    <ngayct>06/08/2011</ngayct>
+    <ngayvao>06/08/2011 13:17</ngayvao>
+    <ngayra>06/08/2011 13:17</ngayra>
+    <userid>263</userid>
+    <sohieu>CN4</sohieu>
+    <sobienlai>-1</sobienlai>
+    <sotien>0</sotien>
+    <bhyttra>0</bhyttra>
+    <nopthem>0.0000</nopthem>
+    <mabv>79060</mabv>
+    <tenbv />
+    <tenkp>Phòng Khám [P6-T.Trệt],</tenkp>
+    <maicd />
+    <chandoan>viêm dạ dày,</chandoan>
+    <phai>0</phai>
+    <tamung>0</tamung>
+    <dkkcb>Phòng khám đa khoa Phước An</dkkcb>
+    <bhtra>0</bhtra>
+    <bntra>0</bntra>
+    <maql>110806132242387003</maql>
+    <tenuser>Nguyễn Thu Ngân</tenuser>
+    <madoituong>1</madoituong>
+    <doituong>BHYT</doituong>
+    <kythuat>-1</kythuat>
+    <idnhombhyt>1</idnhombhyt>
+    <sttbhyt>3</sttbhyt>
+    <tennhombhyt>Xét Nghiệm</tennhombhyt>
+    <sttbhyt1>3</sttbhyt1>
+    <tennhombhyt1>Xét Nghiệm</tennhombhyt1>
+    <soluutru>041108000177</soluutru>
+    <sotoa />
+    <trieuchung>viêm dạ dày,</trieuchung>
+    <ghichu>viêm dạ dày</ghichu>
+    <somau01>2</somau01>
+  </Table>
+  <Table>
+    <id>0</id>
+    <ma />
+    <ten />
+    <dvt />
+    <hamluong />
+    <tenhc />
+    <soluong>0</soluong>
+    <giaban>0</giaban>
+    <giamua>0</giamua>
+    <cachdung />
+    <id_nhom>0</id_nhom>
+    <tennhom />
+    <stt_nhom>0</stt_nhom>
+    <mabn>1104021454</mabn>
+    <hoten>PHAT VIỆT</hoten>
+    <namsinh>1988</namsinh>
+    <diachi>, , P. 3, Q. 4, Tp. H C M</diachi>
+    <traituyen>0</traituyen>
+    <sothe>GD744444444333379060</sothe>
+    <tungay>31/12/2011</tungay>
+    <denngay>31/12/2011</denngay>
+    <ngay>06/08/2011</ngay>
+    <ngayct>06/08/2011</ngayct>
+    <ngayvao>06/08/2011 13:17</ngayvao>
+    <ngayra>06/08/2011 13:17</ngayra>
+    <userid>263</userid>
+    <sohieu>CN4</sohieu>
+    <sobienlai>-1</sobienlai>
+    <sotien>0</sotien>
+    <bhyttra>0</bhyttra>
+    <nopthem>0.0000</nopthem>
+    <mabv>79060</mabv>
+    <tenbv />
+    <tenkp>Phòng Khám [P6-T.Trệt],</tenkp>
+    <maicd />
+    <chandoan>viêm dạ dày,</chandoan>
+    <phai>0</phai>
+    <tamung>0</tamung>
+    <dkkcb>Phòng khám đa khoa Phước An</dkkcb>
+    <bhtra>0</bhtra>
+    <bntra>0</bntra>
+    <maql>110806132242387003</maql>
+    <tenuser>Nguyễn Thu Ngân</tenuser>
+    <madoituong>1</madoituong>
+    <doituong>BHYT</doituong>
+    <kythuat>-1</kythuat>
+    <idnhombhyt>13</idnhombhyt>
+    <sttbhyt>5</sttbhyt>
+    <tennhombhyt>Thăm dò chức năng</tennhombhyt>
+    <sttbhyt1>5</sttbhyt1>
+    <tennhombhyt1>Thăm dò chức năng</tennhombhyt1>
+    <soluutru>041108000177</soluutru>
+    <sotoa />
+    <trieuchung>viêm dạ dày,</trieuchung>
+    <ghichu>viêm dạ dày</ghichu>
+    <somau01>2</somau01>
+  </Table>
+  <Table>
+    <id>0</id>
+    <ma />
+    <ten />
+    <dvt />
+    <hamluong />
+    <tenhc />
+    <soluong>0</soluong>
+    <giaban>0</giaban>
+    <giamua>0</giamua>
+    <cachdung />
+    <id_nhom>0</id_nhom>
+    <tennhom />
+    <stt_nhom>0</stt_nhom>
+    <mabn>1104021454</mabn>
+    <hoten>PHAT VIỆT</hoten>
+    <namsinh>1988</namsinh>
+    <diachi>, , P. 3, Q. 4, Tp. H C M</diachi>
+    <traituyen>0</traituyen>
+    <sothe>GD744444444333379060</sothe>
+    <tungay>31/12/2011</tungay>
+    <denngay>31/12/2011</denngay>
+    <ngay>06/08/2011</ngay>
+    <ngayct>06/08/2011</ngayct>
+    <ngayvao>06/08/2011 13:17</ngayvao>
+    <ngayra>06/08/2011 13:17</ngayra>
+    <userid>263</userid>
+    <sohieu>CN4</sohieu>
+    <sobienlai>-1</sobienlai>
+    <sotien>0</sotien>
+    <bhyttra>0</bhyttra>
+    <nopthem>0.0000</nopthem>
+    <mabv>79060</mabv>
+    <tenbv />
+    <tenkp>Phòng Khám [P6-T.Trệt],</tenkp>
+    <maicd />
+    <chandoan>viêm dạ dày,</chandoan>
+    <phai>0</phai>
+    <tamung>0</tamung>
+    <dkkcb>Phòng khám đa khoa Phước An</dkkcb>
+    <bhtra>0</bhtra>
+    <bntra>0</bntra>
+    <maql>110806132242387003</maql>
+    <tenuser>Nguyễn Thu Ngân</tenuser>
+    <madoituong>1</madoituong>
+    <doituong>BHYT</doituong>
+    <kythuat>-1</kythuat>
+    <idnhombhyt>12</idnhombhyt>
+    <sttbhyt>6</sttbhyt>
+    <tennhombhyt>CPT- 4</tennhombhyt>
+    <sttbhyt1>6</sttbhyt1>
+    <tennhombhyt1>CPT- 4</tennhombhyt1>
+    <soluutru>041108000177</soluutru>
+    <sotoa />
+    <trieuchung>viêm dạ dày,</trieuchung>
+    <ghichu>viêm dạ dày</ghichu>
+    <somau01>2</somau01>
+  </Table>
+  <Table>
+    <id>0</id>
+    <ma />
+    <ten />
+    <dvt />
+    <hamluong />
+    <tenhc />
+    <soluong>0</soluong>
+    <giaban>0</giaban>
+    <giamua>0</giamua>
+    <cachdung />
+    <id_nhom>0</id_nhom>
+    <tennhom />
+    <stt_nhom>0</stt_nhom>
+    <mabn>1104021454</mabn>
+    <hoten>PHAT VIỆT</hoten>
+    <namsinh>1988</namsinh>
+    <diachi>, , P. 3, Q. 4, Tp. H C M</diachi>
+    <traituyen>0</traituyen>
+    <sothe>GD744444444333379060</sothe>
+    <tungay>31/12/2011</tungay>
+    <denngay>31/12/2011</denngay>
+    <ngay>06/08/2011</ngay>
+    <ngayct>06/08/2011</ngayct>
+    <ngayvao>06/08/2011 13:17</ngayvao>
+    <ngayra>06/08/2011 13:17</ngayra>
+    <userid>263</userid>
+    <sohieu>CN4</sohieu>
+    <sobienlai>-1</sobienlai>
+    <sotien>0</sotien>
+    <bhyttra>0</bhyttra>
+    <nopthem>0.0000</nopthem>
+    <mabv>79060</mabv>
+    <tenbv />
+    <tenkp>Phòng Khám [P6-T.Trệt],</tenkp>
+    <maicd />
+    <chandoan>viêm dạ dày,</chandoan>
+    <phai>0</phai>
+    <tamung>0</tamung>
+    <dkkcb>Phòng khám đa khoa Phước An</dkkcb>
+    <bhtra>0</bhtra>
+    <bntra>0</bntra>
+    <maql>110806132242387003</maql>
+    <tenuser>Nguyễn Thu Ngân</tenuser>
+    <madoituong>1</madoituong>
+    <doituong>BHYT</doituong>
+    <kythuat>-1</kythuat>
+    <idnhombhyt>7</idnhombhyt>
+    <sttbhyt>7</sttbhyt>
+    <tennhombhyt>Dịch vụ kỹ thuật cao chi phí lớn</tennhombhyt>
+    <sttbhyt1>7</sttbhyt1>
+    <tennhombhyt1>Dịch vụ kỹ thuật cao chi phí lớn</tennhombhyt1>
+    <soluutru>041108000177</soluutru>
+    <sotoa />
+    <trieuchung>viêm dạ dày,</trieuchung>
+    <ghichu>viêm dạ dày</ghichu>
+    <somau01>2</somau01>
+  </Table>
+  <Table>
+    <id>0</id>
+    <ma />
+    <ten />
+    <dvt />
+    <hamluong />
+    <tenhc />
+    <soluong>0</soluong>
+    <giaban>0</giaban>
+    <giamua>0</giamua>
+    <cachdung />
+    <id_nhom>0</id_nhom>
+    <tennhom />
+    <stt_nhom>0</stt_nhom>
+    <mabn>1104021454</mabn>
+    <hoten>PHAT VIỆT</hoten>
+    <namsinh>1988</namsinh>
+    <diachi>, , P. 3, Q. 4, Tp. H C M</diachi>
+    <traituyen>0</traituyen>
+    <sothe>GD744444444333379060</sothe>
+    <tungay>31/12/2011</tungay>
+    <denngay>31/12/2011</denngay>
+    <ngay>06/08/2011</ngay>
+    <ngayct>06/08/2011</ngayct>
+    <ngayvao>06/08/2011 13:17</ngayvao>
+    <ngayra>06/08/2011 13:17</ngayra>
+    <userid>263</userid>
+    <sohieu>CN4</sohieu>
+    <sobienlai>-1</sobienlai>
+    <sotien>0</sotien>
+    <bhyttra>0</bhyttra>
+    <nopthem>0.0000</nopthem>
+    <mabv>79060</mabv>
+    <tenbv />
+    <tenkp>Phòng Khám [P6-T.Trệt],</tenkp>
+    <maicd />
+    <chandoan>viêm dạ dày,</chandoan>
+    <phai>0</phai>
+    <tamung>0</tamung>
+    <dkkcb>Phòng khám đa khoa Phước An</dkkcb>
+    <bhtra>0</bhtra>
+    <bntra>0</bntra>
+    <maql>110806132242387003</maql>
+    <tenuser>Nguyễn Thu Ngân</tenuser>
+    <madoituong>1</madoituong>
+    <doituong>BHYT</doituong>
+    <kythuat>-1</kythuat>
+    <idnhombhyt>4</idnhombhyt>
+    <sttbhyt>8</sttbhyt>
+    <tennhombhyt>Máu và chế phẩm máu</tennhombhyt>
+    <sttbhyt1>8</sttbhyt1>
+    <tennhombhyt1>Máu và chế phẩm máu</tennhombhyt1>
+    <soluutru>041108000177</soluutru>
+    <sotoa />
+    <trieuchung>viêm dạ dày,</trieuchung>
+    <ghichu>viêm dạ dày</ghichu>
+    <somau01>2</somau01>
+  </Table>
+  <Table>
+    <id>0</id>
+    <ma />
+    <ten />
+    <dvt />
+    <hamluong />
+    <tenhc />
+    <soluong>0</soluong>
+    <giaban>0</giaban>
+    <giamua>0</giamua>
+    <cachdung />
+    <id_nhom>0</id_nhom>
+    <tennhom />
+    <stt_nhom>0</stt_nhom>
+    <mabn>1104021454</mabn>
+    <hoten>PHAT VIỆT</hoten>
+    <namsinh>1988</namsinh>
+    <diachi>, , P. 3, Q. 4, Tp. H C M</diachi>
+    <traituyen>0</traituyen>
+    <sothe>GD744444444333379060</sothe>
+    <tungay>31/12/2011</tungay>
+    <denngay>31/12/2011</denngay>
+    <ngay>06/08/2011</ngay>
+    <ngayct>06/08/2011</ngayct>
+    <ngayvao>06/08/2011 13:17</ngayvao>
+    <ngayra>06/08/2011 13:17</ngayra>
+    <userid>263</userid>
+    <sohieu>CN4</sohieu>
+    <sobienlai>-1</sobienlai>
+    <sotien>0</sotien>
+    <bhyttra>0</bhyttra>
+    <nopthem>0.0000</nopthem>
+    <mabv>79060</mabv>
+    <tenbv />
+    <tenkp>Phòng Khám [P6-T.Trệt],</tenkp>
+    <maicd />
+    <chandoan>viêm dạ dày,</chandoan>
+    <phai>0</phai>
+    <tamung>0</tamung>
+    <dkkcb>Phòng khám đa khoa Phước An</dkkcb>
+    <bhtra>0</bhtra>
+    <bntra>0</bntra>
+    <maql>110806132242387003</maql>
+    <tenuser>Nguyễn Thu Ngân</tenuser>
+    <madoituong>1</madoituong>
+    <doituong>BHYT</doituong>
+    <kythuat>-1</kythuat>
+    <idnhombhyt>8</idnhombhyt>
+    <sttbhyt>9</sttbhyt>
+    <tennhombhyt>Thuốc K, Chống thải ghép</tennhombhyt>
+    <sttbhyt1>9</sttbhyt1>
+    <tennhombhyt1>Thuốc K, Chống thải ghép</tennhombhyt1>
+    <soluutru>041108000177</soluutru>
+    <sotoa />
+    <trieuchung>viêm dạ dày,</trieuchung>
+    <ghichu>viêm dạ dày</ghichu>
+    <somau01>2</somau01>
+  </Table>
+  <Table>
+    <id>0</id>
+    <ma />
+    <ten />
+    <dvt />
+    <hamluong />
+    <tenhc />
+    <soluong>0</soluong>
+    <giaban>0</giaban>
+    <giamua>0</giamua>
+    <cachdung />
+    <id_nhom>0</id_nhom>
+    <tennhom />
+    <stt_nhom>0</stt_nhom>
+    <mabn>1104021454</mabn>
+    <hoten>PHAT VIỆT</hoten>
+    <namsinh>1988</namsinh>
+    <diachi>, , P. 3, Q. 4, Tp. H C M</diachi>
+    <traituyen>0</traituyen>
+    <sothe>GD744444444333379060</sothe>
+    <tungay>31/12/2011</tungay>
+    <denngay>31/12/2011</denngay>
+    <ngay>06/08/2011</ngay>
+    <ngayct>06/08/2011</ngayct>
+    <ngayvao>06/08/2011 13:17</ngayvao>
+    <ngayra>06/08/2011 13:17</ngayra>
+    <userid>263</userid>
+    <sohieu>CN4</sohieu>
+    <sobienlai>-1</sobienlai>
+    <sotien>0</sotien>
+    <bhyttra>0</bhyttra>
+    <nopthem>0.0000</nopthem>
+    <mabv>79060</mabv>
+    <tenbv />
+    <tenkp>Phòng Khám [P6-T.Trệt],</tenkp>
+    <maicd />
+    <chandoan>viêm dạ dày,</chandoan>
+    <phai>0</phai>
+    <tamung>0</tamung>
+    <dkkcb>Phòng khám đa khoa Phước An</dkkcb>
+    <bhtra>0</bhtra>
+    <bntra>0</bntra>
+    <maql>110806132242387003</maql>
+    <tenuser>Nguyễn Thu Ngân</tenuser>
+    <madoituong>1</madoituong>
+    <doituong>BHYT</doituong>
+    <kythuat>-1</kythuat>
+    <idnhombhyt>6</idnhombhyt>
+    <sttbhyt>10</sttbhyt>
+    <tennhombhyt>Vật tư y tế</tennhombhyt>
+    <sttbhyt1>10</sttbhyt1>
+    <tennhombhyt1>Vật tư y tế</tennhombhyt1>
+    <soluutru>041108000177</soluutru>
+    <sotoa />
+    <trieuchung>viêm dạ dày,</trieuchung>
+    <ghichu>viêm dạ dày</ghichu>
+    <somau01>2</somau01>
+  </Table>
+  <Table>
+    <id>0</id>
+    <ma />
+    <ten />
+    <dvt />
+    <hamluong />
+    <tenhc />
+    <soluong>0</soluong>
+    <giaban>0</giaban>
+    <giamua>0</giamua>
+    <cachdung />
+    <id_nhom>0</id_nhom>
+    <tennhom />
+    <stt_nhom>0</stt_nhom>
+    <mabn>1104021454</mabn>
+    <hoten>PHAT VIỆT</hoten>
+    <namsinh>1988</namsinh>
+    <diachi>, , P. 3, Q. 4, Tp. H C M</diachi>
+    <traituyen>0</traituyen>
+    <sothe>GD744444444333379060</sothe>
+    <tungay>31/12/2011</tungay>
+    <denngay>31/12/2011</denngay>
+    <ngay>06/08/2011</ngay>
+    <ngayct>06/08/2011</ngayct>
+    <ngayvao>06/08/2011 13:17</ngayvao>
+    <ngayra>06/08/2011 13:17</ngayra>
+    <userid>263</userid>
+    <sohieu>CN4</sohieu>
+    <sobienlai>-1</sobienlai>
+    <sotien>0</sotien>
+    <bhyttra>0</bhyttra>
+    <nopthem>0.0000</nopthem>
+    <mabv>79060</mabv>
+    <tenbv />
+    <tenkp>Phòng Khám [P6-T.Trệt],</tenkp>
+    <maicd />
+    <chandoan>viêm dạ dày,</chandoan>
+    <phai>0</phai>
+    <tamung>0</tamung>
+    <dkkcb>Phòng khám đa khoa Phước An</dkkcb>
+    <bhtra>0</bhtra>
+    <bntra>0</bntra>
+    <maql>110806132242387003</maql>
+    <tenuser>Nguyễn Thu Ngân</tenuser>
+    <madoituong>1</madoituong>
+    <doituong>BHYT</doituong>
+    <kythuat>-1</kythuat>
+    <idnhombhyt>10</idnhombhyt>
+    <sttbhyt>11</sttbhyt>
+    <tennhombhyt>Vận chuyển</tennhombhyt>
+    <sttbhyt1>11</sttbhyt1>
+    <tennhombhyt1>Vận chuyển</tennhombhyt1>
+    <soluutru>041108000177</soluutru>
+    <sotoa />
+    <trieuchung>viêm dạ dày,</trieuchung>
+    <ghichu>viêm dạ dày</ghichu>
+    <somau01>2</somau01>
+  </Table>
+  <Table>
+    <id>0</id>
+    <ma />
+    <ten />
+    <dvt />
+    <hamluong />
+    <tenhc />
+    <soluong>0</soluong>
+    <giaban>0</giaban>
+    <giamua>0</giamua>
+    <cachdung />
+    <id_nhom>0</id_nhom>
+    <tennhom />
+    <stt_nhom>0</stt_nhom>
+    <mabn>1104021454</mabn>
+    <hoten>PHAT VIỆT</hoten>
+    <namsinh>1988</namsinh>
+    <diachi>, , P. 3, Q. 4, Tp. H C M</diachi>
+    <traituyen>0</traituyen>
+    <sothe>GD744444444333379060</sothe>
+    <tungay>31/12/2011</tungay>
+    <denngay>31/12/2011</denngay>
+    <ngay>06/08/2011</ngay>
+    <ngayct>06/08/2011</ngayct>
+    <ngayvao>06/08/2011 13:17</ngayvao>
+    <ngayra>06/08/2011 13:17</ngayra>
+    <userid>263</userid>
+    <sohieu>CN4</sohieu>
+    <sobienlai>-1</sobienlai>
+    <sotien>0</sotien>
+    <bhyttra>0</bhyttra>
+    <nopthem>0.0000</nopthem>
+    <mabv>79060</mabv>
+    <tenbv />
+    <tenkp>Phòng Khám [P6-T.Trệt],</tenkp>
+    <maicd />
+    <chandoan>viêm dạ dày,</chandoan>
+    <phai>0</phai>
+    <tamung>0</tamung>
+    <dkkcb>Phòng khám đa khoa Phước An</dkkcb>
+    <bhtra>0</bhtra>
+    <bntra>0</bntra>
+    <maql>110806132242387003</maql>
+    <tenuser>Nguyễn Thu Ngân</tenuser>
+    <madoituong>1</madoituong>
+    <doituong>BHYT</doituong>
+    <kythuat>-1</kythuat>
+    <idnhombhyt>92</idnhombhyt>
+    <sttbhyt>92</sttbhyt>
+    <tennhombhyt>Ngoài danh mục BHYT</tennhombhyt>
+    <sttbhyt1>92</sttbhyt1>
+    <tennhombhyt1>Ngoài danh mục BHYT</tennhombhyt1>
+    <soluutru>041108000177</soluutru>
+    <sotoa />
+    <trieuchung>viêm dạ dày,</trieuchung>
+    <ghichu>viêm dạ dày</ghichu>
+    <somau01>2</somau01>
+  </Table>
+  <Table>
+    <id>0</id>
+    <ma />
+    <ten />
+    <dvt />
+    <hamluong />
+    <tenhc />
+    <soluong>0</soluong>
+    <giaban>0</giaban>
+    <giamua>0</giamua>
+    <cachdung />
+    <id_nhom>0</id_nhom>
+    <tennhom />
+    <stt_nhom>0</stt_nhom>
+    <mabn>1104021454</mabn>
+    <hoten>PHAT VIỆT</hoten>
+    <namsinh>1988</namsinh>
+    <diachi>, , P. 3, Q. 4, Tp. H C M</diachi>
+    <traituyen>0</traituyen>
+    <sothe>GD744444444333379060</sothe>
+    <tungay>31/12/2011</tungay>
+    <denngay>31/12/2011</denngay>
+    <ngay>06/08/2011</ngay>
+    <ngayct>06/08/2011</ngayct>
+    <ngayvao>06/08/2011 13:17</ngayvao>
+    <ngayra>06/08/2011 13:17</ngayra>
+    <userid>263</userid>
+    <sohieu>CN4</sohieu>
+    <sobienlai>-1</sobienlai>
+    <sotien>0</sotien>
+    <bhyttra>0</bhyttra>
+    <nopthem>0.0000</nopthem>
+    <mabv>79060</mabv>
+    <tenbv />
+    <tenkp>Phòng Khám [P6-T.Trệt],</tenkp>
+    <maicd />
+    <chandoan>viêm dạ dày,</chandoan>
+    <phai>0</phai>
+    <tamung>0</tamung>
+    <dkkcb>Phòng khám đa khoa Phước An</dkkcb>
+    <bhtra>0</bhtra>
+    <bntra>0</bntra>
+    <maql>110806132242387003</maql>
+    <tenuser>Nguyễn Thu Ngân</tenuser>
+    <madoituong>1</madoituong>
+    <doituong>BHYT</doituong>
+    <kythuat>-1</kythuat>
+    <idnhombhyt>93</idnhombhyt>
+    <sttbhyt>93</sttbhyt>
+    <tennhombhyt>Thuốc điều trị ung thư, chống thải ghép ngoài danh mục</tennhombhyt>
+    <sttbhyt1>93</sttbhyt1>
+    <tennhombhyt1>Thuốc điều trị ung thư, chống thải ghép ngoài danh mục</tennhombhyt1>
+    <soluutru>041108000177</soluutru>
+    <sotoa />
+    <trieuchung>viêm dạ dày,</trieuchung>
+    <ghichu>viêm dạ dày</ghichu>
+    <somau01>2</somau01>
+  </Table>
+  <Table>
+    <id>0</id>
+    <ma />
+    <ten />
+    <dvt />
+    <hamluong />
+    <tenhc />
+    <soluong>0</soluong>
+    <giaban>0</giaban>
+    <giamua>0</giamua>
+    <cachdung />
+    <id_nhom>0</id_nhom>
+    <tennhom />
+    <stt_nhom>0</stt_nhom>
+    <mabn>1104021454</mabn>
+    <hoten>PHAT VIỆT</hoten>
+    <namsinh>1988</namsinh>
+    <diachi>, , P. 3, Q. 4, Tp. H C M</diachi>
+    <traituyen>0</traituyen>
+    <sothe>GD744444444333379060</sothe>
+    <tungay>31/12/2011</tungay>
+    <denngay>31/12/2011</denngay>
+    <ngay>06/08/2011</ngay>
+    <ngayct>06/08/2011</ngayct>
+    <ngayvao>06/08/2011 13:17</ngayvao>
+    <ngayra>06/08/2011 13:17</ngayra>
+    <userid>263</userid>
+    <sohieu>CN4</sohieu>
+    <sobienlai>-1</sobienlai>
+    <sotien>0</sotien>
+    <bhyttra>0</bhyttra>
+    <nopthem>0.0000</nopthem>
+    <mabv>79060</mabv>
+    <tenbv />
+    <tenkp>Phòng Khám [P6-T.Trệt],</tenkp>
+    <maicd />
+    <chandoan>viêm dạ dày,</chandoan>
+    <phai>0</phai>
+    <tamung>0</tamung>
+    <dkkcb>Phòng khám đa khoa Phước An</dkkcb>
+    <bhtra>0</bhtra>
+    <bntra>0</bntra>
+    <maql>110806132242387003</maql>
+    <tenuser>Nguyễn Thu Ngân</tenuser>
+    <madoituong>1</madoituong>
+    <doituong>BHYT</doituong>
+    <kythuat>-1</kythuat>
+    <idnhombhyt>101</idnhombhyt>
+    <sttbhyt>101</sttbhyt>
+    <tennhombhyt>Ngoài danh mục BHYT</tennhombhyt>
+    <sttbhyt1>101</sttbhyt1>
+    <tennhombhyt1>Ngoài danh mục BHYT</tennhombhyt1>
+    <soluutru>041108000177</soluutru>
+    <sotoa />
+    <trieuchung>viêm dạ dày,</trieuchung>
+    <ghichu>viêm dạ dày</ghichu>
+    <somau01>2</somau01>
+  </Table>
+</NewDataSet>

@@ -1,0 +1,90 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="id" type="xs:decimal" minOccurs="0" />
+                <xs:element name="mabn" type="xs:string" minOccurs="0" />
+                <xs:element name="ngayhoichan" type="xs:string" minOccurs="0" />
+                <xs:element name="lamsang" type="xs:string" minOccurs="0" />
+                <xs:element name="chandoan" type="xs:string" minOccurs="0" />
+                <xs:element name="xquang" type="xs:string" minOccurs="0" />
+                <xs:element name="sieuam" type="xs:string" minOccurs="0" />
+                <xs:element name="xetnghiem" type="xs:string" minOccurs="0" />
+                <xs:element name="thuocco" type="xs:decimal" minOccurs="0" />
+                <xs:element name="thuock" type="xs:decimal" minOccurs="0" />
+                <xs:element name="iddmbophan" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ten" type="xs:string" minOccurs="0" />
+                <xs:element name="hoten" type="xs:string" minOccurs="0" />
+                <xs:element name="namsinh" type="xs:string" minOccurs="0" />
+                <xs:element name="phai" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tencls" type="xs:string" minOccurs="0" />
+                <xs:element name="tenloaicls" type="xs:string" minOccurs="0" />
+                <xs:element name="idloai" type="xs:decimal" minOccurs="0" />
+                <xs:element name="diachi" type="xs:string" minOccurs="0" />
+                <xs:element name="sodtnha" type="xs:string" minOccurs="0" />
+                <xs:element name="sodtcq" type="xs:string" minOccurs="0" />
+                <xs:element name="didong" type="xs:string" minOccurs="0" />
+                <xs:element name="tennn" type="xs:string" minOccurs="0" />
+                <xs:element name="dantoc" type="xs:string" minOccurs="0" />
+                <xs:element name="cholam" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <id>110805000000399003</id>
+    <mabn>1104021443</mabn>
+    <ngayhoichan>05/08/2011 17:43</ngayhoichan>
+    <lamsang>đau bụng</lamsang>
+    <chandoan>Viêm dạ dày</chandoan>
+    <xquang />
+    <sieuam />
+    <xetnghiem />
+    <thuocco>0</thuocco>
+    <thuock>0</thuock>
+    <iddmbophan>9</iddmbophan>
+    <ten>Ổ bụng</ten>
+    <hoten>CT CHUYEN VIEN</hoten>
+    <namsinh>1987</namsinh>
+    <phai>0</phai>
+    <tencls>Chụp CT ổ bụng có cản quang</tencls>
+    <tenloaicls>CT scanner</tenloaicls>
+    <idloai>8</idloai>
+    <diachi>  P. 3 Q. 3 Tp. H C M</diachi>
+    <tennn>Công nhân</tennn>
+    <dantoc>*Kinh</dantoc>
+    <cholam />
+  </Table>
+  <Table>
+    <id>110805000000399003</id>
+    <mabn>1104021443</mabn>
+    <ngayhoichan>05/08/2011 17:43</ngayhoichan>
+    <lamsang>đau bụng</lamsang>
+    <chandoan>Viêm dạ dày</chandoan>
+    <xquang />
+    <sieuam />
+    <xetnghiem />
+    <thuocco>0</thuocco>
+    <thuock>0</thuock>
+    <iddmbophan>9</iddmbophan>
+    <ten>Ổ bụng</ten>
+    <hoten>CT CHUYEN VIEN</hoten>
+    <namsinh>1987</namsinh>
+    <phai>0</phai>
+    <tencls>Chụp CT ổ bụng có cản quang</tencls>
+    <tenloaicls>CT scanner</tenloaicls>
+    <idloai>8</idloai>
+    <diachi>  P. 3 Q. 3 Tp. H C M</diachi>
+    <tennn>Công nhân</tennn>
+    <dantoc>*Kinh</dantoc>
+    <cholam />
+  </Table>
+</NewDataSet>

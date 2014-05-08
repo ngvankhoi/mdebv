@@ -1,0 +1,2407 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="mabn" type="xs:string" minOccurs="0" />
+                <xs:element name="hoten" type="xs:string" minOccurs="0" />
+                <xs:element name="tuoi" type="xs:string" minOccurs="0" />
+                <xs:element name="namsinh" type="xs:string" minOccurs="0" />
+                <xs:element name="sonha" type="xs:string" minOccurs="0" />
+                <xs:element name="thon" type="xs:string" minOccurs="0" />
+                <xs:element name="tenpxa" type="xs:string" minOccurs="0" />
+                <xs:element name="tenquan" type="xs:string" minOccurs="0" />
+                <xs:element name="tentt" type="xs:string" minOccurs="0" />
+                <xs:element name="tennn" type="xs:string" minOccurs="0" />
+                <xs:element name="ngay" type="xs:string" minOccurs="0" />
+                <xs:element name="tenkp" type="xs:string" minOccurs="0" />
+                <xs:element name="doituong" type="xs:string" minOccurs="0" />
+                <xs:element name="tenpt" type="xs:string" minOccurs="0" />
+                <xs:element name="mapt" type="xs:string" minOccurs="0" />
+                <xs:element name="loaipt" type="xs:string" minOccurs="0" />
+                <xs:element name="tenbs" type="xs:string" minOccurs="0" />
+                <xs:element name="phuongphap" type="xs:string" minOccurs="0" />
+                <xs:element name="ma_p1" type="xs:string" minOccurs="0" />
+                <xs:element name="hoten_p1" type="xs:string" minOccurs="0" />
+                <xs:element name="ma_p2" type="xs:string" minOccurs="0" />
+                <xs:element name="hoten_p2" type="xs:string" minOccurs="0" />
+                <xs:element name="ma_bsgm" type="xs:string" minOccurs="0" />
+                <xs:element name="hoten_bsgm" type="xs:string" minOccurs="0" />
+                <xs:element name="ma_ktvgm" type="xs:string" minOccurs="0" />
+                <xs:element name="hoten_ktvgm" type="xs:string" minOccurs="0" />
+                <xs:element name="ma_hoisuc" type="xs:string" minOccurs="0" />
+                <xs:element name="hoten_hoisuc" type="xs:string" minOccurs="0" />
+                <xs:element name="ma_dcu" type="xs:string" minOccurs="0" />
+                <xs:element name="hoten_dcu" type="xs:string" minOccurs="0" />
+                <xs:element name="tinhhinh" type="xs:string" minOccurs="0" />
+                <xs:element name="taibien" type="xs:string" minOccurs="0" />
+                <xs:element name="tuvong" type="xs:string" minOccurs="0" />
+                <xs:element name="sovaovien" type="xs:string" minOccurs="0" />
+                <xs:element name="tenuser" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <mabn>07004241</mabn>
+    <hoten>NGUYỄN THỊ LONG</hoten>
+    <tuoi>035TU</tuoi>
+    <namsinh>1973</namsinh>
+    <sonha>41/1/3</sonha>
+    <thon>Ngô Quyền</thon>
+    <tenpxa>P. Thắng Nhất</tenpxa>
+    <tenquan>Tp. Vũng Tàu</tenquan>
+    <tentt>Bà Rịa - Vũng Tàu</tentt>
+    <tennn>Công Nhân Viên</tennn>
+    <ngay>01/03/2008 04:30</ngay>
+    <tenkp>Phòng Mổ</tenkp>
+    <doituong>BHYT</doituong>
+    <tenpt>Lấy thai lần hai hay lần thứ ba</tenpt>
+    <mapt>P11018</mapt>
+    <loaipt>Đặc biệt</loaipt>
+    <tenbs>Trần Thu Hiền</tenbs>
+    <phuongphap>Gây tê tủy sống</phuongphap>
+    <ma_p1>0089</ma_p1>
+    <hoten_p1>Vũ Thị Mão</hoten_p1>
+    <ma_p2>0090</ma_p2>
+    <hoten_p2>Phạm Thị Hồng Vân</hoten_p2>
+    <ma_bsgm>0085</ma_bsgm>
+    <hoten_bsgm>Phạm Văn Ngọ</hoten_bsgm>
+    <ma_hoisuc>0098</ma_hoisuc>
+    <hoten_hoisuc>Nguyễn Kim Xuyến</hoten_hoisuc>
+    <tinhhinh>Chủ động</tinhhinh>
+    <taibien>Không</taibien>
+    <tuvong>Không</tuvong>
+    <sovaovien>0003225/08</sovaovien>
+    <tenuser>Phòng mổ</tenuser>
+  </Table>
+  <Table>
+    <mabn>08801132</mabn>
+    <hoten>LÊ THỊ THANH HẢI</hoten>
+    <tuoi>039TU</tuoi>
+    <namsinh>1969</namsinh>
+    <sonha>246</sonha>
+    <thon>Bình Giả</thon>
+    <tenpxa>P. 8</tenpxa>
+    <tenquan>Tp. Vũng Tàu</tenquan>
+    <tentt>Bà Rịa - Vũng Tàu</tentt>
+    <tennn>Nhân Dân</tennn>
+    <ngay>01/03/2008 06:55</ngay>
+    <tenkp>Phòng Mổ</tenkp>
+    <doituong>Thu phí</doituong>
+    <tenpt>Lấy thai lần đầu</tenpt>
+    <mapt>P11021</mapt>
+    <loaipt>Loại 2A</loaipt>
+    <tenbs>Trần Thu Hiền</tenbs>
+    <phuongphap>Gây mê nội khí quản</phuongphap>
+    <ma_p1>0089</ma_p1>
+    <hoten_p1>Vũ Thị Mão</hoten_p1>
+    <ma_p2>0090</ma_p2>
+    <hoten_p2>Phạm Thị Hồng Vân</hoten_p2>
+    <ma_bsgm>0085</ma_bsgm>
+    <hoten_bsgm>Phạm Văn Ngọ</hoten_bsgm>
+    <tinhhinh>Chủ động</tinhhinh>
+    <taibien>Không</taibien>
+    <tuvong>Không</tuvong>
+    <sovaovien>0003602/08</sovaovien>
+    <tenuser>Phòng mổ</tenuser>
+  </Table>
+  <Table>
+    <mabn>08904960</mabn>
+    <hoten>TRẦN VĂN MƯỜI</hoten>
+    <tuoi>043TU</tuoi>
+    <namsinh>1965</namsinh>
+    <sonha>15</sonha>
+    <thon>Nam Kỳ Khởi Nghĩa </thon>
+    <tenpxa>P. 3</tenpxa>
+    <tenquan>Tp. Vũng Tàu</tenquan>
+    <tentt>Bà Rịa - Vũng Tàu</tentt>
+    <tennn>Nhân Dân</tennn>
+    <ngay>01/03/2008 09:46</ngay>
+    <tenkp>Hscc</tenkp>
+    <doituong>Thu phí</doituong>
+    <tenpt>Đặt ống thông dạ dày, đại tràng</tenpt>
+    <mapt>T01021</mapt>
+    <loaipt>Thủ thuật</loaipt>
+    <tenbs>Ninh Thị Thuý Ngà</tenbs>
+    <phuongphap>Khác</phuongphap>
+    <tinhhinh>Chủ động</tinhhinh>
+    <taibien>Không</taibien>
+    <tuvong>Không</tuvong>
+    <sovaovien>0003581/08</sovaovien>
+    <tenuser>Khoa Hồi sức cấp cứu</tenuser>
+  </Table>
+  <Table>
+    <mabn>08904960</mabn>
+    <hoten>TRẦN VĂN MƯỜI</hoten>
+    <tuoi>043TU</tuoi>
+    <namsinh>1965</namsinh>
+    <sonha>15</sonha>
+    <thon>Nam Kỳ Khởi Nghĩa </thon>
+    <tenpxa>P. 3</tenpxa>
+    <tenquan>Tp. Vũng Tàu</tenquan>
+    <tentt>Bà Rịa - Vũng Tàu</tentt>
+    <tennn>Nhân Dân</tennn>
+    <ngay>01/03/2008 09:49</ngay>
+    <tenkp>Hscc</tenkp>
+    <doituong>Thu phí</doituong>
+    <tenpt>Hô hấp nhân tạo bằng máy 24 giờ một lần</tenpt>
+    <mapt>T12015</mapt>
+    <loaipt>Thủ thuật</loaipt>
+    <tenbs>Ninh Thị Thuý Ngà</tenbs>
+    <phuongphap>Khác</phuongphap>
+    <tinhhinh>Chủ động</tinhhinh>
+    <taibien>Không</taibien>
+    <tuvong>Không</tuvong>
+    <sovaovien>0003581/08</sovaovien>
+    <tenuser>Khoa Hồi sức cấp cứu</tenuser>
+  </Table>
+  <Table>
+    <mabn>08904960</mabn>
+    <hoten>TRẦN VĂN MƯỜI</hoten>
+    <tuoi>043TU</tuoi>
+    <namsinh>1965</namsinh>
+    <sonha>15</sonha>
+    <thon>Nam Kỳ Khởi Nghĩa </thon>
+    <tenpxa>P. 3</tenpxa>
+    <tenquan>Tp. Vũng Tàu</tenquan>
+    <tentt>Bà Rịa - Vũng Tàu</tentt>
+    <tennn>Nhân Dân</tennn>
+    <ngay>01/03/2008 09:50</ngay>
+    <tenkp>Hscc</tenkp>
+    <doituong>Thu phí</doituong>
+    <tenpt>Nâng Huyết Áp Chỉ Huy</tenpt>
+    <mapt>T12049</mapt>
+    <loaipt>Đặc biệt</loaipt>
+    <tenbs>Ninh Thị Thuý Ngà</tenbs>
+    <phuongphap>Khác</phuongphap>
+    <ma_p1>0140</ma_p1>
+    <hoten_p1>Vũ Thị Lương</hoten_p1>
+    <tinhhinh>Chủ động</tinhhinh>
+    <taibien>Không</taibien>
+    <tuvong>Không</tuvong>
+    <sovaovien>0003581/08</sovaovien>
+    <tenuser>Khoa Hồi sức cấp cứu</tenuser>
+  </Table>
+  <Table>
+    <mabn>08904960</mabn>
+    <hoten>TRẦN VĂN MƯỜI</hoten>
+    <tuoi>043TU</tuoi>
+    <namsinh>1965</namsinh>
+    <sonha>15</sonha>
+    <thon>Nam Kỳ Khởi Nghĩa </thon>
+    <tenpxa>P. 3</tenpxa>
+    <tenquan>Tp. Vũng Tàu</tenquan>
+    <tentt>Bà Rịa - Vũng Tàu</tentt>
+    <tennn>Nhân Dân</tennn>
+    <ngay>01/03/2008 09:50</ngay>
+    <tenkp>Hscc</tenkp>
+    <doituong>Thu phí</doituong>
+    <tenpt>Rửa dạ dày cấp cứu</tenpt>
+    <mapt>T12032</mapt>
+    <loaipt>Thủ thuật</loaipt>
+    <tenbs>Ninh Thị Thuý Ngà</tenbs>
+    <phuongphap>Khác</phuongphap>
+    <ma_p1>0152</ma_p1>
+    <hoten_p1>Trần Đăng Ninh</hoten_p1>
+    <tinhhinh>Chủ động</tinhhinh>
+    <taibien>Không</taibien>
+    <tuvong>Không</tuvong>
+    <sovaovien>0003581/08</sovaovien>
+    <tenuser>Khoa Hồi sức cấp cứu</tenuser>
+  </Table>
+  <Table>
+    <mabn>08904960</mabn>
+    <hoten>TRẦN VĂN MƯỜI</hoten>
+    <tuoi>043TU</tuoi>
+    <namsinh>1965</namsinh>
+    <sonha>15</sonha>
+    <thon>Nam Kỳ Khởi Nghĩa </thon>
+    <tenpxa>P. 3</tenpxa>
+    <tenquan>Tp. Vũng Tàu</tenquan>
+    <tentt>Bà Rịa - Vũng Tàu</tentt>
+    <tennn>Nhân Dân</tennn>
+    <ngay>01/03/2008 09:54</ngay>
+    <tenkp>Hscc</tenkp>
+    <doituong>Thu phí</doituong>
+    <tenpt>Nâng Huyết Áp Chỉ Huy</tenpt>
+    <mapt>T12049</mapt>
+    <loaipt>Đặc biệt</loaipt>
+    <tenbs>Ninh Thị Thuý Ngà</tenbs>
+    <phuongphap>Khác</phuongphap>
+    <tinhhinh>Chủ động</tinhhinh>
+    <taibien>Không</taibien>
+    <tuvong>Không</tuvong>
+    <sovaovien>0003581/08</sovaovien>
+    <tenuser>Khoa Hồi sức cấp cứu</tenuser>
+  </Table>
+  <Table>
+    <mabn>08904960</mabn>
+    <hoten>TRẦN VĂN MƯỜI</hoten>
+    <tuoi>043TU</tuoi>
+    <namsinh>1965</namsinh>
+    <sonha>15</sonha>
+    <thon>Nam Kỳ Khởi Nghĩa </thon>
+    <tenpxa>P. 3</tenpxa>
+    <tenquan>Tp. Vũng Tàu</tenquan>
+    <tentt>Bà Rịa - Vũng Tàu</tentt>
+    <tennn>Nhân Dân</tennn>
+    <ngay>01/03/2008 09:54</ngay>
+    <tenkp>Hscc</tenkp>
+    <doituong>Thu phí</doituong>
+    <tenpt>Nâng Huyết Áp Chỉ Huy</tenpt>
+    <mapt>T12049</mapt>
+    <loaipt>Đặc biệt</loaipt>
+    <tenbs>Ninh Thị Thuý Ngà</tenbs>
+    <phuongphap>Khác</phuongphap>
+    <tinhhinh>Chủ động</tinhhinh>
+    <taibien>Không</taibien>
+    <tuvong>Không</tuvong>
+    <sovaovien>0003581/08</sovaovien>
+    <tenuser>Khoa Hồi sức cấp cứu</tenuser>
+  </Table>
+  <Table>
+    <mabn>08904960</mabn>
+    <hoten>TRẦN VĂN MƯỜI</hoten>
+    <tuoi>043TU</tuoi>
+    <namsinh>1965</namsinh>
+    <sonha>15</sonha>
+    <thon>Nam Kỳ Khởi Nghĩa </thon>
+    <tenpxa>P. 3</tenpxa>
+    <tenquan>Tp. Vũng Tàu</tenquan>
+    <tentt>Bà Rịa - Vũng Tàu</tentt>
+    <tennn>Nhân Dân</tennn>
+    <ngay>01/03/2008 09:55</ngay>
+    <tenkp>Hscc</tenkp>
+    <doituong>Thu phí</doituong>
+    <tenpt>Nâng Huyết Áp Chỉ Huy</tenpt>
+    <mapt>T12049</mapt>
+    <loaipt>Đặc biệt</loaipt>
+    <tenbs>Ninh Thị Thuý Ngà</tenbs>
+    <phuongphap>Khác</phuongphap>
+    <tinhhinh>Chủ động</tinhhinh>
+    <taibien>Không</taibien>
+    <tuvong>Không</tuvong>
+    <sovaovien>0003581/08</sovaovien>
+    <tenuser>Khoa Hồi sức cấp cứu</tenuser>
+  </Table>
+  <Table>
+    <mabn>08904960</mabn>
+    <hoten>TRẦN VĂN MƯỜI</hoten>
+    <tuoi>043TU</tuoi>
+    <namsinh>1965</namsinh>
+    <sonha>15</sonha>
+    <thon>Nam Kỳ Khởi Nghĩa </thon>
+    <tenpxa>P. 3</tenpxa>
+    <tenquan>Tp. Vũng Tàu</tenquan>
+    <tentt>Bà Rịa - Vũng Tàu</tentt>
+    <tennn>Nhân Dân</tennn>
+    <ngay>01/03/2008 09:55</ngay>
+    <tenkp>Hscc</tenkp>
+    <doituong>Thu phí</doituong>
+    <tenpt>Nâng Huyết Áp Chỉ Huy</tenpt>
+    <mapt>T12049</mapt>
+    <loaipt>Đặc biệt</loaipt>
+    <tenbs>Ninh Thị Thuý Ngà</tenbs>
+    <phuongphap>Khác</phuongphap>
+    <tinhhinh>Chủ động</tinhhinh>
+    <taibien>Không</taibien>
+    <tuvong>Không</tuvong>
+    <sovaovien>0003581/08</sovaovien>
+    <tenuser>Khoa Hồi sức cấp cứu</tenuser>
+  </Table>
+  <Table>
+    <mabn>08904960</mabn>
+    <hoten>TRẦN VĂN MƯỜI</hoten>
+    <tuoi>043TU</tuoi>
+    <namsinh>1965</namsinh>
+    <sonha>15</sonha>
+    <thon>Nam Kỳ Khởi Nghĩa </thon>
+    <tenpxa>P. 3</tenpxa>
+    <tenquan>Tp. Vũng Tàu</tenquan>
+    <tentt>Bà Rịa - Vũng Tàu</tentt>
+    <tennn>Nhân Dân</tennn>
+    <ngay>01/03/2008 09:56</ngay>
+    <tenkp>Hscc</tenkp>
+    <doituong>Thu phí</doituong>
+    <tenpt>Nâng Huyết Áp Chỉ Huy</tenpt>
+    <mapt>T12049</mapt>
+    <loaipt>Đặc biệt</loaipt>
+    <tenbs>Nguyễn Đình Tuấn</tenbs>
+    <phuongphap>Khác</phuongphap>
+    <ma_p2>0139</ma_p2>
+    <hoten_p2>Nguyễn Quang Hiến</hoten_p2>
+    <tinhhinh>Chủ động</tinhhinh>
+    <taibien>Không</taibien>
+    <tuvong>Không</tuvong>
+    <sovaovien>0003581/08</sovaovien>
+    <tenuser>Khoa Hồi sức cấp cứu</tenuser>
+  </Table>
+  <Table>
+    <mabn>08904960</mabn>
+    <hoten>TRẦN VĂN MƯỜI</hoten>
+    <tuoi>043TU</tuoi>
+    <namsinh>1965</namsinh>
+    <sonha>15</sonha>
+    <thon>Nam Kỳ Khởi Nghĩa </thon>
+    <tenpxa>P. 3</tenpxa>
+    <tenquan>Tp. Vũng Tàu</tenquan>
+    <tentt>Bà Rịa - Vũng Tàu</tentt>
+    <tennn>Nhân Dân</tennn>
+    <ngay>01/03/2008 09:56</ngay>
+    <tenkp>Hscc</tenkp>
+    <doituong>Thu phí</doituong>
+    <tenpt>Nâng Huyết Áp Chỉ Huy</tenpt>
+    <mapt>T12049</mapt>
+    <loaipt>Đặc biệt</loaipt>
+    <tenbs>Nguyễn Đình Tuấn</tenbs>
+    <phuongphap>Khác</phuongphap>
+    <ma_p1>0151</ma_p1>
+    <hoten_p1>Lê Vĩnh Thụy</hoten_p1>
+    <tinhhinh>Chủ động</tinhhinh>
+    <taibien>Không</taibien>
+    <tuvong>Không</tuvong>
+    <sovaovien>0003581/08</sovaovien>
+    <tenuser>Khoa Hồi sức cấp cứu</tenuser>
+  </Table>
+  <Table>
+    <mabn>08904960</mabn>
+    <hoten>TRẦN VĂN MƯỜI</hoten>
+    <tuoi>043TU</tuoi>
+    <namsinh>1965</namsinh>
+    <sonha>15</sonha>
+    <thon>Nam Kỳ Khởi Nghĩa </thon>
+    <tenpxa>P. 3</tenpxa>
+    <tenquan>Tp. Vũng Tàu</tenquan>
+    <tentt>Bà Rịa - Vũng Tàu</tentt>
+    <tennn>Nhân Dân</tennn>
+    <ngay>01/03/2008 09:56</ngay>
+    <tenkp>Hscc</tenkp>
+    <doituong>Thu phí</doituong>
+    <tenpt>Nâng Huyết Áp Chỉ Huy</tenpt>
+    <mapt>T12049</mapt>
+    <loaipt>Đặc biệt</loaipt>
+    <tenbs>Nguyễn Đình Tuấn</tenbs>
+    <phuongphap>Khác</phuongphap>
+    <tinhhinh>Chủ động</tinhhinh>
+    <taibien>Không</taibien>
+    <tuvong>Không</tuvong>
+    <sovaovien>0003581/08</sovaovien>
+    <tenuser>Khoa Hồi sức cấp cứu</tenuser>
+  </Table>
+  <Table>
+    <mabn>08904960</mabn>
+    <hoten>TRẦN VĂN MƯỜI</hoten>
+    <tuoi>043TU</tuoi>
+    <namsinh>1965</namsinh>
+    <sonha>15</sonha>
+    <thon>Nam Kỳ Khởi Nghĩa </thon>
+    <tenpxa>P. 3</tenpxa>
+    <tenquan>Tp. Vũng Tàu</tenquan>
+    <tentt>Bà Rịa - Vũng Tàu</tentt>
+    <tennn>Nhân Dân</tennn>
+    <ngay>01/03/2008 09:57</ngay>
+    <tenkp>Hscc</tenkp>
+    <doituong>Thu phí</doituong>
+    <tenpt>Nâng Huyết Áp Chỉ Huy</tenpt>
+    <mapt>T12049</mapt>
+    <loaipt>Đặc biệt</loaipt>
+    <tenbs>Nguyễn Đình Tuấn</tenbs>
+    <phuongphap>Khác</phuongphap>
+    <tinhhinh>Chủ động</tinhhinh>
+    <taibien>Không</taibien>
+    <tuvong>Không</tuvong>
+    <sovaovien>0003581/08</sovaovien>
+    <tenuser>Khoa Hồi sức cấp cứu</tenuser>
+  </Table>
+  <Table>
+    <mabn>08904436</mabn>
+    <hoten>LÊ THỊ HUỆ</hoten>
+    <tuoi>082TU</tuoi>
+    <namsinh>1926</namsinh>
+    <sonha>67/12/4</sonha>
+    <thon>Bắc Sơn </thon>
+    <tenpxa>P. 11</tenpxa>
+    <tenquan>Tp. Vũng Tàu</tenquan>
+    <tentt>Bà Rịa - Vũng Tàu</tentt>
+    <tennn>Già</tennn>
+    <ngay>01/03/2008 14:15</ngay>
+    <tenkp>Hscc</tenkp>
+    <doituong>BHYT</doituong>
+    <tenpt>Chụp X-quang tại giường</tenpt>
+    <mapt>T12033</mapt>
+    <loaipt>Thủ thuật</loaipt>
+    <tenbs>Nguyễn Đình Tuấn</tenbs>
+    <phuongphap>Khác</phuongphap>
+    <ma_p1>0153</ma_p1>
+    <hoten_p1>Đào Thung Hiếu</hoten_p1>
+    <tinhhinh>Chủ động</tinhhinh>
+    <taibien>Không</taibien>
+    <tuvong>Không</tuvong>
+    <sovaovien>0003173/08</sovaovien>
+    <tenuser>Khoa Hồi sức cấp cứu</tenuser>
+  </Table>
+  <Table>
+    <mabn>08904960</mabn>
+    <hoten>TRẦN VĂN MƯỜI</hoten>
+    <tuoi>043TU</tuoi>
+    <namsinh>1965</namsinh>
+    <sonha>15</sonha>
+    <thon>Nam Kỳ Khởi Nghĩa </thon>
+    <tenpxa>P. 3</tenpxa>
+    <tenquan>Tp. Vũng Tàu</tenquan>
+    <tentt>Bà Rịa - Vũng Tàu</tentt>
+    <tennn>Nhân Dân</tennn>
+    <ngay>01/03/2008 14:15</ngay>
+    <tenkp>Hscc</tenkp>
+    <doituong>Thu phí</doituong>
+    <tenpt>Chụp X-quang tại giường</tenpt>
+    <mapt>T12033</mapt>
+    <loaipt>Thủ thuật</loaipt>
+    <tenbs>Nguyễn Đình Tuấn</tenbs>
+    <phuongphap>Khác</phuongphap>
+    <ma_p1>0151</ma_p1>
+    <hoten_p1>Lê Vĩnh Thụy</hoten_p1>
+    <tinhhinh>Chủ động</tinhhinh>
+    <taibien>Không</taibien>
+    <tuvong>Không</tuvong>
+    <sovaovien>0003581/08</sovaovien>
+    <tenuser>Khoa Hồi sức cấp cứu</tenuser>
+  </Table>
+  <Table>
+    <mabn>08904960</mabn>
+    <hoten>TRẦN VĂN MƯỜI</hoten>
+    <tuoi>043TU</tuoi>
+    <namsinh>1965</namsinh>
+    <sonha>15</sonha>
+    <thon>Nam Kỳ Khởi Nghĩa </thon>
+    <tenpxa>P. 3</tenpxa>
+    <tenquan>Tp. Vũng Tàu</tenquan>
+    <tentt>Bà Rịa - Vũng Tàu</tentt>
+    <tennn>Nhân Dân</tennn>
+    <ngay>01/03/2008 14:16</ngay>
+    <tenkp>Hscc</tenkp>
+    <doituong>Thu phí</doituong>
+    <tenpt>Nâng Huyết Áp Chỉ Huy</tenpt>
+    <mapt>T12049</mapt>
+    <loaipt>Đặc biệt</loaipt>
+    <tenbs>Nguyễn Đình Tuấn</tenbs>
+    <phuongphap>Gây mê tĩnh mạch</phuongphap>
+    <ma_p1>0145</ma_p1>
+    <hoten_p1>Nguyễn Phóng Sự</hoten_p1>
+    <tinhhinh>Chủ động</tinhhinh>
+    <taibien>Không</taibien>
+    <tuvong>Không</tuvong>
+    <sovaovien>0003581/08</sovaovien>
+    <tenuser>Khoa Hồi sức cấp cứu</tenuser>
+  </Table>
+  <Table>
+    <mabn>08905034</mabn>
+    <hoten>PHẠM THỊ THU HIỀN</hoten>
+    <tuoi>027TU</tuoi>
+    <namsinh>1981</namsinh>
+    <sonha>444/17/3</sonha>
+    <thon>Trần Phú </thon>
+    <tenpxa>P. 5</tenpxa>
+    <tenquan>Tp. Vũng Tàu</tenquan>
+    <tentt>Bà Rịa - Vũng Tàu</tentt>
+    <tennn>Công nhân</tennn>
+    <ngay>01/03/2008 17:25</ngay>
+    <tenkp>Phụ Sản</tenkp>
+    <doituong>Thu phí</doituong>
+    <tenpt>Chọc túi cùng Douglas</tenpt>
+    <mapt>T09023</mapt>
+    <loaipt>Thủ thuật</loaipt>
+    <tenbs>Lý Bạch Nga</tenbs>
+    <phuongphap>Khác</phuongphap>
+    <tinhhinh>Chủ động</tinhhinh>
+    <taibien>Không</taibien>
+    <tuvong>Không</tuvong>
+    <sovaovien>0003621/08</sovaovien>
+    <tenuser>Khoa sản</tenuser>
+  </Table>
+  <Table>
+    <mabn>08905005</mabn>
+    <hoten>NGUYỄN THỊ THUỲ DƯƠNG</hoten>
+    <tuoi>039TU</tuoi>
+    <namsinh>1969</namsinh>
+    <sonha>471/29A</sonha>
+    <thon>Đường 30/4</thon>
+    <tenpxa>P. 11</tenpxa>
+    <tenquan>Tp. Vũng Tàu</tenquan>
+    <tentt>Bà Rịa - Vũng Tàu</tentt>
+    <tennn>Nhân Dân</tennn>
+    <ngay>01/03/2008 17:28</ngay>
+    <tenkp>Phòng Mổ</tenkp>
+    <doituong>Thu phí</doituong>
+    <tenpt>Cắt ruột thừa viêm ở vị trí bất thường</tenpt>
+    <mapt>P08042</mapt>
+    <loaipt>Loại 2A</loaipt>
+    <tenbs>Lê Văn Minh</tenbs>
+    <phuongphap>Gây mê nội khí quản</phuongphap>
+    <ma_p1>0092</ma_p1>
+    <hoten_p1>Trần Hữu Đức</hoten_p1>
+    <ma_p2>0094</ma_p2>
+    <hoten_p2>Trần Thị Thu Hiền</hoten_p2>
+    <ma_bsgm>0082</ma_bsgm>
+    <hoten_bsgm>Trần Thị Nhài</hoten_bsgm>
+    <tinhhinh>Cấp cứu</tinhhinh>
+    <taibien>Không</taibien>
+    <tuvong>Không</tuvong>
+    <sovaovien>0003608/08</sovaovien>
+    <tenuser>mo</tenuser>
+  </Table>
+  <Table>
+    <mabn>08905034</mabn>
+    <hoten>PHẠM THỊ THU HIỀN</hoten>
+    <tuoi>027TU</tuoi>
+    <namsinh>1981</namsinh>
+    <sonha>444/17/3</sonha>
+    <thon>Trần Phú </thon>
+    <tenpxa>P. 5</tenpxa>
+    <tenquan>Tp. Vũng Tàu</tenquan>
+    <tentt>Bà Rịa - Vũng Tàu</tentt>
+    <tennn>Công nhân</tennn>
+    <ngay>01/03/2008 17:28</ngay>
+    <tenkp>Phụ Sản</tenkp>
+    <doituong>Thu phí</doituong>
+    <tenpt>Thông Tiểu</tenpt>
+    <mapt>T09024</mapt>
+    <loaipt>Thủ thuật</loaipt>
+    <tenbs>Võ Thị Thu Thuỷ</tenbs>
+    <phuongphap>Khác</phuongphap>
+    <tinhhinh>Chủ động</tinhhinh>
+    <taibien>Không</taibien>
+    <tuvong>Không</tuvong>
+    <sovaovien>0003621/08</sovaovien>
+    <tenuser>Khoa sản</tenuser>
+  </Table>
+  <Table>
+    <mabn>08904960</mabn>
+    <hoten>TRẦN VĂN MƯỜI</hoten>
+    <tuoi>043TU</tuoi>
+    <namsinh>1965</namsinh>
+    <sonha>15</sonha>
+    <thon>Nam Kỳ Khởi Nghĩa </thon>
+    <tenpxa>P. 3</tenpxa>
+    <tenquan>Tp. Vũng Tàu</tenquan>
+    <tentt>Bà Rịa - Vũng Tàu</tentt>
+    <tennn>Nhân Dân</tennn>
+    <ngay>01/03/2008 20:02</ngay>
+    <tenkp>Hscc</tenkp>
+    <doituong>Thu phí</doituong>
+    <tenpt>Hô hấp nhân tạo bằng máy 24 giờ một lần</tenpt>
+    <mapt>T12015</mapt>
+    <loaipt>Thủ thuật</loaipt>
+    <tenbs>Nguyễn Đình Tuấn</tenbs>
+    <phuongphap>Khác</phuongphap>
+    <tinhhinh>Chủ động</tinhhinh>
+    <taibien>Không</taibien>
+    <tuvong>Không</tuvong>
+    <sovaovien>0003581/08</sovaovien>
+    <tenuser>Khoa Hồi sức cấp cứu</tenuser>
+  </Table>
+  <Table>
+    <mabn>08904960</mabn>
+    <hoten>TRẦN VĂN MƯỜI</hoten>
+    <tuoi>043TU</tuoi>
+    <namsinh>1965</namsinh>
+    <sonha>15</sonha>
+    <thon>Nam Kỳ Khởi Nghĩa </thon>
+    <tenpxa>P. 3</tenpxa>
+    <tenquan>Tp. Vũng Tàu</tenquan>
+    <tentt>Bà Rịa - Vũng Tàu</tentt>
+    <tennn>Nhân Dân</tennn>
+    <ngay>01/03/2008 23:20</ngay>
+    <tenkp>Hscc</tenkp>
+    <doituong>Thu phí</doituong>
+    <tenpt>Nâng Huyết Áp Chỉ Huy</tenpt>
+    <mapt>T12049</mapt>
+    <loaipt>Đặc biệt</loaipt>
+    <tenbs>Nguyễn Đình Tuấn</tenbs>
+    <phuongphap>Khác</phuongphap>
+    <tinhhinh>Chủ động</tinhhinh>
+    <taibien>Không</taibien>
+    <tuvong>Không</tuvong>
+    <sovaovien>0003581/08</sovaovien>
+    <tenuser>Khoa Hồi sức cấp cứu</tenuser>
+  </Table>
+  <Table>
+    <mabn>08904960</mabn>
+    <hoten>TRẦN VĂN MƯỜI</hoten>
+    <tuoi>043TU</tuoi>
+    <namsinh>1965</namsinh>
+    <sonha>15</sonha>
+    <thon>Nam Kỳ Khởi Nghĩa </thon>
+    <tenpxa>P. 3</tenpxa>
+    <tenquan>Tp. Vũng Tàu</tenquan>
+    <tentt>Bà Rịa - Vũng Tàu</tentt>
+    <tennn>Nhân Dân</tennn>
+    <ngay>01/03/2008 23:22</ngay>
+    <tenkp>Hscc</tenkp>
+    <doituong>Thu phí</doituong>
+    <tenpt>Nâng Huyết Áp Chỉ Huy</tenpt>
+    <mapt>T12049</mapt>
+    <loaipt>Đặc biệt</loaipt>
+    <tenbs>Nguyễn Đình Tuấn</tenbs>
+    <phuongphap>Khác</phuongphap>
+    <tinhhinh>Chủ động</tinhhinh>
+    <taibien>Không</taibien>
+    <tuvong>Không</tuvong>
+    <sovaovien>0003581/08</sovaovien>
+    <tenuser>Khoa Hồi sức cấp cứu</tenuser>
+  </Table>
+  <Table>
+    <mabn>08904960</mabn>
+    <hoten>TRẦN VĂN MƯỜI</hoten>
+    <tuoi>043TU</tuoi>
+    <namsinh>1965</namsinh>
+    <sonha>15</sonha>
+    <thon>Nam Kỳ Khởi Nghĩa </thon>
+    <tenpxa>P. 3</tenpxa>
+    <tenquan>Tp. Vũng Tàu</tenquan>
+    <tentt>Bà Rịa - Vũng Tàu</tentt>
+    <tennn>Nhân Dân</tennn>
+    <ngay>01/03/2008 23:25</ngay>
+    <tenkp>Hscc</tenkp>
+    <doituong>Thu phí</doituong>
+    <tenpt>Nâng Huyết Áp Chỉ Huy</tenpt>
+    <mapt>T12049</mapt>
+    <loaipt>Đặc biệt</loaipt>
+    <tenbs>Nguyễn Đình Tuấn</tenbs>
+    <phuongphap>Khác</phuongphap>
+    <tinhhinh>Chủ động</tinhhinh>
+    <taibien>Không</taibien>
+    <tuvong>Không</tuvong>
+    <sovaovien>0003581/08</sovaovien>
+    <tenuser>Khoa Hồi sức cấp cứu</tenuser>
+  </Table>
+  <Table>
+    <mabn>08904960</mabn>
+    <hoten>TRẦN VĂN MƯỜI</hoten>
+    <tuoi>043TU</tuoi>
+    <namsinh>1965</namsinh>
+    <sonha>15</sonha>
+    <thon>Nam Kỳ Khởi Nghĩa </thon>
+    <tenpxa>P. 3</tenpxa>
+    <tenquan>Tp. Vũng Tàu</tenquan>
+    <tentt>Bà Rịa - Vũng Tàu</tentt>
+    <tennn>Nhân Dân</tennn>
+    <ngay>01/03/2008 23:25</ngay>
+    <tenkp>Hscc</tenkp>
+    <doituong>Thu phí</doituong>
+    <tenpt>Nâng Huyết Áp Chỉ Huy</tenpt>
+    <mapt>T12049</mapt>
+    <loaipt>Đặc biệt</loaipt>
+    <tenbs>Nguyễn Đình Tuấn</tenbs>
+    <phuongphap>Khác</phuongphap>
+    <tinhhinh>Chủ động</tinhhinh>
+    <taibien>Không</taibien>
+    <tuvong>Không</tuvong>
+    <sovaovien>0003581/08</sovaovien>
+    <tenuser>Khoa Hồi sức cấp cứu</tenuser>
+  </Table>
+  <Table>
+    <mabn>08904960</mabn>
+    <hoten>TRẦN VĂN MƯỜI</hoten>
+    <tuoi>043TU</tuoi>
+    <namsinh>1965</namsinh>
+    <sonha>15</sonha>
+    <thon>Nam Kỳ Khởi Nghĩa </thon>
+    <tenpxa>P. 3</tenpxa>
+    <tenquan>Tp. Vũng Tàu</tenquan>
+    <tentt>Bà Rịa - Vũng Tàu</tentt>
+    <tennn>Nhân Dân</tennn>
+    <ngay>01/03/2008 23:26</ngay>
+    <tenkp>Hscc</tenkp>
+    <doituong>Thu phí</doituong>
+    <tenpt>Nâng Huyết Áp Chỉ Huy</tenpt>
+    <mapt>T12049</mapt>
+    <loaipt>Đặc biệt</loaipt>
+    <tenbs>Nguyễn Đình Tuấn</tenbs>
+    <phuongphap>Khác</phuongphap>
+    <tinhhinh>Chủ động</tinhhinh>
+    <taibien>Không</taibien>
+    <tuvong>Không</tuvong>
+    <sovaovien>0003581/08</sovaovien>
+    <tenuser>Khoa Hồi sức cấp cứu</tenuser>
+  </Table>
+  <Table>
+    <mabn>08904960</mabn>
+    <hoten>TRẦN VĂN MƯỜI</hoten>
+    <tuoi>043TU</tuoi>
+    <namsinh>1965</namsinh>
+    <sonha>15</sonha>
+    <thon>Nam Kỳ Khởi Nghĩa </thon>
+    <tenpxa>P. 3</tenpxa>
+    <tenquan>Tp. Vũng Tàu</tenquan>
+    <tentt>Bà Rịa - Vũng Tàu</tentt>
+    <tennn>Nhân Dân</tennn>
+    <ngay>01/03/2008 23:27</ngay>
+    <tenkp>Hscc</tenkp>
+    <doituong>Thu phí</doituong>
+    <tenpt>Nâng Huyết Áp Chỉ Huy</tenpt>
+    <mapt>T12049</mapt>
+    <loaipt>Đặc biệt</loaipt>
+    <tenbs>Nguyễn Đình Tuấn</tenbs>
+    <phuongphap>Khác</phuongphap>
+    <tinhhinh>Chủ động</tinhhinh>
+    <taibien>Không</taibien>
+    <tuvong>Không</tuvong>
+    <sovaovien>0003581/08</sovaovien>
+    <tenuser>Khoa Hồi sức cấp cứu</tenuser>
+  </Table>
+  <Table>
+    <mabn>07025234</mabn>
+    <hoten>VŨ THỊ RĨ</hoten>
+    <tuoi>077TU</tuoi>
+    <namsinh>1931</namsinh>
+    <sonha>416</sonha>
+    <thon>30/4</thon>
+    <tenpxa>P. Rạch Dừa</tenpxa>
+    <tenquan>Tp. Vũng Tàu</tenquan>
+    <tentt>Bà Rịa - Vũng Tàu</tentt>
+    <tennn>Già</tennn>
+    <ngay>01/03/2008 23:28</ngay>
+    <tenkp>Hscc</tenkp>
+    <doituong>BHYT</doituong>
+    <tenpt>Hạ huyết áp chỉ huy</tenpt>
+    <mapt>T12019</mapt>
+    <loaipt>Thủ thuật</loaipt>
+    <tenbs>Nguyễn Đình Tuấn</tenbs>
+    <phuongphap>Gây mê nội khí quản</phuongphap>
+    <tinhhinh>Chủ động</tinhhinh>
+    <taibien>Không</taibien>
+    <tuvong>Không</tuvong>
+    <sovaovien>0003636/08</sovaovien>
+    <tenuser>Khoa Hồi sức cấp cứu</tenuser>
+  </Table>
+  <Table>
+    <mabn>08904436</mabn>
+    <hoten>LÊ THỊ HUỆ</hoten>
+    <tuoi>082TU</tuoi>
+    <namsinh>1926</namsinh>
+    <sonha>67/12/4</sonha>
+    <thon>Bắc Sơn </thon>
+    <tenpxa>P. 11</tenpxa>
+    <tenquan>Tp. Vũng Tàu</tenquan>
+    <tentt>Bà Rịa - Vũng Tàu</tentt>
+    <tennn>Già</tennn>
+    <ngay>02/03/2008 02:20</ngay>
+    <tenkp>Hscc</tenkp>
+    <doituong>BHYT</doituong>
+    <tenpt>Hô hấp nhân tạo bằng máy 24 giờ một lần</tenpt>
+    <mapt>T12015</mapt>
+    <loaipt>Thủ thuật</loaipt>
+    <tenbs>Nguyễn Đình Tuấn</tenbs>
+    <phuongphap>Khác</phuongphap>
+    <tinhhinh>Chủ động</tinhhinh>
+    <taibien>Không</taibien>
+    <tuvong>Không</tuvong>
+    <sovaovien>0003173/08</sovaovien>
+    <tenuser>Khoa Hồi sức cấp cứu</tenuser>
+  </Table>
+  <Table>
+    <mabn>08903554</mabn>
+    <hoten>ĐỖ ANH TUẤN</hoten>
+    <tuoi>027TU</tuoi>
+    <namsinh>1982</namsinh>
+    <sonha />
+    <thon />
+    <tenpxa>Không xác định</tenpxa>
+    <tenquan>Không xác định</tenquan>
+    <tentt>Đồng Nai</tentt>
+    <tennn>Sinh viên, học sinh</tennn>
+    <ngay>02/03/2008 02:23</ngay>
+    <tenkp>Hscc</tenkp>
+    <doituong>BHYT</doituong>
+    <tenpt>Hô hấp nhân tạo bằng máy 24 giờ một lần</tenpt>
+    <mapt>T12015</mapt>
+    <loaipt>Thủ thuật</loaipt>
+    <tenbs>Nguyễn Đình Tuấn</tenbs>
+    <phuongphap>Khác</phuongphap>
+    <tinhhinh>Chủ động</tinhhinh>
+    <taibien>Không</taibien>
+    <tuvong>Không</tuvong>
+    <sovaovien>0002469/08</sovaovien>
+    <tenuser>Khoa Hồi sức cấp cứu</tenuser>
+  </Table>
+  <Table>
+    <mabn>08904960</mabn>
+    <hoten>TRẦN VĂN MƯỜI</hoten>
+    <tuoi>043TU</tuoi>
+    <namsinh>1965</namsinh>
+    <sonha>15</sonha>
+    <thon>Nam Kỳ Khởi Nghĩa </thon>
+    <tenpxa>P. 3</tenpxa>
+    <tenquan>Tp. Vũng Tàu</tenquan>
+    <tentt>Bà Rịa - Vũng Tàu</tentt>
+    <tennn>Nhân Dân</tennn>
+    <ngay>02/03/2008 02:25</ngay>
+    <tenkp>Hscc</tenkp>
+    <doituong>Thu phí</doituong>
+    <tenpt>Hô hấp nhân tạo bằng máy 24 giờ một lần</tenpt>
+    <mapt>T12015</mapt>
+    <loaipt>Thủ thuật</loaipt>
+    <tenbs>Nguyễn Đình Tuấn</tenbs>
+    <phuongphap>Khác</phuongphap>
+    <tinhhinh>Chủ động</tinhhinh>
+    <taibien>Không</taibien>
+    <tuvong>Không</tuvong>
+    <sovaovien>0003581/08</sovaovien>
+    <tenuser>Khoa Hồi sức cấp cứu</tenuser>
+  </Table>
+  <Table>
+    <mabn>08904960</mabn>
+    <hoten>TRẦN VĂN MƯỜI</hoten>
+    <tuoi>043TU</tuoi>
+    <namsinh>1965</namsinh>
+    <sonha>15</sonha>
+    <thon>Nam Kỳ Khởi Nghĩa </thon>
+    <tenpxa>P. 3</tenpxa>
+    <tenquan>Tp. Vũng Tàu</tenquan>
+    <tentt>Bà Rịa - Vũng Tàu</tentt>
+    <tennn>Nhân Dân</tennn>
+    <ngay>02/03/2008 02:28</ngay>
+    <tenkp>Hscc</tenkp>
+    <doituong>Thu phí</doituong>
+    <tenpt>Nâng Huyết Áp Chỉ Huy</tenpt>
+    <mapt>T12049</mapt>
+    <loaipt>Đặc biệt</loaipt>
+    <tenbs>Nguyễn Đình Tuấn</tenbs>
+    <phuongphap>Khác</phuongphap>
+    <ma_p1>0144</ma_p1>
+    <hoten_p1>Võ Văn Đường</hoten_p1>
+    <tinhhinh>Chủ động</tinhhinh>
+    <taibien>Không</taibien>
+    <tuvong>Không</tuvong>
+    <sovaovien>0003581/08</sovaovien>
+    <tenuser>Khoa Hồi sức cấp cứu</tenuser>
+  </Table>
+  <Table>
+    <mabn>08904960</mabn>
+    <hoten>TRẦN VĂN MƯỜI</hoten>
+    <tuoi>043TU</tuoi>
+    <namsinh>1965</namsinh>
+    <sonha>15</sonha>
+    <thon>Nam Kỳ Khởi Nghĩa </thon>
+    <tenpxa>P. 3</tenpxa>
+    <tenquan>Tp. Vũng Tàu</tenquan>
+    <tentt>Bà Rịa - Vũng Tàu</tentt>
+    <tennn>Nhân Dân</tennn>
+    <ngay>02/03/2008 02:31</ngay>
+    <tenkp>Hscc</tenkp>
+    <doituong>Thu phí</doituong>
+    <tenpt>Nâng Huyết Áp Chỉ Huy</tenpt>
+    <mapt>T12049</mapt>
+    <loaipt>Đặc biệt</loaipt>
+    <tenbs>Nguyễn Đình Tuấn</tenbs>
+    <phuongphap>Khác</phuongphap>
+    <ma_p1>0144</ma_p1>
+    <hoten_p1>Võ Văn Đường</hoten_p1>
+    <tinhhinh>Chủ động</tinhhinh>
+    <taibien>Không</taibien>
+    <tuvong>Không</tuvong>
+    <sovaovien>0003581/08</sovaovien>
+    <tenuser>Khoa Hồi sức cấp cứu</tenuser>
+  </Table>
+  <Table>
+    <mabn>08801151</mabn>
+    <hoten>NGUYỄN THỊ PHƯỢNG</hoten>
+    <tuoi>022TU</tuoi>
+    <namsinh>1986</namsinh>
+    <sonha>6a</sonha>
+    <thon>Chi Lăng</thon>
+    <tenpxa>P. 12</tenpxa>
+    <tenquan>Tp. Vũng Tàu</tenquan>
+    <tentt>Bà Rịa - Vũng Tàu</tentt>
+    <tennn>Nhân Dân</tennn>
+    <ngay>02/03/2008 16:34</ngay>
+    <tenkp>Phụ Sản</tenkp>
+    <doituong>Thu phí</doituong>
+    <tenpt>Thông Tiểu</tenpt>
+    <mapt>T09024</mapt>
+    <loaipt>Thủ thuật</loaipt>
+    <tenbs>Phan Thị Phượng</tenbs>
+    <phuongphap>Khác</phuongphap>
+    <tinhhinh>Chủ động</tinhhinh>
+    <taibien>Không</taibien>
+    <tuvong>Không</tuvong>
+    <sovaovien>0003661/08</sovaovien>
+    <tenuser>Khoa sản</tenuser>
+  </Table>
+  <Table>
+    <mabn>08905102</mabn>
+    <hoten>TRẦN THỊ NHUNG</hoten>
+    <tuoi>059TU</tuoi>
+    <namsinh>1949</namsinh>
+    <sonha>4/13/21</sonha>
+    <thon>Võ Văn Tần </thon>
+    <tenpxa>P. Thắng Nhất</tenpxa>
+    <tenquan>Tp. Vũng Tàu</tenquan>
+    <tentt>Bà Rịa - Vũng Tàu</tentt>
+    <tennn>Nhân Dân</tennn>
+    <ngay>03/03/2008 05:49</ngay>
+    <tenkp>Hscc</tenkp>
+    <doituong>Thu phí</doituong>
+    <tenpt>Dẫn lưu nước tiểu bàng quang</tenpt>
+    <mapt>P10062</mapt>
+    <loaipt>Loại 2C</loaipt>
+    <tenbs>Lê Vĩnh Thụy</tenbs>
+    <phuongphap>Khác</phuongphap>
+    <ma_p1>0031</ma_p1>
+    <hoten_p1>Lê Quốc Bàn</hoten_p1>
+    <tinhhinh>Chủ động</tinhhinh>
+    <taibien>Không</taibien>
+    <tuvong>Không</tuvong>
+    <sovaovien>0003658/08</sovaovien>
+    <tenuser>Khoa Hồi sức cấp cứu</tenuser>
+  </Table>
+  <Table>
+    <mabn>07025234</mabn>
+    <hoten>VŨ THỊ RĨ</hoten>
+    <tuoi>077TU</tuoi>
+    <namsinh>1931</namsinh>
+    <sonha>416</sonha>
+    <thon>30/4</thon>
+    <tenpxa>P. Rạch Dừa</tenpxa>
+    <tenquan>Tp. Vũng Tàu</tenquan>
+    <tentt>Bà Rịa - Vũng Tàu</tentt>
+    <tennn>Già</tennn>
+    <ngay>03/03/2008 05:53</ngay>
+    <tenkp>Hscc</tenkp>
+    <doituong>BHYT</doituong>
+    <tenpt>Hạ huyết áp chỉ huy</tenpt>
+    <mapt>T12019</mapt>
+    <loaipt>Thủ thuật</loaipt>
+    <tenbs>Nguyễn Đình Tuấn</tenbs>
+    <phuongphap>Khác</phuongphap>
+    <tinhhinh>Chủ động</tinhhinh>
+    <taibien>Không</taibien>
+    <tuvong>Không</tuvong>
+    <sovaovien>0003636/08</sovaovien>
+    <tenuser>Khoa Hồi sức cấp cứu</tenuser>
+  </Table>
+  <Table>
+    <mabn>08902776</mabn>
+    <hoten>NGUYỄN NGỌC LONG</hoten>
+    <tuoi>025TU</tuoi>
+    <namsinh>1983</namsinh>
+    <sonha>134</sonha>
+    <thon>Trương Công Định </thon>
+    <tenpxa>P. 3</tenpxa>
+    <tenquan>Tp. Vũng Tàu</tenquan>
+    <tentt>Bà Rịa - Vũng Tàu</tentt>
+    <tennn>Công nhân</tennn>
+    <ngay>03/03/2008 05:54</ngay>
+    <tenkp>Hscc</tenkp>
+    <doituong>Thu phí</doituong>
+    <tenpt>Chụp X-quang tại giường</tenpt>
+    <mapt>T12033</mapt>
+    <loaipt>Thủ thuật</loaipt>
+    <tenbs>Nguyễn Đình Tuấn</tenbs>
+    <phuongphap>Khác</phuongphap>
+    <tinhhinh>Chủ động</tinhhinh>
+    <taibien>Không</taibien>
+    <tuvong>Không</tuvong>
+    <sovaovien>0002178/08</sovaovien>
+    <tenuser>Khoa Hồi sức cấp cứu</tenuser>
+  </Table>
+  <Table>
+    <mabn>07025234</mabn>
+    <hoten>VŨ THỊ RĨ</hoten>
+    <tuoi>077TU</tuoi>
+    <namsinh>1931</namsinh>
+    <sonha>416</sonha>
+    <thon>30/4</thon>
+    <tenpxa>P. Rạch Dừa</tenpxa>
+    <tenquan>Tp. Vũng Tàu</tenquan>
+    <tentt>Bà Rịa - Vũng Tàu</tentt>
+    <tennn>Già</tennn>
+    <ngay>03/03/2008 05:54</ngay>
+    <tenkp>Hscc</tenkp>
+    <doituong>BHYT</doituong>
+    <tenpt>Hạ huyết áp chỉ huy</tenpt>
+    <mapt>T12019</mapt>
+    <loaipt>Thủ thuật</loaipt>
+    <tenbs>Nguyễn Đình Tuấn</tenbs>
+    <phuongphap>Khác</phuongphap>
+    <tinhhinh>Chủ động</tinhhinh>
+    <taibien>Không</taibien>
+    <tuvong>Không</tuvong>
+    <sovaovien>0003636/08</sovaovien>
+    <tenuser>Khoa Hồi sức cấp cứu</tenuser>
+  </Table>
+  <Table>
+    <mabn>08903554</mabn>
+    <hoten>ĐỖ ANH TUẤN</hoten>
+    <tuoi>027TU</tuoi>
+    <namsinh>1982</namsinh>
+    <sonha />
+    <thon />
+    <tenpxa>Không xác định</tenpxa>
+    <tenquan>Không xác định</tenquan>
+    <tentt>Đồng Nai</tentt>
+    <tennn>Sinh viên, học sinh</tennn>
+    <ngay>03/03/2008 05:55</ngay>
+    <tenkp>Hscc</tenkp>
+    <doituong>BHYT</doituong>
+    <tenpt>Hô hấp nhân tạo bằng máy 24 giờ một lần</tenpt>
+    <mapt>T12015</mapt>
+    <loaipt>Thủ thuật</loaipt>
+    <tenbs>Nguyễn Đình Tuấn</tenbs>
+    <phuongphap>Khác</phuongphap>
+    <tinhhinh>Chủ động</tinhhinh>
+    <taibien>Không</taibien>
+    <tuvong>Không</tuvong>
+    <sovaovien>0002469/08</sovaovien>
+    <tenuser>Khoa Hồi sức cấp cứu</tenuser>
+  </Table>
+  <Table>
+    <mabn>08902776</mabn>
+    <hoten>NGUYỄN NGỌC LONG</hoten>
+    <tuoi>025TU</tuoi>
+    <namsinh>1983</namsinh>
+    <sonha>134</sonha>
+    <thon>Trương Công Định </thon>
+    <tenpxa>P. 3</tenpxa>
+    <tenquan>Tp. Vũng Tàu</tenquan>
+    <tentt>Bà Rịa - Vũng Tàu</tentt>
+    <tennn>Công nhân</tennn>
+    <ngay>03/03/2008 05:55</ngay>
+    <tenkp>Hscc</tenkp>
+    <doituong>Thu phí</doituong>
+    <tenpt>Hô hấp nhân tạo bằng máy 24 giờ một lần</tenpt>
+    <mapt>T12015</mapt>
+    <loaipt>Thủ thuật</loaipt>
+    <tenbs>Nguyễn Đình Tuấn</tenbs>
+    <phuongphap>Khác</phuongphap>
+    <tinhhinh>Chủ động</tinhhinh>
+    <taibien>Không</taibien>
+    <tuvong>Không</tuvong>
+    <sovaovien>0002178/08</sovaovien>
+    <tenuser>Khoa Hồi sức cấp cứu</tenuser>
+  </Table>
+  <Table>
+    <mabn>08801164</mabn>
+    <hoten>TRẦN THỊ THU THUỶ</hoten>
+    <tuoi>028TU</tuoi>
+    <namsinh>1980</namsinh>
+    <sonha>65</sonha>
+    <thon>Thuỳ Vân</thon>
+    <tenpxa>P. 2</tenpxa>
+    <tenquan>Tp. Vũng Tàu</tenquan>
+    <tentt>Bà Rịa - Vũng Tàu</tentt>
+    <tennn>Giáo Viên</tennn>
+    <ngay>03/03/2008 08:30</ngay>
+    <tenkp>Phòng Mổ</tenkp>
+    <doituong>BHYT</doituong>
+    <tenpt>Lấy thai lần hai hay lần thứ ba</tenpt>
+    <mapt>P11018</mapt>
+    <loaipt>Đặc biệt</loaipt>
+    <tenbs>Lê Thị Thanh Nguyên</tenbs>
+    <phuongphap>Gây tê tủy sống</phuongphap>
+    <ma_p1>0089</ma_p1>
+    <hoten_p1>Vũ Thị Mão</hoten_p1>
+    <ma_p2>0090</ma_p2>
+    <hoten_p2>Phạm Thị Hồng Vân</hoten_p2>
+    <ma_bsgm>0085</ma_bsgm>
+    <hoten_bsgm>Phạm Văn Ngọ</hoten_bsgm>
+    <tinhhinh>Cấp cứu</tinhhinh>
+    <taibien>Không</taibien>
+    <tuvong>Không</tuvong>
+    <sovaovien>0003710/08</sovaovien>
+    <tenuser>Phòng mổ</tenuser>
+  </Table>
+  <Table>
+    <mabn>08801163</mabn>
+    <hoten>NGUYỄN THỊ THUÝ</hoten>
+    <tuoi>037TU</tuoi>
+    <namsinh>1971</namsinh>
+    <sonha>189/23</sonha>
+    <thon>Hoàng Hoa Thám</thon>
+    <tenpxa>P. Thắng Tam</tenpxa>
+    <tenquan>Tp. Vũng Tàu</tenquan>
+    <tentt>Bà Rịa - Vũng Tàu</tentt>
+    <tennn>Nhân Dân</tennn>
+    <ngay>03/03/2008 09:30</ngay>
+    <tenkp>Phòng Mổ</tenkp>
+    <doituong>Thu phí</doituong>
+    <tenpt>Lấy thai lần đầu</tenpt>
+    <mapt>P11021</mapt>
+    <loaipt>Loại 2A</loaipt>
+    <tenbs>Lê Thị Thanh Nguyên</tenbs>
+    <phuongphap>Gây tê tủy sống</phuongphap>
+    <ma_p1>0089</ma_p1>
+    <hoten_p1>Vũ Thị Mão</hoten_p1>
+    <ma_p2>0090</ma_p2>
+    <hoten_p2>Phạm Thị Hồng Vân</hoten_p2>
+    <ma_bsgm>0085</ma_bsgm>
+    <hoten_bsgm>Phạm Văn Ngọ</hoten_bsgm>
+    <tinhhinh>Chủ động</tinhhinh>
+    <taibien>Không</taibien>
+    <tuvong>Không</tuvong>
+    <sovaovien>0003711/08</sovaovien>
+    <tenuser>Phòng mổ</tenuser>
+  </Table>
+  <Table>
+    <mabn>08801169</mabn>
+    <hoten>PHẠM THỊ THANH THUÝ</hoten>
+    <tuoi>021TU</tuoi>
+    <namsinh>1987</namsinh>
+    <sonha>60/43</sonha>
+    <thon>Bạch Đằng</thon>
+    <tenpxa>P. 5</tenpxa>
+    <tenquan>Tp. Vũng Tàu</tenquan>
+    <tentt>Bà Rịa - Vũng Tàu</tentt>
+    <tennn>Nhân Dân</tennn>
+    <ngay>03/03/2008 13:00</ngay>
+    <tenkp>Phòng Mổ</tenkp>
+    <doituong>Thu phí</doituong>
+    <tenpt>Lấy thai lần hai hay lần thứ ba</tenpt>
+    <mapt>P11018</mapt>
+    <loaipt>Đặc biệt</loaipt>
+    <tenbs>Lê Thị Thanh Nguyên</tenbs>
+    <phuongphap>Gây tê tủy sống</phuongphap>
+    <ma_p1>0089</ma_p1>
+    <hoten_p1>Vũ Thị Mão</hoten_p1>
+    <ma_p2>0090</ma_p2>
+    <hoten_p2>Phạm Thị Hồng Vân</hoten_p2>
+    <ma_bsgm>0085</ma_bsgm>
+    <hoten_bsgm>Phạm Văn Ngọ</hoten_bsgm>
+    <tinhhinh>Chủ động</tinhhinh>
+    <taibien>Không</taibien>
+    <tuvong>Không</tuvong>
+    <sovaovien>0003736/08</sovaovien>
+    <tenuser>mo</tenuser>
+  </Table>
+  <Table>
+    <mabn>08801169</mabn>
+    <hoten>PHẠM THỊ THANH THUÝ</hoten>
+    <tuoi>021TU</tuoi>
+    <namsinh>1987</namsinh>
+    <sonha>60/43</sonha>
+    <thon>Bạch Đằng</thon>
+    <tenpxa>P. 5</tenpxa>
+    <tenquan>Tp. Vũng Tàu</tenquan>
+    <tentt>Bà Rịa - Vũng Tàu</tentt>
+    <tennn>Nhân Dân</tennn>
+    <ngay>03/03/2008 14:40</ngay>
+    <tenkp>Phòng Mổ</tenkp>
+    <doituong>Thu phí</doituong>
+    <tenpt>Lấy thai lần đầu</tenpt>
+    <mapt>P11021</mapt>
+    <loaipt>Loại 2A</loaipt>
+    <tenbs>Lê Thị Thanh Nguyên</tenbs>
+    <phuongphap>Gây tê tủy sống</phuongphap>
+    <ma_p1>0089</ma_p1>
+    <hoten_p1>Vũ Thị Mão</hoten_p1>
+    <ma_p2>0090</ma_p2>
+    <hoten_p2>Phạm Thị Hồng Vân</hoten_p2>
+    <ma_bsgm>0085</ma_bsgm>
+    <hoten_bsgm>Phạm Văn Ngọ</hoten_bsgm>
+    <tinhhinh>Chủ động</tinhhinh>
+    <taibien>Không</taibien>
+    <tuvong>Không</tuvong>
+    <sovaovien>0003736/08</sovaovien>
+    <tenuser>Phòng mổ</tenuser>
+  </Table>
+  <Table>
+    <mabn>07049074</mabn>
+    <hoten>PHẠM THỊ YÊN</hoten>
+    <tuoi>025TU</tuoi>
+    <namsinh>1983</namsinh>
+    <sonha>786/11/4</sonha>
+    <thon>Bình Giả </thon>
+    <tenpxa>P. 10</tenpxa>
+    <tenquan>Tp. Vũng Tàu</tenquan>
+    <tentt>Bà Rịa - Vũng Tàu</tentt>
+    <tennn>Công nhân</tennn>
+    <ngay>03/03/2008 15:00</ngay>
+    <tenkp>Phòng Mổ</tenkp>
+    <doituong>BHYT</doituong>
+    <tenpt>Lấy thai lần đầu</tenpt>
+    <mapt>P11021</mapt>
+    <loaipt>Loại 2A</loaipt>
+    <tenbs>Lê Thị Thanh Nguyên</tenbs>
+    <phuongphap>Gây tê tủy sống</phuongphap>
+    <ma_p1>0089</ma_p1>
+    <hoten_p1>Vũ Thị Mão</hoten_p1>
+    <ma_p2>0090</ma_p2>
+    <hoten_p2>Phạm Thị Hồng Vân</hoten_p2>
+    <ma_bsgm>0085</ma_bsgm>
+    <hoten_bsgm>Phạm Văn Ngọ</hoten_bsgm>
+    <tinhhinh>Cấp cứu</tinhhinh>
+    <taibien>Không</taibien>
+    <tuvong>Không</tuvong>
+    <sovaovien>0003729/08</sovaovien>
+    <tenuser>mo</tenuser>
+  </Table>
+  <Table>
+    <mabn>07024820</mabn>
+    <hoten>NGUYỄN THỊ TUYẾT HỒNG</hoten>
+    <tuoi>030TU</tuoi>
+    <namsinh>1978</namsinh>
+    <sonha>57/3</sonha>
+    <thon>Phan Chu Trinh </thon>
+    <tenpxa>P. 2</tenpxa>
+    <tenquan>Tp. Vũng Tàu</tenquan>
+    <tentt>Bà Rịa - Vũng Tàu</tentt>
+    <tennn>Công nhân</tennn>
+    <ngay>03/03/2008 18:00</ngay>
+    <tenkp>Phòng Mổ</tenkp>
+    <doituong>BHYT</doituong>
+    <tenpt>Phẫu thuật chửa ngoài tử cung không có choáng</tenpt>
+    <mapt>P11026</mapt>
+    <loaipt>Loại 1C</loaipt>
+    <tenbs>Lê Thị Thanh Nguyên</tenbs>
+    <phuongphap>Gây tê tủy sống</phuongphap>
+    <ma_p1>0089</ma_p1>
+    <hoten_p1>Vũ Thị Mão</hoten_p1>
+    <ma_p2>0090</ma_p2>
+    <hoten_p2>Phạm Thị Hồng Vân</hoten_p2>
+    <ma_bsgm>0085</ma_bsgm>
+    <hoten_bsgm>Phạm Văn Ngọ</hoten_bsgm>
+    <tinhhinh>Chủ động</tinhhinh>
+    <taibien>Không</taibien>
+    <tuvong>Không</tuvong>
+    <sovaovien>0003748/08</sovaovien>
+    <tenuser>Phòng mổ</tenuser>
+  </Table>
+  <Table>
+    <mabn>08905211</mabn>
+    <hoten>TRẦN THỊ TỴ</hoten>
+    <tuoi>082TU</tuoi>
+    <namsinh>1926</namsinh>
+    <sonha>207b4</sonha>
+    <thon>5tầng</thon>
+    <tenpxa>P. 7</tenpxa>
+    <tenquan>Tp. Vũng Tàu</tenquan>
+    <tentt>Bà Rịa - Vũng Tàu</tentt>
+    <tennn>Già</tennn>
+    <ngay>03/03/2008 20:00</ngay>
+    <tenkp>Ngoại</tenkp>
+    <doituong>Thu phí</doituong>
+    <tenpt>Cắt ruột thừa viêm ở vị trí bất thường</tenpt>
+    <mapt>P08042</mapt>
+    <loaipt>Loại 2A</loaipt>
+    <tenbs>Nguyễn Văn Bình</tenbs>
+    <phuongphap>Gây tê tủy sống</phuongphap>
+    <ma_p1>0025</ma_p1>
+    <hoten_p1>Phạm Duy Toàn</hoten_p1>
+    <ma_p2>0190</ma_p2>
+    <hoten_p2>Dương Hữu Toàn</hoten_p2>
+    <ma_bsgm>0085</ma_bsgm>
+    <hoten_bsgm>Phạm Văn Ngọ</hoten_bsgm>
+    <ma_ktvgm>0162</ma_ktvgm>
+    <hoten_ktvgm>Nguyễn Thị Hằng</hoten_ktvgm>
+    <tinhhinh>Cấp cứu</tinhhinh>
+    <taibien>Không</taibien>
+    <tuvong>Không</tuvong>
+    <sovaovien>0003747/08</sovaovien>
+    <tenuser>Khoa Ngoại</tenuser>
+  </Table>
+  <Table>
+    <mabn>07071135</mabn>
+    <hoten>TRẦN THỊ HỒNG PHÚC</hoten>
+    <tuoi>017TU</tuoi>
+    <namsinh>1991</namsinh>
+    <sonha>28</sonha>
+    <thon>Dương Vân Nga </thon>
+    <tenpxa>P. Rạch Dừa</tenpxa>
+    <tenquan>Tp. Vũng Tàu</tenquan>
+    <tentt>Bà Rịa - Vũng Tàu</tentt>
+    <tennn>Nhân Dân</tennn>
+    <ngay>04/03/2008 00:05</ngay>
+    <tenkp>Phòng Mổ</tenkp>
+    <doituong>BHYT</doituong>
+    <tenpt>Lấy thai lần đầu</tenpt>
+    <mapt>P11021</mapt>
+    <loaipt>Loại 2A</loaipt>
+    <tenbs>Lê Thị Thanh Nguyên</tenbs>
+    <phuongphap>Gây tê tủy sống</phuongphap>
+    <ma_p1>0089</ma_p1>
+    <hoten_p1>Vũ Thị Mão</hoten_p1>
+    <ma_p2>0090</ma_p2>
+    <hoten_p2>Phạm Thị Hồng Vân</hoten_p2>
+    <ma_bsgm>0085</ma_bsgm>
+    <hoten_bsgm>Phạm Văn Ngọ</hoten_bsgm>
+    <tinhhinh>Chủ động</tinhhinh>
+    <taibien>Không</taibien>
+    <tuvong>Không</tuvong>
+    <sovaovien>0003761/08</sovaovien>
+    <tenuser>Phòng mổ</tenuser>
+  </Table>
+  <Table>
+    <mabn>07051276</mabn>
+    <hoten>NGUYỄN THỊ TRÂM</hoten>
+    <tuoi>032TU</tuoi>
+    <namsinh>1976</namsinh>
+    <sonha>11B2</sonha>
+    <thon>Lê Quang Định</thon>
+    <tenpxa>P. 9</tenpxa>
+    <tenquan>Tp. Vũng Tàu</tenquan>
+    <tentt>Bà Rịa - Vũng Tàu</tentt>
+    <tennn>Công nhân</tennn>
+    <ngay>04/03/2008 05:15</ngay>
+    <tenkp>Phòng Mổ</tenkp>
+    <doituong>BHYT</doituong>
+    <tenpt>Lấy thai lần đầu</tenpt>
+    <mapt>P11021</mapt>
+    <loaipt>Loại 2A</loaipt>
+    <tenbs>Lê Thị Thanh Nguyên</tenbs>
+    <phuongphap>Gây tê tủy sống</phuongphap>
+    <ma_p1>0089</ma_p1>
+    <hoten_p1>Vũ Thị Mão</hoten_p1>
+    <ma_p2>0090</ma_p2>
+    <hoten_p2>Phạm Thị Hồng Vân</hoten_p2>
+    <ma_bsgm>0085</ma_bsgm>
+    <hoten_bsgm>Phạm Văn Ngọ</hoten_bsgm>
+    <tinhhinh>Chủ động</tinhhinh>
+    <taibien>Không</taibien>
+    <tuvong>Không</tuvong>
+    <sovaovien>0003770/08</sovaovien>
+    <tenuser>Phòng mổ</tenuser>
+  </Table>
+  <Table>
+    <mabn>08902593</mabn>
+    <hoten>LÝ VĂN HẬU</hoten>
+    <tuoi>001TU</tuoi>
+    <namsinh>2007</namsinh>
+    <sonha>30/11/10</sonha>
+    <thon>Nguyễn Công Trứ</thon>
+    <tenpxa>P. 2</tenpxa>
+    <tenquan>Tp. Vũng Tàu</tenquan>
+    <tentt>Bà Rịa - Vũng Tàu</tentt>
+    <tennn>Trẻ dưới 6 tuổi đi học, dưới 15 tuổi không đi học</tennn>
+    <ngay>04/03/2008 08:36</ngay>
+    <tenkp>Phòng Mổ</tenkp>
+    <doituong>Miễn phí</doituong>
+    <tenpt>Tháo lồng ruột bằng hơi</tenpt>
+    <mapt>T06002</mapt>
+    <loaipt>Thủ thuật</loaipt>
+    <tenbs>Nguyễn Hữu Thọ</tenbs>
+    <phuongphap>Gây mê tĩnh mạch</phuongphap>
+    <ma_p1>0094</ma_p1>
+    <hoten_p1>Trần Thị Thu Hiền</hoten_p1>
+    <ma_bsgm>0084</ma_bsgm>
+    <hoten_bsgm>Nguyễn Trọng Hiệp</hoten_bsgm>
+    <tinhhinh>Chủ động</tinhhinh>
+    <taibien>Không</taibien>
+    <tuvong>Không</tuvong>
+    <sovaovien>0003774/08</sovaovien>
+    <tenuser>mo</tenuser>
+  </Table>
+  <Table>
+    <mabn>08905249</mabn>
+    <hoten>NGUYỄN  BẢO VÂN</hoten>
+    <tuoi>035TU</tuoi>
+    <namsinh>1973</namsinh>
+    <sonha>90</sonha>
+    <thon>Nguyễn Hữu Cảnh </thon>
+    <tenpxa>P. Thắng Nhất</tenpxa>
+    <tenquan>Tp. Vũng Tàu</tenquan>
+    <tentt>Bà Rịa - Vũng Tàu</tentt>
+    <tennn>Công nhân</tennn>
+    <ngay>04/03/2008 14:15</ngay>
+    <tenkp>Phòng Mổ</tenkp>
+    <doituong>BHYT</doituong>
+    <tenpt>Cắt ruột thừa qua nội soi</tenpt>
+    <mapt>P16027</mapt>
+    <loaipt>Loại 1B</loaipt>
+    <tenbs>Nguyễn Văn Bình</tenbs>
+    <phuongphap>Gây mê nội khí quản</phuongphap>
+    <ma_p1>0092</ma_p1>
+    <hoten_p1>Trần Hữu Đức</hoten_p1>
+    <ma_p2>0094</ma_p2>
+    <hoten_p2>Trần Thị Thu Hiền</hoten_p2>
+    <ma_bsgm>0084</ma_bsgm>
+    <hoten_bsgm>Nguyễn Trọng Hiệp</hoten_bsgm>
+    <ma_ktvgm>0082</ma_ktvgm>
+    <hoten_ktvgm>Trần Thị Nhài</hoten_ktvgm>
+    <tinhhinh>Cấp cứu</tinhhinh>
+    <taibien>Không</taibien>
+    <tuvong>Không</tuvong>
+    <sovaovien>0003785/08</sovaovien>
+    <tenuser>Phòng mổ</tenuser>
+  </Table>
+  <Table>
+    <mabn>08905260</mabn>
+    <hoten>TRƯƠNG TOÀN NHÂN</hoten>
+    <tuoi>017TU</tuoi>
+    <namsinh>1991</namsinh>
+    <sonha />
+    <thon>Phước Tỉnh</thon>
+    <tenpxa>Không xác định</tenpxa>
+    <tenquan>Tp. Vũng Tàu</tenquan>
+    <tentt>Bà Rịa - Vũng Tàu</tentt>
+    <tennn>Nhân Dân</tennn>
+    <ngay>04/03/2008 15:30</ngay>
+    <tenkp>Phòng Mổ</tenkp>
+    <doituong>Thu phí</doituong>
+    <tenpt>Cắt ruột thừa qua nội soi</tenpt>
+    <mapt>P16027</mapt>
+    <loaipt>Loại 1B</loaipt>
+    <tenbs>Nguyễn Văn Bình</tenbs>
+    <phuongphap>Gây mê nội khí quản</phuongphap>
+    <ma_p1>0093</ma_p1>
+    <hoten_p1>Nguyễn Thị Hà</hoten_p1>
+    <ma_p2>0094</ma_p2>
+    <hoten_p2>Trần Thị Thu Hiền</hoten_p2>
+    <ma_bsgm>0084</ma_bsgm>
+    <hoten_bsgm>Nguyễn Trọng Hiệp</hoten_bsgm>
+    <ma_ktvgm>0082</ma_ktvgm>
+    <hoten_ktvgm>Trần Thị Nhài</hoten_ktvgm>
+    <tinhhinh>Cấp cứu</tinhhinh>
+    <taibien>Không</taibien>
+    <tuvong>Không</tuvong>
+    <sovaovien>0003797/08</sovaovien>
+    <tenuser>Phòng mổ</tenuser>
+  </Table>
+  <Table>
+    <mabn>08903554</mabn>
+    <hoten>ĐỖ ANH TUẤN</hoten>
+    <tuoi>027TU</tuoi>
+    <namsinh>1982</namsinh>
+    <sonha />
+    <thon />
+    <tenpxa>Không xác định</tenpxa>
+    <tenquan>Không xác định</tenquan>
+    <tentt>Đồng Nai</tentt>
+    <tennn>Sinh viên, học sinh</tennn>
+    <ngay>04/03/2008 23:26</ngay>
+    <tenkp>Hscc</tenkp>
+    <doituong>BHYT</doituong>
+    <tenpt>Hô hấp nhân tạo bằng máy 24 giờ một lần</tenpt>
+    <mapt>T12015</mapt>
+    <loaipt>Thủ thuật</loaipt>
+    <tenbs>Ninh Thị Thuý Ngà</tenbs>
+    <phuongphap>Khác</phuongphap>
+    <tinhhinh>Chủ động</tinhhinh>
+    <taibien>Không</taibien>
+    <tuvong>Không</tuvong>
+    <sovaovien>0002469/08</sovaovien>
+    <tenuser>Khoa Hồi sức cấp cứu</tenuser>
+  </Table>
+  <Table>
+    <mabn>08903554</mabn>
+    <hoten>ĐỖ ANH TUẤN</hoten>
+    <tuoi>027TU</tuoi>
+    <namsinh>1982</namsinh>
+    <sonha />
+    <thon />
+    <tenpxa>Không xác định</tenpxa>
+    <tenquan>Không xác định</tenquan>
+    <tentt>Đồng Nai</tentt>
+    <tennn>Sinh viên, học sinh</tennn>
+    <ngay>05/03/2008 02:46</ngay>
+    <tenkp>Hscc</tenkp>
+    <doituong>BHYT</doituong>
+    <tenpt>Hô hấp nhân tạo bằng máy 24 giờ một lần</tenpt>
+    <mapt>T12015</mapt>
+    <loaipt>Thủ thuật</loaipt>
+    <tenbs>Ninh Thị Thuý Ngà</tenbs>
+    <phuongphap>Khác</phuongphap>
+    <tinhhinh>Chủ động</tinhhinh>
+    <taibien>Không</taibien>
+    <tuvong>Không</tuvong>
+    <sovaovien>0002469/08</sovaovien>
+    <tenuser>Khoa Hồi sức cấp cứu</tenuser>
+  </Table>
+  <Table>
+    <mabn>08008378</mabn>
+    <hoten>LÊ THỊ NHỎ</hoten>
+    <tuoi>044TU</tuoi>
+    <namsinh>1964</namsinh>
+    <sonha>70/6</sonha>
+    <thon>Hải Thượng Lãn Ông</thon>
+    <tenpxa>P. 10</tenpxa>
+    <tenquan>Tp. Vũng Tàu</tenquan>
+    <tentt>Bà Rịa - Vũng Tàu</tentt>
+    <tennn>Công Nhân Viên</tennn>
+    <ngay>05/03/2008 15:16</ngay>
+    <tenkp>Phụ Sản</tenkp>
+    <doituong>BHYT</doituong>
+    <tenpt>Hút điều hoà kinh nguyệt</tenpt>
+    <mapt>T09019</mapt>
+    <loaipt>Thủ thuật</loaipt>
+    <tenbs>Trần Thu Hiền</tenbs>
+    <phuongphap>Khác</phuongphap>
+    <tinhhinh>Chủ động</tinhhinh>
+    <taibien>Không</taibien>
+    <tuvong>Không</tuvong>
+    <sovaovien>0003791/08</sovaovien>
+    <tenuser>Khoa sản</tenuser>
+  </Table>
+  <Table>
+    <mabn>08010113</mabn>
+    <hoten>HUỲNH THUÝ AN</hoten>
+    <tuoi>021TU</tuoi>
+    <namsinh>1987</namsinh>
+    <sonha>325</sonha>
+    <thon>Nguyễn An Ninh </thon>
+    <tenpxa>P. 9</tenpxa>
+    <tenquan>Tp. Vũng Tàu</tenquan>
+    <tentt>Bà Rịa - Vũng Tàu</tentt>
+    <tennn>Nhân Dân</tennn>
+    <ngay>05/03/2008 15:18</ngay>
+    <tenkp>Phụ Sản</tenkp>
+    <doituong>Thu phí</doituong>
+    <tenpt>Hút điều hoà kinh nguyệt</tenpt>
+    <mapt>T09019</mapt>
+    <loaipt>Thủ thuật</loaipt>
+    <tenbs>Trần Thu Hiền</tenbs>
+    <phuongphap>Khác</phuongphap>
+    <tinhhinh>Chủ động</tinhhinh>
+    <taibien>Không</taibien>
+    <tuvong>Không</tuvong>
+    <sovaovien>0003790/08</sovaovien>
+    <tenuser>Khoa sản</tenuser>
+  </Table>
+  <Table>
+    <mabn>07031799</mabn>
+    <hoten>NGUYỄN THỊ HOÀ</hoten>
+    <tuoi>063TU</tuoi>
+    <namsinh>1945</namsinh>
+    <sonha>430/6</sonha>
+    <thon>Nguyễn Hữu Cảnh </thon>
+    <tenpxa>P. 10</tenpxa>
+    <tenquan>Tp. Vũng Tàu</tenquan>
+    <tentt>Bà Rịa - Vũng Tàu</tentt>
+    <tennn>Nhân Dân</tennn>
+    <ngay>05/03/2008 15:30</ngay>
+    <tenkp>Phòng Mổ</tenkp>
+    <doituong>BHYT</doituong>
+    <tenpt>Cắt ruột thừa viêm ở vị trí bất thường</tenpt>
+    <mapt>P08042</mapt>
+    <loaipt>Loại 2A</loaipt>
+    <tenbs>Lê Văn Minh</tenbs>
+    <phuongphap>Gây tê tủy sống</phuongphap>
+    <ma_p1>0088</ma_p1>
+    <hoten_p1>Trương Thị Lan</hoten_p1>
+    <ma_p2>0087</ma_p2>
+    <hoten_p2>Vũ Văn Nhật</hoten_p2>
+    <ma_bsgm>0083</ma_bsgm>
+    <hoten_bsgm>Trần Kim Trang</hoten_bsgm>
+    <tinhhinh>Cấp cứu</tinhhinh>
+    <taibien>Không</taibien>
+    <tuvong>Không</tuvong>
+    <sovaovien>0003843/08</sovaovien>
+    <tenuser>mo</tenuser>
+  </Table>
+  <Table>
+    <mabn>08903554</mabn>
+    <hoten>ĐỖ ANH TUẤN</hoten>
+    <tuoi>027TU</tuoi>
+    <namsinh>1982</namsinh>
+    <sonha />
+    <thon />
+    <tenpxa>Không xác định</tenpxa>
+    <tenquan>Không xác định</tenquan>
+    <tentt>Đồng Nai</tentt>
+    <tennn>Sinh viên, học sinh</tennn>
+    <ngay>05/03/2008 16:00</ngay>
+    <tenkp>Hscc</tenkp>
+    <doituong>BHYT</doituong>
+    <tenpt>Đặt catheter tĩnh mạch dưới đòn, tĩnh mạch chủ</tenpt>
+    <mapt>T01011</mapt>
+    <loaipt>Thủ thuật</loaipt>
+    <tenbs>Nguyễn Văn Lê</tenbs>
+    <phuongphap>Gây Tê Tại Chổ</phuongphap>
+    <ma_p1>0139</ma_p1>
+    <hoten_p1>Nguyễn Quang Hiến</hoten_p1>
+    <tinhhinh>Chủ động</tinhhinh>
+    <taibien>Không</taibien>
+    <tuvong>Không</tuvong>
+    <sovaovien>0002469/08</sovaovien>
+    <tenuser>Khoa Hồi sức cấp cứu</tenuser>
+  </Table>
+  <Table>
+    <mabn>08905329</mabn>
+    <hoten>VŨ VĂN DUẨN</hoten>
+    <tuoi>024TU</tuoi>
+    <namsinh>1984</namsinh>
+    <sonha />
+    <thon>Long Toàn</thon>
+    <tenpxa>Không xác định</tenpxa>
+    <tenquan>TX. Bà Rịa</tenquan>
+    <tentt>Bà Rịa - Vũng Tàu</tentt>
+    <tennn>Nhân Dân</tennn>
+    <ngay>05/03/2008 20:05</ngay>
+    <tenkp>Phòng Mổ</tenkp>
+    <doituong>Thu phí</doituong>
+    <tenpt>Vá nhĩ đơn thuần</tenpt>
+    <mapt>P05054</mapt>
+    <loaipt>Loại 2A</loaipt>
+    <tenbs>Lê Văn Minh</tenbs>
+    <phuongphap>Gây mê tĩnh mạch</phuongphap>
+    <ma_p1>0088</ma_p1>
+    <hoten_p1>Trương Thị Lan</hoten_p1>
+    <ma_p2>0087</ma_p2>
+    <hoten_p2>Vũ Văn Nhật</hoten_p2>
+    <ma_bsgm>0083</ma_bsgm>
+    <hoten_bsgm>Trần Kim Trang</hoten_bsgm>
+    <tinhhinh>Cấp cứu</tinhhinh>
+    <taibien>Không</taibien>
+    <tuvong>Không</tuvong>
+    <sovaovien>0003855/08</sovaovien>
+    <tenuser>mo</tenuser>
+  </Table>
+  <Table>
+    <mabn>08905197</mabn>
+    <hoten>LÊ THỊ THUỲ DUNG</hoten>
+    <tuoi>020TU</tuoi>
+    <namsinh>1988</namsinh>
+    <sonha>229/16</sonha>
+    <thon>30/4</thon>
+    <tenpxa>P. 11</tenpxa>
+    <tenquan>Tp. Vũng Tàu</tenquan>
+    <tentt>Bà Rịa - Vũng Tàu</tentt>
+    <tennn>Nhân Dân</tennn>
+    <ngay>06/03/2008 14:25</ngay>
+    <tenkp>Phòng Mổ</tenkp>
+    <doituong>BHYT</doituong>
+    <tenpt>Cắt ruột thừa qua nội soi</tenpt>
+    <mapt>P16027</mapt>
+    <loaipt>Loại 1B</loaipt>
+    <tenbs>Nguyễn Hữu Thọ</tenbs>
+    <phuongphap>Gây mê nội khí quản</phuongphap>
+    <ma_p1>0089</ma_p1>
+    <hoten_p1>Vũ Thị Mão</hoten_p1>
+    <ma_p2>0090</ma_p2>
+    <hoten_p2>Phạm Thị Hồng Vân</hoten_p2>
+    <ma_bsgm>0085</ma_bsgm>
+    <hoten_bsgm>Phạm Văn Ngọ</hoten_bsgm>
+    <ma_ktvgm>0162</ma_ktvgm>
+    <hoten_ktvgm>Nguyễn Thị Hằng</hoten_ktvgm>
+    <tinhhinh>Chủ động</tinhhinh>
+    <taibien>Không</taibien>
+    <tuvong>Sau 24 giờ</tuvong>
+    <sovaovien>0003890/08</sovaovien>
+    <tenuser>Phòng mổ</tenuser>
+  </Table>
+  <Table>
+    <mabn>08010533</mabn>
+    <hoten>VƯƠNG QUỐC VINH</hoten>
+    <tuoi>010TU</tuoi>
+    <namsinh>1998</namsinh>
+    <sonha>310A5</sonha>
+    <thon>Khu 5 Tầng</thon>
+    <tenpxa>P. 7</tenpxa>
+    <tenquan>Tp. Vũng Tàu</tenquan>
+    <tentt>Bà Rịa - Vũng Tàu</tentt>
+    <tennn>Sinh viên, học sinh</tennn>
+    <ngay>06/03/2008 19:30</ngay>
+    <tenkp>Phòng Mổ</tenkp>
+    <doituong>BHYT</doituong>
+    <tenpt>Cắt ruột thừa viêm ở vị trí bất thường</tenpt>
+    <mapt>P08042</mapt>
+    <loaipt>Loại 2A</loaipt>
+    <tenbs>Nguyễn Hữu Thọ</tenbs>
+    <phuongphap>Gây mê nội khí quản</phuongphap>
+    <ma_p1>0190</ma_p1>
+    <hoten_p1>Dương Hữu Toàn</hoten_p1>
+    <ma_p2>0090</ma_p2>
+    <hoten_p2>Phạm Thị Hồng Vân</hoten_p2>
+    <ma_bsgm>0085</ma_bsgm>
+    <hoten_bsgm>Phạm Văn Ngọ</hoten_bsgm>
+    <tinhhinh>Chủ động</tinhhinh>
+    <taibien>Không</taibien>
+    <tuvong>Không</tuvong>
+    <sovaovien>0003912/08</sovaovien>
+    <tenuser>mo</tenuser>
+  </Table>
+  <Table>
+    <mabn>07077633</mabn>
+    <hoten>VŨ ANH ĐẠT</hoten>
+    <tuoi>001TU</tuoi>
+    <namsinh>2007</namsinh>
+    <sonha>456/4/16</sonha>
+    <thon>Trần Phú </thon>
+    <tenpxa>P. 5</tenpxa>
+    <tenquan>Tp. Vũng Tàu</tenquan>
+    <tentt>Bà Rịa - Vũng Tàu</tentt>
+    <tennn>Trẻ dưới 6 tuổi đi học, dưới 15 tuổi không đi học</tennn>
+    <ngay>06/03/2008 20:57</ngay>
+    <tenkp>Phòng Mổ</tenkp>
+    <doituong>Miễn phí</doituong>
+    <tenpt>Tháo lồng ruột bằng hơi</tenpt>
+    <mapt>T06002</mapt>
+    <loaipt>Thủ thuật</loaipt>
+    <tenbs>Nguyễn Hữu Thọ</tenbs>
+    <phuongphap>Gây mê tĩnh mạch</phuongphap>
+    <ma_bsgm>0085</ma_bsgm>
+    <hoten_bsgm>Phạm Văn Ngọ</hoten_bsgm>
+    <tinhhinh>Chủ động</tinhhinh>
+    <taibien>Không</taibien>
+    <tuvong>Không</tuvong>
+    <sovaovien>0003914/08</sovaovien>
+    <tenuser>Phòng mổ</tenuser>
+  </Table>
+  <Table>
+    <mabn>08904763</mabn>
+    <hoten>PHẠM THỊ ĐÀO</hoten>
+    <tuoi>016TU</tuoi>
+    <namsinh>1992</namsinh>
+    <sonha>88/21/5</sonha>
+    <thon>Bạch Đằng </thon>
+    <tenpxa>P. 5</tenpxa>
+    <tenquan>Tp. Vũng Tàu</tenquan>
+    <tentt>Bà Rịa - Vũng Tàu</tentt>
+    <tennn>Sinh viên, học sinh</tennn>
+    <ngay>07/03/2008 08:56</ngay>
+    <tenkp>Ngoại</tenkp>
+    <doituong>Thu phí</doituong>
+    <tenpt>Đặt nẹp vít gãy mâm chày và đầu trên xương chày</tenpt>
+    <mapt>P13036</mapt>
+    <loaipt>Loại 1A</loaipt>
+    <tenbs>Nguyễn Văn Bình</tenbs>
+    <phuongphap>Gây tê tủy sống</phuongphap>
+    <ma_p1>0092</ma_p1>
+    <hoten_p1>Trần Hữu Đức</hoten_p1>
+    <ma_p2>0094</ma_p2>
+    <hoten_p2>Trần Thị Thu Hiền</hoten_p2>
+    <ma_bsgm>0082</ma_bsgm>
+    <hoten_bsgm>Trần Thị Nhài</hoten_bsgm>
+    <tinhhinh>Chủ động</tinhhinh>
+    <taibien>Không</taibien>
+    <tuvong>Không</tuvong>
+    <sovaovien>0003412/08</sovaovien>
+    <tenuser>Khoa Ngoại</tenuser>
+  </Table>
+  <Table>
+    <mabn>08010740</mabn>
+    <hoten>TRẦN ÁNH TUYẾT</hoten>
+    <tuoi>018TU</tuoi>
+    <namsinh>1990</namsinh>
+    <sonha>27/10</sonha>
+    <thon>Phó Đức Chính </thon>
+    <tenpxa>P. Thắng Tam</tenpxa>
+    <tenquan>Tp. Vũng Tàu</tenquan>
+    <tentt>Bà Rịa - Vũng Tàu</tentt>
+    <tennn>Nhân Dân</tennn>
+    <ngay>07/03/2008 16:21</ngay>
+    <tenkp>Phụ Sản</tenkp>
+    <doituong>Thu phí</doituong>
+    <tenpt>Hút điều hoà kinh nguyệt</tenpt>
+    <mapt>T09019</mapt>
+    <loaipt>Thủ thuật</loaipt>
+    <tenbs>Lý Bạch Nga</tenbs>
+    <phuongphap>Khác</phuongphap>
+    <tinhhinh>Chủ động</tinhhinh>
+    <taibien>Không</taibien>
+    <tuvong>Không</tuvong>
+    <sovaovien>0003910/08</sovaovien>
+    <tenuser>Khoa sản</tenuser>
+  </Table>
+  <Table>
+    <mabn>08801217</mabn>
+    <hoten>MAI THỊ HIỆP</hoten>
+    <tuoi>030TU</tuoi>
+    <namsinh>1978</namsinh>
+    <sonha>100/12/2/5</sonha>
+    <thon>Xô Viết Nghệ Tĩnh </thon>
+    <tenpxa>P. Thắng Tam</tenpxa>
+    <tenquan>Tp. Vũng Tàu</tenquan>
+    <tentt>Bà Rịa - Vũng Tàu</tentt>
+    <tennn>Nhân Dân</tennn>
+    <ngay>07/03/2008 21:00</ngay>
+    <tenkp>Phòng Mổ</tenkp>
+    <doituong>Thu phí</doituong>
+    <tenpt>Lấy thai lần đầu</tenpt>
+    <mapt>P11021</mapt>
+    <loaipt>Loại 2A</loaipt>
+    <tenbs>Lê Thị Ngân</tenbs>
+    <phuongphap>Gây tê tủy sống</phuongphap>
+    <ma_p1>0094</ma_p1>
+    <hoten_p1>Trần Thị Thu Hiền</hoten_p1>
+    <ma_p2>0093</ma_p2>
+    <hoten_p2>Nguyễn Thị Hà</hoten_p2>
+    <ma_bsgm>0082</ma_bsgm>
+    <hoten_bsgm>Trần Thị Nhài</hoten_bsgm>
+    <ma_ktvgm>0084</ma_ktvgm>
+    <hoten_ktvgm>Nguyễn Trọng Hiệp</hoten_ktvgm>
+    <ma_hoisuc>0095</ma_hoisuc>
+    <hoten_hoisuc>Trần Thị Xuân</hoten_hoisuc>
+    <ma_dcu>0001</ma_dcu>
+    <hoten_dcu>Phan Quang Thái</hoten_dcu>
+    <tinhhinh>Chủ động</tinhhinh>
+    <taibien>Không</taibien>
+    <tuvong>Không</tuvong>
+    <sovaovien>0003965/08</sovaovien>
+    <tenuser>Phòng mổ</tenuser>
+  </Table>
+  <Table>
+    <mabn>08905534</mabn>
+    <hoten>NGÔ THỊ THẢO</hoten>
+    <tuoi>049TU</tuoi>
+    <namsinh>1959</namsinh>
+    <sonha>59/4</sonha>
+    <thon>Phan Chu Trinh </thon>
+    <tenpxa>P. 2</tenpxa>
+    <tenquan>Tp. Vũng Tàu</tenquan>
+    <tentt>Bà Rịa - Vũng Tàu</tentt>
+    <tennn>Nhân Dân</tennn>
+    <ngay>08/03/2008 12:56</ngay>
+    <tenkp>Ngoại</tenkp>
+    <doituong>Thu phí</doituong>
+    <tenpt>Cắt ruột thừa qua nội soi</tenpt>
+    <mapt>P16027</mapt>
+    <loaipt>Loại 1B</loaipt>
+    <tenbs>Nguyễn Văn Bình</tenbs>
+    <phuongphap>Gây mê nội khí quản</phuongphap>
+    <ma_p1>0087</ma_p1>
+    <hoten_p1>Vũ Văn Nhật</hoten_p1>
+    <ma_p2>0088</ma_p2>
+    <hoten_p2>Trương Thị Lan</hoten_p2>
+    <ma_bsgm>0027</ma_bsgm>
+    <hoten_bsgm>Lý Ngọc Hoa</hoten_bsgm>
+    <ma_ktvgm>0083</ma_ktvgm>
+    <hoten_ktvgm>Trần Kim Trang</hoten_ktvgm>
+    <tinhhinh>Cấp cứu</tinhhinh>
+    <taibien>Không</taibien>
+    <tuvong>Không</tuvong>
+    <sovaovien>0003997/08</sovaovien>
+    <tenuser>Khoa Ngoại</tenuser>
+  </Table>
+  <Table>
+    <mabn>08902576</mabn>
+    <hoten>TUYẾT THỊ THANH HẠNH</hoten>
+    <tuoi>048TU</tuoi>
+    <namsinh>1960</namsinh>
+    <sonha>611/13</sonha>
+    <thon>Trần Phú </thon>
+    <tenpxa>P. 6</tenpxa>
+    <tenquan>Tp. Vũng Tàu</tenquan>
+    <tentt>Bà Rịa - Vũng Tàu</tentt>
+    <tennn>Nhân Dân</tennn>
+    <ngay>08/03/2008 16:53</ngay>
+    <tenkp>Phòng Mổ</tenkp>
+    <doituong>Thu phí</doituong>
+    <tenpt>Cắt ruột thừa viêm ở vị trí bất thường</tenpt>
+    <mapt>P08042</mapt>
+    <loaipt>Loại 2A</loaipt>
+    <tenbs>Nguyễn Văn Bình</tenbs>
+    <phuongphap>Gây tê tủy sống</phuongphap>
+    <ma_p1>0087</ma_p1>
+    <hoten_p1>Vũ Văn Nhật</hoten_p1>
+    <ma_p2>0088</ma_p2>
+    <hoten_p2>Trương Thị Lan</hoten_p2>
+    <ma_bsgm>0027</ma_bsgm>
+    <hoten_bsgm>Lý Ngọc Hoa</hoten_bsgm>
+    <ma_ktvgm>0083</ma_ktvgm>
+    <hoten_ktvgm>Trần Kim Trang</hoten_ktvgm>
+    <tinhhinh>Cấp cứu</tinhhinh>
+    <taibien>Không</taibien>
+    <tuvong>Không</tuvong>
+    <sovaovien>0003996/08</sovaovien>
+    <tenuser>mo</tenuser>
+  </Table>
+  <Table>
+    <mabn>07921545</mabn>
+    <hoten>LÀ XI MÚI</hoten>
+    <tuoi>077TU</tuoi>
+    <namsinh>1931</namsinh>
+    <sonha>441</sonha>
+    <thon>Trương Công Định </thon>
+    <tenpxa>P. 7</tenpxa>
+    <tenquan>Tp. Vũng Tàu</tenquan>
+    <tentt>Bà Rịa - Vũng Tàu</tentt>
+    <tennn>Già</tennn>
+    <ngay>08/03/2008 17:55</ngay>
+    <tenkp>Hscc</tenkp>
+    <doituong>Thu phí</doituong>
+    <tenpt>Hạ huyết áp chỉ huy</tenpt>
+    <mapt>T12019</mapt>
+    <loaipt>Thủ thuật</loaipt>
+    <tenbs>Nguyễn Đình Tuấn</tenbs>
+    <phuongphap>Khác</phuongphap>
+    <ma_p1>0151</ma_p1>
+    <hoten_p1>Lê Vĩnh Thụy</hoten_p1>
+    <tinhhinh>Chủ động</tinhhinh>
+    <taibien>Không</taibien>
+    <tuvong>Không</tuvong>
+    <sovaovien>0003921/08</sovaovien>
+    <tenuser>Khoa Hồi sức cấp cứu</tenuser>
+  </Table>
+  <Table>
+    <mabn>07921545</mabn>
+    <hoten>LÀ XI MÚI</hoten>
+    <tuoi>077TU</tuoi>
+    <namsinh>1931</namsinh>
+    <sonha>441</sonha>
+    <thon>Trương Công Định </thon>
+    <tenpxa>P. 7</tenpxa>
+    <tenquan>Tp. Vũng Tàu</tenquan>
+    <tentt>Bà Rịa - Vũng Tàu</tentt>
+    <tennn>Già</tennn>
+    <ngay>08/03/2008 17:56</ngay>
+    <tenkp>Hscc</tenkp>
+    <doituong>Thu phí</doituong>
+    <tenpt>Hạ huyết áp chỉ huy</tenpt>
+    <mapt>T12019</mapt>
+    <loaipt>Thủ thuật</loaipt>
+    <tenbs>Nguyễn Đình Tuấn</tenbs>
+    <phuongphap>Khác</phuongphap>
+    <tinhhinh>Chủ động</tinhhinh>
+    <taibien>Không</taibien>
+    <tuvong>Không</tuvong>
+    <sovaovien>0003921/08</sovaovien>
+    <tenuser>Khoa Hồi sức cấp cứu</tenuser>
+  </Table>
+  <Table>
+    <mabn>07921545</mabn>
+    <hoten>LÀ XI MÚI</hoten>
+    <tuoi>077TU</tuoi>
+    <namsinh>1931</namsinh>
+    <sonha>441</sonha>
+    <thon>Trương Công Định </thon>
+    <tenpxa>P. 7</tenpxa>
+    <tenquan>Tp. Vũng Tàu</tenquan>
+    <tentt>Bà Rịa - Vũng Tàu</tentt>
+    <tennn>Già</tennn>
+    <ngay>08/03/2008 17:56</ngay>
+    <tenkp>Hscc</tenkp>
+    <doituong>Thu phí</doituong>
+    <tenpt>Hạ huyết áp chỉ huy</tenpt>
+    <mapt>T12019</mapt>
+    <loaipt>Thủ thuật</loaipt>
+    <tenbs>Nguyễn Đình Tuấn</tenbs>
+    <phuongphap>Khác</phuongphap>
+    <tinhhinh>Chủ động</tinhhinh>
+    <taibien>Không</taibien>
+    <tuvong>Không</tuvong>
+    <sovaovien>0003921/08</sovaovien>
+    <tenuser>Khoa Hồi sức cấp cứu</tenuser>
+  </Table>
+  <Table>
+    <mabn>07921545</mabn>
+    <hoten>LÀ XI MÚI</hoten>
+    <tuoi>077TU</tuoi>
+    <namsinh>1931</namsinh>
+    <sonha>441</sonha>
+    <thon>Trương Công Định </thon>
+    <tenpxa>P. 7</tenpxa>
+    <tenquan>Tp. Vũng Tàu</tenquan>
+    <tentt>Bà Rịa - Vũng Tàu</tentt>
+    <tennn>Già</tennn>
+    <ngay>08/03/2008 17:57</ngay>
+    <tenkp>Hscc</tenkp>
+    <doituong>Thu phí</doituong>
+    <tenpt>Hạ huyết áp chỉ huy</tenpt>
+    <mapt>T12019</mapt>
+    <loaipt>Thủ thuật</loaipt>
+    <tenbs>Nguyễn Đình Tuấn</tenbs>
+    <phuongphap>Khác</phuongphap>
+    <tinhhinh>Chủ động</tinhhinh>
+    <taibien>Không</taibien>
+    <tuvong>Không</tuvong>
+    <sovaovien>0003921/08</sovaovien>
+    <tenuser>Khoa Hồi sức cấp cứu</tenuser>
+  </Table>
+  <Table>
+    <mabn>07921545</mabn>
+    <hoten>LÀ XI MÚI</hoten>
+    <tuoi>077TU</tuoi>
+    <namsinh>1931</namsinh>
+    <sonha>441</sonha>
+    <thon>Trương Công Định </thon>
+    <tenpxa>P. 7</tenpxa>
+    <tenquan>Tp. Vũng Tàu</tenquan>
+    <tentt>Bà Rịa - Vũng Tàu</tentt>
+    <tennn>Già</tennn>
+    <ngay>08/03/2008 17:57</ngay>
+    <tenkp>Hscc</tenkp>
+    <doituong>Thu phí</doituong>
+    <tenpt>Hạ huyết áp chỉ huy</tenpt>
+    <mapt>T12019</mapt>
+    <loaipt>Thủ thuật</loaipt>
+    <tenbs>Nguyễn Đình Tuấn</tenbs>
+    <phuongphap>Khác</phuongphap>
+    <tinhhinh>Chủ động</tinhhinh>
+    <taibien>Không</taibien>
+    <tuvong>Không</tuvong>
+    <sovaovien>0003921/08</sovaovien>
+    <tenuser>Khoa Hồi sức cấp cứu</tenuser>
+  </Table>
+  <Table>
+    <mabn>07921545</mabn>
+    <hoten>LÀ XI MÚI</hoten>
+    <tuoi>077TU</tuoi>
+    <namsinh>1931</namsinh>
+    <sonha>441</sonha>
+    <thon>Trương Công Định </thon>
+    <tenpxa>P. 7</tenpxa>
+    <tenquan>Tp. Vũng Tàu</tenquan>
+    <tentt>Bà Rịa - Vũng Tàu</tentt>
+    <tennn>Già</tennn>
+    <ngay>08/03/2008 17:57</ngay>
+    <tenkp>Hscc</tenkp>
+    <doituong>Thu phí</doituong>
+    <tenpt>Hạ huyết áp chỉ huy</tenpt>
+    <mapt>T12019</mapt>
+    <loaipt>Thủ thuật</loaipt>
+    <tenbs>Nguyễn Đình Tuấn</tenbs>
+    <phuongphap>Khác</phuongphap>
+    <tinhhinh>Chủ động</tinhhinh>
+    <taibien>Không</taibien>
+    <tuvong>Không</tuvong>
+    <sovaovien>0003921/08</sovaovien>
+    <tenuser>Khoa Hồi sức cấp cứu</tenuser>
+  </Table>
+  <Table>
+    <mabn>07921545</mabn>
+    <hoten>LÀ XI MÚI</hoten>
+    <tuoi>077TU</tuoi>
+    <namsinh>1931</namsinh>
+    <sonha>441</sonha>
+    <thon>Trương Công Định </thon>
+    <tenpxa>P. 7</tenpxa>
+    <tenquan>Tp. Vũng Tàu</tenquan>
+    <tentt>Bà Rịa - Vũng Tàu</tentt>
+    <tennn>Già</tennn>
+    <ngay>08/03/2008 17:58</ngay>
+    <tenkp>Hscc</tenkp>
+    <doituong>Thu phí</doituong>
+    <tenpt>Chụp X-quang tại giường</tenpt>
+    <mapt>T12033</mapt>
+    <loaipt>Thủ thuật</loaipt>
+    <tenbs>Ninh Thị Thuý Ngà</tenbs>
+    <phuongphap>Khác</phuongphap>
+    <tinhhinh>Chủ động</tinhhinh>
+    <taibien>Không</taibien>
+    <tuvong>Không</tuvong>
+    <sovaovien>0003921/08</sovaovien>
+    <tenuser>Khoa Hồi sức cấp cứu</tenuser>
+  </Table>
+  <Table>
+    <mabn>07921545</mabn>
+    <hoten>LÀ XI MÚI</hoten>
+    <tuoi>077TU</tuoi>
+    <namsinh>1931</namsinh>
+    <sonha>441</sonha>
+    <thon>Trương Công Định </thon>
+    <tenpxa>P. 7</tenpxa>
+    <tenquan>Tp. Vũng Tàu</tenquan>
+    <tentt>Bà Rịa - Vũng Tàu</tentt>
+    <tennn>Già</tennn>
+    <ngay>08/03/2008 17:59</ngay>
+    <tenkp>Hscc</tenkp>
+    <doituong>Thu phí</doituong>
+    <tenpt>Hô hấp nhân tạo bằng máy 24 giờ một lần</tenpt>
+    <mapt>T12015</mapt>
+    <loaipt>Thủ thuật</loaipt>
+    <tenbs>Ninh Thị Thuý Ngà</tenbs>
+    <phuongphap>Gây mê tĩnh mạch</phuongphap>
+    <tinhhinh>Chủ động</tinhhinh>
+    <taibien>Không</taibien>
+    <tuvong>Không</tuvong>
+    <sovaovien>0003921/08</sovaovien>
+    <tenuser>Khoa Hồi sức cấp cứu</tenuser>
+  </Table>
+  <Table>
+    <mabn>07921545</mabn>
+    <hoten>LÀ XI MÚI</hoten>
+    <tuoi>077TU</tuoi>
+    <namsinh>1931</namsinh>
+    <sonha>441</sonha>
+    <thon>Trương Công Định </thon>
+    <tenpxa>P. 7</tenpxa>
+    <tenquan>Tp. Vũng Tàu</tenquan>
+    <tentt>Bà Rịa - Vũng Tàu</tentt>
+    <tennn>Già</tennn>
+    <ngay>08/03/2008 17:59</ngay>
+    <tenkp>Hscc</tenkp>
+    <doituong>Thu phí</doituong>
+    <tenpt>Hô hấp nhân tạo bằng máy 24 giờ một lần</tenpt>
+    <mapt>T12015</mapt>
+    <loaipt>Thủ thuật</loaipt>
+    <tenbs>Ninh Thị Thuý Ngà</tenbs>
+    <phuongphap>Khác</phuongphap>
+    <tinhhinh>Chủ động</tinhhinh>
+    <taibien>Không</taibien>
+    <tuvong>Không</tuvong>
+    <sovaovien>0003921/08</sovaovien>
+    <tenuser>Khoa Hồi sức cấp cứu</tenuser>
+  </Table>
+  <Table>
+    <mabn>08801231</mabn>
+    <hoten>VƯƠNG THỊ KIM CHI</hoten>
+    <tuoi>036TU</tuoi>
+    <namsinh>1972</namsinh>
+    <sonha>hẻm 360</sonha>
+    <thon>Bình Giã</thon>
+    <tenpxa>P. 8</tenpxa>
+    <tenquan>Tp. Vũng Tàu</tenquan>
+    <tentt>Bà Rịa - Vũng Tàu</tentt>
+    <tennn>Dịch vụ</tennn>
+    <ngay>09/03/2008 13:30</ngay>
+    <tenkp>Phòng Mổ</tenkp>
+    <doituong>Thu phí</doituong>
+    <tenpt>Lấy thai lần đầu</tenpt>
+    <mapt>P11021</mapt>
+    <loaipt>Loại 2A</loaipt>
+    <tenbs>Lê Thị Thanh Nguyên</tenbs>
+    <phuongphap>Gây tê tủy sống</phuongphap>
+    <ma_p1>0089</ma_p1>
+    <hoten_p1>Vũ Thị Mão</hoten_p1>
+    <ma_p2>0090</ma_p2>
+    <hoten_p2>Phạm Thị Hồng Vân</hoten_p2>
+    <ma_bsgm>0085</ma_bsgm>
+    <hoten_bsgm>Phạm Văn Ngọ</hoten_bsgm>
+    <tinhhinh>Chủ động</tinhhinh>
+    <taibien>Không</taibien>
+    <tuvong>Không</tuvong>
+    <sovaovien>0004037/08</sovaovien>
+    <tenuser>mo</tenuser>
+  </Table>
+  <Table>
+    <mabn>07056663</mabn>
+    <hoten>NGUYỄN THỊ NGỌC GIÀU</hoten>
+    <tuoi>025TU</tuoi>
+    <namsinh>1983</namsinh>
+    <sonha>17</sonha>
+    <thon>Phan Chu Trinh </thon>
+    <tenpxa>P. 2</tenpxa>
+    <tenquan>Tp. Vũng Tàu</tenquan>
+    <tentt>Bà Rịa - Vũng Tàu</tentt>
+    <tennn>Nhân Dân</tennn>
+    <ngay>09/03/2008 15:57</ngay>
+    <tenkp>Phụ Sản</tenkp>
+    <doituong>Thu phí</doituong>
+    <tenpt>Thông Tiểu</tenpt>
+    <mapt>T09024</mapt>
+    <loaipt>Thủ thuật</loaipt>
+    <tenbs>Lê Thị Mỹ Dung</tenbs>
+    <phuongphap>Khác</phuongphap>
+    <tinhhinh>Chủ động</tinhhinh>
+    <taibien>Không</taibien>
+    <tuvong>Không</tuvong>
+    <sovaovien>0004011/08</sovaovien>
+    <tenuser>Khoa sản</tenuser>
+  </Table>
+  <Table>
+    <mabn>07061346</mabn>
+    <hoten>PHẠM THỊ NGA</hoten>
+    <tuoi>027TU</tuoi>
+    <namsinh>1981</namsinh>
+    <sonha>24</sonha>
+    <thon>Nguyễn Tri Phương </thon>
+    <tenpxa>P. 7</tenpxa>
+    <tenquan>Tp. Vũng Tàu</tenquan>
+    <tentt>Bà Rịa - Vũng Tàu</tentt>
+    <tennn>Giáo Viên</tennn>
+    <ngay>09/03/2008 15:58</ngay>
+    <tenkp>Phụ Sản</tenkp>
+    <doituong>BHYT</doituong>
+    <tenpt>Thông Tiểu</tenpt>
+    <mapt>T09024</mapt>
+    <loaipt>Thủ thuật</loaipt>
+    <tenbs>Lê Thị Mỹ Dung</tenbs>
+    <phuongphap>Gây mê tĩnh mạch</phuongphap>
+    <tinhhinh>Chủ động</tinhhinh>
+    <taibien>Không</taibien>
+    <tuvong>Không</tuvong>
+    <sovaovien>0003986/08</sovaovien>
+    <tenuser>Khoa sản</tenuser>
+  </Table>
+  <Table>
+    <mabn>08905528</mabn>
+    <hoten>LÊ THỊ NHƯỢNG</hoten>
+    <tuoi>105TU</tuoi>
+    <namsinh>1903</namsinh>
+    <sonha>62</sonha>
+    <thon>Trần Đồng</thon>
+    <tenpxa>P. 3</tenpxa>
+    <tenquan>Tp. Vũng Tàu</tenquan>
+    <tentt>Bà Rịa - Vũng Tàu</tentt>
+    <tennn>Già</tennn>
+    <ngay>09/03/2008 17:51</ngay>
+    <tenkp>Phòng Mổ</tenkp>
+    <doituong>Thu phí</doituong>
+    <tenpt>Cắt đoạn ruột trong lồng ruột có cắt đại tràng</tenpt>
+    <mapt>P12029</mapt>
+    <loaipt>Loại 1C</loaipt>
+    <tenbs>Nguyễn Hữu Thọ</tenbs>
+    <phuongphap>Gây mê nội khí quản</phuongphap>
+    <ma_p1>0190</ma_p1>
+    <hoten_p1>Dương Hữu Toàn</hoten_p1>
+    <ma_p2>0090</ma_p2>
+    <hoten_p2>Phạm Thị Hồng Vân</hoten_p2>
+    <ma_bsgm>0085</ma_bsgm>
+    <hoten_bsgm>Phạm Văn Ngọ</hoten_bsgm>
+    <ma_ktvgm>0162</ma_ktvgm>
+    <hoten_ktvgm>Nguyễn Thị Hằng</hoten_ktvgm>
+    <tinhhinh>Chủ động</tinhhinh>
+    <taibien>Không</taibien>
+    <tuvong>Không</tuvong>
+    <sovaovien>0003993/08</sovaovien>
+    <tenuser>mo</tenuser>
+  </Table>
+  <Table>
+    <mabn>07069546</mabn>
+    <hoten>MAI VĂN THÔNG</hoten>
+    <tuoi>014TU</tuoi>
+    <namsinh>1994</namsinh>
+    <sonha>562/27</sonha>
+    <thon>Trần Phú </thon>
+    <tenpxa>P. 5</tenpxa>
+    <tenquan>Tp. Vũng Tàu</tenquan>
+    <tentt>Bà Rịa - Vũng Tàu</tentt>
+    <tennn>Sinh viên, học sinh</tennn>
+    <ngay>09/03/2008 23:58</ngay>
+    <tenkp>Phòng Mổ</tenkp>
+    <doituong>Thu phí</doituong>
+    <tenpt>Cắt ruột thừa ở vị trí bình thường</tenpt>
+    <mapt>P08059</mapt>
+    <loaipt>Loại 2C</loaipt>
+    <tenbs>Nguyễn Hữu Thọ</tenbs>
+    <phuongphap>Gây tê tủy sống</phuongphap>
+    <ma_bsgm>0085</ma_bsgm>
+    <hoten_bsgm>Phạm Văn Ngọ</hoten_bsgm>
+    <tinhhinh>Chủ động</tinhhinh>
+    <taibien>Không</taibien>
+    <tuvong>Không</tuvong>
+    <sovaovien>0004058/08</sovaovien>
+    <tenuser>mo</tenuser>
+  </Table>
+  <Table>
+    <mabn>07000480</mabn>
+    <hoten>NGUYỄN NGỌC PHA</hoten>
+    <tuoi>023TU</tuoi>
+    <namsinh>1984</namsinh>
+    <sonha>158/9</sonha>
+    <thon>Phạm Hồng Thái</thon>
+    <tenpxa>P. 7</tenpxa>
+    <tenquan>Tp. Vũng Tàu</tenquan>
+    <tentt>Bà Rịa - Vũng Tàu</tentt>
+    <tennn>Nhân Dân</tennn>
+    <ngay>10/03/2008 04:00</ngay>
+    <tenkp>Phòng Mổ</tenkp>
+    <doituong>Thu phí</doituong>
+    <tenpt>Lấy thai lần hai hay lần thứ ba</tenpt>
+    <mapt>P11018</mapt>
+    <loaipt>Đặc biệt</loaipt>
+    <tenbs>Lê Thị Thanh Nguyên</tenbs>
+    <phuongphap>Gây tê tủy sống</phuongphap>
+    <ma_p1>0089</ma_p1>
+    <hoten_p1>Vũ Thị Mão</hoten_p1>
+    <ma_p2>0090</ma_p2>
+    <hoten_p2>Phạm Thị Hồng Vân</hoten_p2>
+    <ma_bsgm>0085</ma_bsgm>
+    <hoten_bsgm>Phạm Văn Ngọ</hoten_bsgm>
+    <tinhhinh>Chủ động</tinhhinh>
+    <taibien>Không</taibien>
+    <tuvong>Không</tuvong>
+    <sovaovien>000480</sovaovien>
+    <tenuser>mo</tenuser>
+  </Table>
+  <Table>
+    <mabn>07004480</mabn>
+    <hoten>NGUYỄN THỊ DẦN</hoten>
+    <tuoi>034TU</tuoi>
+    <namsinh>1974</namsinh>
+    <sonha>3a</sonha>
+    <thon>Hải Đăng</thon>
+    <tenpxa>P. 1</tenpxa>
+    <tenquan>Tp. Vũng Tàu</tenquan>
+    <tentt>Bà Rịa - Vũng Tàu</tentt>
+    <tennn>Công Nhân Viên</tennn>
+    <ngay>10/03/2008 04:00</ngay>
+    <tenkp>Phòng Mổ</tenkp>
+    <doituong>BHYT</doituong>
+    <tenpt>Lấy thai lần hai hay lần thứ ba</tenpt>
+    <mapt>P11018</mapt>
+    <loaipt>Đặc biệt</loaipt>
+    <tenbs>Lê Thị Thanh Nguyên</tenbs>
+    <phuongphap>Gây tê tủy sống</phuongphap>
+    <ma_p1>0089</ma_p1>
+    <hoten_p1>Vũ Thị Mão</hoten_p1>
+    <ma_p2>0090</ma_p2>
+    <hoten_p2>Phạm Thị Hồng Vân</hoten_p2>
+    <ma_bsgm>0085</ma_bsgm>
+    <hoten_bsgm>Phạm Văn Ngọ</hoten_bsgm>
+    <tinhhinh>Cấp cứu</tinhhinh>
+    <taibien>Không</taibien>
+    <tuvong>Không</tuvong>
+    <sovaovien>0004070/08</sovaovien>
+    <tenuser>mo</tenuser>
+  </Table>
+  <Table>
+    <mabn>08903435</mabn>
+    <hoten>ĐÀO HỒNG NHUNG</hoten>
+    <tuoi>028TU</tuoi>
+    <namsinh>1980</namsinh>
+    <sonha>63</sonha>
+    <thon>Võ Văn Tần</thon>
+    <tenpxa>Không xác định</tenpxa>
+    <tenquan>Không xác định</tenquan>
+    <tentt>Bà Rịa - Vũng Tàu</tentt>
+    <tennn>Công Nhân Viên</tennn>
+    <ngay>10/03/2008 05:23</ngay>
+    <tenkp>Phòng Mổ</tenkp>
+    <doituong>BHYT</doituong>
+    <tenpt>Lấy thai lần đầu</tenpt>
+    <mapt>P11021</mapt>
+    <loaipt>Loại 2A</loaipt>
+    <tenbs>Lê Thị Thanh Nguyên</tenbs>
+    <phuongphap>Gây tê tủy sống</phuongphap>
+    <ma_p1>0089</ma_p1>
+    <hoten_p1>Vũ Thị Mão</hoten_p1>
+    <ma_p2>0190</ma_p2>
+    <hoten_p2>Dương Hữu Toàn</hoten_p2>
+    <ma_bsgm>0085</ma_bsgm>
+    <hoten_bsgm>Phạm Văn Ngọ</hoten_bsgm>
+    <ma_ktvgm>0084</ma_ktvgm>
+    <hoten_ktvgm>Nguyễn Trọng Hiệp</hoten_ktvgm>
+    <ma_dcu>0090</ma_dcu>
+    <hoten_dcu>Phạm Thị Hồng Vân</hoten_dcu>
+    <tinhhinh>Chủ động</tinhhinh>
+    <taibien>Không</taibien>
+    <tuvong>Không</tuvong>
+    <sovaovien>0004068/08</sovaovien>
+    <tenuser>mo</tenuser>
+  </Table>
+  <Table>
+    <mabn>07004480</mabn>
+    <hoten>NGUYỄN THỊ DẦN</hoten>
+    <tuoi>034TU</tuoi>
+    <namsinh>1974</namsinh>
+    <sonha>3a</sonha>
+    <thon>Hải Đăng</thon>
+    <tenpxa>P. 1</tenpxa>
+    <tenquan>Tp. Vũng Tàu</tenquan>
+    <tentt>Bà Rịa - Vũng Tàu</tentt>
+    <tennn>Công Nhân Viên</tennn>
+    <ngay>10/03/2008 06:00</ngay>
+    <tenkp>Phòng Mổ</tenkp>
+    <doituong>BHYT</doituong>
+    <tenpt>Lấy thai lần hai hay lần thứ ba</tenpt>
+    <mapt>P11018</mapt>
+    <loaipt>Đặc biệt</loaipt>
+    <tenbs>Lê Thị Thanh Nguyên</tenbs>
+    <phuongphap>Gây tê tủy sống</phuongphap>
+    <ma_p1>0089</ma_p1>
+    <hoten_p1>Vũ Thị Mão</hoten_p1>
+    <ma_p2>0090</ma_p2>
+    <hoten_p2>Phạm Thị Hồng Vân</hoten_p2>
+    <ma_bsgm>0085</ma_bsgm>
+    <hoten_bsgm>Phạm Văn Ngọ</hoten_bsgm>
+    <ma_ktvgm>0084</ma_ktvgm>
+    <hoten_ktvgm>Nguyễn Trọng Hiệp</hoten_ktvgm>
+    <ma_dcu>0190</ma_dcu>
+    <hoten_dcu>Dương Hữu Toàn</hoten_dcu>
+    <tinhhinh>Chủ động</tinhhinh>
+    <taibien>Không</taibien>
+    <tuvong>Không</tuvong>
+    <sovaovien>0004070/08</sovaovien>
+    <tenuser>mo</tenuser>
+  </Table>
+</NewDataSet>

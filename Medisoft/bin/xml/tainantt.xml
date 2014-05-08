@@ -1,0 +1,957 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="mabn" type="xs:string" minOccurs="0" />
+                <xs:element name="hoten" type="xs:string" minOccurs="0" />
+                <xs:element name="namsinh" type="xs:string" minOccurs="0" />
+                <xs:element name="tennn" type="xs:string" minOccurs="0" />
+                <xs:element name="nnviettat" type="xs:string" minOccurs="0" />
+                <xs:element name="diadiem" type="xs:string" minOccurs="0" />
+                <xs:element name="ddviettat" type="xs:string" minOccurs="0" />
+                <xs:element name="bophan" type="xs:string" minOccurs="0" />
+                <xs:element name="bpviettat" type="xs:string" minOccurs="0" />
+                <xs:element name="nguyennhan" type="xs:string" minOccurs="0" />
+                <xs:element name="ngnhanviettat" type="xs:string" minOccurs="0" />
+                <xs:element name="ngodoc" type="xs:string" minOccurs="0" />
+                <xs:element name="dienbien" type="xs:string" minOccurs="0" />
+                <xs:element name="dbviettat" type="xs:string" minOccurs="0" />
+                <xs:element name="xutri" type="xs:string" minOccurs="0" />
+                <xs:element name="xtviettat" type="xs:string" minOccurs="0" />
+                <xs:element name="thon" type="xs:string" minOccurs="0" />
+                <xs:element name="tentt" type="xs:string" minOccurs="0" />
+                <xs:element name="ttviettat" type="xs:string" minOccurs="0" />
+                <xs:element name="tenquan" type="xs:string" minOccurs="0" />
+                <xs:element name="quanviettat" type="xs:string" minOccurs="0" />
+                <xs:element name="tenpxa" type="xs:string" minOccurs="0" />
+                <xs:element name="diachi" type="xs:string" minOccurs="0" />
+                <xs:element name="ngay" type="xs:string" minOccurs="0" />
+                <xs:element name="lydo" type="xs:string" minOccurs="0" />
+                <xs:element name="chandoan" type="xs:string" minOccurs="0" />
+                <xs:element name="dieutri" type="xs:string" minOccurs="0" />
+                <xs:element name="lucvao" type="xs:string" minOccurs="0" />
+                <xs:element name="lucra" type="xs:string" minOccurs="0" />
+                <xs:element name="madoituong" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <mabn>10876097</mabn>
+    <hoten>HÀ THỊ ÁNH LY</hoten>
+    <namsinh>1991</namsinh>
+    <tennn>Công nhân</tennn>
+    <diadiem>Nơi công cộng</diadiem>
+    <bophan>Các chi</bophan>
+    <nguyennhan>Ngã</nguyennhan>
+    <ngnhanviettat>NGA</ngnhanviettat>
+    <dienbien>Chưa xác định</dienbien>
+    <xutri>Đến bệnh viện huyện,PKĐK khu vực</xutri>
+    <thon />
+    <tentt>Tp. H C M</tentt>
+    <tenquan>Không Xác Định</tenquan>
+    <quanviettat>KXD</quanviettat>
+    <tenpxa>Không xác định</tenpxa>
+    <diachi>  Hành Thuận,H. Nghĩa Hành,Quảng NgãI</diachi>
+    <ngay>02/04/2012 12:00</ngay>
+    <lydo>tai nạn sinh hoạt</lydo>
+    <chandoan>chấn thương cẳng chân trái</chandoan>
+    <dieutri>xq cẳng chân trái</dieutri>
+    <lucvao>đau cẳng chân trái </lucvao>
+    <lucra>toa về ,dặn dò</lucra>
+    <madoituong>1</madoituong>
+  </Table>
+  <Table>
+    <mabn>12409355</mabn>
+    <hoten>HUỲNH MỸ PHÚC</hoten>
+    <namsinh>1987</namsinh>
+    <tennn>Công Nhân Viên</tennn>
+    <diadiem>Tại nhà</diadiem>
+    <bophan>Thân mình</bophan>
+    <bpviettat>2BP</bpviettat>
+    <nguyennhan>Ngã</nguyennhan>
+    <ngnhanviettat>NGA</ngnhanviettat>
+    <dienbien>Chưa xác định</dienbien>
+    <xutri>Đến bệnh viện huyện,PKĐK khu vực</xutri>
+    <thon />
+    <tentt>Tp. H C M</tentt>
+    <tenquan>Q. 7</tenquan>
+    <tenpxa>Không xác định</tenpxa>
+    <diachi>39/2A1 Đg 102 P. Tăng Nhơn Phú A,Q. 9,Tp. H C M</diachi>
+    <ngay>02/04/2012 14:30</ngay>
+    <lydo>TNSH</lydo>
+    <chandoan>CT CỘT SỐNG LƯNG</chandoan>
+    <dieutri>XQ,TOA</dieutri>
+    <lucvao>VTXX LƯNG</lucvao>
+    <lucra>TỈNH</lucra>
+    <madoituong>1</madoituong>
+  </Table>
+  <Table>
+    <mabn>11416720</mabn>
+    <hoten>LÊ ĐÌNH NHỰT</hoten>
+    <namsinh>1981</namsinh>
+    <tennn>Công nhân</tennn>
+    <diadiem>Trường học</diadiem>
+    <bophan>Các chi</bophan>
+    <nguyennhan>Ngã</nguyennhan>
+    <ngnhanviettat>NGA</ngnhanviettat>
+    <dienbien>Chưa xác định</dienbien>
+    <xutri>Đến bệnh viện huyện,PKĐK khu vực</xutri>
+    <thon />
+    <tentt>Tp. H C M</tentt>
+    <tenquan>Không Xác Định</tenquan>
+    <quanviettat>KXD</quanviettat>
+    <tenpxa>Không xác định</tenpxa>
+    <diachi> Thôn 3 Ea Bung,H. Ea Súp,Đắc Lắc</diachi>
+    <ngay>16/04/2012 18:45</ngay>
+    <lydo>tnsh</lydo>
+    <chandoan>chần thương phần mền cổ chân t </chandoan>
+    <dieutri>xq cổ chân t . cấp toa , dặn dò </dieutri>
+    <lucvao>đau cổ chân t </lucvao>
+    <lucra>tỉnh</lucra>
+    <madoituong>1</madoituong>
+  </Table>
+  <Table>
+    <mabn>12400128</mabn>
+    <hoten>LÊ MƯỜI</hoten>
+    <namsinh>1953</namsinh>
+    <tennn>Loại khác</tennn>
+    <diadiem>Tại nhà</diadiem>
+    <bophan>Các chi</bophan>
+    <nguyennhan>Khác</nguyennhan>
+    <dienbien>Chưa xác định</dienbien>
+    <xutri>Đến bệnh viện huyện,PKĐK khu vực</xutri>
+    <thon />
+    <tentt>Tp. H C M</tentt>
+    <tenquan>Q. 7</tenquan>
+    <tenpxa>Không xác định</tenpxa>
+    <diachi> 62l/23 Nh P. 11,Q. Bình Thạnh,Tp. H C M</diachi>
+    <ngay>25/04/2012 20:00</ngay>
+    <lydo>TNSH</lydo>
+    <chandoan>VTRD CỔ TAY (T) 5CM*0,5CM</chandoan>
+    <dieutri>KHÂU,TOA,DẶN DÒ</dieutri>
+    <lucvao>VT CHẢY MÁU</lucvao>
+    <lucra>VT ĐÃ KHÂU
+</lucra>
+    <madoituong>1</madoituong>
+  </Table>
+  <Table>
+    <mabn>11403472</mabn>
+    <hoten>TRẦN THỊ THUÝ</hoten>
+    <namsinh>1987</namsinh>
+    <tennn>Loại khác</tennn>
+    <diadiem>Trên đường đi</diadiem>
+    <bophan>Đa chấn thương</bophan>
+    <nguyennhan>Tai nạn giao thông</nguyennhan>
+    <dienbien>Chưa xác định</dienbien>
+    <xutri>Đến bệnh viện huyện,PKĐK khu vực</xutri>
+    <thon />
+    <tentt>Tp. H C M</tentt>
+    <tenquan>Không Xác Định</tenquan>
+    <quanviettat>KXD</quanviettat>
+    <tenpxa>Không xác định</tenpxa>
+    <diachi>56/8 T8 Ấp5 Phú Xuân,H. Nhà Bè,Tp. H C M</diachi>
+    <ngay>05/04/2012 18:30</ngay>
+    <lydo>TNGT</lydo>
+    <chandoan>GÃY KÍN X.SƯỜN 6+CT GỐI(P)</chandoan>
+    <dieutri>XQ,TOA VỀ</dieutri>
+    <lucvao>TỈNH</lucvao>
+    <lucra>TỈNH</lucra>
+    <madoituong>1</madoituong>
+  </Table>
+  <Table>
+    <mabn>11703475</mabn>
+    <hoten>TRẦN THỊ THANH HIẾU</hoten>
+    <namsinh>1989</namsinh>
+    <tennn>Loại khác</tennn>
+    <diadiem>Nơi công cộng</diadiem>
+    <bophan>Các chi</bophan>
+    <nguyennhan>Ngã</nguyennhan>
+    <ngnhanviettat>NGA</ngnhanviettat>
+    <dienbien>Không tàn phế</dienbien>
+    <xutri>Đến bệnh viện huyện,PKĐK khu vực</xutri>
+    <thon />
+    <tentt>Tp. H C M</tentt>
+    <tenquan>Không Xác Định</tenquan>
+    <quanviettat>KXD</quanviettat>
+    <tenpxa>Không xác định</tenpxa>
+    <diachi> T5 Trường Cđ Tài Chính Hải Quan An Thới Đông,H. Cần Giờ,Tp. H C M</diachi>
+    <ngay>15/04/2012 16:30</ngay>
+    <lydo>tai nạn sinh hoạt</lydo>
+    <chandoan>chấn thương gối trái</chandoan>
+    <dieutri>xq gối trái</dieutri>
+    <lucvao>đau gối trái</lucvao>
+    <lucra>toa về ,dặn dò</lucra>
+    <madoituong>1</madoituong>
+  </Table>
+  <Table>
+    <mabn>12006724</mabn>
+    <hoten>ĐÀO THỊ THU THUỶ</hoten>
+    <namsinh>1970</namsinh>
+    <tennn>Loại khác</tennn>
+    <diadiem>Trên đường đi</diadiem>
+    <bophan>Đầu, mặt, cổ</bophan>
+    <nguyennhan>Tai nạn giao thông</nguyennhan>
+    <dienbien>Chưa xác định</dienbien>
+    <xutri>Đến bệnh viện huyện,PKĐK khu vực</xutri>
+    <thon />
+    <tentt>Tp. H C M</tentt>
+    <tenquan>Q. 7</tenquan>
+    <tenpxa>Không xác định</tenpxa>
+    <diachi> Ấp 3 Long Hậu,H. Cần Giuộc,Long An</diachi>
+    <ngay>29/04/2012 19:30</ngay>
+    <lydo>TNGT</lydo>
+    <chandoan>CHẤN ĐộNG</chandoan>
+    <dieutri>CT SỌ, TIÊM THUỐC, TOA VỀ, DẶN DÒ</dieutri>
+    <lucvao>VTRD TRÁN #2CM X 0.5CM
+VTXX MÁ (t)</lucvao>
+    <lucra>TỈNH</lucra>
+    <madoituong>1</madoituong>
+  </Table>
+  <Table>
+    <mabn>12006703</mabn>
+    <hoten>LÊ TẤT BÌNH</hoten>
+    <namsinh>1957</namsinh>
+    <tennn>Công nhân</tennn>
+    <diadiem>Tại nhà</diadiem>
+    <bophan>Thân mình</bophan>
+    <bpviettat>2BP</bpviettat>
+    <nguyennhan>Ngã</nguyennhan>
+    <ngnhanviettat>NGA</ngnhanviettat>
+    <dienbien>Không tàn phế</dienbien>
+    <xutri>Đến bệnh viện huyện,PKĐK khu vực</xutri>
+    <thon>Q7</thon>
+    <tentt>Tp. H C M</tentt>
+    <tenquan>Q. 7</tenquan>
+    <tenpxa>Không xác định</tenpxa>
+    <diachi> Phân Việt Kh Cn Giao Thông Vận Tải Pn P. 3,Q. 6,Tp. H C M</diachi>
+    <ngay>29/04/2012 09:00</ngay>
+    <lydo>tnsh</lydo>
+    <chandoan>gãy kín xương sườn 4,5</chandoan>
+    <dieutri>ssvt
+cố định khung xương sườn 
+toa về</dieutri>
+    <lucvao>tỉnh</lucvao>
+    <lucra>tỉnh</lucra>
+    <madoituong>1</madoituong>
+  </Table>
+  <Table>
+    <mabn>12004814</mabn>
+    <hoten>TRƯƠNG VŨ LAM GIANG</hoten>
+    <namsinh>2000</namsinh>
+    <tennn>Sinh viên, học sinh</tennn>
+    <nnviettat>1NN</nnviettat>
+    <diadiem>Tại nhà</diadiem>
+    <bophan>Các chi</bophan>
+    <nguyennhan>Ngã</nguyennhan>
+    <ngnhanviettat>NGA</ngnhanviettat>
+    <dienbien>Chưa xác định</dienbien>
+    <xutri>Đến bệnh viện huyện,PKĐK khu vực</xutri>
+    <thon />
+    <tentt>Tp. H C M</tentt>
+    <tenquan>Q. 7</tenquan>
+    <tenpxa>Không xác định</tenpxa>
+    <diachi> Trường Nguyễn Hữu Thọ Không xác định,Q. 7,Tp. H C M</diachi>
+    <ngay>04/04/2012 20:10</ngay>
+    <lydo>TNSH</lydo>
+    <chandoan>ct cẳng tay(p)</chandoan>
+    <dieutri>xq cẳng tay(p),toa ,dặn dò</dieutri>
+    <lucvao>tỉnh</lucvao>
+    <lucra>tỉnh</lucra>
+    <madoituong>1</madoituong>
+  </Table>
+  <Table>
+    <mabn>12005933</mabn>
+    <hoten>TRƯƠNG THỊ DINH</hoten>
+    <namsinh>1984</namsinh>
+    <tennn>Công nhân</tennn>
+    <diadiem>Trên đường đi</diadiem>
+    <bophan>Đa chấn thương</bophan>
+    <nguyennhan>Tai nạn giao thông</nguyennhan>
+    <dienbien>Chưa xác định</dienbien>
+    <xutri>Đến bệnh viện huyện,PKĐK khu vực</xutri>
+    <thon />
+    <tentt>Tp. H C M</tentt>
+    <tenquan>Q. 7</tenquan>
+    <tenpxa>Không xác định</tenpxa>
+    <diachi> NHÀ HÀNG MỲ NHẬT OSAKA Không xác định,Q. 7,Tp. H C M</diachi>
+    <ngay>27/04/2012 22:15</ngay>
+    <lydo>TNGT</lydo>
+    <chandoan>ĐA VT</chandoan>
+    <dieutri>SSVT,XQ,TOA</dieutri>
+    <lucvao>VTXX CẲNG BÀN TAY T,VAI T</lucvao>
+    <lucra>VT ĐƯỢC SS</lucra>
+    <madoituong>1</madoituong>
+  </Table>
+  <Table>
+    <mabn>12005886</mabn>
+    <hoten>TRẦN THỊ PHƯƠNG UYÊN</hoten>
+    <namsinh>2005</namsinh>
+    <tennn>Sinh viên, học sinh</tennn>
+    <nnviettat>1NN</nnviettat>
+    <diadiem>Tại nhà</diadiem>
+    <bophan>Các chi</bophan>
+    <nguyennhan>Ngã</nguyennhan>
+    <ngnhanviettat>NGA</ngnhanviettat>
+    <dienbien>Chưa xác định</dienbien>
+    <xutri>Đến bệnh viện huyện,PKĐK khu vực</xutri>
+    <thon />
+    <tentt>Tp. H C M</tentt>
+    <tenquan>Q. 7</tenquan>
+    <tenpxa>Không xác định</tenpxa>
+    <diachi> TRƯỜNG TH ĐINH BỘ LĨNH Không xác định,Q. 7,Tp. H C M</diachi>
+    <ngay>26/04/2012 20:35</ngay>
+    <lydo>TNSH</lydo>
+    <chandoan>CHẤN THƯƠNG PHẦN MỀM KHUỶU TAY T</chandoan>
+    <dieutri>XQ KHUỶA TAY T, CẤP TOA</dieutri>
+    <lucvao>TỈNH</lucvao>
+    <lucra>TỈNH</lucra>
+    <madoituong>1</madoituong>
+  </Table>
+  <Table>
+    <mabn>07507521</mabn>
+    <hoten>NGUYỄN BẢO MINH</hoten>
+    <namsinh>2000</namsinh>
+    <tennn>Sinh viên, học sinh</tennn>
+    <nnviettat>1NN</nnviettat>
+    <diadiem>Tại nhà</diadiem>
+    <bophan>Các chi</bophan>
+    <nguyennhan>Ngã</nguyennhan>
+    <ngnhanviettat>NGA</ngnhanviettat>
+    <dienbien>Chưa xác định</dienbien>
+    <xutri>Đến bệnh viện huyện,PKĐK khu vực</xutri>
+    <thon>Tại Nhà</thon>
+    <tentt>Tp. H C M</tentt>
+    <tenquan>Q. 7</tenquan>
+    <tenpxa>Không xác định</tenpxa>
+    <diachi> THCS Nguyễn Thị Thập Không xác định,Q. 7,Tp. H C M</diachi>
+    <ngay>26/04/2012 18:05</ngay>
+    <lydo>tnsh</lydo>
+    <chandoan>vtrd cẳng chân (t) 5cm*0,5cm
+</chandoan>
+    <dieutri>khâu,toa,dặn dò</dieutri>
+    <lucvao>vt chảy máu</lucvao>
+    <lucra>vt đã khâu</lucra>
+    <madoituong>1</madoituong>
+  </Table>
+  <Table>
+    <mabn>12005727</mabn>
+    <hoten>BÙI QUỐC KHÁNH</hoten>
+    <namsinh>1977</namsinh>
+    <tennn>Công nhân</tennn>
+    <diadiem>Trên đường đi</diadiem>
+    <bophan>Thân mình</bophan>
+    <bpviettat>2BP</bpviettat>
+    <nguyennhan>Tai nạn giao thông</nguyennhan>
+    <dienbien>Chưa xác định</dienbien>
+    <xutri>Đến bệnh viện huyện,PKĐK khu vực</xutri>
+    <thon />
+    <tentt>Tp. H C M</tentt>
+    <tenquan>Không Xác Định</tenquan>
+    <quanviettat>KXD</quanviettat>
+    <tenpxa>Không xác định</tenpxa>
+    <diachi> Công Ty Cp Dịch Vụ Bảo Vệ Long Hải Không xác định,Q. 7,Tp. H C M</diachi>
+    <ngay>22/04/2012 16:00</ngay>
+    <lydo>TNGT</lydo>
+    <chandoan>ct lưng</chandoan>
+    <dieutri>XQ KHUNG CHẬU, TOA</dieutri>
+    <lucvao>TỈNH</lucvao>
+    <lucra>TỈNH</lucra>
+    <madoituong>1</madoituong>
+  </Table>
+  <Table>
+    <mabn>07502519</mabn>
+    <hoten>LÂM VĂN CÓ</hoten>
+    <namsinh>1926</namsinh>
+    <tennn>Trên 60 T</tennn>
+    <diadiem>Tại nhà</diadiem>
+    <bophan>Các chi</bophan>
+    <nguyennhan>Ngã</nguyennhan>
+    <ngnhanviettat>NGA</ngnhanviettat>
+    <dienbien>Chưa xác định</dienbien>
+    <xutri>Đến bệnh viện huyện,PKĐK khu vực</xutri>
+    <thon />
+    <tentt>Tp. H C M</tentt>
+    <tenquan>Q. 7</tenquan>
+    <tenpxa>Không xác định</tenpxa>
+    <diachi> 25/52 Kp3 P. Phú Mỹ,Q. 7,Tp. H C M</diachi>
+    <ngay>15/04/2012 07:50</ngay>
+    <lydo>TNSH</lydo>
+    <chandoan>VTRD NGÓN 2 CHÂN (p) #3CM  X0.5CM</chandoan>
+    <dieutri>KHÂU VẾT THƯƠNG, TOA VỀ</dieutri>
+    <lucvao>VẾT THƯƠNG CHẢY MÁU</lucvao>
+    <lucra>VẾT THƯƠNG ĐượC KHÂU CẰM MÁU</lucra>
+    <madoituong>1</madoituong>
+  </Table>
+  <Table>
+    <mabn>12004973</mabn>
+    <hoten>NGUYỄN LONG HẢI</hoten>
+    <namsinh>1953</namsinh>
+    <tennn>Loại khác</tennn>
+    <diadiem>Trên đường đi</diadiem>
+    <bophan>Các chi</bophan>
+    <nguyennhan>Tai nạn giao thông</nguyennhan>
+    <dienbien>Không tàn phế</dienbien>
+    <xutri>Đến bệnh viện huyện,PKĐK khu vực</xutri>
+    <thon />
+    <tentt>Tp. H C M</tentt>
+    <tenquan>Q. 7</tenquan>
+    <tenpxa>Không xác định</tenpxa>
+    <diachi>1506/11 KP2 P. Phú Mỹ,Q. 7,Tp. H C M</diachi>
+    <ngay>08/04/2012 10:05</ngay>
+    <lydo>TNGT</lydo>
+    <chandoan>BONG GÂN CỔ TAY (p)</chandoan>
+    <dieutri>XQ CỔ TAY (p),CẤP TOA</dieutri>
+    <lucvao>TỈNH</lucvao>
+    <lucra>TỈNH</lucra>
+    <madoituong>1</madoituong>
+  </Table>
+  <Table>
+    <mabn>09627987</mabn>
+    <hoten>PHAN VĂN NHÂN</hoten>
+    <namsinh>1986</namsinh>
+    <tennn>Loại khác</tennn>
+    <diadiem>Tại nhà</diadiem>
+    <bophan>Các chi</bophan>
+    <nguyennhan>Ngã</nguyennhan>
+    <ngnhanviettat>NGA</ngnhanviettat>
+    <dienbien>Không tàn phế</dienbien>
+    <xutri>Đến bệnh viện huyện,PKĐK khu vực</xutri>
+    <thon />
+    <tentt>Tp. H C M</tentt>
+    <tenquan>Không Xác Định</tenquan>
+    <quanviettat>KXD</quanviettat>
+    <tenpxa>Không xác định</tenpxa>
+    <diachi>26/5 KP3 P. Phú Mỹ,Q. 7,Tp. H C M</diachi>
+    <ngay>22/04/2012 12:00</ngay>
+    <lydo>TAI NẠN SINH HOẠT</lydo>
+    <chandoan>VTRD GỐI TRÁI 5 *0.5CM</chandoan>
+    <dieutri>KVT</dieutri>
+    <lucvao>VT CHẢY MÁU</lucvao>
+    <lucra>VT ĐƯỢC SS ,TOA VỀ ,DẶN DÒ</lucra>
+    <madoituong>1</madoituong>
+  </Table>
+  <Table>
+    <mabn>09110026</mabn>
+    <hoten>TRẦN THANH TOÀN</hoten>
+    <namsinh>1987</namsinh>
+    <tennn>Công nhân</tennn>
+    <diadiem>Tại nhà</diadiem>
+    <bophan>Các chi</bophan>
+    <nguyennhan>Ngã</nguyennhan>
+    <ngnhanviettat>NGA</ngnhanviettat>
+    <dienbien>Không tàn phế</dienbien>
+    <xutri>Đến bệnh viện huyện,PKĐK khu vực</xutri>
+    <thon />
+    <tentt>Tp. H C M</tentt>
+    <tenquan>Q. 7</tenquan>
+    <tenpxa>Không xác định</tenpxa>
+    <diachi>3/6 kp1 Cty Minh Diệu P. Phú Thuận,Q. 7,Tp. H C M</diachi>
+    <ngay>06/04/2012 22:40</ngay>
+    <lydo>tnsh</lydo>
+    <chandoan>vtrd cẳng chân (P) # 5cm x 0,5cm .bàn chân (P)  # 3cm x 0,5cm</chandoan>
+    <dieutri>kvt,cấp toa</dieutri>
+    <lucvao>tỉnh</lucvao>
+    <lucra>tỉnh</lucra>
+    <madoituong>1</madoituong>
+  </Table>
+  <Table>
+    <mabn>10809030</mabn>
+    <hoten>VÕ PHƯỚC DŨNG</hoten>
+    <namsinh>1968</namsinh>
+    <tennn>Loại khác</tennn>
+    <diadiem>Tại nhà</diadiem>
+    <bophan>Các chi</bophan>
+    <nguyennhan>Ngã</nguyennhan>
+    <ngnhanviettat>NGA</ngnhanviettat>
+    <dienbien>Chưa xác định</dienbien>
+    <xutri>Đến bệnh viện huyện,PKĐK khu vực</xutri>
+    <thon />
+    <tentt>Tp. H C M</tentt>
+    <tenquan>Không Xác Định</tenquan>
+    <quanviettat>KXD</quanviettat>
+    <tenpxa>Không xác định</tenpxa>
+    <diachi> 780 Huỳnh Tấn Phát CTY DƯỢC PHẨM NAM TRÂN P. Tân Phú,Q. 7,Tp. H C M</diachi>
+    <ngay>15/04/2012 07:00</ngay>
+    <lydo>TNSH</lydo>
+    <chandoan>VTRD LÒNG BÀN CHÂN (T) 5CM X0.5</chandoan>
+    <dieutri>KHÂU VT, TOA</dieutri>
+    <lucvao>TỈNH</lucvao>
+    <lucra>TỈNH</lucra>
+    <madoituong>1</madoituong>
+  </Table>
+  <Table>
+    <mabn>10012495</mabn>
+    <hoten>ĐÀM TÁ DO</hoten>
+    <namsinh>1969</namsinh>
+    <tennn>Loại khác</tennn>
+    <diadiem>Tại nhà</diadiem>
+    <bophan>Đầu, mặt, cổ</bophan>
+    <nguyennhan>Ngã</nguyennhan>
+    <ngnhanviettat>NGA</ngnhanviettat>
+    <dienbien>Chưa xác định</dienbien>
+    <xutri>Đến bệnh viện huyện,PKĐK khu vực</xutri>
+    <thon />
+    <tentt>Tp. H C M</tentt>
+    <tenquan>Q. 7</tenquan>
+    <tenpxa>P. Bình Thuận</tenpxa>
+    <diachi>7 - kp3 Cty Xăng Dầu Long An P. Bình Thuận,Q. 7,Tp. H C M</diachi>
+    <ngay>01/04/2012 21:50</ngay>
+    <lydo>tnsh</lydo>
+    <chandoan>vtrd tai (p)</chandoan>
+    <dieutri>khâu vt</dieutri>
+    <lucvao>vtrd vành tai # 1 x 0.5cm, sau tai # 3 x 0.5cm tai (p)</lucvao>
+    <lucra>toa về
+dặn dò</lucra>
+    <madoituong>1</madoituong>
+  </Table>
+  <Table>
+    <mabn>08040585</mabn>
+    <hoten>PHẠM LÊ NHẬT HUY</hoten>
+    <namsinh>2003</namsinh>
+    <tennn>Sinh viên, học sinh</tennn>
+    <nnviettat>1NN</nnviettat>
+    <diadiem>Trường học</diadiem>
+    <bophan>Đầu, mặt, cổ</bophan>
+    <nguyennhan>Khác</nguyennhan>
+    <dienbien>Chưa xác định</dienbien>
+    <xutri>Đến bệnh viện huyện,PKĐK khu vực</xutri>
+    <thon />
+    <tentt>Tp. H C M</tentt>
+    <tenquan>Q. 7</tenquan>
+    <tenpxa>Không xác định</tenpxa>
+    <diachi>114/3 Thcs Nguyễn Thị Định P. Tân Thuận Tây,Q. 7,Tp. H C M</diachi>
+    <ngay>09/04/2012 10:30</ngay>
+    <lydo>TNSH</lydo>
+    <chandoan>VTRD ĐỈNH ĐẦU</chandoan>
+    <dieutri>KHÂU VT</dieutri>
+    <lucvao>VTRD ĐỈNH 1cmx0.5cm</lucvao>
+    <lucra>VT ĐƯỢC KHÂU</lucra>
+    <madoituong>1</madoituong>
+  </Table>
+  <Table>
+    <mabn>12006779</mabn>
+    <hoten>MAI NGỌC VY</hoten>
+    <namsinh>2011</namsinh>
+    <tennn>Trẻ dưới 6 tuổi đi học, dưới 15 tuổi không đi học</tennn>
+    <diadiem>Tại nhà</diadiem>
+    <bophan>Các chi</bophan>
+    <nguyennhan>Bỏng</nguyennhan>
+    <dienbien>Không tàn phế</dienbien>
+    <xutri>Đến bệnh viện huyện,PKĐK khu vực</xutri>
+    <thon />
+    <tentt>Tp. H C M</tentt>
+    <tenquan>Không Xác Định</tenquan>
+    <quanviettat>KXD</quanviettat>
+    <tenpxa>Không xác định</tenpxa>
+    <diachi> 20/11 TỔ 18 KP1 P. Tân Kiểng,Q. 7,Tp. H C M</diachi>
+    <ngay>30/04/2012 10:10</ngay>
+    <lydo>TAI NẠN SINH HOẠT</lydo>
+    <chandoan>BẢNG BÀN CHÂN PHẢI</chandoan>
+    <dieutri>SSVT</dieutri>
+    <lucvao>BẢNG BÀN CHÂN PHẢI</lucvao>
+    <lucra>VT ĐƯỢC SS ,TOA VỀ ,DẶN DÒ</lucra>
+    <madoituong>1</madoituong>
+  </Table>
+  <Table>
+    <mabn>12005966</mabn>
+    <hoten>PHẠM MINH TRUNG</hoten>
+    <namsinh>1985</namsinh>
+    <tennn>Công nhân</tennn>
+    <diadiem>Nơi công cộng</diadiem>
+    <bophan>Đầu, mặt, cổ</bophan>
+    <nguyennhan>Ngã</nguyennhan>
+    <ngnhanviettat>NGA</ngnhanviettat>
+    <dienbien>Chưa xác định</dienbien>
+    <xutri>Đến bệnh viện huyện,PKĐK khu vực</xutri>
+    <thon />
+    <tentt>Tp. H C M</tentt>
+    <tenquan>Không Xác Định</tenquan>
+    <quanviettat>KXD</quanviettat>
+    <tenpxa>Không xác định</tenpxa>
+    <diachi>32/9a Ngân Hàng Tmcp Phát Triểnnhà Tphcm P. Tân Quy,Q. 7,Tp. H C M</diachi>
+    <ngay>28/04/2012 16:30</ngay>
+    <lydo>TNSH</lydo>
+    <chandoan>VTRD CẰM #7X0.5CM </chandoan>
+    <dieutri>KVT , CẤP TOA , DẶN DÒ</dieutri>
+    <lucvao>VT CHẢY MÁU </lucvao>
+    <lucra>KHÂU CẦM MÁU </lucra>
+    <madoituong>1</madoituong>
+  </Table>
+  <Table>
+    <mabn>12005804</mabn>
+    <hoten>VÕ VĂN LỢI</hoten>
+    <namsinh>1977</namsinh>
+    <tennn>Công nhân</tennn>
+    <diadiem>Tại nhà</diadiem>
+    <bophan>Các chi</bophan>
+    <nguyennhan>Khác</nguyennhan>
+    <dienbien>Chưa xác định</dienbien>
+    <xutri>Đến bệnh viện huyện,PKĐK khu vực</xutri>
+    <thon />
+    <tentt>Tp. H C M</tentt>
+    <tenquan>Q. 7</tenquan>
+    <tenpxa>Không xác định</tenpxa>
+    <diachi> Công Ty Tnhh Phú Toàn Thắng Không xác định,Không Xác Định,Tp. H C M</diachi>
+    <ngay>24/04/2012 11:45</ngay>
+    <lydo>tnsh</lydo>
+    <chandoan>vtrd kẽ ngón 1.2 tay (t) 5cm*0,5cm</chandoan>
+    <dieutri>khâu,toa</dieutri>
+    <lucvao>vt chảy máu</lucvao>
+    <lucra>vt đã khâu</lucra>
+    <madoituong>1</madoituong>
+  </Table>
+  <Table>
+    <mabn>08808524</mabn>
+    <hoten>NGUYỄN ĐẮC PHI HÙNG</hoten>
+    <namsinh>2005</namsinh>
+    <tennn>Sinh viên, học sinh</tennn>
+    <nnviettat>1NN</nnviettat>
+    <diadiem>Nơi công cộng</diadiem>
+    <bophan>Các chi</bophan>
+    <nguyennhan>Ngã</nguyennhan>
+    <ngnhanviettat>NGA</ngnhanviettat>
+    <dienbien>Chưa xác định</dienbien>
+    <xutri>Đến bệnh viện huyện,PKĐK khu vực</xutri>
+    <thon />
+    <tentt>Tp. H C M</tentt>
+    <tenquan>Q. 7</tenquan>
+    <tenpxa>Không xác định</tenpxa>
+    <diachi> Trường Th Tân Thuận Không xác định,Không Xác Định,Tp. H C M</diachi>
+    <ngay>20/04/2012 20:00</ngay>
+    <lydo>tnsh</lydo>
+    <chandoan>vtrd cẳng chân (p)# 5cm x0.5</chandoan>
+    <dieutri>kvt,toa về</dieutri>
+    <lucvao>vt chảy máu</lucvao>
+    <lucra>khâu cầm máu</lucra>
+    <madoituong>1</madoituong>
+  </Table>
+  <Table>
+    <mabn>12005477</mabn>
+    <hoten>NGUYỄN HOÀNG AN</hoten>
+    <namsinh>2004</namsinh>
+    <tennn>Sinh viên, học sinh</tennn>
+    <nnviettat>1NN</nnviettat>
+    <diadiem>Tại nhà</diadiem>
+    <bophan>Đầu, mặt, cổ</bophan>
+    <nguyennhan>Ngã</nguyennhan>
+    <ngnhanviettat>NGA</ngnhanviettat>
+    <dienbien>Chưa xác định</dienbien>
+    <xutri>Đến bệnh viện huyện,PKĐK khu vực</xutri>
+    <thon />
+    <tentt>Tp. H C M</tentt>
+    <tenquan>Q. 7</tenquan>
+    <tenpxa>Không xác định</tenpxa>
+    <diachi> Trường Tiểu Học Phù Đổng Không xác định,Không Xác Định,Tp. H C M</diachi>
+    <ngay>18/04/2012 16:00</ngay>
+    <lydo>TNSH</lydo>
+    <chandoan>VTRD CẰM</chandoan>
+    <dieutri>KHÂU VT</dieutri>
+    <lucvao>VTRD CẰM 3cmx0.5cm</lucvao>
+    <lucra>VT ĐƯỢC KHÂU</lucra>
+    <madoituong>1</madoituong>
+  </Table>
+  <Table>
+    <mabn>09618257</mabn>
+    <hoten>NGUYỄN HỒ ANH SANG</hoten>
+    <namsinh>1975</namsinh>
+    <tennn>Công nhân</tennn>
+    <diadiem>Nơi công cộng</diadiem>
+    <bophan>Các chi</bophan>
+    <nguyennhan>Ngã</nguyennhan>
+    <ngnhanviettat>NGA</ngnhanviettat>
+    <dienbien>Chưa xác định</dienbien>
+    <xutri>Đến bệnh viện huyện,PKĐK khu vực</xutri>
+    <thon />
+    <tentt>Tp. H C M</tentt>
+    <tenquan>Không Xác Định</tenquan>
+    <quanviettat>KXD</quanviettat>
+    <tenpxa>Không xác định</tenpxa>
+    <diachi> Cty Tnhh Vớ Lancheston Không xác định,Không Xác Định,Tp. H C M</diachi>
+    <ngay>15/04/2012 19:30</ngay>
+    <lydo>tai nạn sinh hoạt</lydo>
+    <chandoan>gãy xương cẳng tay trái trật khớp khuỷu</chandoan>
+    <dieutri>xq khuỷu tay trái ,nẹp cố định xương gãy</dieutri>
+    <lucvao>đau khuỷu tay trái ,cử động khó</lucvao>
+    <lucra>chuyển bv CTCH</lucra>
+    <madoituong>1</madoituong>
+  </Table>
+  <Table>
+    <mabn>09612894</mabn>
+    <hoten>VÕ THỊ THUÝ HÀ</hoten>
+    <namsinh>1985</namsinh>
+    <tennn>Công Nhân Viên</tennn>
+    <diadiem>Trên đường đi</diadiem>
+    <bophan>Các chi</bophan>
+    <nguyennhan>Tai nạn giao thông</nguyennhan>
+    <dienbien>Chưa xác định</dienbien>
+    <xutri>Đến bệnh viện huyện,PKĐK khu vực</xutri>
+    <thon />
+    <tentt>Tp. H C M</tentt>
+    <tenquan>Q. 7</tenquan>
+    <tenpxa>Không xác định</tenpxa>
+    <diachi> Trường Th Bình Khánh Không xác định,Không Xác Định,Tp. H C M</diachi>
+    <ngay>15/04/2012 08:30</ngay>
+    <lydo>TNGT</lydo>
+    <chandoan>CHẤN THƯƠNG PHẦN MỀM</chandoan>
+    <dieutri>XQ,SSVT,toa</dieutri>
+    <lucvao>vtxx bàn chân (p)</lucvao>
+    <lucra>vt đã được ss</lucra>
+    <madoituong>1</madoituong>
+  </Table>
+  <Table>
+    <mabn>12005167</mabn>
+    <hoten>HỒ PHƯƠNG NHI</hoten>
+    <namsinh>2005</namsinh>
+    <tennn>Sinh viên, học sinh</tennn>
+    <nnviettat>1NN</nnviettat>
+    <diadiem>Trường học</diadiem>
+    <bophan>Các chi</bophan>
+    <nguyennhan>Ngã</nguyennhan>
+    <ngnhanviettat>NGA</ngnhanviettat>
+    <dienbien>Chưa xác định</dienbien>
+    <xutri>Đến bệnh viện huyện,PKĐK khu vực</xutri>
+    <thon />
+    <tentt>Tp. H C M</tentt>
+    <tenquan>Không Xác Định</tenquan>
+    <quanviettat>KXD</quanviettat>
+    <tenpxa>Không xác định</tenpxa>
+    <diachi> Trường Th Nguyễn Văn Hưởng Không xác định,Không Xác Định,Tp. H C M</diachi>
+    <ngay>11/04/2012 17:30</ngay>
+    <lydo>tai nạn sinh hoạt</lydo>
+    <chandoan>gãy xương cẳng tay trái</chandoan>
+    <dieutri>xq cổ tay trái</dieutri>
+    <lucvao>biến dạng cổ tay trái</lucvao>
+    <lucra>nẹp cố định xương gãy ,chuyển bv CTCH</lucra>
+    <madoituong>1</madoituong>
+  </Table>
+  <Table>
+    <mabn>12005135</mabn>
+    <hoten>NGUYỄN THỊ BẠCH NGUYÊN</hoten>
+    <namsinh>1992</namsinh>
+    <tennn>Sinh viên, học sinh</tennn>
+    <nnviettat>1NN</nnviettat>
+    <diadiem>Nơi công cộng</diadiem>
+    <bophan>Các chi</bophan>
+    <nguyennhan>Ngã</nguyennhan>
+    <ngnhanviettat>NGA</ngnhanviettat>
+    <dienbien>Chưa xác định</dienbien>
+    <xutri>Đến bệnh viện huyện,PKĐK khu vực</xutri>
+    <thon />
+    <tentt>Tp. H C M</tentt>
+    <tenquan>Không Xác Định</tenquan>
+    <quanviettat>KXD</quanviettat>
+    <tenpxa>Không xác định</tenpxa>
+    <diachi> Trường Tc Kt$nv Nam Sài Gòn Không xác định,Không Xác Định,Tp. H C M</diachi>
+    <ngay>10/04/2012 18:00</ngay>
+    <lydo>tnsh</lydo>
+    <chandoan>vtrd bàn chân(p)#5x0.5cm</chandoan>
+    <dieutri>kvt,toa về</dieutri>
+    <lucvao>tỉnh</lucvao>
+    <lucra>tỉnh</lucra>
+    <madoituong>1</madoituong>
+  </Table>
+  <Table>
+    <mabn>08016180</mabn>
+    <hoten>ĐẶNG THANH THUỶ</hoten>
+    <namsinh>1972</namsinh>
+    <tennn>Công nhân</tennn>
+    <diadiem>Nơi công cộng</diadiem>
+    <bophan>Đa chấn thương</bophan>
+    <nguyennhan>Ngã</nguyennhan>
+    <ngnhanviettat>NGA</ngnhanviettat>
+    <dienbien>Chưa xác định</dienbien>
+    <xutri>Đến bệnh viện huyện,PKĐK khu vực</xutri>
+    <thon />
+    <tentt>Tp. H C M</tentt>
+    <tenquan>Không Xác Định</tenquan>
+    <quanviettat>KXD</quanviettat>
+    <tenpxa>Không xác định</tenpxa>
+    <diachi> Cty Điện Lực Hiệp Phước Không xác định,Không Xác Định,Tp. H C M</diachi>
+    <ngay>07/04/2012 16:30</ngay>
+    <lydo>TAI NẠN SINH HOẠT</lydo>
+    <chandoan>ĐA CHẤN THƯƠNG,GÃY XƯƠNG ĐÒN XƯƠNG BẢ VAI PHẢI</chandoan>
+    <dieutri>XQ KHỚP VAI PHẢI ,XQ NGỰC</dieutri>
+    <lucvao>ĐAU VAI PHẢI CỬ ĐỘNG KHÓ ,ĐAU NGỰC</lucvao>
+    <lucra>CỐ ĐỊNH XƯƠNG GÃY CHUYỂN BV 115</lucra>
+    <madoituong>1</madoituong>
+  </Table>
+  <Table>
+    <mabn>12004866</mabn>
+    <hoten>LÊ DUY LINH</hoten>
+    <namsinh>1987</namsinh>
+    <tennn>Công nhân</tennn>
+    <diadiem>Trên đường đi</diadiem>
+    <bophan>Thân mình</bophan>
+    <bpviettat>2BP</bpviettat>
+    <nguyennhan>Tai nạn giao thông</nguyennhan>
+    <dienbien>Chưa xác định</dienbien>
+    <xutri>Đến bệnh viện huyện,PKĐK khu vực</xutri>
+    <thon />
+    <tentt>Tp. H C M</tentt>
+    <tenquan>Q. 7</tenquan>
+    <tenpxa>Không xác định</tenpxa>
+    <diachi> Cty Furukawa Automotive Parts VN Không xác định,Không Xác Định,Tp. H C M</diachi>
+    <ngay>05/04/2012 21:40</ngay>
+    <lydo>TNGT</lydo>
+    <chandoan>GÃY XƯƠNG ĐòN</chandoan>
+    <dieutri>XQUANG, CỐ ĐỊNH, TOA VỀ, HẸN TÁI KHÁM NGOẠI</dieutri>
+    <lucvao>TỈNH</lucvao>
+    <lucra>TỈNH</lucra>
+    <madoituong>1</madoituong>
+  </Table>
+  <Table>
+    <mabn>10012184</mabn>
+    <hoten>TRẦN THỊ VINH HẠNH</hoten>
+    <namsinh>1991</namsinh>
+    <tennn>Sinh viên, học sinh</tennn>
+    <nnviettat>1NN</nnviettat>
+    <diadiem>Trên đường đi</diadiem>
+    <bophan>Các chi</bophan>
+    <nguyennhan>Tai nạn giao thông</nguyennhan>
+    <dienbien>Không tàn phế</dienbien>
+    <xutri>Đến bệnh viện huyện,PKĐK khu vực</xutri>
+    <thon />
+    <tentt>Tp. H C M</tentt>
+    <tenquan>Không Xác Định</tenquan>
+    <quanviettat>KXD</quanviettat>
+    <tenpxa>Không xác định</tenpxa>
+    <diachi> Trường Đại Học Tôn Đức Thắng Không xác định,Không Xác Định,Tp. H C M</diachi>
+    <ngay>14/04/2012 11:00</ngay>
+    <lydo>TAI NẠN GIAO THÔNG</lydo>
+    <chandoan>CHẤN THƯƠNG BÀN CHÂN PHẢI</chandoan>
+    <dieutri>SSVT ,XQ BÀN CHÂN PHẢI</dieutri>
+    <lucvao>VTXX BÀN CHÂN PHẢI ,SƯNG ĐAU</lucvao>
+    <lucra>TOA VỀ ,DẶN DÒ</lucra>
+    <madoituong>1</madoituong>
+  </Table>
+  <Table>
+    <mabn>09701409</mabn>
+    <hoten>ĐỒNG THỊ MAI PHƯƠNG</hoten>
+    <namsinh>1990</namsinh>
+    <tennn>Công nhân</tennn>
+    <diadiem>Nơi công cộng</diadiem>
+    <bophan>Đầu, mặt, cổ</bophan>
+    <nguyennhan>Ngã</nguyennhan>
+    <ngnhanviettat>NGA</ngnhanviettat>
+    <dienbien>Chưa xác định</dienbien>
+    <xutri>Đến bệnh viện huyện,PKĐK khu vực</xutri>
+    <thon />
+    <tentt>Tp. H C M</tentt>
+    <tenquan>Không Xác Định</tenquan>
+    <quanviettat>KXD</quanviettat>
+    <tenpxa>Không xác định</tenpxa>
+    <diachi> E1/21lê Lợi Quang Trung,H. Thống Nhất,Đồng Nai</diachi>
+    <ngay>02/04/2012 09:50</ngay>
+    <lydo>tai nạn sinh họat</lydo>
+    <chandoan>chấn thương phần mềm mũi</chandoan>
+    <dieutri>xq mũi</dieutri>
+    <lucvao>đau mũi</lucvao>
+    <lucra> toa về  ,dặn dò</lucra>
+    <madoituong>1</madoituong>
+  </Table>
+  <Table>
+    <mabn>09115814</mabn>
+    <hoten>NGUYỄN TRẦN ĐỊNH</hoten>
+    <namsinh>1992</namsinh>
+    <tennn>Công nhân</tennn>
+    <diadiem>Nơi công cộng</diadiem>
+    <bophan>Đầu, mặt, cổ</bophan>
+    <nguyennhan>Bỏng</nguyennhan>
+    <dienbien>Chưa xác định</dienbien>
+    <xutri>Đến bệnh viện huyện,PKĐK khu vực</xutri>
+    <thon />
+    <tentt>Tp. H C M</tentt>
+    <tenquan>Không Xác Định</tenquan>
+    <quanviettat>KXD</quanviettat>
+    <tenpxa>Không xác định</tenpxa>
+    <diachi> Nhà Hàng Red Iomato Không xác định,H. Cái Bè,Tiền Giang</diachi>
+    <ngay>07/04/2012 18:50</ngay>
+    <lydo>tai nạn sinh hoạt</lydo>
+    <chandoan>bỏng vùng mặt </chandoan>
+    <dieutri>ssvt</dieutri>
+    <lucvao>bỏng vùng mặt</lucvao>
+    <lucra>vt được ss ,toa về ,dặn dò</lucra>
+    <madoituong>1</madoituong>
+  </Table>
+  <Table>
+    <mabn>11431989</mabn>
+    <hoten>ĐẶNG CƯỜNG THẮNG</hoten>
+    <namsinh>1990</namsinh>
+    <tennn>Công nhân</tennn>
+    <diadiem>Tại nhà</diadiem>
+    <bophan>Đầu, mặt, cổ</bophan>
+    <nguyennhan>Ngã</nguyennhan>
+    <ngnhanviettat>NGA</ngnhanviettat>
+    <dienbien>Chưa xác định</dienbien>
+    <xutri>Đến bệnh viện huyện,PKĐK khu vực</xutri>
+    <thon />
+    <tentt>Tp. H C M</tentt>
+    <tenquan>Q. 7</tenquan>
+    <tenpxa>Không xác định</tenpxa>
+    <diachi> Ấp 7 Tân Bình,H. Cai Lậy,Tiền Giang</diachi>
+    <ngay>05/04/2012 21:50</ngay>
+    <lydo>tngt</lydo>
+    <chandoan>vtrd chẩm (P) #2cm x 0.5cm</chandoan>
+    <dieutri>khâu vết thương, toa về</dieutri>
+    <lucvao>vết thương chảy máu</lucvao>
+    <lucra>vết thương được khâu cằm máu</lucra>
+    <madoituong>1</madoituong>
+  </Table>
+  <Table>
+    <mabn>12407620</mabn>
+    <hoten>THÁI TRỌNG HỮU</hoten>
+    <namsinh>1990</namsinh>
+    <tennn>Công nhân</tennn>
+    <diadiem>Trên đường đi</diadiem>
+    <bophan>Đa chấn thương</bophan>
+    <nguyennhan>Tai nạn giao thông</nguyennhan>
+    <dienbien>Chưa xác định</dienbien>
+    <xutri>Đến bệnh viện huyện,PKĐK khu vực</xutri>
+    <thon>Q7</thon>
+    <tentt>Tp. H C M</tentt>
+    <tenquan>Không Xác Định</tenquan>
+    <quanviettat>KXD</quanviettat>
+    <tenpxa>Không xác định</tenpxa>
+    <diachi> Tân Thông IV Cty Juki Thanh Tân,H. Mỏ Cày,Bến Tre</diachi>
+    <ngay>05/04/2012 12:30</ngay>
+    <lydo>tngt</lydo>
+    <chandoan>vtxx thái dương p,vtxx bàn tay t</chandoan>
+    <dieutri>ssvt</dieutri>
+    <lucvao>vt dơ</lucvao>
+    <lucra>vt sạch,toa về+giấy dặn dò</lucra>
+    <madoituong>1</madoituong>
+  </Table>
+  <Table>
+    <mabn>09117799</mabn>
+    <hoten>NGUYỄN VĂN NAM</hoten>
+    <namsinh>1961</namsinh>
+    <tennn>Loại khác</tennn>
+    <diadiem>Tại nhà</diadiem>
+    <bophan>Các chi</bophan>
+    <nguyennhan>Bạo Lực Trong Gia Đình, Xã Hội</nguyennhan>
+    <dienbien>Không tàn phế</dienbien>
+    <xutri>Đến bệnh viện huyện,PKĐK khu vực</xutri>
+    <thon />
+    <tentt>Tp. H C M</tentt>
+    <tenquan>Không Xác Định</tenquan>
+    <quanviettat>KXD</quanviettat>
+    <tenpxa>Không xác định</tenpxa>
+    <diachi>625/19/11 Kp2 P. Tân Hưng,Q. 7,Tp. H C M</diachi>
+    <ngay>01/05/2012 15:25</ngay>
+    <lydo>tai nạn sinh hoạt</lydo>
+    <chandoan>gãy kín xương bàn tay trái</chandoan>
+    <dieutri>xq bàn tay trái</dieutri>
+    <lucvao>sưng đau bàn tay trái</lucvao>
+    <lucra>cố định xương gãy ,toa về,dặn dò</lucra>
+    <madoituong>1</madoituong>
+  </Table>
+</NewDataSet>

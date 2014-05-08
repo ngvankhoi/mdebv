@@ -1,0 +1,1135 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="cpdt">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="MAKP" type="xs:string" minOccurs="0" />
+                <xs:element name="NGAY" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="MABN" type="xs:string" minOccurs="0" />
+                <xs:element name="MAQL" type="xs:decimal" minOccurs="0" />
+                <xs:element name="CPNGAY" type="xs:decimal" minOccurs="0" />
+                <xs:element name="TAMUNG" type="xs:decimal" minOccurs="0" />
+                <xs:element name="CPLUYKE" type="xs:decimal" minOccurs="0" />
+                <xs:element name="NGUOIDUNG" type="xs:string" minOccurs="0" />
+                <xs:element name="X01" type="xs:decimal" minOccurs="0" />
+                <xs:element name="X02" type="xs:decimal" minOccurs="0" />
+                <xs:element name="X03" type="xs:decimal" minOccurs="0" />
+                <xs:element name="X04" type="xs:decimal" minOccurs="0" />
+                <xs:element name="X05" type="xs:decimal" minOccurs="0" />
+                <xs:element name="DATHU" type="xs:decimal" minOccurs="0" />
+                <xs:element name="HOTEN" type="xs:string" minOccurs="0" />
+                <xs:element name="NAMSINH" type="xs:string" minOccurs="0" />
+                <xs:element name="PHAI" type="xs:decimal" minOccurs="0" />
+                <xs:element name="DIACHI" type="xs:string" minOccurs="0" />
+                <xs:element name="TENKP" type="xs:string" minOccurs="0" />
+                <xs:element name="VIETTAT" type="xs:string" minOccurs="0" />
+                <xs:element name="TUOIVAO" type="xs:string" minOccurs="0" />
+                <xs:element name="MADOITUONG" type="xs:decimal" minOccurs="0" />
+                <xs:element name="NGAY1" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="NGAYVV" type="xs:string" minOccurs="0" />
+                <xs:element name="SOVAOVIEN" type="xs:string" minOccurs="0" />
+                <xs:element name="DOITUONG" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <cpdt>
+    <MAKP>02</MAKP>
+    <NGAY>2005-07-29T00:00:00.0000000+07:00</NGAY>
+    <MABN>05163593</MABN>
+    <MAQL>165629</MAQL>
+    <CPNGAY>0</CPNGAY>
+    <TAMUNG>0</TAMUNG>
+    <CPLUYKE>169577</CPLUYKE>
+    <NGUOIDUNG>46</NGUOIDUNG>
+    <X01>0</X01>
+    <X02>0</X02>
+    <X03>0</X03>
+    <X04>0</X04>
+    <X05>0</X05>
+    <DATHU>0</DATHU>
+    <HOTEN>NGUYỄN THỊ THANH THƯƠNG</HOTEN>
+    <NAMSINH>1992</NAMSINH>
+    <PHAI>1</PHAI>
+    <DIACHI>Khóm Trung Chính Thị trấn Lao Bảo Huyện Hướng Hóa Quảng Trị</DIACHI>
+    <TENKP>Lâm Sàng 1</TENKP>
+    <VIETTAT>02</VIETTAT>
+    <TUOIVAO>0130</TUOIVAO>
+    <MADOITUONG>2</MADOITUONG>
+    <NGAY1>2005-07-11T07:35:00.0000000+07:00</NGAY1>
+    <NGAYVV>11/07/2005</NGAYVV>
+    <SOVAOVIEN>691/2005</SOVAOVIEN>
+    <DOITUONG>Thu phí</DOITUONG>
+  </cpdt>
+  <cpdt>
+    <MAKP>02</MAKP>
+    <NGAY>2005-07-29T00:00:00.0000000+07:00</NGAY>
+    <MABN>05157917</MABN>
+    <MAQL>150753</MAQL>
+    <CPNGAY>0</CPNGAY>
+    <TAMUNG>0</TAMUNG>
+    <CPLUYKE>314305.33</CPLUYKE>
+    <NGUOIDUNG>46</NGUOIDUNG>
+    <X01>0</X01>
+    <X02>0</X02>
+    <X03>0</X03>
+    <X04>0</X04>
+    <X05>0</X05>
+    <DATHU>0</DATHU>
+    <HOTEN>NGUYỄN THỊ BÉ</HOTEN>
+    <NAMSINH>1976</NAMSINH>
+    <PHAI>1</PHAI>
+    <DIACHI>Thạch Xuân Xã Hoài Hương Huyện Hoài Nhơn Bình Định</DIACHI>
+    <TENKP>Lâm Sàng 1</TENKP>
+    <VIETTAT>02</VIETTAT>
+    <TUOIVAO>0290</TUOIVAO>
+    <MADOITUONG>2</MADOITUONG>
+    <NGAY1>2005-06-27T08:00:00.0000000+07:00</NGAY1>
+    <NGAYVV>27/06/2005</NGAYVV>
+    <SOVAOVIEN>635/2005</SOVAOVIEN>
+    <DOITUONG>Thu phí</DOITUONG>
+  </cpdt>
+  <cpdt>
+    <MAKP>02</MAKP>
+    <NGAY>2005-07-29T00:00:00.0000000+07:00</NGAY>
+    <MABN>05165309</MABN>
+    <MAQL>170429</MAQL>
+    <CPNGAY>0</CPNGAY>
+    <TAMUNG>0</TAMUNG>
+    <CPLUYKE>57713.75</CPLUYKE>
+    <NGUOIDUNG>46</NGUOIDUNG>
+    <X01>0</X01>
+    <X02>0</X02>
+    <X03>0</X03>
+    <X04>0</X04>
+    <X05>0</X05>
+    <DATHU>0</DATHU>
+    <HOTEN>LÊ NHẬT TRƯỜNG </HOTEN>
+    <NAMSINH>1995</NAMSINH>
+    <PHAI>0</PHAI>
+    <DIACHI>Ấp Xuân Lạc Xã Vĩnh Ngọc Thành phố Nha Trang Khánh Hòa</DIACHI>
+    <TENKP>Lâm Sàng 1</TENKP>
+    <VIETTAT>02</VIETTAT>
+    <TUOIVAO>0100</TUOIVAO>
+    <MADOITUONG>2</MADOITUONG>
+    <NGAY1>2005-07-14T08:10:00.0000000+07:00</NGAY1>
+    <NGAYVV>14/07/2005</NGAYVV>
+    <SOVAOVIEN>710/2005</SOVAOVIEN>
+    <DOITUONG>Thu phí</DOITUONG>
+  </cpdt>
+  <cpdt>
+    <MAKP>02</MAKP>
+    <NGAY>2005-07-29T00:00:00.0000000+07:00</NGAY>
+    <MABN>05159590</MABN>
+    <MAQL>154787</MAQL>
+    <CPNGAY>0</CPNGAY>
+    <TAMUNG>0</TAMUNG>
+    <CPLUYKE>241384</CPLUYKE>
+    <NGUOIDUNG>46</NGUOIDUNG>
+    <X01>0</X01>
+    <X02>0</X02>
+    <X03>0</X03>
+    <X04>0</X04>
+    <X05>0</X05>
+    <DATHU>0</DATHU>
+    <HOTEN>TRẦN HÀ NỮ</HOTEN>
+    <NAMSINH>1953</NAMSINH>
+    <PHAI>1</PHAI>
+    <DIACHI>Trần Qúi Cáp Xã Vĩnh Thạnh Thành phố Nha Trang Khánh Hòa</DIACHI>
+    <TENKP>Lâm Sàng 1</TENKP>
+    <VIETTAT>02</VIETTAT>
+    <TUOIVAO>0520</TUOIVAO>
+    <MADOITUONG>2</MADOITUONG>
+    <NGAY1>2005-06-30T07:55:00.0000000+07:00</NGAY1>
+    <NGAYVV>30/06/2005</NGAYVV>
+    <SOVAOVIEN>658/2005</SOVAOVIEN>
+    <DOITUONG>Thu phí</DOITUONG>
+  </cpdt>
+  <cpdt>
+    <MAKP>02</MAKP>
+    <NGAY>2005-07-29T00:00:00.0000000+07:00</NGAY>
+    <MABN>05000007</MABN>
+    <MAQL>177119</MAQL>
+    <CPNGAY>0</CPNGAY>
+    <TAMUNG>0</TAMUNG>
+    <CPLUYKE>66000</CPLUYKE>
+    <NGUOIDUNG>46</NGUOIDUNG>
+    <X01>0</X01>
+    <X02>0</X02>
+    <X03>0</X03>
+    <X04>0</X04>
+    <X05>0</X05>
+    <DATHU>0</DATHU>
+    <HOTEN>THU</HOTEN>
+    <NAMSINH>1980</NAMSINH>
+    <PHAI>0</PHAI>
+    <DIACHI> Phường Đa Kao Quận 1 Hồ Chí Minh</DIACHI>
+    <TENKP>Lâm Sàng 1</TENKP>
+    <VIETTAT>02</VIETTAT>
+    <TUOIVAO>0250</TUOIVAO>
+    <MADOITUONG>2</MADOITUONG>
+    <NGAY1>2005-07-28T07:59:00.0000000+07:00</NGAY1>
+    <NGAYVV>28/07/2005</NGAYVV>
+    <SOVAOVIEN>1</SOVAOVIEN>
+    <DOITUONG>Thu phí</DOITUONG>
+  </cpdt>
+  <cpdt>
+    <MAKP>02</MAKP>
+    <NGAY>2005-07-29T00:00:00.0000000+07:00</NGAY>
+    <MABN>05157913</MABN>
+    <MAQL>150688</MAQL>
+    <CPNGAY>0</CPNGAY>
+    <TAMUNG>0</TAMUNG>
+    <CPLUYKE>292981.96</CPLUYKE>
+    <NGUOIDUNG>46</NGUOIDUNG>
+    <X01>0</X01>
+    <X02>0</X02>
+    <X03>0</X03>
+    <X04>0</X04>
+    <X05>0</X05>
+    <DATHU>0</DATHU>
+    <HOTEN>ĐẶNG BỘI PHÂN </HOTEN>
+    <NAMSINH>1963</NAMSINH>
+    <PHAI>1</PHAI>
+    <DIACHI>Phạm Văn Chí  Phường 2 Quận 6 Hồ Chí Minh</DIACHI>
+    <TENKP>Lâm Sàng 1</TENKP>
+    <VIETTAT>02</VIETTAT>
+    <TUOIVAO>0420</TUOIVAO>
+    <MADOITUONG>2</MADOITUONG>
+    <NGAY1>2005-06-27T07:56:00.0000000+07:00</NGAY1>
+    <NGAYVV>27/06/2005</NGAYVV>
+    <SOVAOVIEN>633/2005</SOVAOVIEN>
+    <DOITUONG>Thu phí</DOITUONG>
+  </cpdt>
+  <cpdt>
+    <MAKP>02</MAKP>
+    <NGAY>2005-07-29T00:00:00.0000000+07:00</NGAY>
+    <MABN>05165947</MABN>
+    <MAQL>171721</MAQL>
+    <CPNGAY>0</CPNGAY>
+    <TAMUNG>0</TAMUNG>
+    <CPLUYKE>50606</CPLUYKE>
+    <NGUOIDUNG>46</NGUOIDUNG>
+    <X01>0</X01>
+    <X02>0</X02>
+    <X03>0</X03>
+    <X04>0</X04>
+    <X05>0</X05>
+    <DATHU>0</DATHU>
+    <HOTEN>NINH VŨ HƯNG KHANG</HOTEN>
+    <NAMSINH>1995</NAMSINH>
+    <PHAI>0</PHAI>
+    <DIACHI>Đường Số 4 Phường 11 Quận 6 Hồ Chí Minh</DIACHI>
+    <TENKP>Lâm Sàng 1</TENKP>
+    <VIETTAT>02</VIETTAT>
+    <TUOIVAO>0100</TUOIVAO>
+    <MADOITUONG>2</MADOITUONG>
+    <NGAY1>2005-07-15T08:20:00.0000000+07:00</NGAY1>
+    <NGAYVV>15/07/2005</NGAYVV>
+    <SOVAOVIEN>718/2005</SOVAOVIEN>
+    <DOITUONG>Thu phí</DOITUONG>
+  </cpdt>
+  <cpdt>
+    <MAKP>02</MAKP>
+    <NGAY>2005-07-29T00:00:00.0000000+07:00</NGAY>
+    <MABN>05129330</MABN>
+    <MAQL>167869</MAQL>
+    <CPNGAY>0</CPNGAY>
+    <TAMUNG>0</TAMUNG>
+    <CPLUYKE>257059</CPLUYKE>
+    <NGUOIDUNG>46</NGUOIDUNG>
+    <X01>0</X01>
+    <X02>0</X02>
+    <X03>0</X03>
+    <X04>0</X04>
+    <X05>0</X05>
+    <DATHU>0</DATHU>
+    <HOTEN>DƯƠNG TẤN MUỐI</HOTEN>
+    <NAMSINH>1950</NAMSINH>
+    <PHAI>1</PHAI>
+    <DIACHI>Bến Bình Đông Phường 15 Quận 8 Hồ Chí Minh</DIACHI>
+    <TENKP>Lâm Sàng 1</TENKP>
+    <VIETTAT>02</VIETTAT>
+    <TUOIVAO>0550</TUOIVAO>
+    <MADOITUONG>1</MADOITUONG>
+    <NGAY1>2005-07-12T09:30:00.0000000+07:00</NGAY1>
+    <NGAYVV>12/07/2005</NGAYVV>
+    <SOVAOVIEN>15.7/00</SOVAOVIEN>
+    <DOITUONG>BHYT</DOITUONG>
+  </cpdt>
+  <cpdt>
+    <MAKP>02</MAKP>
+    <NGAY>2005-07-29T00:00:00.0000000+07:00</NGAY>
+    <MABN>05159476</MABN>
+    <MAQL>153939</MAQL>
+    <CPNGAY>0</CPNGAY>
+    <TAMUNG>0</TAMUNG>
+    <CPLUYKE>824559.02</CPLUYKE>
+    <NGUOIDUNG>46</NGUOIDUNG>
+    <X01>0</X01>
+    <X02>0</X02>
+    <X03>0</X03>
+    <X04>0</X04>
+    <X05>0</X05>
+    <DATHU>0</DATHU>
+    <HOTEN>MAI PHƯƠNG THẢO</HOTEN>
+    <NAMSINH>1994</NAMSINH>
+    <PHAI>1</PHAI>
+    <DIACHI>Tổ 3 Khu Bến Cát Phường Phước Bình Quận 9 Hồ Chí Minh</DIACHI>
+    <TENKP>Lâm Sàng 1</TENKP>
+    <VIETTAT>02</VIETTAT>
+    <TUOIVAO>0110</TUOIVAO>
+    <MADOITUONG>2</MADOITUONG>
+    <NGAY1>2005-06-29T08:45:00.0000000+07:00</NGAY1>
+    <NGAYVV>29/06/2005</NGAYVV>
+    <SOVAOVIEN>654/2005</SOVAOVIEN>
+    <DOITUONG>Thu phí</DOITUONG>
+  </cpdt>
+  <cpdt>
+    <MAKP>02</MAKP>
+    <NGAY>2005-07-29T00:00:00.0000000+07:00</NGAY>
+    <MABN>04004707</MABN>
+    <MAQL>5044</MAQL>
+    <CPNGAY>0</CPNGAY>
+    <TAMUNG>0</TAMUNG>
+    <CPLUYKE>22231.77</CPLUYKE>
+    <NGUOIDUNG>46</NGUOIDUNG>
+    <X01>0</X01>
+    <X02>0</X02>
+    <X03>0</X03>
+    <X04>0</X04>
+    <X05>0</X05>
+    <DATHU>0</DATHU>
+    <HOTEN>NGUYỄN QUANG NHỌC</HOTEN>
+    <NAMSINH>2002</NAMSINH>
+    <PHAI>0</PHAI>
+    <DIACHI> Phường 11 Quận Gò Vấp Hồ Chí Minh</DIACHI>
+    <TENKP>Lâm Sàng 1</TENKP>
+    <VIETTAT>02</VIETTAT>
+    <TUOIVAO>0020</TUOIVAO>
+    <MADOITUONG>2</MADOITUONG>
+    <NGAY1>2004-10-20T11:34:00.0000000+07:00</NGAY1>
+    <NGAYVV>20/10/2004</NGAYVV>
+    <SOVAOVIEN>0000061/04</SOVAOVIEN>
+    <DOITUONG>Thu phí</DOITUONG>
+  </cpdt>
+  <cpdt>
+    <MAKP>02</MAKP>
+    <NGAY>2005-07-29T00:00:00.0000000+07:00</NGAY>
+    <MABN>05117360</MABN>
+    <MAQL>166557</MAQL>
+    <CPNGAY>0</CPNGAY>
+    <TAMUNG>0</TAMUNG>
+    <CPLUYKE>356446.06</CPLUYKE>
+    <NGUOIDUNG>46</NGUOIDUNG>
+    <X01>0</X01>
+    <X02>0</X02>
+    <X03>0</X03>
+    <X04>0</X04>
+    <X05>0</X05>
+    <DATHU>0</DATHU>
+    <HOTEN>VŨ THỊ  THU NGUYỆT</HOTEN>
+    <NAMSINH>1982</NAMSINH>
+    <PHAI>1</PHAI>
+    <DIACHI>423 Lê Văn Sỹ Phường 2 Quận Tân Bình Hồ Chí Minh</DIACHI>
+    <TENKP>Lâm Sàng 1</TENKP>
+    <VIETTAT>02</VIETTAT>
+    <TUOIVAO>0230</TUOIVAO>
+    <MADOITUONG>2</MADOITUONG>
+    <NGAY1>2005-07-11T10:25:00.0000000+07:00</NGAY1>
+    <NGAYVV>11/07/2005</NGAYVV>
+    <SOVAOVIEN>694/2005</SOVAOVIEN>
+    <DOITUONG>Thu phí</DOITUONG>
+  </cpdt>
+  <cpdt>
+    <MAKP>02</MAKP>
+    <NGAY>2005-07-29T00:00:00.0000000+07:00</NGAY>
+    <MABN>05136957</MABN>
+    <MAQL>158415</MAQL>
+    <CPNGAY>0</CPNGAY>
+    <TAMUNG>0</TAMUNG>
+    <CPLUYKE>377976.56</CPLUYKE>
+    <NGUOIDUNG>46</NGUOIDUNG>
+    <X01>0</X01>
+    <X02>0</X02>
+    <X03>0</X03>
+    <X04>0</X04>
+    <X05>0</X05>
+    <DATHU>0</DATHU>
+    <HOTEN>THÁI HỒNG PHƯƠNG</HOTEN>
+    <NAMSINH>1990</NAMSINH>
+    <PHAI>0</PHAI>
+    <DIACHI>46/2 Trung Lang Phường 12 Quận Tân Bình Hồ Chí Minh</DIACHI>
+    <TENKP>Lâm Sàng 1</TENKP>
+    <VIETTAT>02</VIETTAT>
+    <TUOIVAO>0150</TUOIVAO>
+    <MADOITUONG>2</MADOITUONG>
+    <NGAY1>2005-07-04T09:20:00.0000000+07:00</NGAY1>
+    <NGAYVV>04/07/2005</NGAYVV>
+    <SOVAOVIEN>673/2005</SOVAOVIEN>
+    <DOITUONG>Thu phí</DOITUONG>
+  </cpdt>
+  <cpdt>
+    <MAKP>02</MAKP>
+    <NGAY>2005-07-29T00:00:00.0000000+07:00</NGAY>
+    <MABN>05154156</MABN>
+    <MAQL>141483</MAQL>
+    <CPNGAY>0</CPNGAY>
+    <TAMUNG>0</TAMUNG>
+    <CPLUYKE>4951657.25</CPLUYKE>
+    <NGUOIDUNG>46</NGUOIDUNG>
+    <X01>0</X01>
+    <X02>0</X02>
+    <X03>0</X03>
+    <X04>0</X04>
+    <X05>0</X05>
+    <DATHU>0</DATHU>
+    <HOTEN>NGUYỄN THỊ DỨNG</HOTEN>
+    <NAMSINH>1950</NAMSINH>
+    <PHAI>1</PHAI>
+    <DIACHI>53/6 B Xô Viết Nghệ Tĩnh Phường 21 Quận Bình Thạnh Hồ Chí Minh</DIACHI>
+    <TENKP>Lâm Sàng 1</TENKP>
+    <VIETTAT>02</VIETTAT>
+    <TUOIVAO>0550</TUOIVAO>
+    <MADOITUONG>2</MADOITUONG>
+    <NGAY1>2005-06-16T09:40:00.0000000+07:00</NGAY1>
+    <NGAYVV>16/06/2005</NGAYVV>
+    <SOVAOVIEN>608/2005</SOVAOVIEN>
+    <DOITUONG>Thu phí</DOITUONG>
+  </cpdt>
+  <cpdt>
+    <MAKP>02</MAKP>
+    <NGAY>2005-07-29T00:00:00.0000000+07:00</NGAY>
+    <MABN>05165328</MABN>
+    <MAQL>170944</MAQL>
+    <CPNGAY>0</CPNGAY>
+    <TAMUNG>0</TAMUNG>
+    <CPLUYKE>11574</CPLUYKE>
+    <NGUOIDUNG>46</NGUOIDUNG>
+    <X01>0</X01>
+    <X02>0</X02>
+    <X03>0</X03>
+    <X04>0</X04>
+    <X05>0</X05>
+    <DATHU>0</DATHU>
+    <HOTEN>NGÔ ĐÔNG KHOA </HOTEN>
+    <NAMSINH>2004</NAMSINH>
+    <PHAI>0</PHAI>
+    <DIACHI>Số 3 Phường Hiệp Bình Chánh Quận Thủ Đức Hồ Chí Minh</DIACHI>
+    <TENKP>Lâm Sàng 1</TENKP>
+    <VIETTAT>02</VIETTAT>
+    <TUOIVAO>0010</TUOIVAO>
+    <MADOITUONG>2</MADOITUONG>
+    <NGAY1>2005-07-14T08:55:00.0000000+07:00</NGAY1>
+    <NGAYVV>14/07/2005</NGAYVV>
+    <SOVAOVIEN>714/2005</SOVAOVIEN>
+    <DOITUONG>Thu phí</DOITUONG>
+  </cpdt>
+  <cpdt>
+    <MAKP>02</MAKP>
+    <NGAY>2005-07-29T00:00:00.0000000+07:00</NGAY>
+    <MABN>05144399</MABN>
+    <MAQL>118615</MAQL>
+    <CPNGAY>0</CPNGAY>
+    <TAMUNG>0</TAMUNG>
+    <CPLUYKE>566473.7</CPLUYKE>
+    <NGUOIDUNG>46</NGUOIDUNG>
+    <X01>0</X01>
+    <X02>0</X02>
+    <X03>0</X03>
+    <X04>0</X04>
+    <X05>0</X05>
+    <DATHU>0</DATHU>
+    <HOTEN>LÊ THỊ  PHƯỢNG LINH</HOTEN>
+    <NAMSINH>1992</NAMSINH>
+    <PHAI>1</PHAI>
+    <DIACHI>Ấp Lô 6 Xã An Nhơn Tây Huyện Củ Chi Hồ Chí Minh</DIACHI>
+    <TENKP>Lâm Sàng 1</TENKP>
+    <VIETTAT>02</VIETTAT>
+    <TUOIVAO>0130</TUOIVAO>
+    <MADOITUONG>2</MADOITUONG>
+    <NGAY1>2005-05-23T08:50:00.0000000+07:00</NGAY1>
+    <NGAYVV>23/05/2005</NGAYVV>
+    <SOVAOVIEN>512/2005</SOVAOVIEN>
+    <DOITUONG>Thu phí</DOITUONG>
+  </cpdt>
+  <cpdt>
+    <MAKP>02</MAKP>
+    <NGAY>2005-07-29T00:00:00.0000000+07:00</NGAY>
+    <MABN>05158762</MABN>
+    <MAQL>152824</MAQL>
+    <CPNGAY>0</CPNGAY>
+    <TAMUNG>0</TAMUNG>
+    <CPLUYKE>596970.68</CPLUYKE>
+    <NGUOIDUNG>46</NGUOIDUNG>
+    <X01>0</X01>
+    <X02>0</X02>
+    <X03>0</X03>
+    <X04>0</X04>
+    <X05>0</X05>
+    <DATHU>0</DATHU>
+    <HOTEN>NGUYỄN THỊ LỢI</HOTEN>
+    <NAMSINH>1968</NAMSINH>
+    <PHAI>1</PHAI>
+    <DIACHI>Ấp 5 Xã Đông Thạnh Huyện Hóc Môn Hồ Chí Minh</DIACHI>
+    <TENKP>Lâm Sàng 1</TENKP>
+    <VIETTAT>02</VIETTAT>
+    <TUOIVAO>0370</TUOIVAO>
+    <MADOITUONG>2</MADOITUONG>
+    <NGAY1>2005-06-28T09:40:00.0000000+07:00</NGAY1>
+    <NGAYVV>28/06/2005</NGAYVV>
+    <SOVAOVIEN>647/2005</SOVAOVIEN>
+    <DOITUONG>Thu phí</DOITUONG>
+  </cpdt>
+  <cpdt>
+    <MAKP>02</MAKP>
+    <NGAY>2005-07-29T00:00:00.0000000+07:00</NGAY>
+    <MABN>05165295</MABN>
+    <MAQL>170222</MAQL>
+    <CPNGAY>0</CPNGAY>
+    <TAMUNG>0</TAMUNG>
+    <CPLUYKE>162164.03</CPLUYKE>
+    <NGUOIDUNG>46</NGUOIDUNG>
+    <X01>0</X01>
+    <X02>0</X02>
+    <X03>0</X03>
+    <X04>0</X04>
+    <X05>0</X05>
+    <DATHU>0</DATHU>
+    <HOTEN>TRẦN THỊ XUÂN PHƯƠNG </HOTEN>
+    <NAMSINH>1982</NAMSINH>
+    <PHAI>1</PHAI>
+    <DIACHI>Thái Phiên Phường 12 Thành phố Đà Lạt Lâm Đồng</DIACHI>
+    <TENKP>Lâm Sàng 1</TENKP>
+    <VIETTAT>02</VIETTAT>
+    <TUOIVAO>0230</TUOIVAO>
+    <MADOITUONG>2</MADOITUONG>
+    <NGAY1>2005-07-14T07:40:00.0000000+07:00</NGAY1>
+    <NGAYVV>14/07/2005</NGAYVV>
+    <SOVAOVIEN>709/2005</SOVAOVIEN>
+    <DOITUONG>Thu phí</DOITUONG>
+  </cpdt>
+  <cpdt>
+    <MAKP>02</MAKP>
+    <NGAY>2005-07-29T00:00:00.0000000+07:00</NGAY>
+    <MABN>05121099</MABN>
+    <MAQL>155395</MAQL>
+    <CPNGAY>0</CPNGAY>
+    <TAMUNG>0</TAMUNG>
+    <CPLUYKE>300054.13</CPLUYKE>
+    <NGUOIDUNG>46</NGUOIDUNG>
+    <X01>0</X01>
+    <X02>0</X02>
+    <X03>0</X03>
+    <X04>0</X04>
+    <X05>0</X05>
+    <DATHU>0</DATHU>
+    <HOTEN>NGUYỄN THỊ KÝ</HOTEN>
+    <NAMSINH>1924</NAMSINH>
+    <PHAI>1</PHAI>
+    <DIACHI>362 Kh5 Phường Lộc Tiến Thị xã Bảo Lộc Lâm Đồng</DIACHI>
+    <TENKP>Lâm Sàng 1</TENKP>
+    <VIETTAT>02</VIETTAT>
+    <TUOIVAO>0810</TUOIVAO>
+    <MADOITUONG>2</MADOITUONG>
+    <NGAY1>2005-06-30T10:00:00.0000000+07:00</NGAY1>
+    <NGAYVV>30/06/2005</NGAYVV>
+    <SOVAOVIEN>661/2005</SOVAOVIEN>
+    <DOITUONG>Thu phí</DOITUONG>
+  </cpdt>
+  <cpdt>
+    <MAKP>02</MAKP>
+    <NGAY>2005-07-29T00:00:00.0000000+07:00</NGAY>
+    <MABN>05154313</MABN>
+    <MAQL>160384</MAQL>
+    <CPNGAY>0</CPNGAY>
+    <TAMUNG>0</TAMUNG>
+    <CPLUYKE>260693.69</CPLUYKE>
+    <NGUOIDUNG>46</NGUOIDUNG>
+    <X01>0</X01>
+    <X02>0</X02>
+    <X03>0</X03>
+    <X04>0</X04>
+    <X05>0</X05>
+    <DATHU>0</DATHU>
+    <HOTEN>BÙI THỊ LY THO</HOTEN>
+    <NAMSINH>1976</NAMSINH>
+    <PHAI>1</PHAI>
+    <DIACHI> Xã Bom Bo Huyện Bù Đăng Bình Phước</DIACHI>
+    <TENKP>Lâm Sàng 1</TENKP>
+    <VIETTAT>02</VIETTAT>
+    <TUOIVAO>0290</TUOIVAO>
+    <MADOITUONG>1</MADOITUONG>
+    <NGAY1>2005-07-05T09:20:00.0000000+07:00</NGAY1>
+    <NGAYVV>05/07/2005</NGAYVV>
+    <SOVAOVIEN>358.2/04</SOVAOVIEN>
+    <DOITUONG>BHYT</DOITUONG>
+  </cpdt>
+  <cpdt>
+    <MAKP>02</MAKP>
+    <NGAY>2005-07-29T00:00:00.0000000+07:00</NGAY>
+    <MABN>05164401</MABN>
+    <MAQL>169089</MAQL>
+    <CPNGAY>0</CPNGAY>
+    <TAMUNG>0</TAMUNG>
+    <CPLUYKE>60105.53</CPLUYKE>
+    <NGUOIDUNG>46</NGUOIDUNG>
+    <X01>0</X01>
+    <X02>0</X02>
+    <X03>0</X03>
+    <X04>0</X04>
+    <X05>0</X05>
+    <DATHU>0</DATHU>
+    <HOTEN>TRẦN THỊ NGỌC DIỄM</HOTEN>
+    <NAMSINH>1983</NAMSINH>
+    <PHAI>1</PHAI>
+    <DIACHI> Xã An Tây Huyện Bến Cát Bình Dương</DIACHI>
+    <TENKP>Lâm Sàng 1</TENKP>
+    <VIETTAT>02</VIETTAT>
+    <TUOIVAO>0220</TUOIVAO>
+    <MADOITUONG>2</MADOITUONG>
+    <NGAY1>2005-07-13T08:15:00.0000000+07:00</NGAY1>
+    <NGAYVV>13/07/2005</NGAYVV>
+    <SOVAOVIEN>704/2005</SOVAOVIEN>
+    <DOITUONG>Thu phí</DOITUONG>
+  </cpdt>
+  <cpdt>
+    <MAKP>02</MAKP>
+    <NGAY>2005-07-29T00:00:00.0000000+07:00</NGAY>
+    <MABN>05130372</MABN>
+    <MAQL>167809</MAQL>
+    <CPNGAY>0</CPNGAY>
+    <TAMUNG>0</TAMUNG>
+    <CPLUYKE>83160</CPLUYKE>
+    <NGUOIDUNG>46</NGUOIDUNG>
+    <X01>0</X01>
+    <X02>0</X02>
+    <X03>0</X03>
+    <X04>0</X04>
+    <X05>0</X05>
+    <DATHU>0</DATHU>
+    <HOTEN>PHẠM NGUYỄN KHÁNH LINH</HOTEN>
+    <NAMSINH>1980</NAMSINH>
+    <PHAI>1</PHAI>
+    <DIACHI> Xã Bình Nhâm Huyện Thuận An Bình Dương</DIACHI>
+    <TENKP>Lâm Sàng 1</TENKP>
+    <VIETTAT>02</VIETTAT>
+    <TUOIVAO>0250</TUOIVAO>
+    <MADOITUONG>1</MADOITUONG>
+    <NGAY1>2005-07-12T09:25:00.0000000+07:00</NGAY1>
+    <NGAYVV>12/07/2005</NGAYVV>
+    <SOVAOVIEN>701/2005</SOVAOVIEN>
+    <DOITUONG>BHYT</DOITUONG>
+  </cpdt>
+  <cpdt>
+    <MAKP>02</MAKP>
+    <NGAY>2005-07-29T00:00:00.0000000+07:00</NGAY>
+    <MABN>05161525</MABN>
+    <MAQL>160832</MAQL>
+    <CPNGAY>0</CPNGAY>
+    <TAMUNG>0</TAMUNG>
+    <CPLUYKE>217576.5</CPLUYKE>
+    <NGUOIDUNG>46</NGUOIDUNG>
+    <X01>0</X01>
+    <X02>0</X02>
+    <X03>0</X03>
+    <X04>0</X04>
+    <X05>0</X05>
+    <DATHU>0</DATHU>
+    <HOTEN>NGUYỄN THỊ HẢI YẾN</HOTEN>
+    <NAMSINH>1984</NAMSINH>
+    <PHAI>1</PHAI>
+    <DIACHI> Xã Võ Xu Huyện Đức Linh Bình Thuận</DIACHI>
+    <TENKP>Lâm Sàng 1</TENKP>
+    <VIETTAT>02</VIETTAT>
+    <TUOIVAO>0210</TUOIVAO>
+    <MADOITUONG>1</MADOITUONG>
+    <NGAY1>2005-07-05T10:50:00.0000000+07:00</NGAY1>
+    <NGAYVV>05/07/2005</NGAYVV>
+    <SOVAOVIEN>677/2005</SOVAOVIEN>
+    <DOITUONG>BHYT</DOITUONG>
+  </cpdt>
+  <cpdt>
+    <MAKP>02</MAKP>
+    <NGAY>2005-07-29T00:00:00.0000000+07:00</NGAY>
+    <MABN>05106004</MABN>
+    <MAQL>57909</MAQL>
+    <CPNGAY>0</CPNGAY>
+    <TAMUNG>0</TAMUNG>
+    <CPLUYKE>178790.16</CPLUYKE>
+    <NGUOIDUNG>46</NGUOIDUNG>
+    <X01>0</X01>
+    <X02>0</X02>
+    <X03>0</X03>
+    <X04>0</X04>
+    <X05>0</X05>
+    <DATHU>0</DATHU>
+    <HOTEN>NGUYỄN THỊ TIẾN</HOTEN>
+    <NAMSINH>1962</NAMSINH>
+    <PHAI>1</PHAI>
+    <DIACHI> Xã Nam Chính Huyện Đức Linh Bình Thuận</DIACHI>
+    <TENKP>Lâm Sàng 1</TENKP>
+    <VIETTAT>02</VIETTAT>
+    <TUOIVAO>0430</TUOIVAO>
+    <MADOITUONG>2</MADOITUONG>
+    <NGAY1>2005-03-01T10:04:00.0000000+07:00</NGAY1>
+    <NGAYVV>01/03/2005</NGAYVV>
+    <SOVAOVIEN>149</SOVAOVIEN>
+    <DOITUONG>Thu phí</DOITUONG>
+  </cpdt>
+  <cpdt>
+    <MAKP>02</MAKP>
+    <NGAY>2005-07-29T00:00:00.0000000+07:00</NGAY>
+    <MABN>05163142</MABN>
+    <MAQL>166415</MAQL>
+    <CPNGAY>0</CPNGAY>
+    <TAMUNG>0</TAMUNG>
+    <CPLUYKE>352671.39</CPLUYKE>
+    <NGUOIDUNG>46</NGUOIDUNG>
+    <X01>0</X01>
+    <X02>0</X02>
+    <X03>0</X03>
+    <X04>0</X04>
+    <X05>0</X05>
+    <DATHU>0</DATHU>
+    <HOTEN>NGUYỄN THỊ MỸ DIỆU</HOTEN>
+    <NAMSINH>1976</NAMSINH>
+    <PHAI>1</PHAI>
+    <DIACHI>Tổ 40 Xã Xà Bang Xã Xà Bang Huyện Châu Đức Bà Rịa - Vũng Tầu</DIACHI>
+    <TENKP>Lâm Sàng 1</TENKP>
+    <VIETTAT>02</VIETTAT>
+    <TUOIVAO>0290</TUOIVAO>
+    <MADOITUONG>1</MADOITUONG>
+    <NGAY1>2005-07-11T10:00:00.0000000+07:00</NGAY1>
+    <NGAYVV>11/07/2005</NGAYVV>
+    <SOVAOVIEN>692/2005</SOVAOVIEN>
+    <DOITUONG>BHYT</DOITUONG>
+  </cpdt>
+  <cpdt>
+    <MAKP>02</MAKP>
+    <NGAY>2005-07-29T00:00:00.0000000+07:00</NGAY>
+    <MABN>05145204</MABN>
+    <MAQL>134066</MAQL>
+    <CPNGAY>0</CPNGAY>
+    <TAMUNG>0</TAMUNG>
+    <CPLUYKE>231998.09</CPLUYKE>
+    <NGUOIDUNG>46</NGUOIDUNG>
+    <X01>0</X01>
+    <X02>0</X02>
+    <X03>0</X03>
+    <X04>0</X04>
+    <X05>0</X05>
+    <DATHU>0</DATHU>
+    <HOTEN>ĐINH THỊ ĐƯỜNG</HOTEN>
+    <NAMSINH>1950</NAMSINH>
+    <PHAI>1</PHAI>
+    <DIACHI>174 Lô 4 Phường 5 Thị xã Tân An Long An</DIACHI>
+    <TENKP>Lâm Sàng 1</TENKP>
+    <VIETTAT>02</VIETTAT>
+    <TUOIVAO>0550</TUOIVAO>
+    <MADOITUONG>2</MADOITUONG>
+    <NGAY1>2005-06-09T07:45:00.0000000+07:00</NGAY1>
+    <NGAYVV>09/06/2005</NGAYVV>
+    <SOVAOVIEN>575/2005</SOVAOVIEN>
+    <DOITUONG>Thu phí</DOITUONG>
+  </cpdt>
+  <cpdt>
+    <MAKP>02</MAKP>
+    <NGAY>2005-07-29T00:00:00.0000000+07:00</NGAY>
+    <MABN>05116303</MABN>
+    <MAQL>134849</MAQL>
+    <CPNGAY>0</CPNGAY>
+    <TAMUNG>0</TAMUNG>
+    <CPLUYKE>971296.86</CPLUYKE>
+    <NGUOIDUNG>46</NGUOIDUNG>
+    <X01>0</X01>
+    <X02>0</X02>
+    <X03>0</X03>
+    <X04>0</X04>
+    <X05>0</X05>
+    <DATHU>0</DATHU>
+    <HOTEN>HUỲNH THỊ BỐN</HOTEN>
+    <NAMSINH>1949</NAMSINH>
+    <PHAI>1</PHAI>
+    <DIACHI>Bãi Sậy Thị trấn Vĩnh Hưng Huyện Vĩnh Hưng Long An</DIACHI>
+    <TENKP>Lâm Sàng 1</TENKP>
+    <VIETTAT>02</VIETTAT>
+    <TUOIVAO>0560</TUOIVAO>
+    <MADOITUONG>1</MADOITUONG>
+    <NGAY1>2005-06-09T13:40:00.0000000+07:00</NGAY1>
+    <NGAYVV>09/06/2005</NGAYVV>
+    <SOVAOVIEN>521.8/02</SOVAOVIEN>
+    <DOITUONG>BHYT</DOITUONG>
+  </cpdt>
+  <cpdt>
+    <MAKP>02</MAKP>
+    <NGAY>2005-07-29T00:00:00.0000000+07:00</NGAY>
+    <MABN>05149525</MABN>
+    <MAQL>129377</MAQL>
+    <CPNGAY>0</CPNGAY>
+    <TAMUNG>0</TAMUNG>
+    <CPLUYKE>1445623.95</CPLUYKE>
+    <NGUOIDUNG>46</NGUOIDUNG>
+    <X01>0</X01>
+    <X02>0</X02>
+    <X03>0</X03>
+    <X04>0</X04>
+    <X05>0</X05>
+    <DATHU>0</DATHU>
+    <HOTEN>TRẦN THỊ DIỄM</HOTEN>
+    <NAMSINH>1976</NAMSINH>
+    <PHAI>1</PHAI>
+    <DIACHI>Xã Tân Hòa Xã Đức Tân Huyện Tân Trụ Long An</DIACHI>
+    <TENKP>Lâm Sàng 1</TENKP>
+    <VIETTAT>02</VIETTAT>
+    <TUOIVAO>0290</TUOIVAO>
+    <MADOITUONG>2</MADOITUONG>
+    <NGAY1>2005-06-03T13:20:00.0000000+07:00</NGAY1>
+    <NGAYVV>03/06/2005</NGAYVV>
+    <SOVAOVIEN>1297.2/04</SOVAOVIEN>
+    <DOITUONG>Thu phí</DOITUONG>
+  </cpdt>
+  <cpdt>
+    <MAKP>02</MAKP>
+    <NGAY>2005-07-29T00:00:00.0000000+07:00</NGAY>
+    <MABN>05160759</MABN>
+    <MAQL>170962</MAQL>
+    <CPNGAY>0</CPNGAY>
+    <TAMUNG>0</TAMUNG>
+    <CPLUYKE>299204.5</CPLUYKE>
+    <NGUOIDUNG>46</NGUOIDUNG>
+    <X01>0</X01>
+    <X02>0</X02>
+    <X03>0</X03>
+    <X04>0</X04>
+    <X05>0</X05>
+    <DATHU>0</DATHU>
+    <HOTEN>PHƯƠNG ANH TUẤN</HOTEN>
+    <NAMSINH>2002</NAMSINH>
+    <PHAI>1</PHAI>
+    <DIACHI>Ấp Lộc Tiền Xã Mỹ Lộc Huyện Cần Giuộc Long An</DIACHI>
+    <TENKP>Lâm Sàng 1</TENKP>
+    <VIETTAT>02</VIETTAT>
+    <TUOIVAO>0030</TUOIVAO>
+    <MADOITUONG>2</MADOITUONG>
+    <NGAY1>2005-07-14T08:55:00.0000000+07:00</NGAY1>
+    <NGAYVV>14/07/2005</NGAYVV>
+    <SOVAOVIEN>712/2005</SOVAOVIEN>
+    <DOITUONG>Thu phí</DOITUONG>
+  </cpdt>
+  <cpdt>
+    <MAKP>02</MAKP>
+    <NGAY>2005-07-29T00:00:00.0000000+07:00</NGAY>
+    <MABN>05164075</MABN>
+    <MAQL>169199</MAQL>
+    <CPNGAY>0</CPNGAY>
+    <TAMUNG>0</TAMUNG>
+    <CPLUYKE>178668.3</CPLUYKE>
+    <NGUOIDUNG>46</NGUOIDUNG>
+    <X01>0</X01>
+    <X02>0</X02>
+    <X03>0</X03>
+    <X04>0</X04>
+    <X05>0</X05>
+    <DATHU>0</DATHU>
+    <HOTEN>VÕ THỊ THU</HOTEN>
+    <NAMSINH>1936</NAMSINH>
+    <PHAI>1</PHAI>
+    <DIACHI> Không xác định Huyện Châu Thành Đồng Tháp</DIACHI>
+    <TENKP>Lâm Sàng 1</TENKP>
+    <VIETTAT>02</VIETTAT>
+    <TUOIVAO>0690</TUOIVAO>
+    <MADOITUONG>2</MADOITUONG>
+    <NGAY1>2005-07-13T08:40:00.0000000+07:00</NGAY1>
+    <NGAYVV>13/07/2005</NGAYVV>
+    <SOVAOVIEN>42.3/04</SOVAOVIEN>
+    <DOITUONG>Thu phí</DOITUONG>
+  </cpdt>
+  <cpdt>
+    <MAKP>02</MAKP>
+    <NGAY>2005-07-29T00:00:00.0000000+07:00</NGAY>
+    <MABN>05164891</MABN>
+    <MAQL>169188</MAQL>
+    <CPNGAY>0</CPNGAY>
+    <TAMUNG>0</TAMUNG>
+    <CPLUYKE>105106.75</CPLUYKE>
+    <NGUOIDUNG>46</NGUOIDUNG>
+    <X01>0</X01>
+    <X02>0</X02>
+    <X03>0</X03>
+    <X04>0</X04>
+    <X05>0</X05>
+    <DATHU>0</DATHU>
+    <HOTEN>THÁI THỊ THU SƯƠNG</HOTEN>
+    <NAMSINH>1965</NAMSINH>
+    <PHAI>1</PHAI>
+    <DIACHI> Phường Bình Đức Thị xã Long Xuyên An Giang</DIACHI>
+    <TENKP>Lâm Sàng 1</TENKP>
+    <VIETTAT>02</VIETTAT>
+    <TUOIVAO>0400</TUOIVAO>
+    <MADOITUONG>2</MADOITUONG>
+    <NGAY1>2005-07-13T08:30:00.0000000+07:00</NGAY1>
+    <NGAYVV>13/07/2005</NGAYVV>
+    <SOVAOVIEN>706/2005</SOVAOVIEN>
+    <DOITUONG>Thu phí</DOITUONG>
+  </cpdt>
+  <cpdt>
+    <MAKP>02</MAKP>
+    <NGAY>2005-07-29T00:00:00.0000000+07:00</NGAY>
+    <MABN>05163726</MABN>
+    <MAQL>175108</MAQL>
+    <CPNGAY>0</CPNGAY>
+    <TAMUNG>0</TAMUNG>
+    <CPLUYKE>0</CPLUYKE>
+    <NGUOIDUNG>46</NGUOIDUNG>
+    <X01>0</X01>
+    <X02>0</X02>
+    <X03>0</X03>
+    <X04>0</X04>
+    <X05>0</X05>
+    <DATHU>0</DATHU>
+    <HOTEN>NGUYỄN THỊ LAM VÂN</HOTEN>
+    <NAMSINH>1992</NAMSINH>
+    <PHAI>1</PHAI>
+    <DIACHI> Xã Vĩnh Xương Huyện Tân Châu An Giang</DIACHI>
+    <TENKP>Lâm Sàng 1</TENKP>
+    <VIETTAT>02</VIETTAT>
+    <TUOIVAO>0130</TUOIVAO>
+    <MADOITUONG>2</MADOITUONG>
+    <NGAY1>2005-07-19T08:00:00.0000000+07:00</NGAY1>
+    <NGAYVV>19/07/2005</NGAYVV>
+    <SOVAOVIEN>733/2005</SOVAOVIEN>
+    <DOITUONG>Thu phí</DOITUONG>
+  </cpdt>
+  <cpdt>
+    <MAKP>02</MAKP>
+    <NGAY>2005-07-29T00:00:00.0000000+07:00</NGAY>
+    <MABN>05156668</MABN>
+    <MAQL>149519</MAQL>
+    <CPNGAY>0</CPNGAY>
+    <TAMUNG>0</TAMUNG>
+    <CPLUYKE>206134.17</CPLUYKE>
+    <NGUOIDUNG>46</NGUOIDUNG>
+    <X01>0</X01>
+    <X02>0</X02>
+    <X03>0</X03>
+    <X04>0</X04>
+    <X05>0</X05>
+    <DATHU>0</DATHU>
+    <HOTEN>PHAN THỊ QUYÊN</HOTEN>
+    <NAMSINH>1984</NAMSINH>
+    <PHAI>1</PHAI>
+    <DIACHI>Ấp Bình Phú Xã Bình Phước Xuân Huyện Chợ Mới An Giang</DIACHI>
+    <TENKP>Lâm Sàng 1</TENKP>
+    <VIETTAT>02</VIETTAT>
+    <TUOIVAO>0210</TUOIVAO>
+    <MADOITUONG>2</MADOITUONG>
+    <NGAY1>2005-06-24T09:50:00.0000000+07:00</NGAY1>
+    <NGAYVV>24/06/2005</NGAYVV>
+    <SOVAOVIEN>630/2005</SOVAOVIEN>
+    <DOITUONG>Thu phí</DOITUONG>
+  </cpdt>
+  <cpdt>
+    <MAKP>02</MAKP>
+    <NGAY>2005-07-29T00:00:00.0000000+07:00</NGAY>
+    <MABN>05167627</MABN>
+    <MAQL>176407</MAQL>
+    <CPNGAY>0</CPNGAY>
+    <TAMUNG>0</TAMUNG>
+    <CPLUYKE>25000</CPLUYKE>
+    <NGUOIDUNG>46</NGUOIDUNG>
+    <X01>0</X01>
+    <X02>0</X02>
+    <X03>0</X03>
+    <X04>0</X04>
+    <X05>0</X05>
+    <DATHU>0</DATHU>
+    <HOTEN>ĐINH THỊ BÙI</HOTEN>
+    <NAMSINH>1970</NAMSINH>
+    <PHAI>1</PHAI>
+    <DIACHI>An Thuận  Xã Hòa Bình Huyện Chợ Mới An Giang</DIACHI>
+    <TENKP>Lâm Sàng 1</TENKP>
+    <VIETTAT>02</VIETTAT>
+    <TUOIVAO>0350</TUOIVAO>
+    <MADOITUONG>2</MADOITUONG>
+    <NGAY1>2005-07-20T07:40:00.0000000+07:00</NGAY1>
+    <NGAYVV>20/07/2005</NGAYVV>
+    <SOVAOVIEN>738/2005</SOVAOVIEN>
+    <DOITUONG>Thu phí</DOITUONG>
+  </cpdt>
+  <cpdt>
+    <MAKP>02</MAKP>
+    <NGAY>2005-07-29T00:00:00.0000000+07:00</NGAY>
+    <MABN>05103981</MABN>
+    <MAQL>55671</MAQL>
+    <CPNGAY>0</CPNGAY>
+    <TAMUNG>0</TAMUNG>
+    <CPLUYKE>118050.36</CPLUYKE>
+    <NGUOIDUNG>46</NGUOIDUNG>
+    <X01>0</X01>
+    <X02>0</X02>
+    <X03>0</X03>
+    <X04>0</X04>
+    <X05>0</X05>
+    <DATHU>0</DATHU>
+    <HOTEN>DƯƠNG THỊ KIM THÚY</HOTEN>
+    <NAMSINH>1958</NAMSINH>
+    <PHAI>1</PHAI>
+    <DIACHI>Tân Lý Đông Xã Tân Lý Đông Huyện Châu Thành Tiền Giang</DIACHI>
+    <TENKP>Lâm Sàng 1</TENKP>
+    <VIETTAT>02</VIETTAT>
+    <TUOIVAO>0470</TUOIVAO>
+    <MADOITUONG>2</MADOITUONG>
+    <NGAY1>2005-02-25T11:03:00.0000000+07:00</NGAY1>
+    <NGAYVV>25/02/2005</NGAYVV>
+    <SOVAOVIEN>39</SOVAOVIEN>
+    <DOITUONG>Thu phí</DOITUONG>
+  </cpdt>
+  <cpdt>
+    <MAKP>02</MAKP>
+    <NGAY>2005-07-29T00:00:00.0000000+07:00</NGAY>
+    <MABN>05165063</MABN>
+    <MAQL>172000</MAQL>
+    <CPNGAY>0</CPNGAY>
+    <TAMUNG>0</TAMUNG>
+    <CPLUYKE>116195</CPLUYKE>
+    <NGUOIDUNG>46</NGUOIDUNG>
+    <X01>0</X01>
+    <X02>0</X02>
+    <X03>0</X03>
+    <X04>0</X04>
+    <X05>0</X05>
+    <DATHU>0</DATHU>
+    <HOTEN>NGUYỄN PHƯỚC HÀO</HOTEN>
+    <NAMSINH>2001</NAMSINH>
+    <PHAI>0</PHAI>
+    <DIACHI>280/34 Bình Tây  Xã Vĩnh Thành Huyện Chợ Lách Bến Tre</DIACHI>
+    <TENKP>Lâm Sàng 1</TENKP>
+    <VIETTAT>02</VIETTAT>
+    <TUOIVAO>0040</TUOIVAO>
+    <MADOITUONG>2</MADOITUONG>
+    <NGAY1>2005-07-15T09:30:00.0000000+07:00</NGAY1>
+    <NGAYVV>15/07/2005</NGAYVV>
+    <SOVAOVIEN>720/2005</SOVAOVIEN>
+    <DOITUONG>Thu phí</DOITUONG>
+  </cpdt>
+  <cpdt>
+    <MAKP>02</MAKP>
+    <NGAY>2005-07-29T00:00:00.0000000+07:00</NGAY>
+    <MABN>05155883</MABN>
+    <MAQL>146927</MAQL>
+    <CPNGAY>0</CPNGAY>
+    <TAMUNG>0</TAMUNG>
+    <CPLUYKE>894572.83</CPLUYKE>
+    <NGUOIDUNG>46</NGUOIDUNG>
+    <X01>0</X01>
+    <X02>0</X02>
+    <X03>0</X03>
+    <X04>0</X04>
+    <X05>0</X05>
+    <DATHU>0</DATHU>
+    <HOTEN>NGUYỄN THỊ  THẠCH</HOTEN>
+    <NAMSINH>1959</NAMSINH>
+    <PHAI>1</PHAI>
+    <DIACHI> Phường Thường Thanh Huyện Cái Răng Cần Thơ</DIACHI>
+    <TENKP>Lâm Sàng 1</TENKP>
+    <VIETTAT>02</VIETTAT>
+    <TUOIVAO>0460</TUOIVAO>
+    <MADOITUONG>2</MADOITUONG>
+    <NGAY1>2005-06-22T08:15:00.0000000+07:00</NGAY1>
+    <NGAYVV>22/06/2005</NGAYVV>
+    <SOVAOVIEN>711.2/99</SOVAOVIEN>
+    <DOITUONG>Thu phí</DOITUONG>
+  </cpdt>
+  <cpdt>
+    <MAKP>02</MAKP>
+    <NGAY>2005-07-29T00:00:00.0000000+07:00</NGAY>
+    <MABN>05165321</MABN>
+    <MAQL>170956</MAQL>
+    <CPNGAY>0</CPNGAY>
+    <TAMUNG>0</TAMUNG>
+    <CPLUYKE>46626</CPLUYKE>
+    <NGUOIDUNG>46</NGUOIDUNG>
+    <X01>0</X01>
+    <X02>0</X02>
+    <X03>0</X03>
+    <X04>0</X04>
+    <X05>0</X05>
+    <DATHU>0</DATHU>
+    <HOTEN>TẠ THỊ KIM THOA </HOTEN>
+    <NAMSINH>1962</NAMSINH>
+    <PHAI>1</PHAI>
+    <DIACHI> Xã Thới Long Huyện Ô Môn Cần Thơ</DIACHI>
+    <TENKP>Lâm Sàng 1</TENKP>
+    <VIETTAT>02</VIETTAT>
+    <TUOIVAO>0430</TUOIVAO>
+    <MADOITUONG>2</MADOITUONG>
+    <NGAY1>2005-07-14T08:55:00.0000000+07:00</NGAY1>
+    <NGAYVV>14/07/2005</NGAYVV>
+    <SOVAOVIEN>713/2005</SOVAOVIEN>
+    <DOITUONG>Thu phí</DOITUONG>
+  </cpdt>
+  <cpdt>
+    <MAKP>02</MAKP>
+    <NGAY>2005-07-29T00:00:00.0000000+07:00</NGAY>
+    <MABN>05115613</MABN>
+    <MAQL>156449</MAQL>
+    <CPNGAY>0</CPNGAY>
+    <TAMUNG>0</TAMUNG>
+    <CPLUYKE>1121948</CPLUYKE>
+    <NGUOIDUNG>46</NGUOIDUNG>
+    <X01>0</X01>
+    <X02>0</X02>
+    <X03>0</X03>
+    <X04>0</X04>
+    <X05>0</X05>
+    <DATHU>0</DATHU>
+    <HOTEN>NGUYỄN THỊ HAI</HOTEN>
+    <NAMSINH>1945</NAMSINH>
+    <PHAI>1</PHAI>
+    <DIACHI> Xã Phương Thạnh Huyện Càng Long Trà Vinh</DIACHI>
+    <TENKP>Lâm Sàng 1</TENKP>
+    <VIETTAT>02</VIETTAT>
+    <TUOIVAO>0600</TUOIVAO>
+    <MADOITUONG>2</MADOITUONG>
+    <NGAY1>2005-07-01T08:05:00.0000000+07:00</NGAY1>
+    <NGAYVV>01/07/2005</NGAYVV>
+    <SOVAOVIEN>976.7/02</SOVAOVIEN>
+    <DOITUONG>Thu phí</DOITUONG>
+  </cpdt>
+  <cpdt>
+    <MAKP>02</MAKP>
+    <NGAY>2005-07-29T00:00:00.0000000+07:00</NGAY>
+    <MABN>05100003</MABN>
+    <MAQL>158131</MAQL>
+    <CPNGAY>0</CPNGAY>
+    <TAMUNG>0</TAMUNG>
+    <CPLUYKE>475933.4</CPLUYKE>
+    <NGUOIDUNG>46</NGUOIDUNG>
+    <X01>0</X01>
+    <X02>0</X02>
+    <X03>0</X03>
+    <X04>0</X04>
+    <X05>0</X05>
+    <DATHU>0</DATHU>
+    <HOTEN>TRẦN CẨM NHUNG</HOTEN>
+    <NAMSINH>1987</NAMSINH>
+    <PHAI>1</PHAI>
+    <DIACHI>Ấp 11 Thị trấn Mỹ Xuyên Huyện Mỹ Xuyên Sóc Trăng</DIACHI>
+    <TENKP>Lâm Sàng 1</TENKP>
+    <VIETTAT>02</VIETTAT>
+    <TUOIVAO>0180</TUOIVAO>
+    <MADOITUONG>1</MADOITUONG>
+    <NGAY1>2005-07-04T08:25:00.0000000+07:00</NGAY1>
+    <NGAYVV>04/07/2005</NGAYVV>
+    <SOVAOVIEN>470.2/05</SOVAOVIEN>
+    <DOITUONG>BHYT</DOITUONG>
+  </cpdt>
+</NewDataSet>

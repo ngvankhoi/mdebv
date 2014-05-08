@@ -1,0 +1,34 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DLLBCTonghop", "DLLBCTonghop.csproj", "{E401E048-D282-4F9A-A5F2-DE25B57FB4E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibBC", "..\LibBC\LibBC.csproj", "{32440DBE-505F-455F-A334-407C1FB06123}"
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 3
+		SccProjectUniqueName0 = ..\\LibBC\\LibBC.csproj
+		SccProjectName0 = \u0022$/Vienphi2007.root/Vienphi2007/LibBC\u0022,\u0020LOCAAAAA
+		SccLocalPath0 = ..\\LibBC
+		SccLocalPath1 = .
+		SccProjectUniqueName2 = DLLBCTonghop.csproj
+		SccLocalPath2 = .
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E401E048-D282-4F9A-A5F2-DE25B57FB4E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E401E048-D282-4F9A-A5F2-DE25B57FB4E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E401E048-D282-4F9A-A5F2-DE25B57FB4E2}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{E401E048-D282-4F9A-A5F2-DE25B57FB4E2}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{32440DBE-505F-455F-A334-407C1FB06123}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32440DBE-505F-455F-A334-407C1FB06123}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32440DBE-505F-455F-A334-407C1FB06123}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32440DBE-505F-455F-A334-407C1FB06123}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

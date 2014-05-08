@@ -1,0 +1,204 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ID" type="xs:decimal" minOccurs="0" />
+                <xs:element name="MA" type="xs:string" minOccurs="0" />
+                <xs:element name="TEN" type="xs:string" minOccurs="0" />
+                <xs:element name="ID_NHOM" type="xs:decimal" minOccurs="0" />
+                <xs:element name="TEN_NHOM" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <ID>2</ID>
+    <MA>KHA002</MA>
+    <TEN>Khám sức khỏe</TEN>
+    <ID_NHOM>1</ID_NHOM>
+    <TEN_NHOM>Khám bệnh</TEN_NHOM>
+  </Table>
+  <Table>
+    <ID>3</ID>
+    <MA>SIN001</MA>
+    <TEN>Sinh hoá (Máu)</TEN>
+    <ID_NHOM>2</ID_NHOM>
+    <TEN_NHOM>Xét nghiệm</TEN_NHOM>
+  </Table>
+  <Table>
+    <ID>4</ID>
+    <MA>HUY001</MA>
+    <TEN>Huyết học</TEN>
+    <ID_NHOM>2</ID_NHOM>
+    <TEN_NHOM>Xét nghiệm</TEN_NHOM>
+  </Table>
+  <Table>
+    <ID>5</ID>
+    <MA>VIS001</MA>
+    <TEN>Vi sinh</TEN>
+    <ID_NHOM>2</ID_NHOM>
+    <TEN_NHOM>Xét nghiệm</TEN_NHOM>
+  </Table>
+  <Table>
+    <ID>6</ID>
+    <MA>SIU001</MA>
+    <TEN>Siêu âm</TEN>
+    <ID_NHOM>3</ID_NHOM>
+    <TEN_NHOM>Chẩn đoán hình ảnh</TEN_NHOM>
+  </Table>
+  <Table>
+    <ID>7</ID>
+    <MA>SIU002</MA>
+    <TEN>Siêu âm màu</TEN>
+    <ID_NHOM>3</ID_NHOM>
+    <TEN_NHOM>Chẩn đoán hình ảnh</TEN_NHOM>
+  </Table>
+  <Table>
+    <ID>8</ID>
+    <MA>NOI001</MA>
+    <TEN>Nội soi</TEN>
+    <ID_NHOM>3</ID_NHOM>
+    <TEN_NHOM>Chẩn đoán hình ảnh</TEN_NHOM>
+  </Table>
+  <Table>
+    <ID>9</ID>
+    <MA>XQU001</MA>
+    <TEN>X Quang</TEN>
+    <ID_NHOM>3</ID_NHOM>
+    <TEN_NHOM>Chẩn đoán hình ảnh</TEN_NHOM>
+  </Table>
+  <Table>
+    <ID>10</ID>
+    <MA>CTS001</MA>
+    <TEN>CT Scanner</TEN>
+    <ID_NHOM>3</ID_NHOM>
+    <TEN_NHOM>Chẩn đoán hình ảnh</TEN_NHOM>
+  </Table>
+  <Table>
+    <ID>11</ID>
+    <MA>DIE002</MA>
+    <TEN>Điện tim</TEN>
+    <ID_NHOM>3</ID_NHOM>
+    <TEN_NHOM>Chẩn đoán hình ảnh</TEN_NHOM>
+  </Table>
+  <Table>
+    <ID>12</ID>
+    <MA>DIE001</MA>
+    <TEN>Điện não</TEN>
+    <ID_NHOM>3</ID_NHOM>
+    <TEN_NHOM>Chẩn đoán hình ảnh</TEN_NHOM>
+  </Table>
+  <Table>
+    <ID>13</ID>
+    <MA>GIU001</MA>
+    <TEN>Giường thông thường</TEN>
+    <ID_NHOM>8</ID_NHOM>
+    <TEN_NHOM>Giường</TEN_NHOM>
+  </Table>
+  <Table>
+    <ID>14</ID>
+    <MA>GIU002</MA>
+    <TEN>Giường yêu cầu</TEN>
+    <ID_NHOM>8</ID_NHOM>
+    <TEN_NHOM>Giường</TEN_NHOM>
+  </Table>
+  <Table>
+    <ID>15</ID>
+    <MA>GIU003</MA>
+    <TEN>Giường chuyên khoa</TEN>
+    <ID_NHOM>9</ID_NHOM>
+    <TEN_NHOM>Giường chuyên khoa</TEN_NHOM>
+  </Table>
+  <Table>
+    <ID>16</ID>
+    <MA>PHA001</MA>
+    <TEN>Phẩu thuật</TEN>
+    <ID_NHOM>6</ID_NHOM>
+    <TEN_NHOM>Thủ thuật, phẩu thuật</TEN_NHOM>
+  </Table>
+  <Table>
+    <ID>17</ID>
+    <MA>THU001</MA>
+    <TEN>Thủ thuật</TEN>
+    <ID_NHOM>6</ID_NHOM>
+    <TEN_NHOM>Thủ thuật, phẩu thuật</TEN_NHOM>
+  </Table>
+  <Table>
+    <ID>18</ID>
+    <MA>GIA001</MA>
+    <TEN>Giải phẩu bệnh</TEN>
+    <ID_NHOM>2</ID_NHOM>
+    <TEN_NHOM>Xét nghiệm</TEN_NHOM>
+  </Table>
+  <Table>
+    <ID>19</ID>
+    <MA>THA001</MA>
+    <TEN>Thăm dò chức năng</TEN>
+    <ID_NHOM>4</ID_NHOM>
+    <TEN_NHOM>Thăm dò chức năng</TEN_NHOM>
+  </Table>
+  <Table>
+    <ID>20</ID>
+    <MA>THU002</MA>
+    <TEN>Thuốc</TEN>
+    <ID_NHOM>7</ID_NHOM>
+    <TEN_NHOM>Thuốc</TEN_NHOM>
+  </Table>
+  <Table>
+    <ID>21</ID>
+    <MA>MAU001</MA>
+    <TEN>Máu</TEN>
+    <ID_NHOM>5</ID_NHOM>
+    <TEN_NHOM>Dịch truyền, máu, đạm</TEN_NHOM>
+  </Table>
+  <Table>
+    <ID>22</ID>
+    <MA>DIC001</MA>
+    <TEN>Dịch truyền</TEN>
+    <ID_NHOM>5</ID_NHOM>
+    <TEN_NHOM>Dịch truyền, máu, đạm</TEN_NHOM>
+  </Table>
+  <Table>
+    <ID>1</ID>
+    <MA>KHA001</MA>
+    <TEN>Khám bệnh</TEN>
+    <ID_NHOM>1</ID_NHOM>
+    <TEN_NHOM>Khám bệnh</TEN_NHOM>
+  </Table>
+  <Table>
+    <ID>23</ID>
+    <MA>SIN002</MA>
+    <TEN>Sinh hoá (Nước tiểu)</TEN>
+    <ID_NHOM>2</ID_NHOM>
+    <TEN_NHOM>Xét nghiệm</TEN_NHOM>
+  </Table>
+  <Table>
+    <ID>24</ID>
+    <MA>VAT001</MA>
+    <TEN>Vật tư tiêu hao</TEN>
+    <ID_NHOM>10</ID_NHOM>
+    <TEN_NHOM>Vật tư y tế</TEN_NHOM>
+  </Table>
+  <Table>
+    <ID>25</ID>
+    <MA>TRO001</MA>
+    <TEN>Trợ phí</TEN>
+    <ID_NHOM>11</ID_NHOM>
+    <TEN_NHOM>Trợ phí</TEN_NHOM>
+  </Table>
+  <Table>
+    <ID>26</ID>
+    <MA>DM</MA>
+    <TEN>Đông máu</TEN>
+    <ID_NHOM>2</ID_NHOM>
+    <TEN_NHOM>Xét nghiệm</TEN_NHOM>
+  </Table>
+</NewDataSet>

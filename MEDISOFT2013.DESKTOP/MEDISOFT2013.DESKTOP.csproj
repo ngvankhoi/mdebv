@@ -1,0 +1,188 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E533A6DC-86B3-42E6-A896-0E4454CADE5C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MEDISOFT2011.DESKTOP</RootNamespace>
+    <AssemblyName>MEDISOFT2013.DESKTOP</AssemblyName>
+    <ApplicationIcon>App.ICO</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="dichso, Version=1.0.3870.21254, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="LibDuoc, Version=1.0.4659.32096, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\LibDuoc\bin\Debug\LibDuoc.dll</HintPath>
+    </Reference>
+    <Reference Include="LibLicense, Version=1.0.2729.19536, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="LibList, Version=1.0.4233.18175, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="LibMedi, Version=1.0.4949.19598, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Medisoft\bin\Debug\LibMedi.dll</HintPath>
+    </Reference>
+    <Reference Include="LibVienphi, Version=1.0.4659.32109, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\LibVienphi\bin\Debug\LibVienphi.dll</HintPath>
+    </Reference>
+    <Reference Include="Medisoft2009.License, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib_chung\Medisoft2009.License.dll</HintPath>
+    </Reference>
+    <Reference Include="Medisoft2009.MACAddress, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib_chung\Medisoft2009.MACAddress.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Security, Version=2.0.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Medisoft\bin\Debug\Mono.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="Npgsql, Version=2.0.12.0, Culture=neutral, PublicKeyToken=5d8b90d52f46fda7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Medisoft\bin\Debug\Npgsql.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="VietKeyInput, Version=1.0.2384.16337, Culture=neutral" />
+    <Reference Include="vnConvert, Version=1.0.2423.39611, Culture=neutral" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ExceptionLog.cs" />
+    <Compile Include="FileBaseResourceManager.cs" />
+    <Compile Include="frmMQuanlynguoidung.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMQuanlynguoidung.Designer.cs">
+      <DependentUpon>frmMQuanlynguoidung.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMThongtinnguoidung.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMThongtinnguoidung.Designer.cs">
+      <DependentUpon>frmMThongtinnguoidung.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Language.cs" />
+    <Compile Include="MMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MMain.Designer.cs">
+      <DependentUpon>MMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Language\frmMThongtinnguoidung_ot.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Language\MMain_ot.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Language\frmMQuanlynguoidung_ot.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Language\frmMQuanlynguoidung_en.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Language\frmMQuanlynguoidung_vn.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Language\frmMThongtinnguoidung_en.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Language\frmMThongtinnguoidung_vn.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Language\MMain_en.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Language\MMain_vn.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MEDISOFTDESKTOP_en.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MEDISOFTDESKTOP_vn.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMQuanlynguoidung.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmMQuanlynguoidung.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMThongtinnguoidung.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmMThongtinnguoidung.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MMain.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="ResourceManager.cs" />
+    <Compile Include="StringResourceNotFoundException.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App.ICO" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LibVP\LibVP.csproj">
+      <Project>{32440DBE-505F-455F-A334-407C1FB06123}</Project>
+      <Name>LibVP</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LTCControl\LTCControl.csproj">
+      <Project>{637031DC-67BB-4EB5-86E3-8CC9A846C695}</Project>
+      <Name>LTCControl</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

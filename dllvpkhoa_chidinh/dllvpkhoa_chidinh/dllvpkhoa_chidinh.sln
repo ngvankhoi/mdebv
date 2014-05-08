@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dllvpkhoa_chidinh", "dllvpkhoa_chidinh.csproj", "{8117C1EC-C3A6-4858-B79E-494087ED1AA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibMedi", "..\LibMedi\LibMedi.csproj", "{95A47237-99CE-4B55-9867-D4CF46AA9E08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibVienphi", "..\LibVienphi\LibVienphi.csproj", "{32440DBE-505F-455F-A334-407C1FB06123}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibDuoc", "..\LibDuoc\LibDuoc.csproj", "{5A32EE49-C81E-4E30-B03A-37270016F430}"
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 4
+		SccProjectUniqueName0 = dllvpkhoa_chidinh.csproj
+		SccProjectName0 = \u0022$/Medisoft2007/Medisoft.root/Medisoft/dllvpkhoa_chidinh\u0022,\u0020PPBAAAAA
+		SccLocalPath0 = .
+		SccProvider0 = MSSCCI:Microsoft\u0020Visual\u0020SourceSafe
+		SccProjectUniqueName1 = ..\\LibMedi\\LibMedi.csproj
+		SccProjectName1 = \u0022$/Medisoft2007/LibMedi.root/LibMedi\u0022,\u0020CHBAAAAA
+		SccLocalPath1 = ..\\LibMedi
+		SccProvider1 = MSSCCI:Microsoft\u0020Visual\u0020SourceSafe
+		SccProjectUniqueName2 = ..\\LibVienphi\\LibVienphi.csproj
+		SccProjectName2 = \u0022$/Medisoft2007/Medisoft.root/Medisoft/LibVienphi\u0022,\u0020PRBAAAAA
+		SccLocalPath2 = ..\\LibVienphi
+		SccProvider2 = MSSCCI:Microsoft\u0020Visual\u0020SourceSafe
+		SccProjectUniqueName3 = ..\\LibDuoc\\LibDuoc.csproj
+		SccProjectName3 = \u0022$/Medisoft2007/LibDuoc.root/LibDuoc\u0022,\u0020NHBAAAAA
+		SccLocalPath3 = ..\\LibDuoc
+		SccProvider3 = MSSCCI:Microsoft\u0020Visual\u0020SourceSafe
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8117C1EC-C3A6-4858-B79E-494087ED1AA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8117C1EC-C3A6-4858-B79E-494087ED1AA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8117C1EC-C3A6-4858-B79E-494087ED1AA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8117C1EC-C3A6-4858-B79E-494087ED1AA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95A47237-99CE-4B55-9867-D4CF46AA9E08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95A47237-99CE-4B55-9867-D4CF46AA9E08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95A47237-99CE-4B55-9867-D4CF46AA9E08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95A47237-99CE-4B55-9867-D4CF46AA9E08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32440DBE-505F-455F-A334-407C1FB06123}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32440DBE-505F-455F-A334-407C1FB06123}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32440DBE-505F-455F-A334-407C1FB06123}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32440DBE-505F-455F-A334-407C1FB06123}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A32EE49-C81E-4E30-B03A-37270016F430}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A32EE49-C81E-4E30-B03A-37270016F430}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A32EE49-C81E-4E30-B03A-37270016F430}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A32EE49-C81E-4E30-B03A-37270016F430}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

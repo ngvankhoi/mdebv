@@ -1,0 +1,19 @@
+﻿31/03/2014: sửa dược - lào cai
+		- Yêu cầu : không cho người dùng xuất data ra excel
+		- thêm option E16 
+		- Khi phân quyền nếu user có check vào ô: chỉnh sửa số liệu là tương đương user admin
+		- Nếu là admin thì cho xuất ra excel, người lại không cho
+
+05.03.2014 : Sửa duyệt thuốc dự trù làm tròn
+			- dữ liệu d_thucxuat = d_xuatsdct (id, stt)
+			- Khi chọn option cấp phát tròn: thì sẽ lấy ngẫu nhiên một số BN bất kỳ (sắp xếp ưu tiên BN có số lượng thấp nhất) làm tròn lên 
+			--> phần làm tròn này không tính tiền cho BN
+			Ví dụ: thuốc A, phiếu lần 1 khoa ngoại, ngày... có 
+			- d_xuatsdct: BN1: 0.5 lọ, BN2: 0.75 lọ, BN3: 0.25 lọ --> tổng là: 1.5 lọ --> khoa dược phát 2 lọ: chênh lệc: CL=0.5 lọ
+			- d_thucxuat: BN3: có A=1-0.25=0.75, Số lượng thực xuất: SLX = Min(A,CL) = Min(0.75,0.5) =0.5  
+			--> SLX=0.25 (SL xuất ban đầu)+ 0.5 (số lượng chênh lệch) = 0.75, BN1=0.5, BN2=0.75
+			
+			TH khác
+			- d_xuatsdct: BN1: 0.5 lọ, BN2: 0.8 lọ, BN3: 0.8 lọ --> tổng là: 2.1 lọ --> khoa dược phát 3 lọ: chênh lệc: CL=0.9 lọ
+			- d_thucxuat: BN1: A=1-0.5=0.5 < CL:0.9 --> BN1: 1 lọ, CL=0.4; BN2: A=1-0.8=0.2 < CL: 0.4 --> BN2: 1 lọ, CL:0.2, 
+			BN 3: A=1-0.8=0.2<=CL: 0.2 --> BN3: 1 lọ, CL: 0

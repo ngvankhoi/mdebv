@@ -1,0 +1,314 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="BienLaiTamUng">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="syt" type="xs:string" minOccurs="0" />
+                <xs:element name="bv" type="xs:string" minOccurs="0" />
+                <xs:element name="diachibv" type="xs:string" minOccurs="0" />
+                <xs:element name="tongcucthue" type="xs:string" minOccurs="0" />
+                <xs:element name="cucthue" type="xs:string" minOccurs="0" />
+                <xs:element name="masothue" type="xs:string" minOccurs="0" />
+                <xs:element name="mauso" type="xs:string" minOccurs="0" />
+                <xs:element name="quyenso" type="xs:string" minOccurs="0" />
+                <xs:element name="sobienlai" type="xs:string" minOccurs="0" />
+                <xs:element name="ngayin" type="xs:string" minOccurs="0" />
+                <xs:element name="nguoiin" type="xs:string" minOccurs="0" />
+                <xs:element name="ghichu" type="xs:string" minOccurs="0" />
+                <xs:element name="lien" type="xs:string" minOccurs="0" />
+                <xs:element name="mabn" type="xs:string" minOccurs="0" />
+                <xs:element name="hoten" type="xs:string" minOccurs="0" />
+                <xs:element name="ngaysinh" type="xs:string" minOccurs="0" />
+                <xs:element name="gioitinh" type="xs:string" minOccurs="0" />
+                <xs:element name="khoa" type="xs:string" minOccurs="0" />
+                <xs:element name="diachi" type="xs:string" minOccurs="0" />
+                <xs:element name="lydo" type="xs:string" minOccurs="0" />
+                <xs:element name="sotien" type="xs:string" minOccurs="0" />
+                <xs:element name="chutien" type="xs:string" minOccurs="0" />
+                <xs:element name="tongcp" type="xs:string" minOccurs="0" />
+                <xs:element name="tamung" type="xs:string" minOccurs="0" />
+                <xs:element name="bhyt" type="xs:string" minOccurs="0" />
+                <xs:element name="mien" type="xs:string" minOccurs="0" />
+                <xs:element name="lydomien" type="xs:string" minOccurs="0" />
+                <xs:element name="nguoithu" type="xs:string" minOccurs="0" />
+                <xs:element name="id" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sothe" type="xs:string" minOccurs="0" />
+                <xs:element name="noicap" type="xs:string" minOccurs="0" />
+                <xs:element name="tu" type="xs:string" minOccurs="0" />
+                <xs:element name="den" type="xs:string" minOccurs="0" />
+                <xs:element name="traituyen" type="xs:string" minOccurs="0" />
+                <xs:element name="ngayvv" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Chitiet">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="madoituong" type="xs:int" minOccurs="0" />
+                <xs:element name="mavp" type="xs:int" minOccurs="0" />
+                <xs:element name="tenvp" type="xs:string" minOccurs="0" />
+                <xs:element name="id_loaivp" type="xs:int" minOccurs="0" />
+                <xs:element name="loaivp" type="xs:string" minOccurs="0" />
+                <xs:element name="id_nhomvp" type="xs:int" minOccurs="0" />
+                <xs:element name="nhomvp" type="xs:string" minOccurs="0" />
+                <xs:element name="sotien" type="xs:decimal" minOccurs="0" />
+                <xs:element name="vat" type="xs:decimal" minOccurs="0" />
+                <xs:element name="id" type="xs:decimal" minOccurs="0" />
+                <xs:element name="gia_dv" type="xs:decimal" minOccurs="0" />
+                <xs:element name="gia_bh" type="xs:decimal" minOccurs="0" />
+                <xs:element name="dongia" type="xs:decimal" minOccurs="0" />
+                <xs:element name="soluong" type="xs:decimal" minOccurs="0" />
+                <xs:element name="bhyttra_ct" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ngoaidanhmuc" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Chitiet>
+    <madoituong>1</madoituong>
+    <mavp>191951</mavp>
+    <tenvp>Alphachymotrysin [ alphachymotrypsin ] 4,2mg</tenvp>
+    <id_loaivp>0</id_loaivp>
+    <id_nhomvp>0</id_nhomvp>
+    <nhomvp>0</nhomvp>
+    <sotien>630.00000000</sotien>
+    <vat>0</vat>
+    <id>101139140226105742242</id>
+    <gia_dv>315.0000</gia_dv>
+    <gia_bh>0.0000</gia_bh>
+    <dongia>315.0000</dongia>
+    <bhyttra_ct>504.0000</bhyttra_ct>
+    <ngoaidanhmuc>0</ngoaidanhmuc>
+  </Chitiet>
+  <Chitiet>
+    <madoituong>1</madoituong>
+    <mavp>190233</mavp>
+    <tenvp>Fudilac [ Sắt fumarat + acid folic ] 136mg+250mcg</tenvp>
+    <id_loaivp>0</id_loaivp>
+    <id_nhomvp>0</id_nhomvp>
+    <nhomvp>0</nhomvp>
+    <sotien>3599.98000000</sotien>
+    <vat>0</vat>
+    <id>101139140226105742242</id>
+    <gia_dv>1799.9900</gia_dv>
+    <gia_bh>0.0000</gia_bh>
+    <dongia>1799.9900</dongia>
+    <bhyttra_ct>2879.9840</bhyttra_ct>
+    <ngoaidanhmuc>0</ngoaidanhmuc>
+  </Chitiet>
+  <Chitiet>
+    <madoituong>1</madoituong>
+    <mavp>191464</mavp>
+    <tenvp>Cefadroxil [ cefadroxil ] 500mg</tenvp>
+    <id_loaivp>0</id_loaivp>
+    <id_nhomvp>0</id_nhomvp>
+    <nhomvp>0</nhomvp>
+    <sotien>2310.00000000</sotien>
+    <vat>0</vat>
+    <id>101139140226105742242</id>
+    <gia_dv>2200.0000</gia_dv>
+    <gia_bh>0.0000</gia_bh>
+    <dongia>1155.0000</dongia>
+    <bhyttra_ct>1848.0000</bhyttra_ct>
+    <ngoaidanhmuc>0</ngoaidanhmuc>
+  </Chitiet>
+  <Chitiet>
+    <madoituong>1</madoituong>
+    <mavp>190260</mavp>
+    <tenvp>Efferalgan [ Acetaminophen ] 300mg</tenvp>
+    <id_loaivp>0</id_loaivp>
+    <id_nhomvp>0</id_nhomvp>
+    <nhomvp>0</nhomvp>
+    <sotien>5662.00000000</sotien>
+    <vat>0</vat>
+    <id>101139140226105742242</id>
+    <gia_dv>2831.0000</gia_dv>
+    <gia_bh>0.0000</gia_bh>
+    <dongia>2831.0000</dongia>
+    <bhyttra_ct>4529.6000</bhyttra_ct>
+    <ngoaidanhmuc>0</ngoaidanhmuc>
+  </Chitiet>
+  <Chitiet>
+    <madoituong>1</madoituong>
+    <mavp>-191370</mavp>
+    <tenvp>BILIRUBIN trực tiếp</tenvp>
+    <id_loaivp>81</id_loaivp>
+    <id_nhomvp>1</id_nhomvp>
+    <nhomvp>0</nhomvp>
+    <sotien>18000.00000000</sotien>
+    <vat>0</vat>
+    <id>101139140226105742242</id>
+    <gia_dv>18000</gia_dv>
+    <gia_bh>18000</gia_bh>
+    <dongia>18000.0000</dongia>
+    <bhyttra_ct>14400.0000</bhyttra_ct>
+    <ngoaidanhmuc>0</ngoaidanhmuc>
+  </Chitiet>
+  <Chitiet>
+    <madoituong>1</madoituong>
+    <mavp>1310</mavp>
+    <tenvp>Cấy cụm tế bào tủy</tenvp>
+    <id_loaivp>77</id_loaivp>
+    <id_nhomvp>1</id_nhomvp>
+    <nhomvp>0</nhomvp>
+    <sotien>350000.00000000</sotien>
+    <vat>0</vat>
+    <id>101139140226105742242</id>
+    <gia_dv>500000</gia_dv>
+    <gia_bh>350000</gia_bh>
+    <dongia>350000.0000</dongia>
+    <bhyttra_ct>280000.0000</bhyttra_ct>
+    <ngoaidanhmuc>0</ngoaidanhmuc>
+  </Chitiet>
+  <Chitiet>
+    <madoituong>1</madoituong>
+    <mavp>-190990</mavp>
+    <tenvp>Tổng phân tích tế bào máu ngoại vi (bằng hệ thống tự động hoàn toàn)</tenvp>
+    <id_loaivp>77</id_loaivp>
+    <id_nhomvp>1</id_nhomvp>
+    <nhomvp>0</nhomvp>
+    <sotien>15000.00000000</sotien>
+    <vat>0</vat>
+    <id>101139140226105742242</id>
+    <gia_dv>58000</gia_dv>
+    <gia_bh>15000</gia_bh>
+    <dongia>15000.0000</dongia>
+    <bhyttra_ct>12000.0000</bhyttra_ct>
+    <ngoaidanhmuc>0</ngoaidanhmuc>
+  </Chitiet>
+  <Chitiet>
+    <madoituong>1</madoituong>
+    <mavp>1538</mavp>
+    <tenvp>Nước tiểu 10 thông số ( máy )</tenvp>
+    <id_loaivp>80</id_loaivp>
+    <id_nhomvp>1</id_nhomvp>
+    <nhomvp>0</nhomvp>
+    <sotien>35000.00000000</sotien>
+    <vat>0</vat>
+    <id>101139140226105742242</id>
+    <gia_dv>35000</gia_dv>
+    <gia_bh>35000</gia_bh>
+    <dongia>35000.0000</dongia>
+    <bhyttra_ct>28000.0000</bhyttra_ct>
+    <ngoaidanhmuc>0</ngoaidanhmuc>
+  </Chitiet>
+  <Chitiet>
+    <madoituong>1</madoituong>
+    <mavp>-191371</mavp>
+    <tenvp>BILIRUBIN gián tiếp</tenvp>
+    <id_loaivp>81</id_loaivp>
+    <id_nhomvp>1</id_nhomvp>
+    <nhomvp>0</nhomvp>
+    <sotien>18000.00000000</sotien>
+    <vat>0</vat>
+    <id>101139140226105742242</id>
+    <gia_dv>18000</gia_dv>
+    <gia_bh>18000</gia_bh>
+    <dongia>18000.0000</dongia>
+    <bhyttra_ct>14400.0000</bhyttra_ct>
+    <ngoaidanhmuc>0</ngoaidanhmuc>
+  </Chitiet>
+  <Chitiet>
+    <madoituong>1</madoituong>
+    <mavp>-191372</mavp>
+    <tenvp>Protein toàn phần</tenvp>
+    <id_loaivp>81</id_loaivp>
+    <id_nhomvp>1</id_nhomvp>
+    <nhomvp>0</nhomvp>
+    <sotien>18000.00000000</sotien>
+    <vat>0</vat>
+    <id>101139140226105742242</id>
+    <gia_dv>18000</gia_dv>
+    <gia_bh>18000</gia_bh>
+    <dongia>18000.0000</dongia>
+    <bhyttra_ct>14400.0000</bhyttra_ct>
+    <ngoaidanhmuc>0</ngoaidanhmuc>
+  </Chitiet>
+  <Chitiet>
+    <madoituong>1</madoituong>
+    <mavp>1695</mavp>
+    <tenvp>Nội soi ổ bụng</tenvp>
+    <id_loaivp>31</id_loaivp>
+    <id_nhomvp>2</id_nhomvp>
+    <nhomvp>0</nhomvp>
+    <sotien>354000.00000000</sotien>
+    <vat>0</vat>
+    <id>101139140226105742242</id>
+    <gia_dv>354000</gia_dv>
+    <gia_bh>354000</gia_bh>
+    <dongia>354000.0000</dongia>
+    <bhyttra_ct>283200.0000</bhyttra_ct>
+    <ngoaidanhmuc>0</ngoaidanhmuc>
+  </Chitiet>
+  <Chitiet>
+    <madoituong>1</madoituong>
+    <mavp>-190763</mavp>
+    <tenvp>Nội soi bàng quang - Nội soi niệu quản</tenvp>
+    <id_loaivp>31</id_loaivp>
+    <id_nhomvp>2</id_nhomvp>
+    <nhomvp>0</nhomvp>
+    <sotien>511000.00000000</sotien>
+    <vat>0</vat>
+    <id>101139140226105742242</id>
+    <gia_dv>511000</gia_dv>
+    <gia_bh>511000</gia_bh>
+    <dongia>511000.0000</dongia>
+    <bhyttra_ct>408800.0000</bhyttra_ct>
+    <ngoaidanhmuc>0</ngoaidanhmuc>
+  </Chitiet>
+  <Chitiet>
+    <madoituong>1</madoituong>
+    <mavp>-190661</mavp>
+    <tenvp>Chụp tim phổi nghiêng</tenvp>
+    <id_loaivp>76</id_loaivp>
+    <id_nhomvp>2</id_nhomvp>
+    <nhomvp>0</nhomvp>
+    <sotien>29000.00000000</sotien>
+    <vat>0</vat>
+    <id>101139140226105742242</id>
+    <gia_dv>29000</gia_dv>
+    <gia_bh>29000</gia_bh>
+    <dongia>29000.0000</dongia>
+    <bhyttra_ct>23200.0000</bhyttra_ct>
+    <ngoaidanhmuc>0</ngoaidanhmuc>
+  </Chitiet>
+  <Chitiet>
+    <madoituong>1</madoituong>
+    <mavp>-190658</mavp>
+    <tenvp>Chụp tim phổi thẳng</tenvp>
+    <id_loaivp>76</id_loaivp>
+    <id_nhomvp>2</id_nhomvp>
+    <nhomvp>0</nhomvp>
+    <sotien>29000.00000000</sotien>
+    <vat>0</vat>
+    <id>101139140226105742242</id>
+    <gia_dv>29000</gia_dv>
+    <gia_bh>29000</gia_bh>
+    <dongia>29000.0000</dongia>
+    <bhyttra_ct>23200.0000</bhyttra_ct>
+    <ngoaidanhmuc>0</ngoaidanhmuc>
+  </Chitiet>
+  <Chitiet>
+    <madoituong>1</madoituong>
+    <mavp>-191470</mavp>
+    <tenvp>CT scanner bụng</tenvp>
+    <id_loaivp>8</id_loaivp>
+    <id_nhomvp>2</id_nhomvp>
+    <nhomvp>0</nhomvp>
+    <sotien>328000.00000000</sotien>
+    <vat>0</vat>
+    <id>101139140226105742242</id>
+    <gia_dv>1000000</gia_dv>
+    <gia_bh>328000</gia_bh>
+    <dongia>328000.0000</dongia>
+    <bhyttra_ct>262400.0000</bhyttra_ct>
+    <ngoaidanhmuc>0</ngoaidanhmuc>
+  </Chitiet>
+</NewDataSet>

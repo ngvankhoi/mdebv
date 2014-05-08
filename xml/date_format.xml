@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <t_date>
+    <sShortDate>MM/dd/yyyy</sShortDate>
+    <sLongDate>dddd, MMMM dd, yyyy</sLongDate>
+    <sDecimal>.</sDecimal>
+    <sThousand>,</sThousand>
+    <sNegativeSign>-</sNegativeSign>
+    <iLZero>0</iLZero>
+    <sTime>:</sTime>
+    <sDate>/</sDate>
+    <sTimeFormat>hh:mm:ss tt</sTimeFormat>
+    <s1159>AM</s1159>
+    <s2359>PM</s2359>
+  </t_date>
+</NewDataSet>

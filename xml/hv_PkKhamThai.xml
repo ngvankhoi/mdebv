@@ -1,0 +1,31 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element name="Table">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MABN" type="xs:string" minOccurs="0" />
+              <xs:element name="HOTEN" type="xs:string" minOccurs="0" />
+              <xs:element name="MAKP" type="xs:string" minOccurs="0" />
+              <xs:element name="TENKP" type="xs:string" minOccurs="0" />
+              <xs:element name="USERID" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TENUSER" type="xs:string" minOccurs="0" />
+              <xs:element name="BNMOI" type="xs:decimal" minOccurs="0" />
+              <xs:element name="MANNBO" type="xs:string" minOccurs="0" />
+              <xs:element name="XUTRI" type="xs:string" minOccurs="0" />
+              <xs:element name="ICDKEM" type="xs:string" minOccurs="0" />
+              <xs:element name="LYDO" type="xs:string" minOccurs="0" />
+              <xs:element name="ICDCHINH" type="xs:string" minOccurs="0" />
+              <xs:element name="DOITUONG" type="xs:decimal" minOccurs="0" />
+              <xs:element name="MANNBOVP" type="xs:string" minOccurs="0" />
+              <xs:element name="SLMAVP" type="xs:int" minOccurs="0" />
+              <xs:element name="MAVP" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

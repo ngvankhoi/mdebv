@@ -1,0 +1,51 @@
+Viettel Service Center: +84980200030 - +84989109711
+Beeline Service Center: +841998440000 - +84995047362
+
+OZEKI 6.4.0.0 serial number: CKQ8C-2F32H-47MJT-WJ2CY-32MPT
+
+-- Table: medibv.ozekimessagein
+
+-- DROP TABLE medibv.ozekimessagein;
+
+CREATE TABLE medibv.ozekimessagein
+(
+  id serial NOT NULL,
+  sender character varying(30),
+  receiver character varying(30),
+  msg character varying(160),
+  senttime character varying(100),
+  receivedtime character varying(100),
+  "operator" character varying(100),
+  msgtype character varying(160),
+  reference character varying(100),
+  status character varying(20),
+  CONSTRAINT ozekimessagein_id PRIMARY KEY (id) USING INDEX TABLESPACE medi_index
+)
+WITH (
+  OIDS=FALSE
+);
+ALTER TABLE medibv.ozekimessagein OWNER TO medisoft;
+
+-- DROP TABLE medibv.ozekimessageout;
+
+CREATE TABLE medibv.ozekimessageout
+(
+  id serial NOT NULL,
+  sender character varying(30),
+  receiver character varying(30),
+  msg character varying(160),
+  senttime character varying(100),
+  receivedtime character varying(100),
+  reference character varying(100),
+  status character varying(20),
+  "operator" character varying(100),
+  msgtype character varying(160),
+  CONSTRAINT ozekimessageout_id PRIMARY KEY (id) USING INDEX TABLESPACE medi_index
+)
+WITH (
+  OIDS=FALSE
+);
+ALTER TABLE medibv.ozekimessageout OWNER TO medisoft;
+
+INSERT INTO medibv.ozekimessageout(sender,receiver,msg,status) values('+84984737972','+84908501838','You''re a kind man. ','send');
+INSERT INTO medibv.ozekimessageout(sender,receiver,msg,status) values('+84984737972','+84908501838','You''re a peaceful woman. ','send');

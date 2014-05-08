@@ -1,0 +1,55 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:Locale="en-US">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="MA" type="xs:string" minOccurs="0" />
+                <xs:element name="HOTEN" type="xs:string" minOccurs="0" />
+                <xs:element name="SOLUONG" type="xs:decimal" minOccurs="0" />
+                <xs:element name="SOTIEN" type="xs:decimal" minOccurs="0" />
+                <xs:element name="mabd" type="xs:string" minOccurs="0" />
+                <xs:element name="tenbd" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <MA>0003</MA>
+    <HOTEN>Bs. Nguyễn Trọng Hiếu</HOTEN>
+    <SOLUONG>24.0000</SOLUONG>
+    <SOTIEN>58056.00000000</SOTIEN>
+    <mabd>ACE002</mabd>
+    <tenbd>Acemuc 200mg</tenbd>
+  </Table>
+  <Table>
+    <MA>0045</MA>
+    <HOTEN>Bs. Võ Thành Trung</HOTEN>
+    <SOLUONG>14.0000</SOLUONG>
+    <SOTIEN>33866.00000000</SOTIEN>
+    <mabd>ACE002</mabd>
+    <tenbd>Acemuc 200mg</tenbd>
+  </Table>
+  <Table>
+    <MA>0057</MA>
+    <HOTEN>Mua Lẻ</HOTEN>
+    <SOLUONG>30.0000</SOLUONG>
+    <SOTIEN>72570.00000000</SOTIEN>
+    <mabd>ACE002</mabd>
+    <tenbd>Acemuc 200mg</tenbd>
+  </Table>
+  <Table>
+    <MA>0078</MA>
+    <HOTEN>Bs. Lý Thị Mỹ Huê</HOTEN>
+    <SOLUONG>39.0000</SOLUONG>
+    <SOTIEN>94341.00000000</SOTIEN>
+    <mabd>ACE002</mabd>
+    <tenbd>Acemuc 200mg</tenbd>
+  </Table>
+</NewDataSet>

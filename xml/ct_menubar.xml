@@ -1,0 +1,87 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table1">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ID" type="xs:string" minOccurs="0" />
+                <xs:element name="TEN" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table1>
+    <ID>001</ID>
+    <TEN>Đăng ký danh sách đoàn</TEN>
+  </Table1>
+  <Table1>
+    <ID>002</ID>
+    <TEN>Chỉ định khám sức khỏe</TEN>
+  </Table1>
+  <Table1>
+    <ID>000</ID>
+    <TEN>Nhập dấu sinh tồn</TEN>
+  </Table1>
+  <Table1>
+    <ID>003</ID>
+    <TEN>Phiếu kết quả</TEN>
+  </Table1>
+  <Table1>
+    <ID>004</ID>
+    <TEN>Báo cáo khám sức khỏe</TEN>
+  </Table1>
+  <Table1>
+    <ID>025</ID>
+    <TEN>Thống kê tổng hợp báo cáo khám sức khỏe</TEN>
+  </Table1>
+  <Table1>
+    <ID>012</ID>
+    <TEN>Import du liệu đoàn cũ</TEN>
+  </Table1>
+  <Table1>
+    <ID>005</ID>
+    <TEN>Thống kê báo cáo tổng hợp</TEN>
+  </Table1>
+  <Table1>
+    <ID>000</ID>
+    <TEN>In danh nhân viên theo đoàn</TEN>
+  </Table1>
+  <Table1>
+    <ID>000</ID>
+    <TEN>Báo cáo  tổng hợp sức khỏe doàn theo loại khám sức khỏe</TEN>
+  </Table1>
+  <Table1>
+    <ID>006</ID>
+    <TEN>Nhóm viện phí</TEN>
+  </Table1>
+  <Table1>
+    <ID>007</ID>
+    <TEN>Loại viện phí</TEN>
+  </Table1>
+  <Table1>
+    <ID>008</ID>
+    <TEN>Giá viện phí</TEN>
+  </Table1>
+  <Table1>
+    <ID>009</ID>
+    <TEN>Phân loại sức khỏe</TEN>
+  </Table1>
+  <Table1>
+    <ID>010</ID>
+    <TEN>Phân quyền sử dụng</TEN>
+  </Table1>
+  <Table1>
+    <ID>000</ID>
+    <TEN>Đổi mật khẩu</TEN>
+  </Table1>
+  <Table1>
+    <ID>011</ID>
+    <TEN>Tạo cấu trúc Khám sức khoẻ</TEN>
+  </Table1>
+</NewDataSet>

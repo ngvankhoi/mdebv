@@ -1,0 +1,70 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="MA" type="xs:unsignedByte" minOccurs="0" />
+                <xs:element name="TEN" type="xs:string" minOccurs="0" />
+                <xs:element name="STT" type="xs:unsignedByte" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <MA>0</MA>
+    <TEN>Tai nạn giao thông</TEN>
+    <STT>24</STT>
+  </Table>
+  <Table>
+    <MA>2</MA>
+    <TEN>Tai nạn lao động</TEN>
+    <STT>26</STT>
+  </Table>
+  <Table>
+    <MA>3</MA>
+    <TEN>Súc vật,động vật</TEN>
+    <STT>27</STT>
+  </Table>
+  <Table>
+    <MA>4</MA>
+    <TEN>ĐuốI nước</TEN>
+    <STT>28</STT>
+  </Table>
+  <Table>
+    <MA>5</MA>
+    <TEN>Bỏng</TEN>
+    <STT>29</STT>
+  </Table>
+  <Table>
+    <MA>6</MA>
+    <TEN>Ngộ độc</TEN>
+    <STT>30</STT>
+  </Table>
+  <Table>
+    <MA>7</MA>
+    <TEN>Tự tử</TEN>
+    <STT>37</STT>
+  </Table>
+  <Table>
+    <MA>8</MA>
+    <TEN>Bạo lực trong gia đình, xã hộI</TEN>
+    <STT>38</STT>
+  </Table>
+  <Table>
+    <MA>1</MA>
+    <TEN>Ngã</TEN>
+    <STT>25</STT>
+  </Table>
+  <Table>
+    <MA>9</MA>
+    <TEN>Khác</TEN>
+    <STT>39</STT>
+  </Table>
+</NewDataSet>

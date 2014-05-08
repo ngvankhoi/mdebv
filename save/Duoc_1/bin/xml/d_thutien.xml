@@ -1,0 +1,50 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="NGAY" type="xs:string" minOccurs="0" />
+                <xs:element name="LOAI" type="xs:decimal" minOccurs="0" />
+                <xs:element name="TENLOAI" type="xs:string" minOccurs="0" />
+                <xs:element name="SOTIEN" type="xs:decimal" minOccurs="0" />
+                <xs:element name="DIENGIAI" type="xs:string" minOccurs="0" />
+                <xs:element name="SOTOA" type="xs:decimal" minOccurs="0" />
+                <xs:element name="DONE" type="xs:decimal" minOccurs="0" />
+                <xs:element name="SOTIEN1" type="xs:decimal" minOccurs="0" />
+                <xs:element name="SOTIEN2" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sotiennovat" type="xs:string" minOccurs="0" />
+                <xs:element name="sotiengiamua" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <NGAY>20/02/2014</NGAY>
+    <LOAI>8</LOAI>
+    <TENLOAI>Duyệt cấp</TENLOAI>
+    <SOTIEN>46100.00000000000000</SOTIEN>
+    <DIENGIAI />
+    <SOTOA>0</SOTOA>
+    <DONE>0</DONE>
+    <sotiennovat>45506.66700000000000</sotiennovat>
+    <sotiengiamua>45577.00000000000000</sotiengiamua>
+  </Table>
+  <Table>
+    <NGAY>20/02/2014</NGAY>
+    <LOAI>8</LOAI>
+    <TENLOAI>Duyệt cấp</TENLOAI>
+    <DIENGIAI>Số toa thuốc chưa in</DIENGIAI>
+    <SOTOA>1</SOTOA>
+    <DONE>1</DONE>
+    <SOTIEN1>46100.00000000000000</SOTIEN1>
+    <sotiennovat>45506.66700000000000</sotiennovat>
+    <sotiengiamua>45577.00000000000000</sotiengiamua>
+  </Table>
+</NewDataSet>

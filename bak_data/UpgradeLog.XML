@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="bak_data">
+</Property><Property Name="Solution File" Value="C:\Medisoft_psql_2005\bak_data\bak_data.sln">
+</Property><Property Name="Date" Value="Monday, November 06, 2006">
+</Property><Property Name="Time" Value="10:18 AM">
+</Property></Properties><Event ErrorLevel="0" Project="bak_data" Source="bak_data.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="bak_data" Source="bak_data.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="bak_data.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="bak_data.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="bak_data" Source="bak_data.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

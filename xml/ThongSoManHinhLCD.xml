@@ -1,0 +1,24 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table1>
+    <STT_size>150</STT_size>
+    <STT_vitri_x>100</STT_vitri_x>
+    <STT_vitri_y>100</STT_vitri_y>
+    <DangKham_vitri_x>220</DangKham_vitri_x>
+    <DangKham_vitri_y>35</DangKham_vitri_y>
+    <DangCho_vitri_x>800</DangCho_vitri_x>
+    <DangCho_vitri_y>35</DangCho_vitri_y>
+    <PhongKham_vitri_x>500</PhongKham_vitri_x>
+    <PhongKham_vitri_y>570</PhongKham_vitri_y>
+    <PhongKham_size>20</PhongKham_size>
+    <TenBN_size>20</TenBN_size>
+    <DSBN_vitri_x>750</DSBN_vitri_x>
+    <DSBN_vitri_y_bd>80</DSBN_vitri_y_bd>
+    <GhiChu>Địa chỉ: đường Chiềng On, P. Bình Minh, TP Lào Cai | Điện Thoại: 020 38….. | Fax: 020 38….. | mail: bvdktinhlaocai-syt@laocai.gov.vn | Website: www.bvdktinhlaocai.vn</GhiChu>
+    <GhiChu_size>15</GhiChu_size>
+    <TenBacSi_vitri_x>100</TenBacSi_vitri_x>
+    <TenBacSi_vitri_y>20</TenBacSi_vitri_y>
+    <TenBacSi_size>20</TenBacSi_size>
+    <Font>Arial</Font>
+  </Table1>
+</NewDataSet>

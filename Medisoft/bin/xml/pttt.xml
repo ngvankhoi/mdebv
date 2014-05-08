@@ -1,0 +1,81 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="MABN" type="xs:string" minOccurs="0" />
+                <xs:element name="HOTEN" type="xs:string" minOccurs="0" />
+                <xs:element name="TUOI" type="xs:string" minOccurs="0" />
+                <xs:element name="PHAI" type="xs:string" minOccurs="0" />
+                <xs:element name="DIACHI" type="xs:string" minOccurs="0" />
+                <xs:element name="KHOA" type="xs:string" minOccurs="0" />
+                <xs:element name="GIUONG" type="xs:string" minOccurs="0" />
+                <xs:element name="NGAYVV" type="xs:string" minOccurs="0" />
+                <xs:element name="NGAYPT" type="xs:string" minOccurs="0" />
+                <xs:element name="CHANDOANVK" type="xs:string" minOccurs="0" />
+                <xs:element name="CHANDOANT" type="xs:string" minOccurs="0" />
+                <xs:element name="CHANDOANS" type="xs:string" minOccurs="0" />
+                <xs:element name="TENPT" type="xs:string" minOccurs="0" />
+                <xs:element name="LOAIPT" type="xs:string" minOccurs="0" />
+                <xs:element name="VOCAM" type="xs:string" minOccurs="0" />
+                <xs:element name="PTV" type="xs:string" minOccurs="0" />
+                <xs:element name="PHU1" type="xs:string" minOccurs="0" />
+                <xs:element name="PHU2" type="xs:string" minOccurs="0" />
+                <xs:element name="BSGAYME" type="xs:string" minOccurs="0" />
+                <xs:element name="KTVGAYME" type="xs:string" minOccurs="0" />
+                <xs:element name="HOISUC" type="xs:string" minOccurs="0" />
+                <xs:element name="DUNGCU" type="xs:string" minOccurs="0" />
+                <xs:element name="NOIDUNG" type="xs:string" minOccurs="0" />
+                <xs:element name="LOAIBN" type="xs:string" minOccurs="0" />
+                <xs:element name="MAPMO" type="xs:string" minOccurs="0" />
+                <xs:element name="ngayrv" type="xs:string" minOccurs="0" />
+                <xs:element name="ttlrv" type="xs:string" minOccurs="0" />
+                <xs:element name="sovaovien" type="xs:string" minOccurs="0" />
+                <xs:element name="nhommau" type="xs:string" minOccurs="0" />
+                <xs:element name="tennn" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <MABN>13017461</MABN>
+    <HOTEN>NGUYỄN THỊ HẠNH</HOTEN>
+    <TUOI>65</TUOI>
+    <PHAI>Nữ</PHAI>
+    <DIACHI>  P. Tân Hoà-TP. Buôn Ma Thuột-Đắc Lắc</DIACHI>
+    <KHOA>Phòng Khám Số 1</KHOA>
+    <GIUONG />
+    <NGAYVV>08 giờ 49 phút,        Ngày 17 tháng 09 năm 2013</NGAYVV>
+    <NGAYPT>09 giờ 00 phút,        Ngày 17 tháng 09 năm 2013</NGAYPT>
+    <CHANDOANVK>MP Đục thủy tinh thể/ THA</CHANDOANVK>
+    <CHANDOANT>MP Đục thủy tinh thể/THA^</CHANDOANT>
+    <CHANDOANS>MP Đục thủy tinh thể/ THA^</CHANDOANS>
+    <TENPT>Thông rửa lệ đạo^</TENPT>
+    <LOAIPT>Loại 2A</LOAIPT>
+    <VOCAM>Gây Tê Tại Chổ</VOCAM>
+    <PTV>BS. Nguyễn Thị Minh Hải</PTV>
+    <PHU1>ĐD. Giả Thị Hồng Vân</PHU1>
+    <PHU2 />
+    <BSGAYME />
+    <KTVGAYME />
+    <HOISUC />
+    <DUNGCU />
+    <NOIDUNG>MP:
+-	Nhỏ tê tại chỗ 2 giọt/mắt tetracain 0.5%.
+-	Dùng que nong lỗ lệ, tiểu lệ quản dưới
+-	Dùng 1 bơm tiêm 5ml, 5ml Nacl 0.9% và 1 kim đầu tù bơm rửa lệ đạo qua lỗ lệ dưới vào tiểu lệ quản dưới.
+-	Rửa sạch mắt bằng 5 ml Natriclorua 0.9%.
+
+</NOIDUNG>
+    <sovaovien>4</sovaovien>
+    <nhommau>O</nhommau>
+    <tennn>Nông dân</tennn>
+  </Table>
+</NewDataSet>

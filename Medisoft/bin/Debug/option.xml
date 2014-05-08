@@ -1,0 +1,40 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="option">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ID" type="xs:string" minOccurs="0" />
+                <xs:element name="TEN" type="xs:string" minOccurs="0" />
+                <xs:element name="VALUES" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <option>
+    <ID>1</ID>
+    <TEN>Khóa nút in </TEN>
+    <VALUES>0</VALUES>
+  </option>
+  <option>
+    <ID>2</ID>
+    <TEN>In toàn bộ </TEN>
+    <VALUES>0</VALUES>
+  </option>
+  <option>
+    <ID>3</ID>
+    <TEN>In tất cả chỉ định trong ngày vào 1 phiếu </TEN>
+    <VALUES>0</VALUES>
+  </option>
+  <option>
+    <ID>4</ID>
+    <TEN>In toàn bộ những chỉ định không khai báo vào 1 phiếu </TEN>
+    <VALUES>0</VALUES>
+  </option>
+</NewDataSet>

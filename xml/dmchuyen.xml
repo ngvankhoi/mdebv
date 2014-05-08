@@ -1,0 +1,191 @@
+<?xml version="1.0" standalone="yes" ?>
+<NewDataSet>
+	<Table>
+		<TABLE_>BENHANDT</TABLE_>
+		<SQL>select mabn,maql,makp,format(ngay,'dd/MM/yyyy HH:mm') as ngay,dentu,nhantu,lanthu,madoituong,chandoan,maicd,mabs,sovaovien,loaiba,userid,format(ngayud,'dd/MM/yyyy HH:mm') as ngayud</SQL>
+	</Table>
+	<Table>
+		<TABLE_>BHYT</TABLE_>
+		<SQL>select mabn,maql,sothe,format(denngay,'dd/MM/yyyy HH:mm') as denngay,mabv</SQL>
+	</Table>
+	<Table>
+		<TABLE_>BIEU_01</TABLE_>
+		<SQL>select id,ma,format(ngay,'dd/MM/yyyy HH:mm') as ngay,c01,c02,c03,c04,c05,c06,c07,c08,c09,c10,c11,c12,c13,c14,c15,c16,c17,c18,c19,c20,c21,c22,c23,userid,format(ngayud,'dd/MM/yyyy HH:mm') as ngayud</SQL>
+	</Table>
+	<Table>
+		<TABLE_>BIEU_02</TABLE_>
+		<SQL>select id,ma,format(ngay,'dd/MM/yyyy HH:mm') as ngay,c01,c02,c03,c04,c05,c06,c07,c08,c09,userid,format(ngayud,'dd/MM/yyyy HH:mm') as ngayud</SQL>
+	</Table>
+	<Table>
+		<TABLE_>BIEU_031</TABLE_>
+		<SQL>select id,ma,format(ngay,'dd/MM/yyyy HH:mm') as ngay,c01,c02,c03,c04,c05,c06,c07,c08,c09,c10,c11,userid,format(ngayud,'dd/MM/yyyy HH:mm') as ngayud</SQL>
+	</Table>
+	<Table>
+		<TABLE_>BIEU_04</TABLE_>
+		<SQL>select id,ma,format(ngay,'dd/MM/yyyy HH:mm') as ngay,c01,c02,c03,c04,c05,c06,c07,c08,c09,c10,userid,format(ngayud,'dd/MM/yyyy HH:mm') as ngayud</SQL>
+	</Table>
+	<Table>
+		<TABLE_>BIEU_05</TABLE_>
+		<SQL>select id,ma,format(ngay,'dd/MM/yyyy HH:mm') as ngay,soluong,userid,format(ngayud,'dd/MM/yyyy HH:mm') as ngayud</SQL>
+	</Table>
+	<Table>
+		<TABLE_>BIEU_06</TABLE_>
+		<SQL>select id,ma,format(ngay,'dd/MM/yyyy HH:mm') as ngay,c01,c02,userid,format(ngayud,'dd/MM/yyyy HH:mm') as ngayud</SQL>
+	</Table>
+	<Table>
+		<TABLE_>BIEU_07</TABLE_>
+		<SQL>select id,ma,format(ngay,'dd/MM/yyyy HH:mm') as ngay,soluong,userid,format(ngayud,'dd/MM/yyyy HH:mm') as ngayud</SQL>
+	</Table>
+	<Table>
+		<TABLE_>BIEU_08</TABLE_>
+		<SQL>select id,ma,format(ngay,'dd/MM/yyyy HH:mm') as ngay,c01,c02,c03,c04,c05,c06,c07,userid,format(ngayud,'dd/MM/yyyy HH:mm') as ngayud</SQL>
+	</Table>
+	<Table>
+		<TABLE_>BIEU_091</TABLE_>
+		<SQL>select id,ma,format(ngay,'dd/MM/yyyy HH:mm') as ngay,tongso,userid,format(ngayud,'dd/MM/yyyy HH:mm') as ngayud</SQL>
+	</Table>
+	<Table>
+		<TABLE_>BIEU_092</TABLE_>
+		<SQL>select id,ma,format(ngay,'dd/MM/yyyy HH:mm') as ngay,ten,c01,c02,c03,c04,userid,format(ngayud,'dd/MM/yyyy HH:mm') as ngayud</SQL>
+	</Table>
+	<Table>
+		<TABLE_>BIEU_101</TABLE_>
+		<SQL>select id,ma,format(ngay,'dd/MM/yyyy HH:mm') as ngay,sotien,userid,format(ngayud,'dd/MM/yyyy HH:mm') as ngayud</SQL>
+	</Table>
+	<Table>
+		<TABLE_>BIEU_1021</TABLE_>
+		<SQL>select id,ma,format(ngay,'dd/MM/yyyy HH:mm') as ngay,vienphi,bhyt,userid,format(ngayud,'dd/MM/yyyy HH:mm') as ngayud</SQL>
+	</Table>
+	<Table>
+		<TABLE_>BIEU_1022</TABLE_>
+		<SQL>select id,ma,format(ngay,'dd/MM/yyyy HH:mm') as ngay,sotien,userid,format(ngayud,'dd/MM/yyyy HH:mm') as ngayud</SQL>
+	</Table>
+	<Table>
+		<TABLE_>BIEU_103</TABLE_>
+		<SQL>select id,ma,format(ngay,'dd/MM/yyyy HH:mm') as ngay,c01,c02,c03,c04,c05,c06,userid,format(ngayud,'dd/MM/yyyy HH:mm') as ngayud</SQL>
+	</Table>
+	<Table>
+		<TABLE_>BIEU_11</TABLE_>
+		<SQL>select id,ma,format(ngay,'dd/MM/yyyy HH:mm') as ngay,userid,c01,c02,c03,c04,c05,c06,c07,c08,c09,c10,c11,c12,format(ngayud,'dd/MM/yyyy HH:mm') as ngayud</SQL>
+	</Table>
+	<Table>
+		<TABLE_>BTDBN</TABLE_>
+		<SQL>select mabn,hoten,format(ngaysinh,'dd/MM/yyyy') as ngaysinh,namsinh,phai,mann,madantoc,sonha,thon,cholam,matt,maqu,maphuongxa,userid,format(ngayud,'dd/MM/yyyy HH:mm') as ngayud</SQL>
+	</Table>
+	<Table>
+		<TABLE_>BTDKP_BV</TABLE_>
+		<SQL></SQL>
+	</Table>
+	<Table>
+		<TABLE_>BTDNN_BV</TABLE_>
+		<SQL></SQL>
+	</Table>
+	<Table>
+		<TABLE_>BTDVT</TABLE_>
+		<SQL></SQL>
+	</Table>
+	<Table>
+		<TABLE_>CDKEMTHEO</TABLE_>
+		<SQL></SQL>
+	</Table>
+	<Table>
+		<TABLE_>CDNGUYENNHAN</TABLE_>
+		<SQL></SQL>
+	</Table>
+	<Table>
+		<TABLE_>CDSANKHOA</TABLE_>
+		<SQL>select maql,format(ngay,'dd/MM/yyyy HH:mm') as ngay,cachthucde,kiemsoat</SQL>
+	</Table>
+	<Table>
+		<TABLE_>CDUNGBUOU</TABLE_>
+		<SQL></SQL>
+	</Table>
+	<Table>
+		<TABLE_>CHUYENKHOA</TABLE_>
+		<SQL>select id,mabn,maql,makp,format(ngaychuyen,'dd/MM/yyyy HH:mm') as ngaychuyen,khoaden,chandoan,maicd,userid,format(ngayud,'dd/MM/yyyy HH:mm') as ngayud</SQL>
+	</Table>
+	<Table>
+		<TABLE_>CHUYENVIEN</TABLE_>
+		<SQL></SQL>
+	</Table>
+	<Table>
+		<TABLE_>DLOGIN</TABLE_>
+		<SQL></SQL>
+	</Table>
+	<Table>
+		<TABLE_>DMBENHAN_BV</TABLE_>
+		<SQL></SQL>
+	</Table>
+	<Table>
+		<TABLE_>DMBS</TABLE_>
+		<SQL></SQL>
+	</Table>
+	<Table>
+		<TABLE_>DMMETE</TABLE_>
+		<SQL></SQL>
+	</Table>
+	<Table>
+		<TABLE_>HCNHI</TABLE_>
+		<SQL></SQL>
+	</Table>
+	<Table>
+		<TABLE_>HCSOSINH</TABLE_>
+		<SQL></SQL>
+	</Table>
+	<Table>
+		<TABLE_>HIENDIEN</TABLE_>
+		<SQL>select id,mabn,maql,makp,format(ngay,'dd/MM/yyyy HH:mm') as ngay,noichuyen,nhapkhoa,xuatkhoa</SQL>
+	</Table>
+	<Table>
+		<TABLE_>LIENHE</TABLE_>
+		<SQL></SQL>
+	</Table>
+	<Table>
+		<TABLE_>NGAYKB</TABLE_>
+		<SQL>select mabn,maql,format(ngay,'dd/MM/yyyy HH:mm') as ngay</SQL>
+	</Table>
+	<Table>
+		<TABLE_>NHAPKHOA</TABLE_>
+		<SQL>select id,mabn,maql,makp,maba,format(ngay,'dd/MM/yyyy HH:mm') as ngay,tuoivao,giuong,khoachuyen,chandoan,maicd,mabs,lan,userid,format(ngayud,'dd/MM/yyyy HH:mm') as ngayud</SQL>
+	</Table>
+	<Table>
+		<TABLE_>NOIGIOITHIEU</TABLE_>
+		<SQL></SQL>
+	</Table>
+	<Table>
+		<TABLE_>PTTT</TABLE_>
+		<SQL>select id,mabn,maql,sophieu,makp,format(ngay,'dd/MM/yyyy HH:mm') as ngay,chandoant,maicdt,chandoans,maicds,mapt,tenpt,phuongphap,tinhhinh,ptv,taibien,tuvong,userid,format(ngayud,'dd/MM/yyyy HH:mm') as ngayud</SQL>
+	</Table>
+	<Table>
+		<TABLE_>QUANHE</TABLE_>
+		<SQL></SQL>
+	</Table>
+	<Table>
+		<TABLE_>TAINANTT</TABLE_>
+		<SQL>select mabn,maql,format(ngay,'dd/MM/yyyy HH:mm') as ngay,diadiem,bophan,nguyennhan,ngodoc</SQL>
+	</Table>
+	<Table>
+		<TABLE_>TRESOSINH</TABLE_>
+		<SQL>select id_ss,maql,format(ngay,'dd/MM/yyyy HH:mm') as ngay,ngoithai,phai,tinhtrang,ditat,cannang,userid,format(ngayud,'dd/MM/yyyy HH:mm') as ngayud</SQL>
+	</Table>
+	<Table>
+		<TABLE_>TTBONG</TABLE_>
+		<SQL>select maql,format(ngay,'dd/MM/yyyy HH:mm') as ngay</SQL>
+	</Table>
+	<Table>
+		<TABLE_>TTTAMTHAN</TABLE_>
+		<SQL></SQL>
+	</Table>
+	<Table>
+		<TABLE_>TUVONG</TABLE_>
+		<SQL>select maql,format(ngaynhan,'dd/MM/yyyy HH:mm') as ngaynhan,format(ngaymo,'dd/MM/yyyy HH:mm') as ngaymo,chandoan,maicd,nguyennhan,benhly,khamtuthi,userid,format(ngayud,'dd/MM/yyyy HH:mm') as ngayud</SQL>
+	</Table>
+	<Table>
+		<TABLE_>XUATKHOA</TABLE_>
+		<SQL>select id,format(ngay,'dd/MM/yyyy HH:mm') as ngay,ketqua,ttlucrk,chandoan,maicd,mabs,bienchung,taibien,giaiphau,userid,format(ngayud,'dd/MM/yyyy HH:mm') as ngayud</SQL>
+	</Table>
+	<Table>
+		<TABLE_>XUATVIEN</TABLE_>
+		<SQL>select mabn,maql,makp,format(ngay,'dd/MM/yyyy HH:mm') as ngay,ketqua,ttlucrv,chandoan,maicd,mabs,soluutru,bienchung,taibien,giaiphau,userid,format(ngayud,'dd/MM/yyyy HH:mm') as ngayud</SQL>
+	</Table>
+</NewDataSet>

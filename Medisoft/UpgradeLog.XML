@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?>
+<UpgradeLog>
+<Properties><Property Name="Solution" Value="Medisoft">
+</Property><Property Name="Solution File" Value="D:\Medisoft_psql_vs2005\Medisoft\Medisoft.sln">
+</Property><Property Name="Date" Value="Thursday, May 18, 2006">
+</Property><Property Name="Time" Value="8:08 AM">
+</Property></Properties><Event ErrorLevel="1" Project="D:\Medisoft_psql_vs2005\Medisoft\Medisoft.csproj" Source="Medisoft.csproj" Description="MSB2016: Found an empty .RESX file in the project (sjDataGridComboBox.resx).  Removing it from the converted project.">
+</Event><Event ErrorLevel="0" Project="Medisoft" Source="Medisoft.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Medisoft" Source="Medisoft.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Medisoft.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Medisoft.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Medisoft" Source="Medisoft.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

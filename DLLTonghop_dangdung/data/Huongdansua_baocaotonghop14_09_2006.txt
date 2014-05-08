@@ -1,0 +1,25 @@
+Origin:
+select sum(case when f.mien=0 and nvl(b.bnmoi,-1)=0 then 1 else 0 end) thuphimoi,sum(case when f.mien=0 and nvl(b.bnmoi,-1)<>0 then 1 else 0 end) thuphicu,sum(case when f.mien=1 and nvl(b.bnmoi,-1)=0 then 1 else 0 end) bhytmoi,sum(case when f.mien=1 and nvl(b.bnmoi,-1)<>0 then 1 else 0 end) bhytcu,sum(case when d.xutri like'%05%' then 1 else 0 end) vaovien,sum(case when d.xutri like'%01%' then 1 else 0 end) kedon,0 khac, sum(case when nvl(g.maql,-1)>0 then 1 else 0 end) xetnghiem from (select * from benhandt where loaiba=3) a, tiepdon b, xuatvien c, xutrikbct d,sukien e,doituong f,(select distinct maql from v_chidinh) g where a.maql=e.macap and e.matiepdon=b.maql (+) and a.maql=c.maql and a.maql=d.maql and a.madoituong=f.madoituong and a.maql=g.maql(+) and to_date(to_char(a.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and to_date(':v_dn','dd/mm/yyyy')
+
+Sua lai:
+
+select sum(case when f.mien=0 and nvl(b.bnmoi,-1)=0 then 1 else 0 end) thuphimoi,sum(case when f.mien=0 and nvl(b.bnmoi,-1)<>0 then 1 else 0 end) thuphicu,sum(case when f.mien=1 and nvl(b.bnmoi,-1)=0 then 1 else 0 end) bhytmoi,sum(case when f.mien=1 and nvl(b.bnmoi,-1)<>0 then 1 else 0 end) bhytcu,sum(case when d.xutri like'%05%' then 1 else 0 end) vaovien,sum(case when d.xutri like'%01%' then 1 else 0 end) kedon,0 khac, sum(case when nvl(g.maql,-1)>0 then 1 else 0 end) xetnghiem from (select * from benhandt where loaiba=3) a, medibvmmyy.tiepdon b, xuatvien c, medibvmmyy.xutrikbct d,medibvmmyy.sukien e,doituong f,(select distinct maql from medibvmmyy.v_chidinh) g where a.maql=e.macap and e.matiepdon=b.maql (+) and a.maql=c.maql and a.maql=d.maql and a.madoituong=f.madoituong and a.maql=g.maql(+) and to_date(to_char(a.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and to_date(':v_dn','dd/mm/yyyy')
+
+
+Luu:
+
+- Table nao khong co user thi se lay mac dinh trong user goc
+- table nao co medibvmmyy.<table> thi luc runtime se thai bang medibv<mmyy> tuong ung
+- table nao co medibvdmmyy.<table> thi luc runtime se thai bang "d"+ <mmyy> tuong ung
+- Luu y cac cau truy van co mmyy chi group trong thang, neu select o nhieu thang thi no se merge lai thoi, không group tu dong nhu chuong trinh cu (rat cham)
+
+
+Vi du:
+-  neu muong lay trong benhandt trong user goc thi dung cau: select * from benhandt
+-  neu muong lay trong benhandt trong user mmyy thi dung cau: select * from medibvmmyy.benhandt
+
+
+Trong DLL bao cao neu co dung form quan ly benh vien thi doi lai ham get_data_all() thanh get_data_bc() trong ham 
++ Add lai LibVP.DLL
++ Load_DG()
++ label6_Click

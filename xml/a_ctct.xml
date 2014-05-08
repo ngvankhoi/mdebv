@@ -1,0 +1,59 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ID" type="xs:decimal" minOccurs="0" />
+                <xs:element name="IDCT" type="xs:decimal" minOccurs="0" />
+                <xs:element name="STT" type="xs:decimal" minOccurs="0" />
+                <xs:element name="LK" type="xs:decimal" minOccurs="0" />
+                <xs:element name="NOIDUNG" type="xs:string" minOccurs="0" />
+                <xs:element name="TKNOA" type="xs:decimal" minOccurs="0" />
+                <xs:element name="TKCOA" type="xs:decimal" minOccurs="0" />
+                <xs:element name="KMNO" type="xs:decimal" minOccurs="0" />
+                <xs:element name="KMCO" type="xs:decimal" minOccurs="0" />
+                <xs:element name="KMNO2" type="xs:decimal" minOccurs="0" />
+                <xs:element name="KMCO2" type="xs:decimal" minOccurs="0" />
+                <xs:element name="KMNO3" type="xs:decimal" minOccurs="0" />
+                <xs:element name="KMCO3" type="xs:decimal" minOccurs="0" />
+                <xs:element name="KMNO4" type="xs:decimal" minOccurs="0" />
+                <xs:element name="KMCO4" type="xs:decimal" minOccurs="0" />
+                <xs:element name="MTMNO" type="xs:decimal" minOccurs="0" />
+                <xs:element name="MTMCO" type="xs:decimal" minOccurs="0" />
+                <xs:element name="STIEN" type="xs:decimal" minOccurs="0" />
+                <xs:element name="NGUYENTE" type="xs:decimal" minOccurs="0" />
+                <xs:element name="NGOAITE" type="xs:decimal" minOccurs="0" />
+                <xs:element name="TYGIA" type="xs:decimal" minOccurs="0" />
+                <xs:element name="MANGOAITE" type="xs:string" minOccurs="0" />
+                <xs:element name="TONGHOP" type="xs:decimal" minOccurs="0" />
+                <xs:element name="MAPT" type="xs:decimal" minOccurs="0" />
+                <xs:element name="CTGS" type="xs:decimal" minOccurs="0" />
+                <xs:element name="TENLK" type="xs:string" minOccurs="0" />
+                <xs:element name="STKNOA" type="xs:string" minOccurs="0" />
+                <xs:element name="STKCOA" type="xs:string" minOccurs="0" />
+                <xs:element name="STKMTMNO" type="xs:string" minOccurs="0" />
+                <xs:element name="STKMTMCO" type="xs:string" minOccurs="0" />
+                <xs:element name="TENPT" type="xs:string" minOccurs="0" />
+                <xs:element name="TENKMNO" type="xs:string" minOccurs="0" />
+                <xs:element name="TENKMCO" type="xs:string" minOccurs="0" />
+                <xs:element name="MLNSNO" type="xs:decimal" minOccurs="0" />
+                <xs:element name="CTMLNSNO" type="xs:decimal" minOccurs="0" />
+                <xs:element name="MLNSCO" type="xs:decimal" minOccurs="0" />
+                <xs:element name="CTMLNSCO" type="xs:decimal" minOccurs="0" />
+                <xs:element name="LOAIKMNO" type="xs:decimal" minOccurs="0" />
+                <xs:element name="LOAIKMCO" type="xs:decimal" minOccurs="0" />
+                <xs:element name="CAPPHAT" type="xs:decimal" minOccurs="0" />
+                <xs:element name="TENCAPPHAT" type="xs:string" minOccurs="0" />
+                <xs:element name="THANGQT" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+</NewDataSet>

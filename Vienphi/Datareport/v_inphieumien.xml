@@ -1,0 +1,80 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="id" type="xs:decimal" minOccurs="0" />
+                <xs:element name="doituong" type="xs:string" minOccurs="0" />
+                <xs:element name="hoten" type="xs:string" minOccurs="0" />
+                <xs:element name="namsinh" type="xs:string" minOccurs="0" />
+                <xs:element name="mabn" type="xs:string" minOccurs="0" />
+                <xs:element name="diachi" type="xs:string" minOccurs="0" />
+                <xs:element name="noidung" type="xs:string" minOccurs="0" />
+                <xs:element name="sotien" type="xs:decimal" minOccurs="0" />
+                <xs:element name="lydo" type="xs:string" minOccurs="0" />
+                <xs:element name="nguoiduyet" type="xs:string" minOccurs="0" />
+                <xs:element name="nguoithu" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <id>3000000308</id>
+    <doituong>Dịch vụ ngày nghỉ</doituong>
+    <hoten>BN MIEN GIAM</hoten>
+    <namsinh>1979</namsinh>
+    <mabn>1102000173</mabn>
+    <diachi>P. An Khánh,Q. 2,Tp. H C M</diachi>
+    <noidung>Siêu âm</noidung>
+    <sotien>200000.0000</sotien>
+    <lydo>Giám đốc duyệt</lydo>
+    <nguoiduyet>TÔN NỮ QUỲNH NHƯ</nguoiduyet>
+    <nguoithu>cn2</nguoithu>
+  </Table>
+  <Table>
+    <id>3000000308</id>
+    <doituong>Dịch vụ ngày nghỉ</doituong>
+    <hoten>BN MIEN GIAM</hoten>
+    <namsinh>1979</namsinh>
+    <mabn>1102000173</mabn>
+    <diachi>P. An Khánh,Q. 2,Tp. H C M</diachi>
+    <noidung>X quang kỹ thuật số</noidung>
+    <sotien>200000.0000</sotien>
+    <lydo>Giám đốc duyệt</lydo>
+    <nguoiduyet>TÔN NỮ QUỲNH NHƯ</nguoiduyet>
+    <nguoithu>cn2</nguoithu>
+  </Table>
+  <Table>
+    <id>3000000308</id>
+    <doituong>Dịch vụ ngày nghỉ</doituong>
+    <hoten>BN MIEN GIAM</hoten>
+    <namsinh>1979</namsinh>
+    <mabn>1102000173</mabn>
+    <diachi>P. An Khánh,Q. 2,Tp. H C M</diachi>
+    <noidung>Xét Nghiệm Miễn dịch</noidung>
+    <sotien>200000.0000</sotien>
+    <lydo>Giám đốc duyệt</lydo>
+    <nguoiduyet>TÔN NỮ QUỲNH NHƯ</nguoiduyet>
+    <nguoithu>cn2</nguoithu>
+  </Table>
+  <Table>
+    <id>3000000308</id>
+    <doituong>Dịch vụ ngày nghỉ</doituong>
+    <hoten>BN MIEN GIAM</hoten>
+    <namsinh>1979</namsinh>
+    <mabn>1102000173</mabn>
+    <diachi>P. An Khánh,Q. 2,Tp. H C M</diachi>
+    <noidung>Xét nghiệm Sinh hóa</noidung>
+    <sotien>200000.0000</sotien>
+    <lydo>Giám đốc duyệt</lydo>
+    <nguoiduyet>TÔN NỮ QUỲNH NHƯ</nguoiduyet>
+    <nguoithu>cn2</nguoithu>
+  </Table>
+</NewDataSet>

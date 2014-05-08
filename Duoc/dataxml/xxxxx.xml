@@ -1,0 +1,231 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="id" type="xs:int" minOccurs="0" />
+                <xs:element name="stt" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sttt" type="xs:decimal" minOccurs="0" />
+                <xs:element name="mabd" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ma" type="xs:string" minOccurs="0" />
+                <xs:element name="ten" type="xs:string" minOccurs="0" />
+                <xs:element name="tenhc" type="xs:string" minOccurs="0" />
+                <xs:element name="dang" type="xs:string" minOccurs="0" />
+                <xs:element name="tenkho" type="xs:string" minOccurs="0" />
+                <xs:element name="tennguon" type="xs:string" minOccurs="0" />
+                <xs:element name="tennhomcc" type="xs:string" minOccurs="0" />
+                <xs:element name="handung" type="xs:string" minOccurs="0" />
+                <xs:element name="losx" type="xs:string" minOccurs="0" />
+                <xs:element name="soluong" type="xs:decimal" minOccurs="0" />
+                <xs:element name="dongia" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sotien" type="xs:decimal" minOccurs="0" />
+                <xs:element name="cachdung" type="xs:string" minOccurs="0" />
+                <xs:element name="makho" type="xs:decimal" minOccurs="0" />
+                <xs:element name="manguon" type="xs:decimal" minOccurs="0" />
+                <xs:element name="nhomcc" type="xs:decimal" minOccurs="0" />
+                <xs:element name="mabs" type="xs:string" minOccurs="0" />
+                <xs:element name="chandoan" type="xs:string" minOccurs="0" />
+                <xs:element name="tenkp" type="xs:string" minOccurs="0" />
+                <xs:element name="maql" type="xs:decimal" minOccurs="0" />
+                <xs:element name="makp" type="xs:string" minOccurs="0" />
+                <xs:element name="madoituong" type="xs:decimal" minOccurs="0" />
+                <xs:element name="hangsx" type="xs:string" minOccurs="0" />
+                <xs:element name="nuocsx" type="xs:string" minOccurs="0" />
+                <xs:element name="bhyt_tt" type="xs:decimal" minOccurs="0" />
+                <xs:element name="traituyen" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <id>1</id>
+    <stt>1</stt>
+    <sttt>140304000002550110</sttt>
+    <mabd>190784</mabd>
+    <ma>MIL001</ma>
+    <ten>Milurit 100mg</ten>
+    <tenhc>Allopurinol</tenhc>
+    <dang>Viên</dang>
+    <tenkho>Kho BHYT Phòng Khám</tenkho>
+    <tennguon>Bảo Hiểm Y Tế</tennguon>
+    <tennhomcc>CÔNG TY TNHH DƯỢC PHẨM HOÀNG VŨ</tennhomcc>
+    <handung>0000</handung>
+    <losx />
+    <soluong>30.0000</soluong>
+    <dongia>2400.0000000000</dongia>
+    <sotien>72000.00000000000000</sotien>
+    <cachdung>Uèng ngày 3 lần , lần 1 Viên</cachdung>
+    <makho>2</makho>
+    <manguon>1</manguon>
+    <nhomcc>511</nhomcc>
+    <mabs>0063</mabs>
+    <chandoan>Các viêm khớp khác</chandoan>
+    <tenkp>Khám Nội Nhi</tenkp>
+    <maql>140320073548438064</maql>
+    <makp>13</makp>
+    <madoituong>1</madoituong>
+    <hangsx>Không xác định</hangsx>
+    <nuocsx>việt nam</nuocsx>
+    <bhyt_tt>100.00</bhyt_tt>
+    <traituyen>0</traituyen>
+  </Table>
+  <Table>
+    <id>1</id>
+    <stt>2</stt>
+    <sttt>140109000000857110</sttt>
+    <mabd>190275</mabd>
+    <ma>LOX001</ma>
+    <ten>Loxfen 60mg</ten>
+    <tenhc>Loxoprofen Sodium</tenhc>
+    <dang>Viên</dang>
+    <tenkho>Kho BHYT Phòng Khám</tenkho>
+    <tennguon>Bảo Hiểm Y Tế</tennguon>
+    <tennhomcc>CÔNG TY TNHH DƯỢC PHẨM HOÀNG VŨ</tennhomcc>
+    <handung>0000</handung>
+    <losx />
+    <soluong>20.0000</soluong>
+    <dongia>1800.0150000000</dongia>
+    <sotien>36000.30000000000000</sotien>
+    <cachdung>Uống ngày 2 lần , lần 1 Lọ</cachdung>
+    <makho>2</makho>
+    <manguon>1</manguon>
+    <nhomcc>511</nhomcc>
+    <mabs>0063</mabs>
+    <chandoan>Các viêm khớp khác</chandoan>
+    <tenkp>Khám Nội Nhi</tenkp>
+    <maql>140320073548438064</maql>
+    <makp>13</makp>
+    <madoituong>1</madoituong>
+    <hangsx>Shinpoong</hangsx>
+    <nuocsx>việt nam</nuocsx>
+    <bhyt_tt>100.00</bhyt_tt>
+    <traituyen>0</traituyen>
+  </Table>
+  <Table>
+    <id>1</id>
+    <stt>3</stt>
+    <sttt>140108000002787038</sttt>
+    <mabd>207444</mabd>
+    <ma>OMI001</ma>
+    <ten>Omizac 20mg</ten>
+    <tenhc>Omeprazole</tenhc>
+    <dang>Viên</dang>
+    <tenkho>Kho BHYT Phòng Khám</tenkho>
+    <tennguon>Bảo Hiểm Y Tế</tennguon>
+    <tennhomcc>CHI NHÁNH CÔNG TY TNHH MỘT THÀNH VIÊN DƯỢC PHẨM TW2 TẤY NGUYỄN</tennhomcc>
+    <handung>0000</handung>
+    <losx />
+    <soluong>20.0000</soluong>
+    <dongia>1300.0000000000</dongia>
+    <sotien>26000.00000000000000</sotien>
+    <cachdung>Uống ngày 2 lần , lần 1 Viên</cachdung>
+    <makho>2</makho>
+    <manguon>1</manguon>
+    <nhomcc>514</nhomcc>
+    <mabs>0063</mabs>
+    <chandoan>Các viêm khớp khác</chandoan>
+    <tenkp>Khám Nội Nhi</tenkp>
+    <maql>140320073548438064</maql>
+    <makp>13</makp>
+    <madoituong>1</madoituong>
+    <hangsx>Vietnam</hangsx>
+    <nuocsx>việt nam</nuocsx>
+    <bhyt_tt>100.00</bhyt_tt>
+    <traituyen>0</traituyen>
+  </Table>
+  <Table>
+    <id>3</id>
+    <stt>0</stt>
+    <sttt>0</sttt>
+    <mabd>-206286</mabd>
+    <ma>KHA073)</ma>
+    <ten>Công Khám</ten>
+    <tenhc xml:space="preserve"> </tenhc>
+    <dang>lần</dang>
+    <tenkho xml:space="preserve"> </tenkho>
+    <tennguon xml:space="preserve"> </tennguon>
+    <tennhomcc xml:space="preserve"> </tennhomcc>
+    <handung xml:space="preserve"> </handung>
+    <losx xml:space="preserve"> </losx>
+    <soluong>1</soluong>
+    <dongia>7000</dongia>
+    <sotien>7000</sotien>
+    <cachdung xml:space="preserve"> </cachdung>
+    <makho>0</makho>
+    <manguon>0</manguon>
+    <nhomcc>0</nhomcc>
+    <mabs>0063</mabs>
+    <chandoan>Các viêm khớp khác</chandoan>
+    <tenkp>Khám Nội Nhi</tenkp>
+    <maql>0</maql>
+    <makp>13</makp>
+    <madoituong>1</madoituong>
+  </Table>
+  <Table>
+    <id>3</id>
+    <stt>1</stt>
+    <sttt>0</sttt>
+    <mabd>-206286</mabd>
+    <ma>KHA073)</ma>
+    <ten>Công Khám</ten>
+    <tenhc xml:space="preserve"> </tenhc>
+    <dang>lần</dang>
+    <tenkho xml:space="preserve"> </tenkho>
+    <tennguon xml:space="preserve"> </tennguon>
+    <tennhomcc xml:space="preserve"> </tennhomcc>
+    <handung xml:space="preserve"> </handung>
+    <losx xml:space="preserve"> </losx>
+    <soluong>1.00</soluong>
+    <dongia>7000</dongia>
+    <sotien>7000.00</sotien>
+    <cachdung xml:space="preserve"> </cachdung>
+    <makho>0</makho>
+    <manguon>0</manguon>
+    <nhomcc>0</nhomcc>
+    <mabs>0063</mabs>
+    <chandoan>Các viêm khớp khác</chandoan>
+    <tenkp>Khám Nội Nhi</tenkp>
+    <maql>140320073548438064</maql>
+    <makp>13</makp>
+    <madoituong>1</madoituong>
+    <bhyt_tt>100.00</bhyt_tt>
+    <traituyen>0</traituyen>
+  </Table>
+  <Table>
+    <id>3</id>
+    <stt>2</stt>
+    <sttt>0</sttt>
+    <mabd>-191504</mabd>
+    <ma>DIN050</ma>
+    <ten>định lượng Acide urique</ten>
+    <tenhc xml:space="preserve"> </tenhc>
+    <dang>lần</dang>
+    <tenkho xml:space="preserve"> </tenkho>
+    <tennguon xml:space="preserve"> </tennguon>
+    <tennhomcc xml:space="preserve"> </tennhomcc>
+    <handung xml:space="preserve"> </handung>
+    <losx xml:space="preserve"> </losx>
+    <soluong>1.00</soluong>
+    <dongia>22000</dongia>
+    <sotien>22000.00</sotien>
+    <cachdung xml:space="preserve"> </cachdung>
+    <makho>0</makho>
+    <manguon>0</manguon>
+    <nhomcc>0</nhomcc>
+    <mabs>0063</mabs>
+    <chandoan>Các viêm khớp khác</chandoan>
+    <tenkp>Khám Nội Nhi</tenkp>
+    <maql>140320073548438064</maql>
+    <makp>13</makp>
+    <madoituong>1</madoituong>
+    <bhyt_tt>100.00</bhyt_tt>
+    <traituyen>0</traituyen>
+  </Table>
+</NewDataSet>

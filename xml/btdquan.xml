@@ -1,0 +1,4017 @@
+<?xml version="1.0" standalone="yes" ?>
+<NewDataSet>
+	<xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xs:element name="NewDataSet" msdata:IsDataSet="true">
+			<xs:complexType>
+				<xs:choice maxOccurs="unbounded">
+					<xs:element name="Table">
+						<xs:complexType>
+							<xs:sequence>
+								<xs:element name="MAQU" type="xs:string" minOccurs="0" />
+								<xs:element name="MATT" type="xs:string" minOccurs="0" />
+								<xs:element name="TENQUAN" type="xs:string" minOccurs="0" />
+								<xs:element name="MASYT" type="xs:string" minOccurs="0" />
+							</xs:sequence>
+						</xs:complexType>
+					</xs:element>
+				</xs:choice>
+			</xs:complexType>
+		</xs:element>
+	</xs:schema>
+	<Table>
+		<MAQU>10000</MAQU>
+		<MATT>100</MATT>
+		<TENQUAN>Không xác định</TENQUAN>
+		<MASYT>62</MASYT>
+	</Table>
+	<Table>
+		<MAQU>10100</MAQU>
+		<MATT>101</MATT>
+		<TENQUAN>Không xác định</TENQUAN>
+		<MASYT>01</MASYT>
+	</Table>
+	<Table>
+		<MAQU>10101</MAQU>
+		<MATT>101</MATT>
+		<TENQUAN>Quận Ba Đình</TENQUAN>
+		<MASYT>01</MASYT>
+	</Table>
+	<Table>
+		<MAQU>10103</MAQU>
+		<MATT>101</MATT>
+		<TENQUAN>Quận Tây Hồ</TENQUAN>
+		<MASYT>01</MASYT>
+	</Table>
+	<Table>
+		<MAQU>10105</MAQU>
+		<MATT>101</MATT>
+		<TENQUAN>Quận Hoàn Kiếm</TENQUAN>
+		<MASYT>01</MASYT>
+	</Table>
+	<Table>
+		<MAQU>10107</MAQU>
+		<MATT>101</MATT>
+		<TENQUAN>Quận Hai Bà Trưng</TENQUAN>
+		<MASYT>01</MASYT>
+	</Table>
+	<Table>
+		<MAQU>10109</MAQU>
+		<MATT>101</MATT>
+		<TENQUAN>Quận Đống Đa</TENQUAN>
+		<MASYT>01</MASYT>
+	</Table>
+	<Table>
+		<MAQU>10111</MAQU>
+		<MATT>101</MATT>
+		<TENQUAN>Quận Thanh Xuân</TENQUAN>
+		<MASYT>01</MASYT>
+	</Table>
+	<Table>
+		<MAQU>10113</MAQU>
+		<MATT>101</MATT>
+		<TENQUAN>Quận Cầu Giấy</TENQUAN>
+		<MASYT>01</MASYT>
+	</Table>
+	<Table>
+		<MAQU>10115</MAQU>
+		<MATT>101</MATT>
+		<TENQUAN>Huyện Sóc Sơn</TENQUAN>
+		<MASYT>01</MASYT>
+	</Table>
+	<Table>
+		<MAQU>10117</MAQU>
+		<MATT>101</MATT>
+		<TENQUAN>Huyện Đông Anh</TENQUAN>
+		<MASYT>01</MASYT>
+	</Table>
+	<Table>
+		<MAQU>10119</MAQU>
+		<MATT>101</MATT>
+		<TENQUAN>Huyện Gia Lâm</TENQUAN>
+		<MASYT>01</MASYT>
+	</Table>
+	<Table>
+		<MAQU>10121</MAQU>
+		<MATT>101</MATT>
+		<TENQUAN>Huyện Từ Liêm</TENQUAN>
+		<MASYT>01</MASYT>
+	</Table>
+	<Table>
+		<MAQU>10123</MAQU>
+		<MATT>101</MATT>
+		<TENQUAN>Huyện Thanh Trì</TENQUAN>
+		<MASYT>01</MASYT>
+	</Table>
+	<Table>
+		<MAQU>10300</MAQU>
+		<MATT>103</MATT>
+		<TENQUAN>Không xác định</TENQUAN>
+		<MASYT>03</MASYT>
+	</Table>
+	<Table>
+		<MAQU>10301</MAQU>
+		<MATT>103</MATT>
+		<TENQUAN>Quận Hồng Bàng</TENQUAN>
+		<MASYT>03</MASYT>
+	</Table>
+	<Table>
+		<MAQU>10303</MAQU>
+		<MATT>103</MATT>
+		<TENQUAN>Quận Ngô Quyền</TENQUAN>
+		<MASYT>03</MASYT>
+	</Table>
+	<Table>
+		<MAQU>10305</MAQU>
+		<MATT>103</MATT>
+		<TENQUAN>Quận Lê Chân</TENQUAN>
+		<MASYT>03</MASYT>
+	</Table>
+	<Table>
+		<MAQU>10307</MAQU>
+		<MATT>103</MATT>
+		<TENQUAN>Quận Kiến An</TENQUAN>
+		<MASYT>03</MASYT>
+	</Table>
+	<Table>
+		<MAQU>10309</MAQU>
+		<MATT>103</MATT>
+		<TENQUAN>Thị xã Đồ Sơn</TENQUAN>
+		<MASYT>03</MASYT>
+	</Table>
+	<Table>
+		<MAQU>10311</MAQU>
+		<MATT>103</MATT>
+		<TENQUAN>Huyện Thuỷ Nguyên</TENQUAN>
+		<MASYT>03</MASYT>
+	</Table>
+	<Table>
+		<MAQU>10313</MAQU>
+		<MATT>103</MATT>
+		<TENQUAN>Huyện An Hải</TENQUAN>
+		<MASYT>03</MASYT>
+	</Table>
+	<Table>
+		<MAQU>10315</MAQU>
+		<MATT>103</MATT>
+		<TENQUAN>Huyện An Lão</TENQUAN>
+		<MASYT>03</MASYT>
+	</Table>
+	<Table>
+		<MAQU>10317</MAQU>
+		<MATT>103</MATT>
+		<TENQUAN>Huyện Kiến Thuỵ</TENQUAN>
+		<MASYT>03</MASYT>
+	</Table>
+	<Table>
+		<MAQU>10319</MAQU>
+		<MATT>103</MATT>
+		<TENQUAN>Huyện Tiên Lãng</TENQUAN>
+		<MASYT>03</MASYT>
+	</Table>
+	<Table>
+		<MAQU>10321</MAQU>
+		<MATT>103</MATT>
+		<TENQUAN>Huyện Vĩnh Bảo</TENQUAN>
+		<MASYT>03</MASYT>
+	</Table>
+	<Table>
+		<MAQU>10323</MAQU>
+		<MATT>103</MATT>
+		<TENQUAN>Huyện Cát Hải</TENQUAN>
+		<MASYT>03</MASYT>
+	</Table>
+	<Table>
+		<MAQU>10325</MAQU>
+		<MATT>103</MATT>
+		<TENQUAN>Huyện Bạch Long Vĩ</TENQUAN>
+		<MASYT>03</MASYT>
+	</Table>
+	<Table>
+		<MAQU>10400</MAQU>
+		<MATT>104</MATT>
+		<TENQUAN>Không xác định</TENQUAN>
+		<MASYT>16</MASYT>
+	</Table>
+	<Table>
+		<MAQU>10401</MAQU>
+		<MATT>104</MATT>
+		<TENQUAN>Thị xã Vĩnh Yên</TENQUAN>
+		<MASYT>16</MASYT>
+	</Table>
+	<Table>
+		<MAQU>10403</MAQU>
+		<MATT>104</MATT>
+		<TENQUAN>Huyện Lập Thạch</TENQUAN>
+		<MASYT>16</MASYT>
+	</Table>
+	<Table>
+		<MAQU>10405</MAQU>
+		<MATT>104</MATT>
+		<TENQUAN>Huyện Tam Dương</TENQUAN>
+		<MASYT>16</MASYT>
+	</Table>
+	<Table>
+		<MAQU>10407</MAQU>
+		<MATT>104</MATT>
+		<TENQUAN>Huyện Vĩnh Tường</TENQUAN>
+		<MASYT>16</MASYT>
+	</Table>
+	<Table>
+		<MAQU>10409</MAQU>
+		<MATT>104</MATT>
+		<TENQUAN>Huyện Yên Lạc</TENQUAN>
+		<MASYT>16</MASYT>
+	</Table>
+	<Table>
+		<MAQU>10411</MAQU>
+		<MATT>104</MATT>
+		<TENQUAN>Huyện Mê Linh</TENQUAN>
+		<MASYT>16</MASYT>
+	</Table>
+	<Table>
+		<MAQU>10413</MAQU>
+		<MATT>104</MATT>
+		<TENQUAN>Huyện Bình Xuyên</TENQUAN>
+		<MASYT>16</MASYT>
+	</Table>
+	<Table>
+		<MAQU>10500</MAQU>
+		<MATT>105</MATT>
+		<TENQUAN>Không xác định</TENQUAN>
+		<MASYT>20</MASYT>
+	</Table>
+	<Table>
+		<MAQU>10501</MAQU>
+		<MATT>105</MATT>
+		<TENQUAN>Thị xã Hà Đông</TENQUAN>
+		<MASYT>20</MASYT>
+	</Table>
+	<Table>
+		<MAQU>10503</MAQU>
+		<MATT>105</MATT>
+		<TENQUAN>Thị xã Sơn Tây</TENQUAN>
+		<MASYT>20</MASYT>
+	</Table>
+	<Table>
+		<MAQU>10505</MAQU>
+		<MATT>105</MATT>
+		<TENQUAN>Huyện Ba Vì</TENQUAN>
+		<MASYT>20</MASYT>
+	</Table>
+	<Table>
+		<MAQU>10507</MAQU>
+		<MATT>105</MATT>
+		<TENQUAN>Huyện Phúc Thọ</TENQUAN>
+		<MASYT>20</MASYT>
+	</Table>
+	<Table>
+		<MAQU>10509</MAQU>
+		<MATT>105</MATT>
+		<TENQUAN>Huyện Đan Phượng</TENQUAN>
+		<MASYT>20</MASYT>
+	</Table>
+	<Table>
+		<MAQU>10511</MAQU>
+		<MATT>105</MATT>
+		<TENQUAN>Huyện Thạch Thất</TENQUAN>
+		<MASYT>20</MASYT>
+	</Table>
+	<Table>
+		<MAQU>10513</MAQU>
+		<MATT>105</MATT>
+		<TENQUAN>Huyện Hoài Đức</TENQUAN>
+		<MASYT>20</MASYT>
+	</Table>
+	<Table>
+		<MAQU>10515</MAQU>
+		<MATT>105</MATT>
+		<TENQUAN>Huyện Quốc Oai</TENQUAN>
+		<MASYT>20</MASYT>
+	</Table>
+	<Table>
+		<MAQU>10517</MAQU>
+		<MATT>105</MATT>
+		<TENQUAN>Huyện Chương Mỹ</TENQUAN>
+		<MASYT>20</MASYT>
+	</Table>
+	<Table>
+		<MAQU>10519</MAQU>
+		<MATT>105</MATT>
+		<TENQUAN>Huyện Thanh Oai</TENQUAN>
+		<MASYT>20</MASYT>
+	</Table>
+	<Table>
+		<MAQU>10521</MAQU>
+		<MATT>105</MATT>
+		<TENQUAN>Huyện Thường Tín</TENQUAN>
+		<MASYT>20</MASYT>
+	</Table>
+	<Table>
+		<MAQU>10523</MAQU>
+		<MATT>105</MATT>
+		<TENQUAN>Huyện Mỹ Đức</TENQUAN>
+		<MASYT>20</MASYT>
+	</Table>
+	<Table>
+		<MAQU>10525</MAQU>
+		<MATT>105</MATT>
+		<TENQUAN>Huyện ứng Hòa</TENQUAN>
+		<MASYT>20</MASYT>
+	</Table>
+	<Table>
+		<MAQU>10527</MAQU>
+		<MATT>105</MATT>
+		<TENQUAN>Huyện Phú Xuyên</TENQUAN>
+		<MASYT>20</MASYT>
+	</Table>
+	<Table>
+		<MAQU>10700</MAQU>
+		<MATT>107</MATT>
+		<TENQUAN>Không xác định</TENQUAN>
+		<MASYT>22</MASYT>
+	</Table>
+	<Table>
+		<MAQU>10701</MAQU>
+		<MATT>107</MATT>
+		<TENQUAN>Thành phố Hải Dương</TENQUAN>
+		<MASYT>22</MASYT>
+	</Table>
+	<Table>
+		<MAQU>10703</MAQU>
+		<MATT>107</MATT>
+		<TENQUAN>Huyện Chí Linh</TENQUAN>
+		<MASYT>22</MASYT>
+	</Table>
+	<Table>
+		<MAQU>10705</MAQU>
+		<MATT>107</MATT>
+		<TENQUAN>Huyện Nam Sách</TENQUAN>
+		<MASYT>22</MASYT>
+	</Table>
+	<Table>
+		<MAQU>10707</MAQU>
+		<MATT>107</MATT>
+		<TENQUAN>Huyện Thanh Hà</TENQUAN>
+		<MASYT>22</MASYT>
+	</Table>
+	<Table>
+		<MAQU>10709</MAQU>
+		<MATT>107</MATT>
+		<TENQUAN>Huyện Kinh Môn</TENQUAN>
+		<MASYT>22</MASYT>
+	</Table>
+	<Table>
+		<MAQU>10711</MAQU>
+		<MATT>107</MATT>
+		<TENQUAN>Huyện Kim Thành</TENQUAN>
+		<MASYT>22</MASYT>
+	</Table>
+	<Table>
+		<MAQU>10713</MAQU>
+		<MATT>107</MATT>
+		<TENQUAN>Huyện Gia Lộc</TENQUAN>
+		<MASYT>22</MASYT>
+	</Table>
+	<Table>
+		<MAQU>10715</MAQU>
+		<MATT>107</MATT>
+		<TENQUAN>Huyện Tứ Kỳ</TENQUAN>
+		<MASYT>22</MASYT>
+	</Table>
+	<Table>
+		<MAQU>10717</MAQU>
+		<MATT>107</MATT>
+		<TENQUAN>Huyện Cẩm Giàng</TENQUAN>
+		<MASYT>22</MASYT>
+	</Table>
+	<Table>
+		<MAQU>10719</MAQU>
+		<MATT>107</MATT>
+		<TENQUAN>Huyện Bình Giang</TENQUAN>
+		<MASYT>22</MASYT>
+	</Table>
+	<Table>
+		<MAQU>10721</MAQU>
+		<MATT>107</MATT>
+		<TENQUAN>Huyện Thanh Miện</TENQUAN>
+		<MASYT>22</MASYT>
+	</Table>
+	<Table>
+		<MAQU>10723</MAQU>
+		<MATT>107</MATT>
+		<TENQUAN>Huyện Ninh Giang</TENQUAN>
+		<MASYT>22</MASYT>
+	</Table>
+	<Table>
+		<MAQU>10900</MAQU>
+		<MATT>109</MATT>
+		<TENQUAN>Không xác định</TENQUAN>
+		<MASYT>23</MASYT>
+	</Table>
+	<Table>
+		<MAQU>10901</MAQU>
+		<MATT>109</MATT>
+		<TENQUAN>Thị xã Hưng Yên</TENQUAN>
+		<MASYT>23</MASYT>
+	</Table>
+	<Table>
+		<MAQU>10902</MAQU>
+		<MATT>109</MATT>
+		<TENQUAN>Huyện Văn Lâm</TENQUAN>
+		<MASYT>23</MASYT>
+	</Table>
+	<Table>
+		<MAQU>10903</MAQU>
+		<MATT>109</MATT>
+		<TENQUAN>Huyện Mỹ Văn</TENQUAN>
+		<MASYT>23</MASYT>
+	</Table>
+	<Table>
+		<MAQU>10904</MAQU>
+		<MATT>109</MATT>
+		<TENQUAN>Huyện Yên Mỹ</TENQUAN>
+		<MASYT>23</MASYT>
+	</Table>
+	<Table>
+		<MAQU>10905</MAQU>
+		<MATT>109</MATT>
+		<TENQUAN>Huyện Châu Giang</TENQUAN>
+		<MASYT>23</MASYT>
+	</Table>
+	<Table>
+		<MAQU>10906</MAQU>
+		<MATT>109</MATT>
+		<TENQUAN>Huyện Khoái Châu</TENQUAN>
+		<MASYT>23</MASYT>
+	</Table>
+	<Table>
+		<MAQU>10907</MAQU>
+		<MATT>109</MATT>
+		<TENQUAN>Huyện Ân Thi</TENQUAN>
+		<MASYT>23</MASYT>
+	</Table>
+	<Table>
+		<MAQU>10909</MAQU>
+		<MATT>109</MATT>
+		<TENQUAN>Huyện Kim Động</TENQUAN>
+		<MASYT>23</MASYT>
+	</Table>
+	<Table>
+		<MAQU>10911</MAQU>
+		<MATT>109</MATT>
+		<TENQUAN>Huyện Phù Cừ</TENQUAN>
+		<MASYT>23</MASYT>
+	</Table>
+	<Table>
+		<MAQU>10913</MAQU>
+		<MATT>109</MATT>
+		<TENQUAN>Huyện Tiên Lữ</TENQUAN>
+		<MASYT>23</MASYT>
+	</Table>
+	<Table>
+		<MAQU>11100</MAQU>
+		<MATT>111</MATT>
+		<TENQUAN>Không xác định</TENQUAN>
+		<MASYT>25</MASYT>
+	</Table>
+	<Table>
+		<MAQU>11101</MAQU>
+		<MATT>111</MATT>
+		<TENQUAN>Thị xã Phủ Lý</TENQUAN>
+		<MASYT>25</MASYT>
+	</Table>
+	<Table>
+		<MAQU>11103</MAQU>
+		<MATT>111</MATT>
+		<TENQUAN>Huyện Duy Tiên</TENQUAN>
+		<MASYT>25</MASYT>
+	</Table>
+	<Table>
+		<MAQU>11105</MAQU>
+		<MATT>111</MATT>
+		<TENQUAN>Huyện Kim Bảng</TENQUAN>
+		<MASYT>25</MASYT>
+	</Table>
+	<Table>
+		<MAQU>11107</MAQU>
+		<MATT>111</MATT>
+		<TENQUAN>Huyện Lý Nhân</TENQUAN>
+		<MASYT>25</MASYT>
+	</Table>
+	<Table>
+		<MAQU>11109</MAQU>
+		<MATT>111</MATT>
+		<TENQUAN>Huyện Thanh Liêm</TENQUAN>
+		<MASYT>25</MASYT>
+	</Table>
+	<Table>
+		<MAQU>11111</MAQU>
+		<MATT>111</MATT>
+		<TENQUAN>Huyện Bình Lục</TENQUAN>
+		<MASYT>25</MASYT>
+	</Table>
+	<Table>
+		<MAQU>11300</MAQU>
+		<MATT>113</MATT>
+		<TENQUAN>Không xác định</TENQUAN>
+		<MASYT>26</MASYT>
+	</Table>
+	<Table>
+		<MAQU>11301</MAQU>
+		<MATT>113</MATT>
+		<TENQUAN>Thành phố Nam Định</TENQUAN>
+		<MASYT>26</MASYT>
+	</Table>
+	<Table>
+		<MAQU>11303</MAQU>
+		<MATT>113</MATT>
+		<TENQUAN>Huyện Vụ Bản</TENQUAN>
+		<MASYT>26</MASYT>
+	</Table>
+	<Table>
+		<MAQU>11305</MAQU>
+		<MATT>113</MATT>
+		<TENQUAN>Huyện Mỹ Lộc</TENQUAN>
+		<MASYT>26</MASYT>
+	</Table>
+	<Table>
+		<MAQU>11307</MAQU>
+		<MATT>113</MATT>
+		<TENQUAN>Huyện ý Yên</TENQUAN>
+		<MASYT>26</MASYT>
+	</Table>
+	<Table>
+		<MAQU>11309</MAQU>
+		<MATT>113</MATT>
+		<TENQUAN>Huyện Nam Trực</TENQUAN>
+		<MASYT>26</MASYT>
+	</Table>
+	<Table>
+		<MAQU>11311</MAQU>
+		<MATT>113</MATT>
+		<TENQUAN>Huyện Trực Ninh</TENQUAN>
+		<MASYT>26</MASYT>
+	</Table>
+	<Table>
+		<MAQU>11313</MAQU>
+		<MATT>113</MATT>
+		<TENQUAN>Huyện Xuân Trường</TENQUAN>
+		<MASYT>26</MASYT>
+	</Table>
+	<Table>
+		<MAQU>11315</MAQU>
+		<MATT>113</MATT>
+		<TENQUAN>Huyện Giao Thủy</TENQUAN>
+		<MASYT>26</MASYT>
+	</Table>
+	<Table>
+		<MAQU>11317</MAQU>
+		<MATT>113</MATT>
+		<TENQUAN>Huyện Nghĩa Hưng</TENQUAN>
+		<MASYT>26</MASYT>
+	</Table>
+	<Table>
+		<MAQU>11319</MAQU>
+		<MATT>113</MATT>
+		<TENQUAN>Huyện Hải Hậu</TENQUAN>
+		<MASYT>26</MASYT>
+	</Table>
+	<Table>
+		<MAQU>11500</MAQU>
+		<MATT>115</MATT>
+		<TENQUAN>Không xác định</TENQUAN>
+		<MASYT>24</MASYT>
+	</Table>
+	<Table>
+		<MAQU>11501</MAQU>
+		<MATT>115</MATT>
+		<TENQUAN>Thị xã Thái Bình</TENQUAN>
+		<MASYT>24</MASYT>
+	</Table>
+	<Table>
+		<MAQU>11503</MAQU>
+		<MATT>115</MATT>
+		<TENQUAN>Huyện Quỳnh Phụ</TENQUAN>
+		<MASYT>24</MASYT>
+	</Table>
+	<Table>
+		<MAQU>11505</MAQU>
+		<MATT>115</MATT>
+		<TENQUAN>Huyện Hưng Hà</TENQUAN>
+		<MASYT>24</MASYT>
+	</Table>
+	<Table>
+		<MAQU>11507</MAQU>
+		<MATT>115</MATT>
+		<TENQUAN>Huyện Thái Thụy</TENQUAN>
+		<MASYT>24</MASYT>
+	</Table>
+	<Table>
+		<MAQU>11509</MAQU>
+		<MATT>115</MATT>
+		<TENQUAN>Huyện Đông Hưng</TENQUAN>
+		<MASYT>24</MASYT>
+	</Table>
+	<Table>
+		<MAQU>11511</MAQU>
+		<MATT>115</MATT>
+		<TENQUAN>Huyện Vũ Thư</TENQUAN>
+		<MASYT>24</MASYT>
+	</Table>
+	<Table>
+		<MAQU>11513</MAQU>
+		<MATT>115</MATT>
+		<TENQUAN>Huyện Kiến Xương</TENQUAN>
+		<MASYT>24</MASYT>
+	</Table>
+	<Table>
+		<MAQU>11515</MAQU>
+		<MATT>115</MATT>
+		<TENQUAN>Huyện Tiền Hải</TENQUAN>
+		<MASYT>24</MASYT>
+	</Table>
+	<Table>
+		<MAQU>11700</MAQU>
+		<MATT>117</MATT>
+		<TENQUAN>Không xác định</TENQUAN>
+		<MASYT>27</MASYT>
+	</Table>
+	<Table>
+		<MAQU>11701</MAQU>
+		<MATT>117</MATT>
+		<TENQUAN>Thị xã Ninh Bình</TENQUAN>
+		<MASYT>27</MASYT>
+	</Table>
+	<Table>
+		<MAQU>11703</MAQU>
+		<MATT>117</MATT>
+		<TENQUAN>Thị xã Tam Điệp</TENQUAN>
+		<MASYT>27</MASYT>
+	</Table>
+	<Table>
+		<MAQU>11705</MAQU>
+		<MATT>117</MATT>
+		<TENQUAN>Huyện Nho Quan</TENQUAN>
+		<MASYT>27</MASYT>
+	</Table>
+	<Table>
+		<MAQU>11707</MAQU>
+		<MATT>117</MATT>
+		<TENQUAN>Huyện Gia Viễn</TENQUAN>
+		<MASYT>27</MASYT>
+	</Table>
+	<Table>
+		<MAQU>11709</MAQU>
+		<MATT>117</MATT>
+		<TENQUAN>Huyện Hoa Lư</TENQUAN>
+		<MASYT>27</MASYT>
+	</Table>
+	<Table>
+		<MAQU>11711</MAQU>
+		<MATT>117</MATT>
+		<TENQUAN>Huyện Yên Mô</TENQUAN>
+		<MASYT>27</MASYT>
+	</Table>
+	<Table>
+		<MAQU>11713</MAQU>
+		<MATT>117</MATT>
+		<TENQUAN>Huyện Yên Khánh</TENQUAN>
+		<MASYT>27</MASYT>
+	</Table>
+	<Table>
+		<MAQU>11715</MAQU>
+		<MATT>117</MATT>
+		<TENQUAN>Huyện Kim Sơn</TENQUAN>
+		<MASYT>27</MASYT>
+	</Table>
+	<Table>
+		<MAQU>20100</MAQU>
+		<MATT>201</MATT>
+		<TENQUAN>Không xác định</TENQUAN>
+		<MASYT>05</MASYT>
+	</Table>
+	<Table>
+		<MAQU>20101</MAQU>
+		<MATT>201</MATT>
+		<TENQUAN>Thị xã Hà Giang</TENQUAN>
+		<MASYT>05</MASYT>
+	</Table>
+	<Table>
+		<MAQU>20103</MAQU>
+		<MATT>201</MATT>
+		<TENQUAN>Huyện Đồng Văn</TENQUAN>
+		<MASYT>05</MASYT>
+	</Table>
+	<Table>
+		<MAQU>20105</MAQU>
+		<MATT>201</MATT>
+		<TENQUAN>Huyện Mèo Vạc</TENQUAN>
+		<MASYT>05</MASYT>
+	</Table>
+	<Table>
+		<MAQU>20107</MAQU>
+		<MATT>201</MATT>
+		<TENQUAN>Huyện Yên Minh</TENQUAN>
+		<MASYT>05</MASYT>
+	</Table>
+	<Table>
+		<MAQU>20109</MAQU>
+		<MATT>201</MATT>
+		<TENQUAN>Huyện Quản Bạ</TENQUAN>
+		<MASYT>05</MASYT>
+	</Table>
+	<Table>
+		<MAQU>20111</MAQU>
+		<MATT>201</MATT>
+		<TENQUAN>Huyện Bắc Mê</TENQUAN>
+		<MASYT>05</MASYT>
+	</Table>
+	<Table>
+		<MAQU>20113</MAQU>
+		<MATT>201</MATT>
+		<TENQUAN>Huyện Hoàng Su Phì</TENQUAN>
+		<MASYT>05</MASYT>
+	</Table>
+	<Table>
+		<MAQU>20115</MAQU>
+		<MATT>201</MATT>
+		<TENQUAN>Huyện Vị Xuyên</TENQUAN>
+		<MASYT>05</MASYT>
+	</Table>
+	<Table>
+		<MAQU>20117</MAQU>
+		<MATT>201</MATT>
+		<TENQUAN>Huyện Xín Mần</TENQUAN>
+		<MASYT>05</MASYT>
+	</Table>
+	<Table>
+		<MAQU>20119</MAQU>
+		<MATT>201</MATT>
+		<TENQUAN>Huyện Bắc Quang</TENQUAN>
+		<MASYT>05</MASYT>
+	</Table>
+	<Table>
+		<MAQU>20300</MAQU>
+		<MATT>203</MATT>
+		<TENQUAN>Không xác định</TENQUAN>
+		<MASYT>07</MASYT>
+	</Table>
+	<Table>
+		<MAQU>20301</MAQU>
+		<MATT>203</MATT>
+		<TENQUAN>Thị xã Cao Bằng</TENQUAN>
+		<MASYT>07</MASYT>
+	</Table>
+	<Table>
+		<MAQU>20303</MAQU>
+		<MATT>203</MATT>
+		<TENQUAN>Huyện Bảo Lạc</TENQUAN>
+		<MASYT>07</MASYT>
+	</Table>
+	<Table>
+		<MAQU>20305</MAQU>
+		<MATT>203</MATT>
+		<TENQUAN>Huyện Hà Quảng</TENQUAN>
+		<MASYT>07</MASYT>
+	</Table>
+	<Table>
+		<MAQU>20307</MAQU>
+		<MATT>203</MATT>
+		<TENQUAN>Huyện Thông Nông</TENQUAN>
+		<MASYT>07</MASYT>
+	</Table>
+	<Table>
+		<MAQU>20309</MAQU>
+		<MATT>203</MATT>
+		<TENQUAN>Huyện Trà Lĩnh</TENQUAN>
+		<MASYT>07</MASYT>
+	</Table>
+	<Table>
+		<MAQU>20311</MAQU>
+		<MATT>203</MATT>
+		<TENQUAN>Huyện Trùng Khánh</TENQUAN>
+		<MASYT>07</MASYT>
+	</Table>
+	<Table>
+		<MAQU>20313</MAQU>
+		<MATT>203</MATT>
+		<TENQUAN>Huyện Nguyên Bình</TENQUAN>
+		<MASYT>07</MASYT>
+	</Table>
+	<Table>
+		<MAQU>20315</MAQU>
+		<MATT>203</MATT>
+		<TENQUAN>Huyện Hoà An</TENQUAN>
+		<MASYT>07</MASYT>
+	</Table>
+	<Table>
+		<MAQU>20317</MAQU>
+		<MATT>203</MATT>
+		<TENQUAN>Huyện Quảng Hoà</TENQUAN>
+		<MASYT>07</MASYT>
+	</Table>
+	<Table>
+		<MAQU>20319</MAQU>
+		<MATT>203</MATT>
+		<TENQUAN>Huyện Hạ Lang</TENQUAN>
+		<MASYT>07</MASYT>
+	</Table>
+	<Table>
+		<MAQU>20321</MAQU>
+		<MATT>203</MATT>
+		<TENQUAN>Huyện Thạch An</TENQUAN>
+		<MASYT>07</MASYT>
+	</Table>
+	<Table>
+		<MAQU>20500</MAQU>
+		<MATT>205</MATT>
+		<TENQUAN>Không xác định</TENQUAN>
+		<MASYT>10</MASYT>
+	</Table>
+	<Table>
+		<MAQU>20501</MAQU>
+		<MATT>205</MATT>
+		<TENQUAN>Thị xã Lào Cai</TENQUAN>
+		<MASYT>10</MASYT>
+	</Table>
+	<Table>
+		<MAQU>20503</MAQU>
+		<MATT>205</MATT>
+		<TENQUAN>Thị xã Cam Đường</TENQUAN>
+		<MASYT>10</MASYT>
+	</Table>
+	<Table>
+		<MAQU>20505</MAQU>
+		<MATT>205</MATT>
+		<TENQUAN>Huyện Mường Khương</TENQUAN>
+		<MASYT>10</MASYT>
+	</Table>
+	<Table>
+		<MAQU>20507</MAQU>
+		<MATT>205</MATT>
+		<TENQUAN>Huyện Bát Xát</TENQUAN>
+		<MASYT>10</MASYT>
+	</Table>
+	<Table>
+		<MAQU>20509</MAQU>
+		<MATT>205</MATT>
+		<TENQUAN>Huyện Bắc Hà</TENQUAN>
+		<MASYT>10</MASYT>
+	</Table>
+	<Table>
+		<MAQU>20511</MAQU>
+		<MATT>205</MATT>
+		<TENQUAN>Huyện Bảo Thắng</TENQUAN>
+		<MASYT>10</MASYT>
+	</Table>
+	<Table>
+		<MAQU>20513</MAQU>
+		<MATT>205</MATT>
+		<TENQUAN>Huyện Sa Pa</TENQUAN>
+		<MASYT>10</MASYT>
+	</Table>
+	<Table>
+		<MAQU>20515</MAQU>
+		<MATT>205</MATT>
+		<TENQUAN>Huyện Bảo Yên</TENQUAN>
+		<MASYT>10</MASYT>
+	</Table>
+	<Table>
+		<MAQU>20517</MAQU>
+		<MATT>205</MATT>
+		<TENQUAN>Huyện Than Uyên</TENQUAN>
+		<MASYT>10</MASYT>
+	</Table>
+	<Table>
+		<MAQU>20519</MAQU>
+		<MATT>205</MATT>
+		<TENQUAN>Huyện Văn Bàn</TENQUAN>
+		<MASYT>10</MASYT>
+	</Table>
+	<Table>
+		<MAQU>20700</MAQU>
+		<MATT>207</MATT>
+		<TENQUAN>Không xác định</TENQUAN>
+		<MASYT>12</MASYT>
+	</Table>
+	<Table>
+		<MAQU>20701</MAQU>
+		<MATT>207</MATT>
+		<TENQUAN>Thị xã Bắc Kạn</TENQUAN>
+		<MASYT>12</MASYT>
+	</Table>
+	<Table>
+		<MAQU>20703</MAQU>
+		<MATT>207</MATT>
+		<TENQUAN>Huyện Ba Bể</TENQUAN>
+		<MASYT>12</MASYT>
+	</Table>
+	<Table>
+		<MAQU>20705</MAQU>
+		<MATT>207</MATT>
+		<TENQUAN>Huyện Ngân Sơn</TENQUAN>
+		<MASYT>12</MASYT>
+	</Table>
+	<Table>
+		<MAQU>20707</MAQU>
+		<MATT>207</MATT>
+		<TENQUAN>Huyện Chợ Đồn</TENQUAN>
+		<MASYT>12</MASYT>
+	</Table>
+	<Table>
+		<MAQU>20709</MAQU>
+		<MATT>207</MATT>
+		<TENQUAN>Huyện Na Rì</TENQUAN>
+		<MASYT>12</MASYT>
+	</Table>
+	<Table>
+		<MAQU>20711</MAQU>
+		<MATT>207</MATT>
+		<TENQUAN>Huyện Bạch Thông</TENQUAN>
+		<MASYT>12</MASYT>
+	</Table>
+	<Table>
+		<MAQU>20713</MAQU>
+		<MATT>207</MATT>
+		<TENQUAN>Huyện Chợ Mới</TENQUAN>
+		<MASYT>12</MASYT>
+	</Table>
+	<Table>
+		<MAQU>20900</MAQU>
+		<MATT>209</MATT>
+		<TENQUAN>Không xác định</TENQUAN>
+		<MASYT>08</MASYT>
+	</Table>
+	<Table>
+		<MAQU>20901</MAQU>
+		<MATT>209</MATT>
+		<TENQUAN>Thị xã Lạng Sơn</TENQUAN>
+		<MASYT>08</MASYT>
+	</Table>
+	<Table>
+		<MAQU>20903</MAQU>
+		<MATT>209</MATT>
+		<TENQUAN>Huyện Tràng Định</TENQUAN>
+		<MASYT>08</MASYT>
+	</Table>
+	<Table>
+		<MAQU>20905</MAQU>
+		<MATT>209</MATT>
+		<TENQUAN>Huyện Văn Lãng</TENQUAN>
+		<MASYT>08</MASYT>
+	</Table>
+	<Table>
+		<MAQU>20907</MAQU>
+		<MATT>209</MATT>
+		<TENQUAN>Huyện Bình Gia</TENQUAN>
+		<MASYT>08</MASYT>
+	</Table>
+	<Table>
+		<MAQU>20909</MAQU>
+		<MATT>209</MATT>
+		<TENQUAN>Huyện Bắc Sơn</TENQUAN>
+		<MASYT>08</MASYT>
+	</Table>
+	<Table>
+		<MAQU>20911</MAQU>
+		<MATT>209</MATT>
+		<TENQUAN>Huyện Văn Quan</TENQUAN>
+		<MASYT>08</MASYT>
+	</Table>
+	<Table>
+		<MAQU>20913</MAQU>
+		<MATT>209</MATT>
+		<TENQUAN>Huyện Cao Lộc</TENQUAN>
+		<MASYT>08</MASYT>
+	</Table>
+	<Table>
+		<MAQU>20915</MAQU>
+		<MATT>209</MATT>
+		<TENQUAN>Huyện Lộc Bình</TENQUAN>
+		<MASYT>08</MASYT>
+	</Table>
+	<Table>
+		<MAQU>20917</MAQU>
+		<MATT>209</MATT>
+		<TENQUAN>Huyện Chi Lăng</TENQUAN>
+		<MASYT>08</MASYT>
+	</Table>
+	<Table>
+		<MAQU>20919</MAQU>
+		<MATT>209</MATT>
+		<TENQUAN>Huyện Đình Lập</TENQUAN>
+		<MASYT>08</MASYT>
+	</Table>
+	<Table>
+		<MAQU>20921</MAQU>
+		<MATT>209</MATT>
+		<TENQUAN>Huyện Hữu Lũng</TENQUAN>
+		<MASYT>08</MASYT>
+	</Table>
+	<Table>
+		<MAQU>21100</MAQU>
+		<MATT>211</MATT>
+		<TENQUAN>Không xác định</TENQUAN>
+		<MASYT>06</MASYT>
+	</Table>
+	<Table>
+		<MAQU>21101</MAQU>
+		<MATT>211</MATT>
+		<TENQUAN>Thị xã Tuyên Quang</TENQUAN>
+		<MASYT>06</MASYT>
+	</Table>
+	<Table>
+		<MAQU>21103</MAQU>
+		<MATT>211</MATT>
+		<TENQUAN>Huyện Nà Hang</TENQUAN>
+		<MASYT>06</MASYT>
+	</Table>
+	<Table>
+		<MAQU>21105</MAQU>
+		<MATT>211</MATT>
+		<TENQUAN>Huyện Chiêm Hóa</TENQUAN>
+		<MASYT>06</MASYT>
+	</Table>
+	<Table>
+		<MAQU>21107</MAQU>
+		<MATT>211</MATT>
+		<TENQUAN>Huyện Hàm Yên</TENQUAN>
+		<MASYT>06</MASYT>
+	</Table>
+	<Table>
+		<MAQU>21109</MAQU>
+		<MATT>211</MATT>
+		<TENQUAN>Huyện Yên Sơn</TENQUAN>
+		<MASYT>06</MASYT>
+	</Table>
+	<Table>
+		<MAQU>21111</MAQU>
+		<MATT>211</MATT>
+		<TENQUAN>Huyện Sơn Dương</TENQUAN>
+		<MASYT>06</MASYT>
+	</Table>
+	<Table>
+		<MAQU>21300</MAQU>
+		<MATT>213</MATT>
+		<TENQUAN>Không xác định</TENQUAN>
+		<MASYT>11</MASYT>
+	</Table>
+	<Table>
+		<MAQU>21301</MAQU>
+		<MATT>213</MATT>
+		<TENQUAN>Thị xã Yên Bái</TENQUAN>
+		<MASYT>11</MASYT>
+	</Table>
+	<Table>
+		<MAQU>21303</MAQU>
+		<MATT>213</MATT>
+		<TENQUAN>Thị xã Nghĩa Lộ</TENQUAN>
+		<MASYT>11</MASYT>
+	</Table>
+	<Table>
+		<MAQU>21305</MAQU>
+		<MATT>213</MATT>
+		<TENQUAN>Huyện Lục Yên</TENQUAN>
+		<MASYT>11</MASYT>
+	</Table>
+	<Table>
+		<MAQU>21307</MAQU>
+		<MATT>213</MATT>
+		<TENQUAN>Huyện Văn Yên</TENQUAN>
+		<MASYT>11</MASYT>
+	</Table>
+	<Table>
+		<MAQU>21309</MAQU>
+		<MATT>213</MATT>
+		<TENQUAN>Huyện Mù Căng Chải</TENQUAN>
+		<MASYT>11</MASYT>
+	</Table>
+	<Table>
+		<MAQU>21311</MAQU>
+		<MATT>213</MATT>
+		<TENQUAN>Huyện Trấn Yên</TENQUAN>
+		<MASYT>11</MASYT>
+	</Table>
+	<Table>
+		<MAQU>21313</MAQU>
+		<MATT>213</MATT>
+		<TENQUAN>Huyện Yên Bình</TENQUAN>
+		<MASYT>11</MASYT>
+	</Table>
+	<Table>
+		<MAQU>21315</MAQU>
+		<MATT>213</MATT>
+		<TENQUAN>Huyện Văn Chấn</TENQUAN>
+		<MASYT>11</MASYT>
+	</Table>
+	<Table>
+		<MAQU>21317</MAQU>
+		<MATT>213</MATT>
+		<TENQUAN>Huyện Trạm Tấu</TENQUAN>
+		<MASYT>11</MASYT>
+	</Table>
+	<Table>
+		<MAQU>21500</MAQU>
+		<MATT>215</MATT>
+		<TENQUAN>Không xác định</TENQUAN>
+		<MASYT>13</MASYT>
+	</Table>
+	<Table>
+		<MAQU>21501</MAQU>
+		<MATT>215</MATT>
+		<TENQUAN>Thành phố Thái Nguyên</TENQUAN>
+		<MASYT>13</MASYT>
+	</Table>
+	<Table>
+		<MAQU>21503</MAQU>
+		<MATT>215</MATT>
+		<TENQUAN>Thị xã Sông Công</TENQUAN>
+		<MASYT>13</MASYT>
+	</Table>
+	<Table>
+		<MAQU>21505</MAQU>
+		<MATT>215</MATT>
+		<TENQUAN>Huyện Định Hóa</TENQUAN>
+		<MASYT>13</MASYT>
+	</Table>
+	<Table>
+		<MAQU>21507</MAQU>
+		<MATT>215</MATT>
+		<TENQUAN>Huyện Võ Nhai</TENQUAN>
+		<MASYT>13</MASYT>
+	</Table>
+	<Table>
+		<MAQU>21509</MAQU>
+		<MATT>215</MATT>
+		<TENQUAN>Huyện Phú Lương</TENQUAN>
+		<MASYT>13</MASYT>
+	</Table>
+	<Table>
+		<MAQU>21511</MAQU>
+		<MATT>215</MATT>
+		<TENQUAN>Huyện Đồng Hỷ</TENQUAN>
+		<MASYT>13</MASYT>
+	</Table>
+	<Table>
+		<MAQU>21513</MAQU>
+		<MATT>215</MATT>
+		<TENQUAN>Huyện Đại Từ</TENQUAN>
+		<MASYT>13</MASYT>
+	</Table>
+	<Table>
+		<MAQU>21515</MAQU>
+		<MATT>215</MATT>
+		<TENQUAN>Huyện Phú Bình</TENQUAN>
+		<MASYT>13</MASYT>
+	</Table>
+	<Table>
+		<MAQU>21517</MAQU>
+		<MATT>215</MATT>
+		<TENQUAN>Huyện Phổ Yên</TENQUAN>
+		<MASYT>13</MASYT>
+	</Table>
+	<Table>
+		<MAQU>21700</MAQU>
+		<MATT>217</MATT>
+		<TENQUAN>Không xác định</TENQUAN>
+		<MASYT>15</MASYT>
+	</Table>
+	<Table>
+		<MAQU>21701</MAQU>
+		<MATT>217</MATT>
+		<TENQUAN>Thành phố Việt Trì</TENQUAN>
+		<MASYT>15</MASYT>
+	</Table>
+	<Table>
+		<MAQU>21703</MAQU>
+		<MATT>217</MATT>
+		<TENQUAN>Thị xã Phú Thọ</TENQUAN>
+		<MASYT>15</MASYT>
+	</Table>
+	<Table>
+		<MAQU>21705</MAQU>
+		<MATT>217</MATT>
+		<TENQUAN>Huyện Đoan Hùng</TENQUAN>
+		<MASYT>15</MASYT>
+	</Table>
+	<Table>
+		<MAQU>21707</MAQU>
+		<MATT>217</MATT>
+		<TENQUAN>Huyện Hạ Hoà</TENQUAN>
+		<MASYT>15</MASYT>
+	</Table>
+	<Table>
+		<MAQU>21709</MAQU>
+		<MATT>217</MATT>
+		<TENQUAN>Huyện Thanh Ba</TENQUAN>
+		<MASYT>15</MASYT>
+	</Table>
+	<Table>
+		<MAQU>21711</MAQU>
+		<MATT>217</MATT>
+		<TENQUAN>Huyện Phong Châu</TENQUAN>
+		<MASYT>15</MASYT>
+	</Table>
+	<Table>
+		<MAQU>21712</MAQU>
+		<MATT>217</MATT>
+		<TENQUAN>Huyện Lâm Thao</TENQUAN>
+		<MASYT>15</MASYT>
+	</Table>
+	<Table>
+		<MAQU>21713</MAQU>
+		<MATT>217</MATT>
+		<TENQUAN>Huyện Sông Thao</TENQUAN>
+		<MASYT>15</MASYT>
+	</Table>
+	<Table>
+		<MAQU>21715</MAQU>
+		<MATT>217</MATT>
+		<TENQUAN>Huyện Yên Lập</TENQUAN>
+		<MASYT>15</MASYT>
+	</Table>
+	<Table>
+		<MAQU>21717</MAQU>
+		<MATT>217</MATT>
+		<TENQUAN>Huyện Tam Thanh</TENQUAN>
+		<MASYT>15</MASYT>
+	</Table>
+	<Table>
+		<MAQU>21718</MAQU>
+		<MATT>217</MATT>
+		<TENQUAN>Huyện Thanh Thuỷ</TENQUAN>
+		<MASYT>15</MASYT>
+	</Table>
+	<Table>
+		<MAQU>21719</MAQU>
+		<MATT>217</MATT>
+		<TENQUAN>Huyện Thanh Sơn</TENQUAN>
+		<MASYT>15</MASYT>
+	</Table>
+	<Table>
+		<MAQU>22100</MAQU>
+		<MATT>221</MATT>
+		<TENQUAN>Không xác định</TENQUAN>
+		<MASYT>17</MASYT>
+	</Table>
+	<Table>
+		<MAQU>22101</MAQU>
+		<MATT>221</MATT>
+		<TENQUAN>Thị xã Bắc Giang</TENQUAN>
+		<MASYT>17</MASYT>
+	</Table>
+	<Table>
+		<MAQU>22103</MAQU>
+		<MATT>221</MATT>
+		<TENQUAN>Huyện Yên Thế</TENQUAN>
+		<MASYT>17</MASYT>
+	</Table>
+	<Table>
+		<MAQU>22105</MAQU>
+		<MATT>221</MATT>
+		<TENQUAN>Huyện Tân Yên</TENQUAN>
+		<MASYT>17</MASYT>
+	</Table>
+	<Table>
+		<MAQU>22107</MAQU>
+		<MATT>221</MATT>
+		<TENQUAN>Huyện Lục Ngạn</TENQUAN>
+		<MASYT>17</MASYT>
+	</Table>
+	<Table>
+		<MAQU>22109</MAQU>
+		<MATT>221</MATT>
+		<TENQUAN>Huyện Hiệp Hòa</TENQUAN>
+		<MASYT>17</MASYT>
+	</Table>
+	<Table>
+		<MAQU>22111</MAQU>
+		<MATT>221</MATT>
+		<TENQUAN>Huyện Lạng Giang</TENQUAN>
+		<MASYT>17</MASYT>
+	</Table>
+	<Table>
+		<MAQU>22113</MAQU>
+		<MATT>221</MATT>
+		<TENQUAN>Huyện Sơn Động</TENQUAN>
+		<MASYT>17</MASYT>
+	</Table>
+	<Table>
+		<MAQU>22115</MAQU>
+		<MATT>221</MATT>
+		<TENQUAN>Huyện Lục Nam</TENQUAN>
+		<MASYT>17</MASYT>
+	</Table>
+	<Table>
+		<MAQU>22117</MAQU>
+		<MATT>221</MATT>
+		<TENQUAN>Huyện Việt Yên</TENQUAN>
+		<MASYT>17</MASYT>
+	</Table>
+	<Table>
+		<MAQU>22119</MAQU>
+		<MATT>221</MATT>
+		<TENQUAN>Huyện Yên Dũng</TENQUAN>
+		<MASYT>17</MASYT>
+	</Table>
+	<Table>
+		<MAQU>22500</MAQU>
+		<MATT>225</MATT>
+		<TENQUAN>Không xác định</TENQUAN>
+		<MASYT>19</MASYT>
+	</Table>
+	<Table>
+		<MAQU>22501</MAQU>
+		<MATT>225</MATT>
+		<TENQUAN>Thành phố Hạ Long</TENQUAN>
+		<MASYT>19</MASYT>
+	</Table>
+	<Table>
+		<MAQU>22503</MAQU>
+		<MATT>225</MATT>
+		<TENQUAN>Thị xã Cẩm Phả</TENQUAN>
+		<MASYT>19</MASYT>
+	</Table>
+	<Table>
+		<MAQU>22505</MAQU>
+		<MATT>225</MATT>
+		<TENQUAN>Thị xã Uông Bí</TENQUAN>
+		<MASYT>19</MASYT>
+	</Table>
+	<Table>
+		<MAQU>22507</MAQU>
+		<MATT>225</MATT>
+		<TENQUAN>Huyện Bình Liêu</TENQUAN>
+		<MASYT>19</MASYT>
+	</Table>
+	<Table>
+		<MAQU>22509</MAQU>
+		<MATT>225</MATT>
+		<TENQUAN>Thị Xã Móng Cái</TENQUAN>
+		<MASYT>19</MASYT>
+	</Table>
+	<Table>
+		<MAQU>22511</MAQU>
+		<MATT>225</MATT>
+		<TENQUAN>Huyện Quảng Hà</TENQUAN>
+		<MASYT>19</MASYT>
+	</Table>
+	<Table>
+		<MAQU>22513</MAQU>
+		<MATT>225</MATT>
+		<TENQUAN>Huyện Tiên Yên</TENQUAN>
+		<MASYT>19</MASYT>
+	</Table>
+	<Table>
+		<MAQU>22515</MAQU>
+		<MATT>225</MATT>
+		<TENQUAN>Huyện Ba Chẽ</TENQUAN>
+		<MASYT>19</MASYT>
+	</Table>
+	<Table>
+		<MAQU>22517</MAQU>
+		<MATT>225</MATT>
+		<TENQUAN>Huyện Vân Đồn</TENQUAN>
+		<MASYT>19</MASYT>
+	</Table>
+	<Table>
+		<MAQU>22519</MAQU>
+		<MATT>225</MATT>
+		<TENQUAN>Huyện Hoành Bồ</TENQUAN>
+		<MASYT>19</MASYT>
+	</Table>
+	<Table>
+		<MAQU>22521</MAQU>
+		<MATT>225</MATT>
+		<TENQUAN>Huyện Đông Triều</TENQUAN>
+		<MASYT>19</MASYT>
+	</Table>
+	<Table>
+		<MAQU>22523</MAQU>
+		<MATT>225</MATT>
+		<TENQUAN>Huyện Cô Tô</TENQUAN>
+		<MASYT>19</MASYT>
+	</Table>
+	<Table>
+		<MAQU>22525</MAQU>
+		<MATT>225</MATT>
+		<TENQUAN>Huyện Yên Hưng</TENQUAN>
+		<MASYT>19</MASYT>
+	</Table>
+	<Table>
+		<MAQU>30100</MAQU>
+		<MATT>301</MATT>
+		<TENQUAN>Không xác định</TENQUAN>
+		<MASYT>09</MASYT>
+	</Table>
+	<Table>
+		<MAQU>30101</MAQU>
+		<MATT>301</MATT>
+		<TENQUAN>Thị xã Điện Biên Phủ</TENQUAN>
+		<MASYT>09</MASYT>
+	</Table>
+	<Table>
+		<MAQU>30103</MAQU>
+		<MATT>301</MATT>
+		<TENQUAN>Thị xã Lai Châu</TENQUAN>
+		<MASYT>09</MASYT>
+	</Table>
+	<Table>
+		<MAQU>30105</MAQU>
+		<MATT>301</MATT>
+		<TENQUAN>Huyện Mường Tè</TENQUAN>
+		<MASYT>09</MASYT>
+	</Table>
+	<Table>
+		<MAQU>30107</MAQU>
+		<MATT>301</MATT>
+		<TENQUAN>Huyện Phong Thổ</TENQUAN>
+		<MASYT>09</MASYT>
+	</Table>
+	<Table>
+		<MAQU>30109</MAQU>
+		<MATT>301</MATT>
+		<TENQUAN>Huyện Sìn Hồ</TENQUAN>
+		<MASYT>09</MASYT>
+	</Table>
+	<Table>
+		<MAQU>30111</MAQU>
+		<MATT>301</MATT>
+		<TENQUAN>Huyện Mường Lay</TENQUAN>
+		<MASYT>09</MASYT>
+	</Table>
+	<Table>
+		<MAQU>30113</MAQU>
+		<MATT>301</MATT>
+		<TENQUAN>Huyện Tủa Chùa</TENQUAN>
+		<MASYT>09</MASYT>
+	</Table>
+	<Table>
+		<MAQU>30115</MAQU>
+		<MATT>301</MATT>
+		<TENQUAN>Huyện Tuần Giáo</TENQUAN>
+		<MASYT>09</MASYT>
+	</Table>
+	<Table>
+		<MAQU>30117</MAQU>
+		<MATT>301</MATT>
+		<TENQUAN>Huyện Điện Biên</TENQUAN>
+		<MASYT>09</MASYT>
+	</Table>
+	<Table>
+		<MAQU>30119</MAQU>
+		<MATT>301</MATT>
+		<TENQUAN>Huyện Điện Biên Đông</TENQUAN>
+		<MASYT>09</MASYT>
+	</Table>
+	<Table>
+		<MAQU>30300</MAQU>
+		<MATT>303</MATT>
+		<TENQUAN>Không xác định</TENQUAN>
+		<MASYT>14</MASYT>
+	</Table>
+	<Table>
+		<MAQU>30301</MAQU>
+		<MATT>303</MATT>
+		<TENQUAN>Thị xã Sơn La</TENQUAN>
+		<MASYT>14</MASYT>
+	</Table>
+	<Table>
+		<MAQU>30303</MAQU>
+		<MATT>303</MATT>
+		<TENQUAN>Huyện Quỳnh Nhai</TENQUAN>
+		<MASYT>14</MASYT>
+	</Table>
+	<Table>
+		<MAQU>30305</MAQU>
+		<MATT>303</MATT>
+		<TENQUAN>Huyện Mường La</TENQUAN>
+		<MASYT>14</MASYT>
+	</Table>
+	<Table>
+		<MAQU>30307</MAQU>
+		<MATT>303</MATT>
+		<TENQUAN>Huyện Thuận Châu</TENQUAN>
+		<MASYT>14</MASYT>
+	</Table>
+	<Table>
+		<MAQU>30309</MAQU>
+		<MATT>303</MATT>
+		<TENQUAN>Huyện Bắc Yên</TENQUAN>
+		<MASYT>14</MASYT>
+	</Table>
+	<Table>
+		<MAQU>30311</MAQU>
+		<MATT>303</MATT>
+		<TENQUAN>Huyện Phù Yên</TENQUAN>
+		<MASYT>14</MASYT>
+	</Table>
+	<Table>
+		<MAQU>30313</MAQU>
+		<MATT>303</MATT>
+		<TENQUAN>Huyện Mai Sơn</TENQUAN>
+		<MASYT>14</MASYT>
+	</Table>
+	<Table>
+		<MAQU>30315</MAQU>
+		<MATT>303</MATT>
+		<TENQUAN>Huyện Sông Mã</TENQUAN>
+		<MASYT>14</MASYT>
+	</Table>
+	<Table>
+		<MAQU>30317</MAQU>
+		<MATT>303</MATT>
+		<TENQUAN>Huyện Yên Châu</TENQUAN>
+		<MASYT>14</MASYT>
+	</Table>
+	<Table>
+		<MAQU>30319</MAQU>
+		<MATT>303</MATT>
+		<TENQUAN>Huyện Mộc Châu</TENQUAN>
+		<MASYT>14</MASYT>
+	</Table>
+	<Table>
+		<MAQU>30500</MAQU>
+		<MATT>305</MATT>
+		<TENQUAN>Không xác định</TENQUAN>
+		<MASYT>21</MASYT>
+	</Table>
+	<Table>
+		<MAQU>30501</MAQU>
+		<MATT>305</MATT>
+		<TENQUAN>Thị xã Hòa Bình</TENQUAN>
+		<MASYT>21</MASYT>
+	</Table>
+	<Table>
+		<MAQU>30503</MAQU>
+		<MATT>305</MATT>
+		<TENQUAN>Huyện Đà Bắc</TENQUAN>
+		<MASYT>21</MASYT>
+	</Table>
+	<Table>
+		<MAQU>30505</MAQU>
+		<MATT>305</MATT>
+		<TENQUAN>Huyện Mai Châu</TENQUAN>
+		<MASYT>21</MASYT>
+	</Table>
+	<Table>
+		<MAQU>30507</MAQU>
+		<MATT>305</MATT>
+		<TENQUAN>Huyện Kỳ Sơn</TENQUAN>
+		<MASYT>21</MASYT>
+	</Table>
+	<Table>
+		<MAQU>30509</MAQU>
+		<MATT>305</MATT>
+		<TENQUAN>Huyện Lương Sơn</TENQUAN>
+		<MASYT>21</MASYT>
+	</Table>
+	<Table>
+		<MAQU>30511</MAQU>
+		<MATT>305</MATT>
+		<TENQUAN>Huyện Kim Bôi</TENQUAN>
+		<MASYT>21</MASYT>
+	</Table>
+	<Table>
+		<MAQU>30513</MAQU>
+		<MATT>305</MATT>
+		<TENQUAN>Huyện Tân Lạc</TENQUAN>
+		<MASYT>21</MASYT>
+	</Table>
+	<Table>
+		<MAQU>30515</MAQU>
+		<MATT>305</MATT>
+		<TENQUAN>Huyện Lạc Sơn</TENQUAN>
+		<MASYT>21</MASYT>
+	</Table>
+	<Table>
+		<MAQU>30517</MAQU>
+		<MATT>305</MATT>
+		<TENQUAN>Huyện Lạc Thủy</TENQUAN>
+		<MASYT>21</MASYT>
+	</Table>
+	<Table>
+		<MAQU>30519</MAQU>
+		<MATT>305</MATT>
+		<TENQUAN>Huyện Yên Thủy</TENQUAN>
+		<MASYT>21</MASYT>
+	</Table>
+	<Table>
+		<MAQU>40100</MAQU>
+		<MATT>401</MATT>
+		<TENQUAN>Không xác định</TENQUAN>
+		<MASYT>28</MASYT>
+	</Table>
+	<Table>
+		<MAQU>40101</MAQU>
+		<MATT>401</MATT>
+		<TENQUAN>Thành phố Thanh Hóa</TENQUAN>
+		<MASYT>28</MASYT>
+	</Table>
+	<Table>
+		<MAQU>40103</MAQU>
+		<MATT>401</MATT>
+		<TENQUAN>Thị xã Bỉm Sơn</TENQUAN>
+		<MASYT>28</MASYT>
+	</Table>
+	<Table>
+		<MAQU>40105</MAQU>
+		<MATT>401</MATT>
+		<TENQUAN>Thị xã Sầm Sơn</TENQUAN>
+		<MASYT>28</MASYT>
+	</Table>
+	<Table>
+		<MAQU>40107</MAQU>
+		<MATT>401</MATT>
+		<TENQUAN>Huyện Mường Lát</TENQUAN>
+		<MASYT>28</MASYT>
+	</Table>
+	<Table>
+		<MAQU>40109</MAQU>
+		<MATT>401</MATT>
+		<TENQUAN>Huyện Quan Hóa</TENQUAN>
+		<MASYT>28</MASYT>
+	</Table>
+	<Table>
+		<MAQU>40111</MAQU>
+		<MATT>401</MATT>
+		<TENQUAN>Huyện Quan Sơn</TENQUAN>
+		<MASYT>28</MASYT>
+	</Table>
+	<Table>
+		<MAQU>40113</MAQU>
+		<MATT>401</MATT>
+		<TENQUAN>Huyện Bá Thước</TENQUAN>
+		<MASYT>28</MASYT>
+	</Table>
+	<Table>
+		<MAQU>40115</MAQU>
+		<MATT>401</MATT>
+		<TENQUAN>Huyện Cẩm Thủy</TENQUAN>
+		<MASYT>28</MASYT>
+	</Table>
+	<Table>
+		<MAQU>40117</MAQU>
+		<MATT>401</MATT>
+		<TENQUAN>Huyện Lang Chánh</TENQUAN>
+		<MASYT>28</MASYT>
+	</Table>
+	<Table>
+		<MAQU>40119</MAQU>
+		<MATT>401</MATT>
+		<TENQUAN>Huyện Thạch Thành</TENQUAN>
+		<MASYT>28</MASYT>
+	</Table>
+	<Table>
+		<MAQU>40121</MAQU>
+		<MATT>401</MATT>
+		<TENQUAN>Huyện Ngọc Lạc</TENQUAN>
+		<MASYT>28</MASYT>
+	</Table>
+	<Table>
+		<MAQU>40123</MAQU>
+		<MATT>401</MATT>
+		<TENQUAN>Huyện Thường Xuân</TENQUAN>
+		<MASYT>28</MASYT>
+	</Table>
+	<Table>
+		<MAQU>40125</MAQU>
+		<MATT>401</MATT>
+		<TENQUAN>Huyện Như Xuân</TENQUAN>
+		<MASYT>28</MASYT>
+	</Table>
+	<Table>
+		<MAQU>40127</MAQU>
+		<MATT>401</MATT>
+		<TENQUAN>Huyện Như Thanh</TENQUAN>
+		<MASYT>28</MASYT>
+	</Table>
+	<Table>
+		<MAQU>40129</MAQU>
+		<MATT>401</MATT>
+		<TENQUAN>Huyện Vĩnh Lộc</TENQUAN>
+		<MASYT>28</MASYT>
+	</Table>
+	<Table>
+		<MAQU>40131</MAQU>
+		<MATT>401</MATT>
+		<TENQUAN>Huyện Hà Trung</TENQUAN>
+		<MASYT>28</MASYT>
+	</Table>
+	<Table>
+		<MAQU>40133</MAQU>
+		<MATT>401</MATT>
+		<TENQUAN>Huyện Nga Sơn</TENQUAN>
+		<MASYT>28</MASYT>
+	</Table>
+	<Table>
+		<MAQU>40135</MAQU>
+		<MATT>401</MATT>
+		<TENQUAN>Huyện Yên Định</TENQUAN>
+		<MASYT>28</MASYT>
+	</Table>
+	<Table>
+		<MAQU>40137</MAQU>
+		<MATT>401</MATT>
+		<TENQUAN>Huyện Thọ Xuân</TENQUAN>
+		<MASYT>28</MASYT>
+	</Table>
+	<Table>
+		<MAQU>40139</MAQU>
+		<MATT>401</MATT>
+		<TENQUAN>Huyện Hậu Lộc</TENQUAN>
+		<MASYT>28</MASYT>
+	</Table>
+	<Table>
+		<MAQU>40141</MAQU>
+		<MATT>401</MATT>
+		<TENQUAN>Huyện Thiệu Hoá</TENQUAN>
+		<MASYT>28</MASYT>
+	</Table>
+	<Table>
+		<MAQU>40143</MAQU>
+		<MATT>401</MATT>
+		<TENQUAN>Huyện Hoằng Hóa</TENQUAN>
+		<MASYT>28</MASYT>
+	</Table>
+	<Table>
+		<MAQU>40145</MAQU>
+		<MATT>401</MATT>
+		<TENQUAN>Huyện Đông Sơn</TENQUAN>
+		<MASYT>28</MASYT>
+	</Table>
+	<Table>
+		<MAQU>40147</MAQU>
+		<MATT>401</MATT>
+		<TENQUAN>Huyện Triệu Sơn</TENQUAN>
+		<MASYT>28</MASYT>
+	</Table>
+	<Table>
+		<MAQU>40149</MAQU>
+		<MATT>401</MATT>
+		<TENQUAN>Huyện Quảng Xương</TENQUAN>
+		<MASYT>28</MASYT>
+	</Table>
+	<Table>
+		<MAQU>40151</MAQU>
+		<MATT>401</MATT>
+		<TENQUAN>Huyện Nông Cống</TENQUAN>
+		<MASYT>28</MASYT>
+	</Table>
+	<Table>
+		<MAQU>40153</MAQU>
+		<MATT>401</MATT>
+		<TENQUAN>Huyện Tĩnh Gia</TENQUAN>
+		<MASYT>28</MASYT>
+	</Table>
+	<Table>
+		<MAQU>40300</MAQU>
+		<MATT>403</MATT>
+		<TENQUAN>Không xác định</TENQUAN>
+		<MASYT>29</MASYT>
+	</Table>
+	<Table>
+		<MAQU>40301</MAQU>
+		<MATT>403</MATT>
+		<TENQUAN>Thành phố Vinh</TENQUAN>
+		<MASYT>29</MASYT>
+	</Table>
+	<Table>
+		<MAQU>40303</MAQU>
+		<MATT>403</MATT>
+		<TENQUAN>Thị xã Cửa Lò</TENQUAN>
+		<MASYT>29</MASYT>
+	</Table>
+	<Table>
+		<MAQU>40305</MAQU>
+		<MATT>403</MATT>
+		<TENQUAN>Huyện Quế Phong</TENQUAN>
+		<MASYT>29</MASYT>
+	</Table>
+	<Table>
+		<MAQU>40307</MAQU>
+		<MATT>403</MATT>
+		<TENQUAN>Huyện Quỳ Châu</TENQUAN>
+		<MASYT>29</MASYT>
+	</Table>
+	<Table>
+		<MAQU>40309</MAQU>
+		<MATT>403</MATT>
+		<TENQUAN>Huyện Kỳ Sơn</TENQUAN>
+		<MASYT>29</MASYT>
+	</Table>
+	<Table>
+		<MAQU>40311</MAQU>
+		<MATT>403</MATT>
+		<TENQUAN>Huyện Quỳ Hợp</TENQUAN>
+		<MASYT>29</MASYT>
+	</Table>
+	<Table>
+		<MAQU>40313</MAQU>
+		<MATT>403</MATT>
+		<TENQUAN>Huyện Nghĩa Đàn</TENQUAN>
+		<MASYT>29</MASYT>
+	</Table>
+	<Table>
+		<MAQU>40315</MAQU>
+		<MATT>403</MATT>
+		<TENQUAN>Huyện Tương Dương</TENQUAN>
+		<MASYT>29</MASYT>
+	</Table>
+	<Table>
+		<MAQU>40317</MAQU>
+		<MATT>403</MATT>
+		<TENQUAN>Huyện Quỳnh Lưu</TENQUAN>
+		<MASYT>29</MASYT>
+	</Table>
+	<Table>
+		<MAQU>40319</MAQU>
+		<MATT>403</MATT>
+		<TENQUAN>Huyện Tân Kỳ</TENQUAN>
+		<MASYT>29</MASYT>
+	</Table>
+	<Table>
+		<MAQU>40321</MAQU>
+		<MATT>403</MATT>
+		<TENQUAN>Huyện Con Cuông</TENQUAN>
+		<MASYT>29</MASYT>
+	</Table>
+	<Table>
+		<MAQU>40323</MAQU>
+		<MATT>403</MATT>
+		<TENQUAN>Huyện Yên Thành</TENQUAN>
+		<MASYT>29</MASYT>
+	</Table>
+	<Table>
+		<MAQU>40325</MAQU>
+		<MATT>403</MATT>
+		<TENQUAN>Huyện Diễn Châu</TENQUAN>
+		<MASYT>29</MASYT>
+	</Table>
+	<Table>
+		<MAQU>40327</MAQU>
+		<MATT>403</MATT>
+		<TENQUAN>Huyện Anh Sơn</TENQUAN>
+		<MASYT>29</MASYT>
+	</Table>
+	<Table>
+		<MAQU>40329</MAQU>
+		<MATT>403</MATT>
+		<TENQUAN>Huyện Đô Lương</TENQUAN>
+		<MASYT>29</MASYT>
+	</Table>
+	<Table>
+		<MAQU>40331</MAQU>
+		<MATT>403</MATT>
+		<TENQUAN>Huyện Thanh Chương</TENQUAN>
+		<MASYT>29</MASYT>
+	</Table>
+	<Table>
+		<MAQU>40333</MAQU>
+		<MATT>403</MATT>
+		<TENQUAN>Huyện Nghi Lộc</TENQUAN>
+		<MASYT>29</MASYT>
+	</Table>
+	<Table>
+		<MAQU>40335</MAQU>
+		<MATT>403</MATT>
+		<TENQUAN>Huyện Nam Đàn</TENQUAN>
+		<MASYT>29</MASYT>
+	</Table>
+	<Table>
+		<MAQU>40337</MAQU>
+		<MATT>403</MATT>
+		<TENQUAN>Huyện Hưng Nguyên</TENQUAN>
+		<MASYT>29</MASYT>
+	</Table>
+	<Table>
+		<MAQU>40500</MAQU>
+		<MATT>405</MATT>
+		<TENQUAN>Không xác định</TENQUAN>
+		<MASYT>30</MASYT>
+	</Table>
+	<Table>
+		<MAQU>40501</MAQU>
+		<MATT>405</MATT>
+		<TENQUAN>Thị xã Hà Tĩnh</TENQUAN>
+		<MASYT>30</MASYT>
+	</Table>
+	<Table>
+		<MAQU>40503</MAQU>
+		<MATT>405</MATT>
+		<TENQUAN>Thị xã Hồng Lĩnh</TENQUAN>
+		<MASYT>30</MASYT>
+	</Table>
+	<Table>
+		<MAQU>40505</MAQU>
+		<MATT>405</MATT>
+		<TENQUAN>Huyện Nghi Xuân</TENQUAN>
+		<MASYT>30</MASYT>
+	</Table>
+	<Table>
+		<MAQU>40507</MAQU>
+		<MATT>405</MATT>
+		<TENQUAN>Huyện Đức Thọ</TENQUAN>
+		<MASYT>30</MASYT>
+	</Table>
+	<Table>
+		<MAQU>40509</MAQU>
+		<MATT>405</MATT>
+		<TENQUAN>Huyện Hương Sơn</TENQUAN>
+		<MASYT>30</MASYT>
+	</Table>
+	<Table>
+		<MAQU>40511</MAQU>
+		<MATT>405</MATT>
+		<TENQUAN>Huyện Can Lộc</TENQUAN>
+		<MASYT>30</MASYT>
+	</Table>
+	<Table>
+		<MAQU>40513</MAQU>
+		<MATT>405</MATT>
+		<TENQUAN>Huyện Thạch Hà</TENQUAN>
+		<MASYT>30</MASYT>
+	</Table>
+	<Table>
+		<MAQU>40515</MAQU>
+		<MATT>405</MATT>
+		<TENQUAN>Huyện Cẩm Xuyên</TENQUAN>
+		<MASYT>30</MASYT>
+	</Table>
+	<Table>
+		<MAQU>40517</MAQU>
+		<MATT>405</MATT>
+		<TENQUAN>Huyện Hương Khê</TENQUAN>
+		<MASYT>30</MASYT>
+	</Table>
+	<Table>
+		<MAQU>40519</MAQU>
+		<MATT>405</MATT>
+		<TENQUAN>Huyện Kỳ Anh</TENQUAN>
+		<MASYT>30</MASYT>
+	</Table>
+	<Table>
+		<MAQU>40700</MAQU>
+		<MATT>407</MATT>
+		<TENQUAN>Không xác định</TENQUAN>
+		<MASYT>31</MASYT>
+	</Table>
+	<Table>
+		<MAQU>40701</MAQU>
+		<MATT>407</MATT>
+		<TENQUAN>Thị xã Đồng Hới</TENQUAN>
+		<MASYT>31</MASYT>
+	</Table>
+	<Table>
+		<MAQU>40703</MAQU>
+		<MATT>407</MATT>
+		<TENQUAN>Huyện Tuyên Hóa</TENQUAN>
+		<MASYT>31</MASYT>
+	</Table>
+	<Table>
+		<MAQU>40705</MAQU>
+		<MATT>407</MATT>
+		<TENQUAN>Huyện Minh Hóa</TENQUAN>
+		<MASYT>31</MASYT>
+	</Table>
+	<Table>
+		<MAQU>40707</MAQU>
+		<MATT>407</MATT>
+		<TENQUAN>Huyện Quảng Trạch</TENQUAN>
+		<MASYT>31</MASYT>
+	</Table>
+	<Table>
+		<MAQU>40709</MAQU>
+		<MATT>407</MATT>
+		<TENQUAN>Huyện Bố Trạch</TENQUAN>
+		<MASYT>31</MASYT>
+	</Table>
+	<Table>
+		<MAQU>40711</MAQU>
+		<MATT>407</MATT>
+		<TENQUAN>Huyện Quảng Ninh</TENQUAN>
+		<MASYT>31</MASYT>
+	</Table>
+	<Table>
+		<MAQU>40713</MAQU>
+		<MATT>407</MATT>
+		<TENQUAN>Huyện Lệ Thủy</TENQUAN>
+		<MASYT>31</MASYT>
+	</Table>
+	<Table>
+		<MAQU>40900</MAQU>
+		<MATT>409</MATT>
+		<TENQUAN>Không xác định</TENQUAN>
+		<MASYT>32</MASYT>
+	</Table>
+	<Table>
+		<MAQU>40901</MAQU>
+		<MATT>409</MATT>
+		<TENQUAN>Thị xã Đông Hà</TENQUAN>
+		<MASYT>32</MASYT>
+	</Table>
+	<Table>
+		<MAQU>40903</MAQU>
+		<MATT>409</MATT>
+		<TENQUAN>Thị xã Quảng Trị</TENQUAN>
+		<MASYT>32</MASYT>
+	</Table>
+	<Table>
+		<MAQU>40905</MAQU>
+		<MATT>409</MATT>
+		<TENQUAN>Huyện Vĩnh Linh</TENQUAN>
+		<MASYT>32</MASYT>
+	</Table>
+	<Table>
+		<MAQU>40907</MAQU>
+		<MATT>409</MATT>
+		<TENQUAN>Huyện Gio Linh</TENQUAN>
+		<MASYT>32</MASYT>
+	</Table>
+	<Table>
+		<MAQU>40909</MAQU>
+		<MATT>409</MATT>
+		<TENQUAN>Huyện Cam Lộ</TENQUAN>
+		<MASYT>32</MASYT>
+	</Table>
+	<Table>
+		<MAQU>40911</MAQU>
+		<MATT>409</MATT>
+		<TENQUAN>Huyện Triệu Phong</TENQUAN>
+		<MASYT>32</MASYT>
+	</Table>
+	<Table>
+		<MAQU>40913</MAQU>
+		<MATT>409</MATT>
+		<TENQUAN>Huyện Hải Lăng</TENQUAN>
+		<MASYT>32</MASYT>
+	</Table>
+	<Table>
+		<MAQU>40915</MAQU>
+		<MATT>409</MATT>
+		<TENQUAN>Huyện Hướng Hóa</TENQUAN>
+		<MASYT>32</MASYT>
+	</Table>
+	<Table>
+		<MAQU>40917</MAQU>
+		<MATT>409</MATT>
+		<TENQUAN>Huyện Đa Krông</TENQUAN>
+		<MASYT>32</MASYT>
+	</Table>
+	<Table>
+		<MAQU>41100</MAQU>
+		<MATT>411</MATT>
+		<TENQUAN>Không xác định</TENQUAN>
+		<MASYT>33</MASYT>
+	</Table>
+	<Table>
+		<MAQU>41101</MAQU>
+		<MATT>411</MATT>
+		<TENQUAN>Thành phố Huế</TENQUAN>
+		<MASYT>33</MASYT>
+	</Table>
+	<Table>
+		<MAQU>41103</MAQU>
+		<MATT>411</MATT>
+		<TENQUAN>Huyện Phong Điền</TENQUAN>
+		<MASYT>33</MASYT>
+	</Table>
+	<Table>
+		<MAQU>41105</MAQU>
+		<MATT>411</MATT>
+		<TENQUAN>Huyện Quảng Điền</TENQUAN>
+		<MASYT>33</MASYT>
+	</Table>
+	<Table>
+		<MAQU>41107</MAQU>
+		<MATT>411</MATT>
+		<TENQUAN>Huyện Hương Trà</TENQUAN>
+		<MASYT>33</MASYT>
+	</Table>
+	<Table>
+		<MAQU>41109</MAQU>
+		<MATT>411</MATT>
+		<TENQUAN>Huyện Phú Vang</TENQUAN>
+		<MASYT>33</MASYT>
+	</Table>
+	<Table>
+		<MAQU>41111</MAQU>
+		<MATT>411</MATT>
+		<TENQUAN>Huyện Hương Thủy</TENQUAN>
+		<MASYT>33</MASYT>
+	</Table>
+	<Table>
+		<MAQU>41113</MAQU>
+		<MATT>411</MATT>
+		<TENQUAN>Huyện Phú Lộc</TENQUAN>
+		<MASYT>33</MASYT>
+	</Table>
+	<Table>
+		<MAQU>41115</MAQU>
+		<MATT>411</MATT>
+		<TENQUAN>Huyện A Lưới</TENQUAN>
+		<MASYT>33</MASYT>
+	</Table>
+	<Table>
+		<MAQU>41117</MAQU>
+		<MATT>411</MATT>
+		<TENQUAN>Huyện Nam Đông</TENQUAN>
+		<MASYT>33</MASYT>
+	</Table>
+	<Table>
+		<MAQU>50100</MAQU>
+		<MATT>501</MATT>
+		<TENQUAN>Không xác định</TENQUAN>
+		<MASYT>04</MASYT>
+	</Table>
+	<Table>
+		<MAQU>50101</MAQU>
+		<MATT>501</MATT>
+		<TENQUAN>Quận Hải Châu</TENQUAN>
+		<MASYT>04</MASYT>
+	</Table>
+	<Table>
+		<MAQU>50103</MAQU>
+		<MATT>501</MATT>
+		<TENQUAN>Quận Thanh Khê</TENQUAN>
+		<MASYT>04</MASYT>
+	</Table>
+	<Table>
+		<MAQU>50105</MAQU>
+		<MATT>501</MATT>
+		<TENQUAN>Quận Sơn Trà</TENQUAN>
+		<MASYT>04</MASYT>
+	</Table>
+	<Table>
+		<MAQU>50107</MAQU>
+		<MATT>501</MATT>
+		<TENQUAN>Quận Ngũ Hành Sơn</TENQUAN>
+		<MASYT>04</MASYT>
+	</Table>
+	<Table>
+		<MAQU>50109</MAQU>
+		<MATT>501</MATT>
+		<TENQUAN>Quận Liên Chiểu</TENQUAN>
+		<MASYT>04</MASYT>
+	</Table>
+	<Table>
+		<MAQU>50111</MAQU>
+		<MATT>501</MATT>
+		<TENQUAN>Huyện Hoà Vang</TENQUAN>
+		<MASYT>04</MASYT>
+	</Table>
+	<Table>
+		<MAQU>50113</MAQU>
+		<MATT>501</MATT>
+		<TENQUAN>Huyện Đảo Hoàng Sa</TENQUAN>
+		<MASYT>04</MASYT>
+	</Table>
+	<Table>
+		<MAQU>50300</MAQU>
+		<MATT>503</MATT>
+		<TENQUAN>Không xác định</TENQUAN>
+		<MASYT>34</MASYT>
+	</Table>
+	<Table>
+		<MAQU>50301</MAQU>
+		<MATT>503</MATT>
+		<TENQUAN>Thị xã Tam Kỳ</TENQUAN>
+		<MASYT>34</MASYT>
+	</Table>
+	<Table>
+		<MAQU>50303</MAQU>
+		<MATT>503</MATT>
+		<TENQUAN>Thị xã Hội An</TENQUAN>
+		<MASYT>34</MASYT>
+	</Table>
+	<Table>
+		<MAQU>50305</MAQU>
+		<MATT>503</MATT>
+		<TENQUAN>Huyện Hiên</TENQUAN>
+		<MASYT>34</MASYT>
+	</Table>
+	<Table>
+		<MAQU>50307</MAQU>
+		<MATT>503</MATT>
+		<TENQUAN>Huyện Đại Lộc</TENQUAN>
+		<MASYT>34</MASYT>
+	</Table>
+	<Table>
+		<MAQU>50309</MAQU>
+		<MATT>503</MATT>
+		<TENQUAN>Huyện Điện Bàn</TENQUAN>
+		<MASYT>34</MASYT>
+	</Table>
+	<Table>
+		<MAQU>50311</MAQU>
+		<MATT>503</MATT>
+		<TENQUAN>Huyện Duy Xuyên</TENQUAN>
+		<MASYT>34</MASYT>
+	</Table>
+	<Table>
+		<MAQU>50313</MAQU>
+		<MATT>503</MATT>
+		<TENQUAN>Huyện Giằng</TENQUAN>
+		<MASYT>34</MASYT>
+	</Table>
+	<Table>
+		<MAQU>50315</MAQU>
+		<MATT>503</MATT>
+		<TENQUAN>Huyện Thăng Bình</TENQUAN>
+		<MASYT>34</MASYT>
+	</Table>
+	<Table>
+		<MAQU>50317</MAQU>
+		<MATT>503</MATT>
+		<TENQUAN>Huyện Quế Sơn</TENQUAN>
+		<MASYT>34</MASYT>
+	</Table>
+	<Table>
+		<MAQU>50319</MAQU>
+		<MATT>503</MATT>
+		<TENQUAN>Huyện Hiệp Đức</TENQUAN>
+		<MASYT>34</MASYT>
+	</Table>
+	<Table>
+		<MAQU>50321</MAQU>
+		<MATT>503</MATT>
+		<TENQUAN>Huyện Tiên Phước</TENQUAN>
+		<MASYT>34</MASYT>
+	</Table>
+	<Table>
+		<MAQU>50323</MAQU>
+		<MATT>503</MATT>
+		<TENQUAN>Huyện Phước Sơn</TENQUAN>
+		<MASYT>34</MASYT>
+	</Table>
+	<Table>
+		<MAQU>50325</MAQU>
+		<MATT>503</MATT>
+		<TENQUAN>Huyện Núi Thành</TENQUAN>
+		<MASYT>34</MASYT>
+	</Table>
+	<Table>
+		<MAQU>50327</MAQU>
+		<MATT>503</MATT>
+		<TENQUAN>Huyện Trà My</TENQUAN>
+		<MASYT>34</MASYT>
+	</Table>
+	<Table>
+		<MAQU>50500</MAQU>
+		<MATT>505</MATT>
+		<TENQUAN>Không xác định</TENQUAN>
+		<MASYT>35</MASYT>
+	</Table>
+	<Table>
+		<MAQU>50501</MAQU>
+		<MATT>505</MATT>
+		<TENQUAN>Thị xã Quảng Ngãi</TENQUAN>
+		<MASYT>35</MASYT>
+	</Table>
+	<Table>
+		<MAQU>50503</MAQU>
+		<MATT>505</MATT>
+		<TENQUAN>Huyện Lý Sơn</TENQUAN>
+		<MASYT>35</MASYT>
+	</Table>
+	<Table>
+		<MAQU>50505</MAQU>
+		<MATT>505</MATT>
+		<TENQUAN>Huyện Bình Sơn</TENQUAN>
+		<MASYT>35</MASYT>
+	</Table>
+	<Table>
+		<MAQU>50507</MAQU>
+		<MATT>505</MATT>
+		<TENQUAN>Huyện Trà Bồng</TENQUAN>
+		<MASYT>35</MASYT>
+	</Table>
+	<Table>
+		<MAQU>50509</MAQU>
+		<MATT>505</MATT>
+		<TENQUAN>Huyện Sơn Tịnh</TENQUAN>
+		<MASYT>35</MASYT>
+	</Table>
+	<Table>
+		<MAQU>50511</MAQU>
+		<MATT>505</MATT>
+		<TENQUAN>Huyện Sơn Tây</TENQUAN>
+		<MASYT>35</MASYT>
+	</Table>
+	<Table>
+		<MAQU>50513</MAQU>
+		<MATT>505</MATT>
+		<TENQUAN>Huyện Sơn Hà</TENQUAN>
+		<MASYT>35</MASYT>
+	</Table>
+	<Table>
+		<MAQU>50515</MAQU>
+		<MATT>505</MATT>
+		<TENQUAN>Huyện Tư Nghĩa</TENQUAN>
+		<MASYT>35</MASYT>
+	</Table>
+	<Table>
+		<MAQU>50517</MAQU>
+		<MATT>505</MATT>
+		<TENQUAN>Huyện Nghĩa Hành</TENQUAN>
+		<MASYT>35</MASYT>
+	</Table>
+	<Table>
+		<MAQU>50519</MAQU>
+		<MATT>505</MATT>
+		<TENQUAN>Huyện Minh Long</TENQUAN>
+		<MASYT>35</MASYT>
+	</Table>
+	<Table>
+		<MAQU>50521</MAQU>
+		<MATT>505</MATT>
+		<TENQUAN>Huyện Mộ Đức</TENQUAN>
+		<MASYT>35</MASYT>
+	</Table>
+	<Table>
+		<MAQU>50523</MAQU>
+		<MATT>505</MATT>
+		<TENQUAN>Huyện Đức Phổ</TENQUAN>
+		<MASYT>35</MASYT>
+	</Table>
+	<Table>
+		<MAQU>50525</MAQU>
+		<MATT>505</MATT>
+		<TENQUAN>Huyện Ba Tơ</TENQUAN>
+		<MASYT>35</MASYT>
+	</Table>
+	<Table>
+		<MAQU>50700</MAQU>
+		<MATT>507</MATT>
+		<TENQUAN>Không xác định</TENQUAN>
+		<MASYT>36</MASYT>
+	</Table>
+	<Table>
+		<MAQU>50701</MAQU>
+		<MATT>507</MATT>
+		<TENQUAN>Thành phố Qui Nhơn</TENQUAN>
+		<MASYT>36</MASYT>
+	</Table>
+	<Table>
+		<MAQU>50703</MAQU>
+		<MATT>507</MATT>
+		<TENQUAN>Huyện An Lão</TENQUAN>
+		<MASYT>36</MASYT>
+	</Table>
+	<Table>
+		<MAQU>50705</MAQU>
+		<MATT>507</MATT>
+		<TENQUAN>Huyện Hoài Nhơn</TENQUAN>
+		<MASYT>36</MASYT>
+	</Table>
+	<Table>
+		<MAQU>50707</MAQU>
+		<MATT>507</MATT>
+		<TENQUAN>Huyện Hoài Ân</TENQUAN>
+		<MASYT>36</MASYT>
+	</Table>
+	<Table>
+		<MAQU>50709</MAQU>
+		<MATT>507</MATT>
+		<TENQUAN>Huyện Phù Mỹ</TENQUAN>
+		<MASYT>36</MASYT>
+	</Table>
+	<Table>
+		<MAQU>50711</MAQU>
+		<MATT>507</MATT>
+		<TENQUAN>Huyện Vĩnh Thạnh</TENQUAN>
+		<MASYT>36</MASYT>
+	</Table>
+	<Table>
+		<MAQU>50713</MAQU>
+		<MATT>507</MATT>
+		<TENQUAN>Huyện Phù Cát</TENQUAN>
+		<MASYT>36</MASYT>
+	</Table>
+	<Table>
+		<MAQU>50715</MAQU>
+		<MATT>507</MATT>
+		<TENQUAN>Huyện Tây Sơn</TENQUAN>
+		<MASYT>36</MASYT>
+	</Table>
+	<Table>
+		<MAQU>50717</MAQU>
+		<MATT>507</MATT>
+		<TENQUAN>Huyện An Nhơn</TENQUAN>
+		<MASYT>36</MASYT>
+	</Table>
+	<Table>
+		<MAQU>50719</MAQU>
+		<MATT>507</MATT>
+		<TENQUAN>Huyện Tuy Phước</TENQUAN>
+		<MASYT>36</MASYT>
+	</Table>
+	<Table>
+		<MAQU>50721</MAQU>
+		<MATT>507</MATT>
+		<TENQUAN>Huyện Vân Canh</TENQUAN>
+		<MASYT>36</MASYT>
+	</Table>
+	<Table>
+		<MAQU>50900</MAQU>
+		<MATT>509</MATT>
+		<TENQUAN>Không xác định</TENQUAN>
+		<MASYT>37</MASYT>
+	</Table>
+	<Table>
+		<MAQU>50901</MAQU>
+		<MATT>509</MATT>
+		<TENQUAN>Thị xã Tuy Hòa</TENQUAN>
+		<MASYT>37</MASYT>
+	</Table>
+	<Table>
+		<MAQU>50903</MAQU>
+		<MATT>509</MATT>
+		<TENQUAN>Huyện Đồng Xuân</TENQUAN>
+		<MASYT>37</MASYT>
+	</Table>
+	<Table>
+		<MAQU>50905</MAQU>
+		<MATT>509</MATT>
+		<TENQUAN>Huyện Sông Cầu</TENQUAN>
+		<MASYT>37</MASYT>
+	</Table>
+	<Table>
+		<MAQU>50907</MAQU>
+		<MATT>509</MATT>
+		<TENQUAN>Huyện Tuy An</TENQUAN>
+		<MASYT>37</MASYT>
+	</Table>
+	<Table>
+		<MAQU>50909</MAQU>
+		<MATT>509</MATT>
+		<TENQUAN>Huyện Sơn Hòa</TENQUAN>
+		<MASYT>37</MASYT>
+	</Table>
+	<Table>
+		<MAQU>50911</MAQU>
+		<MATT>509</MATT>
+		<TENQUAN>Huyện Tuy Hòa</TENQUAN>
+		<MASYT>37</MASYT>
+	</Table>
+	<Table>
+		<MAQU>50913</MAQU>
+		<MATT>509</MATT>
+		<TENQUAN>Huyện Sông Hinh</TENQUAN>
+		<MASYT>37</MASYT>
+	</Table>
+	<Table>
+		<MAQU>51100</MAQU>
+		<MATT>511</MATT>
+		<TENQUAN>Không xác định</TENQUAN>
+		<MASYT>38</MASYT>
+	</Table>
+	<Table>
+		<MAQU>51101</MAQU>
+		<MATT>511</MATT>
+		<TENQUAN>Thành phố Nha Trang</TENQUAN>
+		<MASYT>38</MASYT>
+	</Table>
+	<Table>
+		<MAQU>51103</MAQU>
+		<MATT>511</MATT>
+		<TENQUAN>Huyện Vạn Ninh</TENQUAN>
+		<MASYT>38</MASYT>
+	</Table>
+	<Table>
+		<MAQU>51105</MAQU>
+		<MATT>511</MATT>
+		<TENQUAN>Huyện Ninh Hòa</TENQUAN>
+		<MASYT>38</MASYT>
+	</Table>
+	<Table>
+		<MAQU>51107</MAQU>
+		<MATT>511</MATT>
+		<TENQUAN>Huyện Diên Khánh</TENQUAN>
+		<MASYT>38</MASYT>
+	</Table>
+	<Table>
+		<MAQU>51109</MAQU>
+		<MATT>511</MATT>
+		<TENQUAN>Huyện Cam Ranh</TENQUAN>
+		<MASYT>38</MASYT>
+	</Table>
+	<Table>
+		<MAQU>51111</MAQU>
+		<MATT>511</MATT>
+		<TENQUAN>Huyện Khánh Vĩnh</TENQUAN>
+		<MASYT>38</MASYT>
+	</Table>
+	<Table>
+		<MAQU>51113</MAQU>
+		<MATT>511</MATT>
+		<TENQUAN>Huyện Khánh Sơn</TENQUAN>
+		<MASYT>38</MASYT>
+	</Table>
+	<Table>
+		<MAQU>51115</MAQU>
+		<MATT>511</MATT>
+		<TENQUAN>Huyện Trường Sa</TENQUAN>
+		<MASYT>38</MASYT>
+	</Table>
+	<Table>
+		<MAQU>60100</MAQU>
+		<MATT>601</MATT>
+		<TENQUAN>Không xác định</TENQUAN>
+		<MASYT>41</MASYT>
+	</Table>
+	<Table>
+		<MAQU>60101</MAQU>
+		<MATT>601</MATT>
+		<TENQUAN>Thị xã Kon Tum</TENQUAN>
+		<MASYT>41</MASYT>
+	</Table>
+	<Table>
+		<MAQU>60103</MAQU>
+		<MATT>601</MATT>
+		<TENQUAN>Huyện Đắk Glei</TENQUAN>
+		<MASYT>41</MASYT>
+	</Table>
+	<Table>
+		<MAQU>60105</MAQU>
+		<MATT>601</MATT>
+		<TENQUAN>Huyện Ngọc Hồi</TENQUAN>
+		<MASYT>41</MASYT>
+	</Table>
+	<Table>
+		<MAQU>60107</MAQU>
+		<MATT>601</MATT>
+		<TENQUAN>Huyện Đắk Tô</TENQUAN>
+		<MASYT>41</MASYT>
+	</Table>
+	<Table>
+		<MAQU>60109</MAQU>
+		<MATT>601</MATT>
+		<TENQUAN>Huyện Kon Plông</TENQUAN>
+		<MASYT>41</MASYT>
+	</Table>
+	<Table>
+		<MAQU>60111</MAQU>
+		<MATT>601</MATT>
+		<TENQUAN>Huyện Đak Hà</TENQUAN>
+		<MASYT>41</MASYT>
+	</Table>
+	<Table>
+		<MAQU>60113</MAQU>
+		<MATT>601</MATT>
+		<TENQUAN>Huyện Sa Thầy</TENQUAN>
+		<MASYT>41</MASYT>
+	</Table>
+	<Table>
+		<MAQU>60300</MAQU>
+		<MATT>603</MATT>
+		<TENQUAN>Không xác định</TENQUAN>
+		<MASYT>42</MASYT>
+	</Table>
+	<Table>
+		<MAQU>60301</MAQU>
+		<MATT>603</MATT>
+		<TENQUAN>Thị xã Pleiku</TENQUAN>
+		<MASYT>42</MASYT>
+	</Table>
+	<Table>
+		<MAQU>60303</MAQU>
+		<MATT>603</MATT>
+		<TENQUAN>Huyện KBang</TENQUAN>
+		<MASYT>42</MASYT>
+	</Table>
+	<Table>
+		<MAQU>60305</MAQU>
+		<MATT>603</MATT>
+		<TENQUAN>Huyện Mang Yang</TENQUAN>
+		<MASYT>42</MASYT>
+	</Table>
+	<Table>
+		<MAQU>60307</MAQU>
+		<MATT>603</MATT>
+		<TENQUAN>Huyện Chư Păh</TENQUAN>
+		<MASYT>42</MASYT>
+	</Table>
+	<Table>
+		<MAQU>60309</MAQU>
+		<MATT>603</MATT>
+		<TENQUAN>Huyện Ia Grai</TENQUAN>
+		<MASYT>42</MASYT>
+	</Table>
+	<Table>
+		<MAQU>60311</MAQU>
+		<MATT>603</MATT>
+		<TENQUAN>Huyện An Khê</TENQUAN>
+		<MASYT>42</MASYT>
+	</Table>
+	<Table>
+		<MAQU>60313</MAQU>
+		<MATT>603</MATT>
+		<TENQUAN>Huyện Kông Chro</TENQUAN>
+		<MASYT>42</MASYT>
+	</Table>
+	<Table>
+		<MAQU>60315</MAQU>
+		<MATT>603</MATT>
+		<TENQUAN>Huyện Đức Cơ</TENQUAN>
+		<MASYT>42</MASYT>
+	</Table>
+	<Table>
+		<MAQU>60317</MAQU>
+		<MATT>603</MATT>
+		<TENQUAN>Huyện Chư Prông</TENQUAN>
+		<MASYT>42</MASYT>
+	</Table>
+	<Table>
+		<MAQU>60319</MAQU>
+		<MATT>603</MATT>
+		<TENQUAN>Huyện Chư Sê</TENQUAN>
+		<MASYT>42</MASYT>
+	</Table>
+	<Table>
+		<MAQU>60321</MAQU>
+		<MATT>603</MATT>
+		<TENQUAN>Huyện Ayun Pa</TENQUAN>
+		<MASYT>42</MASYT>
+	</Table>
+	<Table>
+		<MAQU>60323</MAQU>
+		<MATT>603</MATT>
+		<TENQUAN>Huyện Krông Pa</TENQUAN>
+		<MASYT>42</MASYT>
+	</Table>
+	<Table>
+		<MAQU>60500</MAQU>
+		<MATT>605</MATT>
+		<TENQUAN>Không xác định</TENQUAN>
+		<MASYT>43</MASYT>
+	</Table>
+	<Table>
+		<MAQU>60501</MAQU>
+		<MATT>605</MATT>
+		<TENQUAN>Thành phố Buôn Ma Thuột</TENQUAN>
+		<MASYT>43</MASYT>
+	</Table>
+	<Table>
+		<MAQU>60503</MAQU>
+		<MATT>605</MATT>
+		<TENQUAN>Huyện Ea H'leo</TENQUAN>
+		<MASYT>43</MASYT>
+	</Table>
+	<Table>
+		<MAQU>60505</MAQU>
+		<MATT>605</MATT>
+		<TENQUAN>Huyện Ea Súp</TENQUAN>
+		<MASYT>43</MASYT>
+	</Table>
+	<Table>
+		<MAQU>60507</MAQU>
+		<MATT>605</MATT>
+		<TENQUAN>Huyện Krông Năng</TENQUAN>
+		<MASYT>43</MASYT>
+	</Table>
+	<Table>
+		<MAQU>60509</MAQU>
+		<MATT>605</MATT>
+		<TENQUAN>Huyện Krông Búk</TENQUAN>
+		<MASYT>43</MASYT>
+	</Table>
+	<Table>
+		<MAQU>60511</MAQU>
+		<MATT>605</MATT>
+		<TENQUAN>Huyện Buôn Đôn</TENQUAN>
+		<MASYT>43</MASYT>
+	</Table>
+	<Table>
+		<MAQU>60513</MAQU>
+		<MATT>605</MATT>
+		<TENQUAN>Huyện Cư M'gar</TENQUAN>
+		<MASYT>43</MASYT>
+	</Table>
+	<Table>
+		<MAQU>60515</MAQU>
+		<MATT>605</MATT>
+		<TENQUAN>Huyện Ea Kar</TENQUAN>
+		<MASYT>43</MASYT>
+	</Table>
+	<Table>
+		<MAQU>60517</MAQU>
+		<MATT>605</MATT>
+		<TENQUAN>Huyện M'Đrắk</TENQUAN>
+		<MASYT>43</MASYT>
+	</Table>
+	<Table>
+		<MAQU>60519</MAQU>
+		<MATT>605</MATT>
+		<TENQUAN>Huyện Krông Pắc</TENQUAN>
+		<MASYT>43</MASYT>
+	</Table>
+	<Table>
+		<MAQU>60521</MAQU>
+		<MATT>605</MATT>
+		<TENQUAN>Huyện Cư Jút</TENQUAN>
+		<MASYT>43</MASYT>
+	</Table>
+	<Table>
+		<MAQU>60523</MAQU>
+		<MATT>605</MATT>
+		<TENQUAN>Huyện Krông A Na</TENQUAN>
+		<MASYT>43</MASYT>
+	</Table>
+	<Table>
+		<MAQU>60525</MAQU>
+		<MATT>605</MATT>
+		<TENQUAN>Huyện Krông Bông</TENQUAN>
+		<MASYT>43</MASYT>
+	</Table>
+	<Table>
+		<MAQU>60527</MAQU>
+		<MATT>605</MATT>
+		<TENQUAN>Huyện Đắk Mil</TENQUAN>
+		<MASYT>43</MASYT>
+	</Table>
+	<Table>
+		<MAQU>60529</MAQU>
+		<MATT>605</MATT>
+		<TENQUAN>Huyện Krông Nô</TENQUAN>
+		<MASYT>43</MASYT>
+	</Table>
+	<Table>
+		<MAQU>60531</MAQU>
+		<MATT>605</MATT>
+		<TENQUAN>Huyện Lắk</TENQUAN>
+		<MASYT>43</MASYT>
+	</Table>
+	<Table>
+		<MAQU>60533</MAQU>
+		<MATT>605</MATT>
+		<TENQUAN>Huyện Đắk R'Lấp</TENQUAN>
+		<MASYT>43</MASYT>
+	</Table>
+	<Table>
+		<MAQU>60535</MAQU>
+		<MATT>605</MATT>
+		<TENQUAN>Huyện Đắk Nông</TENQUAN>
+		<MASYT>43</MASYT>
+	</Table>
+	<Table>
+		<MAQU>70100</MAQU>
+		<MATT>701</MATT>
+		<TENQUAN>Không xác định</TENQUAN>
+		<MASYT>02</MASYT>
+	</Table>
+	<Table>
+		<MAQU>70101</MAQU>
+		<MATT>701</MATT>
+		<TENQUAN>Quận 1</TENQUAN>
+		<MASYT>0201</MASYT>
+	</Table>
+	<Table>
+		<MAQU>70103</MAQU>
+		<MATT>701</MATT>
+		<TENQUAN>Quận 2</TENQUAN>
+		<MASYT>0202</MASYT>
+	</Table>
+	<Table>
+		<MAQU>70105</MAQU>
+		<MATT>701</MATT>
+		<TENQUAN>Quận 3</TENQUAN>
+		<MASYT>0203</MASYT>
+	</Table>
+	<Table>
+		<MAQU>70107</MAQU>
+		<MATT>701</MATT>
+		<TENQUAN>Quận 4</TENQUAN>
+		<MASYT>0204</MASYT>
+	</Table>
+	<Table>
+		<MAQU>70109</MAQU>
+		<MATT>701</MATT>
+		<TENQUAN>Quận 5</TENQUAN>
+		<MASYT>0205</MASYT>
+	</Table>
+	<Table>
+		<MAQU>70111</MAQU>
+		<MATT>701</MATT>
+		<TENQUAN>Quận 6</TENQUAN>
+		<MASYT>0206</MASYT>
+	</Table>
+	<Table>
+		<MAQU>70113</MAQU>
+		<MATT>701</MATT>
+		<TENQUAN>Quận 7</TENQUAN>
+		<MASYT>0207</MASYT>
+	</Table>
+	<Table>
+		<MAQU>70115</MAQU>
+		<MATT>701</MATT>
+		<TENQUAN>Quận 8</TENQUAN>
+		<MASYT>0208</MASYT>
+	</Table>
+	<Table>
+		<MAQU>70117</MAQU>
+		<MATT>701</MATT>
+		<TENQUAN>Quận 9</TENQUAN>
+		<MASYT>0209</MASYT>
+	</Table>
+	<Table>
+		<MAQU>70119</MAQU>
+		<MATT>701</MATT>
+		<TENQUAN>Quận 10</TENQUAN>
+		<MASYT>0210</MASYT>
+	</Table>
+	<Table>
+		<MAQU>70121</MAQU>
+		<MATT>701</MATT>
+		<TENQUAN>Quận 11</TENQUAN>
+		<MASYT>0211</MASYT>
+	</Table>
+	<Table>
+		<MAQU>70123</MAQU>
+		<MATT>701</MATT>
+		<TENQUAN>Quận 12</TENQUAN>
+		<MASYT>0212</MASYT>
+	</Table>
+	<Table>
+		<MAQU>70125</MAQU>
+		<MATT>701</MATT>
+		<TENQUAN>Quận Gò Vấp</TENQUAN>
+		<MASYT>02GV</MASYT>
+	</Table>
+	<Table>
+		<MAQU>70127</MAQU>
+		<MATT>701</MATT>
+		<TENQUAN>Quận Tân Bình</TENQUAN>
+		<MASYT>02TB</MASYT>
+	</Table>
+	<Table>
+		<MAQU>70129</MAQU>
+		<MATT>701</MATT>
+		<TENQUAN>Quận Bình Thạnh</TENQUAN>
+		<MASYT>02BT</MASYT>
+	</Table>
+	<Table>
+		<MAQU>70131</MAQU>
+		<MATT>701</MATT>
+		<TENQUAN>Quận Phú Nhuận</TENQUAN>
+		<MASYT>02PN</MASYT>
+	</Table>
+	<Table>
+		<MAQU>70133</MAQU>
+		<MATT>701</MATT>
+		<TENQUAN>Quận Thủ Đức</TENQUAN>
+		<MASYT>02TD</MASYT>
+	</Table>
+	<Table>
+		<MAQU>70135</MAQU>
+		<MATT>701</MATT>
+		<TENQUAN>Huyện Củ Chi</TENQUAN>
+		<MASYT>02CC</MASYT>
+	</Table>
+	<Table>
+		<MAQU>70137</MAQU>
+		<MATT>701</MATT>
+		<TENQUAN>Huyện Hóc Môn</TENQUAN>
+		<MASYT>02HM</MASYT>
+	</Table>
+	<Table>
+		<MAQU>70139</MAQU>
+		<MATT>701</MATT>
+		<TENQUAN>Huyện Bình Chánh</TENQUAN>
+		<MASYT>02BC</MASYT>
+	</Table>
+	<Table>
+		<MAQU>70141</MAQU>
+		<MATT>701</MATT>
+		<TENQUAN>Huyện Nhà Bè</TENQUAN>
+		<MASYT>02NB</MASYT>
+	</Table>
+	<Table>
+		<MAQU>70143</MAQU>
+		<MATT>701</MATT>
+		<TENQUAN>Huyện Cần Giờ</TENQUAN>
+		<MASYT>02CG</MASYT>
+	</Table>
+	<Table>
+		<MAQU>70145</MAQU>
+		<MATT>701</MATT>
+		<TENQUAN>Quận Tân Phú</TENQUAN>
+		<MASYT>02TP</MASYT>
+	</Table>
+	<Table>
+		<MAQU>70147</MAQU>
+		<MATT>701</MATT>
+		<TENQUAN>Quận Bình Tân</TENQUAN>
+		<MASYT>02BT</MASYT>
+	</Table>
+	<Table>
+		<MAQU>70300</MAQU>
+		<MATT>703</MATT>
+		<TENQUAN>Không xác định</TENQUAN>
+		<MASYT>44</MASYT>
+	</Table>
+	<Table>
+		<MAQU>70301</MAQU>
+		<MATT>703</MATT>
+		<TENQUAN>Thành phố Đà Lạt</TENQUAN>
+		<MASYT>44</MASYT>
+	</Table>
+	<Table>
+		<MAQU>70303</MAQU>
+		<MATT>703</MATT>
+		<TENQUAN>Thị xã Bảo Lộc</TENQUAN>
+		<MASYT>44</MASYT>
+	</Table>
+	<Table>
+		<MAQU>70305</MAQU>
+		<MATT>703</MATT>
+		<TENQUAN>Huyện Lạc Dương</TENQUAN>
+		<MASYT>44</MASYT>
+	</Table>
+	<Table>
+		<MAQU>70307</MAQU>
+		<MATT>703</MATT>
+		<TENQUAN>Huyện Đơn Dương</TENQUAN>
+		<MASYT>44</MASYT>
+	</Table>
+	<Table>
+		<MAQU>70309</MAQU>
+		<MATT>703</MATT>
+		<TENQUAN>Huyện Đức Trọng</TENQUAN>
+		<MASYT>44</MASYT>
+	</Table>
+	<Table>
+		<MAQU>70311</MAQU>
+		<MATT>703</MATT>
+		<TENQUAN>Huyện Lâm Hà</TENQUAN>
+		<MASYT>44</MASYT>
+	</Table>
+	<Table>
+		<MAQU>70313</MAQU>
+		<MATT>703</MATT>
+		<TENQUAN>Huyện Bảo Lâm</TENQUAN>
+		<MASYT>44</MASYT>
+	</Table>
+	<Table>
+		<MAQU>70315</MAQU>
+		<MATT>703</MATT>
+		<TENQUAN>Huyện Di Linh</TENQUAN>
+		<MASYT>44</MASYT>
+	</Table>
+	<Table>
+		<MAQU>70317</MAQU>
+		<MATT>703</MATT>
+		<TENQUAN>Huyện Đạ Huoai</TENQUAN>
+		<MASYT>44</MASYT>
+	</Table>
+	<Table>
+		<MAQU>70319</MAQU>
+		<MATT>703</MATT>
+		<TENQUAN>Huyện Đạ Tẻh</TENQUAN>
+		<MASYT>44</MASYT>
+	</Table>
+	<Table>
+		<MAQU>70321</MAQU>
+		<MATT>703</MATT>
+		<TENQUAN>Huyện Cát Tiên</TENQUAN>
+		<MASYT>44</MASYT>
+	</Table>
+	<Table>
+		<MAQU>70500</MAQU>
+		<MATT>705</MATT>
+		<TENQUAN>Không xác định</TENQUAN>
+		<MASYT>39</MASYT>
+	</Table>
+	<Table>
+		<MAQU>70501</MAQU>
+		<MATT>705</MATT>
+		<TENQUAN>Thị xã Phan Rang-Tháp Chàm</TENQUAN>
+		<MASYT>39</MASYT>
+	</Table>
+	<Table>
+		<MAQU>70503</MAQU>
+		<MATT>705</MATT>
+		<TENQUAN>Huyện Ninh Sơn</TENQUAN>
+		<MASYT>39</MASYT>
+	</Table>
+	<Table>
+		<MAQU>70505</MAQU>
+		<MATT>705</MATT>
+		<TENQUAN>Huyện Ninh Hải</TENQUAN>
+		<MASYT>39</MASYT>
+	</Table>
+	<Table>
+		<MAQU>70507</MAQU>
+		<MATT>705</MATT>
+		<TENQUAN>Huyện Ninh Phước</TENQUAN>
+		<MASYT>39</MASYT>
+	</Table>
+	<Table>
+		<MAQU>70700</MAQU>
+		<MATT>707</MATT>
+		<TENQUAN>Không xác định</TENQUAN>
+		<MASYT>46</MASYT>
+	</Table>
+	<Table>
+		<MAQU>70701</MAQU>
+		<MATT>707</MATT>
+		<TENQUAN>Huyện Đồng Phú</TENQUAN>
+		<MASYT>46</MASYT>
+	</Table>
+	<Table>
+		<MAQU>70703</MAQU>
+		<MATT>707</MATT>
+		<TENQUAN>Huyện Phước Long</TENQUAN>
+		<MASYT>46</MASYT>
+	</Table>
+	<Table>
+		<MAQU>70705</MAQU>
+		<MATT>707</MATT>
+		<TENQUAN>Huyện Lộc Ninh</TENQUAN>
+		<MASYT>46</MASYT>
+	</Table>
+	<Table>
+		<MAQU>70707</MAQU>
+		<MATT>707</MATT>
+		<TENQUAN>Huyện Bù Đăng</TENQUAN>
+		<MASYT>46</MASYT>
+	</Table>
+	<Table>
+		<MAQU>70709</MAQU>
+		<MATT>707</MATT>
+		<TENQUAN>Huyện Bình Long</TENQUAN>
+		<MASYT>46</MASYT>
+	</Table>
+	<Table>
+		<MAQU>70900</MAQU>
+		<MATT>709</MATT>
+		<TENQUAN>Không xác định</TENQUAN>
+		<MASYT>47</MASYT>
+	</Table>
+	<Table>
+		<MAQU>70901</MAQU>
+		<MATT>709</MATT>
+		<TENQUAN>Thị xã Tây Ninh</TENQUAN>
+		<MASYT>47</MASYT>
+	</Table>
+	<Table>
+		<MAQU>70903</MAQU>
+		<MATT>709</MATT>
+		<TENQUAN>Huyện Tân Biên</TENQUAN>
+		<MASYT>47</MASYT>
+	</Table>
+	<Table>
+		<MAQU>70905</MAQU>
+		<MATT>709</MATT>
+		<TENQUAN>Huyện Tân Châu</TENQUAN>
+		<MASYT>47</MASYT>
+	</Table>
+	<Table>
+		<MAQU>70907</MAQU>
+		<MATT>709</MATT>
+		<TENQUAN>Huyện Dương Minh Châu</TENQUAN>
+		<MASYT>47</MASYT>
+	</Table>
+	<Table>
+		<MAQU>70909</MAQU>
+		<MATT>709</MATT>
+		<TENQUAN>Huyện Châu Thành</TENQUAN>
+		<MASYT>47</MASYT>
+	</Table>
+	<Table>
+		<MAQU>70911</MAQU>
+		<MATT>709</MATT>
+		<TENQUAN>Huyện Hòa Thành</TENQUAN>
+		<MASYT>47</MASYT>
+	</Table>
+	<Table>
+		<MAQU>70913</MAQU>
+		<MATT>709</MATT>
+		<TENQUAN>Huyện Bến Cầu</TENQUAN>
+		<MASYT>47</MASYT>
+	</Table>
+	<Table>
+		<MAQU>70915</MAQU>
+		<MATT>709</MATT>
+		<TENQUAN>Huyện Gò Dầu</TENQUAN>
+		<MASYT>47</MASYT>
+	</Table>
+	<Table>
+		<MAQU>70917</MAQU>
+		<MATT>709</MATT>
+		<TENQUAN>Huyện Trảng Bàng</TENQUAN>
+		<MASYT>47</MASYT>
+	</Table>
+	<Table>
+		<MAQU>71100</MAQU>
+		<MATT>711</MATT>
+		<TENQUAN>Không xác định</TENQUAN>
+		<MASYT>45</MASYT>
+	</Table>
+	<Table>
+		<MAQU>71101</MAQU>
+		<MATT>711</MATT>
+		<TENQUAN>Thị xã Thủ Dầu Một</TENQUAN>
+		<MASYT>45</MASYT>
+	</Table>
+	<Table>
+		<MAQU>71103</MAQU>
+		<MATT>711</MATT>
+		<TENQUAN>Huyện Bến Cát</TENQUAN>
+		<MASYT>45</MASYT>
+	</Table>
+	<Table>
+		<MAQU>71105</MAQU>
+		<MATT>711</MATT>
+		<TENQUAN>Huyện Tân Uyên</TENQUAN>
+		<MASYT>45</MASYT>
+	</Table>
+	<Table>
+		<MAQU>71107</MAQU>
+		<MATT>711</MATT>
+		<TENQUAN>Huyện Thuận An</TENQUAN>
+		<MASYT>45</MASYT>
+	</Table>
+	<Table>
+		<MAQU>71300</MAQU>
+		<MATT>713</MATT>
+		<TENQUAN>Không xác định</TENQUAN>
+		<MASYT>48</MASYT>
+	</Table>
+	<Table>
+		<MAQU>71301</MAQU>
+		<MATT>713</MATT>
+		<TENQUAN>Thành phố Biên Hòa</TENQUAN>
+		<MASYT>48</MASYT>
+	</Table>
+	<Table>
+		<MAQU>71303</MAQU>
+		<MATT>713</MATT>
+		<TENQUAN>Huyện Tân Phú</TENQUAN>
+		<MASYT>48</MASYT>
+	</Table>
+	<Table>
+		<MAQU>71305</MAQU>
+		<MATT>713</MATT>
+		<TENQUAN>Huyện Định Quán</TENQUAN>
+		<MASYT>48</MASYT>
+	</Table>
+	<Table>
+		<MAQU>71307</MAQU>
+		<MATT>713</MATT>
+		<TENQUAN>Huyện Vĩnh Cừu</TENQUAN>
+		<MASYT>48</MASYT>
+	</Table>
+	<Table>
+		<MAQU>71309</MAQU>
+		<MATT>713</MATT>
+		<TENQUAN>Huyện Thống Nhất</TENQUAN>
+		<MASYT>48</MASYT>
+	</Table>
+	<Table>
+		<MAQU>71311</MAQU>
+		<MATT>713</MATT>
+		<TENQUAN>Huyện Long Khánh</TENQUAN>
+		<MASYT>48</MASYT>
+	</Table>
+	<Table>
+		<MAQU>71313</MAQU>
+		<MATT>713</MATT>
+		<TENQUAN>Huyện Xuân Lộc</TENQUAN>
+		<MASYT>48</MASYT>
+	</Table>
+	<Table>
+		<MAQU>71315</MAQU>
+		<MATT>713</MATT>
+		<TENQUAN>Huyện Long Thành</TENQUAN>
+		<MASYT>48</MASYT>
+	</Table>
+	<Table>
+		<MAQU>71317</MAQU>
+		<MATT>713</MATT>
+		<TENQUAN>Huyện Nhơn Trạch</TENQUAN>
+		<MASYT>48</MASYT>
+	</Table>
+	<Table>
+		<MAQU>71500</MAQU>
+		<MATT>715</MATT>
+		<TENQUAN>Không xác định</TENQUAN>
+		<MASYT>40</MASYT>
+	</Table>
+	<Table>
+		<MAQU>71501</MAQU>
+		<MATT>715</MATT>
+		<TENQUAN>Thị xã Phan Thiết</TENQUAN>
+		<MASYT>40</MASYT>
+	</Table>
+	<Table>
+		<MAQU>71503</MAQU>
+		<MATT>715</MATT>
+		<TENQUAN>Huyện Tuy Phong</TENQUAN>
+		<MASYT>40</MASYT>
+	</Table>
+	<Table>
+		<MAQU>71505</MAQU>
+		<MATT>715</MATT>
+		<TENQUAN>Huyện Bắc Bình</TENQUAN>
+		<MASYT>40</MASYT>
+	</Table>
+	<Table>
+		<MAQU>71507</MAQU>
+		<MATT>715</MATT>
+		<TENQUAN>Huyện Hàm Thuận Bắc</TENQUAN>
+		<MASYT>40</MASYT>
+	</Table>
+	<Table>
+		<MAQU>71509</MAQU>
+		<MATT>715</MATT>
+		<TENQUAN>Huyện Hàm Thuận Nam</TENQUAN>
+		<MASYT>40</MASYT>
+	</Table>
+	<Table>
+		<MAQU>71511</MAQU>
+		<MATT>715</MATT>
+		<TENQUAN>Huyện Tánh Linh</TENQUAN>
+		<MASYT>40</MASYT>
+	</Table>
+	<Table>
+		<MAQU>71513</MAQU>
+		<MATT>715</MATT>
+		<TENQUAN>Huyện Hàm Tân</TENQUAN>
+		<MASYT>40</MASYT>
+	</Table>
+	<Table>
+		<MAQU>71515</MAQU>
+		<MATT>715</MATT>
+		<TENQUAN>Huyện Đức Linh</TENQUAN>
+		<MASYT>40</MASYT>
+	</Table>
+	<Table>
+		<MAQU>71517</MAQU>
+		<MATT>715</MATT>
+		<TENQUAN>Huyện Phú Quí</TENQUAN>
+		<MASYT>40</MASYT>
+	</Table>
+	<Table>
+		<MAQU>71700</MAQU>
+		<MATT>717</MATT>
+		<TENQUAN>Không xác định</TENQUAN>
+		<MASYT>61</MASYT>
+	</Table>
+	<Table>
+		<MAQU>71701</MAQU>
+		<MATT>717</MATT>
+		<TENQUAN>Thành phố Vũng Tầu</TENQUAN>
+		<MASYT>61</MASYT>
+	</Table>
+	<Table>
+		<MAQU>71703</MAQU>
+		<MATT>717</MATT>
+		<TENQUAN>Thị xã Bà Rịa</TENQUAN>
+		<MASYT>61</MASYT>
+	</Table>
+	<Table>
+		<MAQU>71705</MAQU>
+		<MATT>717</MATT>
+		<TENQUAN>Huyện Châu Đức</TENQUAN>
+		<MASYT>61</MASYT>
+	</Table>
+	<Table>
+		<MAQU>71707</MAQU>
+		<MATT>717</MATT>
+		<TENQUAN>Huyện Xuyên Mộc</TENQUAN>
+		<MASYT>61</MASYT>
+	</Table>
+	<Table>
+		<MAQU>71709</MAQU>
+		<MATT>717</MATT>
+		<TENQUAN>Huyện Tân Thành</TENQUAN>
+		<MASYT>61</MASYT>
+	</Table>
+	<Table>
+		<MAQU>71711</MAQU>
+		<MATT>717</MATT>
+		<TENQUAN>Huyện Long Đất</TENQUAN>
+		<MASYT>61</MASYT>
+	</Table>
+	<Table>
+		<MAQU>71713</MAQU>
+		<MATT>717</MATT>
+		<TENQUAN>Huyện Côn Đảo</TENQUAN>
+		<MASYT>61</MASYT>
+	</Table>
+	<Table>
+		<MAQU>80100</MAQU>
+		<MATT>801</MATT>
+		<TENQUAN>Không xác định</TENQUAN>
+		<MASYT>49</MASYT>
+	</Table>
+	<Table>
+		<MAQU>80101</MAQU>
+		<MATT>801</MATT>
+		<TENQUAN>Thị xã Tân An</TENQUAN>
+		<MASYT>49</MASYT>
+	</Table>
+	<Table>
+		<MAQU>80103</MAQU>
+		<MATT>801</MATT>
+		<TENQUAN>Huyện Tân Hưng</TENQUAN>
+		<MASYT>49</MASYT>
+	</Table>
+	<Table>
+		<MAQU>80105</MAQU>
+		<MATT>801</MATT>
+		<TENQUAN>Huyện Vĩnh Hưng</TENQUAN>
+		<MASYT>49</MASYT>
+	</Table>
+	<Table>
+		<MAQU>80107</MAQU>
+		<MATT>801</MATT>
+		<TENQUAN>Huyện Mộc Hóa</TENQUAN>
+		<MASYT>49</MASYT>
+	</Table>
+	<Table>
+		<MAQU>80109</MAQU>
+		<MATT>801</MATT>
+		<TENQUAN>Huyện Tân Thạnh</TENQUAN>
+		<MASYT>49</MASYT>
+	</Table>
+	<Table>
+		<MAQU>80111</MAQU>
+		<MATT>801</MATT>
+		<TENQUAN>Huyện Thạnh Hóa</TENQUAN>
+		<MASYT>49</MASYT>
+	</Table>
+	<Table>
+		<MAQU>80113</MAQU>
+		<MATT>801</MATT>
+		<TENQUAN>Huyện Đức Huệ</TENQUAN>
+		<MASYT>49</MASYT>
+	</Table>
+	<Table>
+		<MAQU>80115</MAQU>
+		<MATT>801</MATT>
+		<TENQUAN>Huyện Đức Hòa</TENQUAN>
+		<MASYT>49</MASYT>
+	</Table>
+	<Table>
+		<MAQU>80117</MAQU>
+		<MATT>801</MATT>
+		<TENQUAN>Huyện Bến Lức</TENQUAN>
+		<MASYT>49</MASYT>
+	</Table>
+	<Table>
+		<MAQU>80119</MAQU>
+		<MATT>801</MATT>
+		<TENQUAN>Huyện Thủ Thừa</TENQUAN>
+		<MASYT>49</MASYT>
+	</Table>
+	<Table>
+		<MAQU>80121</MAQU>
+		<MATT>801</MATT>
+		<TENQUAN>Huyện Châu Thành</TENQUAN>
+		<MASYT>49</MASYT>
+	</Table>
+	<Table>
+		<MAQU>80123</MAQU>
+		<MATT>801</MATT>
+		<TENQUAN>Huyện Tân Trụ</TENQUAN>
+		<MASYT>49</MASYT>
+	</Table>
+	<Table>
+		<MAQU>80125</MAQU>
+		<MATT>801</MATT>
+		<TENQUAN>Huyện Cần Đước</TENQUAN>
+		<MASYT>49</MASYT>
+	</Table>
+	<Table>
+		<MAQU>80127</MAQU>
+		<MATT>801</MATT>
+		<TENQUAN>Huyện Cần Giuộc</TENQUAN>
+		<MASYT>49</MASYT>
+	</Table>
+	<Table>
+		<MAQU>80300</MAQU>
+		<MATT>803</MATT>
+		<TENQUAN>Không xác định</TENQUAN>
+		<MASYT>50</MASYT>
+	</Table>
+	<Table>
+		<MAQU>80301</MAQU>
+		<MATT>803</MATT>
+		<TENQUAN>Thị xã Cao Lãnh</TENQUAN>
+		<MASYT>50</MASYT>
+	</Table>
+	<Table>
+		<MAQU>80303</MAQU>
+		<MATT>803</MATT>
+		<TENQUAN>Thị xã Sa Đéc</TENQUAN>
+		<MASYT>50</MASYT>
+	</Table>
+	<Table>
+		<MAQU>80305</MAQU>
+		<MATT>803</MATT>
+		<TENQUAN>Huyện Tân Hồng</TENQUAN>
+		<MASYT>50</MASYT>
+	</Table>
+	<Table>
+		<MAQU>80307</MAQU>
+		<MATT>803</MATT>
+		<TENQUAN>Huyện Hồng Ngự</TENQUAN>
+		<MASYT>50</MASYT>
+	</Table>
+	<Table>
+		<MAQU>80309</MAQU>
+		<MATT>803</MATT>
+		<TENQUAN>Huyện Tam Nông</TENQUAN>
+		<MASYT>50</MASYT>
+	</Table>
+	<Table>
+		<MAQU>80311</MAQU>
+		<MATT>803</MATT>
+		<TENQUAN>Huyện Thanh Bình</TENQUAN>
+		<MASYT>50</MASYT>
+	</Table>
+	<Table>
+		<MAQU>80313</MAQU>
+		<MATT>803</MATT>
+		<TENQUAN>Huyện Tháp Mười</TENQUAN>
+		<MASYT>50</MASYT>
+	</Table>
+	<Table>
+		<MAQU>80315</MAQU>
+		<MATT>803</MATT>
+		<TENQUAN>Huyện Cao Lãnh</TENQUAN>
+		<MASYT>50</MASYT>
+	</Table>
+	<Table>
+		<MAQU>80317</MAQU>
+		<MATT>803</MATT>
+		<TENQUAN>Huyện Lấp Vò</TENQUAN>
+		<MASYT>50</MASYT>
+	</Table>
+	<Table>
+		<MAQU>80319</MAQU>
+		<MATT>803</MATT>
+		<TENQUAN>Huyện Lai Vung</TENQUAN>
+		<MASYT>50</MASYT>
+	</Table>
+	<Table>
+		<MAQU>80321</MAQU>
+		<MATT>803</MATT>
+		<TENQUAN>Huyện Châu Thành</TENQUAN>
+		<MASYT>50</MASYT>
+	</Table>
+	<Table>
+		<MAQU>80500</MAQU>
+		<MATT>805</MATT>
+		<TENQUAN>Không xác định</TENQUAN>
+		<MASYT>51</MASYT>
+	</Table>
+	<Table>
+		<MAQU>80501</MAQU>
+		<MATT>805</MATT>
+		<TENQUAN>Thị xã Long Xuyên</TENQUAN>
+		<MASYT>51</MASYT>
+	</Table>
+	<Table>
+		<MAQU>80503</MAQU>
+		<MATT>805</MATT>
+		<TENQUAN>Thị xã Châu Đốc</TENQUAN>
+		<MASYT>51</MASYT>
+	</Table>
+	<Table>
+		<MAQU>80505</MAQU>
+		<MATT>805</MATT>
+		<TENQUAN>Huyện An Phú</TENQUAN>
+		<MASYT>51</MASYT>
+	</Table>
+	<Table>
+		<MAQU>80507</MAQU>
+		<MATT>805</MATT>
+		<TENQUAN>Huyện Tân Châu</TENQUAN>
+		<MASYT>51</MASYT>
+	</Table>
+	<Table>
+		<MAQU>80509</MAQU>
+		<MATT>805</MATT>
+		<TENQUAN>Huyện Phú Tân</TENQUAN>
+		<MASYT>51</MASYT>
+	</Table>
+	<Table>
+		<MAQU>80511</MAQU>
+		<MATT>805</MATT>
+		<TENQUAN>Huyện Châu Phú</TENQUAN>
+		<MASYT>51</MASYT>
+	</Table>
+	<Table>
+		<MAQU>80513</MAQU>
+		<MATT>805</MATT>
+		<TENQUAN>Huyện Tịnh Biên</TENQUAN>
+		<MASYT>51</MASYT>
+	</Table>
+	<Table>
+		<MAQU>80515</MAQU>
+		<MATT>805</MATT>
+		<TENQUAN>Huyện Tri Tôn</TENQUAN>
+		<MASYT>51</MASYT>
+	</Table>
+	<Table>
+		<MAQU>80517</MAQU>
+		<MATT>805</MATT>
+		<TENQUAN>Huyện Chợ Mới</TENQUAN>
+		<MASYT>51</MASYT>
+	</Table>
+	<Table>
+		<MAQU>80519</MAQU>
+		<MATT>805</MATT>
+		<TENQUAN>Huyện Châu Thành</TENQUAN>
+		<MASYT>51</MASYT>
+	</Table>
+	<Table>
+		<MAQU>80521</MAQU>
+		<MATT>805</MATT>
+		<TENQUAN>Huyện Thoại Sơn</TENQUAN>
+		<MASYT>51</MASYT>
+	</Table>
+	<Table>
+		<MAQU>80700</MAQU>
+		<MATT>807</MATT>
+		<TENQUAN>Không xác định</TENQUAN>
+		<MASYT>52</MASYT>
+	</Table>
+	<Table>
+		<MAQU>80701</MAQU>
+		<MATT>807</MATT>
+		<TENQUAN>Thành phố Mỹ Tho</TENQUAN>
+		<MASYT>52</MASYT>
+	</Table>
+	<Table>
+		<MAQU>80703</MAQU>
+		<MATT>807</MATT>
+		<TENQUAN>Thị xã Gò Công</TENQUAN>
+		<MASYT>52</MASYT>
+	</Table>
+	<Table>
+		<MAQU>80705</MAQU>
+		<MATT>807</MATT>
+		<TENQUAN>Huyện Tân Phước</TENQUAN>
+		<MASYT>52</MASYT>
+	</Table>
+	<Table>
+		<MAQU>80707</MAQU>
+		<MATT>807</MATT>
+		<TENQUAN>Huyện Châu Thành</TENQUAN>
+		<MASYT>52</MASYT>
+	</Table>
+	<Table>
+		<MAQU>80709</MAQU>
+		<MATT>807</MATT>
+		<TENQUAN>Huyện Cai Lậy</TENQUAN>
+		<MASYT>52</MASYT>
+	</Table>
+	<Table>
+		<MAQU>80711</MAQU>
+		<MATT>807</MATT>
+		<TENQUAN>Huyện Chợ Gạo</TENQUAN>
+		<MASYT>52</MASYT>
+	</Table>
+	<Table>
+		<MAQU>80713</MAQU>
+		<MATT>807</MATT>
+		<TENQUAN>Huyện Cái Bè</TENQUAN>
+		<MASYT>52</MASYT>
+	</Table>
+	<Table>
+		<MAQU>80715</MAQU>
+		<MATT>807</MATT>
+		<TENQUAN>Huyện Gò Công Tây</TENQUAN>
+		<MASYT>52</MASYT>
+	</Table>
+	<Table>
+		<MAQU>80717</MAQU>
+		<MATT>807</MATT>
+		<TENQUAN>Huyện Gò Công Đông</TENQUAN>
+		<MASYT>52</MASYT>
+	</Table>
+	<Table>
+		<MAQU>80900</MAQU>
+		<MATT>809</MATT>
+		<TENQUAN>Không xác định</TENQUAN>
+		<MASYT>54</MASYT>
+	</Table>
+	<Table>
+		<MAQU>80901</MAQU>
+		<MATT>809</MATT>
+		<TENQUAN>Thị xã Vĩnh Long</TENQUAN>
+		<MASYT>54</MASYT>
+	</Table>
+	<Table>
+		<MAQU>80903</MAQU>
+		<MATT>809</MATT>
+		<TENQUAN>Huyện Long Hồ</TENQUAN>
+		<MASYT>54</MASYT>
+	</Table>
+	<Table>
+		<MAQU>80905</MAQU>
+		<MATT>809</MATT>
+		<TENQUAN>Huyện Mang Thít</TENQUAN>
+		<MASYT>54</MASYT>
+	</Table>
+	<Table>
+		<MAQU>80907</MAQU>
+		<MATT>809</MATT>
+		<TENQUAN>Huyện Bình Minh</TENQUAN>
+		<MASYT>54</MASYT>
+	</Table>
+	<Table>
+		<MAQU>80909</MAQU>
+		<MATT>809</MATT>
+		<TENQUAN>Huyện Tam Bình</TENQUAN>
+		<MASYT>54</MASYT>
+	</Table>
+	<Table>
+		<MAQU>80911</MAQU>
+		<MATT>809</MATT>
+		<TENQUAN>Huyện Trà Ôn</TENQUAN>
+		<MASYT>54</MASYT>
+	</Table>
+	<Table>
+		<MAQU>80913</MAQU>
+		<MATT>809</MATT>
+		<TENQUAN>Huyện Vũng Liêm</TENQUAN>
+		<MASYT>54</MASYT>
+	</Table>
+	<Table>
+		<MAQU>81100</MAQU>
+		<MATT>811</MATT>
+		<TENQUAN>Không xác định</TENQUAN>
+		<MASYT>53</MASYT>
+	</Table>
+	<Table>
+		<MAQU>81101</MAQU>
+		<MATT>811</MATT>
+		<TENQUAN>Thị xã Bến Tre</TENQUAN>
+		<MASYT>53</MASYT>
+	</Table>
+	<Table>
+		<MAQU>81103</MAQU>
+		<MATT>811</MATT>
+		<TENQUAN>Huyện Châu Thành</TENQUAN>
+		<MASYT>53</MASYT>
+	</Table>
+	<Table>
+		<MAQU>81105</MAQU>
+		<MATT>811</MATT>
+		<TENQUAN>Huyện Chợ Lách</TENQUAN>
+		<MASYT>53</MASYT>
+	</Table>
+	<Table>
+		<MAQU>81107</MAQU>
+		<MATT>811</MATT>
+		<TENQUAN>Huyện Mỏ Cày</TENQUAN>
+		<MASYT>53</MASYT>
+	</Table>
+	<Table>
+		<MAQU>81109</MAQU>
+		<MATT>811</MATT>
+		<TENQUAN>Huyện Giồng Trôm</TENQUAN>
+		<MASYT>53</MASYT>
+	</Table>
+	<Table>
+		<MAQU>81111</MAQU>
+		<MATT>811</MATT>
+		<TENQUAN>Huyện Bình Đại</TENQUAN>
+		<MASYT>53</MASYT>
+	</Table>
+	<Table>
+		<MAQU>81113</MAQU>
+		<MATT>811</MATT>
+		<TENQUAN>Huyện Ba Tri</TENQUAN>
+		<MASYT>53</MASYT>
+	</Table>
+	<Table>
+		<MAQU>81115</MAQU>
+		<MATT>811</MATT>
+		<TENQUAN>Huyện Thạnh Phú</TENQUAN>
+		<MASYT>53</MASYT>
+	</Table>
+	<Table>
+		<MAQU>81300</MAQU>
+		<MATT>813</MATT>
+		<TENQUAN>Không xác định</TENQUAN>
+		<MASYT>58</MASYT>
+	</Table>
+	<Table>
+		<MAQU>81301</MAQU>
+		<MATT>813</MATT>
+		<TENQUAN>Thị xã Rạch Giá</TENQUAN>
+		<MASYT>58</MASYT>
+	</Table>
+	<Table>
+		<MAQU>81303</MAQU>
+		<MATT>813</MATT>
+		<TENQUAN>Huyện Hà Tiên</TENQUAN>
+		<MASYT>58</MASYT>
+	</Table>
+	<Table>
+		<MAQU>81305</MAQU>
+		<MATT>813</MATT>
+		<TENQUAN>Huyện Hòn Đất</TENQUAN>
+		<MASYT>58</MASYT>
+	</Table>
+	<Table>
+		<MAQU>81307</MAQU>
+		<MATT>813</MATT>
+		<TENQUAN>Huyện Tân Hiệp</TENQUAN>
+		<MASYT>58</MASYT>
+	</Table>
+	<Table>
+		<MAQU>81309</MAQU>
+		<MATT>813</MATT>
+		<TENQUAN>Huyện Châu Thành</TENQUAN>
+		<MASYT>58</MASYT>
+	</Table>
+	<Table>
+		<MAQU>81311</MAQU>
+		<MATT>813</MATT>
+		<TENQUAN>Huyện Giồng Giềng</TENQUAN>
+		<MASYT>58</MASYT>
+	</Table>
+	<Table>
+		<MAQU>81313</MAQU>
+		<MATT>813</MATT>
+		<TENQUAN>Huyện Gò Quao</TENQUAN>
+		<MASYT>58</MASYT>
+	</Table>
+	<Table>
+		<MAQU>81315</MAQU>
+		<MATT>813</MATT>
+		<TENQUAN>Huyện An Biên</TENQUAN>
+		<MASYT>58</MASYT>
+	</Table>
+	<Table>
+		<MAQU>81317</MAQU>
+		<MATT>813</MATT>
+		<TENQUAN>Huyện An Minh</TENQUAN>
+		<MASYT>58</MASYT>
+	</Table>
+	<Table>
+		<MAQU>81319</MAQU>
+		<MATT>813</MATT>
+		<TENQUAN>Huyện Vĩnh Thuận</TENQUAN>
+		<MASYT>58</MASYT>
+	</Table>
+	<Table>
+		<MAQU>81321</MAQU>
+		<MATT>813</MATT>
+		<TENQUAN>Huyện Phú Quốc</TENQUAN>
+		<MASYT>58</MASYT>
+	</Table>
+	<Table>
+		<MAQU>81323</MAQU>
+		<MATT>813</MATT>
+		<TENQUAN>Huyện Kiên Hải</TENQUAN>
+		<MASYT>58</MASYT>
+	</Table>
+	<Table>
+		<MAQU>81325</MAQU>
+		<MATT>813</MATT>
+		<TENQUAN>Thị xã Hà Tiên</TENQUAN>
+		<MASYT>58</MASYT>
+	</Table>
+	<Table>
+		<MAQU>81500</MAQU>
+		<MATT>815</MATT>
+		<TENQUAN>Không xác định</TENQUAN>
+		<MASYT>56</MASYT>
+	</Table>
+	<Table>
+		<MAQU>81501</MAQU>
+		<MATT>815</MATT>
+		<TENQUAN>Thành phố Cần Thơ</TENQUAN>
+		<MASYT>56</MASYT>
+	</Table>
+	<Table>
+		<MAQU>81502</MAQU>
+		<MATT>815</MATT>
+		<TENQUAN>Thị xã Vị Thanh</TENQUAN>
+		<MASYT>56</MASYT>
+	</Table>
+	<Table>
+		<MAQU>81503</MAQU>
+		<MATT>815</MATT>
+		<TENQUAN>Huyện Thốt Nốt</TENQUAN>
+		<MASYT>56</MASYT>
+	</Table>
+	<Table>
+		<MAQU>81505</MAQU>
+		<MATT>815</MATT>
+		<TENQUAN>Huyện Ô Môn</TENQUAN>
+		<MASYT>56</MASYT>
+	</Table>
+	<Table>
+		<MAQU>81507</MAQU>
+		<MATT>815</MATT>
+		<TENQUAN>Huyện Châu Thành</TENQUAN>
+		<MASYT>56</MASYT>
+	</Table>
+	<Table>
+		<MAQU>81509</MAQU>
+		<MATT>815</MATT>
+		<TENQUAN>Huyện Phụng Hiệp</TENQUAN>
+		<MASYT>56</MASYT>
+	</Table>
+	<Table>
+		<MAQU>81511</MAQU>
+		<MATT>815</MATT>
+		<TENQUAN>Huyện Vị Thuỷ</TENQUAN>
+		<MASYT>56</MASYT>
+	</Table>
+	<Table>
+		<MAQU>81513</MAQU>
+		<MATT>815</MATT>
+		<TENQUAN>Huyện Long Mỹ</TENQUAN>
+		<MASYT>56</MASYT>
+	</Table>
+	<Table>
+		<MAQU>81700</MAQU>
+		<MATT>817</MATT>
+		<TENQUAN>Không xác định</TENQUAN>
+		<MASYT>55</MASYT>
+	</Table>
+	<Table>
+		<MAQU>81701</MAQU>
+		<MATT>817</MATT>
+		<TENQUAN>Thị xã Trà Vinh</TENQUAN>
+		<MASYT>55</MASYT>
+	</Table>
+	<Table>
+		<MAQU>81703</MAQU>
+		<MATT>817</MATT>
+		<TENQUAN>Huyện Càng Long</TENQUAN>
+		<MASYT>55</MASYT>
+	</Table>
+	<Table>
+		<MAQU>81705</MAQU>
+		<MATT>817</MATT>
+		<TENQUAN>Huyện Châu Thành</TENQUAN>
+		<MASYT>55</MASYT>
+	</Table>
+	<Table>
+		<MAQU>81707</MAQU>
+		<MATT>817</MATT>
+		<TENQUAN>Huyện Cầu Kè</TENQUAN>
+		<MASYT>55</MASYT>
+	</Table>
+	<Table>
+		<MAQU>81709</MAQU>
+		<MATT>817</MATT>
+		<TENQUAN>Huyện Tiểu Cần</TENQUAN>
+		<MASYT>55</MASYT>
+	</Table>
+	<Table>
+		<MAQU>81711</MAQU>
+		<MATT>817</MATT>
+		<TENQUAN>Huyện Cầu Ngang</TENQUAN>
+		<MASYT>55</MASYT>
+	</Table>
+	<Table>
+		<MAQU>81713</MAQU>
+		<MATT>817</MATT>
+		<TENQUAN>Huyện Trà Cú</TENQUAN>
+		<MASYT>55</MASYT>
+	</Table>
+	<Table>
+		<MAQU>81715</MAQU>
+		<MATT>817</MATT>
+		<TENQUAN>Huyện Duyên Hải</TENQUAN>
+		<MASYT>55</MASYT>
+	</Table>
+	<Table>
+		<MAQU>81900</MAQU>
+		<MATT>819</MATT>
+		<TENQUAN>Không xác định</TENQUAN>
+		<MASYT>57</MASYT>
+	</Table>
+	<Table>
+		<MAQU>81901</MAQU>
+		<MATT>819</MATT>
+		<TENQUAN>Thị xã Sóc Trăng</TENQUAN>
+		<MASYT>57</MASYT>
+	</Table>
+	<Table>
+		<MAQU>81903</MAQU>
+		<MATT>819</MATT>
+		<TENQUAN>Huyện Kế Sách</TENQUAN>
+		<MASYT>57</MASYT>
+	</Table>
+	<Table>
+		<MAQU>81905</MAQU>
+		<MATT>819</MATT>
+		<TENQUAN>Huyện Long Phú</TENQUAN>
+		<MASYT>57</MASYT>
+	</Table>
+	<Table>
+		<MAQU>81907</MAQU>
+		<MATT>819</MATT>
+		<TENQUAN>Huyện Mỹ Tú</TENQUAN>
+		<MASYT>57</MASYT>
+	</Table>
+	<Table>
+		<MAQU>81909</MAQU>
+		<MATT>819</MATT>
+		<TENQUAN>Huyện Mỹ Xuyên</TENQUAN>
+		<MASYT>57</MASYT>
+	</Table>
+	<Table>
+		<MAQU>81911</MAQU>
+		<MATT>819</MATT>
+		<TENQUAN>Huyện Thạnh Trị</TENQUAN>
+		<MASYT>57</MASYT>
+	</Table>
+	<Table>
+		<MAQU>81913</MAQU>
+		<MATT>819</MATT>
+		<TENQUAN>Huyện Vĩnh Châu</TENQUAN>
+		<MASYT>57</MASYT>
+	</Table>
+	<Table>
+		<MAQU>82100</MAQU>
+		<MATT>821</MATT>
+		<TENQUAN>Không xác định</TENQUAN>
+		<MASYT>59</MASYT>
+	</Table>
+	<Table>
+		<MAQU>82101</MAQU>
+		<MATT>821</MATT>
+		<TENQUAN>Thị xã Bạc Liêu</TENQUAN>
+		<MASYT>59</MASYT>
+	</Table>
+	<Table>
+		<MAQU>82103</MAQU>
+		<MATT>821</MATT>
+		<TENQUAN>Huyện Hồng Dân</TENQUAN>
+		<MASYT>59</MASYT>
+	</Table>
+	<Table>
+		<MAQU>82105</MAQU>
+		<MATT>821</MATT>
+		<TENQUAN>Huyện Vĩnh Lợi</TENQUAN>
+		<MASYT>59</MASYT>
+	</Table>
+	<Table>
+		<MAQU>82107</MAQU>
+		<MATT>821</MATT>
+		<TENQUAN>Huyện Giá Rai</TENQUAN>
+		<MASYT>59</MASYT>
+	</Table>
+	<Table>
+		<MAQU>82300</MAQU>
+		<MATT>823</MATT>
+		<TENQUAN>Không xác định</TENQUAN>
+		<MASYT>60</MASYT>
+	</Table>
+	<Table>
+		<MAQU>82301</MAQU>
+		<MATT>823</MATT>
+		<TENQUAN>Thị xã Cà Mau</TENQUAN>
+		<MASYT>60</MASYT>
+	</Table>
+	<Table>
+		<MAQU>82303</MAQU>
+		<MATT>823</MATT>
+		<TENQUAN>Huyện Thới Bình</TENQUAN>
+		<MASYT>60</MASYT>
+	</Table>
+	<Table>
+		<MAQU>82305</MAQU>
+		<MATT>823</MATT>
+		<TENQUAN>Huyện U Minh</TENQUAN>
+		<MASYT>60</MASYT>
+	</Table>
+	<Table>
+		<MAQU>82307</MAQU>
+		<MATT>823</MATT>
+		<TENQUAN>Huyện Trần Văn Thời</TENQUAN>
+		<MASYT>60</MASYT>
+	</Table>
+	<Table>
+		<MAQU>82309</MAQU>
+		<MATT>823</MATT>
+		<TENQUAN>Huyện Cái Nước</TENQUAN>
+		<MASYT>60</MASYT>
+	</Table>
+	<Table>
+		<MAQU>82311</MAQU>
+		<MATT>823</MATT>
+		<TENQUAN>Huyện Đầm Dơi</TENQUAN>
+		<MASYT>60</MASYT>
+	</Table>
+	<Table>
+		<MAQU>82313</MAQU>
+		<MATT>823</MATT>
+		<TENQUAN>Huyện Ngọc Hiển</TENQUAN>
+		<MASYT>60</MASYT>
+	</Table>
+</NewDataSet>

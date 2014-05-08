@@ -1,0 +1,2160 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ID" type="xs:decimal" minOccurs="0" />
+                <xs:element name="MABN" type="xs:string" minOccurs="0" />
+                <xs:element name="HOTEN" type="xs:string" minOccurs="0" />
+                <xs:element name="NAMSINH" type="xs:string" minOccurs="0" />
+                <xs:element name="HOTEN_BO" type="xs:string" minOccurs="0" />
+                <xs:element name="HOTEN_ME" type="xs:string" minOccurs="0" />
+                <xs:element name="TINH" type="xs:string" minOccurs="0" />
+                <xs:element name="QUAN" type="xs:string" minOccurs="0" />
+                <xs:element name="XA" type="xs:string" minOccurs="0" />
+                <xs:element name="SONHA" type="xs:string" minOccurs="0" />
+                <xs:element name="THON" type="xs:string" minOccurs="0" />
+                <xs:element name="GIOITINH" type="xs:string" minOccurs="0" />
+                <xs:element name="MABHYT" type="xs:string" minOccurs="0" />
+                <xs:element name="GIATRIDEN" type="xs:string" minOccurs="0" />
+                <xs:element name="MABV" type="xs:string" minOccurs="0" />
+                <xs:element name="TENBV" type="xs:string" minOccurs="0" />
+                <xs:element name="SOHIEU" type="xs:string" minOccurs="0" />
+                <xs:element name="SOBIENLAI" type="xs:decimal" minOccurs="0" />
+                <xs:element name="TENKP" type="xs:string" minOccurs="0" />
+                <xs:element name="MAICD" type="xs:string" minOccurs="0" />
+                <xs:element name="CHANDOAN" type="xs:string" minOccurs="0" />
+                <xs:element name="NGAY" type="xs:string" minOccurs="0" />
+                <xs:element name="NGAYVAO" type="xs:string" minOccurs="0" />
+                <xs:element name="NGAYRA" type="xs:string" minOccurs="0" />
+                <xs:element name="SONGAY" type="xs:decimal" minOccurs="0" />
+                <xs:element name="GIUONG" type="xs:string" minOccurs="0" />
+                <xs:element name="ID_VP" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ID_LOAI" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ID_NHOM" type="xs:decimal" minOccurs="0" />
+                <xs:element name="TENVP" type="xs:string" minOccurs="0" />
+                <xs:element name="TENLOAIVP" type="xs:string" minOccurs="0" />
+                <xs:element name="TENNHOMVP" type="xs:string" minOccurs="0" />
+                <xs:element name="STTVP" type="xs:decimal" minOccurs="0" />
+                <xs:element name="STTLOAIVP" type="xs:decimal" minOccurs="0" />
+                <xs:element name="STTNHOMVP" type="xs:decimal" minOccurs="0" />
+                <xs:element name="DVT" type="xs:string" minOccurs="0" />
+                <xs:element name="SOLUONG" type="xs:decimal" minOccurs="0" />
+                <xs:element name="DONGIA" type="xs:decimal" minOccurs="0" />
+                <xs:element name="SOTIEN" type="xs:decimal" minOccurs="0" />
+                <xs:element name="TONGCP" type="xs:decimal" minOccurs="0" />
+                <xs:element name="BHYT" type="xs:decimal" minOccurs="0" />
+                <xs:element name="TAMUNG" type="xs:decimal" minOccurs="0" />
+                <xs:element name="MIEN" type="xs:decimal" minOccurs="0" />
+                <xs:element name="THIEU" type="xs:decimal" minOccurs="0" />
+                <xs:element name="BNTRA" type="xs:decimal" minOccurs="0" />
+                <xs:element name="MADOITUONG" type="xs:decimal" minOccurs="0" />
+                <xs:element name="NGUOITHU" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <ID>12000000010</ID>
+    <MABN>06000726</MABN>
+    <HOTEN>TRẦN THỊ ĐỨC</HOTEN>
+    <NAMSINH>1973</NAMSINH>
+    <TINH>Thanh Hóa</TINH>
+    <QUAN>Huyện Quảng Xương</QUAN>
+    <XA>Xã Quảng Long</XA>
+    <GIOITINH>Nữ</GIOITINH>
+    <MABHYT>. . . . . . . . . . . . . . </MABHYT>
+    <GIATRIDEN>. . . . . . . . . . . . . . </GIATRIDEN>
+    <SOHIEU>BLTVP</SOHIEU>
+    <SOBIENLAI>20820</SOBIENLAI>
+    <TENKP>Khoa Bệnh Máu Tổng Hợp (c7)</TENKP>
+    <MAICD>D75</MAICD>
+    <CHANDOAN>Các bệnh máu và cơ quan tạo máu khác</CHANDOAN>
+    <NGAY>14/03/2006</NGAY>
+    <NGAYVAO>23/02/2006</NGAYVAO>
+    <NGAYRA>14/03/2006</NGAYRA>
+    <SONGAY>19</SONGAY>
+    <ID_VP>341</ID_VP>
+    <ID_LOAI>0</ID_LOAI>
+    <ID_NHOM>7</ID_NHOM>
+    <TENVP>Vitamin B1 [Vitamin B1 50mg] 50mg</TENVP>
+    <TENNHOMVP>Thuốc</TENNHOMVP>
+    <STTVP>124</STTVP>
+    <STTLOAIVP>1</STTLOAIVP>
+    <STTNHOMVP>7</STTNHOMVP>
+    <DVT>Viên</DVT>
+    <SOLUONG>8</SOLUONG>
+    <DONGIA>37</DONGIA>
+    <SOTIEN>296</SOTIEN>
+    <TONGCP>3628734</TONGCP>
+    <BHYT>0</BHYT>
+    <TAMUNG>0</TAMUNG>
+    <MIEN>3628734</MIEN>
+    <THIEU>0</THIEU>
+    <BNTRA>0</BNTRA>
+    <MADOITUONG>3</MADOITUONG>
+    <NGUOITHU>Lê Quang Hưng</NGUOITHU>
+  </Table>
+  <Table>
+    <ID>12000000010</ID>
+    <MABN>06000726</MABN>
+    <HOTEN>TRẦN THỊ ĐỨC</HOTEN>
+    <NAMSINH>1973</NAMSINH>
+    <TINH>Thanh Hóa</TINH>
+    <QUAN>Huyện Quảng Xương</QUAN>
+    <XA>Xã Quảng Long</XA>
+    <GIOITINH>Nữ</GIOITINH>
+    <MABHYT>. . . . . . . . . . . . . . </MABHYT>
+    <GIATRIDEN>. . . . . . . . . . . . . . </GIATRIDEN>
+    <SOHIEU>BLTVP</SOHIEU>
+    <SOBIENLAI>20820</SOBIENLAI>
+    <TENKP>Khoa Bệnh Máu Tổng Hợp (c7)</TENKP>
+    <MAICD>D75</MAICD>
+    <CHANDOAN>Các bệnh máu và cơ quan tạo máu khác</CHANDOAN>
+    <NGAY>14/03/2006</NGAY>
+    <NGAYVAO>23/02/2006</NGAYVAO>
+    <NGAYRA>14/03/2006</NGAYRA>
+    <SONGAY>19</SONGAY>
+    <ID_VP>403</ID_VP>
+    <ID_LOAI>0</ID_LOAI>
+    <ID_NHOM>7</ID_NHOM>
+    <TENVP>Seduxen 5mg[Diazepam 5mg]</TENVP>
+    <TENNHOMVP>Thuốc</TENNHOMVP>
+    <STTVP>160</STTVP>
+    <STTLOAIVP>1</STTLOAIVP>
+    <STTNHOMVP>7</STTNHOMVP>
+    <DVT>Viên</DVT>
+    <SOLUONG>1</SOLUONG>
+    <DONGIA>263</DONGIA>
+    <SOTIEN>263</SOTIEN>
+    <TONGCP>3628734</TONGCP>
+    <BHYT>0</BHYT>
+    <TAMUNG>0</TAMUNG>
+    <MIEN>3628734</MIEN>
+    <THIEU>0</THIEU>
+    <BNTRA>0</BNTRA>
+    <MADOITUONG>3</MADOITUONG>
+    <NGUOITHU>Lê Quang Hưng</NGUOITHU>
+  </Table>
+  <Table>
+    <ID>12000000010</ID>
+    <MABN>06000726</MABN>
+    <HOTEN>TRẦN THỊ ĐỨC</HOTEN>
+    <NAMSINH>1973</NAMSINH>
+    <TINH>Thanh Hóa</TINH>
+    <QUAN>Huyện Quảng Xương</QUAN>
+    <XA>Xã Quảng Long</XA>
+    <GIOITINH>Nữ</GIOITINH>
+    <MABHYT>. . . . . . . . . . . . . . </MABHYT>
+    <GIATRIDEN>. . . . . . . . . . . . . . </GIATRIDEN>
+    <SOHIEU>BLTVP</SOHIEU>
+    <SOBIENLAI>20820</SOBIENLAI>
+    <TENKP>Khoa Bệnh Máu Tổng Hợp (c7)</TENKP>
+    <MAICD>D75</MAICD>
+    <CHANDOAN>Các bệnh máu và cơ quan tạo máu khác</CHANDOAN>
+    <NGAY>14/03/2006</NGAY>
+    <NGAYVAO>23/02/2006</NGAYVAO>
+    <NGAYRA>14/03/2006</NGAYRA>
+    <SONGAY>19</SONGAY>
+    <ID_VP>419</ID_VP>
+    <ID_LOAI>0</ID_LOAI>
+    <ID_NHOM>7</ID_NHOM>
+    <TENVP>Hepolive[L-ornithine - L-aspartate 500mg/5ml]</TENVP>
+    <TENNHOMVP>Thuốc</TENNHOMVP>
+    <STTVP>176</STTVP>
+    <STTLOAIVP>1</STTLOAIVP>
+    <STTNHOMVP>7</STTNHOMVP>
+    <DVT>Ống</DVT>
+    <SOLUONG>8</SOLUONG>
+    <DONGIA>31000</DONGIA>
+    <SOTIEN>248000</SOTIEN>
+    <TONGCP>3628734</TONGCP>
+    <BHYT>0</BHYT>
+    <TAMUNG>0</TAMUNG>
+    <MIEN>3628734</MIEN>
+    <THIEU>0</THIEU>
+    <BNTRA>0</BNTRA>
+    <MADOITUONG>3</MADOITUONG>
+    <NGUOITHU>Lê Quang Hưng</NGUOITHU>
+  </Table>
+  <Table>
+    <ID>12000000010</ID>
+    <MABN>06000726</MABN>
+    <HOTEN>TRẦN THỊ ĐỨC</HOTEN>
+    <NAMSINH>1973</NAMSINH>
+    <TINH>Thanh Hóa</TINH>
+    <QUAN>Huyện Quảng Xương</QUAN>
+    <XA>Xã Quảng Long</XA>
+    <GIOITINH>Nữ</GIOITINH>
+    <MABHYT>. . . . . . . . . . . . . . </MABHYT>
+    <GIATRIDEN>. . . . . . . . . . . . . . </GIATRIDEN>
+    <SOHIEU>BLTVP</SOHIEU>
+    <SOBIENLAI>20820</SOBIENLAI>
+    <TENKP>Khoa Bệnh Máu Tổng Hợp (c7)</TENKP>
+    <MAICD>D75</MAICD>
+    <CHANDOAN>Các bệnh máu và cơ quan tạo máu khác</CHANDOAN>
+    <NGAY>14/03/2006</NGAY>
+    <NGAYVAO>23/02/2006</NGAYVAO>
+    <NGAYRA>14/03/2006</NGAYRA>
+    <SONGAY>19</SONGAY>
+    <ID_VP>376</ID_VP>
+    <ID_LOAI>0</ID_LOAI>
+    <ID_NHOM>7</ID_NHOM>
+    <TENVP>Ancatrol[Calcitriol 0.25mg]</TENVP>
+    <TENNHOMVP>Thuốc</TENNHOMVP>
+    <STTVP>135</STTVP>
+    <STTLOAIVP>1</STTLOAIVP>
+    <STTNHOMVP>7</STTNHOMVP>
+    <DVT>Viên</DVT>
+    <SOLUONG>16</SOLUONG>
+    <DONGIA>2100</DONGIA>
+    <SOTIEN>33600</SOTIEN>
+    <TONGCP>3628734</TONGCP>
+    <BHYT>0</BHYT>
+    <TAMUNG>0</TAMUNG>
+    <MIEN>3628734</MIEN>
+    <THIEU>0</THIEU>
+    <BNTRA>0</BNTRA>
+    <MADOITUONG>3</MADOITUONG>
+    <NGUOITHU>Lê Quang Hưng</NGUOITHU>
+  </Table>
+  <Table>
+    <ID>12000000010</ID>
+    <MABN>06000726</MABN>
+    <HOTEN>TRẦN THỊ ĐỨC</HOTEN>
+    <NAMSINH>1973</NAMSINH>
+    <TINH>Thanh Hóa</TINH>
+    <QUAN>Huyện Quảng Xương</QUAN>
+    <XA>Xã Quảng Long</XA>
+    <GIOITINH>Nữ</GIOITINH>
+    <MABHYT>. . . . . . . . . . . . . . </MABHYT>
+    <GIATRIDEN>. . . . . . . . . . . . . . </GIATRIDEN>
+    <SOHIEU>BLTVP</SOHIEU>
+    <SOBIENLAI>20820</SOBIENLAI>
+    <TENKP>Khoa Bệnh Máu Tổng Hợp (c7)</TENKP>
+    <MAICD>D75</MAICD>
+    <CHANDOAN>Các bệnh máu và cơ quan tạo máu khác</CHANDOAN>
+    <NGAY>14/03/2006</NGAY>
+    <NGAYVAO>23/02/2006</NGAYVAO>
+    <NGAYRA>14/03/2006</NGAYRA>
+    <SONGAY>19</SONGAY>
+    <ID_VP>67</ID_VP>
+    <ID_LOAI>3</ID_LOAI>
+    <ID_NHOM>2</ID_NHOM>
+    <TENVP>Albumine</TENVP>
+    <TENLOAIVP>Sinh hoá (Máu)</TENLOAIVP>
+    <TENNHOMVP>Xét nghiệm</TENNHOMVP>
+    <STTVP>11</STTVP>
+    <STTLOAIVP>19</STTLOAIVP>
+    <STTNHOMVP>2</STTNHOMVP>
+    <DVT>Lần</DVT>
+    <SOLUONG>1</SOLUONG>
+    <DONGIA>12000</DONGIA>
+    <SOTIEN>12000</SOTIEN>
+    <TONGCP>3628734</TONGCP>
+    <BHYT>0</BHYT>
+    <TAMUNG>0</TAMUNG>
+    <MIEN>3628734</MIEN>
+    <THIEU>0</THIEU>
+    <BNTRA>0</BNTRA>
+    <MADOITUONG>3</MADOITUONG>
+    <NGUOITHU>Lê Quang Hưng</NGUOITHU>
+  </Table>
+  <Table>
+    <ID>12000000010</ID>
+    <MABN>06000726</MABN>
+    <HOTEN>TRẦN THỊ ĐỨC</HOTEN>
+    <NAMSINH>1973</NAMSINH>
+    <TINH>Thanh Hóa</TINH>
+    <QUAN>Huyện Quảng Xương</QUAN>
+    <XA>Xã Quảng Long</XA>
+    <GIOITINH>Nữ</GIOITINH>
+    <MABHYT>. . . . . . . . . . . . . . </MABHYT>
+    <GIATRIDEN>. . . . . . . . . . . . . . </GIATRIDEN>
+    <SOHIEU>BLTVP</SOHIEU>
+    <SOBIENLAI>20820</SOBIENLAI>
+    <TENKP>Khoa Bệnh Máu Tổng Hợp (c7)</TENKP>
+    <MAICD>D75</MAICD>
+    <CHANDOAN>Các bệnh máu và cơ quan tạo máu khác</CHANDOAN>
+    <NGAY>14/03/2006</NGAY>
+    <NGAYVAO>23/02/2006</NGAYVAO>
+    <NGAYRA>14/03/2006</NGAYRA>
+    <SONGAY>19</SONGAY>
+    <ID_VP>73</ID_VP>
+    <ID_LOAI>3</ID_LOAI>
+    <ID_NHOM>2</ID_NHOM>
+    <TENVP>Bilirubin GT</TENVP>
+    <TENLOAIVP>Sinh hoá (Máu)</TENLOAIVP>
+    <TENNHOMVP>Xét nghiệm</TENNHOMVP>
+    <STTVP>9</STTVP>
+    <STTLOAIVP>19</STTLOAIVP>
+    <STTNHOMVP>2</STTNHOMVP>
+    <DVT>Lần</DVT>
+    <SOLUONG>1</SOLUONG>
+    <DONGIA>15000</DONGIA>
+    <SOTIEN>15000</SOTIEN>
+    <TONGCP>3628734</TONGCP>
+    <BHYT>0</BHYT>
+    <TAMUNG>0</TAMUNG>
+    <MIEN>3628734</MIEN>
+    <THIEU>0</THIEU>
+    <BNTRA>0</BNTRA>
+    <MADOITUONG>3</MADOITUONG>
+    <NGUOITHU>Lê Quang Hưng</NGUOITHU>
+  </Table>
+  <Table>
+    <ID>12000000010</ID>
+    <MABN>06000726</MABN>
+    <HOTEN>TRẦN THỊ ĐỨC</HOTEN>
+    <NAMSINH>1973</NAMSINH>
+    <TINH>Thanh Hóa</TINH>
+    <QUAN>Huyện Quảng Xương</QUAN>
+    <XA>Xã Quảng Long</XA>
+    <GIOITINH>Nữ</GIOITINH>
+    <MABHYT>. . . . . . . . . . . . . . </MABHYT>
+    <GIATRIDEN>. . . . . . . . . . . . . . </GIATRIDEN>
+    <SOHIEU>BLTVP</SOHIEU>
+    <SOBIENLAI>20820</SOBIENLAI>
+    <TENKP>Khoa Bệnh Máu Tổng Hợp (c7)</TENKP>
+    <MAICD>D75</MAICD>
+    <CHANDOAN>Các bệnh máu và cơ quan tạo máu khác</CHANDOAN>
+    <NGAY>14/03/2006</NGAY>
+    <NGAYVAO>23/02/2006</NGAYVAO>
+    <NGAYRA>14/03/2006</NGAYRA>
+    <SONGAY>19</SONGAY>
+    <ID_VP>117</ID_VP>
+    <ID_LOAI>3</ID_LOAI>
+    <ID_NHOM>2</ID_NHOM>
+    <TENVP>Sắt</TENVP>
+    <TENLOAIVP>Sinh hoá (Máu)</TENLOAIVP>
+    <TENNHOMVP>Xét nghiệm</TENNHOMVP>
+    <STTVP>22</STTVP>
+    <STTLOAIVP>19</STTLOAIVP>
+    <STTNHOMVP>2</STTNHOMVP>
+    <DVT>Lần</DVT>
+    <SOLUONG>1</SOLUONG>
+    <DONGIA>6000</DONGIA>
+    <SOTIEN>6000</SOTIEN>
+    <TONGCP>3628734</TONGCP>
+    <BHYT>0</BHYT>
+    <TAMUNG>0</TAMUNG>
+    <MIEN>3628734</MIEN>
+    <THIEU>0</THIEU>
+    <BNTRA>0</BNTRA>
+    <MADOITUONG>3</MADOITUONG>
+    <NGUOITHU>Lê Quang Hưng</NGUOITHU>
+  </Table>
+  <Table>
+    <ID>12000000010</ID>
+    <MABN>06000726</MABN>
+    <HOTEN>TRẦN THỊ ĐỨC</HOTEN>
+    <NAMSINH>1973</NAMSINH>
+    <TINH>Thanh Hóa</TINH>
+    <QUAN>Huyện Quảng Xương</QUAN>
+    <XA>Xã Quảng Long</XA>
+    <GIOITINH>Nữ</GIOITINH>
+    <MABHYT>. . . . . . . . . . . . . . </MABHYT>
+    <GIATRIDEN>. . . . . . . . . . . . . . </GIATRIDEN>
+    <SOHIEU>BLTVP</SOHIEU>
+    <SOBIENLAI>20820</SOBIENLAI>
+    <TENKP>Khoa Bệnh Máu Tổng Hợp (c7)</TENKP>
+    <MAICD>D75</MAICD>
+    <CHANDOAN>Các bệnh máu và cơ quan tạo máu khác</CHANDOAN>
+    <NGAY>14/03/2006</NGAY>
+    <NGAYVAO>23/02/2006</NGAYVAO>
+    <NGAYRA>14/03/2006</NGAYRA>
+    <SONGAY>19</SONGAY>
+    <ID_VP>108</ID_VP>
+    <ID_LOAI>3</ID_LOAI>
+    <ID_NHOM>2</ID_NHOM>
+    <TENVP>LDH</TENVP>
+    <TENLOAIVP>Sinh hoá (Máu)</TENLOAIVP>
+    <TENNHOMVP>Xét nghiệm</TENNHOMVP>
+    <STTVP>28</STTVP>
+    <STTLOAIVP>19</STTLOAIVP>
+    <STTNHOMVP>2</STTNHOMVP>
+    <DVT>Lần</DVT>
+    <SOLUONG>1</SOLUONG>
+    <DONGIA>30000</DONGIA>
+    <SOTIEN>30000</SOTIEN>
+    <TONGCP>3628734</TONGCP>
+    <BHYT>0</BHYT>
+    <TAMUNG>0</TAMUNG>
+    <MIEN>3628734</MIEN>
+    <THIEU>0</THIEU>
+    <BNTRA>0</BNTRA>
+    <MADOITUONG>3</MADOITUONG>
+    <NGUOITHU>Lê Quang Hưng</NGUOITHU>
+  </Table>
+  <Table>
+    <ID>12000000010</ID>
+    <MABN>06000726</MABN>
+    <HOTEN>TRẦN THỊ ĐỨC</HOTEN>
+    <NAMSINH>1973</NAMSINH>
+    <TINH>Thanh Hóa</TINH>
+    <QUAN>Huyện Quảng Xương</QUAN>
+    <XA>Xã Quảng Long</XA>
+    <GIOITINH>Nữ</GIOITINH>
+    <MABHYT>. . . . . . . . . . . . . . </MABHYT>
+    <GIATRIDEN>. . . . . . . . . . . . . . </GIATRIDEN>
+    <SOHIEU>BLTVP</SOHIEU>
+    <SOBIENLAI>20820</SOBIENLAI>
+    <TENKP>Khoa Bệnh Máu Tổng Hợp (c7)</TENKP>
+    <MAICD>D75</MAICD>
+    <CHANDOAN>Các bệnh máu và cơ quan tạo máu khác</CHANDOAN>
+    <NGAY>14/03/2006</NGAY>
+    <NGAYVAO>23/02/2006</NGAYVAO>
+    <NGAYRA>14/03/2006</NGAYRA>
+    <SONGAY>19</SONGAY>
+    <ID_VP>89</ID_VP>
+    <ID_LOAI>3</ID_LOAI>
+    <ID_NHOM>2</ID_NHOM>
+    <TENVP>Creatinnin</TENVP>
+    <TENLOAIVP>Sinh hoá (Máu)</TENLOAIVP>
+    <TENNHOMVP>Xét nghiệm</TENNHOMVP>
+    <STTVP>5</STTVP>
+    <STTLOAIVP>19</STTLOAIVP>
+    <STTNHOMVP>2</STTNHOMVP>
+    <DVT>Lần</DVT>
+    <SOLUONG>1</SOLUONG>
+    <DONGIA>12000</DONGIA>
+    <SOTIEN>12000</SOTIEN>
+    <TONGCP>3628734</TONGCP>
+    <BHYT>0</BHYT>
+    <TAMUNG>0</TAMUNG>
+    <MIEN>3628734</MIEN>
+    <THIEU>0</THIEU>
+    <BNTRA>0</BNTRA>
+    <MADOITUONG>3</MADOITUONG>
+    <NGUOITHU>Lê Quang Hưng</NGUOITHU>
+  </Table>
+  <Table>
+    <ID>12000000010</ID>
+    <MABN>06000726</MABN>
+    <HOTEN>TRẦN THỊ ĐỨC</HOTEN>
+    <NAMSINH>1973</NAMSINH>
+    <TINH>Thanh Hóa</TINH>
+    <QUAN>Huyện Quảng Xương</QUAN>
+    <XA>Xã Quảng Long</XA>
+    <GIOITINH>Nữ</GIOITINH>
+    <MABHYT>. . . . . . . . . . . . . . </MABHYT>
+    <GIATRIDEN>. . . . . . . . . . . . . . </GIATRIDEN>
+    <SOHIEU>BLTVP</SOHIEU>
+    <SOBIENLAI>20820</SOBIENLAI>
+    <TENKP>Khoa Bệnh Máu Tổng Hợp (c7)</TENKP>
+    <MAICD>D75</MAICD>
+    <CHANDOAN>Các bệnh máu và cơ quan tạo máu khác</CHANDOAN>
+    <NGAY>14/03/2006</NGAY>
+    <NGAYVAO>23/02/2006</NGAYVAO>
+    <NGAYRA>14/03/2006</NGAYRA>
+    <SONGAY>19</SONGAY>
+    <ID_VP>98</ID_VP>
+    <ID_LOAI>3</ID_LOAI>
+    <ID_NHOM>2</ID_NHOM>
+    <TENVP>Globuline</TENVP>
+    <TENLOAIVP>Sinh hoá (Máu)</TENLOAIVP>
+    <TENNHOMVP>Xét nghiệm</TENNHOMVP>
+    <STTVP>12</STTVP>
+    <STTLOAIVP>19</STTLOAIVP>
+    <STTNHOMVP>2</STTNHOMVP>
+    <DVT>Lần</DVT>
+    <SOLUONG>1</SOLUONG>
+    <DONGIA>12000</DONGIA>
+    <SOTIEN>12000</SOTIEN>
+    <TONGCP>3628734</TONGCP>
+    <BHYT>0</BHYT>
+    <TAMUNG>0</TAMUNG>
+    <MIEN>3628734</MIEN>
+    <THIEU>0</THIEU>
+    <BNTRA>0</BNTRA>
+    <MADOITUONG>3</MADOITUONG>
+    <NGUOITHU>Lê Quang Hưng</NGUOITHU>
+  </Table>
+  <Table>
+    <ID>12000000010</ID>
+    <MABN>06000726</MABN>
+    <HOTEN>TRẦN THỊ ĐỨC</HOTEN>
+    <NAMSINH>1973</NAMSINH>
+    <TINH>Thanh Hóa</TINH>
+    <QUAN>Huyện Quảng Xương</QUAN>
+    <XA>Xã Quảng Long</XA>
+    <GIOITINH>Nữ</GIOITINH>
+    <MABHYT>. . . . . . . . . . . . . . </MABHYT>
+    <GIATRIDEN>. . . . . . . . . . . . . . </GIATRIDEN>
+    <SOHIEU>BLTVP</SOHIEU>
+    <SOBIENLAI>20820</SOBIENLAI>
+    <TENKP>Khoa Bệnh Máu Tổng Hợp (c7)</TENKP>
+    <MAICD>D75</MAICD>
+    <CHANDOAN>Các bệnh máu và cơ quan tạo máu khác</CHANDOAN>
+    <NGAY>14/03/2006</NGAY>
+    <NGAYVAO>23/02/2006</NGAYVAO>
+    <NGAYRA>14/03/2006</NGAYRA>
+    <SONGAY>19</SONGAY>
+    <ID_VP>99</ID_VP>
+    <ID_LOAI>3</ID_LOAI>
+    <ID_NHOM>2</ID_NHOM>
+    <TENVP>GOT-GPT</TENVP>
+    <TENLOAIVP>Sinh hoá (Máu)</TENLOAIVP>
+    <TENNHOMVP>Xét nghiệm</TENNHOMVP>
+    <STTVP>24</STTVP>
+    <STTLOAIVP>19</STTLOAIVP>
+    <STTNHOMVP>2</STTNHOMVP>
+    <DVT>Lần</DVT>
+    <SOLUONG>1</SOLUONG>
+    <DONGIA>30000</DONGIA>
+    <SOTIEN>30000</SOTIEN>
+    <TONGCP>3628734</TONGCP>
+    <BHYT>0</BHYT>
+    <TAMUNG>0</TAMUNG>
+    <MIEN>3628734</MIEN>
+    <THIEU>0</THIEU>
+    <BNTRA>0</BNTRA>
+    <MADOITUONG>3</MADOITUONG>
+    <NGUOITHU>Lê Quang Hưng</NGUOITHU>
+  </Table>
+  <Table>
+    <ID>12000000010</ID>
+    <MABN>06000726</MABN>
+    <HOTEN>TRẦN THỊ ĐỨC</HOTEN>
+    <NAMSINH>1973</NAMSINH>
+    <TINH>Thanh Hóa</TINH>
+    <QUAN>Huyện Quảng Xương</QUAN>
+    <XA>Xã Quảng Long</XA>
+    <GIOITINH>Nữ</GIOITINH>
+    <MABHYT>. . . . . . . . . . . . . . </MABHYT>
+    <GIATRIDEN>. . . . . . . . . . . . . . </GIATRIDEN>
+    <SOHIEU>BLTVP</SOHIEU>
+    <SOBIENLAI>20820</SOBIENLAI>
+    <TENKP>Khoa Bệnh Máu Tổng Hợp (c7)</TENKP>
+    <MAICD>D75</MAICD>
+    <CHANDOAN>Các bệnh máu và cơ quan tạo máu khác</CHANDOAN>
+    <NGAY>14/03/2006</NGAY>
+    <NGAYVAO>23/02/2006</NGAYVAO>
+    <NGAYRA>14/03/2006</NGAYRA>
+    <SONGAY>19</SONGAY>
+    <ID_VP>114</ID_VP>
+    <ID_LOAI>3</ID_LOAI>
+    <ID_NHOM>2</ID_NHOM>
+    <TENVP>Protein TP</TENVP>
+    <TENLOAIVP>Sinh hoá (Máu)</TENLOAIVP>
+    <TENNHOMVP>Xét nghiệm</TENNHOMVP>
+    <STTVP>10</STTVP>
+    <STTLOAIVP>19</STTLOAIVP>
+    <STTNHOMVP>2</STTNHOMVP>
+    <DVT>Lần</DVT>
+    <SOLUONG>1</SOLUONG>
+    <DONGIA>12000</DONGIA>
+    <SOTIEN>12000</SOTIEN>
+    <TONGCP>3628734</TONGCP>
+    <BHYT>0</BHYT>
+    <TAMUNG>0</TAMUNG>
+    <MIEN>3628734</MIEN>
+    <THIEU>0</THIEU>
+    <BNTRA>0</BNTRA>
+    <MADOITUONG>3</MADOITUONG>
+    <NGUOITHU>Lê Quang Hưng</NGUOITHU>
+  </Table>
+  <Table>
+    <ID>12000000010</ID>
+    <MABN>06000726</MABN>
+    <HOTEN>TRẦN THỊ ĐỨC</HOTEN>
+    <NAMSINH>1973</NAMSINH>
+    <TINH>Thanh Hóa</TINH>
+    <QUAN>Huyện Quảng Xương</QUAN>
+    <XA>Xã Quảng Long</XA>
+    <GIOITINH>Nữ</GIOITINH>
+    <MABHYT>. . . . . . . . . . . . . . </MABHYT>
+    <GIATRIDEN>. . . . . . . . . . . . . . </GIATRIDEN>
+    <SOHIEU>BLTVP</SOHIEU>
+    <SOBIENLAI>20820</SOBIENLAI>
+    <TENKP>Khoa Bệnh Máu Tổng Hợp (c7)</TENKP>
+    <MAICD>D75</MAICD>
+    <CHANDOAN>Các bệnh máu và cơ quan tạo máu khác</CHANDOAN>
+    <NGAY>14/03/2006</NGAY>
+    <NGAYVAO>23/02/2006</NGAYVAO>
+    <NGAYRA>14/03/2006</NGAYRA>
+    <SONGAY>19</SONGAY>
+    <ID_VP>82</ID_VP>
+    <ID_LOAI>3</ID_LOAI>
+    <ID_NHOM>2</ID_NHOM>
+    <TENVP>Canxi ion hoá</TENVP>
+    <TENLOAIVP>Sinh hoá (Máu)</TENLOAIVP>
+    <TENNHOMVP>Xét nghiệm</TENNHOMVP>
+    <STTVP>20</STTVP>
+    <STTLOAIVP>19</STTLOAIVP>
+    <STTNHOMVP>2</STTNHOMVP>
+    <DVT>Lần</DVT>
+    <SOLUONG>1</SOLUONG>
+    <DONGIA>20000</DONGIA>
+    <SOTIEN>20000</SOTIEN>
+    <TONGCP>3628734</TONGCP>
+    <BHYT>0</BHYT>
+    <TAMUNG>0</TAMUNG>
+    <MIEN>3628734</MIEN>
+    <THIEU>0</THIEU>
+    <BNTRA>0</BNTRA>
+    <MADOITUONG>3</MADOITUONG>
+    <NGUOITHU>Lê Quang Hưng</NGUOITHU>
+  </Table>
+  <Table>
+    <ID>12000000010</ID>
+    <MABN>06000726</MABN>
+    <HOTEN>TRẦN THỊ ĐỨC</HOTEN>
+    <NAMSINH>1973</NAMSINH>
+    <TINH>Thanh Hóa</TINH>
+    <QUAN>Huyện Quảng Xương</QUAN>
+    <XA>Xã Quảng Long</XA>
+    <GIOITINH>Nữ</GIOITINH>
+    <MABHYT>. . . . . . . . . . . . . . </MABHYT>
+    <GIATRIDEN>. . . . . . . . . . . . . . </GIATRIDEN>
+    <SOHIEU>BLTVP</SOHIEU>
+    <SOBIENLAI>20820</SOBIENLAI>
+    <TENKP>Khoa Bệnh Máu Tổng Hợp (c7)</TENKP>
+    <MAICD>D75</MAICD>
+    <CHANDOAN>Các bệnh máu và cơ quan tạo máu khác</CHANDOAN>
+    <NGAY>14/03/2006</NGAY>
+    <NGAYVAO>23/02/2006</NGAYVAO>
+    <NGAYRA>14/03/2006</NGAYRA>
+    <SONGAY>19</SONGAY>
+    <ID_VP>342</ID_VP>
+    <ID_LOAI>3</ID_LOAI>
+    <ID_NHOM>2</ID_NHOM>
+    <TENVP>Glucose</TENVP>
+    <TENLOAIVP>Sinh hoá (Máu)</TENLOAIVP>
+    <TENNHOMVP>Xét nghiệm</TENNHOMVP>
+    <STTVP>4</STTVP>
+    <STTLOAIVP>19</STTLOAIVP>
+    <STTNHOMVP>2</STTNHOMVP>
+    <DVT>Lần</DVT>
+    <SOLUONG>1</SOLUONG>
+    <DONGIA>12000</DONGIA>
+    <SOTIEN>12000</SOTIEN>
+    <TONGCP>3628734</TONGCP>
+    <BHYT>0</BHYT>
+    <TAMUNG>0</TAMUNG>
+    <MIEN>3628734</MIEN>
+    <THIEU>0</THIEU>
+    <BNTRA>0</BNTRA>
+    <MADOITUONG>3</MADOITUONG>
+    <NGUOITHU>Lê Quang Hưng</NGUOITHU>
+  </Table>
+  <Table>
+    <ID>12000000010</ID>
+    <MABN>06000726</MABN>
+    <HOTEN>TRẦN THỊ ĐỨC</HOTEN>
+    <NAMSINH>1973</NAMSINH>
+    <TINH>Thanh Hóa</TINH>
+    <QUAN>Huyện Quảng Xương</QUAN>
+    <XA>Xã Quảng Long</XA>
+    <GIOITINH>Nữ</GIOITINH>
+    <MABHYT>. . . . . . . . . . . . . . </MABHYT>
+    <GIATRIDEN>. . . . . . . . . . . . . . </GIATRIDEN>
+    <SOHIEU>BLTVP</SOHIEU>
+    <SOBIENLAI>20820</SOBIENLAI>
+    <TENKP>Khoa Bệnh Máu Tổng Hợp (c7)</TENKP>
+    <MAICD>D75</MAICD>
+    <CHANDOAN>Các bệnh máu và cơ quan tạo máu khác</CHANDOAN>
+    <NGAY>14/03/2006</NGAY>
+    <NGAYVAO>23/02/2006</NGAYVAO>
+    <NGAYRA>14/03/2006</NGAYRA>
+    <SONGAY>19</SONGAY>
+    <ID_VP>65</ID_VP>
+    <ID_LOAI>3</ID_LOAI>
+    <ID_NHOM>2</ID_NHOM>
+    <TENVP>Điện giải đồ (Na,K,Cl,Ca)</TENVP>
+    <TENLOAIVP>Sinh hoá (Máu)</TENLOAIVP>
+    <TENNHOMVP>Xét nghiệm</TENNHOMVP>
+    <STTVP>33</STTVP>
+    <STTLOAIVP>19</STTLOAIVP>
+    <STTNHOMVP>2</STTNHOMVP>
+    <DVT>Lần</DVT>
+    <SOLUONG>1</SOLUONG>
+    <DONGIA>36000</DONGIA>
+    <SOTIEN>36000</SOTIEN>
+    <TONGCP>3628734</TONGCP>
+    <BHYT>0</BHYT>
+    <TAMUNG>0</TAMUNG>
+    <MIEN>3628734</MIEN>
+    <THIEU>0</THIEU>
+    <BNTRA>0</BNTRA>
+    <MADOITUONG>3</MADOITUONG>
+    <NGUOITHU>Lê Quang Hưng</NGUOITHU>
+  </Table>
+  <Table>
+    <ID>12000000010</ID>
+    <MABN>06000726</MABN>
+    <HOTEN>TRẦN THỊ ĐỨC</HOTEN>
+    <NAMSINH>1973</NAMSINH>
+    <TINH>Thanh Hóa</TINH>
+    <QUAN>Huyện Quảng Xương</QUAN>
+    <XA>Xã Quảng Long</XA>
+    <GIOITINH>Nữ</GIOITINH>
+    <MABHYT>. . . . . . . . . . . . . . </MABHYT>
+    <GIATRIDEN>. . . . . . . . . . . . . . </GIATRIDEN>
+    <SOHIEU>BLTVP</SOHIEU>
+    <SOBIENLAI>20820</SOBIENLAI>
+    <TENKP>Khoa Bệnh Máu Tổng Hợp (c7)</TENKP>
+    <MAICD>D75</MAICD>
+    <CHANDOAN>Các bệnh máu và cơ quan tạo máu khác</CHANDOAN>
+    <NGAY>14/03/2006</NGAY>
+    <NGAYVAO>23/02/2006</NGAYVAO>
+    <NGAYRA>14/03/2006</NGAYRA>
+    <SONGAY>19</SONGAY>
+    <ID_VP>71</ID_VP>
+    <ID_LOAI>3</ID_LOAI>
+    <ID_NHOM>2</ID_NHOM>
+    <TENVP>Axit Uric</TENVP>
+    <TENLOAIVP>Sinh hoá (Máu)</TENLOAIVP>
+    <TENNHOMVP>Xét nghiệm</TENNHOMVP>
+    <STTVP>6</STTVP>
+    <STTLOAIVP>19</STTLOAIVP>
+    <STTNHOMVP>2</STTNHOMVP>
+    <DVT>Lần</DVT>
+    <SOLUONG>1</SOLUONG>
+    <DONGIA>70000</DONGIA>
+    <SOTIEN>70000</SOTIEN>
+    <TONGCP>3628734</TONGCP>
+    <BHYT>0</BHYT>
+    <TAMUNG>0</TAMUNG>
+    <MIEN>3628734</MIEN>
+    <THIEU>0</THIEU>
+    <BNTRA>0</BNTRA>
+    <MADOITUONG>3</MADOITUONG>
+    <NGUOITHU>Lê Quang Hưng</NGUOITHU>
+  </Table>
+  <Table>
+    <ID>12000000010</ID>
+    <MABN>06000726</MABN>
+    <HOTEN>TRẦN THỊ ĐỨC</HOTEN>
+    <NAMSINH>1973</NAMSINH>
+    <TINH>Thanh Hóa</TINH>
+    <QUAN>Huyện Quảng Xương</QUAN>
+    <XA>Xã Quảng Long</XA>
+    <GIOITINH>Nữ</GIOITINH>
+    <MABHYT>. . . . . . . . . . . . . . </MABHYT>
+    <GIATRIDEN>. . . . . . . . . . . . . . </GIATRIDEN>
+    <SOHIEU>BLTVP</SOHIEU>
+    <SOBIENLAI>20820</SOBIENLAI>
+    <TENKP>Khoa Bệnh Máu Tổng Hợp (c7)</TENKP>
+    <MAICD>D75</MAICD>
+    <CHANDOAN>Các bệnh máu và cơ quan tạo máu khác</CHANDOAN>
+    <NGAY>14/03/2006</NGAY>
+    <NGAYVAO>23/02/2006</NGAYVAO>
+    <NGAYRA>14/03/2006</NGAYRA>
+    <SONGAY>19</SONGAY>
+    <ID_VP>126</ID_VP>
+    <ID_LOAI>3</ID_LOAI>
+    <ID_NHOM>2</ID_NHOM>
+    <TENVP>Ure</TENVP>
+    <TENLOAIVP>Sinh hoá (Máu)</TENLOAIVP>
+    <TENNHOMVP>Xét nghiệm</TENNHOMVP>
+    <STTVP>3</STTVP>
+    <STTLOAIVP>19</STTLOAIVP>
+    <STTNHOMVP>2</STTNHOMVP>
+    <DVT>Lần</DVT>
+    <SOLUONG>1</SOLUONG>
+    <DONGIA>12000</DONGIA>
+    <SOTIEN>12000</SOTIEN>
+    <TONGCP>3628734</TONGCP>
+    <BHYT>0</BHYT>
+    <TAMUNG>0</TAMUNG>
+    <MIEN>3628734</MIEN>
+    <THIEU>0</THIEU>
+    <BNTRA>0</BNTRA>
+    <MADOITUONG>3</MADOITUONG>
+    <NGUOITHU>Lê Quang Hưng</NGUOITHU>
+  </Table>
+  <Table>
+    <ID>12000000010</ID>
+    <MABN>06000726</MABN>
+    <HOTEN>TRẦN THỊ ĐỨC</HOTEN>
+    <NAMSINH>1973</NAMSINH>
+    <TINH>Thanh Hóa</TINH>
+    <QUAN>Huyện Quảng Xương</QUAN>
+    <XA>Xã Quảng Long</XA>
+    <GIOITINH>Nữ</GIOITINH>
+    <MABHYT>. . . . . . . . . . . . . . </MABHYT>
+    <GIATRIDEN>. . . . . . . . . . . . . . </GIATRIDEN>
+    <SOHIEU>BLTVP</SOHIEU>
+    <SOBIENLAI>20820</SOBIENLAI>
+    <TENKP>Khoa Bệnh Máu Tổng Hợp (c7)</TENKP>
+    <MAICD>D75</MAICD>
+    <CHANDOAN>Các bệnh máu và cơ quan tạo máu khác</CHANDOAN>
+    <NGAY>14/03/2006</NGAY>
+    <NGAYVAO>23/02/2006</NGAYVAO>
+    <NGAYRA>14/03/2006</NGAYRA>
+    <SONGAY>19</SONGAY>
+    <ID_VP>74</ID_VP>
+    <ID_LOAI>3</ID_LOAI>
+    <ID_NHOM>2</ID_NHOM>
+    <TENVP>Bilirubin TP</TENVP>
+    <TENLOAIVP>Sinh hoá (Máu)</TENLOAIVP>
+    <TENNHOMVP>Xét nghiệm</TENNHOMVP>
+    <STTVP>7</STTVP>
+    <STTLOAIVP>19</STTLOAIVP>
+    <STTNHOMVP>2</STTNHOMVP>
+    <DVT>Lần</DVT>
+    <SOLUONG>1</SOLUONG>
+    <DONGIA>15000</DONGIA>
+    <SOTIEN>15000</SOTIEN>
+    <TONGCP>3628734</TONGCP>
+    <BHYT>0</BHYT>
+    <TAMUNG>0</TAMUNG>
+    <MIEN>3628734</MIEN>
+    <THIEU>0</THIEU>
+    <BNTRA>0</BNTRA>
+    <MADOITUONG>3</MADOITUONG>
+    <NGUOITHU>Lê Quang Hưng</NGUOITHU>
+  </Table>
+  <Table>
+    <ID>12000000010</ID>
+    <MABN>06000726</MABN>
+    <HOTEN>TRẦN THỊ ĐỨC</HOTEN>
+    <NAMSINH>1973</NAMSINH>
+    <TINH>Thanh Hóa</TINH>
+    <QUAN>Huyện Quảng Xương</QUAN>
+    <XA>Xã Quảng Long</XA>
+    <GIOITINH>Nữ</GIOITINH>
+    <MABHYT>. . . . . . . . . . . . . . </MABHYT>
+    <GIATRIDEN>. . . . . . . . . . . . . . </GIATRIDEN>
+    <SOHIEU>BLTVP</SOHIEU>
+    <SOBIENLAI>20820</SOBIENLAI>
+    <TENKP>Khoa Bệnh Máu Tổng Hợp (c7)</TENKP>
+    <MAICD>D75</MAICD>
+    <CHANDOAN>Các bệnh máu và cơ quan tạo máu khác</CHANDOAN>
+    <NGAY>14/03/2006</NGAY>
+    <NGAYVAO>23/02/2006</NGAYVAO>
+    <NGAYRA>14/03/2006</NGAYRA>
+    <SONGAY>19</SONGAY>
+    <ID_VP>75</ID_VP>
+    <ID_LOAI>3</ID_LOAI>
+    <ID_NHOM>2</ID_NHOM>
+    <TENVP>Bilirubin TT</TENVP>
+    <TENLOAIVP>Sinh hoá (Máu)</TENLOAIVP>
+    <TENNHOMVP>Xét nghiệm</TENNHOMVP>
+    <STTVP>8</STTVP>
+    <STTLOAIVP>19</STTLOAIVP>
+    <STTNHOMVP>2</STTNHOMVP>
+    <DVT>Lần</DVT>
+    <SOLUONG>1</SOLUONG>
+    <DONGIA>15000</DONGIA>
+    <SOTIEN>15000</SOTIEN>
+    <TONGCP>3628734</TONGCP>
+    <BHYT>0</BHYT>
+    <TAMUNG>0</TAMUNG>
+    <MIEN>3628734</MIEN>
+    <THIEU>0</THIEU>
+    <BNTRA>0</BNTRA>
+    <MADOITUONG>3</MADOITUONG>
+    <NGUOITHU>Lê Quang Hưng</NGUOITHU>
+  </Table>
+  <Table>
+    <ID>12000000010</ID>
+    <MABN>06000726</MABN>
+    <HOTEN>TRẦN THỊ ĐỨC</HOTEN>
+    <NAMSINH>1973</NAMSINH>
+    <TINH>Thanh Hóa</TINH>
+    <QUAN>Huyện Quảng Xương</QUAN>
+    <XA>Xã Quảng Long</XA>
+    <GIOITINH>Nữ</GIOITINH>
+    <MABHYT>. . . . . . . . . . . . . . </MABHYT>
+    <GIATRIDEN>. . . . . . . . . . . . . . </GIATRIDEN>
+    <SOHIEU>BLTVP</SOHIEU>
+    <SOBIENLAI>20820</SOBIENLAI>
+    <TENKP>Khoa Bệnh Máu Tổng Hợp (c7)</TENKP>
+    <MAICD>D75</MAICD>
+    <CHANDOAN>Các bệnh máu và cơ quan tạo máu khác</CHANDOAN>
+    <NGAY>14/03/2006</NGAY>
+    <NGAYVAO>23/02/2006</NGAYVAO>
+    <NGAYRA>14/03/2006</NGAYRA>
+    <SONGAY>19</SONGAY>
+    <ID_VP>10</ID_VP>
+    <ID_LOAI>4</ID_LOAI>
+    <ID_NHOM>2</ID_NHOM>
+    <TENVP>Đông máu cơ bản</TENVP>
+    <TENLOAIVP>Huyết học</TENLOAIVP>
+    <TENNHOMVP>Xét nghiệm</TENNHOMVP>
+    <STTVP>1</STTVP>
+    <STTLOAIVP>22</STTLOAIVP>
+    <STTNHOMVP>2</STTNHOMVP>
+    <DVT>Lần</DVT>
+    <SOLUONG>1</SOLUONG>
+    <DONGIA>96000</DONGIA>
+    <SOTIEN>96000</SOTIEN>
+    <TONGCP>3628734</TONGCP>
+    <BHYT>0</BHYT>
+    <TAMUNG>0</TAMUNG>
+    <MIEN>3628734</MIEN>
+    <THIEU>0</THIEU>
+    <BNTRA>0</BNTRA>
+    <MADOITUONG>3</MADOITUONG>
+    <NGUOITHU>Lê Quang Hưng</NGUOITHU>
+  </Table>
+  <Table>
+    <ID>12000000010</ID>
+    <MABN>06000726</MABN>
+    <HOTEN>TRẦN THỊ ĐỨC</HOTEN>
+    <NAMSINH>1973</NAMSINH>
+    <TINH>Thanh Hóa</TINH>
+    <QUAN>Huyện Quảng Xương</QUAN>
+    <XA>Xã Quảng Long</XA>
+    <GIOITINH>Nữ</GIOITINH>
+    <MABHYT>. . . . . . . . . . . . . . </MABHYT>
+    <GIATRIDEN>. . . . . . . . . . . . . . </GIATRIDEN>
+    <SOHIEU>BLTVP</SOHIEU>
+    <SOBIENLAI>20820</SOBIENLAI>
+    <TENKP>Khoa Bệnh Máu Tổng Hợp (c7)</TENKP>
+    <MAICD>D75</MAICD>
+    <CHANDOAN>Các bệnh máu và cơ quan tạo máu khác</CHANDOAN>
+    <NGAY>14/03/2006</NGAY>
+    <NGAYVAO>23/02/2006</NGAYVAO>
+    <NGAYRA>14/03/2006</NGAYRA>
+    <SONGAY>19</SONGAY>
+    <ID_VP>11</ID_VP>
+    <ID_LOAI>4</ID_LOAI>
+    <ID_NHOM>2</ID_NHOM>
+    <TENVP>Điện di HST</TENVP>
+    <TENLOAIVP>Huyết học</TENLOAIVP>
+    <TENNHOMVP>Xét nghiệm</TENNHOMVP>
+    <STTVP>24</STTVP>
+    <STTLOAIVP>22</STTLOAIVP>
+    <STTNHOMVP>2</STTNHOMVP>
+    <DVT>Lần</DVT>
+    <SOLUONG>1</SOLUONG>
+    <DONGIA>50000</DONGIA>
+    <SOTIEN>50000</SOTIEN>
+    <TONGCP>3628734</TONGCP>
+    <BHYT>0</BHYT>
+    <TAMUNG>0</TAMUNG>
+    <MIEN>3628734</MIEN>
+    <THIEU>0</THIEU>
+    <BNTRA>0</BNTRA>
+    <MADOITUONG>3</MADOITUONG>
+    <NGUOITHU>Lê Quang Hưng</NGUOITHU>
+  </Table>
+  <Table>
+    <ID>12000000010</ID>
+    <MABN>06000726</MABN>
+    <HOTEN>TRẦN THỊ ĐỨC</HOTEN>
+    <NAMSINH>1973</NAMSINH>
+    <TINH>Thanh Hóa</TINH>
+    <QUAN>Huyện Quảng Xương</QUAN>
+    <XA>Xã Quảng Long</XA>
+    <GIOITINH>Nữ</GIOITINH>
+    <MABHYT>. . . . . . . . . . . . . . </MABHYT>
+    <GIATRIDEN>. . . . . . . . . . . . . . </GIATRIDEN>
+    <SOHIEU>BLTVP</SOHIEU>
+    <SOBIENLAI>20820</SOBIENLAI>
+    <TENKP>Khoa Bệnh Máu Tổng Hợp (c7)</TENKP>
+    <MAICD>D75</MAICD>
+    <CHANDOAN>Các bệnh máu và cơ quan tạo máu khác</CHANDOAN>
+    <NGAY>14/03/2006</NGAY>
+    <NGAYVAO>23/02/2006</NGAYVAO>
+    <NGAYRA>14/03/2006</NGAYRA>
+    <SONGAY>19</SONGAY>
+    <ID_VP>14</ID_VP>
+    <ID_LOAI>4</ID_LOAI>
+    <ID_NHOM>2</ID_NHOM>
+    <TENVP>Định nhóm máu ABO</TENVP>
+    <TENLOAIVP>Huyết học</TENLOAIVP>
+    <TENNHOMVP>Xét nghiệm</TENNHOMVP>
+    <STTVP>28</STTVP>
+    <STTLOAIVP>22</STTLOAIVP>
+    <STTNHOMVP>2</STTNHOMVP>
+    <DVT>Lần</DVT>
+    <SOLUONG>25</SOLUONG>
+    <DONGIA>6000</DONGIA>
+    <SOTIEN>150000</SOTIEN>
+    <TONGCP>3628734</TONGCP>
+    <BHYT>0</BHYT>
+    <TAMUNG>0</TAMUNG>
+    <MIEN>3628734</MIEN>
+    <THIEU>0</THIEU>
+    <BNTRA>0</BNTRA>
+    <MADOITUONG>3</MADOITUONG>
+    <NGUOITHU>Lê Quang Hưng</NGUOITHU>
+  </Table>
+  <Table>
+    <ID>12000000010</ID>
+    <MABN>06000726</MABN>
+    <HOTEN>TRẦN THỊ ĐỨC</HOTEN>
+    <NAMSINH>1973</NAMSINH>
+    <TINH>Thanh Hóa</TINH>
+    <QUAN>Huyện Quảng Xương</QUAN>
+    <XA>Xã Quảng Long</XA>
+    <GIOITINH>Nữ</GIOITINH>
+    <MABHYT>. . . . . . . . . . . . . . </MABHYT>
+    <GIATRIDEN>. . . . . . . . . . . . . . </GIATRIDEN>
+    <SOHIEU>BLTVP</SOHIEU>
+    <SOBIENLAI>20820</SOBIENLAI>
+    <TENKP>Khoa Bệnh Máu Tổng Hợp (c7)</TENKP>
+    <MAICD>D75</MAICD>
+    <CHANDOAN>Các bệnh máu và cơ quan tạo máu khác</CHANDOAN>
+    <NGAY>14/03/2006</NGAY>
+    <NGAYVAO>23/02/2006</NGAYVAO>
+    <NGAYRA>14/03/2006</NGAYRA>
+    <SONGAY>19</SONGAY>
+    <ID_VP>51</ID_VP>
+    <ID_LOAI>4</ID_LOAI>
+    <ID_NHOM>2</ID_NHOM>
+    <TENVP>Tuỷ đồ</TENVP>
+    <TENLOAIVP>Huyết học</TENLOAIVP>
+    <TENNHOMVP>Xét nghiệm</TENNHOMVP>
+    <STTVP>43</STTVP>
+    <STTLOAIVP>22</STTLOAIVP>
+    <STTNHOMVP>2</STTNHOMVP>
+    <DVT>Lần</DVT>
+    <SOLUONG>1</SOLUONG>
+    <DONGIA>30000</DONGIA>
+    <SOTIEN>30000</SOTIEN>
+    <TONGCP>3628734</TONGCP>
+    <BHYT>0</BHYT>
+    <TAMUNG>0</TAMUNG>
+    <MIEN>3628734</MIEN>
+    <THIEU>0</THIEU>
+    <BNTRA>0</BNTRA>
+    <MADOITUONG>3</MADOITUONG>
+    <NGUOITHU>Lê Quang Hưng</NGUOITHU>
+  </Table>
+  <Table>
+    <ID>12000000010</ID>
+    <MABN>06000726</MABN>
+    <HOTEN>TRẦN THỊ ĐỨC</HOTEN>
+    <NAMSINH>1973</NAMSINH>
+    <TINH>Thanh Hóa</TINH>
+    <QUAN>Huyện Quảng Xương</QUAN>
+    <XA>Xã Quảng Long</XA>
+    <GIOITINH>Nữ</GIOITINH>
+    <MABHYT>. . . . . . . . . . . . . . </MABHYT>
+    <GIATRIDEN>. . . . . . . . . . . . . . </GIATRIDEN>
+    <SOHIEU>BLTVP</SOHIEU>
+    <SOBIENLAI>20820</SOBIENLAI>
+    <TENKP>Khoa Bệnh Máu Tổng Hợp (c7)</TENKP>
+    <MAICD>D75</MAICD>
+    <CHANDOAN>Các bệnh máu và cơ quan tạo máu khác</CHANDOAN>
+    <NGAY>14/03/2006</NGAY>
+    <NGAYVAO>23/02/2006</NGAYVAO>
+    <NGAYRA>14/03/2006</NGAYRA>
+    <SONGAY>19</SONGAY>
+    <ID_VP>764</ID_VP>
+    <ID_LOAI>4</ID_LOAI>
+    <ID_NHOM>2</ID_NHOM>
+    <TENVP>HIV</TENVP>
+    <TENLOAIVP>Huyết học</TENLOAIVP>
+    <TENNHOMVP>Xét nghiệm</TENNHOMVP>
+    <STTVP>50</STTVP>
+    <STTLOAIVP>22</STTLOAIVP>
+    <STTNHOMVP>2</STTNHOMVP>
+    <DVT>lần</DVT>
+    <SOLUONG>1</SOLUONG>
+    <DONGIA>50000</DONGIA>
+    <SOTIEN>50000</SOTIEN>
+    <TONGCP>3628734</TONGCP>
+    <BHYT>0</BHYT>
+    <TAMUNG>0</TAMUNG>
+    <MIEN>3628734</MIEN>
+    <THIEU>0</THIEU>
+    <BNTRA>0</BNTRA>
+    <MADOITUONG>3</MADOITUONG>
+    <NGUOITHU>Lê Quang Hưng</NGUOITHU>
+  </Table>
+  <Table>
+    <ID>12000000010</ID>
+    <MABN>06000726</MABN>
+    <HOTEN>TRẦN THỊ ĐỨC</HOTEN>
+    <NAMSINH>1973</NAMSINH>
+    <TINH>Thanh Hóa</TINH>
+    <QUAN>Huyện Quảng Xương</QUAN>
+    <XA>Xã Quảng Long</XA>
+    <GIOITINH>Nữ</GIOITINH>
+    <MABHYT>. . . . . . . . . . . . . . </MABHYT>
+    <GIATRIDEN>. . . . . . . . . . . . . . </GIATRIDEN>
+    <SOHIEU>BLTVP</SOHIEU>
+    <SOBIENLAI>20820</SOBIENLAI>
+    <TENKP>Khoa Bệnh Máu Tổng Hợp (c7)</TENKP>
+    <MAICD>D75</MAICD>
+    <CHANDOAN>Các bệnh máu và cơ quan tạo máu khác</CHANDOAN>
+    <NGAY>14/03/2006</NGAY>
+    <NGAYVAO>23/02/2006</NGAYVAO>
+    <NGAYRA>14/03/2006</NGAYRA>
+    <SONGAY>19</SONGAY>
+    <ID_VP>765</ID_VP>
+    <ID_LOAI>4</ID_LOAI>
+    <ID_NHOM>2</ID_NHOM>
+    <TENVP>HBsAg</TENVP>
+    <TENLOAIVP>Huyết học</TENLOAIVP>
+    <TENNHOMVP>Xét nghiệm</TENNHOMVP>
+    <STTVP>51</STTVP>
+    <STTLOAIVP>22</STTLOAIVP>
+    <STTNHOMVP>2</STTNHOMVP>
+    <DVT>lần</DVT>
+    <SOLUONG>1</SOLUONG>
+    <DONGIA>30000</DONGIA>
+    <SOTIEN>30000</SOTIEN>
+    <TONGCP>3628734</TONGCP>
+    <BHYT>0</BHYT>
+    <TAMUNG>0</TAMUNG>
+    <MIEN>3628734</MIEN>
+    <THIEU>0</THIEU>
+    <BNTRA>0</BNTRA>
+    <MADOITUONG>3</MADOITUONG>
+    <NGUOITHU>Lê Quang Hưng</NGUOITHU>
+  </Table>
+  <Table>
+    <ID>12000000010</ID>
+    <MABN>06000726</MABN>
+    <HOTEN>TRẦN THỊ ĐỨC</HOTEN>
+    <NAMSINH>1973</NAMSINH>
+    <TINH>Thanh Hóa</TINH>
+    <QUAN>Huyện Quảng Xương</QUAN>
+    <XA>Xã Quảng Long</XA>
+    <GIOITINH>Nữ</GIOITINH>
+    <MABHYT>. . . . . . . . . . . . . . </MABHYT>
+    <GIATRIDEN>. . . . . . . . . . . . . . </GIATRIDEN>
+    <SOHIEU>BLTVP</SOHIEU>
+    <SOBIENLAI>20820</SOBIENLAI>
+    <TENKP>Khoa Bệnh Máu Tổng Hợp (c7)</TENKP>
+    <MAICD>D75</MAICD>
+    <CHANDOAN>Các bệnh máu và cơ quan tạo máu khác</CHANDOAN>
+    <NGAY>14/03/2006</NGAY>
+    <NGAYVAO>23/02/2006</NGAYVAO>
+    <NGAYRA>14/03/2006</NGAYRA>
+    <SONGAY>19</SONGAY>
+    <ID_VP>766</ID_VP>
+    <ID_LOAI>4</ID_LOAI>
+    <ID_NHOM>2</ID_NHOM>
+    <TENVP>HCV</TENVP>
+    <TENLOAIVP>Huyết học</TENLOAIVP>
+    <TENNHOMVP>Xét nghiệm</TENNHOMVP>
+    <STTVP>52</STTVP>
+    <STTLOAIVP>22</STTLOAIVP>
+    <STTNHOMVP>2</STTNHOMVP>
+    <DVT>lần</DVT>
+    <SOLUONG>1</SOLUONG>
+    <DONGIA>30000</DONGIA>
+    <SOTIEN>30000</SOTIEN>
+    <TONGCP>3628734</TONGCP>
+    <BHYT>0</BHYT>
+    <TAMUNG>0</TAMUNG>
+    <MIEN>3628734</MIEN>
+    <THIEU>0</THIEU>
+    <BNTRA>0</BNTRA>
+    <MADOITUONG>3</MADOITUONG>
+    <NGUOITHU>Lê Quang Hưng</NGUOITHU>
+  </Table>
+  <Table>
+    <ID>12000000010</ID>
+    <MABN>06000726</MABN>
+    <HOTEN>TRẦN THỊ ĐỨC</HOTEN>
+    <NAMSINH>1973</NAMSINH>
+    <TINH>Thanh Hóa</TINH>
+    <QUAN>Huyện Quảng Xương</QUAN>
+    <XA>Xã Quảng Long</XA>
+    <GIOITINH>Nữ</GIOITINH>
+    <MABHYT>. . . . . . . . . . . . . . </MABHYT>
+    <GIATRIDEN>. . . . . . . . . . . . . . </GIATRIDEN>
+    <SOHIEU>BLTVP</SOHIEU>
+    <SOBIENLAI>20820</SOBIENLAI>
+    <TENKP>Khoa Bệnh Máu Tổng Hợp (c7)</TENKP>
+    <MAICD>D75</MAICD>
+    <CHANDOAN>Các bệnh máu và cơ quan tạo máu khác</CHANDOAN>
+    <NGAY>14/03/2006</NGAY>
+    <NGAYVAO>23/02/2006</NGAYVAO>
+    <NGAYRA>14/03/2006</NGAYRA>
+    <SONGAY>19</SONGAY>
+    <ID_VP>49</ID_VP>
+    <ID_LOAI>4</ID_LOAI>
+    <ID_NHOM>2</ID_NHOM>
+    <TENVP>Tổng phân tích tế bào máu : 18-22 thông số</TENVP>
+    <TENLOAIVP>Huyết học</TENLOAIVP>
+    <TENNHOMVP>Xét nghiệm</TENNHOMVP>
+    <STTVP>22</STTVP>
+    <STTLOAIVP>22</STTLOAIVP>
+    <STTNHOMVP>2</STTNHOMVP>
+    <DVT>Lần</DVT>
+    <SOLUONG>3</SOLUONG>
+    <DONGIA>27000</DONGIA>
+    <SOTIEN>81000</SOTIEN>
+    <TONGCP>3628734</TONGCP>
+    <BHYT>0</BHYT>
+    <TAMUNG>0</TAMUNG>
+    <MIEN>3628734</MIEN>
+    <THIEU>0</THIEU>
+    <BNTRA>0</BNTRA>
+    <MADOITUONG>3</MADOITUONG>
+    <NGUOITHU>Lê Quang Hưng</NGUOITHU>
+  </Table>
+  <Table>
+    <ID>12000000010</ID>
+    <MABN>06000726</MABN>
+    <HOTEN>TRẦN THỊ ĐỨC</HOTEN>
+    <NAMSINH>1973</NAMSINH>
+    <TINH>Thanh Hóa</TINH>
+    <QUAN>Huyện Quảng Xương</QUAN>
+    <XA>Xã Quảng Long</XA>
+    <GIOITINH>Nữ</GIOITINH>
+    <MABHYT>. . . . . . . . . . . . . . </MABHYT>
+    <GIATRIDEN>. . . . . . . . . . . . . . </GIATRIDEN>
+    <SOHIEU>BLTVP</SOHIEU>
+    <SOBIENLAI>20820</SOBIENLAI>
+    <TENKP>Khoa Bệnh Máu Tổng Hợp (c7)</TENKP>
+    <MAICD>D75</MAICD>
+    <CHANDOAN>Các bệnh máu và cơ quan tạo máu khác</CHANDOAN>
+    <NGAY>14/03/2006</NGAY>
+    <NGAYVAO>23/02/2006</NGAYVAO>
+    <NGAYRA>14/03/2006</NGAYRA>
+    <SONGAY>19</SONGAY>
+    <ID_VP>44</ID_VP>
+    <ID_LOAI>4</ID_LOAI>
+    <ID_NHOM>2</ID_NHOM>
+    <TENVP>Sức bền hồng cầu</TENVP>
+    <TENLOAIVP>Huyết học</TENLOAIVP>
+    <TENNHOMVP>Xét nghiệm</TENNHOMVP>
+    <STTVP>36</STTVP>
+    <STTLOAIVP>22</STTLOAIVP>
+    <STTNHOMVP>2</STTNHOMVP>
+    <DVT>Lần</DVT>
+    <SOLUONG>1</SOLUONG>
+    <DONGIA>12000</DONGIA>
+    <SOTIEN>12000</SOTIEN>
+    <TONGCP>3628734</TONGCP>
+    <BHYT>0</BHYT>
+    <TAMUNG>0</TAMUNG>
+    <MIEN>3628734</MIEN>
+    <THIEU>0</THIEU>
+    <BNTRA>0</BNTRA>
+    <MADOITUONG>3</MADOITUONG>
+    <NGUOITHU>Lê Quang Hưng</NGUOITHU>
+  </Table>
+  <Table>
+    <ID>12000000010</ID>
+    <MABN>06000726</MABN>
+    <HOTEN>TRẦN THỊ ĐỨC</HOTEN>
+    <NAMSINH>1973</NAMSINH>
+    <TINH>Thanh Hóa</TINH>
+    <QUAN>Huyện Quảng Xương</QUAN>
+    <XA>Xã Quảng Long</XA>
+    <GIOITINH>Nữ</GIOITINH>
+    <MABHYT>. . . . . . . . . . . . . . </MABHYT>
+    <GIATRIDEN>. . . . . . . . . . . . . . </GIATRIDEN>
+    <SOHIEU>BLTVP</SOHIEU>
+    <SOBIENLAI>20820</SOBIENLAI>
+    <TENKP>Khoa Bệnh Máu Tổng Hợp (c7)</TENKP>
+    <MAICD>D75</MAICD>
+    <CHANDOAN>Các bệnh máu và cơ quan tạo máu khác</CHANDOAN>
+    <NGAY>14/03/2006</NGAY>
+    <NGAYVAO>23/02/2006</NGAYVAO>
+    <NGAYRA>14/03/2006</NGAYRA>
+    <SONGAY>19</SONGAY>
+    <ID_VP>22</ID_VP>
+    <ID_LOAI>4</ID_LOAI>
+    <ID_NHOM>2</ID_NHOM>
+    <TENVP>Huyết đồ</TENVP>
+    <TENLOAIVP>Huyết học</TENLOAIVP>
+    <TENNHOMVP>Xét nghiệm</TENNHOMVP>
+    <STTVP>42</STTVP>
+    <STTLOAIVP>22</STTLOAIVP>
+    <STTNHOMVP>2</STTNHOMVP>
+    <DVT>Lần</DVT>
+    <SOLUONG>1</SOLUONG>
+    <DONGIA>9000</DONGIA>
+    <SOTIEN>9000</SOTIEN>
+    <TONGCP>3628734</TONGCP>
+    <BHYT>0</BHYT>
+    <TAMUNG>0</TAMUNG>
+    <MIEN>3628734</MIEN>
+    <THIEU>0</THIEU>
+    <BNTRA>0</BNTRA>
+    <MADOITUONG>3</MADOITUONG>
+    <NGUOITHU>Lê Quang Hưng</NGUOITHU>
+  </Table>
+  <Table>
+    <ID>12000000010</ID>
+    <MABN>06000726</MABN>
+    <HOTEN>TRẦN THỊ ĐỨC</HOTEN>
+    <NAMSINH>1973</NAMSINH>
+    <TINH>Thanh Hóa</TINH>
+    <QUAN>Huyện Quảng Xương</QUAN>
+    <XA>Xã Quảng Long</XA>
+    <GIOITINH>Nữ</GIOITINH>
+    <MABHYT>. . . . . . . . . . . . . . </MABHYT>
+    <GIATRIDEN>. . . . . . . . . . . . . . </GIATRIDEN>
+    <SOHIEU>BLTVP</SOHIEU>
+    <SOBIENLAI>20820</SOBIENLAI>
+    <TENKP>Khoa Bệnh Máu Tổng Hợp (c7)</TENKP>
+    <MAICD>D75</MAICD>
+    <CHANDOAN>Các bệnh máu và cơ quan tạo máu khác</CHANDOAN>
+    <NGAY>14/03/2006</NGAY>
+    <NGAYVAO>23/02/2006</NGAYVAO>
+    <NGAYRA>14/03/2006</NGAYRA>
+    <SONGAY>19</SONGAY>
+    <ID_VP>25</ID_VP>
+    <ID_LOAI>4</ID_LOAI>
+    <ID_NHOM>2</ID_NHOM>
+    <TENVP>Kháng thể kháng nhân</TENVP>
+    <TENLOAIVP>Huyết học</TENLOAIVP>
+    <TENNHOMVP>Xét nghiệm</TENNHOMVP>
+    <STTVP>45</STTVP>
+    <STTLOAIVP>22</STTLOAIVP>
+    <STTNHOMVP>2</STTNHOMVP>
+    <DVT>Lần</DVT>
+    <SOLUONG>1</SOLUONG>
+    <DONGIA>50000</DONGIA>
+    <SOTIEN>50000</SOTIEN>
+    <TONGCP>3628734</TONGCP>
+    <BHYT>0</BHYT>
+    <TAMUNG>0</TAMUNG>
+    <MIEN>3628734</MIEN>
+    <THIEU>0</THIEU>
+    <BNTRA>0</BNTRA>
+    <MADOITUONG>3</MADOITUONG>
+    <NGUOITHU>Lê Quang Hưng</NGUOITHU>
+  </Table>
+  <Table>
+    <ID>12000000010</ID>
+    <MABN>06000726</MABN>
+    <HOTEN>TRẦN THỊ ĐỨC</HOTEN>
+    <NAMSINH>1973</NAMSINH>
+    <TINH>Thanh Hóa</TINH>
+    <QUAN>Huyện Quảng Xương</QUAN>
+    <XA>Xã Quảng Long</XA>
+    <GIOITINH>Nữ</GIOITINH>
+    <MABHYT>. . . . . . . . . . . . . . </MABHYT>
+    <GIATRIDEN>. . . . . . . . . . . . . . </GIATRIDEN>
+    <SOHIEU>BLTVP</SOHIEU>
+    <SOBIENLAI>20820</SOBIENLAI>
+    <TENKP>Khoa Bệnh Máu Tổng Hợp (c7)</TENKP>
+    <MAICD>D75</MAICD>
+    <CHANDOAN>Các bệnh máu và cơ quan tạo máu khác</CHANDOAN>
+    <NGAY>14/03/2006</NGAY>
+    <NGAYVAO>23/02/2006</NGAYVAO>
+    <NGAYRA>14/03/2006</NGAYRA>
+    <SONGAY>19</SONGAY>
+    <ID_VP>29</ID_VP>
+    <ID_LOAI>4</ID_LOAI>
+    <ID_NHOM>2</ID_NHOM>
+    <TENVP>Nghiệm pháp Coombs(GT)</TENVP>
+    <TENLOAIVP>Huyết học</TENLOAIVP>
+    <TENNHOMVP>Xét nghiệm</TENNHOMVP>
+    <STTVP>55</STTVP>
+    <STTLOAIVP>22</STTLOAIVP>
+    <STTNHOMVP>2</STTNHOMVP>
+    <DVT>Lần</DVT>
+    <SOLUONG>1</SOLUONG>
+    <DONGIA>10000</DONGIA>
+    <SOTIEN>10000</SOTIEN>
+    <TONGCP>3628734</TONGCP>
+    <BHYT>0</BHYT>
+    <TAMUNG>0</TAMUNG>
+    <MIEN>3628734</MIEN>
+    <THIEU>0</THIEU>
+    <BNTRA>0</BNTRA>
+    <MADOITUONG>3</MADOITUONG>
+    <NGUOITHU>Lê Quang Hưng</NGUOITHU>
+  </Table>
+  <Table>
+    <ID>12000000010</ID>
+    <MABN>06000726</MABN>
+    <HOTEN>TRẦN THỊ ĐỨC</HOTEN>
+    <NAMSINH>1973</NAMSINH>
+    <TINH>Thanh Hóa</TINH>
+    <QUAN>Huyện Quảng Xương</QUAN>
+    <XA>Xã Quảng Long</XA>
+    <GIOITINH>Nữ</GIOITINH>
+    <MABHYT>. . . . . . . . . . . . . . </MABHYT>
+    <GIATRIDEN>. . . . . . . . . . . . . . </GIATRIDEN>
+    <SOHIEU>BLTVP</SOHIEU>
+    <SOBIENLAI>20820</SOBIENLAI>
+    <TENKP>Khoa Bệnh Máu Tổng Hợp (c7)</TENKP>
+    <MAICD>D75</MAICD>
+    <CHANDOAN>Các bệnh máu và cơ quan tạo máu khác</CHANDOAN>
+    <NGAY>14/03/2006</NGAY>
+    <NGAYVAO>23/02/2006</NGAYVAO>
+    <NGAYRA>14/03/2006</NGAYRA>
+    <SONGAY>19</SONGAY>
+    <ID_VP>30</ID_VP>
+    <ID_LOAI>4</ID_LOAI>
+    <ID_NHOM>2</ID_NHOM>
+    <TENVP>Nghiệm pháp Coombs(TT)</TENVP>
+    <TENLOAIVP>Huyết học</TENLOAIVP>
+    <TENNHOMVP>Xét nghiệm</TENNHOMVP>
+    <STTVP>55</STTVP>
+    <STTLOAIVP>22</STTLOAIVP>
+    <STTNHOMVP>2</STTNHOMVP>
+    <DVT>Lần</DVT>
+    <SOLUONG>1</SOLUONG>
+    <DONGIA>10000</DONGIA>
+    <SOTIEN>10000</SOTIEN>
+    <TONGCP>3628734</TONGCP>
+    <BHYT>0</BHYT>
+    <TAMUNG>0</TAMUNG>
+    <MIEN>3628734</MIEN>
+    <THIEU>0</THIEU>
+    <BNTRA>0</BNTRA>
+    <MADOITUONG>3</MADOITUONG>
+    <NGUOITHU>Lê Quang Hưng</NGUOITHU>
+  </Table>
+  <Table>
+    <ID>12000000010</ID>
+    <MABN>06000726</MABN>
+    <HOTEN>TRẦN THỊ ĐỨC</HOTEN>
+    <NAMSINH>1973</NAMSINH>
+    <TINH>Thanh Hóa</TINH>
+    <QUAN>Huyện Quảng Xương</QUAN>
+    <XA>Xã Quảng Long</XA>
+    <GIOITINH>Nữ</GIOITINH>
+    <MABHYT>. . . . . . . . . . . . . . </MABHYT>
+    <GIATRIDEN>. . . . . . . . . . . . . . </GIATRIDEN>
+    <SOHIEU>BLTVP</SOHIEU>
+    <SOBIENLAI>20820</SOBIENLAI>
+    <TENKP>Khoa Bệnh Máu Tổng Hợp (c7)</TENKP>
+    <MAICD>D75</MAICD>
+    <CHANDOAN>Các bệnh máu và cơ quan tạo máu khác</CHANDOAN>
+    <NGAY>14/03/2006</NGAY>
+    <NGAYVAO>23/02/2006</NGAYVAO>
+    <NGAYRA>14/03/2006</NGAYRA>
+    <SONGAY>19</SONGAY>
+    <ID_VP>168</ID_VP>
+    <ID_LOAI>5</ID_LOAI>
+    <ID_NHOM>2</ID_NHOM>
+    <TENVP>Tìm ký sinh trùng đường ruột</TENVP>
+    <TENLOAIVP>Vi sinh</TENLOAIVP>
+    <TENNHOMVP>Xét nghiệm</TENNHOMVP>
+    <STTVP>159</STTVP>
+    <STTLOAIVP>21</STTLOAIVP>
+    <STTNHOMVP>2</STTNHOMVP>
+    <DVT>Lần</DVT>
+    <SOLUONG>1</SOLUONG>
+    <DONGIA>20000</DONGIA>
+    <SOTIEN>20000</SOTIEN>
+    <TONGCP>3628734</TONGCP>
+    <BHYT>0</BHYT>
+    <TAMUNG>0</TAMUNG>
+    <MIEN>3628734</MIEN>
+    <THIEU>0</THIEU>
+    <BNTRA>0</BNTRA>
+    <MADOITUONG>3</MADOITUONG>
+    <NGUOITHU>Lê Quang Hưng</NGUOITHU>
+  </Table>
+  <Table>
+    <ID>12000000010</ID>
+    <MABN>06000726</MABN>
+    <HOTEN>TRẦN THỊ ĐỨC</HOTEN>
+    <NAMSINH>1973</NAMSINH>
+    <TINH>Thanh Hóa</TINH>
+    <QUAN>Huyện Quảng Xương</QUAN>
+    <XA>Xã Quảng Long</XA>
+    <GIOITINH>Nữ</GIOITINH>
+    <MABHYT>. . . . . . . . . . . . . . </MABHYT>
+    <GIATRIDEN>. . . . . . . . . . . . . . </GIATRIDEN>
+    <SOHIEU>BLTVP</SOHIEU>
+    <SOBIENLAI>20820</SOBIENLAI>
+    <TENKP>Khoa Bệnh Máu Tổng Hợp (c7)</TENKP>
+    <MAICD>D75</MAICD>
+    <CHANDOAN>Các bệnh máu và cơ quan tạo máu khác</CHANDOAN>
+    <NGAY>14/03/2006</NGAY>
+    <NGAYVAO>23/02/2006</NGAYVAO>
+    <NGAYRA>14/03/2006</NGAYRA>
+    <SONGAY>19</SONGAY>
+    <ID_VP>173</ID_VP>
+    <ID_LOAI>6</ID_LOAI>
+    <ID_NHOM>3</ID_NHOM>
+    <TENVP>Siêu âm chung</TENVP>
+    <TENLOAIVP>Siêu âm</TENLOAIVP>
+    <TENNHOMVP>Chẩn đoán hình ảnh</TENNHOMVP>
+    <STTVP>57</STTVP>
+    <STTLOAIVP>1</STTLOAIVP>
+    <STTNHOMVP>3</STTNHOMVP>
+    <DVT>Lần</DVT>
+    <SOLUONG>1</SOLUONG>
+    <DONGIA>20000</DONGIA>
+    <SOTIEN>20000</SOTIEN>
+    <TONGCP>3628734</TONGCP>
+    <BHYT>0</BHYT>
+    <TAMUNG>0</TAMUNG>
+    <MIEN>3628734</MIEN>
+    <THIEU>0</THIEU>
+    <BNTRA>0</BNTRA>
+    <MADOITUONG>3</MADOITUONG>
+    <NGUOITHU>Lê Quang Hưng</NGUOITHU>
+  </Table>
+  <Table>
+    <ID>12000000010</ID>
+    <MABN>06000726</MABN>
+    <HOTEN>TRẦN THỊ ĐỨC</HOTEN>
+    <NAMSINH>1973</NAMSINH>
+    <TINH>Thanh Hóa</TINH>
+    <QUAN>Huyện Quảng Xương</QUAN>
+    <XA>Xã Quảng Long</XA>
+    <GIOITINH>Nữ</GIOITINH>
+    <MABHYT>. . . . . . . . . . . . . . </MABHYT>
+    <GIATRIDEN>. . . . . . . . . . . . . . </GIATRIDEN>
+    <SOHIEU>BLTVP</SOHIEU>
+    <SOBIENLAI>20820</SOBIENLAI>
+    <TENKP>Khoa Bệnh Máu Tổng Hợp (c7)</TENKP>
+    <MAICD>D75</MAICD>
+    <CHANDOAN>Các bệnh máu và cơ quan tạo máu khác</CHANDOAN>
+    <NGAY>14/03/2006</NGAY>
+    <NGAYVAO>23/02/2006</NGAYVAO>
+    <NGAYRA>14/03/2006</NGAYRA>
+    <SONGAY>19</SONGAY>
+    <ID_VP>174</ID_VP>
+    <ID_LOAI>7</ID_LOAI>
+    <ID_NHOM>3</ID_NHOM>
+    <TENVP>Siêu âm màu</TENVP>
+    <TENLOAIVP>Siêu âm màu</TENLOAIVP>
+    <TENNHOMVP>Chẩn đoán hình ảnh</TENNHOMVP>
+    <STTVP>58</STTVP>
+    <STTLOAIVP>2</STTLOAIVP>
+    <STTNHOMVP>3</STTNHOMVP>
+    <DVT>Lần</DVT>
+    <SOLUONG>1</SOLUONG>
+    <DONGIA>80000</DONGIA>
+    <SOTIEN>80000</SOTIEN>
+    <TONGCP>3628734</TONGCP>
+    <BHYT>0</BHYT>
+    <TAMUNG>0</TAMUNG>
+    <MIEN>3628734</MIEN>
+    <THIEU>0</THIEU>
+    <BNTRA>0</BNTRA>
+    <MADOITUONG>3</MADOITUONG>
+    <NGUOITHU>Lê Quang Hưng</NGUOITHU>
+  </Table>
+  <Table>
+    <ID>12000000010</ID>
+    <MABN>06000726</MABN>
+    <HOTEN>TRẦN THỊ ĐỨC</HOTEN>
+    <NAMSINH>1973</NAMSINH>
+    <TINH>Thanh Hóa</TINH>
+    <QUAN>Huyện Quảng Xương</QUAN>
+    <XA>Xã Quảng Long</XA>
+    <GIOITINH>Nữ</GIOITINH>
+    <MABHYT>. . . . . . . . . . . . . . </MABHYT>
+    <GIATRIDEN>. . . . . . . . . . . . . . </GIATRIDEN>
+    <SOHIEU>BLTVP</SOHIEU>
+    <SOBIENLAI>20820</SOBIENLAI>
+    <TENKP>Khoa Bệnh Máu Tổng Hợp (c7)</TENKP>
+    <MAICD>D75</MAICD>
+    <CHANDOAN>Các bệnh máu và cơ quan tạo máu khác</CHANDOAN>
+    <NGAY>14/03/2006</NGAY>
+    <NGAYVAO>23/02/2006</NGAYVAO>
+    <NGAYRA>14/03/2006</NGAYRA>
+    <SONGAY>19</SONGAY>
+    <ID_VP>189</ID_VP>
+    <ID_LOAI>9</ID_LOAI>
+    <ID_NHOM>3</ID_NHOM>
+    <TENVP>Chụp tim phổi thẳng</TENVP>
+    <TENLOAIVP>X Quang</TENLOAIVP>
+    <TENNHOMVP>Chẩn đoán hình ảnh</TENNHOMVP>
+    <STTVP>73</STTVP>
+    <STTLOAIVP>3</STTLOAIVP>
+    <STTNHOMVP>3</STTNHOMVP>
+    <DVT>Lần</DVT>
+    <SOLUONG>1</SOLUONG>
+    <DONGIA>20000</DONGIA>
+    <SOTIEN>20000</SOTIEN>
+    <TONGCP>3628734</TONGCP>
+    <BHYT>0</BHYT>
+    <TAMUNG>0</TAMUNG>
+    <MIEN>3628734</MIEN>
+    <THIEU>0</THIEU>
+    <BNTRA>0</BNTRA>
+    <MADOITUONG>3</MADOITUONG>
+    <NGUOITHU>Lê Quang Hưng</NGUOITHU>
+  </Table>
+  <Table>
+    <ID>12000000010</ID>
+    <MABN>06000726</MABN>
+    <HOTEN>TRẦN THỊ ĐỨC</HOTEN>
+    <NAMSINH>1973</NAMSINH>
+    <TINH>Thanh Hóa</TINH>
+    <QUAN>Huyện Quảng Xương</QUAN>
+    <XA>Xã Quảng Long</XA>
+    <GIOITINH>Nữ</GIOITINH>
+    <MABHYT>. . . . . . . . . . . . . . </MABHYT>
+    <GIATRIDEN>. . . . . . . . . . . . . . </GIATRIDEN>
+    <SOHIEU>BLTVP</SOHIEU>
+    <SOBIENLAI>20820</SOBIENLAI>
+    <TENKP>Khoa Bệnh Máu Tổng Hợp (c7)</TENKP>
+    <MAICD>D75</MAICD>
+    <CHANDOAN>Các bệnh máu và cơ quan tạo máu khác</CHANDOAN>
+    <NGAY>14/03/2006</NGAY>
+    <NGAYVAO>23/02/2006</NGAYVAO>
+    <NGAYRA>14/03/2006</NGAYRA>
+    <SONGAY>19</SONGAY>
+    <ID_VP>785</ID_VP>
+    <ID_LOAI>20</ID_LOAI>
+    <ID_NHOM>7</ID_NHOM>
+    <TENVP>Calcinol [ Không xác định]</TENVP>
+    <TENLOAIVP>Thuốc</TENLOAIVP>
+    <TENNHOMVP>Thuốc</TENNHOMVP>
+    <STTVP>62</STTVP>
+    <STTLOAIVP>15</STTLOAIVP>
+    <STTNHOMVP>7</STTNHOMVP>
+    <DVT>Viên</DVT>
+    <SOLUONG>22</SOLUONG>
+    <DONGIA>260</DONGIA>
+    <SOTIEN>5720</SOTIEN>
+    <TONGCP>3628734</TONGCP>
+    <BHYT>0</BHYT>
+    <TAMUNG>0</TAMUNG>
+    <MIEN>3628734</MIEN>
+    <THIEU>0</THIEU>
+    <BNTRA>0</BNTRA>
+    <MADOITUONG>3</MADOITUONG>
+    <NGUOITHU>Lê Quang Hưng</NGUOITHU>
+  </Table>
+  <Table>
+    <ID>12000000010</ID>
+    <MABN>06000726</MABN>
+    <HOTEN>TRẦN THỊ ĐỨC</HOTEN>
+    <NAMSINH>1973</NAMSINH>
+    <TINH>Thanh Hóa</TINH>
+    <QUAN>Huyện Quảng Xương</QUAN>
+    <XA>Xã Quảng Long</XA>
+    <GIOITINH>Nữ</GIOITINH>
+    <MABHYT>. . . . . . . . . . . . . . </MABHYT>
+    <GIATRIDEN>. . . . . . . . . . . . . . </GIATRIDEN>
+    <SOHIEU>BLTVP</SOHIEU>
+    <SOBIENLAI>20820</SOBIENLAI>
+    <TENKP>Khoa Bệnh Máu Tổng Hợp (c7)</TENKP>
+    <MAICD>D75</MAICD>
+    <CHANDOAN>Các bệnh máu và cơ quan tạo máu khác</CHANDOAN>
+    <NGAY>14/03/2006</NGAY>
+    <NGAYVAO>23/02/2006</NGAYVAO>
+    <NGAYRA>14/03/2006</NGAYRA>
+    <SONGAY>19</SONGAY>
+    <ID_VP>642</ID_VP>
+    <ID_LOAI>20</ID_LOAI>
+    <ID_NHOM>7</ID_NHOM>
+    <TENVP>Ancatrol [Calcitriol 0.25mg]</TENVP>
+    <TENLOAIVP>Thuốc</TENLOAIVP>
+    <TENNHOMVP>Thuốc</TENNHOMVP>
+    <STTVP>135</STTVP>
+    <STTLOAIVP>15</STTLOAIVP>
+    <STTNHOMVP>7</STTNHOMVP>
+    <DVT>Viên</DVT>
+    <SOLUONG>22</SOLUONG>
+    <DONGIA>2100</DONGIA>
+    <SOTIEN>46200</SOTIEN>
+    <TONGCP>3628734</TONGCP>
+    <BHYT>0</BHYT>
+    <TAMUNG>0</TAMUNG>
+    <MIEN>3628734</MIEN>
+    <THIEU>0</THIEU>
+    <BNTRA>0</BNTRA>
+    <MADOITUONG>3</MADOITUONG>
+    <NGUOITHU>Lê Quang Hưng</NGUOITHU>
+  </Table>
+  <Table>
+    <ID>12000000010</ID>
+    <MABN>06000726</MABN>
+    <HOTEN>TRẦN THỊ ĐỨC</HOTEN>
+    <NAMSINH>1973</NAMSINH>
+    <TINH>Thanh Hóa</TINH>
+    <QUAN>Huyện Quảng Xương</QUAN>
+    <XA>Xã Quảng Long</XA>
+    <GIOITINH>Nữ</GIOITINH>
+    <MABHYT>. . . . . . . . . . . . . . </MABHYT>
+    <GIATRIDEN>. . . . . . . . . . . . . . </GIATRIDEN>
+    <SOHIEU>BLTVP</SOHIEU>
+    <SOBIENLAI>20820</SOBIENLAI>
+    <TENKP>Khoa Bệnh Máu Tổng Hợp (c7)</TENKP>
+    <MAICD>D75</MAICD>
+    <CHANDOAN>Các bệnh máu và cơ quan tạo máu khác</CHANDOAN>
+    <NGAY>14/03/2006</NGAY>
+    <NGAYVAO>23/02/2006</NGAYVAO>
+    <NGAYRA>14/03/2006</NGAYRA>
+    <SONGAY>19</SONGAY>
+    <ID_VP>631</ID_VP>
+    <ID_LOAI>20</ID_LOAI>
+    <ID_NHOM>7</ID_NHOM>
+    <TENVP>Vitamin B1  [Vitamin B1 50mg]</TENVP>
+    <TENLOAIVP>Thuốc</TENLOAIVP>
+    <TENNHOMVP>Thuốc</TENNHOMVP>
+    <STTVP>124</STTVP>
+    <STTLOAIVP>15</STTLOAIVP>
+    <STTNHOMVP>7</STTNHOMVP>
+    <DVT>Viên</DVT>
+    <SOLUONG>10</SOLUONG>
+    <DONGIA>37</DONGIA>
+    <SOTIEN>370</SOTIEN>
+    <TONGCP>3628734</TONGCP>
+    <BHYT>0</BHYT>
+    <TAMUNG>0</TAMUNG>
+    <MIEN>3628734</MIEN>
+    <THIEU>0</THIEU>
+    <BNTRA>0</BNTRA>
+    <MADOITUONG>3</MADOITUONG>
+    <NGUOITHU>Lê Quang Hưng</NGUOITHU>
+  </Table>
+  <Table>
+    <ID>12000000010</ID>
+    <MABN>06000726</MABN>
+    <HOTEN>TRẦN THỊ ĐỨC</HOTEN>
+    <NAMSINH>1973</NAMSINH>
+    <TINH>Thanh Hóa</TINH>
+    <QUAN>Huyện Quảng Xương</QUAN>
+    <XA>Xã Quảng Long</XA>
+    <GIOITINH>Nữ</GIOITINH>
+    <MABHYT>. . . . . . . . . . . . . . </MABHYT>
+    <GIATRIDEN>. . . . . . . . . . . . . . </GIATRIDEN>
+    <SOHIEU>BLTVP</SOHIEU>
+    <SOBIENLAI>20820</SOBIENLAI>
+    <TENKP>Khoa Bệnh Máu Tổng Hợp (c7)</TENKP>
+    <MAICD>D75</MAICD>
+    <CHANDOAN>Các bệnh máu và cơ quan tạo máu khác</CHANDOAN>
+    <NGAY>14/03/2006</NGAY>
+    <NGAYVAO>23/02/2006</NGAYVAO>
+    <NGAYRA>14/03/2006</NGAYRA>
+    <SONGAY>19</SONGAY>
+    <ID_VP>684</ID_VP>
+    <ID_LOAI>20</ID_LOAI>
+    <ID_NHOM>7</ID_NHOM>
+    <TENVP>Hepolive [L-ornithine - L-aspartate 500mg/5ml]</TENVP>
+    <TENLOAIVP>Thuốc</TENLOAIVP>
+    <TENNHOMVP>Thuốc</TENNHOMVP>
+    <STTVP>177</STTVP>
+    <STTLOAIVP>15</STTLOAIVP>
+    <STTNHOMVP>7</STTNHOMVP>
+    <DVT>Ống</DVT>
+    <SOLUONG>18</SOLUONG>
+    <DONGIA>31000</DONGIA>
+    <SOTIEN>558000</SOTIEN>
+    <TONGCP>3628734</TONGCP>
+    <BHYT>0</BHYT>
+    <TAMUNG>0</TAMUNG>
+    <MIEN>3628734</MIEN>
+    <THIEU>0</THIEU>
+    <BNTRA>0</BNTRA>
+    <MADOITUONG>3</MADOITUONG>
+    <NGUOITHU>Lê Quang Hưng</NGUOITHU>
+  </Table>
+  <Table>
+    <ID>12000000010</ID>
+    <MABN>06000726</MABN>
+    <HOTEN>TRẦN THỊ ĐỨC</HOTEN>
+    <NAMSINH>1973</NAMSINH>
+    <TINH>Thanh Hóa</TINH>
+    <QUAN>Huyện Quảng Xương</QUAN>
+    <XA>Xã Quảng Long</XA>
+    <GIOITINH>Nữ</GIOITINH>
+    <MABHYT>. . . . . . . . . . . . . . </MABHYT>
+    <GIATRIDEN>. . . . . . . . . . . . . . </GIATRIDEN>
+    <SOHIEU>BLTVP</SOHIEU>
+    <SOBIENLAI>20820</SOBIENLAI>
+    <TENKP>Khoa Bệnh Máu Tổng Hợp (c7)</TENKP>
+    <MAICD>D75</MAICD>
+    <CHANDOAN>Các bệnh máu và cơ quan tạo máu khác</CHANDOAN>
+    <NGAY>14/03/2006</NGAY>
+    <NGAYVAO>23/02/2006</NGAYVAO>
+    <NGAYRA>14/03/2006</NGAYRA>
+    <SONGAY>19</SONGAY>
+    <ID_VP>52</ID_VP>
+    <ID_LOAI>21</ID_LOAI>
+    <ID_NHOM>5</ID_NHOM>
+    <TENVP>Khối hồng cầu 250ml</TENVP>
+    <TENLOAIVP>Máu</TENLOAIVP>
+    <TENNHOMVP>Dịch truyền, máu, đạm</TENNHOMVP>
+    <STTVP>44</STTVP>
+    <STTLOAIVP>8</STTLOAIVP>
+    <STTNHOMVP>5</STTNHOMVP>
+    <DVT>Đơn vị</DVT>
+    <SOLUONG>1</SOLUONG>
+    <DONGIA>260000</DONGIA>
+    <SOTIEN>260000</SOTIEN>
+    <TONGCP>3628734</TONGCP>
+    <BHYT>0</BHYT>
+    <TAMUNG>0</TAMUNG>
+    <MIEN>3628734</MIEN>
+    <THIEU>0</THIEU>
+    <BNTRA>0</BNTRA>
+    <MADOITUONG>3</MADOITUONG>
+    <NGUOITHU>Lê Quang Hưng</NGUOITHU>
+  </Table>
+  <Table>
+    <ID>12000000010</ID>
+    <MABN>06000726</MABN>
+    <HOTEN>TRẦN THỊ ĐỨC</HOTEN>
+    <NAMSINH>1973</NAMSINH>
+    <TINH>Thanh Hóa</TINH>
+    <QUAN>Huyện Quảng Xương</QUAN>
+    <XA>Xã Quảng Long</XA>
+    <GIOITINH>Nữ</GIOITINH>
+    <MABHYT>. . . . . . . . . . . . . . </MABHYT>
+    <GIATRIDEN>. . . . . . . . . . . . . . </GIATRIDEN>
+    <SOHIEU>BLTVP</SOHIEU>
+    <SOBIENLAI>20820</SOBIENLAI>
+    <TENKP>Khoa Bệnh Máu Tổng Hợp (c7)</TENKP>
+    <MAICD>D75</MAICD>
+    <CHANDOAN>Các bệnh máu và cơ quan tạo máu khác</CHANDOAN>
+    <NGAY>14/03/2006</NGAY>
+    <NGAYVAO>23/02/2006</NGAYVAO>
+    <NGAYRA>14/03/2006</NGAYRA>
+    <SONGAY>19</SONGAY>
+    <ID_VP>53</ID_VP>
+    <ID_LOAI>21</ID_LOAI>
+    <ID_NHOM>5</ID_NHOM>
+    <TENVP>Khối hồng cầu 350ml</TENVP>
+    <TENLOAIVP>Máu</TENLOAIVP>
+    <TENNHOMVP>Dịch truyền, máu, đạm</TENNHOMVP>
+    <STTVP>45</STTVP>
+    <STTLOAIVP>8</STTLOAIVP>
+    <STTNHOMVP>5</STTNHOMVP>
+    <DVT>Đơn vị</DVT>
+    <SOLUONG>3</SOLUONG>
+    <DONGIA>320000</DONGIA>
+    <SOTIEN>960000</SOTIEN>
+    <TONGCP>3628734</TONGCP>
+    <BHYT>0</BHYT>
+    <TAMUNG>0</TAMUNG>
+    <MIEN>3628734</MIEN>
+    <THIEU>0</THIEU>
+    <BNTRA>0</BNTRA>
+    <MADOITUONG>3</MADOITUONG>
+    <NGUOITHU>Lê Quang Hưng</NGUOITHU>
+  </Table>
+  <Table>
+    <ID>12000000010</ID>
+    <MABN>06000726</MABN>
+    <HOTEN>TRẦN THỊ ĐỨC</HOTEN>
+    <NAMSINH>1973</NAMSINH>
+    <TINH>Thanh Hóa</TINH>
+    <QUAN>Huyện Quảng Xương</QUAN>
+    <XA>Xã Quảng Long</XA>
+    <GIOITINH>Nữ</GIOITINH>
+    <MABHYT>. . . . . . . . . . . . . . </MABHYT>
+    <GIATRIDEN>. . . . . . . . . . . . . . </GIATRIDEN>
+    <SOHIEU>BLTVP</SOHIEU>
+    <SOBIENLAI>20820</SOBIENLAI>
+    <TENKP>Khoa Bệnh Máu Tổng Hợp (c7)</TENKP>
+    <MAICD>D75</MAICD>
+    <CHANDOAN>Các bệnh máu và cơ quan tạo máu khác</CHANDOAN>
+    <NGAY>14/03/2006</NGAY>
+    <NGAYVAO>23/02/2006</NGAYVAO>
+    <NGAYRA>14/03/2006</NGAYRA>
+    <SONGAY>19</SONGAY>
+    <ID_VP>149</ID_VP>
+    <ID_LOAI>23</ID_LOAI>
+    <ID_NHOM>2</ID_NHOM>
+    <TENVP>Tế bào nước tiểu</TENVP>
+    <TENLOAIVP>Sinh hoá (Nước tiểu)</TENLOAIVP>
+    <TENNHOMVP>Xét nghiệm</TENNHOMVP>
+    <STTVP>11</STTVP>
+    <STTLOAIVP>8</STTLOAIVP>
+    <STTNHOMVP>2</STTNHOMVP>
+    <DVT>Lần</DVT>
+    <SOLUONG>1</SOLUONG>
+    <DONGIA>6000</DONGIA>
+    <SOTIEN>6000</SOTIEN>
+    <TONGCP>3628734</TONGCP>
+    <BHYT>0</BHYT>
+    <TAMUNG>0</TAMUNG>
+    <MIEN>3628734</MIEN>
+    <THIEU>0</THIEU>
+    <BNTRA>0</BNTRA>
+    <MADOITUONG>3</MADOITUONG>
+    <NGUOITHU>Lê Quang Hưng</NGUOITHU>
+  </Table>
+  <Table>
+    <ID>12000000010</ID>
+    <MABN>06000726</MABN>
+    <HOTEN>TRẦN THỊ ĐỨC</HOTEN>
+    <NAMSINH>1973</NAMSINH>
+    <TINH>Thanh Hóa</TINH>
+    <QUAN>Huyện Quảng Xương</QUAN>
+    <XA>Xã Quảng Long</XA>
+    <GIOITINH>Nữ</GIOITINH>
+    <MABHYT>. . . . . . . . . . . . . . </MABHYT>
+    <GIATRIDEN>. . . . . . . . . . . . . . </GIATRIDEN>
+    <SOHIEU>BLTVP</SOHIEU>
+    <SOBIENLAI>20820</SOBIENLAI>
+    <TENKP>Khoa Bệnh Máu Tổng Hợp (c7)</TENKP>
+    <MAICD>D75</MAICD>
+    <CHANDOAN>Các bệnh máu và cơ quan tạo máu khác</CHANDOAN>
+    <NGAY>14/03/2006</NGAY>
+    <NGAYVAO>23/02/2006</NGAYVAO>
+    <NGAYRA>14/03/2006</NGAYRA>
+    <SONGAY>19</SONGAY>
+    <ID_VP>147</ID_VP>
+    <ID_LOAI>23</ID_LOAI>
+    <ID_NHOM>2</ID_NHOM>
+    <TENVP>Tổng phân tích nước tiểu</TENVP>
+    <TENLOAIVP>Sinh hoá (Nước tiểu)</TENLOAIVP>
+    <TENNHOMVP>Xét nghiệm</TENNHOMVP>
+    <STTVP>0</STTVP>
+    <STTLOAIVP>8</STTLOAIVP>
+    <STTNHOMVP>2</STTNHOMVP>
+    <DVT>Lần</DVT>
+    <SOLUONG>1</SOLUONG>
+    <DONGIA>20000</DONGIA>
+    <SOTIEN>20000</SOTIEN>
+    <TONGCP>3628734</TONGCP>
+    <BHYT>0</BHYT>
+    <TAMUNG>0</TAMUNG>
+    <MIEN>3628734</MIEN>
+    <THIEU>0</THIEU>
+    <BNTRA>0</BNTRA>
+    <MADOITUONG>3</MADOITUONG>
+    <NGUOITHU>Lê Quang Hưng</NGUOITHU>
+  </Table>
+  <Table>
+    <ID>12000000010</ID>
+    <MABN>06000726</MABN>
+    <HOTEN>TRẦN THỊ ĐỨC</HOTEN>
+    <NAMSINH>1973</NAMSINH>
+    <TINH>Thanh Hóa</TINH>
+    <QUAN>Huyện Quảng Xương</QUAN>
+    <XA>Xã Quảng Long</XA>
+    <GIOITINH>Nữ</GIOITINH>
+    <MABHYT>. . . . . . . . . . . . . . </MABHYT>
+    <GIATRIDEN>. . . . . . . . . . . . . . </GIATRIDEN>
+    <SOHIEU>BLTVP</SOHIEU>
+    <SOBIENLAI>20820</SOBIENLAI>
+    <TENKP>Khoa Bệnh Máu Tổng Hợp (c7)</TENKP>
+    <MAICD>D75</MAICD>
+    <CHANDOAN>Các bệnh máu và cơ quan tạo máu khác</CHANDOAN>
+    <NGAY>14/03/2006</NGAY>
+    <NGAYVAO>23/02/2006</NGAYVAO>
+    <NGAYRA>14/03/2006</NGAYRA>
+    <SONGAY>19</SONGAY>
+    <ID_VP>191</ID_VP>
+    <ID_LOAI>24</ID_LOAI>
+    <ID_NHOM>10</ID_NHOM>
+    <TENVP>Bơm tiêm 5ml</TENVP>
+    <TENLOAIVP>Vật tư tiêu hao</TENLOAIVP>
+    <TENNHOMVP>Vật tư y tế</TENNHOMVP>
+    <STTVP>62</STTVP>
+    <STTLOAIVP>23</STTLOAIVP>
+    <STTNHOMVP>8</STTNHOMVP>
+    <DVT>Chiếc</DVT>
+    <SOLUONG>55</SOLUONG>
+    <DONGIA>360</DONGIA>
+    <SOTIEN>19800</SOTIEN>
+    <TONGCP>3628734</TONGCP>
+    <BHYT>0</BHYT>
+    <TAMUNG>0</TAMUNG>
+    <MIEN>3628734</MIEN>
+    <THIEU>0</THIEU>
+    <BNTRA>0</BNTRA>
+    <MADOITUONG>3</MADOITUONG>
+    <NGUOITHU>Lê Quang Hưng</NGUOITHU>
+  </Table>
+  <Table>
+    <ID>12000000010</ID>
+    <MABN>06000726</MABN>
+    <HOTEN>TRẦN THỊ ĐỨC</HOTEN>
+    <NAMSINH>1973</NAMSINH>
+    <TINH>Thanh Hóa</TINH>
+    <QUAN>Huyện Quảng Xương</QUAN>
+    <XA>Xã Quảng Long</XA>
+    <GIOITINH>Nữ</GIOITINH>
+    <MABHYT>. . . . . . . . . . . . . . </MABHYT>
+    <GIATRIDEN>. . . . . . . . . . . . . . </GIATRIDEN>
+    <SOHIEU>BLTVP</SOHIEU>
+    <SOBIENLAI>20820</SOBIENLAI>
+    <TENKP>Khoa Bệnh Máu Tổng Hợp (c7)</TENKP>
+    <MAICD>D75</MAICD>
+    <CHANDOAN>Các bệnh máu và cơ quan tạo máu khác</CHANDOAN>
+    <NGAY>14/03/2006</NGAY>
+    <NGAYVAO>23/02/2006</NGAYVAO>
+    <NGAYRA>14/03/2006</NGAYRA>
+    <SONGAY>19</SONGAY>
+    <ID_VP>198</ID_VP>
+    <ID_LOAI>24</ID_LOAI>
+    <ID_NHOM>10</ID_NHOM>
+    <TENVP>Găng tay Việt Tiến thường</TENVP>
+    <TENLOAIVP>Vật tư tiêu hao</TENLOAIVP>
+    <TENNHOMVP>Vật tư y tế</TENNHOMVP>
+    <STTVP>67</STTVP>
+    <STTLOAIVP>23</STTLOAIVP>
+    <STTNHOMVP>8</STTNHOMVP>
+    <DVT>Đôi</DVT>
+    <SOLUONG>80</SOLUONG>
+    <DONGIA>1995</DONGIA>
+    <SOTIEN>159600</SOTIEN>
+    <TONGCP>3628734</TONGCP>
+    <BHYT>0</BHYT>
+    <TAMUNG>0</TAMUNG>
+    <MIEN>3628734</MIEN>
+    <THIEU>0</THIEU>
+    <BNTRA>0</BNTRA>
+    <MADOITUONG>3</MADOITUONG>
+    <NGUOITHU>Lê Quang Hưng</NGUOITHU>
+  </Table>
+  <Table>
+    <ID>12000000010</ID>
+    <MABN>06000726</MABN>
+    <HOTEN>TRẦN THỊ ĐỨC</HOTEN>
+    <NAMSINH>1973</NAMSINH>
+    <TINH>Thanh Hóa</TINH>
+    <QUAN>Huyện Quảng Xương</QUAN>
+    <XA>Xã Quảng Long</XA>
+    <GIOITINH>Nữ</GIOITINH>
+    <MABHYT>. . . . . . . . . . . . . . </MABHYT>
+    <GIATRIDEN>. . . . . . . . . . . . . . </GIATRIDEN>
+    <SOHIEU>BLTVP</SOHIEU>
+    <SOBIENLAI>20820</SOBIENLAI>
+    <TENKP>Khoa Bệnh Máu Tổng Hợp (c7)</TENKP>
+    <MAICD>D75</MAICD>
+    <CHANDOAN>Các bệnh máu và cơ quan tạo máu khác</CHANDOAN>
+    <NGAY>14/03/2006</NGAY>
+    <NGAYVAO>23/02/2006</NGAYVAO>
+    <NGAYRA>14/03/2006</NGAYRA>
+    <SONGAY>19</SONGAY>
+    <ID_VP>779</ID_VP>
+    <ID_LOAI>24</ID_LOAI>
+    <ID_NHOM>10</ID_NHOM>
+    <TENVP>Bơm kim tiêm 10ml</TENVP>
+    <TENLOAIVP>Vật tư tiêu hao</TENLOAIVP>
+    <TENNHOMVP>Vật tư y tế</TENNHOMVP>
+    <STTVP>62</STTVP>
+    <STTLOAIVP>23</STTLOAIVP>
+    <STTNHOMVP>8</STTNHOMVP>
+    <DVT>cái</DVT>
+    <SOLUONG>45</SOLUONG>
+    <DONGIA>585</DONGIA>
+    <SOTIEN>26325</SOTIEN>
+    <TONGCP>3628734</TONGCP>
+    <BHYT>0</BHYT>
+    <TAMUNG>0</TAMUNG>
+    <MIEN>3628734</MIEN>
+    <THIEU>0</THIEU>
+    <BNTRA>0</BNTRA>
+    <MADOITUONG>3</MADOITUONG>
+    <NGUOITHU>Lê Quang Hưng</NGUOITHU>
+  </Table>
+  <Table>
+    <ID>12000000010</ID>
+    <MABN>06000726</MABN>
+    <HOTEN>TRẦN THỊ ĐỨC</HOTEN>
+    <NAMSINH>1973</NAMSINH>
+    <TINH>Thanh Hóa</TINH>
+    <QUAN>Huyện Quảng Xương</QUAN>
+    <XA>Xã Quảng Long</XA>
+    <GIOITINH>Nữ</GIOITINH>
+    <MABHYT>. . . . . . . . . . . . . . </MABHYT>
+    <GIATRIDEN>. . . . . . . . . . . . . . </GIATRIDEN>
+    <SOHIEU>BLTVP</SOHIEU>
+    <SOBIENLAI>20820</SOBIENLAI>
+    <TENKP>Khoa Bệnh Máu Tổng Hợp (c7)</TENKP>
+    <MAICD>D75</MAICD>
+    <CHANDOAN>Các bệnh máu và cơ quan tạo máu khác</CHANDOAN>
+    <NGAY>14/03/2006</NGAY>
+    <NGAYVAO>23/02/2006</NGAYVAO>
+    <NGAYRA>14/03/2006</NGAYRA>
+    <SONGAY>19</SONGAY>
+    <ID_VP>200</ID_VP>
+    <ID_LOAI>24</ID_LOAI>
+    <ID_NHOM>10</ID_NHOM>
+    <TENVP>Kim lấy máu</TENVP>
+    <TENLOAIVP>Vật tư tiêu hao</TENLOAIVP>
+    <TENNHOMVP>Vật tư y tế</TENNHOMVP>
+    <STTVP>69</STTVP>
+    <STTLOAIVP>23</STTLOAIVP>
+    <STTNHOMVP>8</STTNHOMVP>
+    <DVT>Chiếc</DVT>
+    <SOLUONG>100</SOLUONG>
+    <DONGIA>260</DONGIA>
+    <SOTIEN>26000</SOTIEN>
+    <TONGCP>3628734</TONGCP>
+    <BHYT>0</BHYT>
+    <TAMUNG>0</TAMUNG>
+    <MIEN>3628734</MIEN>
+    <THIEU>0</THIEU>
+    <BNTRA>0</BNTRA>
+    <MADOITUONG>3</MADOITUONG>
+    <NGUOITHU>Lê Quang Hưng</NGUOITHU>
+  </Table>
+  <Table>
+    <ID>12000000010</ID>
+    <MABN>06000726</MABN>
+    <HOTEN>TRẦN THỊ ĐỨC</HOTEN>
+    <NAMSINH>1973</NAMSINH>
+    <TINH>Thanh Hóa</TINH>
+    <QUAN>Huyện Quảng Xương</QUAN>
+    <XA>Xã Quảng Long</XA>
+    <GIOITINH>Nữ</GIOITINH>
+    <MABHYT>. . . . . . . . . . . . . . </MABHYT>
+    <GIATRIDEN>. . . . . . . . . . . . . . </GIATRIDEN>
+    <SOHIEU>BLTVP</SOHIEU>
+    <SOBIENLAI>20820</SOBIENLAI>
+    <TENKP>Khoa Bệnh Máu Tổng Hợp (c7)</TENKP>
+    <MAICD>D75</MAICD>
+    <CHANDOAN>Các bệnh máu và cơ quan tạo máu khác</CHANDOAN>
+    <NGAY>14/03/2006</NGAY>
+    <NGAYVAO>23/02/2006</NGAYVAO>
+    <NGAYRA>14/03/2006</NGAYRA>
+    <SONGAY>19</SONGAY>
+    <ID_VP>208</ID_VP>
+    <ID_LOAI>24</ID_LOAI>
+    <ID_NHOM>10</ID_NHOM>
+    <TENVP>Kim luồn cánh bướm các loại</TENVP>
+    <TENLOAIVP>Vật tư tiêu hao</TENLOAIVP>
+    <TENNHOMVP>Vật tư y tế</TENNHOMVP>
+    <STTVP>77</STTVP>
+    <STTLOAIVP>23</STTLOAIVP>
+    <STTNHOMVP>8</STTNHOMVP>
+    <DVT>Cái</DVT>
+    <SOLUONG>2</SOLUONG>
+    <DONGIA>780</DONGIA>
+    <SOTIEN>1560</SOTIEN>
+    <TONGCP>3628734</TONGCP>
+    <BHYT>0</BHYT>
+    <TAMUNG>0</TAMUNG>
+    <MIEN>3628734</MIEN>
+    <THIEU>0</THIEU>
+    <BNTRA>0</BNTRA>
+    <MADOITUONG>3</MADOITUONG>
+    <NGUOITHU>Lê Quang Hưng</NGUOITHU>
+  </Table>
+  <Table>
+    <ID>12000000010</ID>
+    <MABN>06000726</MABN>
+    <HOTEN>TRẦN THỊ ĐỨC</HOTEN>
+    <NAMSINH>1973</NAMSINH>
+    <TINH>Thanh Hóa</TINH>
+    <QUAN>Huyện Quảng Xương</QUAN>
+    <XA>Xã Quảng Long</XA>
+    <GIOITINH>Nữ</GIOITINH>
+    <MABHYT>. . . . . . . . . . . . . . </MABHYT>
+    <GIATRIDEN>. . . . . . . . . . . . . . </GIATRIDEN>
+    <SOHIEU>BLTVP</SOHIEU>
+    <SOBIENLAI>20820</SOBIENLAI>
+    <TENKP>Khoa Bệnh Máu Tổng Hợp (c7)</TENKP>
+    <MAICD>D75</MAICD>
+    <CHANDOAN>Các bệnh máu và cơ quan tạo máu khác</CHANDOAN>
+    <NGAY>14/03/2006</NGAY>
+    <NGAYVAO>23/02/2006</NGAYVAO>
+    <NGAYRA>14/03/2006</NGAYRA>
+    <SONGAY>19</SONGAY>
+    <ID_VP>217</ID_VP>
+    <ID_LOAI>25</ID_LOAI>
+    <ID_NHOM>11</ID_NHOM>
+    <TENVP>Ngày giường</TENVP>
+    <TENLOAIVP>Trợ phí</TENLOAIVP>
+    <TENNHOMVP>Trợ phí</TENNHOMVP>
+    <STTVP>62</STTVP>
+    <STTLOAIVP>8</STTLOAIVP>
+    <STTNHOMVP>11</STTNHOMVP>
+    <DVT>Ngày</DVT>
+    <SOLUONG>20</SOLUONG>
+    <DONGIA>10000</DONGIA>
+    <SOTIEN>200000</SOTIEN>
+    <TONGCP>3628734</TONGCP>
+    <BHYT>0</BHYT>
+    <TAMUNG>0</TAMUNG>
+    <MIEN>3628734</MIEN>
+    <THIEU>0</THIEU>
+    <BNTRA>0</BNTRA>
+    <MADOITUONG>3</MADOITUONG>
+    <NGUOITHU>Lê Quang Hưng</NGUOITHU>
+  </Table>
+</NewDataSet>

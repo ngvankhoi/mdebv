@@ -1,0 +1,328 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="ravien">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="DONE" type="xs:decimal" minOccurs="0" />
+                <xs:element name="LOAIBA" type="xs:decimal" minOccurs="0" />
+                <xs:element name="MADOITUONGVAO" type="xs:decimal" minOccurs="0" />
+                <xs:element name="MATT" type="xs:string" minOccurs="0" />
+                <xs:element name="MABN" type="xs:string" minOccurs="0" />
+                <xs:element name="MAVAOVIEN" type="xs:decimal" minOccurs="0" />
+                <xs:element name="MAQL" type="xs:decimal" minOccurs="0" />
+                <xs:element name="IDKHOA" type="xs:decimal" minOccurs="0" />
+                <xs:element name="HOTEN" type="xs:string" minOccurs="0" />
+                <xs:element name="NAMSINH" type="xs:string" minOccurs="0" />
+                <xs:element name="PHAI" type="xs:string" minOccurs="0" />
+                <xs:element name="DIACHI" type="xs:string" minOccurs="0" />
+                <xs:element name="MADOITUONG" type="xs:decimal" minOccurs="0" />
+                <xs:element name="DOITUONG" type="xs:string" minOccurs="0" />
+                <xs:element name="SOTHE" type="xs:string" minOccurs="0" />
+                <xs:element name="MAPHU" type="xs:decimal" minOccurs="0" />
+                <xs:element name="DENNGAY" type="xs:string" minOccurs="0" />
+                <xs:element name="NOIGIOITHIEU" type="xs:string" minOccurs="0" />
+                <xs:element name="NOICAP" type="xs:string" minOccurs="0" />
+                <xs:element name="GIUONG" type="xs:string" minOccurs="0" />
+                <xs:element name="MAKP" type="xs:string" minOccurs="0" />
+                <xs:element name="TENKP" type="xs:string" minOccurs="0" />
+                <xs:element name="NGAYVAO" type="xs:string" minOccurs="0" />
+                <xs:element name="NGAYRA" type="xs:string" minOccurs="0" />
+                <xs:element name="CHANDOAN" type="xs:string" minOccurs="0" />
+                <xs:element name="MAICD" type="xs:string" minOccurs="0" />
+                <xs:element name="STTNHOM" type="xs:decimal" minOccurs="0" />
+                <xs:element name="NHOM" type="xs:string" minOccurs="0" />
+                <xs:element name="STTLOAI" type="xs:decimal" minOccurs="0" />
+                <xs:element name="LOAI" type="xs:string" minOccurs="0" />
+                <xs:element name="NGAY" type="xs:string" minOccurs="0" />
+                <xs:element name="MA" type="xs:decimal" minOccurs="0" />
+                <xs:element name="TEN" type="xs:string" minOccurs="0" />
+                <xs:element name="DVT" type="xs:string" minOccurs="0" />
+                <xs:element name="SOLUONG" type="xs:decimal" minOccurs="0" />
+                <xs:element name="DONGIA" type="xs:decimal" minOccurs="0" />
+                <xs:element name="SOTIEN" type="xs:decimal" minOccurs="0" />
+                <xs:element name="TAMUNG" type="xs:decimal" minOccurs="0" />
+                <xs:element name="BHYT" type="xs:decimal" minOccurs="0" />
+                <xs:element name="BHYTT0107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="TCSOTIEN" type="xs:decimal" minOccurs="0" />
+                <xs:element name="DICHSO" type="xs:string" minOccurs="0" />
+                <xs:element name="MIEN" type="xs:decimal" minOccurs="0" />
+                <xs:element name="BHYTTRA" type="xs:decimal" minOccurs="0" />
+                <xs:element name="BNTRA" type="xs:decimal" minOccurs="0" />
+                <xs:element name="DICHSOTRA" type="xs:string" minOccurs="0" />
+                <xs:element name="SBLTAMUNG" type="xs:string" minOccurs="0" />
+                <xs:element name="SOLUUTRU" type="xs:string" minOccurs="0" />
+                <xs:element name="NGUOINHA" type="xs:string" minOccurs="0" />
+                <xs:element name="HINHTHUC" type="xs:decimal" minOccurs="0" />
+                <xs:element name="PHUONGPHAP" type="xs:decimal" minOccurs="0" />
+                <xs:element name="KETQUA" type="xs:decimal" minOccurs="0" />
+                <xs:element name="KHU" type="xs:decimal" minOccurs="0" />
+                <xs:element name="NGAYPT" type="xs:string" minOccurs="0" />
+                <xs:element name="TENPT" type="xs:string" minOccurs="0" />
+                <xs:element name="MASO" type="xs:string" minOccurs="0" />
+                <xs:element name="SOPHIEU" type="xs:decimal" minOccurs="0" />
+                <xs:element name="LANIN" type="xs:decimal" minOccurs="0" />
+                <xs:element name="Image" type="xs:base64Binary" minOccurs="0" />
+                <xs:element name="Imagetk" type="xs:base64Binary" minOccurs="0" />
+                <xs:element name="Imageuser" type="xs:base64Binary" minOccurs="0" />
+                <xs:element name="mabs" type="xs:string" minOccurs="0" />
+                <xs:element name="tenbs" type="xs:string" minOccurs="0" />
+                <xs:element name="makprv" type="xs:string" minOccurs="0" />
+                <xs:element name="tenuser" type="xs:string" minOccurs="0" />
+                <xs:element name="cholam" type="xs:string" minOccurs="0" />
+                <xs:element name="madt" type="xs:decimal" minOccurs="0" />
+                <xs:element name="haophi" type="xs:decimal" minOccurs="0" />
+                <xs:element name="gianovat" type="xs:decimal" minOccurs="0" />
+                <xs:element name="idttrv" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sotientra" type="xs:decimal" minOccurs="0" />
+                <xs:element name="traituyen" type="xs:decimal" minOccurs="0" />
+                <xs:element name="kythuat" type="xs:decimal" minOccurs="0" />
+                <xs:element name="loaikythuat" type="xs:string" minOccurs="0" />
+                <xs:element name="sotoa" type="xs:string" minOccurs="0" />
+                <xs:element name="sttbhyt" type="xs:decimal" default="0" minOccurs="0" />
+                <xs:element name="idnhombhyt" type="xs:decimal" default="0" minOccurs="0" />
+                <xs:element name="tennhombhyt" type="xs:string" minOccurs="0" />
+                <xs:element name="cpvc_100" type="xs:string" minOccurs="0" />
+                <xs:element name="tylechitra" type="xs:string" minOccurs="0" />
+                <xs:element name="sokham" type="xs:string" minOccurs="0" />
+                <xs:element name="dienthoai" type="xs:string" minOccurs="0" />
+                <xs:element name="sovaovien" type="xs:string" minOccurs="0" />
+                <xs:element name="tyletra" type="xs:decimal" default="0" minOccurs="0" />
+                <xs:element name="chuyenvien" type="xs:string" minOccurs="0" />
+                <xs:element name="nhapvien" type="xs:string" minOccurs="0" />
+                <xs:element name="thangtuoi" type="xs:string" minOccurs="0" />
+                <xs:element name="trieuchung" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <ravien>
+    <DONE>0</DONE>
+    <MADOITUONGVAO>1</MADOITUONGVAO>
+    <MATT>14454545</MATT>
+    <MABN>14454545</MABN>
+    <MAQL>1</MAQL>
+    <IDKHOA>3</IDKHOA>
+    <HOTEN>TEST BHYT DOULBE</HOTEN>
+    <NAMSINH>1989</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <DIACHI>Không xác định Không xác định Đắc Lắc^</DIACHI>
+    <MADOITUONG>1</MADOITUONG>
+    <DOITUONG>BHYT</DOITUONG>
+    <SOTHE>HN937439673907401003</SOTHE>
+    <MAPHU>0</MAPHU>
+    <DENNGAY>31/12/2014 01/01/2014</DENNGAY>
+    <NOIGIOITHIEU>Bệnh viện đa khoa Xanh Pôn^01003^</NOIGIOITHIEU>
+    <NOICAP>0006</NOICAP>
+    <GIUONG>BS. Nguyễn Hữu Tường Lâm;</GIUONG>
+    <MAKP>02</MAKP>
+    <TENKP>Phòng Khám Số 1</TENKP>
+    <NGAYVAO>28/04/2014 14:40</NGAYVAO>
+    <NGAYRA>28/04/2014 14:58</NGAYRA>
+    <CHANDOAN>Di chứng do tác động khác và chưa xác định của căn nguyên từ bên ngoài;Di chứng do tác động của vật lạ vào qua lỗ tự nhiên;</CHANDOAN>
+    <MAICD>T98;T98.0;</MAICD>
+    <STTNHOM>15</STTNHOM>
+    <NHOM>Thuốc</NHOM>
+    <STTLOAI>3</STTLOAI>
+    <LOAI>Thuốc thường</LOAI>
+    <MA>189842</MA>
+    <TEN>Acyclovir Domesco 200mg [Acyclovir]</TEN>
+    <DVT>Viên</DVT>
+    <SOLUONG>2.0000</SOLUONG>
+    <DONGIA>660.0000750000</DONGIA>
+    <SOTIEN>1320.00015000000000</SOTIEN>
+    <TAMUNG>0</TAMUNG>
+    <BHYT>0</BHYT>
+    <BHYTT0107>0</BHYTT0107>
+    <TCSOTIEN>23320.00015000000000</TCSOTIEN>
+    <DICHSO />
+    <MIEN>0</MIEN>
+    <BHYTTRA>23320.00015000000000</BHYTTRA>
+    <BNTRA>0</BNTRA>
+    <DICHSOTRA />
+    <SBLTAMUNG xml:space="preserve"> </SBLTAMUNG>
+    <SOLUUTRU>^^^Di chứng do tác động khác và chưa xác định của căn nguyên từ bên ngoài;Di chứng do tác động của vật lạ vào qua lỗ tự nhiên;</SOLUUTRU>
+    <NGUOINHA />
+    <HINHTHUC>1</HINHTHUC>
+    <PHUONGPHAP>2</PHUONGPHAP>
+    <KETQUA>0</KETQUA>
+    <mabs />
+    <tenbs />
+    <makprv />
+    <tenuser>thuy</tenuser>
+    <cholam>Domesco^Việt Nam</cholam>
+    <gianovat>660.0000750000</gianovat>
+    <idttrv>0</idttrv>
+    <sotientra>1320.00015000000000</sotientra>
+    <traituyen>0</traituyen>
+    <kythuat>-1</kythuat>
+    <loaikythuat />
+    <sotoa>3</sotoa>
+    <sttbhyt>3</sttbhyt>
+    <idnhombhyt>3</idnhombhyt>
+    <tennhombhyt>Thuốc, dịch truyền</tennhombhyt>
+    <cpvc_100>False</cpvc_100>
+    <tylechitra>BHYT 100%</tylechitra>
+    <sokham>1</sokham>
+    <dienthoai />
+    <sovaovien />
+    <tyletra>100</tyletra>
+    <chuyenvien>^</chuyenvien>
+    <nhapvien>^</nhapvien>
+    <trieuchung />
+  </ravien>
+  <ravien>
+    <DONE>0</DONE>
+    <MADOITUONGVAO>1</MADOITUONGVAO>
+    <MATT>14454545</MATT>
+    <MABN>14454545</MABN>
+    <MAQL>1</MAQL>
+    <IDKHOA>3</IDKHOA>
+    <HOTEN>TEST BHYT DOULBE</HOTEN>
+    <NAMSINH>1989</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <DIACHI>Không xác định Không xác định Đắc Lắc^</DIACHI>
+    <MADOITUONG>1</MADOITUONG>
+    <DOITUONG>BHYT</DOITUONG>
+    <SOTHE>HN937439673907401003</SOTHE>
+    <MAPHU>0</MAPHU>
+    <DENNGAY>31/12/2014 01/01/2014</DENNGAY>
+    <NOIGIOITHIEU>Bệnh viện đa khoa Xanh Pôn^01003^</NOIGIOITHIEU>
+    <NOICAP>0006</NOICAP>
+    <GIUONG>BS. Nguyễn Hữu Tường Lâm;</GIUONG>
+    <MAKP>02</MAKP>
+    <TENKP>Phòng Khám Số 1</TENKP>
+    <NGAYVAO>28/04/2014 14:40</NGAYVAO>
+    <NGAYRA>28/04/2014 14:58</NGAYRA>
+    <CHANDOAN>Di chứng do tác động khác và chưa xác định của căn nguyên từ bên ngoài;Di chứng do tác động của vật lạ vào qua lỗ tự nhiên;</CHANDOAN>
+    <MAICD>T98;T98.0;</MAICD>
+    <STTNHOM>4</STTNHOM>
+    <NHOM>Công khám</NHOM>
+    <STTLOAI>20</STTLOAI>
+    <LOAI>Khám bệnh</LOAI>
+    <MA>120614</MA>
+    <TEN>Công Khám</TEN>
+    <DVT>Lần</DVT>
+    <SOLUONG>1.00</SOLUONG>
+    <DONGIA>7000.0000000000</DONGIA>
+    <SOTIEN>7000.000000000000</SOTIEN>
+    <TAMUNG>0</TAMUNG>
+    <BHYT>0</BHYT>
+    <BHYTT0107>0</BHYTT0107>
+    <TCSOTIEN>23320.00015000000000</TCSOTIEN>
+    <DICHSO />
+    <MIEN>0</MIEN>
+    <BHYTTRA>23320.00015000000000</BHYTTRA>
+    <BNTRA>0</BNTRA>
+    <DICHSOTRA />
+    <SBLTAMUNG xml:space="preserve"> </SBLTAMUNG>
+    <SOLUUTRU>^^^Di chứng do tác động khác và chưa xác định của căn nguyên từ bên ngoài;Di chứng do tác động của vật lạ vào qua lỗ tự nhiên;</SOLUUTRU>
+    <NGUOINHA />
+    <HINHTHUC>1</HINHTHUC>
+    <PHUONGPHAP>2</PHUONGPHAP>
+    <KETQUA>0</KETQUA>
+    <mabs />
+    <tenbs />
+    <makprv />
+    <tenuser>thuy</tenuser>
+    <cholam>^</cholam>
+    <gianovat>7000.0000000000</gianovat>
+    <idttrv>0</idttrv>
+    <sotientra>7000.000000000000</sotientra>
+    <traituyen>0</traituyen>
+    <kythuat>-1</kythuat>
+    <loaikythuat />
+    <sotoa>3</sotoa>
+    <sttbhyt>9</sttbhyt>
+    <idnhombhyt>9</idnhombhyt>
+    <tennhombhyt>Công khám</tennhombhyt>
+    <cpvc_100>False</cpvc_100>
+    <tylechitra>BHYT 100%</tylechitra>
+    <sokham>1</sokham>
+    <dienthoai />
+    <tyletra>100</tyletra>
+    <chuyenvien>^</chuyenvien>
+    <nhapvien>^</nhapvien>
+    <trieuchung />
+  </ravien>
+  <ravien>
+    <DONE>0</DONE>
+    <MADOITUONGVAO>1</MADOITUONGVAO>
+    <MATT>14454545</MATT>
+    <MABN>14454545</MABN>
+    <MAQL>1</MAQL>
+    <IDKHOA>3</IDKHOA>
+    <HOTEN>TEST BHYT DOULBE</HOTEN>
+    <NAMSINH>1989</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <DIACHI>Không xác định Không xác định Đắc Lắc^</DIACHI>
+    <MADOITUONG>1</MADOITUONG>
+    <DOITUONG>BHYT</DOITUONG>
+    <SOTHE>HN937439673907401003</SOTHE>
+    <MAPHU>0</MAPHU>
+    <DENNGAY>31/12/2014 01/01/2014</DENNGAY>
+    <NOIGIOITHIEU>Bệnh viện đa khoa Xanh Pôn^01003^</NOIGIOITHIEU>
+    <NOICAP>0006</NOICAP>
+    <GIUONG>BS. Nguyễn Hữu Tường Lâm;</GIUONG>
+    <MAKP>02</MAKP>
+    <TENKP>Phòng Khám Số 1</TENKP>
+    <NGAYVAO>28/04/2014 14:40</NGAYVAO>
+    <NGAYRA>28/04/2014 14:58</NGAYRA>
+    <CHANDOAN>Di chứng do tác động khác và chưa xác định của căn nguyên từ bên ngoài;Di chứng do tác động của vật lạ vào qua lỗ tự nhiên;</CHANDOAN>
+    <MAICD>T98;T98.0;</MAICD>
+    <STTNHOM>2</STTNHOM>
+    <NHOM>Chẩn đoán hình ảnh</NHOM>
+    <STTLOAI>4</STTLOAI>
+    <LOAI>CĐHA loại khác</LOAI>
+    <MA>100293</MA>
+    <TEN>Đo công suất T3</TEN>
+    <DVT>Lần</DVT>
+    <SOLUONG>1.00</SOLUONG>
+    <DONGIA>15000.0000000000</DONGIA>
+    <SOTIEN>15000.000000000000</SOTIEN>
+    <TAMUNG>0</TAMUNG>
+    <BHYT>0</BHYT>
+    <BHYTT0107>0</BHYTT0107>
+    <TCSOTIEN>23320.00015000000000</TCSOTIEN>
+    <DICHSO />
+    <MIEN>0</MIEN>
+    <BHYTTRA>23320.00015000000000</BHYTTRA>
+    <BNTRA>0</BNTRA>
+    <DICHSOTRA />
+    <SBLTAMUNG xml:space="preserve"> </SBLTAMUNG>
+    <SOLUUTRU>^^^Di chứng do tác động khác và chưa xác định của căn nguyên từ bên ngoài;Di chứng do tác động của vật lạ vào qua lỗ tự nhiên;</SOLUUTRU>
+    <NGUOINHA />
+    <HINHTHUC>1</HINHTHUC>
+    <PHUONGPHAP>2</PHUONGPHAP>
+    <KETQUA>0</KETQUA>
+    <mabs />
+    <tenbs />
+    <makprv />
+    <tenuser>thuy</tenuser>
+    <cholam>^</cholam>
+    <gianovat>15000.0000000000</gianovat>
+    <idttrv>0</idttrv>
+    <sotientra>15000.000000000000</sotientra>
+    <traituyen>0</traituyen>
+    <kythuat>-1</kythuat>
+    <loaikythuat />
+    <sotoa>3</sotoa>
+    <sttbhyt>2</sttbhyt>
+    <idnhombhyt>2</idnhombhyt>
+    <tennhombhyt>Chẩn đoán hình ảnh</tennhombhyt>
+    <cpvc_100>False</cpvc_100>
+    <tylechitra>BHYT 100%</tylechitra>
+    <sokham>1</sokham>
+    <dienthoai />
+    <tyletra>100</tyletra>
+    <chuyenvien>^</chuyenvien>
+    <nhapvien>^</nhapvien>
+    <trieuchung />
+  </ravien>
+</NewDataSet>

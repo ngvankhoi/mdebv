@@ -1,0 +1,286 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="id" type="xs:string" minOccurs="0" />
+                <xs:element name="quyensoid" type="xs:string" minOccurs="0" />
+                <xs:element name="sobienlai" type="xs:string" minOccurs="0" />
+                <xs:element name="ngay" type="xs:string" minOccurs="0" />
+                <xs:element name="quyenso" type="xs:string" minOccurs="0" />
+                <xs:element name="sochungtu" type="xs:string" minOccurs="0" />
+                <xs:element name="ghichu" type="xs:string" minOccurs="0" />
+                <xs:element name="lydomien" type="xs:string" minOccurs="0" />
+                <xs:element name="nguoikymien" type="xs:string" minOccurs="0" />
+                <xs:element name="mabn" type="xs:string" minOccurs="0" />
+                <xs:element name="hoten" type="xs:string" minOccurs="0" />
+                <xs:element name="diachi" type="xs:string" minOccurs="0" />
+                <xs:element name="tenkp" type="xs:string" minOccurs="0" />
+                <xs:element name="namsinh" type="xs:string" minOccurs="0" />
+                <xs:element name="sotien" type="xs:decimal" minOccurs="0" />
+                <xs:element name="mien" type="xs:decimal" minOccurs="0" />
+                <xs:element name="bhyt" type="xs:decimal" minOccurs="0" />
+                <xs:element name="thu20" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tamung" type="xs:decimal" minOccurs="0" />
+                <xs:element name="thucthu" type="xs:decimal" minOccurs="0" />
+                <xs:element name="thucchi" type="xs:decimal" minOccurs="0" />
+                <xs:element name="nguoithu" type="xs:string" minOccurs="0" />
+                <xs:element name="userid" type="xs:string" minOccurs="0" />
+                <xs:element name="llll0" type="xs:decimal" minOccurs="0" />
+                <xs:element name="llll1" type="xs:decimal" minOccurs="0" />
+                <xs:element name="llll2" type="xs:decimal" minOccurs="0" />
+                <xs:element name="llll3" type="xs:decimal" minOccurs="0" />
+                <xs:element name="llll4" type="xs:decimal" minOccurs="0" />
+                <xs:element name="llll5" type="xs:decimal" minOccurs="0" />
+                <xs:element name="llll6" type="xs:decimal" minOccurs="0" />
+                <xs:element name="llll7" type="xs:decimal" minOccurs="0" />
+                <xs:element name="llll8" type="xs:decimal" minOccurs="0" />
+                <xs:element name="llll9" type="xs:decimal" minOccurs="0" />
+                <xs:element name="llll10" type="xs:decimal" minOccurs="0" />
+                <xs:element name="llll11" type="xs:decimal" minOccurs="0" />
+                <xs:element name="llll12" type="xs:decimal" minOccurs="0" />
+                <xs:element name="llll13" type="xs:decimal" minOccurs="0" />
+                <xs:element name="llll14" type="xs:decimal" minOccurs="0" />
+                <xs:element name="llll15" type="xs:decimal" minOccurs="0" />
+                <xs:element name="llll16" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tamungtrongngay" type="xs:decimal" default="0" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <id>186000003261</id>
+    <quyensoid>148</quyensoid>
+    <sobienlai>24240</sobienlai>
+    <ngay>07/03/2011</ngay>
+    <quyenso>VD/2009T-91</quyenso>
+    <sochungtu>VD/2009T-91 - 24240</sochungtu>
+    <mabn>11013980</mabn>
+    <hoten>LÊ BẢO CHI</hoten>
+    <diachi> Long Sơn H. Phú Tân An Giang</diachi>
+    <tenkp>Khoa Răng Hàm Mặt</tenkp>
+    <namsinh>2008</namsinh>
+    <sotien>130000.0000</sotien>
+    <mien>0.0000</mien>
+    <bhyt>0.0000</bhyt>
+    <tamung>0</tamung>
+    <thucthu>130000.0000</thucthu>
+    <thucchi>0</thucchi>
+    <nguoithu>Đồng Thị Thơm</nguoithu>
+    <userid>Đồng Thị Thơm (thom)</userid>
+    <llll0>0</llll0>
+    <llll1>0</llll1>
+    <llll2>0</llll2>
+    <llll3>0</llll3>
+    <llll4>0</llll4>
+    <llll5>0</llll5>
+    <llll6>0</llll6>
+    <llll7>0</llll7>
+    <llll8>130000.00000000000000000000</llll8>
+    <llll9>0</llll9>
+    <llll10>0</llll10>
+    <llll11>0</llll11>
+    <llll12>0</llll12>
+    <llll13>0</llll13>
+    <llll14>0</llll14>
+    <llll15>0</llll15>
+    <llll16>0</llll16>
+  </Table>
+  <Table>
+    <id>186000003262</id>
+    <quyensoid>148</quyensoid>
+    <sobienlai>24241</sobienlai>
+    <ngay>07/03/2011</ngay>
+    <quyenso>VD/2009T-91</quyenso>
+    <sochungtu>VD/2009T-91 - 24241</sochungtu>
+    <mabn>10074136</mabn>
+    <hoten>TRẦN TẤN ĐẠT</hoten>
+    <diachi> P. Châu Phú B TX. Châu Đốc An Giang</diachi>
+    <tenkp>Khoa Cấp Cứu</tenkp>
+    <namsinh>1991</namsinh>
+    <sotien>1964287.1500</sotien>
+    <mien>0.0000</mien>
+    <bhyt>0.0000</bhyt>
+    <tamung>1800000</tamung>
+    <thucthu>164287.1500</thucthu>
+    <thucchi>0</thucchi>
+    <nguoithu>Đồng Thị Thơm</nguoithu>
+    <userid>Đồng Thị Thơm (thom)</userid>
+    <llll0>0</llll0>
+    <llll1>66000.00000000000000000000</llll1>
+    <llll2>0</llll2>
+    <llll3>0</llll3>
+    <llll4>1374678.75283333340000000000</llll4>
+    <llll5>0</llll5>
+    <llll6>0</llll6>
+    <llll7>0</llll7>
+    <llll8>200000.00000000000000000000</llll8>
+    <llll9>0</llll9>
+    <llll10>0</llll10>
+    <llll11>0</llll11>
+    <llll12>40000.00000000000000000000</llll12>
+    <llll13>0</llll13>
+    <llll14>240223.40000000000000000000</llll14>
+    <llll15>43384.99987500000000000000</llll15>
+    <llll16>0</llll16>
+  </Table>
+  <Table>
+    <id>186000003278</id>
+    <quyensoid>148</quyensoid>
+    <sobienlai>24256</sobienlai>
+    <ngay>07/03/2011</ngay>
+    <quyenso>VD/2009T-91</quyenso>
+    <sochungtu>VD/2009T-91 - 24256</sochungtu>
+    <mabn>11014021</mabn>
+    <hoten>TRẦN THỊ OANH</hoten>
+    <diachi> P. Núi Sam TX. Châu Đốc An Giang</diachi>
+    <tenkp>Khoa Sản</tenkp>
+    <namsinh>1987</namsinh>
+    <sotien>390314.1000</sotien>
+    <mien>0.0000</mien>
+    <bhyt>0.0000</bhyt>
+    <tamung>0</tamung>
+    <thucthu>390314.1000</thucthu>
+    <thucchi>0</thucchi>
+    <nguoithu>Đồng Thị Thơm</nguoithu>
+    <userid>Đồng Thị Thơm (thom)</userid>
+    <llll0>0</llll0>
+    <llll1>4000.00000000000000000000</llll1>
+    <llll2>0</llll2>
+    <llll3>0</llll3>
+    <llll4>0</llll4>
+    <llll5>0</llll5>
+    <llll6>0</llll6>
+    <llll7>0</llll7>
+    <llll8>243000.00000000000000000000</llll8>
+    <llll9>0</llll9>
+    <llll10>0</llll10>
+    <llll11>0</llll11>
+    <llll12>16000.00000000000000000000</llll12>
+    <llll13>0</llll13>
+    <llll14>127314.09920634920000000000</llll14>
+    <llll15>0</llll15>
+    <llll16>0</llll16>
+  </Table>
+  <Table>
+    <id>186000003276</id>
+    <quyensoid>148</quyensoid>
+    <sobienlai>24257</sobienlai>
+    <ngay>07/03/2011</ngay>
+    <quyenso>VD/2009T-91</quyenso>
+    <sochungtu>VD/2009T-91 - 24257</sochungtu>
+    <mabn>11008012</mabn>
+    <hoten>NGUYỄN VĂN DŨNG</hoten>
+    <diachi> TT. Tịnh Biên H. Tịnh Biên An Giang</diachi>
+    <tenkp>Hồi Sức Tích Cực, Chống Độc [ICU]</tenkp>
+    <namsinh>1968</namsinh>
+    <sotien>156497.5000</sotien>
+    <mien>0.0000</mien>
+    <bhyt>0.0000</bhyt>
+    <tamung>0</tamung>
+    <thucthu>156497.5000</thucthu>
+    <thucchi>0</thucchi>
+    <nguoithu>Đồng Thị Thơm</nguoithu>
+    <userid>Đồng Thị Thơm (thom)</userid>
+    <llll0>0</llll0>
+    <llll1>0</llll1>
+    <llll2>0</llll2>
+    <llll3>0</llll3>
+    <llll4>0</llll4>
+    <llll5>0</llll5>
+    <llll6>0</llll6>
+    <llll7>0.00000000000000000000</llll7>
+    <llll8>17000.00000000000000000000</llll8>
+    <llll9>0</llll9>
+    <llll10>0</llll10>
+    <llll11>0</llll11>
+    <llll12>95000.00000000000000000000</llll12>
+    <llll13>0</llll13>
+    <llll14>44497.50000000000000000000</llll14>
+    <llll15>0</llll15>
+    <llll16>0</llll16>
+  </Table>
+  <Table>
+    <id>186000003280</id>
+    <quyensoid>148</quyensoid>
+    <sobienlai>24259</sobienlai>
+    <ngay>07/03/2011</ngay>
+    <quyenso>VD/2009T-91</quyenso>
+    <sochungtu>VD/2009T-91 - 24259</sochungtu>
+    <mabn>11014175</mabn>
+    <hoten>LÊ THỊ THÚY AN</hoten>
+    <diachi> Thạnh Mỹ Tây H. Châu Phú An Giang</diachi>
+    <tenkp>Khoa Sản</tenkp>
+    <namsinh>1982</namsinh>
+    <sotien>1045222.0000</sotien>
+    <mien>0.0000</mien>
+    <bhyt>0.0000</bhyt>
+    <tamung>0</tamung>
+    <thucthu>1045222.0000</thucthu>
+    <thucchi>0</thucchi>
+    <nguoithu>Đồng Thị Thơm</nguoithu>
+    <userid>Đồng Thị Thơm (thom)</userid>
+    <llll0>0</llll0>
+    <llll1>16000.00000000000000000000</llll1>
+    <llll2>0</llll2>
+    <llll3>0</llll3>
+    <llll4>193572.00000000000000000000</llll4>
+    <llll5>0</llll5>
+    <llll6>0</llll6>
+    <llll7>0</llll7>
+    <llll8>606000.00000000000000000000</llll8>
+    <llll9>0</llll9>
+    <llll10>0</llll10>
+    <llll11>0</llll11>
+    <llll12>16000.00000000000000000000</llll12>
+    <llll13>0</llll13>
+    <llll14>180388.00000000000000000000</llll14>
+    <llll15>33262.00000000000000000000</llll15>
+    <llll16>0</llll16>
+  </Table>
+  <Table>
+    <id>186000003282</id>
+    <quyensoid>148</quyensoid>
+    <sobienlai>24261</sobienlai>
+    <ngay>07/03/2011</ngay>
+    <quyenso>VD/2009T-91</quyenso>
+    <sochungtu>VD/2009T-91 - 24261</sochungtu>
+    <mabn>10097436</mabn>
+    <hoten>ĐẶNG THỊ XUÂN LAN</hoten>
+    <diachi> Không xác định TX. Châu Đốc An Giang</diachi>
+    <tenkp>Khoa Sản</tenkp>
+    <namsinh>1984</namsinh>
+    <sotien>155480.0000</sotien>
+    <mien>0.0000</mien>
+    <bhyt>0.0000</bhyt>
+    <tamung>0</tamung>
+    <thucthu>155480.0000</thucthu>
+    <thucchi>0</thucchi>
+    <nguoithu>Đồng Thị Thơm</nguoithu>
+    <userid>Đồng Thị Thơm (thom)</userid>
+    <llll0>0</llll0>
+    <llll1>0</llll1>
+    <llll2>0</llll2>
+    <llll3>0</llll3>
+    <llll4>0</llll4>
+    <llll5>0</llll5>
+    <llll6>0</llll6>
+    <llll7>0</llll7>
+    <llll8>116000.00000000000000000000</llll8>
+    <llll9>0</llll9>
+    <llll10>0</llll10>
+    <llll11>0</llll11>
+    <llll12>0</llll12>
+    <llll13>0</llll13>
+    <llll14>39480.00000000000000000000</llll14>
+    <llll15>0</llll15>
+    <llll16>0</llll16>
+  </Table>
+</NewDataSet>

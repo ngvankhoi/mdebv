@@ -1,0 +1,37 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="id_benhtc" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tenbenh" type="xs:string" minOccurs="0" />
+                <xs:element name="ngaytiem" type="xs:string" minOccurs="0" />
+                <xs:element name="tenthuoc" type="xs:string" minOccurs="0" />
+                <xs:element name="muitiem" type="xs:string" minOccurs="0" />
+                <xs:element name="ngaytiem_hen" type="xs:string" minOccurs="0" />
+                <xs:element name="mabd" type="xs:decimal" minOccurs="0" />
+                <xs:element name="cosotiem" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tencoso" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <id_benhtc>5</id_benhtc>
+    <tenbenh>Ung thư cổ tử cung</tenbenh>
+    <ngaytiem>15/06/2011</ngaytiem>
+    <tenthuoc>Centiol</tenthuoc>
+    <muitiem>hhhaha</muitiem>
+    <ngaytiem_hen>15/06/2011</ngaytiem_hen>
+    <mabd>190084</mabd>
+    <cosotiem>2</cosotiem>
+    <tencoso>Chi nhánh 2</tencoso>
+  </Table>
+</NewDataSet>

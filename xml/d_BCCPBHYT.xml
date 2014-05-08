@@ -1,0 +1,41 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="Table1">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="MA" type="xs:decimal" minOccurs="0" />
+                <xs:element name="SLKHAM" type="xs:decimal" minOccurs="0" />
+                <xs:element name="CHIPHITT" type="xs:decimal" minOccurs="0" />
+                <xs:element name="XNGHIEM" type="xs:decimal" minOccurs="0" />
+                <xs:element name="XQUANG" type="xs:decimal" minOccurs="0" />
+                <xs:element name="THUTHUAT" type="xs:decimal" minOccurs="0" />
+                <xs:element name="THUOC" type="xs:decimal" minOccurs="0" />
+                <xs:element name="KHAM" type="xs:decimal" minOccurs="0" />
+                <xs:element name="THU20" type="xs:decimal" minOccurs="0" />
+                <xs:element name="STDENGHITT" type="xs:decimal" minOccurs="0" />
+                <xs:element name="SOCHENHLECH" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table1>
+    <MA>1</MA>
+    <SLKHAM>4794</SLKHAM>
+    <CHIPHITT>215882682.08</CHIPHITT>
+    <XNGHIEM>0</XNGHIEM>
+    <XQUANG>0</XQUANG>
+    <THUTHUAT>0</THUTHUAT>
+    <THUOC>215882682.08</THUOC>
+    <KHAM>0</KHAM>
+    <THU20>0</THU20>
+    <STDENGHITT>215882682.08</STDENGHITT>
+    <SOCHENHLECH>0</SOCHENHLECH>
+  </Table1>
+</NewDataSet>

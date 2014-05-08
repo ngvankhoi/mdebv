@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="LibList">
+</Property><Property Name="Solution File" Value="C:\Medisoft_psql_2005\LibList\LibList.sln">
+</Property><Property Name="Date" Value="Tuesday, August 15, 2006">
+</Property><Property Name="Time" Value="15:33 PM">
+</Property></Properties><Event ErrorLevel="0" Project="LibList" Source="LibList.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="LibList" Source="LibList.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="LibList.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="LibList.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="LibList" Source="LibList.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

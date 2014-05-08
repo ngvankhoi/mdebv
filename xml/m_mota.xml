@@ -1,0 +1,60 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="id" type="xs:decimal" minOccurs="0" />
+                <xs:element name="maicd" type="xs:string" minOccurs="0" />
+                <xs:element name="chandoan" type="xs:string" minOccurs="0" />
+                <xs:element name="tenkp" type="xs:string" minOccurs="0" />
+                <xs:element name="sothe" type="xs:string" minOccurs="0" />
+                <xs:element name="bacsidt" type="xs:string" minOccurs="0" />
+                <xs:element name="ktv" type="xs:string" minOccurs="0" />
+                <xs:element name="bsdoc" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="btdbn">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="mabn" type="xs:string" minOccurs="0" />
+                <xs:element name="hoten" type="xs:string" minOccurs="0" />
+                <xs:element name="phai" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ngaysinh" type="xs:string" minOccurs="0" />
+                <xs:element name="diachi" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="dtkq">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="id" type="xs:decimal" minOccurs="0" />
+                <xs:element name="makt" type="xs:string" minOccurs="0" />
+                <xs:element name="solan" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ketluan" type="xs:string" minOccurs="0" />
+                <xs:element name="mota" type="xs:string" minOccurs="0" />
+                <xs:element name="denghi" type="xs:string" minOccurs="0" />
+                <xs:element name="tenkt" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="image">
+            <xs:complexType>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <btdbn>
+    <mabn>07005329</mabn>
+    <hoten>NGUYỄN THANH ĐIỀN</hoten>
+    <phai>0</phai>
+    <ngaysinh>1935</ngaysinh>
+    <diachi>  Thạnh Đông A H. Tân Hiệp Kiên Giang</diachi>
+  </btdbn>
+</NewDataSet>

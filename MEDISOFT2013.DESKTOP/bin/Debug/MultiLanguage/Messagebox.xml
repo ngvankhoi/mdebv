@@ -1,0 +1,5639 @@
+<?xml version="1.0" standalone="yes" ?>
+<NewDataSet>
+	<xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+			<xs:complexType>
+				<xs:choice minOccurs="0" maxOccurs="unbounded">
+					<xs:element name="Language">
+						<xs:complexType>
+							<xs:sequence>
+								<xs:element name="Vviet" type="xs:string" minOccurs="0" />
+								<xs:element name="Vanh" type="xs:string" minOccurs="0" />
+								<xs:element name="Vphap" type="xs:string" minOccurs="0" />
+							</xs:sequence>
+						</xs:complexType>
+					</xs:element>
+				</xs:choice>
+			</xs:complexType>
+		</xs:element>
+	</xs:schema>
+	<Language>
+		<Vviet>Vui lòng nhập Mã BVSK.</Vviet>
+		<Vanh>Please enter VIP code.</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Vui lòng chọn phường / xã hiện tại đang ở của cán bộ.</Vviet>
+		<Vanh>Please select commune where VIP living</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Vui lòng chọn bệnh nhân!</Vviet>
+		<Vanh>Please select patient!</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Vui lòng chọn quận / huyện hiện tại đang ở của cán bộ.</Vviet>
+		<Vanh>Please select district where VIP living</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Vui lòng chọn tỉnh / thành hiện tại đang ở của cán bộ.</Vviet>
+		<Vanh>Please select province where VIP living</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Vui lòng nhập Mã BVSK.</Vviet>
+		<Vanh>Please enter VIP code.</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Năm sinh không thể lớn hơn năm hiện hành hoặc năm lập sổ khám.</Vviet>
+		<Vanh>Invalid YOB !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Năm sinh không hợp lệ.</Vviet>
+		<Vanh>Invalid YOB</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Lưu ý: không được lớn hơn ngày hiện tại hoặc ngày lập sổ.</Vviet>
+		<Vanh>Invalid date !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Ngày sinh không hợp lệ.</Vviet>
+		<Vanh>Invalid DOB</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Vui lòng chọn phường / xã.</Vviet>
+		<Vanh>Please select commune</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Vui lòng chọn phường / xã.</Vviet>
+		<Vanh>Please select commune</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Vui lòng chọn quận / huyện.</Vviet>
+		<Vanh>Please select district</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Vui lòng chọn tỉnh / thành.</Vviet>
+		<Vanh>Please select city/province</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Ngày được hưởng chế độ chăm sóc thai sản không hợp lệ.</Vviet>
+		<Vanh>Invalid mother care policy date  </Vanh>
+	</Language>
+	<Language>
+		<Vviet>Ngày được hưởng kỷ thuật cao không hợp lệ.</Vviet>
+		<Vanh>Invalid hitech policy date  </Vanh>
+	</Language>
+	<Language>
+		<Vviet>Nơi mua thẻ BHYT không hợp lệ.
+</Vviet>
+		<Vanh>Invalid SSN distributing place</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Nơi ĐKKCB ban đầu không hợp lệ.
+</Vviet>
+		<Vanh>Invalid registering resource</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Vui lòng nhập nơi ĐKKCB ban đầu.
+</Vviet>
+		<Vanh>Please enter registering resource</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Vui lòng chọn tuyến của thẻ.</Vviet>
+		<Vanh>Please select exam place level</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Ngày hết hạn của thẻ không hợp lệ.</Vviet>
+		<Vanh>Invalid SSN expired date</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Vui lòng nhập ngày hết hạn của thẻ.</Vviet>
+		<Vanh>Please enter SSN expired date</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Ngày bắt đầu có giá trị của thẻ không hợp lệ.</Vviet>
+		<Vanh>Start date invalid</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Vui lòng chọn nghề nghiệp của cán bộ.</Vviet>
+		<Vanh>Please select VIP occupation.</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Vui lòng chọn tình trạng công tác của cán bộ.</Vviet>
+		<Vanh>Please select VIP working status</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Vui lòng chọn chức vụ của cán bộ.</Vviet>
+		<Vanh>Please select VIP position</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Năm sinh không hợp lệ.</Vviet>
+		<Vanh>YOB invalid</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Ngày sinh không hợp lệ.</Vviet>
+		<Vanh>DOB invalid</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Chức vụ không hợp lệ. Vui lòng kiểm tra lại</Vviet>
+		<Vanh>Position not valid</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Vui lòng chọn giới tính cán bộ.</Vviet>
+		<Vanh>Please enter VIP gender</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Vui lòng nhập tuổi cán bộ.</Vviet>
+		<Vanh>Please enter VIP age</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Vui lòng nhập năm sinh cán bộ.</Vviet>
+		<Vanh>Please enter VIP YOB</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Vui lòng nhập họ tên cán bộ.</Vviet>
+		<Vanh>Please enter VIP name</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Vui lòng nhập mã số cán bộ.</Vviet>
+		<Vanh>Please enter VIP code</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Khai báo thông số máy</Vviet>
+		<Vanh>Parameters for PC of </Vanh>
+	</Language>
+	<Language>
+		<Vviet>03 tháng</Vviet>
+		<Vanh>03 months</Vanh>
+	</Language>
+	<Language>
+		<Vviet>06 tháng</Vviet>
+		<Vanh>06 months</Vanh>
+	</Language>
+	<Language>
+		<Vviet>09 tháng</Vviet>
+		<Vanh>09 months</Vanh>
+	</Language>
+	<Language>
+		<Vviet>12 tháng</Vviet>
+		<Vanh>12 months</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Không kết nối được Server !</Vviet>
+		<Vanh>Cannot connect to server !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Không kết nối được Server!</Vviet>
+		<Vanh>Cannot connect to server !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Không được cấp thuốc BHYT !</Vviet>
+		<Vanh>Cannot have insurance prescription !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Lựa chọn</Vviet>
+		<Vanh>Choose</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Lấy danh mục</Vviet>
+		<Vanh>From list</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Nhập tự do</Vviet>
+		<Vanh>Free style</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Đề nghị nhập mã số bệnh nhân!</Vviet>
+		<Vanh>Please input patient ID or select patient in waiting list !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>F1 : Gọi người bệnh</Vviet>
+		<Vanh>F1 : Call patient</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Phiếu khám bệnh chung</Vviet>
+		<Vanh>General consult notes</Vanh>
+	</Language>
+	<Language>
+		<Vviet>6. Chuyển vào phòng khám :</Vviet>
+		<Vanh>6. Transferred to OP clinic :</Vanh>
+	</Language>
+	<Language>
+		<Vviet>6. Cho vào điều trị tại khoa :</Vviet>
+		<Vanh>6. Admitted to dept.:</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Đúng tuyến</Vviet>
+		<Vanh>SSN acceptable</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Bạn có muốn kết thúc không ?</Vviet>
+		<Vanh>Do you want to exit ?</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Người lớn</Vviet>
+		<Vanh>Adult</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Kết thúc</Vviet>
+		<Vanh>Exit</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Cũ</Vviet>
+		<Vanh>Registered</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Mới</Vviet>
+		<Vanh>New patient</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Đơn thuốc mua ngoài</Vviet>
+		<Vanh>No insurance prescriptions </Vanh>
+	</Language>
+	<Language>
+		<Vviet>Đơn thuốc dược phát</Vviet>
+		<Vanh>Insurance prescriptions </Vanh>
+	</Language>
+	<Language>
+		<Vviet>Chỉ định cận lâm sàng</Vviet>
+		<Vanh>Pathology orders</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Yêu cầu nhập chẩn đoán trong khám bệnh !</Vviet>
+		<Vanh>Please input diagnosis !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Thông tin đã cập nhật vào</Vviet>
+		<Vanh>Data already updated into dept.:</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Yêu cầu chọn bác sĩ !</Vviet>
+		<Vanh>Please select doctor !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Bạn không có quyền chỉnh sửa !</Vviet>
+		<Vanh>Cannot be changed !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Tai nạn thương tích</Vviet>
+		<Vanh>Accidents and injuries</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Tủ trực</Vviet>
+		<Vanh>Dept. store presc.</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Bệnh kèm theo</Vviet>
+		<Vanh>Other diseases</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Xem cận lâm sàng</Vviet>
+		<Vanh>Pathology results</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Lịch hẹn</Vviet>
+		<Vanh>Appointments</Vanh>
+	</Language>
+	<Language>
+		<Vviet>DANH SÁCH ĐĂNG KÝ</Vviet>
+		<Vanh>Registered patients</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Trái tuyến</Vviet>
+		<Vanh>SSN not acceptable</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Mục đăng ký trong đoàn :</Vviet>
+		<Vanh>Registered items</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Phản ứng</Vviet>
+		<Vanh>Drug allergies</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Sử dụng thuốc</Vviet>
+		<Vanh>Drug using</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Phẩu thuật thủ thuật</Vviet>
+		<Vanh>Surgery and procedures </Vanh>
+	</Language>
+	<Language>
+		<Vviet>Tiền sử bệnh</Vviet>
+		<Vanh>Past history</Vanh>
+	</Language>
+	<Language>
+		<Vviet>TMH Đầu mặt cổ</Vviet>
+		<Vanh>ENT ,Head and neck</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Dấu sinh tồn</Vviet>
+		<Vanh>Vital signs</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Bệnh mãn tính</Vviet>
+		<Vanh>Chronic diseases</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Lấy dấu vân tay</Vviet>
+		<Vanh>Fingerprint</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Toàn bộ</Vviet>
+		<Vanh>Total</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Chi tiết</Vviet>
+		<Vanh>In detail</Vanh>
+	</Language>
+	<Language>
+		<Vviet> Lịch làm việc của bác sĩ :</Vviet>
+		<Vanh>Doctor scheduler</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Chi tiết mục đăng ký</Vviet>
+		<Vanh>Registered items in details</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Danh sách trong đơn vị</Vviet>
+		<Vanh>Customers in organisation</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Tình hình phẫu thủ thuật</Vviet>
+		<Vanh>Surgery activity</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Chọn mã số !</Vviet>
+		<Vanh>Please select ID !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Chọn đơn vị !</Vviet>
+		<Vanh>Please select organisation !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>- Tháng</Vviet>
+		<Vanh>- Month</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Người cập nhật :</Vviet>
+		<Vanh>User :</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Phòng lưu</Vviet>
+		<Vanh>Emergency</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Yêu cầu chọn phiếu buổi chiều !</Vviet>
+		<Vanh>Please select another session</Vanh>
+	</Language>
+	<Language>
+		<Vviet>viện phí đã in danh sách thu tiền</Vviet>
+		<Vanh>Bill was printed</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Số liệu đã được cập nhật bạn không có quyền thay đổi !</Vviet>
+		<Vanh>Data were updated, cannot be changed</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Số liệu đã chuyển xuống kho bạn không quyền thay đổi !</Vviet>
+		<Vanh>Data were sent, cannot be changed</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Tất cả</Vviet>
+		<Vanh>All</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Họ và Tên</Vviet>
+		<Vanh>Full name</Vanh>
+	</Language>
+	<Language>
+		<Vviet>STT</Vviet>
+		<Vanh>Seq #</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Tập tin không đúng mẫu !</Vviet>
+		<Vanh>Invalid file format </Vanh>
+	</Language>
+	<Language>
+		<Vviet>Đơn vị đoàn</Vviet>
+		<Vanh>Group name</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Viện phí</Vviet>
+		<Vanh>Billing</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Chi phí</Vviet>
+		<Vanh>Due</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Lý thuyết</Vviet>
+		<Vanh>Payment</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Họ và tên</Vviet>
+		<Vanh>Full name</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Mã BN</Vviet>
+		<Vanh>Pat. ID</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Mục đăng ký trong đoàn :</Vviet>
+		<Vanh>Registed items for examination</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Nữ</Vviet>
+		<Vanh>Female</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Nam</Vviet>
+		<Vanh>Male</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Đơn vị trong đoàn :</Vviet>
+		<Vanh>Unit in group :</Vanh>
+	</Language>
+	<Language>
+		<Vviet>đến:</Vviet>
+		<Vanh>and :</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Từ ngày:</Vviet>
+		<Vanh>Between :</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Giới tính</Vviet>
+		<Vanh>Gender</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Ngày ra viện :</Vviet>
+		<Vanh>Disc. date :</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Chẩn đoán :</Vviet>
+		<Vanh>Diagnosis :</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Ngày vào viện :</Vviet>
+		<Vanh>Adm. date :</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Số lưu trữ :</Vviet>
+		<Vanh>Storing # :</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Số giường :</Vviet>
+		<Vanh>Bed # :</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Địa chỉ :</Vviet>
+		<Vanh>Address :</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Số thẻ</Vviet>
+		<Vanh>SSN</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Tuổi</Vviet>
+		<Vanh>Age</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Họ tên :</Vviet>
+		<Vanh>Full name :</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Khoa :</Vviet>
+		<Vanh>Dept. :</Vanh>
+	</Language>
+	<Language>
+		<Vviet>VÀ THANH TOÁN TIỀN CHO BỆNH NHÂN RA VIỆN</Vviet>
+		<Vanh>AND DISCHARGE BILLING</Vanh>
+	</Language>
+	<Language>
+		<Vviet>PHIẾU TỔNG HỢP THUỐC DÙNG HÀNG NGÀY</Vviet>
+		<Vanh>DAILY DRUG SUMMARY</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Y TÁ HÀNH CHÁNH</Vviet>
+		<Vanh>NURSE</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Thành tiền</Vviet>
+		<Vanh>Total</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Đơn giá</Vviet>
+		<Vanh>Unit price</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Tổng số</Vviet>
+		<Vanh>Quantity</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Đơn vị</Vviet>
+		<Vanh>Unit</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Tên thuốc,hàm lượng</Vviet>
+		<Vanh>Drug, dosage form</Vanh>
+	</Language>
+	<Language>
+		<Vviet>MỔ LẠI MIỄN</Vviet>
+		<Vanh>RE-OPERATIE (Free)</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Chuyển phòng giường khoa</Vviet>
+		<Vanh>Transferring room bed at dept.</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Hoàn trả thừa theo khoa/phòng</Vviet>
+		<Vanh>Returning by department</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Không xác định</Vviet>
+		<Vanh>Unspecified</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Trung bình :</Vviet>
+		<Vanh>Everage :</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Tổng chi phí :</Vviet>
+		<Vanh>Total fee :</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Số ca :</Vviet>
+		<Vanh>N. of cases :</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Khoa</Vviet>
+		<Vanh>Dept.</Vanh>
+	</Language>
+	<Language>
+		<Vviet>STT</Vviet>
+		<Vanh>Seq#</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Khám chuyên khoa</Vviet>
+		<Vanh>Specialist exam</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Tháng ....  Năm</Vviet>
+		<Vanh>Month....Year</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Báo Cáo : ..... Tháng, Năm</Vviet>
+		<Vanh>Report :..... month, year</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Tháng:</Vviet>
+		<Vanh>Month:</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Mới</Vviet>
+		<Vanh>New</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Tháng</Vviet>
+		<Vanh>month(s)</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Không có trong danh mục !</Vviet>
+		<Vanh>Not exist in drug list</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Những mặt hàng sau không đủ trong tồn</Vviet>
+		<Vanh>Drugs not enough for prescribing</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Đồng ý hủy số phiếu này ?</Vviet>
+		<Vanh>Do you really want to dele this ?</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Số lượng xuất lớn hơn số lượng tồn !(</Vviet>
+		<Vanh>The prescribing quantity is over than in-stock</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Nhập số lượng !</Vviet>
+		<Vanh>Please input quantity !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Mã số không hợp lệ !</Vviet>
+		<Vanh>Drug code invalid !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Nhập tên thuốc!</Vviet>
+		<Vanh>Please input drug name !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Nhập mã thuốc!</Vviet>
+		<Vanh>Please input drug code !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Không cập nhật được thông tin !</Vviet>
+		<Vanh>Can not update data</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Đề nghị nhập thuốc !</Vviet>
+		<Vanh>Please input drug !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Những thuốc sau đã kê toa :</Vviet>
+		<Vanh>Drugs already prescribed :</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Đã cập nhật !</Vviet>
+		<Vanh>Updated !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Bạn có muốn cấp tiếp không ?</Vviet>
+		<Vanh>Do you want to keep on prescribing</Vanh>
+	</Language>
+	<Language>
+		<Vviet>ngày</Vviet>
+		<Vanh>day(s)</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Ngày</Vviet>
+		<Vanh>day(s)</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Tuần</Vviet>
+		<Vanh>week(s)</Vanh>
+	</Language>
+	<Language>
+		<Vviet>cấp đơn thuốc</Vviet>
+		<Vanh>already prescribed for</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Ngày:</Vviet>
+		<Vanh>Date:</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Đã in chi phí tại</Vviet>
+		<Vanh>Already printed at</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Nếu cần thay đổi thì vào mục khai báo hệ thống</Vviet>
+		<Vanh>It can be changed at system setting</Vanh>
+	</Language>
+	<Language>
+		<Vviet>đã khóa !</Vviet>
+		<Vanh>was locked !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>năm:</Vviet>
+		<Vanh>year:</Vanh>
+	</Language>
+	<Language>
+		<Vviet>năm</Vviet>
+		<Vanh>year</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Số liệu tháng</Vviet>
+		<Vanh>Data of month</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Đã nhập đơn thuốc !</Vviet>
+		<Vanh>Prescription existed !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>chưa tạo !</Vviet>
+		<Vanh>not yet created !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>năm 20</Vviet>
+		<Vanh>year 20</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Số liệu tồn kho tháng</Vviet>
+		<Vanh>Stock in month</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Không có dữ liệu</Vviet>
+		<Vanh>No data !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>DỊ ỨNG THUỐC :</Vviet>
+		<Vanh>Drug allergy :</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Năm tuổi</Vviet>
+		<Vanh>y.o.</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Tháng tuổi</Vviet>
+		<Vanh>m.o.</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Hội chẩn mổ cấp cứu</Vviet>
+		<Vanh>Reference for urgent surgery</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Bảng kiểm soát BN mổ khẩn trước khi đưa lên phòng mổ</Vviet>
+		<Vanh>Check list before sending emergency patient to Operating theater</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Hội chẩn duyệt mổ</Vviet>
+		<Vanh>Surgery reference</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Bảng kiểm soát BN trước khi đưa lên phòng mổ</Vviet>
+		<Vanh>Check list before sending routine patient to Operating theater</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Hội chẩn về sử dụng thuốc theo qui định</Vviet>
+		<Vanh>Drugs referral</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Phiếu đánh giá bệnh nhân trước phẫu thuật</Vviet>
+		<Vanh>Patient status evaluation before surgery</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Giấy cam đoan chấp nhận PTTT và GMHS</Vviet>
+		<Vanh>Risk acceptance letter before surgery</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Phiếu lĩnh và phát máu</Vviet>
+		<Vanh>Blood receiving and distributing notes</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Giao nhận</Vviet>
+		<Vanh>Hand-over</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Phiếu sơ kết 15 ngày điều trị</Vviet>
+		<Vanh>15 day reports</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Phiếu cận lâm sàng bằng tập tin</Vviet>
+		<Vanh>Pathology text files</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Thuốc đã sử dụng</Vviet>
+		<Vanh>Drug using</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Công khai thuốc</Vviet>
+		<Vanh>Drug report</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Công nợ</Vviet>
+		<Vanh>Balance</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Xuất khoa</Vviet>
+		<Vanh>Dept. diacharge</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Thanh toán ra viện</Vviet>
+		<Vanh>Discharge billing</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Giấy ra viện</Vviet>
+		<Vanh>Discharge letter</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Giấy chuyển viện</Vviet>
+		<Vanh>Tranferring letter</Vanh>
+	</Language>
+	<Language>
+		<Vviet>BN mới</Vviet>
+		<Vanh>New encounter</Vanh>
+	</Language>
+	<Language>
+		<Vviet>BN cũ</Vviet>
+		<Vanh>Established patient </Vanh>
+	</Language>
+	<Language>
+		<Vviet>Ngày tuổi</Vviet>
+		<Vanh>d.o.</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Giờ tuổi</Vviet>
+		<Vanh>h.o.</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Nam</Vviet>
+		<Vanh>Male</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Nữ</Vviet>
+		<Vanh>Female</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Không</Vviet>
+		<Vanh>None</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Chẳn</Vviet>
+		<Vanh>Even</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Lẻ</Vviet>
+		<Vanh>Odd</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Không rõ</Vviet>
+		<Vanh>Unknown</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Người cập nhật :</Vviet>
+		<Vanh>User :</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Medisoft 2007 - Viện phí</Vviet>
+		<Vanh>Medisoft 2007 - Billing system</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Bạn có sửa thông tin hành chính không ?</Vviet>
+		<Vanh>Do you want to update demographic data ?</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Chọn thư mục sao lưu số liệu</Vviet>
+		<Vanh>Select directory for  back-up</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Danh mục nhóm nhân viên</Vviet>
+		<Vanh>Staff group</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Ngày sinh không hợp lệ !</Vviet>
+		<Vanh>Invalid date of birth!</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Quyền truy cập</Vviet>
+		<Vanh>User rights</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Người bệnh chưa được chỉ định khám</Vviet>
+		<Vanh>Not yet assigned to an exam room</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Năm sinh không hợp lệ !</Vviet>
+		<Vanh>Invalid year of birth!</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Yêu cầu nhập tuổi vào !</Vviet>
+		<Vanh>Please input age!</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Ngày không hợp lệ !</Vviet>
+		<Vanh>Invalid date!</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Tên người dùng và mật khẩu không tìm thấy !</Vviet>
+		<Vanh>Username and password not found !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Không cập nhật được thông tin hành chính !</Vviet>
+		<Vanh>Can not update demographic data!</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Không cập nhật được thông tin đăng ký !</Vviet>
+		<Vanh>Data can not be updated!</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Không cập nhật được thông tin bảo hiểm !</Vviet>
+		<Vanh>Cannot update insurance data!</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Yêu cầu nhập Ngày và giờ khám bệnh !</Vviet>
+		<Vanh>Please input date and time of consultation!</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Ngày và giờ không hợp lệ !</Vviet>
+		<Vanh>Date and time invalid!</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Ngày khám bệnh không hợp lệ so với khai báo hệ thống </Vviet>
+		<Vanh>Invalid date , please check system setting</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Số biên lai vượt quá trong khoản từ :</Vviet>
+		<Vanh>Receipt # is out of range.</Vanh>
+	</Language>
+	<Language>
+		<Vviet>đến</Vviet>
+		<Vanh>to</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Nhập số thẻ chưa đủ (&gt;=13)!</Vviet>
+		<Vanh>Invalid health insurance code, please check number of characters!</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Nhập mã bệnh nhân !</Vviet>
+		<Vanh>Please input patient ID!</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Nhập họ tên bệnh nhân !</Vviet>
+		<Vanh>Please input patient name!</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Quốc tịch không hợp lệ !</Vviet>
+		<Vanh>Invalid nationality!</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Họ tên và giới tính không hợp lệ !</Vviet>
+		<Vanh>Name and gender do not matched!</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Nhập ngày vào khám bệnh !</Vviet>
+		<Vanh>Please input consultation date!</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Nhập đối tượng !</Vviet>
+		<Vanh>Please input patient class!</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Nhập nghề nghiệp !</Vviet>
+		<Vanh>Please input occupation!</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Chọn tỉnh/thành phố !</Vviet>
+		<Vanh>Please select province!</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Chọn quận/huyện !</Vviet>
+		<Vanh>Please select district!</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Chọn phường xã !</Vviet>
+		<Vanh>Please select commun!</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Chọn dân tộc </Vviet>
+		<Vanh>Please select ethnic!</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Chọn quốc tịch !</Vviet>
+		<Vanh>Please select nationality!</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Chọn khoa/phòng !</Vviet>
+		<Vanh>Please select department!</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Nghề nghiệp và độ tuổi không hợp lệ !</Vviet>
+		<Vanh>Mismatch occupation and age !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Độ tuổi và phòng khám không hợp lệ !</Vviet>
+		<Vanh>Mismatch age and outpatient unit!</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Ngày hết hạn không được nhỏ hơn ngày khám bệnh!</Vviet>
+		<Vanh>Invalid date !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Nhập mã ICD nơi chuyển đến !</Vviet>
+		<Vanh>Please input ICD 10 of transferring resource</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Nhập chẩn đoán nơi chuyển đến !</Vviet>
+		<Vanh>Please input diagnosis of transferring resource</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Mã ICD không hợp lệ !</Vviet>
+		<Vanh>Invalid ICD 10</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Chẩn đoán không hợp lệ !</Vviet>
+		<Vanh>Invalid diagnosis</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Nhập mã ICD bệnh chính !</Vviet>
+		<Vanh>Please input ICD 10!</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Không được hủy mã này !</Vviet>
+		<Vanh>Can not delete this code !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Bạn có muốn lấy lại thông tin của lần nhập sau cùng không ?</Vviet>
+		<Vanh>Do you want to retrieve the last valid data ?</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Số liệu không hợp lệ !</Vviet>
+		<Vanh>Invalid data!</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Đồng ý hủy thông tin này ?</Vviet>
+		<Vanh>Do you really want to delete this?</Vanh>
+	</Language>
+	<Language>
+		<Vviet>DANH SÁCH ĐÃ KHÁM</Vviet>
+		<Vanh>Consulted patients</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Đến ngày không được nhỏ hơn từ ngày !</Vviet>
+		<Vanh>Invalid date</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Không có số liệu !</Vviet>
+		<Vanh>No data !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Chọn hướng xử lý chuyển viện !</Vviet>
+		<Vanh>Please select 'Hospital transfer'</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Không thể xuất số thứ tự ra bảng điện.</Vviet>
+		<Vanh>Cannot send data to digital display !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Có muốn chọn lại danh sách ICD10 không ?</Vviet>
+		<Vanh>Do you want to reselect ICD 10 ?</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Có muốn cập nhật lại độ tuổi không ?</Vviet>
+		<Vanh>Do you want to update age group ?</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Không có số liệu !</Vviet>
+		<Vanh>No data !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Có muốn chọn lại danh sách ICD10 không ?</Vviet>
+		<Vanh>Do you want to reselect ICD 10 list ?</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Chọn bệnh án sử dụng trong khoa !</Vviet>
+		<Vanh>Please select patient chart !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Không cập nhật thông tin khoa !</Vviet>
+		<Vanh>Can not update department information !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Không được hủy mã này !</Vviet>
+		<Vanh>Code cannot be deleted</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Khoa đã sử dụng không thể huỷ !</Vviet>
+		<Vanh>In use, can not be deleted !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Đồng ý hủy thông tin này !</Vviet>
+		<Vanh>Do you really want to delete this !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Mã này đã có !</Vviet>
+		<Vanh>Code already existed!</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Chọn bệnh án sử dụng trong khoa !</Vviet>
+		<Vanh>Please select patient chart !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Không cập nhật thông tin khoa !</Vviet>
+		<Vanh>Can not update department information !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Không cập nhật thông tin nghề nghiệp !</Vviet>
+		<Vanh>Can not update occupation information !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Nghề nghiệp đã sử dụng không thể huỷ !</Vviet>
+		<Vanh>Occupation in use, can not be deleted !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Không thể hủy nghề nghiệp này được vì có sử dụng bệnh án NHI,SƠ SINH,MẮT (trẻ em)!</Vviet>
+		<Vanh>Occupation n use, Can not be deleted !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Không cập nhật thông tin phòng khám !</Vviet>
+		<Vanh>Can not update OP information !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Không được hủy mã này !</Vviet>
+		<Vanh>This code can not be deleted !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Phòng khám đã sử dụng không thể huỷ !</Vviet>
+		<Vanh>OP clinic in use, can not be deleted !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Không cập nhật thông tin phòng khám !</Vviet>
+		<Vanh>Can not update OP clinic data !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Yêu cầu nhập mã !</Vviet>
+		<Vanh>Please input code !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Yêu cầu nhập tên !</Vviet>
+		<Vanh>Please input name !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Mã phường xã đã sử dụng không thể huỷ !</Vviet>
+		<Vanh>Commun code in use , can not be deleted</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Đồng ý hủy ?</Vviet>
+		<Vanh>Do you really want to delete ?</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Yêu cầu nhập mã !</Vviet>
+		<Vanh>Please input code !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Mã quận/huyện đã sử dụng không thể huỷ !</Vviet>
+		<Vanh>District code already in use, can not be deleted</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Đồng ý hủy ?</Vviet>
+		<Vanh>Do you really want to delete this !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Mã tỉnh/thành phố đã sử dụng không thể huỷ !</Vviet>
+		<Vanh>Province code in use, can not be deleted !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Không cập nhật thông tin viết tắt !</Vviet>
+		<Vanh>Can not update abbreviation</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Mã ICD10 này không có trong danh mục !</Vviet>
+		<Vanh>Invalid ICD 10 !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Nhập khoa đến !</Vviet>
+		<Vanh>Please input referral department !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Chẩn đoán chuyển !</Vviet>
+		<Vanh>Please input referring diagnosis !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Mã ICD không hợp lệ !</Vviet>
+		<Vanh>Invalid ICD 10 !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Chẩn đoán không hợp lệ !</Vviet>
+		<Vanh>Invalid diagnosis !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Đồng ý hủy thông tin đang chọn !</Vviet>
+		<Vanh>Dele selected data ?</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Khoa cuối phải là :</Vviet>
+		<Vanh>Last department must be : </Vanh>
+	</Language>
+	<Language>
+		<Vviet>Ngày chuyển khoa không được nhỏ hơn ngày vào khoa !</Vviet>
+		<Vanh>Invalid referring date !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Ngày chuyển khoa không được lớn hơn ngày ra viện !</Vviet>
+		<Vanh>Invalid referring date !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Ngày chuyển khoa không hợp lệ so với khai báo hệ thống (</Vviet>
+		<Vanh>Invalid referring date, check system setting !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Không cập nhật thông tin cơ sở y tế !</Vviet>
+		<Vanh>Cannot update medical resource data !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Cơ sở y tế đã sử dụng không thể huỷ !</Vviet>
+		<Vanh>Medical resource cannot be deleted !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Cơ sở y tế đã sử dụng không thể huỷ !</Vviet>
+		<Vanh>Medical resource in use, cannot be deleted !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Không cập nhật thông tin !</Vviet>
+		<Vanh>Cannot update data !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Không thể thêm bệnh án </Vviet>
+		<Vanh>Cannot add patient chart !</Vanh>
+	</Language>
+	<Language>
+		<Vviet> vì danh mục nghề nghiệp chưa có trẻ em !</Vviet>
+		<Vanh>No children in occupation list  !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Không cho phép hủy, vì bắt buộc phải còn bệnh án !</Vviet>
+		<Vanh>Patient chart must be existed, cannot be deleted !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Bệnh án này đã sử dụng không thể hủy !</Vviet>
+		<Vanh>Patient chart in use , cannot be deleted !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Không thể thêm bệnh án </Vviet>
+		<Vanh>Cannot add patient chart !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Không cho phép hủy, vì bắt buộc phải còn bệnh án !</Vviet>
+		<Vanh>Cannot delete ,patient chart in use</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Không cập nhật được thông tin nhân viên !</Vviet>
+		<Vanh>Cannot update staff data !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Họ tên bác sĩ đã sử dụng không thể hủy !</Vviet>
+		<Vanh>Doctor name in use , cannot be deleted !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Không thể hủy !</Vviet>
+		<Vanh>Cannot be deleted !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Họ tên này đã có !</Vviet>
+		<Vanh>Name already existed !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Không cập nhật được thông tin phương pháp vô cảm !</Vviet>
+		<Vanh>Cannot update anesthesiology method !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Phương pháp vô cảm đã sử dụng không thể hủy !</Vviet>
+		<Vanh>Anesthesiology method in use , cannot be deleted !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Không thể hủy !</Vviet>
+		<Vanh>Cannot delete data !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Không cập nhật được thông tin nhóm máu !</Vviet>
+		<Vanh>Cannot update blood group !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Nhóm máu đã sử dụng không thể hủy !</Vviet>
+		<Vanh>Blood group in use, cannot be deleted !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Không thể hủy !</Vviet>
+		<Vanh>Cannot delete data !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Doyou really want to delete ?</Vviet>
+		<Vanh>Do you really want to delete ?</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Chiều dài chưa đủ !</Vviet>
+		<Vanh>String length not enough !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Ba ký tự đầu phải là (</Vviet>
+		<Vanh>Three first characters must be !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Yều cầu nhập họ tên !</Vviet>
+		<Vanh>Please input name !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Yều cầu nhập tên login !</Vviet>
+		<Vanh>Please input login name !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Mật khẩu củ không đúng !</Vviet>
+		<Vanh>Password not matched !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Tên login đã có !</Vviet>
+		<Vanh>Login name already existed !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Không phát hiện lỗi trong khoảng thời gian này !</Vviet>
+		<Vanh>No error found !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Không có số liệu !</Vviet>
+		<Vanh>No data !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Yêu cầu nhập ICD-10 !</Vviet>
+		<Vanh>Please input ICD 10 ! </Vanh>
+	</Language>
+	<Language>
+		<Vviet>ICD-10 không hợp lệ !</Vviet>
+		<Vanh>Invali ICD 10 !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Yêu cầu nhập tên bệnh tật !</Vviet>
+		<Vanh>Please input disease !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Không cho phép hủy thông tin này !</Vviet>
+		<Vanh>Data cannot be deleted !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Đồng ý hủy ICD-10 ?</Vviet>
+		<Vanh>Do you really want to delete ICD 10 !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Mã ICD10 đã tồn tại !</Vviet>
+		<Vanh>ICD 10 already existed !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Thu nhập số liệu xong !</Vviet>
+		<Vanh>Done !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Không tìm thấy File BC1.DBF cần chuyển !</Vviet>
+		<Vanh>File BC1.DBF cannot be found !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Biểu 01</Vviet>
+		<Vanh>Form 01</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Biểu 02</Vviet>
+		<Vanh>Form 02</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Biểu 031</Vviet>
+		<Vanh>Form 031</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Biểu 04</Vviet>
+		<Vanh>Form 04</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Biểu 05</Vviet>
+		<Vanh>Form 05</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Biểu 06</Vviet>
+		<Vanh>Form 06</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Biểu 07</Vviet>
+		<Vanh>Form 07</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Biểu 08</Vviet>
+		<Vanh>Form 08</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Biểu 091</Vviet>
+		<Vanh>Form 091</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Biểu 101</Vviet>
+		<Vanh>Form 101</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Biểu 1021</Vviet>
+		<Vanh>Form 1021</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Biểu 1022</Vviet>
+		<Vanh>Form 1022</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Biểu 103</Vviet>
+		<Vanh>Form 103</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Biểu 11</Vviet>
+		<Vanh>Form 11</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Thu nhập số liệu xong !</Vviet>
+		<Vanh>Done</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Không cập nhật được thông tin nhập viện !</Vviet>
+		<Vanh>Cannot update hospitalisation data !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Thu nhập số liệu xong !</Vviet>
+		<Vanh>Done !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Đồng ý gởi ra máy in ?</Vviet>
+		<Vanh>Send to printer !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Chọn icd cần in</Vviet>
+		<Vanh>Please select ICD 10 to print !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Thông báo</Vviet>
+		<Vanh>Warning !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Yêu cầu nhập mã !</Vviet>
+		<Vanh>Please input code !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Yêu cầu nhập tên phẫu thuật - thủ thuật !</Vviet>
+		<Vanh>Please input procedure !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Mã đang sử dụng không thể hủy !</Vviet>
+		<Vanh>Code in use, cannot be deleted !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Đồng ý hủy mã phẫu thuật - thủ thuật ?</Vviet>
+		<Vanh>Do you really want to delete procedure code !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Yêu cầu nhập mã !</Vviet>
+		<Vanh>Please input code !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Không hợp lệ vì trùng với mã bệnh viện !</Vviet>
+		<Vanh>Hospital code already existed !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Mã ICD10 này không có trong danh mục !</Vviet>
+		<Vanh>Invalid ICD 10 !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Ngày hết hạn không được nhỏ hơn ngày khám bệnh!</Vviet>
+		<Vanh>Invalid expired date  !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Nhập số thẻ chưa đủ (&gt;=13)!</Vviet>
+		<Vanh>Invalid character string length  !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Mã ICD không hợp lệ !</Vviet>
+		<Vanh>Invalid ICD 10  !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Chẩn đoán không hợp lệ !</Vviet>
+		<Vanh>Invalid diagnosis  !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Nhập tên cơ quan y tế !</Vviet>
+		<Vanh>Please input medical resource  !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Nhập ngày sinh !</Vviet>
+		<Vanh>Please input date of birth  !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Nhập ngày vào khám bệnh !</Vviet>
+		<Vanh>Please input date of consultation  !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Nhập trực tiếp vào !</Vviet>
+		<Vanh>Patient type !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Nhập nơi giới thiệu !</Vviet>
+		<Vanh>Please input referring resource !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Chọn tỉnh/thành phố !</Vviet>
+		<Vanh>Please select province !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Chọn dân tộc !</Vviet>
+		<Vanh>Please select ethnic !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Nhập xử trí khám bệnh !</Vviet>
+		<Vanh>Please input treatment at OP clinic !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Nhập chẩn đoán bệnh chính !</Vviet>
+		<Vanh>Please input main diagnosis !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Nhập mã ICD bệnh kèm theo !</Vviet>
+		<Vanh>Please input ICD 10 of associated disease !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Nhập chẩn đoán bệnh kèm theo !</Vviet>
+		<Vanh>Please input associated disease !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Nhập bác sĩ điều trị !</Vviet>
+		<Vanh>Please input doctor in charge !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Nhập chuyển viện !</Vviet>
+		<Vanh>Please input transfer to other hospital !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Nhập chuyển đến !</Vviet>
+		<Vanh>Please input transferring data !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Độ tuổi và phòng khám không hợp lệ !</Vviet>
+		<Vanh>Age and OP clinic mismatched !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Không cập nhật được thông tin vào viện !</Vviet>
+		<Vanh>Hospitalisation data cannot be updated !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Không cập nhật được thông tin chuyển đến !</Vviet>
+		<Vanh>Cannot update referring data !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Không cập nhật được thông tin ra viện !</Vviet>
+		<Vanh>Cannot update discharge data !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Ngày khám bệnh không hợp lệ so với khai báo hệ thống (</Vviet>
+		<Vanh>Invalide consultation date , check system setting !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Ngày giờ khám bệnh không được nhỏ ngày giờ tiếp đón !(</Vviet>
+		<Vanh>Invalide consultation date  !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Tên người dùng và mật khẩu không tìm thấy !</Vviet>
+		<Vanh>Username and password could not be found  !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Bạn có muốn kết thúc không ?</Vviet>
+		<Vanh>Do you want to exit ?  </Vanh>
+	</Language>
+	<Language>
+		<Vviet>Bạn có muốn sao lưu số liệu không ?</Vviet>
+		<Vanh>Do you want to save data ?  </Vanh>
+	</Language>
+	<Language>
+		<Vviet>Chưa khai báo bệnh án sử dụng !</Vviet>
+		<Vanh>Patient chart was not declared ?  </Vanh>
+	</Language>
+	<Language>
+		<Vviet>Không tìm thấy đường dẫn đến tập tin trợ giúp.</Vviet>
+		<Vanh>Path of HELP FILE could not be found ?  </Vanh>
+	</Language>
+	<Language>
+		<Vviet>Trợ giúp</Vviet>
+		<Vanh>Help</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Không có mạng nội bộ !</Vviet>
+		<Vanh>No local network !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Nội dung này không cho phép xóa !</Vviet>
+		<Vanh>Cannot be deleted !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Đồng ý hủy ?</Vviet>
+		<Vanh>Delete ?</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Thu nhập xong !</Vviet>
+		<Vanh>Done !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Số liệu không hợp lệ vì trùng mã bệnh viện !</Vviet>
+		<Vanh>Invalid data , hospital code already existed !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Ngày hết hạn không được nhỏ hơn ngày điều trị!</Vviet>
+		<Vanh>Invalid expired date !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Bệnh viện</Vviet>
+		<Vanh>Hospital</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Yêu cầu nhập Ngày và giờ ra viện !</Vviet>
+		<Vanh>Please input discharge date time !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Ngày ra viện không được nhỏ hơn ngày vào viện !</Vviet>
+		<Vanh>Invalid discharge date !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Ngày ra viện không hợp lệ so với khai báo hệ thống (</Vviet>
+		<Vanh>Invalid discharge date, check system setting !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Nhập số thẻ chưa đủ (&gt;=13)!(</Vviet>
+		<Vanh>Health insurance number invalid  !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Nhập ngày vào viện !</Vviet>
+		<Vanh>Please input hospitalisation date !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Nhập mã ICD vào khoa khám bệnh !</Vviet>
+		<Vanh>Please input ICD 10 of OP clinic !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Nhập chẩn đoán vào khoa khám bệnh !</Vviet>
+		<Vanh>Please input diagnosis of OP clinic !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Nhập kết quả điều trị !</Vviet>
+		<Vanh>Please input treatment results !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Nhập tình trạng ra viện !</Vviet>
+		<Vanh>Please input discharge status  !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Nhập số lưu trữ !</Vviet>
+		<Vanh>Please input storing number !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Nhập chuyển viện !</Vviet>
+		<Vanh>Please input transferring data !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Nhập chuyển đến !</Vviet>
+		<Vanh>Please input transferring to !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Bệnh nhân đang điều trị trong khoa {</Vviet>
+		<Vanh>Patient is already in department !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Bệnh nhân đã được nhập viện vào khoa {</Vviet>
+		<Vanh>Patient already admitted to department !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Nhập ngày ra viện !</Vviet>
+		<Vanh>Please input discharge date !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Yêu cầu nhập Ngày và giờ vào viện !</Vviet>
+		<Vanh>Please input hospitalisation date time !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Ngày bắt đầu điều trị không được nhỏ hơn ngày khám bệnh !</Vviet>
+		<Vanh>Invalid starting date, check consultation date !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Ngày bắt đầu điều trị không hợp lệ so với khai báo hệ thống (</Vviet>
+		<Vanh>Invalid starting date, check system setting !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Ngày hết hạn không được nhỏ hơn ngày vào viện!</Vviet>
+		<Vanh>Invalid expired date , check admission date !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Nhập số thẻ chưa đủ (&gt;=13)!(</Vviet>
+		<Vanh>Invalid health insurance number, check data length !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Nhập ngày vào viện !</Vviet>
+		<Vanh>Please input hospitalisation date </Vanh>
+	</Language>
+	<Language>
+		<Vviet>Nhập vào viện do bệnh này lần thứ !</Vviet>
+		<Vanh>Time of hospitalisation for this disease !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Nhập số vào viện !</Vviet>
+		<Vanh>Please input hosp. number !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Nhập chẩn đoán vào khoa khám bệnh !</Vviet>
+		<Vanh>Please input diagnosis of OP clinic ! </Vanh>
+	</Language>
+	<Language>
+		<Vviet>Nhập đẻ lần mấy !</Vviet>
+		<Vanh>Number of delivery </Vanh>
+	</Language>
+	<Language>
+		<Vviet>Nhập tiền thai (Para) !</Vviet>
+		<Vanh>Please input PARA</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Bệnh nhân này đã nhập khoa không thể sữa phần vào khoa !</Vviet>
+		<Vanh>Patient already admitted, cannot fix data !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Không có số liệu !</Vviet>
+		<Vanh>No data !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Nhập số vào viện !</Vviet>
+		<Vanh>Please admission number !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Số vào viện này đã có !</Vviet>
+		<Vanh>Admission number already existed !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Yêu cầu nhập thời gian bị bỏng !</Vviet>
+		<Vanh>Please input burn date time !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Thời gian bị bỏng không được lớn hơn ngày vào khoa !</Vviet>
+		<Vanh>Burn date time invalid, check admittion date time !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Thời gian bị bỏng không hợp lệ so với khai báo hệ thống (</Vviet>
+		<Vanh>Burn date time invalid, check system setting !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Tiền thai (Para) không hợp lệ !</Vviet>
+		<Vanh>Invalid PARA !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Nhập họ tên mẹ !</Vviet>
+		<Vanh>Please input mother's name!</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Yêu cầu nhập Ngày và giờ vào viện !</Vviet>
+		<Vanh>Please input hospitalisation date time !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Bệnh nhân đang điều trị trong khoa {</Vviet>
+		<Vanh>Patient is under treatment at {</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Bệnh nhân đã được nhập viện vào khoa {</Vviet>
+		<Vanh>Patient already admitted !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Ngày vào viện không hợp lệ so với khai báo hệ thống !</Vviet>
+		<Vanh>Invalid hospitalisation date, check system setting !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Không cập nhật được thông tin phẩu thuật / thủ thuật !</Vviet>
+		<Vanh>Cannot update data</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Phẫu thuật thủ thuật</Vviet>
+		<Vanh>Surgery</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Bộ y tế</Vviet>
+		<Vanh>MOH</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Sở y tế</Vviet>
+		<Vanh>Health center</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Bạn không có quyền chỉnh sữa thông tin !</Vviet>
+		<Vanh>You have no right to correct data !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Thông tin hành chính không tìm thấy !</Vviet>
+		<Vanh>Demographic data not found !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Mã ICD10 này không có trong danh mục !</Vviet>
+		<Vanh>ICD 10 not existed !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Nhập số phiếu phẫu thuật / thủ thuật !</Vviet>
+		<Vanh>Please input procedure number !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Chẩn đoán trước phẫu thuật / thủ thuật !</Vviet>
+		<Vanh>Please input pre and post operation diagnosis !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Mã ICD không hợp lệ !</Vviet>
+		<Vanh>ICD 10 not valid !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Chẩn đoán không hợp lệ !</Vviet>
+		<Vanh>Invalid diagnosis !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Chẩn đoán sau phẫu thuật / thủ thuật !</Vviet>
+		<Vanh>Please input post op diagnosis !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Phương pháp phẫu thuật / thủ thuật !</Vviet>
+		<Vanh>Please input procedure name !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Mã phẫu thuật - thủ thuật không hợp lệ !</Vviet>
+		<Vanh>Invalid procedure code !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Tên phẫu thuật - thủ thuật không hợp lệ !</Vviet>
+		<Vanh>Invalid procedure name !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Mã phẫu thuật / thủ thuật không tìm thấy trong danh mục !</Vviet>
+		<Vanh>Procedure code not existed !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Phương pháp vô cảm !</Vviet>
+		<Vanh>Anesthesioloy method !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Phẫu thuật / thủ thuật viên !</Vviet>
+		<Vanh>Surgeon !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Ngày phẫu thuật / thủ thuật không được lớn hơn ngày ra viện !</Vviet>
+		<Vanh>Invalid procedure date !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Yêu cầu nhập loại ngộ độc !</Vviet>
+		<Vanh>Please input intoxication type !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Chọn tỉnh/thành phố !</Vviet>
+		<Vanh>Please select province !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Chọn quận/huyện !</Vviet>
+		<Vanh>Please select district !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Yêu cầu nhập bộ phận bị thương tích !</Vviet>
+		<Vanh>Please input injured body part  !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Bạn không có quyền chỉnh sữa thông tin !</Vviet>
+		<Vanh>You have no right to correct data !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Yêu cầu nhập Ngày và giờ tai nạn, thương tích !</Vviet>
+		<Vanh>Please input date and time of accident ! </Vanh>
+	</Language>
+	<Language>
+		<Vviet>Ngày và giờ không hợp lệ !</Vviet>
+		<Vanh>Invalid date and time !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Bệnh nhân này chưa nhập viện</Vviet>
+		<Vanh>Patient not yet hospitalized </Vanh>
+	</Language>
+	<Language>
+		<Vviet>Bệnh nhân này chưa nhập viện !</Vviet>
+		<Vanh>Patient not yet hospitalized !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Bệnh nhân này chưa được chỉ định vào khoa !</Vviet>
+		<Vanh>Patient was not assigned a department !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Đối tượng</Vviet>
+		<Vanh>Patient class</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Số thẻ </Vviet>
+		<Vanh>This SSN</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Đã có mã người bệnh :</Vviet>
+		<Vanh>was assigned to patient ID :</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Đối tượng</Vviet>
+		<Vanh>Patient class</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Phòng khám không hợp lệ !</Vviet>
+		<Vanh>Invalid exam room !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Người bệnh này đã tử vong !</Vviet>
+		<Vanh>This patient was died</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Khám !</Vviet>
+		<Vanh>Exam !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>yêu cầu nhập nơi làm việc !</Vviet>
+		<Vanh>Please input employer !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Ngày sinh không hợp lệ !</Vviet>
+		<Vanh>Invalid date of birth !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Số liệu đã cập nhật không thể sữa !</Vviet>
+		<Vanh>Data already updated, cannot change !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Người bệnh này đã nhập !</Vviet>
+		<Vanh>Data existed !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Người bệnh không hợp lệ !</Vviet>
+		<Vanh>Invalid patient !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Họ tên người bệnh !</Vviet>
+		<Vanh>Please enter patient name !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Không cập nhật được thông tin viện phí !</Vviet>
+		<Vanh>Unable to update hospital fee data !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Số liệu đã cập nhật không thể hủy !</Vviet>
+		<Vanh>Cannot delete data !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Đồng ý hủy ?</Vviet>
+		<Vanh>Do you really want to delete !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Người bệnh này đã nhập !</Vviet>
+		<Vanh>Patient existed !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Không cập nhật được thông tin viện phí !</Vviet>
+		<Vanh>Cannot update  hospital fee data</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Người bệnh này đã được khám trong ngày, </Vviet>
+		<Vanh>Do you want to edit demographic data ?</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Bạn có muốn xem lại !</Vviet>
+		<Vanh>Do you want to edit existing data !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Người bệnh này đã được đăng ký,</Vviet>
+		<Vanh>This patient already has data on this day,</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Người bệnh này đã khám bệnh tại phòng khám {</Vviet>
+		<Vanh>This patient already consulted at {</Vanh>
+	</Language>
+	<Language>
+		<Vviet>CĐ khi vào đẻ :</Vviet>
+		<Vanh>Adm. diagnosis :</Vanh>
+	</Language>
+	<Language>
+		<Vviet>CĐ khoa điều trị :</Vviet>
+		<Vanh>Adm. diagnosis :</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Bệnh nhân này đã tổng hợp rồi. Bạn có muốn tổng hợp lại không ?</Vviet>
+		<Vanh>Report has already done . Do you want to recreate report ?</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Bệnh án tóm tắt</Vviet>
+		<Vanh>Summarizing chart</Vanh>
+	</Language>
+	<Language>
+		<Vviet>TỔNG SỐ :</Vviet>
+		<Vanh>Total :</Vanh>
+	</Language>
+	<Language>
+		<Vviet>TỔNG SỐ HIỆN DIỆN :</Vviet>
+		<Vanh>Total :</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Không có dữ liệu báo cáo!</Vviet>
+		<Vanh>No data !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Giờ báo cáo </Vviet>
+		<Vanh>Report time    </Vanh>
+	</Language>
+	<Language>
+		<Vviet>DANH SÁCH CHỜ NHẬP KHOA</Vviet>
+		<Vanh>Waiting list</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Tình hình bệnh tật, tử vong tại bệnh viện</Vviet>
+		<Vanh>Morbidity</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Hoạt động phẫu thuật, thủ thuật</Vviet>
+		<Vanh>Surgery activity</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Hoạt động điều trị</Vviet>
+		<Vanh>Therapeutic activity</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Hoạt động khám bệnh</Vviet>
+		<Vanh>Consulting activity</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Tình hình cán bộ, công chức,viên chức</Vviet>
+		<Vanh>Staff</Vanh>
+	</Language>
+	<Language>
+		<Vviet>DANH SÁCH ĐĂNG KÝ (</Vviet>
+		<Vanh>Waiting list (</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Đồng ý kết thúc chương trình?</Vviet>
+		<Vanh>Do you really want to exit ?</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Bệnh án:</Vviet>
+		<Vanh>Chart:</Vanh>
+	</Language>
+	<Language>
+		<Vviet>DANH SÁCH BỆNH NHÂN NỘI TRÚ</Vviet>
+		<Vanh>CURRENT IN-PATIENT LIST</Vanh>
+	</Language>
+	<Language>
+		<Vviet>DANH SÁCH BỆNH NHÂN NGOẠI TRÚ</Vviet>
+		<Vanh>RECURRENT PATIENT LIST</Vanh>
+	</Language>
+	<Language>
+		<Vviet>DANH SÁCH BỆNH NHÂN PHÒNG KHÁM</Vviet>
+		<Vanh>OUT-PATIENT LIST</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Khoa nhập</Vviet>
+		<Vanh>Dept.</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Khoa chuyển</Vviet>
+		<Vanh>Adm. from</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Phòng khám</Vviet>
+		<Vanh>Op unit</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Tên bệnh án</Vviet>
+		<Vanh>Chart</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Tổng số:</Vviet>
+		<Vanh>Total:</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Danh sách được chỉ định</Vviet>
+		<Vanh>Ordered services </Vanh>
+	</Language>
+	<Language>
+		<Vviet>In kèm theo chỉ định</Vviet>
+		<Vanh>Print with order </Vanh>
+	</Language>
+	<Language>
+		<Vviet>Danh sách chỉ định chưa thực hiện</Vviet>
+		<Vanh>Services not yet done</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Danh sách đã thu tiền chưa thực hiện</Vviet>
+		<Vanh>Paid, not yet done</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Đăng ký khám bệnh</Vviet>
+		<Vanh>Registration</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Đăng ký khám bệnh &lt; Người cập nhật :</Vviet>
+		<Vanh>Registration &lt; User :</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Khám bệnh</Vviet>
+		<Vanh>Consultation</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Bệnh tiền sử</Vviet>
+		<Vanh>History</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Ngoại trú</Vviet>
+		<Vanh>Recurrent</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Nội trú</Vviet>
+		<Vanh>Inpatient</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Xét nghiệm</Vviet>
+		<Vanh>Lap test</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Người bệnh này chưa qua đăng ký khám bệnh !</Vviet>
+		<Vanh>Not yet registered</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Khám bệnh</Vviet>
+		<Vanh>Consultation</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Khám bệnh</Vviet>
+		<Vanh>Consultation</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Không cập nhật được thông tin đề nghị</Vviet>
+		<Vanh>Cannot update data</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Đến từ !</Vviet>
+		<Vanh>Transferred from  where ?</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Y bác sĩ thực hiện !</Vviet>
+		<Vanh>Doctor in charge !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Chọn mắt thực hiện !</Vviet>
+		<Vanh>Please select eye !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Chọn kết quả !</Vviet>
+		<Vanh>Please select result !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Chọn đề nghị !</Vviet>
+		<Vanh>Please select recommendation !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Chọn thuốc !</Vviet>
+		<Vanh>Please select drug !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Đã nhập</Vviet>
+		<Vanh>Already existed</Vanh>
+	</Language>
+	<Language>
+		<Vviet>trong ngày</Vviet>
+		<Vanh>in</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Xem lại ?</Vviet>
+		<Vanh>Do you want to edit record</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Máy</Vviet>
+		<Vanh>Equipment</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Xét nghiệm</Vviet>
+		<Vanh>Lap test</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Chẩn đoán hình ảnh</Vviet>
+		<Vanh>Radiology</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Xem ảnh Dicom</Vviet>
+		<Vanh>Dicom image</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Siêu âm</Vviet>
+		<Vanh>Ultra sound</Vanh>
+	</Language>
+	<Language>
+		<Vviet>X-Quang</Vviet>
+		<Vanh>X Ray</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Nội soi</Vviet>
+		<Vanh>Endoscopy</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Điện tim</Vviet>
+		<Vanh>EKG</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Ngày :</Vviet>
+		<Vanh>Date :</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Yêu cầu cấu hình PACS</Vviet>
+		<Vanh>Config PACS</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Bạn có muốn gởi hình đang chọn sang Pacs Server không?</Vviet>
+		<Vanh>Do you want to send this image to Pacsone Server?</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Gởi thành công!!!</Vviet>
+		<Vanh>Sent successfully !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Những mặt hàng sau không đủ tồn :</Vviet>
+		<Vanh>Items not enough for prescribing :</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Người bệnh này đã tử vong !</Vviet>
+		<Vanh>This patient was died !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Không cho phép nhập bệnh nhân mới!</Vviet>
+		<Vanh>Cannot add new patient !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Không cho phép bệnh nhân chưa hoàn tất thủ tục!</Vviet>
+		<Vanh>Patient not yet accomplished all formalities</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Hết sổ, đề nghị chọn sổ mới!</Vviet>
+		<Vanh>Book full, please use another one !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Đề nghị nhập nội dung thu viện phí!</Vviet>
+		<Vanh>Please input billing item</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Đề nghị nhập lý do miễn giảm!</Vviet>
+		<Vanh>Please input reducing reason !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Đề nghị nhập người duết miễn giảm!</Vviet>
+		<Vanh>Please input reducing approver</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Đề nghị nhập người duyệt miễn giảm!</Vviet>
+		<Vanh>Please input reducing approver</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Chọn quyển sổ thu viện phí!</Vviet>
+		<Vanh>Please select acc. book</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Nhập thông tin bệnh nhân!</Vviet>
+		<Vanh>Please input patient information !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Đề nghị chọn ngày thu &gt;= ngày bệnh nhân vào viện (</Vviet>
+		<Vanh>Please select receiving date= Adm. date (</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Không tìm thấy hoá đơn</Vviet>
+		<Vanh>Bill not found !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>trước</Vviet>
+		<Vanh>previous</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>sau</Vviet>
+		<Vanh>next</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Chọn loại hoá đơn cần in từ [Tùy chọn]!</Vviet>
+		<Vanh>Select bill to print in [Options]</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Đơn giá chưa có!</Vviet>
+		<Vanh>Unit price not existed !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Nhấn nút</Vviet>
+		<Vanh>Press</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Mới</Vviet>
+		<Vanh>Add</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Sửa</Vviet>
+		<Vanh>Edit</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>trước khi chọn viện phí!</Vviet>
+		<Vanh>before select billing type</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Đồng ý kết thúc chức năng thu trực tiếp!</Vviet>
+		<Vanh>Do you really want to exit function direct billing</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>),</Vviet>
+		<Vanh>),</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Tình hình bệnh tật,tử vong theo khoa</Vviet>
+		<Vanh>Morbidity at departments</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Giờ báo cáo :</Vviet>
+		<Vanh>Report times :</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>( Từ ngày :</Vviet>
+		<Vanh>( Between :</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>đến ngày :</Vviet>
+		<Vanh>and :</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>( Báo cáo thống kê</Vviet>
+		<Vanh>( Report</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Có sửa thông tin hành chánh không ?</Vviet>
+		<Vanh>Do you want to change demographic data</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Nhập năm sinh không phù hợp</Vviet>
+		<Vanh>Invalid Y.O.B. !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Yêu cầu nhập tuổi vào</Vviet>
+		<Vanh>Please input age !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Nhập tuổi không phù hợp</Vviet>
+		<Vanh>Invalid age !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Nhập định dạng ngày không đúng</Vviet>
+		<Vanh>Invalid date format !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Nhập ngày sinh không phù hợp</Vviet>
+		<Vanh>Invalid D.O.B. !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Nhập họ tên</Vviet>
+		<Vanh>Please input full name !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Nhập tuổi</Vviet>
+		<Vanh>Please input age !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Chọn thời gian khám</Vviet>
+		<Vanh>Please input exam time !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Chọn giới tính</Vviet>
+		<Vanh>Please select gender !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Nhập nghề nghiệp</Vviet>
+		<Vanh>Please input occupation !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Nhập Bác Sĩ</Vviet>
+		<Vanh>Please input doctor</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Nhập Phòng Khám</Vviet>
+		<Vanh>Please input exam room !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Nhập giờ không đúng</Vviet>
+		<Vanh>Invalid time !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Có cuộc hẹn trùng thời gian này</Vviet>
+		<Vanh>Appointment duplicated</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Giờ hẹn phải lớn hơn giờ bắt đầu làm việc</Vviet>
+		<Vanh>Appointment time not valid </Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Giờ hẹn phải nhỏ hơn giờ nghỉ</Vviet>
+		<Vanh>Appointment time not valid </Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Đã có cuộc hẹn với Bác Sĩ này</Vviet>
+		<Vanh>Appointment time not valid </Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Đã có mã Khoa Phòng này</Vviet>
+		<Vanh>Department code already existed !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Nhập mã phòng khám</Vviet>
+		<Vanh>Please input exam room code</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Nhập tên phòng khám</Vviet>
+		<Vanh>Please input exam room </Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Không được phép huỷ</Vviet>
+		<Vanh>Cannot br deleted !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Chọn mẩu tin muốn xoá từ danh sách trên</Vviet>
+		<Vanh>Select record to delete</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Bạn muốn xoá mẩu tin này ?</Vviet>
+		<Vanh>Do you really want to delete this record ?</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Chọn phòng muốn sửa từ danh sách</Vviet>
+		<Vanh>Select room to delete !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Đề nghị nhập Họ tên Bệnh nhân cần tìm vào.</Vviet>
+		<Vanh>Please enter patient name !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Bạn có đồng ý kê toa này !</Vviet>
+		<Vanh>Do you want to use this prescription !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Người bệnh dị ứng thuốc</Vviet>
+		<Vanh>Drug allergy</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Bạn có đồng ý thêm vào không !</Vviet>
+		<Vanh>Do you really want to add</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Những mặt hàng sau không đủ tồn</Vviet>
+		<Vanh>Not enough to prescribe</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Không có trong danh mục ICD10 (</Vviet>
+		<Vanh>Not exist in ICD 10 (</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Không cập nhật thông tin phòng mổ !</Vviet>
+		<Vanh>No data for operating room !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Phòng mổ đã sử dụng không thể huỷ !</Vviet>
+		<Vanh>In use cannot be deleted</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Từ ngày</Vviet>
+		<Vanh>Between</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Số liệu đã cập nhật không thể sửa !</Vviet>
+		<Vanh>Updated cannot be changed</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Không cập nhật được thông tin chỉ định !</Vviet>
+		<Vanh>Cannot update order !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Người bệnh đã ra viện !</Vviet>
+		<Vanh>Patient discharged !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Người bệnh này đã nhập. Bạn có muốn sửa không?</Vviet>
+		<Vanh>Patient existed, do you want to change data ?</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Yêu cầu nhập ngày</Vviet>
+		<Vanh>Please enter date !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Chọn danh sách cần in ?</Vviet>
+		<Vanh>Select list to print</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Yêu cầu nhập Ngày!</Vviet>
+		<Vanh>Please input date !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Bệnh nhân phải qua đăng ký khám bệnh !</Vviet>
+		<Vanh>Patient need to register !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Ngày không hợp lệ so với khai báo hệ thống (</Vviet>
+		<Vanh>Invalid date (</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Chưa chọn kho dự trù !</Vviet>
+		<Vanh>Stock not yet selected</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Số liệu</Vviet>
+		<Vanh>Data</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Đã nhập trong tháng</Vviet>
+		<Vanh>Already get in stock in month</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Đã chuyển xong !</Vviet>
+		<Vanh>Transfer done !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Đã chuyển phòng giường không được thay đổi !</Vviet>
+		<Vanh>Cannot be changed !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Yêu cầu nhập ngày giờ chuyển !</Vviet>
+		<Vanh>Please enter transferring date time !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Chọn phòng giường chuyển !</Vviet>
+		<Vanh>Select room and bed !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Đã chuyển phòng giường không được hủy !</Vviet>
+		<Vanh>Cannot be deleted !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Không được hủy !</Vviet>
+		<Vanh>Cannot be deleted !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Yêu cầu nhập Ngày và giờ chuyển !</Vviet>
+		<Vanh>Please enter transferring date time !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Không cập nhật được thông tin đề nghị !</Vviet>
+		<Vanh>Cannot update data !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Không cập nhật thông tin phân loại !</Vviet>
+		<Vanh>Cannot update data !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Phân loại đã sử dụng không thể huỷ !</Vviet>
+		<Vanh>Cannot be changed</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Không cập nhật thông tin kết qủa mẫu !</Vviet>
+		<Vanh>Cannot update !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Nội dung đã nhập !</Vviet>
+		<Vanh>Item existed !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Mã số đã nhập !</Vviet>
+		<Vanh>Code existed !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Không cập nhật thông tin nội dung !</Vviet>
+		<Vanh>Cannot update !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Đã sử dụng không cho phép hủy ?</Vviet>
+		<Vanh>In use, cannot be deleted !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Mã số</Vviet>
+		<Vanh>Code</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>đã nhập !</Vviet>
+		<Vanh>Entered</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Không cập nhật được thông tin phân loại !</Vviet>
+		<Vanh>Cannot update !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Không tìm thấy !</Vviet>
+		<Vanh>Not found !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Đề nghị nhập mã BN</Vviet>
+		<Vanh>Please enter patient ID !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Không cập nhật thông tin</Vviet>
+		<Vanh>Connot update !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Không cho phép hủy ?</Vviet>
+		<Vanh>Cannot be deleted !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Yêu cầu nhập Ngày và giờ lấy dấu sinh tồn !</Vviet>
+		<Vanh>Please enter vital signs date time !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Không cập nhật được thông tin dị ứng thuốc !</Vviet>
+		<Vanh>Can not update drug allergy !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Không cập nhật được thông tin dị ứng khác !</Vviet>
+		<Vanh>Can not update other allergy !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Đồng ý hủy tất cả thông tin này !</Vviet>
+		<Vanh>Do you really want to delete all !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Yêu cầu nhập ngày !</Vviet>
+		<Vanh>Please enter date !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Viết tắt này đã có !</Vviet>
+		<Vanh>Abbreviation existed !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Yêu cầu nhập mã số !</Vviet>
+		<Vanh>Please enter code !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Giường đang sử dụng !</Vviet>
+		<Vanh>Bed in use !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Mã đã nhập !</Vviet>
+		<Vanh>Code existed !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet> đã nhập !</Vviet>
+		<Vanh>existed !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Tên đã nhập !</Vviet>
+		<Vanh>Existed !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Loại phòng đang sử dụng !</Vviet>
+		<Vanh>Room type in use !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Phòng đang sử dụng !</Vviet>
+		<Vanh>Room in use !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Tên thuốc này đã nhập !</Vviet>
+		<Vanh>Drug existed !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Yêu cầu nhập tên đoàn !</Vviet>
+		<Vanh>Please enter group name !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Đã nhập kết qủa, không được hủy !</Vviet>
+		<Vanh>Cannot be deleted !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Đồng ý hủy</Vviet>
+		<Vanh>Do you really want to delete ?</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Đồng ý xóa</Vviet>
+		<Vanh>Do you really want to delete ?</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>+ xxx +</Vviet>
+		<Vanh>+ xxx +</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Chí phí</Vviet>
+		<Vanh>Fee</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Đối tượng đã sử dụng không thể huỷ !</Vviet>
+		<Vanh>Patient class in use , cannot be deleted !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Yêu cầu nhập tên đơn vị !</Vviet>
+		<Vanh>Please enter organisation !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Họ</Vviet>
+		<Vanh>Last name</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Tên</Vviet>
+		<Vanh>Fisrt name</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Người bệnh</Vviet>
+		<Vanh>Patient</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>đã thanh toán !</Vviet>
+		<Vanh>Paid !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>đã xuất viện !</Vviet>
+		<Vanh>Discharged !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Phiếu</Vviet>
+		<Vanh>Sheet</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Không cập nhật được thông tin phiếu lĩnh !</Vviet>
+		<Vanh>Cannot upate receicing sheet !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Chuyển số liệu xuống kho ?</Vviet>
+		<Vanh>Tranfer data to stock ?</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Không đúng so với đối tượng ban đầu</Vviet>
+		<Vanh>Not matched primary patient class !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Bạn có muốn lấy đối tượng ban đầu ?</Vviet>
+		<Vanh>Do you want to use primary patient class ?</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Người bệnh này đã nhập thuốc ngày</Vviet>
+		<Vanh>Already prescribed !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Yêu cầu nhập mặt hàng !</Vviet>
+		<Vanh>Please enter item !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Nhập mã số !</Vviet>
+		<Vanh>Please enter item code !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Nhập tên !</Vviet>
+		<Vanh>Please enter item name !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Chọn đối tượng !</Vviet>
+		<Vanh>Select patient class !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Tên thuốc và đối tượng không hợp lệ !</Vviet>
+		<Vanh>Drug and patient class mismatched !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Ngày lấy dấu sinh tồn không được lớn hơn ngày dự trù !</Vviet>
+		<Vanh>Invalid date !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Không có trong danh mục thuốc!</Vviet>
+		<Vanh>Not existed  in drug list</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>stt=</Vviet>
+		<Vanh>Seq #=</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Bình thường</Vviet>
+		<Vanh>Normal</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Không cập nhật thông tin giá viện phí !</Vviet>
+		<Vanh>Cannot update unit price !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Không cho phép hủy !</Vviet>
+		<Vanh>Cannot be deleted</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Viện phí đang sử dụng không cho phép hủy !</Vviet>
+		<Vanh>In use , cannot be deleted</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Người bệnh này chưa hoàn tất thủ tục !</Vviet>
+		<Vanh>Not yet accomplished formality !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Chọn ký giấy ra viện !</Vviet>
+		<Vanh>Select discharge signature !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Số phiếu này đã nhập !</Vviet>
+		<Vanh>Sheet # existed !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Nhập lý do hoàn trả !</Vviet>
+		<Vanh>Please enter returning reason !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Ngày lãnh không được lớn hơn ngày trả !</Vviet>
+		<Vanh>Invalid date !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Số phiếu !</Vviet>
+		<Vanh>Sheet # !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Đã nhập!</Vviet>
+		<Vanh>Entered  !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Viện phí đã cập nhật không cho phép hủy !</Vviet>
+		<Vanh>Cannot be deleted !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Bạn đồng ý hủy ?</Vviet>
+		<Vanh>Do you really want to delete ?</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Không tìm thấy File !</Vviet>
+		<Vanh>File not found !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Đã cập nhật ICD10 xong !</Vviet>
+		<Vanh>Update done !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Số ngày in phiếu (</Vviet>
+		<Vanh>N° of days to print</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Số liệu kho chưa duyệt xong !</Vviet>
+		<Vanh>Not yet  finish approving !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Cũ</Vviet>
+		<Vanh>Old</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>&lt; User  :</Vviet>
+		<Vanh>User :</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Cùng địa chỉ</Vviet>
+		<Vanh>Same address</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Chiều dài số thẻ không hợp lệ :</Vviet>
+		<Vanh>SSN length invalid :</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Chọn xử trí không hợp lệ !</Vviet>
+		<Vanh>Invalid treatment !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Nhập vào khoa/phòng !</Vviet>
+		<Vanh>Please enter department !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Bạn có muốn lưu thêm 1 đợt nữa không ?</Vviet>
+		<Vanh>Do you want to save one more session ?</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Không cho phép thay đổi thông tin !</Vviet>
+		<Vanh>Cannot be changed !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Sử dụng !)</Vviet>
+		<Vanh>Used !)</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Không thể thêm được phải xuất bệnh nhân này ra trước khi nhập viện !</Vviet>
+		<Vanh>Patient not yet discharged ! Must be discharged before re-hospitalisation !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Giới tính không hợp lệ !</Vviet>
+		<Vanh>Invalid gender !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Số khám</Vviet>
+		<Vanh>Visit #</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Ngày kinh cuối cùng không hợp lệ !</Vviet>
+		<Vanh>Invalid last period !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Ngày sang dự đoán không hợp lệ !</Vviet>
+		<Vanh>Invalid guessing delivery date !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Yêu cầu nhập ngày khám bệnh !</Vviet>
+		<Vanh>Please enter visiting date !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Giờ không hợp lệ !</Vviet>
+		<Vanh>Invalid time !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Chọn xử trí khám bệnh !</Vviet>
+		<Vanh>Select treatment !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Chưa phải phòng khám cuối !</Vviet>
+		<Vanh>Not a last exam room !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Thông tin phòng khám chưa cập nhật !</Vviet>
+		<Vanh>Outpatient data not yet updated !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Chi phí đã in tại phòng khám</Vviet>
+		<Vanh>Fee already printed at consultation ! </Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Nhập vào khoa !</Vviet>
+		<Vanh>Adm. department !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Người bệnh này đã tái khám bệnh tại phòng khám {</Vviet>
+		<Vanh>Patient already re-examinated at exam. room {</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Sử dụng !</Vviet>
+		<Vanh>Used !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Không được cấp thuốc !</Vviet>
+		<Vanh>Cannot be prescribed !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Người bệnh này đã khám bệnh tại phòng khám</Vviet>
+		<Vanh>Patient already examinated at exam. room {</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Ngày giờ khám bệnh không được nhỏ hơn ngày bắt đầu diều trị !(</Vviet>
+		<Vanh>Invalid date time !(</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Ngày giờ khám bệnh không được lớn hơn ngày giờ ra viện !(</Vviet>
+		<Vanh>Invalid date time !(</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Không cập nhật thông tin ký giấy ra viện !</Vviet>
+		<Vanh>Cannot update data !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Đã sử dụng không thể huỷ !</Vviet>
+		<Vanh>In use , cannot be deleted !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Lịch phẫu thủ thuật &gt;</Vviet>
+		<Vanh>Procedure scheduling</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Bạn không có quyền chỉnh sửa thông tin !</Vviet>
+		<Vanh>You have no permission  to change data !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Không cập nhật thông tin loại viện phí !</Vviet>
+		<Vanh>Cannot update data !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Loại viện phí đang sử dụng không cho phép hủy !</Vviet>
+		<Vanh>In use, cannot be deleted !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Không đúng version đang sử dụng !</Vviet>
+		<Vanh>Invalid version !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Số chương trình kích hoạt :</Vviet>
+		<Vanh>Number of active form permitted :</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Danh mục tình trạng</Vviet>
+		<Vanh>Status</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Danh mục thực hiện</Vviet>
+		<Vanh>Performance list</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Đề nghị</Vviet>
+		<Vanh>Proposal</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Thuốc</Vviet>
+		<Vanh>Drug</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Phân loại</Vviet>
+		<Vanh>Classification</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Đã cập nhật xong !</Vviet>
+		<Vanh>Updated !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Những tháng sau chưa tạo số liệu :</Vviet>
+		<Vanh>Month not yet created data :</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Xong !</Vviet>
+		<Vanh>Done !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Khoa nhập viện !</Vviet>
+		<Vanh>Adm. department !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Ngày ra viện không được nhỏ hơn ngày phẫu thuật - thủ thuật !</Vviet>
+		<Vanh>Invalid date !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Không thể thêm được,phải xuất bệnh nhân này ra trước khi nhập viện !</Vviet>
+		<Vanh>Patient not yet discharged, cannot be hospitalized  !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Người bệnh này kết thúc điều trị ngoại trú ?</Vviet>
+		<Vanh>Close recurrent patient file ?</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Nhập viện</Vviet>
+		<Vanh>Hospitalization</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Điều trị ngoại trú</Vviet>
+		<Vanh>Recurring patient</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Điều trị nội trú</Vviet>
+		<Vanh>Inpatient</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Nhập mã mẹ !</Vviet>
+		<Vanh>Please enter mother ID !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Nhập tên mẹ !</Vviet>
+		<Vanh>Please enter mother name !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Người bệnh này đã được nhập viện</Vviet>
+		<Vanh>Patient already hospitalized</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Ngày vào viện không hợp lệ so với khai báo hệ thống (</Vviet>
+		<Vanh>Invalid admission date (</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Yêu cầu nhập số lưu trữ !</Vviet>
+		<Vanh>Please enter storing # !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Bệnh nhân này đã nhập khoa không thể sửa phần vào khoa !</Vviet>
+		<Vanh>Dept. Admission data cannot be changed ! </Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Số lưu trữ này đã có !</Vviet>
+		<Vanh>Storing # existed !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Lưu &amp;&amp; in</Vviet>
+		<Vanh>Save &amp;&amp; Print</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Y bác sỹ thực hiện !</Vviet>
+		<Vanh>Performing doctor !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Yêu cầu nhập Ngày và giờ !</Vviet>
+		<Vanh>Please enter date time !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Ngày giờ thực hiện không được nhỏ ngày giờ tiếp đón !(</Vviet>
+		<Vanh>Invalid date ( </Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Không tìm thấy bệnh nhân này !</Vviet>
+		<Vanh>Patient cannot be found !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Ngày hết hạn không được nhỏ hơn ngày vào khoa!</Vviet>
+		<Vanh>Invalid date !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Nhập mã ICD vào khoa điều trị !</Vviet>
+		<Vanh>ICD 10 !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Nhập chẩn đoán vào khoa điều trị !</Vviet>
+		<Vanh>Diagnosis !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Bệnh nhân đang hiện diện trong khoa {</Vviet>
+		<Vanh>Patient is now in department {</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Không thể thêm được phải xuất bệnh nhân này ra trước khi nhập khoa !</Vviet>
+		<Vanh>Patient must be discharged before being admitted</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Bệnh nhân vào viện ngày</Vviet>
+		<Vanh>Adm. date</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Yêu cầu chọn phòng/giường !</Vviet>
+		<Vanh>Please select room  and bed !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Không cập nhật được thông tin vào khoa !</Vviet>
+		<Vanh>Cannot update adm. data !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Nhập ngày đẻ (mổ đẻ) !</Vviet>
+		<Vanh>Please enter delivery date !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Đã chọn phòng/giường</Vviet>
+		<Vanh>Room and bed selected !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Nếu muốn chuyển phòng/giường thì chọn phần chuyển phòng giường !</Vviet>
+		<Vanh>Please select room bed transferring !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Ngày vào khoa không hợp lệ so với khai báo hệ thống (</Vviet>
+		<Vanh>Invalid date !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Ngày vào khoa không được nhỏ hơn ngày vào viện !</Vviet>
+		<Vanh>Invalid date !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Ngày đẻ (mổ đẻ) không hợp lệ so với khai báo hệ thống (</Vviet>
+		<Vanh>Invalid date !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Ngày đẻ (mổ đẻ) không được nhỏ hơn ngày vào viện !</Vviet>
+		<Vanh>Invalid date !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Nhập y bác sĩ !</Vviet>
+		<Vanh>Please enter doctor name !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Nơi giới thiệu !</Vviet>
+		<Vanh>Referring resource !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Đã nhập trong ngày</Vviet>
+		<Vanh>Already existed !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Chọn số hồ sơ !</Vviet>
+		<Vanh>Please select medical record !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Số hồ sơ không hợp lệ !</Vviet>
+		<Vanh>Invalid atient ID !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Nhập số thẻ chưa đủ &gt;=</Vviet>
+		<Vanh>SSN length not valid</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Ngày hết hạn không được nhỏ hơn ngày khám !</Vviet>
+		<Vanh>Invalid date !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Không cập nhật được số liệu !</Vviet>
+		<Vanh>Cannot update data !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Không có phép huỷ !</Vviet>
+		<Vanh>Cannot be deleted !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Không cập nhật thông tin nhóm viện phí !</Vviet>
+		<Vanh>Cannot update billing group !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Nhóm viện phí đang sử dụng không cho phép hủy !</Vviet>
+		<Vanh>In use cannot be deleted !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Chọn cách kết xuất số liệu !</Vviet>
+		<Vanh>Please select export type !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Đã hoàn thành !</Vviet>
+		<Vanh>Done !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Bạn có muốn cập nhật thay đổi ?</Vviet>
+		<Vanh>Do you want to save change !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Nhập ID cận lâm sàng !</Vviet>
+		<Vanh>Please enter lab ID !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>ID cận lâm sàng 6 ký tự đầu phải là :</Vviet>
+		<Vanh>The first 6 characters must be :</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>ID CLS</Vviet>
+		<Vanh>Lab ID</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Đã nhập vào</Vviet>
+		<Vanh>Already existed !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Yêu cầu chọn đối tượng trả sau !</Vviet>
+		<Vanh>Please select discharge payment !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Yêu cầu chọn đối tượng thu phí !</Vviet>
+		<Vanh>Please select discharge payment !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>ID :</Vviet>
+		<Vanh>ID :</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Đã có kết quả, không được hủy !</Vviet>
+		<Vanh>Result alread existed, cannot be deleted !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Ngày hẹn không được nhỏ hơn ngày !</Vviet>
+		<Vanh>Invalid date !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Chọn đơn vị !</Vviet>
+		<Vanh>Please select organisation !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Chọn mã số !</Vviet>
+		<Vanh>Please select code !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Chọn họ tên !</Vviet>
+		<Vanh>Please select name !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Chọn phân loại !</Vviet>
+		<Vanh>Please select type !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Số phiếu đã nhập !</Vviet>
+		<Vanh>Sheet number already entered !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Nhập số phiếu !</Vviet>
+		<Vanh>Please enter sheet number !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Nhập ngày số phiếu !</Vviet>
+		<Vanh>Please enter sheet date !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Nhập phiếu !</Vviet>
+		<Vanh>Please enter sheet  !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Chọn khoa !</Vviet>
+		<Vanh>Please select department !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Khoa không hợp lệ !</Vviet>
+		<Vanh>Invalid department !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Ngày hết hạn không được nhỏ hơn ngày vào!</Vviet>
+		<Vanh>Invalid date !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Tuổi và năm sinh không hợp lệ</Vviet>
+		<Vanh>Age and Y.O.B. mismatched !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Bạn có muốn chương trình tính lại không ?</Vviet>
+		<Vanh>Do you want to recalculate !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Nhập ngày vào !</Vviet>
+		<Vanh>Please enter adm. date !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Nhập xử trí !</Vviet>
+		<Vanh>Please enter treatment !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Chọn kết quả điều trị !</Vviet>
+		<Vanh>Please select treating result !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Bệnh nhân đang điều trị {</Vviet>
+		<Vanh>Patient is being treated {</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Số khám :</Vviet>
+		<Vanh>Visit # :</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Đã chuyển chi phí thanh toán !</Vviet>
+		<Vanh>Hospital fee transmitted !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Đã chuyển số liệu xuống phòng thanh toán.</Vviet>
+		<Vanh>Data transmitted !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Yêu cầu nhập Ngày và giờ vào !</Vviet>
+		<Vanh>Please enter adm. date time !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Ngày giờ vào không được nhỏ ngày giờ tiếp đón !(</Vviet>
+		<Vanh>Invalid date time !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Ngày ra không hợp lệ so với khai báo hệ thống (</Vviet>
+		<Vanh>Invalid date time !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Ngày ra không được nhỏ hơn ngày vào !</Vviet>
+		<Vanh>Invalid date time !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Người bệnh đang điều trị !</Vviet>
+		<Vanh>Patient is under therapy !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Chi phí đã in</Vviet>
+		<Vanh>Fee printed !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Bạn có muốn in lại ?</Vviet>
+		<Vanh>Do you want to print again ?</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Chưa có thông tin hành chính</Vviet>
+		<Vanh>No demographic data !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Bạn có muốn nhập không ?</Vviet>
+		<Vanh>Do you want to enter data ?</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Bệnh nhân chưa nhập khoa !</Vviet>
+		<Vanh>Patient not yet admitted to department !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Ngày giờ kết thúc không được nhỏ hơn ngày giờ bắt đầu !</Vviet>
+		<Vanh>Invalid date time !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Chọn phòng mổ !</Vviet>
+		<Vanh>Please select operating room !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Khoa Dược Đã duyệt thuốc &amp; vật tư không cho phép hủy ?</Vviet>
+		<Vanh>Already approved, cannot be deleted !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Ngày phẫu thuật / thủ thuật không hợp lệ so với khai báo hệ thống (</Vviet>
+		<Vanh>Invalid surgery date !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Khoa dược đã duyệt !</Vviet>
+		<Vanh>Approved !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Ngày phẫu thuật / thủ thuật không được nhỏ hơn ngày vào viện !</Vviet>
+		<Vanh>Invalid surgery date !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Ngày kết thúc không được nhỏ hơn ngày bắt đầu !</Vviet>
+		<Vanh>Invalid surgery date !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Chắc chắn muốn xóa phiếu viện phí</Vviet>
+		<Vanh>Do you really want to delete billing sheet ?</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Đã thanh toán ,không thể hủy !</Vviet>
+		<Vanh>Already paid, cannot be deleted !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Người dùng đã sử dụng không thể huỷ !</Vviet>
+		<Vanh>In use, cannot be deleted !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Nhập tên thuốc !</Vviet>
+		<Vanh>Please enter drug !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Không hợp lệ !</Vviet>
+		<Vanh>Invalid !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>BHYT</Vviet>
+		<Vanh>Insurance</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Đã đổi xong đối tượng !</Vviet>
+		<Vanh>Patient class changed !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Bạn có muốn kiểm tra lại tiền thuốc của Bệnh nhân không ?</Vviet>
+		<Vanh>Do you want to check drug payment !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Tiền thuốc</Vviet>
+		<Vanh>Drug payment</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Người bệnh này đã chuyển số liệu xuống viện phí !</Vviet>
+		<Vanh>Data already transmitted to billing system !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Mã người bệnh không tìm thấy !</Vviet>
+		<Vanh>Patient ID not found !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Không tìm thấy mã người bệnh</Vviet>
+		<Vanh>Patient ID not found !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Mã người bệnh củ và mới không được trùng nhau !</Vviet>
+		<Vanh>Duplicated ID !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Đồng ý sửa mã người bệnh</Vviet>
+		<Vanh>Do you really want to change patient ID ?</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>thành</Vviet>
+		<Vanh>to</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Mã người bệnh</Vviet>
+		<Vanh>Patient ID</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>đang tồn tại không thể sửa được !</Vviet>
+		<Vanh>Cannot be changed</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Đã sửa thành công !</Vviet>
+		<Vanh>Changed successfully !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Ngày vào không được lớn hơn ngày ra !</Vviet>
+		<Vanh>Invalid date !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Đồng ý sửa ngày giờ</Vviet>
+		<Vanh>Do you want to change date time !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Đồng ý sửa</Vviet>
+		<Vanh>Do you want to change !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Không tìm thấy mã</Vviet>
+		<Vanh>Code cannot be found </Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>trong danh mục !</Vviet>
+		<Vanh>in the list !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Không cập nhật thông tin cơ sở sản xuất kinh doanh !</Vviet>
+		<Vanh>Manufactory cannot be updated !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Cơ sở sản xuất kinh doanh đã sử dụng không thể huỷ !</Vviet>
+		<Vanh>Manufactory in use cannot be deleted !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Yêu cầu loại ngộ độc !</Vviet>
+		<Vanh>Intoxication type !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Yêu cầu bộ phận xảy ra !</Vviet>
+		<Vanh>Body part ?</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Ngày tai nạn, thương tích không hợp lệ so với khai báo hệ thống (</Vviet>
+		<Vanh>Invalid accident date !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Ngày tai nạn, thương tích không được lớn hơn ngày vào (</Vviet>
+		<Vanh>Invalid accident date !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Không hợp lệ chỉ chọn in hoặc danh sách chờ đóng tiền !</Vviet>
+		<Vanh>Invalid !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Khai báo không hợp lệ !</Vviet>
+		<Vanh>Invalid declaration !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Chưa khai báo lý do miễn hoặc danh sách ký miễn !</Vviet>
+		<Vanh>Reducing reason not yet declared !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Yêu cầu thoát khỏi chương trình sau đó vào lại !</Vviet>
+		<Vanh>Please exit then return !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Đã sử dụng không được phép hủy !</Vviet>
+		<Vanh>In use, cannot be change !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Mã số đã tồn tại !</Vviet>
+		<Vanh>Code existed !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Ngày không hợp lệ so với khai báo hệ thống {</Vviet>
+		<Vanh>Invalid date {</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Thông tin này đã cập nhật vào viện phí !</Vviet>
+		<Vanh>Data already updated to billing system !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Nhập mã số người bệnh !</Vviet>
+		<Vanh>Please enter patient ID !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Yêu cầu nhập số thẻ !</Vviet>
+		<Vanh>Please enter SSN !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Tên nơi ĐKKCB không hợp lệ !</Vviet>
+		<Vanh>Reg. facility invalid !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Họ tên bác sĩ không hợp lệ !</Vviet>
+		<Vanh>Invalid doctor name !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Nhập số thẻ chưa đủ (</Vviet>
+		<Vanh>SSN length invalid (</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Ngày kết thúc không được nhỏ hơn ngày bắt đầu!</Vviet>
+		<Vanh>Invalid date time !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Ngày sanh dự đoán không hợp lệ !</Vviet>
+		<Vanh>Guessing delivery date invalid !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Nhập năm sinh !</Vviet>
+		<Vanh>Please enter Y.O.B. !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Nhập chương trình !</Vviet>
+		<Vanh>Enter the program !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Nhập chương trình không hợp lệ !</Vviet>
+		<Vanh>Invalid !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Nhập giờ vào khám bệnh !</Vviet>
+		<Vanh>Please enter exam date time !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Tháng không hợp lệ !</Vviet>
+		<Vanh>Invalid month !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>KHÁM LÉ</Vviet>
+		<Vanh>Strabism exam</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Đến năm không được nhỏ hơn từ năm !</Vviet>
+		<Vanh>Invalid year !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Có muốn chọn lại danh sách PTTT không ?</Vviet>
+		<Vanh>Do you want to select surgery list again ?</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>KHÁM KHÚC XẠ</Vviet>
+		<Vanh>Refractory exam</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Đến ngày</Vviet>
+		<Vanh>and</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Yêu cầu nhập thuốc !</Vviet>
+		<Vanh>Please enter drugs !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Không cập nhật được thông tin</Vviet>
+		<Vanh>Cannot update data !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Nhập cách thức !</Vviet>
+		<Vanh>Please enter method !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Nhập ngôi thai !</Vviet>
+		<Vanh>Please enter foetus presentation !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Nhập cân nặng !</Vviet>
+		<Vanh>Please enter weight !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Người đỡ 1 &amp; người đỡ 2 không được trùng nhau !</Vviet>
+		<Vanh>Duplicated data !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Không cập nhật được thông tin trẻ sơ sinh !</Vviet>
+		<Vanh>Cannot update newborn data !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Yêu cầu nhập Ngày và giờ sinh !</Vviet>
+		<Vanh>Please enter giving birth date time !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Ngày sinh không hợp lệ so với khai báo hệ thống (</Vviet>
+		<Vanh>Invalid date (</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Ngày sinh không được nhỏ hơn ngày đẻ (mổ đẻ) !</Vviet>
+		<Vanh>Invalid delivery date time !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Tên mẫu !</Vviet>
+		<Vanh>Template !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Chọn giá viện phí !</Vviet>
+		<Vanh>Please select billing price !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Không cập nhật được thông tin mẫu phẫu thủ thuật !</Vviet>
+		<Vanh>Cannot update surgery report template  !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Tên mẫu đã sử dụng không cho phép hủy !</Vviet>
+		<Vanh>In use, cannot be deleted !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Yêu cầu nhập Ngày và giờ nhận !</Vviet>
+		<Vanh>Please enter date time !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Ngày nhận không được nhỏ hơn ngày tử vong !</Vviet>
+		<Vanh>Invalid receiving date time !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Ngày nhận không hợp lệ so với khai báo hệ thống (</Vviet>
+		<Vanh>Invalid receiving date time ! (</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Yêu cầu nhập Ngày và giờ mỗ !</Vviet>
+		<Vanh>Please enter surgical operating date time !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Ngày mỗ không được nhỏ hơn ngày nhận !</Vviet>
+		<Vanh>Invalid surgery date time !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Ngày mỗ không hợp lệ so với khai báo hệ thống (</Vviet>
+		<Vanh>Invalid surgery date time ! (</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Nhập nguyên nhân tử vong !</Vviet>
+		<Vanh>Please enter cause of the death !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Nhập chẩn đoán tử vong !</Vviet>
+		<Vanh>Please enter death reasons !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Nhập ngày nhận tử thi !</Vviet>
+		<Vanh>Please enter cadaver receiving date time !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Nhập ngày mỗ tử thi !</Vviet>
+		<Vanh>Please enter cadaver exploration  date time !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Không cập nhật được thông tin tử vong !</Vviet>
+		<Vanh>Cannot update mortality data !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Người bệnh này đã nhập, Bạn có muốn sửa không?</Vviet>
+		<Vanh>Patient already existed, do you want to change data ?</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Người bệnh này đã thanh toán !</Vviet>
+		<Vanh>Patient already paid !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Đồng ý xóa thông tin này !</Vviet>
+		<Vanh>Do you really want to delete  !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Người bệnh này đã sử dụng các dịch vụ không cho phép xóa !</Vviet>
+		<Vanh>In use, cannot be delete!</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Đã sử dụng thuốc không thể hủy !</Vviet>
+		<Vanh>In use, cannot be delete!</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Người bệnh này đã xuất khoa không cho phép xóa !</Vviet>
+		<Vanh>Patient already discharged, cannot be deleted !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Người bệnh này đang hiện diện khoa khác không cho phép xóa !</Vviet>
+		<Vanh>Patient is in department, cannot be deleted !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Người bệnh này đã nhập khoa không cho phép xóa !</Vviet>
+		<Vanh>Patient is admitted, cannot be deleted !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Người bệnh này đã xuất viện không cho phép xóa !</Vviet>
+		<Vanh>Patient was discharged, cannot be deleted !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Đã xóa thành công !</Vviet>
+		<Vanh>Delete successfully !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Người bệnh đã cập nhật !</Vviet>
+		<Vanh>Updated !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Tên thuốc và đối tượng/nhóm không hợp lệ !</Vviet>
+		<Vanh>Drug and group invalid !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Không tìm thấy mã bệnh nhân !</Vviet>
+		<Vanh>Patient ID cannot be found !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Yêu cầu nhập thêm giờ sinh !</Vviet>
+		<Vanh>Please enter delivery time !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Nhập tình trạng ra khoa !</Vviet>
+		<Vanh>Please enter discharge status !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Nhập mã ICD nguyên nhân !</Vviet>
+		<Vanh>Please enter ICD10 (Etiology)</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Nhập chẩn đoán nguyên nhân !</Vviet>
+		<Vanh>Please enter etiology diagnosis !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Không thể xuất khoa cho Bệnh nhân này thêm lần nữa!</Vviet>
+		<Vanh>Patient cannot be discharged once more !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Không thể xuất chuyển khoa được.</Vviet>
+		<Vanh>Cannot transfer to other department !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Người bệnh đã xuất viện không được sửa tình trạng !</Vviet>
+		<Vanh>Patient already discharged , cannot change discharge status !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Không cập nhật được thông tin ra khoa !</Vviet>
+		<Vanh>Cannot update discharge data !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Ngày ra khoa không được nhỏ hơn ngày phẫu thuật - thủ thuật !</Vviet>
+		<Vanh>Invalid date !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Không cập nhật được thông tin chuyển khoa !</Vviet>
+		<Vanh>Cannot update transferring  data !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Cập nhật thông tin ra khoa trước khi chuyển chi phí thanh toán !</Vviet>
+		<Vanh>Please update discharge data before transmitting to billing system</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Xuất khoa</Vviet>
+		<Vanh>Discharge</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Bệnh nhân chưa nhập viện ngày {</Vviet>
+		<Vanh>Not yet hospitalized in {</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Bệnh nhân này chưa nhập khoa {</Vviet>
+		<Vanh>Not yet admitted  {</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Ngày ra khoa không hợp lệ so với khai báo hệ thống (</Vviet>
+		<Vanh>Invalid date time ! (</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Ngày ra khoa không được nhỏ hơn ngày vào khoa !</Vviet>
+		<Vanh>Invalid date time !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Ngày đẻ (mổ đẻ) không được nhỏ hơn ngày vào khoa !</Vviet>
+		<Vanh>Invalid date time ! (Delivery date)</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Ngày hết hạn không được nhỏ hơn ngày vào viện !</Vviet>
+		<Vanh>Invalid date time !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Nhập khoa xuất !</Vviet>
+		<Vanh>Please enter disc. department !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Khoa xuất cuối không hợp lệ !</Vviet>
+		<Vanh>Invalid last department !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Yêu cầu nhập phần chuyển khoa !</Vviet>
+		<Vanh>Please enter transferring data !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Ngày ra viện không được nhỏ hơn ngày vào khoa !</Vviet>
+		<Vanh>Invalid date time !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Không cập nhật thông tin xử trí khám bệnh !</Vviet>
+		<Vanh>Cannot update data !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Xử trí khám bệnh đã sử dụng không thể huỷ !</Vviet>
+		<Vanh>In use, cannot be deleted  !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Bạn không thể tạo hẹn mới với ngày đã chọn</Vviet>
+		<Vanh>Cannot create new appointment !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Không đăng ký hẹn được, BS không làm giờ này</Vviet>
+		<Vanh>Doctor not available for this appointment !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Cuộc hẹn đã hoàn thành</Vviet>
+		<Vanh>Appointment done !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Chắc chắn xoá cuộc hẹn này ?</Vviet>
+		<Vanh>Do you really want to delete !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Cuộc hẹn đã không thực hiện</Vviet>
+		<Vanh>Appointment is missing !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Đã có mã loại hẹn này</Vviet>
+		<Vanh>Code already existed !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Nhập mã loại hẹn khám</Vviet>
+		<Vanh>Please enter appointment code !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Nhập tên loại hẹn khám</Vviet>
+		<Vanh>Please enter appointment type !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Không được phép huỷ thông tin đã sử dụng</Vviet>
+		<Vanh>In use, cannot be deleted !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Chọn một loại khám muốn sửa từ danh sách</Vviet>
+		<Vanh>Please select item to correct !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Nhập mã nhóm</Vviet>
+		<Vanh>Please enter group code!</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Nhập tên nhóm</Vviet>
+		<Vanh>Please enter group !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Nhập mã nhóm bằng ký tự số</Vviet>
+		<Vanh>Code in numeric characters</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Đã có phòng thuộc nhóm phòng này. Không huỷ được</Vviet>
+		<Vanh>Room existed. Cannot be deleted !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Bạn muốn huỷ mẩu tin này ?</Vviet>
+		<Vanh>Do you really want to delete this record ?</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Lịch làm việc bị trùng</Vviet>
+		<Vanh>Data duplicated</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Bạn chắc chắn muốn xoá mẩu tin này ?</Vviet>
+		<Vanh>Do you really want to delete this record ?</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Yêu cầu chọn cách tổng hợp số liệu !</Vviet>
+		<Vanh>Please select summarizing type !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Chọn giờ từ danh sách sổ xuống</Vviet>
+		<Vanh>Please select date time !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Từ</Vviet>
+		<Vanh>From</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Giờ làm việc</Vviet>
+		<Vanh>Please enter date time !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Nhập giờ bắt đầu làm việc</Vviet>
+		<Vanh>Please enter date time !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Nhập phút bắt đầu làm việc</Vviet>
+		<Vanh>Please enter date time !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Nhập giờ kết thúc làm việc</Vviet>
+		<Vanh>Please enter date time !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Nhập phút kết thúc làm việc</Vviet>
+		<Vanh>Please enter minute !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Đã có mã tình trạng này</Vviet>
+		<Vanh>Already existed</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Nhập mã tình trạng hẹn khám</Vviet>
+		<Vanh>Please enter appointment type code</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Nhập tên tình trạng hẹn khám</Vviet>
+		<Vanh>Please enter appointment type</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Chọn một tình trạng muốn sửa từ danh sách</Vviet>
+		<Vanh>Select a status from list</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Nhập tên tình trạng</Vviet>
+		<Vanh>Please enter status !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Mỗi ngày</Vviet>
+		<Vanh>Take</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>lần , lần</Vviet>
+		<Vanh>time(s), each time</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Không có số liệu</Vviet>
+		<Vanh>No data</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>stt='</Vviet>
+		<Vanh># ='</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>stt='</Vviet>
+		<Vanh>Seq #=</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>stt='</Vviet>
+		<Vanh>Seq#=</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>stt='</Vviet>
+		<Vanh>Seq#=</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>ĐANG ĐIỀU TRỊ TẠI</Vviet>
+		<Vanh>IS IN TREATMENT AT</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>00   Kết thúc điều trị</Vviet>
+		<Vanh>00 End therapy</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Mục đăng ký đoàn</Vviet>
+		<Vanh>Reg. items</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Mẹ</Vviet>
+		<Vanh>Mother</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Bố</Vviet>
+		<Vanh>Father</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>MẸ :</Vviet>
+		<Vanh>MOTHER:</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Có cản quang</Vviet>
+		<Vanh>With contrast media</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Có gây mê</Vviet>
+		<Vanh>With gen. anesthesia</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Mắt phải</Vviet>
+		<Vanh>R. eye</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Mắt trái</Vviet>
+		<Vanh>L. eye</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Chọn hình</Vviet>
+		<Vanh>Select picture</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Nhập khoa</Vviet>
+		<Vanh>Dept. admission</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Tương phản</Vviet>
+		<Vanh>Contrast</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Cản quang</Vviet>
+		<Vanh>Contrast media</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Phiếu chẩn đoán</Vviet>
+		<Vanh>Diagnosis</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Không,sau đó tiêm cản quang</Vviet>
+		<Vanh>No, then using contrast media</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Không tiêm cản quang</Vviet>
+		<Vanh>No contrast media</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Chưa thực hiện :</Vviet>
+		<Vanh>Not yet done :</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Đã thực hiện :</Vviet>
+		<Vanh>Done :</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>ĐANG ĐIỀU TRỊ</Vviet>
+		<Vanh>IN TREATMENT</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>NỘI TRÚ</Vviet>
+		<Vanh>INPATIENT</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>NGOẠI TRÚ</Vviet>
+		<Vanh>RECURRENT PATIENT</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>TẠI</Vviet>
+		<Vanh>AT</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>PHIẾU THANH TOÁN RA VIỆN</Vviet>
+		<Vanh>Discharge billing</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>stt='</Vviet>
+		<Vanh>Seq #='</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>stt='</Vviet>
+		<Vanh>Seq #='</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>stt='</Vviet>
+		<Vanh>Seq #='</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>stt='</Vviet>
+		<Vanh>Seq #='</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>stt='</Vviet>
+		<Vanh>Seq #='</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>stt='</Vviet>
+		<Vanh>Seq #='</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>stt='</Vviet>
+		<Vanh>Seq #='</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>stt='</Vviet>
+		<Vanh>Seq #='</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>stt='</Vviet>
+		<Vanh>Seq #='</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>stt='</Vviet>
+		<Vanh>Seq #='</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>stt='</Vviet>
+		<Vanh>Seq #='</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>stt='</Vviet>
+		<Vanh>Seq #='</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>stt='</Vviet>
+		<Vanh>Seq #='</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>stt='</Vviet>
+		<Vanh>Seq #='</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>stt='</Vviet>
+		<Vanh>Seq #='</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>stt='</Vviet>
+		<Vanh>Seq #='</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>stt='</Vviet>
+		<Vanh>Seq #='</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>stt='</Vviet>
+		<Vanh>Seq #='</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>stt='</Vviet>
+		<Vanh>Seq #='</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>stt='</Vviet>
+		<Vanh>Seq #='</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>stt='</Vviet>
+		<Vanh>Seq #='</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>stt='</Vviet>
+		<Vanh>Seq #='</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Lỗi máy in. Đề nghị kiểm tra lại máy in !</Vviet>
+		<Vanh>Printing errors. Please check printer !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>stt='</Vviet>
+		<Vanh>Seq #='</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>stt='</Vviet>
+		<Vanh>Seq #='</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>stt='</Vviet>
+		<Vanh>Seq #='</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>stt='</Vviet>
+		<Vanh>Seq #='</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>stt='</Vviet>
+		<Vanh>Seq #='</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>stt='</Vviet>
+		<Vanh>Seq #='</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>stt='</Vviet>
+		<Vanh>Seq #='</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>stt='</Vviet>
+		<Vanh>Seq #='</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>stt='</Vviet>
+		<Vanh>Seq #='</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>stt='</Vviet>
+		<Vanh>Seq #='</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>đã chuyển khoa !</Vviet>
+		<Vanh>Already transferred to other department !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>stt='</Vviet>
+		<Vanh>Seq #='</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>stt='</Vviet>
+		<Vanh>Seq #='</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>stt='</Vviet>
+		<Vanh>Seq #='</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>stt='</Vviet>
+		<Vanh>Seq #='</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Không tìm thấy chứng  từ thu viện phí (</Vviet>
+		<Vanh>Cannot find billing vouchers(</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Không tìm thấy chứng  từ thanh toán ra viện ngoại trú (</Vviet>
+		<Vanh>Cannot find recurrent billing vouchers</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Không tìm thấy chứng  từ thu tạm ứng (</Vviet>
+		<Vanh>Cannot find depodit billing (</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Không tìm thấy hoá đơn hoàn trả (</Vviet>
+		<Vanh>Cannot find  returning bills (</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Không tìm thấy biên lai thu viện phí nội trú (</Vviet>
+		<Vanh>Cannot find  inpatient bills (</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Không tìm thấy chứng  từ thu chi thanh toán ra viện (</Vviet>
+		<Vanh>Cannot find discharge billing vouchers (</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Không tìm thấy thông tin nhập viện phí khoa (</Vviet>
+		<Vanh>Cannot find  department billing data (</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>stt='</Vviet>
+		<Vanh>Seq #='</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>stt='</Vviet>
+		<Vanh>Seq #='</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>stt='</Vviet>
+		<Vanh>Seq #='</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>stt='</Vviet>
+		<Vanh>Seq #='</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>stt='</Vviet>
+		<Vanh>Seq #='</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>stt='</Vviet>
+		<Vanh>Seq #='</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>stt='</Vviet>
+		<Vanh>Seq #='</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>stt='</Vviet>
+		<Vanh>Seq #='</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Chỉnh sửa đối tượng</Vviet>
+		<Vanh>Edit patient class</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>stt='</Vviet>
+		<Vanh>Seq #='</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Không đúng so với đối tượng ban đầu\nBạn có muốn lấy đối tượng ban đầu ?</Vviet>
+		<Vanh>Invalid patient class</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Quản lý ngày nghỉ phép</Vviet>
+		<Vanh>Management of leave days</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>stt='</Vviet>
+		<Vanh>Seq #='</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Chẩn đoán hình ảnh 2007</Vviet>
+		<Vanh>Radiology information system</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Radiology information system</Vviet>
+		<Vanh>RIS</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Login name :</Vviet>
+		<Vanh>Login name :</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Login name :</Vviet>
+		<Vanh>Login name :</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Chẩn đoán hình ảnh 2007</Vviet>
+		<Vanh>Radiology information system</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Login name :</Vviet>
+		<Vanh>Login name :</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Thống kê bệnh nhân Siêu âm</Vviet>
+		<Vanh>Untrasound patients</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Thống kê bệnh nhân đo Điện tim</Vviet>
+		<Vanh>EKG patients</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Login name :</Vviet>
+		<Vanh>Login name :</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Chẩn đoán hình ảnh 2007</Vviet>
+		<Vanh>Radiology infpormation system 2012</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Tìm kiếm</Vviet>
+		<Vanh>Search</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Chẩn đoán hình ảnh 2007</Vviet>
+		<Vanh>Radiology information system</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>phim</Vviet>
+		<Vanh>Film</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Khai báo danh mục</Vviet>
+		<Vanh>Master files</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Khai báo danh mục</Vviet>
+		<Vanh>Master files</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Tìm kiếm</Vviet>
+		<Vanh>Search</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Tìm kiếm</Vviet>
+		<Vanh>Search</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Khai báo mẩu mô tả nội soi</Vviet>
+		<Vanh>Endoscopy report templates</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Không có thiết bị</Vviet>
+		<Vanh>No device</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Danh sách được khai báo :</Vviet>
+		<Vanh>Master files</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Khai báo mẩu mô tả siêu âm</Vviet>
+		<Vanh>Ultrasound report templates</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Thống kê bệnh nhân Siêu âm</Vviet>
+		<Vanh>Ultrasound patients</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Thống kê bệnh nhân Nội soi</Vviet>
+		<Vanh>Endoscopy patients</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Chẩn đoán hình ảnh 2007</Vviet>
+		<Vanh>Rariology information system</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Tên đăng nhập :</Vviet>
+		<Vanh>Login name</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Chẩn đoán hình ảnh 2007</Vviet>
+		<Vanh>Medisoft radiology 2007</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Tên đăng nhập :</Vviet>
+		<Vanh>Login name :</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Mã BN :</Vviet>
+		<Vanh>Pat. ID :</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Họ Tên BN :</Vviet>
+		<Vanh>Pat. name :</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Năm tuổi</Vviet>
+		<Vanh>y.o.</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Danh mục phân loại sức khỏe</Vviet>
+		<Vanh>Health classification</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Thuốc tủ trực</Vviet>
+		<Vanh>Dept store presc.</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Toa bảo hiểm</Vviet>
+		<Vanh>Insurance prescriptions</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Toa mua ngoài</Vviet>
+		<Vanh>No insurance prescription</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Tìm bệnh nhân</Vviet>
+		<Vanh>Search patient</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Tai nạn,thương tích</Vviet>
+		<Vanh>Accidents, Wounds</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Bệnh kèm theo</Vviet>
+		<Vanh>Other diseases </Vanh>
+	</Language>
+	<Language>
+		<Vviet>Dị ứng thuốc</Vviet>
+		<Vanh>Drug allergy</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Tự sát</Vviet>
+		<Vanh>Suicide</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Bệnh mãn tính</Vviet>
+		<Vanh>Chronic diseases</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Biên bản hội chẩn tử vong</Vviet>
+		<Vanh>Death case report</Vanh>
+	</Language>
+	<Language>
+		<Vviet>In kèm đơn giá</Vviet>
+		<Vanh>Print with Price</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Tờ điều trị</Vviet>
+		<Vanh>Progress notes</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Xuất danh sách khám bệnh ra LCD</Vviet>
+		<Vanh>Send data to digital display</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Thông số LCD</Vviet>
+		<Vanh>LCD data parameters</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Ngày liên tục</Vviet>
+		<Vanh>consecutive days</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Xem trước khi in</Vviet>
+		<Vanh>Print preview</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Tự động chọn thông số khi chỉ định</Vviet>
+		<Vanh>Automatic setting where ordering</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Xem danh sách bệnh nhân đã khám</Vviet>
+		<Vanh>View list of consulted patients</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Phiếu chăm sóc</Vviet>
+		<Vanh>Caring notes</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Phiếu truyền dịch</Vviet>
+		<Vanh>Perfusion notes</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Phiếu chuyển khám chuyên khoa</Vviet>
+		<Vanh>Specialist exam orders</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Bạo lực gia đình</Vviet>
+		<Vanh>Violence in family</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Phiếu sàng lọc nạn nhân bạo lực gia đình</Vviet>
+		<Vanh>Family violence screening</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Phiếu ghi chép thông tin nạn nhân bạo lực gia đình</Vviet>
+		<Vanh>Family violence data</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Giấy xác nhận</Vviet>
+		<Vanh>Certificate</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Phiếu theo dõi vật lý trị liệu</Vviet>
+		<Vanh>Physical therapy follow-up</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Phiếu thanh toán ra viện</Vviet>
+		<Vanh>Discharge billing</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Xem tồn kho</Vviet>
+		<Vanh>Drugs in stock</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Xem hồ sơ bệnh án của bệnh nhân</Vviet>
+		<Vanh>View patient charts</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Xem thuốc đã sử dụng</Vviet>
+		<Vanh>Drug using</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Hiện danh sách bệnh nhân đã khám</Vviet>
+		<Vanh>View consulted patient</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Thông tin bệnh nhân</Vviet>
+		<Vanh>Patient information</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Người bệnh</Vviet>
+		<Vanh>Patient</Vanh>
+	</Language>
+	<Language>
+		<Vviet> chưa được chỉ định vào </Vviet>
+		<Vanh> was not assigned </Vanh>
+	</Language>
+	<Language>
+		<Vviet>Bạn có muốn chọn lại ngày đăng ký khám của Bệnh nhân không?</Vviet>
+		<Vanh> Do you want to view this previous encounter? </Vanh>
+	</Language>
+	<Language>
+		<Vviet>Chưa phát hiện dấu hiệu bệnh lý</Vviet>
+		<Vanh>Nothing remarkable</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Chưa ghi nhận bệnh lý</Vviet>
+		<Vanh>Nothing remarkable</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Tuần hoàn: nhịp tim đều, không âm thổi; Hô hấp: phổi không ran; Tiêu hóa: bụng mềm, gan lách không sờ chạm; Thần kinh: không dấu thần kinh định vị; Thận – Tiết niệu – Sinh dục: bình thường; Cơ Xương Khớp: bình thường.</Vviet>
+		<Vanh>Cardiovascular: Heart rate regular,no murmur; Lung: Clear to auscultations and percussious; Sotf: non-tender;Nervous: No peripheral nerves signs; Kidney-Urinary-Sex: Normal; Muscle: Normal, Pzone and Joint: Normal</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Uống thuốc theo toa – Tái khám khi hết thuốc.</Vviet>
+		<Vanh>Take medicine as precribed - Re-exam in 1 week</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Tỉnh, tiếp xúc tốt, da niêm hồng; Thể trạng trung bình; Hạch ngoại biên không sờ thấy.</Vviet>
+		<Vanh>In good conciousness.No apparent distress,well developed.No palpable cervical,supra clavicular or axillary adeuopathy</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Bạn không thể sửa toa thuốc này</Vviet>
+		<Vanh>Prescription cannot be changed </Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Tái khám sau 2 tuần !</Vviet>
+		<Vanh>Re-exam after 2 weeks!</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Yêu cầu hóa đơn giá trị gia tăng</Vviet>
+		<Vanh>VAT receipt requested</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Nhiều phòng khám</Vviet>
+		<Vanh>Multi exams</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Yêu cầu cận lâm sàng</Vviet>
+		<Vanh>Pathology orders</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Xuất số từ .. đến ra LCD</Vviet>
+		<Vanh>Exp number from..to on LCD</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>In biên lai 0 đồng (Miễn+BHYT)</Vviet>
+		<Vanh>Print receipt 0$(Free+Insurance)</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>In giấy chuyển viện nội bộ</Vviet>
+		<Vanh>Print local tranferring letter</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>&amp;Gọi</Vviet>
+		<Vanh>&amp;Call</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Gọi lại</Vviet>
+		<Vanh>Recall</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Bệnh nhân:</Vviet>
+		<Vanh>Patient:</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Người duyệt miễn</Vviet>
+		<Vanh>Discount approved by</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Chương trình khuyến mãi</Vviet>
+		<Vanh>Promotion programs</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Thẻ ưu đãi</Vviet>
+		<Vanh>Memberships</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Chương trình khuyến mãi</Vviet>
+		<Vanh>Promotion</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Lựa chọn này chỉ dành cho đối tượng BHYT và đã nhập số thẻ BHYT!</Vviet>
+		<Vanh>This selection is only for Insurance </Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Không có kết nối với đầu đọc thẻ !</Vviet>
+		<Vanh>Can not connect to card reader !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Không tìm thấy thẻ !</Vviet>
+		<Vanh>Can not find the card !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Vui lòng nhập số lượng thuốc !</Vviet>
+		<Vanh>Please input drug quantity !</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Đề nghị nhập toa thuốc vào!</Vviet>
+		<Vanh>Please input drugs!</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Danh sách đăng ký</Vviet>
+		<Vanh>Registered patients</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Chưa cài đặt tương tác thuốc vào hệ thống, đề nghị liên hệ với Quản trị mạng!</Vviet>
+		<Vanh>Can not find Database Drug Interaction. Please Contact administrator!</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Không tìm thấy tương tác trên cơ sở dữ liệu hiện hành của hệ thống!</Vviet>
+		<Vanh>Can not find drug interaction in current database.</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Vật tư</Vviet>
+		<Vanh>Disposable</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Đã nhập đơn thuốc chưa duyệt !</Vviet>
+		<Vanh>Prescriptions exist</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Thông báo - Tương tác thuốc</Vviet>
+		<Vanh>Drugs interaction</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Đề nghị nhập chẩn đoán.</Vviet>
+		<Vanh>Please input dianosis.</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>yêu cầu nhập bác sỹ</Vviet>
+		<Vanh>Please input Doctor.</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Giấy cam đoan</Vviet>
+		<Vanh>Paper commitments</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Cảnh báo bệnh nhân BHYT khi dùng dịch vụ kỹ thuật cao</Vviet>
+		<Vanh>Warning health insurance patient using high-tech services</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Phiếu khám bệnh chụp CT Scanner</Vviet>
+		<Vanh>Medical CT Scanner</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Giấy hội chẩn chụp CT Scanner</Vviet>
+		<Vanh>CT Scanner consultation</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>In giấy chuyển viện nội bộ</Vviet>
+		<Vanh>Print local tranfers</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>In từng ngày</Vviet>
+		<Vanh>Print each days</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Xem trước khi in</Vviet>
+		<Vanh>Print preview</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>In cả đợt</Vviet>
+		<Vanh>Print all</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Đối tượng khi vào</Vviet>
+		<Vanh>Patient class </Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Tự động chọn thông số khi chỉ định</Vviet>
+		<Vanh>Automatically selects the specified parameters</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Hiển thị phần phụ thu - chênh lệch giá</Vviet>
+		<Vanh>Displays surcharge - the price difference</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Cảnh báo bệnh nhân BHYT khi dùng dịch vụ kỹ thuật cao</Vviet>
+		<Vanh>Warn patient health insurance when using high-tech services</Vanh>
+		<Vphap />
+	</Language>
+	<Language>
+		<Vviet>Nữ</Vviet>
+		<Vanh>Female</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Nam</Vviet>
+		<Vanh>Male</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Ngày chỉ định</Vviet>
+		<Vanh>Ordering date</Vanh>
+	</Language>
+	<Language>
+		<Vviet>không được lớn hơn ngày thực hiện</Vviet>
+		<Vanh>Invalid date</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Số hình in lớn hơn quy định.</Vviet>
+		<Vanh>Number of picture invalid</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Không có số liệu</Vviet>
+		<Vanh>No data are available</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Không có thông tin</Vviet>
+		<Vanh>No information</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Không cho phép xóa, sửa thông tin khác ngày hiện tại, không cùng người nhập</Vviet>
+		<Vanh>Do not allow delete, edit current information.</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Đã có kết quả bạn không có quyền phép xóa.</Vviet>
+		<Vanh>There have been results, you do not have permission to delete.</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Muốn xóa thông tin này không ?</Vviet>
+		<Vanh>Do you want to delete this information?</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Có muốn bỏ hình này không?</Vviet>
+		<Vanh>Do you want to delete this image?</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Nhập mã bệnh nhân!</Vviet>
+		<Vanh>Enter the patient ID!</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Chọn bác sỹ siêu âm.</Vviet>
+		<Vanh>Choose ultrasound doctor.</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Chọn kỹ thuật!</Vviet>
+		<Vanh>Select technique</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Siêu âm không hợp lệ!</Vviet>
+		<Vanh>Ultrasound is invalid!</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Kết nối</Vviet>
+		<Vanh>Connect</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Ngắt kết nối</Vviet>
+		<Vanh>Disconnect</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Không tìm thấy đường dẫn để lưu hình</Vviet>
+		<Vanh>Can not find the folder to save the image</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Vui lòng chọn lại đường dẫn khác</Vviet>
+		<Vanh>Please choose another path</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Chưa kết nối với thiết bị bắt hình</Vviet>
+		<Vanh>No connection with the capture device</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Các bước để lưu ảnh</Vviet>
+		<Vanh>The steps to save image</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Kết nối với thiết bị thành công</Vviet>
+		<Vanh>Connect to successfully capture device</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Chọn \"Lưu ảnh\" để tiến hành lưu ảnh hiện tại</Vviet>
+		<Vanh>Select\"Save picture\"  to save current picture</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Lỗi lưu ảnh</Vviet>
+		<Vanh>Error</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Không tìm thấy đường dẫn để lưu phim</Vviet>
+		<Vanh>Can not find the path to save the movie</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Chọn đường dẫn khác không</Vviet>
+		<Vanh>Please choose another path</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Thông báo</Vviet>
+		<Vanh>Notice</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Ngừng lưu phim</Vviet>
+		<Vanh>Stop recording movie</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Lưu phim</Vviet>
+		<Vanh>Save movies</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Chưa kết nối với thiết bị</Vviet>
+		<Vanh>No connection with the video equipment</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Các bước để lưu phim</Vviet>
+		<Vanh>The steps to save the movie</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Chọn \"Lưu phim\" để tiến hành lưu đoạn phim kể từ thời điển chọn</Vviet>
+		<Vanh>Select \"Save film" to save current film</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Chọn \"Ngừng lưu\" để kết thức quá trình lưu phim</Vviet>
+		<Vanh>Select \"Stop" to stop save film !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Lỗi lưu phim</Vviet>
+		<Vanh>Error</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Chọn thư mục sao lưu số liệu</Vviet>
+		<Vanh>Please select a folder to backup data</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Không tìm thấy đường dẫn.</Vviet>
+		<Vanh>Can not find the path.</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Lưu hình xong.</Vviet>
+		<Vanh>Finished </Vanh>
+	</Language>
+	<Language>
+		<Vviet>Chọn thư lưu phim.</Vviet>
+		<Vanh>Please select a folder to save the movie.</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Tìm nhanh</Vviet>
+		<Vanh>Search</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Không cho phép chỉ định khác ngày hiện tại.</Vviet>
+		<Vanh>Ordering date invalid !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Chọn bệnh nhân.</Vviet>
+		<Vanh>Selected patients.</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Bệnh nhân chưa hoàn tất thủ tục.</Vviet>
+		<Vanh>Patients with incomplete procedures.</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Chưa nhập thông tin siêu âm.</Vviet>
+		<Vanh>Please enter ultrasound information.</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Chưa khai báo khoa/ phòng.</Vviet>
+		<Vanh>Please declare the department / section.</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Nhập bác sĩ siêu âm.</Vviet>
+		<Vanh>Please enter an ultrasound doctor.</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Ngày chỉ định không hợp lệ so với khai báo thông số</Vviet>
+		<Vanh>Invalid ordering date !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Nhập mã bệnh nhân.</Vviet>
+		<Vanh>Enter patient please.</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Chọn thông tin bệnh nhân.</Vviet>
+		<Vanh>Please select a patient information.</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Năm của bệnh nhân không hợp lệ.</Vviet>
+		<Vanh>Year invalid !</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Đối tượng</Vviet>
+		<Vanh>Pat. Class</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Không được cấp thuốc !</Vviet>
+		<Vanh>Can not be prescribed</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Bệnh nhân này chưa nhập viện!</Vviet>
+		<Vanh>This patient has not yet registerded </Vanh>
+	</Language>
+	<Language>
+		<Vviet>Không tim thấy bệnh nhân này</Vviet>
+		<Vanh>Patients not found</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Ngày làm việc khác ngày hiện tại</Vviet>
+		<Vanh>Invalide date</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Nhập vào mã số BN</Vviet>
+		<Vanh>Enter patient ID please.</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Chọn kỹ thuật</Vviet>
+		<Vanh>Select technique</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Chọn khoa phòng</Vviet>
+		<Vanh>Please select departments</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Chọn đối tượng</Vviet>
+		<Vanh>Select patient class</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Chọn bác sĩ siêu âm.</Vviet>
+		<Vanh>Please select ultrasound doctor.</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Số hình chọn in lớn hơn số hình cho phép. Chọn lại hình</Vviet>
+		<Vanh>Number of selected pictures is invalid</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Chọn hình in.</Vviet>
+		<Vanh>Please select photos to print.</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Nhập số lần</Vviet>
+		<Vanh>Please enter the number of times</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Không cập nhật được thông tin</Vviet>
+		<Vanh>Do not update the information</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Chưa khai báo khoa phòng nên không cập nhật được thông tin thủ thuật</Vviet>
+		<Vanh>No declarations departments should not update the information procedure</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Bệnh nhân này chưa qua tiếp đón trong ngày</Vviet>
+		<Vanh>Patients not yet registered</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Chọn bác sĩ siêu âm.</Vviet>
+		<Vanh>Choose ultrasound doctor.</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Bạn có đồng ý thêm vào không ?</Vviet>
+		<Vanh>Do you want to add ?</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Bạn có đồng ý thêm vào không ?</Vviet>
+		<Vanh>Do you want to add ?</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Thường qui</Vviet>
+		<Vanh>Routine</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Tủ trực</Vviet>
+		<Vanh>Dept. store presc</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Hoàn trả</Vviet>
+		<Vanh>Returning</Vanh>
+	</Language>
+	<Language>
+		<Vviet>Chưa thấy y lệnh điều trị của Bác sĩ. Đề nghị nhập y lệnh trong tờ điều trị trước.</Vviet>
+		<Vanh>Doctor treatment is not available</Vanh>
+	</Language>
+  <Language>
+    <Vviet>Cho vào điều trị tại khoa</Vviet>
+    <Vanh>Admitted to dept</Vanh>
+  </Language>
+  <Language>
+    <Vviet>Phiếu sàng lọc bệnh nhân bạo lực gia đình chưa lưu!</Vviet>
+    <Vanh></Vanh>
+  </Language>
+</NewDataSet>

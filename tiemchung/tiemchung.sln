@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tiemchung", "tiemchung.csproj", "{771DB861-2CCC-4B0E-9C6D-DE69838DA9DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibMedi", "..\LibMedi\LibMedi.csproj", "{95A47237-99CE-4B55-9867-D4CF46AA9E08}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{771DB861-2CCC-4B0E-9C6D-DE69838DA9DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{771DB861-2CCC-4B0E-9C6D-DE69838DA9DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{771DB861-2CCC-4B0E-9C6D-DE69838DA9DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{771DB861-2CCC-4B0E-9C6D-DE69838DA9DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95A47237-99CE-4B55-9867-D4CF46AA9E08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95A47237-99CE-4B55-9867-D4CF46AA9E08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95A47237-99CE-4B55-9867-D4CF46AA9E08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95A47237-99CE-4B55-9867-D4CF46AA9E08}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

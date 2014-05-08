@@ -1,0 +1,59 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="id" type="xs:string" minOccurs="0" />
+                <xs:element name="report" type="xs:string" minOccurs="0" />
+                <xs:element name="mavp" type="xs:string" minOccurs="0" />
+                <xs:element name="val" type="xs:string" minOccurs="0" />
+                <xs:element name="csbt" type="xs:string" minOccurs="0" />
+                <xs:element name="idchidinh" type="xs:string" minOccurs="0" />
+                <xs:element name="soluong" type="xs:int" minOccurs="0" />
+                <xs:element name="dongia" type="xs:int" minOccurs="0" />
+                <xs:element name="Image" type="xs:base64Binary" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <id>2</id>
+    <report>cd_hoasinhmau.rpt</report>
+    <mavp>2340</mavp>
+    <val>Glucoza</val>
+    <csbt />
+    <idchidinh>100604182959696221</idchidinh>
+    <soluong>1</soluong>
+    <dongia>12000</dongia>
+    <Image>AAAAAA==</Image>
+  </Table>
+  <Table>
+    <id>25</id>
+    <report>cd_hoasinhmau.rpt</report>
+    <mavp>2343</mavp>
+    <val>GPT-GOT</val>
+    <csbt />
+    <idchidinh>100604182959696221</idchidinh>
+    <soluong>1</soluong>
+    <dongia>30000</dongia>
+    <Image>AAAAAA==</Image>
+  </Table>
+  <Table>
+    <id>26</id>
+    <report>cd_hoasinhmau.rpt</report>
+    <mavp>2343</mavp>
+    <val>GPT-GOT</val>
+    <csbt />
+    <idchidinh>100604182959696221</idchidinh>
+    <soluong>1</soluong>
+    <dongia>30000</dongia>
+    <Image>AAAAAA==</Image>
+  </Table>
+</NewDataSet>

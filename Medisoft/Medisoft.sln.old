@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Medisoft", "Medisoft.csproj", "{DE761D76-F34E-44EC-BE7C-29DE9CE3D321}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{DE761D76-F34E-44EC-BE7C-29DE9CE3D321}.Debug.ActiveCfg = Debug|.NET
+		{DE761D76-F34E-44EC-BE7C-29DE9CE3D321}.Debug.Build.0 = Debug|.NET
+		{DE761D76-F34E-44EC-BE7C-29DE9CE3D321}.Release.ActiveCfg = Release|.NET
+		{DE761D76-F34E-44EC-BE7C-29DE9CE3D321}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

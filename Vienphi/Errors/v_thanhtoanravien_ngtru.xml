@@ -1,0 +1,176 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="id" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ma" type="xs:string" minOccurs="0" />
+                <xs:element name="ten" type="xs:string" minOccurs="0" />
+                <xs:element name="dvt" type="xs:string" minOccurs="0" />
+                <xs:element name="hamluong" type="xs:string" minOccurs="0" />
+                <xs:element name="tenhc" type="xs:string" minOccurs="0" />
+                <xs:element name="soluong" type="xs:decimal" minOccurs="0" />
+                <xs:element name="giaban" type="xs:decimal" minOccurs="0" />
+                <xs:element name="giamua" type="xs:decimal" minOccurs="0" />
+                <xs:element name="cachdung" type="xs:string" minOccurs="0" />
+                <xs:element name="id_nhom" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tennhom" type="xs:string" minOccurs="0" />
+                <xs:element name="stt_nhom" type="xs:decimal" minOccurs="0" />
+                <xs:element name="mabn" type="xs:string" minOccurs="0" />
+                <xs:element name="hoten" type="xs:string" minOccurs="0" />
+                <xs:element name="namsinh" type="xs:string" minOccurs="0" />
+                <xs:element name="diachi" type="xs:string" minOccurs="0" />
+                <xs:element name="sothe" type="xs:string" minOccurs="0" />
+                <xs:element name="denngay" type="xs:string" minOccurs="0" />
+                <xs:element name="ngay" type="xs:string" minOccurs="0" />
+                <xs:element name="userid" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <id>1841</id>
+    <ma>ACY001</ma>
+    <ten>Acyclovir</ten>
+    <dvt>Viên</dvt>
+    <hamluong>0.4g</hamluong>
+    <tenhc>Acyclovir</tenhc>
+    <soluong>12.00</soluong>
+    <giaban>6900.0000</giaban>
+    <giamua>6900.0000000000</giamua>
+    <cachdung />
+    <id_nhom>3</id_nhom>
+    <tennhom>THUỐC</tennhom>
+    <stt_nhom>1</stt_nhom>
+    <mabn>07000123</mabn>
+    <hoten>ĐẶNG THỊ NGỌC QUYÊN</hoten>
+    <namsinh>1970</namsinh>
+    <diachi>116, Đồ Chiểu, P. 3, Tp. Vũng Tàu, Bà Rịa - Vũng Tàu</diachi>
+    <sothe>77000248620UC77001</sothe>
+    <denngay>31/12/2007</denngay>
+    <ngay>08/11/2007</ngay>
+    <userid>157</userid>
+  </Table>
+  <Table>
+    <id>2450</id>
+    <ma>ACE001</ma>
+    <ten>Acemol </ten>
+    <dvt>Viên</dvt>
+    <hamluong>0.1g</hamluong>
+    <tenhc>Paracetamol</tenhc>
+    <soluong>12.00</soluong>
+    <giaban>74.0000</giaban>
+    <giamua>73.5000000000</giamua>
+    <cachdung />
+    <id_nhom>3</id_nhom>
+    <tennhom>THUỐC</tennhom>
+    <stt_nhom>1</stt_nhom>
+    <mabn>07000123</mabn>
+    <hoten>ĐẶNG THỊ NGỌC QUYÊN</hoten>
+    <namsinh>1970</namsinh>
+    <diachi>116, Đồ Chiểu, P. 3, Tp. Vũng Tàu, Bà Rịa - Vũng Tàu</diachi>
+    <sothe>77000248620UC77001</sothe>
+    <denngay>31/12/2007</denngay>
+    <ngay>08/11/2007</ngay>
+    <userid>157</userid>
+  </Table>
+  <Table>
+    <id>596</id>
+    <ma>XQG001</ma>
+    <ten>XQ gò má</ten>
+    <dvt>lần</dvt>
+    <hamluong />
+    <tenhc />
+    <soluong>1</soluong>
+    <giaban>20000</giaban>
+    <giamua>20000</giamua>
+    <cachdung />
+    <id_nhom>4</id_nhom>
+    <tennhom>CHẨN ĐOÁN HÌNH ẢNH</tennhom>
+    <stt_nhom>3</stt_nhom>
+    <mabn>07000123</mabn>
+    <hoten>ĐẶNG THỊ NGỌC QUYÊN</hoten>
+    <namsinh>1970</namsinh>
+    <diachi>116, Đồ Chiểu, P. 3, Tp. Vũng Tàu, Bà Rịa - Vũng Tàu</diachi>
+    <sothe>77000248620UC77001</sothe>
+    <denngay>31/12/2007</denngay>
+    <ngay>08/11/2007</ngay>
+    <userid>157</userid>
+  </Table>
+  <Table>
+    <id>617</id>
+    <ma>XQM001</ma>
+    <ten>XQ mặt thẳng</ten>
+    <dvt>Lần</dvt>
+    <hamluong />
+    <tenhc />
+    <soluong>1</soluong>
+    <giaban>20000</giaban>
+    <giamua>20000</giamua>
+    <cachdung />
+    <id_nhom>4</id_nhom>
+    <tennhom>CHẨN ĐOÁN HÌNH ẢNH</tennhom>
+    <stt_nhom>3</stt_nhom>
+    <mabn>07000123</mabn>
+    <hoten>ĐẶNG THỊ NGỌC QUYÊN</hoten>
+    <namsinh>1970</namsinh>
+    <diachi>116, Đồ Chiểu, P. 3, Tp. Vũng Tàu, Bà Rịa - Vũng Tàu</diachi>
+    <sothe>77000248620UC77001</sothe>
+    <denngay>31/12/2007</denngay>
+    <ngay>08/11/2007</ngay>
+    <userid>157</userid>
+  </Table>
+  <Table>
+    <id>524</id>
+    <ma>VIS016</ma>
+    <ten>Vis đầu gối 4.0x40mm</ten>
+    <dvt>cái</dvt>
+    <hamluong />
+    <tenhc />
+    <soluong>1</soluong>
+    <giaban>50000</giaban>
+    <giamua>50000</giamua>
+    <cachdung />
+    <id_nhom>10</id_nhom>
+    <tennhom>ĐINH - VISS</tennhom>
+    <stt_nhom>9</stt_nhom>
+    <mabn>07000123</mabn>
+    <hoten>ĐẶNG THỊ NGỌC QUYÊN</hoten>
+    <namsinh>1970</namsinh>
+    <diachi>116, Đồ Chiểu, P. 3, Tp. Vũng Tàu, Bà Rịa - Vũng Tàu</diachi>
+    <sothe>77000248620UC77001</sothe>
+    <denngay>31/12/2007</denngay>
+    <ngay>08/11/2007</ngay>
+    <userid>157</userid>
+  </Table>
+  <Table>
+    <id>524</id>
+    <ma>VIS016</ma>
+    <ten>Vis đầu gối 4.0x40mm</ten>
+    <dvt>cái</dvt>
+    <hamluong />
+    <tenhc />
+    <soluong>1</soluong>
+    <giaban>50000</giaban>
+    <giamua>50000</giamua>
+    <cachdung />
+    <id_nhom>10</id_nhom>
+    <tennhom>ĐINH - VISS</tennhom>
+    <stt_nhom>9</stt_nhom>
+    <mabn>07000123</mabn>
+    <hoten>ĐẶNG THỊ NGỌC QUYÊN</hoten>
+    <namsinh>1970</namsinh>
+    <diachi>116, Đồ Chiểu, P. 3, Tp. Vũng Tàu, Bà Rịa - Vũng Tàu</diachi>
+    <sothe>77000248620UC77001</sothe>
+    <denngay>31/12/2007</denngay>
+    <ngay>08/11/2007</ngay>
+    <userid>157</userid>
+  </Table>
+</NewDataSet>

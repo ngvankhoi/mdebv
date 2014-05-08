@@ -1,0 +1,127 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ID" type="xs:decimal" minOccurs="0" />
+                <xs:element name="SOPHIEU" type="xs:string" minOccurs="0" />
+                <xs:element name="NGAY" type="xs:string" minOccurs="0" />
+                <xs:element name="KHOX" type="xs:decimal" minOccurs="0" />
+                <xs:element name="KHON" type="xs:decimal" minOccurs="0" />
+                <xs:element name="DONE" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <ID>60000000751</ID>
+    <SOPHIEU>001</SOPHIEU>
+    <NGAY>02/01/2007</NGAY>
+    <KHOX>23</KHOX>
+    <KHON>24</KHON>
+    <DONE>1</DONE>
+  </Table>
+  <Table>
+    <ID>60000000756</ID>
+    <SOPHIEU>001</SOPHIEU>
+    <NGAY>04/01/2007</NGAY>
+    <KHOX>32</KHOX>
+    <KHON>24</KHON>
+    <DONE>1</DONE>
+  </Table>
+  <Table>
+    <ID>60000000753</ID>
+    <SOPHIEU>002</SOPHIEU>
+    <NGAY>02/01/0007</NGAY>
+    <KHOX>23</KHOX>
+    <KHON>24</KHON>
+    <DONE>1</DONE>
+  </Table>
+  <Table>
+    <ID>60000000755</ID>
+    <SOPHIEU>003</SOPHIEU>
+    <NGAY>02/01/2007</NGAY>
+    <KHOX>23</KHOX>
+    <KHON>24</KHON>
+    <DONE>1</DONE>
+  </Table>
+  <Table>
+    <ID>60000000758</ID>
+    <SOPHIEU>004</SOPHIEU>
+    <NGAY>04/01/2007</NGAY>
+    <KHOX>23</KHOX>
+    <KHON>24</KHON>
+    <DONE>1</DONE>
+  </Table>
+  <Table>
+    <ID>60000000759</ID>
+    <SOPHIEU>005</SOPHIEU>
+    <NGAY>05/01/0007</NGAY>
+    <KHOX>23</KHOX>
+    <KHON>24</KHON>
+    <DONE>1</DONE>
+  </Table>
+  <Table>
+    <ID>60000000760</ID>
+    <SOPHIEU>006</SOPHIEU>
+    <NGAY>05/01/0007</NGAY>
+    <KHOX>23</KHOX>
+    <KHON>24</KHON>
+    <DONE>1</DONE>
+  </Table>
+  <Table>
+    <ID>60000000761</ID>
+    <SOPHIEU>007</SOPHIEU>
+    <NGAY>08/01/2007</NGAY>
+    <KHOX>23</KHOX>
+    <KHON>24</KHON>
+    <DONE>1</DONE>
+  </Table>
+  <Table>
+    <ID>60000000762</ID>
+    <SOPHIEU>008</SOPHIEU>
+    <NGAY>08/01/0007</NGAY>
+    <KHOX>23</KHOX>
+    <KHON>24</KHON>
+    <DONE>1</DONE>
+  </Table>
+  <Table>
+    <ID>60000000764</ID>
+    <SOPHIEU>009</SOPHIEU>
+    <NGAY>10/01/0007</NGAY>
+    <KHOX>23</KHOX>
+    <KHON>24</KHON>
+    <DONE>1</DONE>
+  </Table>
+  <Table>
+    <ID>35000000138</ID>
+    <SOPHIEU>010</SOPHIEU>
+    <NGAY>11/01/0007</NGAY>
+    <KHOX>23</KHOX>
+    <KHON>24</KHON>
+    <DONE>1</DONE>
+  </Table>
+  <Table>
+    <ID>60000000767</ID>
+    <SOPHIEU>011</SOPHIEU>
+    <NGAY>12/01/2007</NGAY>
+    <KHOX>23</KHOX>
+    <KHON>24</KHON>
+    <DONE>1</DONE>
+  </Table>
+  <Table>
+    <ID>43000000009</ID>
+    <SOPHIEU>012</SOPHIEU>
+    <NGAY>23/01/2007</NGAY>
+    <KHOX>23</KHOX>
+    <KHON>24</KHON>
+    <DONE>0</DONE>
+  </Table>
+</NewDataSet>

@@ -1,0 +1,2571 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="STTT" type="xs:decimal" minOccurs="0" />
+                <xs:element name="MANHOM" type="xs:decimal" minOccurs="0" />
+                <xs:element name="TENNHOM" type="xs:string" minOccurs="0" />
+                <xs:element name="MABD" type="xs:decimal" minOccurs="0" />
+                <xs:element name="MA" type="xs:string" minOccurs="0" />
+                <xs:element name="TEN" type="xs:string" minOccurs="0" />
+                <xs:element name="TENHC" type="xs:string" minOccurs="0" />
+                <xs:element name="DANG" type="xs:string" minOccurs="0" />
+                
+                <xs:element name="TONDAU" type="xs:decimal" minOccurs="0" />
+                <xs:element name="STTONDAU" type="xs:decimal" minOccurs="0" />
+                
+                <xs:element name="SLNHAP" type="xs:decimal" minOccurs="0" />
+                <xs:element name="STNHAP" type="xs:decimal" minOccurs="0" />
+                
+                <xs:element name="SLXUAT" type="xs:decimal" minOccurs="0" />
+                <xs:element name="STXUAT" type="xs:decimal" minOccurs="0" />
+                
+                <xs:element name="STT" type="xs:decimal" minOccurs="0" />
+                <xs:element name="IDNN" type="xs:decimal" minOccurs="0" />
+                <xs:element name="NOINGOAI" type="xs:string" minOccurs="0" />
+                
+                <xs:element name="SLXUAT_CK" type="xs:decimal" minOccurs="0" />
+                <xs:element name="STXUAT_CK" type="xs:decimal" minOccurs="0" />
+                
+                <xs:element name="SLNHAP_CK" type="xs:decimal" minOccurs="0" />
+                <xs:element name="STNHAP_CK" type="xs:decimal" minOccurs="0" />
+                
+                <xs:element name="DONGIA" type="xs:decimal" minOccurs="0" />
+                
+                <xs:element name="MANGUON" type="xs:decimal" minOccurs="0" />
+                <xs:element name="GIABAN" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <STTT>0</STTT>
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Thuốc thường</TENNHOM>
+    <MABD>3018</MABD>
+    <MA>ALP001</MA>
+    <TEN>Alphachymotrypsin 4200UI</TEN>
+    <TENHC>Alphachymotrypsin</TENHC>
+    <DANG>Viên</DANG>
+    <TONDAU>0.00</TONDAU>
+    <STTONDAU>0.000000000000</STTONDAU>
+    <SLNHAP>13200.00</SLNHAP>
+    <STNHAP>4198524.000000000000</STNHAP>
+    <SLXUAT>11937.00</SLXUAT>
+    <STXUAT>3796801.590000000000</STXUAT>
+    <STT>5</STT>
+    <IDNN>110</IDNN>
+    <NOINGOAI>Thuốc giảm đau, hạ sốt, NSAIDS, thuốc điều trị gút và các bệnh xương khớp</NOINGOAI>
+    <SLXUAT_CK>116.00</SLXUAT_CK>
+    <STXUAT_CK>36896.120000000000</STXUAT_CK>
+    <SLNHAP_CK>0</SLNHAP_CK>
+    <STNHAP_CK>0</STNHAP_CK>
+    <DONGIA>318.07</DONGIA>
+    <MANGUON>1</MANGUON>
+    <GIABAN>0</GIABAN>
+  </Table>
+  <Table>
+    <STTT>0</STTT>
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Thuốc thường</TENNHOM>
+    <MABD>3018</MABD>
+    <MA>ALP001</MA>
+    <TEN>Alphachymotrypsin 4200UI</TEN>
+    <TENHC>Alphachymotrypsin</TENHC>
+    <DANG>Viên</DANG>
+    <TONDAU>3266.00</TONDAU>
+    <STTONDAU>1028790.000000000000</STTONDAU>
+    <SLNHAP>0</SLNHAP>
+    <STNHAP>0</STNHAP>
+    <SLXUAT>1722.00</SLXUAT>
+    <STXUAT>542430.000000000000</STXUAT>
+    <STT>5</STT>
+    <IDNN>110</IDNN>
+    <NOINGOAI>Thuốc giảm đau, hạ sốt, NSAIDS, thuốc điều trị gút và các bệnh xương khớp</NOINGOAI>
+    <SLXUAT_CK>82.00</SLXUAT_CK>
+    <STXUAT_CK>25830.000000000000</STXUAT_CK>
+    <SLNHAP_CK>0</SLNHAP_CK>
+    <STNHAP_CK>0</STNHAP_CK>
+    <DONGIA>315.00</DONGIA>
+    <MANGUON>1</MANGUON>
+    <GIABAN>0</GIABAN>
+  </Table>
+  <Table>
+    <STTT>0</STTT>
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Thuốc thường</TENNHOM>
+    <MABD>3444</MABD>
+    <MA>ALP002</MA>
+    <TEN>Alphachymotrypsin 5000 UI</TEN>
+    <TENHC>Alphachymotrypsin</TENHC>
+    <DANG>Ống</DANG>
+    <TONDAU>71.00</TONDAU>
+    <STTONDAU>484575.000000000000</STTONDAU>
+    <SLNHAP>200.00</SLNHAP>
+    <STNHAP>1365000.000000000000</STNHAP>
+    <SLXUAT>226.00</SLXUAT>
+    <STXUAT>1542450.000000000000</STXUAT>
+    <STT>5</STT>
+    <IDNN>110</IDNN>
+    <NOINGOAI>Thuốc giảm đau, hạ sốt, NSAIDS, thuốc điều trị gút và các bệnh xương khớp</NOINGOAI>
+    <SLXUAT_CK>1.00</SLXUAT_CK>
+    <STXUAT_CK>6825.000000000000</STXUAT_CK>
+    <SLNHAP_CK>0</SLNHAP_CK>
+    <STNHAP_CK>0</STNHAP_CK>
+    <DONGIA>6825.00</DONGIA>
+    <MANGUON>1</MANGUON>
+    <GIABAN>0</GIABAN>
+  </Table>
+  <Table>
+    <STTT>0</STTT>
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Thuốc thường</TENNHOM>
+    <MABD>2980</MABD>
+    <MA>ASP001</MA>
+    <TEN>Aspegic 100 mg</TEN>
+    <TENHC>Acetylsalicylic acid</TENHC>
+    <DANG>Gói</DANG>
+    <TONDAU>7.00</TONDAU>
+    <STTONDAU>6362.930000000000</STTONDAU>
+    <SLNHAP>140.00</SLNHAP>
+    <STNHAP>127258.600000000000</STNHAP>
+    <SLXUAT>72.00</SLXUAT>
+    <STXUAT>65447.280000000000</STXUAT>
+    <STT>5</STT>
+    <IDNN>110</IDNN>
+    <NOINGOAI>Thuốc giảm đau, hạ sốt, NSAIDS, thuốc điều trị gút và các bệnh xương khớp</NOINGOAI>
+    <SLXUAT_CK>15.00</SLXUAT_CK>
+    <STXUAT_CK>13634.850000000000</STXUAT_CK>
+    <SLNHAP_CK>0</SLNHAP_CK>
+    <STNHAP_CK>0</STNHAP_CK>
+    <DONGIA>908.99</DONGIA>
+    <MANGUON>1</MANGUON>
+    <GIABAN>0</GIABAN>
+  </Table>
+  <Table>
+    <STTT>0</STTT>
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Thuốc thường</TENNHOM>
+    <MABD>3245</MABD>
+    <MA>EFF005</MA>
+    <TEN>Efferalgan 150 mg</TEN>
+    <TENHC>Paracetamol</TENHC>
+    <DANG>Gói</DANG>
+    <TONDAU>965.00</TONDAU>
+    <STTONDAU>1800680.350000000000</STTONDAU>
+    <SLNHAP>1296.00</SLNHAP>
+    <STNHAP>2418332.174999985600</STNHAP>
+    <SLXUAT>1281.00</SLXUAT>
+    <STXUAT>2390335.466701385300</STXUAT>
+    <STT>5</STT>
+    <IDNN>110</IDNN>
+    <NOINGOAI>Thuốc giảm đau, hạ sốt, NSAIDS, thuốc điều trị gút và các bệnh xương khớp</NOINGOAI>
+    <SLXUAT_CK>8.00</SLXUAT_CK>
+    <STXUAT_CK>14927.927048611100</STXUAT_CK>
+    <SLNHAP_CK>0</SLNHAP_CK>
+    <STNHAP_CK>0</STNHAP_CK>
+    <DONGIA>1865.99</DONGIA>
+    <MANGUON>1</MANGUON>
+    <GIABAN>0</GIABAN>
+  </Table>
+  <Table>
+    <STTT>0</STTT>
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Thuốc thường</TENNHOM>
+    <MABD>3260</MABD>
+    <MA>EFF007</MA>
+    <TEN>Efferalgan 500 mg</TEN>
+    <TENHC>Paracetamol 0,5g</TENHC>
+    <DANG>Viên</DANG>
+    <TONDAU>755.00</TONDAU>
+    <STTONDAU>1417127.450000000000</STTONDAU>
+    <SLNHAP>9600.00</SLNHAP>
+    <STNHAP>18019108.800000000000</STNHAP>
+    <SLXUAT>8651.00</SLXUAT>
+    <STXUAT>16237844.542000000000</STXUAT>
+    <STT>5</STT>
+    <IDNN>110</IDNN>
+    <NOINGOAI>Thuốc giảm đau, hạ sốt, NSAIDS, thuốc điều trị gút và các bệnh xương khớp</NOINGOAI>
+    <SLXUAT_CK>429.00</SLXUAT_CK>
+    <STXUAT_CK>805228.820500000000</STXUAT_CK>
+    <SLNHAP_CK>0</SLNHAP_CK>
+    <STNHAP_CK>0</STNHAP_CK>
+    <DONGIA>1876.99</DONGIA>
+    <MANGUON>1</MANGUON>
+    <GIABAN>0</GIABAN>
+  </Table>
+  <Table>
+    <STTT>0</STTT>
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Thuốc thường</TENNHOM>
+    <MABD>3241</MABD>
+    <MA>EFF002</MA>
+    <TEN>Efferalgan 80 mg</TEN>
+    <TENHC>Paracetamol</TENHC>
+    <DANG>Gói</DANG>
+    <TONDAU>639.00</TONDAU>
+    <STTONDAU>990450.000000000000</STTONDAU>
+    <SLNHAP>1296.00</SLNHAP>
+    <STNHAP>2008800.000000000000</STNHAP>
+    <SLXUAT>534.00</SLXUAT>
+    <STXUAT>827700.000000000000</STXUAT>
+    <STT>5</STT>
+    <IDNN>110</IDNN>
+    <NOINGOAI>Thuốc giảm đau, hạ sốt, NSAIDS, thuốc điều trị gút và các bệnh xương khớp</NOINGOAI>
+    <SLXUAT_CK>7.00</SLXUAT_CK>
+    <STXUAT_CK>10850.000000000000</STXUAT_CK>
+    <SLNHAP_CK>0</SLNHAP_CK>
+    <STNHAP_CK>0</STNHAP_CK>
+    <DONGIA>1550.00</DONGIA>
+    <MANGUON>1</MANGUON>
+    <GIABAN>0</GIABAN>
+  </Table>
+  <Table>
+    <STTT>0</STTT>
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Thuốc thường</TENNHOM>
+    <MABD>3244</MABD>
+    <MA>EFF004</MA>
+    <TEN>Efferalgan_codein 530 mg</TEN>
+    <TENHC>paracetamol+codeinphosphat</TENHC>
+    <DANG>Viên</DANG>
+    <TONDAU>455.00</TONDAU>
+    <STTONDAU>1205750.000000000000</STTONDAU>
+    <SLNHAP>1000.00</SLNHAP>
+    <STNHAP>2650000.150000000000</STNHAP>
+    <SLXUAT>813.00</SLXUAT>
+    <STXUAT>2154450.000000000000</STXUAT>
+    <STT>5</STT>
+    <IDNN>110</IDNN>
+    <NOINGOAI>Thuốc giảm đau, hạ sốt, NSAIDS, thuốc điều trị gút và các bệnh xương khớp</NOINGOAI>
+    <SLXUAT_CK>56.00</SLXUAT_CK>
+    <STXUAT_CK>148400.000000000000</STXUAT_CK>
+    <SLNHAP_CK>0</SLNHAP_CK>
+    <STNHAP_CK>0</STNHAP_CK>
+    <DONGIA>2650.00</DONGIA>
+    <MANGUON>1</MANGUON>
+    <GIABAN>0</GIABAN>
+  </Table>
+  <Table>
+    <STTT>0</STTT>
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Thuốc thường</TENNHOM>
+    <MABD>3258</MABD>
+    <MA>FIB001</MA>
+    <TEN>Fibanvic 430 mg</TEN>
+    <TENHC>Paracetamol 400 + Dextropropoxyphen 30</TENHC>
+    <DANG>Viên</DANG>
+    <TONDAU>1426.00</TONDAU>
+    <STTONDAU>542022.600000000000</STTONDAU>
+    <SLNHAP>800.00</SLNHAP>
+    <STNHAP>304080.000000000000</STNHAP>
+    <SLXUAT>1413.00</SLXUAT>
+    <STXUAT>537081.300000000000</STXUAT>
+    <STT>5</STT>
+    <IDNN>110</IDNN>
+    <NOINGOAI>Thuốc giảm đau, hạ sốt, NSAIDS, thuốc điều trị gút và các bệnh xương khớp</NOINGOAI>
+    <SLXUAT_CK>54.00</SLXUAT_CK>
+    <STXUAT_CK>20525.400000000000</STXUAT_CK>
+    <SLNHAP_CK>0</SLNHAP_CK>
+    <STNHAP_CK>0</STNHAP_CK>
+    <DONGIA>380.10</DONGIA>
+    <MANGUON>1</MANGUON>
+    <GIABAN>0</GIABAN>
+  </Table>
+  <Table>
+    <STTT>0</STTT>
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Thuốc thường</TENNHOM>
+    <MABD>3308</MABD>
+    <MA>PAN002</MA>
+    <TEN>Panagesic 20mg/ml</TEN>
+    <TENHC>Nefopam</TENHC>
+    <DANG>Ống</DANG>
+    <TONDAU>105.00</TONDAU>
+    <STTONDAU>1207458.000000000000</STTONDAU>
+    <SLNHAP>200.00</SLNHAP>
+    <STNHAP>2299920.000000000000</STNHAP>
+    <SLXUAT>88.00</SLXUAT>
+    <STXUAT>1011964.800000000000</STXUAT>
+    <STT>5</STT>
+    <IDNN>110</IDNN>
+    <NOINGOAI>Thuốc giảm đau, hạ sốt, NSAIDS, thuốc điều trị gút và các bệnh xương khớp</NOINGOAI>
+    <SLXUAT_CK>4.00</SLXUAT_CK>
+    <STXUAT_CK>45998.400000000000</STXUAT_CK>
+    <SLNHAP_CK>0</SLNHAP_CK>
+    <STNHAP_CK>0</STNHAP_CK>
+    <DONGIA>11499.60</DONGIA>
+    <MANGUON>1</MANGUON>
+    <GIABAN>0</GIABAN>
+  </Table>
+  <Table>
+    <STTT>0</STTT>
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Thuốc thường</TENNHOM>
+    <MABD>3251</MABD>
+    <MA>PAR001</MA>
+    <TEN>Paracetamol 300 mg</TEN>
+    <TENHC>Paracetamol</TENHC>
+    <DANG>Ống</DANG>
+    <TONDAU>299.00</TONDAU>
+    <STTONDAU>2541500.000000000000</STTONDAU>
+    <SLNHAP>200.00</SLNHAP>
+    <STNHAP>1700000.000000000000</STNHAP>
+    <SLXUAT>272.00</SLXUAT>
+    <STXUAT>2312000.000000000000</STXUAT>
+    <STT>5</STT>
+    <IDNN>110</IDNN>
+    <NOINGOAI>Thuốc giảm đau, hạ sốt, NSAIDS, thuốc điều trị gút và các bệnh xương khớp</NOINGOAI>
+    <SLXUAT_CK>56.00</SLXUAT_CK>
+    <STXUAT_CK>476000.000000000000</STXUAT_CK>
+    <SLNHAP_CK>0</SLNHAP_CK>
+    <STNHAP_CK>0</STNHAP_CK>
+    <DONGIA>8500.00</DONGIA>
+    <MANGUON>1</MANGUON>
+    <GIABAN>0</GIABAN>
+  </Table>
+  <Table>
+    <STTT>0</STTT>
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Thuốc thường</TENNHOM>
+    <MABD>3265</MABD>
+    <MA>PAR004</MA>
+    <TEN>Paracetamol 500 mg</TEN>
+    <TENHC>Paracetamol</TENHC>
+    <DANG>Viên</DANG>
+    <TONDAU>990.00</TONDAU>
+    <STTONDAU>192060.000000000000</STTONDAU>
+    <SLNHAP>1000.00</SLNHAP>
+    <STNHAP>194000.000000000000</STNHAP>
+    <SLXUAT>628.00</SLXUAT>
+    <STXUAT>121832.000000000000</STXUAT>
+    <STT>5</STT>
+    <IDNN>110</IDNN>
+    <NOINGOAI>Thuốc giảm đau, hạ sốt, NSAIDS, thuốc điều trị gút và các bệnh xương khớp</NOINGOAI>
+    <SLXUAT_CK>2.00</SLXUAT_CK>
+    <STXUAT_CK>388.000000000000</STXUAT_CK>
+    <SLNHAP_CK>0</SLNHAP_CK>
+    <STNHAP_CK>0</STNHAP_CK>
+    <DONGIA>194.00</DONGIA>
+    <MANGUON>1</MANGUON>
+    <GIABAN>0</GIABAN>
+  </Table>
+  <Table>
+    <STTT>0</STTT>
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Thuốc thường</TENNHOM>
+    <MABD>3092</MABD>
+    <MA>CHL001</MA>
+    <TEN>Chlopheniramin 4 mg</TEN>
+    <TENHC>Chlopheniramin</TENHC>
+    <DANG>Viên</DANG>
+    <TONDAU>996.00</TONDAU>
+    <STTONDAU>33854.040000000000</STTONDAU>
+    <SLNHAP>0</SLNHAP>
+    <STNHAP>0</STNHAP>
+    <SLXUAT>389.00</SLXUAT>
+    <STXUAT>13222.110000000000</STXUAT>
+    <STT>5</STT>
+    <IDNN>111</IDNN>
+    <NOINGOAI>Thuốc chống dị ứng và dùng trong các trường hợp quá mẫn</NOINGOAI>
+    <SLXUAT_CK>16.00</SLXUAT_CK>
+    <STXUAT_CK>543.840000000000</STXUAT_CK>
+    <SLNHAP_CK>0</SLNHAP_CK>
+    <STNHAP_CK>0</STNHAP_CK>
+    <DONGIA>33.99</DONGIA>
+    <MANGUON>1</MANGUON>
+    <GIABAN>0</GIABAN>
+  </Table>
+  <Table>
+    <STTT>0</STTT>
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Thuốc thường</TENNHOM>
+    <MABD>3307</MABD>
+    <MA>ATR002</MA>
+    <TEN>Atropin sulfate 0,25 mg</TEN>
+    <TENHC>Atropin sulfate</TENHC>
+    <DANG>Ống</DANG>
+    <TONDAU>104.00</TONDAU>
+    <STTONDAU>38478.960000000000</STTONDAU>
+    <SLNHAP>300.00</SLNHAP>
+    <STNHAP>110997.000000000000</STNHAP>
+    <SLXUAT>276.00</SLXUAT>
+    <STXUAT>102117.240000000000</STXUAT>
+    <STT>5</STT>
+    <IDNN>112</IDNN>
+    <NOINGOAI>Thuốc cấp cứu và chống độc</NOINGOAI>
+    <SLXUAT_CK>5.00</SLXUAT_CK>
+    <STXUAT_CK>1849.950000000000</STXUAT_CK>
+    <SLNHAP_CK>0</SLNHAP_CK>
+    <STNHAP_CK>0</STNHAP_CK>
+    <DONGIA>369.99</DONGIA>
+    <MANGUON>1</MANGUON>
+    <GIABAN>0</GIABAN>
+  </Table>
+  <Table>
+    <STTT>0</STTT>
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Thuốc thường</TENNHOM>
+    <MABD>3090</MABD>
+    <MA>CER001</MA>
+    <TEN>Cerebrolysin 10 ml</TEN>
+    <TENHC>Cerebrolysin</TENHC>
+    <DANG>Ống</DANG>
+    <TONDAU>129.00</TONDAU>
+    <STTONDAU>9223500.000000000000</STTONDAU>
+    <SLNHAP>200.00</SLNHAP>
+    <STNHAP>14300000.400000000000</STNHAP>
+    <SLXUAT>231.00</SLXUAT>
+    <STXUAT>16516500.230000000000</STXUAT>
+    <STT>5</STT>
+    <IDNN>112</IDNN>
+    <NOINGOAI>Thuốc cấp cứu và chống độc</NOINGOAI>
+    <SLXUAT_CK>28.00</SLXUAT_CK>
+    <STXUAT_CK>2002000.030000000000</STXUAT_CK>
+    <SLNHAP_CK>0</SLNHAP_CK>
+    <STNHAP_CK>0</STNHAP_CK>
+    <DONGIA>71500.00</DONGIA>
+    <MANGUON>1</MANGUON>
+    <GIABAN>0</GIABAN>
+  </Table>
+  <Table>
+    <STTT>0</STTT>
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Thuốc thường</TENNHOM>
+    <MABD>3530</MABD>
+    <MA>ROT001</MA>
+    <TEN>Rotunda 30 mg</TEN>
+    <TENHC>Rotundin</TENHC>
+    <DANG>Viên</DANG>
+    <TONDAU>0.00</TONDAU>
+    <STTONDAU>0.000000000000</STTONDAU>
+    <SLNHAP>500.00</SLNHAP>
+    <STNHAP>82976.250000000000</STNHAP>
+    <SLXUAT>213.00</SLXUAT>
+    <STXUAT>35347.882500000000</STXUAT>
+    <STT>5</STT>
+    <IDNN>113</IDNN>
+    <NOINGOAI>Thuốc hướng tâm thần</NOINGOAI>
+    <SLXUAT_CK>8.00</SLXUAT_CK>
+    <STXUAT_CK>1327.620000000000</STXUAT_CK>
+    <SLNHAP_CK>0</SLNHAP_CK>
+    <STNHAP_CK>0</STNHAP_CK>
+    <DONGIA>165.95</DONGIA>
+    <MANGUON>1</MANGUON>
+    <GIABAN>0</GIABAN>
+  </Table>
+  <Table>
+    <STTT>0</STTT>
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Thuốc thường</TENNHOM>
+    <MABD>3530</MABD>
+    <MA>ROT001</MA>
+    <TEN>Rotunda 30 mg</TEN>
+    <TENHC>Rotundin</TENHC>
+    <DANG>Viên</DANG>
+    <TONDAU>724.00</TONDAU>
+    <STTONDAU>121009.360000000000</STTONDAU>
+    <SLNHAP>0</SLNHAP>
+    <STNHAP>0</STNHAP>
+    <SLXUAT>174.00</SLXUAT>
+    <STXUAT>29082.360000000000</STXUAT>
+    <STT>5</STT>
+    <IDNN>113</IDNN>
+    <NOINGOAI>Thuốc hướng tâm thần</NOINGOAI>
+    <SLXUAT_CK>6.00</SLXUAT_CK>
+    <STXUAT_CK>1002.840000000000</STXUAT_CK>
+    <SLNHAP_CK>0</SLNHAP_CK>
+    <STNHAP_CK>0</STNHAP_CK>
+    <DONGIA>167.14</DONGIA>
+    <MANGUON>1</MANGUON>
+    <GIABAN>0</GIABAN>
+  </Table>
+  <Table>
+    <STTT>0</STTT>
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Thuốc thường</TENNHOM>
+    <MABD>3036</MABD>
+    <MA>AMP001</MA>
+    <TEN>Ampicillin 1g</TEN>
+    <TENHC>Ampicillin</TENHC>
+    <DANG>Lọ</DANG>
+    <TONDAU>181.00</TONDAU>
+    <STTONDAU>443819.240000000000</STTONDAU>
+    <SLNHAP>0</SLNHAP>
+    <STNHAP>0</STNHAP>
+    <SLXUAT>138.50</SLXUAT>
+    <STXUAT>339607.540000000000</STXUAT>
+    <STT>5</STT>
+    <IDNN>114</IDNN>
+    <NOINGOAI>Thuốc trị ký sinh trùng và chống nhiễm khuẩn</NOINGOAI>
+    <SLXUAT_CK>1.00</SLXUAT_CK>
+    <STXUAT_CK>2452.040000000000</STXUAT_CK>
+    <SLNHAP_CK>0</SLNHAP_CK>
+    <STNHAP_CK>0</STNHAP_CK>
+    <DONGIA>2452.04</DONGIA>
+    <MANGUON>1</MANGUON>
+    <GIABAN>0</GIABAN>
+  </Table>
+  <Table>
+    <STTT>0</STTT>
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Thuốc thường</TENNHOM>
+    <MABD>3488</MABD>
+    <MA>BRI002</MA>
+    <TEN>Bristoppen 1g</TEN>
+    <TENHC>Oxacillin</TENHC>
+    <DANG>Lọ</DANG>
+    <TONDAU>41.00</TONDAU>
+    <STTONDAU>2671683.000000000000</STTONDAU>
+    <SLNHAP>410.00</SLNHAP>
+    <STNHAP>26716830.000000000000</STNHAP>
+    <SLXUAT>314.00</SLXUAT>
+    <STXUAT>20461182.000000000000</STXUAT>
+    <STT>5</STT>
+    <IDNN>114</IDNN>
+    <NOINGOAI>Thuốc trị ký sinh trùng và chống nhiễm khuẩn</NOINGOAI>
+    <SLXUAT_CK>38.00</SLXUAT_CK>
+    <STXUAT_CK>2476194.000000000000</STXUAT_CK>
+    <SLNHAP_CK>0</SLNHAP_CK>
+    <STNHAP_CK>0</STNHAP_CK>
+    <DONGIA>65163.00</DONGIA>
+    <MANGUON>1</MANGUON>
+    <GIABAN>0</GIABAN>
+  </Table>
+  <Table>
+    <STTT>0</STTT>
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Thuốc thường</TENNHOM>
+    <MABD>3076</MABD>
+    <MA>CEF003</MA>
+    <TEN>Cefovidi 1g  </TEN>
+    <TENHC>Cefotaxim</TENHC>
+    <DANG>Lọ</DANG>
+    <TONDAU>192.00</TONDAU>
+    <STTONDAU>2016000.000000000000</STTONDAU>
+    <SLNHAP>360.00</SLNHAP>
+    <STNHAP>3780000.000000000000</STNHAP>
+    <SLXUAT>456.00</SLXUAT>
+    <STXUAT>4788000.000000000000</STXUAT>
+    <STT>5</STT>
+    <IDNN>114</IDNN>
+    <NOINGOAI>Thuốc trị ký sinh trùng và chống nhiễm khuẩn</NOINGOAI>
+    <SLXUAT_CK>1.00</SLXUAT_CK>
+    <STXUAT_CK>10500.000000000000</STXUAT_CK>
+    <SLNHAP_CK>0</SLNHAP_CK>
+    <STNHAP_CK>0</STNHAP_CK>
+    <DONGIA>10500.00</DONGIA>
+    <MANGUON>1</MANGUON>
+    <GIABAN>0</GIABAN>
+  </Table>
+  <Table>
+    <STTT>0</STTT>
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Thuốc thường</TENNHOM>
+    <MABD>3079</MABD>
+    <MA>CEF004</MA>
+    <TEN>Ceftum 1g</TEN>
+    <TENHC>Ceftazidim</TENHC>
+    <DANG>Lọ</DANG>
+    <TONDAU>368.00</TONDAU>
+    <STTONDAU>17479996.320000000000</STTONDAU>
+    <SLNHAP>1990.00</SLNHAP>
+    <STNHAP>94524988.903125000000</STNHAP>
+    <SLXUAT>1908.00</SLXUAT>
+    <STXUAT>90629988.197812500000</STXUAT>
+    <STT>5</STT>
+    <IDNN>114</IDNN>
+    <NOINGOAI>Thuốc trị ký sinh trùng và chống nhiễm khuẩn</NOINGOAI>
+    <SLXUAT_CK>165.00</SLXUAT_CK>
+    <STXUAT_CK>7837498.539375000000</STXUAT_CK>
+    <SLNHAP_CK>0</SLNHAP_CK>
+    <STNHAP_CK>0</STNHAP_CK>
+    <DONGIA>47499.99</DONGIA>
+    <MANGUON>1</MANGUON>
+    <GIABAN>0</GIABAN>
+  </Table>
+  <Table>
+    <STTT>0</STTT>
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Thuốc thường</TENNHOM>
+    <MABD>3074</MABD>
+    <MA>CEM001</MA>
+    <TEN>Cemax 100 mg</TEN>
+    <TENHC>Cefixime</TENHC>
+    <DANG>Viên</DANG>
+    <TONDAU>0.00</TONDAU>
+    <STTONDAU>0.000000000000</STTONDAU>
+    <SLNHAP>8800.00</SLNHAP>
+    <STNHAP>77440440.000000000000</STNHAP>
+    <SLXUAT>6851.00</SLXUAT>
+    <STXUAT>60289142.550000000000</STXUAT>
+    <STT>5</STT>
+    <IDNN>114</IDNN>
+    <NOINGOAI>Thuốc trị ký sinh trùng và chống nhiễm khuẩn</NOINGOAI>
+    <SLXUAT_CK>730.00</SLXUAT_CK>
+    <STXUAT_CK>6424036.500000000000</STXUAT_CK>
+    <SLNHAP_CK>0</SLNHAP_CK>
+    <STNHAP_CK>0</STNHAP_CK>
+    <DONGIA>8800.05</DONGIA>
+    <MANGUON>1</MANGUON>
+    <GIABAN>0</GIABAN>
+  </Table>
+  <Table>
+    <STTT>0</STTT>
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Thuốc thường</TENNHOM>
+    <MABD>3074</MABD>
+    <MA>CEM001</MA>
+    <TEN>Cemax 100 mg</TEN>
+    <TENHC>Cefixime</TENHC>
+    <DANG>Viên</DANG>
+    <TONDAU>933.00</TONDAU>
+    <STTONDAU>8210381.340000000000</STTONDAU>
+    <SLNHAP>0</SLNHAP>
+    <STNHAP>0</STNHAP>
+    <SLXUAT>733.00</SLXUAT>
+    <STXUAT>6450385.340000000000</STXUAT>
+    <STT>5</STT>
+    <IDNN>114</IDNN>
+    <NOINGOAI>Thuốc trị ký sinh trùng và chống nhiễm khuẩn</NOINGOAI>
+    <SLXUAT_CK>200.00</SLXUAT_CK>
+    <STXUAT_CK>1759996.000000000000</STXUAT_CK>
+    <SLNHAP_CK>0</SLNHAP_CK>
+    <STNHAP_CK>0</STNHAP_CK>
+    <DONGIA>8799.98</DONGIA>
+    <MANGUON>1</MANGUON>
+    <GIABAN>0</GIABAN>
+  </Table>
+  <Table>
+    <STTT>0</STTT>
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Thuốc thường</TENNHOM>
+    <MABD>3072</MABD>
+    <MA>CEF002</MA>
+    <TEN>Cephalexin 500 mg</TEN>
+    <TENHC>Cefalexin</TENHC>
+    <DANG>Viên</DANG>
+    <TONDAU>883.00</TONDAU>
+    <STTONDAU>459160.000000000000</STTONDAU>
+    <SLNHAP>0</SLNHAP>
+    <STNHAP>0</STNHAP>
+    <SLXUAT>86.00</SLXUAT>
+    <STXUAT>44720.000000000000</STXUAT>
+    <STT>5</STT>
+    <IDNN>114</IDNN>
+    <NOINGOAI>Thuốc trị ký sinh trùng và chống nhiễm khuẩn</NOINGOAI>
+    <SLXUAT_CK>6.00</SLXUAT_CK>
+    <STXUAT_CK>3120.000000000000</STXUAT_CK>
+    <SLNHAP_CK>0</SLNHAP_CK>
+    <STNHAP_CK>0</STNHAP_CK>
+    <DONGIA>520.00</DONGIA>
+    <MANGUON>1</MANGUON>
+    <GIABAN>0</GIABAN>
+  </Table>
+  <Table>
+    <STTT>0</STTT>
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Thuốc thường</TENNHOM>
+    <MABD>3312</MABD>
+    <MA>CIP002</MA>
+    <TEN>Ciprofloxacin 500 mg</TEN>
+    <TENHC>Ciprofloxacin</TENHC>
+    <DANG>Viên</DANG>
+    <TONDAU>512.00</TONDAU>
+    <STTONDAU>155335.680000000000</STTONDAU>
+    <SLNHAP>980.00</SLNHAP>
+    <STNHAP>297322.200000000000</STNHAP>
+    <SLXUAT>852.30</SLXUAT>
+    <STXUAT>258579.297000000000</STXUAT>
+    <STT>5</STT>
+    <IDNN>114</IDNN>
+    <NOINGOAI>Thuốc trị ký sinh trùng và chống nhiễm khuẩn</NOINGOAI>
+    <SLXUAT_CK>48.00</SLXUAT_CK>
+    <STXUAT_CK>14562.720000000000</STXUAT_CK>
+    <SLNHAP_CK>0</SLNHAP_CK>
+    <STNHAP_CK>0</STNHAP_CK>
+    <DONGIA>303.39</DONGIA>
+    <MANGUON>1</MANGUON>
+    <GIABAN>0</GIABAN>
+  </Table>
+  <Table>
+    <STTT>0</STTT>
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Thuốc thường</TENNHOM>
+    <MABD>3103</MABD>
+    <MA>CIP001</MA>
+    <TEN>Ciprofoxacin 200mg/100ml</TEN>
+    <TENHC>Ciprofloxacin</TENHC>
+    <DANG>Chai</DANG>
+    <TONDAU>58.00</TONDAU>
+    <STTONDAU>954912.000000000000</STTONDAU>
+    <SLNHAP>290.00</SLNHAP>
+    <STNHAP>4774560.000000000000</STNHAP>
+    <SLXUAT>320.00</SLXUAT>
+    <STXUAT>5268480.000000000000</STXUAT>
+    <STT>5</STT>
+    <IDNN>114</IDNN>
+    <NOINGOAI>Thuốc trị ký sinh trùng và chống nhiễm khuẩn</NOINGOAI>
+    <SLXUAT_CK>11.00</SLXUAT_CK>
+    <STXUAT_CK>181104.000000000000</STXUAT_CK>
+    <SLNHAP_CK>0</SLNHAP_CK>
+    <STNHAP_CK>0</STNHAP_CK>
+    <DONGIA>16464.00</DONGIA>
+    <MANGUON>1</MANGUON>
+    <GIABAN>0</GIABAN>
+  </Table>
+  <Table>
+    <STTT>0</STTT>
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Thuốc thường</TENNHOM>
+    <MABD>3077</MABD>
+    <MA>CLA001</MA>
+    <TEN>Claforan 1g</TEN>
+    <TENHC>Cefotaxim</TENHC>
+    <DANG>Lọ</DANG>
+    <TONDAU>143.00</TONDAU>
+    <STTONDAU>6441435.000000000000</STTONDAU>
+    <SLNHAP>1080.00</SLNHAP>
+    <STNHAP>48648600.000000000000</STNHAP>
+    <SLXUAT>952.40</SLXUAT>
+    <STXUAT>42900858.000000000000</STXUAT>
+    <STT>5</STT>
+    <IDNN>114</IDNN>
+    <NOINGOAI>Thuốc trị ký sinh trùng và chống nhiễm khuẩn</NOINGOAI>
+    <SLXUAT_CK>8.00</SLXUAT_CK>
+    <STXUAT_CK>360360.000000000000</STXUAT_CK>
+    <SLNHAP_CK>0</SLNHAP_CK>
+    <STNHAP_CK>0</STNHAP_CK>
+    <DONGIA>45045.00</DONGIA>
+    <MANGUON>1</MANGUON>
+    <GIABAN>0</GIABAN>
+  </Table>
+  <Table>
+    <STTT>0</STTT>
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Thuốc thường</TENNHOM>
+    <MABD>3708</MABD>
+    <MA>CLA005</MA>
+    <TEN>Claritab(k.nhập) 500 mg</TEN>
+    <TENHC>Clarithromycin</TENHC>
+    <DANG>Viên</DANG>
+    <TONDAU>410.00</TONDAU>
+    <STTONDAU>1833667.600000000000</STTONDAU>
+    <SLNHAP>0</SLNHAP>
+    <STNHAP>0</STNHAP>
+    <SLXUAT>289.00</SLXUAT>
+    <STXUAT>1292512.040000000000</STXUAT>
+    <STT>5</STT>
+    <IDNN>114</IDNN>
+    <NOINGOAI>Thuốc trị ký sinh trùng và chống nhiễm khuẩn</NOINGOAI>
+    <SLXUAT_CK>4.00</SLXUAT_CK>
+    <STXUAT_CK>17889.440000000000</STXUAT_CK>
+    <SLNHAP_CK>0</SLNHAP_CK>
+    <STNHAP_CK>0</STNHAP_CK>
+    <DONGIA>4472.36</DONGIA>
+    <MANGUON>1</MANGUON>
+    <GIABAN>0</GIABAN>
+  </Table>
+  <Table>
+    <STTT>0</STTT>
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Thuốc thường</TENNHOM>
+    <MABD>3078</MABD>
+    <MA>FOR001</MA>
+    <TEN>Fortaxim 1g</TEN>
+    <TENHC>Cefotaxim</TENHC>
+    <DANG>Lọ</DANG>
+    <TONDAU>1012.00</TONDAU>
+    <STTONDAU>28842151.800000000000</STTONDAU>
+    <SLNHAP>2000.00</SLNHAP>
+    <STNHAP>57000300.000000000000</STNHAP>
+    <SLXUAT>1864.00</SLXUAT>
+    <STXUAT>53124279.600000000000</STXUAT>
+    <STT>5</STT>
+    <IDNN>114</IDNN>
+    <NOINGOAI>Thuốc trị ký sinh trùng và chống nhiễm khuẩn</NOINGOAI>
+    <SLXUAT_CK>360.00</SLXUAT_CK>
+    <STXUAT_CK>10260054.000000000000</STXUAT_CK>
+    <SLNHAP_CK>0</SLNHAP_CK>
+    <STNHAP_CK>0</STNHAP_CK>
+    <DONGIA>28500.15</DONGIA>
+    <MANGUON>1</MANGUON>
+    <GIABAN>0</GIABAN>
+  </Table>
+  <Table>
+    <STTT>0</STTT>
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Thuốc thường</TENNHOM>
+    <MABD>3345</MABD>
+    <MA>GEN003</MA>
+    <TEN>Genetan 100mg/2ml</TEN>
+    <TENHC>Netimicin</TENHC>
+    <DANG>Ống</DANG>
+    <TONDAU>226.00</TONDAU>
+    <STTONDAU>9039997.740000000000</STTONDAU>
+    <SLNHAP>2500.00</SLNHAP>
+    <STNHAP>99999978.750000000000</STNHAP>
+    <SLXUAT>2164.00</SLXUAT>
+    <STXUAT>86559981.433500000000</STXUAT>
+    <STT>5</STT>
+    <IDNN>114</IDNN>
+    <NOINGOAI>Thuốc trị ký sinh trùng và chống nhiễm khuẩn</NOINGOAI>
+    <SLXUAT_CK>194.00</SLXUAT_CK>
+    <STXUAT_CK>7759998.184500000000</STXUAT_CK>
+    <SLNHAP_CK>0</SLNHAP_CK>
+    <STNHAP_CK>0</STNHAP_CK>
+    <DONGIA>39999.99</DONGIA>
+    <MANGUON>1</MANGUON>
+    <GIABAN>0</GIABAN>
+  </Table>
+  <Table>
+    <STTT>0</STTT>
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Thuốc thường</TENNHOM>
+    <MABD>3228</MABD>
+    <MA>GEN002</MA>
+    <TEN>Gentamycin 80 mg</TEN>
+    <TENHC>Gentamycin</TENHC>
+    <DANG>Ống 2 ml</DANG>
+    <TONDAU>313.00</TONDAU>
+    <STTONDAU>234750.000000000000</STTONDAU>
+    <SLNHAP>2007.00</SLNHAP>
+    <STNHAP>1505259.004500000000</STNHAP>
+    <SLXUAT>1211.10</SLXUAT>
+    <STXUAT>908330.175450000000</STXUAT>
+    <STT>5</STT>
+    <IDNN>114</IDNN>
+    <NOINGOAI>Thuốc trị ký sinh trùng và chống nhiễm khuẩn</NOINGOAI>
+    <SLXUAT_CK>111.00</SLXUAT_CK>
+    <STXUAT_CK>83250.499500000000</STXUAT_CK>
+    <SLNHAP_CK>0</SLNHAP_CK>
+    <STNHAP_CK>0</STNHAP_CK>
+    <DONGIA>750.00</DONGIA>
+    <MANGUON>1</MANGUON>
+    <GIABAN>0</GIABAN>
+  </Table>
+  <Table>
+    <STTT>0</STTT>
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Thuốc thường</TENNHOM>
+    <MABD>3088</MABD>
+    <MA>MED002</MA>
+    <TEN>Medaxetine 750 mg</TEN>
+    <TENHC>Cefuroxim</TENHC>
+    <DANG>Lọ</DANG>
+    <TONDAU>1047.00</TONDAU>
+    <STTONDAU>42717442.950000000000</STTONDAU>
+    <SLNHAP>2000.00</SLNHAP>
+    <STNHAP>81599700.000000000000</STNHAP>
+    <SLXUAT>1535.00</SLXUAT>
+    <STXUAT>62627769.750000000000</STXUAT>
+    <STT>5</STT>
+    <IDNN>114</IDNN>
+    <NOINGOAI>Thuốc trị ký sinh trùng và chống nhiễm khuẩn</NOINGOAI>
+    <SLXUAT_CK>171.00</SLXUAT_CK>
+    <STXUAT_CK>6976774.350000000000</STXUAT_CK>
+    <SLNHAP_CK>0</SLNHAP_CK>
+    <STNHAP_CK>0</STNHAP_CK>
+    <DONGIA>40799.85</DONGIA>
+    <MANGUON>1</MANGUON>
+    <GIABAN>0</GIABAN>
+  </Table>
+  <Table>
+    <STTT>0</STTT>
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Thuốc thường</TENNHOM>
+    <MABD>3511</MABD>
+    <MA>MET008</MA>
+    <TEN>Metro - Klion 0,25g</TEN>
+    <TENHC>Metronodazol</TENHC>
+    <DANG>Viên</DANG>
+    <TONDAU>216.00</TONDAU>
+    <STTONDAU>17761.680000000000</STTONDAU>
+    <SLNHAP>0</SLNHAP>
+    <STNHAP>0</STNHAP>
+    <SLXUAT>174.00</SLXUAT>
+    <STXUAT>14308.020000000000</STXUAT>
+    <STT>5</STT>
+    <IDNN>114</IDNN>
+    <NOINGOAI>Thuốc trị ký sinh trùng và chống nhiễm khuẩn</NOINGOAI>
+    <SLXUAT_CK>42.00</SLXUAT_CK>
+    <STXUAT_CK>3453.660000000000</STXUAT_CK>
+    <SLNHAP_CK>0</SLNHAP_CK>
+    <STNHAP_CK>0</STNHAP_CK>
+    <DONGIA>82.23</DONGIA>
+    <MANGUON>1</MANGUON>
+    <GIABAN>0</GIABAN>
+  </Table>
+  <Table>
+    <STTT>0</STTT>
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Thuốc thường</TENNHOM>
+    <MABD>3328</MABD>
+    <MA>MET006</MA>
+    <TEN>Metronidazol 250 mg</TEN>
+    <TENHC>Metronidazol</TENHC>
+    <DANG>Viên</DANG>
+    <TONDAU>0.00</TONDAU>
+    <STTONDAU>0.000000000000</STTONDAU>
+    <SLNHAP>4000.00</SLNHAP>
+    <STNHAP>319999.960000000000</STNHAP>
+    <SLXUAT>967.00</SLXUAT>
+    <STXUAT>77359.990330000000</STXUAT>
+    <STT>5</STT>
+    <IDNN>114</IDNN>
+    <NOINGOAI>Thuốc trị ký sinh trùng và chống nhiễm khuẩn</NOINGOAI>
+    <SLXUAT_CK>48.00</SLXUAT_CK>
+    <STXUAT_CK>3839.999520000000</STXUAT_CK>
+    <SLNHAP_CK>0</SLNHAP_CK>
+    <STNHAP_CK>0</STNHAP_CK>
+    <DONGIA>79.99</DONGIA>
+    <MANGUON>1</MANGUON>
+    <GIABAN>0</GIABAN>
+  </Table>
+  <Table>
+    <STTT>0</STTT>
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Thuốc thường</TENNHOM>
+    <MABD>3514</MABD>
+    <MA>NER001</MA>
+    <TEN>Negram 500 mg</TEN>
+    <TENHC>Nalidixic Acid</TENHC>
+    <DANG>Viên</DANG>
+    <TONDAU>727.00</TONDAU>
+    <STTONDAU>458010.000000000000</STTONDAU>
+    <SLNHAP>0</SLNHAP>
+    <STNHAP>0</STNHAP>
+    <SLXUAT>328.00</SLXUAT>
+    <STXUAT>206640.000000000000</STXUAT>
+    <STT>5</STT>
+    <IDNN>114</IDNN>
+    <NOINGOAI>Thuốc trị ký sinh trùng và chống nhiễm khuẩn</NOINGOAI>
+    <SLXUAT_CK>18.00</SLXUAT_CK>
+    <STXUAT_CK>11340.000000000000</STXUAT_CK>
+    <SLNHAP_CK>0</SLNHAP_CK>
+    <STNHAP_CK>0</STNHAP_CK>
+    <DONGIA>630.00</DONGIA>
+    <MANGUON>1</MANGUON>
+    <GIABAN>0</GIABAN>
+  </Table>
+  <Table>
+    <STTT>0</STTT>
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Thuốc thường</TENNHOM>
+    <MABD>3080</MABD>
+    <MA>TRI001</MA>
+    <TEN>Tricefin 1g</TEN>
+    <TENHC>Ceftriaxon</TENHC>
+    <DANG>Lọ</DANG>
+    <TONDAU>0.00</TONDAU>
+    <STTONDAU>0.000000000000</STTONDAU>
+    <SLNHAP>3632.00</SLNHAP>
+    <STNHAP>152071840.000000000000</STNHAP>
+    <SLXUAT>2506.00</SLXUAT>
+    <STXUAT>104926220.000000000000</STXUAT>
+    <STT>5</STT>
+    <IDNN>114</IDNN>
+    <NOINGOAI>Thuốc trị ký sinh trùng và chống nhiễm khuẩn</NOINGOAI>
+    <SLXUAT_CK>347.00</SLXUAT_CK>
+    <STXUAT_CK>14528890.000000000000</STXUAT_CK>
+    <SLNHAP_CK>0</SLNHAP_CK>
+    <STNHAP_CK>0</STNHAP_CK>
+    <DONGIA>41870.00</DONGIA>
+    <MANGUON>1</MANGUON>
+    <GIABAN>0</GIABAN>
+  </Table>
+  <Table>
+    <STTT>0</STTT>
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Thuốc thường</TENNHOM>
+    <MABD>3080</MABD>
+    <MA>TRI001</MA>
+    <TEN>Tricefin 1g</TEN>
+    <TENHC>Ceftriaxon</TENHC>
+    <DANG>Lọ</DANG>
+    <TONDAU>633.00</TONDAU>
+    <STTONDAU>26503703.670000000000</STTONDAU>
+    <SLNHAP>4.00</SLNHAP>
+    <STNHAP>167479.960000000000</STNHAP>
+    <SLXUAT>517.00</SLXUAT>
+    <STXUAT>21646784.830000000000</STXUAT>
+    <STT>5</STT>
+    <IDNN>114</IDNN>
+    <NOINGOAI>Thuốc trị ký sinh trùng và chống nhiễm khuẩn</NOINGOAI>
+    <SLXUAT_CK>120.00</SLXUAT_CK>
+    <STXUAT_CK>5024398.800000000000</STXUAT_CK>
+    <SLNHAP_CK>0</SLNHAP_CK>
+    <STNHAP_CK>0</STNHAP_CK>
+    <DONGIA>41869.99</DONGIA>
+    <MANGUON>1</MANGUON>
+    <GIABAN>0</GIABAN>
+  </Table>
+  <Table>
+    <STTT>0</STTT>
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Thuốc thường</TENNHOM>
+    <MABD>3264</MABD>
+    <MA>TRI002</MA>
+    <TEN>Trizele 500mg/100ml</TEN>
+    <TENHC>Metronidazole</TENHC>
+    <DANG>Chai</DANG>
+    <TONDAU>185.00</TONDAU>
+    <STTONDAU>2331000.000000000000</STTONDAU>
+    <SLNHAP>300.00</SLNHAP>
+    <STNHAP>3780000.000000000000</STNHAP>
+    <SLXUAT>293.00</SLXUAT>
+    <STXUAT>3691800.000000000000</STXUAT>
+    <STT>5</STT>
+    <IDNN>114</IDNN>
+    <NOINGOAI>Thuốc trị ký sinh trùng và chống nhiễm khuẩn</NOINGOAI>
+    <SLXUAT_CK>29.00</SLXUAT_CK>
+    <STXUAT_CK>365400.000000000000</STXUAT_CK>
+    <SLNHAP_CK>0</SLNHAP_CK>
+    <STNHAP_CK>0</STNHAP_CK>
+    <DONGIA>12600.00</DONGIA>
+    <MANGUON>1</MANGUON>
+    <GIABAN>0</GIABAN>
+  </Table>
+  <Table>
+    <STTT>0</STTT>
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Thuốc thường</TENNHOM>
+    <MABD>3084</MABD>
+    <MA>ZIN003</MA>
+    <TEN>Zinmax 500mg</TEN>
+    <TENHC>Cefuroxim</TENHC>
+    <DANG>Viên</DANG>
+    <TONDAU>2087.00</TONDAU>
+    <STTONDAU>20786499.130000000000</STTONDAU>
+    <SLNHAP>0</SLNHAP>
+    <STNHAP>0</STNHAP>
+    <SLXUAT>1330.00</SLXUAT>
+    <STXUAT>13246786.700000000000</STXUAT>
+    <STT>5</STT>
+    <IDNN>114</IDNN>
+    <NOINGOAI>Thuốc trị ký sinh trùng và chống nhiễm khuẩn</NOINGOAI>
+    <SLXUAT_CK>83.00</SLXUAT_CK>
+    <STXUAT_CK>826679.170000000000</STXUAT_CK>
+    <SLNHAP_CK>0</SLNHAP_CK>
+    <STNHAP_CK>0</STNHAP_CK>
+    <DONGIA>9959.99</DONGIA>
+    <MANGUON>1</MANGUON>
+    <GIABAN>0</GIABAN>
+  </Table>
+  <Table>
+    <STTT>0</STTT>
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Thuốc thường</TENNHOM>
+    <MABD>3064</MABD>
+    <MA>ADO001</MA>
+    <TEN>Adona 25 mg</TEN>
+    <TENHC>Carbazochrome</TENHC>
+    <DANG>Ống</DANG>
+    <TONDAU>177.00</TONDAU>
+    <STTONDAU>3253791.000000000000</STTONDAU>
+    <SLNHAP>0</SLNHAP>
+    <STNHAP>0</STNHAP>
+    <SLXUAT>94.00</SLXUAT>
+    <STXUAT>1728002.000000000000</STXUAT>
+    <STT>5</STT>
+    <IDNN>119</IDNN>
+    <NOINGOAI>Thuốc tác dụng đối với máu</NOINGOAI>
+    <SLXUAT_CK>2.00</SLXUAT_CK>
+    <STXUAT_CK>36766.000000000000</STXUAT_CK>
+    <SLNHAP_CK>0</SLNHAP_CK>
+    <STNHAP_CK>0</STNHAP_CK>
+    <DONGIA>18383.00</DONGIA>
+    <MANGUON>1</MANGUON>
+    <GIABAN>0</GIABAN>
+  </Table>
+  <Table>
+    <STTT>0</STTT>
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Thuốc thường</TENNHOM>
+    <MABD>3624</MABD>
+    <MA>EXI001</MA>
+    <TEN>Exirol 250 mg/5 ml</TEN>
+    <TENHC>Tranexamic</TENHC>
+    <DANG>Ống</DANG>
+    <TONDAU>60.00</TONDAU>
+    <STTONDAU>548389.800000000000</STTONDAU>
+    <SLNHAP>50.00</SLNHAP>
+    <STNHAP>456991.500000000000</STNHAP>
+    <SLXUAT>33.00</SLXUAT>
+    <STXUAT>301614.390000000000</STXUAT>
+    <STT>5</STT>
+    <IDNN>119</IDNN>
+    <NOINGOAI>Thuốc tác dụng đối với máu</NOINGOAI>
+    <SLXUAT_CK>10.00</SLXUAT_CK>
+    <STXUAT_CK>91398.300000000000</STXUAT_CK>
+    <SLNHAP_CK>0</SLNHAP_CK>
+    <STNHAP_CK>0</STNHAP_CK>
+    <DONGIA>9139.83</DONGIA>
+    <MANGUON>1</MANGUON>
+    <GIABAN>0</GIABAN>
+  </Table>
+  <Table>
+    <STTT>0</STTT>
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Thuốc thường</TENNHOM>
+    <MABD>3419</MABD>
+    <MA>VIT016</MA>
+    <TEN>vitamin K1 10 mg</TEN>
+    <TENHC>vitamin K1</TENHC>
+    <DANG>Ống</DANG>
+    <TONDAU>0.00</TONDAU>
+    <STTONDAU>0.000000000000</STTONDAU>
+    <SLNHAP>300.00</SLNHAP>
+    <STNHAP>1620000.900000000000</STNHAP>
+    <SLXUAT>269.25</SLXUAT>
+    <STXUAT>1453950.807750000000</STXUAT>
+    <STT>5</STT>
+    <IDNN>119</IDNN>
+    <NOINGOAI>Thuốc tác dụng đối với máu</NOINGOAI>
+    <SLXUAT_CK>21.00</SLXUAT_CK>
+    <STXUAT_CK>113400.063000000000</STXUAT_CK>
+    <SLNHAP_CK>0</SLNHAP_CK>
+    <STNHAP_CK>0</STNHAP_CK>
+    <DONGIA>5400.00</DONGIA>
+    <MANGUON>1</MANGUON>
+    <GIABAN>0</GIABAN>
+  </Table>
+  <Table>
+    <STTT>0</STTT>
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Thuốc thường</TENNHOM>
+    <MABD>3278</MABD>
+    <MA>VIT001</MA>
+    <TEN>Vitamin K1 10 mg/1 ml</TEN>
+    <TENHC>Phytomenadione</TENHC>
+    <DANG>Ống</DANG>
+    <TONDAU>146.00</TONDAU>
+    <STTONDAU>788400.000000000000</STTONDAU>
+    <SLNHAP>200.00</SLNHAP>
+    <STNHAP>1080000.600000000000</STNHAP>
+    <SLXUAT>121.00</SLXUAT>
+    <STXUAT>653400.018000000000</STXUAT>
+    <STT>5</STT>
+    <IDNN>119</IDNN>
+    <NOINGOAI>Thuốc tác dụng đối với máu</NOINGOAI>
+    <SLXUAT_CK>42.00</SLXUAT_CK>
+    <STXUAT_CK>226800.033000000000</STXUAT_CK>
+    <SLNHAP_CK>0</SLNHAP_CK>
+    <STNHAP_CK>0</STNHAP_CK>
+    <DONGIA>5400.00</DONGIA>
+    <MANGUON>1</MANGUON>
+    <GIABAN>0</GIABAN>
+  </Table>
+  <Table>
+    <STTT>0</STTT>
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Thuốc thường</TENNHOM>
+    <MABD>3063</MABD>
+    <MA>CAP001</MA>
+    <TEN>Captopril 25 mg</TEN>
+    <TENHC>Captopril</TENHC>
+    <DANG>Viên</DANG>
+    <TONDAU>545.00</TONDAU>
+    <STTONDAU>152125.850000000000</STTONDAU>
+    <SLNHAP>93.00</SLNHAP>
+    <STNHAP>25959.090000000000</STNHAP>
+    <SLXUAT>600.00</SLXUAT>
+    <STXUAT>167478.000000000000</STXUAT>
+    <STT>5</STT>
+    <IDNN>121</IDNN>
+    <NOINGOAI>Thuốc tim mạch</NOINGOAI>
+    <SLXUAT_CK>38.00</SLXUAT_CK>
+    <STXUAT_CK>10606.940000000000</STXUAT_CK>
+    <SLNHAP_CK>0</SLNHAP_CK>
+    <STNHAP_CK>0</STNHAP_CK>
+    <DONGIA>279.13</DONGIA>
+    <MANGUON>1</MANGUON>
+    <GIABAN>0</GIABAN>
+  </Table>
+  <Table>
+    <STTT>0</STTT>
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Thuốc thường</TENNHOM>
+    <MABD>3177</MABD>
+    <MA>DUX001</MA>
+    <TEN>Duxil 40mg</TEN>
+    <TENHC>Raubasine + Almitrin 40mg</TENHC>
+    <DANG>Viên</DANG>
+    <TONDAU>939.00</TONDAU>
+    <STTONDAU>2998621.380000000000</STTONDAU>
+    <SLNHAP>0</SLNHAP>
+    <STNHAP>0</STNHAP>
+    <SLXUAT>437.00</SLXUAT>
+    <STXUAT>1395524.540000000000</STXUAT>
+    <STT>5</STT>
+    <IDNN>121</IDNN>
+    <NOINGOAI>Thuốc tim mạch</NOINGOAI>
+    <SLXUAT_CK>16.00</SLXUAT_CK>
+    <STXUAT_CK>51094.720000000000</STXUAT_CK>
+    <SLNHAP_CK>0</SLNHAP_CK>
+    <STNHAP_CK>0</STNHAP_CK>
+    <DONGIA>3193.42</DONGIA>
+    <MANGUON>1</MANGUON>
+    <GIABAN>0</GIABAN>
+  </Table>
+  <Table>
+    <STTT>0</STTT>
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Thuốc thường</TENNHOM>
+    <MABD>3152</MABD>
+    <MA>EDN002</MA>
+    <TEN>Ednyt 5 mg</TEN>
+    <TENHC>Enalapril</TENHC>
+    <DANG>Viên</DANG>
+    <TONDAU>463.00</TONDAU>
+    <STTONDAU>749129.370000000000</STTONDAU>
+    <SLNHAP>0</SLNHAP>
+    <STNHAP>0</STNHAP>
+    <SLXUAT>240.00</SLXUAT>
+    <STXUAT>388317.600000000000</STXUAT>
+    <STT>5</STT>
+    <IDNN>121</IDNN>
+    <NOINGOAI>Thuốc tim mạch</NOINGOAI>
+    <SLXUAT_CK>11.00</SLXUAT_CK>
+    <STXUAT_CK>17797.890000000000</STXUAT_CK>
+    <SLNHAP_CK>0</SLNHAP_CK>
+    <STNHAP_CK>0</STNHAP_CK>
+    <DONGIA>1617.99</DONGIA>
+    <MANGUON>1</MANGUON>
+    <GIABAN>0</GIABAN>
+  </Table>
+  <Table>
+    <STTT>0</STTT>
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Thuốc thường</TENNHOM>
+    <MABD>3383</MABD>
+    <MA>OXY001</MA>
+    <TEN>Oxy gìa 3%/60ml</TEN>
+    <TENHC>Nước oxy gìa</TENHC>
+    <DANG>Chai</DANG>
+    <TONDAU>809.00</TONDAU>
+    <STTONDAU>577626.000000000000</STTONDAU>
+    <SLNHAP>500.00</SLNHAP>
+    <STNHAP>357000.000000000000</STNHAP>
+    <SLXUAT>1028.30</SLXUAT>
+    <STXUAT>734206.200000000000</STXUAT>
+    <STT>5</STT>
+    <IDNN>124</IDNN>
+    <NOINGOAI>Thuốc sát khuẩn</NOINGOAI>
+    <SLXUAT_CK>14.00</SLXUAT_CK>
+    <STXUAT_CK>9996.000000000000</STXUAT_CK>
+    <SLNHAP_CK>0</SLNHAP_CK>
+    <STNHAP_CK>0</STNHAP_CK>
+    <DONGIA>714.00</DONGIA>
+    <MANGUON>1</MANGUON>
+    <GIABAN>0</GIABAN>
+  </Table>
+  <Table>
+    <STTT>0</STTT>
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Thuốc thường</TENNHOM>
+    <MABD>3733</MABD>
+    <MA>POV001</MA>
+    <TEN>Povidin 10%90ml 90ml</TEN>
+    <TENHC />
+    <DANG>Chai</DANG>
+    <TONDAU>159.00</TONDAU>
+    <STTONDAU>1167696.000000000000</STTONDAU>
+    <SLNHAP>2167.50</SLNHAP>
+    <STNHAP>15918130.016470648000</STNHAP>
+    <SLXUAT>2106.45</SLXUAT>
+    <STXUAT>15469778.118214704275</STXUAT>
+    <STT>5</STT>
+    <IDNN>124</IDNN>
+    <NOINGOAI>Thuốc sát khuẩn</NOINGOAI>
+    <SLXUAT_CK>91.00</SLXUAT_CK>
+    <STXUAT_CK>668304.157384616400</STXUAT_CK>
+    <SLNHAP_CK>0</SLNHAP_CK>
+    <STNHAP_CK>0</STNHAP_CK>
+    <DONGIA>7344.00</DONGIA>
+    <MANGUON>1</MANGUON>
+    <GIABAN>0</GIABAN>
+  </Table>
+  <Table>
+    <STTT>0</STTT>
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Thuốc thường</TENNHOM>
+    <MABD>3213</MABD>
+    <MA>FUR002</MA>
+    <TEN>Diurefar 40 mg</TEN>
+    <TENHC>Furocemide</TENHC>
+    <DANG>Viên</DANG>
+    <TONDAU>134.00</TONDAU>
+    <STTONDAU>14977.180000000000</STTONDAU>
+    <SLNHAP>0</SLNHAP>
+    <STNHAP>0</STNHAP>
+    <SLXUAT>117.00</SLXUAT>
+    <STXUAT>13077.090000000000</STXUAT>
+    <STT>5</STT>
+    <IDNN>125</IDNN>
+    <NOINGOAI>Thuốc lợi tiểu</NOINGOAI>
+    <SLXUAT_CK>6.00</SLXUAT_CK>
+    <STXUAT_CK>670.620000000000</STXUAT_CK>
+    <SLNHAP_CK>0</SLNHAP_CK>
+    <STNHAP_CK>0</STNHAP_CK>
+    <DONGIA>111.77</DONGIA>
+    <MANGUON>1</MANGUON>
+    <GIABAN>0</GIABAN>
+  </Table>
+  <Table>
+    <STTT>0</STTT>
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Thuốc thường</TENNHOM>
+    <MABD>3211</MABD>
+    <MA>FUR001</MA>
+    <TEN>Furocemid 20 mg</TEN>
+    <TENHC>Furocemide</TENHC>
+    <DANG>Ống</DANG>
+    <TONDAU>200.00</TONDAU>
+    <STTONDAU>564598.000000000000</STTONDAU>
+    <SLNHAP>0</SLNHAP>
+    <STNHAP>0</STNHAP>
+    <SLXUAT>128.00</SLXUAT>
+    <STXUAT>361342.720000000000</STXUAT>
+    <STT>5</STT>
+    <IDNN>125</IDNN>
+    <NOINGOAI>Thuốc lợi tiểu</NOINGOAI>
+    <SLXUAT_CK>14.00</SLXUAT_CK>
+    <STXUAT_CK>39521.860000000000</STXUAT_CK>
+    <SLNHAP_CK>0</SLNHAP_CK>
+    <STNHAP_CK>0</STNHAP_CK>
+    <DONGIA>2822.99</DONGIA>
+    <MANGUON>1</MANGUON>
+    <GIABAN>0</GIABAN>
+  </Table>
+  <Table>
+    <STTT>0</STTT>
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Thuốc thường</TENNHOM>
+    <MABD>3323</MABD>
+    <MA>BIN001</MA>
+    <TEN>Binex Bilalus 1 g</TEN>
+    <TENHC>Lactobacillus acidophilus</TENHC>
+    <DANG>Gói</DANG>
+    <TONDAU>496.00</TONDAU>
+    <STTONDAU>595195.040000000000</STTONDAU>
+    <SLNHAP>0</SLNHAP>
+    <STNHAP>0</STNHAP>
+    <SLXUAT>416.00</SLXUAT>
+    <STXUAT>499195.840000000000</STXUAT>
+    <STT>5</STT>
+    <IDNN>126</IDNN>
+    <NOINGOAI>Thuốc đường tiêu hoá</NOINGOAI>
+    <SLXUAT_CK>2.00</SLXUAT_CK>
+    <STXUAT_CK>2399.980000000000</STXUAT_CK>
+    <SLNHAP_CK>0</SLNHAP_CK>
+    <STNHAP_CK>0</STNHAP_CK>
+    <DONGIA>1199.99</DONGIA>
+    <MANGUON>1</MANGUON>
+    <GIABAN>0</GIABAN>
+  </Table>
+  <Table>
+    <STTT>0</STTT>
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Thuốc thường</TENNHOM>
+    <MABD>3102</MABD>
+    <MA>CIM001</MA>
+    <TEN>Cimetidin 300 mg</TEN>
+    <TENHC>Cimetidin</TENHC>
+    <DANG>Viên</DANG>
+    <TONDAU>1771.00</TONDAU>
+    <STTONDAU>198830.170000000000</STTONDAU>
+    <SLNHAP>0</SLNHAP>
+    <STNHAP>0</STNHAP>
+    <SLXUAT>302.00</SLXUAT>
+    <STXUAT>33905.540000000000</STXUAT>
+    <STT>5</STT>
+    <IDNN>126</IDNN>
+    <NOINGOAI>Thuốc đường tiêu hoá</NOINGOAI>
+    <SLXUAT_CK>6.00</SLXUAT_CK>
+    <STXUAT_CK>673.620000000000</STXUAT_CK>
+    <SLNHAP_CK>0</SLNHAP_CK>
+    <STNHAP_CK>0</STNHAP_CK>
+    <DONGIA>112.27</DONGIA>
+    <MANGUON>1</MANGUON>
+    <GIABAN>0</GIABAN>
+  </Table>
+  <Table>
+    <STTT>0</STTT>
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Thuốc thường</TENNHOM>
+    <MABD>3126</MABD>
+    <MA>MOT001</MA>
+    <TEN>Motilium-M 10 mg</TEN>
+    <TENHC>Domperidone</TENHC>
+    <DANG>Viên</DANG>
+    <TONDAU>1365.00</TONDAU>
+    <STTONDAU>2047486.350000000000</STTONDAU>
+    <SLNHAP>1000.00</SLNHAP>
+    <STNHAP>1499998.500000000000</STNHAP>
+    <SLXUAT>1261.00</SLXUAT>
+    <STXUAT>1891493.170000000000</STXUAT>
+    <STT>5</STT>
+    <IDNN>126</IDNN>
+    <NOINGOAI>Thuốc đường tiêu hoá</NOINGOAI>
+    <SLXUAT_CK>42.00</SLXUAT_CK>
+    <STXUAT_CK>62999.784000000000</STXUAT_CK>
+    <SLNHAP_CK>0</SLNHAP_CK>
+    <STNHAP_CK>0</STNHAP_CK>
+    <DONGIA>1499.99</DONGIA>
+    <MANGUON>1</MANGUON>
+    <GIABAN>0</GIABAN>
+  </Table>
+  <Table>
+    <STTT>0</STTT>
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Thuốc thường</TENNHOM>
+    <MABD>3438</MABD>
+    <MA>NOS001</MA>
+    <TEN>Nospa 40mg</TEN>
+    <TENHC>Drotaverin</TENHC>
+    <DANG>Viên</DANG>
+    <TONDAU>0.00</TONDAU>
+    <STTONDAU>0.000000000000</STTONDAU>
+    <SLNHAP>1500.00</SLNHAP>
+    <STNHAP>787500.000000000000</STNHAP>
+    <SLXUAT>1046.00</SLXUAT>
+    <STXUAT>549150.000000000000</STXUAT>
+    <STT>5</STT>
+    <IDNN>126</IDNN>
+    <NOINGOAI>Thuốc đường tiêu hoá</NOINGOAI>
+    <SLXUAT_CK>40.00</SLXUAT_CK>
+    <STXUAT_CK>21000.000000000000</STXUAT_CK>
+    <SLNHAP_CK>0</SLNHAP_CK>
+    <STNHAP_CK>0</STNHAP_CK>
+    <DONGIA>525.00</DONGIA>
+    <MANGUON>1</MANGUON>
+    <GIABAN>0</GIABAN>
+  </Table>
+  <Table>
+    <STTT>0</STTT>
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Thuốc thường</TENNHOM>
+    <MABD>3686</MABD>
+    <MA>NOS003</MA>
+    <TEN>Nospa(KN) 40 mg</TEN>
+    <TENHC>Drotaverin</TENHC>
+    <DANG>Viên</DANG>
+    <TONDAU>844.00</TONDAU>
+    <STTONDAU>443100.000000000000</STTONDAU>
+    <SLNHAP>0</SLNHAP>
+    <STNHAP>0</STNHAP>
+    <SLXUAT>760.00</SLXUAT>
+    <STXUAT>399000.000000000000</STXUAT>
+    <STT>5</STT>
+    <IDNN>126</IDNN>
+    <NOINGOAI>Thuốc đường tiêu hoá</NOINGOAI>
+    <SLXUAT_CK>84.00</SLXUAT_CK>
+    <STXUAT_CK>44100.000000000000</STXUAT_CK>
+    <SLNHAP_CK>0</SLNHAP_CK>
+    <STNHAP_CK>0</STNHAP_CK>
+    <DONGIA>525.00</DONGIA>
+    <MANGUON>1</MANGUON>
+    <GIABAN>0</GIABAN>
+  </Table>
+  <Table>
+    <STTT>0</STTT>
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Thuốc thường</TENNHOM>
+    <MABD>3518</MABD>
+    <MA>OME002</MA>
+    <TEN>Omeprazol 20 mg</TEN>
+    <TENHC>Omeprazol</TENHC>
+    <DANG>Viên</DANG>
+    <TONDAU>1296.00</TONDAU>
+    <STTONDAU>567544.320000000000</STTONDAU>
+    <SLNHAP>0</SLNHAP>
+    <STNHAP>0</STNHAP>
+    <SLXUAT>984.00</SLXUAT>
+    <STXUAT>430913.280000000000</STXUAT>
+    <STT>5</STT>
+    <IDNN>126</IDNN>
+    <NOINGOAI>Thuốc đường tiêu hoá</NOINGOAI>
+    <SLXUAT_CK>45.00</SLXUAT_CK>
+    <STXUAT_CK>19706.400000000000</STXUAT_CK>
+    <SLNHAP_CK>0</SLNHAP_CK>
+    <STNHAP_CK>0</STNHAP_CK>
+    <DONGIA>437.92</DONGIA>
+    <MANGUON>1</MANGUON>
+    <GIABAN>0</GIABAN>
+  </Table>
+  <Table>
+    <STTT>0</STTT>
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Thuốc thường</TENNHOM>
+    <MABD>3734</MABD>
+    <MA>OME004</MA>
+    <TEN>Omeprazol 20mg</TEN>
+    <TENHC />
+    <DANG>Viên</DANG>
+    <TONDAU>0.00</TONDAU>
+    <STTONDAU>0.000000000000</STTONDAU>
+    <SLNHAP>1500.00</SLNHAP>
+    <STNHAP>524994.750000000000</STNHAP>
+    <SLXUAT>98.00</SLXUAT>
+    <STXUAT>34299.657000000000</STXUAT>
+    <STT>5</STT>
+    <IDNN>126</IDNN>
+    <NOINGOAI>Thuốc đường tiêu hoá</NOINGOAI>
+    <SLXUAT_CK>5.00</SLXUAT_CK>
+    <STXUAT_CK>1749.982500000000</STXUAT_CK>
+    <SLNHAP_CK>0</SLNHAP_CK>
+    <STNHAP_CK>0</STNHAP_CK>
+    <DONGIA>349.99</DONGIA>
+    <MANGUON>1</MANGUON>
+    <GIABAN>0</GIABAN>
+  </Table>
+  <Table>
+    <STTT>0</STTT>
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Thuốc thường</TENNHOM>
+    <MABD>3020</MABD>
+    <MA>PHO003</MA>
+    <TEN>Phosphalugel 12.38g</TEN>
+    <TENHC>Aluminium phosphate</TENHC>
+    <DANG>Gói</DANG>
+    <TONDAU>143.00</TONDAU>
+    <STTONDAU>435719.570000000000</STTONDAU>
+    <SLNHAP>780.00</SLNHAP>
+    <STNHAP>2376656.100000000000</STNHAP>
+    <SLXUAT>722.00</SLXUAT>
+    <STXUAT>2199930.390000000000</STXUAT>
+    <STT>5</STT>
+    <IDNN>126</IDNN>
+    <NOINGOAI>Thuốc đường tiêu hoá</NOINGOAI>
+    <SLXUAT_CK>38.00</SLXUAT_CK>
+    <STXUAT_CK>115785.810000000000</STXUAT_CK>
+    <SLNHAP_CK>0</SLNHAP_CK>
+    <STNHAP_CK>0</STNHAP_CK>
+    <DONGIA>3046.99</DONGIA>
+    <MANGUON>1</MANGUON>
+    <GIABAN>0</GIABAN>
+  </Table>
+  <Table>
+    <STTT>0</STTT>
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Thuốc thường</TENNHOM>
+    <MABD>3123</MABD>
+    <MA>SME001</MA>
+    <TEN>Smecta 3g</TEN>
+    <TENHC>Dioctahedral smectite</TENHC>
+    <DANG>Gói</DANG>
+    <TONDAU>0.00</TONDAU>
+    <STTONDAU>0.000000000000</STTONDAU>
+    <SLNHAP>600.00</SLNHAP>
+    <STNHAP>1792797.300000000000</STNHAP>
+    <SLXUAT>429.00</SLXUAT>
+    <STXUAT>1281850.069500000000</STXUAT>
+    <STT>5</STT>
+    <IDNN>126</IDNN>
+    <NOINGOAI>Thuốc đường tiêu hoá</NOINGOAI>
+    <SLXUAT_CK>8.00</SLXUAT_CK>
+    <STXUAT_CK>23903.964000000000</STXUAT_CK>
+    <SLNHAP_CK>0</SLNHAP_CK>
+    <STNHAP_CK>0</STNHAP_CK>
+    <DONGIA>2987.99</DONGIA>
+    <MANGUON>1</MANGUON>
+    <GIABAN>0</GIABAN>
+  </Table>
+  <Table>
+    <STTT>0</STTT>
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Thuốc thường</TENNHOM>
+    <MABD>3123</MABD>
+    <MA>SME001</MA>
+    <TEN>Smecta 3g</TEN>
+    <TENHC>Dioctahedral smectite</TENHC>
+    <DANG>Gói</DANG>
+    <TONDAU>291.00</TONDAU>
+    <STTONDAU>790550.970000000000</STTONDAU>
+    <SLNHAP>0</SLNHAP>
+    <STNHAP>0</STNHAP>
+    <SLXUAT>180.00</SLXUAT>
+    <STXUAT>489000.600000000000</STXUAT>
+    <STT>5</STT>
+    <IDNN>126</IDNN>
+    <NOINGOAI>Thuốc đường tiêu hoá</NOINGOAI>
+    <SLXUAT_CK>17.00</SLXUAT_CK>
+    <STXUAT_CK>46183.390000000000</STXUAT_CK>
+    <SLNHAP_CK>0</SLNHAP_CK>
+    <STNHAP_CK>0</STNHAP_CK>
+    <DONGIA>2716.67</DONGIA>
+    <MANGUON>1</MANGUON>
+    <GIABAN>0</GIABAN>
+  </Table>
+  <Table>
+    <STTT>0</STTT>
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Thuốc thường</TENNHOM>
+    <MABD>3622</MABD>
+    <MA>SUW001</MA>
+    <TEN>Suwelin 300 mg/ 2 ml</TEN>
+    <TENHC>Cimetidin</TENHC>
+    <DANG>Ống</DANG>
+    <TONDAU>0.00</TONDAU>
+    <STTONDAU>0.000000000000</STTONDAU>
+    <SLNHAP>194.00</SLNHAP>
+    <STNHAP>524731.200000000000</STNHAP>
+    <SLXUAT>95.00</SLXUAT>
+    <STXUAT>256956.000000000000</STXUAT>
+    <STT>5</STT>
+    <IDNN>126</IDNN>
+    <NOINGOAI>Thuốc đường tiêu hoá</NOINGOAI>
+    <SLXUAT_CK>1.00</SLXUAT_CK>
+    <STXUAT_CK>2704.800000000000</STXUAT_CK>
+    <SLNHAP_CK>0</SLNHAP_CK>
+    <STNHAP_CK>0</STNHAP_CK>
+    <DONGIA>2704.80</DONGIA>
+    <MANGUON>1</MANGUON>
+    <GIABAN>0</GIABAN>
+  </Table>
+  <Table>
+    <STTT>0</STTT>
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Thuốc thường</TENNHOM>
+    <MABD>3622</MABD>
+    <MA>SUW001</MA>
+    <TEN>Suwelin 300 mg/ 2 ml</TEN>
+    <TENHC>Cimetidin</TENHC>
+    <DANG>Ống</DANG>
+    <TONDAU>213.00</TONDAU>
+    <STTONDAU>603855.000000000000</STTONDAU>
+    <SLNHAP>6.00</SLNHAP>
+    <STNHAP>17010.000000000000</STNHAP>
+    <SLXUAT>103.00</SLXUAT>
+    <STXUAT>292005.000000000000</STXUAT>
+    <STT>5</STT>
+    <IDNN>126</IDNN>
+    <NOINGOAI>Thuốc đường tiêu hoá</NOINGOAI>
+    <SLXUAT_CK>25.00</SLXUAT_CK>
+    <STXUAT_CK>70875.000000000000</STXUAT_CK>
+    <SLNHAP_CK>0</SLNHAP_CK>
+    <STNHAP_CK>0</STNHAP_CK>
+    <DONGIA>2835.00</DONGIA>
+    <MANGUON>1</MANGUON>
+    <GIABAN>0</GIABAN>
+  </Table>
+  <Table>
+    <STTT>0</STTT>
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Thuốc thường</TENNHOM>
+    <MABD>3467</MABD>
+    <MA>DEC001</MA>
+    <TEN>Decoltractyl 250 mg</TEN>
+    <TENHC>Decoltractyl</TENHC>
+    <DANG>Viên</DANG>
+    <TONDAU>966.00</TONDAU>
+    <STTONDAU>736381.800000000000</STTONDAU>
+    <SLNHAP>0</SLNHAP>
+    <STNHAP>0</STNHAP>
+    <SLXUAT>464.00</SLXUAT>
+    <STXUAT>353707.200000000000</STXUAT>
+    <STT>5</STT>
+    <IDNN>129</IDNN>
+    <NOINGOAI>Thuốc giãn cơ và tăng trương lực cơ</NOINGOAI>
+    <SLXUAT_CK>38.00</SLXUAT_CK>
+    <STXUAT_CK>28967.400000000000</STXUAT_CK>
+    <SLNHAP_CK>0</SLNHAP_CK>
+    <STNHAP_CK>0</STNHAP_CK>
+    <DONGIA>762.30</DONGIA>
+    <MANGUON>1</MANGUON>
+    <GIABAN>0</GIABAN>
+  </Table>
+  <Table>
+    <STTT>0</STTT>
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Thuốc thường</TENNHOM>
+    <MABD>2976</MABD>
+    <MA>ACE001</MA>
+    <TEN>Acemuc 200 mg</TEN>
+    <TENHC>Acetyl cystein</TENHC>
+    <DANG>Gói</DANG>
+    <TONDAU>399.00</TONDAU>
+    <STTONDAU>660341.010000000000</STTONDAU>
+    <SLNHAP>810.00</SLNHAP>
+    <STNHAP>1340549.621250003000</STNHAP>
+    <SLXUAT>778.00</SLXUAT>
+    <STXUAT>1287585.877500000000</STXUAT>
+    <STT>5</STT>
+    <IDNN>133</IDNN>
+    <NOINGOAI>Thuốc tác dụng trên đường hô hấp</NOINGOAI>
+    <SLXUAT_CK>10.00</SLXUAT_CK>
+    <STXUAT_CK>16549.938000000000</STXUAT_CK>
+    <SLNHAP_CK>0</SLNHAP_CK>
+    <STNHAP_CK>0</STNHAP_CK>
+    <DONGIA>1654.99</DONGIA>
+    <MANGUON>1</MANGUON>
+    <GIABAN>0</GIABAN>
+  </Table>
+  <Table>
+    <STTT>0</STTT>
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Thuốc thường</TENNHOM>
+    <MABD>3191</MABD>
+    <MA>SAL001</MA>
+    <TEN>Salbutamol 2 mg</TEN>
+    <TENHC>Salbutamol</TENHC>
+    <DANG>Viên</DANG>
+    <TONDAU>0.00</TONDAU>
+    <STTONDAU>0.000000000000</STTONDAU>
+    <SLNHAP>2003.00</SLNHAP>
+    <STNHAP>80108.983500000000</STNHAP>
+    <SLXUAT>1548.00</SLXUAT>
+    <STXUAT>61911.486000000000</STXUAT>
+    <STT>5</STT>
+    <IDNN>133</IDNN>
+    <NOINGOAI>Thuốc tác dụng trên đường hô hấp</NOINGOAI>
+    <SLXUAT_CK>42.00</SLXUAT_CK>
+    <STXUAT_CK>1679.769000000000</STXUAT_CK>
+    <SLNHAP_CK>0</SLNHAP_CK>
+    <STNHAP_CK>0</STNHAP_CK>
+    <DONGIA>39.99</DONGIA>
+    <MANGUON>1</MANGUON>
+    <GIABAN>0</GIABAN>
+  </Table>
+  <Table>
+    <STTT>0</STTT>
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Thuốc thường</TENNHOM>
+    <MABD>3191</MABD>
+    <MA>SAL001</MA>
+    <TEN>Salbutamol 2 mg</TEN>
+    <TENHC>Salbutamol</TENHC>
+    <DANG>Viên</DANG>
+    <TONDAU>491.00</TONDAU>
+    <STTONDAU>18167.000000000000</STTONDAU>
+    <SLNHAP>0</SLNHAP>
+    <STNHAP>0</STNHAP>
+    <SLXUAT>387.00</SLXUAT>
+    <STXUAT>14319.000000000000</STXUAT>
+    <STT>5</STT>
+    <IDNN>133</IDNN>
+    <NOINGOAI>Thuốc tác dụng trên đường hô hấp</NOINGOAI>
+    <SLXUAT_CK>3.00</SLXUAT_CK>
+    <STXUAT_CK>111.000000000000</STXUAT_CK>
+    <SLNHAP_CK>0</SLNHAP_CK>
+    <STNHAP_CK>0</STNHAP_CK>
+    <DONGIA>37.00</DONGIA>
+    <MANGUON>1</MANGUON>
+    <GIABAN>0</GIABAN>
+  </Table>
+  <Table>
+    <STTT>0</STTT>
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Thuốc thường</TENNHOM>
+    <MABD>3357</MABD>
+    <MA>TER001</MA>
+    <TEN>Terpincodein </TEN>
+    <TENHC>Terpincodein</TENHC>
+    <DANG>Viên</DANG>
+    <TONDAU>652.00</TONDAU>
+    <STTONDAU>108232.000000000000</STTONDAU>
+    <SLNHAP>1000.00</SLNHAP>
+    <STNHAP>166005.000000000000</STNHAP>
+    <SLXUAT>1199.00</SLXUAT>
+    <STXUAT>199036.830000000000</STXUAT>
+    <STT>5</STT>
+    <IDNN>133</IDNN>
+    <NOINGOAI>Thuốc tác dụng trên đường hô hấp</NOINGOAI>
+    <SLXUAT_CK>31.00</SLXUAT_CK>
+    <STXUAT_CK>5146.060000000000</STXUAT_CK>
+    <SLNHAP_CK>0</SLNHAP_CK>
+    <STNHAP_CK>0</STNHAP_CK>
+    <DONGIA>166.00</DONGIA>
+    <MANGUON>1</MANGUON>
+    <GIABAN>0</GIABAN>
+  </Table>
+  <Table>
+    <STTT>0</STTT>
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Thuốc thường</TENNHOM>
+    <MABD>3013</MABD>
+    <MA>THE001</MA>
+    <TEN>Theralen 5 mg</TEN>
+    <TENHC>Alimemazine</TENHC>
+    <DANG>Viên</DANG>
+    <TONDAU>138.00</TONDAU>
+    <STTONDAU>50859.900000000000</STTONDAU>
+    <SLNHAP>1004.00</SLNHAP>
+    <STNHAP>370024.200000000000</STNHAP>
+    <SLXUAT>1016.00</SLXUAT>
+    <STXUAT>374446.800000000000</STXUAT>
+    <STT>5</STT>
+    <IDNN>133</IDNN>
+    <NOINGOAI>Thuốc tác dụng trên đường hô hấp</NOINGOAI>
+    <SLXUAT_CK>4.00</SLXUAT_CK>
+    <STXUAT_CK>1474.200000000000</STXUAT_CK>
+    <SLNHAP_CK>0</SLNHAP_CK>
+    <STNHAP_CK>0</STNHAP_CK>
+    <DONGIA>368.55</DONGIA>
+    <MANGUON>1</MANGUON>
+    <GIABAN>0</GIABAN>
+  </Table>
+  <Table>
+    <STTT>0</STTT>
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Thuốc thường</TENNHOM>
+    <MABD>3196</MABD>
+    <MA>VEN001</MA>
+    <TEN>Ventolin 2,5 mg/2,5ml</TEN>
+    <TENHC>Salbutamol</TENHC>
+    <DANG>Ống</DANG>
+    <TONDAU>244.00</TONDAU>
+    <STTONDAU>1093120.000000000000</STTONDAU>
+    <SLNHAP>600.00</SLNHAP>
+    <STNHAP>2688002.100000000000</STNHAP>
+    <SLXUAT>649.00</SLXUAT>
+    <STXUAT>2907521.417500000000</STXUAT>
+    <STT>5</STT>
+    <IDNN>133</IDNN>
+    <NOINGOAI>Thuốc tác dụng trên đường hô hấp</NOINGOAI>
+    <SLXUAT_CK>28.00</SLXUAT_CK>
+    <STXUAT_CK>125440.098000000000</STXUAT_CK>
+    <SLNHAP_CK>0</SLNHAP_CK>
+    <STNHAP_CK>0</STNHAP_CK>
+    <DONGIA>4480.00</DONGIA>
+    <MANGUON>1</MANGUON>
+    <GIABAN>0</GIABAN>
+  </Table>
+  <Table>
+    <STTT>0</STTT>
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Thuốc thường</TENNHOM>
+    <MABD>3134</MABD>
+    <MA>AMI005</MA>
+    <TEN>Aminoplasma 10% 500ml</TEN>
+    <TENHC>DD Acid Amin</TENHC>
+    <DANG>Chai</DANG>
+    <TONDAU>49.00</TONDAU>
+    <STTONDAU>4836691.510000000000</STTONDAU>
+    <SLNHAP>150.00</SLNHAP>
+    <STNHAP>14806198.575000000000</STNHAP>
+    <SLXUAT>177.00</SLXUAT>
+    <STXUAT>17471314.296500000000</STXUAT>
+    <STT>5</STT>
+    <IDNN>134</IDNN>
+    <NOINGOAI>Dung dịch điều chỉnh nước, điện giải và cân bằng acid-base</NOINGOAI>
+    <SLXUAT_CK>22.00</SLXUAT_CK>
+    <STXUAT_CK>2171575.788500000000</STXUAT_CK>
+    <SLNHAP_CK>0</SLNHAP_CK>
+    <STNHAP_CK>0</STNHAP_CK>
+    <DONGIA>98707.99</DONGIA>
+    <MANGUON>1</MANGUON>
+    <GIABAN>0</GIABAN>
+  </Table>
+  <Table>
+    <STTT>0</STTT>
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Thuốc thường</TENNHOM>
+    <MABD>3136</MABD>
+    <MA>AMI007</MA>
+    <TEN>Aminoplasma 5% 500 ml</TEN>
+    <TENHC>DD Acid Amin</TENHC>
+    <DANG>Chai</DANG>
+    <TONDAU>0.00</TONDAU>
+    <STTONDAU>0.000000000000</STTONDAU>
+    <SLNHAP>220.00</SLNHAP>
+    <STNHAP>15861780.000000000000</STNHAP>
+    <SLXUAT>207.00</SLXUAT>
+    <STXUAT>14924493.000000000000</STXUAT>
+    <STT>5</STT>
+    <IDNN>134</IDNN>
+    <NOINGOAI>Dung dịch điều chỉnh nước, điện giải và cân bằng acid-base</NOINGOAI>
+    <SLXUAT_CK>13.00</SLXUAT_CK>
+    <STXUAT_CK>937287.000000000000</STXUAT_CK>
+    <SLNHAP_CK>0</SLNHAP_CK>
+    <STNHAP_CK>0</STNHAP_CK>
+    <DONGIA>72099.00</DONGIA>
+    <MANGUON>1</MANGUON>
+    <GIABAN>0</GIABAN>
+  </Table>
+  <Table>
+    <STTT>0</STTT>
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Thuốc thường</TENNHOM>
+    <MABD>3136</MABD>
+    <MA>AMI007</MA>
+    <TEN>Aminoplasma 5% 500 ml</TEN>
+    <TENHC>DD Acid Amin</TENHC>
+    <DANG>Chai</DANG>
+    <TONDAU>89.00</TONDAU>
+    <STTONDAU>6416810.110000000000</STTONDAU>
+    <SLNHAP>80.00</SLNHAP>
+    <STNHAP>5767919.640000000000</STNHAP>
+    <SLXUAT>122.00</SLXUAT>
+    <STXUAT>8796077.066000000000</STXUAT>
+    <STT>5</STT>
+    <IDNN>134</IDNN>
+    <NOINGOAI>Dung dịch điều chỉnh nước, điện giải và cân bằng acid-base</NOINGOAI>
+    <SLXUAT_CK>19.00</SLXUAT_CK>
+    <STXUAT_CK>1369880.810000000000</STXUAT_CK>
+    <SLNHAP_CK>0</SLNHAP_CK>
+    <STNHAP_CK>0</STNHAP_CK>
+    <DONGIA>72098.99</DONGIA>
+    <MANGUON>1</MANGUON>
+    <GIABAN>0</GIABAN>
+  </Table>
+  <Table>
+    <STTT>0</STTT>
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Thuốc thường</TENNHOM>
+    <MABD>3445</MABD>
+    <MA>AMI008</MA>
+    <TEN>Aminoplasma HEPA 10% 500 ml</TEN>
+    <TENHC>DD Acid Amin</TENHC>
+    <DANG>Chai</DANG>
+    <TONDAU>8.00</TONDAU>
+    <STTONDAU>1241520.000000000000</STTONDAU>
+    <SLNHAP>20.00</SLNHAP>
+    <STNHAP>3103800.000000000000</STNHAP>
+    <SLXUAT>10.00</SLXUAT>
+    <STXUAT>1551900.000000000000</STXUAT>
+    <STT>5</STT>
+    <IDNN>134</IDNN>
+    <NOINGOAI>Dung dịch điều chỉnh nước, điện giải và cân bằng acid-base</NOINGOAI>
+    <SLXUAT_CK>5.00</SLXUAT_CK>
+    <STXUAT_CK>775950.000000000000</STXUAT_CK>
+    <SLNHAP_CK>0</SLNHAP_CK>
+    <STNHAP_CK>0</STNHAP_CK>
+    <DONGIA>155190.00</DONGIA>
+    <MANGUON>1</MANGUON>
+    <GIABAN>0</GIABAN>
+  </Table>
+  <Table>
+    <STTT>0</STTT>
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Thuốc thường</TENNHOM>
+    <MABD>3130</MABD>
+    <MA>CAL002</MA>
+    <TEN>Calci chloride 10% 5ml</TEN>
+    <TENHC>Calci chloride</TENHC>
+    <DANG>Ống</DANG>
+    <TONDAU>160.00</TONDAU>
+    <STTONDAU>134400.000000000000</STTONDAU>
+    <SLNHAP>200.00</SLNHAP>
+    <STNHAP>168000.000000000000</STNHAP>
+    <SLXUAT>154.50</SLXUAT>
+    <STXUAT>129780.000000000000</STXUAT>
+    <STT>5</STT>
+    <IDNN>134</IDNN>
+    <NOINGOAI>Dung dịch điều chỉnh nước, điện giải và cân bằng acid-base</NOINGOAI>
+    <SLXUAT_CK>13.00</SLXUAT_CK>
+    <STXUAT_CK>10920.000000000000</STXUAT_CK>
+    <SLNHAP_CK>0</SLNHAP_CK>
+    <STNHAP_CK>0</STNHAP_CK>
+    <DONGIA>840.00</DONGIA>
+    <MANGUON>1</MANGUON>
+    <GIABAN>0</GIABAN>
+  </Table>
+  <Table>
+    <STTT>0</STTT>
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Thuốc thường</TENNHOM>
+    <MABD>3143</MABD>
+    <MA>GLU002</MA>
+    <TEN>Glucose 10% 500 ml</TEN>
+    <TENHC>Glucose</TENHC>
+    <DANG>Chai</DANG>
+    <TONDAU>130.00</TONDAU>
+    <STTONDAU>953160.000000000000</STTONDAU>
+    <SLNHAP>1600.00</SLNHAP>
+    <STNHAP>11731203.510638300000</STNHAP>
+    <SLXUAT>1285.00</SLXUAT>
+    <STXUAT>9421622.613000000000</STXUAT>
+    <STT>5</STT>
+    <IDNN>134</IDNN>
+    <NOINGOAI>Dung dịch điều chỉnh nước, điện giải và cân bằng acid-base</NOINGOAI>
+    <SLXUAT_CK>231.00</SLXUAT_CK>
+    <STXUAT_CK>1693692.345000000000</STXUAT_CK>
+    <SLNHAP_CK>0</SLNHAP_CK>
+    <STNHAP_CK>0</STNHAP_CK>
+    <DONGIA>7332.00</DONGIA>
+    <MANGUON>1</MANGUON>
+    <GIABAN>0</GIABAN>
+  </Table>
+  <Table>
+    <STTT>0</STTT>
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Thuốc thường</TENNHOM>
+    <MABD>3147</MABD>
+    <MA>GLU005</MA>
+    <TEN>Glucose 5% 500 ml</TEN>
+    <TENHC>Glucose</TENHC>
+    <DANG>Chai</DANG>
+    <TONDAU>108.00</TONDAU>
+    <STTONDAU>664416.000000000000</STTONDAU>
+    <SLNHAP>1300.00</SLNHAP>
+    <STNHAP>7997600.000000000000</STNHAP>
+    <SLXUAT>1069.00</SLXUAT>
+    <STXUAT>6576488.000000000000</STXUAT>
+    <STT>5</STT>
+    <IDNN>134</IDNN>
+    <NOINGOAI>Dung dịch điều chỉnh nước, điện giải và cân bằng acid-base</NOINGOAI>
+    <SLXUAT_CK>49.00</SLXUAT_CK>
+    <STXUAT_CK>301448.000000000000</STXUAT_CK>
+    <SLNHAP_CK>0</SLNHAP_CK>
+    <STNHAP_CK>0</STNHAP_CK>
+    <DONGIA>6152.00</DONGIA>
+    <MANGUON>1</MANGUON>
+    <GIABAN>0</GIABAN>
+  </Table>
+  <Table>
+    <STTT>0</STTT>
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Thuốc thường</TENNHOM>
+    <MABD>3600</MABD>
+    <MA>LAC001</MA>
+    <TEN>Lactate ringer 500 ml</TEN>
+    <TENHC>Lactate ringer</TENHC>
+    <DANG>Chai</DANG>
+    <TONDAU>136.00</TONDAU>
+    <STTONDAU>931326.640000000000</STTONDAU>
+    <SLNHAP>3200.00</SLNHAP>
+    <STNHAP>21913584.000000000000</STNHAP>
+    <SLXUAT>2812.00</SLXUAT>
+    <STXUAT>19256561.495000000000</STXUAT>
+    <STT>5</STT>
+    <IDNN>134</IDNN>
+    <NOINGOAI>Dung dịch điều chỉnh nước, điện giải và cân bằng acid-base</NOINGOAI>
+    <SLXUAT_CK>350.00</SLXUAT_CK>
+    <STXUAT_CK>2396798.015000000000</STXUAT_CK>
+    <SLNHAP_CK>0</SLNHAP_CK>
+    <STNHAP_CK>0</STNHAP_CK>
+    <DONGIA>6847.99</DONGIA>
+    <MANGUON>1</MANGUON>
+    <GIABAN>0</GIABAN>
+  </Table>
+  <Table>
+    <STTT>0</STTT>
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Thuốc thường</TENNHOM>
+    <MABD>3404</MABD>
+    <MA>MAN001</MA>
+    <TEN>Manitol 20% 250 ml</TEN>
+    <TENHC>Manitol</TENHC>
+    <DANG>Chai</DANG>
+    <TONDAU>163.00</TONDAU>
+    <STTONDAU>2360892.000000000000</STTONDAU>
+    <SLNHAP>144.00</SLNHAP>
+    <STNHAP>2085696.000000000000</STNHAP>
+    <SLXUAT>233.00</SLXUAT>
+    <STXUAT>3374772.000000000000</STXUAT>
+    <STT>5</STT>
+    <IDNN>134</IDNN>
+    <NOINGOAI>Dung dịch điều chỉnh nước, điện giải và cân bằng acid-base</NOINGOAI>
+    <SLXUAT_CK>6.00</SLXUAT_CK>
+    <STXUAT_CK>86904.000000000000</STXUAT_CK>
+    <SLNHAP_CK>0</SLNHAP_CK>
+    <STNHAP_CK>0</STNHAP_CK>
+    <DONGIA>14484.00</DONGIA>
+    <MANGUON>1</MANGUON>
+    <GIABAN>0</GIABAN>
+  </Table>
+  <Table>
+    <STTT>0</STTT>
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Thuốc thường</TENNHOM>
+    <MABD>3111</MABD>
+    <MA>NAT001</MA>
+    <TEN>Natri chloride (k n) 0.9% 500 ml</TEN>
+    <TENHC>NaCl</TENHC>
+    <DANG>Chai</DANG>
+    <TONDAU>0.00</TONDAU>
+    <STTONDAU>0.000000000000</STTONDAU>
+    <SLNHAP>413.00</SLNHAP>
+    <STNHAP>2418115.000000000000</STNHAP>
+    <SLXUAT>362.00</SLXUAT>
+    <STXUAT>2119510.000000000000</STXUAT>
+    <STT>5</STT>
+    <IDNN>134</IDNN>
+    <NOINGOAI>Dung dịch điều chỉnh nước, điện giải và cân bằng acid-base</NOINGOAI>
+    <SLXUAT_CK>51.00</SLXUAT_CK>
+    <STXUAT_CK>298605.000000000000</STXUAT_CK>
+    <SLNHAP_CK>0</SLNHAP_CK>
+    <STNHAP_CK>0</STNHAP_CK>
+    <DONGIA>5855.00</DONGIA>
+    <MANGUON>1</MANGUON>
+    <GIABAN>0</GIABAN>
+  </Table>
+  <Table>
+    <STTT>0</STTT>
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Thuốc thường</TENNHOM>
+    <MABD>3111</MABD>
+    <MA>NAT001</MA>
+    <TEN>Natri chloride (k n) 0.9% 500 ml</TEN>
+    <TENHC>NaCl</TENHC>
+    <DANG>Chai</DANG>
+    <TONDAU>0.00</TONDAU>
+    <STTONDAU>0.000000000000</STTONDAU>
+    <SLNHAP>1500.00</SLNHAP>
+    <STNHAP>8782499.082446850000</STNHAP>
+    <SLXUAT>1237.25</SLXUAT>
+    <STXUAT>7244097.993171576775</STXUAT>
+    <STT>5</STT>
+    <IDNN>134</IDNN>
+    <NOINGOAI>Dung dịch điều chỉnh nước, điện giải và cân bằng acid-base</NOINGOAI>
+    <SLXUAT_CK>28.00</SLXUAT_CK>
+    <STXUAT_CK>163939.982872341200</STXUAT_CK>
+    <SLNHAP_CK>0</SLNHAP_CK>
+    <STNHAP_CK>0</STNHAP_CK>
+    <DONGIA>5854.99</DONGIA>
+    <MANGUON>1</MANGUON>
+    <GIABAN>0</GIABAN>
+  </Table>
+  <Table>
+    <STTT>0</STTT>
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Thuốc thường</TENNHOM>
+    <MABD>3148</MABD>
+    <MA>NAT002</MA>
+    <TEN>Natrichlorid 0.9% 500 ml</TEN>
+    <TENHC>NaCl</TENHC>
+    <DANG>Chai</DANG>
+    <TONDAU>0.00</TONDAU>
+    <STTONDAU>0.000000000000</STTONDAU>
+    <SLNHAP>700.00</SLNHAP>
+    <STNHAP>4098500.000000000000</STNHAP>
+    <SLXUAT>678.00</SLXUAT>
+    <STXUAT>3969690.000000000000</STXUAT>
+    <STT>5</STT>
+    <IDNN>134</IDNN>
+    <NOINGOAI>Dung dịch điều chỉnh nước, điện giải và cân bằng acid-base</NOINGOAI>
+    <SLXUAT_CK>22.00</SLXUAT_CK>
+    <STXUAT_CK>128810.000000000000</STXUAT_CK>
+    <SLNHAP_CK>0</SLNHAP_CK>
+    <STNHAP_CK>0</STNHAP_CK>
+    <DONGIA>5855.00</DONGIA>
+    <MANGUON>1</MANGUON>
+    <GIABAN>0</GIABAN>
+  </Table>
+  <Table>
+    <STTT>0</STTT>
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Thuốc thường</TENNHOM>
+    <MABD>3148</MABD>
+    <MA>NAT002</MA>
+    <TEN>Natrichlorid 0.9% 500 ml</TEN>
+    <TENHC>NaCl</TENHC>
+    <DANG>Chai</DANG>
+    <TONDAU>144.00</TONDAU>
+    <STTONDAU>843119.000000006400</STTONDAU>
+    <SLNHAP>1000.00</SLNHAP>
+    <STNHAP>5854999.500000000000</STNHAP>
+    <SLXUAT>1066.00</SLXUAT>
+    <STXUAT>6241428.771000004800</STXUAT>
+    <STT>5</STT>
+    <IDNN>134</IDNN>
+    <NOINGOAI>Dung dịch điều chỉnh nước, điện giải và cân bằng acid-base</NOINGOAI>
+    <SLXUAT_CK>78.00</SLXUAT_CK>
+    <STXUAT_CK>456689.729000001600</STXUAT_CK>
+    <SLNHAP_CK>0</SLNHAP_CK>
+    <STNHAP_CK>0</STNHAP_CK>
+    <DONGIA>5854.99</DONGIA>
+    <MANGUON>1</MANGUON>
+    <GIABAN>0</GIABAN>
+  </Table>
+  <Table>
+    <STTT>0</STTT>
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Thuốc thường</TENNHOM>
+    <MABD>3401</MABD>
+    <MA>VIT007</MA>
+    <TEN>Vitamin 3B </TEN>
+    <TENHC>Vitamin B1 125mg + Vita B6 125mg + Vita B12 125mg</TENHC>
+    <DANG>Viên</DANG>
+    <TONDAU>0.00</TONDAU>
+    <STTONDAU>0.000000000000</STTONDAU>
+    <SLNHAP>4000.00</SLNHAP>
+    <STNHAP>639996.000000000000</STNHAP>
+    <SLXUAT>2848.00</SLXUAT>
+    <STXUAT>455677.152000000000</STXUAT>
+    <STT>5</STT>
+    <IDNN>135</IDNN>
+    <NOINGOAI>Khoáng chất và vitamin</NOINGOAI>
+    <SLXUAT_CK>33.00</SLXUAT_CK>
+    <STXUAT_CK>5279.967000000000</STXUAT_CK>
+    <SLNHAP_CK>0</SLNHAP_CK>
+    <STNHAP_CK>0</STNHAP_CK>
+    <DONGIA>159.99</DONGIA>
+    <MANGUON>1</MANGUON>
+    <GIABAN>0</GIABAN>
+  </Table>
+  <Table>
+    <STTT>0</STTT>
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Thuốc thường</TENNHOM>
+    <MABD>3401</MABD>
+    <MA>VIT007</MA>
+    <TEN>Vitamin 3B </TEN>
+    <TENHC>Vitamin B1 125mg + Vita B6 125mg + Vita B12 125mg</TENHC>
+    <DANG>Viên</DANG>
+    <TONDAU>885.00</TONDAU>
+    <STTONDAU>139387.500000000000</STTONDAU>
+    <SLNHAP>0</SLNHAP>
+    <STNHAP>0</STNHAP>
+    <SLXUAT>485.00</SLXUAT>
+    <STXUAT>76387.500000000000</STXUAT>
+    <STT>5</STT>
+    <IDNN>135</IDNN>
+    <NOINGOAI>Khoáng chất và vitamin</NOINGOAI>
+    <SLXUAT_CK>39.00</SLXUAT_CK>
+    <STXUAT_CK>6142.500000000000</STXUAT_CK>
+    <SLNHAP_CK>0</SLNHAP_CK>
+    <STNHAP_CK>0</STNHAP_CK>
+    <DONGIA>157.50</DONGIA>
+    <MANGUON>1</MANGUON>
+    <GIABAN>0</GIABAN>
+  </Table>
+  <Table>
+    <STTT>0</STTT>
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Thuốc thường</TENNHOM>
+    <MABD>3415</MABD>
+    <MA>VIT014</MA>
+    <TEN>vitamin C 250 mg</TEN>
+    <TENHC>vitamin C</TENHC>
+    <DANG>Viên</DANG>
+    <TONDAU>62.00</TONDAU>
+    <STTONDAU>6200.000000000000</STTONDAU>
+    <SLNHAP>400.00</SLNHAP>
+    <STNHAP>40000.000000000000</STNHAP>
+    <SLXUAT>280.00</SLXUAT>
+    <STXUAT>28000.000000000000</STXUAT>
+    <STT>5</STT>
+    <IDNN>135</IDNN>
+    <NOINGOAI>Khoáng chất và vitamin</NOINGOAI>
+    <SLXUAT_CK>4.00</SLXUAT_CK>
+    <STXUAT_CK>400.000000000000</STXUAT_CK>
+    <SLNHAP_CK>0</SLNHAP_CK>
+    <STNHAP_CK>0</STNHAP_CK>
+    <DONGIA>100.00</DONGIA>
+    <MANGUON>1</MANGUON>
+    <GIABAN>0</GIABAN>
+  </Table>
+  <Table>
+    <STTT>0</STTT>
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Thuốc thường</TENNHOM>
+    <MABD>3332</MABD>
+    <MA>VIT004</MA>
+    <TEN>Vitamin C 500 mg</TEN>
+    <TENHC>Vitamin C</TENHC>
+    <DANG>Viên</DANG>
+    <TONDAU>29.00</TONDAU>
+    <STTONDAU>3190.000000000000</STTONDAU>
+    <SLNHAP>4000.00</SLNHAP>
+    <STNHAP>440000.000000000000</STNHAP>
+    <SLXUAT>3708.00</SLXUAT>
+    <STXUAT>407880.000000000000</STXUAT>
+    <STT>5</STT>
+    <IDNN>135</IDNN>
+    <NOINGOAI>Khoáng chất và vitamin</NOINGOAI>
+    <SLXUAT_CK>321.00</SLXUAT_CK>
+    <STXUAT_CK>35310.000000000000</STXUAT_CK>
+    <SLNHAP_CK>0</SLNHAP_CK>
+    <STNHAP_CK>0</STNHAP_CK>
+    <DONGIA>110.00</DONGIA>
+    <MANGUON>1</MANGUON>
+    <GIABAN>0</GIABAN>
+  </Table>
+  <Table>
+    <STTT>0</STTT>
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Thuốc thường</TENNHOM>
+    <MABD>3332</MABD>
+    <MA>VIT004</MA>
+    <TEN>Vitamin C 500 mg</TEN>
+    <TENHC>Vitamin C</TENHC>
+    <DANG>Viên</DANG>
+    <TONDAU>1865.00</TONDAU>
+    <STTONDAU>205131.350000000000</STTONDAU>
+    <SLNHAP>0</SLNHAP>
+    <STNHAP>0</STNHAP>
+    <SLXUAT>1259.00</SLXUAT>
+    <STXUAT>138477.410000000000</STXUAT>
+    <STT>5</STT>
+    <IDNN>135</IDNN>
+    <NOINGOAI>Khoáng chất và vitamin</NOINGOAI>
+    <SLXUAT_CK>129.00</SLXUAT_CK>
+    <STXUAT_CK>14188.710000000000</STXUAT_CK>
+    <SLNHAP_CK>0</SLNHAP_CK>
+    <STNHAP_CK>0</STNHAP_CK>
+    <DONGIA>109.99</DONGIA>
+    <MANGUON>1</MANGUON>
+    <GIABAN>0</GIABAN>
+  </Table>
+  <Table>
+    <STTT>0</STTT>
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Thuốc thường</TENNHOM>
+    <MABD>3410</MABD>
+    <MA>VIT011</MA>
+    <TEN>Vitamin C 500 mg</TEN>
+    <TENHC>Vitamin C</TENHC>
+    <DANG>Ống</DANG>
+    <TONDAU>0.00</TONDAU>
+    <STTONDAU>0.000000000000</STTONDAU>
+    <SLNHAP>386.00</SLNHAP>
+    <STNHAP>924883.020000000000</STNHAP>
+    <SLXUAT>173.00</SLXUAT>
+    <STXUAT>414520.110000000000</STXUAT>
+    <STT>5</STT>
+    <IDNN>135</IDNN>
+    <NOINGOAI>Khoáng chất và vitamin</NOINGOAI>
+    <SLXUAT_CK>5.00</SLXUAT_CK>
+    <STXUAT_CK>11980.350000000000</STXUAT_CK>
+    <SLNHAP_CK>0</SLNHAP_CK>
+    <STNHAP_CK>0</STNHAP_CK>
+    <DONGIA>2396.07</DONGIA>
+    <MANGUON>1</MANGUON>
+    <GIABAN>0</GIABAN>
+  </Table>
+  <Table>
+    <STTT>0</STTT>
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Thuốc thường</TENNHOM>
+    <MABD>3410</MABD>
+    <MA>VIT011</MA>
+    <TEN>Vitamin C 500 mg</TEN>
+    <TENHC>Vitamin C</TENHC>
+    <DANG>Ống</DANG>
+    <TONDAU>559.00</TONDAU>
+    <STTONDAU>1335898.200000000000</STTONDAU>
+    <SLNHAP>114.00</SLNHAP>
+    <STNHAP>272437.200000000000</STNHAP>
+    <SLXUAT>203.00</SLXUAT>
+    <STXUAT>485129.400000000000</STXUAT>
+    <STT>5</STT>
+    <IDNN>135</IDNN>
+    <NOINGOAI>Khoáng chất và vitamin</NOINGOAI>
+    <SLXUAT_CK>61.00</SLXUAT_CK>
+    <STXUAT_CK>145777.800000000000</STXUAT_CK>
+    <SLNHAP_CK>0</SLNHAP_CK>
+    <STNHAP_CK>0</STNHAP_CK>
+    <DONGIA>2389.80</DONGIA>
+    <MANGUON>1</MANGUON>
+    <GIABAN>0</GIABAN>
+  </Table>
+  <Table>
+    <STTT>0</STTT>
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Thuốc thường</TENNHOM>
+    <MABD>3418</MABD>
+    <MA>VIT015</MA>
+    <TEN>Vitamin E 400UI</TEN>
+    <TENHC>Vitamin E</TENHC>
+    <DANG>Viên</DANG>
+    <TONDAU>2.00</TONDAU>
+    <STTONDAU>672.000000000000</STTONDAU>
+    <SLNHAP>300.00</SLNHAP>
+    <STNHAP>100800.000000000000</STNHAP>
+    <SLXUAT>284.00</SLXUAT>
+    <STXUAT>95424.000000000000</STXUAT>
+    <STT>5</STT>
+    <IDNN>135</IDNN>
+    <NOINGOAI>Khoáng chất và vitamin</NOINGOAI>
+    <SLXUAT_CK>18.00</SLXUAT_CK>
+    <STXUAT_CK>6048.000000000000</STXUAT_CK>
+    <SLNHAP_CK>0</SLNHAP_CK>
+    <STNHAP_CK>0</STNHAP_CK>
+    <DONGIA>336.00</DONGIA>
+    <MANGUON>1</MANGUON>
+    <GIABAN>0</GIABAN>
+  </Table>
+  <Table>
+    <STTT>0</STTT>
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Thuốc thường</TENNHOM>
+    <MABD>3418</MABD>
+    <MA>VIT015</MA>
+    <TEN>Vitamin E 400UI</TEN>
+    <TENHC>Vitamin E</TENHC>
+    <DANG>Viên</DANG>
+    <TONDAU>484.00</TONDAU>
+    <STTONDAU>162522.360000000000</STTONDAU>
+    <SLNHAP>0</SLNHAP>
+    <STNHAP>0</STNHAP>
+    <SLXUAT>151.00</SLXUAT>
+    <STXUAT>50704.290000000000</STXUAT>
+    <STT>5</STT>
+    <IDNN>135</IDNN>
+    <NOINGOAI>Khoáng chất và vitamin</NOINGOAI>
+    <SLXUAT_CK>17.00</SLXUAT_CK>
+    <STXUAT_CK>5708.430000000000</STXUAT_CK>
+    <SLNHAP_CK>0</SLNHAP_CK>
+    <STNHAP_CK>0</STNHAP_CK>
+    <DONGIA>335.79</DONGIA>
+    <MANGUON>1</MANGUON>
+    <GIABAN>0</GIABAN>
+  </Table>
+  <Table>
+    <STTT>0</STTT>
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Thuốc thường</TENNHOM>
+    <MABD>3499</MABD>
+    <MA>DIA002</MA>
+    <TEN>Diamicron 80 mg</TEN>
+    <TENHC>Gliclazide</TENHC>
+    <DANG>Viên</DANG>
+    <TONDAU>455.00</TONDAU>
+    <STTONDAU>682500.000000000000</STTONDAU>
+    <SLNHAP>0</SLNHAP>
+    <STNHAP>0</STNHAP>
+    <SLXUAT>298.00</SLXUAT>
+    <STXUAT>447000.000000000000</STXUAT>
+    <STT>5</STT>
+    <IDNN>136</IDNN>
+    <NOINGOAI>Thuốc hạ đường huyết dùng đường uống</NOINGOAI>
+    <SLXUAT_CK>2.00</SLXUAT_CK>
+    <STXUAT_CK>3000.000000000000</STXUAT_CK>
+    <SLNHAP_CK>0</SLNHAP_CK>
+    <STNHAP_CK>0</STNHAP_CK>
+    <DONGIA>1500.00</DONGIA>
+    <MANGUON>1</MANGUON>
+    <GIABAN>0</GIABAN>
+  </Table>
+  <Table>
+    <STTT>0</STTT>
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Thuốc thường</TENNHOM>
+    <MABD>3441</MABD>
+    <MA>NOO001</MA>
+    <TEN>Nootropyl 3 g</TEN>
+    <TENHC>Piracetam</TENHC>
+    <DANG>Ống</DANG>
+    <TONDAU>48.00</TONDAU>
+    <STTONDAU>1298902.080000000000</STTONDAU>
+    <SLNHAP>40.00</SLNHAP>
+    <STNHAP>1082418.400000000000</STNHAP>
+    <SLXUAT>58.00</SLXUAT>
+    <STXUAT>1569506.680000000000</STXUAT>
+    <STT>5</STT>
+    <IDNN>137</IDNN>
+    <NOINGOAI>Thuốc tăng cường tuần hoàn não</NOINGOAI>
+    <SLXUAT_CK>1.00</SLXUAT_CK>
+    <STXUAT_CK>27060.460000000000</STXUAT_CK>
+    <SLNHAP_CK>0</SLNHAP_CK>
+    <STNHAP_CK>0</STNHAP_CK>
+    <DONGIA>27060.46</DONGIA>
+    <MANGUON>1</MANGUON>
+    <GIABAN>0</GIABAN>
+  </Table>
+  <Table>
+    <STTT>0</STTT>
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Thuốc thường</TENNHOM>
+    <MABD>3643</MABD>
+    <MA>PIR002</MA>
+    <TEN>Piracetam 400 mg</TEN>
+    <TENHC>Piracetam</TENHC>
+    <DANG>Viên</DANG>
+    <TONDAU>568.00</TONDAU>
+    <STTONDAU>323771.360000000000</STTONDAU>
+    <SLNHAP>0</SLNHAP>
+    <STNHAP>0</STNHAP>
+    <SLXUAT>20.00</SLXUAT>
+    <STXUAT>11400.400000000000</STXUAT>
+    <STT>5</STT>
+    <IDNN>137</IDNN>
+    <NOINGOAI>Thuốc tăng cường tuần hoàn não</NOINGOAI>
+    <SLXUAT_CK>23.00</SLXUAT_CK>
+    <STXUAT_CK>13110.460000000000</STXUAT_CK>
+    <SLNHAP_CK>0</SLNHAP_CK>
+    <STNHAP_CK>0</STNHAP_CK>
+    <DONGIA>570.02</DONGIA>
+    <MANGUON>1</MANGUON>
+    <GIABAN>0</GIABAN>
+  </Table>
+  <Table>
+    <STTT>0</STTT>
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Thuốc thường</TENNHOM>
+    <MABD>3584</MABD>
+    <MA>FAS001</MA>
+    <TEN>Fastexil 500 mg</TEN>
+    <TENHC>Citicoline</TENHC>
+    <DANG>Ống</DANG>
+    <TONDAU>44.00</TONDAU>
+    <STTONDAU>2589417.600000000000</STTONDAU>
+    <SLNHAP>80.00</SLNHAP>
+    <STNHAP>4708032.000000000000</STNHAP>
+    <SLXUAT>48.00</SLXUAT>
+    <STXUAT>2824819.200000000000</STXUAT>
+    <STT>5</STT>
+    <IDNN>140</IDNN>
+    <NOINGOAI>Các thuốc khác</NOINGOAI>
+    <SLXUAT_CK>12.00</SLXUAT_CK>
+    <STXUAT_CK>706204.800000000000</STXUAT_CK>
+    <SLNHAP_CK>0</SLNHAP_CK>
+    <STNHAP_CK>0</STNHAP_CK>
+    <DONGIA>58850.40</DONGIA>
+    <MANGUON>1</MANGUON>
+    <GIABAN>0</GIABAN>
+  </Table>
+  <Table>
+    <STTT>0</STTT>
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Thuốc thường</TENNHOM>
+    <MABD>3644</MABD>
+    <MA>GLI001</MA>
+    <TEN>Gliatilin 1000mg 4ml</TEN>
+    <TENHC>Choline alfoscerate</TENHC>
+    <DANG>Ống</DANG>
+    <TONDAU>16.00</TONDAU>
+    <STTONDAU>1040003.840000000000</STTONDAU>
+    <SLNHAP>300.00</SLNHAP>
+    <STNHAP>19500072.000000000000</STNHAP>
+    <SLXUAT>314.00</SLXUAT>
+    <STXUAT>20410075.360000000000</STXUAT>
+    <STT>5</STT>
+    <IDNN>140</IDNN>
+    <NOINGOAI>Các thuốc khác</NOINGOAI>
+    <SLXUAT_CK>2.00</SLXUAT_CK>
+    <STXUAT_CK>130000.480000000000</STXUAT_CK>
+    <SLNHAP_CK>0</SLNHAP_CK>
+    <STNHAP_CK>0</STNHAP_CK>
+    <DONGIA>65000.24</DONGIA>
+    <MANGUON>1</MANGUON>
+    <GIABAN>0</GIABAN>
+  </Table>
+  <Table>
+    <STTT>0</STTT>
+    <MANHOM>5</MANHOM>
+    <TENNHOM>Thuốc thường</TENNHOM>
+    <MABD>3374</MABD>
+    <MA>NUO001</MA>
+    <TEN>Nước cất pha  tiêm 5ml</TEN>
+    <TENHC>Nước cất pha  tiêm</TENHC>
+    <DANG>Ống</DANG>
+    <TONDAU>1991.00</TONDAU>
+    <STTONDAU>913849.090000000000</STTONDAU>
+    <SLNHAP>8800.00</SLNHAP>
+    <STNHAP>4039173.600000000000</STNHAP>
+    <SLXUAT>9455.00</SLXUAT>
+    <STXUAT>4339803.370000000000</STXUAT>
+    <STT>5</STT>
+    <IDNN>140</IDNN>
+    <NOINGOAI>Các thuốc khác</NOINGOAI>
+    <SLXUAT_CK>238.00</SLXUAT_CK>
+    <STXUAT_CK>109240.614000000000</STXUAT_CK>
+    <SLNHAP_CK>0</SLNHAP_CK>
+    <STNHAP_CK>0</STNHAP_CK>
+    <DONGIA>458.99</DONGIA>
+    <MANGUON>1</MANGUON>
+    <GIABAN>0</GIABAN>
+  </Table>
+</NewDataSet>

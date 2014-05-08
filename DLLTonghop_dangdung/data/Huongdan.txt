@@ -1,0 +1,14 @@
+- Chay cau lenh sau trong sqlplus tren may chu:
+	drop table this_treemenu;
+
+- Thoat khoi sqlplus
+- Vao Start/Run
+- Go lenh:
+	imp medubv/medibv@medisoft
+	sau do chi duong dan den file this_treemenu.dmp
+- Thoa khoi chuong trinh
+
+
+
+
+

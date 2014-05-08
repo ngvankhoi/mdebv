@@ -1,0 +1,61 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="hotenme" type="xs:string" minOccurs="0" />
+                <xs:element name="namsinh" type="xs:string" minOccurs="0" />
+                <xs:element name="diachi" type="xs:string" minOccurs="0" />
+                <xs:element name="cmnd" type="xs:string" minOccurs="0" />
+                <xs:element name="dantoc" type="xs:string" minOccurs="0" />
+                <xs:element name="ngaysinh" type="xs:string" minOccurs="0" />
+                <xs:element name="ngay" type="xs:string" minOccurs="0" />
+                <xs:element name="solansinh" type="xs:decimal" minOccurs="0" />
+                <xs:element name="socon" type="xs:decimal" minOccurs="0" />
+                <xs:element name="soconsong" type="xs:decimal" minOccurs="0" />
+                <xs:element name="soconsinh" type="xs:decimal" minOccurs="0" />
+                <xs:element name="phai" type="xs:string" minOccurs="0" />
+                <xs:element name="cannang" type="xs:decimal" minOccurs="0" />
+                <xs:element name="suckhoe" type="xs:string" minOccurs="0" />
+                <xs:element name="tencon" type="xs:string" minOccurs="0" />
+                <xs:element name="manv1" type="xs:string" minOccurs="0" />
+                <xs:element name="manv2" type="xs:string" minOccurs="0" />
+                <xs:element name="sochungsinh" type="xs:decimal" minOccurs="0" />
+                <xs:element name="quyensochungsinh" type="xs:string" minOccurs="0" />
+                <xs:element name="NGUOIDO1" type="xs:string" minOccurs="0" />
+                <xs:element name="NGUOIDO2" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <hotenme>TEST TOA THUOC</hotenme>
+    <namsinh>1989</namsinh>
+    <diachi> - Không xác định - Không xác định - Đắc Lắc</diachi>
+    <cmnd />
+    <dantoc>*Kinh</dantoc>
+    <ngaysinh>19/07/2013 09:01</ngaysinh>
+    <ngay>19/07/2013</ngay>
+    <solansinh>1</solansinh>
+    <socon>1</socon>
+    <soconsong>1</soconsong>
+    <soconsinh>1</soconsinh>
+    <phai>Nam</phai>
+    <cannang>4</cannang>
+    <suckhoe>okey</suckhoe>
+    <tencon> NGUYEN BANG BANG</tencon>
+    <manv1>0002</manv1>
+    <manv2>0004</manv2>
+    <sochungsinh>12</sochungsinh>
+    <quyensochungsinh>220</quyensochungsinh>
+    <NGUOIDO1>Bùi Nam Ơn</NGUOIDO1>
+    <NGUOIDO2>Trần Thị Chiến</NGUOIDO2>
+  </Table>
+</NewDataSet>

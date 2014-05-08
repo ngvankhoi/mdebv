@@ -1,0 +1,89 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="id" type="xs:decimal" minOccurs="0" />
+                <xs:element name="quyenso" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sobienlai" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sohieu" type="xs:string" minOccurs="0" />
+                <xs:element name="mabn" type="xs:string" minOccurs="0" />
+                <xs:element name="hoten" type="xs:string" minOccurs="0" />
+                <xs:element name="namsinh" type="xs:string" minOccurs="0" />
+                <xs:element name="tinh" type="xs:string" minOccurs="0" />
+                <xs:element name="quan" type="xs:string" minOccurs="0" />
+                <xs:element name="xa" type="xs:string" minOccurs="0" />
+                <xs:element name="sonha" type="xs:string" minOccurs="0" />
+                <xs:element name="thon" type="xs:string" minOccurs="0" />
+                <xs:element name="gioitinh" type="xs:string" minOccurs="0" />
+                <xs:element name="lanin" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ngaysinh" type="xs:string" minOccurs="0" />
+                <xs:element name="namsinh1" type="xs:string" minOccurs="0" />
+                <xs:element name="tenkp" type="xs:string" minOccurs="0" />
+                <xs:element name="ngaythu" type="xs:string" minOccurs="0" />
+                <xs:element name="tenkpct" type="xs:string" minOccurs="0" />
+                <xs:element name="tentt" type="xs:string" minOccurs="0" />
+                <xs:element name="tenquan" type="xs:string" minOccurs="0" />
+                <xs:element name="tenpxa" type="xs:string" minOccurs="0" />
+                <xs:element name="id_loai" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tenloaivp" type="xs:string" minOccurs="0" />
+                <xs:element name="sttloaivp" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sotien" type="xs:decimal" minOccurs="0" />
+                <xs:element name="bhtra" type="xs:int" minOccurs="0" />
+                <xs:element name="mien" type="xs:decimal" minOccurs="0" />
+                <xs:element name="thieu" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tongmien" type="xs:decimal" minOccurs="0" />
+                <xs:element name="madoituong" type="xs:decimal" minOccurs="0" />
+                <xs:element name="nguoithu" type="xs:string" minOccurs="0" />
+                <xs:element name="hoantra" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ghichu" type="xs:string" minOccurs="0" />
+                <xs:element name="sovaovien" type="xs:string" minOccurs="0" />
+                <xs:element name="thangtuoi" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <id>237131102100117757</id>
+    <quyenso>1</quyenso>
+    <sobienlai>208</sobienlai>
+    <sohieu>TEST</sohieu>
+    <mabn>13000858</mabn>
+    <hoten>TÒNG THỊ SON</hoten>
+    <namsinh>1995</namsinh>
+    <tinh>Sơn La</tinh>
+    <quan>Tp. Sơn La</quan>
+    <xa>Chiềng Đen</xa>
+    <sonha />
+    <thon>Tò Lò</thon>
+    <gioitinh>Nữ</gioitinh>
+    <lanin>1</lanin>
+    <namsinh1>1995</namsinh1>
+    <tenkp>Pk Số 1</tenkp>
+    <ngaythu>02/11/2013</ngaythu>
+    <tenkpct>Pk Số 1</tenkpct>
+    <tentt>Sơn La</tentt>
+    <tenquan>Tp. Sơn La</tenquan>
+    <tenpxa>Chiềng Đen</tenpxa>
+    <id_loai>53</id_loai>
+    <tenloaivp>Khám bệnh*</tenloaivp>
+    <sttloaivp>1</sttloaivp>
+    <sotien>12000.0000</sotien>
+    <bhtra>0</bhtra>
+    <mien>0.0000</mien>
+    <thieu>0.0000</thieu>
+    <tongmien>0</tongmien>
+    <madoituong>2</madoituong>
+    <nguoithu>Administrator</nguoithu>
+    <hoantra>0.0000</hoantra>
+    <ghichu />
+    <sovaovien>1</sovaovien>
+  </Table>
+</NewDataSet>

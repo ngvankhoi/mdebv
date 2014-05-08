@@ -1,0 +1,40 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="Optionnhomvp">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="id" type="xs:string" minOccurs="0" />
+                <xs:element name="ten" type="xs:string" minOccurs="0" />
+                <xs:element name="id_vp" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Optionnhomvp>
+    <id>0</id>
+    <ten>Khám sức khoẻ thẻ đỏ</ten>
+    <id_vp>1452+1453+1454</id_vp>
+  </Optionnhomvp>
+  <Optionnhomvp>
+    <id>1</id>
+    <ten>Khám sức khỏe thẻ hồng</ten>
+    <id_vp>1452+1453+1454</id_vp>
+  </Optionnhomvp>
+  <Optionnhomvp>
+    <id>2</id>
+    <ten>Khám sức khoẻ thẻ xanh</ten>
+    <id_vp>1452+1453+1454</id_vp>
+  </Optionnhomvp>
+  <Optionnhomvp>
+    <id>3</id>
+    <ten>Khám sức khoẻ thường</ten>
+    <id_vp>1452+1453+1454</id_vp>
+  </Optionnhomvp>
+</NewDataSet>

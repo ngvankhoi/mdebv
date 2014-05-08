@@ -1,0 +1,60 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="MA" type="xs:unsignedByte" minOccurs="0" />
+                <xs:element name="TEN" type="xs:string" minOccurs="0" />
+                <xs:element name="STT" type="xs:unsignedByte" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <MA>0</MA>
+    <TEN>Tự chữa</TEN>
+    <STT>41</STT>
+  </Table>
+  <Table>
+    <MA>1</MA>
+    <TEN>Được sơ cấp cứu tạI chỗ</TEN>
+    <STT>42</STT>
+  </Table>
+  <Table>
+    <MA>2</MA>
+    <TEN>Đến cơ sở khám, chữa bệnh tư nhân</TEN>
+    <STT>43</STT>
+  </Table>
+  <Table>
+    <MA>3</MA>
+    <TEN>Đến trạm y tế xã</TEN>
+    <STT>44</STT>
+  </Table>
+  <Table>
+    <MA>4</MA>
+    <TEN>Đến bệnh viện huyện,PKĐK khu vực</TEN>
+    <STT>45</STT>
+  </Table>
+  <Table>
+    <MA>5</MA>
+    <TEN>Đến bệnh viện tỉnh</TEN>
+    <STT>46</STT>
+  </Table>
+  <Table>
+    <MA>6</MA>
+    <TEN>Đến bệnh viện trung ương</TEN>
+    <STT>47</STT>
+  </Table>
+  <Table>
+    <MA>7</MA>
+    <TEN>Khác</TEN>
+    <STT>48</STT>
+  </Table>
+</NewDataSet>

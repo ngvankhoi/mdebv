@@ -1,0 +1,87 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="id" type="xs:decimal" minOccurs="0" />
+                <xs:element name="mabn" type="xs:string" minOccurs="0" />
+                <xs:element name="ngay" type="xs:string" minOccurs="0" />
+                <xs:element name="chandoan" type="xs:string" minOccurs="0" />
+                <xs:element name="icd10" type="xs:string" minOccurs="0" />
+                <xs:element name="tv_canthietchupct" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tv_tacdungphu" type="xs:decimal" minOccurs="0" />
+                <xs:element name="hb_tiensudiung" type="xs:decimal" minOccurs="0" />
+                <xs:element name="hb_tinhtrangmatnuoc" type="xs:decimal" minOccurs="0" />
+                <xs:element name="hb_roiloanhd" type="xs:decimal" minOccurs="0" />
+                <xs:element name="hb_suythan" type="xs:decimal" minOccurs="0" />
+                <xs:element name="hb_thaiky" type="xs:decimal" minOccurs="0" />
+                <xs:element name="hb_dautuy" type="xs:decimal" minOccurs="0" />
+                <xs:element name="hb_benhlytm" type="xs:decimal" minOccurs="0" />
+                <xs:element name="hb_tinhtrangntr" type="xs:decimal" minOccurs="0" />
+                <xs:element name="mach" type="xs:decimal" minOccurs="0" />
+                <xs:element name="nhietdo" type="xs:decimal" minOccurs="0" />
+                <xs:element name="huyetap" type="xs:string" minOccurs="0" />
+                <xs:element name="nhiptho" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ketquabun" type="xs:string" minOccurs="0" />
+                <xs:element name="ketquacreatinin" type="xs:string" minOccurs="0" />
+                <xs:element name="iddmbophan" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ten" type="xs:string" minOccurs="0" />
+                <xs:element name="hoten" type="xs:string" minOccurs="0" />
+                <xs:element name="namsinh" type="xs:string" minOccurs="0" />
+                <xs:element name="phai" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tencls" type="xs:string" minOccurs="0" />
+                <xs:element name="tenloaicls" type="xs:string" minOccurs="0" />
+                <xs:element name="idloai" type="xs:decimal" minOccurs="0" />
+                <xs:element name="diachi" type="xs:string" minOccurs="0" />
+                <xs:element name="sodtnha" type="xs:string" minOccurs="0" />
+                <xs:element name="sodtcq" type="xs:string" minOccurs="0" />
+                <xs:element name="didong" type="xs:string" minOccurs="0" />
+                <xs:element name="tennn" type="xs:string" minOccurs="0" />
+                <xs:element name="dantoc" type="xs:string" minOccurs="0" />
+                <xs:element name="cholam" type="xs:string" minOccurs="0" />
+                <xs:element name="ngayxn" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <id>110805000000399003</id>
+    <mabn>1104021443</mabn>
+    <ngay>05/08/2011 17:42</ngay>
+    <chandoan>Viêm dạ dày</chandoan>
+    <icd10>,</icd10>
+    <tv_canthietchupct>0</tv_canthietchupct>
+    <tv_tacdungphu>0</tv_tacdungphu>
+    <hb_tiensudiung>1</hb_tiensudiung>
+    <hb_tinhtrangmatnuoc>1</hb_tinhtrangmatnuoc>
+    <hb_roiloanhd>1</hb_roiloanhd>
+    <hb_suythan>1</hb_suythan>
+    <hb_thaiky>1</hb_thaiky>
+    <hb_dautuy>1</hb_dautuy>
+    <hb_benhlytm>0</hb_benhlytm>
+    <hb_tinhtrangntr>0</hb_tinhtrangntr>
+    <mach>70</mach>
+    <nhietdo>37</nhietdo>
+    <huyetap>110/70</huyetap>
+    <nhiptho>60</nhiptho>
+    <ketquabun />
+    <ketquacreatinin />
+    <hoten>CT CHUYEN VIEN</hoten>
+    <namsinh>1987</namsinh>
+    <phai>0</phai>
+    <tencls>Chụp CT ổ bụng có cản quang</tencls>
+    <tenloaicls>CT scanner</tenloaicls>
+    <idloai>8</idloai>
+    <diachi>  P. 3 Q. 3 Tp. H C M</diachi>
+    <tennn>Công nhân</tennn>
+    <dantoc>*Kinh</dantoc>
+    <cholam />
+  </Table>
+</NewDataSet>

@@ -1,0 +1,65 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ma" type="xs:string" minOccurs="0" />
+                <xs:element name="ten" type="xs:string" minOccurs="0" />
+                <xs:element name="stt" type="xs:string" minOccurs="0" />
+                <xs:element name="c01" type="xs:decimal" minOccurs="0" />
+                <xs:element name="c02" type="xs:decimal" minOccurs="0" />
+                <xs:element name="c03" type="xs:decimal" minOccurs="0" />
+                <xs:element name="c04" type="xs:decimal" minOccurs="0" />
+                <xs:element name="c05" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <ma>0</ma>
+    <ten>Tổng số</ten>
+    <stt>A</stt>
+    <c01>4</c01>
+    <c02>4</c02>
+    <c03>1</c03>
+    <c04>1</c04>
+    <c05>1</c05>
+  </Table>
+  <Table>
+    <ma>6051109</ma>
+    <ten>Ea Bar</ten>
+    <stt>1</stt>
+    <c01>1</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+  <Table>
+    <ma>6051113</ma>
+    <ten>Tân Hòa</ten>
+    <stt>2</stt>
+    <c01>1</c01>
+    <c02>1</c02>
+    <c03>1</c03>
+    <c04>1</c04>
+    <c05>1</c05>
+  </Table>
+  <Table>
+    <ma>6050101</ma>
+    <ten>P. Tân Lập</ten>
+    <stt>3</stt>
+    <c01>2</c01>
+    <c02>3</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+  </Table>
+</NewDataSet>

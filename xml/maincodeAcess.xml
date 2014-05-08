@@ -1,0 +1,11 @@
+<?xml version="1.0" standalone="yes" ?>
+<Import>
+	<Row>
+		<Con>Provider=Microsoft.Jet.OLEDB.4.0;Data Source=..\\..\\..\\Data\\medisoft.mdb</Con>
+		<Mabv>701.4.17</Mabv>
+		<Tenbv>B?nh Vi?n RHMTW.TPHCM</Tenbv>
+		<Syte />
+		<Diachi>201A Nguy?n Ch Thanh, Q5, TP. HCM</Diachi>
+		<Dienthoai>8556732</Dienthoai>
+	</Row>
+</Import>

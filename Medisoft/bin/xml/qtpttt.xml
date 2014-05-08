@@ -1,0 +1,107 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="tennhom" type="xs:string" minOccurs="0" />
+                <xs:element name="stt" type="xs:decimal" minOccurs="0" />
+                <xs:element name="makho" type="xs:decimal" minOccurs="0" />
+                <xs:element name="manguon" type="xs:decimal" minOccurs="0" />
+                <xs:element name="nguon" type="xs:string" minOccurs="0" />
+                <xs:element name="madoituong" type="xs:decimal" minOccurs="0" />
+                <xs:element name="doituong" type="xs:string" minOccurs="0" />
+                <xs:element name="mabd" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ma" type="xs:string" minOccurs="0" />
+                <xs:element name="ten" type="xs:string" minOccurs="0" />
+                <xs:element name="dang" type="xs:string" minOccurs="0" />
+                <xs:element name="tenhang" type="xs:string" minOccurs="0" />
+                <xs:element name="soluong" type="xs:decimal" minOccurs="0" />
+                <xs:element name="giaban" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sotien" type="xs:decimal" minOccurs="0" />
+                <xs:element name="khoachuyen" type="xs:string" minOccurs="0" />
+                <xs:element name="tenpmo" type="xs:string" minOccurs="0" />
+                <xs:element name="mabn" type="xs:string" minOccurs="0" />
+                <xs:element name="hoten" type="xs:string" minOccurs="0" />
+                <xs:element name="tuoi" type="xs:string" minOccurs="0" />
+                <xs:element name="phai" type="xs:string" minOccurs="0" />
+                <xs:element name="diachi" type="xs:string" minOccurs="0" />
+                <xs:element name="khoa" type="xs:string" minOccurs="0" />
+                <xs:element name="giuong" type="xs:string" minOccurs="0" />
+                <xs:element name="ngayvv" type="xs:string" minOccurs="0" />
+                <xs:element name="ngaypt" type="xs:string" minOccurs="0" />
+                <xs:element name="chandoanvk" type="xs:string" minOccurs="0" />
+                <xs:element name="chandoant" type="xs:string" minOccurs="0" />
+                <xs:element name="chandoans" type="xs:string" minOccurs="0" />
+                <xs:element name="tenpt" type="xs:string" minOccurs="0" />
+                <xs:element name="loaipt" type="xs:string" minOccurs="0" />
+                <xs:element name="vocam" type="xs:string" minOccurs="0" />
+                <xs:element name="ptv" type="xs:string" minOccurs="0" />
+                <xs:element name="phu1" type="xs:string" minOccurs="0" />
+                <xs:element name="phu2" type="xs:string" minOccurs="0" />
+                <xs:element name="bsgayme" type="xs:string" minOccurs="0" />
+                <xs:element name="ktvgayme" type="xs:string" minOccurs="0" />
+                <xs:element name="hoisuc" type="xs:string" minOccurs="0" />
+                <xs:element name="dungcu" type="xs:string" minOccurs="0" />
+                <xs:element name="noidung" type="xs:string" minOccurs="0" />
+                <xs:element name="sophieu" type="xs:string" minOccurs="0" />
+                <xs:element name="tendoituong" type="xs:string" minOccurs="0" />
+                <xs:element name="sothe" type="xs:string" minOccurs="0" />
+                <xs:element name="ghichu" type="xs:string" minOccurs="0" />
+                <xs:element name="userid" type="xs:string" minOccurs="0" />
+                <xs:element name="noichuyen" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <tennhom>Khám bệnh</tennhom>
+    <stt>1</stt>
+    <makho>5</makho>
+    <manguon>1</manguon>
+    <nguon>Viện phí</nguon>
+    <madoituong>2</madoituong>
+    <doituong>Thu phí</doituong>
+    <mabd>176944</mabd>
+    <ma>ADR002</ma>
+    <ten>Adrenalin 1mg/1ml </ten>
+    <dang>Ống</dang>
+    <tenhang>Vinphaco</tenhang>
+    <soluong>1.0000</soluong>
+    <giaban>5875.0000</giaban>
+    <sotien>5875.00000000</sotien>
+    <mabn>12034983</mabn>
+    <hoten>TRẦN THỊ HẠNH</hoten>
+    <tuoi>39</tuoi>
+    <phai>Nữ</phai>
+    <diachi>  TT. Càng Long-H. Càng Long-Trà Vinh</diachi>
+    <khoa>Khoa Sản</khoa>
+    <giuong />
+    <ngayvv>07 giờ 30 phút,        Ngày 11 tháng 12 năm 2012</ngayvv>
+    <ngaypt>09 giờ 07 phút,        Ngày 17 tháng 12 năm 2012</ngaypt>
+    <chandoanvk>Thai du thang chuyen da sanh</chandoanvk>
+    <chandoant>Chưa xác định</chandoant>
+    <chandoans>Chưa xác định</chandoans>
+    <tenpt>Phẫu thuật vết thưng sọ não hở</tenpt>
+    <loaipt>Loại 1B</loaipt>
+    <vocam>Gây tê tủy sống</vocam>
+    <ptv>Bs. Diệp Duyên Anh</ptv>
+    <phu1 />
+    <phu2 />
+    <bsgayme />
+    <ktvgayme />
+    <hoisuc />
+    <dungcu />
+    <noidung />
+    <sophieu>0</sophieu>
+    <tendoituong>Hao phí</tendoituong>
+    <sothe />
+    <userid>1</userid>
+  </Table>
+</NewDataSet>

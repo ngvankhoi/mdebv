@@ -1,0 +1,51 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="MANHOM" type="xs:decimal" minOccurs="0" />
+                <xs:element name="MANGUON" type="xs:decimal" minOccurs="0" />
+                <xs:element name="MABD" type="xs:decimal" minOccurs="0" />
+                <xs:element name="MA" type="xs:string" minOccurs="0" />
+                <xs:element name="STT" type="xs:decimal" minOccurs="0" />
+                <xs:element name="TENHC" type="xs:string" minOccurs="0" />
+                <xs:element name="IDNN" type="xs:decimal" minOccurs="0" />
+                <xs:element name="NOINGOAI" type="xs:string" minOccurs="0" />
+                <xs:element name="TENNHOM" type="xs:string" minOccurs="0" />
+                <xs:element name="TEN" type="xs:string" minOccurs="0" />
+                <xs:element name="DANG" type="xs:string" minOccurs="0" />
+                <xs:element name="DONGIA" type="xs:decimal" minOccurs="0" />
+                <xs:element name="SL_01" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ST_01" type="xs:decimal" minOccurs="0" />
+                <xs:element name="SL_02" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ST_02" type="xs:decimal" minOccurs="0" />
+                <xs:element name="SL_03" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ST_03" type="xs:decimal" minOccurs="0" />
+                <xs:element name="SL_04" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ST_04" type="xs:decimal" minOccurs="0" />
+                <xs:element name="SL_05" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ST_05" type="xs:decimal" minOccurs="0" />
+                <xs:element name="SL_06" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ST_06" type="xs:decimal" minOccurs="0" />
+                <xs:element name="SL_07" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ST_07" type="xs:decimal" minOccurs="0" />
+                <xs:element name="SL_08" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ST_08" type="xs:decimal" minOccurs="0" />
+                <xs:element name="SL_09" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ST_09" type="xs:decimal" minOccurs="0" />
+                <xs:element name="SL_10" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ST_10" type="xs:decimal" minOccurs="0" />
+                <xs:element name="SL_11" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ST_11" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+</NewDataSet>

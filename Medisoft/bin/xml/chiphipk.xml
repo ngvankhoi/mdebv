@@ -1,0 +1,526 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:Locale="en-US">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="ravien">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="DONE" type="xs:decimal" minOccurs="0" />
+                <xs:element name="LOAIBA" type="xs:decimal" minOccurs="0" />
+                <xs:element name="MADOITUONGVAO" type="xs:decimal" minOccurs="0" />
+                <xs:element name="MATT" type="xs:string" minOccurs="0" />
+                <xs:element name="MABN" type="xs:string" minOccurs="0" />
+                <xs:element name="MAVAOVIEN" type="xs:decimal" minOccurs="0" />
+                <xs:element name="MAQL" type="xs:decimal" minOccurs="0" />
+                <xs:element name="IDKHOA" type="xs:decimal" minOccurs="0" />
+                <xs:element name="HOTEN" type="xs:string" minOccurs="0" />
+                <xs:element name="NAMSINH" type="xs:string" minOccurs="0" />
+                <xs:element name="PHAI" type="xs:string" minOccurs="0" />
+                <xs:element name="DIACHI" type="xs:string" minOccurs="0" />
+                <xs:element name="MADOITUONG" type="xs:decimal" minOccurs="0" />
+                <xs:element name="DOITUONG" type="xs:string" minOccurs="0" />
+                <xs:element name="SOTHE" type="xs:string" minOccurs="0" />
+                <xs:element name="MAPHU" type="xs:decimal" minOccurs="0" />
+                <xs:element name="DENNGAY" type="xs:string" minOccurs="0" />
+                <xs:element name="NOIGIOITHIEU" type="xs:string" minOccurs="0" />
+                <xs:element name="NOICAP" type="xs:string" minOccurs="0" />
+                <xs:element name="GIUONG" type="xs:string" minOccurs="0" />
+                <xs:element name="MAKP" type="xs:string" minOccurs="0" />
+                <xs:element name="TENKP" type="xs:string" minOccurs="0" />
+                <xs:element name="NGAYVAO" type="xs:string" minOccurs="0" />
+                <xs:element name="NGAYRA" type="xs:string" minOccurs="0" />
+                <xs:element name="CHANDOAN" type="xs:string" minOccurs="0" />
+                <xs:element name="MAICD" type="xs:string" minOccurs="0" />
+                <xs:element name="STTNHOM" type="xs:decimal" minOccurs="0" />
+                <xs:element name="NHOM" type="xs:string" minOccurs="0" />
+                <xs:element name="STTLOAI" type="xs:decimal" minOccurs="0" />
+                <xs:element name="LOAI" type="xs:string" minOccurs="0" />
+                <xs:element name="NGAY" type="xs:string" minOccurs="0" />
+                <xs:element name="MA" type="xs:decimal" minOccurs="0" />
+                <xs:element name="TEN" type="xs:string" minOccurs="0" />
+                <xs:element name="DVT" type="xs:string" minOccurs="0" />
+                <xs:element name="SOLUONG" type="xs:decimal" minOccurs="0" />
+                <xs:element name="DONGIA" type="xs:decimal" minOccurs="0" />
+                <xs:element name="SOTIEN" type="xs:decimal" minOccurs="0" />
+                <xs:element name="TAMUNG" type="xs:decimal" minOccurs="0" />
+                <xs:element name="BHYT" type="xs:decimal" minOccurs="0" />
+                <xs:element name="BHYTT0107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="TCSOTIEN" type="xs:decimal" minOccurs="0" />
+                <xs:element name="DICHSO" type="xs:string" minOccurs="0" />
+                <xs:element name="MIEN" type="xs:decimal" minOccurs="0" />
+                <xs:element name="BHYTTRA" type="xs:decimal" minOccurs="0" />
+                <xs:element name="BNTRA" type="xs:decimal" minOccurs="0" />
+                <xs:element name="DICHSOTRA" type="xs:string" minOccurs="0" />
+                <xs:element name="SBLTAMUNG" type="xs:string" minOccurs="0" />
+                <xs:element name="SOLUUTRU" type="xs:string" minOccurs="0" />
+                <xs:element name="NGUOINHA" type="xs:string" minOccurs="0" />
+                <xs:element name="HINHTHUC" type="xs:decimal" minOccurs="0" />
+                <xs:element name="PHUONGPHAP" type="xs:decimal" minOccurs="0" />
+                <xs:element name="KETQUA" type="xs:decimal" minOccurs="0" />
+                <xs:element name="KHU" type="xs:decimal" minOccurs="0" />
+                <xs:element name="NGAYPT" type="xs:string" minOccurs="0" />
+                <xs:element name="TENPT" type="xs:string" minOccurs="0" />
+                <xs:element name="MASO" type="xs:string" minOccurs="0" />
+                <xs:element name="SOPHIEU" type="xs:decimal" minOccurs="0" />
+                <xs:element name="LANIN" type="xs:decimal" minOccurs="0" />
+                <xs:element name="Image" type="xs:base64Binary" minOccurs="0" />
+                <xs:element name="Imagetk" type="xs:base64Binary" minOccurs="0" />
+                <xs:element name="Imageuser" type="xs:base64Binary" minOccurs="0" />
+                <xs:element name="mabs" type="xs:string" minOccurs="0" />
+                <xs:element name="tenbs" type="xs:string" minOccurs="0" />
+                <xs:element name="makprv" type="xs:string" minOccurs="0" />
+                <xs:element name="tenuser" type="xs:string" minOccurs="0" />
+                <xs:element name="cholam" type="xs:string" minOccurs="0" />
+                <xs:element name="madt" type="xs:decimal" minOccurs="0" />
+                <xs:element name="haophi" type="xs:decimal" minOccurs="0" />
+                <xs:element name="gianovat" type="xs:decimal" minOccurs="0" />
+                <xs:element name="idttrv" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sotientra" type="xs:decimal" minOccurs="0" />
+                <xs:element name="traituyen" type="xs:decimal" minOccurs="0" />
+                <xs:element name="khoanhapvien" type="xs:string" minOccurs="0" />
+                <xs:element name="kythuat" type="xs:decimal" default="-1" minOccurs="0" />
+                <xs:element name="loaikythuat" type="xs:string" minOccurs="0" />
+                <xs:element name="ghichukb" type="xs:string" minOccurs="0" />
+                <xs:element name="trieuchung" type="xs:string" minOccurs="0" />
+                <xs:element name="phanbiet" type="xs:string" minOccurs="0" />
+                <xs:element name="tyletra" type="xs:decimal" default="0" minOccurs="0" />
+                <xs:element name="tlchitra" type="xs:decimal" default="0" minOccurs="0" />
+                <xs:element name="toathuocve" type="xs:decimal" default="0" minOccurs="0" />
+                <xs:element name="tlchinhsach" type="xs:decimal" default="0" minOccurs="0" />
+                <xs:element name="thangtuoi" type="xs:decimal" default="0" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <ravien>
+    <DONE>0</DONE>
+    <MADOITUONGVAO>1</MADOITUONGVAO>
+    <MATT>0</MATT>
+    <MABN>13630630</MABN>
+    <MAQL>9</MAQL>
+    <IDKHOA>1</IDKHOA>
+    <HOTEN>TTRTT</HOTEN>
+    <NAMSINH>1991</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <DIACHI>  P. 1 TP. Vũng Tàu Bà Rịa - Vũng Tàu</DIACHI>
+    <MADOITUONG>1</MADOITUONG>
+    <DOITUONG>BHYT</DOITUONG>
+    <SOTHE />
+    <MAPHU>0</MAPHU>
+    <DENNGAY>^</DENNGAY>
+    <NOIGIOITHIEU>^^</NOIGIOITHIEU>
+    <NOICAP />
+    <GIUONG>BS Ths Võ Văn Đạt</GIUONG>
+    <MAKP>99</MAKP>
+    <TENKP>Phòng Lưu</TENKP>
+    <NGAYVAO>16/01/2013 10:51</NGAYVAO>
+    <NGAYRA />
+    <CHANDOAN>Rối loạn tiêu hoá;Viêm mống thể mi; </CHANDOAN>
+    <MAICD>K30;Viêm mống thể mi; </MAICD>
+    <STTNHOM>7</STTNHOM>
+    <NHOM>Thuốc</NHOM>
+    <STTLOAI>16</STTLOAI>
+    <LOAI> ngày 10 lần , lần 1.00 Viên</LOAI>
+    <MA>294298</MA>
+    <TEN>Acetazolamid 0,25g</TEN>
+    <DVT>Viên</DVT>
+    <SOLUONG>30.0000</SOLUONG>
+    <DONGIA>735.00</DONGIA>
+    <SOTIEN>22050.00</SOTIEN>
+    <TAMUNG>0</TAMUNG>
+    <BHYT>0</BHYT>
+    <BHYTT0107>0</BHYTT0107>
+    <TCSOTIEN>127049.90</TCSOTIEN>
+    <DICHSO>Một trăm hai mươi bảy nghìn năm mươi</DICHSO>
+    <MIEN>0</MIEN>
+    <BHYTTRA>127049.90</BHYTTRA>
+    <BNTRA>0</BNTRA>
+    <DICHSOTRA />
+    <SOLUUTRU>BS Ths Võ Văn Đạt;^tc</SOLUUTRU>
+    <NGUOINHA />
+    <HINHTHUC>1</HINHTHUC>
+    <PHUONGPHAP>0</PHUONGPHAP>
+    <KETQUA>2</KETQUA>
+    <mabs />
+    <tenbs>BS Ths Võ Văn Đạt</tenbs>
+    <makprv>99</makprv>
+    <tenuser>tc</tenuser>
+    <cholam />
+    <madt>1</madt>
+    <haophi>0</haophi>
+    <gianovat>700.0000000000</gianovat>
+    <idttrv>0</idttrv>
+    <sotientra>22050.00000000000000</sotientra>
+    <traituyen>0</traituyen>
+    <kythuat>-1</kythuat>
+    <loaikythuat />
+    <ghichukb />
+    <trieuchung>gsdg;</trieuchung>
+    <phanbiet />
+    <tyletra>100</tyletra>
+    <tlchitra>100</tlchitra>
+    <toathuocve>1</toathuocve>
+    <tlchinhsach>0</tlchinhsach>
+    <thangtuoi>0</thangtuoi>
+  </ravien>
+  <ravien>
+    <DONE>0</DONE>
+    <MADOITUONGVAO>2</MADOITUONGVAO>
+    <MATT>1</MATT>
+    <MABN>13630630</MABN>
+    <MAQL>9</MAQL>
+    <IDKHOA>1</IDKHOA>
+    <HOTEN>TTRTT</HOTEN>
+    <NAMSINH>1991</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <DIACHI>  P. 1 TP. Vũng Tàu Bà Rịa - Vũng Tàu</DIACHI>
+    <MADOITUONG>2</MADOITUONG>
+    <DOITUONG>Thu phí</DOITUONG>
+    <SOTHE />
+    <MAPHU>0</MAPHU>
+    <DENNGAY>^</DENNGAY>
+    <NOIGIOITHIEU>^^</NOIGIOITHIEU>
+    <NOICAP />
+    <GIUONG>BS Ths Võ Văn Đạt</GIUONG>
+    <MAKP>99</MAKP>
+    <TENKP>CCTH</TENKP>
+    <NGAYVAO>16/01/2013 10:51</NGAYVAO>
+    <NGAYRA />
+    <CHANDOAN>Rối loạn tiêu hoá;Viêm mống thể mi; </CHANDOAN>
+    <MAICD>K30;Viêm mống thể mi; </MAICD>
+    <STTNHOM>7</STTNHOM>
+    <NHOM>Thuốc</NHOM>
+    <STTLOAI>11</STTLOAI>
+    <LOAI xml:space="preserve"> </LOAI>
+    <MA>294166</MA>
+    <TEN>Amlodipin (Lodimax) 0,005g</TEN>
+    <DVT>Viên</DVT>
+    <SOLUONG>1.0000</SOLUONG>
+    <DONGIA>1099.98</DONGIA>
+    <SOTIEN>1099.98</SOTIEN>
+    <TAMUNG>0</TAMUNG>
+    <BHYT>0</BHYT>
+    <BHYTT0107>0</BHYTT0107>
+    <TCSOTIEN>1099.98</TCSOTIEN>
+    <DICHSO>Một nghìn một trăm</DICHSO>
+    <MIEN>0</MIEN>
+    <BHYTTRA>0</BHYTTRA>
+    <BNTRA>1099.98</BNTRA>
+    <DICHSOTRA />
+    <SOLUUTRU>BS Ths Võ Văn Đạt;^tc</SOLUUTRU>
+    <NGUOINHA />
+    <HINHTHUC>1</HINHTHUC>
+    <PHUONGPHAP>0</PHUONGPHAP>
+    <KETQUA>2</KETQUA>
+    <mabs />
+    <tenbs>BS Ths Võ Văn Đạt</tenbs>
+    <makprv>99</makprv>
+    <tenuser>tc</tenuser>
+    <cholam />
+    <madt>2</madt>
+    <haophi>0</haophi>
+    <gianovat>1047.6000000000</gianovat>
+    <idttrv>0</idttrv>
+    <sotientra>1099.98000000000000</sotientra>
+    <traituyen>0</traituyen>
+    <kythuat>-1</kythuat>
+    <loaikythuat />
+    <ghichukb />
+    <trieuchung>gsdg;</trieuchung>
+    <phanbiet />
+    <tyletra>0</tyletra>
+    <tlchitra>0</tlchitra>
+    <toathuocve>2</toathuocve>
+    <tlchinhsach>0</tlchinhsach>
+    <thangtuoi>0</thangtuoi>
+  </ravien>
+  <ravien>
+    <DONE>0</DONE>
+    <MADOITUONGVAO>2</MADOITUONGVAO>
+    <MATT>1</MATT>
+    <MABN>13630630</MABN>
+    <MAQL>9</MAQL>
+    <IDKHOA>1</IDKHOA>
+    <HOTEN>TTRTT</HOTEN>
+    <NAMSINH>1991</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <DIACHI>  P. 1 TP. Vũng Tàu Bà Rịa - Vũng Tàu</DIACHI>
+    <MADOITUONG>2</MADOITUONG>
+    <DOITUONG>Thu phí</DOITUONG>
+    <SOTHE />
+    <MAPHU>0</MAPHU>
+    <DENNGAY>^</DENNGAY>
+    <NOIGIOITHIEU>^^</NOIGIOITHIEU>
+    <NOICAP />
+    <GIUONG>BS Ths Võ Văn Đạt</GIUONG>
+    <MAKP>99</MAKP>
+    <TENKP>CCTH</TENKP>
+    <NGAYVAO>16/01/2013 10:51</NGAYVAO>
+    <NGAYRA />
+    <CHANDOAN>Rối loạn tiêu hoá;Viêm mống thể mi; </CHANDOAN>
+    <MAICD>K30;Viêm mống thể mi; </MAICD>
+    <STTNHOM>16</STTNHOM>
+    <NHOM>Vật tư tiêu hao</NHOM>
+    <STTLOAI>29</STTLOAI>
+    <LOAI xml:space="preserve"> </LOAI>
+    <MA>295269</MA>
+    <TEN>Airway 2 (màu xanh)(12) </TEN>
+    <DVT>Cái</DVT>
+    <SOLUONG>1.0000</SOLUONG>
+    <DONGIA>8400.00</DONGIA>
+    <SOTIEN>8400.00</SOTIEN>
+    <TAMUNG>0</TAMUNG>
+    <BHYT>0</BHYT>
+    <BHYTT0107>0</BHYTT0107>
+    <TCSOTIEN>9499.98</TCSOTIEN>
+    <DICHSO>Chín nghìn năm trăm</DICHSO>
+    <MIEN>0</MIEN>
+    <BHYTTRA>0</BHYTTRA>
+    <BNTRA>9499.98</BNTRA>
+    <DICHSOTRA />
+    <SOLUUTRU>BS Ths Võ Văn Đạt;^tc</SOLUUTRU>
+    <NGUOINHA />
+    <HINHTHUC>1</HINHTHUC>
+    <PHUONGPHAP>0</PHUONGPHAP>
+    <KETQUA>2</KETQUA>
+    <mabs />
+    <tenbs>BS Ths Võ Văn Đạt</tenbs>
+    <makprv>99</makprv>
+    <tenuser>tc</tenuser>
+    <cholam />
+    <madt>2</madt>
+    <haophi>0</haophi>
+    <gianovat>8000.0000000000</gianovat>
+    <idttrv>0</idttrv>
+    <sotientra>8400.00000000000000</sotientra>
+    <traituyen>0</traituyen>
+    <kythuat>-1</kythuat>
+    <loaikythuat />
+    <ghichukb />
+    <trieuchung>gsdg;</trieuchung>
+    <phanbiet />
+    <tyletra>0</tyletra>
+    <tlchitra>0</tlchitra>
+    <toathuocve>2</toathuocve>
+    <tlchinhsach>0</tlchinhsach>
+    <thangtuoi>0</thangtuoi>
+  </ravien>
+  <ravien>
+    <DONE>0</DONE>
+    <MADOITUONGVAO>1</MADOITUONGVAO>
+    <MATT>0</MATT>
+    <MABN>13630630</MABN>
+    <MAQL>9</MAQL>
+    <IDKHOA>1</IDKHOA>
+    <HOTEN>TTRTT</HOTEN>
+    <NAMSINH>1991</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <DIACHI>  P. 1 TP. Vũng Tàu Bà Rịa - Vũng Tàu</DIACHI>
+    <MADOITUONG>1</MADOITUONG>
+    <DOITUONG>BHYT</DOITUONG>
+    <SOTHE />
+    <MAPHU>0</MAPHU>
+    <DENNGAY>^</DENNGAY>
+    <NOIGIOITHIEU>^^</NOIGIOITHIEU>
+    <NOICAP />
+    <GIUONG>BS Ths Võ Văn Đạt</GIUONG>
+    <MAKP>99</MAKP>
+    <TENKP>Phòng Lưu</TENKP>
+    <NGAYVAO>16/01/2013 10:51</NGAYVAO>
+    <NGAYRA />
+    <CHANDOAN>Rối loạn tiêu hoá;Viêm mống thể mi; </CHANDOAN>
+    <MAICD>K30;Viêm mống thể mi; </MAICD>
+    <STTNHOM>7</STTNHOM>
+    <NHOM>Thuốc</NHOM>
+    <STTLOAI>10</STTLOAI>
+    <LOAI> ngày 10 lần , lần 1.00 Viên</LOAI>
+    <MA>296285</MA>
+    <TEN>Acenocoumarol (Sintrom) 0,004g (12)</TEN>
+    <DVT>Viên</DVT>
+    <SOLUONG>30.0000</SOLUONG>
+    <DONGIA>3500.00</DONGIA>
+    <SOTIEN>104999.90</SOTIEN>
+    <TAMUNG>0</TAMUNG>
+    <BHYT>0</BHYT>
+    <BHYTT0107>0</BHYTT0107>
+    <TCSOTIEN>104999.90</TCSOTIEN>
+    <DICHSO>Một trăm  linh năm nghìn</DICHSO>
+    <MIEN>0</MIEN>
+    <BHYTTRA>104999.90</BHYTTRA>
+    <BNTRA>0</BNTRA>
+    <DICHSOTRA />
+    <SOLUUTRU>BS Ths Võ Văn Đạt;^tc</SOLUUTRU>
+    <NGUOINHA />
+    <HINHTHUC>1</HINHTHUC>
+    <PHUONGPHAP>0</PHUONGPHAP>
+    <KETQUA>2</KETQUA>
+    <mabs />
+    <tenbs>BS Ths Võ Văn Đạt</tenbs>
+    <makprv>99</makprv>
+    <tenuser>tc</tenuser>
+    <cholam />
+    <madt>1</madt>
+    <haophi>0</haophi>
+    <gianovat>3333.3300000000</gianovat>
+    <idttrv>0</idttrv>
+    <sotientra>104999.89500000000000</sotientra>
+    <traituyen>0</traituyen>
+    <kythuat>-1</kythuat>
+    <loaikythuat />
+    <ghichukb />
+    <trieuchung>gsdg;</trieuchung>
+    <phanbiet />
+    <tyletra>100</tyletra>
+    <tlchitra>100</tlchitra>
+    <toathuocve>1</toathuocve>
+    <tlchinhsach>0</tlchinhsach>
+    <thangtuoi>0</thangtuoi>
+  </ravien>
+  <ravien>
+    <DONE>0</DONE>
+    <MADOITUONGVAO>1</MADOITUONGVAO>
+    <MATT>0</MATT>
+    <MABN>13630630</MABN>
+    <MAQL>9</MAQL>
+    <IDKHOA>1</IDKHOA>
+    <HOTEN>TTRTT</HOTEN>
+    <NAMSINH>1991</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <DIACHI>  P. 1 TP. Vũng Tàu Bà Rịa - Vũng Tàu</DIACHI>
+    <MADOITUONG>1</MADOITUONG>
+    <DOITUONG>BHYT</DOITUONG>
+    <SOTHE />
+    <MAPHU>0</MAPHU>
+    <DENNGAY>^</DENNGAY>
+    <NOIGIOITHIEU>^^</NOIGIOITHIEU>
+    <NOICAP />
+    <GIUONG>BS Ths Võ Văn Đạt</GIUONG>
+    <MAKP>99</MAKP>
+    <TENKP>Phòng Lưu</TENKP>
+    <NGAYVAO>16/01/2013 10:51</NGAYVAO>
+    <NGAYRA />
+    <CHANDOAN>Rối loạn tiêu hoá;Viêm mống thể mi; </CHANDOAN>
+    <MAICD>K30;Viêm mống thể mi; </MAICD>
+    <STTNHOM>7</STTNHOM>
+    <NHOM>Thuốc</NHOM>
+    <STTLOAI>10</STTLOAI>
+    <LOAI> ngày 10 lần , lần 1.00 Viên</LOAI>
+    <MA>295361</MA>
+    <TEN>Carbazochrom (Adrenoxyl) 0,01g (12)</TEN>
+    <DVT>Viên</DVT>
+    <SOLUONG>30.0000</SOLUONG>
+    <DONGIA>1250.00</DONGIA>
+    <SOTIEN>37499.99</SOTIEN>
+    <TAMUNG>0</TAMUNG>
+    <BHYT>0</BHYT>
+    <BHYTT0107>0</BHYTT0107>
+    <TCSOTIEN>164549.89</TCSOTIEN>
+    <DICHSO>Một trăm sáu mươi bốn nghìn năm trăm năm mươi</DICHSO>
+    <MIEN>0</MIEN>
+    <BHYTTRA>164549.89</BHYTTRA>
+    <BNTRA>0</BNTRA>
+    <DICHSOTRA />
+    <SOLUUTRU>BS Ths Võ Văn Đạt;^tc</SOLUUTRU>
+    <NGUOINHA />
+    <HINHTHUC>1</HINHTHUC>
+    <PHUONGPHAP>0</PHUONGPHAP>
+    <KETQUA>2</KETQUA>
+    <mabs />
+    <tenbs>BS Ths Võ Văn Đạt</tenbs>
+    <makprv>99</makprv>
+    <tenuser>tc</tenuser>
+    <cholam />
+    <madt>1</madt>
+    <haophi>0</haophi>
+    <gianovat>1190.4760000000</gianovat>
+    <idttrv>0</idttrv>
+    <sotientra>37499.99400000000000</sotientra>
+    <traituyen>0</traituyen>
+    <kythuat>-1</kythuat>
+    <loaikythuat />
+    <ghichukb />
+    <trieuchung>gsdg;</trieuchung>
+    <phanbiet />
+    <tyletra>100</tyletra>
+    <tlchitra>100</tlchitra>
+    <toathuocve>1</toathuocve>
+    <tlchinhsach>0</tlchinhsach>
+    <thangtuoi>0</thangtuoi>
+  </ravien>
+  <ravien>
+    <DONE>0</DONE>
+    <MADOITUONGVAO>2</MADOITUONGVAO>
+    <MATT>0</MATT>
+    <MABN>13630630</MABN>
+    <MAQL>9</MAQL>
+    <IDKHOA>1</IDKHOA>
+    <HOTEN>TTRTT</HOTEN>
+    <NAMSINH>1991</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <DIACHI>  P. 1 TP. Vũng Tàu Bà Rịa - Vũng Tàu</DIACHI>
+    <MADOITUONG>2</MADOITUONG>
+    <DOITUONG>Thu phí</DOITUONG>
+    <SOTHE />
+    <MAPHU>0</MAPHU>
+    <DENNGAY>^</DENNGAY>
+    <NOIGIOITHIEU>^^</NOIGIOITHIEU>
+    <NOICAP />
+    <GIUONG>BS Ths Võ Văn Đạt</GIUONG>
+    <MAKP>99</MAKP>
+    <TENKP>Phòng Lưu</TENKP>
+    <NGAYVAO>16/01/2013 10:51</NGAYVAO>
+    <NGAYRA />
+    <CHANDOAN>Rối loạn tiêu hoá;Viêm mống thể mi; </CHANDOAN>
+    <MAICD>K30;Viêm mống thể mi; </MAICD>
+    <STTNHOM>8</STTNHOM>
+    <NHOM>Giường</NHOM>
+    <STTLOAI>1</STTLOAI>
+    <LOAI xml:space="preserve"> </LOAI>
+    <MA>296252</MA>
+    <TEN>Giường lưu</TEN>
+    <DVT>Ngày</DVT>
+    <SOLUONG>1.0000</SOLUONG>
+    <DONGIA>0</DONGIA>
+    <SOTIEN>0.00</SOTIEN>
+    <TAMUNG>0</TAMUNG>
+    <BHYT>0</BHYT>
+    <BHYTT0107>0</BHYTT0107>
+    <TCSOTIEN>1099.98</TCSOTIEN>
+    <DICHSO>Một nghìn một trăm</DICHSO>
+    <MIEN>0</MIEN>
+    <BHYTTRA>0</BHYTTRA>
+    <BNTRA>1099.98</BNTRA>
+    <DICHSOTRA />
+    <SOLUUTRU>BS Ths Võ Văn Đạt;^tc</SOLUUTRU>
+    <NGUOINHA />
+    <HINHTHUC>1</HINHTHUC>
+    <PHUONGPHAP>0</PHUONGPHAP>
+    <KETQUA>2</KETQUA>
+    <mabs />
+    <tenbs>BS Ths Võ Văn Đạt</tenbs>
+    <makprv>99</makprv>
+    <tenuser>tc</tenuser>
+    <cholam />
+    <madt>2</madt>
+    <haophi>0</haophi>
+    <gianovat>0</gianovat>
+    <idttrv>0</idttrv>
+    <sotientra>0.0000</sotientra>
+    <traituyen>0</traituyen>
+    <kythuat>-1</kythuat>
+    <loaikythuat />
+    <ghichukb />
+    <trieuchung>gsdg;</trieuchung>
+    <phanbiet />
+    <tyletra>0</tyletra>
+    <tlchitra>0</tlchitra>
+    <toathuocve>2</toathuocve>
+    <tlchinhsach>0</tlchinhsach>
+    <thangtuoi>0</thangtuoi>
+  </ravien>
+</NewDataSet>

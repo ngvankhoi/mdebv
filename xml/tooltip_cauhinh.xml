@@ -1,0 +1,1376 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="control_name" type="xs:string" minOccurs="0" />
+                <xs:element name="text" type="xs:string" minOccurs="0" />
+                <xs:element name="vie" type="xs:string" minOccurs="0" />
+                <xs:element name="eng" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <control_name>c158</control_name>
+    <text>A29. In đơn giá, lô, date trong phiếu lĩnh</text>
+    <vie>In đơn giá, lô, hạn dùng trong phiếu lĩnh</vie>
+  </Table>
+  <Table>
+    <control_name>c134</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>c133</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>c132</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>c72</control_name>
+    <text>A45. Nhóm PLĩnh theo khai báo trong vật tư,S.phẩm,H.hóa</text>
+    <vie>Nhóm phiếu lĩnh theo khai báo trong vật tư,sản phẩm,hàng hóa</vie>
+  </Table>
+  <Table>
+    <control_name>c116</control_name>
+    <text>A3. Nhập nhà cung cấp trong danh mục</text>
+    <vie>Nhập nhà cung cấp trong danh mục</vie>
+  </Table>
+  <Table>
+    <control_name>c106</control_name>
+    <text>A17. Bắt buộc phải nhập bác sỹ</text>
+    <vie>Bắt buộc phải nhập bác sỹ</vie>
+  </Table>
+  <Table>
+    <control_name>c29</control_name>
+    <text>A24. Lọc ngày trong phiếu hoàn trả</text>
+    <vie>Lọc ngày trong phiếu hoàn trả</vie>
+  </Table>
+  <Table>
+    <control_name>c28</control_name>
+    <text>A23. Lọc ngày trong phiếu lĩnh</text>
+    <vie>Lọc ngày trong phiếu lĩnh</vie>
+  </Table>
+  <Table>
+    <control_name>c101</control_name>
+    <text>A44. Xếp thứ tự theo mã số</text>
+    <vie>Xếp thứ tự theo mã số</vie>
+  </Table>
+  <Table>
+    <control_name>c100</control_name>
+    <text>A36. Chi tiết đối tượng trong phiếu lĩnh</text>
+    <vie>Chi tiết đối tượng trong phiếu lĩnh</vie>
+  </Table>
+  <Table>
+    <control_name>c97</control_name>
+    <text>A43. Nhập định khoản trong phiếu nhập</text>
+    <vie>Nhập định khoản trong phiếu nhập</vie>
+  </Table>
+  <Table>
+    <control_name>c96</control_name>
+    <text>A42. Nhập người giao hàng trong phiếu nhập</text>
+    <vie>Nhập người giao hàng trong phiếu nhập</vie>
+  </Table>
+  <Table>
+    <control_name>c95</control_name>
+    <text>A41. Nhập biên bản kê trong phiếu nhập</text>
+    <vie>Nhập biên bản kê trong phiếu nhập</vie>
+  </Table>
+  <Table>
+    <control_name>c94</control_name>
+    <text>A19. Nhập chẩn đoán trong xuất ngoại trú</text>
+    <vie>Nhập chẩn đoán trong xuất ngoại trú</vie>
+  </Table>
+  <Table>
+    <control_name>c76</control_name>
+    <text>A40. In y lệnh kèm theo cách dùng</text>
+    <vie>In y lệnh kèm theo cách dùng</vie>
+  </Table>
+  <Table>
+    <control_name>c75</control_name>
+    <text>A39. Cho phép lọc phiếu trong lúc duyệt</text>
+    <vie>Cho phép lọc phiếu trong lúc duyệt</vie>
+  </Table>
+  <Table>
+    <control_name>c74</control_name>
+    <text>A38. In phiếu lĩnh chiều ngang</text>
+    <vie>In phiếu lĩnh chiều ngang</vie>
+  </Table>
+  <Table>
+    <control_name>c73</control_name>
+    <text>A35. Số liệu chuyển kho in riêng nhập xuất tồn</text>
+    <vie>Số liệu chuyển kho in riêng nhập xuất tồn</vie>
+  </Table>
+  <Table>
+    <control_name>c71</control_name>
+    <text>A34. Chọn kho trong phiếu xuất ngoại trú</text>
+    <vie>Chọn kho trong phiếu xuất ngoại trú</vie>
+  </Table>
+  <Table>
+    <control_name>c70</control_name>
+    <text>A33. Lọc theo người nhập trong phiếu bảo hiểm</text>
+    <vie>Lọc theo người nhập trong phiếu bảo hiểm</vie>
+  </Table>
+  <Table>
+    <control_name>c68</control_name>
+    <text>A32. Họ tên trong phiếu lĩnh (Độc A-B)</text>
+    <vie>Họ tên trong phiếu lĩnh (Độc A-B)</vie>
+  </Table>
+  <Table>
+    <control_name>c67</control_name>
+    <text>A31. Họ tên trong phiếu lĩnh (Hướng tâm thần)</text>
+    <vie>Họ tên trong phiếu lĩnh (Hướng tâm thần)</vie>
+  </Table>
+  <Table>
+    <control_name>c66</control_name>
+    <text>A30. Họ tên trong phiếu lĩnh (Gây nghiện)</text>
+    <vie>Họ tên trong phiếu lĩnh (Gây nghiện)</vie>
+  </Table>
+  <Table>
+    <control_name>c65</control_name>
+    <text>A28. In đơn giá trong phiếu lĩnh</text>
+    <vie>In đơn giá trong phiếu lĩnh</vie>
+  </Table>
+  <Table>
+    <control_name>c62</control_name>
+    <text>A8. Nhập mã người bệnh  trong bảo hiểm</text>
+    <vie>Nhập mã người bệnh  trong bảo hiểm</vie>
+  </Table>
+  <Table>
+    <control_name>c22</control_name>
+    <text>30</text>
+    <vie>30</vie>
+  </Table>
+  <Table>
+    <control_name>c10</control_name>
+    <text>30</text>
+    <vie>30</vie>
+  </Table>
+  <Table>
+    <control_name>hinh</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>label14</control_name>
+    <text>Tiêu đề :</text>
+    <vie>Tiêu đề :</vie>
+  </Table>
+  <Table>
+    <control_name>kho</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>label15</control_name>
+    <text>Hình :</text>
+    <vie>Hình :</vie>
+  </Table>
+  <Table>
+    <control_name>butHinh</control_name>
+    <text>...</text>
+    <vie>...</vie>
+  </Table>
+  <Table>
+    <control_name>c02</control_name>
+    <text>A1. Mã số tự động</text>
+    <vie>Mã số tự động</vie>
+  </Table>
+  <Table>
+    <control_name>c23</control_name>
+    <text>A4. Nhập tên hoạt chất</text>
+    <vie>Nhập tên hoạt chất</vie>
+  </Table>
+  <Table>
+    <control_name>c05</control_name>
+    <text>A26. Xem trước khi in</text>
+    <vie>Xem trước khi in</vie>
+  </Table>
+  <Table>
+    <control_name>c21</control_name>
+    <text>A27. Hiện thông số trước in</text>
+    <vie>Hiện thông số trước in</vie>
+  </Table>
+  <Table>
+    <control_name>c11</control_name>
+    <text>A5. Nhập dược bệnh viện trong khai báo dMục</text>
+    <vie>Nhập dược bệnh viện trong khai báo danh mục</vie>
+  </Table>
+  <Table>
+    <control_name>c12</control_name>
+    <text>A6. Nhập nhóm kế toán trong khai báo dMục</text>
+    <vie>Nhập nhóm kế toán trong khai báo danh mục</vie>
+  </Table>
+  <Table>
+    <control_name>c30</control_name>
+    <text>A20. Lọc ngày trong xuất bảo hiểm</text>
+    <vie>Lọc ngày trong xuất bảo hiểm</vie>
+  </Table>
+  <Table>
+    <control_name>c31</control_name>
+    <text>A21. Lọc ngày trong xuất ngoại trú</text>
+    <vie>Lọc ngày trong xuất ngoại trú</vie>
+  </Table>
+  <Table>
+    <control_name>c37</control_name>
+    <text>A22. Lọc ngày trong xuất tủ trực</text>
+    <vie>Lọc ngày trong xuất tủ trực</vie>
+  </Table>
+  <Table>
+    <control_name>label1</control_name>
+    <text>Ban giám đốc :</text>
+    <vie>Ban giám đốc :</vie>
+  </Table>
+  <Table>
+    <control_name>c07</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>label13</control_name>
+    <text>Phụ trách  kế toán :</text>
+    <vie>Phụ trách  kế toán :</vie>
+  </Table>
+  <Table>
+    <control_name>c32</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>label2</control_name>
+    <text>Phụ trách bộ phận :</text>
+    <vie>Phụ trách bộ phận :</vie>
+  </Table>
+  <Table>
+    <control_name>c08</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>label3</control_name>
+    <text>Người lập biểu :</text>
+    <vie>Người lập biểu :</vie>
+  </Table>
+  <Table>
+    <control_name>c09</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>label4</control_name>
+    <text>Kế toán kho :</text>
+    <vie>Kế toán kho :</vie>
+  </Table>
+  <Table>
+    <control_name>c15</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>label5</control_name>
+    <text>Thủ kho :</text>
+    <vie>Thủ kho :</vie>
+  </Table>
+  <Table>
+    <control_name>c16</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>label10</control_name>
+    <text>A37. Ngày làm việc so với ngày hệ thống :</text>
+    <vie>Ngày làm việc so với ngày hệ thống :</vie>
+  </Table>
+  <Table>
+    <control_name>label11</control_name>
+    <text>ngày</text>
+    <vie>ngày</vie>
+  </Table>
+  <Table>
+    <control_name>label7</control_name>
+    <text>A38. Số ngày hoàn trả so với ngày lãnh là:</text>
+    <vie>Số ngày hoàn trả so với ngày lãnh là :</vie>
+  </Table>
+  <Table>
+    <control_name>label6</control_name>
+    <text>ngày</text>
+    <vie>ngày</vie>
+  </Table>
+  <Table>
+    <control_name>c26</control_name>
+    <text>A2. Nhập mã số</text>
+    <vie>Nhập mã số</vie>
+  </Table>
+  <Table>
+    <control_name>c27</control_name>
+    <text>A9. Nhập số thẻ trong bảo hiểm</text>
+    <vie>Nhập số thẻ trong bảo hiểm</vie>
+  </Table>
+  <Table>
+    <control_name>c34</control_name>
+    <text>A10. Nhập phòng khám trong bảo hiểm</text>
+    <vie>Nhập phòng khám trong bảo hiểm</vie>
+  </Table>
+  <Table>
+    <control_name>c36</control_name>
+    <text>A11. Nhập chẩn đoán trong bảo hiểm</text>
+    <vie>Nhập chẩn đoán trong bảo hiểm</vie>
+  </Table>
+  <Table>
+    <control_name>c40</control_name>
+    <text>A13. Nhập mã người bệnh trong xuất ngoại trú</text>
+    <vie>Nhập mã người bệnh trong xuất ngoại trú</vie>
+  </Table>
+  <Table>
+    <control_name>c24</control_name>
+    <text>A14. Nhập họ tên trong xuất ngoại trú</text>
+    <vie>Nhập họ tên trong xuất ngoại trú</vie>
+  </Table>
+  <Table>
+    <control_name>c25</control_name>
+    <text>A15. Nhập năm sinh trong xuất ngoại trú</text>
+    <vie>Nhập năm sinh trong xuất ngoại trú</vie>
+  </Table>
+  <Table>
+    <control_name>c41</control_name>
+    <text>A25. Lọc theo người dùng trong duyệt</text>
+    <vie>Lọc theo người dùng trong duyệt</vie>
+  </Table>
+  <Table>
+    <control_name>c42</control_name>
+    <text>A7. In cột số lượng yêu cầu trong phiếu lĩnh</text>
+    <vie>In cột số lượng yêu cầu trong phiếu lĩnh</vie>
+  </Table>
+  <Table>
+    <control_name>c35</control_name>
+    <text>A12. Nhập bác sĩ trong bảo hiểm</text>
+    <vie>Nhập bác sĩ trong bảo hiểm</vie>
+  </Table>
+  <Table>
+    <control_name>c38</control_name>
+    <text>A18. Nhập khoa/phòng xuất ngoại trú</text>
+    <vie>Nhập khoa/phòng xuất ngoại trú</vie>
+  </Table>
+  <Table>
+    <control_name>c39</control_name>
+    <text>A16. Nhập bác sỹ trong xuất ngoại trú</text>
+    <vie>Nhập bác sỹ trong xuất ngoại trú</vie>
+  </Table>
+  <Table>
+    <control_name>c169</control_name>
+    <text>B26. Treo phần lẻ duyệt riêng</text>
+    <vie>Treo phần lẻ duyệt riêng</vie>
+  </Table>
+  <Table>
+    <control_name>c160</control_name>
+    <text>B44. Xuất theo hạn dùng</text>
+    <vie>Xuất theo hạn dùng</vie>
+  </Table>
+  <Table>
+    <control_name>c159</control_name>
+    <text>B43. Xuất theo nhập trước xuất trước</text>
+    <vie>Xuất theo nhập trước xuất trước</vie>
+  </Table>
+  <Table>
+    <control_name>c152</control_name>
+    <text>B33. Số hiệu khai báo trong viện phí</text>
+    <vie>Số hiệu khai báo trong viện phí</vie>
+  </Table>
+  <Table>
+    <control_name>c139</control_name>
+    <text>B58. Số phiếu nhập tự động theo ngày</text>
+    <vie>Số phiếu nhập tự động theo ngày</vie>
+  </Table>
+  <Table>
+    <control_name>c137</control_name>
+    <text>B38. Theo kho</text>
+    <vie>Theo kho</vie>
+  </Table>
+  <Table>
+    <control_name>c88</control_name>
+    <text>B46. Theo dõi kinh phí sử dụng</text>
+    <vie>Theo dõi kinh phí sử dụng</vie>
+  </Table>
+  <Table>
+    <control_name>label45</control_name>
+    <text>riêng</text>
+    <vie>riêng</vie>
+  </Table>
+  <Table>
+    <control_name>c128</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>label44</control_name>
+    <text>B56. Toa BHYT in nhóm</text>
+    <vie>Toa BHYT in nhóm</vie>
+  </Table>
+  <Table>
+    <control_name>c110</control_name>
+    <text>B57. Lọc ký tự từ trái sang phải</text>
+    <vie>Lọc ký tự từ trái sang phải</vie>
+  </Table>
+  <Table>
+    <control_name>c19</control_name>
+    <text>B41. Quản lý hạn dùng</text>
+    <vie>Quản lý hạn dùng</vie>
+  </Table>
+  <Table>
+    <control_name>c18</control_name>
+    <text>B40. Quản lý nhà cung cấp</text>
+    <vie>Quản lý nhà cung cấp</vie>
+  </Table>
+  <Table>
+    <control_name>c126</control_name>
+    <text>B36. Xuất bán lấy giá bán theo đợt nhập</text>
+    <vie>Xuất bán lấy giá bán theo đợt nhập</vie>
+  </Table>
+  <Table>
+    <control_name>c123</control_name>
+    <text>B54. Thuốc Nội-Ngoại dựa theo Nước SX</text>
+    <vie>Thuốc Nội-Ngoại dựa theo Nước SX</vie>
+  </Table>
+  <Table>
+    <control_name>c55</control_name>
+    <text>B53. Thuốc Nội-Ngoại dựa theo Hảng SX</text>
+    <vie>Thuốc Nội-Ngoại dựa theo Hảng SX</vie>
+  </Table>
+  <Table>
+    <control_name>c125</control_name>
+    <text>B25. Bù cơ số tủ trực tròn số (treo phần lẻ)</text>
+    <vie>Bù cơ số tủ trực tròn số (treo phần lẻ)</vie>
+  </Table>
+  <Table>
+    <control_name>c124</control_name>
+    <text>B35. In cách dùng trong phiếu xuất bán</text>
+    <vie>In cách dùng trong phiếu xuất bán</vie>
+  </Table>
+  <Table>
+    <control_name>c122</control_name>
+    <text>B52. Cập nhật tồn kho tổng hợp trước khi cấp thuốc</text>
+    <vie>Cập nhật tồn kho tổng hợp trước khi cấp thuốc</vie>
+  </Table>
+  <Table>
+    <control_name>c117</control_name>
+    <text>B50. Toa BHYT in theo nhóm viện phí</text>
+    <vie>Toa BHYT in theo nhóm viện phí</vie>
+  </Table>
+  <Table>
+    <control_name>c115</control_name>
+    <text>B49. Xuất ngoại trú in phiếu lĩnh</text>
+    <vie>Xuất ngoại trú in phiếu lĩnh</vie>
+  </Table>
+  <Table>
+    <control_name>c114</control_name>
+    <text>B48. Biên bản kiểm kê theo mẫu số C14-H</text>
+    <vie>Biên bản kiểm kê theo mẫu số C14-H</vie>
+  </Table>
+  <Table>
+    <control_name>c113</control_name>
+    <text>B47. Thẻ kho cộng dồn theo ngày</text>
+    <vie>Thẻ kho cộng dồn theo ngày</vie>
+  </Table>
+  <Table>
+    <control_name>c111</control_name>
+    <text>B55. Tự động gửi tin nhắn khi dự trù/duyệt xong</text>
+    <vie>Tự động gửi tin nhắn khi dự trù/duyệt xong</vie>
+  </Table>
+  <Table>
+    <control_name>label39</control_name>
+    <text>B10. Số lần in trong xuất bán</text>
+    <vie>Số lần in trong xuất bán</vie>
+  </Table>
+  <Table>
+    <control_name>label38</control_name>
+    <text>lần</text>
+    <vie>lần</vie>
+  </Table>
+  <Table>
+    <control_name>c109</control_name>
+    <text>1</text>
+    <vie>1</vie>
+  </Table>
+  <Table>
+    <control_name>c108</control_name>
+    <text>B32. Xuất bán có biên lai tài chính</text>
+    <vie>Xuất bán có biên lai tài chính</vie>
+  </Table>
+  <Table>
+    <control_name>c107</control_name>
+    <text>B37. Số phiếu nhập tăng tự động</text>
+    <vie>Số phiếu nhập tăng tự động</vie>
+  </Table>
+  <Table>
+    <control_name>c105</control_name>
+    <text>1</text>
+    <vie>1</vie>
+  </Table>
+  <Table>
+    <control_name>label36</control_name>
+    <text>B9. Khoảng cách ngày kiểm kê :</text>
+    <vie>Khoảng cách ngày kiểm kê :</vie>
+  </Table>
+  <Table>
+    <control_name>label37</control_name>
+    <text>ngày</text>
+    <vie>ngày</vie>
+  </Table>
+  <Table>
+    <control_name>c104</control_name>
+    <text>B34. Nhập mã số, tên chung trong xuất bán</text>
+    <vie>Nhập mã số, tên chung trong xuất bán</vie>
+  </Table>
+  <Table>
+    <control_name>c103</control_name>
+    <text>B31. Cho phép không cần in phiếu xuất bán</text>
+    <vie>Cho phép không cần in phiếu xuất bán</vie>
+  </Table>
+  <Table>
+    <control_name>c102</control_name>
+    <text>B51. In điền chi phí điều trị trẻ em</text>
+    <vie>In điền chi phí điều trị trẻ em</vie>
+  </Table>
+  <Table>
+    <control_name>c99</control_name>
+    <text>1</text>
+    <vie>1</vie>
+  </Table>
+  <Table>
+    <control_name>label35</control_name>
+    <text>B8. Số ngày toa thuốc bảo hiểm</text>
+    <vie>Số ngày toa thuốc bảo hiểm</vie>
+  </Table>
+  <Table>
+    <control_name>label34</control_name>
+    <text>ngày</text>
+    <vie>ngày</vie>
+  </Table>
+  <Table>
+    <control_name>c98</control_name>
+    <text>B30. In đơn giá mua trong thẻ kho</text>
+    <vie>In đơn giá mua trong thẻ kho</vie>
+  </Table>
+  <Table>
+    <control_name>c93</control_name>
+    <text>B19. In hãng/nước trong phiếu nhập &amp;&amp; xuất</text>
+    <vie>In hãng/nước trong phiếu nhập &amp;&amp; xuất</vie>
+  </Table>
+  <Table>
+    <control_name>c92</control_name>
+    <text>B6. Cho phép nhập số lượng không trừ cơ số</text>
+    <vie>Cho phép nhập số lượng không trừ cơ số</vie>
+  </Table>
+  <Table>
+    <control_name>c91</control_name>
+    <text>B18. Chứng từ nhập trong thẻ kho lấy số phiếu</text>
+    <vie>Chứng từ nhập trong thẻ kho lấy số phiếu</vie>
+  </Table>
+  <Table>
+    <control_name>c90</control_name>
+    <text>B17. Thống kê xuất bán theo người nhập</text>
+    <vie>Thống kê xuất bán theo người nhập</vie>
+  </Table>
+  <Table>
+    <control_name>c89</control_name>
+    <text>B16. Phiếu nhập theo thứ tự số phiếu</text>
+    <vie>Phiếu nhập theo thứ tự số phiếu</vie>
+  </Table>
+  <Table>
+    <control_name>c86</control_name>
+    <text>B15. Chẩn đoán trong đơn thuốc phải có trong ICD10</text>
+    <vie>Chẩn đoán trong đơn thuốc phải có trong ICD10</vie>
+  </Table>
+  <Table>
+    <control_name>c85</control_name>
+    <text>B14.Thông báo khi nhập đThuốc lần thứ 2 trong ngày</text>
+    <vie>Thông báo khi nhập đơn thuốc lần thứ 2 trong ngày</vie>
+  </Table>
+  <Table>
+    <control_name>c82</control_name>
+    <text>B13. Công khám vào đơn BHYT</text>
+    <vie>Công khám vào đơn BHYT</vie>
+  </Table>
+  <Table>
+    <control_name>c81</control_name>
+    <text>B12. In nhóm trong phiếu nhập &amp;&amp; xuất</text>
+    <vie>In nhóm trong phiếu nhập &amp;&amp; xuất</vie>
+  </Table>
+  <Table>
+    <control_name>c80</control_name>
+    <text>B11. Kiểm tra người bệnh khi cấp phát &amp;&amp; thu hồi</text>
+    <vie>Kiểm tra người bệnh khi cấp phát &amp;&amp; thu hồi</vie>
+  </Table>
+  <Table>
+    <control_name>c78</control_name>
+    <text>B22. Slượng thực không được lớn hơn yêu cầu</text>
+    <vie>Số lượng thực không được lớn hơn yêu cầu</vie>
+  </Table>
+  <Table>
+    <control_name>c69</control_name>
+    <text>B24. Cấp phát tròn số (Cộng dồn đối tượng)</text>
+    <vie>Cấp phát tròn số (Cộng dồn đối tượng)</vie>
+  </Table>
+  <Table>
+    <control_name>c64</control_name>
+    <text>B29. Dự trù phiếu xuất kho (số liệu trong kho)</text>
+    <vie>Dự trù phiếu xuất kho (số liệu trong kho)</vie>
+  </Table>
+  <Table>
+    <control_name>c54</control_name>
+    <text>B27. Bù cơ số tủ trực cùng nguồn</text>
+    <vie>Bù cơ số tủ trực cùng nguồn</vie>
+  </Table>
+  <Table>
+    <control_name>c44</control_name>
+    <text>1</text>
+    <vie>1</vie>
+  </Table>
+  <Table>
+    <control_name>c04</control_name>
+    <text>B1. Nhập đơn giá</text>
+    <vie>Nhập đơn giá</vie>
+  </Table>
+  <Table>
+    <control_name>c45</control_name>
+    <text>B2. Nhập số lượng qui đổi trong phiếu nhập</text>
+    <vie>Nhập số lượng qui đổi trong phiếu nhập</vie>
+  </Table>
+  <Table>
+    <control_name>c46</control_name>
+    <text>B3. Chọn quyển sổ trong viện phí bảo hiểm</text>
+    <vie>Chọn quyển sổ trong viện phí bảo hiểm</vie>
+  </Table>
+  <Table>
+    <control_name>c61</control_name>
+    <text>B4. Cho phép nhập tủ trực trong hao phí</text>
+    <vie>Cho phép nhập tủ trực trong hao phí</vie>
+  </Table>
+  <Table>
+    <control_name>c60</control_name>
+    <text>B5. Cho phép nhập tủ trực trong phiếu lĩnh</text>
+    <vie>Cho phép nhập tủ trực trong phiếu lĩnh</vie>
+  </Table>
+  <Table>
+    <control_name>c63</control_name>
+    <text>B23. Cấp phát tròn số</text>
+    <vie>Cấp phát tròn số</vie>
+  </Table>
+  <Table>
+    <control_name>c43</control_name>
+    <text>B21. Chỉnh sửa số lượng trong duyệt</text>
+    <vie>Chỉnh sửa số lượng trong duyệt</vie>
+  </Table>
+  <Table>
+    <control_name>c33</control_name>
+    <text>B28. Dự trù mua (Xem tổng tồn tháng trước)</text>
+    <vie>Dự trù mua (Xem tổng tồn tháng trước)</vie>
+  </Table>
+  <Table>
+    <control_name>c13</control_name>
+    <text>Khoá số liệu tháng 04 năm 14</text>
+    <vie>Khoá số liệu tháng 06 năm 09</vie>
+  </Table>
+  <Table>
+    <control_name>c14</control_name>
+    <text>B45. Giá bán phải lớn hơn hoặc bằng giá mua</text>
+    <vie>Giá bán phải lớn hơn hoặc bằng giá mua</vie>
+  </Table>
+  <Table>
+    <control_name>c17</control_name>
+    <text>B39. Quản lý nguồn hàng</text>
+    <vie>Quản lý nguồn hàng</vie>
+  </Table>
+  <Table>
+    <control_name>c20</control_name>
+    <text>B42. Quản lý lô sn xuất</text>
+    <vie>Quản lý lô sản xuất</vie>
+  </Table>
+  <Table>
+    <control_name>label16</control_name>
+    <text>B7. Khoảng cách ngày in phiếu</text>
+    <vie>Khoảng cách ngày in phiếu</vie>
+  </Table>
+  <Table>
+    <control_name>label17</control_name>
+    <text>ngày</text>
+    <vie>ngày</vie>
+  </Table>
+  <Table>
+    <control_name>c173</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>c171</control_name>
+    <text>C17. Người bệnh chỉ định vào khám , chưa vào phòng khám không hiện thị trong danh sách chờ duyệt</text>
+    <vie>Người bệnh chỉ định vào khám , chưa vào phòng khám không hiện thị trong danh sách chờ duyệt</vie>
+  </Table>
+  <Table>
+    <control_name>c170</control_name>
+    <text>C30.Thu hồi phiều bù kiểm tra tồn tủ trực</text>
+    <vie>Thu hồi phiều bù kiểm tra tồn tủ trực</vie>
+  </Table>
+  <Table>
+    <control_name>c168</control_name>
+    <text>C29. In chi phí ngoại trú tách riêng chẩn đoán &amp;&amp; bSỹ</text>
+    <vie>In chi phí ngoại trú tách riêng chẩn đoán &amp;&amp; bác sỹ</vie>
+  </Table>
+  <Table>
+    <control_name>c162</control_name>
+    <text>30</text>
+    <vie>30</vie>
+  </Table>
+  <Table>
+    <control_name>c166</control_name>
+    <text>C28.Tự động gửi tin nhắn âm thanh khi dự trù/duyệt</text>
+    <vie>Tự động gửi tin nhắn âm thanh khi dự trù/duyệt xong</vie>
+  </Table>
+  <Table>
+    <control_name>c165</control_name>
+    <text>C24.Tỷ lệ giá bán lẻ dựa vào Giá mua</text>
+    <vie>Tỷ lệ giá bán lẻ dựa vào đơn giá mua</vie>
+  </Table>
+  <Table>
+    <control_name>c150</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>c164</control_name>
+    <text>0</text>
+    <vie>0</vie>
+  </Table>
+  <Table>
+    <control_name>label52</control_name>
+    <text>C27. Khoảng cách duyệt đThuốc ngoại trú                ngày .</text>
+    <vie>Khoảng cách duyệt đơn thuốc ngoại trú                  ngày .</vie>
+  </Table>
+  <Table>
+    <control_name>c119</control_name>
+    <text>C40. Trừ số lượng tồn ảo khi dự trù</text>
+    <vie>Trừ số lượng tồn ảo khi dự trù</vie>
+  </Table>
+  <Table>
+    <control_name>c163</control_name>
+    <text>C26. Hoàn trả bán lấy lại thông tin xuất bán</text>
+    <vie>Hoàn trả bán lấy lại thông tin xuất bán</vie>
+  </Table>
+  <Table>
+    <control_name>label51</control_name>
+    <text>C25. Thông báo thuốc hết hạn dùng               tháng tới .</text>
+    <vie>Thông báo thuốc hết hạn dùng               tháng tới .</vie>
+  </Table>
+  <Table>
+    <control_name>label49</control_name>
+    <text>C22. Dự trù mua năm</text>
+    <vie>Dự trù mua năm</vie>
+  </Table>
+  <Table>
+    <control_name>c161</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>c157</control_name>
+    <text>C21. Hiện thị số tiền phiếu duyệt cấp</text>
+    <vie>Hiện thị số tiền phiếu duyệt cấp</vie>
+  </Table>
+  <Table>
+    <control_name>c156</control_name>
+    <text>C20. Chuyển khám tính công khám</text>
+    <vie>Chuyển khám tính công khám</vie>
+  </Table>
+  <Table>
+    <control_name>c155</control_name>
+    <text>C15. Duyệt thuốc BHYT khi kết thúc khám bệnh</text>
+    <vie>Duyệt thuốc BHYT khi kết thúc khám bệnh</vie>
+  </Table>
+  <Table>
+    <control_name>c154</control_name>
+    <text>C18. Số phiếu xuất tăng tự động</text>
+    <vie>Số phiếu xuất tăng tự động</vie>
+  </Table>
+  <Table>
+    <control_name>c153</control_name>
+    <text>C16. Tự động tính lại tồn kho khi chuyển sang tháng mới</text>
+    <vie>Tự động tính lại tồn kho khi chuyển sang tháng mới</vie>
+  </Table>
+  <Table>
+    <control_name>c151</control_name>
+    <text>1</text>
+    <vie>1</vie>
+  </Table>
+  <Table>
+    <control_name>label48</control_name>
+    <text>Số bản in :</text>
+    <vie>Số bản in :</vie>
+  </Table>
+  <Table>
+    <control_name>label47</control_name>
+    <text>Số tài khoản :</text>
+    <vie>Số tài khoản :</vie>
+  </Table>
+  <Table>
+    <control_name>c149</control_name>
+    <text>C19. Nhập tỷ lệ giảm giá</text>
+    <vie>Nhập tỷ lệ giảm giá</vie>
+  </Table>
+  <Table>
+    <control_name>c148</control_name>
+    <text>C23. Giá bán khai báo theo danh mục</text>
+    <vie>Giá bán khai báo theo danh mục</vie>
+  </Table>
+  <Table>
+    <control_name>c147</control_name>
+    <text>C14. In ngày y lệnh trong phiếu lĩnh</text>
+    <vie>In ngày y lệnh trong phiếu lĩnh</vie>
+  </Table>
+  <Table>
+    <control_name>c146</control_name>
+    <text>C13. Tính công khám trong phòng lưu</text>
+    <vie>Tính công khám trong phòng lưu</vie>
+  </Table>
+  <Table>
+    <control_name>c145</control_name>
+    <text>C12. In chi phí khám bệnh lấy thuốc tủ trực</text>
+    <vie>In chi phí khám bệnh lấy thuốc tủ trực</vie>
+  </Table>
+  <Table>
+    <control_name>c144</control_name>
+    <text>C11. In phiếu xuất / bù theo cơ số tủ trực</text>
+    <vie>In phiếu xuất / bù theo cơ số tủ trực</vie>
+  </Table>
+  <Table>
+    <control_name>c143</control_name>
+    <text>C10. Giá bán nội trú &lt;&gt; ngoại trú</text>
+    <vie>Giá bán nội trú &lt;&gt; ngoại trú</vie>
+  </Table>
+  <Table>
+    <control_name>c142</control_name>
+    <text>C9. Chọn đối tượng theo mặt hàng trong dMục hàng hóa</text>
+    <vie>Chọn đối tượng theo mặt hàng trong danh mục hàng hóa</vie>
+  </Table>
+  <Table>
+    <control_name>c141</control_name>
+    <text>30</text>
+    <vie>30</vie>
+  </Table>
+  <Table>
+    <control_name>label50</control_name>
+    <text>C8. Số chương trình kích hoạt tối đa trên mỗi máy là :</text>
+    <vie>Số chương trình kích hoạt tối đa trên mỗi máy là :</vie>
+  </Table>
+  <Table>
+    <control_name>c140</control_name>
+    <text>C7. Nhập chiết khấu trong phiếu nhập</text>
+    <vie>Nhập chiết khấu trong phiếu nhập</vie>
+  </Table>
+  <Table>
+    <control_name>c138</control_name>
+    <text>C6. In phiếu nhiều ngày (chọn ngày+phiếu)</text>
+    <vie>In phiếu nhiều ngày (chọn ngày+phiếu)</vie>
+  </Table>
+  <Table>
+    <control_name>c136</control_name>
+    <text>C5. Kiểm tra tồn kho trước khi duyệt (-----)</text>
+    <vie>Kiểm tra tồn kho trước khi duyệt</vie>
+  </Table>
+  <Table>
+    <control_name>c135</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>label46</control_name>
+    <text>C4. Theo dõi tồn kho tối thiểu :</text>
+    <vie>Theo dõi tồn kho tối thiểu :</vie>
+  </Table>
+  <Table>
+    <control_name>c131</control_name>
+    <text>C3. Cho phép chỉnh sửa khi duyệt đơn thuốc</text>
+    <vie>Cho phép chỉnh sửa khi duyệt đơn thuốc</vie>
+  </Table>
+  <Table>
+    <control_name>c130</control_name>
+    <text>C2. Số phiếu đánh theo năm</text>
+    <vie>Số phiếu đánh theo năm</vie>
+  </Table>
+  <Table>
+    <control_name>c129</control_name>
+    <text>C1. Chọn loại phiếu khi xuất kho</text>
+    <vie>Chọn loại phiếu khi xuất kho</vie>
+  </Table>
+  <Table>
+    <control_name>dataGrid3</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>c174</control_name>
+    <text>D2. Xuất bán sang viện phí thu tiền</text>
+    <vie>Xuất bán sang viện phí thu tiền</vie>
+  </Table>
+  <Table>
+    <control_name>c172</control_name>
+    <text>D1. BHYT cùng chi trả đóng tiền mới hiện danh sách phát thuốc</text>
+    <vie>BHYT cùng chi trả đóng tiền mới hiện danh sách phát thuốc</vie>
+  </Table>
+  <Table>
+    <control_name>c127</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>label24</control_name>
+    <text>Thư mục báo cáo :</text>
+    <vie>Thư mục báo cáo :</vie>
+  </Table>
+  <Table>
+    <control_name>label43</control_name>
+    <text>CPVC :</text>
+    <vie>Tự nguyện :</vie>
+  </Table>
+  <Table>
+    <control_name>label42</control_name>
+    <text>Vị trí</text>
+    <vie>Vị trí</vie>
+  </Table>
+  <Table>
+    <control_name>c121</control_name>
+    <text>5,2</text>
+    <vie>5,2</vie>
+  </Table>
+  <Table>
+    <control_name>c120</control_name>
+    <text>SS,TT,RR</text>
+    <vie>SS,TT,RR</vie>
+  </Table>
+  <Table>
+    <control_name>label41</control_name>
+    <text>Vị trí</text>
+    <vie>Vị trí</vie>
+  </Table>
+  <Table>
+    <control_name>label28</control_name>
+    <text>số lẻ</text>
+    <vie>số lẻ</vie>
+  </Table>
+  <Table>
+    <control_name>c56</control_name>
+    <text>report</text>
+    <vie>report</vie>
+  </Table>
+  <Table>
+    <control_name>c47</control_name>
+    <text>3000</text>
+    <vie>3000</vie>
+  </Table>
+  <Table>
+    <control_name>c112</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>label40</control_name>
+    <text>Domain :</text>
+    <vie>Domain :</vie>
+  </Table>
+  <Table>
+    <control_name>c84</control_name>
+    <text>3,2</text>
+    <vie>3,2</vie>
+  </Table>
+  <Table>
+    <control_name>c83</control_name>
+    <text>50</text>
+    <vie>50</vie>
+  </Table>
+  <Table>
+    <control_name>label33</control_name>
+    <text>Số thẻ trong tỉnh :</text>
+    <vie>Số thẻ trong tỉnh :</vie>
+  </Table>
+  <Table>
+    <control_name>label31</control_name>
+    <text>Giá bán :</text>
+    <vie>Giá bán :</vie>
+  </Table>
+  <Table>
+    <control_name>c79</control_name>
+    <text>0</text>
+    <vie>0</vie>
+  </Table>
+  <Table>
+    <control_name>label32</control_name>
+    <text>số lẻ</text>
+    <vie>số lẻ</vie>
+  </Table>
+  <Table>
+    <control_name>label18</control_name>
+    <text>Công khám bảo hiểm :</text>
+    <vie>Công khám bảo hiểm :</vie>
+  </Table>
+  <Table>
+    <control_name>label25</control_name>
+    <text>Số lượng :</text>
+    <vie>Số lượng :</vie>
+  </Table>
+  <Table>
+    <control_name>c57</control_name>
+    <text>0</text>
+    <vie>0</vie>
+  </Table>
+  <Table>
+    <control_name>label26</control_name>
+    <text>Đơn giá :</text>
+    <vie>Đơn giá :</vie>
+  </Table>
+  <Table>
+    <control_name>c58</control_name>
+    <text>0</text>
+    <vie>0</vie>
+  </Table>
+  <Table>
+    <control_name>label29</control_name>
+    <text>số lẻ</text>
+    <vie>số lẻ</vie>
+  </Table>
+  <Table>
+    <control_name>label27</control_name>
+    <text>Thành tiền :</text>
+    <vie>Thành tiền :</vie>
+  </Table>
+  <Table>
+    <control_name>c59</control_name>
+    <text>0</text>
+    <vie>0</vie>
+  </Table>
+  <Table>
+    <control_name>label30</control_name>
+    <text>số lẻ</text>
+    <vie>số lẻ</vie>
+  </Table>
+  <Table>
+    <control_name>label8</control_name>
+    <text>Bảo hiểm cùng chi trả</text>
+    <vie>Bảo hiểm cùng chi trả</vie>
+  </Table>
+  <Table>
+    <control_name>label9</control_name>
+    <text>Số thẻ 15 ký tự, Chi trả 80 % :</text>
+    <vie>Số thẻ 13 ký tự :</vie>
+  </Table>
+  <Table>
+    <control_name>ma13</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>label12</control_name>
+    <text>Số thẻ 18 ký tự, Chi trả 80 % :</text>
+    <vie>Số thẻ mới :</vie>
+  </Table>
+  <Table>
+    <control_name>ma16</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>label19</control_name>
+    <text>Ngoại trú chi trả</text>
+    <vie>Ngoại trú chi trả</vie>
+  </Table>
+  <Table>
+    <control_name>c48</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>c49</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>label21</control_name>
+    <text>&gt;</text>
+    <vie>&gt;</vie>
+  </Table>
+  <Table>
+    <control_name>label22</control_name>
+    <text>&gt;</text>
+    <vie>&gt;</vie>
+  </Table>
+  <Table>
+    <control_name>label20</control_name>
+    <text>Số tiền</text>
+    <vie>Số tiền</vie>
+  </Table>
+  <Table>
+    <control_name>label23</control_name>
+    <text>Vị trí</text>
+    <vie>Vị trí</vie>
+  </Table>
+  <Table>
+    <control_name>c50</control_name>
+    <text>20000</text>
+    <vie>20000</vie>
+  </Table>
+  <Table>
+    <control_name>c52</control_name>
+    <text>5,1</text>
+    <vie>5,1</vie>
+  </Table>
+  <Table>
+    <control_name>c51</control_name>
+    <text>20000</text>
+    <vie>20000</vie>
+  </Table>
+  <Table>
+    <control_name>c53</control_name>
+    <text>5,2</text>
+    <vie>5,2</vie>
+  </Table>
+  <Table>
+    <control_name>dataGrid1</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>dataGrid2</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>b167</control_name>
+    <text>Chọn chữ ký</text>
+    <vie>Chọn chữ ký</vie>
+  </Table>
+  <Table>
+    <control_name>butKetthuc</control_name>
+    <text>&amp;Kết thúc</text>
+    <vie>&amp;Kết thúc</vie>
+  </Table>
+  <Table>
+    <control_name>p167</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>butOK</control_name>
+    <text>&amp;Cập nhật</text>
+    <vie>&amp;Cập nhật</vie>
+  </Table>
+  <Table>
+    <control_name>label53</control_name>
+    <text>Chữ ký phụ trách bộ phận</text>
+    <vie>Chữ ký phụ trách bộ phận</vie>
+  </Table>
+  <Table>
+    <control_name>c87</control_name>
+    <text>Đơn thuốc bảo hiểm lấy số tiền</text>
+    <vie>Đơn thuốc bảo hiểm lấy số tiền</vie>
+  </Table>
+  <Table>
+    <control_name>c167</control_name>
+    <text>Chữ ký trưởng khoa &amp;&amp; trưởng khoa điều trị trong phiếu</text>
+    <vie>Chữ ký trưởng khoa &amp;&amp; trưởng khoa điều trị trong phiếu</vie>
+  </Table>
+  <Table>
+    <control_name>c77</control_name>
+    <text>Báo cáo chi tiết theo đợt</text>
+    <vie>Báo cáo chi tiết theo đợt</vie>
+  </Table>
+  <Table>
+    <control_name>c175</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>label54</control_name>
+    <text>95 % :</text>
+    <vie>Chi trả 95 % :</vie>
+  </Table>
+  <Table>
+    <control_name>label55</control_name>
+    <text>C41. Số lần in phiếu lĩnh tối đa</text>
+    <vie>Số lần in phiếu lĩnh tối đa</vie>
+  </Table>
+  <Table>
+    <control_name>label56</control_name>
+    <text>lần</text>
+    <vie>lần</vie>
+  </Table>
+  <Table>
+    <control_name>c177</control_name>
+    <text>1</text>
+    <vie>1</vie>
+  </Table>
+  <Table>
+    <control_name>c176</control_name>
+    <text>D3. Khai báo BHYT chi trả trong danh mục chỉ có Admin mới chỉnh sửa</text>
+    <vie>Khai báo BHYT chi trả trong danh mục chỉ có Admin mới chỉnh sửa</vie>
+  </Table>
+  <Table>
+    <control_name>c178</control_name>
+    <text>D4. Chi trả công nợ nhà cung cấp nhiều đợt trên một hóa đơn</text>
+    <vie>Chi trả công nợ nhà cung cấp nhiều đợt trên một hóa đơn</vie>
+  </Table>
+  <Table>
+    <control_name>c1002</control_name>
+    <text>D6. Xuất khác cho phép chọn đợt để xuất</text>
+    <vie>Xuất khác cho phép chọn đợt để xuất</vie>
+  </Table>
+  <Table>
+    <control_name>c1001</control_name>
+    <text>D5. Khi dự trù, xuất không kiểm tra số lượng xuất tháng sau</text>
+    <vie>Khi dự trù, xuất không kiểm tra số lượng xuất tháng sau</vie>
+  </Table>
+  <Table>
+    <control_name>c1004</control_name>
+    <text>D8. Số phiếu mẫu 38 tăng theo tháng, tính từ ngày 01</text>
+    <vie>Số phiếu mẫu 38 tăng theo tháng</vie>
+  </Table>
+  <Table>
+    <control_name>c1003</control_name>
+    <text>D7. Số phiếu mẫu 38 tăng theo năm, tính từ ngày 01/01.</text>
+    <vie>Số phiếu mẫu 38 tăng theo năm</vie>
+  </Table>
+  <Table>
+    <control_name>c1008</control_name>
+    <text>C44. Khóa Phân loại</text>
+    <vie>Khóa Phân loại</vie>
+  </Table>
+  <Table>
+    <control_name>c1007</control_name>
+    <text>C43. Khóa nhóm bộ (dược bệnh viện)</text>
+    <vie>Khóa nhóm bộ (dược bệnh viện)</vie>
+  </Table>
+  <Table>
+    <control_name>c1006</control_name>
+    <text>C42. Chỉnh sửa số lượng trong duyệt kho cấp</text>
+    <vie>Chỉnh sửa số lượng trong duyệt kho cấp</vie>
+  </Table>
+  <Table>
+    <control_name>c1014</control_name>
+    <text>D8.2. Hoặc tính từ ngày tạo số liệu</text>
+    <vie>D8.2. Hoặc tính từ ngày tạo số liệu</vie>
+  </Table>
+  <Table>
+    <control_name>c1012</control_name>
+    <text>D7.1. Hoặc tính từ ngày tạo số liệu tháng 01</text>
+    <vie>D7.1. Hoặc tính từ ngày tạo số liệu tháng 01</vie>
+  </Table>
+  <Table>
+    <control_name>c1005</control_name>
+    <text>D9. Người duyệt mới được phép thu hồi</text>
+    <vie>D9. Người duyệt mới được phép thu hồi</vie>
+  </Table>
+  <Table>
+    <control_name>c1015</control_name>
+    <text>E6. Xuất bán dùng mã vạch (xuất đúng theo STTT)</text>
+    <vie>E6. Xuất bán dùng mã vạch (xuất đúng theo STTT)</vie>
+  </Table>
+  <Table>
+    <control_name>c602</control_name>
+    <text>E5. Xuất bán cho phép sửa số lượng trên lưới</text>
+    <vie>E5. Xuất bán cho phép sửa số lượng trên lưới</vie>
+  </Table>
+  <Table>
+    <control_name>c601</control_name>
+    <text>E4. Cho phép user thường hủy toa xuất bán</text>
+    <vie>E4. Cho phép user thường hủy toa xuất bán</vie>
+  </Table>
+  <Table>
+    <control_name>c1011</control_name>
+    <text>E3. Dược bệnh viện: chỉ tính trên số lượng xuất</text>
+    <vie>E3. Dược bệnh viện: chỉ tính trên số lượng xuất</vie>
+  </Table>
+  <Table>
+    <control_name>c1010</control_name>
+    <text>E2. Nhập kho (số tiền) thuế VAT nhập chung cho cả hóa đơn</text>
+    <vie>E2. Nhập kho (số tiền) thuế VAT nhập chung cho cả hóa đơn</vie>
+  </Table>
+  <Table>
+    <control_name>c1009</control_name>
+    <text>E1. In chi phí (mẫu 38) không in chênh lệch tiền thuốc (do thu trước khi duyệt)</text>
+    <vie>E1. In chi phí (mẫu 38) không in chênh lệch tiền thuốc (do thu trước khi duyệt)</vie>
+  </Table>
+  <Table>
+    <control_name>c1016</control_name>
+    <text>E7 . Cho phép lọc phiếu bù trong lúc duyệt (A39)</text>
+    <vie>E7 . Cho phép lọc phiếu bù trong lúc duyệt (A39)</vie>
+  </Table>
+  <Table>
+    <control_name>c2000</control_name>
+    <text>C43. Danh mục lưu server trung tâm</text>
+    <vie>C43. Danh mục lưu server trung tâm</vie>
+  </Table>
+  <Table>
+    <control_name>label58</control_name>
+    <text>Vị trí</text>
+    <vie>Vị trí</vie>
+  </Table>
+  <Table>
+    <control_name>c217</control_name>
+    <text>16,5</text>
+    <vie>16,5</vie>
+  </Table>
+  <Table>
+    <control_name>c216</control_name>
+    <text>01003</text>
+    <vie>01003</vie>
+  </Table>
+  <Table>
+    <control_name>label57</control_name>
+    <text>Mã nơi ĐKKB:</text>
+    <vie>Mã nơi ĐKKB:</vie>
+  </Table>
+  <Table>
+    <control_name>c179</control_name>
+    <text>B59. Số phiếu nhập tự động theo user</text>
+    <vie>B59. Số phiếu nhập tự động theo user</vie>
+  </Table>
+  <Table>
+    <control_name>c1032</control_name>
+    <text>E9. Chỉ Admin mới được phép hủy phiếu nhập kho</text>
+    <vie>E9. Chỉ Admin mới được phép hủy phiếu nhập kho</vie>
+  </Table>
+  <Table>
+    <control_name>c1031</control_name>
+    <text>E8. không cho duyệt toa khi Bệnh được xử trí hẹn</text>
+    <vie>E8. không cho duyệt toa khi Bệnh được xử trí hẹn</vie>
+  </Table>
+  <Table>
+    <control_name>c1017</control_name>
+    <text>E10.Tỷ lệ giá bán lẻ vật tư dựa vào đơn giá mua (C24.1)</text>
+    <vie>E10.Tỷ lệ giá bán lẻ vật tư dựa vào đơn giá mua (C24.1)</vie>
+  </Table>
+  <Table>
+    <control_name>dataGrid4</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>c603</control_name>
+    <text>D10. Đối tương BHYT phải qua viện phí mới hiện danh sách chờ phát thuốc</text>
+    <vie>D10. Đối tương BHYT phải qua viện phí mới hiện danh sách chờ phát thuốc</vie>
+  </Table>
+  <Table>
+    <control_name>c5011</control_name>
+    <text>E11. User thường không được phép xuất excel</text>
+    <vie>E11. User thường không được phép xuất excel</vie>
+  </Table>
+</NewDataSet>

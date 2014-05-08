@@ -1,0 +1,79 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ma" type="xs:string" minOccurs="0" />
+                <xs:element name="ten" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <ma>15</ma>
+    <ten>TƯ VẤN DINH DƯỠNG</ten>
+  </Table>
+  <Table>
+    <ma>1</ma>
+    <ten>Công khám</ten>
+  </Table>
+  <Table>
+    <ma>2</ma>
+    <ten>Thuốc</ten>
+  </Table>
+  <Table>
+    <ma>3</ma>
+    <ten>Xét nghiệm</ten>
+  </Table>
+  <Table>
+    <ma>4</ma>
+    <ten>CDHA</ten>
+  </Table>
+  <Table>
+    <ma>5</ma>
+    <ten>Phẫu thuật,  tiểu phẩu</ten>
+  </Table>
+  <Table>
+    <ma>6</ma>
+    <ten>Thủ thuật</ten>
+  </Table>
+  <Table>
+    <ma>7</ma>
+    <ten>Vật tư tiêu hao</ten>
+  </Table>
+  <Table>
+    <ma>8</ma>
+    <ten>Máu và chế phẩm từ máu</ten>
+  </Table>
+  <Table>
+    <ma>9</ma>
+    <ten>Chi phí vận chuyển</ten>
+  </Table>
+  <Table>
+    <ma>10</ma>
+    <ten>Giường</ten>
+  </Table>
+  <Table>
+    <ma>11</ma>
+    <ten>Vật lý trị liệu</ten>
+  </Table>
+  <Table>
+    <ma>12</ma>
+    <ten>Khác</ten>
+  </Table>
+  <Table>
+    <ma>13</ma>
+    <ten>Phí dụng cụ</ten>
+  </Table>
+  <Table>
+    <ma>14</ma>
+    <ten>Kỹ thuật cao</ten>
+  </Table>
+</NewDataSet>

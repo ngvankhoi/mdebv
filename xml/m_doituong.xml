@@ -1,0 +1,116 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="madoituong" type="xs:decimal" minOccurs="0" />
+                <xs:element name="doituong" type="xs:string" minOccurs="0" />
+                <xs:element name="sothe" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ngay" type="xs:decimal" minOccurs="0" />
+                <xs:element name="mabv" type="xs:decimal" minOccurs="0" />
+                <xs:element name="mien" type="xs:decimal" minOccurs="0" />
+                <xs:element name="field_gia" type="xs:string" minOccurs="0" />
+                <xs:element name="trasau" type="xs:decimal" minOccurs="0" />
+                <xs:element name="cholam" type="xs:decimal" minOccurs="0" />
+                <xs:element name="dai" type="xs:string" minOccurs="0" />
+                <xs:element name="chenhlech" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <madoituong>1</madoituong>
+    <doituong>BHYT</doituong>
+    <sothe>1</sothe>
+    <ngay>1</ngay>
+    <mabv>1</mabv>
+    <mien>0</mien>
+    <field_gia>gia_bh</field_gia>
+    <trasau>0</trasau>
+    <cholam>0</cholam>
+    <dai>13,16,18</dai>
+    <chenhlech>0</chenhlech>
+  </Table>
+  <Table>
+    <madoituong>2</madoituong>
+    <doituong>Thu phí</doituong>
+    <sothe>0</sothe>
+    <ngay>0</ngay>
+    <mabv>0</mabv>
+    <mien>0</mien>
+    <field_gia>gia_th</field_gia>
+    <trasau>0</trasau>
+    <cholam>0</cholam>
+    <chenhlech>0</chenhlech>
+  </Table>
+  <Table>
+    <madoituong>3</madoituong>
+    <doituong>Miễn phí</doituong>
+    <sothe>0</sothe>
+    <ngay>0</ngay>
+    <mabv>0</mabv>
+    <mien>1</mien>
+    <field_gia>gia_cs</field_gia>
+    <trasau>0</trasau>
+    <cholam>0</cholam>
+    <chenhlech>0</chenhlech>
+  </Table>
+  <Table>
+    <madoituong>4</madoituong>
+    <doituong>Khác</doituong>
+    <sothe>0</sothe>
+    <ngay>0</ngay>
+    <mabv>0</mabv>
+    <mien>0</mien>
+    <field_gia>gia_th</field_gia>
+    <trasau>0</trasau>
+    <cholam>0</cholam>
+    <chenhlech>0</chenhlech>
+  </Table>
+  <Table>
+    <madoituong>5</madoituong>
+    <doituong>Hao phí</doituong>
+    <sothe>0</sothe>
+    <ngay>0</ngay>
+    <mabv>0</mabv>
+    <mien>0</mien>
+    <field_gia>gia_th</field_gia>
+    <trasau>0</trasau>
+    <cholam>0</cholam>
+    <dai />
+    <chenhlech>0</chenhlech>
+  </Table>
+  <Table>
+    <madoituong>6</madoituong>
+    <doituong>Trẻ em &lt; 6 tuổi</doituong>
+    <sothe>0</sothe>
+    <ngay>0</ngay>
+    <mabv>0</mabv>
+    <mien>0</mien>
+    <field_gia>gia_th</field_gia>
+    <trasau>0</trasau>
+    <cholam>0</cholam>
+    <dai />
+    <chenhlech>0</chenhlech>
+  </Table>
+  <Table>
+    <madoituong>7</madoituong>
+    <doituong>Dịch vụ</doituong>
+    <sothe>0</sothe>
+    <ngay>0</ngay>
+    <mabv>0</mabv>
+    <mien>0</mien>
+    <field_gia>gia_dv</field_gia>
+    <trasau>0</trasau>
+    <cholam>0</cholam>
+    <dai />
+    <chenhlech>0</chenhlech>
+  </Table>
+</NewDataSet>

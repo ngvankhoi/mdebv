@@ -1,0 +1,419 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="dmsttmay" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="dmsttmay">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ten" type="xs:string" minOccurs="0" />
+                <xs:element name="id" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <dmsttmay>
+    <ten>Máy 1</ten>
+    <id>1</id>
+  </dmsttmay>
+  <dmsttmay>
+    <ten>Máy 2</ten>
+    <id>2</id>
+  </dmsttmay>
+  <dmsttmay>
+    <ten>Máy 3</ten>
+    <id>3</id>
+  </dmsttmay>
+  <dmsttmay>
+    <ten>Máy 4</ten>
+    <id>4</id>
+  </dmsttmay>
+  <dmsttmay>
+    <ten>Máy 5</ten>
+    <id>5</id>
+  </dmsttmay>
+  <dmsttmay>
+    <ten>Máy 6</ten>
+    <id>6</id>
+  </dmsttmay>
+  <dmsttmay>
+    <ten>Máy 7</ten>
+    <id>7</id>
+  </dmsttmay>
+  <dmsttmay>
+    <ten>Máy 8</ten>
+    <id>8</id>
+  </dmsttmay>
+  <dmsttmay>
+    <ten>Máy 9</ten>
+    <id>9</id>
+  </dmsttmay>
+  <dmsttmay>
+    <ten>Máy 10</ten>
+    <id>10</id>
+  </dmsttmay>
+  <dmsttmay>
+    <ten>Máy 11</ten>
+    <id>11</id>
+  </dmsttmay>
+  <dmsttmay>
+    <ten>Máy 12</ten>
+    <id>12</id>
+  </dmsttmay>
+  <dmsttmay>
+    <ten>Máy 13</ten>
+    <id>13</id>
+  </dmsttmay>
+  <dmsttmay>
+    <ten>Máy 14</ten>
+    <id>14</id>
+  </dmsttmay>
+  <dmsttmay>
+    <ten>Máy 15</ten>
+    <id>15</id>
+  </dmsttmay>
+  <dmsttmay>
+    <ten>Máy 16</ten>
+    <id>16</id>
+  </dmsttmay>
+  <dmsttmay>
+    <ten>Máy 17</ten>
+    <id>17</id>
+  </dmsttmay>
+  <dmsttmay>
+    <ten>Máy 18</ten>
+    <id>18</id>
+  </dmsttmay>
+  <dmsttmay>
+    <ten>Máy 19</ten>
+    <id>19</id>
+  </dmsttmay>
+  <dmsttmay>
+    <ten>Máy 20</ten>
+    <id>20</id>
+  </dmsttmay>
+  <dmsttmay>
+    <ten>Máy 21</ten>
+    <id>21</id>
+  </dmsttmay>
+  <dmsttmay>
+    <ten>Máy 22</ten>
+    <id>22</id>
+  </dmsttmay>
+  <dmsttmay>
+    <ten>Máy 23</ten>
+    <id>23</id>
+  </dmsttmay>
+  <dmsttmay>
+    <ten>Máy 24</ten>
+    <id>24</id>
+  </dmsttmay>
+  <dmsttmay>
+    <ten>Máy 25</ten>
+    <id>25</id>
+  </dmsttmay>
+  <dmsttmay>
+    <ten>Máy 26</ten>
+    <id>26</id>
+  </dmsttmay>
+  <dmsttmay>
+    <ten>Máy 27</ten>
+    <id>27</id>
+  </dmsttmay>
+  <dmsttmay>
+    <ten>Máy 28</ten>
+    <id>28</id>
+  </dmsttmay>
+  <dmsttmay>
+    <ten>Máy 29</ten>
+    <id>29</id>
+  </dmsttmay>
+  <dmsttmay>
+    <ten>Máy 30</ten>
+    <id>30</id>
+  </dmsttmay>
+  <dmsttmay>
+    <ten>Máy 31</ten>
+    <id>31</id>
+  </dmsttmay>
+  <dmsttmay>
+    <ten>Máy 32</ten>
+    <id>32</id>
+  </dmsttmay>
+  <dmsttmay>
+    <ten>Máy 33</ten>
+    <id>33</id>
+  </dmsttmay>
+  <dmsttmay>
+    <ten>Máy 34</ten>
+    <id>34</id>
+  </dmsttmay>
+  <dmsttmay>
+    <ten>Máy 35</ten>
+    <id>35</id>
+  </dmsttmay>
+  <dmsttmay>
+    <ten>Máy 36</ten>
+    <id>36</id>
+  </dmsttmay>
+  <dmsttmay>
+    <ten>Máy 37</ten>
+    <id>37</id>
+  </dmsttmay>
+  <dmsttmay>
+    <ten>Máy 38</ten>
+    <id>38</id>
+  </dmsttmay>
+  <dmsttmay>
+    <ten>Máy 39</ten>
+    <id>39</id>
+  </dmsttmay>
+  <dmsttmay>
+    <ten>Máy 40</ten>
+    <id>40</id>
+  </dmsttmay>
+  <dmsttmay>
+    <ten>Máy 41</ten>
+    <id>41</id>
+  </dmsttmay>
+  <dmsttmay>
+    <ten>Máy 42</ten>
+    <id>42</id>
+  </dmsttmay>
+  <dmsttmay>
+    <ten>Máy 43</ten>
+    <id>43</id>
+  </dmsttmay>
+  <dmsttmay>
+    <ten>Máy 44</ten>
+    <id>44</id>
+  </dmsttmay>
+  <dmsttmay>
+    <ten>Máy 45</ten>
+    <id>45</id>
+  </dmsttmay>
+  <dmsttmay>
+    <ten>Máy 46</ten>
+    <id>46</id>
+  </dmsttmay>
+  <dmsttmay>
+    <ten>Máy 47</ten>
+    <id>47</id>
+  </dmsttmay>
+  <dmsttmay>
+    <ten>Máy 48</ten>
+    <id>48</id>
+  </dmsttmay>
+  <dmsttmay>
+    <ten>Máy 49</ten>
+    <id>49</id>
+  </dmsttmay>
+  <dmsttmay>
+    <ten>Máy 50</ten>
+    <id>50</id>
+  </dmsttmay>
+  <dmsttmay>
+    <ten>Máy 51</ten>
+    <id>51</id>
+  </dmsttmay>
+  <dmsttmay>
+    <ten>Máy 52</ten>
+    <id>52</id>
+  </dmsttmay>
+  <dmsttmay>
+    <ten>Máy 53</ten>
+    <id>53</id>
+  </dmsttmay>
+  <dmsttmay>
+    <ten>Máy 54</ten>
+    <id>54</id>
+  </dmsttmay>
+  <dmsttmay>
+    <ten>Máy 55</ten>
+    <id>55</id>
+  </dmsttmay>
+  <dmsttmay>
+    <ten>Máy 56</ten>
+    <id>56</id>
+  </dmsttmay>
+  <dmsttmay>
+    <ten>Máy 57</ten>
+    <id>57</id>
+  </dmsttmay>
+  <dmsttmay>
+    <ten>Máy 58</ten>
+    <id>58</id>
+  </dmsttmay>
+  <dmsttmay>
+    <ten>Máy 59</ten>
+    <id>59</id>
+  </dmsttmay>
+  <dmsttmay>
+    <ten>Máy 60</ten>
+    <id>60</id>
+  </dmsttmay>
+  <dmsttmay>
+    <ten>Máy 61</ten>
+    <id>61</id>
+  </dmsttmay>
+  <dmsttmay>
+    <ten>Máy 62</ten>
+    <id>62</id>
+  </dmsttmay>
+  <dmsttmay>
+    <ten>Máy 63</ten>
+    <id>63</id>
+  </dmsttmay>
+  <dmsttmay>
+    <ten>Máy 64</ten>
+    <id>64</id>
+  </dmsttmay>
+  <dmsttmay>
+    <ten>Máy 65</ten>
+    <id>65</id>
+  </dmsttmay>
+  <dmsttmay>
+    <ten>Máy 66</ten>
+    <id>66</id>
+  </dmsttmay>
+  <dmsttmay>
+    <ten>Máy 67</ten>
+    <id>67</id>
+  </dmsttmay>
+  <dmsttmay>
+    <ten>Máy 68</ten>
+    <id>68</id>
+  </dmsttmay>
+  <dmsttmay>
+    <ten>Máy 69</ten>
+    <id>69</id>
+  </dmsttmay>
+  <dmsttmay>
+    <ten>Máy 70</ten>
+    <id>70</id>
+  </dmsttmay>
+  <dmsttmay>
+    <ten>Máy 71</ten>
+    <id>71</id>
+  </dmsttmay>
+  <dmsttmay>
+    <ten>Máy 72</ten>
+    <id>72</id>
+  </dmsttmay>
+  <dmsttmay>
+    <ten>Máy 73</ten>
+    <id>73</id>
+  </dmsttmay>
+  <dmsttmay>
+    <ten>Máy 74</ten>
+    <id>74</id>
+  </dmsttmay>
+  <dmsttmay>
+    <ten>Máy 75</ten>
+    <id>75</id>
+  </dmsttmay>
+  <dmsttmay>
+    <ten>Máy 76</ten>
+    <id>76</id>
+  </dmsttmay>
+  <dmsttmay>
+    <ten>Máy 77</ten>
+    <id>77</id>
+  </dmsttmay>
+  <dmsttmay>
+    <ten>Máy 78</ten>
+    <id>78</id>
+  </dmsttmay>
+  <dmsttmay>
+    <ten>Máy 79</ten>
+    <id>79</id>
+  </dmsttmay>
+  <dmsttmay>
+    <ten>Máy 80</ten>
+    <id>80</id>
+  </dmsttmay>
+  <dmsttmay>
+    <ten>Máy 81</ten>
+    <id>81</id>
+  </dmsttmay>
+  <dmsttmay>
+    <ten>Máy 82</ten>
+    <id>82</id>
+  </dmsttmay>
+  <dmsttmay>
+    <ten>Máy 83</ten>
+    <id>83</id>
+  </dmsttmay>
+  <dmsttmay>
+    <ten>Máy 84</ten>
+    <id>84</id>
+  </dmsttmay>
+  <dmsttmay>
+    <ten>Máy 85</ten>
+    <id>85</id>
+  </dmsttmay>
+  <dmsttmay>
+    <ten>Máy 86</ten>
+    <id>86</id>
+  </dmsttmay>
+  <dmsttmay>
+    <ten>Máy 87</ten>
+    <id>87</id>
+  </dmsttmay>
+  <dmsttmay>
+    <ten>Máy 88</ten>
+    <id>88</id>
+  </dmsttmay>
+  <dmsttmay>
+    <ten>Máy 89</ten>
+    <id>89</id>
+  </dmsttmay>
+  <dmsttmay>
+    <ten>Máy 90</ten>
+    <id>90</id>
+  </dmsttmay>
+  <dmsttmay>
+    <ten>Máy 91</ten>
+    <id>91</id>
+  </dmsttmay>
+  <dmsttmay>
+    <ten>Máy 92</ten>
+    <id>92</id>
+  </dmsttmay>
+  <dmsttmay>
+    <ten>Máy 93</ten>
+    <id>93</id>
+  </dmsttmay>
+  <dmsttmay>
+    <ten>Máy 94</ten>
+    <id>94</id>
+  </dmsttmay>
+  <dmsttmay>
+    <ten>Máy 95</ten>
+    <id>95</id>
+  </dmsttmay>
+  <dmsttmay>
+    <ten>Máy 96</ten>
+    <id>96</id>
+  </dmsttmay>
+  <dmsttmay>
+    <ten>Máy 97</ten>
+    <id>97</id>
+  </dmsttmay>
+  <dmsttmay>
+    <ten>Máy 98</ten>
+    <id>98</id>
+  </dmsttmay>
+  <dmsttmay>
+    <ten>Máy 99</ten>
+    <id>99</id>
+  </dmsttmay>
+  <dmsttmay>
+    <ten>Máy 100</ten>
+    <id>100</id>
+  </dmsttmay>
+</NewDataSet>

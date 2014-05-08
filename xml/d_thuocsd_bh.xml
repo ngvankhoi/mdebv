@@ -1,0 +1,43 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="STT" type="xs:string" minOccurs="0" />
+                <xs:element name="MABD" type="xs:string" minOccurs="0" />
+                <xs:element name="MA" type="xs:string" minOccurs="0" />
+                <xs:element name="TEN" type="xs:string" minOccurs="0" />
+                <xs:element name="TENHC" type="xs:string" minOccurs="0" />
+                <xs:element name="TENNHOM" type="xs:string" minOccurs="0" />
+                <xs:element name="MANHOM" type="xs:string" minOccurs="0" />
+                <xs:element name="SODK" type="xs:string" minOccurs="0" />
+                <xs:element name="LOAITHUOC" type="xs:string" minOccurs="0" />
+                <xs:element name="HAMLUONG" type="xs:string" minOccurs="0" />
+                <xs:element name="DUONGDUNG" type="xs:string" minOccurs="0" />
+                <xs:element name="NGUONGOC" type="xs:string" minOccurs="0" />
+                <xs:element name="NHACC" type="xs:string" minOccurs="0" />
+                <xs:element name="NUOCSX" type="xs:string" minOccurs="0" />
+                <xs:element name="HANGSX" type="xs:string" minOccurs="0" />
+                <xs:element name="DVT" type="xs:string" minOccurs="0" />
+                <xs:element name="QUYCACH" type="xs:string" minOccurs="0" />
+                <xs:element name="GIATT" type="xs:decimal" minOccurs="0" />
+                <xs:element name="SOLUONG" type="xs:decimal" minOccurs="0" />
+                <xs:element name="SOLUONG_TRA" type="xs:decimal" minOccurs="0" />
+                <xs:element name="DONGIA" type="xs:decimal" minOccurs="0" />
+                <xs:element name="GIABAN" type="xs:decimal" minOccurs="0" />
+                <xs:element name="GIAKCB" type="xs:decimal" minOccurs="0" />
+                <xs:element name="GIAKCB_TRA" type="xs:decimal" minOccurs="0" />
+                <xs:element name="CHIPHIKCB" type="xs:decimal" minOccurs="0" />
+                <xs:element name="CHIPHIKCB_TRA" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+</NewDataSet>

@@ -1,0 +1,147 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="mabn" type="xs:string" minOccurs="0" />
+                <xs:element name="mavaovien" type="xs:decimal" minOccurs="0" />
+                <xs:element name="maql" type="xs:decimal" minOccurs="0" />
+                <xs:element name="makp" type="xs:string" minOccurs="0" />
+                <xs:element name="ngay" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="dentu" type="xs:decimal" minOccurs="0" />
+                <xs:element name="nhantu" type="xs:decimal" minOccurs="0" />
+                <xs:element name="madoituong" type="xs:decimal" minOccurs="0" />
+                <xs:element name="chandoan" type="xs:string" minOccurs="0" />
+                <xs:element name="maicd" type="xs:string" minOccurs="0" />
+                <xs:element name="ttlucrv" type="xs:decimal" minOccurs="0" />
+                <xs:element name="mabs" type="xs:string" minOccurs="0" />
+                <xs:element name="sovaovien" type="xs:string" minOccurs="0" />
+                <xs:element name="bienchung" type="xs:decimal" minOccurs="0" />
+                <xs:element name="taibien" type="xs:decimal" minOccurs="0" />
+                <xs:element name="giaiphau" type="xs:decimal" minOccurs="0" />
+                <xs:element name="mangtr" type="xs:decimal" minOccurs="0" />
+                <xs:element name="cschandoan" type="xs:string" minOccurs="0" />
+                <xs:element name="userid" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ngayud" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="c01" type="xs:string" minOccurs="0" />
+                <xs:element name="c02" type="xs:string" minOccurs="0" />
+                <xs:element name="c03" type="xs:string" minOccurs="0" />
+                <xs:element name="c04" type="xs:string" minOccurs="0" />
+                <xs:element name="c05" type="xs:string" minOccurs="0" />
+                <xs:element name="lydo" type="xs:string" minOccurs="0" />
+                <xs:element name="benhsu" type="xs:string" minOccurs="0" />
+                <xs:element name="tiensu" type="xs:string" minOccurs="0" />
+                <xs:element name="mach" type="xs:string" minOccurs="0" />
+                <xs:element name="huyetap" type="xs:string" minOccurs="0" />
+                <xs:element name="nhietdo" type="xs:string" minOccurs="0" />
+                <xs:element name="chieucao" type="xs:string" minOccurs="0" />
+                <xs:element name="cannang" type="xs:string" minOccurs="0" />
+                <xs:element name="toanthan" type="xs:string" minOccurs="0" />
+                <xs:element name="bophan" type="xs:string" minOccurs="0" />
+                <xs:element name="sobo" type="xs:string" minOccurs="0" />
+                <xs:element name="phanbiet" type="xs:string" minOccurs="0" />
+                <xs:element name="makpbo" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <mabn>08000123</mabn>
+    <mavaovien>80626160107184001</mavaovien>
+    <maql>80626160255296001</maql>
+    <makp>02</makp>
+    <ngay>2008-06-26T16:02:00+07:00</ngay>
+    <dentu>2</dentu>
+    <nhantu>2</nhantu>
+    <madoituong>2</madoituong>
+    <chandoan>Sâu răng</chandoan>
+    <maicd>K02</maicd>
+    <ttlucrv>1</ttlucrv>
+    <mabs>0003</mabs>
+    <sovaovien>3</sovaovien>
+    <bienchung>0</bienchung>
+    <taibien>0</taibien>
+    <giaiphau>0</giaiphau>
+    <mangtr>0</mangtr>
+    <userid>298</userid>
+    <ngayud>2008-06-26T16:02:55.567814+07:00</ngayud>
+    <c01>1. XQ Schuller
+2. XQ cổ chân trái (Thẳng - nghiêng)
+3. XQ chụp bụng đứng
+4. XQ cẳng chân phải (Thẳng - nghiêng)
+5. XQ cẳng chân trái (Thẳng - nghiêng)
+</c01>
+    <c02>1. Acemuc 200mg
+
+2. Acyclovir   200Mg(VN)
+
+3. Acyclovir Stada 5G
+
+4. Acyclovir stada Cream 2g
+
+5. Adrenalin 1mg/1ml
+
+6. Alpha choay
+
+</c02>
+    <c03>1.00
+
+1.00
+
+1.00
+
+1.00
+
+1.00
+
+1.00
+
+</c03>
+    <c04>Gói
+
+Viên
+
+Tube
+
+Tube
+
+Ống
+
+Viên
+
+</c04>
+    <c05>uống ngày 1 lần , lần 1 Gói
+
+uống ngày 1 lần , lần 1 Viên
+
+uống ngày 1 lần , lần 1 Tube
+
+ngày 1 lần , lần 1 Tube
+
+ngày 1 lần , lần 1 Ống
+
+ngày 1 lần , lần 1 Viên
+
+</c05>
+    <lydo>ldfkgld;jg</lydo>
+    <benhsu>kjkdfhkldh</benhsu>
+    <tiensu>kfhgdjhg</tiensu>
+    <mach>0</mach>
+    <huyetap />
+    <nhietdo>0</nhietdo>
+    <chieucao />
+    <cannang>0.00</cannang>
+    <toanthan>jgkdjfkglj</toanthan>
+    <bophan />
+    <sobo>ll;jdfgj</sobo>
+    <phanbiet />
+    <makpbo>18</makpbo>
+  </Table>
+</NewDataSet>

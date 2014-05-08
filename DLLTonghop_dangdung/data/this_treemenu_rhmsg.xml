@@ -1,0 +1,66 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ID" type="xs:decimal" minOccurs="0" />
+                <xs:element name="LOAI" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ID_CHA" type="xs:decimal" minOccurs="0" />
+                <xs:element name="STT" type="xs:decimal" minOccurs="0" />
+                <xs:element name="TEN" type="xs:string" minOccurs="0" />
+                <xs:element name="SQL" type="xs:string" minOccurs="0" />
+                <xs:element name="TENFIELD" type="xs:string" minOccurs="0" />
+                <xs:element name="CAPTIONFIELD" type="xs:string" minOccurs="0" />
+                <xs:element name="WIDTH" type="xs:string" minOccurs="0" />
+                <xs:element name="REPORT" type="xs:string" minOccurs="0" />
+                <xs:element name="READONLY" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <ID>1</ID>
+    <LOAI>1</LOAI>
+    <ID_CHA>0</ID_CHA>
+    <STT>1</STT>
+    <TEN>1. Viện phí</TEN>
+    <READONLY>0</READONLY>
+  </Table>
+  <Table>
+    <ID>2</ID>
+    <LOAI>1</LOAI>
+    <ID_CHA>1</ID_CHA>
+    <STT>1</STT>
+    <TEN>1. Báo cáo tổng hợp theo số ca</TEN>
+    <SQL>select id,ma,ten,soca,dongia,sotien from (select b.id,b.ma,b.ten, sum(a.soluong) soca, a.dongia, sum(a.soluong*a.dongia) sotien from v_vienphict a, v_vienphill aa, v_giavp b where a.mavp=b.id and a.id=aa.id and  (a.makp=':v_makp' or ':v_makp'='-1') and to_date(to_char(aa.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and to_date(':v_dn','dd/mm/yyyy') group by b.id,b.ma,b.ten,a.dongia
+ union all
+select b.id,b.ma,b.ten, sum(a.soluong) soca, a.dongia, sum(a.soluong*a.dongia) sotien from v_ttrvct a, v_ttrvll aa, v_giavp b where (a.makp=':v_makp' or ':v_makp'='-1') and a.mavp=b.id and a.id=aa.id and to_date(to_char(aa.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and to_date(':v_dn','dd/mm/yyyy') group by b.id,b.ma,b.ten,a.dongia) order by ten</SQL>
+    <TENFIELD>ma,ten,soca,dongia,sotien</TENFIELD>
+    <CAPTIONFIELD>Mã VP, Nội dung thu viện phí, Số ca, Đơn giá, Số tiền</CAPTIONFIELD>
+    <WIDTH>60,150,80,80,120</WIDTH>
+    <REPORT>this_baocaochitiet_soca.rpt</REPORT>
+    <READONLY>0</READONLY>
+  </Table>
+  <Table>
+    <ID>3</ID>
+    <LOAI>1</LOAI>
+    <ID_CHA>1</ID_CHA>
+    <STT>2</STT>
+    <TEN>2. Báo cáo miễn giảm</TEN>
+    <SQL>select  a.mabn, a.hoten, c.sonha || ' ' || c.thon ||' '|| c.cholam || ' ' || f.tenpxa || ' ' || e.tenquan || ' ' || d.tentt diachi, sum(aa.soluong*aa.dongia-aa.thieu)  sotien,b.sotien mien,sum(aa.soluong*aa.dongia-aa.thieu)-b.sotien thucthu , g.ten lydomien from v_vienphill a, v_vienphict aa, v_mienngtru b,  btdbn c, btdtt d, btdquan e, btdpxa f, v_lydomien g where a.id=aa.id and a.id=b.id and b.lydo=g.id(+) and a.mabn=c.mabn and c.matt=d.matt(+) and c.maqu= e.maqu(+) and c.maphuongxa=f.maphuongxa(+) and  to_date(to_char(a.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and to_date(':v_dn','dd/mm/yyyy') group by a.mabn,a.hoten,c.sonha,c.thon,c.cholam,f.tenpxa,e.tenquan,d.tentt, b.sotien,g.ten
+union all 
+select  aa.mabn, c.hoten, c.sonha || ' ' || c.thon ||' '|| c.cholam || ' ' || f.tenpxa || ' ' || e.tenquan || ' ' || d.tentt diachi, a.sotien,a.mien+a.bhyt mien, a.sotien-a.bhyt-a.mien-a.thieu thucthu, g.ten lydomien from v_ttrvll a, v_ttrvds aa, v_miennoitru b,  btdbn c, btdtt d, btdquan e, btdpxa f, v_lydomien g where a.id=aa.id and a.id=b.id and b.lydo=g.id(+) and aa.mabn=c.mabn and c.matt=d.matt(+) and c.maqu= e.maqu(+) and c.maphuongxa=f.maphuongxa(+) and  to_date(to_char(a.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and to_date(':v_dn','dd/mm/yyyy')</SQL>
+    <TENFIELD>mabn,hoten,diachi,sotien,mien,thucthu,lydomien</TENFIELD>
+    <CAPTIONFIELD>Mã BN, Họ và tên,Địa chỉ,Số tiền,Miễm giảm,Thực thu,Lý do miễn</CAPTIONFIELD>
+    <WIDTH>60,150,150,100,100,100,150</WIDTH>
+    <REPORT>this_baocaomiengiam.rpt</REPORT>
+    <READONLY>0</READONLY>
+  </Table>
+</NewDataSet>

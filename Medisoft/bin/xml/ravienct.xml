@@ -1,0 +1,716 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="ravien">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="DONE" type="xs:decimal" minOccurs="0" />
+                <xs:element name="LOAIBA" type="xs:decimal" minOccurs="0" />
+                <xs:element name="MADOITUONGVAO" type="xs:decimal" minOccurs="0" />
+                <xs:element name="MATT" type="xs:string" minOccurs="0" />
+                <xs:element name="MABN" type="xs:string" minOccurs="0" />
+                <xs:element name="MAVAOVIEN" type="xs:decimal" minOccurs="0" />
+                <xs:element name="MAQL" type="xs:decimal" minOccurs="0" />
+                <xs:element name="IDKHOA" type="xs:decimal" minOccurs="0" />
+                <xs:element name="HOTEN" type="xs:string" minOccurs="0" />
+                <xs:element name="NAMSINH" type="xs:string" minOccurs="0" />
+                <xs:element name="PHAI" type="xs:string" minOccurs="0" />
+                <xs:element name="DIACHI" type="xs:string" minOccurs="0" />
+                <xs:element name="MADOITUONG" type="xs:decimal" minOccurs="0" />
+                <xs:element name="DOITUONG" type="xs:string" minOccurs="0" />
+                <xs:element name="SOTHE" type="xs:string" minOccurs="0" />
+                <xs:element name="MAPHU" type="xs:decimal" minOccurs="0" />
+                <xs:element name="DENNGAY" type="xs:string" minOccurs="0" />
+                <xs:element name="NOIGIOITHIEU" type="xs:string" minOccurs="0" />
+                <xs:element name="NOICAP" type="xs:string" minOccurs="0" />
+                <xs:element name="GIUONG" type="xs:string" minOccurs="0" />
+                <xs:element name="MAKP" type="xs:string" minOccurs="0" />
+                <xs:element name="TENKP" type="xs:string" minOccurs="0" />
+                <xs:element name="NGAYVAO" type="xs:string" minOccurs="0" />
+                <xs:element name="NGAYRA" type="xs:string" minOccurs="0" />
+                <xs:element name="CHANDOAN" type="xs:string" minOccurs="0" />
+                <xs:element name="MAICD" type="xs:string" minOccurs="0" />
+                <xs:element name="STTNHOM" type="xs:decimal" minOccurs="0" />
+                <xs:element name="NHOM" type="xs:string" minOccurs="0" />
+                <xs:element name="STTLOAI" type="xs:decimal" minOccurs="0" />
+                <xs:element name="LOAI" type="xs:string" minOccurs="0" />
+                <xs:element name="NGAY" type="xs:string" minOccurs="0" />
+                <xs:element name="MA" type="xs:decimal" minOccurs="0" />
+                <xs:element name="TEN" type="xs:string" minOccurs="0" />
+                <xs:element name="DVT" type="xs:string" minOccurs="0" />
+                <xs:element name="SOLUONG" type="xs:decimal" minOccurs="0" />
+                <xs:element name="DONGIA" type="xs:decimal" minOccurs="0" />
+                <xs:element name="SOTIEN" type="xs:decimal" minOccurs="0" />
+                <xs:element name="TAMUNG" type="xs:decimal" minOccurs="0" />
+                <xs:element name="BHYT" type="xs:decimal" minOccurs="0" />
+                <xs:element name="BHYTT0107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="TCSOTIEN" type="xs:decimal" minOccurs="0" />
+                <xs:element name="DICHSO" type="xs:string" minOccurs="0" />
+                <xs:element name="MIEN" type="xs:decimal" minOccurs="0" />
+                <xs:element name="BHYTTRA" type="xs:decimal" minOccurs="0" />
+                <xs:element name="BNTRA" type="xs:decimal" minOccurs="0" />
+                <xs:element name="DICHSOTRA" type="xs:string" minOccurs="0" />
+                <xs:element name="SBLTAMUNG" type="xs:string" minOccurs="0" />
+                <xs:element name="SOLUUTRU" type="xs:string" minOccurs="0" />
+                <xs:element name="NGUOINHA" type="xs:string" minOccurs="0" />
+                <xs:element name="HINHTHUC" type="xs:decimal" minOccurs="0" />
+                <xs:element name="PHUONGPHAP" type="xs:decimal" minOccurs="0" />
+                <xs:element name="KETQUA" type="xs:decimal" minOccurs="0" />
+                <xs:element name="KHU" type="xs:decimal" minOccurs="0" />
+                <xs:element name="NGAYPT" type="xs:string" minOccurs="0" />
+                <xs:element name="TENPT" type="xs:string" minOccurs="0" />
+                <xs:element name="MASO" type="xs:string" minOccurs="0" />
+                <xs:element name="SOPHIEU" type="xs:decimal" minOccurs="0" />
+                <xs:element name="LANIN" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tenuser" type="xs:string" minOccurs="0" />
+                <xs:element name="Image" type="xs:base64Binary" minOccurs="0" />
+                <xs:element name="Imagetk" type="xs:base64Binary" minOccurs="0" />
+                <xs:element name="Imageuser" type="xs:base64Binary" minOccurs="0" />
+                <xs:element name="tenbs" type="xs:string" minOccurs="0" />
+                <xs:element name="mabs" type="xs:string" minOccurs="0" />
+                <xs:element name="makprv" type="xs:string" minOccurs="0" />
+                <xs:element name="cholam" type="xs:string" minOccurs="0" />
+                <xs:element name="madt" type="xs:decimal" minOccurs="0" />
+                <xs:element name="haophi" type="xs:decimal" minOccurs="0" />
+                <xs:element name="gianovat" type="xs:decimal" minOccurs="0" />
+                <xs:element name="idttrv" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sotientra" type="xs:decimal" minOccurs="0" />
+                <xs:element name="traituyen" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tbh" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tbn" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tltraituyen" type="xs:decimal" minOccurs="0" />
+                <xs:element name="dbh" type="xs:decimal" minOccurs="0" />
+                <xs:element name="dbn" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tlchitra" type="xs:decimal" minOccurs="0" />
+                <xs:element name="kythuat" type="xs:decimal" minOccurs="0" />
+                <xs:element name="loaikythuat" type="xs:string" minOccurs="0" />
+                <xs:element name="tong_tu" type="xs:decimal" default="0" minOccurs="0" />
+                <xs:element name="bienlai_tu" type="xs:string" minOccurs="0" />
+                <xs:element name="tongcp" type="xs:decimal" default="0" minOccurs="0" />
+                <xs:element name="tongmien" type="xs:decimal" default="0" minOccurs="0" />
+                <xs:element name="tongbhyttra" type="xs:decimal" default="0" minOccurs="0" />
+                <xs:element name="tongbntra" type="xs:decimal" default="0" minOccurs="0" />
+                <xs:element name="capcuu" type="xs:decimal" default="0" minOccurs="0" />
+                <xs:element name="tlchinhsach" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ID_KTCAO" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ID_VPKHOA" type="xs:decimal" minOccurs="0" />
+                <xs:element name="VUOTTRAN" type="xs:decimal" minOccurs="0" />
+                <xs:element name="dinhmucKTcao" type="xs:decimal" default="0" minOccurs="0" />
+                <xs:element name="dichsotamung" type="xs:string" minOccurs="0" />
+                <xs:element name="tuoivao" type="xs:string" minOccurs="0" />
+                <xs:element name="mabv" type="xs:string" minOccurs="0" />
+                <xs:element name="thangtuoi" type="xs:string" minOccurs="0" />
+                <xs:element name="tenbv" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <ravien>
+    <LOAIBA>1</LOAIBA>
+    <MADOITUONGVAO>2</MADOITUONGVAO>
+    <MATT>14000007</MATT>
+    <MABN>14000007</MABN>
+    <MAQL>140402130950167091</MAQL>
+    <IDKHOA>140402131002480091</IDKHOA>
+    <HOTEN>BN THU PHI</HOTEN>
+    <NAMSINH>1989</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <DIACHI> , Không xác định, Không xác định, Bình Dương</DIACHI>
+    <MADOITUONG>2</MADOITUONG>
+    <DOITUONG>Thu phí</DOITUONG>
+    <SOTHE />
+    <MAPHU>100.00</MAPHU>
+    <DENNGAY>^</DENNGAY>
+    <NOIGIOITHIEU>^KKB</NOIGIOITHIEU>
+    <NOICAP />
+    <GIUONG />
+    <MAKP>02</MAKP>
+    <TENKP>Khoa Hồi Sức Cấp Cứu</TENKP>
+    <NGAYVAO>02/04/2014 13:09</NGAYVAO>
+    <NGAYRA>02/04/2014 13:10</NGAYRA>
+    <CHANDOAN>Bệnh trào ngược dạ dày-thực quản;</CHANDOAN>
+    <MAICD>K21;</MAICD>
+    <STTNHOM>3</STTNHOM>
+    <NHOM>Xét nghiệm</NHOM>
+    <STTLOAI>7</STTLOAI>
+    <LOAI>Xét Nghiệm Miễn dịch</LOAI>
+    <MA>76</MA>
+    <TEN>Phụ lục V/C3.1 FT4</TEN>
+    <DVT>Lần</DVT>
+    <SOLUONG>1</SOLUONG>
+    <DONGIA>60000</DONGIA>
+    <SOTIEN>60000</SOTIEN>
+    <TAMUNG>0</TAMUNG>
+    <TCSOTIEN>60000</TCSOTIEN>
+    <DICHSO>Sáu mươi  nghìn</DICHSO>
+    <MIEN>0</MIEN>
+    <BHYTTRA>0</BHYTTRA>
+    <BNTRA>60000</BNTRA>
+    <DICHSOTRA>Sáu mươi  nghìn</DICHSOTRA>
+    <SBLTAMUNG />
+    <SOLUUTRU>3/14/HSCC^0000003/14^0</SOLUUTRU>
+    <NGUOINHA />
+    <HINHTHUC>2</HINHTHUC>
+    <PHUONGPHAP>1</PHUONGPHAP>
+    <KETQUA>2</KETQUA>
+    <SOPHIEU>3</SOPHIEU>
+    <LANIN>0</LANIN>
+    <tenuser>Quản trị chung</tenuser>
+    <tenbs />
+    <mabs>0011</mabs>
+    <makprv>02</makprv>
+    <cholam />
+    <madt>2</madt>
+    <haophi>0</haophi>
+    <gianovat>60000</gianovat>
+    <idttrv>0</idttrv>
+    <sotientra>60000</sotientra>
+    <traituyen>0</traituyen>
+    <tbh>0</tbh>
+    <tbn>0</tbn>
+    <tltraituyen>70</tltraituyen>
+    <dbh>0</dbh>
+    <dbn>0</dbn>
+    <tlchitra>0</tlchitra>
+    <kythuat>-1</kythuat>
+    <loaikythuat />
+    <tong_tu>0</tong_tu>
+    <bienlai_tu />
+    <tongcp>487000</tongcp>
+    <tongmien>0</tongmien>
+    <tongbhyttra>0</tongbhyttra>
+    <tongbntra>487000</tongbntra>
+    <capcuu>0</capcuu>
+    <tlchinhsach>0</tlchinhsach>
+    <ID_KTCAO>0</ID_KTCAO>
+    <ID_VPKHOA>0</ID_VPKHOA>
+    <VUOTTRAN>0</VUOTTRAN>
+    <dinhmucKTcao>20000000</dinhmucKTcao>
+    <dichsotamung>Không</dichsotamung>
+    <tuoivao>0250</tuoivao>
+    <mabv />
+    <tenbv />
+  </ravien>
+  <ravien>
+    <LOAIBA>1</LOAIBA>
+    <MADOITUONGVAO>2</MADOITUONGVAO>
+    <MATT>14000007</MATT>
+    <MABN>14000007</MABN>
+    <MAQL>140402130950167091</MAQL>
+    <IDKHOA>140402131002480091</IDKHOA>
+    <HOTEN>BN THU PHI</HOTEN>
+    <NAMSINH>1989</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <DIACHI> , Không xác định, Không xác định, Bình Dương</DIACHI>
+    <MADOITUONG>2</MADOITUONG>
+    <DOITUONG>Thu phí</DOITUONG>
+    <SOTHE />
+    <MAPHU>100.00</MAPHU>
+    <DENNGAY>^</DENNGAY>
+    <NOIGIOITHIEU>^KKB</NOIGIOITHIEU>
+    <NOICAP />
+    <GIUONG />
+    <MAKP>02</MAKP>
+    <TENKP>Khoa Hồi Sức Cấp Cứu</TENKP>
+    <NGAYVAO>02/04/2014 13:09</NGAYVAO>
+    <NGAYRA>02/04/2014 13:10</NGAYRA>
+    <CHANDOAN>Bệnh trào ngược dạ dày-thực quản;</CHANDOAN>
+    <MAICD>K21;</MAICD>
+    <STTNHOM>3</STTNHOM>
+    <NHOM>Xét nghiệm</NHOM>
+    <STTLOAI>7</STTLOAI>
+    <LOAI>Xét Nghiệm Miễn dịch</LOAI>
+    <MA>1134</MA>
+    <TEN>Phụ lục V/C3.1 T3</TEN>
+    <DVT>Lần</DVT>
+    <SOLUONG>1</SOLUONG>
+    <DONGIA>60000</DONGIA>
+    <SOTIEN>60000</SOTIEN>
+    <TAMUNG>0</TAMUNG>
+    <TCSOTIEN>120000</TCSOTIEN>
+    <DICHSO>Một trăm hai mươi  nghìn</DICHSO>
+    <MIEN>0</MIEN>
+    <BHYTTRA>0</BHYTTRA>
+    <BNTRA>120000</BNTRA>
+    <DICHSOTRA>Một trăm hai mươi  nghìn</DICHSOTRA>
+    <SBLTAMUNG />
+    <SOLUUTRU>3/14/HSCC^0000003/14^0</SOLUUTRU>
+    <NGUOINHA />
+    <HINHTHUC>2</HINHTHUC>
+    <PHUONGPHAP>1</PHUONGPHAP>
+    <KETQUA>2</KETQUA>
+    <SOPHIEU>3</SOPHIEU>
+    <LANIN>0</LANIN>
+    <tenuser>Quản trị chung</tenuser>
+    <tenbs />
+    <mabs>0011</mabs>
+    <makprv>02</makprv>
+    <cholam />
+    <madt>2</madt>
+    <haophi>0</haophi>
+    <gianovat>60000</gianovat>
+    <idttrv>0</idttrv>
+    <sotientra>60000</sotientra>
+    <traituyen>0</traituyen>
+    <tbh>0</tbh>
+    <tbn>0</tbn>
+    <tltraituyen>70</tltraituyen>
+    <dbh>0</dbh>
+    <dbn>0</dbn>
+    <tlchitra>0</tlchitra>
+    <kythuat>-1</kythuat>
+    <loaikythuat />
+    <tong_tu>0</tong_tu>
+    <bienlai_tu />
+    <tongcp>487000</tongcp>
+    <tongmien>0</tongmien>
+    <tongbhyttra>0</tongbhyttra>
+    <tongbntra>487000</tongbntra>
+    <capcuu>0</capcuu>
+    <tlchinhsach>0</tlchinhsach>
+    <ID_KTCAO>0</ID_KTCAO>
+    <ID_VPKHOA>0</ID_VPKHOA>
+    <VUOTTRAN>0</VUOTTRAN>
+    <dinhmucKTcao>20000000</dinhmucKTcao>
+    <dichsotamung>Không</dichsotamung>
+    <tuoivao>0250</tuoivao>
+    <mabv />
+    <tenbv />
+  </ravien>
+  <ravien>
+    <LOAIBA>1</LOAIBA>
+    <MADOITUONGVAO>2</MADOITUONGVAO>
+    <MATT>14000007</MATT>
+    <MABN>14000007</MABN>
+    <MAQL>140402130950167091</MAQL>
+    <IDKHOA>140402131002480091</IDKHOA>
+    <HOTEN>BN THU PHI</HOTEN>
+    <NAMSINH>1989</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <DIACHI> , Không xác định, Không xác định, Bình Dương</DIACHI>
+    <MADOITUONG>2</MADOITUONG>
+    <DOITUONG>Thu phí</DOITUONG>
+    <SOTHE />
+    <MAPHU>100.00</MAPHU>
+    <DENNGAY>^</DENNGAY>
+    <NOIGIOITHIEU>^KKB</NOIGIOITHIEU>
+    <NOICAP />
+    <GIUONG />
+    <MAKP>02</MAKP>
+    <TENKP>Khoa Hồi Sức Cấp Cứu</TENKP>
+    <NGAYVAO>02/04/2014 13:09</NGAYVAO>
+    <NGAYRA>02/04/2014 13:10</NGAYRA>
+    <CHANDOAN>Bệnh trào ngược dạ dày-thực quản;</CHANDOAN>
+    <MAICD>K21;</MAICD>
+    <STTNHOM>3</STTNHOM>
+    <NHOM>Xét nghiệm</NHOM>
+    <STTLOAI>1</STTLOAI>
+    <LOAI>Xét Nghiệm Huyết học</LOAI>
+    <MA>-3731</MA>
+    <TEN>Phụ lục V/C3.1 Tổng phân tích tế bào bằng máy đếm laser</TEN>
+    <DVT>Lần</DVT>
+    <SOLUONG>1</SOLUONG>
+    <DONGIA>40000</DONGIA>
+    <SOTIEN>40000</SOTIEN>
+    <TAMUNG>0</TAMUNG>
+    <TCSOTIEN>160000</TCSOTIEN>
+    <DICHSO>Một trăm sáu mươi  nghìn</DICHSO>
+    <MIEN>0</MIEN>
+    <BHYTTRA>0</BHYTTRA>
+    <BNTRA>160000</BNTRA>
+    <DICHSOTRA>Một trăm sáu mươi  nghìn</DICHSOTRA>
+    <SBLTAMUNG />
+    <SOLUUTRU>3/14/HSCC^0000003/14^0</SOLUUTRU>
+    <NGUOINHA />
+    <HINHTHUC>2</HINHTHUC>
+    <PHUONGPHAP>1</PHUONGPHAP>
+    <KETQUA>2</KETQUA>
+    <SOPHIEU>3</SOPHIEU>
+    <LANIN>0</LANIN>
+    <tenuser>Quản trị chung</tenuser>
+    <tenbs />
+    <mabs>0011</mabs>
+    <makprv>02</makprv>
+    <cholam />
+    <madt>2</madt>
+    <haophi>0</haophi>
+    <gianovat>40000</gianovat>
+    <idttrv>0</idttrv>
+    <sotientra>40000</sotientra>
+    <traituyen>0</traituyen>
+    <tbh>0</tbh>
+    <tbn>0</tbn>
+    <tltraituyen>70</tltraituyen>
+    <dbh>0</dbh>
+    <dbn>0</dbn>
+    <tlchitra>0</tlchitra>
+    <kythuat>-1</kythuat>
+    <loaikythuat />
+    <tong_tu>0</tong_tu>
+    <bienlai_tu />
+    <tongcp>487000</tongcp>
+    <tongmien>0</tongmien>
+    <tongbhyttra>0</tongbhyttra>
+    <tongbntra>487000</tongbntra>
+    <capcuu>0</capcuu>
+    <tlchinhsach>0</tlchinhsach>
+    <ID_KTCAO>0</ID_KTCAO>
+    <ID_VPKHOA>0</ID_VPKHOA>
+    <VUOTTRAN>0</VUOTTRAN>
+    <dinhmucKTcao>20000000</dinhmucKTcao>
+    <dichsotamung>Không</dichsotamung>
+    <tuoivao>0250</tuoivao>
+    <mabv />
+    <tenbv />
+  </ravien>
+  <ravien>
+    <LOAIBA>1</LOAIBA>
+    <MADOITUONGVAO>2</MADOITUONGVAO>
+    <MATT>14000007</MATT>
+    <MABN>14000007</MABN>
+    <MAQL>140402130950167091</MAQL>
+    <IDKHOA>140402131002480091</IDKHOA>
+    <HOTEN>BN THU PHI</HOTEN>
+    <NAMSINH>1989</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <DIACHI> , Không xác định, Không xác định, Bình Dương</DIACHI>
+    <MADOITUONG>2</MADOITUONG>
+    <DOITUONG>Thu phí</DOITUONG>
+    <SOTHE />
+    <MAPHU>100.00</MAPHU>
+    <DENNGAY>^</DENNGAY>
+    <NOIGIOITHIEU>^KKB</NOIGIOITHIEU>
+    <NOICAP />
+    <GIUONG />
+    <MAKP>02</MAKP>
+    <TENKP>Khoa Hồi Sức Cấp Cứu</TENKP>
+    <NGAYVAO>02/04/2014 13:09</NGAYVAO>
+    <NGAYRA>02/04/2014 13:10</NGAYRA>
+    <CHANDOAN>Bệnh trào ngược dạ dày-thực quản;</CHANDOAN>
+    <MAICD>K21;</MAICD>
+    <STTNHOM>4</STTNHOM>
+    <NHOM>CDHA</NHOM>
+    <STTLOAI>36</STTLOAI>
+    <LOAI>Siêu âm</LOAI>
+    <MA>-4015</MA>
+    <TEN>P lục V/C4.1 Siêu âm Doppler động mạch cảnh</TEN>
+    <DVT>Lần</DVT>
+    <SOLUONG>1</SOLUONG>
+    <DONGIA>150000</DONGIA>
+    <SOTIEN>150000</SOTIEN>
+    <TAMUNG>0</TAMUNG>
+    <TCSOTIEN>310000</TCSOTIEN>
+    <DICHSO>Ba trăm  mười  nghìn</DICHSO>
+    <MIEN>0</MIEN>
+    <BHYTTRA>0</BHYTTRA>
+    <BNTRA>310000</BNTRA>
+    <DICHSOTRA>Ba trăm  mười  nghìn</DICHSOTRA>
+    <SBLTAMUNG />
+    <SOLUUTRU>3/14/HSCC^0000003/14^0</SOLUUTRU>
+    <NGUOINHA />
+    <HINHTHUC>2</HINHTHUC>
+    <PHUONGPHAP>1</PHUONGPHAP>
+    <KETQUA>2</KETQUA>
+    <SOPHIEU>3</SOPHIEU>
+    <LANIN>0</LANIN>
+    <tenuser>Quản trị chung</tenuser>
+    <tenbs />
+    <mabs>0011</mabs>
+    <makprv>02</makprv>
+    <cholam />
+    <madt>2</madt>
+    <haophi>0</haophi>
+    <gianovat>150000</gianovat>
+    <idttrv>0</idttrv>
+    <sotientra>150000</sotientra>
+    <traituyen>0</traituyen>
+    <tbh>0</tbh>
+    <tbn>0</tbn>
+    <tltraituyen>70</tltraituyen>
+    <dbh>0</dbh>
+    <dbn>0</dbn>
+    <tlchitra>0</tlchitra>
+    <kythuat>-1</kythuat>
+    <loaikythuat />
+    <tong_tu>0</tong_tu>
+    <bienlai_tu />
+    <tongcp>487000</tongcp>
+    <tongmien>0</tongmien>
+    <tongbhyttra>0</tongbhyttra>
+    <tongbntra>487000</tongbntra>
+    <capcuu>0</capcuu>
+    <tlchinhsach>0</tlchinhsach>
+    <ID_KTCAO>0</ID_KTCAO>
+    <ID_VPKHOA>0</ID_VPKHOA>
+    <VUOTTRAN>0</VUOTTRAN>
+    <dinhmucKTcao>20000000</dinhmucKTcao>
+    <dichsotamung>Không</dichsotamung>
+    <tuoivao>0250</tuoivao>
+    <mabv />
+    <tenbv />
+  </ravien>
+  <ravien>
+    <LOAIBA>1</LOAIBA>
+    <MADOITUONGVAO>2</MADOITUONGVAO>
+    <MATT>14000007</MATT>
+    <MABN>14000007</MABN>
+    <MAQL>140402130950167091</MAQL>
+    <IDKHOA>140402131002480091</IDKHOA>
+    <HOTEN>BN THU PHI</HOTEN>
+    <NAMSINH>1989</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <DIACHI> , Không xác định, Không xác định, Bình Dương</DIACHI>
+    <MADOITUONG>2</MADOITUONG>
+    <DOITUONG>Thu phí</DOITUONG>
+    <SOTHE />
+    <MAPHU>100.00</MAPHU>
+    <DENNGAY>^</DENNGAY>
+    <NOIGIOITHIEU>^KKB</NOIGIOITHIEU>
+    <NOICAP />
+    <GIUONG />
+    <MAKP>02</MAKP>
+    <TENKP>Khoa Hồi Sức Cấp Cứu</TENKP>
+    <NGAYVAO>02/04/2014 13:09</NGAYVAO>
+    <NGAYRA>02/04/2014 13:10</NGAYRA>
+    <CHANDOAN>Bệnh trào ngược dạ dày-thực quản;</CHANDOAN>
+    <MAICD>K21;</MAICD>
+    <STTNHOM>4</STTNHOM>
+    <NHOM>CDHA</NHOM>
+    <STTLOAI>71</STTLOAI>
+    <LOAI>X quang kỹ thuật số</LOAI>
+    <MA>-4031</MA>
+    <TEN>Phụ lục I/C1.2.6 Chụp XQ cẳng chân trái thẳng/nghiêng ( số hóa 2 phim )</TEN>
+    <DVT>Lần</DVT>
+    <SOLUONG>1</SOLUONG>
+    <DONGIA>75000</DONGIA>
+    <SOTIEN>75000</SOTIEN>
+    <TAMUNG>0</TAMUNG>
+    <TCSOTIEN>385000</TCSOTIEN>
+    <DICHSO>Ba trăm tám mươi lăm nghìn</DICHSO>
+    <MIEN>0</MIEN>
+    <BHYTTRA>0</BHYTTRA>
+    <BNTRA>385000</BNTRA>
+    <DICHSOTRA>Ba trăm tám mươi lăm nghìn</DICHSOTRA>
+    <SBLTAMUNG />
+    <SOLUUTRU>3/14/HSCC^0000003/14^0</SOLUUTRU>
+    <NGUOINHA />
+    <HINHTHUC>2</HINHTHUC>
+    <PHUONGPHAP>1</PHUONGPHAP>
+    <KETQUA>2</KETQUA>
+    <SOPHIEU>3</SOPHIEU>
+    <LANIN>0</LANIN>
+    <tenuser>Quản trị chung</tenuser>
+    <tenbs />
+    <mabs>0011</mabs>
+    <makprv>02</makprv>
+    <cholam />
+    <madt>2</madt>
+    <haophi>0</haophi>
+    <gianovat>75000</gianovat>
+    <idttrv>0</idttrv>
+    <sotientra>75000</sotientra>
+    <traituyen>0</traituyen>
+    <tbh>0</tbh>
+    <tbn>0</tbn>
+    <tltraituyen>70</tltraituyen>
+    <dbh>0</dbh>
+    <dbn>0</dbn>
+    <tlchitra>0</tlchitra>
+    <kythuat>-1</kythuat>
+    <loaikythuat />
+    <tong_tu>0</tong_tu>
+    <bienlai_tu />
+    <tongcp>487000</tongcp>
+    <tongmien>0</tongmien>
+    <tongbhyttra>0</tongbhyttra>
+    <tongbntra>487000</tongbntra>
+    <capcuu>0</capcuu>
+    <tlchinhsach>0</tlchinhsach>
+    <ID_KTCAO>0</ID_KTCAO>
+    <ID_VPKHOA>0</ID_VPKHOA>
+    <VUOTTRAN>0</VUOTTRAN>
+    <dinhmucKTcao>20000000</dinhmucKTcao>
+    <dichsotamung>Không</dichsotamung>
+    <tuoivao>0250</tuoivao>
+    <mabv />
+    <tenbv />
+  </ravien>
+  <ravien>
+    <LOAIBA>1</LOAIBA>
+    <MADOITUONGVAO>2</MADOITUONGVAO>
+    <MATT>14000007</MATT>
+    <MABN>14000007</MABN>
+    <MAQL>140402130950167091</MAQL>
+    <IDKHOA>140402131002480091</IDKHOA>
+    <HOTEN>BN THU PHI</HOTEN>
+    <NAMSINH>1989</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <DIACHI> , Không xác định, Không xác định, Bình Dương</DIACHI>
+    <MADOITUONG>2</MADOITUONG>
+    <DOITUONG>Thu phí</DOITUONG>
+    <SOTHE />
+    <MAPHU>100.00</MAPHU>
+    <DENNGAY>^</DENNGAY>
+    <NOIGIOITHIEU>^KKB</NOIGIOITHIEU>
+    <NOICAP />
+    <GIUONG />
+    <MAKP>02</MAKP>
+    <TENKP>Khoa Hồi Sức Cấp Cứu</TENKP>
+    <NGAYVAO>02/04/2014 13:09</NGAYVAO>
+    <NGAYRA>02/04/2014 13:10</NGAYRA>
+    <CHANDOAN>Bệnh trào ngược dạ dày-thực quản;</CHANDOAN>
+    <MAICD>K21;</MAICD>
+    <STTNHOM>4</STTNHOM>
+    <NHOM>CDHA</NHOM>
+    <STTLOAI>71</STTLOAI>
+    <LOAI>X quang kỹ thuật số</LOAI>
+    <MA>-4029</MA>
+    <TEN>Phụ lục I/C1.2.6 Chụp XQ gót chân trái thẳng/nghiêng ( số hóa 2 phim )</TEN>
+    <DVT>Lần</DVT>
+    <SOLUONG>1</SOLUONG>
+    <DONGIA>75000</DONGIA>
+    <SOTIEN>75000</SOTIEN>
+    <TAMUNG>0</TAMUNG>
+    <TCSOTIEN>460000</TCSOTIEN>
+    <DICHSO>Bốn trăm sáu mươi  nghìn</DICHSO>
+    <MIEN>0</MIEN>
+    <BHYTTRA>0</BHYTTRA>
+    <BNTRA>460000</BNTRA>
+    <DICHSOTRA>Bốn trăm sáu mươi  nghìn</DICHSOTRA>
+    <SBLTAMUNG />
+    <SOLUUTRU>3/14/HSCC^0000003/14^0</SOLUUTRU>
+    <NGUOINHA />
+    <HINHTHUC>2</HINHTHUC>
+    <PHUONGPHAP>1</PHUONGPHAP>
+    <KETQUA>2</KETQUA>
+    <SOPHIEU>3</SOPHIEU>
+    <LANIN>0</LANIN>
+    <tenuser>Quản trị chung</tenuser>
+    <tenbs />
+    <mabs>0011</mabs>
+    <makprv>02</makprv>
+    <cholam />
+    <madt>2</madt>
+    <haophi>0</haophi>
+    <gianovat>75000</gianovat>
+    <idttrv>0</idttrv>
+    <sotientra>75000</sotientra>
+    <traituyen>0</traituyen>
+    <tbh>0</tbh>
+    <tbn>0</tbn>
+    <tltraituyen>70</tltraituyen>
+    <dbh>0</dbh>
+    <dbn>0</dbn>
+    <tlchitra>0</tlchitra>
+    <kythuat>-1</kythuat>
+    <loaikythuat />
+    <tong_tu>0</tong_tu>
+    <bienlai_tu />
+    <tongcp>487000</tongcp>
+    <tongmien>0</tongmien>
+    <tongbhyttra>0</tongbhyttra>
+    <tongbntra>487000</tongbntra>
+    <capcuu>0</capcuu>
+    <tlchinhsach>0</tlchinhsach>
+    <ID_KTCAO>0</ID_KTCAO>
+    <ID_VPKHOA>0</ID_VPKHOA>
+    <VUOTTRAN>0</VUOTTRAN>
+    <dinhmucKTcao>20000000</dinhmucKTcao>
+    <dichsotamung>Không</dichsotamung>
+    <tuoivao>0250</tuoivao>
+    <mabv />
+    <tenbv />
+  </ravien>
+  <ravien>
+    <LOAIBA>1</LOAIBA>
+    <MADOITUONGVAO>2</MADOITUONGVAO>
+    <MATT>14000007</MATT>
+    <MABN>14000007</MABN>
+    <MAQL>140402130950167091</MAQL>
+    <IDKHOA>140402131002480091</IDKHOA>
+    <HOTEN>BN THU PHI</HOTEN>
+    <NAMSINH>1989</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <DIACHI> , Không xác định, Không xác định, Bình Dương</DIACHI>
+    <MADOITUONG>2</MADOITUONG>
+    <DOITUONG>Thu phí</DOITUONG>
+    <SOTHE />
+    <MAPHU>100.00</MAPHU>
+    <DENNGAY>^</DENNGAY>
+    <NOIGIOITHIEU>^KKB</NOIGIOITHIEU>
+    <NOICAP />
+    <GIUONG />
+    <MAKP>02</MAKP>
+    <TENKP>Khoa Hồi Sức Cấp Cứu</TENKP>
+    <NGAYVAO>02/04/2014 13:09</NGAYVAO>
+    <NGAYRA>02/04/2014 13:10</NGAYRA>
+    <CHANDOAN>Bệnh trào ngược dạ dày-thực quản;</CHANDOAN>
+    <MAICD>K21;</MAICD>
+    <STTNHOM>4</STTNHOM>
+    <NHOM>CDHA</NHOM>
+    <STTLOAI>35</STTLOAI>
+    <LOAI>ECG-EEG-EMG</LOAI>
+    <MA>-2582</MA>
+    <TEN>Phụ lục I/C6 Điện tâm đồ</TEN>
+    <DVT>Lần</DVT>
+    <SOLUONG>1</SOLUONG>
+    <DONGIA>27000</DONGIA>
+    <SOTIEN>27000</SOTIEN>
+    <TAMUNG>0</TAMUNG>
+    <TCSOTIEN>487000</TCSOTIEN>
+    <DICHSO>Bốn trăm tám mươi bảy nghìn</DICHSO>
+    <MIEN>0</MIEN>
+    <BHYTTRA>0</BHYTTRA>
+    <BNTRA>487000</BNTRA>
+    <DICHSOTRA>Bốn trăm tám mươi bảy nghìn</DICHSOTRA>
+    <SBLTAMUNG />
+    <SOLUUTRU>3/14/HSCC^0000003/14^0</SOLUUTRU>
+    <NGUOINHA />
+    <HINHTHUC>2</HINHTHUC>
+    <PHUONGPHAP>1</PHUONGPHAP>
+    <KETQUA>2</KETQUA>
+    <SOPHIEU>3</SOPHIEU>
+    <LANIN>0</LANIN>
+    <tenuser>Quản trị chung</tenuser>
+    <tenbs />
+    <mabs>0011</mabs>
+    <makprv>02</makprv>
+    <cholam />
+    <madt>2</madt>
+    <haophi>0</haophi>
+    <gianovat>27000</gianovat>
+    <idttrv>0</idttrv>
+    <sotientra>27000</sotientra>
+    <traituyen>0</traituyen>
+    <tbh>0</tbh>
+    <tbn>0</tbn>
+    <tltraituyen>70</tltraituyen>
+    <dbh>0</dbh>
+    <dbn>0</dbn>
+    <tlchitra>0</tlchitra>
+    <kythuat>-1</kythuat>
+    <loaikythuat />
+    <tong_tu>0</tong_tu>
+    <bienlai_tu />
+    <tongcp>487000</tongcp>
+    <tongmien>0</tongmien>
+    <tongbhyttra>0</tongbhyttra>
+    <tongbntra>487000</tongbntra>
+    <capcuu>0</capcuu>
+    <tlchinhsach>0</tlchinhsach>
+    <ID_KTCAO>0</ID_KTCAO>
+    <ID_VPKHOA>0</ID_VPKHOA>
+    <VUOTTRAN>0</VUOTTRAN>
+    <dinhmucKTcao>20000000</dinhmucKTcao>
+    <dichsotamung>Không</dichsotamung>
+    <tuoivao>0250</tuoivao>
+    <mabv />
+    <tenbv />
+  </ravien>
+</NewDataSet>

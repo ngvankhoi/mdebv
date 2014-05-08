@@ -1,0 +1,1131 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="id" type="xs:string" minOccurs="0" />
+                <xs:element name="quyensoid" type="xs:string" minOccurs="0" />
+                <xs:element name="sobienlai" type="xs:string" minOccurs="0" />
+                <xs:element name="ngay" type="xs:string" minOccurs="0" />
+                <xs:element name="quyenso" type="xs:string" minOccurs="0" />
+                <xs:element name="sochungtu" type="xs:string" minOccurs="0" />
+                <xs:element name="ghichu" type="xs:string" minOccurs="0" />
+                <xs:element name="lydomien" type="xs:string" minOccurs="0" />
+                <xs:element name="nguoikymien" type="xs:string" minOccurs="0" />
+                <xs:element name="mabn" type="xs:string" minOccurs="0" />
+                <xs:element name="hoten" type="xs:string" minOccurs="0" />
+                <xs:element name="diachi" type="xs:string" minOccurs="0" />
+                <xs:element name="tenkp" type="xs:string" minOccurs="0" />
+                <xs:element name="namsinh" type="xs:string" minOccurs="0" />
+                <xs:element name="sotien" type="xs:decimal" minOccurs="0" />
+                <xs:element name="mien" type="xs:decimal" minOccurs="0" />
+                <xs:element name="bhyt" type="xs:decimal" minOccurs="0" />
+                <xs:element name="thu20" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tamung" type="xs:decimal" minOccurs="0" />
+                <xs:element name="thucthu" type="xs:decimal" minOccurs="0" />
+                <xs:element name="thucchi" type="xs:decimal" minOccurs="0" />
+                <xs:element name="nguoithu" type="xs:string" minOccurs="0" />
+                <xs:element name="userid" type="xs:string" minOccurs="0" />
+                <xs:element name="llll0" type="xs:decimal" minOccurs="0" />
+                <xs:element name="llll1" type="xs:decimal" minOccurs="0" />
+                <xs:element name="llll2" type="xs:decimal" minOccurs="0" />
+                <xs:element name="llll3" type="xs:decimal" minOccurs="0" />
+                <xs:element name="llll4" type="xs:decimal" minOccurs="0" />
+                <xs:element name="llll5" type="xs:decimal" minOccurs="0" />
+                <xs:element name="llll6" type="xs:decimal" minOccurs="0" />
+                <xs:element name="llll7" type="xs:decimal" minOccurs="0" />
+                <xs:element name="llll8" type="xs:decimal" minOccurs="0" />
+                <xs:element name="llll9" type="xs:decimal" minOccurs="0" />
+                <xs:element name="llll10" type="xs:decimal" minOccurs="0" />
+                <xs:element name="llll11" type="xs:decimal" minOccurs="0" />
+                <xs:element name="llll12" type="xs:decimal" minOccurs="0" />
+                <xs:element name="llll13" type="xs:decimal" minOccurs="0" />
+                <xs:element name="llll14" type="xs:decimal" minOccurs="0" />
+                <xs:element name="llll15" type="xs:decimal" minOccurs="0" />
+                <xs:element name="llll16" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tamungtrongngay" type="xs:decimal" default="0" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <id>186000000666</id>
+    <quyensoid>129</quyensoid>
+    <sobienlai>46993</sobienlai>
+    <ngay>10/12/2010</ngay>
+    <quyenso>VC/2009T- 77</quyenso>
+    <sochungtu>VC/2009T- 77 - 46993</sochungtu>
+    <mabn>10094617</mabn>
+    <hoten>CAO THỊ KIM GẤM</hoten>
+    <diachi> P. Châu Phú A TX. Châu Đốc An Giang</diachi>
+    <tenkp>Khoa Y Học Cổ Truyền</tenkp>
+    <namsinh>1945</namsinh>
+    <sotien>258740.0000</sotien>
+    <mien>0.0000</mien>
+    <bhyt>206992.0000</bhyt>
+    <thu20>51748.0000</thu20>
+    <tamung>0</tamung>
+    <thucthu>51748.0000</thucthu>
+    <thucchi>0</thucchi>
+    <nguoithu>Đồng Thị Thơm</nguoithu>
+    <userid>Đồng Thị Thơm (thombhyt)</userid>
+    <llll0>8000.00000000000000000000</llll0>
+    <llll1>0</llll1>
+    <llll2>0</llll2>
+    <llll3>0</llll3>
+    <llll4>43748.00000000000000000000</llll4>
+    <llll5>0</llll5>
+    <llll6>0</llll6>
+    <llll7>0</llll7>
+    <llll8>0</llll8>
+    <llll9>0</llll9>
+    <llll10>0</llll10>
+    <llll11>0</llll11>
+    <llll12>0</llll12>
+    <llll13>0</llll13>
+    <llll14>0</llll14>
+    <llll15>0</llll15>
+    <llll16>0</llll16>
+  </Table>
+  <Table>
+    <id>186000000667</id>
+    <quyensoid>129</quyensoid>
+    <sobienlai>46994</sobienlai>
+    <ngay>10/12/2010</ngay>
+    <quyenso>VC/2009T- 77</quyenso>
+    <sochungtu>VC/2009T- 77 - 46994</sochungtu>
+    <mabn>09010086</mabn>
+    <hoten>TRẦN MAI THẢO</hoten>
+    <diachi> P. Châu Phú A TX. Châu Đốc An Giang</diachi>
+    <tenkp>Khoa Sản</tenkp>
+    <namsinh>1989</namsinh>
+    <sotien>521761.3400</sotien>
+    <mien>0.0000</mien>
+    <bhyt>0.0000</bhyt>
+    <tamung>100000</tamung>
+    <thucthu>421761.3400</thucthu>
+    <thucchi>0</thucchi>
+    <nguoithu>Đồng Thị Thơm</nguoithu>
+    <userid>Đồng Thị Thơm (thom)</userid>
+    <llll0>36000.00000000000000000000</llll0>
+    <llll1>0</llll1>
+    <llll2>0</llll2>
+    <llll3>0</llll3>
+    <llll4>110235.36762499990000000000</llll4>
+    <llll5>0</llll5>
+    <llll6>0</llll6>
+    <llll7>0</llll7>
+    <llll8>345000.00000000000000000000</llll8>
+    <llll9>0</llll9>
+    <llll10>0</llll10>
+    <llll11>0</llll11>
+    <llll12>0</llll12>
+    <llll13>0</llll13>
+    <llll14>22125.97800000000000000000</llll14>
+    <llll15>8400.00000000000000000000</llll15>
+    <llll16>0</llll16>
+  </Table>
+  <Table>
+    <id>186000000668</id>
+    <quyensoid>129</quyensoid>
+    <sobienlai>46995</sobienlai>
+    <ngay>10/12/2010</ngay>
+    <quyenso>VC/2009T- 77</quyenso>
+    <sochungtu>VC/2009T- 77 - 46995</sochungtu>
+    <mabn>10100010</mabn>
+    <hoten>DƯƠNG CHÍ LINH</hoten>
+    <diachi> Châu Phong TX. Tân Châu An Giang</diachi>
+    <tenkp>PK Nhi 1</tenkp>
+    <namsinh>1999</namsinh>
+    <sotien>663697.2600</sotien>
+    <mien>0.0000</mien>
+    <bhyt>0.0000</bhyt>
+    <tamung>700000</tamung>
+    <thucthu>0</thucthu>
+    <thucchi>36302.7400</thucchi>
+    <nguoithu>Đồng Thị Thơm</nguoithu>
+    <userid>Đồng Thị Thơm (thom)</userid>
+    <llll0>0</llll0>
+    <llll1>0</llll1>
+    <llll2>0</llll2>
+    <llll3>3000.00000000000000000000</llll3>
+    <llll4>568599.90500952450000000000</llll4>
+    <llll5>0</llll5>
+    <llll6>45000.00000000000000000000</llll6>
+    <llll7>20000.00000000000000000000</llll7>
+    <llll8>0</llll8>
+    <llll9>0</llll9>
+    <llll10>0</llll10>
+    <llll11>0</llll11>
+    <llll12>0</llll12>
+    <llll13>0</llll13>
+    <llll14>27097.35000000000000000000</llll14>
+    <llll15>0</llll15>
+    <llll16>0</llll16>
+  </Table>
+  <Table>
+    <id>186000000669</id>
+    <quyensoid>129</quyensoid>
+    <sobienlai>46996</sobienlai>
+    <ngay>10/12/2010</ngay>
+    <quyenso>VC/2009T- 77</quyenso>
+    <sochungtu>VC/2009T- 77 - 46996</sochungtu>
+    <mabn>10097993</mabn>
+    <hoten>NGUYỄN THỊ LAN</hoten>
+    <diachi> Hoà Lạc H. Phú Tân An Giang</diachi>
+    <tenkp>Khoa Sản</tenkp>
+    <namsinh>1990</namsinh>
+    <sotien>1877171.9800</sotien>
+    <mien>0.0000</mien>
+    <bhyt>1501737.5800</bhyt>
+    <thu20>375434.3960</thu20>
+    <tamung>1100000</tamung>
+    <thucthu>0</thucthu>
+    <thucchi>724565.6000</thucchi>
+    <nguoithu>Đồng Thị Thơm</nguoithu>
+    <userid>Đồng Thị Thơm (thombhyt)</userid>
+    <llll0>15000.00000000000000000000</llll0>
+    <llll1>0</llll1>
+    <llll2>0</llll2>
+    <llll3>0</llll3>
+    <llll4>127827.99983333330000000000</llll4>
+    <llll5>0</llll5>
+    <llll6>62400.00000000000000000000</llll6>
+    <llll7>22400.00000000000000000000</llll7>
+    <llll8>86200.00000000000000000000</llll8>
+    <llll9>0</llll9>
+    <llll10>0</llll10>
+    <llll11>0</llll11>
+    <llll12>0</llll12>
+    <llll13>0</llll13>
+    <llll14>31216.00000000000000000000</llll14>
+    <llll15>30390.40000000000000000000</llll15>
+    <llll16>0</llll16>
+  </Table>
+  <Table>
+    <id>186000000670</id>
+    <quyensoid>129</quyensoid>
+    <sobienlai>46997</sobienlai>
+    <ngay>10/12/2010</ngay>
+    <quyenso>VC/2009T- 77</quyenso>
+    <sochungtu>VC/2009T- 77 - 46997</sochungtu>
+    <mabn>10097993</mabn>
+    <hoten>NGUYỄN THỊ LAN</hoten>
+    <diachi> Hoà Lạc H. Phú Tân An Giang</diachi>
+    <tenkp>Khoa Sản</tenkp>
+    <namsinh>1990</namsinh>
+    <sotien>445314.1000</sotien>
+    <mien>0.0000</mien>
+    <bhyt>0.0000</bhyt>
+    <tamung>0</tamung>
+    <thucthu>445314.1000</thucthu>
+    <thucchi>0</thucchi>
+    <nguoithu>Đồng Thị Thơm</nguoithu>
+    <userid>Đồng Thị Thơm (thom)</userid>
+    <llll0>4000.00000000000000000000</llll0>
+    <llll1>0</llll1>
+    <llll2>0</llll2>
+    <llll3>0</llll3>
+    <llll4>0</llll4>
+    <llll5>0</llll5>
+    <llll6>72000.00000000000000000000</llll6>
+    <llll7>0</llll7>
+    <llll8>226000.00000000000000000000</llll8>
+    <llll9>0</llll9>
+    <llll10>0</llll10>
+    <llll11>0</llll11>
+    <llll12>16000.00000000000000000000</llll12>
+    <llll13>0</llll13>
+    <llll14>127314.10000000000000000000</llll14>
+    <llll15>0</llll15>
+    <llll16>0</llll16>
+  </Table>
+  <Table>
+    <id>186000000671</id>
+    <quyensoid>129</quyensoid>
+    <sobienlai>46998</sobienlai>
+    <ngay>10/12/2010</ngay>
+    <quyenso>VC/2009T- 77</quyenso>
+    <sochungtu>VC/2009T- 77 - 46998</sochungtu>
+    <mabn>10108000</mabn>
+    <hoten>SA PHI</hoten>
+    <diachi> Châu Phong TX. Tân Châu An Giang</diachi>
+    <tenkp>Khoa Sản</tenkp>
+    <namsinh>1969</namsinh>
+    <sotien>835000.0000</sotien>
+    <mien>0.0000</mien>
+    <bhyt>668000.0000</bhyt>
+    <thu20>167000.0000</thu20>
+    <tamung>1000000</tamung>
+    <thucthu>0</thucthu>
+    <thucchi>833000.0000</thucchi>
+    <nguoithu>Đồng Thị Thơm</nguoithu>
+    <userid>Đồng Thị Thơm (thombhyt)</userid>
+    <llll0>9000.00000000000000000000</llll0>
+    <llll1>0</llll1>
+    <llll2>0</llll2>
+    <llll3>0</llll3>
+    <llll4>0</llll4>
+    <llll5>0</llll5>
+    <llll6>111600.00000000000000000000</llll6>
+    <llll7>46400.00000000000000000000</llll7>
+    <llll8>0</llll8>
+    <llll9>0</llll9>
+    <llll10>0</llll10>
+    <llll11>0</llll11>
+    <llll12>0</llll12>
+    <llll13>0</llll13>
+    <llll14>0</llll14>
+    <llll15>0</llll15>
+    <llll16>0</llll16>
+  </Table>
+  <Table>
+    <id>186000000672</id>
+    <quyensoid>129</quyensoid>
+    <sobienlai>46999</sobienlai>
+    <ngay>10/12/2010</ngay>
+    <quyenso>VC/2009T- 77</quyenso>
+    <sochungtu>VC/2009T- 77 - 46999</sochungtu>
+    <mabn>10108000</mabn>
+    <hoten>SA PHI</hoten>
+    <diachi> Châu Phong TX. Tân Châu An Giang</diachi>
+    <tenkp>Khoa Sản</tenkp>
+    <namsinh>1969</namsinh>
+    <sotien>36000.0000</sotien>
+    <mien>0.0000</mien>
+    <bhyt>0.0000</bhyt>
+    <tamung>0</tamung>
+    <thucthu>36000.0000</thucthu>
+    <thucchi>0</thucchi>
+    <nguoithu>Đồng Thị Thơm</nguoithu>
+    <userid>Đồng Thị Thơm (thom)</userid>
+    <llll0>0</llll0>
+    <llll1>0</llll1>
+    <llll2>0</llll2>
+    <llll3>0</llll3>
+    <llll4>0</llll4>
+    <llll5>0</llll5>
+    <llll6>36000.00000000000000000000</llll6>
+    <llll7>0</llll7>
+    <llll8>0</llll8>
+    <llll9>0</llll9>
+    <llll10>0</llll10>
+    <llll11>0</llll11>
+    <llll12>0</llll12>
+    <llll13>0</llll13>
+    <llll14>0</llll14>
+    <llll15>0</llll15>
+    <llll16>0</llll16>
+  </Table>
+  <Table>
+    <id>186000000673</id>
+    <quyensoid>129</quyensoid>
+    <sobienlai>47000</sobienlai>
+    <ngay>10/12/2010</ngay>
+    <quyenso>VC/2009T- 77</quyenso>
+    <sochungtu>VC/2009T- 77 - 47000</sochungtu>
+    <mabn>10100409</mabn>
+    <hoten>VÕ THỊ THIA</hoten>
+    <diachi> Ô Long Vỹ H. Châu Phú An Giang</diachi>
+    <tenkp>Khoa Sản</tenkp>
+    <namsinh>1989</namsinh>
+    <sotien>946641.6500</sotien>
+    <mien>0.0000</mien>
+    <bhyt>0.0000</bhyt>
+    <tamung>1000000</tamung>
+    <thucthu>0</thucthu>
+    <thucchi>53358.3500</thucchi>
+    <nguoithu>Đồng Thị Thơm</nguoithu>
+    <userid>Đồng Thị Thơm (thom)</userid>
+    <llll0>48000.00000000000000000000</llll0>
+    <llll1>0</llll1>
+    <llll2>0</llll2>
+    <llll3>0</llll3>
+    <llll4>117627.36912686560000000000</llll4>
+    <llll5>0</llll5>
+    <llll6>355000.00000000000000000000</llll6>
+    <llll7>40000.00000000000000000000</llll7>
+    <llll8>345000.00000000000000000000</llll8>
+    <llll9>0</llll9>
+    <llll10>0</llll10>
+    <llll11>0</llll11>
+    <llll12>0</llll12>
+    <llll13>0</llll13>
+    <llll14>33014.28900000000000000000</llll14>
+    <llll15>7999.99987500000000000000</llll15>
+    <llll16>0</llll16>
+  </Table>
+  <Table>
+    <id>186000000674</id>
+    <quyensoid>129</quyensoid>
+    <sobienlai>47001</sobienlai>
+    <ngay>10/12/2010</ngay>
+    <quyenso>VC/2009T- 77</quyenso>
+    <sochungtu>VC/2009T- 77 - 47001</sochungtu>
+    <mabn>10098524</mabn>
+    <hoten>ĐẶNG THỊ MAI</hoten>
+    <diachi> Vĩnh Mỹ TX. Châu Đốc An Giang</diachi>
+    <tenkp>Khoa Sản</tenkp>
+    <namsinh>1993</namsinh>
+    <sotien>561928.3400</sotien>
+    <mien>0.0000</mien>
+    <bhyt>0.0000</bhyt>
+    <tamung>500000</tamung>
+    <thucthu>61928.3400</thucthu>
+    <thucchi>0</thucchi>
+    <nguoithu>Đồng Thị Thơm</nguoithu>
+    <userid>Đồng Thị Thơm (thom)</userid>
+    <llll0>0</llll0>
+    <llll1>0</llll1>
+    <llll2>0</llll2>
+    <llll3>0</llll3>
+    <llll4>110235.36912686560000000000</llll4>
+    <llll5>0</llll5>
+    <llll6>0</llll6>
+    <llll7>0</llll7>
+    <llll8>345000.00000000000000000000</llll8>
+    <llll9>0</llll9>
+    <llll10>0</llll10>
+    <llll11>0</llll11>
+    <llll12>0</llll12>
+    <llll13>0</llll13>
+    <llll14>91257.97800000000000000000</llll14>
+    <llll15>15435.00000000000000000000</llll15>
+    <llll16>0</llll16>
+  </Table>
+  <Table>
+    <id>186000000675</id>
+    <quyensoid>129</quyensoid>
+    <sobienlai>47002</sobienlai>
+    <ngay>10/12/2010</ngay>
+    <quyenso>VC/2009T- 77</quyenso>
+    <sochungtu>VC/2009T- 77 - 47002</sochungtu>
+    <mabn>10210060</mabn>
+    <hoten>NGUYỄN THỊ HỒNG TÂM</hoten>
+    <diachi> Không xác định H. Châu Phú An Giang</diachi>
+    <tenkp>Khoa Sản</tenkp>
+    <namsinh>1976</namsinh>
+    <sotien>571861.3400</sotien>
+    <mien>0.0000</mien>
+    <bhyt>0.0000</bhyt>
+    <tamung>500000</tamung>
+    <thucthu>71861.3400</thucthu>
+    <thucchi>0</thucchi>
+    <nguoithu>Đồng Thị Thơm</nguoithu>
+    <userid>Đồng Thị Thơm (thom)</userid>
+    <llll0>0</llll0>
+    <llll1>0</llll1>
+    <llll2>0</llll2>
+    <llll3>0</llll3>
+    <llll4>111558.36912686560000000000</llll4>
+    <llll5>0</llll5>
+    <llll6>0</llll6>
+    <llll7>0</llll7>
+    <llll8>345000.00000000000000000000</llll8>
+    <llll9>0</llll9>
+    <llll10>0</llll10>
+    <llll11>0</llll11>
+    <llll12>0</llll12>
+    <llll13>0</llll13>
+    <llll14>99867.97800000000000000000</llll14>
+    <llll15>15435.00000000000000000000</llll15>
+    <llll16>0</llll16>
+  </Table>
+  <Table>
+    <id>186000000676</id>
+    <quyensoid>129</quyensoid>
+    <sobienlai>47003</sobienlai>
+    <ngay>10/12/2010</ngay>
+    <quyenso>VC/2009T- 77</quyenso>
+    <sochungtu>VC/2009T- 77 - 47003</sochungtu>
+    <mabn>10097486</mabn>
+    <hoten>BÙI THỊ THUẬN</hoten>
+    <diachi> An Hảo H. Tịnh Biên An Giang</diachi>
+    <tenkp>Khoa Sản</tenkp>
+    <namsinh>1963</namsinh>
+    <sotien>2437007.1500</sotien>
+    <mien>0.0000</mien>
+    <bhyt>2315156.7900</bhyt>
+    <thu20>121850.3575</thu20>
+    <tamung>1000000</tamung>
+    <thucthu>0</thucthu>
+    <thucchi>878149.6400</thucchi>
+    <nguoithu>Đồng Thị Thơm</nguoithu>
+    <userid>Đồng Thị Thơm (thombhyt)</userid>
+    <llll0>4650.00000000000000000000</llll0>
+    <llll1>0</llll1>
+    <llll2>0</llll2>
+    <llll3>0</llll3>
+    <llll4>29826.08547333310000000000</llll4>
+    <llll5>0</llll5>
+    <llll6>19150.00000000000000000000</llll6>
+    <llll7>11600.00000000000000000000</llll7>
+    <llll8>50300.00000000000000000000</llll8>
+    <llll9>0</llll9>
+    <llll10>0</llll10>
+    <llll11>500.00000000000000000000</llll11>
+    <llll12>0</llll12>
+    <llll13>0</llll13>
+    <llll14>4057.21000000000000000000</llll14>
+    <llll15>1767.04975000000000000000</llll15>
+    <llll16>0</llll16>
+  </Table>
+  <Table>
+    <id>186000000677</id>
+    <quyensoid>129</quyensoid>
+    <sobienlai>47004</sobienlai>
+    <ngay>10/12/2010</ngay>
+    <quyenso>VC/2009T- 77</quyenso>
+    <sochungtu>VC/2009T- 77 - 47004</sochungtu>
+    <mabn>10097486</mabn>
+    <hoten>BÙI THỊ THUẬN</hoten>
+    <diachi> An Hảo H. Tịnh Biên An Giang</diachi>
+    <tenkp>Khoa Sản</tenkp>
+    <namsinh>1963</namsinh>
+    <sotien>414314.0000</sotien>
+    <mien>0.0000</mien>
+    <bhyt>0.0000</bhyt>
+    <tamung>0</tamung>
+    <thucthu>414314.0000</thucthu>
+    <thucchi>0</thucchi>
+    <nguoithu>Đồng Thị Thơm</nguoithu>
+    <userid>Đồng Thị Thơm (thom)</userid>
+    <llll0>4000.00000000000000000000</llll0>
+    <llll1>0</llll1>
+    <llll2>0</llll2>
+    <llll3>0</llll3>
+    <llll4>0</llll4>
+    <llll5>0</llll5>
+    <llll6>72000.00000000000000000000</llll6>
+    <llll7>0</llll7>
+    <llll8>195000.00000000000000000000</llll8>
+    <llll9>0</llll9>
+    <llll10>0</llll10>
+    <llll11>0</llll11>
+    <llll12>16000.00000000000000000000</llll12>
+    <llll13>0</llll13>
+    <llll14>127314.00000000000000000000</llll14>
+    <llll15>0</llll15>
+    <llll16>0</llll16>
+  </Table>
+  <Table>
+    <id>186000000678</id>
+    <quyensoid>129</quyensoid>
+    <sobienlai>47005</sobienlai>
+    <ngay>10/12/2010</ngay>
+    <quyenso>VC/2009T- 77</quyenso>
+    <sochungtu>VC/2009T- 77 - 47005</sochungtu>
+    <mabn>10100418</mabn>
+    <hoten>TRẦN THỊ HUỲNH NHƯ</hoten>
+    <diachi> Vĩnh Thạnh Trung H. Châu Phú An Giang</diachi>
+    <tenkp>Khoa Sản</tenkp>
+    <namsinh>1990</namsinh>
+    <sotien>859225.3500</sotien>
+    <mien>0.0000</mien>
+    <bhyt>687380.2800</bhyt>
+    <thu20>171845.0700</thu20>
+    <tamung>500000</tamung>
+    <thucthu>0</thucthu>
+    <thucchi>328154.9300</thucchi>
+    <nguoithu>Đồng Thị Thơm</nguoithu>
+    <userid>Đồng Thị Thơm (thombhyt)</userid>
+    <llll0>7200.00000000000000000000</llll0>
+    <llll1>0</llll1>
+    <llll2>0</llll2>
+    <llll3>0</llll3>
+    <llll4>38959.88112686560000000000</llll4>
+    <llll5>0</llll5>
+    <llll6>61200.00000000000000000000</llll6>
+    <llll7>20000.00000000000000000000</llll7>
+    <llll8>41000.00000000000000000000</llll8>
+    <llll9>0</llll9>
+    <llll10>0</llll10>
+    <llll11>0</llll11>
+    <llll12>0</llll12>
+    <llll13>0</llll13>
+    <llll14>3485.19700000000000000000</llll14>
+    <llll15>0</llll15>
+    <llll16>0</llll16>
+  </Table>
+  <Table>
+    <id>186000000679</id>
+    <quyensoid>129</quyensoid>
+    <sobienlai>47006</sobienlai>
+    <ngay>10/12/2010</ngay>
+    <quyenso>VC/2009T- 77</quyenso>
+    <sochungtu>VC/2009T- 77 - 47006</sochungtu>
+    <mabn>10100418</mabn>
+    <hoten>TRẦN THỊ HUỲNH NHƯ</hoten>
+    <diachi> Vĩnh Thạnh Trung H. Châu Phú An Giang</diachi>
+    <tenkp>Khoa Sản</tenkp>
+    <namsinh>1990</namsinh>
+    <sotien>185810.0000</sotien>
+    <mien>0.0000</mien>
+    <bhyt>0.0000</bhyt>
+    <tamung>0</tamung>
+    <thucthu>185810.0000</thucthu>
+    <thucchi>0</thucchi>
+    <nguoithu>Đồng Thị Thơm</nguoithu>
+    <userid>Đồng Thị Thơm (thom)</userid>
+    <llll0>0</llll0>
+    <llll1>0</llll1>
+    <llll2>0</llll2>
+    <llll3>0</llll3>
+    <llll4>0</llll4>
+    <llll5>0</llll5>
+    <llll6>36000.00000000000000000000</llll6>
+    <llll7>0</llll7>
+    <llll8>116000.00000000000000000000</llll8>
+    <llll9>0</llll9>
+    <llll10>0</llll10>
+    <llll11>0</llll11>
+    <llll12>0</llll12>
+    <llll13>0</llll13>
+    <llll14>33810.00000000000000000000</llll14>
+    <llll15>0</llll15>
+    <llll16>0</llll16>
+  </Table>
+  <Table>
+    <id>186000000680</id>
+    <quyensoid>129</quyensoid>
+    <sobienlai>47007</sobienlai>
+    <ngay>10/12/2010</ngay>
+    <quyenso>VC/2009T- 77</quyenso>
+    <sochungtu>VC/2009T- 77 - 47007</sochungtu>
+    <mabn>10100896</mabn>
+    <hoten>NGUYỄN THỊ NGUYỆT</hoten>
+    <diachi> P. Châu Phú A TX. Châu Đốc An Giang</diachi>
+    <tenkp>Khoa Sản</tenkp>
+    <namsinh>1991</namsinh>
+    <sotien>618357.6400</sotien>
+    <mien>0.0000</mien>
+    <bhyt>0.0000</bhyt>
+    <tamung>500000</tamung>
+    <thucthu>118357.6400</thucthu>
+    <thucchi>0</thucchi>
+    <nguoithu>Đồng Thị Thơm</nguoithu>
+    <userid>Đồng Thị Thơm (thom)</userid>
+    <llll0>24000.00000000000000000000</llll0>
+    <llll1>0</llll1>
+    <llll2>0</llll2>
+    <llll3>0</llll3>
+    <llll4>117627.36762499990000000000</llll4>
+    <llll5>0</llll5>
+    <llll6>0</llll6>
+    <llll7>0</llll7>
+    <llll8>345000.00000000000000000000</llll8>
+    <llll9>0</llll9>
+    <llll10>0</llll10>
+    <llll11>0</llll11>
+    <llll12>0</llll12>
+    <llll13>0</llll13>
+    <llll14>115330.27800000000000000000</llll14>
+    <llll15>16399.99987500000000000000</llll15>
+    <llll16>0</llll16>
+  </Table>
+  <Table>
+    <id>186000000681</id>
+    <quyensoid>129</quyensoid>
+    <sobienlai>47008</sobienlai>
+    <ngay>10/12/2010</ngay>
+    <quyenso>VC/2009T- 77</quyenso>
+    <sochungtu>VC/2009T- 77 - 47008</sochungtu>
+    <mabn>10098405</mabn>
+    <hoten>NGUYỄN THỊ TÁC</hoten>
+    <diachi> Vĩnh Mỹ TX. Châu Đốc An Giang</diachi>
+    <tenkp>Khoa Sản</tenkp>
+    <namsinh>1993</namsinh>
+    <sotien>2601405.7300</sotien>
+    <mien>0.0000</mien>
+    <bhyt>0.0000</bhyt>
+    <tamung>2800000</tamung>
+    <thucthu>0</thucthu>
+    <thucchi>198594.2700</thucchi>
+    <nguoithu>Đồng Thị Thơm</nguoithu>
+    <userid>Đồng Thị Thơm (thom)</userid>
+    <llll0>100000.00000000000000000000</llll0>
+    <llll1>0</llll1>
+    <llll2>0</llll2>
+    <llll3>0</llll3>
+    <llll4>612621.30894499980000000000</llll4>
+    <llll5>830000.00000000000000000000</llll5>
+    <llll6>6000.00000000000000000000</llll6>
+    <llll7>0</llll7>
+    <llll8>568000.00000000000000000000</llll8>
+    <llll9>0</llll9>
+    <llll10>0</llll10>
+    <llll11>2500.00000000000000000000</llll11>
+    <llll12>16000.00000000000000000000</llll12>
+    <llll13>0</llll13>
+    <llll14>291175.44500000000000000000</llll14>
+    <llll15>175109.00450000000000000000</llll15>
+    <llll16>0</llll16>
+  </Table>
+  <Table>
+    <id>186000000682</id>
+    <quyensoid>129</quyensoid>
+    <sobienlai>47009</sobienlai>
+    <ngay>10/12/2010</ngay>
+    <quyenso>VC/2009T- 77</quyenso>
+    <sochungtu>VC/2009T- 77 - 47009</sochungtu>
+    <mabn>10098384</mabn>
+    <hoten>TRÂN TUYẾT SÁU</hoten>
+    <diachi> Vĩnh Hậu H. An Phú An Giang</diachi>
+    <tenkp>Khoa Sản</tenkp>
+    <namsinh>1974</namsinh>
+    <sotien>1600563.0000</sotien>
+    <mien>0.0000</mien>
+    <bhyt>1520534.8500</bhyt>
+    <thu20>80028.1500</thu20>
+    <tamung>1800000</tamung>
+    <thucthu>0</thucthu>
+    <thucchi>1719971.8500</thucchi>
+    <nguoithu>Đồng Thị Thơm</nguoithu>
+    <userid>Đồng Thị Thơm (thombhyt)</userid>
+    <llll0>3750.00000000000000000000</llll0>
+    <llll1>0</llll1>
+    <llll2>0</llll2>
+    <llll3>0</llll3>
+    <llll4>26734.19575757580000000000</llll4>
+    <llll5>0</llll5>
+    <llll6>16200.00000000000000000000</llll6>
+    <llll7>5000.00000000000000000000</llll7>
+    <llll8>21550.00000000000000000000</llll8>
+    <llll9>0</llll9>
+    <llll10>0</llll10>
+    <llll11>0</llll11>
+    <llll12>0</llll12>
+    <llll13>0</llll13>
+    <llll14>5061.55000000000000000000</llll14>
+    <llll15>1732.40000000000000000000</llll15>
+    <llll16>0</llll16>
+  </Table>
+  <Table>
+    <id>186000000683</id>
+    <quyensoid>129</quyensoid>
+    <sobienlai>47010</sobienlai>
+    <ngay>10/12/2010</ngay>
+    <quyenso>VC/2009T- 77</quyenso>
+    <sochungtu>VC/2009T- 77 - 47010</sochungtu>
+    <mabn>10098384</mabn>
+    <hoten>TRÂN TUYẾT SÁU</hoten>
+    <diachi> Vĩnh Hậu H. An Phú An Giang</diachi>
+    <tenkp>Khoa Sản</tenkp>
+    <namsinh>1974</namsinh>
+    <sotien>445314.0000</sotien>
+    <mien>0.0000</mien>
+    <bhyt>0.0000</bhyt>
+    <tamung>0</tamung>
+    <thucthu>445314.0000</thucthu>
+    <thucchi>0</thucchi>
+    <nguoithu>Đồng Thị Thơm</nguoithu>
+    <userid>Đồng Thị Thơm (thom)</userid>
+    <llll0>4000.00000000000000000000</llll0>
+    <llll1>0</llll1>
+    <llll2>0</llll2>
+    <llll3>0</llll3>
+    <llll4>0</llll4>
+    <llll5>0</llll5>
+    <llll6>72000.00000000000000000000</llll6>
+    <llll7>0</llll7>
+    <llll8>226000.00000000000000000000</llll8>
+    <llll9>0</llll9>
+    <llll10>0</llll10>
+    <llll11>0</llll11>
+    <llll12>16000.00000000000000000000</llll12>
+    <llll13>0</llll13>
+    <llll14>127314.00000000000000000000</llll14>
+    <llll15>0</llll15>
+    <llll16>0</llll16>
+  </Table>
+  <Table>
+    <id>186000000684</id>
+    <quyensoid>129</quyensoid>
+    <sobienlai>47011</sobienlai>
+    <ngay>10/12/2010</ngay>
+    <quyenso>VC/2009T- 77</quyenso>
+    <sochungtu>VC/2009T- 77 - 47011</sochungtu>
+    <mabn>10098593</mabn>
+    <hoten>DƯƠNG THỊ THƠM</hoten>
+    <diachi> P. Châu Phú A TX. Châu Đốc An Giang</diachi>
+    <tenkp>Khoa Sản</tenkp>
+    <namsinh>1982</namsinh>
+    <sotien>898574.3400</sotien>
+    <mien>0.0000</mien>
+    <bhyt>718859.4700</bhyt>
+    <thu20>179714.8680</thu20>
+    <tamung>500000</tamung>
+    <thucthu>0</thucthu>
+    <thucchi>320285.1300</thucchi>
+    <nguoithu>Đồng Thị Thơm</nguoithu>
+    <userid>Đồng Thị Thơm (thombhyt)</userid>
+    <llll0>4800.00000000000000000000</llll0>
+    <llll1>0</llll1>
+    <llll2>0</llll2>
+    <llll3>0</llll3>
+    <llll4>40438.48112686560000000000</llll4>
+    <llll5>0</llll5>
+    <llll6>72400.00000000000000000000</llll6>
+    <llll7>0</llll7>
+    <llll8>41000.00000000000000000000</llll8>
+    <llll9>0</llll9>
+    <llll10>0</llll10>
+    <llll11>0</llll11>
+    <llll12>0</llll12>
+    <llll13>0</llll13>
+    <llll14>16196.39400000000000000000</llll14>
+    <llll15>4879.99975000000000000000</llll15>
+    <llll16>0</llll16>
+  </Table>
+  <Table>
+    <id>186000000685</id>
+    <quyensoid>129</quyensoid>
+    <sobienlai>47012</sobienlai>
+    <ngay>10/12/2010</ngay>
+    <quyenso>VC/2009T- 77</quyenso>
+    <sochungtu>VC/2009T- 77 - 47012</sochungtu>
+    <mabn>10098593</mabn>
+    <hoten>DƯƠNG THỊ THƠM</hoten>
+    <diachi> P. Châu Phú A TX. Châu Đốc An Giang</diachi>
+    <tenkp>Khoa Sản</tenkp>
+    <namsinh>1982</namsinh>
+    <sotien>254942.0000</sotien>
+    <mien>0.0000</mien>
+    <bhyt>0.0000</bhyt>
+    <tamung>0</tamung>
+    <thucthu>254942.0000</thucthu>
+    <thucchi>0</thucchi>
+    <nguoithu>Đồng Thị Thơm</nguoithu>
+    <userid>Đồng Thị Thơm (thom)</userid>
+    <llll0>0</llll0>
+    <llll1>0</llll1>
+    <llll2>0</llll2>
+    <llll3>0</llll3>
+    <llll4>0</llll4>
+    <llll5>0</llll5>
+    <llll6>36000.00000000000000000000</llll6>
+    <llll7>0</llll7>
+    <llll8>116000.00000000000000000000</llll8>
+    <llll9>0</llll9>
+    <llll10>0</llll10>
+    <llll11>0</llll11>
+    <llll12>0</llll12>
+    <llll13>0</llll13>
+    <llll14>102942.00000000000000000000</llll14>
+    <llll15>0</llll15>
+    <llll16>0</llll16>
+  </Table>
+  <Table>
+    <id>186000000686</id>
+    <quyensoid>129</quyensoid>
+    <sobienlai>47013</sobienlai>
+    <ngay>10/12/2010</ngay>
+    <quyenso>VC/2009T- 77</quyenso>
+    <sochungtu>VC/2009T- 77 - 47013</sochungtu>
+    <mabn>09004052</mabn>
+    <hoten>NGUYỄN THỊ DIỄM</hoten>
+    <diachi> Châu Phong TX. Tân Châu An Giang</diachi>
+    <tenkp>Khoa Sản</tenkp>
+    <namsinh>1986</namsinh>
+    <sotien>1994902.7100</sotien>
+    <mien>0.0000</mien>
+    <bhyt>0.0000</bhyt>
+    <tamung>2400000</tamung>
+    <thucthu>0</thucthu>
+    <thucchi>405097.2900</thucchi>
+    <nguoithu>Đồng Thị Thơm</nguoithu>
+    <userid>Đồng Thị Thơm (thom)</userid>
+    <llll0>40000.00000000000000000000</llll0>
+    <llll1>0</llll1>
+    <llll2>0</llll2>
+    <llll3>0</llll3>
+    <llll4>655935.44224193310000000000</llll4>
+    <llll5>0</llll5>
+    <llll6>340000.00000000000000000000</llll6>
+    <llll7>12000.00000000000000000000</llll7>
+    <llll8>608000.00000000000000000000</llll8>
+    <llll9>0</llll9>
+    <llll10>0</llll10>
+    <llll11>10000.00000000000000000000</llll11>
+    <llll12>16000.00000000000000000000</llll12>
+    <llll13>0</llll13>
+    <llll14>261541.23900000000000000000</llll14>
+    <llll15>51425.99962500000000000000</llll15>
+    <llll16>0</llll16>
+  </Table>
+  <Table>
+    <id>186000000687</id>
+    <quyensoid>129</quyensoid>
+    <sobienlai>47014</sobienlai>
+    <ngay>10/12/2010</ngay>
+    <quyenso>VC/2009T- 77</quyenso>
+    <sochungtu>VC/2009T- 77 - 47014</sochungtu>
+    <mabn>10098986</mabn>
+    <hoten>TRƯƠNG THỊ TỐ</hoten>
+    <diachi> Mỹ Phú H. Châu Phú An Giang</diachi>
+    <tenkp>Hồi Sức Tích Cực, Chống Độc (ICU)</tenkp>
+    <namsinh>1929</namsinh>
+    <sotien>3501653.9000</sotien>
+    <mien>0.0000</mien>
+    <bhyt>2801323.1200</bhyt>
+    <thu20>700330.7800</thu20>
+    <tamung>2100000</tamung>
+    <thucthu>0</thucthu>
+    <thucchi>1399669.2200</thucchi>
+    <nguoithu>Đồng Thị Thơm</nguoithu>
+    <userid>Đồng Thị Thơm (thombhyt)</userid>
+    <llll0>12000.00000000000000000000</llll0>
+    <llll1>0</llll1>
+    <llll2>0</llll2>
+    <llll3>0</llll3>
+    <llll4>293910.35627142840000000000</llll4>
+    <llll5>0</llll5>
+    <llll6>32000.00000000000000000000</llll6>
+    <llll7>206400.00000000000000000000</llll7>
+    <llll8>23600.00000000000000000000</llll8>
+    <llll9>0</llll9>
+    <llll10>0</llll10>
+    <llll11>46000.00000000000000000000</llll11>
+    <llll12>0</llll12>
+    <llll13>0</llll13>
+    <llll14>46209.64000000000000000000</llll14>
+    <llll15>40210.80000000000000000000</llll15>
+    <llll16>0</llll16>
+  </Table>
+  <Table>
+    <id>186000000688</id>
+    <quyensoid>129</quyensoid>
+    <sobienlai>47015</sobienlai>
+    <ngay>10/12/2010</ngay>
+    <quyenso>VC/2009T- 77</quyenso>
+    <sochungtu>VC/2009T- 77 - 47015</sochungtu>
+    <mabn>10098986</mabn>
+    <hoten>TRƯƠNG THỊ TỐ</hoten>
+    <diachi> Mỹ Phú H. Châu Phú An Giang</diachi>
+    <tenkp>Hồi Sức Tích Cực, Chống Độc (ICU)</tenkp>
+    <namsinh>1929</namsinh>
+    <sotien>644175.1500</sotien>
+    <mien>0.0000</mien>
+    <bhyt>0.0000</bhyt>
+    <tamung>0</tamung>
+    <thucthu>644175.1500</thucthu>
+    <thucchi>0</thucchi>
+    <nguoithu>Đồng Thị Thơm</nguoithu>
+    <userid>Đồng Thị Thơm (thom)</userid>
+    <llll0>0</llll0>
+    <llll1>0</llll1>
+    <llll2>0</llll2>
+    <llll3>3000.00000000000000000000</llll3>
+    <llll4>0</llll4>
+    <llll5>0</llll5>
+    <llll6>92000.00000000000000000000</llll6>
+    <llll7>0.00000000000000000000</llll7>
+    <llll8>0</llll8>
+    <llll9>0</llll9>
+    <llll10>0</llll10>
+    <llll11>2500.00000000000000000000</llll11>
+    <llll12>231000.00000000000000000000</llll12>
+    <llll13>0</llll13>
+    <llll14>308640.15000000000000000000</llll14>
+    <llll15>7035.00000000000000000000</llll15>
+    <llll16>0</llll16>
+  </Table>
+  <Table>
+    <id>186000000689</id>
+    <quyensoid>129</quyensoid>
+    <sobienlai>47016</sobienlai>
+    <ngay>10/12/2010</ngay>
+    <quyenso>VC/2009T- 77</quyenso>
+    <sochungtu>VC/2009T- 77 - 47016</sochungtu>
+    <mabn>10063232</mabn>
+    <hoten>NGUYỄN THỊ XUÂN</hoten>
+    <diachi> Đa Phước H. An Phú An Giang</diachi>
+    <tenkp>Khoa Sản</tenkp>
+    <namsinh>1992</namsinh>
+    <sotien>880003.3400</sotien>
+    <mien>0.0000</mien>
+    <bhyt>836003.1700</bhyt>
+    <thu20>44000.1670</thu20>
+    <tamung>500000</tamung>
+    <thucthu>0</thucthu>
+    <thucchi>455999.8300</thucchi>
+    <nguoithu>Đồng Thị Thơm</nguoithu>
+    <userid>Đồng Thị Thơm (thombhyt)</userid>
+    <llll0>1200.00000000000000000000</llll0>
+    <llll1>0</llll1>
+    <llll2>0</llll2>
+    <llll3>0</llll3>
+    <llll4>9739.97712686560000000000</llll4>
+    <llll5>0</llll5>
+    <llll6>14300.00000000000000000000</llll6>
+    <llll7>5600.00000000000000000000</llll7>
+    <llll8>10250.00000000000000000000</llll8>
+    <llll9>0</llll9>
+    <llll10>0</llll10>
+    <llll11>0</llll11>
+    <llll12>0</llll12>
+    <llll13>0</llll13>
+    <llll14>2490.19700000000000000000</llll14>
+    <llll15>420.00000000000000000000</llll15>
+    <llll16>0</llll16>
+  </Table>
+  <Table>
+    <id>186000000690</id>
+    <quyensoid>129</quyensoid>
+    <sobienlai>47017</sobienlai>
+    <ngay>10/12/2010</ngay>
+    <quyenso>VC/2009T- 77</quyenso>
+    <sochungtu>VC/2009T- 77 - 47017</sochungtu>
+    <mabn>10063232</mabn>
+    <hoten>NGUYỄN THỊ XUÂN</hoten>
+    <diachi> Đa Phước H. An Phú An Giang</diachi>
+    <tenkp>Khoa Sản</tenkp>
+    <namsinh>1992</namsinh>
+    <sotien>185810.0000</sotien>
+    <mien>0.0000</mien>
+    <bhyt>0.0000</bhyt>
+    <tamung>0</tamung>
+    <thucthu>185810.0000</thucthu>
+    <thucchi>0</thucchi>
+    <nguoithu>Đồng Thị Thơm</nguoithu>
+    <userid>Đồng Thị Thơm (thom)</userid>
+    <llll0>0</llll0>
+    <llll1>0</llll1>
+    <llll2>0</llll2>
+    <llll3>0</llll3>
+    <llll4>0</llll4>
+    <llll5>0</llll5>
+    <llll6>36000.00000000000000000000</llll6>
+    <llll7>0</llll7>
+    <llll8>116000.00000000000000000000</llll8>
+    <llll9>0</llll9>
+    <llll10>0</llll10>
+    <llll11>0</llll11>
+    <llll12>0</llll12>
+    <llll13>0</llll13>
+    <llll14>33810.00000000000000000000</llll14>
+    <llll15>0</llll15>
+    <llll16>0</llll16>
+  </Table>
+  <Table>
+    <id>186000000691</id>
+    <quyensoid>129</quyensoid>
+    <sobienlai>47018</sobienlai>
+    <ngay>10/12/2010</ngay>
+    <quyenso>VC/2009T- 77</quyenso>
+    <sochungtu>VC/2009T- 77 - 47018</sochungtu>
+    <mabn>10097337</mabn>
+    <hoten>NGUYỄN THỊ TRÚC GIANG</hoten>
+    <diachi> Khánh Hòa H. Châu Phú An Giang</diachi>
+    <tenkp>Khoa Sản</tenkp>
+    <namsinh>1992</namsinh>
+    <sotien>515776.6400</sotien>
+    <mien>0.0000</mien>
+    <bhyt>0.0000</bhyt>
+    <tamung>500000</tamung>
+    <thucthu>15776.6400</thucthu>
+    <thucchi>0</thucchi>
+    <nguoithu>Đồng Thị Thơm</nguoithu>
+    <userid>Đồng Thị Thơm (thom)</userid>
+    <llll0>0</llll0>
+    <llll1>0</llll1>
+    <llll2>0</llll2>
+    <llll3>0</llll3>
+    <llll4>117627.36912686560000000000</llll4>
+    <llll5>0</llll5>
+    <llll6>0</llll6>
+    <llll7>0</llll7>
+    <llll8>345000.00000000000000000000</llll8>
+    <llll9>0</llll9>
+    <llll10>0</llll10>
+    <llll11>0</llll11>
+    <llll12>0</llll12>
+    <llll13>0</llll13>
+    <llll14>37714.27800000000000000000</llll14>
+    <llll15>15435.00000000000000000000</llll15>
+    <llll16>0</llll16>
+  </Table>
+  <Table>
+    <id>186000000692</id>
+    <quyensoid>129</quyensoid>
+    <sobienlai>47019</sobienlai>
+    <ngay>10/12/2010</ngay>
+    <quyenso>VC/2009T- 77</quyenso>
+    <sochungtu>VC/2009T- 77 - 47019</sochungtu>
+    <mabn>10160009</mabn>
+    <hoten>SẬY CHAN</hoten>
+    <diachi> Không xác định Không xác định Tỉnh khác</diachi>
+    <tenkp>Khoa Sản</tenkp>
+    <namsinh>1987</namsinh>
+    <sotien>1051648.0000</sotien>
+    <mien>0.0000</mien>
+    <bhyt>0.0000</bhyt>
+    <tamung>1000000</tamung>
+    <thucthu>51648.0000</thucthu>
+    <thucchi>0</thucchi>
+    <nguoithu>Đồng Thị Thơm</nguoithu>
+    <userid>Đồng Thị Thơm (thom)</userid>
+    <llll0>0</llll0>
+    <llll1>0</llll1>
+    <llll2>0</llll2>
+    <llll3>0</llll3>
+    <llll4>169331.73729166650000000000</llll4>
+    <llll5>0</llll5>
+    <llll6>358000.00000000000000000000</llll6>
+    <llll7>0</llll7>
+    <llll8>395000.00000000000000000000</llll8>
+    <llll9>0</llll9>
+    <llll10>0</llll10>
+    <llll11>0</llll11>
+    <llll12>0</llll12>
+    <llll13>0</llll13>
+    <llll14>106846.27800000000000000000</llll14>
+    <llll15>22470.00000000000000000000</llll15>
+    <llll16>0</llll16>
+  </Table>
+  <Table>
+    <id>186000000693</id>
+    <quyensoid>129</quyensoid>
+    <sobienlai>47020</sobienlai>
+    <ngay>10/12/2010</ngay>
+    <quyenso>VC/2009T- 77</quyenso>
+    <sochungtu>VC/2009T- 77 - 47020</sochungtu>
+    <mabn>10098498</mabn>
+    <hoten>LÊ THỊ LAN</hoten>
+    <diachi> P. Châu Phú B TX. Châu Đốc An Giang</diachi>
+    <tenkp>Khoa Sản</tenkp>
+    <namsinh>1980</namsinh>
+    <sotien>1807418.5700</sotien>
+    <mien>0.0000</mien>
+    <bhyt>0.0000</bhyt>
+    <tamung>1500000</tamung>
+    <thucthu>307418.5700</thucthu>
+    <thucchi>0</thucchi>
+    <nguoithu>Đồng Thị Thơm</nguoithu>
+    <userid>Đồng Thị Thơm (thom)</userid>
+    <llll0>60000.00000000000000000000</llll0>
+    <llll1>0</llll1>
+    <llll2>0</llll2>
+    <llll3>0</llll3>
+    <llll4>443381.15393166650000000000</llll4>
+    <llll5>415000.00000000000000000000</llll5>
+    <llll6>361000.00000000000000000000</llll6>
+    <llll7>25000.00000000000000000000</llll7>
+    <llll8>345000.00000000000000000000</llll8>
+    <llll9>0</llll9>
+    <llll10>0</llll10>
+    <llll11>0</llll11>
+    <llll12>0</llll12>
+    <llll13>0</llll13>
+    <llll14>96867.44500000000000000000</llll14>
+    <llll15>61169.99962500000000000000</llll15>
+    <llll16>0</llll16>
+  </Table>
+</NewDataSet>

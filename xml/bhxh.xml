@@ -1,0 +1,43 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="BHXH">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="dv1" type="xs:string" minOccurs="0" />
+                <xs:element name="dv2" type="xs:string" minOccurs="0" />
+                <xs:element name="dv3" type="xs:string" minOccurs="0" />
+                <xs:element name="mabhxh" type="xs:string" minOccurs="0" />
+                <xs:element name="tienkham" type="xs:string" minOccurs="0" />
+                <xs:element name="doituongtreem" type="xs:string" minOccurs="0" />
+                <xs:element name="maytcq" type="xs:string" minOccurs="0" />
+                <xs:element name="giabhyt" type="xs:string" minOccurs="0" />
+                <xs:element name="nhombaocao" type="xs:string" minOccurs="0" />
+                <xs:element name="vitri" type="xs:string" minOccurs="0" />
+                <xs:element name="makcb" type="xs:string" minOccurs="0" />
+                <xs:element name="tutrucpk" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <BHXH>
+    <dv1>Sở Y Tế  Bình phước</dv1>
+    <dv2>Bệnh viện Đa khoa tỉnh Bình phước</dv2>
+    <dv3>Bệnh viện Đa khoa tỉnh Bình phước</dv3>
+    <mabhxh>49</mabhxh>
+    <tienkham>7</tienkham>
+    <doituongtreem>6</doituongtreem>
+    <maytcq>MCK</maytcq>
+    <giabhyt>0</giabhyt>
+    <nhombaocao>1</nhombaocao>
+    <vitri>1,2</vitri>
+    <makcb>49111</makcb>
+    <tutrucpk>0</tutrucpk>
+  </BHXH>
+</NewDataSet>

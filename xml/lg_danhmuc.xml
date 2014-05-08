@@ -1,0 +1,11 @@
+<?xml version="1.0" standalone="yes" ?>
+<NewDataSet>
+	<Table>
+		<table>lg_dmcv</table>
+		<sql>select * from medibv.lg_dmnv where idcv=</sql>
+	</Table>
+	<Table>
+		<table>lg_dmhspc</table>
+		<sql>select * from medibv.lg_dmpc where idhspc=</sql>
+	</Table>
+</NewDataSet>

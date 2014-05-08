@@ -1,0 +1,71 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="MA" type="xs:decimal" minOccurs="0" />
+                <xs:element name="STT" type="xs:decimal" minOccurs="0" />
+                <xs:element name="TEN" type="xs:string" minOccurs="0" />
+                <xs:element name="SOTIEN" type="xs:decimal" minOccurs="0" />
+                <xs:element name="BHYT" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <MA>26</MA>
+    <STT>3</STT>
+    <TEN>Chẩn đoán hình ảnh</TEN>
+    <SOTIEN>0</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <MA>20</MA>
+    <STT>12</STT>
+    <TEN>Khác</TEN>
+    <SOTIEN>0</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <MA>11</MA>
+    <STT>1</STT>
+    <TEN>Khám bệnh</TEN>
+    <SOTIEN>0</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <MA>8</MA>
+    <STT>4</STT>
+    <TEN>Phẩu thuật - thủ thuật</TEN>
+    <SOTIEN>0</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <MA>2</MA>
+    <STT>6</STT>
+    <TEN>Thuốc</TEN>
+    <SOTIEN>0</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <MA>15</MA>
+    <STT>8</STT>
+    <TEN>Tiền giường</TEN>
+    <SOTIEN>0</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+  <Table>
+    <MA>4</MA>
+    <STT>2</STT>
+    <TEN>Xét Nghiệm</TEN>
+    <SOTIEN>0</SOTIEN>
+    <BHYT>0</BHYT>
+  </Table>
+</NewDataSet>

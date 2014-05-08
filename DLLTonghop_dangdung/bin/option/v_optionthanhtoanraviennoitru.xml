@@ -1,0 +1,200 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="MA" type="xs:string" minOccurs="0" />
+                <xs:element name="TEN" type="xs:string" minOccurs="0" />
+                <xs:element name="GIATRI" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <MA>chkTruonghopkhac0</MA>
+    <TEN>Trường hợp khác bhyt trả 0%</TEN>
+    <GIATRI>1</GIATRI>
+  </Table>
+  <Table>
+    <MA>chkTruonghopkhac100</MA>
+    <TEN>Trường hợp khác bhyt trả 100%</TEN>
+    <GIATRI>0</GIATRI>
+  </Table>
+  <Table>
+    <MA>chkRangbuocBHYT</MA>
+    <TEN>Áp dụng ràng buộc này</TEN>
+    <GIATRI>1</GIATRI>
+  </Table>
+  <Table>
+    <MA>chkHoantraphuchoibenhan</MA>
+    <TEN>Hoàn trả để phục hồi bệnh án</TEN>
+    <GIATRI>0</GIATRI>
+  </Table>
+  <Table>
+    <MA>chkChophepsuachiphi</MA>
+    <TEN>Cho phép chỉnh sữa chi phí</TEN>
+    <GIATRI>1</GIATRI>
+  </Table>
+  <Table>
+    <MA>chkThutructiep_tamung</MA>
+    <TEN>Tính tiền thu trực tiếp vào tạm ứng</TEN>
+    <GIATRI>0</GIATRI>
+  </Table>
+  <Table>
+    <MA>chkNhapkymien</MA>
+    <TEN>Nhập lý do miễn</TEN>
+    <GIATRI>1</GIATRI>
+  </Table>
+  <Table>
+    <MA>chkSolieuvienphitonghop</MA>
+    <TEN>Viện phí tổng hợp (nhập biên lai sau)</TEN>
+    <GIATRI>0</GIATRI>
+  </Table>
+  <Table>
+    <MA>chkQuanlybienlai</MA>
+    <TEN>Theo dõi số biên lai miễn 100%</TEN>
+    <GIATRI>0</GIATRI>
+  </Table>
+  <Table>
+    <MA>chkSolieukhoatonghop</MA>
+    <TEN>Lấy số liệu khoa tổng hợp</TEN>
+    <GIATRI>1</GIATRI>
+  </Table>
+  <Table>
+    <MA>chkThanhtoantheodot</MA>
+    <TEN>Thanh toán theo đợt</TEN>
+    <GIATRI>0</GIATRI>
+  </Table>
+  <Table>
+    <MA>chkLoaibn</MA>
+    <TEN>Loại bệnh nhân</TEN>
+    <GIATRI>0</GIATRI>
+  </Table>
+  <Table>
+    <MA>chkDoituong</MA>
+    <TEN>Đối tượng in biên lai đặc thù</TEN>
+    <GIATRI>0</GIATRI>
+  </Table>
+  <Table>
+    <MA>chkThanhtoantheokhoa</MA>
+    <TEN>Thanh toán theo ngày khoa tổng hợp</TEN>
+    <GIATRI>0</GIATRI>
+  </Table>
+  <Table>
+    <MA>chkTonghoptatcatamung</MA>
+    <TEN>Tổng hợp tất cả tạm ứng chưa hoàn</TEN>
+    <GIATRI>0</GIATRI>
+  </Table>
+  <Table>
+    <MA>chkDutruthuoc</MA>
+    <TEN>Thu dự trù thuốc</TEN>
+    <GIATRI>1</GIATRI>
+  </Table>
+  <Table>
+    <MA>chkVienphikhoa</MA>
+    <TEN>Thu viện phí khoa</TEN>
+    <GIATRI>1</GIATRI>
+  </Table>
+  <Table>
+    <MA>chkThutheochidinh</MA>
+    <TEN>Thu theo chỉ định</TEN>
+    <GIATRI>0</GIATRI>
+  </Table>
+  <Table>
+    <MA>chkInhoadonthuong</MA>
+    <TEN>In biên lai nội bộ cho các nội dung sau</TEN>
+    <GIATRI>0</GIATRI>
+  </Table>
+  <Table>
+    <MA>chkChithumavienphi</MA>
+    <TEN>Chỉ thu các nội dung sau</TEN>
+    <GIATRI>0</GIATRI>
+  </Table>
+  <Table>
+    <MA>chkKhongthumavienphi</MA>
+    <TEN>Không thu các nội dung sau</TEN>
+    <GIATRI>0</GIATRI>
+  </Table>
+  <Table>
+    <MA>chkIntoanbochiphi</MA>
+    <TEN>In toàn bộ chi phí trong một lần điều trị</TEN>
+    <GIATRI>0</GIATRI>
+  </Table>
+  <Table>
+    <MA>chkInchiphitonghop</MA>
+    <TEN>In chi phí mặc định in bảng tổng hợp</TEN>
+    <GIATRI>0</GIATRI>
+  </Table>
+  <Table>
+    <MA>chkInchiphichitiet</MA>
+    <TEN>In chi phí mặc định in bảng chi tiết</TEN>
+    <GIATRI>1</GIATRI>
+  </Table>
+  <Table>
+    <MA>chkSorttheoABC</MA>
+    <TEN>Sắp xếp giá, loại viện phí theo tên</TEN>
+    <GIATRI>0</GIATRI>
+  </Table>
+  <Table>
+    <MA>chkCodinh</MA>
+    <TEN>Nhập theo màn hình 1</TEN>
+    <GIATRI>1</GIATRI>
+  </Table>
+  <Table>
+    <MA>chkSystemColor</MA>
+    <TEN>Màu hệ thống</TEN>
+    <GIATRI>0</GIATRI>
+  </Table>
+  <Table>
+    <MA>chkVienphikhaigiathuoc</MA>
+    <TEN>Viện phí khai giá thuốc</TEN>
+    <GIATRI>0</GIATRI>
+  </Table>
+  <Table>
+    <MA>chkMacdinhkhongin</MA>
+    <TEN>Mặc định không in hoá đơn</TEN>
+    <GIATRI>0</GIATRI>
+  </Table>
+  <Table>
+    <MA>chkChosuagiabangkhong</MA>
+    <TEN>Cho phép nhập giá viện phí chưa khai </TEN>
+    <GIATRI>1</GIATRI>
+  </Table>
+  <Table>
+    <MA>chkChosuagia</MA>
+    <TEN>Cho phép sữa giá viện phí  đã khai</TEN>
+    <GIATRI>0</GIATRI>
+  </Table>
+  <Table>
+    <MA>chkChosua</MA>
+    <TEN>Cho phép sữa biên lai</TEN>
+    <GIATRI>0</GIATRI>
+  </Table>
+  <Table>
+    <MA>chkChohuy</MA>
+    <TEN>Cho phép hủy biên lai</TEN>
+    <GIATRI>0</GIATRI>
+  </Table>
+  <Table>
+    <MA>chkChonhapthuoc</MA>
+    <TEN>Lấy danh mục thuốc khoa dược</TEN>
+    <GIATRI>1</GIATRI>
+  </Table>
+  <Table>
+    <MA>chkNhapVAT</MA>
+    <TEN>Mặc định nhập VAT</TEN>
+    <GIATRI>0</GIATRI>
+  </Table>
+  <Table>
+    <MA>chkChisuaxoatrongngay</MA>
+    <TEN>Chỉ cho phép sữa, hủy hoá đơn thu trong ngày</TEN>
+    <GIATRI>0</GIATRI>
+  </Table>
+</NewDataSet>

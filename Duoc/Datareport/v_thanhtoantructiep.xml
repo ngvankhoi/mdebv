@@ -1,0 +1,99 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="id" type="xs:decimal" minOccurs="0" />
+                <xs:element name="quyenso" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sobienlai" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sohieu" type="xs:string" minOccurs="0" />
+                <xs:element name="mabn" type="xs:string" minOccurs="0" />
+                <xs:element name="hoten" type="xs:string" minOccurs="0" />
+                <xs:element name="namsinh" type="xs:string" minOccurs="0" />
+                <xs:element name="tinh" type="xs:string" minOccurs="0" />
+                <xs:element name="quan" type="xs:string" minOccurs="0" />
+                <xs:element name="xa" type="xs:string" minOccurs="0" />
+                <xs:element name="sonha" type="xs:string" minOccurs="0" />
+                <xs:element name="thon" type="xs:string" minOccurs="0" />
+                <xs:element name="gioitinh" type="xs:string" minOccurs="0" />
+                <xs:element name="mabhyt" type="xs:string" minOccurs="0" />
+                <xs:element name="giatriden" type="xs:string" minOccurs="0" />
+                <xs:element name="tenkp" type="xs:string" minOccurs="0" />
+                <xs:element name="ngay" type="xs:string" minOccurs="0" />
+                <xs:element name="id_vp" type="xs:decimal" minOccurs="0" />
+                <xs:element name="id_loai" type="xs:decimal" minOccurs="0" />
+                <xs:element name="id_nhom" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tenvp" type="xs:string" minOccurs="0" />
+                <xs:element name="tenloaivp" type="xs:string" minOccurs="0" />
+                <xs:element name="tennhomvp" type="xs:string" minOccurs="0" />
+                <xs:element name="sttvp" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sttloaivp" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sttnhomvp" type="xs:decimal" minOccurs="0" />
+                <xs:element name="dvt" type="xs:string" minOccurs="0" />
+                <xs:element name="soluong" type="xs:decimal" minOccurs="0" />
+                <xs:element name="dongia" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sotien" type="xs:decimal" minOccurs="0" />
+                <xs:element name="bhtra" type="xs:int" minOccurs="0" />
+                <xs:element name="mien" type="xs:decimal" minOccurs="0" />
+                <xs:element name="khuyenmai" type="xs:decimal" minOccurs="0" />
+                <xs:element name="thieu" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tongmien" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tongkhuyenmai" type="xs:decimal" minOccurs="0" />
+                <xs:element name="madoituong" type="xs:decimal" minOccurs="0" />
+                <xs:element name="nguoithu" type="xs:string" minOccurs="0" />
+                <xs:element name="hoantra" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ghichu" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <id>93000000001</id>
+    <quyenso>117</quyenso>
+    <sobienlai>157839</sobienlai>
+    <sohieu>TROPHITRINH</sohieu>
+    <mabn>11121212</mabn>
+    <hoten>TEST TT</hoten>
+    <namsinh>1979</namsinh>
+    <tinh>Bình Dương</tinh>
+    <quan>Không xác định</quan>
+    <xa>Không xác định</xa>
+    <sonha />
+    <thon />
+    <gioitinh>Nữ</gioitinh>
+    <mabhyt>. . . . . . . . . . . . . . . . . .</mabhyt>
+    <giatriden>. . . . . . . . . . . . . . . . . .</giatriden>
+    <tenkp>Khám Phụ Khoa</tenkp>
+    <ngay>12/03/2011</ngay>
+    <id_vp>3</id_vp>
+    <id_loai>30</id_loai>
+    <id_nhom>1</id_nhom>
+    <tenvp>Khám phụ khoa</tenvp>
+    <tenloaivp>Công khám bệnh</tenloaivp>
+    <tennhomvp>Công khám</tennhomvp>
+    <sttvp>3</sttvp>
+    <sttloaivp>30</sttloaivp>
+    <sttnhomvp>1</sttnhomvp>
+    <dvt>Lần</dvt>
+    <soluong>1.0000</soluong>
+    <dongia>42000.0000</dongia>
+    <sotien>42000.00000000</sotien>
+    <bhtra>0</bhtra>
+    <mien>0.0000</mien>
+    <khuyenmai>0</khuyenmai>
+    <thieu>0.0000</thieu>
+    <tongmien>0.0000</tongmien>
+    <tongkhuyenmai>0</tongkhuyenmai>
+    <madoituong>2</madoituong>
+    <nguoithu>admin</nguoithu>
+    <hoantra>0.0000</hoantra>
+    <ghichu />
+  </Table>
+</NewDataSet>

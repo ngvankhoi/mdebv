@@ -1,0 +1,129 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="TENBV" type="xs:string" minOccurs="0" />
+                <xs:element name="TENKP" type="xs:string" minOccurs="0" />
+                <xs:element name="MABN" type="xs:string" minOccurs="0" />
+                <xs:element name="HOTEN" type="xs:string" minOccurs="0" />
+                <xs:element name="NAMSINH" type="xs:string" minOccurs="0" />
+                <xs:element name="PHAI" type="xs:string" minOccurs="0" />
+                <xs:element name="TENNN" type="xs:string" minOccurs="0" />
+                <xs:element name="DANTOC" type="xs:string" minOccurs="0" />
+                <xs:element name="DOITUONG" type="xs:string" minOccurs="0" />
+                <xs:element name="SOTHE" type="xs:string" minOccurs="0" />
+                <xs:element name="DENNGAY" type="xs:string" minOccurs="0" />
+                <xs:element name="DIACHI" type="xs:string" minOccurs="0" />
+                <xs:element name="NOILAMVIEC" type="xs:string" minOccurs="0" />
+                <xs:element name="NGAYVAO" type="xs:string" minOccurs="0" />
+                <xs:element name="NGAYRA" type="xs:string" minOccurs="0" />
+                <xs:element name="CHANDOAN" type="xs:string" minOccurs="0" />
+                <xs:element name="MAICD" type="xs:string" minOccurs="0" />
+                <xs:element name="TENBS" type="xs:string" minOccurs="0" />
+                <xs:element name="NOIDKKCB" type="xs:string" minOccurs="0" />
+                <xs:element name="NOIGIOITHIEU" type="xs:string" minOccurs="0" />
+                <xs:element name="MAQL" type="xs:decimal" minOccurs="0" />
+                <xs:element name="LAMSANG" type="xs:string" minOccurs="0" />
+                <xs:element name="XN" type="xs:string" minOccurs="0" />
+                <xs:element name="THUOC" type="xs:string" minOccurs="0" />
+                <xs:element name="TINHTRANG" type="xs:string" minOccurs="0" />
+                <xs:element name="LYDO" type="xs:string" minOccurs="0" />
+                <xs:element name="NGAY" type="xs:string" minOccurs="0" />
+                <xs:element name="VANCHUYEN" type="xs:string" minOccurs="0" />
+                <xs:element name="NGUOIDUA" type="xs:string" minOccurs="0" />
+                <xs:element name="loaibn" type="xs:decimal" minOccurs="0" />
+                <xs:element name="lanin" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sochuyenvien" type="xs:string" minOccurs="0" />
+                <xs:element name="tungay" type="xs:string" minOccurs="0" />
+                <xs:element name="yeucau" type="xs:decimal" default="0" minOccurs="0" />
+                <xs:element name="daduyet" type="xs:decimal" default="0" minOccurs="0" />
+                <xs:element name="soluutru" type="xs:string" minOccurs="0" />
+                <xs:element name="tuoivao" type="xs:string" minOccurs="0" />
+                <xs:element name="ngaysinh" type="xs:string" minOccurs="0" />
+                <xs:element name="thangtuoi" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <TENBV>Viện Nhi</TENBV>
+    <TENKP>Khoa Nhi</TENKP>
+    <MABN>13059199</MABN>
+    <HOTEN>CÀ TUẤN KHANH</HOTEN>
+    <NAMSINH>2012</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <TENNN>Trẻ dưới 6 tuổi đi học, dưới 15 tuổi không đi học</TENNN>
+    <DANTOC>Thái</DANTOC>
+    <DOITUONG>Trẻ em &lt; 6 tuổi</DOITUONG>
+    <SOTHE>TE11410000A507414000</SOTHE>
+    <DENNGAY>11/08/2018</DENNGAY>
+    <DIACHI> Chiềng Xôm ,Chiềng Cang ,H. Sông Mã ,Sơn La</DIACHI>
+    <NOILAMVIEC />
+    <NGAYVAO>10/09/2013 14:43</NGAYVAO>
+    <NGAYRA>30/09/2013 17:00</NGAYRA>
+    <CHANDOAN>Viêm phổi, không xác định vi sinh vật;Rối loạn tiêu hoá</CHANDOAN>
+    <MAICD>J18;K30</MAICD>
+    <TENBS>Nguyễn Thị Phương Thảo </TENBS>
+    <NOIDKKCB>14210^Trạm Y Tế Xã Chiềng Cang-sông Mã</NOIDKKCB>
+    <NOIGIOITHIEU />
+    <MAQL>130910144949474068</MAQL>
+    <LAMSANG />
+    <XN>Tổng phân tích nước tiểu Test 10 *;
+Định nhóm máu ABO *;
+Tổng phân tích tế bào bằng máy đếm tự động ( 18 Thông số )*;
+HBsAG ( nhanh ) *;
+Đinh lượng Ure /ht *;
+Định lượng Creatinin / ht *;
+Định lượng Glucose /ht *;
+Định lượng Protein /ht *;
+Điện giải đồ (Na+, K+, Cl - ) *;
+Calci máu *;
+CRP hs *;
+Định lượng SGPT /ht *;
+Đinh lượng SGOT/ ht *;
+Chụp tim phổi thẳng *;
+Chụp tim phổi thẳng *;
+Đinh lượng Ure /ht *;
+Định lượng Creatinin / ht *;
+Điện giải đồ (Na+, K+, Cl - ) *;
+Calci máu *;
+Định lượng Protein /ht *;
+Đinh lượng SGOT/ ht *;
+Định lượng SGPT /ht *;
+CRP hs *;
+Tổng phân tích tế bào bằng máy đếm tự động ( 18 Thông số )*;
+Anti - HIV ( nhanh ) *;
+</XN>
+    <THUOC>Tartriakson (Ceftriaxone) 1g 7.0 Lọ;
+Nước cất 5ml (Sterilised Water Inj) 78.0 Ống;
+Kocepo 1g (Cefoperazone) 8.0 Lọ;
+Methyl Prednisolon 40mg 8.0 Lọ;
+Selemycin 250mg 10.0 Ống;
+Unilimadin (Clindamycin Sodium Phosphate) 600mg 7.0 Ống;
+Selemycin (Amikacin) 500mg/2ml 1.0 Ống;
+</THUOC>
+    <TINHTRANG />
+    <LYDO />
+    <NGAY>30/09/2013 17:00</NGAY>
+    <VANCHUYEN />
+    <NGUOIDUA />
+    <loaibn>0</loaibn>
+    <lanin>12</lanin>
+    <sochuyenvien>0000002/13</sochuyenvien>
+    <tungay>12/08/2012</tungay>
+    <yeucau>0</yeucau>
+    <daduyet>0</daduyet>
+    <soluutru>^0013141/13</soluutru>
+    <tuoivao>001Tuổi</tuoivao>
+    <ngaysinh>12/08/2012</ngaysinh>
+    <thangtuoi>13 Tháng tuổi</thangtuoi>
+  </Table>
+</NewDataSet>

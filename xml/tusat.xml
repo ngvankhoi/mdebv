@@ -1,0 +1,135 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="tusat">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="id_nn" type="xs:decimal" minOccurs="0" />
+                <xs:element name="id_ht" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tongso" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sochet" type="xs:decimal" minOccurs="0" />
+                <xs:element name="nu" type="xs:decimal" minOccurs="0" />
+                <xs:element name="canbo" type="xs:decimal" minOccurs="0" />
+                <xs:element name="thuongbinh" type="xs:decimal" minOccurs="0" />
+                <xs:element name="dangvien" type="xs:decimal" minOccurs="0" />
+                <xs:element name="duoi18" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tu18-28" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tren60" type="xs:decimal" minOccurs="0" />
+                <xs:element name="nn_tusat" type="xs:string" minOccurs="0" />
+                <xs:element name="ht_tusat" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <tusat>
+    <id_nn>1</id_nn>
+    <id_ht>3</id_ht>
+    <tongso>1</tongso>
+    <sochet>1</sochet>
+    <nu>1</nu>
+    <canbo>0</canbo>
+    <thuongbinh>0</thuongbinh>
+    <dangvien>0</dangvien>
+    <duoi18>0</duoi18>
+    <tu18-28>1</tu18-28>
+    <tren60>0</tren60>
+    <nn_tusat>Thất tình</nn_tusat>
+    <ht_tusat>uống thuốc mã tiền</ht_tusat>
+  </tusat>
+  <tusat>
+    <id_nn>1</id_nn>
+    <id_ht>8</id_ht>
+    <tongso>3</tongso>
+    <sochet>2</sochet>
+    <nu>1</nu>
+    <canbo>0</canbo>
+    <thuongbinh>0</thuongbinh>
+    <dangvien>0</dangvien>
+    <duoi18>1</duoi18>
+    <tu18-28>1</tu18-28>
+    <tren60>1</tren60>
+    <nn_tusat>Thất tình</nn_tusat>
+    <ht_tusat>Uống thuốc diệt cỏ</ht_tusat>
+  </tusat>
+  <tusat>
+    <id_nn>2</id_nn>
+    <id_ht>2</id_ht>
+    <tongso>1</tongso>
+    <sochet>0</sochet>
+    <nu>0</nu>
+    <canbo>0</canbo>
+    <thuongbinh>0</thuongbinh>
+    <dangvien>0</dangvien>
+    <duoi18>0</duoi18>
+    <tu18-28>0</tu18-28>
+    <tren60>0</tren60>
+    <nn_tusat>Bị người yêu bỏ</nn_tusat>
+    <ht_tusat>Uống thuốc</ht_tusat>
+  </tusat>
+  <tusat>
+    <id_nn>2</id_nn>
+    <id_ht>5</id_ht>
+    <tongso>1</tongso>
+    <sochet>1</sochet>
+    <nu>0</nu>
+    <canbo>0</canbo>
+    <thuongbinh>0</thuongbinh>
+    <dangvien>0</dangvien>
+    <duoi18>0</duoi18>
+    <tu18-28>1</tu18-28>
+    <tren60>0</tren60>
+    <nn_tusat>Bị người yêu bỏ</nn_tusat>
+    <ht_tusat>Uống thuốc ngủ</ht_tusat>
+  </tusat>
+  <tusat>
+    <id_nn>3</id_nn>
+    <id_ht>3</id_ht>
+    <tongso>1</tongso>
+    <sochet>1</sochet>
+    <nu>0</nu>
+    <canbo>0</canbo>
+    <thuongbinh>0</thuongbinh>
+    <dangvien>0</dangvien>
+    <duoi18>0</duoi18>
+    <tu18-28>0</tu18-28>
+    <tren60>0</tren60>
+    <nn_tusat>Buồn chuyện gia đình</nn_tusat>
+    <ht_tusat>uống thuốc mã tiền</ht_tusat>
+  </tusat>
+  <tusat>
+    <id_nn>1</id_nn>
+    <id_ht>5</id_ht>
+    <tongso>1</tongso>
+    <sochet>1</sochet>
+    <nu>0</nu>
+    <canbo>0</canbo>
+    <thuongbinh>0</thuongbinh>
+    <dangvien>0</dangvien>
+    <duoi18>0</duoi18>
+    <tu18-28>0</tu18-28>
+    <tren60>1</tren60>
+    <nn_tusat>Thất tình</nn_tusat>
+    <ht_tusat>Uống thuốc ngủ</ht_tusat>
+  </tusat>
+  <tusat>
+    <id_nn>2</id_nn>
+    <id_ht>3</id_ht>
+    <tongso>1</tongso>
+    <sochet>1</sochet>
+    <nu>1</nu>
+    <canbo>0</canbo>
+    <thuongbinh>0</thuongbinh>
+    <dangvien>0</dangvien>
+    <duoi18>0</duoi18>
+    <tu18-28>1</tu18-28>
+    <tren60>0</tren60>
+    <nn_tusat>Bị người yêu bỏ</nn_tusat>
+    <ht_tusat>uống thuốc mã tiền</ht_tusat>
+  </tusat>
+</NewDataSet>

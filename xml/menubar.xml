@@ -1,0 +1,903 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table1>
+    <TEN>Đăng ký khám bệnh</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Phiếu khám bệnh</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Phiếu khám bệnh (Mẫu 2)</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Chuyển phòng khám</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Phiếu thanh toán dịch vụ</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Danh sách đăng ký khám bệnh</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Danh sách khám bệnh</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Danh sách đã in chi phí khám bệnh</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Sổ khám bệnh</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Báo cáo phòng tiếp bệnh</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Báo cáo số liệu khám bệnh</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Sửa đối tượng</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Truy vấn thông tin</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Tình hình bệnh tật tại phòng khám theo đối tượng</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Đối chiếu</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Danh sách chỉ định</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Danh sách được chỉ định chưa thực hiện</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Danh sách đã nộp tiền nhưng chưa thực hiện</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Danh sách đã thực hiện</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Phiếu kết quả</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Danh sách khám</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Danh mục đoàn</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Phân loại</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Nhóm viện phí</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Loại viện phí</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Giá viện phí</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Bệnh án ngoại trú</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Sửa đối tượng các dịch vụ</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Phiếu thanh toán dịch vụ</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Phiếu tổng hợp thuốc  viện phí</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Danh sách người bệnh vào điều trị ngoại trú</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Danh sách người bệnh kết thúc điều trị ngoại trú</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Danh sách người bệnh đang điều trị</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Tổng hợp tình hình người bệnh</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Danh sách nhập xuất</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Hoạt động phẫu thủ thuật</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Báo cáo ngoại trú theo bệnh</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Nhập phòng lưu</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Sửa đối tượng các dịch vụ</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Phiếu thanh toán dịch vụ</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Danh sách người bệnh vào phòng lưu</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Danh sách người bệnh ra phòng lưu</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Danh sách người bệnh đang nằm phòng lưu</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Tổng hợp tình hình người bệnh</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Nhận bệnh</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Nhập khoa</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Nhập phẫu thủ thuật</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Tường trình phẫu thủ thuật</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Danh sách phẫu thuật, thủ thuật</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Truy vấn thông tin</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Chuyển phòng giường</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Xuất khoa</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Xuất viện</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Dự trù thuốc, Vật tư y tế theo người bệnh</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Phiếu xuất cơ số tủ trực theo người bệnh</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Phiếu xuất cơ số tủ trực theo khoa/phòng</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Phiếu hoàn trả thuốc, Vật tư y tế theo người bệnh</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Dự trù lĩnh hao phí theo khoa/phòng</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Phiếu hoàn trả thuốc, Vật tư y tế thừa theo khoa/phòng</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Phiếu dự trù tài sản</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Phiếu hoàn trả tài sản</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Xem cơ số tủ trực hiện tại</TEN>
+  </Table1>
+  <Table1>
+    <TEN>.. đến ngày</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Xem tài sản tại khoa</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Báo cáo sử dụng</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Phiếu tổng hợp y lệnh</TEN>
+  </Table1>
+  <Table1>
+    <TEN>In phiếu lĩnh</TEN>
+  </Table1>
+  <Table1>
+    <TEN>In phiếu xuất</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Phiếu tổng hợp thuốc</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Đơn thuốc</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Chỉ định dịch vụ</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Viện phí tại khoa</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Chỉ định đi khám</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Phiếu thanh toán ra viện</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Danh sách chỉ định  viện phí</TEN>
+  </Table1>
+  <Table1>
+    <TEN>In giấy ra viện</TEN>
+  </Table1>
+  <Table1>
+    <TEN>In giấy chuyển viện</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Sửa đối tượng các dịch vụ</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Dấu sinh tồn</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Công nợ</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Bảng thanh toán chi phí điều trị nội trú</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Bảng tổng hợp chi phí điều trị nội trú</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Bảng thanh toán chi phí KCB ngoại trú</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Bảng tổng hợp chi phí KCB ngoại trú</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Chi chí điều trị theo người bệnh</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Chi phí  số ngày điều trị theo chẩn đoán</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Sử dụng thuốc trước  sau mỗ</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Danh sách người bệnh sử dụng 1 loại thuốc</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Danh sách người bệnh sử dụng thuốc  vật tư</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Tổng hợp người bệnh  thuốc</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Phiếu cận lâm sàng</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Phiếu chẩn đoán</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Phiếu chỉ định</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Phiếu kết quả</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Thống kê danh sách theo người bệnh</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Thống kê danh sách theo bác sỹ</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Báo cáo tổng hợp theo ngày</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Báo cáo tổng hợp theo nội dung</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Báo cáo tháng khu chẩn đoán hình</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Thống kê số ca đọc kết quả của bác sĩ</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Thống kê theo máy</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Danh sách bệnh nhân thu sau</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Thống kê danh sách theo ngày</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Thống kê danh sách theo bác sĩ chỉ định</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Thống kê danh sách theo bệnh viện chỉ định</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Báo cáo tổng hợp theo vùng</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Thống kê số ca theo máy</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Thống kê số ca theo vùng</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Đối chiếu viện phí chi tiết</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Đối chiếu viện phí tổng hợp</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Kiểm tra danh sách</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Thay đổi mã người bệnh</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Loại</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Máy</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Phân loại bệnh tật</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Đề nghị</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Vùng</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Ghi chú</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Kết quả</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Thuốc</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Kế hoạch hàng tháng</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Kết qủa mẫu</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Biểu 01-CVCC</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Biểu 02-KB</TEN>
+  </Table1>
+  <Table1>
+    <TEN>1-ĐT</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Biểu 04-PT/TT</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Biểu 05-SKSS</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Biểu 06-CLS</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Biểu 07-DBV</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Biểu 08-TTB</TEN>
+  </Table1>
+  <Table1>
+    <TEN>1-CĐT</TEN>
+  </Table1>
+  <Table1>
+    <TEN>2-NCKH</TEN>
+  </Table1>
+  <Table1>
+    <TEN>1-TC</TEN>
+  </Table1>
+  <Table1>
+    <TEN>2.1-TCTVP/BH</TEN>
+  </Table1>
+  <Table1>
+    <TEN>2.2-TCC</TEN>
+  </Table1>
+  <Table1>
+    <TEN>3-TC/KT</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Biểu 11-BTTV</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Biểu 01 - Dân số, đơn vị hành chính, trạm y tế xã</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Biểu 02 - Thông tin về sinh, tử</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Biểu 03 - Tình hình thu, chi ngân sách ngành y tế địa phương</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Biểu 04 - Tình hình thu, chi ngân sách của tuyến xã</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Biểu 05 - Tình hình cơ sở y tế và giường bệnh</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Biểu 06 - Tình hình nhân lực y tế toàn huyện</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Biểu 07 - Tình hình sản xuất kinh doanh dược của huyện</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Biểu 08 - Tình hình trang thiết bị y tế của địa phương</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Biểu 09 - Chăm sóc sức khỏe trẻ em</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Biểu 10 - Tình hình chăm sóc sức khỏe bà mẹ</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Biểu 11 - Thực hiện công tác kế hoạch hóa gia đình</TEN>
+  </Table1>
+  <Table1>
+    <TEN>1 - Công tác khám chữa bệnh và dịch vụ y tế</TEN>
+  </Table1>
+  <Table1>
+    <TEN>2 - Công tác khám chữa bệnh và dịch vụ y tế</TEN>
+  </Table1>
+  <Table1>
+    <TEN>3 - Công tác khám chữa bệnh và dịch vụ y tế</TEN>
+  </Table1>
+  <Table1>
+    <TEN>4 - Công tác khám chữa bệnh và dịch vụ y tế</TEN>
+  </Table1>
+  <Table1>
+    <TEN>1 - Thực hiện công tác phòng bệnh</TEN>
+  </Table1>
+  <Table1>
+    <TEN>2 - Thực hiện công tác phòng bệnh</TEN>
+  </Table1>
+  <Table1>
+    <TEN>3 - Thực hiện công tác phòng bệnh</TEN>
+  </Table1>
+  <Table1>
+    <TEN>1 - Các bệnh lây và bệnh quan trọng</TEN>
+  </Table1>
+  <Table1>
+    <TEN>2 - Các bệnh lây và bệnh quan trọng</TEN>
+  </Table1>
+  <Table1>
+    <TEN>3 - Các bệnh lây và bệnh quan trọng</TEN>
+  </Table1>
+  <Table1>
+    <TEN>4 - Các bệnh lây và bệnh quan trọng</TEN>
+  </Table1>
+  <Table1>
+    <TEN>5 - Báo cáo thống kê tai nạn, thương tích</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Biểu 15 - Tình hình bệnh tật, tử vong tại bệnh viện</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Tình hình cán bộ, công chức, viên chức (Biểu 01-CCVC)</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Hoạt động khám bệnh (Biểu 02-KB)</TEN>
+  </Table1>
+  <Table1>
+    <TEN>1-ĐT)</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Hoạt động phẩu thuật, thủ thuật (Biểu 04-PT/TT)</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Hoạt động sức khỏe sinh sản (Biểu 05-SKSS)</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Hoạt động cận lâm sàng (Biểu 06-CLS)</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Dược bệnh viện (Biểu 07-DBV)</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Trang thiết bị y tế (Biểu 08-TTB)</TEN>
+  </Table1>
+  <Table1>
+    <TEN>1-CĐT)</TEN>
+  </Table1>
+  <Table1>
+    <TEN>2-NCKH)</TEN>
+  </Table1>
+  <Table1>
+    <TEN>1-TC)</TEN>
+  </Table1>
+  <Table1>
+    <TEN>2.1-TCTVP/BH)</TEN>
+  </Table1>
+  <Table1>
+    <TEN>2.2-TCC)</TEN>
+  </Table1>
+  <Table1>
+    <TEN>3-TC/KT)</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Tình hình bệnh tật, tử vong tại bệnh viện (Biểu 11-BTTV)</TEN>
+  </Table1>
+  <Table1>
+    <TEN>In trang bìa báo cáo</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Biểu 01 - Dân số, đơn vị hành chính, trạm y tế xã</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Biểu 02 - Thông tin về sinh, tử</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Biểu 03 - Tình hình thu, chi ngân sách ngành y tế địa phương</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Biểu 04 - Tình hình thu, chi ngân sách của tuyến xã</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Biểu 05 - Tình hình cơ sở y tế và giường bệnh</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Biểu 06 - Tình hình nhân lực y tế toàn huyện</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Biểu 07 - Tình hình sản xuất kinh doanh dược của huyện</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Biểu 08 - Tình hình trang thiết bị y tế của địa phương</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Biểu 09 - Chăm sóc sức khỏe trẻ em</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Biểu 10 - Tình hình chăm sóc sức khỏe bà mẹ</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Biểu 11 - Thực hiện công tác kế hoạch hóa gia đình</TEN>
+  </Table1>
+  <Table1>
+    <TEN>1 - Công tác khám chữa bệnh và dịch vụ y tế</TEN>
+  </Table1>
+  <Table1>
+    <TEN>2 - Công tác khám chữa bệnh và dịch vụ y tế</TEN>
+  </Table1>
+  <Table1>
+    <TEN>3 - Công tác khám chữa bệnh và dịch vụ y tế</TEN>
+  </Table1>
+  <Table1>
+    <TEN>4 - Công tác khám chữa bệnh và dịch vụ y tế</TEN>
+  </Table1>
+  <Table1>
+    <TEN>1 - Thực hiện công tác phòng bệnh</TEN>
+  </Table1>
+  <Table1>
+    <TEN>2 - Thực hiện công tác phòng bệnh</TEN>
+  </Table1>
+  <Table1>
+    <TEN>3 - Thực hiện công tác phòng bệnh</TEN>
+  </Table1>
+  <Table1>
+    <TEN>1 - Các bệnh lây và bệnh quan trọng</TEN>
+  </Table1>
+  <Table1>
+    <TEN>2 - Các bệnh lây và bệnh quan trọng</TEN>
+  </Table1>
+  <Table1>
+    <TEN>3 - Các bệnh lây và bệnh quan trọng</TEN>
+  </Table1>
+  <Table1>
+    <TEN>4 - Các bệnh lây và bệnh quan trọng</TEN>
+  </Table1>
+  <Table1>
+    <TEN>5 - Báo cáo thống kê tai nạn, thương tích</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Biểu 15 - Tình hình bệnh tật, tử vong tại bệnh viện</TEN>
+  </Table1>
+  <Table1>
+    <TEN>In trang bìa báo cáo</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Hiện diện</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Nhập viện</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Nhập khoa</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Xuất khoa</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Xuất viện</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Cơ quan y tế chuyển đến</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Chuyển viện</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Tử vong</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Trẻ sơ sinh</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Tai nạn thương tích</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Phỏng</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Phẫu thuật - thủ thuật</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Nhập xuất viện</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Nhập xuất khoa</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Nhập xuất khoa theo số lưu trữ</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Hồ sơ bệnh án</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Biểu thống kê</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Danh sách người bệnh</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Tổng hợp</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Danh sách người bệnh</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Tổng hợp</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Danh sách người bệnh</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Tổng hợp</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Danh sách bệnh nhân</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Tổng hợp</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Danh sách người bệnh</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Tổng hợp</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Tổng hợp tình hình người bệnh</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Thống kê điều trị nội trú</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Thống kê số liệu theo biểu đồ</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Tổng hợp theo mã ICD10</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Tổng hợp theo mã Phẫu thuật - thủ thuật</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Tổng hợp theo ngày điều trị</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Tổng hợp tình trạng ra viện</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Tình hình mắc bệnh theo địa phương</TEN>
+  </Table1>
+  <Table1>
+    <TEN>So sánh tình hình mắc bệnh theo năm</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Tình hình bệnh tật, tử vong tại khoa</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Hoạt động phẫu thuật, thủ thuật theo khoa</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Số bệnh án đã nhập kho</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Thống kê số liệu theo bản đồ</TEN>
+  </Table1>
+  <Table1>
+    <TEN>ICD10</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Phẩu thuật, thủ thuật</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Bệnh viện</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Tỉnh/Thành phố</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Quận/Huyện</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Phường xã</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Danh mục theo qui định Vụ Điều Trị</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Biểu mẫu báo cáo</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Khai báo ICD10</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Khai báo phẫu thuật - thủ thuật</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Khai báo cơ quan y tế chuyển đến</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Khai báo nơi đăng ký KCB</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Khai báo khoa</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Khai báo phòng khám</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Khai báo viết tắt</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Khai báo phương pháp vô cảm</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Khai báo nhóm máu</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Khai báo nghề nghiệp</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Khai báo bệnh án sử dụng</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Khai báo xử trí khám bệnh</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Khai báo đối tượng</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Khai báo nhân viên</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Cơ sở y tế, Trạm y tế</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Cơ sở sản xuất kinh doanh</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Danh mục thuốc</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Danh mục cách dùng</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Danh mục ký giấy ra viện</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Khai báo phòng mỗ</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Khai báo đơn thuốc theo bác sỹ   tên bệnh</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Danh mục thông tin sản khoa/sơ sinh</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Danh mục số thẻ bảo hiểm y tế</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Danh mục lý do từ chối</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Kết xuất số liệu nộp Sở, Bộ Y tế</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Khai báo thông số hệ thống</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Phân quyền sử dụng</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Sửa mã người bệnh</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Sửa thông tin hành chính người bệnh</TEN>
+  </Table1>
+  <Table1>
+    <TEN>..</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Xóa thông tin nhập sai từ hồ sơ bệnh án</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Hủy bỏ số liệu chuyển xuống viện phí</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Chỉnh sửa ngày nhập sai từ hồ sơ bệnh án</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Thay đổi mật khẩu</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Truy vấn thông tin theo người dùng</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Quản lý cơ sở dữ liệu</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Sao lưu số liệu</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Tạo lại số liệu tháng năm</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Quản lý khai thác số liệu</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Loại phòng</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Phòng</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Giường</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Kết xuất thông tin lỗi của hệ thống</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Gửi thông tin qua mạng nội bộ</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Đăng ký các thư viện Windows</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Thông báo qua mạng nội bộ</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Khai báo danh mục tình trạng</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Khai báo danh mục thực hiện</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Khai báo nhóm nhân viên</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Cập nhật ICD10</TEN>
+  </Table1>
+</NewDataSet>

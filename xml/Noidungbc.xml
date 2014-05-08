@@ -1,0 +1,222 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="BHXH">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="stt" type="xs:int" minOccurs="0" />
+                <xs:element name="nhom" type="xs:int" minOccurs="0" />
+                <xs:element name="loai" type="xs:int" minOccurs="0" />
+                <xs:element name="id" type="xs:string" minOccurs="0" />
+                <xs:element name="noidung" type="xs:string" minOccurs="0" />
+                <xs:element name="tc" type="xs:string" minOccurs="0" />
+                <xs:element name="readonly" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <BHXH>
+    <stt>1</stt>
+    <nhom>0</nhom>
+    <loai>0</loai>
+    <id />
+    <noidung>Lượt người</noidung>
+    <tc>SL</tc>
+    <readonly>1</readonly>
+  </BHXH>
+  <BHXH>
+    <stt>2</stt>
+    <nhom>0</nhom>
+    <loai>1</loai>
+    <id />
+    <noidung>Số tiền chi cho KCT và ĐTNT</noidung>
+    <tc>TC</tc>
+    <readonly>1</readonly>
+  </BHXH>
+  <BHXH>
+    <stt>3</stt>
+    <nhom>0</nhom>
+    <loai>0</loai>
+    <id>2,</id>
+    <noidung>* Tiền thuốc, hoá chất, dịch truyền</noidung>
+    <tc />
+    <readonly>1</readonly>
+  </BHXH>
+  <BHXH>
+    <stt>4</stt>
+    <nhom>0</nhom>
+    <loai>0</loai>
+    <id />
+    <noidung>* Máu</noidung>
+    <tc />
+    <readonly>1</readonly>
+  </BHXH>
+  <BHXH>
+    <stt>5</stt>
+    <nhom>0</nhom>
+    <loai>0</loai>
+    <id>5,</id>
+    <noidung>* XN, thăm dò chức năng</noidung>
+    <tc />
+    <readonly>1</readonly>
+  </BHXH>
+  <BHXH>
+    <stt>6</stt>
+    <nhom>0</nhom>
+    <loai>0</loai>
+    <id>6,</id>
+    <noidung>* Chẩn đoán hình ảnh</noidung>
+    <tc />
+    <readonly>1</readonly>
+  </BHXH>
+  <BHXH>
+    <stt>7</stt>
+    <nhom>0</nhom>
+    <loai>0</loai>
+    <id>7,</id>
+    <noidung>* Thủ thuật</noidung>
+    <tc />
+    <readonly>1</readonly>
+  </BHXH>
+  <BHXH>
+    <stt>8</stt>
+    <nhom>0</nhom>
+    <loai>0</loai>
+    <id>3,</id>
+    <noidung>* Tiền vật tư y tế</noidung>
+    <tc />
+    <readonly>1</readonly>
+  </BHXH>
+  <BHXH>
+    <stt>9</stt>
+    <nhom>0</nhom>
+    <loai>0</loai>
+    <id />
+    <noidung>* Tiền công khám</noidung>
+    <tc>CK</tc>
+    <readonly>1</readonly>
+  </BHXH>
+  <BHXH>
+    <stt>10</stt>
+    <nhom>0</nhom>
+    <loai>1</loai>
+    <id />
+    <noidung>Chi phí BQ 1 lượt</noidung>
+    <tc>BQ</tc>
+    <readonly>1</readonly>
+  </BHXH>
+  <BHXH>
+    <stt>11</stt>
+    <nhom>1</nhom>
+    <loai>0</loai>
+    <id />
+    <noidung>Lượt người</noidung>
+    <tc>SL</tc>
+    <readonly>1</readonly>
+  </BHXH>
+  <BHXH>
+    <stt>12</stt>
+    <nhom>1</nhom>
+    <loai>0</loai>
+    <id />
+    <noidung>Số ngày điều trị</noidung>
+    <tc>SN</tc>
+    <readonly>1</readonly>
+  </BHXH>
+  <BHXH>
+    <stt>13</stt>
+    <nhom>1</nhom>
+    <loai>1</loai>
+    <id />
+    <noidung>Số tiền điều trị nội trú</noidung>
+    <tc>TC</tc>
+    <readonly>1</readonly>
+  </BHXH>
+  <BHXH>
+    <stt>14</stt>
+    <nhom>1</nhom>
+    <loai>0</loai>
+    <id>2,</id>
+    <noidung>* Tiền thuốc, hoá chất</noidung>
+    <tc />
+    <readonly>1</readonly>
+  </BHXH>
+  <BHXH>
+    <stt>15</stt>
+    <nhom>1</nhom>
+    <loai>0</loai>
+    <id />
+    <noidung>* Tiền máu</noidung>
+    <tc />
+    <readonly>1</readonly>
+  </BHXH>
+  <BHXH>
+    <stt>16</stt>
+    <nhom>1</nhom>
+    <loai>0</loai>
+    <id>2,</id>
+    <noidung>* Dịch truyền</noidung>
+    <tc />
+    <readonly>1</readonly>
+  </BHXH>
+  <BHXH>
+    <stt>17</stt>
+    <nhom>1</nhom>
+    <loai>0</loai>
+    <id>5,</id>
+    <noidung>* XN, thăm dò chức năng</noidung>
+    <tc />
+    <readonly>1</readonly>
+  </BHXH>
+  <BHXH>
+    <stt>18</stt>
+    <nhom>1</nhom>
+    <loai>0</loai>
+    <id>6,</id>
+    <noidung>* Chẩn đoán hình ảnh</noidung>
+    <tc />
+    <readonly>1</readonly>
+  </BHXH>
+  <BHXH>
+    <stt>19</stt>
+    <nhom>1</nhom>
+    <loai>0</loai>
+    <id>8,</id>
+    <noidung>* Dịch vụ KT cao</noidung>
+    <tc />
+    <readonly>1</readonly>
+  </BHXH>
+  <BHXH>
+    <stt>20</stt>
+    <nhom>1</nhom>
+    <loai>0</loai>
+    <id>3,</id>
+    <noidung>* Tiền vật tư y tế</noidung>
+    <tc />
+    <readonly>1</readonly>
+  </BHXH>
+  <BHXH>
+    <stt>21</stt>
+    <nhom>1</nhom>
+    <loai>0</loai>
+    <id>9,</id>
+    <noidung>* Tiền ngày giường</noidung>
+    <tc />
+    <readonly>1</readonly>
+  </BHXH>
+  <BHXH>
+    <stt>22</stt>
+    <nhom>1</nhom>
+    <loai>1</loai>
+    <id />
+    <noidung>Chi phí BQ 1 lượt</noidung>
+    <tc>BQ</tc>
+    <readonly>1</readonly>
+  </BHXH>
+</NewDataSet>

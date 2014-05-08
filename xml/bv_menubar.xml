@@ -1,0 +1,873 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table1">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="loai" type="xs:string" minOccurs="0" />
+                <xs:element name="tenloai" type="xs:string" minOccurs="0" />
+                <xs:element name="id" type="xs:string" minOccurs="0" />
+                <xs:element name="ten" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table1>
+    <loai>000</loai>
+    <tenloai> Medisoft</tenloai>
+    <id>003</id>
+    <ten>Báo cáo bệnh nhân hiện diện</ten>
+  </Table1>
+  <Table1>
+    <loai>000</loai>
+    <tenloai> Medisoft</tenloai>
+    <id>131</id>
+    <ten>Báo cáo tình hình PTTT</ten>
+  </Table1>
+  <Table1>
+    <loai>000</loai>
+    <tenloai> Medisoft</tenloai>
+    <id>134</id>
+    <ten>Sổ lưu trữ hố sơ bệnh án</ten>
+  </Table1>
+  <Table1>
+    <loai>000</loai>
+    <tenloai> Medisoft</tenloai>
+    <id>135</id>
+    <ten>Sồ vào viện - ra viện - chuyển viện</ten>
+  </Table1>
+  <Table1>
+    <loai>000</loai>
+    <tenloai> Medisoft</tenloai>
+    <id>140</id>
+    <ten>Thống kê những người tự sát</ten>
+  </Table1>
+  <Table1>
+    <loai>000</loai>
+    <tenloai> Medisoft</tenloai>
+    <id>139</id>
+    <ten>Thông tin chuyển viện</ten>
+  </Table1>
+  <Table1>
+    <loai>000</loai>
+    <tenloai> Medisoft</tenloai>
+    <id>138</id>
+    <ten>Nhập số người tự sát</ten>
+  </Table1>
+  <Table1>
+    <loai>000</loai>
+    <tenloai> Medisoft</tenloai>
+    <id>136</id>
+    <ten>Biên bản kiểm thảo tử vong</ten>
+  </Table1>
+  <Table1>
+    <loai>000</loai>
+    <tenloai> Medisoft</tenloai>
+    <id>002</id>
+    <ten>Phẫu thuật - thủ thuật</ten>
+  </Table1>
+  <Table1>
+    <loai>000</loai>
+    <tenloai> Medisoft</tenloai>
+    <id>000</id>
+    <ten>Báo cáo bệnh nhân sốt xuất huyết</ten>
+  </Table1>
+  <Table1>
+    <loai>000</loai>
+    <tenloai> Medisoft</tenloai>
+    <id>130</id>
+    <ten>Báo cáo trẻ em dưới 5 tuổi chết</ten>
+  </Table1>
+  <Table1>
+    <loai>000</loai>
+    <tenloai> Medisoft</tenloai>
+    <id>133</id>
+    <ten>Báo cáo hoạt động khám chữa bệnh và các dịch vụ y tế</ten>
+  </Table1>
+  <Table1>
+    <loai>000</loai>
+    <tenloai> Medisoft</tenloai>
+    <id>001</id>
+    <ten>Báo cáo tổng hợp toàn viện</ten>
+  </Table1>
+  <Table1>
+    <loai>001</loai>
+    <tenloai>Viện phí</tenloai>
+    <id>004</id>
+    <ten>Doanh số theo bác sỹ (Theo chỉ định)</ten>
+  </Table1>
+  <Table1>
+    <loai>001</loai>
+    <tenloai>Viện phí</tenloai>
+    <id>005</id>
+    <ten>Doanh thu theo bác sĩ (Theo công khám)</ten>
+  </Table1>
+  <Table1>
+    <loai>001</loai>
+    <tenloai>Viện phí</tenloai>
+    <id>006</id>
+    <ten>Doanh thu toàn bệnh viện</ten>
+  </Table1>
+  <Table1>
+    <loai>001</loai>
+    <tenloai>Viện phí</tenloai>
+    <id>007</id>
+    <ten>Doanh số theo bác sỹ(Theo đơn thuốc)</ten>
+  </Table1>
+  <Table1>
+    <loai>001</loai>
+    <tenloai>Viện phí</tenloai>
+    <id>129</id>
+    <ten>Báo cáo doanh thu theo người thu</ten>
+  </Table1>
+  <Table1>
+    <loai>001</loai>
+    <tenloai>Viện phí</tenloai>
+    <id>000</id>
+    <ten>Báo cáo doanh thu theo bác sĩ ngoài bệnh viện</ten>
+  </Table1>
+  <Table1>
+    <loai>001</loai>
+    <tenloai>Viện phí</tenloai>
+    <id>008</id>
+    <ten>Bảng kê thu viện phí trực tiếp</ten>
+  </Table1>
+  <Table1>
+    <loai>001</loai>
+    <tenloai>Viện phí</tenloai>
+    <id>009</id>
+    <ten>Bảng kê thu viện phí ra viện</ten>
+  </Table1>
+  <Table1>
+    <loai>001</loai>
+    <tenloai>Viện phí</tenloai>
+    <id>010</id>
+    <ten>Bảng kê thu tạm ứng</ten>
+  </Table1>
+  <Table1>
+    <loai>001</loai>
+    <tenloai>Viện phí</tenloai>
+    <id>011</id>
+    <ten>Báo báo thu viện phí trực tiếp</ten>
+  </Table1>
+  <Table1>
+    <loai>001</loai>
+    <tenloai>Viện phí</tenloai>
+    <id>012</id>
+    <ten>Báo cáo thu tạm ứng</ten>
+  </Table1>
+  <Table1>
+    <loai>001</loai>
+    <tenloai>Viện phí</tenloai>
+    <id>013</id>
+    <ten>Báo cáo thu chi ra viện</ten>
+  </Table1>
+  <Table1>
+    <loai>001</loai>
+    <tenloai>Viện phí</tenloai>
+    <id>014</id>
+    <ten>Báo cáo tổng hợp thu viện phí</ten>
+  </Table1>
+  <Table1>
+    <loai>001</loai>
+    <tenloai>Viện phí</tenloai>
+    <id>015</id>
+    <ten>Báo cáo chi tiết theo nội dung thu viện phí</ten>
+  </Table1>
+  <Table1>
+    <loai>001</loai>
+    <tenloai>Viện phí</tenloai>
+    <id>016</id>
+    <ten>Báo cáo miễn giảm</ten>
+  </Table1>
+  <Table1>
+    <loai>002</loai>
+    <tenloai>CLS</tenloai>
+    <id>017</id>
+    <ten>1. Báo cáo hoá chất sử dụng trong xét nghiệm</ten>
+  </Table1>
+  <Table1>
+    <loai>002</loai>
+    <tenloai>CLS</tenloai>
+    <id>018</id>
+    <ten>2.Báo cáo theo tên hoặc loại viện phí (kỹ thuật CDHA)</ten>
+  </Table1>
+  <Table1>
+    <loai>002</loai>
+    <tenloai>CLS</tenloai>
+    <id>132</id>
+    <ten>Báo cáo hoạt động CLS</ten>
+  </Table1>
+  <Table1>
+    <loai>003</loai>
+    <tenloai>Xuất kho</tenloai>
+    <id>019</id>
+    <ten>Phát thuốc</ten>
+  </Table1>
+  <Table1>
+    <loai>003</loai>
+    <tenloai>Xuất kho</tenloai>
+    <id>020</id>
+    <ten>Phát thuốc</ten>
+  </Table1>
+  <Table1>
+    <loai>003</loai>
+    <tenloai>Xuất kho</tenloai>
+    <id>021</id>
+    <ten>Phát thuốc</ten>
+  </Table1>
+  <Table1>
+    <loai>003</loai>
+    <tenloai>Xuất kho</tenloai>
+    <id>022</id>
+    <ten>Phát thuốc</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>023</id>
+    <ten>Phiếu nhập kho</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>024</id>
+    <ten>Chi tiết vật liệu, dụng cụ, sản phẩm, hàng hóa</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>025</id>
+    <ten>Bảng nhập thuốc vật tư y tế</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>026</id>
+    <ten>Bảng xuất thuốc vật tư y tế</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>027</id>
+    <ten>Nhập - xuất - tồn theo nhóm báo cáo</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>028</id>
+    <ten>Nhập - xuất - tồn theo nhóm dược bệnh viện</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>029</id>
+    <ten>Xuất kho tổng hợp theo ngày</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>030</id>
+    <ten>Thống kê nhập xuất kho theo ngày</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>031</id>
+    <ten>Nhập từ kho trung tâm</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>032</id>
+    <ten>Sử dụng theo ngày</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>033</id>
+    <ten>Tồn kho</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>034</id>
+    <ten>Xuất kho từ tháng ... đến tháng</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>035</id>
+    <ten>Xuất kho (chi tiết)</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>036</id>
+    <ten>Nhập kho từng tháng</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>037</id>
+    <ten>Xuất kho từng tháng</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>038</id>
+    <ten>Xuất kho theo ngày chi tiết ngoại trú,nội trú</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>039</id>
+    <ten>Nhập xuất tồn</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>040</id>
+    <ten>Báo cáo tiền thuốc sử dụng</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>041</id>
+    <ten>Biến động giá thuốc</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>042</id>
+    <ten>Thuốc gần hết hạn dùng</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>043</id>
+    <ten>Thực hiện kế hoạch công tác</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>044</id>
+    <ten>Dược bệnh viện</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>045</id>
+    <ten>Báo cáo nhập xuất tồn Bình Phước</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>046</id>
+    <ten>Phiếu nhập kho</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>047</id>
+    <ten>Phiếu kiểm nhập theo nhóm</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>048</id>
+    <ten>Biên bản kiểm nhập</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>049</id>
+    <ten>Bảng kê hóa đơn mua hàng</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>050</id>
+    <ten>Kiểm nhập lọc theo số hóa đơn</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>051</id>
+    <ten>Kiểm kê vật tư, sản phẩm, hàng hoá</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>052</id>
+    <ten>Kiểm kê vật tư, sản phẩm, hàng hoá (nhóm)</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>053</id>
+    <ten>Thanh lý, hủy</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>054</id>
+    <ten>Biên bản kiểm kê TSCĐ  Dụng cụ</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>055</id>
+    <ten>Phiếu kiểm kê kho</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>056</id>
+    <ten>Đơn thuốc</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>057</id>
+    <ten>Báo cáo tổng hợp chi phí KCB</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>058</id>
+    <ten>Báo cáo tổng hợp chi phí KCB theo đơn</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>059</id>
+    <ten>Tổng hợp số lượt khám bệnh</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>060</id>
+    <ten>Báo cáo nhập xuất tồn</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>061</id>
+    <ten>Tổng hợp xuất kho</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>062</id>
+    <ten>In phiếu xuất kho</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>063</id>
+    <ten>Bảng thanh toán chi phí KCB (nhóm BHYT)</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>064</id>
+    <ten>Bảng tổng hợp chi phí KCB (nhóm BHYT)</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>065</id>
+    <ten>Đơn thuốc</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>066</id>
+    <ten>Đơn thuốc trẻ em &lt; 6 tuổi</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>067</id>
+    <ten>Báo cáo tổng hợp chi phí KCB</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>068</id>
+    <ten>Tổng hợp số lượt khám bệnh</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>069</id>
+    <ten>Tổng hợp xuất kho theo đơn</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>070</id>
+    <ten>In phiếu xuất kho theo đơn</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>071</id>
+    <ten>Tổng hợp xuất kho </ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>072</id>
+    <ten>In phiếu xuất kho</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>073</id>
+    <ten>Tổng hợp xuất kho</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>074</id>
+    <ten>In phiếu xuất kho</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>075</id>
+    <ten>Tổng hợp xuất kho</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>076</id>
+    <ten>In phiếu xuất kho</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>077</id>
+    <ten>Toa thuốc bán lẻ</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>078</id>
+    <ten>Nhập xuất tồn</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>079</id>
+    <ten>Thu tiền thuốc</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>080</id>
+    <ten>Biên bản kiểm kê</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>081</id>
+    <ten>Nhập xuất tồn chi tiết</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>082</id>
+    <ten>Tổng hợp lãi gộp</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>083</id>
+    <ten>Thống kê thuốc theo bác sỹ</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>084</id>
+    <ten>Bảng kê xuất bán hàng</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>085</id>
+    <ten>Theo dõi giá thuốc</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>086</id>
+    <ten>In phiếu xuất kho</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>087</id>
+    <ten>Sổ chi tiết vật tư, sản phẩm, hàng hóa</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>088</id>
+    <ten>Sổ theo dõi tài sản cố định và dụng cụ</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>089</id>
+    <ten>Sổ kho</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>090</id>
+    <ten>Thẻ kho</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>091</id>
+    <ten>Thẻ kho theo cơ số tủ trực</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>092</id>
+    <ten>Chi tiết xuất kho theo mặt hàng</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>093</id>
+    <ten>In đơn thuốc</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>094</id>
+    <ten>In phiếu xuất kho</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>095</id>
+    <ten>In phiếu xuất kho phòng mỗ</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>096</id>
+    <ten>Tổng hợp phiếu xuất theo khoa</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>097</id>
+    <ten>Báo cáo cơ số tủ trực các khoa</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>098</id>
+    <ten>Sử dụng nội trú từ ngày ... đến ngày</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>099</id>
+    <ten>Báo cáo nhập xuất tồn chi tiết các kho</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>100</id>
+    <ten>Báo cáo nhập xuất tồn chi tiết kho chẵn</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>101</id>
+    <ten>Báo cáo thuốc theo nhóm.</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>102</id>
+    <ten>Báo cáo xuất kho chuyển kho.</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>103</id>
+    <ten>Báo cáo chi tiết nhập.</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>104</id>
+    <ten>Nhập xuất tồn toàn viện </ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>105</id>
+    <ten>Báo cáo nhập xuất tồn khoa (Tủ trực)</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>106</id>
+    <ten>Báo cáo nhập xuất tồn kho</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>107</id>
+    <ten>Nhập xuất tồn chi tiết toàn viện (Kho + tủ trực)</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>108</id>
+    <ten>Báo cáo nhập -xuất - tồn chi tiết các kho</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>109</id>
+    <ten>Biên bản kiểm nhập thuốc theo nhóm</ten>
+  </Table1>
+  <Table1>
+    <loai>004</loai>
+    <tenloai>Dược</tenloai>
+    <id>110</id>
+    <ten>Báo cáo Nhập - Xuất - Tồn theo nhóm</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>Tiện ích dược</tenloai>
+    <id>111</id>
+    <ten>Dự trù theo kho</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>Tiện ích dược</tenloai>
+    <id>112</id>
+    <ten>Chi tiết</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>Tiện ích dược</tenloai>
+    <id>113</id>
+    <ten>Tổng hợp</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>Tiện ích dược</tenloai>
+    <id>114</id>
+    <ten>Tổng hợp các kho</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>Tiện ích dược</tenloai>
+    <id>115</id>
+    <ten>Chi tiết</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>Tiện ích dược</tenloai>
+    <id>116</id>
+    <ten>Tổng hợp</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>Tiện ích dược</tenloai>
+    <id>117</id>
+    <ten>Chi tiết</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>Tiện ích dược</tenloai>
+    <id>118</id>
+    <ten>Tổng hợp</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>Tiện ích dược</tenloai>
+    <id>119</id>
+    <ten>Kiểm tra số liệu tồn kho</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>Tiện ích dược</tenloai>
+    <id>120</id>
+    <ten>Phân quyền sử dụng theo người sử dụng</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>Tiện ích dược</tenloai>
+    <id>121</id>
+    <ten>Đổi ngày</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>Tiện ích dược</tenloai>
+    <id>122</id>
+    <ten>Gửi thông tin qua mạng nội bộ</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>Tiện ích dược</tenloai>
+    <id>123</id>
+    <ten>Thông báo qua mạng nội bộ</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>Tiện ích dược</tenloai>
+    <id>124</id>
+    <ten>Kiểm tra số liệu của khoa</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>Tiện ích dược</tenloai>
+    <id>125</id>
+    <ten>Danh sách dự trù,duyệt,in phiếu xuất</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>Tiện ích dược</tenloai>
+    <id>126</id>
+    <ten>Truy vấn thông tin</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>Tiện ích dược</tenloai>
+    <id>127</id>
+    <ten>Tạo lại số liệu tháng năm</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>Tiện ích dược</tenloai>
+    <id>128</id>
+    <ten>Quản lý khai thác số liệu</ten>
+  </Table1>
+  <Table1>
+    <loai>005</loai>
+    <tenloai>Tiện ích dược</tenloai>
+    <id>000</id>
+    <ten>Log Off links715501920</ten>
+  </Table1>
+</NewDataSet>

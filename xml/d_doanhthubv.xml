@@ -1,0 +1,2455 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ngay" type="xs:string" minOccurs="0" />
+                <xs:element name="loai" type="xs:string" minOccurs="0" />
+                <xs:element name="sotien" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>219000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>600000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>100000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>60000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>75000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>55000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>235000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>40000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>70000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>40000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>70000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>4352000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>70000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>75000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>125000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>80000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>1429000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>70000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>125000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>90000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>275000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>1048000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>70000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>55000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>589000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>55000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>95000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>70000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>40000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>905000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>55000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>374000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>55000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>75000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>110000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>40000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>45000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>90000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>1556000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>75000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>40000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>40000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>70000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>55000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>70000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>2942000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>60000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>1362000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>125000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>1873000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>55000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>55000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>100000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>60000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>70000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>60000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>345000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>105000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>45000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>1977000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>55000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>75000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>60000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>55000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>40000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>40000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>135000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>70000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>40000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>105000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>977000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>55000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>55000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>55000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>847000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>70000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>2125000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>1660000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>95000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>60000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>70000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>40000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>70000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>1537000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>25000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>105000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>55000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>60000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>45000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>105000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>55000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>105000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>715000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>5250000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>55000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>1280000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>5378000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>40000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>40000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>70000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>70000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>75000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>70000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>1122000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>90000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>4088000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>55000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>1710000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>70000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>565000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>295000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>80000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>199000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>110000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>140000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>465000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>145000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>55000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>90000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>70000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>2716000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>55000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>1785000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>70000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>145000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>1828000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>75000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>370000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>1260000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>1964000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>70000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>30000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>80000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>55000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>70000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>40000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>90000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>60000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>90000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>1248000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>55000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>768000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>75000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>40000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>70000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>25000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>60000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>55000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>75000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>125000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>90000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>55000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>70000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>70000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>356000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>40000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>70000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>305000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>40000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>40000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>55000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>90000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>55000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>1857000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>2953000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>600000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>105000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>1005000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>55000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>55000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>55000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>50000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>50000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>112000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>75000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>1565000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>15000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>132000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>300000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>40000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>125000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>105000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>55000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>4455000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>55000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>0.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>55000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>40000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>1150000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>110000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>4273000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>40000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>55000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>122000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>75000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>55000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>55000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>55000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>55000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>40000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>55000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>55000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>70000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>75000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>2323000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>5199000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>60000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>25000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>40000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>55000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>55000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>90000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>70000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>55000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>70000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>70000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>125000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>75000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>2920000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>90000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>55000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>35000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>60000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>20000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>104000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>75000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>01/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>70000.000000</sotien>
+  </Table>
+  <Table>
+    <ngay>02/04/2008</ngay>
+    <loai>Trực tiếp</loai>
+    <sotien>75000.000000</sotien>
+  </Table>
+</NewDataSet>

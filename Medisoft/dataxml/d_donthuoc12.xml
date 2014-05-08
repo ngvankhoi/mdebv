@@ -1,0 +1,439 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="toa1">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="TENBV" type="xs:string" minOccurs="0" />
+                <xs:element name="MAKP" type="xs:string" minOccurs="0" />
+                <xs:element name="TENKP" type="xs:string" minOccurs="0" />
+                <xs:element name="MADOITUONG" type="xs:decimal" minOccurs="0" />
+                <xs:element name="DOITUONG" type="xs:string" minOccurs="0" />
+                <xs:element name="PHONG" type="xs:string" minOccurs="0" />
+                <xs:element name="GIUONG" type="xs:string" minOccurs="0" />
+                <xs:element name="MABN" type="xs:string" minOccurs="0" />
+                <xs:element name="HOTEN" type="xs:string" minOccurs="0" />
+                <xs:element name="NHOM" type="xs:string" minOccurs="0" />
+                <xs:element name="LOAI" type="xs:decimal" minOccurs="0" />
+                <xs:element name="MA" type="xs:decimal" minOccurs="0" />
+                <xs:element name="TEN" type="xs:string" minOccurs="0" />
+                <xs:element name="DVT" type="xs:string" minOccurs="0" />
+                <xs:element name="SOLUONG" type="xs:decimal" minOccurs="0" />
+                <xs:element name="DONGIA" type="xs:decimal" minOccurs="0" />
+                <xs:element name="NGAY" type="xs:string" minOccurs="0" />
+                <xs:element name="TENLOAI" type="xs:string" minOccurs="0" />
+                <xs:element name="PHIEU" type="xs:string" minOccurs="0" />
+                <xs:element name="BACSY" type="xs:string" minOccurs="0" />
+                <xs:element name="CACHDUNG" type="xs:string" minOccurs="0" />
+                <xs:element name="giaban" type="xs:decimal" default="0" minOccurs="0" />
+                <xs:element name="sothe" type="xs:string" minOccurs="0" />
+                <xs:element name="tungay" type="xs:string" minOccurs="0" />
+                <xs:element name="denngay" type="xs:string" minOccurs="0" />
+                <xs:element name="mabv" type="xs:string" minOccurs="0" />
+                <xs:element name="traituyen" type="xs:decimal" default="0" minOccurs="0" />
+                <xs:element name="maicd" type="xs:string" minOccurs="0" />
+                <xs:element name="chandoan" type="xs:string" minOccurs="0" />
+                <xs:element name="manhom" type="xs:decimal" default="0" minOccurs="0" />
+                <xs:element name="tennhom" type="xs:string" minOccurs="0" />
+                <xs:element name="hotennguoinhap" type="xs:string" minOccurs="0" />
+                <xs:element name="stt" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="toa2">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="TENBV" type="xs:string" minOccurs="0" />
+                <xs:element name="MAKP" type="xs:string" minOccurs="0" />
+                <xs:element name="TENKP" type="xs:string" minOccurs="0" />
+                <xs:element name="MADOITUONG" type="xs:decimal" minOccurs="0" />
+                <xs:element name="DOITUONG" type="xs:string" minOccurs="0" />
+                <xs:element name="PHONG" type="xs:string" minOccurs="0" />
+                <xs:element name="GIUONG" type="xs:string" minOccurs="0" />
+                <xs:element name="MABN" type="xs:string" minOccurs="0" />
+                <xs:element name="HOTEN" type="xs:string" minOccurs="0" />
+                <xs:element name="NHOM" type="xs:string" minOccurs="0" />
+                <xs:element name="LOAI" type="xs:decimal" minOccurs="0" />
+                <xs:element name="MA" type="xs:decimal" minOccurs="0" />
+                <xs:element name="TEN" type="xs:string" minOccurs="0" />
+                <xs:element name="DVT" type="xs:string" minOccurs="0" />
+                <xs:element name="SOLUONG" type="xs:decimal" minOccurs="0" />
+                <xs:element name="DONGIA" type="xs:decimal" minOccurs="0" />
+                <xs:element name="NGAY" type="xs:string" minOccurs="0" />
+                <xs:element name="TENLOAI" type="xs:string" minOccurs="0" />
+                <xs:element name="PHIEU" type="xs:string" minOccurs="0" />
+                <xs:element name="BACSY" type="xs:string" minOccurs="0" />
+                <xs:element name="CACHDUNG" type="xs:string" minOccurs="0" />
+                <xs:element name="giaban" type="xs:decimal" default="0" minOccurs="0" />
+                <xs:element name="sothe" type="xs:string" minOccurs="0" />
+                <xs:element name="tungay" type="xs:string" minOccurs="0" />
+                <xs:element name="denngay" type="xs:string" minOccurs="0" />
+                <xs:element name="mabv" type="xs:string" minOccurs="0" />
+                <xs:element name="traituyen" type="xs:decimal" default="0" minOccurs="0" />
+                <xs:element name="maicd" type="xs:string" minOccurs="0" />
+                <xs:element name="chandoan" type="xs:string" minOccurs="0" />
+                <xs:element name="manhom" type="xs:decimal" default="0" minOccurs="0" />
+                <xs:element name="tennhom" type="xs:string" minOccurs="0" />
+                <xs:element name="hotennguoinhap" type="xs:string" minOccurs="0" />
+                <xs:element name="stt" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <toa1>
+    <TENBV />
+    <MAKP>12</MAKP>
+    <TENKP>Khoa Ngoại</TENKP>
+    <MADOITUONG>2</MADOITUONG>
+    <DOITUONG>Thu phí</DOITUONG>
+    <PHONG />
+    <GIUONG>6</GIUONG>
+    <MABN>13019166</MABN>
+    <HOTEN>NGÔ THANH TUẤN ,Giới tính :Nam, Năm sinh :1980</HOTEN>
+    <NHOM>Thuốc</NHOM>
+    <LOAI>0</LOAI>
+    <MA>190264</MA>
+    <TEN>Băng Rốn </TEN>
+    <DVT>Hộp</DVT>
+    <SOLUONG>7.0000</SOLUONG>
+    <DONGIA>3399.9000000000</DONGIA>
+    <NGAY>Ngày 25/10/2013</NGAY>
+    <TENLOAI>Phiếu lĩnh,</TENLOAI>
+    <PHIEU>Phiếu lĩnh lần 2,</PHIEU>
+    <BACSY>BS. Lâm Nguyên Khánh</BACSY>
+    <CACHDUNG />
+    <giaban>3399.9000</giaban>
+    <sothe />
+    <tungay />
+    <denngay />
+    <mabv />
+    <traituyen>0</traituyen>
+    <maicd>S99.7</maicd>
+    <chandoan>Đa tổn thương tại cổ chân và bàn chân</chandoan>
+    <manhom>16</manhom>
+    <tennhom>Vật tư y tế</tennhom>
+    <hotennguoinhap>admin</hotennguoinhap>
+    <stt>1</stt>
+  </toa1>
+  <toa1>
+    <TENBV />
+    <MAKP>12</MAKP>
+    <TENKP>Khoa Ngoại</TENKP>
+    <MADOITUONG>2</MADOITUONG>
+    <DOITUONG>Thu phí</DOITUONG>
+    <PHONG />
+    <GIUONG>6</GIUONG>
+    <MABN>13019166</MABN>
+    <HOTEN>NGÔ THANH TUẤN ,Giới tính :Nam, Năm sinh :1980</HOTEN>
+    <NHOM>Thuốc</NHOM>
+    <LOAI>0</LOAI>
+    <MA>191588</MA>
+    <TEN>Atigluco 500mg</TEN>
+    <DVT>Viên</DVT>
+    <SOLUONG>5.0000</SOLUONG>
+    <DONGIA>1428.0000000000</DONGIA>
+    <NGAY>Ngày 25/10/2013</NGAY>
+    <TENLOAI>Phiếu lĩnh,</TENLOAI>
+    <PHIEU>Phiếu lĩnh lần 2,</PHIEU>
+    <BACSY>BS. Lâm Nguyên Khánh</BACSY>
+    <CACHDUNG />
+    <giaban>1428.0000</giaban>
+    <sothe />
+    <tungay />
+    <denngay />
+    <mabv />
+    <traituyen>0</traituyen>
+    <maicd>S99.7</maicd>
+    <chandoan>Đa tổn thương tại cổ chân và bàn chân</chandoan>
+    <manhom>3</manhom>
+    <tennhom>Thuốc thường</tennhom>
+    <hotennguoinhap>admin</hotennguoinhap>
+    <stt>1</stt>
+  </toa1>
+  <toa1>
+    <TENBV />
+    <MAKP>12</MAKP>
+    <TENKP>Khoa Ngoại</TENKP>
+    <MADOITUONG>2</MADOITUONG>
+    <DOITUONG>Thu phí</DOITUONG>
+    <PHONG />
+    <GIUONG>14</GIUONG>
+    <MABN>13020513</MABN>
+    <HOTEN>CAO VĂN KỲ ,Giới tính :Nam, Năm sinh :1968</HOTEN>
+    <NHOM>Thuốc</NHOM>
+    <LOAI>0</LOAI>
+    <MA>190381</MA>
+    <TEN>Adrenalin 1mg/ml</TEN>
+    <DVT>Ống</DVT>
+    <SOLUONG>5.0000</SOLUONG>
+    <DONGIA>4999.9950000000</DONGIA>
+    <NGAY>Ngày 25/10/2013</NGAY>
+    <TENLOAI>Phiếu lĩnh,</TENLOAI>
+    <PHIEU>Phiếu lĩnh lần 2,</PHIEU>
+    <BACSY>BS. Lâm Nguyên Khánh</BACSY>
+    <CACHDUNG />
+    <giaban>5000.0000</giaban>
+    <sothe />
+    <tungay />
+    <denngay />
+    <mabv />
+    <traituyen>0</traituyen>
+    <maicd>K35</maicd>
+    <chandoan>Viêm ruột thừa cấp</chandoan>
+    <manhom>3</manhom>
+    <tennhom>Thuốc thường</tennhom>
+    <hotennguoinhap>admin</hotennguoinhap>
+    <stt>2</stt>
+  </toa1>
+  <toa1>
+    <TENBV />
+    <MAKP>12</MAKP>
+    <TENKP>Khoa Ngoại</TENKP>
+    <MADOITUONG>2</MADOITUONG>
+    <DOITUONG>Thu phí</DOITUONG>
+    <PHONG />
+    <GIUONG>14</GIUONG>
+    <MABN>13020513</MABN>
+    <HOTEN>CAO VĂN KỲ ,Giới tính :Nam, Năm sinh :1968</HOTEN>
+    <NHOM>Thuốc</NHOM>
+    <LOAI>0</LOAI>
+    <MA>191956</MA>
+    <TEN>Acepron 80mg</TEN>
+    <DVT>gói</DVT>
+    <SOLUONG>5.0000</SOLUONG>
+    <DONGIA>497.9625000000</DONGIA>
+    <NGAY>Ngày 25/10/2013</NGAY>
+    <TENLOAI>Phiếu lĩnh,</TENLOAI>
+    <PHIEU>Phiếu lĩnh lần 2,</PHIEU>
+    <BACSY>BS. Lâm Nguyên Khánh</BACSY>
+    <CACHDUNG />
+    <giaban>497.9600</giaban>
+    <sothe />
+    <tungay />
+    <denngay />
+    <mabv />
+    <traituyen>0</traituyen>
+    <maicd>K35</maicd>
+    <chandoan>Viêm ruột thừa cấp</chandoan>
+    <manhom>3</manhom>
+    <tennhom>Thuốc thường</tennhom>
+    <hotennguoinhap>admin</hotennguoinhap>
+    <stt>2</stt>
+  </toa1>
+  <toa1>
+    <TENBV />
+    <MAKP>12</MAKP>
+    <TENKP>Khoa Ngoại</TENKP>
+    <MADOITUONG>2</MADOITUONG>
+    <DOITUONG>Thu phí</DOITUONG>
+    <PHONG />
+    <GIUONG>14</GIUONG>
+    <MABN>13021081</MABN>
+    <HOTEN>TĂNG THỊ XE ,Giới tính :Nữ, Năm sinh :1943</HOTEN>
+    <NHOM>Thuốc</NHOM>
+    <LOAI>0</LOAI>
+    <MA>190402</MA>
+    <TEN>Acehasan 200mg</TEN>
+    <DVT>Gói</DVT>
+    <SOLUONG>5.0000</SOLUONG>
+    <DONGIA>919.9995050505</DONGIA>
+    <NGAY>Ngày 25/10/2013</NGAY>
+    <TENLOAI>Phiếu lĩnh,</TENLOAI>
+    <PHIEU>Phiếu lĩnh lần 2,</PHIEU>
+    <BACSY>BS. Phạm Quang Minh</BACSY>
+    <CACHDUNG />
+    <giaban>920.0000</giaban>
+    <sothe />
+    <tungay />
+    <denngay />
+    <mabv />
+    <traituyen>0</traituyen>
+    <maicd>M09</maicd>
+    <chandoan>Gãy Trật Hở Khớp Khuỷa</chandoan>
+    <manhom>3</manhom>
+    <tennhom>Thuốc thường</tennhom>
+    <hotennguoinhap>admin</hotennguoinhap>
+    <stt>3</stt>
+  </toa1>
+  <toa1>
+    <TENBV />
+    <MAKP>12</MAKP>
+    <TENKP>Khoa Ngoại</TENKP>
+    <MADOITUONG>2</MADOITUONG>
+    <DOITUONG>Thu phí</DOITUONG>
+    <PHONG />
+    <GIUONG>14</GIUONG>
+    <MABN>13021081</MABN>
+    <HOTEN>TĂNG THỊ XE ,Giới tính :Nữ, Năm sinh :1943</HOTEN>
+    <NHOM>Thuốc</NHOM>
+    <LOAI>0</LOAI>
+    <MA>190408</MA>
+    <TEN>Ailoxon  </TEN>
+    <DVT>Viên</DVT>
+    <SOLUONG>5.0000</SOLUONG>
+    <DONGIA>249.9945000000</DONGIA>
+    <NGAY>Ngày 25/10/2013</NGAY>
+    <TENLOAI>Phiếu lĩnh,</TENLOAI>
+    <PHIEU>Phiếu lĩnh lần 2,</PHIEU>
+    <BACSY>BS. Phạm Quang Minh</BACSY>
+    <CACHDUNG />
+    <giaban>249.9900</giaban>
+    <sothe />
+    <tungay />
+    <denngay />
+    <mabv />
+    <traituyen>0</traituyen>
+    <maicd>M09</maicd>
+    <chandoan>Gãy Trật Hở Khớp Khuỷa</chandoan>
+    <manhom>3</manhom>
+    <tennhom>Thuốc thường</tennhom>
+    <hotennguoinhap>admin</hotennguoinhap>
+    <stt>3</stt>
+  </toa1>
+  <toa2>
+    <TENBV />
+    <MAKP>12</MAKP>
+    <TENKP>Khoa Ngoại</TENKP>
+    <MADOITUONG>2</MADOITUONG>
+    <DOITUONG>Thu phí</DOITUONG>
+    <PHONG />
+    <GIUONG>3</GIUONG>
+    <MABN>13020485</MABN>
+    <HOTEN>NGUYỄN QUỐC LỊNH ,Giới tính :Nam, Năm sinh :1982</HOTEN>
+    <NHOM>Thuốc</NHOM>
+    <LOAI>0</LOAI>
+    <MA>190397</MA>
+    <TEN>Aspirin 81mg</TEN>
+    <DVT>Viên</DVT>
+    <SOLUONG>5.0000</SOLUONG>
+    <DONGIA>149.9925000000</DONGIA>
+    <NGAY>Ngày 25/10/2013</NGAY>
+    <TENLOAI>Phiếu lĩnh,</TENLOAI>
+    <PHIEU>Phiếu lĩnh lần 2,</PHIEU>
+    <BACSY>BS. Phạm Quang Minh</BACSY>
+    <CACHDUNG />
+    <giaban>149.9900</giaban>
+    <sothe />
+    <tungay />
+    <denngay />
+    <mabv />
+    <traituyen>0</traituyen>
+    <maicd>K40</maicd>
+    <chandoan>Thoát vị bẹn</chandoan>
+    <manhom>3</manhom>
+    <tennhom>Thuốc thường</tennhom>
+    <hotennguoinhap>admin</hotennguoinhap>
+    <stt>4</stt>
+  </toa2>
+  <toa2>
+    <TENBV />
+    <MAKP>12</MAKP>
+    <TENKP>Khoa Ngoại</TENKP>
+    <MADOITUONG>2</MADOITUONG>
+    <DOITUONG>Thu phí</DOITUONG>
+    <PHONG />
+    <GIUONG>3</GIUONG>
+    <MABN>13020485</MABN>
+    <HOTEN>NGUYỄN QUỐC LỊNH ,Giới tính :Nam, Năm sinh :1982</HOTEN>
+    <NHOM>Thuốc</NHOM>
+    <LOAI>0</LOAI>
+    <MA>190525</MA>
+    <TEN>Amiodarone 150mg/3ml</TEN>
+    <DVT>Ống</DVT>
+    <SOLUONG>5.0000</SOLUONG>
+    <DONGIA>30048.0000000000</DONGIA>
+    <NGAY>Ngày 25/10/2013</NGAY>
+    <TENLOAI>Phiếu lĩnh,</TENLOAI>
+    <PHIEU>Phiếu lĩnh lần 2,</PHIEU>
+    <BACSY>BS. Phạm Quang Minh</BACSY>
+    <CACHDUNG />
+    <giaban>30048.0000</giaban>
+    <sothe />
+    <tungay />
+    <denngay />
+    <mabv />
+    <traituyen>0</traituyen>
+    <maicd>K40</maicd>
+    <chandoan>Thoát vị bẹn</chandoan>
+    <manhom>3</manhom>
+    <tennhom>Thuốc thường</tennhom>
+    <hotennguoinhap>admin</hotennguoinhap>
+    <stt>4</stt>
+  </toa2>
+  <toa2>
+    <TENBV />
+    <MAKP>12</MAKP>
+    <TENKP>Khoa Ngoại</TENKP>
+    <MADOITUONG>2</MADOITUONG>
+    <DOITUONG>Thu phí</DOITUONG>
+    <PHONG />
+    <GIUONG>34</GIUONG>
+    <MABN>13020520</MABN>
+    <HOTEN>KHIEV NOUCH ,Giới tính :Nam, Năm sinh :1965</HOTEN>
+    <NHOM>Thuốc</NHOM>
+    <LOAI>0</LOAI>
+    <MA>190107</MA>
+    <TEN>Amoxcillin 500mg</TEN>
+    <DVT>Viên</DVT>
+    <SOLUONG>5.0000</SOLUONG>
+    <DONGIA>580.0000500000</DONGIA>
+    <NGAY>Ngày 25/10/2013</NGAY>
+    <TENLOAI>Phiếu lĩnh,</TENLOAI>
+    <PHIEU>Phiếu lĩnh lần 2,</PHIEU>
+    <BACSY>BS. Lâm Nguyên Khánh</BACSY>
+    <CACHDUNG />
+    <giaban>580.0000</giaban>
+    <sothe />
+    <tungay />
+    <denngay />
+    <mabv />
+    <traituyen>0</traituyen>
+    <maicd>K37</maicd>
+    <chandoan>Viêm ruột thừa không xác định</chandoan>
+    <manhom>1</manhom>
+    <tennhom>Kháng sinh</tennhom>
+    <hotennguoinhap>admin</hotennguoinhap>
+    <stt>5</stt>
+  </toa2>
+  <toa2>
+    <TENBV />
+    <MAKP>12</MAKP>
+    <TENKP>Khoa Ngoại</TENKP>
+    <MADOITUONG>2</MADOITUONG>
+    <DOITUONG>Thu phí</DOITUONG>
+    <PHONG />
+    <GIUONG>34</GIUONG>
+    <MABN>13020520</MABN>
+    <HOTEN>KHIEV NOUCH ,Giới tính :Nam, Năm sinh :1965</HOTEN>
+    <NHOM>Thuốc</NHOM>
+    <LOAI>0</LOAI>
+    <MA>190408</MA>
+    <TEN>Ailoxon  </TEN>
+    <DVT>Viên</DVT>
+    <SOLUONG>5.0000</SOLUONG>
+    <DONGIA>249.9945000000</DONGIA>
+    <NGAY>Ngày 25/10/2013</NGAY>
+    <TENLOAI>Phiếu lĩnh,</TENLOAI>
+    <PHIEU>Phiếu lĩnh lần 2,</PHIEU>
+    <BACSY>BS. Lâm Nguyên Khánh</BACSY>
+    <CACHDUNG />
+    <giaban>249.9900</giaban>
+    <sothe />
+    <tungay />
+    <denngay />
+    <mabv />
+    <traituyen>0</traituyen>
+    <maicd>K37</maicd>
+    <chandoan>Viêm ruột thừa không xác định</chandoan>
+    <manhom>3</manhom>
+    <tennhom>Thuốc thường</tennhom>
+    <hotennguoinhap>admin</hotennguoinhap>
+    <stt>5</stt>
+  </toa2>
+</NewDataSet>

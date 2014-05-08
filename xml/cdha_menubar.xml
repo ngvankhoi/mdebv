@@ -1,0 +1,371 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table1">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ID" type="xs:string" minOccurs="0" />
+                <xs:element name="TEN" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table1>
+    <ID>1</ID>
+    <TEN>Chụp X quang</TEN>
+  </Table1>
+  <Table1>
+    <ID>2</ID>
+    <TEN>Chụp CT Scan</TEN>
+  </Table1>
+  <Table1>
+    <ID>3</ID>
+    <TEN>Chụp MRI</TEN>
+  </Table1>
+  <Table1>
+    <ID>4</ID>
+    <TEN>Siêu âm</TEN>
+  </Table1>
+  <Table1>
+    <ID>5</ID>
+    <TEN>Nội soi</TEN>
+  </Table1>
+  <Table1>
+    <ID>6</ID>
+    <TEN>Đo điện tim</TEN>
+  </Table1>
+  <Table1>
+    <ID>7</ID>
+    <TEN>Đo điện não</TEN>
+  </Table1>
+  <Table1>
+    <ID>180</ID>
+    <TEN>Đo CTG</TEN>
+  </Table1>
+  <Table1>
+    <ID>110</ID>
+    <TEN>Đo lưu huyết não</TEN>
+  </Table1>
+  <Table1>
+    <ID>187</ID>
+    <TEN>In nhãn</TEN>
+  </Table1>
+  <Table1>
+    <ID>188</ID>
+    <TEN>Chép hình từ máy xử lý ảnh</TEN>
+  </Table1>
+  <Table1>
+    <ID>189</ID>
+    <TEN>Chép hình lên server</TEN>
+  </Table1>
+  <Table1>
+    <ID>108</ID>
+    <TEN>Tìm bệnh nhân</TEN>
+  </Table1>
+  <Table1>
+    <ID>42</ID>
+    <TEN>Bệnh nhân chụp x quang</TEN>
+  </Table1>
+  <Table1>
+    <ID>43</ID>
+    <TEN>Bệnh nhân chụp ct scan</TEN>
+  </Table1>
+  <Table1>
+    <ID>44</ID>
+    <TEN>Bệnh nhân chụp mri</TEN>
+  </Table1>
+  <Table1>
+    <ID>45</ID>
+    <TEN>Bệnh nhân siêu âm</TEN>
+  </Table1>
+  <Table1>
+    <ID>46</ID>
+    <TEN>Bệnh nhân nội soi</TEN>
+  </Table1>
+  <Table1>
+    <ID>47</ID>
+    <TEN>Bệnh nhân đo điện tim</TEN>
+  </Table1>
+  <Table1>
+    <ID>48</ID>
+    <TEN>Bệnh nhân đo điện não</TEN>
+  </Table1>
+  <Table1>
+    <ID>101</ID>
+    <TEN>Bệnh nhân đo ctg</TEN>
+  </Table1>
+  <Table1>
+    <ID>102</ID>
+    <TEN>Bệnh nhân đo lưu huyết não</TEN>
+  </Table1>
+  <Table1>
+    <ID>109</ID>
+    <TEN>Báo cáo doanh thu theo nhân viên</TEN>
+  </Table1>
+  <Table1>
+    <ID>182</ID>
+    <TEN>Báo cáo doanh thu theo loại</TEN>
+  </Table1>
+  <Table1>
+    <ID>118</ID>
+    <TEN>Báo cáo chi tiết sử dụng thuốc phim</TEN>
+  </Table1>
+  <Table1>
+    <ID>117</ID>
+    <TEN>Báo cáo tổng hợp sử dụng thuốc phim</TEN>
+  </Table1>
+  <Table1>
+    <ID>183</ID>
+    <TEN>Báo cáo chi tiết thuốc phim theo kỹ thuật chụp</TEN>
+  </Table1>
+  <Table1>
+    <ID>49</ID>
+    <TEN>Báo cáo hoạt động cận lâm sàng</TEN>
+  </Table1>
+  <Table1>
+    <ID>182</ID>
+    <TEN>Báo cáo hoạt động cận lâm sàng theo khoa phòng</TEN>
+  </Table1>
+  <Table1>
+    <ID>181</ID>
+    <TEN>Báo cáo đặc thù bệnh viện</TEN>
+  </Table1>
+  <Table1>
+    <ID>179</ID>
+    <TEN>Báo cáo tổng hợp toàn viện</TEN>
+  </Table1>
+  <Table1>
+    <ID>52</ID>
+    <TEN>Loại</TEN>
+  </Table1>
+  <Table1>
+    <ID>53</ID>
+    <TEN>Form mô tả</TEN>
+  </Table1>
+  <Table1>
+    <ID>54</ID>
+    <TEN>Tình trạng lúc thực hiện</TEN>
+  </Table1>
+  <Table1>
+    <ID>55</ID>
+    <TEN>Nhân viên</TEN>
+  </Table1>
+  <Table1>
+    <ID>104</ID>
+    <TEN>Máy thực hiện</TEN>
+  </Table1>
+  <Table1>
+    <ID>184</ID>
+    <TEN>Control</TEN>
+  </Table1>
+  <Table1>
+    <ID>186</ID>
+    <TEN>Tên Tabpage</TEN>
+  </Table1>
+  <Table1>
+    <ID>185</ID>
+    <TEN>Tên cơ quan</TEN>
+  </Table1>
+  <Table1>
+    <ID>57</ID>
+    <TEN>Kỹ thuật nội soi</TEN>
+  </Table1>
+  <Table1>
+    <ID>58</ID>
+    <TEN>Mẩu mô tả nội soi</TEN>
+  </Table1>
+  <Table1>
+    <ID>59</ID>
+    <TEN>Giá trị mặc định nội soi</TEN>
+  </Table1>
+  <Table1>
+    <ID>60</ID>
+    <TEN>Chi tiết các giá trị nội soi</TEN>
+  </Table1>
+  <Table1>
+    <ID>12</ID>
+    <TEN>Cơ quan nội soi</TEN>
+  </Table1>
+  <Table1>
+    <ID>13</ID>
+    <TEN>Các giá trị của cơ quan</TEN>
+  </Table1>
+  <Table1>
+    <ID>63</ID>
+    <TEN>Kỹ thuật siêu âm</TEN>
+  </Table1>
+  <Table1>
+    <ID>64</ID>
+    <TEN>Mẩu mô tả siêu âm</TEN>
+  </Table1>
+  <Table1>
+    <ID>65</ID>
+    <TEN>Giá trị mặc định siêu âm</TEN>
+  </Table1>
+  <Table1>
+    <ID>66</ID>
+    <TEN>Chi tiết các giá trị siêu âm</TEN>
+  </Table1>
+  <Table1>
+    <ID>105</ID>
+    <TEN>Cơ quan siêu âm</TEN>
+  </Table1>
+  <Table1>
+    <ID>106</ID>
+    <TEN>Các giá trị của cơ quan</TEN>
+  </Table1>
+  <Table1>
+    <ID>70</ID>
+    <TEN>Kỹ thuật x quang</TEN>
+  </Table1>
+  <Table1>
+    <ID>73</ID>
+    <TEN>Mẫu mô tả x quang</TEN>
+  </Table1>
+  <Table1>
+    <ID>111</ID>
+    <TEN>Phim</TEN>
+  </Table1>
+  <Table1>
+    <ID>112</ID>
+    <TEN>Thuốc</TEN>
+  </Table1>
+  <Table1>
+    <ID>14</ID>
+    <TEN>Cơ quan x quang</TEN>
+  </Table1>
+  <Table1>
+    <ID>15</ID>
+    <TEN>Các giá trị của cơ quan</TEN>
+  </Table1>
+  <Table1>
+    <ID>76</ID>
+    <TEN>Kỹ thuật ct scan</TEN>
+  </Table1>
+  <Table1>
+    <ID>78</ID>
+    <TEN>Mẫu mô tả ct scan</TEN>
+  </Table1>
+  <Table1>
+    <ID>113</ID>
+    <TEN>Phim</TEN>
+  </Table1>
+  <Table1>
+    <ID>114</ID>
+    <TEN>Thuốc</TEN>
+  </Table1>
+  <Table1>
+    <ID>16</ID>
+    <TEN>Cơ quan ctscan</TEN>
+  </Table1>
+  <Table1>
+    <ID>17</ID>
+    <TEN>Các giá trị của cơ quan</TEN>
+  </Table1>
+  <Table1>
+    <ID>81</ID>
+    <TEN>Kỹ thuật mri</TEN>
+  </Table1>
+  <Table1>
+    <ID>83</ID>
+    <TEN>Mẫu mô tả mri</TEN>
+  </Table1>
+  <Table1>
+    <ID>115</ID>
+    <TEN>Phim</TEN>
+  </Table1>
+  <Table1>
+    <ID>116</ID>
+    <TEN>Thuốc</TEN>
+  </Table1>
+  <Table1>
+    <ID>18</ID>
+    <TEN>Cơ quan mri</TEN>
+  </Table1>
+  <Table1>
+    <ID>19</ID>
+    <TEN>Các giá trị của cơ quan</TEN>
+  </Table1>
+  <Table1>
+    <ID>85</ID>
+    <TEN>Kỹ thuật điện tim</TEN>
+  </Table1>
+  <Table1>
+    <ID>86</ID>
+    <TEN>Mẫu mô tả điện tim</TEN>
+  </Table1>
+  <Table1>
+    <ID>20</ID>
+    <TEN>Cơ quan điện tim</TEN>
+  </Table1>
+  <Table1>
+    <ID>21</ID>
+    <TEN>Các giá trị của cơ quan</TEN>
+  </Table1>
+  <Table1>
+    <ID>88</ID>
+    <TEN>Kỹ thuật điện não</TEN>
+  </Table1>
+  <Table1>
+    <ID>89</ID>
+    <TEN>Mẫu mô tả điện não</TEN>
+  </Table1>
+  <Table1>
+    <ID>22</ID>
+    <TEN>Cơ quan điện não</TEN>
+  </Table1>
+  <Table1>
+    <ID>23</ID>
+    <TEN>Các giá trị của cơ quan</TEN>
+  </Table1>
+  <Table1>
+    <ID>96</ID>
+    <TEN>Kỹ thuật CTG</TEN>
+  </Table1>
+  <Table1>
+    <ID>97</ID>
+    <TEN>Mẫu mô tả CTG</TEN>
+  </Table1>
+  <Table1>
+    <ID>99</ID>
+    <TEN>Kỹ thuật lưu huyết não</TEN>
+  </Table1>
+  <Table1>
+    <ID>100</ID>
+    <TEN>Mẫu mô tả lưu huyết não</TEN>
+  </Table1>
+  <Table1>
+    <ID>10</ID>
+    <TEN>Tùy chọn người dùng</TEN>
+  </Table1>
+  <Table1>
+    <ID>90</ID>
+    <TEN>Khai báo người dùng</TEN>
+  </Table1>
+  <Table1>
+    <ID>91</ID>
+    <TEN>Đổi mật khẩu chương trình</TEN>
+  </Table1>
+  <Table1>
+    <ID>190</ID>
+    <TEN>Đổi mật khẩu sử dụng chử ký điện tử</TEN>
+  </Table1>
+  <Table1>
+    <ID>104</ID>
+    <TEN>Quản lý khai thác số liệu</TEN>
+  </Table1>
+  <Table1>
+    <ID>92</ID>
+    <TEN>Khai báo thông số hệ thống</TEN>
+  </Table1>
+  <Table1>
+    <ID>93</ID>
+    <TEN>Tạo lại số liệu</TEN>
+  </Table1>
+</NewDataSet>

@@ -1,0 +1,215 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="sobienlai" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ngay" type="xs:string" minOccurs="0" />
+                <xs:element name="quyenso" type="xs:string" minOccurs="0" />
+                <xs:element name="mabn" type="xs:string" minOccurs="0" />
+                <xs:element name="hoten" type="xs:string" minOccurs="0" />
+                <xs:element name="namsinh" type="xs:string" minOccurs="0" />
+                <xs:element name="diachi" type="xs:string" minOccurs="0" />
+                <xs:element name="mabhyt" type="xs:string" minOccurs="0" />
+                <xs:element name="mabv" type="xs:string" minOccurs="0" />
+                <xs:element name="tenbv" type="xs:string" minOccurs="0" />
+                <xs:element name="nguoithu" type="xs:string" minOccurs="0" />
+                <xs:element name="ngayvao" type="xs:string" minOccurs="0" />
+                <xs:element name="ngayra" type="xs:string" minOccurs="0" />
+                <xs:element name="maicd" type="xs:string" minOccurs="0" />
+                <xs:element name="chandoan" type="xs:string" minOccurs="0" />
+                <xs:element name="tenkp" type="xs:string" minOccurs="0" />
+                <xs:element name="tongcp" type="xs:decimal" minOccurs="0" />
+                <xs:element name="bhyt" type="xs:decimal" minOccurs="0" />
+                <xs:element name="mien" type="xs:decimal" minOccurs="0" />
+                <xs:element name="thieu" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tamung" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll0" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll1" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll2" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll3" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll4" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll5" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll6" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll7" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll8" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll9" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll10" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll11" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll12" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll13" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll14" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll15" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll16" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll17" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll18" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll19" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll20" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll21" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll22" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll23" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll24" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll25" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll26" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <sobienlai>216</sobienlai>
+    <ngay>26/07/2011</ngay>
+    <quyenso>AA</quyenso>
+    <mabn>1102000121</mabn>
+    <hoten>TEST FDFD</hoten>
+    <namsinh>1978</namsinh>
+    <diachi>P. Thảo Điền Q. 2 Tp. H C M</diachi>
+    <mabhyt>GD722222222333333333</mabhyt>
+    <mabv>33333</mabv>
+    <tenbv>Trạm Y tế Xã Nguyên Hòa</tenbv>
+    <nguoithu>cn2</nguoithu>
+    <ngayvao>26/07/2011</ngayvao>
+    <ngayra>26/07/2011</ngayra>
+    <maicd />
+    <chandoan />
+    <tenkp>Phòng Khám [P9-T.Trệt-Sau]</tenkp>
+    <tongcp>47000.0000</tongcp>
+    <bhyt>1400.0000</bhyt>
+    <mien>0.0000</mien>
+    <thieu>0.0000</thieu>
+    <tamung>0</tamung>
+    <ll0>0</ll0>
+    <ll1>0</ll1>
+    <ll2>0</ll2>
+    <ll3>47000.00000000000000</ll3>
+    <ll4>0</ll4>
+    <ll5>0</ll5>
+    <ll6>0</ll6>
+    <ll7>0</ll7>
+    <ll8>0</ll8>
+    <ll9>0</ll9>
+    <ll10>0</ll10>
+    <ll11>0</ll11>
+    <ll12>0</ll12>
+    <ll13>0</ll13>
+    <ll14>0</ll14>
+    <ll15>0</ll15>
+    <ll16>0</ll16>
+    <ll17>0</ll17>
+    <ll18>0</ll18>
+    <ll19>0</ll19>
+    <ll20>0</ll20>
+    <ll21>0</ll21>
+    <ll22>0</ll22>
+    <ll23>0</ll23>
+    <ll24>0</ll24>
+    <ll25>0</ll25>
+    <ll26>0</ll26>
+  </Table>
+  <Table>
+    <sobienlai>219</sobienlai>
+    <ngay>26/07/2011</ngay>
+    <quyenso>AA</quyenso>
+    <mabn>1102000123</mabn>
+    <hoten>TECT BCV</hoten>
+    <namsinh>1988</namsinh>
+    <diachi>Không xác định Không xác định Tp. H C M</diachi>
+    <mabhyt>GD722222221111179060</mabhyt>
+    <mabv>79060</mabv>
+    <tenbv>Phòng khám đa khoa Phước An</tenbv>
+    <nguoithu>cn2</nguoithu>
+    <ngayvao>26/07/2011</ngayvao>
+    <ngayra>26/07/2011</ngayra>
+    <maicd />
+    <chandoan>Vàng da</chandoan>
+    <tenkp>Bệnh Gửi - Chi Nhánh Khác Đến</tenkp>
+    <tongcp>50000.0000</tongcp>
+    <bhyt>27000.0000</bhyt>
+    <mien>0.0000</mien>
+    <thieu>0.0000</thieu>
+    <tamung>0</tamung>
+    <ll0>50000.00000000000000</ll0>
+    <ll1>0</ll1>
+    <ll2>0</ll2>
+    <ll3>0</ll3>
+    <ll4>0</ll4>
+    <ll5>0</ll5>
+    <ll6>0</ll6>
+    <ll7>0</ll7>
+    <ll8>0</ll8>
+    <ll9>0</ll9>
+    <ll10>0</ll10>
+    <ll11>0</ll11>
+    <ll12>0</ll12>
+    <ll13>0</ll13>
+    <ll14>0</ll14>
+    <ll15>0</ll15>
+    <ll16>0</ll16>
+    <ll17>0</ll17>
+    <ll18>0</ll18>
+    <ll19>0</ll19>
+    <ll20>0</ll20>
+    <ll21>0</ll21>
+    <ll22>0</ll22>
+    <ll23>0</ll23>
+    <ll24>0</ll24>
+    <ll25>0</ll25>
+    <ll26>0</ll26>
+  </Table>
+  <Table>
+    <sobienlai>221</sobienlai>
+    <ngay>26/07/2011</ngay>
+    <quyenso>AA</quyenso>
+    <mabn>1102000125</mabn>
+    <hoten>NGUYỄN NGỌC PHƯƠNG THỦY</hoten>
+    <namsinh>1990</namsinh>
+    <diachi>Không xác định Không xác định Tp. H C M</diachi>
+    <mabhyt>GD733333333222333333</mabhyt>
+    <mabv>33333</mabv>
+    <tenbv>Trạm Y tế Xã Nguyên Hòa</tenbv>
+    <nguoithu>cn2</nguoithu>
+    <ngayvao>26/07/2011</ngayvao>
+    <ngayra>26/07/2011</ngayra>
+    <maicd />
+    <chandoan />
+    <tenkp>Phòng Khám [P21-Lầu 1]</tenkp>
+    <tongcp>42000.0000</tongcp>
+    <bhyt>1400.0000</bhyt>
+    <mien>0.0000</mien>
+    <thieu>0.0000</thieu>
+    <tamung>0</tamung>
+    <ll0>0</ll0>
+    <ll1>0</ll1>
+    <ll2>0</ll2>
+    <ll3>42000.00000000000000</ll3>
+    <ll4>0</ll4>
+    <ll5>0</ll5>
+    <ll6>0</ll6>
+    <ll7>0</ll7>
+    <ll8>0</ll8>
+    <ll9>0</ll9>
+    <ll10>0</ll10>
+    <ll11>0</ll11>
+    <ll12>0</ll12>
+    <ll13>0</ll13>
+    <ll14>0</ll14>
+    <ll15>0</ll15>
+    <ll16>0</ll16>
+    <ll17>0</ll17>
+    <ll18>0</ll18>
+    <ll19>0</ll19>
+    <ll20>0</ll20>
+    <ll21>0</ll21>
+    <ll22>0</ll22>
+    <ll23>0</ll23>
+    <ll24>0</ll24>
+    <ll25>0</ll25>
+    <ll26>0</ll26>
+  </Table>
+</NewDataSet>

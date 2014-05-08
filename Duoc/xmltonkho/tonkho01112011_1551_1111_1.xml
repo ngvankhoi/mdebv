@@ -1,0 +1,85 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="makho" type="xs:decimal" minOccurs="0" />
+                <xs:element name="stt" type="xs:decimal" minOccurs="0" />
+                <xs:element name="idn" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sttn" type="xs:decimal" minOccurs="0" />
+                <xs:element name="mabd" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tondau" type="xs:decimal" minOccurs="0" />
+                <xs:element name="slnhap" type="xs:decimal" minOccurs="0" />
+                <xs:element name="slxuat" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <makho>2</makho>
+    <stt>111031000000005283</stt>
+    <idn>0</idn>
+    <sttn>0</sttn>
+    <mabd>44724</mabd>
+    <tondau>198.0000</tondau>
+    <slnhap>0.0000</slnhap>
+    <slxuat>0.0000</slxuat>
+  </Table>
+  <Table>
+    <makho>2</makho>
+    <stt>111031000000015283</stt>
+    <idn>0</idn>
+    <sttn>0</sttn>
+    <mabd>50172</mabd>
+    <tondau>999.0000</tondau>
+    <slnhap>0.0000</slnhap>
+    <slxuat>0.0000</slxuat>
+  </Table>
+  <Table>
+    <makho>2</makho>
+    <stt>111031000000004283</stt>
+    <idn>0</idn>
+    <sttn>0</sttn>
+    <mabd>43465</mabd>
+    <tondau>999.0000</tondau>
+    <slnhap>0.0000</slnhap>
+    <slxuat>0.0000</slxuat>
+  </Table>
+  <Table>
+    <makho>2</makho>
+    <stt>111031000000010283</stt>
+    <idn>0</idn>
+    <sttn>0</sttn>
+    <mabd>18547</mabd>
+    <tondau>986.0000</tondau>
+    <slnhap>0.0000</slnhap>
+    <slxuat>0.0000</slxuat>
+  </Table>
+  <Table>
+    <makho>2</makho>
+    <stt>111031000000001283</stt>
+    <idn>0</idn>
+    <sttn>0</sttn>
+    <mabd>39170</mabd>
+    <tondau>987.0000</tondau>
+    <slnhap>0.0000</slnhap>
+    <slxuat>0.0000</slxuat>
+  </Table>
+  <Table>
+    <makho>2</makho>
+    <stt>111031000000018283</stt>
+    <idn>0</idn>
+    <sttn>0</sttn>
+    <mabd>41161</mabd>
+    <tondau>998.0000</tondau>
+    <slnhap>0.0000</slnhap>
+    <slxuat>0.0000</slxuat>
+  </Table>
+</NewDataSet>

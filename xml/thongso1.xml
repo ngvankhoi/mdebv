@@ -1,0 +1,117 @@
+<?xml version="1.0" standalone="yes"?>
+<Import>
+  <Row>
+    <c14>30</c14>
+    <c17>0</c17>
+    <c18>0</c18>
+    <c21>1</c21>
+    <c22>0</c22>
+    <c23>0</c23>
+    <c25>0</c25>
+    <c26>0</c26>
+    <c27>0</c27>
+    <c28>0</c28>
+    <c29>0</c29>
+    <c30>0</c30>
+    <c31>0</c31>
+    <c32>0</c32>
+    <c33>0</c33>
+    <c34>1</c34>
+    <c35>1</c35>
+    <c36>0</c36>
+    <c38>0</c38>
+    <c39 />
+    <c40 />
+    <c41 />
+    <c44>0</c44>
+    <c45>1</c45>
+    <c46>0</c46>
+    <c47>1</c47>
+    <c48>0</c48>
+    <c51>0</c51>
+    <c52>0</c52>
+    <c53>0</c53>
+    <c55>0</c55>
+    <c56>3</c56>
+    <c57>0</c57>
+    <c58>0</c58>
+    <c59>1</c59>
+    <c60>2</c60>
+    <c61>0</c61>
+    <unicode>1</unicode>
+    <tcvn3>0</tcvn3>
+    <sql>select table_name, column_name, data_type, character_maximum_length,numeric_precision, numeric_scale from information_schema.columns where table_catalog='medisoft_dautieng' and table_schema='medibv' order by table_schema
+
+select  * from information_schema.columns limit 20</sql>
+    <c105>1</c105>
+    <c116>0</c116>
+    <c125>0</c125>
+    <c126>0</c126>
+    <c127>0</c127>
+    <c134>0</c134>
+    <c135>1</c135>
+    <c140>0</c140>
+    <c177>0</c177>
+    <c178>0</c178>
+    <c195>0</c195>
+    <c196>0</c196>
+    <c206>0</c206>
+    <c207>0</c207>
+    <c208>0</c208>
+    <Ngonngu>0</Ngonngu>
+    <smartcard>0</smartcard>
+    <xemthuoc>1</xemthuoc>
+    <tttiepdon>1</tttiepdon>
+    <ckexcel>1</ckexcel>
+    <ckthuoc>1</ckthuoc>
+    <banin_1>0</banin_1>
+    <banin_7>0</banin_7>
+    <chidinhdong>0</chidinhdong>
+    <hiendienthuoc>0</hiendienthuoc>
+    <chidinhcachcu>0</chidinhcachcu>
+    <toaphongkham>1</toaphongkham>
+    <toangoaitru>0</toangoaitru>
+    <PLnhuPhongkham>0</PLnhuPhongkham>
+    <noitrucapve>0</noitrucapve>
+    <bcbhytlaytutruc>0</bcbhytlaytutruc>
+    <bcbhyttheongay>1</bcbhyttheongay>
+    <bhytnotrutheokhoa>0</bhytnotrutheokhoa>
+    <bhyttoatrongngay>0</bhyttoatrongngay>
+    <bcbhytngtru_vienphi>0</bcbhytngtru_vienphi>
+    <frmThkhoa_gianovat>0</frmThkhoa_gianovat>
+    <ttrv_ndot>1</ttrv_ndot>
+    <hiendien_tamung>1</hiendien_tamung>
+    <indonthuoc_tachchenhlech>0</indonthuoc_tachchenhlech>
+    <chkIntheodot_chidinhclspk>1</chkIntheodot_chidinhclspk>
+    <ttrv_inkem>0</ttrv_inkem>
+    <gomtamung_bhyt>0</gomtamung_bhyt>
+    <chkGiachuaVAT_rptnxt_ck>0</chkGiachuaVAT_rptnxt_ck>
+    <khudt_hientai>0</khudt_hientai>
+    <dangkycom>1</dangkycom>
+    <bangkethutt_khoacuoi>1</bangkethutt_khoacuoi>
+    <t01>0</t01>
+    <t02>0</t02>
+    <cbophongtc>0</cbophongtc>
+    <cbotutruc>0</cbotutruc>
+    <cbokhotc>0</cbokhotc>
+    <bhluuin>0</bhluuin>
+    <chkQuanlyngaynghiphep>0</chkQuanlyngaynghiphep>
+    <chkCanhbaotoathuoclonhon10ngay>0</chkCanhbaotoathuoclonhon10ngay>
+    <chkCanhbaobnBHYTKhidungDVKTC>1</chkCanhbaobnBHYTKhidungDVKTC>
+    <chkTudongchonthongso>0</chkTudongchonthongso>
+    <frmCongkhai>PHIẾU CÔNG KHAI THUỐC VÀ VIỆN PHÍ</frmCongkhai>
+    <congkhai_incahaophi>1</congkhai_incahaophi>
+    <thongbaochiphi_cd>1</thongbaochiphi_cd>
+    <chidinh_chenhlech>1</chidinh_chenhlech>
+    <hen_quadangky>0</hen_quadangky>
+    <ttrv_motlan1benhnhan>1</ttrv_motlan1benhnhan>
+    <tdlcd>0</tdlcd>
+    <dongy>1</dongy>
+    <chkBangDienGoiDocLapTheoTungQuay>1</chkBangDienGoiDocLapTheoTungQuay>
+    <dangky_inbienlai0dong>1</dangky_inbienlai0dong>
+    <pklcd>0</pklcd>
+    <quanlinguongocthuoc>0</quanlinguongocthuoc>
+    <pktoathuoc>0</pktoathuoc>
+    <c345>0</c345>
+  </Row>
+</Import>

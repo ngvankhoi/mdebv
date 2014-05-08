@@ -1,0 +1,60 @@
+
+03:28:06 PM Thứ Tư, Tháng Giêng 02, 2013
+FATAL: 28000: password authentication failed for user "medisoft"FATAL: 28000: password authentication failed for user "medisoft"
+Npgsql
+   at Npgsql.NpgsqlConnector.CheckErrors()
+   at Npgsql.NpgsqlConnector.Open()
+   at Npgsql.NpgsqlConnectorPool.GetPooledConnector(NpgsqlConnection Connection)
+   at Npgsql.NpgsqlConnectorPool.RequestPooledConnectorInternal(NpgsqlConnection Connection)
+   at Npgsql.NpgsqlConnectorPool.RequestPooledConnector(NpgsqlConnection Connection)
+   at Npgsql.NpgsqlConnectorPool.RequestConnector(NpgsqlConnection Connection)
+   at Npgsql.NpgsqlConnection.Open()
+   at LTCAccessdata.LTCConnection.Open()
+
+03:28:11 PM Thứ Tư, Tháng Giêng 02, 2013
+FATAL: 28000: password authentication failed for user "medisoft"FATAL: 28000: password authentication failed for user "medisoft"
+Npgsql
+   at Npgsql.NpgsqlConnector.CheckErrors()
+   at Npgsql.NpgsqlConnector.Open()
+   at Npgsql.NpgsqlConnectorPool.GetPooledConnector(NpgsqlConnection Connection)
+   at Npgsql.NpgsqlConnectorPool.RequestPooledConnectorInternal(NpgsqlConnection Connection)
+   at Npgsql.NpgsqlConnectorPool.RequestPooledConnector(NpgsqlConnection Connection)
+   at Npgsql.NpgsqlConnectorPool.RequestConnector(NpgsqlConnection Connection)
+   at Npgsql.NpgsqlConnection.Open()
+   at LTCAccessdata.LTCConnection.Open()
+
+03:28:14 PM Thứ Tư, Tháng Giêng 02, 2013
+FATAL: 28000: password authentication failed for user "medisoft"FATAL: 28000: password authentication failed for user "medisoft"
+Npgsql
+   at Npgsql.NpgsqlConnector.CheckErrors()
+   at Npgsql.NpgsqlConnector.Open()
+   at Npgsql.NpgsqlConnectorPool.GetPooledConnector(NpgsqlConnection Connection)
+   at Npgsql.NpgsqlConnectorPool.RequestPooledConnectorInternal(NpgsqlConnection Connection)
+   at Npgsql.NpgsqlConnectorPool.RequestPooledConnector(NpgsqlConnection Connection)
+   at Npgsql.NpgsqlConnectorPool.RequestConnector(NpgsqlConnection Connection)
+   at Npgsql.NpgsqlConnection.Open()
+   at LTCAccessdata.LTCConnection.Open()
+
+03:28:17 PM Thứ Tư, Tháng Giêng 02, 2013
+FATAL: 28000: password authentication failed for user "medisoft"FATAL: 28000: password authentication failed for user "medisoft"
+Npgsql
+   at Npgsql.NpgsqlConnector.CheckErrors()
+   at Npgsql.NpgsqlConnector.Open()
+   at Npgsql.NpgsqlConnectorPool.GetPooledConnector(NpgsqlConnection Connection)
+   at Npgsql.NpgsqlConnectorPool.RequestPooledConnectorInternal(NpgsqlConnection Connection)
+   at Npgsql.NpgsqlConnectorPool.RequestPooledConnector(NpgsqlConnection Connection)
+   at Npgsql.NpgsqlConnectorPool.RequestConnector(NpgsqlConnection Connection)
+   at Npgsql.NpgsqlConnection.Open()
+   at LTCAccessdata.LTCConnection.Open()
+
+03:28:19 PM Thứ Tư, Tháng Giêng 02, 2013
+FATAL: 28000: password authentication failed for user "medisoft"FATAL: 28000: password authentication failed for user "medisoft"
+Npgsql
+   at Npgsql.NpgsqlConnector.CheckErrors()
+   at Npgsql.NpgsqlConnector.Open()
+   at Npgsql.NpgsqlConnectorPool.GetPooledConnector(NpgsqlConnection Connection)
+   at Npgsql.NpgsqlConnectorPool.RequestPooledConnectorInternal(NpgsqlConnection Connection)
+   at Npgsql.NpgsqlConnectorPool.RequestPooledConnector(NpgsqlConnection Connection)
+   at Npgsql.NpgsqlConnectorPool.RequestConnector(NpgsqlConnection Connection)
+   at Npgsql.NpgsqlConnection.Open()
+   at LTCAccessdata.LTCConnection.Open()

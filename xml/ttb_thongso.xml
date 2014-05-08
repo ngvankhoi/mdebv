@@ -1,0 +1,72 @@
+<?xml version="1.0" standalone="yes"?>
+<Import>
+  <Row>
+    <hinh>E:\Medisoft_links\picture\duoc.jpg</hinh>
+    <c00>HIEN</c00>
+    <c01>0</c01>
+    <c02>1</c02>
+    <c03>1</c03>
+    <c04 />
+    <c05>1</c05>
+    <c06>0</c06>
+    <c07>0</c07>
+    <c08>0</c08>
+    <c09>0</c09>
+    <c10>60</c10>
+    <c11>1</c11>
+    <c12>1</c12>
+    <c13>0</c13>
+    <c14>0</c14>
+    <c15>0</c15>
+    <c16>0</c16>
+    <c17>0</c17>
+    <c18>0</c18>
+    <c19>0</c19>
+    <c20>0</c20>
+    <c21>0</c21>
+    <c22>60</c22>
+    <c23>1</c23>
+    <c24>1</c24>
+    <c25>0</c25>
+    <c26>0</c26>
+    <c27>0</c27>
+    <c28>1</c28>
+    <c29>1</c29>
+    <c30>1</c30>
+    <c31>1</c31>
+    <c32>0</c32>
+    <c33>0</c33>
+    <c34>0</c34>
+    <c35>0</c35>
+    <c36>0</c36>
+    <c37>1</c37>
+    <c38>1</c38>
+    <c39>1</c39>
+    <c40>0</c40>
+    <c41>0</c41>
+    <c42>0</c42>
+    <sudung />
+    <maloai>13,20,</maloai>
+    <manhom>1,2,3,6,</manhom>
+    <sql>--select * from medibv.d_dmbd where id=140225
+--select * from medibv.d_dmkho
+
+--select dang,donvidung from medibv.d_dmbd where dang='Viên'
+
+--update medibv.d_dmbd set donvidung=''  where dang='Viên'</sql>
+    <c95>1</c95>
+    <c96>1</c96>
+    <c97>1</c97>
+    <c101>1</c101>
+    <dbhyt>0</dbhyt>
+    <gianovat>0</gianovat>
+    <dmnx_kt>0</dmnx_kt>
+    <Kodichvu>0</Kodichvu>
+    <duyetnv>0</duyetnv>
+    <duyetcls>1</duyetcls>
+    <xuatdoituong_chkxuatsdct>1</xuatdoituong_chkxuatsdct>
+    <duyet_luuin>0</duyet_luuin>
+    <Ngonngu>0</Ngonngu>
+    <kho>Nhóm TTB</kho>
+  </Row>
+</Import>

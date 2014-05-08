@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" standalone="yes" ?>
+<NewDataSet>
+	<xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xs:element name="NewDataSet" msdata:IsDataSet="true">
+			<xs:complexType>
+				<xs:choice maxOccurs="unbounded">
+					<xs:element name="Table">
+						<xs:complexType>
+							<xs:sequence>
+								<xs:element name="TEN" type="xs:string" minOccurs="0" />
+								<xs:element name="TEN_VN" type="xs:string" minOccurs="0" />
+								<xs:element name="TEN_EN" type="xs:string" minOccurs="0" />
+								<xs:element name="TEN_OT" type="xs:string" minOccurs="0" />
+								<xs:element name="SQL" type="xs:string" minOccurs="0" />
+							</xs:sequence>
+						</xs:complexType>
+					</xs:element>
+				</xs:choice>
+			</xs:complexType>
+		</xs:element>
+	</xs:schema>
+	<Table>
+		<SQL>dmtinhtrang</SQL>
+		<TEN>Danh mục tình trạng</TEN>
+	</Table>
+	<Table>
+		<SQL>dmthuchien</SQL>
+		<TEN>Danh mục thực hiện</TEN>
+	</Table>
+	<Table>
+		<SQL>nhomnhanvien</SQL>
+		<TEN>Danh mục nhóm nhân viên</TEN>
+	</Table>
+	<Table>
+		<SQL>pttt_loai</SQL>
+		<TEN>Danh mục nhóm nhân viên pttt</TEN>
+	</Table>
+	<Table>
+		<TEN>Danh mục khu điều trị</TEN>
+		<SQL>dmkhudt</SQL>
+	</Table>
+  <Table>
+    <TEN>Danh mục lý do từ chối</TEN>
+    <SQL>tuchoilydo</SQL>
+  </Table>
+	<Table>
+		<TEN>Danh mục lý do xuất tạm</TEN>
+		<SQL>xuattamlydo</SQL>
+	</Table>
+  <Table>
+    <TEN>Danh mục tự sát nghề nghiệp</TEN>
+    <SQL>tusatnghenghiep</SQL>
+  </Table>
+  <Table>
+    <TEN>Danh mục tự sát nguyên nhân</TEN>
+    <SQL>tusatnguyennhan</SQL>
+  </Table>
+  <Table>
+    <TEN>Danh mục tự sát hình thức</TEN>
+    <SQL>tusathinhthuc</SQL>
+  </Table>
+  <Table>
+    <TEN>Danh mục tự sát tình trạng</TEN>
+    <SQL>tusattinhtrang</SQL>
+  </Table>
+  <Table>
+    <TEN>Danh mục phân loại sức khỏe</TEN>
+    <SQL>dmphanloaisk</SQL>
+  </Table>
+  <Table>
+    <TEN>Danh mục cơ quan chi trả</TEN>
+    <SQL>dmdvchitra</SQL>
+  </Table>
+  <Table>
+    <TEN>Danh mục chứng từ</TEN>
+    <SQL>dmloaict</SQL>
+  </Table>
+  <Table>
+    <TEN>Danh mục trình độ học vấn</TEN>
+    <SQL>blgd_tdhv</SQL>
+  </Table>
+  <Table>
+    <TEN>Danh mục tình trạng hôn nhân</TEN>
+    <SQL>blgd_tthonnhan</SQL>
+  </Table>
+  <Table>
+    <TEN>Danh mục người gây bạo lực gia đình</TEN>
+    <SQL>blgd_nguoigaybl</SQL>
+  </Table>
+  <Table>
+    <TEN>Danh mục thời gian chịu đựng bạo lực gia đình</TEN>
+    <SQL>blgd_tgchiudung</SQL>
+  </Table>
+  <Table>
+    <TEN>Danh mục mức độ tổn hại sức khỏe do bạo lực gia đình</TEN>
+    <SQL>blgd_tonhaisk</SQL>
+  </Table>
+  <Table>
+    <TEN>Danh mục loại hình bạo lực gia đình</TEN>
+    <SQL>blgd_loaibaoluc</SQL>
+  </Table>
+<Table>
+		<TEN>Danh mục dạng khuyết tật</TEN>
+		<SQL>dmdangkt</SQL>
+	</Table>
+	<Table>
+		<TEN>Danh mục mức độ khuyết tật</TEN>
+		<SQL>dmmucdokt</SQL>
+	</Table>
+	<Table>
+		<TEN>Danh mục nhiệt độ</TEN>
+		<SQL>dmnhietdo</SQL>
+	</Table>
+	<Table>
+		<TEN>Danh mục chế độ ăn</TEN>
+		<SQL>ba_dmchedoan</SQL>
+	</Table>
+	<Table>
+		<TEN>Danh mục y lệnh</TEN>
+		<SQL>ba_dmylenh</SQL>
+	</Table>
+	<Table>
+		<TEN>Danh mục vận chuyển</TEN>
+		<SQL>ba_dmvanchuyen</SQL>
+	</Table>
+	<Table>
+		<TEN>Danh mục bệnh tiêm chủng</TEN>
+		<SQL>dmbenhtc</SQL>
+	</Table>
+  <Table>
+    <TEN>Danh mục tình trạng phản ứng sau tiêm chủng</TEN>
+    <SQL>dmtinhtrangsautc</SQL>
+  </Table>
+  <Table>
+    <TEN>Danh mục tiền sử bản thân</TEN>
+    <SQL>ba_dmtsbanthan</SQL>
+  </Table>
+  <Table>
+    <TEN>Danh mục bệnh chuyên khoa Răng Hàm Mặt</TEN>
+    <SQL>ba_dmchuyenkhoarhm</SQL>
+  </Table>
+  <Table>
+    <TEN>Danh mục tiền sử gia đình</TEN>
+    <SQL>ba_dmtsgiadinh</SQL>
+  </Table>
+  <Table>
+    <TEN>Danh mục ưu tiên</TEN>
+    <SQL>dmlydouutien</SQL>
+  </Table>
+  <Table>
+    <TEN>Danh mục lý do chuyển viện nội bộ</TEN>
+    <SQL>dmlycvnoibo</SQL>
+  </Table>
+  <Table>
+    <TEN>Danh mục lý do in lại thẻ Bệnh nhân</TEN>
+    <SQL>dmlydointhe</SQL>
+  </Table>
+  <Table>
+    <TEN>Khai báo tầng trong cơ sở</TEN>
+    <SQL>dmtang</SQL>
+  </Table>
+  <Table>
+    <TEN>Khai báo danh mục đơn vị cấp 1 của Bộ Đội</TEN>
+    <SQL>qn_dmdonvi_cap1</SQL>
+  </Table>
+  <Table>
+    <TEN>Khai báo danh mục đơn vị  cấp 2 của Bộ Đội</TEN>
+    <SQL>qn_dmdonvi_cap2</SQL>
+  </Table>
+ <Table>
+    <TEN>Khai báo danh mục đơn vị  cấp 3 của Bộ Đội</TEN>
+    <SQL>qn_dmdonvi_cap3</SQL>
+  </Table>
+ <Table>
+    <TEN>Khai báo danh mục đơn vị  cấp 4 của Bộ Đội</TEN>
+    <SQL>qn_dmdonvi_cap4</SQL>
+  </Table>
+  <Table>
+    <TEN>Khai báo danh mục cấp bậc của Bộ Đội</TEN>
+    <SQL>qn_dmcapbac</SQL>
+  </Table>
+  <Table>
+    <TEN>Khai báo danh mục chức vụ của Bộ Đội</TEN>
+    <SQL>qn_dmchucvu</SQL>
+  </Table>
+</NewDataSet>

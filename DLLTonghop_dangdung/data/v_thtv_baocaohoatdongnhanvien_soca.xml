@@ -1,0 +1,363 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="MA" type="xs:string" minOccurs="0" />
+                <xs:element name="HOTEN" type="xs:string" minOccurs="0" />
+                <xs:element name="KHAM" type="xs:decimal" minOccurs="0" />
+                <xs:element name="KHAM_BHYT" type="xs:decimal" minOccurs="0" />
+                <xs:element name="PTTT" type="xs:decimal" minOccurs="0" />
+                <xs:element name="PTTT_BHYT" type="xs:decimal" minOccurs="0" />
+                <xs:element name="CHIDINH" type="xs:decimal" minOccurs="0" />
+                <xs:element name="CHIDINH_BHYT" type="xs:decimal" minOccurs="0" />
+                <xs:element name="DUOC" type="xs:decimal" minOccurs="0" />
+                <xs:element name="DUOC_BHYT" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <MA>0000</MA>
+    <HOTEN> </HOTEN>
+    <KHAM>0</KHAM>
+    <KHAM_BHYT>0</KHAM_BHYT>
+    <PTTT>0</PTTT>
+    <PTTT_BHYT>0</PTTT_BHYT>
+    <CHIDINH>0</CHIDINH>
+    <CHIDINH_BHYT>0</CHIDINH_BHYT>
+    <DUOC>0</DUOC>
+    <DUOC_BHYT>1</DUOC_BHYT>
+  </Table>
+  <Table>
+    <MA>0001</MA>
+    <HOTEN>Bs. Đào Cảnh Tuất</HOTEN>
+    <KHAM>368</KHAM>
+    <KHAM_BHYT>154</KHAM_BHYT>
+    <PTTT>0</PTTT>
+    <PTTT_BHYT>0</PTTT_BHYT>
+    <CHIDINH>133</CHIDINH>
+    <CHIDINH_BHYT>344</CHIDINH_BHYT>
+    <DUOC>246</DUOC>
+    <DUOC_BHYT>585</DUOC_BHYT>
+  </Table>
+  <Table>
+    <MA>0002</MA>
+    <HOTEN>Bs. Vũ Mộng Tuyết</HOTEN>
+    <KHAM>33</KHAM>
+    <KHAM_BHYT>19</KHAM_BHYT>
+    <PTTT>0</PTTT>
+    <PTTT_BHYT>0</PTTT_BHYT>
+    <CHIDINH>5</CHIDINH>
+    <CHIDINH_BHYT>56</CHIDINH_BHYT>
+    <DUOC>347</DUOC>
+    <DUOC_BHYT>444</DUOC_BHYT>
+  </Table>
+  <Table>
+    <MA>0003</MA>
+    <HOTEN>Bs. Nguyễn Đức Thiện</HOTEN>
+    <KHAM>39</KHAM>
+    <KHAM_BHYT>58</KHAM_BHYT>
+    <PTTT>0</PTTT>
+    <PTTT_BHYT>0</PTTT_BHYT>
+    <CHIDINH>24</CHIDINH>
+    <CHIDINH_BHYT>49</CHIDINH_BHYT>
+    <DUOC>12</DUOC>
+    <DUOC_BHYT>83</DUOC_BHYT>
+  </Table>
+  <Table>
+    <MA>0004</MA>
+    <HOTEN>Bs. Trần Đức Minh</HOTEN>
+    <KHAM>46</KHAM>
+    <KHAM_BHYT>53</KHAM_BHYT>
+    <PTTT>0</PTTT>
+    <PTTT_BHYT>0</PTTT_BHYT>
+    <CHIDINH>23</CHIDINH>
+    <CHIDINH_BHYT>84</CHIDINH_BHYT>
+    <DUOC>22</DUOC>
+    <DUOC_BHYT>47</DUOC_BHYT>
+  </Table>
+  <Table>
+    <MA>0005</MA>
+    <HOTEN>Bs. Hồ Sỹ Chương</HOTEN>
+    <KHAM>1</KHAM>
+    <KHAM_BHYT>0</KHAM_BHYT>
+    <PTTT>0</PTTT>
+    <PTTT_BHYT>0</PTTT_BHYT>
+    <CHIDINH>0</CHIDINH>
+    <CHIDINH_BHYT>0</CHIDINH_BHYT>
+    <DUOC>0</DUOC>
+    <DUOC_BHYT>0</DUOC_BHYT>
+  </Table>
+  <Table>
+    <MA>0006</MA>
+    <HOTEN>Bs. Phạm Quang Nhật</HOTEN>
+    <KHAM>5</KHAM>
+    <KHAM_BHYT>19</KHAM_BHYT>
+    <PTTT>0</PTTT>
+    <PTTT_BHYT>0</PTTT_BHYT>
+    <CHIDINH>2</CHIDINH>
+    <CHIDINH_BHYT>16</CHIDINH_BHYT>
+    <DUOC>4</DUOC>
+    <DUOC_BHYT>15</DUOC_BHYT>
+  </Table>
+  <Table>
+    <MA>0007</MA>
+    <HOTEN>Bs. Nguyễn Hải Linh</HOTEN>
+    <KHAM>37</KHAM>
+    <KHAM_BHYT>28</KHAM_BHYT>
+    <PTTT>0</PTTT>
+    <PTTT_BHYT>0</PTTT_BHYT>
+    <CHIDINH>12</CHIDINH>
+    <CHIDINH_BHYT>81</CHIDINH_BHYT>
+    <DUOC>104</DUOC>
+    <DUOC_BHYT>295</DUOC_BHYT>
+  </Table>
+  <Table>
+    <MA>0008</MA>
+    <HOTEN>Bs. Nguyễn Lê Hoàng Phi</HOTEN>
+    <KHAM>15</KHAM>
+    <KHAM_BHYT>0</KHAM_BHYT>
+    <PTTT>0</PTTT>
+    <PTTT_BHYT>0</PTTT_BHYT>
+    <CHIDINH>1</CHIDINH>
+    <CHIDINH_BHYT>0</CHIDINH_BHYT>
+    <DUOC>29</DUOC>
+    <DUOC_BHYT>51</DUOC_BHYT>
+  </Table>
+  <Table>
+    <MA>0009</MA>
+    <HOTEN>Bs. Hồ Văn Hiếu</HOTEN>
+  </Table>
+  <Table>
+    <MA>0010</MA>
+    <HOTEN>Bs. Vũ Duy Tân</HOTEN>
+    <KHAM>3</KHAM>
+    <KHAM_BHYT>3</KHAM_BHYT>
+    <PTTT>0</PTTT>
+    <PTTT_BHYT>0</PTTT_BHYT>
+    <CHIDINH>1</CHIDINH>
+    <CHIDINH_BHYT>0</CHIDINH_BHYT>
+    <DUOC>0</DUOC>
+    <DUOC_BHYT>0</DUOC_BHYT>
+  </Table>
+  <Table>
+    <MA>0011</MA>
+    <HOTEN>Bs. Phạm Văn Hùng</HOTEN>
+  </Table>
+  <Table>
+    <MA>0012</MA>
+    <HOTEN>Bs. Cao Viên</HOTEN>
+    <KHAM>4</KHAM>
+    <KHAM_BHYT>2</KHAM_BHYT>
+    <PTTT>0</PTTT>
+    <PTTT_BHYT>0</PTTT_BHYT>
+    <CHIDINH>4</CHIDINH>
+    <CHIDINH_BHYT>5</CHIDINH_BHYT>
+    <DUOC>6</DUOC>
+    <DUOC_BHYT>42</DUOC_BHYT>
+  </Table>
+  <Table>
+    <MA>0013</MA>
+    <HOTEN>Bs. Võ Duy Điền</HOTEN>
+  </Table>
+  <Table>
+    <MA>0014</MA>
+    <HOTEN>Bs. Võ Chí Thành</HOTEN>
+    <KHAM>34</KHAM>
+    <KHAM_BHYT>4</KHAM_BHYT>
+    <PTTT>0</PTTT>
+    <PTTT_BHYT>0</PTTT_BHYT>
+    <CHIDINH>22</CHIDINH>
+    <CHIDINH_BHYT>4</CHIDINH_BHYT>
+    <DUOC>90</DUOC>
+    <DUOC_BHYT>154</DUOC_BHYT>
+  </Table>
+  <Table>
+    <MA>0015</MA>
+    <HOTEN>Bs. Trà Văn Hiên</HOTEN>
+    <KHAM>52</KHAM>
+    <KHAM_BHYT>14</KHAM_BHYT>
+    <PTTT>0</PTTT>
+    <PTTT_BHYT>0</PTTT_BHYT>
+    <CHIDINH>31</CHIDINH>
+    <CHIDINH_BHYT>13</CHIDINH_BHYT>
+    <DUOC>97</DUOC>
+    <DUOC_BHYT>219</DUOC_BHYT>
+  </Table>
+  <Table>
+    <MA>0016</MA>
+    <HOTEN>Bs. Văn Trường</HOTEN>
+  </Table>
+  <Table>
+    <MA>0017</MA>
+    <HOTEN>Bs. Hoàng Ngọc Long</HOTEN>
+    <KHAM>9</KHAM>
+    <KHAM_BHYT>0</KHAM_BHYT>
+    <PTTT>0</PTTT>
+    <PTTT_BHYT>0</PTTT_BHYT>
+    <CHIDINH>1</CHIDINH>
+    <CHIDINH_BHYT>0</CHIDINH_BHYT>
+    <DUOC>39</DUOC>
+    <DUOC_BHYT>104</DUOC_BHYT>
+  </Table>
+  <Table>
+    <MA>0018</MA>
+    <HOTEN>Bs. Nguyễn Đức Phong</HOTEN>
+  </Table>
+  <Table>
+    <MA>0019</MA>
+    <HOTEN>Bs. Lê Xuân Hoàng</HOTEN>
+    <KHAM>0</KHAM>
+    <KHAM_BHYT>0</KHAM_BHYT>
+    <PTTT>0</PTTT>
+    <PTTT_BHYT>0</PTTT_BHYT>
+    <CHIDINH>0</CHIDINH>
+    <CHIDINH_BHYT>0</CHIDINH_BHYT>
+    <DUOC>0</DUOC>
+    <DUOC_BHYT>28</DUOC_BHYT>
+  </Table>
+  <Table>
+    <MA>0020</MA>
+    <HOTEN>Bs. Nguyễn Thị Tố Như</HOTEN>
+    <KHAM>0</KHAM>
+    <KHAM_BHYT>0</KHAM_BHYT>
+    <PTTT>0</PTTT>
+    <PTTT_BHYT>0</PTTT_BHYT>
+    <CHIDINH>0</CHIDINH>
+    <CHIDINH_BHYT>0</CHIDINH_BHYT>
+    <DUOC>0</DUOC>
+    <DUOC_BHYT>3</DUOC_BHYT>
+  </Table>
+  <Table>
+    <MA>0021</MA>
+    <HOTEN>Bs. Trần Văn Phú</HOTEN>
+    <KHAM>0</KHAM>
+    <KHAM_BHYT>0</KHAM_BHYT>
+    <PTTT>0</PTTT>
+    <PTTT_BHYT>0</PTTT_BHYT>
+    <CHIDINH>0</CHIDINH>
+    <CHIDINH_BHYT>0</CHIDINH_BHYT>
+    <DUOC>7</DUOC>
+    <DUOC_BHYT>0</DUOC_BHYT>
+  </Table>
+  <Table>
+    <MA>0022</MA>
+    <HOTEN>Bs. Phan Hồng Thịnh</HOTEN>
+  </Table>
+  <Table>
+    <MA>0023</MA>
+    <HOTEN>Nhs Anh Tú </HOTEN>
+    <KHAM>3</KHAM>
+    <KHAM_BHYT>14</KHAM_BHYT>
+    <PTTT>0</PTTT>
+    <PTTT_BHYT>0</PTTT_BHYT>
+    <CHIDINH>12</CHIDINH>
+    <CHIDINH_BHYT>10</CHIDINH_BHYT>
+    <DUOC>0</DUOC>
+    <DUOC_BHYT>0</DUOC_BHYT>
+  </Table>
+  <Table>
+    <MA>0024</MA>
+    <HOTEN>Nhs Nguyễn Thị Trình</HOTEN>
+    <KHAM>21</KHAM>
+    <KHAM_BHYT>40</KHAM_BHYT>
+    <PTTT>0</PTTT>
+    <PTTT_BHYT>0</PTTT_BHYT>
+    <CHIDINH>0</CHIDINH>
+    <CHIDINH_BHYT>11</CHIDINH_BHYT>
+    <DUOC>37</DUOC>
+    <DUOC_BHYT>130</DUOC_BHYT>
+  </Table>
+  <Table>
+    <MA>0025</MA>
+    <HOTEN>Nhs Trần Thị Hồng</HOTEN>
+    <KHAM>22</KHAM>
+    <KHAM_BHYT>71</KHAM_BHYT>
+    <PTTT>0</PTTT>
+    <PTTT_BHYT>0</PTTT_BHYT>
+    <CHIDINH>13</CHIDINH>
+    <CHIDINH_BHYT>82</CHIDINH_BHYT>
+    <DUOC>49</DUOC>
+    <DUOC_BHYT>161</DUOC_BHYT>
+  </Table>
+  <Table>
+    <MA>0026</MA>
+    <HOTEN>Nguyễn Đức Phú</HOTEN>
+    <KHAM>14</KHAM>
+    <KHAM_BHYT>15</KHAM_BHYT>
+    <PTTT>0</PTTT>
+    <PTTT_BHYT>0</PTTT_BHYT>
+    <CHIDINH>6</CHIDINH>
+    <CHIDINH_BHYT>45</CHIDINH_BHYT>
+    <DUOC>7</DUOC>
+    <DUOC_BHYT>311</DUOC_BHYT>
+  </Table>
+  <Table>
+    <MA>0027</MA>
+    <HOTEN>Bs Nguyễn Cao Viễn </HOTEN>
+    <KHAM>1</KHAM>
+    <KHAM_BHYT>0</KHAM_BHYT>
+    <PTTT>0</PTTT>
+    <PTTT_BHYT>0</PTTT_BHYT>
+    <CHIDINH>0</CHIDINH>
+    <CHIDINH_BHYT>0</CHIDINH_BHYT>
+    <DUOC>51</DUOC>
+    <DUOC_BHYT>0</DUOC_BHYT>
+  </Table>
+  <Table>
+    <MA>0028</MA>
+    <HOTEN>Nhs Trần Thị Anh Vũ</HOTEN>
+    <KHAM>6</KHAM>
+    <KHAM_BHYT>12</KHAM_BHYT>
+    <PTTT>0</PTTT>
+    <PTTT_BHYT>0</PTTT_BHYT>
+    <CHIDINH>0</CHIDINH>
+    <CHIDINH_BHYT>4</CHIDINH_BHYT>
+    <DUOC>17</DUOC>
+    <DUOC_BHYT>68</DUOC_BHYT>
+  </Table>
+  <Table>
+    <MA>0029</MA>
+    <HOTEN>Nhs Lê Thị Thuý Hằng </HOTEN>
+    <KHAM>7</KHAM>
+    <KHAM_BHYT>13</KHAM_BHYT>
+    <PTTT>0</PTTT>
+    <PTTT_BHYT>0</PTTT_BHYT>
+    <CHIDINH>5</CHIDINH>
+    <CHIDINH_BHYT>24</CHIDINH_BHYT>
+    <DUOC>49</DUOC>
+    <DUOC_BHYT>82</DUOC_BHYT>
+  </Table>
+  <Table>
+    <MA>0030</MA>
+    <HOTEN>Bs Nguyễn Cao Viễn </HOTEN>
+    <KHAM>0</KHAM>
+    <KHAM_BHYT>0</KHAM_BHYT>
+    <PTTT>0</PTTT>
+    <PTTT_BHYT>0</PTTT_BHYT>
+    <CHIDINH>0</CHIDINH>
+    <CHIDINH_BHYT>0</CHIDINH_BHYT>
+    <DUOC>16</DUOC>
+    <DUOC_BHYT>0</DUOC_BHYT>
+  </Table>
+  <Table>
+    <MA>0031</MA>
+    <HOTEN>Hoàng Như Phúc</HOTEN>
+    <KHAM>0</KHAM>
+    <KHAM_BHYT>0</KHAM_BHYT>
+    <PTTT>0</PTTT>
+    <PTTT_BHYT>0</PTTT_BHYT>
+    <CHIDINH>0</CHIDINH>
+    <CHIDINH_BHYT>0</CHIDINH_BHYT>
+    <DUOC>0</DUOC>
+    <DUOC_BHYT>31</DUOC_BHYT>
+  </Table>
+</NewDataSet>

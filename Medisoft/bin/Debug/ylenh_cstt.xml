@@ -1,0 +1,189 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Table" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="id" type="xs:decimal" minOccurs="0" />
+                <xs:element name="stt" type="xs:decimal" minOccurs="0" />
+                <xs:element name="doituong" type="xs:string" minOccurs="0" />
+                <xs:element name="mabd" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ma" type="xs:string" minOccurs="0" />
+                <xs:element name="ten" type="xs:string" minOccurs="0" />
+                <xs:element name="tenhc" type="xs:string" minOccurs="0" />
+                <xs:element name="dang" type="xs:string" minOccurs="0" />
+                <xs:element name="tenkho" type="xs:string" minOccurs="0" />
+                <xs:element name="soluong" type="xs:decimal" minOccurs="0" />
+                <xs:element name="madoituong" type="xs:decimal" minOccurs="0" />
+                <xs:element name="makho" type="xs:decimal" minOccurs="0" />
+                <xs:element name="cachdung" type="xs:string" minOccurs="0" />
+                <xs:element name="mahc" type="xs:string" minOccurs="0" />
+                <xs:element name="diung" type="xs:string" minOccurs="0" />
+                <xs:element name="manguon" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tutruc" type="xs:int" minOccurs="0" />
+                <xs:element name="idvpkhoa" type="xs:decimal" minOccurs="0" />
+                <xs:element name="solan" type="xs:decimal" minOccurs="0" />
+                <xs:element name="lan" type="xs:decimal" minOccurs="0" />
+                <xs:element name="done" type="xs:int" minOccurs="0" />
+                <xs:element name="manhom" type="xs:decimal" minOccurs="0" />
+                <xs:element name="maloai" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tennhom" type="xs:string" minOccurs="0" />
+                <xs:element name="tenloai" type="xs:string" minOccurs="0" />
+                <xs:element name="hoten" type="xs:string" minOccurs="0" />
+                <xs:element name="Dongia" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sovaovien" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <id>121217000000003120</id>
+    <stt>1</stt>
+    <doituong>Thu phí</doituong>
+    <mabd>176944</mabd>
+    <ma>ADR002</ma>
+    <ten>Adrenalin 1mg/1ml </ten>
+    <tenhc>Adrenalin 1mg/1ml</tenhc>
+    <dang>Ống</dang>
+    <tenkho>Kho nội trú</tenkho>
+    <soluong>1.0000</soluong>
+    <madoituong>2</madoituong>
+    <makho>5</makho>
+    <cachdung> ngày 1 lần , lần 1 Ống</cachdung>
+    <mahc>ADR002+</mahc>
+    <diung xml:space="preserve"> </diung>
+    <manguon>1</manguon>
+    <tutruc>1</tutruc>
+    <idvpkhoa>0</idvpkhoa>
+    <solan>1</solan>
+    <lan>1.0000</lan>
+    <done>0</done>
+    <manhom>5</manhom>
+    <maloai>34</maloai>
+    <tennhom>Thuốc Thường</tennhom>
+    <tenloai>Tim mạch -huyết áp</tenloai>
+    <hoten>Administrator</hoten>
+    <Dongia>5875.0000</Dongia>
+    <sovaovien>0000786/12</sovaovien>
+  </Table>
+  <Table>
+    <ten />
+    <dang />
+    <soluong>0</soluong>
+    <cachdung />
+  </Table>
+  <Table>
+    <ten />
+    <dang />
+    <soluong>0</soluong>
+    <cachdung />
+  </Table>
+  <Table>
+    <ten />
+    <dang />
+    <soluong>0</soluong>
+    <cachdung />
+  </Table>
+  <Table>
+    <ten />
+    <dang />
+    <soluong>0</soluong>
+    <cachdung />
+  </Table>
+  <Table>
+    <ten />
+    <dang />
+    <soluong>0</soluong>
+    <cachdung />
+  </Table>
+  <Table>
+    <ten />
+    <dang />
+    <soluong>0</soluong>
+    <cachdung />
+  </Table>
+  <Table>
+    <ten />
+    <dang />
+    <soluong>0</soluong>
+    <cachdung />
+  </Table>
+  <Table>
+    <ten />
+    <dang />
+    <soluong>0</soluong>
+    <cachdung />
+  </Table>
+  <Table>
+    <ten />
+    <dang />
+    <soluong>0</soluong>
+    <cachdung />
+  </Table>
+  <Table>
+    <ten />
+    <dang />
+    <soluong>0</soluong>
+    <cachdung />
+  </Table>
+  <Table>
+    <ten />
+    <dang />
+    <soluong>0</soluong>
+    <cachdung />
+  </Table>
+  <Table>
+    <ten />
+    <dang />
+    <soluong>0</soluong>
+    <cachdung />
+  </Table>
+  <Table>
+    <ten />
+    <dang />
+    <soluong>0</soluong>
+    <cachdung />
+  </Table>
+  <Table>
+    <ten />
+    <dang />
+    <soluong>0</soluong>
+    <cachdung />
+  </Table>
+  <Table>
+    <ten />
+    <dang />
+    <soluong>0</soluong>
+    <cachdung />
+  </Table>
+  <Table>
+    <ten />
+    <dang />
+    <soluong>0</soluong>
+    <cachdung />
+  </Table>
+  <Table>
+    <ten />
+    <dang />
+    <soluong>0</soluong>
+    <cachdung />
+  </Table>
+  <Table>
+    <ten />
+    <dang />
+    <soluong>0</soluong>
+    <cachdung />
+  </Table>
+  <Table>
+    <ten />
+    <dang />
+    <soluong>0</soluong>
+    <cachdung />
+  </Table>
+</NewDataSet>

@@ -1,0 +1,1034 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="id" type="xs:decimal" minOccurs="0" />
+                <xs:element name="id_cha" type="xs:decimal" minOccurs="0" />
+                <xs:element name="stt" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ten" type="xs:string" minOccurs="0" />
+                <xs:element name="sql" type="xs:string" minOccurs="0" />
+                <xs:element name="tenfield" type="xs:string" minOccurs="0" />
+                <xs:element name="captionfield" type="xs:string" minOccurs="0" />
+                <xs:element name="width" type="xs:string" minOccurs="0" />
+                <xs:element name="report" type="xs:string" minOccurs="0" />
+                <xs:element name="readonly" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <id>2</id>
+    <id_cha>1</id_cha>
+    <stt>1</stt>
+    <ten>1. Báo cáo tình hình BN</ten>
+    <sql />
+    <tenfield />
+    <captionfield />
+    <width />
+    <report />
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>11</id>
+    <id_cha>6</id_cha>
+    <stt>2</stt>
+    <ten>2. Báo cáo sử dụng thuốc theo khoa</ten>
+    <sql />
+    <tenfield />
+    <captionfield />
+    <width />
+    <report />
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>7</id>
+    <id_cha>6</id_cha>
+    <stt>1</stt>
+    <ten>1. Báo cáo sử dụng thuốc BN(Phòng Lưu)</ten>
+    <sql />
+    <tenfield />
+    <captionfield />
+    <width />
+    <report />
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>4</id>
+    <id_cha>2</id_cha>
+    <stt>2</stt>
+    <ten>Tai nạn lao động</ten>
+    <sql>select bn.hoten,bn.mabn,bn.namsinh,xa.tenpxa ,quan.tenquan , tinh.tentt, to_char(ba.ngay,'dd/mm/yyyy') as ngayvv,to_char(xv.ngay,'dd/mm/yyyy') as ngayrv, xv.chandoan,xv.ketqua,xv.maicd from medibv.benhandt ba,medibv.btdbn bn, medibv.btdpxa xa,medibv.btdquan quan,medibv.btdtt tinh,medibv.xuatvien xv where xv.mabn=bn.mabn and bn.maphuongxa=xa.maphuongxa and bn.maqu=quan.maqu and bn.matt=tinh.matt and bn.mabn=ba.mabn and xv.maicd in ('X48','X49','X68','X69') and to_date(to_char(xv.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and to_date(':v_dn','dd/mm/yyyy')</sql>
+    <tenfield>hoten,namsinh,tenpxa,tenquan,tentt,ngayvv,ngayrv,chandoan,ketqua,maicd</tenfield>
+    <captionfield>họ tên,Tuổi, xã ,quận,tỉnh,ngày vào viện, ngày ra viện,chẩn đoán,kết quả,maicd</captionfield>
+    <width />
+    <report>A_rptTktainanlaodong.rpt</report>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>19</id>
+    <id_cha>11</id_cha>
+    <stt>5</stt>
+    <ten>d_tutrucct (Bo sung co so)</ten>
+    <sql>select makp,makho,stt,mabd,tondau,slnhap,slxuat from medibvmmyy.d_tutrucct</sql>
+    <tenfield>makp,makho,stt,mabd,tondau,slnhap,slxuat</tenfield>
+    <captionfield>makp,makho,stt,mabd,tondau,slnhap,slxuat</captionfield>
+    <width />
+    <report />
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>15</id>
+    <id_cha>11</id_cha>
+    <stt>1</stt>
+    <ten>d_xuatsdct</ten>
+    <sql>select id,stt,sttt,makho,mabd,soluong,sttduyet from medibvmmyy.d_xuatsdct</sql>
+    <tenfield>id,stt,sttt,makho,mabd,soluong,sttduyet</tenfield>
+    <captionfield>id,stt,sttt,makho,mabd,soluong,sttduyet</captionfield>
+    <width />
+    <report>A_Baocaosudung.rpt</report>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>16</id>
+    <id_cha>11</id_cha>
+    <stt>2</stt>
+    <ten>d_xuattutrucct</ten>
+    <sql>select id,stt,makho,mabd,slyeucau,slthuc from medibvmmyy.d_xtutrucct</sql>
+    <tenfield>id,stt,makho,mabd,slyeucau,slthuc</tenfield>
+    <captionfield>id,stt,makho,mabd,slyeucau,slthuc</captionfield>
+    <width />
+    <report>A_Baocaosudung.rpt</report>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>18</id>
+    <id_cha>11</id_cha>
+    <stt>4</stt>
+    <ten>d_hoantract</ten>
+    <sql>select id,stt,ngay,makho,mabd,slyeucau,slthuc from medibvmmyy.d_hoantract</sql>
+    <tenfield>id,stt,ngay,makho,mabd,slyeucau,slthuc</tenfield>
+    <captionfield>id,stt,ngay,makho,mabd,slyeucau,slthuc</captionfield>
+    <width />
+    <report>A_Baocaosudung.rpt</report>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>17</id>
+    <id_cha>11</id_cha>
+    <stt>3</stt>
+    <ten>d_dutruct</ten>
+    <sql>select a.id,b.ten,b.dang,a.stt,a.makho,a.mabd,sum(a.slyeucau) as slyeucau,sum(a.slthuc) as soluong from medibvmmyy.d_dutruct a,medibv.d_dmbd b where a.mabd=b.id
+group by  a.id,b.ten,b.dang,a.stt,a.makho,a.mabd</sql>
+    <tenfield>id,ten,dang,stt,makho,mabd,slyeucau,soluong</tenfield>
+    <captionfield>id,ten,dang,stt,makho,mabd,slyeucau,soluong</captionfield>
+    <width />
+    <report>A_Baocaoduoc.rpt</report>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>12</id>
+    <id_cha>7</id_cha>
+    <stt>2</stt>
+    <ten>Báo cáo thuốc gây nghiên</ten>
+    <sql>select bn.mabn,bn.hoten,xa.tenpxa ,quan.tenquan,tinh.tentt,ba.chandoan,bd.ten,bd.dang,sum(tienthuoc.soluong) soluong,nhom.ten,dkp.ten,dkp.ma,to_char(tienthuoc.ngay,'dd/mm/yyyy') as ngaythuoc
+from medibv.benhandt ba,medibv.btdbn bn, medibv.btdpxa xa,medibv.btdquan quan,medibv.btdtt tinh,medibv.d_dmbd bd,medibv.d_dmnhom nhom,medibv0907.d_tienthuoc tienthuoc,medibv.d_duockp dkp
+where bn.maphuongxa=xa.maphuongxa and bn.maqu=quan.maqu and bn.matt=tinh.matt and bn.mabn=ba.mabn and bn.mabn=tienthuoc.mabn and tienthuoc.mabd=bd.id and tienthuoc.makp=dkp.ma and bd.manhom=nhom.id and dkp.ma=12 and nhom.id=1 and to_date(to_char(tienthuoc.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and to_date(':v_dn','dd/mm/yyyy')  
+group by bn.mabn,bn.hoten,xa.tenpxa ,quan.tenquan,tinh.tentt,ba.chandoan,bd.ten,bd.dang,nhom.ten,dkp.ten,dkp.ma,ngaythuoc</sql>
+    <tenfield>mabn,hoten,chandoan,ten,dang,soluong</tenfield>
+    <captionfield>Mã Bn, Họ Tên, chẩn đoán, Tên thuốc,Đvt, Số lượng</captionfield>
+    <width />
+    <report>A_Gaynghien.rpt</report>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>13</id>
+    <id_cha>7</id_cha>
+    <stt>3</stt>
+    <ten>Báo cáo thuốc hướng thần</ten>
+    <sql>select bn.mabn,bn.hoten,xa.tenpxa ,quan.tenquan,tinh.tentt,ba.chandoan,bd.ten,bd.dang,sum(tienthuoc.soluong) soluong,nhom.ten,dkp.ten,dkp.ma,to_char(tienthuoc.ngay,'dd/mm/yyyy') as ngaythuoc
+from medibv.benhandt ba,medibv.btdbn bn, medibv.btdpxa xa,medibv.btdquan quan,medibv.btdtt tinh,medibv.d_dmbd bd,medibv.d_dmnhom nhom,medibvmmyy.d_tienthuoc tienthuoc,medibv.d_duockp dkp
+where bn.maphuongxa=xa.maphuongxa and bn.maqu=quan.maqu and bn.matt=tinh.matt and bn.mabn=ba.mabn and bn.mabn=tienthuoc.mabn and tienthuoc.mabd=bd.id and tienthuoc.makp=dkp.ma and bd.manhom=nhom.id and dkp.ma=12 and nhom.id=4 and to_date(to_char(tienthuoc.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and to_date(':v_dn','dd/mm/yyyy')  
+group by bn.mabn,bn.hoten,xa.tenpxa ,quan.tenquan,tinh.tentt,ba.chandoan,bd.ten,bd.dang,nhom.ten,dkp.ten,dkp.ma,ngaythuoc</sql>
+    <tenfield>mabn,hoten,chandoan,ten,dang,soluong,ngaythuoc</tenfield>
+    <captionfield>Mã Bn, Họ Tên, chẩn đoán, Tên thuốc,Đvt, Số lượng,ngaythuoc</captionfield>
+    <width />
+    <report>A_Huongthan.rpt</report>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>14</id>
+    <id_cha>2</id_cha>
+    <stt>6</stt>
+    <ten>Sốt xuất huyết</ten>
+    <sql>select bn.hoten,bn.mabn,bn.namsinh,xa.tenpxa ,quan.tenquan , tinh.tentt, to_char(ba.ngay,'dd/mm/yyyy') as ngay_vv,to_char(xv.ngay,'dd/mm/yyyy') as ngay_rv, xv.chandoan,xv.maicd from medibv.benhandt ba,medibv.btdbn bn, medibv.btdpxa xa,medibv.btdquan quan,medibv.btdtt tinh,medibv.xuatvien xv where xv.mabn=bn.mabn and bn.maphuongxa=xa.maphuongxa and bn.maqu=quan.maqu and bn.matt=tinh.matt and bn.mabn=ba.mabn and xv.maicd in ('A91','A96','A96.0','A96.1','A96.8','A96.9','A98','A98.0','A98.1','A98.5','A98.8','A99') and to_date(to_char(xv.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and to_date(':v_dn','dd/mm/yyyy')</sql>
+    <tenfield>hoten,namsinh,tenpxa,tenquan,tentt,ngay_vv,ngay_rv,chandoan</tenfield>
+    <captionfield>Họ tên, Tuổi, Xã, Quận,Tỉnh,Ngày vào,Ngày ra,Chẩn đoán</captionfield>
+    <width />
+    <report>A_rptTksotxuathuyet.rpt</report>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>9</id>
+    <id_cha>2</id_cha>
+    <stt>3</stt>
+    <ten>Bệnh Sốt rét</ten>
+    <sql>select bn.hoten,bn.mabn,bn.namsinh,xa.tenpxa ,quan.tenquan , tinh.tentt, to_char(ba.ngay,'dd/mm/yyyy') as ngay_vv,to_char(xv.ngay,'dd/mm/yyyy') as ngay_rv, xv.chandoan,xv.maicd from medibv.benhandt ba,medibv.btdbn bn, medibv.btdpxa xa,medibv.btdquan quan,medibv.btdtt tinh,medibv.xuatvien xv where xv.mabn=bn.mabn and bn.maphuongxa=xa.maphuongxa and bn.maqu=quan.maqu and bn.matt=tinh.matt and bn.mabn=ba.mabn and xv.maicd in ('B50','B50.0','B50.8','B50.9','B51','B51.8','B51.9','B52','B52.0','B52.8','B52.9','B53','B53.0','B53.1','B53.8','B54','P37.3','P37.4') and to_date(to_char(xv.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and to_date(':v_dn','dd/mm/yyyy')
+order by bn.hoten</sql>
+    <tenfield>mabn,hoten,namsinh,tenpxa,tenquan,tentt,chandoan,maicd,ngay_vv,ngay_rv</tenfield>
+    <captionfield>Mã BN,Họ tên, Tuổi, Xã, Quận,Tỉnh,Chẩn đoán,maicd,maicd,Ngày vào viện,Ngày ra viện</captionfield>
+    <width />
+    <report>A_rptTksotret.rpt</report>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>5</id>
+    <id_cha>2</id_cha>
+    <stt>4</stt>
+    <ten>Bệnh Truyền Nhiễm</ten>
+    <sql>select bn.hoten,bn.mabn,bn.namsinh,xa.tenpxa ,quan.tenquan ,tinh.tentt, to_char(ba.ngay,'dd/mm/yyyy') as ngay_vv,to_char(xv.ngay,'dd/mm/yyyy') as ngay_rv, xv.chandoan,xv.maicd,nhom.nhom 
+from medibv.benhandt ba,medibv.btdbn bn, medibv.btdpxa xa,medibv.btdquan quan,medibv.btdtt tinh,medibv.xuatvien xv,medibv.icd_chapter ct,medibv.icd_nhom nhom,medibv.icd10 icd
+where xv.mabn=bn.mabn and bn.maphuongxa=xa.maphuongxa and bn.maqu=quan.maqu and bn.matt=tinh.matt and bn.mabn=ba.mabn and icd.cicd10=xv.maicd and ct.id_chapter=nhom.id_chapter and nhom.id_nhom=icd.id_nhom  and ct.id_chapter=1
+and icd.cicd10 
+in ('A00','A00.0','A00.1','A00.9','A01','A01.0','A01.1','A01.2','A06.0','A06.2','M02.1','A03.4','K58.0','K58.9','K59.1','K90.1','A83','A83.8','A83.9','A84','A84.0','A84.8','A84.9','A85','A85.2','A85.8','A86','A90','B17','B17.8','B18','B17.8','B18.0','B18.1','B18.8','B18.9','B19','B19.0','B19.9','O98.4','P35.3','A82','A82.0','A82.1','B01.2','G53.0','A36','A36.0','A36.1','A36.2','A36.3','A36.8','A36.9','A37','A37.0','A37.1','A37.8','A37.9','A33','A35','A80','A80.4','A80.9','B91','B05','B05.8','B05.9','B26','B26.8','B26.9','J10','J10','J10.0','J10.1','J10.8','J11','J11.0','J11.1','J11.8','A20','A20.0','A20.1','A20.2','A22','A22.0','A22.1','A22.2','A22.7','A22.8','A22.9','A27','A27.0','A27.8','A27.9','B20','B20.0','B20.1','B20.2','B20.3','B20.4','B20.5','B20.6','B20.7','B20.8','B20.9','B20.10','B21','B21.3','B21.7','B21.9','B22','B22.0','B22.1','B22.2','B22.7','B23','B23.0','B23.1','B23.2','B23.8','B24') and to_date(to_char(xv.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and to_date(':v_dn','dd/mm/yyyy')
+order by xv.chandoan</sql>
+    <tenfield>hoten,namsinh,tenpxa,tenquan,tentt,chandoan,maicd</tenfield>
+    <captionfield>Họ tên, Tuổi, Xã, Quận,Tỉnh,Chẩn đoán,maicd</captionfield>
+    <width>A_Tktnttdinhky.rpt</width>
+    <report>A_rptTkTruyennhiem.rpt</report>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>33</id>
+    <id_cha>0</id_cha>
+    <stt>2</stt>
+    <ten>I. BÁO CÁO TÌNH HÌNH BỆNH TẬT</ten>
+    <sql />
+    <tenfield />
+    <captionfield />
+    <width />
+    <report />
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>35</id>
+    <id_cha>33</id_cha>
+    <stt>2</stt>
+    <ten>2. Bệnh sốt rét</ten>
+    <sql>select bn.hoten,bn.mabn,bn.namsinh,xa.tenpxa ,quan.tenquan , tinh.tentt, to_char(ba.ngay,'dd/mm/yyyy') as ngay_vv,to_char(xv.ngay,'dd/mm/yyyy') as ngay_rv, xv.chandoan,xv.maicd from medibv.benhandt ba,medibv.btdbn bn, medibv.btdpxa xa,medibv.btdquan quan,medibv.btdtt tinh,medibv.xuatvien xv where xv.mabn=bn.mabn and bn.maphuongxa=xa.maphuongxa and bn.maqu=quan.maqu and bn.matt=tinh.matt and bn.mabn=ba.mabn and xv.maicd in ('B50','B50.0','B50.8','B50.9','B51','B51.8','B51.9','B52','B52.0','B52.8','B52.9','B53','B53.0','B53.1','B53.8','B54','P37.3','P37.4') and to_date(to_char(xv.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and to_date(':v_dn','dd/mm/yyyy')
+order by bn.hoten</sql>
+    <tenfield>hoten,namsinh,tenpxa,tenquan,tentt,chandoan,maicd</tenfield>
+    <captionfield>Họ tên, Tuổi, Xã, Quận,Tỉnh,Chẩn đoán,maicd</captionfield>
+    <width />
+    <report>A_rptTksotret.rpt</report>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>37</id>
+    <id_cha>33</id_cha>
+    <stt>4</stt>
+    <ten>4. Tai nạn lao động</ten>
+    <sql>select bn.hoten,bn.mabn,bn.namsinh,xa.tenpxa ,quan.tenquan , tinh.tentt,to_char(ba.ngay,'dd/mm/yyyy') as ngayvv,to_char(xv.ngay,'dd/mm/yyyy') as ngayrv,xv.chandoan,xv.ketqua,xv.maicd from medibv.benhandt ba,medibv.btdbn bn, medibv.btdpxa xa,medibv.btdquan quan,medibv.btdtt tinh,medibv.xuatvien xv where xv.mabn=bn.mabn and bn.maphuongxa=xa.maphuongxa and bn.maqu=quan.maqu and bn.matt=tinh.matt and bn.mabn=ba.mabn and xv.maicd in ('X48','X49','X68','X69') and to_date(to_char(xv.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and to_date(':v_dn','dd/mm/yyyy')</sql>
+    <tenfield>hoten,namsinh,tenpxa,tenquan,tentt,ngayvv,ngayrv,ngaytvong,chandoan,ketqua,maicd</tenfield>
+    <captionfield>họ tên,Tuổi, xã ,quận,tỉnh,ngày vào viện, ngày ra viện,Ngày tử vong,chẩn đoán,kết quả,maicd</captionfield>
+    <width />
+    <report>A_rptTktainanlaodong.rpt</report>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>34</id>
+    <id_cha>33</id_cha>
+    <stt>1</stt>
+    <ten>1. bệnh truyền nhiễm</ten>
+    <sql>select bn.hoten,bn.mabn,bn.namsinh,xa.tenpxa ,quan.tenquan ,tinh.tentt, to_char(ba.ngay,'dd/mm/yyyy') as ngay_vv,to_char(xv.ngay,'dd/mm/yyyy') as ngay_rv, xv.chandoan,xv.maicd,nhom.nhom 
+from medibv.benhandt ba,medibv.btdbn bn, medibv.btdpxa xa,medibv.btdquan quan,medibv.btdtt tinh,medibv.xuatvien xv,medibv.icd_chapter ct,medibv.icd_nhom nhom,medibv.icd10 icd
+where xv.mabn=bn.mabn and bn.maphuongxa=xa.maphuongxa and bn.maqu=quan.maqu and bn.matt=tinh.matt and bn.mabn=ba.mabn and icd.cicd10=xv.maicd and ct.id_chapter=nhom.id_chapter and nhom.id_nhom=icd.id_nhom  and ct.id_chapter=1
+and icd.cicd10 
+in ('A00','A00.0','A00.1','A00.9','A01','A01.0','A01.1','A01.2','A06.0','A06.2','M02.1','A03.4','K58.0','K58.9','K59.1','K90.1','A83','A83.8','A83.9','A84','A84.0','A84.8','A84.9','A85','A85.2','A85.8','A86','A90','B17','B17.8','B18','B17.8','B18.0','B18.1','B18.8','B18.9','B19','B19.0','B19.9','O98.4','P35.3','A82','A82.0','A82.1','B01.2','G53.0','A36','A36.0','A36.1','A36.2','A36.3','A36.8','A36.9','A37','A37.0','A37.1','A37.8','A37.9','A33','A35','A80','A80.4','A80.9','B91','B05','B05.8','B05.9','B26','B26.8','B26.9','J10','J10','J10.0','J10.1','J10.8','J11','J11.0','J11.1','J11.8','A20','A20.0','A20.1','A20.2','A22','A22.0','A22.1','A22.2','A22.7','A22.8','A22.9','A27','A27.0','A27.8','A27.9','B20','B20.0','B20.1','B20.2','B20.3','B20.4','B20.5','B20.6','B20.7','B20.8','B20.9','B20.10','B21','B21.3','B21.7','B21.9','B22','B22.0','B22.1','B22.2','B22.7','B23','B23.0','B23.1','B23.2','B23.8','B24') and to_date(to_char(xv.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and to_date(':v_dn','dd/mm/yyyy')
+order by xv.chandoan</sql>
+    <tenfield>hoten,namsinh,tenpxa,tenquan,tentt,chandoan,maicd</tenfield>
+    <captionfield>Họ tên, Tuổi, Xã, Quận,Tỉnh,Chẩn đoán,maicd</captionfield>
+    <width />
+    <report>A_rptTkTruyennhiem.rpt</report>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>36</id>
+    <id_cha>33</id_cha>
+    <stt>3</stt>
+    <ten>3. Bệnh sốt xuất huyết</ten>
+    <sql>select bn.hoten,bn.mabn,bn.namsinh,xa.tenpxa ,quan.tenquan , tinh.tentt,to_char(ba.ngay,'dd/mm/yyyy') as ngayvv,to_char(xv.ngay,'dd/mm/yyyy') as ngayrv,xv.chandoan,xv.ketqua,xv.maicd from medibv.benhandt ba,medibv.btdbn bn, medibv.btdpxa xa,medibv.btdquan quan,medibv.btdtt tinh,medibv.xuatvien xv where xv.mabn=bn.mabn and bn.maphuongxa=xa.maphuongxa and bn.maqu=quan.maqu and bn.matt=tinh.matt and bn.mabn=ba.mabn and xv.maicd in ('A91','A96','A96.0','A96.1','A96.8','A96.9','A98','A98.0','A98.1','A98.5','A98.8','A99') and to_date(to_char(xv.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and to_date(':v_dn','dd/mm/yyyy')</sql>
+    <tenfield>hoten,namsinh,tenpxa,tenquan,tentt,ngay_vv,ngay_rv,chandoan,maicd</tenfield>
+    <captionfield>Họ tên, Tuổi, Xã, Quận,Tỉnh,Ngày vào viện, Ngày ra viện,Chẩn đoán,maicd</captionfield>
+    <width />
+    <report>A_rptTksotxuathuyet.rpt</report>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>8</id>
+    <id_cha>7</id_cha>
+    <stt>1</stt>
+    <ten>BN sử dụng thuốc (Gây nghiện,Hướng Thần)</ten>
+    <sql>select bn.mabn,bn.hoten,xa.tenpxa ,ba.chandoan,quan.tenquan,tinh.tentt,bd.ten,bd.dang,sum(tienthuoc.soluong) soluong,nhom.ten
+
+from medibv.benhandt ba,medibv.btdbn bn, medibv.btdpxa xa,medibv.btdquan quan,medibv.btdtt tinh,medibv.d_dmbd bd,medibv.d_dmnhom nhom,medibvmmyy.d_tienthuoc tienthuoc
+
+where bn.maphuongxa=xa.maphuongxa and bn.maqu=quan.maqu and bn.matt=tinh.matt and bn.mabn=tienthuoc.mabn and tienthuoc.mabd in (select id from medibv.d_dmbd where manhom in (select id from medibv.d_dmnhom where id in (1,4))) and tienthuoc.mabd=bd.id and bd.manhom=nhom.id and ba.mavaovien=tienthuoc.mavaovien and bd.manhom=nhom.id
+group by bn.mabn,bn.hoten,xa.tenpxa,ba.chandoan,quan.tenquan,tinh.tentt,bd.ten,bd.dang,nhom.ten</sql>
+    <tenfield>mabn,hoten,ten,dang,soluong,chandoan</tenfield>
+    <captionfield>Mã Bn, Họ Tên,Tên thuốc,Đvt, Số lượng,chandoan</captionfield>
+    <width />
+    <report>A_DoNghien_PhongLuu</report>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>20</id>
+    <id_cha>0</id_cha>
+    <stt>4</stt>
+    <ten>II. BÁO CÁO THUỐC GÂY NGHIỆN</ten>
+    <sql />
+    <tenfield />
+    <captionfield />
+    <width />
+    <report />
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>56</id>
+    <id_cha>0</id_cha>
+    <stt>6</stt>
+    <ten>III. BÁO CÁO THUỐC HƯỚNG THẦN</ten>
+    <sql />
+    <tenfield />
+    <captionfield />
+    <width />
+    <report />
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>78</id>
+    <id_cha>77</id_cha>
+    <stt>1</stt>
+    <ten>BHYT, Trẻ em, miễn</ten>
+    <sql>select bhytthuoc.mabd,dmbd.ma,dmbd.ten,dmbd.hamluong,dmbd.dang,dmbd.manhom,dmbd.mahang,sum(bhytthuoc.soluong) as soluong,theodoi.giamua,bhytkb.makp,btdkpbv.tenkp 
+from medibvmmyy.bhytthuoc bhytthuoc,medibv.d_dmbd dmbd,medibvmmyy.bhytkb bhytkb,medibv.btdkp_bv btdkpbv,medibvmmyy.d_theodoi theodoi
+where bhytthuoc.id=bhytkb.id and bhytthuoc.mabd=dmbd.id and btdkpbv.makp=bhytkb.makp and theodoi.id=bhytthuoc.sttt and tenkp='Pk - Nhi 15'
+group by bhytthuoc.mabd,dmbd.ma,dmbd.ten,dmbd.hamluong,dmbd.dang,dmbd.manhom,dmbd.mahang,theodoi.giamua,bhytkb.makp,btdkpbv.tenkp</sql>
+    <tenfield>mabd,ma,ten,hamluong,dang,soluong,giamua,tenkp</tenfield>
+    <captionfield>mabd , mathuoc ,ten ,hamluong , dang , soluong , giamua , tenkp</captionfield>
+    <width />
+    <report>BHYT_Nhi15.rpt</report>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>77</id>
+    <id_cha>75</id_cha>
+    <stt>9</stt>
+    <ten>PK - Nhi 15</ten>
+    <sql />
+    <tenfield />
+    <captionfield />
+    <width />
+    <report />
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>79</id>
+    <id_cha>77</id_cha>
+    <stt>2</stt>
+    <ten>Thu phí</ten>
+    <sql>select danhmuc.ten,danhmuc.dang,sum(toact.soluong)as soluong,toall.makp,btdkp.tenkp
+from medibvmmyy.d_toathuocct toact,medibv.d_dmthuoc danhmuc,medibvmmyy.d_toathuocll toall,medibv.btdkp_bv btdkp
+where toact.mabd=danhmuc.id and toact.id=toall.id and toall.makp=btdkp.makp and tenkp='Pk - Nhi 15'
+group by danhmuc.ten,danhmuc.dang,toall.makp,btdkp.tenkp</sql>
+    <tenfield>ten,dang,soluong,makp,tenkp</tenfield>
+    <captionfield />
+    <width />
+    <report>ThuPhi_Nhi15.rpt</report>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>75</id>
+    <id_cha>0</id_cha>
+    <stt>8</stt>
+    <ten>V. BC Phòng Khám Sử Dụng Thuốc</ten>
+    <sql />
+    <tenfield />
+    <captionfield />
+    <width />
+    <report />
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>82</id>
+    <id_cha>80</id_cha>
+    <stt>10</stt>
+    <ten>2. Phiếu lĩnh lần 2</ten>
+    <sql>select xuatll.mabn,btdbn.hoten,dtct.mabd,dmbd.ten,dmbd.hamluong,dmbd.dang,dtct.slyeucau,dtct.slthuc  
+from medibvmmyy.d_dutruct dtct,medibvmmyy.d_xuatsdll xuatll,medibv.d_dmbd dmbd,medibv.btdbn btdbn
+where dtct.id=xuatll.idduyet 
+and dtct.id in (select idduyet from medibvmmyy.d_xuatsdll where id in (select id from medibvmmyy.d_xuatsdll where loai=1 and phieu=2 and makp=1 and to_char(ngayylenh,'dd/mm/yyyy')='04/03/2008')) 
+and slthuc=0 and dmbd.id=dtct.mabd and btdbn.mabn=xuatll.mabn</sql>
+    <tenfield>mabd,hoten,mabd,ten,hamluong,dang,slyeucau,slthuc</tenfield>
+    <captionfield />
+    <width />
+    <report />
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>84</id>
+    <id_cha>80</id_cha>
+    <stt>10</stt>
+    <ten>4. Phiếu lĩnh lần 4</ten>
+    <sql>select xuatll.mabn,btdbn.hoten,dtct.mabd,dmbd.ten,dmbd.hamluong,dmbd.dang,dtct.slyeucau,dtct.slthuc  
+from medibvmmyy.d_dutruct dtct,medibvmmyy.d_xuatsdll xuatll,medibv.d_dmbd dmbd,medibv.btdbn btdbn
+where dtct.id=xuatll.idduyet 
+and dtct.id in (select idduyet from medibvmmyy.d_xuatsdll where id in (select id from medibvmmyy.d_xuatsdll where loai=1 and phieu=11
+and makp=1
+and to_char(ngayylenh,'dd/mm/yyyy')='04/03/2008')) 
+and slthuc=0 and dmbd.id=dtct.mabd and btdbn.mabn=xuatll.mabn</sql>
+    <tenfield>mabd,hoten,mabd,ten,hamluong,dang,slyeucau,slthuc</tenfield>
+    <captionfield />
+    <width />
+    <report />
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>85</id>
+    <id_cha>80</id_cha>
+    <stt>10</stt>
+    <ten>5. Phiếu lĩnh lần 5</ten>
+    <sql>select xuatll.mabn,btdbn.hoten,dtct.mabd,dmbd.ten,dmbd.hamluong,dmbd.dang,dtct.slyeucau,dtct.slthuc  
+from medibvmmyy.d_dutruct dtct,medibvmmyy.d_xuatsdll xuatll,medibv.d_dmbd dmbd,medibv.btdbn btdbn
+where dtct.id=xuatll.idduyet 
+and dtct.id in (select idduyet from medibvmmyy.d_xuatsdll where id in (select id from medibvmmyy.d_xuatsdll where loai=1 and phieu=12
+and makp=1
+and to_char(ngayylenh,'dd/mm/yyyy')='04/03/2008')) 
+and slthuc=0 and dmbd.id=dtct.mabd and btdbn.mabn=xuatll.mabn</sql>
+    <tenfield>mabd,hoten,mabd,ten,hamluong,dang,slyeucau,slthuc</tenfield>
+    <captionfield />
+    <width />
+    <report />
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>86</id>
+    <id_cha>80</id_cha>
+    <stt>10</stt>
+    <ten>6. Phiếu lĩnh lần 6</ten>
+    <sql>select xuatll.mabn,btdbn.hoten,dtct.mabd,dmbd.ten,dmbd.hamluong,dmbd.dang,dtct.slyeucau,dtct.slthuc  
+from medibvmmyy.d_dutruct dtct,medibvmmyy.d_xuatsdll xuatll,medibv.d_dmbd dmbd,medibv.btdbn btdbn
+where dtct.id=xuatll.idduyet 
+and dtct.id in (select idduyet from medibvmmyy.d_xuatsdll where id in (select id from medibvmmyy.d_xuatsdll where loai=1 and phieu=17
+and makp=1
+and to_char(ngayylenh,'dd/mm/yyyy')='04/03/2008')) 
+and slthuc=0 and dmbd.id=dtct.mabd and btdbn.mabn=xuatll.mabn</sql>
+    <tenfield>mabd,hoten,mabd,ten,hamluong,dang,slyeucau,slthuc</tenfield>
+    <captionfield />
+    <width />
+    <report />
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>80</id>
+    <id_cha>0</id_cha>
+    <stt>9</stt>
+    <ten>VI. Thuốc duyệt bị treo (Goi vi tính xem dùm: 0968720884)</ten>
+    <sql />
+    <tenfield />
+    <captionfield />
+    <width />
+    <report />
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>83</id>
+    <id_cha>80</id_cha>
+    <stt>10</stt>
+    <ten>3. Phiếu lĩnh lần 3</ten>
+    <sql>select xuatll.mabn,btdbn.hoten,dtct.mabd,dmbd.ten,dmbd.hamluong,dmbd.dang,dtct.slyeucau,dtct.slthuc  
+from medibvmmyy.d_dutruct dtct,medibvmmyy.d_xuatsdll xuatll,medibv.d_dmbd dmbd,medibv.btdbn btdbn
+where dtct.id=xuatll.idduyet and dtct.id in (select idduyet from medibvmmyy.d_xuatsdll 
+where id in (select id from medibvmmyy.d_xuatsdll where loai=1 and phieu=3 and makp=7 and to_char(ngayylenh,'dd/mm/yyyy')='30/03/2008')) 
+and slthuc=0 and dmbd.id=dtct.mabd and btdbn.mabn=xuatll.mabn</sql>
+    <tenfield>mabd,hoten,mabd,ten,hamluong,dang,slyeucau,slthuc</tenfield>
+    <captionfield />
+    <width />
+    <report />
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>90</id>
+    <id_cha>89</id_cha>
+    <stt>1</stt>
+    <ten>11. Phẫu Thuật - GMHS</ten>
+    <sql>select * from medibv0408.pttt where makp=11 and tinhhinh=2</sql>
+    <tenfield>mabn</tenfield>
+    <captionfield>mabn</captionfield>
+    <width />
+    <report />
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>81</id>
+    <id_cha>80</id_cha>
+    <stt>1</stt>
+    <ten>1. Phiếu lĩnh lần 1</ten>
+    <sql>select xuatll.mabn,btdbn.hoten,dtct.mabd,dmbd.ten,dmbd.hamluong,dmbd.dang,dtct.slyeucau,dtct.slthuc  
+from medibvmmyy.d_dutruct dtct,medibvmmyy.d_xuatsdll xuatll,medibv.d_dmbd dmbd,medibv.btdbn btdbn
+where dtct.id=xuatll.idduyet 
+and dtct.id in (select idduyet from medibvmmyy.d_xuatsdll where id in (select id from medibvmmyy.d_xuatsdll where loai=1 and phieu=1 and makp='09' and to_char(ngayylenh,'dd/mm/yyyy')='25/04/2008')) 
+and slthuc=0 and dmbd.id=dtct.mabd and btdbn.mabn=xuatll.mabn</sql>
+    <tenfield>mabd,hoten,mabd,ten,hamluong,dang,slyeucau,slthuc</tenfield>
+    <captionfield />
+    <width />
+    <report />
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>93</id>
+    <id_cha>75</id_cha>
+    <stt>10</stt>
+    <ten>PK - Răng Hàm Mặt</ten>
+    <sql />
+    <tenfield />
+    <captionfield />
+    <width />
+    <report />
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>95</id>
+    <id_cha>93</id_cha>
+    <stt>2</stt>
+    <ten>Thu phí</ten>
+    <sql>select danhmuc.ten,danhmuc.dang,sum(toact.soluong)as soluong,toall.makp,btdkp.tenkp
+from medibvmmyy.d_toathuocct toact,medibv.d_dmthuoc danhmuc,medibvmmyy.d_toathuocll toall,medibv.btdkp_bv btdkp
+where toact.mabd=danhmuc.id and toact.id=toall.id and toall.makp=btdkp.makp and tenkp='Pk - Răng Hàm Mặt'
+group by danhmuc.ten,danhmuc.dang,toall.makp,btdkp.tenkp</sql>
+    <tenfield>ten,dang,soluong,makp,tenkp</tenfield>
+    <captionfield>ten,dang,soluong,makp,tenkp</captionfield>
+    <width />
+    <report />
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>94</id>
+    <id_cha>93</id_cha>
+    <stt>1</stt>
+    <ten>BHYT, Trẻ em, miễn</ten>
+    <sql>select bhytthuoc.mabd,dmbd.ma,dmbd.ten,dmbd.hamluong,dmbd.dang,dmbd.manhom,dmbd.mahang,sum(bhytthuoc.soluong) as soluong,theodoi.giamua,bhytkb.makp,btdkpbv.tenkp 
+from medibvmmyy.bhytthuoc bhytthuoc,medibv.d_dmbd dmbd,medibvmmyy.bhytkb bhytkb,medibv.btdkp_bv btdkpbv,medibvmmyy.d_theodoi theodoi
+where bhytthuoc.id=bhytkb.id and bhytthuoc.mabd=dmbd.id and btdkpbv.makp=bhytkb.makp and theodoi.id=bhytthuoc.sttt and tenkp='Pk - Răng Hàm Mặt'
+group by bhytthuoc.mabd,dmbd.ma,dmbd.ten,dmbd.hamluong,dmbd.dang,dmbd.manhom,dmbd.mahang,theodoi.giamua,bhytkb.makp,btdkpbv.tenkp</sql>
+    <tenfield>mabd,ma,ten,hamluong,dang,soluong,giamua,tenkp</tenfield>
+    <captionfield>mabd,ma,ten,hamluong,dang,soluong,giamua,tenkp</captionfield>
+    <width />
+    <report>BHYT_PKTMH</report>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>52</id>
+    <id_cha>40</id_cha>
+    <stt>14</stt>
+    <ten>Tổng các khoa</ten>
+    <sql>select  dm.ma as MaThuoc,dm.ten as tenthuoc,dm.hamluong,dm.dang,td.giamua as dongia,ttt.tondau,ttt.slnhap,ttt.slxuat,nhom.ten tennhom,ttt.mabd as MaBDuoc
+from medibvmmyy.d_tutrucct ttt, medibv.d_dmbd dm,medibv.d_dmnhom nhom,medibvmmyy.d_theodoi td
+where ttt.mabd in (select id from medibv.d_dmbd) and ttt.mabd = dm.id and dm.manhom=nhom.id and td.id= ttt.stt</sql>
+    <tenfield>MaThuoc,ten,tenthuoc,hamluong,dang,dongia,tondau,slnhap,slxuat,tennhom,MaBDuoc</tenfield>
+    <captionfield />
+    <width />
+    <report>A_Tutruc_Tongkhoa.rpt</report>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>41</id>
+    <id_cha>40</id_cha>
+    <stt>1</stt>
+    <ten>1. Nội</ten>
+    <sql>select  dm.ma as MaThuoc,dm.ten as tenthuoc,dm.hamluong,dm.dang,sum(td.giamua) as dongia,ttt.tondau,ttt.slnhap,ttt.slxuat,nhom.ten tennhom,ttt.mabd as MaBDuoc
+from medibvmmyy.d_tutrucct ttt, medibv.d_dmbd dm,medibv.d_dmnhom nhom,medibvmmyy.d_theodoi td
+where ttt.mabd in (select id from medibv.d_dmbd) and ttt.mabd = dm.id and dm.manhom=nhom.id and td.id= ttt.stt and ttt.makp=2
+group dm.ma,dm.ten,dm.hamluong,dm.dang,ttt.tondau,ttt.slnhap,ttt.slxuat,nhom.ten tennhom,ttt.mabd</sql>
+    <tenfield>MaThuoc,ten,tenthuoc,hamluong,dang,dongia,tondau,slnhap,slxuat,tennhom,MaBDuoc</tenfield>
+    <captionfield>Mã thuốc, Tên,Tên thuốc, Hàm lượng,Đơn vị tính,Đơn giá,Tồn đầu, SLnhập,Slxuất,Tên nhóm,MãBD</captionfield>
+    <width />
+    <report>A_Tutruc_NoiTQ.rpt</report>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>42</id>
+    <id_cha>40</id_cha>
+    <stt>2</stt>
+    <ten>2. Ngoại</ten>
+    <sql>select  dm.ma as MaThuoc,dm.ten as tenthuoc,dm.hamluong,dm.dang,td.giamua as dongia,ttt.tondau,ttt.slnhap,ttt.slxuat,nhom.ten tennhom,ttt.mabd as MaBDuoc
+from medibvmmyy.d_tutrucct ttt, medibv.d_dmbd dm,medibv.d_dmnhom nhom,medibvmmyy.d_theodoi td
+where ttt.mabd in (select id from medibv.d_dmbd) and ttt.mabd = dm.id and dm.manhom=nhom.id and td.id= ttt.stt and ttt.makp=3</sql>
+    <tenfield>MaThuoc,ten,tenthuoc,hamluong,dang,dongia,tondau,slnhap,slxuat,tennhom,MaBDuoc</tenfield>
+    <captionfield />
+    <width />
+    <report>A_Tutruc_NoiDV.rpt</report>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>43</id>
+    <id_cha>40</id_cha>
+    <stt>3</stt>
+    <ten>3. Hậu sản</ten>
+    <sql>select  dm.ma as MaThuoc,dm.ten as tenthuoc,dm.hamluong,dm.dang,td.giamua as dongia,ttt.tondau,ttt.slnhap,ttt.slxuat,nhom.ten tennhom,ttt.mabd as MaBDuoc
+from medibvmmyy.d_tutrucct ttt, medibv.d_dmbd dm,medibv.d_dmnhom nhom,medibvmmyy.d_theodoi td
+where ttt.mabd in (select id from medibv.d_dmbd) and ttt.mabd = dm.id and dm.manhom=nhom.id and td.id= ttt.stt and ttt.makp=4</sql>
+    <tenfield>MaThuoc,ten,tenthuoc,hamluong,dang,dongia,tondau,slnhap,slxuat,tennhom,MaBDuoc</tenfield>
+    <captionfield />
+    <width />
+    <report>A_Tutruc_NgoaiTQ</report>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>44</id>
+    <id_cha>40</id_cha>
+    <stt>4</stt>
+    <ten>4. Nhi</ten>
+    <sql>select  dm.ma as MaThuoc,dm.ten as tenthuoc,dm.hamluong,dm.dang,td.giamua as dongia,ttt.tondau,ttt.slnhap,ttt.slxuat,nhom.ten tennhom,ttt.mabd as MaBDuoc
+from medibvmmyy.d_tutrucct ttt, medibv.d_dmbd dm,medibv.d_dmnhom nhom,medibvmmyy.d_theodoi td
+where ttt.mabd in (select id from medibv.d_dmbd) and ttt.mabd = dm.id and dm.manhom=nhom.id and td.id= ttt.stt and ttt.makp=5</sql>
+    <tenfield>MaThuoc,ten,tenthuoc,hamluong,dang,dongia,tondau,slnhap,slxuat,tennhom,MaBDuoc</tenfield>
+    <captionfield />
+    <width />
+    <report>A_Tutruc_NgoaiCT</report>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>45</id>
+    <id_cha>40</id_cha>
+    <stt>5</stt>
+    <ten>5. PTGMHS</ten>
+    <sql>select  dm.ma as MaThuoc,dm.ten as tenthuoc,dm.hamluong,dm.dang,td.giamua as dongia,ttt.tondau,ttt.slnhap,ttt.slxuat,nhom.ten tennhom,ttt.mabd as MaBDuoc
+from medibvmmyy.d_tutrucct ttt, medibv.d_dmbd dm,medibv.d_dmnhom nhom,medibvmmyy.d_theodoi td
+where ttt.mabd in (select id from medibv.d_dmbd) and ttt.mabd = dm.id and dm.manhom=nhom.id and td.id= ttt.stt and ttt.makp=6</sql>
+    <tenfield>MaThuoc,ten,tenthuoc,hamluong,dang,dongia,tondau,slnhap,slxuat,tennhom,MaBDuoc</tenfield>
+    <captionfield />
+    <width />
+    <report>A_Tutruc_RHM.rpt</report>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>46</id>
+    <id_cha>40</id_cha>
+    <stt>6</stt>
+    <ten>6. Hồi sức CC</ten>
+    <sql>select  dm.ma as MaThuoc,dm.ten as tenthuoc,dm.hamluong,dm.dang,td.giamua as dongia,ttt.tondau,ttt.slnhap,ttt.slxuat,nhom.ten tennhom,ttt.mabd as MaBDuoc
+from medibvmmyy.d_tutrucct ttt, medibv.d_dmbd dm,medibv.d_dmnhom nhom,medibvmmyy.d_theodoi td
+where ttt.mabd in (select id from medibv.d_dmbd) and ttt.mabd = dm.id and dm.manhom=nhom.id and td.id= ttt.stt and ttt.makp=7</sql>
+    <tenfield>MaThuoc,ten,tenthuoc,hamluong,dang,dongia,tondau,slnhap,slxuat,tennhom,MaBDuoc</tenfield>
+    <captionfield />
+    <width />
+    <report>A_Tutruc_Nhi.rpt</report>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>47</id>
+    <id_cha>40</id_cha>
+    <stt>7</stt>
+    <ten>7. Phòng sanh</ten>
+    <sql>select  dm.ma as MaThuoc,dm.ten as tenthuoc,dm.hamluong,dm.dang,td.giamua as dongia,ttt.tondau,ttt.slnhap,ttt.slxuat,nhom.ten tennhom,ttt.mabd as MaBDuoc
+from medibvmmyy.d_tutrucct ttt, medibv.d_dmbd dm,medibv.d_dmnhom nhom,medibvmmyy.d_theodoi td
+where ttt.mabd in (select id from medibv.d_dmbd) and ttt.mabd = dm.id and dm.manhom=nhom.id and td.id= ttt.stt and ttt.makp=8 and dm.nhom=1</sql>
+    <tenfield>MaThuoc,ten,tenthuoc,hamluong,dang,dongia,tondau,slnhap,slxuat,tennhom,MaBDuoc</tenfield>
+    <captionfield />
+    <width />
+    <report>A_Tutruc_San.rpt</report>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>40</id>
+    <id_cha>0</id_cha>
+    <stt>7</stt>
+    <ten>V. BÁO CÁO CƠ SỐ TỦ TRỰC</ten>
+    <sql />
+    <tenfield />
+    <captionfield />
+    <width />
+    <report />
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>96</id>
+    <id_cha>0</id_cha>
+    <stt>6</stt>
+    <ten>IV. BÁO CÁO THUỐC KHÁC</ten>
+    <sql />
+    <tenfield />
+    <captionfield />
+    <width />
+    <report />
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>97</id>
+    <id_cha>96</id_cha>
+    <stt>1</stt>
+    <ten>1. Nội</ten>
+    <sql>select  btdbn.mabn, btdbn.hoten,icd.maicd,icd.chandoan,dm.ma as MaThuoc,dm.ten as tenthuoc,dm.hamluong,dm.dang,dm.dongia,sum(tt.soluong) as soluong,nhom.ten tennhom,tt.mabd as MaBDuoc, to_char(tt.ngay,'dd/mm/yyyy') ngay
+from medibvmmyy.d_tienthuoc tt, medibv.d_dmbd dm,medibv.btdbn btdbn,medibv.benhandt icd,medibv.d_dmnhom nhom
+where tt.mabd in (select id from medibv.d_dmbd where manhom in (select id from medibv.d_dmnhom where id not in (1,2))) and tt.mabd = dm.id and btdbn.mabn=tt.mabn and icd.mavaovien=tt.mavaovien and tt.maql=icd.maql and dm.manhom=nhom.id and tt.makp=2
+group by btdbn.mabn, btdbn.hoten,icd.maicd,icd.chandoan,dm.ma,dm.ten,dm.hamluong,dm.dang,dm.dongia,nhom.ten,tt.mabd, to_char(tt.ngay,'dd/mm/yyyy')</sql>
+    <tenfield>ngay,mabn,hoten,chandoan,maicd,MaThuoc,tenthuoc,tennhom,hamluong,dang,soluong,dongia,MaBDuoc</tenfield>
+    <captionfield />
+    <width />
+    <report />
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>98</id>
+    <id_cha>96</id_cha>
+    <stt>10</stt>
+    <ten>2. Ngoại</ten>
+    <sql>select  btdbn.mabn, btdbn.hoten,icd.maicd,icd.chandoan,dm.ma as MaThuoc,dm.ten as tenthuoc,dm.hamluong,dm.dang,dm.dongia,sum(tt.soluong) as soluong,nhom.ten tennhom,tt.mabd as MaBDuoc, to_char(tt.ngay,'dd/mm/yyyy') ngay 
+from medibvmmyy.d_tienthuoc tt, medibv.d_dmbd dm,medibv.btdbn btdbn,medibv.benhandt icd,medibv.d_dmnhom nhom
+where tt.mabd in (select id from medibv.d_dmbd where manhom in (select id from medibv.d_dmnhom where id not in (1,2))) and tt.mabd = dm.id and btdbn.mabn=tt.mabn and icd.mavaovien=tt.mavaovien and tt.maql=icd.maql and dm.manhom=nhom.id and tt.makp=3
+group by btdbn.mabn, btdbn.hoten,icd.maicd,icd.chandoan,dm.ma,dm.ten,dm.hamluong,dm.dang,dm.dongia,nhom.ten,tt.mabd, to_char(tt.ngay,'dd/mm/yyyy')</sql>
+    <tenfield>ngay,mabn,hoten,chandoan,maicd,MaThuoc,tenthuoc,tennhom,hamluong,dang,soluong,dongia,MaBDuoc</tenfield>
+    <captionfield />
+    <width />
+    <report />
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>99</id>
+    <id_cha>96</id_cha>
+    <stt>12</stt>
+    <ten>3. Hậu sản</ten>
+    <sql>select  btdbn.mabn, btdbn.hoten,icd.maicd,icd.chandoan,dm.ma as MaThuoc,dm.ten as tenthuoc,dm.hamluong,dm.dang,dm.dongia,sum(tt.soluong) as soluong,nhom.ten tennhom,tt.mabd as MaBDuoc, to_char(tt.ngay,'dd/mm/yyyy') ngay
+from medibvmmyy.d_tienthuoc tt, medibv.d_dmbd dm,medibv.btdbn btdbn,medibv.benhandt icd,medibv.d_dmnhom nhom
+where tt.mabd in (select id from medibv.d_dmbd where manhom in (select id from medibv.d_dmnhom where id not in (1,2))) and tt.mabd = dm.id and btdbn.mabn=tt.mabn and icd.mavaovien=tt.mavaovien and tt.maql=icd.maql and dm.manhom=nhom.id and tt.makp=4
+group by btdbn.mabn, btdbn.hoten,icd.maicd,icd.chandoan,dm.ma,dm.ten,dm.hamluong,dm.dang,dm.dongia,nhom.ten,tt.mabd, to_char(tt.ngay,'dd/mm/yyyy')</sql>
+    <tenfield>ngay,mabn,hoten,chandoan,maicd,MaThuoc,tenthuoc,tennhom,hamluong,dang,soluong,dongia,MaBDuoc</tenfield>
+    <captionfield />
+    <width />
+    <report />
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>100</id>
+    <id_cha>96</id_cha>
+    <stt>13</stt>
+    <ten>4. Nhi</ten>
+    <sql>select  btdbn.mabn, btdbn.hoten,icd.maicd,icd.chandoan,dm.ma as MaThuoc,dm.ten as tenthuoc,dm.hamluong,dm.dang,dm.dongia,sum(tt.soluong) as soluong,nhom.ten tennhom,tt.mabd as MaBDuoc, to_char(tt.ngay,'dd/mm/yyyy') ngay
+from medibvmmyy.d_tienthuoc tt, medibv.d_dmbd dm,medibv.btdbn btdbn,medibv.benhandt icd,medibv.d_dmnhom nhom
+where tt.mabd in (select id from medibv.d_dmbd where manhom in (select id from medibv.d_dmnhom where id not in (1,2))) and tt.mabd = dm.id and btdbn.mabn=tt.mabn and icd.mavaovien=tt.mavaovien and tt.maql=icd.maql and dm.manhom=nhom.id and tt.makp=5
+group by btdbn.mabn, btdbn.hoten,icd.maicd,icd.chandoan,dm.ma,dm.ten,dm.hamluong,dm.dang,dm.dongia,nhom.ten,tt.mabd, to_char(tt.ngay,'dd/mm/yyyy')</sql>
+    <tenfield>ngay,mabn,hoten,chandoan,maicd,MaThuoc,tenthuoc,tennhom,hamluong,dang,soluong,dongia,MaBDuoc</tenfield>
+    <captionfield />
+    <width />
+    <report />
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>101</id>
+    <id_cha>96</id_cha>
+    <stt>14</stt>
+    <ten>5. PT GMHS</ten>
+    <sql>select  btdbn.mabn, btdbn.hoten,icd.maicd,icd.chandoan,dm.ma as MaThuoc,dm.ten as tenthuoc,dm.hamluong,dm.dang,dm.dongia,sum(tt.soluong) as soluong,nhom.ten tennhom,tt.mabd as MaBDuoc, to_char(tt.ngay,'dd/mm/yyyy') ngay
+from medibvmmyy.d_tienthuoc tt, medibv.d_dmbd dm,medibv.btdbn btdbn,medibv.benhandt icd,medibv.d_dmnhom nhom
+where tt.mabd in (select id from medibv.d_dmbd where manhom in (select id from medibv.d_dmnhom where id not in (1,2))) and tt.mabd = dm.id and btdbn.mabn=tt.mabn and icd.mavaovien=tt.mavaovien and tt.maql=icd.maql and dm.manhom=nhom.id and tt.makp=6
+group by btdbn.mabn, btdbn.hoten,icd.maicd,icd.chandoan,dm.ma,dm.ten,dm.hamluong,dm.dang,dm.dongia,nhom.ten,tt.mabd, to_char(tt.ngay,'dd/mm/yyyy')</sql>
+    <tenfield>ngay,mabn,hoten,chandoan,maicd,MaThuoc,tenthuoc,tennhom,hamluong,dang,soluong,dongia,MaBDuoc</tenfield>
+    <captionfield />
+    <width />
+    <report />
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>102</id>
+    <id_cha>96</id_cha>
+    <stt>15</stt>
+    <ten>6. Hồi sức CC</ten>
+    <sql>select  btdbn.mabn, btdbn.hoten,icd.maicd,icd.chandoan,dm.ma as MaThuoc,dm.ten as tenthuoc,dm.hamluong,dm.dang,dm.dongia,sum(tt.soluong) as soluong,nhom.ten tennhom,tt.mabd as MaBDuoc, to_char(tt.ngay,'dd/mm/yyyy') ngay
+from medibvmmyy.d_tienthuoc tt, medibv.d_dmbd dm,medibv.btdbn btdbn,medibv.benhandt icd,medibv.d_dmnhom nhom
+where tt.mabd in (select id from medibv.d_dmbd where manhom in (select id from medibv.d_dmnhom where id not in (1,2))) and tt.mabd = dm.id and btdbn.mabn=tt.mabn and icd.mavaovien=tt.mavaovien and tt.maql=icd.maql and dm.manhom=nhom.id and tt.makp=7
+group by btdbn.mabn, btdbn.hoten,icd.maicd,icd.chandoan,dm.ma,dm.ten,dm.hamluong,dm.dang,dm.dongia,nhom.ten,tt.mabd, to_char(tt.ngay,'dd/mm/yyyy')</sql>
+    <tenfield>ngay,mabn,hoten,chandoan,maicd,MaThuoc,tenthuoc,tennhom,hamluong,dang,soluong,dongia,MaBDuoc</tenfield>
+    <captionfield />
+    <width />
+    <report />
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>103</id>
+    <id_cha>96</id_cha>
+    <stt>17</stt>
+    <ten>7. Phòng sanh</ten>
+    <sql>select  btdbn.mabn, btdbn.hoten,icd.maicd,icd.chandoan,dm.ma as MaThuoc,dm.ten as tenthuoc,dm.hamluong,dm.dang,dm.dongia,sum(tt.soluong) as soluong,nhom.ten tennhom,tt.mabd as MaBDuoc, to_char(tt.ngay,'dd/mm/yyyy') ngay
+from medibvmmyy.d_tienthuoc tt, medibv.d_dmbd dm,medibv.btdbn btdbn,medibv.benhandt icd,medibv.d_dmnhom nhom
+where tt.mabd in (select id from medibv.d_dmbd where manhom in (select id from medibv.d_dmnhom where id not in (1,2))) and tt.mabd = dm.id and btdbn.mabn=tt.mabn and icd.mavaovien=tt.mavaovien and tt.maql=icd.maql and dm.manhom=nhom.id and tt.makp=8
+group by btdbn.mabn, btdbn.hoten,icd.maicd,icd.chandoan,dm.ma,dm.ten,dm.hamluong,dm.dang,dm.dongia,nhom.ten,tt.mabd, to_char(tt.ngay,'dd/mm/yyyy')</sql>
+    <tenfield>ngay,mabn,hoten,chandoan,maicd,MaThuoc,tenthuoc,tennhom,hamluong,dang,soluong,dongia,MaBDuoc</tenfield>
+    <captionfield />
+    <width />
+    <report />
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>104</id>
+    <id_cha>96</id_cha>
+    <stt>19</stt>
+    <ten>Toàn viện</ten>
+    <sql>select  btdbn.mabn, btdbn.hoten,icd.maicd,icd.chandoan,dm.ma as MaThuoc,dm.ten as tenthuoc,dm.hamluong,dm.dang,dm.dongia,sum(tt.soluong) as soluong,nhom.ten tennhom,tt.mabd as MaBDuoc, to_char(tt.ngay,'dd/mm/yyyy') ngay
+from medibvmmyy.d_tienthuoc tt, medibv.d_dmbd dm,medibv.btdbn btdbn,medibv.benhandt icd,medibv.d_dmnhom nhom
+where tt.mabd in (select id from medibv.d_dmbd where manhom in (select id from medibv.d_dmnhom where id not in (1,2))) and tt.mabd = dm.id and btdbn.mabn=tt.mabn and icd.mavaovien=tt.mavaovien and tt.maql=icd.maql and dm.manhom=nhom.id group by btdbn.mabn, btdbn.hoten,icd.maicd,icd.chandoan,dm.ma,dm.ten,dm.hamluong,dm.dang,dm.dongia,nhom.ten,tt.mabd, to_char(tt.ngay,'dd/mm/yyyy')</sql>
+    <tenfield>ngay,mabn,hoten,chandoan,maicd,MaThuoc,tenthuoc,tennhom,hamluong,dang,soluong,dongia,MaBDuoc</tenfield>
+    <captionfield />
+    <width />
+    <report />
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>69</id>
+    <id_cha>56</id_cha>
+    <stt>13</stt>
+    <ten>Toàn viện</ten>
+    <sql>select  btdbn.mabn, btdbn.hoten,icd.maicd,icd.chandoan,dm.ma as MaThuoc,dm.ten as tenthuoc,dm.hamluong,dm.dang,dm.dongia,sum(tt.soluong) as soluong,nhom.ten tennhom,tt.mabd as MaBDuoc, to_char(tt.ngay,'dd/mm/yyyy') ngay
+from medibvmmyy.d_tienthuoc tt, medibv.d_dmbd dm,medibv.btdbn btdbn,medibv.benhandt icd,medibv.d_dmnhom nhom
+where tt.mabd in (select id from medibv.d_dmbd where manhom in (select id from medibv.d_dmnhom where id in (2))) and tt.mabd = dm.id and btdbn.mabn=tt.mabn and icd.mavaovien=tt.mavaovien and tt.maql=icd.maql and dm.manhom=nhom.id
+group by btdbn.mabn, btdbn.hoten,icd.maicd,icd.chandoan,dm.ma,dm.ten,dm.hamluong,dm.dang,dm.dongia,nhom.ten,tt.mabd, to_char(tt.ngay,'dd/mm/yyyy')</sql>
+    <tenfield>ngay,mabn,hoten,chandoan,maicd,MaThuoc,tenthuoc,tennhom,hamluong,dang,soluong,dongia,MaBDuoc</tenfield>
+    <captionfield />
+    <width />
+    <report>A_HuongThan_Toanvien</report>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>63</id>
+    <id_cha>56</id_cha>
+    <stt>7</stt>
+    <ten>7. Phòng sanh</ten>
+    <sql>select  btdbn.mabn, btdbn.hoten,icd.maicd,icd.chandoan,dm.ma as MaThuoc,dm.ten as tenthuoc,dm.hamluong,dm.dang,dm.dongia,sum(tt.soluong) as soluong,nhom.ten tennhom,tt.mabd as MaBDuoc, to_char(tt.ngay,'dd/mm/yyyy') ngay
+from medibvmmyy.d_tienthuoc tt, medibv.d_dmbd dm,medibv.btdbn btdbn,medibv.benhandt icd,medibv.d_dmnhom nhom
+where tt.mabd in (select id from medibv.d_dmbd where manhom in (select id from medibv.d_dmnhom where id in (2))) and tt.mabd = dm.id and btdbn.mabn=tt.mabn and icd.mavaovien=tt.mavaovien and tt.maql=icd.maql and dm.manhom=nhom.id and tt.makp=8
+group by btdbn.mabn, btdbn.hoten,icd.maicd,icd.chandoan,dm.ma,dm.ten,dm.hamluong,dm.dang,dm.dongia,nhom.ten,tt.mabd, to_char(tt.ngay,'dd/mm/yyyy')</sql>
+    <tenfield>ngay,mabn,hoten,chandoan,maicd,MaThuoc,tenthuoc,tennhom,hamluong,dang,soluong,dongia,MaBDuoc</tenfield>
+    <captionfield />
+    <width />
+    <report>A_HuongThan_San</report>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>21</id>
+    <id_cha>20</id_cha>
+    <stt>6</stt>
+    <ten>6. Hồi sức CC</ten>
+    <sql>select  btdbn.mabn, btdbn.hoten,icd.maicd,icd.chandoan,dm.ma as MaThuoc,dm.ten as tenthuoc,dm.hamluong,dm.dang,dm.dongia,sum(tt.soluong) as soluong,nhom.ten tennhom,tt.mabd as MaBDuoc, to_char(tt.ngay,'dd/mm/yyyy') ngay
+from medibvmmyy.d_tienthuoc tt, medibv.d_dmbd dm,medibv.btdbn btdbn,medibv.benhandt icd,medibv.d_dmnhom nhom
+where tt.mabd in (select id from medibv.d_dmbd where manhom in (select id from medibv.d_dmnhom where id in (1))) and tt.mabd = dm.id and btdbn.mabn=tt.mabn and icd.mavaovien=tt.mavaovien and tt.maql=icd.maql and dm.manhom=nhom.id and tt.makp=7
+group by btdbn.mabn, btdbn.hoten,icd.maicd,icd.chandoan,dm.ma,dm.ten,dm.hamluong,dm.dang,dm.dongia,nhom.ten,tt.mabd, to_char(tt.ngay,'dd/mm/yyyy')</sql>
+    <tenfield>ngay, mabn,hoten,chandoan,maicd,MaThuoc,tenthuoc,tennhom,hamluong,dang,soluong,dongia,MaBDuoc</tenfield>
+    <captionfield />
+    <width />
+    <report>A_GayNghien_Nhi</report>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>57</id>
+    <id_cha>56</id_cha>
+    <stt>1</stt>
+    <ten>1. Nội</ten>
+    <sql>select  btdbn.mabn, btdbn.hoten,icd.maicd,icd.chandoan,dm.ma as MaThuoc,dm.ten as tenthuoc,dm.hamluong,dm.dang,dm.dongia,sum(tt.soluong) as soluong,nhom.ten tennhom,tt.mabd as MaBDuoc, to_char(tt.ngay,'dd/mm/yyyy') ngay
+from medibvmmyy.d_tienthuoc tt, medibv.d_dmbd dm,medibv.btdbn btdbn,medibv.benhandt icd,medibv.d_dmnhom nhom
+where tt.mabd in (select id from medibv.d_dmbd where manhom in (select id from medibv.d_dmnhom where id in (2))) and tt.mabd = dm.id and btdbn.mabn=tt.mabn and icd.mavaovien=tt.mavaovien and tt.maql=icd.maql and dm.manhom=nhom.id and tt.makp=2
+group by btdbn.mabn, btdbn.hoten,icd.maicd,icd.chandoan,dm.ma,dm.ten,dm.hamluong,dm.dang,dm.dongia,nhom.ten,tt.mabd, to_char(tt.ngay,'dd/mm/yyyy')</sql>
+    <tenfield>ngay,mabn,hoten,chandoan,maicd,MaThuoc,tenthuoc,tennhom,hamluong,dang,soluong,dongia,MaBDuoc</tenfield>
+    <captionfield />
+    <width />
+    <report>A_HuongThan_NoiTQ</report>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>23</id>
+    <id_cha>20</id_cha>
+    <stt>2</stt>
+    <ten>2. Ngoại</ten>
+    <sql>select  btdbn.mabn, btdbn.hoten,icd.maicd,icd.chandoan,dm.ma as MaThuoc,dm.ten as tenthuoc,dm.hamluong,dm.dang,dm.dongia,sum(tt.soluong) as soluong,nhom.ten tennhom,tt.mabd as MaBDuoc, to_char(tt.ngay,'dd/mm/yyyy') ngay
+from medibvmmyy.d_tienthuoc tt, medibv.d_dmbd dm,medibv.btdbn btdbn,medibv.benhandt icd,medibv.d_dmnhom nhom
+where tt.mabd in (select id from medibv.d_dmbd where manhom in (select id from medibv.d_dmnhom where id in (1))) and tt.mabd = dm.id and btdbn.mabn=tt.mabn and icd.mavaovien=tt.mavaovien and dm.manhom=nhom.id and tt.makp=3
+group by btdbn.mabn, btdbn.hoten,icd.maicd,icd.chandoan,dm.ma,dm.ten,dm.hamluong,dm.dang,dm.dongia,nhom.ten,tt.mabd, to_char(tt.ngay,'dd/mm/yyyy')</sql>
+    <tenfield>ngay,mabn,hoten,chandoan,maicd,MaThuoc,tenthuoc,tennhom,hamluong,dang,soluong,dongia,MaBDuoc</tenfield>
+    <captionfield />
+    <width />
+    <report>A_GayNghien_NoiDV</report>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>58</id>
+    <id_cha>56</id_cha>
+    <stt>2</stt>
+    <ten>2. Ngoại</ten>
+    <sql>select  btdbn.mabn, btdbn.hoten,icd.maicd,icd.chandoan,dm.ma as MaThuoc,dm.ten as tenthuoc,dm.hamluong,dm.dang,dm.dongia,sum(tt.soluong) as soluong,nhom.ten tennhom,tt.mabd as MaBDuoc, to_char(tt.ngay,'dd/mm/yyyy') ngay
+from medibvmmyy.d_tienthuoc tt, medibv.d_dmbd dm,medibv.btdbn btdbn,medibv.benhandt icd,medibv.d_dmnhom nhom
+where tt.mabd in (select id from medibv.d_dmbd where manhom in (select id from medibv.d_dmnhom where id in (2))) and tt.mabd = dm.id and btdbn.mabn=tt.mabn and icd.mavaovien=tt.mavaovien and tt.maql=icd.maql and dm.manhom=nhom.id and tt.makp=3
+group by btdbn.mabn, btdbn.hoten,icd.maicd,icd.chandoan,dm.ma,dm.ten,dm.hamluong,dm.dang,dm.dongia,nhom.ten,tt.mabd, to_char(tt.ngay,'dd/mm/yyyy')</sql>
+    <tenfield>ngay,mabn,hoten,chandoan,maicd,MaThuoc,tenthuoc,tennhom,hamluong,dang,soluong,dongia,MaBDuoc</tenfield>
+    <captionfield />
+    <width />
+    <report>A_HuongThan_NoiDV</report>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>38</id>
+    <id_cha>20</id_cha>
+    <stt>14</stt>
+    <ten>Toàn viện</ten>
+    <sql>select  btdbn.mabn, btdbn.hoten,icd.maicd,icd.chandoan,dm.ma as MaThuoc,dm.ten as tenthuoc,dm.hamluong,dm.dang,dm.dongia,sum(tt.soluong) as soluong,nhom.ten tennhom,tt.mabd as MaBDuoc, to_char(tt.ngay,'dd/mm/yyyy') ngay
+from medibvmmyy.d_tienthuoc tt, medibv.d_dmbd dm,medibv.btdbn btdbn,medibv.benhandt icd,medibv.d_dmnhom nhom
+where tt.mabd in (select id from medibv.d_dmbd where manhom in (select id from medibv.d_dmnhom where id in (1))) and tt.mabd = dm.id and btdbn.mabn=tt.mabn and icd.mavaovien=tt.mavaovien and tt.maql=icd.maql and dm.manhom=nhom.id
+group by btdbn.mabn, btdbn.hoten,icd.maicd,icd.chandoan,dm.ma,dm.ten,dm.hamluong,dm.dang,dm.dongia,nhom.ten,tt.mabd, to_char(tt.ngay,'dd/mm/yyyy')</sql>
+    <tenfield>ngay,mabn,hoten,chandoan,maicd,MaThuoc,tenthuoc,tennhom,hamluong,dang,soluong,dongia,MaBDuoc</tenfield>
+    <captionfield />
+    <width />
+    <report>A_GayNghien_Toanvien</report>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>62</id>
+    <id_cha>56</id_cha>
+    <stt>6</stt>
+    <ten>6. Hồi sức CC</ten>
+    <sql>select  btdbn.mabn, btdbn.hoten,icd.maicd,icd.chandoan,dm.ma as MaThuoc,dm.ten as tenthuoc,dm.hamluong,dm.dang,dm.dongia,sum(tt.soluong) as soluong,nhom.ten tennhom,tt.mabd as MaBDuoc, to_char(tt.ngay,'dd/mm/yyyy') ngay
+from medibvmmyy.d_tienthuoc tt, medibv.d_dmbd dm,medibv.btdbn btdbn,medibv.benhandt icd,medibv.d_dmnhom nhom
+where tt.mabd in (select id from medibv.d_dmbd where manhom in (select id from medibv.d_dmnhom where id in (2))) and tt.mabd = dm.id and btdbn.mabn=tt.mabn and icd.mavaovien=tt.mavaovien and dm.manhom=nhom.id and tt.makp=7
+group by btdbn.mabn, btdbn.hoten,icd.maicd,icd.chandoan,dm.ma,dm.ten,dm.hamluong,dm.dang,dm.dongia,nhom.ten,tt.mabd, to_char(tt.ngay,'dd/mm/yyyy')</sql>
+    <tenfield>ngay,mabn,hoten,chandoan,maicd,MaThuoc,tenthuoc,tennhom,hamluong,dang,soluong,dongia,MaBDuoc</tenfield>
+    <captionfield />
+    <width />
+    <report>A_HuongThan_Nhi</report>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>61</id>
+    <id_cha>56</id_cha>
+    <stt>5</stt>
+    <ten>5. PT GMHS</ten>
+    <sql>select  btdbn.mabn, btdbn.hoten,icd.maicd,icd.chandoan,dm.ma as MaThuoc,dm.ten as tenthuoc,dm.hamluong,dm.dang,dm.dongia,sum(tt.soluong) as soluong,nhom.ten tennhom,tt.mabd as MaBDuoc, to_char(tt.ngay,'dd/mm/yyyy') ngay
+from medibvmmyy.d_tienthuoc tt, medibv.d_dmbd dm,medibv.btdbn btdbn,medibv.benhandt icd,medibv.d_dmnhom nhom
+where tt.mabd in (select id from medibv.d_dmbd where manhom in (select id from medibv.d_dmnhom where id in (2))) and tt.mabd = dm.id and btdbn.mabn=tt.mabn and icd.mavaovien=tt.mavaovien and tt.maql=icd.maql and dm.manhom=nhom.id and tt.makp=6
+group by btdbn.mabn, btdbn.hoten,icd.maicd,icd.chandoan,dm.ma,dm.ten,dm.hamluong,dm.dang,dm.dongia,nhom.ten,tt.mabd, to_char(tt.ngay,'dd/mm/yyyy')</sql>
+    <tenfield>ngay,mabn,hoten,chandoan,maicd,MaThuoc,tenthuoc,tennhom,hamluong,dang,soluong,dongia,MaBDuoc</tenfield>
+    <captionfield />
+    <width />
+    <report>A_HuongThan_RHM</report>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>24</id>
+    <id_cha>20</id_cha>
+    <stt>1</stt>
+    <ten>1. Nội</ten>
+    <sql>select  btdbn.mabn, btdbn.hoten,icd.maicd,icd.chandoan,dm.ma as MaThuoc,dm.ten as tenthuoc,dm.hamluong,dm.dang,dm.dongia,sum(tt.soluong) as soluong,nhom.ten tennhom,tt.mabd as MaBDuoc, to_char(tt.ngay,'dd/mm/yyyy') ngay
+from medibvmmyy.d_tienthuoc tt, medibv.d_dmbd dm,medibv.btdbn btdbn,medibv.benhandt icd,medibv.d_dmnhom nhom
+where tt.mabd in (select id from medibv.d_dmbd where manhom in (select id from medibv.d_dmnhom where id in (1))) and tt.mabd = dm.id and btdbn.mabn=tt.mabn and icd.mavaovien=tt.mavaovien and tt.maql=icd.maql and dm.manhom=nhom.id and tt.makp=2
+group by btdbn.mabn, btdbn.hoten,icd.maicd,icd.chandoan,dm.ma,dm.ten,dm.hamluong,dm.dang,dm.dongia,nhom.ten,tt.mabd, to_char(tt.ngay,'dd/mm/yyyy')</sql>
+    <tenfield>ngay,mabn,hoten,chandoan,maicd,MaThuoc,tenthuoc,tennhom,hamluong,dang,soluong,dongia,MaBDuoc</tenfield>
+    <captionfield />
+    <width />
+    <report>A_GayNghien_NoiTQ</report>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>25</id>
+    <id_cha>20</id_cha>
+    <stt>3</stt>
+    <ten>3. Hậu sản</ten>
+    <sql>select  btdbn.mabn, btdbn.hoten,icd.maicd,icd.chandoan,dm.ma as MaThuoc,dm.ten as tenthuoc,dm.hamluong,dm.dang,dm.dongia,sum(tt.soluong) as soluong,nhom.ten tennhom,tt.mabd as MaBDuoc, to_char(tt.ngay,'dd/mm/yyyy') ngay
+from medibvmmyy.d_tienthuoc tt, medibv.d_dmbd dm,medibv.btdbn btdbn,medibv.benhandt icd,medibv.d_dmnhom nhom
+where tt.mabd in (select id from medibv.d_dmbd where manhom in (select id from medibv.d_dmnhom where id in (1))) and tt.mabd = dm.id and btdbn.mabn=tt.mabn and icd.mavaovien=tt.mavaovien and tt.maql=icd.maql and dm.manhom=nhom.id and tt.makp=4
+group by btdbn.mabn, btdbn.hoten,icd.maicd,icd.chandoan,dm.ma,dm.ten,dm.hamluong,dm.dang,dm.dongia,nhom.ten,tt.mabd, to_char(tt.ngay,'dd/mm/yyyy')</sql>
+    <tenfield>ngay,mabn,hoten,chandoan,maicd,MaThuoc,tenthuoc,tennhom,hamluong,dang,soluong,dongia,MaBDuoc</tenfield>
+    <captionfield />
+    <width />
+    <report>A_GayNghien_NgoaiTQ</report>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>26</id>
+    <id_cha>20</id_cha>
+    <stt>4</stt>
+    <ten>4. Nhi</ten>
+    <sql>select  btdbn.mabn, btdbn.hoten,icd.maicd,icd.chandoan,dm.ma as MaThuoc,dm.ten as tenthuoc,dm.hamluong,dm.dang,dm.dongia,sum(tt.soluong) as soluong,nhom.ten tennhom,tt.mabd as MaBDuoc, to_char(tt.ngay,'dd/mm/yyyy') ngay
+from medibvmmyy.d_tienthuoc tt, medibv.d_dmbd dm,medibv.btdbn btdbn,medibv.benhandt icd,medibv.d_dmnhom nhom
+where tt.mabd in (select id from medibv.d_dmbd where manhom in (select id from medibv.d_dmnhom where id in (1))) and tt.mabd = dm.id and btdbn.mabn=tt.mabn and icd.mavaovien=tt.mavaovien and tt.maql=icd.maql and dm.manhom=nhom.id and tt.makp=5
+group by btdbn.mabn, btdbn.hoten,icd.maicd,icd.chandoan,dm.ma,dm.ten,dm.hamluong,dm.dang,dm.dongia,nhom.ten,tt.mabd, to_char(tt.ngay,'dd/mm/yyyy')</sql>
+    <tenfield>ngay,mabn,hoten,chandoan,maicd,MaThuoc,tenthuoc,tennhom,hamluong,dang,soluong,dongia,MaBDuoc</tenfield>
+    <captionfield />
+    <width />
+    <report>A_GhayNghien_NgoaiCT</report>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>27</id>
+    <id_cha>20</id_cha>
+    <stt>5</stt>
+    <ten>5. PT GMHS</ten>
+    <sql>select  btdbn.mabn, btdbn.hoten,icd.maicd,icd.chandoan,dm.ma as MaThuoc,dm.ten as tenthuoc,dm.hamluong,dm.dang,dm.dongia,sum(tt.soluong) as soluong,nhom.ten tennhom,tt.mabd as MaBDuoc, to_char(tt.ngay,'dd/mm/yyyy') ngay
+from medibvmmyy.d_tienthuoc tt, medibv.d_dmbd dm,medibv.btdbn btdbn,medibv.benhandt icd,medibv.d_dmnhom nhom
+where tt.mabd in (select id from medibv.d_dmbd where manhom in (select id from medibv.d_dmnhom where id in (1))) and tt.mabd = dm.id and btdbn.mabn=tt.mabn and icd.mavaovien=tt.mavaovien and tt.maql=icd.maql and dm.manhom=nhom.id and tt.makp=6
+group by btdbn.mabn, btdbn.hoten,icd.maicd,icd.chandoan,dm.ma,dm.ten,dm.hamluong,dm.dang,dm.dongia,nhom.ten,tt.mabd, to_char(tt.ngay,'dd/mm/yyyy')</sql>
+    <tenfield>ngay,mabn,hoten,chandoan,maicd,MaThuoc,tenthuoc,tennhom,hamluong,dang,soluong,dongia,MaBDuoc</tenfield>
+    <captionfield />
+    <width />
+    <report>A_GayNghien_RHM</report>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>28</id>
+    <id_cha>20</id_cha>
+    <stt>8</stt>
+    <ten>7. Phòng sanh</ten>
+    <sql>select  btdbn.mabn, btdbn.hoten,icd.maicd,icd.chandoan,dm.ma as MaThuoc,dm.ten as tenthuoc,dm.hamluong,dm.dang,dm.dongia,sum(tt.soluong) as soluong,nhom.ten tennhom,tt.mabd as MaBDuoc, to_char(tt.ngay,'dd/mm/yyyy') ngay
+from medibvmmyy.d_tienthuoc tt, medibv.d_dmbd dm,medibv.btdbn btdbn,medibv.benhandt icd,medibv.d_dmnhom nhom
+where tt.mabd in (select id from medibv.d_dmbd where manhom in (select id from medibv.d_dmnhom where id in (1))) and tt.mabd = dm.id and btdbn.mabn=tt.mabn and icd.mavaovien=tt.mavaovien and tt.maql=icd.maql and dm.manhom=nhom.id and tt.makp=8
+group by btdbn.mabn, btdbn.hoten,icd.maicd,icd.chandoan,dm.ma,dm.ten,dm.hamluong,dm.dang,dm.dongia,nhom.ten,tt.mabd, to_char(tt.ngay,'dd/mm/yyyy')</sql>
+    <tenfield>ngay,mabn,hoten,chandoan,maicd,MaThuoc,tenthuoc,tennhom,hamluong,dang,soluong,dongia,MaBDuoc</tenfield>
+    <captionfield />
+    <width />
+    <report>A_GayNghien_San</report>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>59</id>
+    <id_cha>56</id_cha>
+    <stt>3</stt>
+    <ten>3. Hậu sản</ten>
+    <sql>select  btdbn.mabn, btdbn.hoten,icd.maicd,icd.chandoan,dm.ma as MaThuoc,dm.ten as tenthuoc,dm.hamluong,dm.dang,dm.dongia,sum(tt.soluong) as soluong,nhom.ten tennhom,tt.mabd as MaBDuoc, to_char(tt.ngay,'dd/mm/yyyy') ngay
+from medibvmmyy.d_tienthuoc tt, medibv.d_dmbd dm,medibv.btdbn btdbn,medibv.benhandt icd,medibv.d_dmnhom nhom
+where tt.mabd in (select id from medibv.d_dmbd where manhom in (select id from medibv.d_dmnhom where id in (2))) and tt.mabd = dm.id and btdbn.mabn=tt.mabn and icd.mavaovien=tt.mavaovien and tt.maql=icd.maql and dm.manhom=nhom.id and tt.makp=4
+group by btdbn.mabn, btdbn.hoten,icd.maicd,icd.chandoan,dm.ma,dm.ten,dm.hamluong,dm.dang,dm.dongia,nhom.ten,tt.mabd, to_char(tt.ngay,'dd/mm/yyyy')</sql>
+    <tenfield>ngay,mabn,hoten,chandoan,maicd,MaThuoc,tenthuoc,tennhom,hamluong,dang,soluong,dongia,MaBDuoc</tenfield>
+    <captionfield />
+    <width />
+    <report>A_HuongThan_NgoaiTQ</report>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>60</id>
+    <id_cha>56</id_cha>
+    <stt>4</stt>
+    <ten>4. Nhi</ten>
+    <sql>select  btdbn.mabn, btdbn.hoten,icd.maicd,icd.chandoan,dm.ma as MaThuoc,dm.ten as tenthuoc,dm.hamluong,dm.dang,dm.dongia,sum(tt.soluong) as soluong,nhom.ten tennhom,tt.mabd as MaBDuoc, to_char(tt.ngay,'dd/mm/yyyy') ngay
+from medibvmmyy.d_tienthuoc tt, medibv.d_dmbd dm,medibv.btdbn btdbn,medibv.benhandt icd,medibv.d_dmnhom nhom
+where to_date(to_char(tt.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and to_date(':v_dn','dd/mm/yyyy') and
+tt.mabd in (select id from medibv.d_dmbd where manhom in (select id from medibv.d_dmnhom where id in (2))) and tt.mabd = dm.id and btdbn.mabn=tt.mabn and icd.mavaovien=tt.mavaovien and tt.maql=icd.maql and dm.manhom=nhom.id and tt.makp=5
+group by btdbn.mabn, btdbn.hoten,icd.maicd,icd.chandoan,dm.ma,dm.ten,dm.hamluong,dm.dang,dm.dongia,nhom.ten,tt.mabd, to_char(tt.ngay,'dd/mm/yyyy')</sql>
+    <tenfield>ngay,mabn,hoten,chandoan,maicd,MaThuoc,tenthuoc,tennhom,hamluong,dang,soluong,dongia,MaBDuoc</tenfield>
+    <captionfield />
+    <width />
+    <report>A_HuongThan_NgoaiCT</report>
+    <readonly>0</readonly>
+  </Table>
+</NewDataSet>

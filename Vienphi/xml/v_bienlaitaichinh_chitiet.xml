@@ -1,0 +1,103 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="tenbn" type="xs:string" minOccurs="0" />
+                <xs:element name="namsinh" type="xs:string" minOccurs="0" />
+                <xs:element name="phai" type="xs:decimal" minOccurs="0" />
+                <xs:element name="cmnd" type="xs:string" minOccurs="0" />
+                <xs:element name="tendv" type="xs:string" minOccurs="0" />
+                <xs:element name="dcnhan" type="xs:string" minOccurs="0" />
+                <xs:element name="nguoinhan" type="xs:string" minOccurs="0" />
+                <xs:element name="dcdonvi" type="xs:string" minOccurs="0" />
+                <xs:element name="masothue" type="xs:string" minOccurs="0" />
+                <xs:element name="tenvp" type="xs:string" minOccurs="0" />
+                <xs:element name="soluong" type="xs:decimal" minOccurs="0" />
+                <xs:element name="dongia" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sotien" type="xs:decimal" minOccurs="0" />
+                <xs:element name="vat" type="xs:decimal" minOccurs="0" />
+                <xs:element name="madoituong" type="xs:decimal" minOccurs="0" />
+                <xs:element name="bhyt" type="xs:decimal" minOccurs="0" />
+                <xs:element name="idnhom" type="xs:decimal" minOccurs="0" />
+                <xs:element name="id_loai" type="xs:decimal" minOccurs="0" />
+                <xs:element name="dvt" type="xs:string" minOccurs="0" />
+                <xs:element name="diachibn" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <tenbn>NGUYỄN THỊ LỆ THU</tenbn>
+    <namsinh>1966</namsinh>
+    <phai>1</phai>
+    <cmnd />
+    <tendv>W</tendv>
+    <dcnhan>R</dcnhan>
+    <nguoinhan>E</nguoinhan>
+    <dcdonvi>WE</dcdonvi>
+    <masothue>1222</masothue>
+    <tenvp>Siêu âm Doppler tim màu</tenvp>
+    <soluong>1.0000</soluong>
+    <dongia>150000.0000000000</dongia>
+    <sotien>150000.00</sotien>
+    <vat>0.00</vat>
+    <madoituong>2</madoituong>
+    <bhyt>0.0000</bhyt>
+    <idnhom>2</idnhom>
+    <id_loai>65</id_loai>
+    <dvt>Lần</dvt>
+    <diachibn>P. Đa Kao,Q. 1,Tp. H C M</diachibn>
+  </Table>
+  <Table>
+    <tenbn>NGUYỄN THỊ LỆ THU</tenbn>
+    <namsinh>1966</namsinh>
+    <phai>1</phai>
+    <cmnd />
+    <tendv>W</tendv>
+    <dcnhan>R</dcnhan>
+    <nguoinhan>E</nguoinhan>
+    <dcdonvi>WE</dcdonvi>
+    <masothue>1222</masothue>
+    <tenvp>Điện tim kỹ thuật số</tenvp>
+    <soluong>1.0000</soluong>
+    <dongia>30000.0000000000</dongia>
+    <sotien>30000.00</sotien>
+    <vat>0.00</vat>
+    <madoituong>2</madoituong>
+    <bhyt>0.0000</bhyt>
+    <idnhom>14</idnhom>
+    <id_loai>10</id_loai>
+    <dvt>Lần</dvt>
+    <diachibn>P. Đa Kao,Q. 1,Tp. H C M</diachibn>
+  </Table>
+  <Table>
+    <tenbn>NGUYỄN THỊ LỆ THU</tenbn>
+    <namsinh>1966</namsinh>
+    <phai>1</phai>
+    <cmnd />
+    <tendv>W</tendv>
+    <dcnhan>R</dcnhan>
+    <nguoinhan>E</nguoinhan>
+    <dcdonvi>WE</dcdonvi>
+    <masothue>1222</masothue>
+    <tenvp>Khám bệnh 3</tenvp>
+    <soluong>1.0000</soluong>
+    <dongia>80000.0000000000</dongia>
+    <sotien>80000.00</sotien>
+    <vat>0.00</vat>
+    <madoituong>2</madoituong>
+    <bhyt>0.0000</bhyt>
+    <idnhom>4</idnhom>
+    <id_loai>20</id_loai>
+    <dvt>Lần</dvt>
+    <diachibn>P. Đa Kao,Q. 1,Tp. H C M</diachibn>
+  </Table>
+</NewDataSet>

@@ -1,0 +1,75 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="id" type="xs:decimal" minOccurs="0" />
+                <xs:element name="mabn" type="xs:string" minOccurs="0" />
+                <xs:element name="mavaovien" type="xs:decimal" minOccurs="0" />
+                <xs:element name="maql" type="xs:decimal" minOccurs="0" />
+                <xs:element name="loai" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ten_loaivp" type="xs:string" minOccurs="0" />
+                <xs:element name="loaibn" type="xs:decimal" minOccurs="0" />
+                <xs:element name="hoten" type="xs:string" minOccurs="0" />
+                <xs:element name="namsinh" type="xs:string" minOccurs="0" />
+                <xs:element name="diachi" type="xs:string" minOccurs="0" />
+                <xs:element name="ngay" type="xs:string" minOccurs="0" />
+                <xs:element name="sotien" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tamung" type="xs:int" minOccurs="0" />
+                <xs:element name="bhyt" type="xs:decimal" minOccurs="0" />
+                <xs:element name="mien" type="xs:decimal" minOccurs="0" />
+                <xs:element name="thieu" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tra" type="xs:decimal" minOccurs="0" />
+                <xs:element name="user_hoten" type="xs:string" minOccurs="0" />
+                <xs:element name="user_username" type="xs:string" minOccurs="0" />
+                <xs:element name="userid" type="xs:decimal" minOccurs="0" />
+                <xs:element name="quyenso" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sobienlai" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sohieu" type="xs:string" minOccurs="0" />
+                <xs:element name="sohieubl" type="xs:string" minOccurs="0" />
+                <xs:element name="hoan" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tenkp" type="xs:string" minOccurs="0" />
+                <xs:element name="vat" type="xs:decimal" minOccurs="0" />
+                <xs:element name="msthue" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <id>91140331115034685</id>
+    <mabn>14000003</mabn>
+    <mavaovien>140331114901564091</mavaovien>
+    <maql>140331114901564091</maql>
+    <loai>1</loai>
+    <ten_loaivp>Trong giờ</ten_loaivp>
+    <loaibn>0</loaibn>
+    <hoten>TEST GGG GG</hoten>
+    <namsinh>1978</namsinh>
+    <diachi>Tỉnh khác</diachi>
+    <ngay>31/03/2014</ngay>
+    <sotien>10000.00000000</sotien>
+    <tamung>0</tamung>
+    <bhyt>0</bhyt>
+    <mien>0</mien>
+    <thieu>0.0000</thieu>
+    <tra>0.0000</tra>
+    <user_hoten>Quản trị chung</user_hoten>
+    <user_username>admin</user_username>
+    <userid>10</userid>
+    <quyenso>6</quyenso>
+    <sobienlai>674078</sobienlai>
+    <sohieu>BLVP1</sohieu>
+    <sohieubl>AAA</sohieubl>
+    <hoan>0</hoan>
+    <tenkp>PK Nội 2</tenkp>
+    <vat>0.00</vat>
+    <msthue />
+  </Table>
+</NewDataSet>

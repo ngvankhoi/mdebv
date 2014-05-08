@@ -1,0 +1,129 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ngayhd" type="xs:string" minOccurs="0" />
+                <xs:element name="tenkho" type="xs:string" minOccurs="0" />
+                <xs:element name="tenthuoc" type="xs:string" minOccurs="0" />
+                <xs:element name="dang" type="xs:string" minOccurs="0" />
+                <xs:element name="sophieu" type="xs:string" minOccurs="0" />
+                <xs:element name="sohd" type="xs:string" minOccurs="0" />
+                <xs:element name="bbkiem" type="xs:string" minOccurs="0" />
+                <xs:element name="mabd" type="xs:decimal" minOccurs="0" />
+                <xs:element name="soluong" type="xs:decimal" minOccurs="0" />
+                <xs:element name="vat" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sotien" type="xs:decimal" minOccurs="0" />
+                <xs:element name="losx" type="xs:string" minOccurs="0" />
+                <xs:element name="tenhang" type="xs:string" minOccurs="0" />
+                <xs:element name="handung" type="xs:string" minOccurs="0" />
+                <xs:element name="stt" type="xs:decimal" minOccurs="0" />
+                <xs:element name="nhombd" type="xs:string" minOccurs="0" />
+                <xs:element name="tencty" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <ngayhd>02/04/2008</ngayhd>
+    <tenkho>Kho chẵn</tenkho>
+    <tenthuoc>Adrenalin</tenthuoc>
+    <dang>Ống</dang>
+    <sophieu>0008</sophieu>
+    <sohd>PNK07: 26678+28115+26696</sohd>
+    <bbkiem />
+    <mabd>1859</mabd>
+    <soluong>100.00</soluong>
+    <vat>0</vat>
+    <sotien>143997.0000</sotien>
+    <losx>61206-12</losx>
+    <tenhang>Việt Nam</tenhang>
+    <handung>1208</handung>
+    <stt>2</stt>
+    <nhombd>Độc A</nhombd>
+    <tencty>Công ty Baripharco</tencty>
+  </Table>
+  <Table>
+    <ngayhd>07/04/2008</ngayhd>
+    <tenkho>Kho chẵn</tenkho>
+    <tenthuoc>Naloxon</tenthuoc>
+    <dang>Ống</dang>
+    <sophieu>0023</sophieu>
+    <sohd>PNK16: 26679+26680+26725+26738+28503+26750</sohd>
+    <bbkiem />
+    <mabd>3443</mabd>
+    <soluong>20.00</soluong>
+    <vat>0</vat>
+    <sotien>861000.0000</sotien>
+    <losx>614059</losx>
+    <tenhang>Đức</tenhang>
+    <handung>0409</handung>
+    <stt>2</stt>
+    <nhombd>Độc A</nhombd>
+    <tencty>Công ty Baripharco</tencty>
+  </Table>
+  <Table>
+    <ngayhd>07/04/2008</ngayhd>
+    <tenkho>Kho chẵn</tenkho>
+    <tenthuoc>Neostigmin</tenthuoc>
+    <dang>Ống</dang>
+    <sophieu>0023</sophieu>
+    <sohd>PNK16: 26679+26680+26725+26738+28503+26750</sohd>
+    <bbkiem />
+    <mabd>3456</mabd>
+    <soluong>10.00</soluong>
+    <vat>0</vat>
+    <sotien>57750.0000</sotien>
+    <losx>743053</losx>
+    <tenhang>Đức</tenhang>
+    <handung>1009</handung>
+    <stt>2</stt>
+    <nhombd>Độc A</nhombd>
+    <tencty>Công ty Baripharco</tencty>
+  </Table>
+  <Table>
+    <ngayhd>09/04/2008</ngayhd>
+    <tenkho>Kho chẵn</tenkho>
+    <tenthuoc>Adrenalin</tenthuoc>
+    <dang>Ống</dang>
+    <sophieu>0051</sophieu>
+    <sohd>PNK23: 28527+28532+28526+28519+28529+28782</sohd>
+    <bbkiem />
+    <mabd>1859</mabd>
+    <soluong>200.00</soluong>
+    <vat>0</vat>
+    <sotien>287994.0000</sotien>
+    <losx>61206-12</losx>
+    <tenhang>Việt Nam</tenhang>
+    <handung>1208</handung>
+    <stt>2</stt>
+    <nhombd>Độc A</nhombd>
+    <tencty>Công ty Baripharco</tencty>
+  </Table>
+  <Table>
+    <ngayhd>09/04/2008</ngayhd>
+    <tenkho>Kho chẵn</tenkho>
+    <tenthuoc>Atropin </tenthuoc>
+    <dang>Ống</dang>
+    <sophieu>0051</sophieu>
+    <sohd>PNK23: 28527+28532+28526+28519+28529+28782</sohd>
+    <bbkiem />
+    <mabd>3482</mabd>
+    <soluong>30.00</soluong>
+    <vat>0</vat>
+    <sotien>189000.0000</sotien>
+    <losx>0707</losx>
+    <tenhang>Việt Nam</tenhang>
+    <handung>1210</handung>
+    <stt>2</stt>
+    <nhombd>Độc A</nhombd>
+    <tencty>Công ty Baripharco</tencty>
+  </Table>
+</NewDataSet>

@@ -1,0 +1,45 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+    <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xs:element name="NewDataSet" msdata:IsDataSet="true">
+            <xs:complexType>
+                <xs:choice maxOccurs="unbounded">
+                    <xs:element name="Table">
+                        <xs:complexType>
+                            <xs:sequence>
+                                <xs:element name="text" type="xs:string" minOccurs="0" />
+                                <xs:element name="tag" type="xs:string" minOccurs="0" />
+                                <xs:element name="stt" type="xs:decimal" minOccurs="0" />
+                            </xs:sequence>
+                        </xs:complexType>
+                    </xs:element>
+                </xs:choice>
+            </xs:complexType>
+        </xs:element>
+    </xs:schema>
+    <Table>
+        <text>Medisoft</text>
+        <tag>p01</tag>
+        <stt>1</stt>
+    </Table>
+    <Table>
+        <text>Viện phí</text>
+        <tag>p02</tag>
+        <stt>2</stt>
+    </Table>
+    <Table>
+        <text>Dược</text>
+        <tag>p03</tag>
+        <stt>3</stt>
+    </Table>
+    <Table>
+        <text>Cận lâm sàng</text>
+        <tag>p04</tag>
+        <stt>4</stt>
+    </Table>
+    <Table>
+        <text>Trang thiết bị</text>
+        <tag>p05</tag>
+        <stt>5</stt>
+    </Table>
+</NewDataSet>

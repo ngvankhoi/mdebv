@@ -1,0 +1,95 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="NGAY" type="xs:string" minOccurs="0" />
+                <xs:element name="BHYT" type="xs:decimal" minOccurs="0" />
+                <xs:element name="DICHVU" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <NGAY>01/07/2006</NGAY>
+    <BHYT>102656.5</BHYT>
+    <DICHVU>858300</DICHVU>
+  </Table>
+  <Table>
+    <NGAY>02/07/2006</NGAY>
+    <BHYT>247343.5</BHYT>
+    <DICHVU>2660350</DICHVU>
+  </Table>
+  <Table>
+    <NGAY>03/07/2006</NGAY>
+    <BHYT>440673</BHYT>
+    <DICHVU>2025250</DICHVU>
+  </Table>
+  <Table>
+    <NGAY>04/07/2006</NGAY>
+    <BHYT>492470.5</BHYT>
+    <DICHVU>1881700</DICHVU>
+  </Table>
+  <Table>
+    <NGAY>05/07/2006</NGAY>
+    <BHYT>732068.75</BHYT>
+    <DICHVU>2677250</DICHVU>
+  </Table>
+  <Table>
+    <NGAY>06/07/2006</NGAY>
+    <BHYT>444268.5</BHYT>
+    <DICHVU>2585800</DICHVU>
+  </Table>
+  <Table>
+    <NGAY>07/07/2006</NGAY>
+    <BHYT>1081076.5</BHYT>
+    <DICHVU>1338300</DICHVU>
+  </Table>
+  <Table>
+    <NGAY>08/07/2006</NGAY>
+    <BHYT>736012.75</BHYT>
+    <DICHVU>885500</DICHVU>
+  </Table>
+  <Table>
+    <NGAY>09/07/2006</NGAY>
+    <BHYT>1498662</BHYT>
+    <DICHVU>2398100</DICHVU>
+  </Table>
+  <Table>
+    <NGAY>10/07/2006</NGAY>
+    <BHYT>1715393.5</BHYT>
+    <DICHVU>3460050</DICHVU>
+  </Table>
+  <Table>
+    <NGAY>11/07/2006</NGAY>
+    <BHYT>1969823</BHYT>
+    <DICHVU>2720500</DICHVU>
+  </Table>
+  <Table>
+    <NGAY>12/07/2006</NGAY>
+    <BHYT>1488681</BHYT>
+    <DICHVU>1928700</DICHVU>
+  </Table>
+  <Table>
+    <NGAY>13/07/2006</NGAY>
+    <BHYT>2034831.25</BHYT>
+    <DICHVU>1688630</DICHVU>
+  </Table>
+  <Table>
+    <NGAY>14/07/2006</NGAY>
+    <BHYT>1820458</BHYT>
+    <DICHVU>1654900</DICHVU>
+  </Table>
+  <Table>
+    <NGAY>15/07/2006</NGAY>
+    <BHYT>626020</BHYT>
+    <DICHVU>99000</DICHVU>
+  </Table>
+</NewDataSet>

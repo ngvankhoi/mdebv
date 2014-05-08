@@ -1,0 +1,334 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="id" type="xs:decimal" minOccurs="0" />
+                <xs:element name="quyensoid" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sobienlai" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ngay" type="xs:string" minOccurs="0" />
+                <xs:element name="quyenso" type="xs:string" minOccurs="0" />
+                <xs:element name="mabn" type="xs:string" minOccurs="0" />
+                <xs:element name="hoten" type="xs:string" minOccurs="0" />
+                <xs:element name="namsinh" type="xs:string" minOccurs="0" />
+                <xs:element name="diachi" type="xs:string" minOccurs="0" />
+                <xs:element name="mabhyt" type="xs:string" minOccurs="0" />
+                <xs:element name="mabv" type="xs:string" minOccurs="0" />
+                <xs:element name="tenbv" type="xs:string" minOccurs="0" />
+                <xs:element name="nguoithu" type="xs:string" minOccurs="0" />
+                <xs:element name="ngayvao" type="xs:string" minOccurs="0" />
+                <xs:element name="ngayra" type="xs:string" minOccurs="0" />
+                <xs:element name="maicd" type="xs:string" minOccurs="0" />
+                <xs:element name="chandoan" type="xs:string" minOccurs="0" />
+                <xs:element name="tenkp" type="xs:string" minOccurs="0" />
+                <xs:element name="tongcp" type="xs:decimal" minOccurs="0" />
+                <xs:element name="bhyt" type="xs:decimal" minOccurs="0" />
+                <xs:element name="mien" type="xs:decimal" minOccurs="0" />
+                <xs:element name="thieu" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tamung" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_0" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_1" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_2" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_3" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_4" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_5" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_6" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_7" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_8" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_9" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_10" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_11" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_12" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_13" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_14" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_15" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_16" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_17" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_18" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_19" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_20" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_21" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_22" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_23" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_24" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_25" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_26" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_27" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_28" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_29" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_30" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_31" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_32" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_33" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_34" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_35" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_36" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_37" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_38" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_39" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_40" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_41" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_42" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_43" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_44" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_45" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_46" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_47" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_48" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_49" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_50" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_51" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_52" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_53" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_54" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_55" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_56" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_57" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_58" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_59" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_60" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_61" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_62" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_63" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_64" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_65" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_66" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_67" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_68" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_69" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_70" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_71" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_72" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_73" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_74" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_75" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_76" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_77" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_78" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_79" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_80" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_81" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_82" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_83" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_84" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_85" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_86" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_87" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_88" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_89" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_90" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_91" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_92" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_93" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_94" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_95" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_96" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_97" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_98" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_99" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_100" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_101" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_102" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_103" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_104" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_105" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_106" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_107" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_108" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_109" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_110" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_111" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_112" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_113" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_114" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_115" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_116" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_117" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_118" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_119" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_120" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_121" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_122" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_123" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_124" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_125" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_126" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_127" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_128" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_129" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_130" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_131" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_132" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_133" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_134" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ll_135" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <id>3000000225</id>
+    <quyensoid>1120</quyensoid>
+    <sobienlai>220</sobienlai>
+    <ngay>26/07/2011</ngay>
+    <quyenso>AA</quyenso>
+    <mabn>1102000124</mabn>
+    <hoten>TEST TT</hoten>
+    <namsinh>1990</namsinh>
+    <diachi>Không xác định Không xác định Tp. H C M</diachi>
+    <nguoithu>cn2</nguoithu>
+    <ngayvao>26/07/2011</ngayvao>
+    <ngayra>26/07/2011</ngayra>
+    <maicd />
+    <chandoan />
+    <tenkp>Phòng Khám [P21-Lầu 1]</tenkp>
+    <tongcp>80000.0000</tongcp>
+    <bhyt>0.0000</bhyt>
+    <mien>0.0000</mien>
+    <thieu>0.0000</thieu>
+    <tamung>0</tamung>
+    <ll_0>0</ll_0>
+    <ll_1>0</ll_1>
+    <ll_2>0</ll_2>
+    <ll_3>0</ll_3>
+    <ll_4>0</ll_4>
+    <ll_5>0</ll_5>
+    <ll_6>0</ll_6>
+    <ll_7>0</ll_7>
+    <ll_8>0</ll_8>
+    <ll_9>0</ll_9>
+    <ll_10>0</ll_10>
+    <ll_11>0</ll_11>
+    <ll_12>0</ll_12>
+    <ll_13>0</ll_13>
+    <ll_14>0</ll_14>
+    <ll_15>0</ll_15>
+    <ll_16>0</ll_16>
+    <ll_17>0</ll_17>
+    <ll_18>0</ll_18>
+    <ll_19>80000.00000000000000</ll_19>
+    <ll_20>0</ll_20>
+    <ll_21>0</ll_21>
+    <ll_22>0</ll_22>
+    <ll_23>0</ll_23>
+    <ll_24>0</ll_24>
+    <ll_25>0</ll_25>
+    <ll_26>0</ll_26>
+    <ll_27>0</ll_27>
+    <ll_28>0</ll_28>
+    <ll_29>0</ll_29>
+    <ll_30>0</ll_30>
+    <ll_31>0</ll_31>
+    <ll_32>0</ll_32>
+    <ll_33>0</ll_33>
+    <ll_34>0</ll_34>
+    <ll_35>0</ll_35>
+    <ll_36>0</ll_36>
+    <ll_37>0</ll_37>
+    <ll_38>0</ll_38>
+    <ll_39>0</ll_39>
+    <ll_40>0</ll_40>
+    <ll_41>0</ll_41>
+    <ll_42>0</ll_42>
+    <ll_43>0</ll_43>
+    <ll_44>0</ll_44>
+    <ll_45>0</ll_45>
+    <ll_46>0</ll_46>
+    <ll_47>0</ll_47>
+    <ll_48>0</ll_48>
+    <ll_49>0</ll_49>
+    <ll_50>0</ll_50>
+    <ll_51>0</ll_51>
+    <ll_52>0</ll_52>
+    <ll_53>0</ll_53>
+    <ll_54>0</ll_54>
+    <ll_55>0</ll_55>
+    <ll_56>0</ll_56>
+    <ll_57>0</ll_57>
+    <ll_58>0</ll_58>
+    <ll_59>0</ll_59>
+    <ll_60>0</ll_60>
+    <ll_61>0</ll_61>
+    <ll_62>0</ll_62>
+    <ll_63>0</ll_63>
+    <ll_64>0</ll_64>
+    <ll_65>0</ll_65>
+    <ll_66>0</ll_66>
+    <ll_67>0</ll_67>
+    <ll_68>0</ll_68>
+    <ll_69>0</ll_69>
+    <ll_70>0</ll_70>
+    <ll_71>0</ll_71>
+    <ll_72>0</ll_72>
+    <ll_73>0</ll_73>
+    <ll_74>0</ll_74>
+    <ll_75>0</ll_75>
+    <ll_76>0</ll_76>
+    <ll_77>0</ll_77>
+    <ll_78>0</ll_78>
+    <ll_79>0</ll_79>
+    <ll_80>0</ll_80>
+    <ll_81>0</ll_81>
+    <ll_82>0</ll_82>
+    <ll_83>0</ll_83>
+    <ll_84>0</ll_84>
+    <ll_85>0</ll_85>
+    <ll_86>0</ll_86>
+    <ll_87>0</ll_87>
+    <ll_88>0</ll_88>
+    <ll_89>0</ll_89>
+    <ll_90>0</ll_90>
+    <ll_91>0</ll_91>
+    <ll_92>0</ll_92>
+    <ll_93>0</ll_93>
+    <ll_94>0</ll_94>
+    <ll_95>0</ll_95>
+    <ll_96>0</ll_96>
+    <ll_97>0</ll_97>
+    <ll_98>0</ll_98>
+    <ll_99>0</ll_99>
+    <ll_100>0</ll_100>
+    <ll_101>0</ll_101>
+    <ll_102>0</ll_102>
+    <ll_103>0</ll_103>
+    <ll_104>0</ll_104>
+    <ll_105>0</ll_105>
+    <ll_106>0</ll_106>
+    <ll_107>0</ll_107>
+    <ll_108>0</ll_108>
+    <ll_109>0</ll_109>
+    <ll_110>0</ll_110>
+    <ll_111>0</ll_111>
+    <ll_112>0</ll_112>
+    <ll_113>0</ll_113>
+    <ll_114>0</ll_114>
+    <ll_115>0</ll_115>
+    <ll_116>0</ll_116>
+    <ll_117>0</ll_117>
+    <ll_118>0</ll_118>
+    <ll_119>0</ll_119>
+    <ll_120>0</ll_120>
+    <ll_121>0</ll_121>
+    <ll_122>0</ll_122>
+    <ll_123>0</ll_123>
+    <ll_124>0</ll_124>
+    <ll_125>0</ll_125>
+    <ll_126>0</ll_126>
+    <ll_127>0</ll_127>
+    <ll_128>0</ll_128>
+    <ll_129>0</ll_129>
+    <ll_130>0</ll_130>
+    <ll_131>0</ll_131>
+    <ll_132>0</ll_132>
+    <ll_133>0</ll_133>
+    <ll_134>0</ll_134>
+    <ll_135>0</ll_135>
+  </Table>
+</NewDataSet>

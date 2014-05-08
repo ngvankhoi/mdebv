@@ -1,0 +1,114 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+    <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xs:element name="NewDataSet" msdata:IsDataSet="true">
+            <xs:complexType>
+                <xs:choice maxOccurs="unbounded">
+                    <xs:element name="Table">
+                        <xs:complexType>
+                            <xs:sequence>
+                                <xs:element name="ID" type="xs:decimal" minOccurs="0" />
+                                <xs:element name="TEN" type="xs:string" minOccurs="0" />
+                                <xs:element name="T1" type="xs:string" minOccurs="0" />
+                                <xs:element name="T2" type="xs:string" minOccurs="0" />
+                                <xs:element name="DK" type="xs:string" minOccurs="0" />
+                                <xs:element name="SOPHIEU" type="xs:string" minOccurs="0" />
+                                <xs:element name="STT" type="xs:decimal" minOccurs="0" />
+                                <xs:element name="LYDO" type="xs:string" minOccurs="0" />
+                            </xs:sequence>
+                        </xs:complexType>
+                    </xs:element>
+                </xs:choice>
+            </xs:complexType>
+        </xs:element>
+    </xs:schema>
+    <Table>
+        <ID>-1</ID>
+        <TEN>Phiếu lĩnh</TEN>
+        <T1>d_xuatsdll</T1>
+        <T2>d_thucxuat</T2>
+        <DK>a.loai=1</DK>
+        <SOPHIEU>
+        </SOPHIEU>
+        <STT>0</STT>
+        <LYDO>Sử dụng</LYDO>
+    </Table>
+    <Table>
+        <ID>0</ID>
+        <TEN>Phiếu xuất tủ trực</TEN>
+        <T1>d_xuatsdll</T1>
+        <T2>d_thucxuat</T2>
+        <DK>a.loai=2</DK>
+        <SOPHIEU>
+        </SOPHIEU>
+        <STT>1</STT>
+        <LYDO>Xuất tủ trực</LYDO>
+    </Table>
+    <Table>
+        <ID>1</ID>
+        <TEN>Phiếu bù cơ số tủ trực</TEN>
+        <T1>d_xuatsdll</T1>
+        <T2>d_thucbucstt</T2>
+        <DK>a.loai=2</DK>
+        <SOPHIEU>
+        </SOPHIEU>
+        <STT>2</STT>
+        <LYDO>Bù cơ số tủ trực</LYDO>
+    </Table>
+    <Table>
+        <ID>2</ID>
+        <TEN>Phiếu hoàn trả</TEN>
+        <T1>d_xuatsdll</T1>
+        <T2>d_thucxuat</T2>
+        <DK>a.loai=3</DK>
+        <SOPHIEU>
+        </SOPHIEU>
+        <STT>3</STT>
+        <LYDO>Hoàn trả</LYDO>
+    </Table>
+    <Table>
+        <ID>3</ID>
+        <TEN>Phiếu hao phí</TEN>
+        <T1>d_xuatsdll</T1>
+        <T2>d_thucxuat</T2>
+        <DK>a.loai=4</DK>
+        <SOPHIEU>
+        </SOPHIEU>
+        <STT>4</STT>
+        <LYDO>Sử dụng</LYDO>
+    </Table>
+    <Table>
+        <ID>4</ID>
+        <TEN>Phiếu xuất bảo hiểm</TEN>
+        <T1>bhytkb</T1>
+        <T2>bhytthuoc</T2>
+        <DK>
+        </DK>
+        <SOPHIEU>
+        </SOPHIEU>
+        <STT>5</STT>
+        <LYDO>BHYT</LYDO>
+    </Table>
+    <Table>
+        <ID>5</ID>
+        <TEN>Phiếu xuất ngoại trú</TEN>
+        <T1>d_ngtrull</T1>
+        <T2>d_ngtruct</T2>
+        <DK>
+        </DK>
+        <SOPHIEU>
+        </SOPHIEU>
+        <STT>6</STT>
+        <LYDO>Ngoại trú</LYDO>
+    </Table>
+    <Table>
+        <ID>6</ID>
+        <TEN>Phiếu xuất khác</TEN>
+        <T1>d_xuatll</T1>
+        <T2>d_xuatct</T2>
+        <DK>a.loai in ('BS','XK')</DK>
+        <SOPHIEU>sophieu</SOPHIEU>
+        <STT>7</STT>
+        <LYDO>Khác</LYDO>
+    </Table>
+</NewDataSet>

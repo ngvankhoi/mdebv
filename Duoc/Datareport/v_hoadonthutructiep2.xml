@@ -1,0 +1,129 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="id" type="xs:decimal" minOccurs="0" />
+                <xs:element name="quyenso" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sobienlai" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sohieu" type="xs:string" minOccurs="0" />
+                <xs:element name="mabn" type="xs:string" minOccurs="0" />
+                <xs:element name="hoten" type="xs:string" minOccurs="0" />
+                <xs:element name="namsinh" type="xs:string" minOccurs="0" />
+                <xs:element name="tinh" type="xs:string" minOccurs="0" />
+                <xs:element name="quan" type="xs:string" minOccurs="0" />
+                <xs:element name="xa" type="xs:string" minOccurs="0" />
+                <xs:element name="sonha" type="xs:string" minOccurs="0" />
+                <xs:element name="thon" type="xs:string" minOccurs="0" />
+                <xs:element name="gioitinh" type="xs:string" minOccurs="0" />
+                <xs:element name="lanin" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ngaysinh" type="xs:string" minOccurs="0" />
+                <xs:element name="mabhyt" type="xs:string" minOccurs="0" />
+                <xs:element name="giatriden" type="xs:string" minOccurs="0" />
+                <xs:element name="tenkp" type="xs:string" minOccurs="0" />
+                <xs:element name="ngaythu" type="xs:string" minOccurs="0" />
+                <xs:element name="tenkpct" type="xs:string" minOccurs="0" />
+                <xs:element name="tentt" type="xs:string" minOccurs="0" />
+                <xs:element name="tenquan" type="xs:string" minOccurs="0" />
+                <xs:element name="tenpxa" type="xs:string" minOccurs="0" />
+                <xs:element name="id_vp" type="xs:decimal" minOccurs="0" />
+                <xs:element name="id_loai" type="xs:decimal" minOccurs="0" />
+                <xs:element name="id_nhom" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tenvp" type="xs:string" minOccurs="0" />
+                <xs:element name="tenloaivp" type="xs:string" minOccurs="0" />
+                <xs:element name="tennhomvp" type="xs:string" minOccurs="0" />
+                <xs:element name="sttvp" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sttloaivp" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sttnhomvp" type="xs:decimal" minOccurs="0" />
+                <xs:element name="dvt" type="xs:string" minOccurs="0" />
+                <xs:element name="soluong" type="xs:decimal" minOccurs="0" />
+                <xs:element name="dongia" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sotien" type="xs:decimal" minOccurs="0" />
+                <xs:element name="bhtra" type="xs:int" minOccurs="0" />
+                <xs:element name="mien" type="xs:decimal" minOccurs="0" />
+                <xs:element name="thieu" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tongmien" type="xs:decimal" minOccurs="0" />
+                <xs:element name="madoituong" type="xs:decimal" minOccurs="0" />
+                <xs:element name="nguoithu" type="xs:string" minOccurs="0" />
+                <xs:element name="hoantra" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ghichu" type="xs:string" minOccurs="0" />
+                <xs:element name="nha" type="xs:string" minOccurs="0" />
+                <xs:element name="coquan" type="xs:string" minOccurs="0" />
+                <xs:element name="didong" type="xs:string" minOccurs="0" />
+                <xs:element name="email" type="xs:string" minOccurs="0" />
+                <xs:element name="doituong" type="xs:string" minOccurs="0" />
+                <xs:element name="bacsichidinh" type="xs:string" minOccurs="0" />
+                <xs:element name="bacsithuchien" type="xs:string" minOccurs="0" />
+                <xs:element name="gia_bh" type="xs:decimal" minOccurs="0" />
+                <xs:element name="gia_dv" type="xs:decimal" minOccurs="0" />
+                <xs:element name="lydo" type="xs:string" minOccurs="0" />
+                <xs:element name="masothue" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <id>39000000004</id>
+    <quyenso>4</quyenso>
+    <sobienlai>58</sobienlai>
+    <sohieu>TRANG2009</sohieu>
+    <mabn>11000002</mabn>
+    <hoten>NGÔ ĐÌNH ÁNH TRÚC</hoten>
+    <namsinh>1992</namsinh>
+    <tinh>Quảng NgãI</tinh>
+    <quan>H. Đức Phổ</quan>
+    <xa>TT. Đức Phổ</xa>
+    <sonha />
+    <thon>Tổ Dân Phô 3</thon>
+    <gioitinh>Nữ</gioitinh>
+    <lanin>18</lanin>
+    <ngaysinh>1992</ngaysinh>
+    <mabhyt>. . . . . . . . . . . . . . . . . .</mabhyt>
+    <giatriden>. . . . . . . . . . . . . . . . . .</giatriden>
+    <tenkp>Pk Tai - Mũi - Họng</tenkp>
+    <ngaythu>15/02/2011</ngaythu>
+    <tenkpct>Pk Tai - Mũi - Họng</tenkpct>
+    <tentt>Quảng NgãI</tentt>
+    <tenquan>H. Đức Phổ</tenquan>
+    <tenpxa>TT. Đức Phổ</tenpxa>
+    <id_vp>626433</id_vp>
+    <id_loai>4</id_loai>
+    <id_nhom>4</id_nhom>
+    <tenvp>Acid Phosphatase</tenvp>
+    <tenloaivp>XN Nước tiểu</tenloaivp>
+    <tennhomvp>Xét nghiệm - TDCN</tennhomvp>
+    <sttvp>4</sttvp>
+    <sttloaivp>4</sttloaivp>
+    <sttnhomvp>4</sttnhomvp>
+    <dvt>Lần</dvt>
+    <soluong>1.0000</soluong>
+    <dongia>35000.0000</dongia>
+    <sotien>35000.00000000</sotien>
+    <bhtra>0</bhtra>
+    <mien>0.0000</mien>
+    <thieu>0.0000</thieu>
+    <tongmien>0</tongmien>
+    <madoituong>2</madoituong>
+    <nguoithu>admin</nguoithu>
+    <hoantra>0.0000</hoantra>
+    <ghichu />
+    <nha>055.3975450</nha>
+    <coquan />
+    <didong />
+    <email />
+    <doituong>Thu phí</doituong>
+    <bacsichidinh />
+    <bacsithuchien />
+    <gia_bh>35000.00</gia_bh>
+    <gia_dv>35000.00</gia_dv>
+    <lydo>Acid Phosphatase [35,000đ], </lydo>
+    <masothue />
+  </Table>
+</NewDataSet>

@@ -1,0 +1,398 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="MAKHO" type="xs:decimal" minOccurs="0" />
+                <xs:element name="TENKHO" type="xs:string" minOccurs="0" />
+                <xs:element name="STT" type="xs:string" minOccurs="0" />
+                <xs:element name="MABD" type="xs:decimal" minOccurs="0" />
+                <xs:element name="MA" type="xs:string" minOccurs="0" />
+                <xs:element name="TEN" type="xs:string" minOccurs="0" />
+                <xs:element name="DANG" type="xs:string" minOccurs="0" />
+                <xs:element name="TENHC" type="xs:string" minOccurs="0" />
+                <xs:element name="MANHOM" type="xs:decimal" minOccurs="0" />
+                <xs:element name="TENNHOM" type="xs:string" minOccurs="0" />
+                <xs:element name="TENHANG" type="xs:string" minOccurs="0" />
+                <xs:element name="SLYEUCAU" type="xs:decimal" minOccurs="0" />
+                <xs:element name="SOLUONG" type="xs:decimal" minOccurs="0" />
+                <xs:element name="DICHSO" type="xs:string" minOccurs="0" />
+                <xs:element name="SOPHIEU" type="xs:decimal" minOccurs="0" />
+                <xs:element name="LANIN" type="xs:decimal" minOccurs="0" />
+                <xs:element name="DONGIA" type="xs:decimal" minOccurs="0" />
+                <xs:element name="HOTEN" type="xs:string" minOccurs="0" />
+                <xs:element name="NAMSINH" type="xs:string" minOccurs="0" />
+                <xs:element name="PHAI" type="xs:decimal" minOccurs="0" />
+                <xs:element name="NGUOILINH" type="xs:string" minOccurs="0" />
+                <xs:element name="NGAYYLENH" type="xs:string" minOccurs="0" />
+                <xs:element name="TUDEN" type="xs:string" minOccurs="0" />
+                <xs:element name="NGUOINHAP" type="xs:string" minOccurs="0" />
+                <xs:element name="NGUOIDUYET" type="xs:string" minOccurs="0" />
+                <xs:element name="LOSX" type="xs:string" minOccurs="0" />
+                <xs:element name="HANDUNG" type="xs:string" minOccurs="0" />
+                <xs:element name="image_duoc" type="xs:base64Binary" minOccurs="0" />
+                <xs:element name="image_dieutri" type="xs:base64Binary" minOccurs="0" />
+                <xs:element name="chandoan" type="xs:string" minOccurs="0" />
+                <xs:element name="maicd" type="xs:string" minOccurs="0" />
+                <xs:element name="ngayduyet" type="xs:string" minOccurs="0" />
+                <xs:element name="MANHOM1" type="xs:string" minOccurs="0" />
+                <xs:element name="TENNHOM1" type="xs:string" minOccurs="0" />
+                <xs:element name="giaban" type="xs:string" minOccurs="0" />
+                <xs:element name="mabn" type="xs:string" minOccurs="0" />
+                <xs:element name="tennguon" type="xs:string" minOccurs="0" />
+                <xs:element name="sothangdongy" type="xs:string" minOccurs="0" />
+                <xs:element name="slmotthang" type="xs:string" minOccurs="0" />
+                <xs:element name="sothe" type="xs:string" minOccurs="0" />
+                <xs:element name="giuong" type="xs:string" minOccurs="0" />
+                <xs:element name="doituong" type="xs:string" minOccurs="0" />
+                <xs:element name="sonha" type="xs:string" minOccurs="0" />
+                <xs:element name="thon" type="xs:string" minOccurs="0" />
+                <xs:element name="tenpxa" type="xs:string" minOccurs="0" />
+                <xs:element name="tenquan" type="xs:string" minOccurs="0" />
+                <xs:element name="tentt" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <MAKHO>1</MAKHO>
+    <TENKHO>Kho Viện Phí</TENKHO>
+    <STT>6</STT>
+    <MABD>608</MABD>
+    <MA>DAI002</MA>
+    <TEN>Đại Táo </TEN>
+    <DANG>Gram</DANG>
+    <TENHC>Đại Táo</TENHC>
+    <MANHOM>3</MANHOM>
+    <TENNHOM>Đông Y</TENNHOM>
+    <TENHANG>Vietnam</TENHANG>
+    <SLYEUCAU>1.0000</SLYEUCAU>
+    <SOLUONG>1.0000</SOLUONG>
+    <DICHSO>Một</DICHSO>
+    <SOPHIEU>3</SOPHIEU>
+    <LANIN>29</LANIN>
+    <DONGIA>2000.0000000000</DONGIA>
+    <HOTEN>KHUYEN</HOTEN>
+    <NAMSINH>1990</NAMSINH>
+    <PHAI>0</PHAI>
+    <NGUOILINH />
+    <chandoan>Sarcoid iridocyclitis</chandoan>
+    <maicd>D86.83</maicd>
+    <MANHOM1>0</MANHOM1>
+    <TENNHOM1>Khác</TENNHOM1>
+    <mabn>14030101</mabn>
+    <sothangdongy>0</sothangdongy>
+    <slmotthang>1.00</slmotthang>
+    <sothe />
+    <giuong />
+    <doituong>Thu Phí</doituong>
+    <sonha />
+    <thon />
+    <tenpxa>Không xác định</tenpxa>
+    <tenquan>Không xác định</tenquan>
+    <tentt>Hà Tĩnh</tentt>
+  </Table>
+  <Table>
+    <MAKHO>1</MAKHO>
+    <TENKHO>Kho Viện Phí</TENKHO>
+    <STT>6</STT>
+    <MABD>608</MABD>
+    <MA>DAI002</MA>
+    <TEN>Đại Táo </TEN>
+    <DANG>Gram</DANG>
+    <TENHC>Đại Táo</TENHC>
+    <MANHOM>3</MANHOM>
+    <TENNHOM>Đông Y</TENNHOM>
+    <TENHANG>Vietnam</TENHANG>
+    <SLYEUCAU>40.0000</SLYEUCAU>
+    <SOLUONG>40.0000</SOLUONG>
+    <DICHSO>Bốn mươi</DICHSO>
+    <SOPHIEU>3</SOPHIEU>
+    <LANIN>29</LANIN>
+    <DONGIA>2000.0000000000</DONGIA>
+    <HOTEN>NGUYỄN THỊ Ý</HOTEN>
+    <NAMSINH>1959</NAMSINH>
+    <PHAI>1</PHAI>
+    <chandoan>Cơn thiếu máu não thoáng qua và hội chứng liên quan</chandoan>
+    <maicd>G45</maicd>
+    <MANHOM1>0</MANHOM1>
+    <TENNHOM1>Khác</TENNHOM1>
+    <mabn>13000021</mabn>
+    <sothangdongy>10</sothangdongy>
+    <slmotthang>4.00</slmotthang>
+    <sothe />
+    <giuong>2/15</giuong>
+    <doituong>Thu Phí</doituong>
+    <sonha />
+    <thon />
+    <tenpxa>TT. Can Lộc</tenpxa>
+    <tenquan>H. Can Lộc</tenquan>
+    <tentt>Hà Tĩnh</tentt>
+  </Table>
+  <Table>
+    <MAKHO>1</MAKHO>
+    <TENKHO>Kho Viện Phí</TENKHO>
+    <STT>6</STT>
+    <MABD>609</MABD>
+    <MA>DAN001</MA>
+    <TEN>Đan Sâm </TEN>
+    <DANG>Gram</DANG>
+    <TENHC>Đan Sâm</TENHC>
+    <MANHOM>3</MANHOM>
+    <TENNHOM>Đông Y</TENNHOM>
+    <TENHANG>Vietnam</TENHANG>
+    <SLYEUCAU>10.0000</SLYEUCAU>
+    <SOLUONG>10.0000</SOLUONG>
+    <DICHSO>Mười</DICHSO>
+    <SOPHIEU>3</SOPHIEU>
+    <LANIN>29</LANIN>
+    <DONGIA>1000.0000000000</DONGIA>
+    <HOTEN>KHUYEN</HOTEN>
+    <NAMSINH>1990</NAMSINH>
+    <PHAI>0</PHAI>
+    <chandoan>Sarcoid iridocyclitis</chandoan>
+    <maicd>D86.83</maicd>
+    <MANHOM1>0</MANHOM1>
+    <TENNHOM1>Khác</TENNHOM1>
+    <mabn>14030101</mabn>
+    <sothangdongy>5</sothangdongy>
+    <slmotthang>2.00</slmotthang>
+    <sothe />
+    <giuong />
+    <doituong>Thu Phí</doituong>
+    <sonha />
+    <thon />
+    <tenpxa>Không xác định</tenpxa>
+    <tenquan>Không xác định</tenquan>
+    <tentt>Hà Tĩnh</tentt>
+  </Table>
+  <Table>
+    <MAKHO>1</MAKHO>
+    <TENKHO>Kho Viện Phí</TENKHO>
+    <STT>6</STT>
+    <MABD>553</MABD>
+    <MA>DIA001</MA>
+    <TEN>Địa Cốt Bì </TEN>
+    <DANG>Gram</DANG>
+    <TENHC>Địa Cốt Bì</TENHC>
+    <MANHOM>3</MANHOM>
+    <TENNHOM>Đông Y</TENNHOM>
+    <TENHANG>Vietnam</TENHANG>
+    <SLYEUCAU>10.0000</SLYEUCAU>
+    <SOLUONG>3.0000</SOLUONG>
+    <DICHSO>Ba</DICHSO>
+    <SOPHIEU>3</SOPHIEU>
+    <LANIN>29</LANIN>
+    <DONGIA>2000.0000000000</DONGIA>
+    <HOTEN>KHUYEN</HOTEN>
+    <NAMSINH>1990</NAMSINH>
+    <PHAI>0</PHAI>
+    <chandoan>Sarcoid iridocyclitis</chandoan>
+    <maicd>D86.83</maicd>
+    <MANHOM1>0</MANHOM1>
+    <TENNHOM1>Khác</TENNHOM1>
+    <mabn>14030101</mabn>
+    <sothangdongy>5</sothangdongy>
+    <slmotthang>2.00</slmotthang>
+    <sothe />
+    <giuong />
+    <doituong>Thu Phí</doituong>
+    <sonha />
+    <thon />
+    <tenpxa>Không xác định</tenpxa>
+    <tenquan>Không xác định</tenquan>
+    <tentt>Hà Tĩnh</tentt>
+  </Table>
+  <Table>
+    <MAKHO>1</MAKHO>
+    <TENKHO>Kho Viện Phí</TENKHO>
+    <STT>6</STT>
+    <MABD>553</MABD>
+    <MA>DIA001</MA>
+    <TEN>Địa Cốt Bì </TEN>
+    <DANG>Gram</DANG>
+    <TENHC>Địa Cốt Bì</TENHC>
+    <MANHOM>3</MANHOM>
+    <TENNHOM>Đông Y</TENNHOM>
+    <TENHANG>Vietnam</TENHANG>
+    <SLYEUCAU>7.0000</SLYEUCAU>
+    <SOLUONG>7.0000</SOLUONG>
+    <DICHSO>Bảy</DICHSO>
+    <SOPHIEU>3</SOPHIEU>
+    <LANIN>29</LANIN>
+    <DONGIA>1000.0000000000</DONGIA>
+    <HOTEN>KHUYEN</HOTEN>
+    <NAMSINH>1990</NAMSINH>
+    <PHAI>0</PHAI>
+    <chandoan>Sarcoid iridocyclitis</chandoan>
+    <maicd>D86.83</maicd>
+    <MANHOM1>0</MANHOM1>
+    <TENNHOM1>Khác</TENNHOM1>
+    <mabn>14030101</mabn>
+    <sothangdongy>5</sothangdongy>
+    <slmotthang>2.00</slmotthang>
+    <sothe />
+    <giuong />
+    <doituong>Thu Phí</doituong>
+    <sonha />
+    <thon />
+    <tenpxa>Không xác định</tenpxa>
+    <tenquan>Không xác định</tenquan>
+    <tentt>Hà Tĩnh</tentt>
+  </Table>
+  <Table>
+    <MAKHO>1</MAKHO>
+    <TENKHO>Kho Viện Phí</TENKHO>
+    <STT>6</STT>
+    <MABD>613</MABD>
+    <MA>DOC001</MA>
+    <TEN>Độc Hoạt </TEN>
+    <DANG>Gram</DANG>
+    <TENHC>Độc Hoạt</TENHC>
+    <MANHOM>3</MANHOM>
+    <TENNHOM>Đông Y</TENNHOM>
+    <TENHANG>Vietnam</TENHANG>
+    <SLYEUCAU>4.0000</SLYEUCAU>
+    <SOLUONG>4.0000</SOLUONG>
+    <DICHSO>Bốn</DICHSO>
+    <SOPHIEU>3</SOPHIEU>
+    <LANIN>29</LANIN>
+    <DONGIA>2000.0000000000</DONGIA>
+    <HOTEN>BÙI VĂN HỒNG</HOTEN>
+    <NAMSINH>1945</NAMSINH>
+    <PHAI>0</PHAI>
+    <chandoan>Viêm loét đại tràng</chandoan>
+    <maicd>K51</maicd>
+    <MANHOM1>0</MANHOM1>
+    <TENNHOM1>Khác</TENNHOM1>
+    <mabn>14000101</mabn>
+    <sothangdongy>2</sothangdongy>
+    <slmotthang>2.00</slmotthang>
+    <sothe />
+    <giuong />
+    <doituong>Thu Phí</doituong>
+    <sonha />
+    <thon />
+    <tenpxa>TT. Can Lộc</tenpxa>
+    <tenquan>H. Can Lộc</tenquan>
+    <tentt>Hà Tĩnh</tentt>
+  </Table>
+  <Table>
+    <MAKHO>1</MAKHO>
+    <TENKHO>Kho Viện Phí</TENKHO>
+    <STT>6</STT>
+    <MABD>555</MABD>
+    <MA>DUO004</MA>
+    <TEN>Đương Quy </TEN>
+    <DANG>gam</DANG>
+    <TENHC>Đương Quy</TENHC>
+    <MANHOM>3</MANHOM>
+    <TENNHOM>Đông Y</TENNHOM>
+    <TENHANG>Vietnam</TENHANG>
+    <SLYEUCAU>2.0000</SLYEUCAU>
+    <SOLUONG>2.0000</SOLUONG>
+    <DICHSO>Hai</DICHSO>
+    <SOPHIEU>3</SOPHIEU>
+    <LANIN>29</LANIN>
+    <DONGIA>2000.0000000000</DONGIA>
+    <HOTEN>KHUYEN</HOTEN>
+    <NAMSINH>1990</NAMSINH>
+    <PHAI>0</PHAI>
+    <chandoan>Sarcoid iridocyclitis</chandoan>
+    <maicd>D86.83</maicd>
+    <MANHOM1>0</MANHOM1>
+    <TENNHOM1>Khác</TENNHOM1>
+    <mabn>14030101</mabn>
+    <sothangdongy>0</sothangdongy>
+    <slmotthang>2.00</slmotthang>
+    <sothe />
+    <giuong />
+    <doituong>Thu Phí</doituong>
+    <sonha />
+    <thon />
+    <tenpxa>Không xác định</tenpxa>
+    <tenquan>Không xác định</tenquan>
+    <tentt>Hà Tĩnh</tentt>
+  </Table>
+  <Table>
+    <MAKHO>1</MAKHO>
+    <TENKHO>Kho Viện Phí</TENKHO>
+    <STT>6</STT>
+    <MABD>555</MABD>
+    <MA>DUO004</MA>
+    <TEN>Đương Quy </TEN>
+    <DANG>gam</DANG>
+    <TENHC>Đương Quy</TENHC>
+    <MANHOM>3</MANHOM>
+    <TENNHOM>Đông Y</TENNHOM>
+    <TENHANG>Vietnam</TENHANG>
+    <SLYEUCAU>20.0000</SLYEUCAU>
+    <SOLUONG>20.0000</SOLUONG>
+    <DICHSO>Hai mươi</DICHSO>
+    <SOPHIEU>3</SOPHIEU>
+    <LANIN>29</LANIN>
+    <DONGIA>2000.0000000000</DONGIA>
+    <HOTEN>NGUYỄN THỊ Ý</HOTEN>
+    <NAMSINH>1959</NAMSINH>
+    <PHAI>1</PHAI>
+    <chandoan>Cơn thiếu máu não thoáng qua và hội chứng liên quan</chandoan>
+    <maicd>G45</maicd>
+    <MANHOM1>0</MANHOM1>
+    <TENNHOM1>Khác</TENNHOM1>
+    <mabn>13000021</mabn>
+    <sothangdongy>10</sothangdongy>
+    <slmotthang>2.00</slmotthang>
+    <sothe />
+    <giuong>2/15</giuong>
+    <doituong>Thu Phí</doituong>
+    <sonha />
+    <thon />
+    <tenpxa>TT. Can Lộc</tenpxa>
+    <tenquan>H. Can Lộc</tenquan>
+    <tentt>Hà Tĩnh</tentt>
+  </Table>
+  <Table>
+    <MAKHO>1</MAKHO>
+    <TENKHO>Kho Viện Phí</TENKHO>
+    <STT>6</STT>
+    <MABD>555</MABD>
+    <MA>DUO004</MA>
+    <TEN>Đương Quy </TEN>
+    <DANG>gam</DANG>
+    <TENHC>Đương Quy</TENHC>
+    <MANHOM>3</MANHOM>
+    <TENNHOM>Đông Y</TENNHOM>
+    <TENHANG>Vietnam</TENHANG>
+    <SLYEUCAU>24.0000</SLYEUCAU>
+    <SOLUONG>24.0000</SOLUONG>
+    <DICHSO>Hai mươi bốn</DICHSO>
+    <SOPHIEU>3</SOPHIEU>
+    <LANIN>29</LANIN>
+    <DONGIA>2000.0000000000</DONGIA>
+    <HOTEN>BÙI VĂN HỒNG</HOTEN>
+    <NAMSINH>1945</NAMSINH>
+    <PHAI>0</PHAI>
+    <chandoan>Viêm loét đại tràng</chandoan>
+    <maicd>K51</maicd>
+    <MANHOM1>0</MANHOM1>
+    <TENNHOM1>Khác</TENNHOM1>
+    <mabn>14000101</mabn>
+    <sothangdongy>4</sothangdongy>
+    <slmotthang>6.00</slmotthang>
+    <sothe />
+    <giuong />
+    <doituong>Thu Phí</doituong>
+    <sonha />
+    <thon />
+    <tenpxa>TT. Can Lộc</tenpxa>
+    <tenquan>H. Can Lộc</tenquan>
+    <tentt>Hà Tĩnh</tentt>
+  </Table>
+</NewDataSet>

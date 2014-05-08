@@ -1,0 +1,121 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="c01" type="xs:string" minOccurs="0" />
+                <xs:element name="c02" type="xs:string" minOccurs="0" />
+                <xs:element name="c03" type="xs:string" minOccurs="0" />
+                <xs:element name="c04" type="xs:string" minOccurs="0" />
+                <xs:element name="c05" type="xs:string" minOccurs="0" />
+                <xs:element name="c06" type="xs:string" minOccurs="0" />
+                <xs:element name="c07" type="xs:string" minOccurs="0" />
+                <xs:element name="c08" type="xs:string" minOccurs="0" />
+                <xs:element name="c09" type="xs:string" minOccurs="0" />
+                <xs:element name="c10" type="xs:string" minOccurs="0" />
+                <xs:element name="c11" type="xs:string" minOccurs="0" />
+                <xs:element name="c12" type="xs:string" minOccurs="0" />
+                <xs:element name="c13" type="xs:string" minOccurs="0" />
+                <xs:element name="c14" type="xs:string" minOccurs="0" />
+                <xs:element name="c15" type="xs:string" minOccurs="0" />
+                <xs:element name="c16" type="xs:string" minOccurs="0" />
+                <xs:element name="c17" type="xs:string" minOccurs="0" />
+                <xs:element name="c18" type="xs:string" minOccurs="0" />
+                <xs:element name="c20" type="xs:string" minOccurs="0" />
+                <xs:element name="c21" type="xs:string" minOccurs="0" />
+                <xs:element name="c22" type="xs:string" minOccurs="0" />
+                <xs:element name="c23" type="xs:string" minOccurs="0" />
+                <xs:element name="c24" type="xs:string" minOccurs="0" />
+                <xs:element name="c26" type="xs:string" minOccurs="0" />
+                <xs:element name="c28" type="xs:string" minOccurs="0" />
+                <xs:element name="c29" type="xs:string" minOccurs="0" />
+                <xs:element name="c30" type="xs:string" minOccurs="0" />
+                <xs:element name="c31" type="xs:string" minOccurs="0" />
+                <xs:element name="c32" type="xs:string" minOccurs="0" />
+                <xs:element name="c33" type="xs:string" minOccurs="0" />
+                <xs:element name="c34" type="xs:string" minOccurs="0" />
+                <xs:element name="c35" type="xs:string" minOccurs="0" />
+                <xs:element name="c36" type="xs:string" minOccurs="0" />
+                <xs:element name="c37" type="xs:string" minOccurs="0" />
+                <xs:element name="c38" type="xs:string" minOccurs="0" />
+                <xs:element name="c39" type="xs:string" minOccurs="0" />
+                <xs:element name="c40" type="xs:string" minOccurs="0" />
+                <xs:element name="c41" type="xs:string" minOccurs="0" />
+                <xs:element name="c42" type="xs:string" minOccurs="0" />
+                <xs:element name="c43" type="xs:string" minOccurs="0" />
+                <xs:element name="c44" type="xs:string" minOccurs="0" />
+                <xs:element name="c45" type="xs:string" minOccurs="0" />
+                <xs:element name="c46" type="xs:string" minOccurs="0" />
+                <xs:element name="c47" type="xs:string" minOccurs="0" />
+                <xs:element name="c48" type="xs:string" minOccurs="0" />
+                <xs:element name="c49" type="xs:string" minOccurs="0" />
+                <xs:element name="c50" type="xs:string" minOccurs="0" />
+                <xs:element name="c51" type="xs:string" minOccurs="0" />
+                <xs:element name="c53" type="xs:string" minOccurs="0" />
+                <xs:element name="c54" type="xs:string" minOccurs="0" />
+                <xs:element name="c55" type="xs:string" minOccurs="0" />
+                <xs:element name="c56" type="xs:string" minOccurs="0" />
+                <xs:element name="c57" type="xs:string" minOccurs="0" />
+                <xs:element name="c58" type="xs:string" minOccurs="0" />
+                <xs:element name="c435" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <c01>1</c01>
+    <c02>0</c02>
+    <c03>0</c03>
+    <c04>0</c04>
+    <c05>0</c05>
+    <c06>0</c06>
+    <c07>0</c07>
+    <c08>0</c08>
+    <c09>1</c09>
+    <c10>0</c10>
+    <c11>0</c11>
+    <c12>0</c12>
+    <c13>0</c13>
+    <c14>0</c14>
+    <c15>0</c15>
+    <c20>0</c20>
+    <c23>0</c23>
+    <c24>0</c24>
+    <c26>0</c26>
+    <c28>C:\tmp</c28>
+    <c30>00:00</c30>
+    <c31>0</c31>
+    <c32>0</c32>
+    <c33 />
+    <c34 />
+    <c35>1</c35>
+    <c36>0</c36>
+    <c37>1</c37>
+    <c38>0</c38>
+    <c39>0</c39>
+    <c40>0</c40>
+    <c41>0</c41>
+    <c42>0</c42>
+    <c43>1</c43>
+    <c44>0</c44>
+    <c45>0</c45>
+    <c47>0</c47>
+    <c48>0</c48>
+    <c49>0</c49>
+    <c50>1</c50>
+    <c51>1</c51>
+    <c53>0</c53>
+    <c54>0</c54>
+    <c55>0</c55>
+    <c56>0</c56>
+    <c57>0</c57>
+    <c435>0</c435>
+  </Table>
+</NewDataSet>

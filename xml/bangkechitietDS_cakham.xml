@@ -1,0 +1,197 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ngaygio" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="ngay" type="xs:string" minOccurs="0" />
+                <xs:element name="ma" type="xs:string" minOccurs="0" />
+                <xs:element name="hoten" type="xs:string" minOccurs="0" />
+                <xs:element name="tenbn" type="xs:string" minOccurs="0" />
+                <xs:element name="mavp" type="xs:decimal" minOccurs="0" />
+                <xs:element name="mabn" type="xs:string" minOccurs="0" />
+                <xs:element name="done" type="xs:string" minOccurs="0" />
+                <xs:element name="tenvp" type="xs:string" minOccurs="0" />
+                <xs:element name="tra" type="xs:decimal" minOccurs="0" />
+                <xs:element name="madoituong" type="xs:decimal" minOccurs="0" />
+                <xs:element name="soluong" type="xs:decimal" minOccurs="0" />
+                <xs:element name="dongia" type="xs:decimal" minOccurs="0" />
+                <xs:element name="socabhdk" type="xs:int" minOccurs="0" />
+                <xs:element name="socadvdk" type="xs:int" minOccurs="0" />
+                <xs:element name="socaphuthu" type="xs:int" minOccurs="0" />
+                <xs:element name="socadvthucte" type="xs:int" minOccurs="0" />
+                <xs:element name="socaphuthu1" type="xs:int" minOccurs="0" />
+                <xs:element name="socabhthucte" type="xs:int" minOccurs="0" />
+                <xs:element name="socadvtra" type="xs:int" minOccurs="0" />
+                <xs:element name="socaphuthu2" type="xs:int" minOccurs="0" />
+                <xs:element name="socabhtra" type="xs:int" minOccurs="0" />
+                <xs:element name="sotiendvphuthu" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sotiendvthucte" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sotienbhthucte" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sotiendvtra" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sotienphuthu" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sotienbhtra" type="xs:decimal" minOccurs="0" />
+                <xs:element name="dongiadvtra" type="xs:decimal" minOccurs="0" />
+                <xs:element name="dongiaphuthu" type="xs:decimal" minOccurs="0" />
+                <xs:element name="dongiabhtra" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <ngaygio>2011-07-28T12:04:00-07:00</ngaygio>
+    <ngay>28-07-2011</ngay>
+    <tenbn>CAO MINH HY</tenbn>
+    <mavp>398</mavp>
+    <mabn>1102000142</mabn>
+    <done>?</done>
+    <tenvp>Khám bệnh 3</tenvp>
+    <tra>0.0000000000</tra>
+    <madoituong>9</madoituong>
+    <soluong>1.0000</soluong>
+    <dongia>90000.0000000000</dongia>
+    <socabhdk>0</socabhdk>
+    <socadvdk>1</socadvdk>
+    <socaphuthu>0</socaphuthu>
+    <socadvthucte>0</socadvthucte>
+    <socaphuthu1>0</socaphuthu1>
+    <socabhthucte>0</socabhthucte>
+    <socadvtra>0</socadvtra>
+    <socaphuthu2>0</socaphuthu2>
+    <socabhtra>0</socabhtra>
+    <sotiendvphuthu>0</sotiendvphuthu>
+    <sotiendvthucte>0</sotiendvthucte>
+    <sotienbhthucte>0</sotienbhthucte>
+    <sotiendvtra>0</sotiendvtra>
+    <sotienphuthu>0</sotienphuthu>
+    <sotienbhtra>0</sotienbhtra>
+    <dongiadvtra>90000.0000000000</dongiadvtra>
+    <dongiaphuthu>0</dongiaphuthu>
+    <dongiabhtra>0</dongiabhtra>
+  </Table>
+  <Table>
+    <ngaygio>2011-07-28T21:41:00-07:00</ngaygio>
+    <ngay>28-07-2011</ngay>
+    <tenbn>BHYTY 1</tenbn>
+    <mavp>398</mavp>
+    <mabn>1102000146</mabn>
+    <done>?</done>
+    <tenvp>Khám bệnh 3</tenvp>
+    <tra>0.0000000000</tra>
+    <madoituong>1</madoituong>
+    <soluong>1.0000</soluong>
+    <dongia>2000.0000000000</dongia>
+    <socabhdk>1</socabhdk>
+    <socadvdk>0</socadvdk>
+    <socaphuthu>0</socaphuthu>
+    <socadvthucte>0</socadvthucte>
+    <socaphuthu1>0</socaphuthu1>
+    <socabhthucte>0</socabhthucte>
+    <socadvtra>0</socadvtra>
+    <socaphuthu2>0</socaphuthu2>
+    <socabhtra>0</socabhtra>
+    <sotiendvphuthu>0</sotiendvphuthu>
+    <sotiendvthucte>0</sotiendvthucte>
+    <sotienbhthucte>0</sotienbhthucte>
+    <sotiendvtra>0</sotiendvtra>
+    <sotienphuthu>0</sotienphuthu>
+    <sotienbhtra>0</sotienbhtra>
+    <dongiadvtra>0</dongiadvtra>
+    <dongiaphuthu>0</dongiaphuthu>
+    <dongiabhtra>2000.0000000000</dongiabhtra>
+  </Table>
+  <Table>
+    <ngaygio>2011-07-28T21:41:00-07:00</ngaygio>
+    <ngay>28-07-2011</ngay>
+    <tenbn>BHYTY 1</tenbn>
+    <mavp>398</mavp>
+    <mabn>1102000146</mabn>
+    <done>?</done>
+    <tenvp>Khám bệnh 3</tenvp>
+    <tra>0.0000000000</tra>
+    <madoituong>1</madoituong>
+    <soluong>1.0000</soluong>
+    <dongia>45000.0000000000</dongia>
+    <socabhdk>1</socabhdk>
+    <socadvdk>0</socadvdk>
+    <socaphuthu>0</socaphuthu>
+    <socadvthucte>0</socadvthucte>
+    <socaphuthu1>0</socaphuthu1>
+    <socabhthucte>0</socabhthucte>
+    <socadvtra>0</socadvtra>
+    <socaphuthu2>0</socaphuthu2>
+    <socabhtra>0</socabhtra>
+    <sotiendvphuthu>0</sotiendvphuthu>
+    <sotiendvthucte>0</sotiendvthucte>
+    <sotienbhthucte>0</sotienbhthucte>
+    <sotiendvtra>0</sotiendvtra>
+    <sotienphuthu>0</sotienphuthu>
+    <sotienbhtra>0</sotienbhtra>
+    <dongiadvtra>0</dongiadvtra>
+    <dongiaphuthu>0</dongiaphuthu>
+    <dongiabhtra>45000.0000000000</dongiabhtra>
+  </Table>
+  <Table>
+    <tenbn>KHAM 2 CHK</tenbn>
+    <mavp>398</mavp>
+    <mabn>1102000149</mabn>
+    <tenvp>Khám bệnh 3</tenvp>
+    <tra>0.0000000000</tra>
+    <madoituong>1</madoituong>
+    <soluong>1.0000</soluong>
+    <dongia>2000.0000000000</dongia>
+    <socabhdk>1</socabhdk>
+    <socadvdk>0</socadvdk>
+    <socaphuthu>0</socaphuthu>
+    <socadvthucte>0</socadvthucte>
+    <socaphuthu1>0</socaphuthu1>
+    <socabhthucte>0</socabhthucte>
+    <socadvtra>0</socadvtra>
+    <socaphuthu2>0</socaphuthu2>
+    <socabhtra>0</socabhtra>
+    <sotiendvphuthu>0</sotiendvphuthu>
+    <sotiendvthucte>0</sotiendvthucte>
+    <sotienbhthucte>0</sotienbhthucte>
+    <sotiendvtra>0</sotiendvtra>
+    <sotienphuthu>0</sotienphuthu>
+    <sotienbhtra>0</sotienbhtra>
+    <dongiadvtra>0</dongiadvtra>
+    <dongiaphuthu>0</dongiaphuthu>
+    <dongiabhtra>2000.0000000000</dongiabhtra>
+  </Table>
+  <Table>
+    <tenbn>KHAM 2 CHK</tenbn>
+    <mavp>398</mavp>
+    <mabn>1102000149</mabn>
+    <tenvp>Khám bệnh 3</tenvp>
+    <tra>0.0000000000</tra>
+    <madoituong>1</madoituong>
+    <soluong>1.0000</soluong>
+    <dongia>45000.0000000000</dongia>
+    <socabhdk>1</socabhdk>
+    <socadvdk>0</socadvdk>
+    <socaphuthu>0</socaphuthu>
+    <socadvthucte>0</socadvthucte>
+    <socaphuthu1>0</socaphuthu1>
+    <socabhthucte>0</socabhthucte>
+    <socadvtra>0</socadvtra>
+    <socaphuthu2>0</socaphuthu2>
+    <socabhtra>0</socabhtra>
+    <sotiendvphuthu>0</sotiendvphuthu>
+    <sotiendvthucte>0</sotiendvthucte>
+    <sotienbhthucte>0</sotienbhthucte>
+    <sotiendvtra>0</sotiendvtra>
+    <sotienphuthu>0</sotienphuthu>
+    <sotienbhtra>0</sotienbhtra>
+    <dongiadvtra>0</dongiadvtra>
+    <dongiaphuthu>0</dongiaphuthu>
+    <dongiabhtra>45000.0000000000</dongiabhtra>
+  </Table>
+</NewDataSet>

@@ -1,0 +1,109 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="BienLaiTamUng">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="syt" type="xs:string" minOccurs="0" />
+                <xs:element name="bv" type="xs:string" minOccurs="0" />
+                <xs:element name="diachibv" type="xs:string" minOccurs="0" />
+                <xs:element name="tongcucthue" type="xs:string" minOccurs="0" />
+                <xs:element name="cucthue" type="xs:string" minOccurs="0" />
+                <xs:element name="masothue" type="xs:string" minOccurs="0" />
+                <xs:element name="mauso" type="xs:string" minOccurs="0" />
+                <xs:element name="quyenso" type="xs:string" minOccurs="0" />
+                <xs:element name="sobienlai" type="xs:string" minOccurs="0" />
+                <xs:element name="ngayin" type="xs:string" minOccurs="0" />
+                <xs:element name="nguoiin" type="xs:string" minOccurs="0" />
+                <xs:element name="ghichu" type="xs:string" minOccurs="0" />
+                <xs:element name="lien" type="xs:string" minOccurs="0" />
+                <xs:element name="mabn" type="xs:string" minOccurs="0" />
+                <xs:element name="hoten" type="xs:string" minOccurs="0" />
+                <xs:element name="ngaysinh" type="xs:string" minOccurs="0" />
+                <xs:element name="gioitinh" type="xs:string" minOccurs="0" />
+                <xs:element name="khoa" type="xs:string" minOccurs="0" />
+                <xs:element name="diachi" type="xs:string" minOccurs="0" />
+                <xs:element name="lydo" type="xs:string" minOccurs="0" />
+                <xs:element name="sotien" type="xs:string" minOccurs="0" />
+                <xs:element name="chutien" type="xs:string" minOccurs="0" />
+                <xs:element name="tongcp" type="xs:string" minOccurs="0" />
+                <xs:element name="tamung" type="xs:string" minOccurs="0" />
+                <xs:element name="bhyt" type="xs:string" minOccurs="0" />
+                <xs:element name="mien" type="xs:string" minOccurs="0" />
+                <xs:element name="lydomien" type="xs:string" minOccurs="0" />
+                <xs:element name="nguoithu" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <BienLaiTamUng>
+    <syt>Bộ Y Tế</syt>
+    <bv>Viện Nhi Trung Ương</bv>
+    <diachibv />
+    <tongcucthue>&lt;TỔNG CỤC THUẾ&gt;</tongcucthue>
+    <cucthue>&lt;CỤC THUẾ&gt;</cucthue>
+    <masothue>0302159861</masothue>
+    <mauso>HCM 27/ĐT-VT.20VP</mauso>
+    <quyenso>NTTT2005</quyenso>
+    <sobienlai>20556</sobienlai>
+    <ngayin>01/12/2005</ngayin>
+    <nguoiin>Phạm Thị Nhiễu</nguoiin>
+    <ghichu />
+    <lien>Liên 1: Lưu</lien>
+    <mabn>05167198</mabn>
+    <hoten>TRẦN ĐĂNG AN</hoten>
+    <ngaysinh>16/07/2005</ngaysinh>
+    <gioitinh>Nam</gioitinh>
+    <khoa>Hô Hấp - A16</khoa>
+    <diachi>Phường Thanh Xuân Bắc, Quận Thanh Xuân, Hà Nội</diachi>
+    <lydo>Thuốc</lydo>
+    <sotien>44,095.2</sotien>
+    <chutien>Bốn mươi bốn ngàn không trăm chín mươi lăm  đồng</chutien>
+    <tongcp>44,095.2</tongcp>
+    <tamung>300,000</tamung>
+    <bhyt>0</bhyt>
+    <mien>0</mien>
+    <lydomien>- Tổng chi phí: 44,095.2
+- Tạm ứng: 300,000
+- Hoàn lại: 255,904.8</lydomien>
+    <nguoithu>Phạm Thị Nhiễu</nguoithu>
+  </BienLaiTamUng>
+  <BienLaiTamUng>
+    <syt>Bộ Y Tế</syt>
+    <bv>Viện Nhi Trung Ương</bv>
+    <diachibv />
+    <tongcucthue>&lt;TỔNG CỤC THUẾ&gt;</tongcucthue>
+    <cucthue>&lt;CỤC THUẾ&gt;</cucthue>
+    <masothue>0302159861</masothue>
+    <mauso>HCM 27/ĐT-VT.20VP</mauso>
+    <quyenso>NTTT2005</quyenso>
+    <sobienlai>20556</sobienlai>
+    <ngayin>01/12/2005</ngayin>
+    <nguoiin>Phạm Thị Nhiễu</nguoiin>
+    <ghichu />
+    <lien>Liên 2: Giao cho bệnh nhân</lien>
+    <mabn>05167198</mabn>
+    <hoten>TRẦN ĐĂNG AN</hoten>
+    <ngaysinh>16/07/2005</ngaysinh>
+    <gioitinh>Nam</gioitinh>
+    <khoa>Hô Hấp - A16</khoa>
+    <diachi>Phường Thanh Xuân Bắc, Quận Thanh Xuân, Hà Nội</diachi>
+    <lydo>Thuốc</lydo>
+    <sotien>44,095.2</sotien>
+    <chutien>Bốn mươi bốn ngàn không trăm chín mươi lăm  đồng</chutien>
+    <tongcp>44,095.2</tongcp>
+    <tamung>300,000</tamung>
+    <bhyt>0</bhyt>
+    <mien>0</mien>
+    <lydomien>- Tổng chi phí: 44,095.2
+- Tạm ứng: 300,000
+- Hoàn lại: 255,904.8</lydomien>
+    <nguoithu>Phạm Thị Nhiễu</nguoithu>
+  </BienLaiTamUng>
+</NewDataSet>

@@ -1,0 +1,470 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{53C57755-936A-43A2-B234-C29BA91B766A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>dllBaocao_BYT</RootNamespace>
+    <AssemblyName>dllBaocao_BYT</AssemblyName>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Enterprise.Framework, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.InfoStore, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Web, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="Interop.Excel, Version=1.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Medisoft\bin\Debug\Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="LibDuoc, Version=1.0.4084.15946, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\LibMedi\bin\Debug\LibDuoc.dll</HintPath>
+    </Reference>
+    <Reference Include="LibList, Version=1.0.3776.779, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Medisoft\bin\Debug\LibList.dll</HintPath>
+    </Reference>
+    <Reference Include="LibMedi, Version=1.0.4084.17060, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\LibMedi\bin\Debug\LibMedi.dll</HintPath>
+    </Reference>
+    <Reference Include="MaskedBox, Version=1.0.2334.25504, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Medisoft\bin\Debug\MaskedBox.dll</HintPath>
+    </Reference>
+    <Reference Include="MaskedTextBox, Version=1.0.1704.27792, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Medisoft\bin\Debug\MaskedTextBox.dll</HintPath>
+    </Reference>
+    <Reference Include="MultiColumnListBox, Version=1.0.3526.13938, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Medisoft\bin\Debug\MultiColumnListBox.dll</HintPath>
+    </Reference>
+    <Reference Include="MultiColumnListBoxColor, Version=1.0.2592.31483, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Medisoft\bin\Debug\MultiColumnListBoxColor.dll</HintPath>
+    </Reference>
+    <Reference Include="office, Version=11.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Medisoft\bin\Debug\office.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="VietKeyInput, Version=1.0.2384.16337, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Medisoft\bin\Debug\VietKeyInput.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Bogotiengviet.cs" />
+    <Compile Include="frmBieu11_1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CrystalReport1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrystalReport1.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBieu01.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBieu02.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBieu031.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBieu04.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBieu05.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBieu06.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBieu07.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBieu08.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBieu091.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBieu092.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBieu101.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBieu1021.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBieu1022.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBieu103.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBieu11.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBieu11_18.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCoso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmKh01.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmKh02.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmKh032.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmKh031.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmKh04.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmKh05.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmKh06.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmKh07.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmKh08.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmKh09.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmKh10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmKh11.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmKh121.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmKh122.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmKh123.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmKh124.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmKh13.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmKh132.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmKh133.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmKh141.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmKh142.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmKh143.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmKh144.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmKh145.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmKh15.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTaosolieu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTaosolieu.Designer.cs">
+      <DependentUpon>frmTaosolieu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Language.cs" />
+    <Compile Include="Print.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmBieu11_1.resx">
+      <DependentUpon>frmBieu11_1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReport1.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalReport1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBieu01.resx">
+      <DependentUpon>frmBieu01.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBieu02.resx">
+      <DependentUpon>frmBieu02.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBieu031.resx">
+      <DependentUpon>frmBieu031.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBieu04.resx">
+      <DependentUpon>frmBieu04.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBieu05.resx">
+      <DependentUpon>frmBieu05.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBieu06.resx">
+      <DependentUpon>frmBieu06.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBieu07.resx">
+      <DependentUpon>frmBieu07.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBieu08.resx">
+      <DependentUpon>frmBieu08.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBieu091.resx">
+      <DependentUpon>frmBieu091.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBieu092.resx">
+      <DependentUpon>frmBieu092.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBieu101.resx">
+      <DependentUpon>frmBieu101.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBieu1021.resx">
+      <DependentUpon>frmBieu1021.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBieu1022.resx">
+      <DependentUpon>frmBieu1022.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBieu103.resx">
+      <DependentUpon>frmBieu103.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBieu11.resx">
+      <DependentUpon>frmBieu11.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBieu11_18.resx">
+      <DependentUpon>frmBieu11_18.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCoso.resx">
+      <DependentUpon>frmCoso.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmKh01.resx">
+      <DependentUpon>frmKh01.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmKh02.resx">
+      <DependentUpon>frmKh02.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmKh032.resx">
+      <DependentUpon>frmKh032.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmKh031.resx">
+      <DependentUpon>frmKh031.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmKh04.resx">
+      <DependentUpon>frmKh04.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmKh05.resx">
+      <DependentUpon>frmKh05.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmKh06.resx">
+      <DependentUpon>frmKh06.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmKh07.resx">
+      <DependentUpon>frmKh07.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmKh08.resx">
+      <DependentUpon>frmKh08.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmKh09.resx">
+      <DependentUpon>frmKh09.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmKh10.resx">
+      <DependentUpon>frmKh10.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmKh11.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmKh121.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmKh122.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmKh123.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmKh124.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmKh13.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmKh132.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmKh133.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmKh141.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmKh142.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmKh143.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmKh144.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmKh145.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmKh15.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReport.resx">
+      <DependentUpon>frmReport.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTaosolieu.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmTaosolieu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptBieu.resx">
+      <DependentUpon>rptBieu.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptBieukh.resx">
+      <DependentUpon>rptBieukh.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="rptBieu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="rptBieukh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Run.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close_r.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

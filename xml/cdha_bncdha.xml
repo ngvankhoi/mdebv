@@ -1,0 +1,158 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="id" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ngay" type="xs:string" minOccurs="0" />
+                <xs:element name="mabn" type="xs:string" minOccurs="0" />
+                <xs:element name="hoten" type="xs:string" minOccurs="0" />
+                <xs:element name="phai" type="xs:string" minOccurs="0" />
+                <xs:element name="ngaysinh" type="xs:string" minOccurs="0" />
+                <xs:element name="diachi" type="xs:string" minOccurs="0" />
+                <xs:element name="tenkp" type="xs:string" minOccurs="0" />
+                <xs:element name="bsdt" type="xs:string" minOccurs="0" />
+                <xs:element name="ktv" type="xs:string" minOccurs="0" />
+                <xs:element name="doituong" type="xs:string" minOccurs="0" />
+                <xs:element name="userid" type="xs:string" minOccurs="0" />
+                <xs:element name="chandoan" type="xs:string" minOccurs="0" />
+                <xs:element name="ketluan" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="kqct">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="id" type="xs:decimal" minOccurs="0" />
+                <xs:element name="makt" type="xs:string" minOccurs="0" />
+                <xs:element name="tenkt" type="xs:string" minOccurs="0" />
+                <xs:element name="mota" type="xs:string" minOccurs="0" />
+                <xs:element name="ketluan" type="xs:string" minOccurs="0" />
+                <xs:element name="denghi" type="xs:string" minOccurs="0" />
+                <xs:element name="solan" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <id>70100000001</id>
+    <ngay>21/04/2007</ngay>
+    <mabn>07000001</mabn>
+    <hoten>TEST</hoten>
+    <phai>Nam</phai>
+    <ngaysinh>1992</ngaysinh>
+    <diachi>  P. 1 TP. Vũng Tầu Bà Rịa - Vũng Tàu</diachi>
+    <tenkp>Pk Nội 1</tenkp>
+    <ktv>Nguyễn Thi Hồng Hạnh</ktv>
+    <doituong>Thu phí</doituong>
+    <userid>1</userid>
+    <chandoan />
+    <ketluan>rtg
+ertg</ketluan>
+  </Table>
+  <Table>
+    <id>70100000002</id>
+    <ngay>21/04/2007</ngay>
+    <mabn>07000001</mabn>
+    <hoten>TEST</hoten>
+    <phai>Nam</phai>
+    <ngaysinh>1992</ngaysinh>
+    <diachi>  P. 1 TP. Vũng Tầu Bà Rịa - Vũng Tàu</diachi>
+    <tenkp>Pk Nội 1</tenkp>
+    <ktv>Nguyễn Thi Hồng Hạnh</ktv>
+    <doituong>Thu phí</doituong>
+    <userid>1</userid>
+    <chandoan />
+    <ketluan>Siêu âm tim doppler màu bình thường</ketluan>
+  </Table>
+  <kqct>
+    <id>70100000001</id>
+    <makt>SATG</makt>
+    <tenkt>Siêu âm tim gắng sức</tenkt>
+    <mota>fg
+erg
+er
+g
+g
+
+trf
+g
+tr
+</mota>
+    <ketluan>rtg
+ertg</ketluan>
+    <denghi>rtg
+ertg</denghi>
+    <solan>1</solan>
+  </kqct>
+  <kqct>
+    <id>70100000002</id>
+    <makt>SAM</makt>
+    <tenkt>Siêu âm màu tim</tenkt>
+    <mota> I. 2D/TM  
+
+ - Ao(Động mạch chủ)  3mm
+ - LA(ĐK nhĩ trái)  3mm
+ - AVD(Diện tích mở van)  3mm
+ - IVSd(Vách liên thất tâm trương)  3mm
+ - IVSs(Tâm thu)  3mm
+ - LVDd(Thất trái tâm trương)  3mm
+ - LVDs(Tâm thu)  3mm
+ - LVPWd(Thành sau thất trái tâm trương)  3mm
+ - LVPWs(Tâm thu)  3mm
+ - EF(Phán suất tống máu)  3%
+ - ES(Phán suất co rút)  3%
+ - Vách liên thất  Nguyên vẹn
+ - Vách liên nhỉ  Nguyên vẹn
+ - Màng ngoài tim  Không tràn dịch
+ - Vấn đề khác  
+
+ II. DOPPLER  
+
+  1. Dòng qua 2 lá 0E/A
+
+ - E(Vận tốc tại điểm E) cm/s 
+ - A(Vận tốc tại điểm A) cm/s 
+ - EPG(Chênh áp tại điểm E) mmHg 
+ - APG(Chêch1 áp tại A) mmHg 
+ - Hở van 2 lá  Không
+ - Hẹp van 2 lá  Không
+ - Vmax(vận tốc tối đa):  cm/s
+ - MVA(Diện tích lổ van 2 lá):  cm2
+
+ 2. Dòng qua động mạch chủ  
+
+ - Vmacx(Vận tốc tối đa):  cm/s
+ - Vmean(Vận tốc trung bình):  cm/s
+ - PGmax(Chênh áp tối đa):  mmHg
+ - PGmean(Chênh áp trung bình):  mmHg
+
+ 3.Dòng qua van 3 lá  
+
+ - Hở 3 lá :  Không
+ - Vmax(Vận tốc tối đa) :  cm/s
+ - PGmax(Chênh áp tối đa) :  mmHg
+ - PAPs(Áp lực ĐMP tâm thu) :  mmHg
+
+  4. Dòng qua động mạch phổi  
+
+ Vmax(Vận tốc tối đa) cm/s
+ Vmean(Vận tốc trng bình) cm/s
+ PGmax(Chênh áp tối đa) mmHg
+ PGmean(Chênh áp trung bình) mmHg
+ Hẹp van Không
+ PAPm mmHg
+ PAPd mmHg
+</mota>
+    <ketluan>Siêu âm tim doppler màu bình thường</ketluan>
+    <denghi>DN</denghi>
+    <solan>1</solan>
+  </kqct>
+</NewDataSet>

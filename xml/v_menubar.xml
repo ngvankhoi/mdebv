@@ -1,0 +1,171 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table1>
+    <TEN>Thu trực tiếp (mẫu 1)</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Thu trực tiếp (mẫu 2)</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Thu viện phí trọn gói</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Thu tạm ứng</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Tổng hợp ra viện</TEN>
+  </Table1>
+  <Table1>
+    <TEN>In phiếu thanh toán ra viện</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Hoàn trả biên lai</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Biên lai hủy</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Chỉnh sữa số biên lai</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Tổng số biên lai khám bệnh trong ngày</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Xem chi tiết thu từng người bệnh</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Xem chi tiết thu theo người thu</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Tìm kiếm người bệnh</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Chỉnh sữa thông tin hành chính</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Kiểm tra số lần thu trong ngày</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Bảng tổng hợp thu viện phí trực tiếp (mẫu 1)</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Bảng tổng hợp thu viện phí trực tiếp (mẫu 2)</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Bảng tổng hợp thu viện phí (khám bệnh)</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Báo cáo số biên lai</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Báo cáo số biên lai hủy</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Báo cáo thu tạm ứng</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Bảng thanh toán với bệnh nhân ra viện</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Bảng tổng hợp thanh toán với bệnh nhân ra viện</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Báo cáo thu viện trọn gói</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Bảng tổng hợp theo dõi tiền bệnh nhân thanh toán ra viện</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Báo cáo viện phí</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Báo cáo thanh toán chi phí KCB ngoại trú theo đơn</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Báo cáo thanh toán chi phí KCB ngoại trú</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Bảng tổng hợp chi phí KCB ngoại trú</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Tổng hợp số lượt khám bệnh ngoại trú</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Báo cáo thanh toán chi phí KCB nội trú</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Bảng tổng hợp chi phí KCB nội trú</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Báo cáo doanh thu  thu hồi</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Báo cáo số biên lai thu hồi</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Báo cáo tổng hợp</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Báo cáo thu của nhân viện</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Báo cáo chi tiết thu của BN theo từng nhân viên</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Báo cáo chi tiết hoàn trả theo từng nhân viên</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Khai báo quyển sổ</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Khai báo nhóm báo cáo</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Khai báo nhóm viện phí</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Khai báo loại viện phí</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Khai báo giá viện phí</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Khai báo phân loại viện phí</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Khai báo nhóm trọn gói</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Khai báo giá trọn gói theo nhóm</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Khai báo danh sách duyệt miễn giảm</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Khai báo lý do miễn</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Khai báo lý do nộp thêm</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Khai báo lý do thiếu</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Khai báo ghi chú</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Khoa/phòng</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Khai báo thông số hệ thống</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Phân quyền sử dụng</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Thay đổi mật khẩu</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Sao lưu số liệu</TEN>
+  </Table1>
+</NewDataSet>

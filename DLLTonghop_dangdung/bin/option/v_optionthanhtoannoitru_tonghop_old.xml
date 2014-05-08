@@ -1,0 +1,51 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="MA" type="xs:string" minOccurs="0" />
+                <xs:element name="Giatri" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <MA>chkTonghop.CheckedState</MA>
+    <Giatri>0</Giatri>
+  </Table>
+  <Table>
+    <MA>chkTonghop.Theoloai</MA>
+    <Giatri>0</Giatri>
+  </Table>
+  <Table>
+    <MA>menuItem20</MA>
+    <Giatri>1</Giatri>
+  </Table>
+  <Table>
+    <MA>menuItem21</MA>
+    <Giatri>0</Giatri>
+  </Table>
+  <Table>
+    <MA>menuItem41</MA>
+    <Giatri>0</Giatri>
+  </Table>
+  <Table>
+    <MA>menuItem44</MA>
+    <Giatri>0</Giatri>
+  </Table>
+  <Table>
+    <MA>menuItem46</MA>
+    <Giatri>0</Giatri>
+  </Table>
+  <Table>
+    <MA>menuItem47</MA>
+    <Giatri>0</Giatri>
+  </Table>
+</NewDataSet>

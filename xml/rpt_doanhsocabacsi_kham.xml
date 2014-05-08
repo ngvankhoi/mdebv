@@ -1,0 +1,92 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ngay" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="ngaykham1" type="xs:string" minOccurs="0" />
+                <xs:element name="mabs" type="xs:string" minOccurs="0" />
+                <xs:element name="mavp" type="xs:decimal" minOccurs="0" />
+                <xs:element name="tenvp" type="xs:string" minOccurs="0" />
+                <xs:element name="idloaivp" type="xs:decimal" minOccurs="0" />
+                <xs:element name="loaivp" type="xs:string" minOccurs="0" />
+                <xs:element name="idnhomvp" type="xs:decimal" minOccurs="0" />
+                <xs:element name="nhomvp" type="xs:string" minOccurs="0" />
+                <xs:element name="hoten" type="xs:string" minOccurs="0" />
+                <xs:element name="madoituong" type="xs:decimal" minOccurs="0" />
+                <xs:element name="socaphuthu" type="xs:decimal" minOccurs="0" />
+                <xs:element name="socahepa" type="xs:decimal" minOccurs="0" />
+                <xs:element name="socabhyt" type="xs:decimal" minOccurs="0" />
+                <xs:element name="dongiahepa" type="xs:decimal" minOccurs="0" />
+                <xs:element name="dongiaphuthu" type="xs:decimal" minOccurs="0" />
+                <xs:element name="dongiabhyt" type="xs:decimal" minOccurs="0" />
+                <xs:element name="phuthu" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <ngay>2011-07-28T00:00:00-07:00</ngay>
+    <ngaykham1>28-07-2011</ngaykham1>
+    <mabs />
+    <mavp>398</mavp>
+    <tenvp>Khám bệnh 3</tenvp>
+    <idloaivp>20</idloaivp>
+    <loaivp>Khám bệnh</loaivp>
+    <idnhomvp>4</idnhomvp>
+    <nhomvp>Công khám</nhomvp>
+    <madoituong>1</madoituong>
+    <socaphuthu>0</socaphuthu>
+    <socahepa>0</socahepa>
+    <socabhyt>2.0000</socabhyt>
+    <dongiahepa>0</dongiahepa>
+    <dongiaphuthu>0</dongiaphuthu>
+    <dongiabhyt>2000.0000000000</dongiabhyt>
+    <phuthu>2</phuthu>
+  </Table>
+  <Table>
+    <ngay>2011-07-28T00:00:00-07:00</ngay>
+    <ngaykham1>28-07-2011</ngaykham1>
+    <mabs />
+    <mavp>398</mavp>
+    <tenvp>Khám bệnh 3</tenvp>
+    <idloaivp>20</idloaivp>
+    <loaivp>Khám bệnh</loaivp>
+    <idnhomvp>4</idnhomvp>
+    <nhomvp>Công khám</nhomvp>
+    <madoituong>9</madoituong>
+    <socaphuthu>1.0000</socaphuthu>
+    <socahepa>0</socahepa>
+    <socabhyt>0</socabhyt>
+    <dongiahepa>0</dongiahepa>
+    <dongiaphuthu>45000.0000000000</dongiaphuthu>
+    <dongiabhyt>0</dongiabhyt>
+    <phuthu>1</phuthu>
+  </Table>
+  <Table>
+    <ngay>2011-07-28T00:00:00-07:00</ngay>
+    <ngaykham1>28-07-2011</ngaykham1>
+    <mabs />
+    <mavp>398</mavp>
+    <tenvp>Khám bệnh 3</tenvp>
+    <idloaivp>20</idloaivp>
+    <loaivp>Khám bệnh</loaivp>
+    <idnhomvp>4</idnhomvp>
+    <nhomvp>Công khám</nhomvp>
+    <madoituong>9</madoituong>
+    <socaphuthu>0</socaphuthu>
+    <socahepa>1.0000</socahepa>
+    <socabhyt>0</socabhyt>
+    <dongiahepa>90000.0000000000</dongiahepa>
+    <dongiaphuthu>0</dongiaphuthu>
+    <dongiabhyt>0</dongiabhyt>
+    <phuthu>0</phuthu>
+  </Table>
+</NewDataSet>

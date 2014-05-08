@@ -1,0 +1,183 @@
+<?xml version="1.0" standalone="yes" ?>
+<NewDataSet>
+	<xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xs:element name="NewDataSet" msdata:IsDataSet="true">
+			<xs:complexType>
+				<xs:choice maxOccurs="unbounded">
+					<xs:element name="Table">
+						<xs:complexType>
+							<xs:sequence>
+								<xs:element name="STT" type="xs:decimal" minOccurs="0" />
+								<xs:element name="NOIDUNG" type="xs:string" minOccurs="0" />
+								<xs:element name="C01" type="xs:decimal" minOccurs="0" />
+								<xs:element name="C02" type="xs:decimal" minOccurs="0" />
+								<xs:element name="C03" type="xs:decimal" minOccurs="0" />
+								<xs:element name="C04" type="xs:decimal" minOccurs="0" />
+							</xs:sequence>
+						</xs:complexType>
+					</xs:element>
+				</xs:choice>
+			</xs:complexType>
+		</xs:element>
+	</xs:schema>
+	<Table>
+		<STT>1</STT>
+		<NOIDUNG>Số người còn lại</NOIDUNG>
+		<C01>0</C01>
+		<C02>0</C02>
+		<C03>0</C03>
+		<C04>0</C04>
+	</Table>
+	<Table>
+		<STT>2</STT>
+		<NOIDUNG>Số người mới vào</NOIDUNG>
+		<C01>0</C01>
+		<C02>0</C02>
+		<C03>0</C03>
+		<C04>0</C04>
+	</Table>
+	<Table>
+		<STT>3</STT>
+		<NOIDUNG>Số người điều trị</NOIDUNG>
+		<C01>0</C01>
+		<C02>0</C02>
+		<C03>0</C03>
+		<C04>0</C04>
+	</Table>
+	<Table>
+		<STT>4</STT>
+		<NOIDUNG>Số người còn lại</NOIDUNG>
+		<C01>0</C01>
+		<C02>0</C02>
+		<C03>0</C03>
+		<C04>0</C04>
+	</Table>
+	<Table>
+		<STT>5</STT>
+		<NOIDUNG>Số người ra viện</NOIDUNG>
+		<C01>0</C01>
+		<C02>0</C02>
+		<C03>0</C03>
+		<C04>0</C04>
+	</Table>
+	<Table>
+		<STT>6</STT>
+		<NOIDUNG>Số BN chuyển đi bệnh viện khác</NOIDUNG>
+		<C01>0</C01>
+		<C02>0</C02>
+		<C03>0</C03>
+		<C04>0</C04>
+	</Table>
+	<Table>
+		<STT>7</STT>
+		<NOIDUNG>Số BN bệnh viện khác chuyển đến</NOIDUNG>
+		<C01>0</C01>
+		<C02>0</C02>
+		<C03>0</C03>
+		<C04>0</C04>
+	</Table>
+	<Table>
+		<STT>8</STT>
+		<NOIDUNG>Số BN chuyển đi khoa khác</NOIDUNG>
+		<C01>0</C01>
+		<C02>0</C02>
+		<C03>0</C03>
+		<C04>0</C04>
+	</Table>
+	<Table>
+		<STT>9</STT>
+		<NOIDUNG>Số BN khoa khác chuyển đến</NOIDUNG>
+		<C01>0</C01>
+		<C02>0</C02>
+		<C03>0</C03>
+		<C04>0</C04>
+	</Table>
+	<Table>
+		<STT>10</STT>
+		<NOIDUNG>Số BN cấp cứu</NOIDUNG>
+		<C01>0</C01>
+		<C02>0</C02>
+		<C03>0</C03>
+		<C04>0</C04>
+	</Table>
+	<Table>
+		<STT>11</STT>
+		<NOIDUNG>Số BN có BHYT</NOIDUNG>
+		<C01>0</C01>
+		<C02>0</C02>
+		<C03>0</C03>
+		<C04>0</C04>
+	</Table>
+	<Table>
+		<STT>12</STT>
+		<NOIDUNG>Số người tử vong</NOIDUNG>
+		<C01>0</C01>
+		<C02>0</C02>
+		<C03>0</C03>
+		<C04>0</C04>
+	</Table>
+	<Table>
+		<STT>13</STT>
+		<NOIDUNG>Tử vọng trước 24 giờ</NOIDUNG>
+		<C01>0</C01>
+		<C02>0</C02>
+		<C03>0</C03>
+		<C04>0</C04>
+	</Table>
+	<Table>
+		<STT>14</STT>
+		<NOIDUNG>Số ngày điều trị trong kỳ</NOIDUNG>
+		<C01>0</C01>
+		<C02>0</C02>
+		<C03>0</C03>
+		<C04>0</C04>
+	</Table>
+	<Table>
+		<STT>15</STT>
+		<NOIDUNG>Số ngày điều trị lành ra viện</NOIDUNG>
+		<C01>0</C01>
+		<C02>0</C02>
+		<C03>0</C03>
+		<C04>0</C04>
+	</Table>
+	<Table>
+		<STT>16</STT>
+		<NOIDUNG>Số ngày sử dụng giường</NOIDUNG>
+		<C01>0</C01>
+		<C02>0</C02>
+		<C03>0</C03>
+		<C04>0</C04>
+	</Table>
+	<Table>
+		<STT>17</STT>
+		<NOIDUNG>Số người điều trị lành ra viện</NOIDUNG>
+		<C01>0</C01>
+		<C02>0</C02>
+		<C03>0</C03>
+		<C04>0</C04>
+	</Table>
+	<Table>
+		<STT>18</STT>
+		<NOIDUNG>Số BN được miễn viện phí</NOIDUNG>
+		<C01>0</C01>
+		<C02>0</C02>
+		<C03>0</C03>
+		<C04>0</C04>
+	</Table>
+	<Table>
+		<STT>19</STT>
+		<NOIDUNG>Số BN được giảm viện phí</NOIDUNG>
+		<C01>0</C01>
+		<C02>0</C02>
+		<C03>0</C03>
+		<C04>0</C04>
+	</Table>
+	<Table>
+		<STT>20</STT>
+		<NOIDUNG>Số BN HIV</NOIDUNG>
+		<C01>0</C01>
+		<C02>0</C02>
+		<C03>0</C03>
+		<C04>0</C04>
+	</Table>
+</NewDataSet>

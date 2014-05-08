@@ -1,0 +1,79 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ID" type="xs:decimal" minOccurs="0" />
+                <xs:element name="MABN" type="xs:string" minOccurs="0" />
+                <xs:element name="HOTEN" type="xs:string" minOccurs="0" />
+                <xs:element name="CHOLAM" type="xs:string" minOccurs="0" />
+                <xs:element name="MATT" type="xs:string" minOccurs="0" />
+                <xs:element name="TENTT" type="xs:string" minOccurs="0" />
+                <xs:element name="MAQU" type="xs:string" minOccurs="0" />
+                <xs:element name="TENQUAN" type="xs:string" minOccurs="0" />
+                <xs:element name="MAPHUONGXA" type="xs:string" minOccurs="0" />
+                <xs:element name="TENPXA" type="xs:string" minOccurs="0" />
+                <xs:element name="MABHYT" type="xs:string" minOccurs="0" />
+                <xs:element name="MABV" type="xs:string" minOccurs="0" />
+                <xs:element name="TENBV" type="xs:string" minOccurs="0" />
+                <xs:element name="SOVAOVIEN" type="xs:string" minOccurs="0" />
+                <xs:element name="SOBIENLAITU" type="xs:string" minOccurs="0" />
+                <xs:element name="NGAYTU" type="xs:string" minOccurs="0" />
+                <xs:element name="SOBIENLAI" type="xs:decimal" minOccurs="0" />
+                <xs:element name="TONGCP" type="xs:decimal" minOccurs="0" />
+                <xs:element name="TAMUNG" type="xs:decimal" minOccurs="0" />
+                <xs:element name="MIEN" type="xs:decimal" minOccurs="0" />
+                <xs:element name="BHYT" type="xs:decimal" minOccurs="0" />
+                <xs:element name="SOTIEN" type="xs:decimal" minOccurs="0" />
+                <xs:element name="NGAY" type="xs:string" minOccurs="0" />
+                <xs:element name="QUYENSO" type="xs:string" minOccurs="0" />
+                <xs:element name="QUYENSOID" type="xs:decimal" minOccurs="0" />
+                <xs:element name="DOITUONG" type="xs:string" minOccurs="0" />
+                <xs:element name="TENKP" type="xs:string" minOccurs="0" />
+                <xs:element name="NGUOITHU" type="xs:string" minOccurs="0" />
+                <xs:element name="USERID" type="xs:string" minOccurs="0" />
+                <xs:element name="LYDOMIEN" type="xs:decimal" minOccurs="0" />
+                <xs:element name="TENLYDOMIEN" type="xs:string" minOccurs="0" />
+                <xs:element name="MADUYET" type="xs:decimal" minOccurs="0" />
+                <xs:element name="TENDUYET" type="xs:string" minOccurs="0" />
+                <xs:element name="HUY" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <ID>75000000001</ID>
+    <MABN>06004201</MABN>
+    <HOTEN>NGHIÊM NGỌC BỘI</HOTEN>
+    <MATT>701</MATT>
+    <TENTT>Hồ Chí Minh</TENTT>
+    <MAQU>70117</MAQU>
+    <TENQUAN>Quận 9</TENQUAN>
+    <MAPHUONGXA>7011725</MAPHUONGXA>
+    <TENPXA>Phường Phú Hữu</TENPXA>
+    <MABHYT>79307669346T379075</MABHYT>
+    <SOVAOVIEN>0004400/06</SOVAOVIEN>
+    <SOBIENLAI>14767</SOBIENLAI>
+    <TONGCP>598852.151</TONGCP>
+    <TAMUNG>0</TAMUNG>
+    <MIEN>98000</MIEN>
+    <BHYT>0</BHYT>
+    <SOTIEN>500852.151</SOTIEN>
+    <NGAY>18/08/2006</NGAY>
+    <QUYENSO>014761 - 014800</QUYENSO>
+    <QUYENSOID>529</QUYENSOID>
+    <TENKP>Tổng Hợp</TENKP>
+    <NGUOITHU>XUÂN HỌC</NGUOITHU>
+    <USERID>XUÂN HỌC (1 )</USERID>
+    <LYDOMIEN>-1</LYDOMIEN>
+    <MADUYET>-1</MADUYET>
+    <HUY>0</HUY>
+  </Table>
+</NewDataSet>

@@ -1,0 +1,942 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="NGAYHD" type="xs:string" minOccurs="0" />
+                <xs:element name="SOHD" type="xs:string" minOccurs="0" />
+                <xs:element name="TENNHOM" type="xs:string" minOccurs="0" />
+                <xs:element name="MABD" type="xs:decimal" minOccurs="0" />
+                <xs:element name="MA" type="xs:string" minOccurs="0" />
+                <xs:element name="TEN" type="xs:string" minOccurs="0" />
+                <xs:element name="TENHC" type="xs:string" minOccurs="0" />
+                <xs:element name="DANG" type="xs:string" minOccurs="0" />
+                <xs:element name="SOLUONG" type="xs:decimal" minOccurs="0" />
+                <xs:element name="VAT" type="xs:decimal" minOccurs="0" />
+                <xs:element name="SOTIEN" type="xs:decimal" minOccurs="0" />
+                <xs:element name="TENNUOC" type="xs:string" minOccurs="0" />
+                <xs:element name="TENHANG" type="xs:string" minOccurs="0" />
+                <xs:element name="HANDUNG" type="xs:string" minOccurs="0" />
+                <xs:element name="LOSX" type="xs:string" minOccurs="0" />
+                <xs:element name="STT" type="xs:decimal" minOccurs="0" />
+                <xs:element name="NHOMBD" type="xs:string" minOccurs="0" />
+                <xs:element name="IDNN" type="xs:decimal" minOccurs="0" />
+                <xs:element name="NOINGOAI" type="xs:string" minOccurs="0" />
+                <xs:element name="C01" type="xs:string" minOccurs="0" />
+                <xs:element name="C02" type="xs:string" minOccurs="0" />
+                <xs:element name="C03" type="xs:string" minOccurs="0" />
+                <xs:element name="C04" type="xs:string" minOccurs="0" />
+                <xs:element name="MADV" type="xs:decimal" minOccurs="0" />
+                <xs:element name="TENDV" type="xs:string" minOccurs="0" />
+                <xs:element name="C05" type="xs:decimal" minOccurs="0" />
+                <xs:element name="C06" type="xs:decimal" minOccurs="0" />
+                <xs:element name="C07" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sodk" type="xs:string" minOccurs="0" />
+                <xs:element name="nuocsx" type="xs:string" minOccurs="0" />
+                <xs:element name="makho" type="xs:string" minOccurs="0" />
+                <xs:element name="tenkho" type="xs:string" minOccurs="0" />
+                <xs:element name="ngayhoadon" type="xs:string" minOccurs="0" />
+                <xs:element name="sodangky" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <NGAYHD>06/01/2014</NGAYHD>
+    <SOHD>DP/13P : 0018851 - 06/01/2014 ^ 0001 - 06/01/2014</SOHD>
+    <TENNHOM />
+    <MABD>614536</MABD>
+    <MA>DOB001</MA>
+    <TEN>Dobutamine 0.25g</TEN>
+    <TENHC>Dobutamine</TENHC>
+    <DANG>Lọ</DANG>
+    <SOLUONG>20.0000</SOLUONG>
+    <VAT>0</VAT>
+    <SOTIEN>1740000.0000</SOTIEN>
+    <TENNUOC>Rotexmedica</TENNUOC>
+    <HANDUNG>0516</HANDUNG>
+    <LOSX>30442</LOSX>
+    <STT>3</STT>
+    <NHOMBD>Thuốc tân dược</NHOMBD>
+    <IDNN>23</IDNN>
+    <NOINGOAI>Điều trị suy tim</NOINGOAI>
+    <TENDV>Công Ty Cổ phần Dược phẩm Tây Ninh</TENDV>
+    <sodk />
+    <nuocsx>Đức</nuocsx>
+    <makho>1</makho>
+    <tenkho>Kho chẳn</tenkho>
+    <ngayhoadon>02/01/2014</ngayhoadon>
+    <sodangky />
+  </Table>
+  <Table>
+    <NGAYHD>06/01/2014</NGAYHD>
+    <SOHD>AA/12P : 0027392 - 06/01/2014 ^ 0002 - 06/01/2014</SOHD>
+    <TENNHOM />
+    <MABD>614618</MABD>
+    <MA>HYO001</MA>
+    <TEN>Hyoscine Butylbromid 0.02g/ml</TEN>
+    <TENHC>Hyoscine Butylbromid</TENHC>
+    <DANG>ống</DANG>
+    <SOLUONG>200.0000</SOLUONG>
+    <VAT>0</VAT>
+    <SOTIEN>1360000.0000</SOTIEN>
+    <TENNUOC>Rotexmedica</TENNUOC>
+    <HANDUNG>1114</HANDUNG>
+    <LOSX>00404</LOSX>
+    <STT>3</STT>
+    <NHOMBD>Thuốc tân dược</NHOMBD>
+    <IDNN>70</IDNN>
+    <NOINGOAI>Chống co thắt</NOINGOAI>
+    <TENDV>Công Ty cổ phần XNK Y tế TP HCM (YTECO)</TENDV>
+    <sodk />
+    <nuocsx>Đức</nuocsx>
+    <makho>1</makho>
+    <tenkho>Kho chẳn</tenkho>
+    <ngayhoadon>02/01/2014</ngayhoadon>
+    <sodangky />
+  </Table>
+  <Table>
+    <NGAYHD>07/01/2014</NGAYHD>
+    <SOHD>TN/12P : 0003893 ; 0003892 - 07/01/2014 ^ 0003 - 07/01/2014</SOHD>
+    <TENNHOM />
+    <MABD>614463</MABD>
+    <MA>DAY017</MA>
+    <TEN>Dây truyền dịch </TEN>
+    <TENHC>Dây Truyền Dịch</TENHC>
+    <DANG>Sợi</DANG>
+    <SOLUONG>3000.0000</SOLUONG>
+    <VAT>0</VAT>
+    <SOTIEN>22995000.0000</SOTIEN>
+    <TENNUOC>Troge</TENNUOC>
+    <HANDUNG>0818</HANDUNG>
+    <LOSX>201309</LOSX>
+    <STT>8</STT>
+    <NHOMBD>Vật tư y tế tiêu hao</NHOMBD>
+    <IDNN>103</IDNN>
+    <NOINGOAI>Vật tư y tế tiêu hao</NOINGOAI>
+    <TENDV>Công TY TNHH TTBYT Oanh Thy</TENDV>
+    <sodk />
+    <nuocsx>Đức</nuocsx>
+    <makho>1</makho>
+    <tenkho>Kho chẳn</tenkho>
+    <ngayhoadon>06/01/2014</ngayhoadon>
+    <sodangky />
+  </Table>
+  <Table>
+    <NGAYHD>07/01/2014</NGAYHD>
+    <SOHD>TN/12P : 0003893 ; 0003892 - 07/01/2014 ^ 0003 - 07/01/2014</SOHD>
+    <TENNHOM />
+    <MABD>614502</MABD>
+    <MA>GAN004</MA>
+    <TEN>Găng tay khám bệnh </TEN>
+    <TENHC>Găng tay khám bệnh </TENHC>
+    <DANG>Đôi</DANG>
+    <SOLUONG>28000.0000</SOLUONG>
+    <VAT>0</VAT>
+    <SOTIEN>33599720.0000</SOTIEN>
+    <TENNUOC>Medi Gloves</TENNUOC>
+    <HANDUNG>1118</HANDUNG>
+    <LOSX>201311</LOSX>
+    <STT>8</STT>
+    <NHOMBD>Vật tư y tế tiêu hao</NHOMBD>
+    <IDNN>103</IDNN>
+    <NOINGOAI>Vật tư y tế tiêu hao</NOINGOAI>
+    <TENDV>Công TY TNHH TTBYT Oanh Thy</TENDV>
+    <sodk />
+    <nuocsx>Malaisia</nuocsx>
+    <makho>1</makho>
+    <tenkho>Kho chẳn</tenkho>
+    <ngayhoadon>06/01/2014</ngayhoadon>
+    <sodangky />
+  </Table>
+  <Table>
+    <NGAYHD>07/01/2014</NGAYHD>
+    <SOHD>TN/12P : 0003893 ; 0003892 - 07/01/2014 ^ 0003 - 07/01/2014</SOHD>
+    <TENNHOM />
+    <MABD>614392</MABD>
+    <MA>BOT001</MA>
+    <TEN>Bột bó Othona 10cm*2.7m </TEN>
+    <TENHC>Bột bó Othona 10cm*2.7m</TENHC>
+    <DANG>cuộn</DANG>
+    <SOLUONG>192.0000</SOLUONG>
+    <VAT>0</VAT>
+    <SOTIEN>3931200.0000</SOTIEN>
+    <TENNUOC>Hamburg</TENNUOC>
+    <HANDUNG>1118</HANDUNG>
+    <LOSX>131101</LOSX>
+    <STT>8</STT>
+    <NHOMBD>Vật tư y tế tiêu hao</NHOMBD>
+    <IDNN>103</IDNN>
+    <NOINGOAI>Vật tư y tế tiêu hao</NOINGOAI>
+    <TENDV>Công TY TNHH TTBYT Oanh Thy</TENDV>
+    <sodk />
+    <nuocsx>Đức</nuocsx>
+    <makho>1</makho>
+    <tenkho>Kho chẳn</tenkho>
+    <ngayhoadon>06/01/2014</ngayhoadon>
+    <sodangky />
+  </Table>
+  <Table>
+    <NGAYHD>07/01/2014</NGAYHD>
+    <SOHD>TN/12P : 0003893 ; 0003892 - 07/01/2014 ^ 0003 - 07/01/2014</SOHD>
+    <TENNHOM />
+    <MABD>614395</MABD>
+    <MA>BOT003</MA>
+    <TEN>Bột bó Othona 7.5cm*2.7m </TEN>
+    <TENHC>Bột bó Othona 7.5cm*2.7m</TENHC>
+    <DANG>cuộn</DANG>
+    <SOLUONG>48.0000</SOLUONG>
+    <VAT>0</VAT>
+    <SOTIEN>756000.0000</SOTIEN>
+    <TENNUOC>Hamburg</TENNUOC>
+    <HANDUNG>0218</HANDUNG>
+    <LOSX>130210</LOSX>
+    <STT>8</STT>
+    <NHOMBD>Vật tư y tế tiêu hao</NHOMBD>
+    <IDNN>103</IDNN>
+    <NOINGOAI>Vật tư y tế tiêu hao</NOINGOAI>
+    <TENDV>Công TY TNHH TTBYT Oanh Thy</TENDV>
+    <sodk />
+    <nuocsx>Đức</nuocsx>
+    <makho>1</makho>
+    <tenkho>Kho chẳn</tenkho>
+    <ngayhoadon>06/01/2014</ngayhoadon>
+    <sodangky />
+  </Table>
+  <Table>
+    <NGAYHD>07/01/2014</NGAYHD>
+    <SOHD>TN/12P : 0003893 ; 0003892 - 07/01/2014 ^ 0003 - 07/01/2014</SOHD>
+    <TENNHOM />
+    <MABD>615500</MABD>
+    <MA>BOM017</MA>
+    <TEN>Bơm tiêm nhựa 20cc </TEN>
+    <TENHC>Bơm tiêm nhựa 20cc</TENHC>
+    <DANG>Cái</DANG>
+    <SOLUONG>100.0000</SOLUONG>
+    <VAT>0</VAT>
+    <SOTIEN>210000.0000</SOTIEN>
+    <TENNUOC>Dongshin</TENNUOC>
+    <HANDUNG>1018</HANDUNG>
+    <LOSX>131015</LOSX>
+    <STT>8</STT>
+    <NHOMBD>Vật tư y tế tiêu hao</NHOMBD>
+    <IDNN>103</IDNN>
+    <NOINGOAI>Vật tư y tế tiêu hao</NOINGOAI>
+    <TENDV>Công TY TNHH TTBYT Oanh Thy</TENDV>
+    <sodk />
+    <nuocsx>Korea</nuocsx>
+    <makho>1</makho>
+    <tenkho>Kho chẳn</tenkho>
+    <ngayhoadon>06/01/2014</ngayhoadon>
+    <sodangky />
+  </Table>
+  <Table>
+    <NGAYHD>07/01/2014</NGAYHD>
+    <SOHD>AA/12P : 0008633 - 07/01/2014 ^ 0005 - 07/01/2014</SOHD>
+    <TENNHOM />
+    <MABD>614559</MABD>
+    <MA>KIM016</MA>
+    <TEN>Kim luồn số 22G </TEN>
+    <TENHC>Kim luồn số 22G</TENHC>
+    <DANG>Cây</DANG>
+    <SOLUONG>1000.0000</SOLUONG>
+    <VAT>0</VAT>
+    <SOTIEN>3465000.0000</SOTIEN>
+    <TENNUOC>Mediplus</TENNUOC>
+    <HANDUNG>0918</HANDUNG>
+    <LOSX>308571324</LOSX>
+    <STT>8</STT>
+    <NHOMBD>Vật tư y tế tiêu hao</NHOMBD>
+    <IDNN>103</IDNN>
+    <NOINGOAI>Vật tư y tế tiêu hao</NOINGOAI>
+    <TENDV>Công Ty TNHH TTBYT HOÀNG ÁNH DƯƠNG</TENDV>
+    <sodk />
+    <nuocsx>Ấn độ</nuocsx>
+    <makho>1</makho>
+    <tenkho>Kho chẳn</tenkho>
+    <ngayhoadon>07/01/2014</ngayhoadon>
+    <sodangky />
+  </Table>
+  <Table>
+    <NGAYHD>07/01/2014</NGAYHD>
+    <SOHD>AA/12P : 0008633 - 07/01/2014 ^ 0005 - 07/01/2014</SOHD>
+    <TENNHOM />
+    <MABD>614561</MABD>
+    <MA>KIM017</MA>
+    <TEN>Kim luồn số 24G </TEN>
+    <TENHC>Kim luồn số 24G</TENHC>
+    <DANG>Cây</DANG>
+    <SOLUONG>1200.0000</SOLUONG>
+    <VAT>0</VAT>
+    <SOTIEN>4158000.0000</SOTIEN>
+    <TENNUOC>Mediplus</TENNUOC>
+    <HANDUNG>0817</HANDUNG>
+    <LOSX>20587/206</LOSX>
+    <STT>8</STT>
+    <NHOMBD>Vật tư y tế tiêu hao</NHOMBD>
+    <IDNN>103</IDNN>
+    <NOINGOAI>Vật tư y tế tiêu hao</NOINGOAI>
+    <TENDV>Công Ty TNHH TTBYT HOÀNG ÁNH DƯƠNG</TENDV>
+    <sodk />
+    <nuocsx>Ấn độ</nuocsx>
+    <makho>1</makho>
+    <tenkho>Kho chẳn</tenkho>
+    <ngayhoadon>07/01/2014</ngayhoadon>
+    <sodangky />
+  </Table>
+  <Table>
+    <NGAYHD>07/01/2014</NGAYHD>
+    <SOHD>DA/13P : 0000672 - 07/01/2014 ^ 0006 - 07/01/2014</SOHD>
+    <TENNHOM />
+    <MABD>615503</MABD>
+    <MA>DAY019</MA>
+    <TEN>Dây Oxy 2 Nhánh Lớn </TEN>
+    <TENHC>Dây Oxy 2 nhánh lớn</TENHC>
+    <DANG>Sợi</DANG>
+    <SOLUONG>400.0000</SOLUONG>
+    <VAT>0</VAT>
+    <SOTIEN>1932000.0000</SOTIEN>
+    <TENNUOC>GWic/VN</TENNUOC>
+    <HANDUNG>0516</HANDUNG>
+    <LOSX>010413</LOSX>
+    <STT>8</STT>
+    <NHOMBD>Vật tư y tế tiêu hao</NHOMBD>
+    <IDNN>103</IDNN>
+    <NOINGOAI>Vật tư y tế tiêu hao</NOINGOAI>
+    <TENDV>Công ty  TNHH TTBYT Đức Ân</TENDV>
+    <sodk />
+    <nuocsx>Việt Nam</nuocsx>
+    <makho>1</makho>
+    <tenkho>Kho chẳn</tenkho>
+    <ngayhoadon>07/01/2014</ngayhoadon>
+    <sodangky />
+  </Table>
+  <Table>
+    <NGAYHD>07/01/2014</NGAYHD>
+    <SOHD>DA/13P : 0000672 - 07/01/2014 ^ 0006 - 07/01/2014</SOHD>
+    <TENNHOM />
+    <MABD>615479</MABD>
+    <MA>KIM024</MA>
+    <TEN>Kim rút thuốc số 18G </TEN>
+    <TENHC>Kim rút thuốc số 18G</TENHC>
+    <DANG>Cây</DANG>
+    <SOLUONG>10000.0000</SOLUONG>
+    <VAT>0</VAT>
+    <SOTIEN>3360000.0000</SOTIEN>
+    <TENNUOC>Vinahankook</TENNUOC>
+    <HANDUNG>1216</HANDUNG>
+    <LOSX />
+    <STT>8</STT>
+    <NHOMBD>Vật tư y tế tiêu hao</NHOMBD>
+    <IDNN>103</IDNN>
+    <NOINGOAI>Vật tư y tế tiêu hao</NOINGOAI>
+    <TENDV>Công ty  TNHH TTBYT Đức Ân</TENDV>
+    <sodk />
+    <nuocsx>Việt Nam</nuocsx>
+    <makho>1</makho>
+    <tenkho>Kho chẳn</tenkho>
+    <ngayhoadon>07/01/2014</ngayhoadon>
+    <sodangky />
+  </Table>
+  <Table>
+    <NGAYHD>07/01/2014</NGAYHD>
+    <SOHD>DA/13P : 0000672 - 07/01/2014 ^ 0006 - 07/01/2014</SOHD>
+    <TENNHOM />
+    <MABD>614479</MABD>
+    <MA>DAY011</MA>
+    <TEN>Dây Oxy 2 nhánh trẻ em </TEN>
+    <TENHC>Dây Oxy 2 nhánh trẻ em</TENHC>
+    <DANG>Sợi</DANG>
+    <SOLUONG>50.0000</SOLUONG>
+    <VAT>0</VAT>
+    <SOTIEN>241500.0000</SOTIEN>
+    <TENNUOC>Minh Tâm</TENNUOC>
+    <HANDUNG>1216</HANDUNG>
+    <LOSX />
+    <STT>8</STT>
+    <NHOMBD>Vật tư y tế tiêu hao</NHOMBD>
+    <IDNN>103</IDNN>
+    <NOINGOAI>Vật tư y tế tiêu hao</NOINGOAI>
+    <TENDV>Công ty  TNHH TTBYT Đức Ân</TENDV>
+    <sodk />
+    <nuocsx>Việt Nam</nuocsx>
+    <makho>1</makho>
+    <tenkho>Kho chẳn</tenkho>
+    <ngayhoadon>07/01/2014</ngayhoadon>
+    <sodangky />
+  </Table>
+  <Table>
+    <NGAYHD>07/01/2014</NGAYHD>
+    <SOHD>DA/13P : 0000672 - 07/01/2014 ^ 0006 - 07/01/2014</SOHD>
+    <TENNHOM />
+    <MABD>615502</MABD>
+    <MA>DAY018</MA>
+    <TEN>Dây oxy 2 nhánh sơ sinh </TEN>
+    <TENHC>Dây oxy 2 nhánh sơ sinh</TENHC>
+    <DANG>Sợi</DANG>
+    <SOLUONG>20.0000</SOLUONG>
+    <VAT>0</VAT>
+    <SOTIEN>96600.0000</SOTIEN>
+    <TENNUOC>GWic/VN</TENNUOC>
+    <HANDUNG>0216</HANDUNG>
+    <LOSX>060611</LOSX>
+    <STT>8</STT>
+    <NHOMBD>Vật tư y tế tiêu hao</NHOMBD>
+    <IDNN>103</IDNN>
+    <NOINGOAI>Vật tư y tế tiêu hao</NOINGOAI>
+    <TENDV>Công ty  TNHH TTBYT Đức Ân</TENDV>
+    <sodk />
+    <nuocsx>Việt Nam</nuocsx>
+    <makho>1</makho>
+    <tenkho>Kho chẳn</tenkho>
+    <ngayhoadon>07/01/2014</ngayhoadon>
+    <sodangky />
+  </Table>
+  <Table>
+    <NGAYHD>07/01/2014</NGAYHD>
+    <SOHD>DA/13P : 0000672 - 07/01/2014 ^ 0006 - 07/01/2014</SOHD>
+    <TENNHOM />
+    <MABD>614340</MABD>
+    <MA>BOM010</MA>
+    <TEN>Bơm tiêm 50cc tiêm thuốc </TEN>
+    <TENHC>Bơm tiêm 50cc tiêm thuốc</TENHC>
+    <DANG>Cái</DANG>
+    <SOLUONG>25.0000</SOLUONG>
+    <VAT>0</VAT>
+    <SOTIEN>128100.0000</SOTIEN>
+    <TENNUOC>Vinahankook</TENNUOC>
+    <HANDUNG>0516</HANDUNG>
+    <LOSX />
+    <STT>8</STT>
+    <NHOMBD>Vật tư y tế tiêu hao</NHOMBD>
+    <IDNN>103</IDNN>
+    <NOINGOAI>Vật tư y tế tiêu hao</NOINGOAI>
+    <TENDV>Công ty  TNHH TTBYT Đức Ân</TENDV>
+    <sodk />
+    <nuocsx>Việt Nam</nuocsx>
+    <makho>1</makho>
+    <tenkho>Kho chẳn</tenkho>
+    <ngayhoadon>07/01/2014</ngayhoadon>
+    <sodangky />
+  </Table>
+  <Table>
+    <NGAYHD>08/01/2014</NGAYHD>
+    <SOHD>VD/11P : 0001306 - 08/01/2014 ^ 0007 - 08/01/2014</SOHD>
+    <TENNHOM />
+    <MABD>614467</MABD>
+    <MA>DAY004</MA>
+    <TEN>Dây hút dịch số 14 </TEN>
+    <TENHC>Dây hút dịch số 14</TENHC>
+    <DANG>Sợi</DANG>
+    <SOLUONG>20.0000</SOLUONG>
+    <VAT>0</VAT>
+    <SOTIEN>71400.0000</SOTIEN>
+    <TENNUOC>Minh Tâm</TENNUOC>
+    <HANDUNG>0516</HANDUNG>
+    <LOSX />
+    <STT>8</STT>
+    <NHOMBD>Vật tư y tế tiêu hao</NHOMBD>
+    <IDNN>103</IDNN>
+    <NOINGOAI>Vật tư y tế tiêu hao</NOINGOAI>
+    <TENDV>Công Ty TNHH Dược phẩm Việt Đức</TENDV>
+    <sodk />
+    <nuocsx>Việt Nam</nuocsx>
+    <makho>1</makho>
+    <tenkho>Kho chẳn</tenkho>
+    <ngayhoadon>06/01/2014</ngayhoadon>
+    <sodangky />
+  </Table>
+  <Table>
+    <NGAYHD>08/01/2014</NGAYHD>
+    <SOHD>VD/11P : 0001306 - 08/01/2014 ^ 0007 - 08/01/2014</SOHD>
+    <TENNHOM />
+    <MABD>614470</MABD>
+    <MA>DAY006</MA>
+    <TEN>Dây hút dịch sơ sinh số 10 </TEN>
+    <TENHC>Dây hút dịch sơ sinh số 10</TENHC>
+    <DANG>Sợi</DANG>
+    <SOLUONG>170.0000</SOLUONG>
+    <VAT>0</VAT>
+    <SOTIEN>606900.0000</SOTIEN>
+    <TENNUOC>Minh Tâm</TENNUOC>
+    <HANDUNG>0417</HANDUNG>
+    <LOSX />
+    <STT>8</STT>
+    <NHOMBD>Vật tư y tế tiêu hao</NHOMBD>
+    <IDNN>103</IDNN>
+    <NOINGOAI>Vật tư y tế tiêu hao</NOINGOAI>
+    <TENDV>Công Ty TNHH Dược phẩm Việt Đức</TENDV>
+    <sodk />
+    <nuocsx>Việt Nam</nuocsx>
+    <makho>1</makho>
+    <tenkho>Kho chẳn</tenkho>
+    <ngayhoadon>06/01/2014</ngayhoadon>
+    <sodangky />
+  </Table>
+  <Table>
+    <NGAYHD>08/01/2014</NGAYHD>
+    <SOHD>VD/11P : 0001306 - 08/01/2014 ^ 0007 - 08/01/2014</SOHD>
+    <TENNHOM />
+    <MABD>615505</MABD>
+    <MA>MAS014</MA>
+    <TEN>Mask xông khí dùng trẻ em </TEN>
+    <TENHC>Mask xông khí dùng trẻ em</TENHC>
+    <DANG>Cái</DANG>
+    <SOLUONG>50.0000</SOLUONG>
+    <VAT>0</VAT>
+    <SOTIEN>1417500.0000</SOTIEN>
+    <TENNUOC>Bicakcilak</TENNUOC>
+    <HANDUNG>0718</HANDUNG>
+    <LOSX />
+    <STT>8</STT>
+    <NHOMBD>Vật tư y tế tiêu hao</NHOMBD>
+    <IDNN>103</IDNN>
+    <NOINGOAI>Vật tư y tế tiêu hao</NOINGOAI>
+    <TENDV>Công Ty TNHH Dược phẩm Việt Đức</TENDV>
+    <sodk />
+    <nuocsx>Turkey</nuocsx>
+    <makho>1</makho>
+    <tenkho>Kho chẳn</tenkho>
+    <ngayhoadon>06/01/2014</ngayhoadon>
+    <sodangky />
+  </Table>
+  <Table>
+    <NGAYHD>08/01/2014</NGAYHD>
+    <SOHD>VD/11P : 0001306 - 08/01/2014 ^ 0007 - 08/01/2014</SOHD>
+    <TENNHOM />
+    <MABD>615504</MABD>
+    <MA>MAS009</MA>
+    <TEN>Mask xông khí dùng người lớn </TEN>
+    <TENHC>Mask xông khí dung người lớn</TENHC>
+    <DANG>Cái</DANG>
+    <SOLUONG>100.0000</SOLUONG>
+    <VAT>0</VAT>
+    <SOTIEN>2835000.0000</SOTIEN>
+    <TENNUOC>Bicakcilak</TENNUOC>
+    <HANDUNG>0718</HANDUNG>
+    <LOSX />
+    <STT>8</STT>
+    <NHOMBD>Vật tư y tế tiêu hao</NHOMBD>
+    <IDNN>103</IDNN>
+    <NOINGOAI>Vật tư y tế tiêu hao</NOINGOAI>
+    <TENDV>Công Ty TNHH Dược phẩm Việt Đức</TENDV>
+    <sodk />
+    <nuocsx>Turkey</nuocsx>
+    <makho>1</makho>
+    <tenkho>Kho chẳn</tenkho>
+    <ngayhoadon>06/01/2014</ngayhoadon>
+    <sodangky />
+  </Table>
+  <Table>
+    <NGAYHD>08/01/2014</NGAYHD>
+    <SOHD>MD/13P : 0013682 - 08/01/2014 ^ 0008 - 08/01/2014</SOHD>
+    <TENNHOM />
+    <MABD>614768</MABD>
+    <MA>LIV001</MA>
+    <TEN>Liverbil </TEN>
+    <TENHC>Liverbil</TENHC>
+    <DANG>Viên</DANG>
+    <SOLUONG>3000.0000</SOLUONG>
+    <VAT>0</VAT>
+    <SOTIEN>2016000.0000</SOTIEN>
+    <TENNUOC>Opc</TENNUOC>
+    <HANDUNG>0615</HANDUNG>
+    <LOSX>11025</LOSX>
+    <STT>7</STT>
+    <NHOMBD>Thành phẩm đông y</NHOMBD>
+    <IDNN>108</IDNN>
+    <NOINGOAI>Đông dược</NOINGOAI>
+    <TENDV>Công Ty cổ phần dược Phẩm OPC</TENDV>
+    <sodk />
+    <nuocsx>Việt Nam</nuocsx>
+    <makho>1</makho>
+    <tenkho>Kho chẳn</tenkho>
+    <ngayhoadon>07/01/2014</ngayhoadon>
+    <sodangky />
+  </Table>
+  <Table>
+    <NGAYHD>08/01/2014</NGAYHD>
+    <SOHD>MD/13P : 0013682 - 08/01/2014 ^ 0008 - 08/01/2014</SOHD>
+    <TENNHOM />
+    <MABD>614753</MABD>
+    <MA>BOT004</MA>
+    <TEN>Bổ thận âm </TEN>
+    <TENHC>Bổ thận âm</TENHC>
+    <DANG>Viên</DANG>
+    <SOLUONG>34560.0000</SOLUONG>
+    <VAT>0</VAT>
+    <SOTIEN>6048000.0000</SOTIEN>
+    <TENNUOC>Opc</TENNUOC>
+    <HANDUNG>0416</HANDUNG>
+    <LOSX>13012</LOSX>
+    <STT>7</STT>
+    <NHOMBD>Thành phẩm đông y</NHOMBD>
+    <IDNN>108</IDNN>
+    <NOINGOAI>Đông dược</NOINGOAI>
+    <TENDV>Công Ty cổ phần dược Phẩm OPC</TENDV>
+    <sodk />
+    <nuocsx>Việt Nam</nuocsx>
+    <makho>1</makho>
+    <tenkho>Kho chẳn</tenkho>
+    <ngayhoadon>07/01/2014</ngayhoadon>
+    <sodangky />
+  </Table>
+  <Table>
+    <NGAYHD>09/01/2014</NGAYHD>
+    <SOHD>AB/12P : 0003949 - 09/01/2014 ^ 0009 - 09/01/2014</SOHD>
+    <TENNHOM />
+    <MABD>614840</MABD>
+    <MA>GEL002</MA>
+    <TEN>Gel K.Y </TEN>
+    <TENHC>Gel K.Y</TENHC>
+    <DANG>Tuýp</DANG>
+    <SOLUONG>50.0000</SOLUONG>
+    <VAT>0</VAT>
+    <SOTIEN>2992500.0000</SOTIEN>
+    <TENNUOC>Johnson &amp; Johnson</TENNUOC>
+    <HANDUNG>0216</HANDUNG>
+    <LOSX>0713VA</LOSX>
+    <STT>4</STT>
+    <NHOMBD>Hoá chất CLS</NHOMBD>
+    <IDNN>102</IDNN>
+    <NOINGOAI>Hóa chất CLS</NOINGOAI>
+    <TENDV>Công Ty cổ phần Dược phẩm  TBYT Hà Nội ( HAPHACO)</TENDV>
+    <sodk />
+    <nuocsx>Pháp</nuocsx>
+    <makho>1</makho>
+    <tenkho>Kho chẳn</tenkho>
+    <ngayhoadon>06/01/2014</ngayhoadon>
+    <sodangky />
+  </Table>
+  <Table>
+    <NGAYHD>09/01/2014</NGAYHD>
+    <SOHD>AB/12P : 0003949 - 09/01/2014 ^ 0009 - 09/01/2014</SOHD>
+    <TENNHOM />
+    <MABD>614854</MABD>
+    <MA>PRE002</MA>
+    <TEN>Presept 2,5g</TEN>
+    <TENHC>Presept</TENHC>
+    <DANG>Viên</DANG>
+    <SOLUONG>100.0000</SOLUONG>
+    <VAT>0</VAT>
+    <SOTIEN>491400.0000</SOTIEN>
+    <TENNUOC>Johnson &amp; Johnson</TENNUOC>
+    <HANDUNG>0618</HANDUNG>
+    <LOSX>13FD478</LOSX>
+    <STT>11</STT>
+    <NHOMBD>Hóa chất KSNK</NHOMBD>
+    <IDNN>98</IDNN>
+    <NOINGOAI>Hóa chất KSNK</NOINGOAI>
+    <TENDV>Công Ty cổ phần Dược phẩm  TBYT Hà Nội ( HAPHACO)</TENDV>
+    <sodk />
+    <nuocsx>Pháp</nuocsx>
+    <makho>1</makho>
+    <tenkho>Kho chẳn</tenkho>
+    <ngayhoadon>06/01/2014</ngayhoadon>
+    <sodangky />
+  </Table>
+  <Table>
+    <NGAYHD>09/01/2014</NGAYHD>
+    <SOHD>37AE/13P: 0080087 - 09/01/2014 ^ 0010 - 09/01/2014</SOHD>
+    <TENNHOM />
+    <MABD>615316</MABD>
+    <MA>QUE002</MA>
+    <TEN>Que thử thai </TEN>
+    <TENHC>Que thử thai</TENHC>
+    <DANG>Test</DANG>
+    <SOLUONG>144.0000</SOLUONG>
+    <VAT>0</VAT>
+    <SOTIEN>936000.0000</SOTIEN>
+    <TENNUOC>KXĐ</TENNUOC>
+    <HANDUNG>1115</HANDUNG>
+    <LOSX>HOG049</LOSX>
+    <STT>8</STT>
+    <NHOMBD>Vật tư y tế tiêu hao</NHOMBD>
+    <IDNN>103</IDNN>
+    <NOINGOAI>Vật tư y tế tiêu hao</NOINGOAI>
+    <TENDV>CH Dụng cụ y khoa CSSK THIỆN PHÚC</TENDV>
+    <sodk />
+    <nuocsx>Việt Nam</nuocsx>
+    <makho>1</makho>
+    <tenkho>Kho chẳn</tenkho>
+    <ngayhoadon>09/01/2014</ngayhoadon>
+    <sodangky />
+  </Table>
+  <Table>
+    <NGAYHD>09/01/2014</NGAYHD>
+    <SOHD>AA/11P : 0078590 - 09/01/2014 ^ 0011 - 09/01/2014</SOHD>
+    <TENNHOM />
+    <MABD>615506</MABD>
+    <MA>BOM018</MA>
+    <TEN>Bơm Tiêm Nhựa 1cc 26G X1/2 </TEN>
+    <TENHC>Bơm tiêm  nhựa 1cc 26G *1/2</TENHC>
+    <DANG>Cái</DANG>
+    <SOLUONG>1000.0000</SOLUONG>
+    <VAT>0</VAT>
+    <SOTIEN>638998.5000</SOTIEN>
+    <TENNUOC>Vikimco</TENNUOC>
+    <HANDUNG>0916</HANDUNG>
+    <LOSX>L4913</LOSX>
+    <STT>8</STT>
+    <NHOMBD>Vật tư y tế tiêu hao</NHOMBD>
+    <IDNN>103</IDNN>
+    <NOINGOAI>Vật tư y tế tiêu hao</NOINGOAI>
+    <TENDV>CN Công Ty cổ phần Dược phẩm  CỬU LONG</TENDV>
+    <sodk />
+    <nuocsx>Việt Nam</nuocsx>
+    <makho>1</makho>
+    <tenkho>Kho chẳn</tenkho>
+    <ngayhoadon>07/01/2014</ngayhoadon>
+    <sodangky />
+  </Table>
+  <Table>
+    <NGAYHD>09/01/2014</NGAYHD>
+    <SOHD>AA/11P : 0078590 - 09/01/2014 ^ 0011 - 09/01/2014</SOHD>
+    <TENNHOM />
+    <MABD>614333</MABD>
+    <MA>BOM003</MA>
+    <TEN>Bơm tiêm  5cc*25G </TEN>
+    <TENHC>Bơm tiêm 5cc*25G</TENHC>
+    <DANG>Cái</DANG>
+    <SOLUONG>6000.0000</SOLUONG>
+    <VAT>0</VAT>
+    <SOTIEN>3869964.0000</SOTIEN>
+    <TENNUOC>Vikimco</TENNUOC>
+    <HANDUNG>1116</HANDUNG>
+    <LOSX>L4713</LOSX>
+    <STT>8</STT>
+    <NHOMBD>Vật tư y tế tiêu hao</NHOMBD>
+    <IDNN>103</IDNN>
+    <NOINGOAI>Vật tư y tế tiêu hao</NOINGOAI>
+    <TENDV>CN Công Ty cổ phần Dược phẩm  CỬU LONG</TENDV>
+    <sodk />
+    <nuocsx>Việt Nam</nuocsx>
+    <makho>1</makho>
+    <tenkho>Kho chẳn</tenkho>
+    <ngayhoadon>07/01/2014</ngayhoadon>
+    <sodangky />
+  </Table>
+  <Table>
+    <NGAYHD>09/01/2014</NGAYHD>
+    <SOHD>AA/11P : 0078590 - 09/01/2014 ^ 0011 - 09/01/2014</SOHD>
+    <TENNHOM />
+    <MABD>615394</MABD>
+    <MA>BOM013</MA>
+    <TEN>Bơm tiêm 5cc*23G </TEN>
+    <TENHC>Bơm tiêm 5cc*23G</TENHC>
+    <DANG>cái</DANG>
+    <SOLUONG>8000.0000</SOLUONG>
+    <VAT>0</VAT>
+    <SOTIEN>5159952.0000</SOTIEN>
+    <TENNUOC>Vikimco</TENNUOC>
+    <HANDUNG>0516</HANDUNG>
+    <LOSX>K4313</LOSX>
+    <STT>8</STT>
+    <NHOMBD>Vật tư y tế tiêu hao</NHOMBD>
+    <IDNN>103</IDNN>
+    <NOINGOAI>Vật tư y tế tiêu hao</NOINGOAI>
+    <TENDV>CN Công Ty cổ phần Dược phẩm  CỬU LONG</TENDV>
+    <sodk />
+    <nuocsx>Việt Nam</nuocsx>
+    <makho>1</makho>
+    <tenkho>Kho chẳn</tenkho>
+    <ngayhoadon>07/01/2014</ngayhoadon>
+    <sodangky />
+  </Table>
+  <Table>
+    <NGAYHD>09/01/2014</NGAYHD>
+    <SOHD>AA/11P : 0078590 - 09/01/2014 ^ 0011 - 09/01/2014</SOHD>
+    <TENNHOM />
+    <MABD>614335</MABD>
+    <MA>BOM005</MA>
+    <TEN>Bơm tiêm 10cc *23G </TEN>
+    <TENHC>Bơm tiêm 10cc*23G</TENHC>
+    <DANG>Cái</DANG>
+    <SOLUONG>1000.0000</SOLUONG>
+    <VAT>0</VAT>
+    <SOTIEN>979996.5000</SOTIEN>
+    <TENNUOC>Vikimco</TENNUOC>
+    <HANDUNG>1116</HANDUNG>
+    <LOSX>L4613</LOSX>
+    <STT>8</STT>
+    <NHOMBD>Vật tư y tế tiêu hao</NHOMBD>
+    <IDNN>103</IDNN>
+    <NOINGOAI>Vật tư y tế tiêu hao</NOINGOAI>
+    <TENDV>CN Công Ty cổ phần Dược phẩm  CỬU LONG</TENDV>
+    <sodk />
+    <nuocsx>Việt Nam</nuocsx>
+    <makho>1</makho>
+    <tenkho>Kho chẳn</tenkho>
+    <ngayhoadon>07/01/2014</ngayhoadon>
+    <sodangky />
+  </Table>
+  <Table>
+    <NGAYHD>10/01/2014</NGAYHD>
+    <SOHD>AA/11P: 0099853 - 10/01/2014 ^ 0012 - 10/01/2014</SOHD>
+    <TENNHOM />
+    <MABD>614556</MABD>
+    <MA>POV001</MA>
+    <TEN>Povidin 10% 90ml</TEN>
+    <TENHC>Povidone-iodine</TENHC>
+    <DANG>Chai</DANG>
+    <SOLUONG>300.0000</SOLUONG>
+    <VAT>5</VAT>
+    <SOTIEN>3142857.0000</SOTIEN>
+    <TENNUOC>F.t.pharma (ctcpdp 3/2)</TENNUOC>
+    <HANDUNG>1116</HANDUNG>
+    <LOSX>042135</LOSX>
+    <STT>3</STT>
+    <NHOMBD>Thuốc tân dược</NHOMBD>
+    <IDNN>56</IDNN>
+    <NOINGOAI>Sát trùng, tẩy trùng</NOINGOAI>
+    <TENDV>Công Ty cổ phần Dược phẩm  3/2</TENDV>
+    <sodk />
+    <nuocsx>Việt Nam</nuocsx>
+    <makho>1</makho>
+    <tenkho>Kho chẳn</tenkho>
+    <ngayhoadon>08/01/2014</ngayhoadon>
+    <sodangky />
+  </Table>
+  <Table>
+    <NGAYHD>10/01/2014</NGAYHD>
+    <SOHD>AA/11P: 0099853 - 10/01/2014 ^ 0012 - 10/01/2014</SOHD>
+    <TENNHOM />
+    <MABD>614419</MABD>
+    <MA>SPI002</MA>
+    <TEN>Spibiotic 1.5MUI</TEN>
+    <TENHC>Spiramycin</TENHC>
+    <DANG>Viên</DANG>
+    <SOLUONG>3200.0000</SOLUONG>
+    <VAT>5</VAT>
+    <SOTIEN>4571424.0000</SOTIEN>
+    <TENNUOC>F.t.pharma (ctcpdp 3/2)</TENNUOC>
+    <HANDUNG>1215</HANDUNG>
+    <LOSX>041112</LOSX>
+    <STT>3</STT>
+    <NHOMBD>Thuốc tân dược</NHOMBD>
+    <IDNN>43</IDNN>
+    <NOINGOAI>Chống nhiễm khuẩn</NOINGOAI>
+    <TENDV>Công Ty cổ phần Dược phẩm  3/2</TENDV>
+    <sodk />
+    <nuocsx>Việt Nam</nuocsx>
+    <makho>1</makho>
+    <tenkho>Kho chẳn</tenkho>
+    <ngayhoadon>08/01/2014</ngayhoadon>
+    <sodangky />
+  </Table>
+  <Table>
+    <NGAYHD>10/01/2014</NGAYHD>
+    <SOHD>AA/11P: 0099853 - 10/01/2014 ^ 0012 - 10/01/2014</SOHD>
+    <TENNHOM />
+    <MABD>614663</MABD>
+    <MA>EFT001</MA>
+    <TEN>Efticol 0,9%/10ml</TEN>
+    <TENHC>Natri clorid</TENHC>
+    <DANG>Lọ</DANG>
+    <SOLUONG>900.0000</SOLUONG>
+    <VAT>5</VAT>
+    <SOTIEN>1422000.0000</SOTIEN>
+    <TENNUOC>F.t.pharma (ctcpdp 3/2)</TENNUOC>
+    <HANDUNG>1216</HANDUNG>
+    <LOSX>546131</LOSX>
+    <STT>3</STT>
+    <NHOMBD>Thuốc tân dược</NHOMBD>
+    <IDNN>84</IDNN>
+    <NOINGOAI>Điều trị mắt</NOINGOAI>
+    <TENDV>Công Ty cổ phần Dược phẩm  3/2</TENDV>
+    <sodk />
+    <nuocsx>Việt Nam</nuocsx>
+    <makho>1</makho>
+    <tenkho>Kho chẳn</tenkho>
+    <ngayhoadon>08/01/2014</ngayhoadon>
+    <sodangky />
+  </Table>
+  <Table>
+    <NGAYHD>10/01/2014</NGAYHD>
+    <SOHD>AA/11P: 0099853 - 10/01/2014 ^ 0012 - 10/01/2014</SOHD>
+    <TENNHOM />
+    <MABD>614417</MABD>
+    <MA>SPI001</MA>
+    <TEN>Spibiotic 3MUI</TEN>
+    <TENHC>Spiramycin</TENHC>
+    <DANG>Viên</DANG>
+    <SOLUONG>6480.0000</SOLUONG>
+    <VAT>5</VAT>
+    <SOTIEN>15552000.0000</SOTIEN>
+    <TENNUOC>F.t.pharma (ctcpdp 3/2)</TENNUOC>
+    <HANDUNG>1015</HANDUNG>
+    <LOSX>140913</LOSX>
+    <STT>3</STT>
+    <NHOMBD>Thuốc tân dược</NHOMBD>
+    <IDNN>43</IDNN>
+    <NOINGOAI>Chống nhiễm khuẩn</NOINGOAI>
+    <TENDV>Công Ty cổ phần Dược phẩm  3/2</TENDV>
+    <sodk />
+    <nuocsx>Việt Nam</nuocsx>
+    <makho>1</makho>
+    <tenkho>Kho chẳn</tenkho>
+    <ngayhoadon>08/01/2014</ngayhoadon>
+    <sodangky />
+  </Table>
+  <Table>
+    <NGAYHD>10/01/2014</NGAYHD>
+    <SOHD>QT /13P : 0019217 - 10/01/2014 ^ 0013 - 10/01/2014</SOHD>
+    <TENNHOM />
+    <MABD>614497</MABD>
+    <MA>GAC004</MA>
+    <TEN>Gạc Vaselin </TEN>
+    <TENHC>Gạc Vaselin</TENHC>
+    <DANG>Miếng</DANG>
+    <SOLUONG>500.0000</SOLUONG>
+    <VAT>5</VAT>
+    <SOTIEN>452381.0000</SOTIEN>
+    <TENNUOC>Nam Hùng Phương - VN</TENNUOC>
+    <HANDUNG>0316</HANDUNG>
+    <LOSX />
+    <STT>8</STT>
+    <NHOMBD>Vật tư y tế tiêu hao</NHOMBD>
+    <IDNN>103</IDNN>
+    <NOINGOAI>Vật tư y tế tiêu hao</NOINGOAI>
+    <TENDV>Công Ty  TNHH Dược phẩm  Quốc Tế</TENDV>
+    <sodk />
+    <nuocsx>Việt Nam</nuocsx>
+    <makho>1</makho>
+    <tenkho>Kho chẳn</tenkho>
+    <ngayhoadon>07/01/2014</ngayhoadon>
+    <sodangky />
+  </Table>
+  <Table>
+    <NGAYHD>10/01/2014</NGAYHD>
+    <SOHD>QT /13P : 0019217 - 10/01/2014 ^ 0013 - 10/01/2014</SOHD>
+    <TENNHOM />
+    <MABD>614564</MABD>
+    <MA>KIM019</MA>
+    <TEN>Kim nha ngắn 0.4* 21 mm </TEN>
+    <TENHC>Kim nha ngắn</TENHC>
+    <DANG>cây</DANG>
+    <SOLUONG>200.0000</SOLUONG>
+    <VAT>5</VAT>
+    <SOTIEN>190476.0000</SOTIEN>
+    <TENNUOC>Turumo</TENNUOC>
+    <HANDUNG>0818</HANDUNG>
+    <LOSX>130930</LOSX>
+    <STT>8</STT>
+    <NHOMBD>Vật tư y tế tiêu hao</NHOMBD>
+    <IDNN>103</IDNN>
+    <NOINGOAI>Vật tư y tế tiêu hao</NOINGOAI>
+    <TENDV>Công Ty  TNHH Dược phẩm  Quốc Tế</TENDV>
+    <sodk />
+    <nuocsx>Nhật</nuocsx>
+    <makho>1</makho>
+    <tenkho>Kho chẳn</tenkho>
+    <ngayhoadon>07/01/2014</ngayhoadon>
+    <sodangky />
+  </Table>
+</NewDataSet>

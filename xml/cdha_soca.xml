@@ -1,0 +1,1415 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="id_gia" type="xs:decimal" minOccurs="0" />
+                <xs:element name="makt" type="xs:string" minOccurs="0" />
+                <xs:element name="tenkt" type="xs:string" minOccurs="0" />
+                <xs:element name="tongso" type="xs:long" minOccurs="0" />
+                <xs:element name="gia_th" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ngaycdha" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <id_gia>70</id_gia>
+    <makt>XQT001</makt>
+    <tenkt>XQ tim phổi thẳng</tenkt>
+    <tongso>2</tongso>
+    <gia_th>25000</gia_th>
+    <ngaycdha>04/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>70</id_gia>
+    <makt>XQT001</makt>
+    <tenkt>XQ tim phổi thẳng</tenkt>
+    <tongso>1</tongso>
+    <gia_th>25000</gia_th>
+    <ngaycdha>23/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>120</id_gia>
+    <makt>XQK005</makt>
+    <tenkt>XQ khớp vai</tenkt>
+    <tongso>1</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>08/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>122</id_gia>
+    <makt>XQK007</makt>
+    <tenkt>XQ khớp háng</tenkt>
+    <tongso>1</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>08/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>175</id_gia>
+    <makt>XQB006</makt>
+    <tenkt>XQ bụng không sửa soạn</tenkt>
+    <tongso>1</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>09/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>236</id_gia>
+    <makt>SIE001</makt>
+    <tenkt>Siêu âm tổng quát</tenkt>
+    <tongso>6</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>03/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>236</id_gia>
+    <makt>SIE001</makt>
+    <tenkt>Siêu âm tổng quát</tenkt>
+    <tongso>11</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>04/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>236</id_gia>
+    <makt>SIE001</makt>
+    <tenkt>Siêu âm tổng quát</tenkt>
+    <tongso>13</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>05/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>236</id_gia>
+    <makt>SIE001</makt>
+    <tenkt>Siêu âm tổng quát</tenkt>
+    <tongso>20</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>06/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>236</id_gia>
+    <makt>SIE001</makt>
+    <tenkt>Siêu âm tổng quát</tenkt>
+    <tongso>27</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>07/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>236</id_gia>
+    <makt>SIE001</makt>
+    <tenkt>Siêu âm tổng quát</tenkt>
+    <tongso>21</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>08/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>236</id_gia>
+    <makt>SIE001</makt>
+    <tenkt>Siêu âm tổng quát</tenkt>
+    <tongso>17</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>09/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>236</id_gia>
+    <makt>SIE001</makt>
+    <tenkt>Siêu âm tổng quát</tenkt>
+    <tongso>16</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>10/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>236</id_gia>
+    <makt>SIE001</makt>
+    <tenkt>Siêu âm tổng quát</tenkt>
+    <tongso>12</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>12/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>236</id_gia>
+    <makt>SIE001</makt>
+    <tenkt>Siêu âm tổng quát</tenkt>
+    <tongso>20</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>13/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>236</id_gia>
+    <makt>SIE001</makt>
+    <tenkt>Siêu âm tổng quát</tenkt>
+    <tongso>6</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>14/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>236</id_gia>
+    <makt>SIE001</makt>
+    <tenkt>Siêu âm tổng quát</tenkt>
+    <tongso>18</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>15/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>236</id_gia>
+    <makt>SIE001</makt>
+    <tenkt>Siêu âm tổng quát</tenkt>
+    <tongso>11</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>16/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>236</id_gia>
+    <makt>SIE001</makt>
+    <tenkt>Siêu âm tổng quát</tenkt>
+    <tongso>5</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>17/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>236</id_gia>
+    <makt>SIE001</makt>
+    <tenkt>Siêu âm tổng quát</tenkt>
+    <tongso>2</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>18/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>236</id_gia>
+    <makt>SIE001</makt>
+    <tenkt>Siêu âm tổng quát</tenkt>
+    <tongso>26</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>19/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>236</id_gia>
+    <makt>SIE001</makt>
+    <tenkt>Siêu âm tổng quát</tenkt>
+    <tongso>7</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>20/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>236</id_gia>
+    <makt>SIE001</makt>
+    <tenkt>Siêu âm tổng quát</tenkt>
+    <tongso>34</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>21/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>236</id_gia>
+    <makt>SIE001</makt>
+    <tenkt>Siêu âm tổng quát</tenkt>
+    <tongso>10</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>22/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>236</id_gia>
+    <makt>SIE001</makt>
+    <tenkt>Siêu âm tổng quát</tenkt>
+    <tongso>10</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>23/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>237</id_gia>
+    <makt>SIE002</makt>
+    <tenkt>Siêu âm phụ khoa</tenkt>
+    <tongso>6</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>03/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>237</id_gia>
+    <makt>SIE002</makt>
+    <tenkt>Siêu âm phụ khoa</tenkt>
+    <tongso>12</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>04/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>237</id_gia>
+    <makt>SIE002</makt>
+    <tenkt>Siêu âm phụ khoa</tenkt>
+    <tongso>9</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>05/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>237</id_gia>
+    <makt>SIE002</makt>
+    <tenkt>Siêu âm phụ khoa</tenkt>
+    <tongso>9</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>06/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>237</id_gia>
+    <makt>SIE002</makt>
+    <tenkt>Siêu âm phụ khoa</tenkt>
+    <tongso>13</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>07/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>237</id_gia>
+    <makt>SIE002</makt>
+    <tenkt>Siêu âm phụ khoa</tenkt>
+    <tongso>21</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>08/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>237</id_gia>
+    <makt>SIE002</makt>
+    <tenkt>Siêu âm phụ khoa</tenkt>
+    <tongso>10</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>09/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>237</id_gia>
+    <makt>SIE002</makt>
+    <tenkt>Siêu âm phụ khoa</tenkt>
+    <tongso>5</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>10/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>237</id_gia>
+    <makt>SIE002</makt>
+    <tenkt>Siêu âm phụ khoa</tenkt>
+    <tongso>21</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>12/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>237</id_gia>
+    <makt>SIE002</makt>
+    <tenkt>Siêu âm phụ khoa</tenkt>
+    <tongso>26</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>13/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>237</id_gia>
+    <makt>SIE002</makt>
+    <tenkt>Siêu âm phụ khoa</tenkt>
+    <tongso>8</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>14/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>237</id_gia>
+    <makt>SIE002</makt>
+    <tenkt>Siêu âm phụ khoa</tenkt>
+    <tongso>16</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>15/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>237</id_gia>
+    <makt>SIE002</makt>
+    <tenkt>Siêu âm phụ khoa</tenkt>
+    <tongso>20</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>16/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>237</id_gia>
+    <makt>SIE002</makt>
+    <tenkt>Siêu âm phụ khoa</tenkt>
+    <tongso>4</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>17/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>237</id_gia>
+    <makt>SIE002</makt>
+    <tenkt>Siêu âm phụ khoa</tenkt>
+    <tongso>2</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>18/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>237</id_gia>
+    <makt>SIE002</makt>
+    <tenkt>Siêu âm phụ khoa</tenkt>
+    <tongso>17</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>19/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>237</id_gia>
+    <makt>SIE002</makt>
+    <tenkt>Siêu âm phụ khoa</tenkt>
+    <tongso>9</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>20/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>237</id_gia>
+    <makt>SIE002</makt>
+    <tenkt>Siêu âm phụ khoa</tenkt>
+    <tongso>15</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>21/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>237</id_gia>
+    <makt>SIE002</makt>
+    <tenkt>Siêu âm phụ khoa</tenkt>
+    <tongso>3</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>22/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>237</id_gia>
+    <makt>SIE002</makt>
+    <tenkt>Siêu âm phụ khoa</tenkt>
+    <tongso>4</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>23/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>239</id_gia>
+    <makt>SIE003</makt>
+    <tenkt>Siêu âm niệu</tenkt>
+    <tongso>7</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>04/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>239</id_gia>
+    <makt>SIE003</makt>
+    <tenkt>Siêu âm niệu</tenkt>
+    <tongso>4</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>05/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>239</id_gia>
+    <makt>SIE003</makt>
+    <tenkt>Siêu âm niệu</tenkt>
+    <tongso>4</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>06/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>239</id_gia>
+    <makt>SIE003</makt>
+    <tenkt>Siêu âm niệu</tenkt>
+    <tongso>10</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>07/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>239</id_gia>
+    <makt>SIE003</makt>
+    <tenkt>Siêu âm niệu</tenkt>
+    <tongso>15</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>08/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>239</id_gia>
+    <makt>SIE003</makt>
+    <tenkt>Siêu âm niệu</tenkt>
+    <tongso>4</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>09/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>239</id_gia>
+    <makt>SIE003</makt>
+    <tenkt>Siêu âm niệu</tenkt>
+    <tongso>4</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>10/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>239</id_gia>
+    <makt>SIE003</makt>
+    <tenkt>Siêu âm niệu</tenkt>
+    <tongso>13</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>12/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>239</id_gia>
+    <makt>SIE003</makt>
+    <tenkt>Siêu âm niệu</tenkt>
+    <tongso>24</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>13/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>239</id_gia>
+    <makt>SIE003</makt>
+    <tenkt>Siêu âm niệu</tenkt>
+    <tongso>2</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>14/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>239</id_gia>
+    <makt>SIE003</makt>
+    <tenkt>Siêu âm niệu</tenkt>
+    <tongso>5</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>15/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>239</id_gia>
+    <makt>SIE003</makt>
+    <tenkt>Siêu âm niệu</tenkt>
+    <tongso>11</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>16/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>239</id_gia>
+    <makt>SIE003</makt>
+    <tenkt>Siêu âm niệu</tenkt>
+    <tongso>2</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>18/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>239</id_gia>
+    <makt>SIE003</makt>
+    <tenkt>Siêu âm niệu</tenkt>
+    <tongso>11</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>19/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>239</id_gia>
+    <makt>SIE003</makt>
+    <tenkt>Siêu âm niệu</tenkt>
+    <tongso>7</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>20/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>239</id_gia>
+    <makt>SIE003</makt>
+    <tenkt>Siêu âm niệu</tenkt>
+    <tongso>12</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>21/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>239</id_gia>
+    <makt>SIE003</makt>
+    <tenkt>Siêu âm niệu</tenkt>
+    <tongso>12</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>22/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>239</id_gia>
+    <makt>SIE003</makt>
+    <tenkt>Siêu âm niệu</tenkt>
+    <tongso>5</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>23/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>240</id_gia>
+    <makt>SIE004</makt>
+    <tenkt>Siêu âm   mạch máu</tenkt>
+    <tongso>5</tongso>
+    <gia_th>115000</gia_th>
+    <ngaycdha>05/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>240</id_gia>
+    <makt>SIE004</makt>
+    <tenkt>Siêu âm   mạch máu</tenkt>
+    <tongso>3</tongso>
+    <gia_th>115000</gia_th>
+    <ngaycdha>06/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>240</id_gia>
+    <makt>SIE004</makt>
+    <tenkt>Siêu âm   mạch máu</tenkt>
+    <tongso>10</tongso>
+    <gia_th>115000</gia_th>
+    <ngaycdha>07/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>240</id_gia>
+    <makt>SIE004</makt>
+    <tenkt>Siêu âm   mạch máu</tenkt>
+    <tongso>13</tongso>
+    <gia_th>115000</gia_th>
+    <ngaycdha>08/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>240</id_gia>
+    <makt>SIE004</makt>
+    <tenkt>Siêu âm   mạch máu</tenkt>
+    <tongso>1</tongso>
+    <gia_th>115000</gia_th>
+    <ngaycdha>10/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>240</id_gia>
+    <makt>SIE004</makt>
+    <tenkt>Siêu âm   mạch máu</tenkt>
+    <tongso>6</tongso>
+    <gia_th>115000</gia_th>
+    <ngaycdha>12/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>240</id_gia>
+    <makt>SIE004</makt>
+    <tenkt>Siêu âm   mạch máu</tenkt>
+    <tongso>4</tongso>
+    <gia_th>115000</gia_th>
+    <ngaycdha>13/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>240</id_gia>
+    <makt>SIE004</makt>
+    <tenkt>Siêu âm   mạch máu</tenkt>
+    <tongso>2</tongso>
+    <gia_th>115000</gia_th>
+    <ngaycdha>15/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>240</id_gia>
+    <makt>SIE004</makt>
+    <tenkt>Siêu âm   mạch máu</tenkt>
+    <tongso>1</tongso>
+    <gia_th>115000</gia_th>
+    <ngaycdha>16/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>240</id_gia>
+    <makt>SIE004</makt>
+    <tenkt>Siêu âm   mạch máu</tenkt>
+    <tongso>1</tongso>
+    <gia_th>115000</gia_th>
+    <ngaycdha>17/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>240</id_gia>
+    <makt>SIE004</makt>
+    <tenkt>Siêu âm   mạch máu</tenkt>
+    <tongso>1</tongso>
+    <gia_th>115000</gia_th>
+    <ngaycdha>18/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>240</id_gia>
+    <makt>SIE004</makt>
+    <tenkt>Siêu âm   mạch máu</tenkt>
+    <tongso>6</tongso>
+    <gia_th>115000</gia_th>
+    <ngaycdha>19/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>240</id_gia>
+    <makt>SIE004</makt>
+    <tenkt>Siêu âm   mạch máu</tenkt>
+    <tongso>4</tongso>
+    <gia_th>115000</gia_th>
+    <ngaycdha>20/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>240</id_gia>
+    <makt>SIE004</makt>
+    <tenkt>Siêu âm   mạch máu</tenkt>
+    <tongso>6</tongso>
+    <gia_th>115000</gia_th>
+    <ngaycdha>21/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>240</id_gia>
+    <makt>SIE004</makt>
+    <tenkt>Siêu âm   mạch máu</tenkt>
+    <tongso>2</tongso>
+    <gia_th>115000</gia_th>
+    <ngaycdha>22/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>240</id_gia>
+    <makt>SIE004</makt>
+    <tenkt>Siêu âm   mạch máu</tenkt>
+    <tongso>4</tongso>
+    <gia_th>115000</gia_th>
+    <ngaycdha>23/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>242</id_gia>
+    <makt>SIE005</makt>
+    <tenkt>Siêu âm tim</tenkt>
+    <tongso>1</tongso>
+    <gia_th>115000</gia_th>
+    <ngaycdha>04/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>242</id_gia>
+    <makt>SIE005</makt>
+    <tenkt>Siêu âm tim</tenkt>
+    <tongso>2</tongso>
+    <gia_th>115000</gia_th>
+    <ngaycdha>06/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>242</id_gia>
+    <makt>SIE005</makt>
+    <tenkt>Siêu âm tim</tenkt>
+    <tongso>3</tongso>
+    <gia_th>115000</gia_th>
+    <ngaycdha>07/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>242</id_gia>
+    <makt>SIE005</makt>
+    <tenkt>Siêu âm tim</tenkt>
+    <tongso>1</tongso>
+    <gia_th>115000</gia_th>
+    <ngaycdha>08/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>242</id_gia>
+    <makt>SIE005</makt>
+    <tenkt>Siêu âm tim</tenkt>
+    <tongso>4</tongso>
+    <gia_th>115000</gia_th>
+    <ngaycdha>09/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>242</id_gia>
+    <makt>SIE005</makt>
+    <tenkt>Siêu âm tim</tenkt>
+    <tongso>3</tongso>
+    <gia_th>115000</gia_th>
+    <ngaycdha>12/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>242</id_gia>
+    <makt>SIE005</makt>
+    <tenkt>Siêu âm tim</tenkt>
+    <tongso>2</tongso>
+    <gia_th>115000</gia_th>
+    <ngaycdha>13/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>242</id_gia>
+    <makt>SIE005</makt>
+    <tenkt>Siêu âm tim</tenkt>
+    <tongso>5</tongso>
+    <gia_th>115000</gia_th>
+    <ngaycdha>19/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>242</id_gia>
+    <makt>SIE005</makt>
+    <tenkt>Siêu âm tim</tenkt>
+    <tongso>1</tongso>
+    <gia_th>115000</gia_th>
+    <ngaycdha>21/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>242</id_gia>
+    <makt>SIE005</makt>
+    <tenkt>Siêu âm tim</tenkt>
+    <tongso>2</tongso>
+    <gia_th>115000</gia_th>
+    <ngaycdha>22/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>244</id_gia>
+    <makt>SIE006</makt>
+    <tenkt>Siêu âm bụng</tenkt>
+    <tongso>51</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>03/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>244</id_gia>
+    <makt>SIE006</makt>
+    <tenkt>Siêu âm bụng</tenkt>
+    <tongso>32</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>04/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>244</id_gia>
+    <makt>SIE006</makt>
+    <tenkt>Siêu âm bụng</tenkt>
+    <tongso>35</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>05/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>244</id_gia>
+    <makt>SIE006</makt>
+    <tenkt>Siêu âm bụng</tenkt>
+    <tongso>32</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>06/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>244</id_gia>
+    <makt>SIE006</makt>
+    <tenkt>Siêu âm bụng</tenkt>
+    <tongso>53</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>07/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>244</id_gia>
+    <makt>SIE006</makt>
+    <tenkt>Siêu âm bụng</tenkt>
+    <tongso>51</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>08/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>244</id_gia>
+    <makt>SIE006</makt>
+    <tenkt>Siêu âm bụng</tenkt>
+    <tongso>32</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>09/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>244</id_gia>
+    <makt>SIE006</makt>
+    <tenkt>Siêu âm bụng</tenkt>
+    <tongso>73</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>10/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>244</id_gia>
+    <makt>SIE006</makt>
+    <tenkt>Siêu âm bụng</tenkt>
+    <tongso>66</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>12/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>244</id_gia>
+    <makt>SIE006</makt>
+    <tenkt>Siêu âm bụng</tenkt>
+    <tongso>80</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>13/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>244</id_gia>
+    <makt>SIE006</makt>
+    <tenkt>Siêu âm bụng</tenkt>
+    <tongso>27</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>14/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>244</id_gia>
+    <makt>SIE006</makt>
+    <tenkt>Siêu âm bụng</tenkt>
+    <tongso>40</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>15/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>244</id_gia>
+    <makt>SIE006</makt>
+    <tenkt>Siêu âm bụng</tenkt>
+    <tongso>60</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>16/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>244</id_gia>
+    <makt>SIE006</makt>
+    <tenkt>Siêu âm bụng</tenkt>
+    <tongso>51</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>17/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>244</id_gia>
+    <makt>SIE006</makt>
+    <tenkt>Siêu âm bụng</tenkt>
+    <tongso>10</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>18/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>244</id_gia>
+    <makt>SIE006</makt>
+    <tenkt>Siêu âm bụng</tenkt>
+    <tongso>59</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>19/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>244</id_gia>
+    <makt>SIE006</makt>
+    <tenkt>Siêu âm bụng</tenkt>
+    <tongso>25</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>20/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>244</id_gia>
+    <makt>SIE006</makt>
+    <tenkt>Siêu âm bụng</tenkt>
+    <tongso>67</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>21/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>244</id_gia>
+    <makt>SIE006</makt>
+    <tenkt>Siêu âm bụng</tenkt>
+    <tongso>39</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>22/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>244</id_gia>
+    <makt>SIE006</makt>
+    <tenkt>Siêu âm bụng</tenkt>
+    <tongso>23</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>23/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>246</id_gia>
+    <makt>SIE007</makt>
+    <tenkt>Siêu âm tuyến vú</tenkt>
+    <tongso>1</tongso>
+    <gia_th>115000</gia_th>
+    <ngaycdha>06/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>246</id_gia>
+    <makt>SIE007</makt>
+    <tenkt>Siêu âm tuyến vú</tenkt>
+    <tongso>4</tongso>
+    <gia_th>115000</gia_th>
+    <ngaycdha>07/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>246</id_gia>
+    <makt>SIE007</makt>
+    <tenkt>Siêu âm tuyến vú</tenkt>
+    <tongso>1</tongso>
+    <gia_th>115000</gia_th>
+    <ngaycdha>08/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>246</id_gia>
+    <makt>SIE007</makt>
+    <tenkt>Siêu âm tuyến vú</tenkt>
+    <tongso>3</tongso>
+    <gia_th>115000</gia_th>
+    <ngaycdha>12/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>246</id_gia>
+    <makt>SIE007</makt>
+    <tenkt>Siêu âm tuyến vú</tenkt>
+    <tongso>3</tongso>
+    <gia_th>115000</gia_th>
+    <ngaycdha>13/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>246</id_gia>
+    <makt>SIE007</makt>
+    <tenkt>Siêu âm tuyến vú</tenkt>
+    <tongso>3</tongso>
+    <gia_th>115000</gia_th>
+    <ngaycdha>15/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>246</id_gia>
+    <makt>SIE007</makt>
+    <tenkt>Siêu âm tuyến vú</tenkt>
+    <tongso>2</tongso>
+    <gia_th>115000</gia_th>
+    <ngaycdha>19/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>246</id_gia>
+    <makt>SIE007</makt>
+    <tenkt>Siêu âm tuyến vú</tenkt>
+    <tongso>1</tongso>
+    <gia_th>115000</gia_th>
+    <ngaycdha>20/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>246</id_gia>
+    <makt>SIE007</makt>
+    <tenkt>Siêu âm tuyến vú</tenkt>
+    <tongso>2</tongso>
+    <gia_th>115000</gia_th>
+    <ngaycdha>22/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>248</id_gia>
+    <makt>SIE008</makt>
+    <tenkt>Siêu âm tuyến giáp</tenkt>
+    <tongso>2</tongso>
+    <gia_th>115000</gia_th>
+    <ngaycdha>04/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>248</id_gia>
+    <makt>SIE008</makt>
+    <tenkt>Siêu âm tuyến giáp</tenkt>
+    <tongso>2</tongso>
+    <gia_th>115000</gia_th>
+    <ngaycdha>05/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>248</id_gia>
+    <makt>SIE008</makt>
+    <tenkt>Siêu âm tuyến giáp</tenkt>
+    <tongso>6</tongso>
+    <gia_th>115000</gia_th>
+    <ngaycdha>06/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>248</id_gia>
+    <makt>SIE008</makt>
+    <tenkt>Siêu âm tuyến giáp</tenkt>
+    <tongso>7</tongso>
+    <gia_th>115000</gia_th>
+    <ngaycdha>08/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>248</id_gia>
+    <makt>SIE008</makt>
+    <tenkt>Siêu âm tuyến giáp</tenkt>
+    <tongso>6</tongso>
+    <gia_th>115000</gia_th>
+    <ngaycdha>12/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>248</id_gia>
+    <makt>SIE008</makt>
+    <tenkt>Siêu âm tuyến giáp</tenkt>
+    <tongso>5</tongso>
+    <gia_th>115000</gia_th>
+    <ngaycdha>13/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>248</id_gia>
+    <makt>SIE008</makt>
+    <tenkt>Siêu âm tuyến giáp</tenkt>
+    <tongso>3</tongso>
+    <gia_th>115000</gia_th>
+    <ngaycdha>16/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>248</id_gia>
+    <makt>SIE008</makt>
+    <tenkt>Siêu âm tuyến giáp</tenkt>
+    <tongso>3</tongso>
+    <gia_th>115000</gia_th>
+    <ngaycdha>19/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>248</id_gia>
+    <makt>SIE008</makt>
+    <tenkt>Siêu âm tuyến giáp</tenkt>
+    <tongso>1</tongso>
+    <gia_th>115000</gia_th>
+    <ngaycdha>21/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>248</id_gia>
+    <makt>SIE008</makt>
+    <tenkt>Siêu âm tuyến giáp</tenkt>
+    <tongso>2</tongso>
+    <gia_th>115000</gia_th>
+    <ngaycdha>22/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>261</id_gia>
+    <makt>NOI001</makt>
+    <tenkt>Nội soi dạ dày+clotest</tenkt>
+    <tongso>14</tongso>
+    <gia_th>75000</gia_th>
+    <ngaycdha>07/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>261</id_gia>
+    <makt>NOI001</makt>
+    <tenkt>Nội soi dạ dày+clotest</tenkt>
+    <tongso>14</tongso>
+    <gia_th>75000</gia_th>
+    <ngaycdha>08/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>261</id_gia>
+    <makt>NOI001</makt>
+    <tenkt>Nội soi dạ dày+clotest</tenkt>
+    <tongso>13</tongso>
+    <gia_th>75000</gia_th>
+    <ngaycdha>09/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>261</id_gia>
+    <makt>NOI001</makt>
+    <tenkt>Nội soi dạ dày+clotest</tenkt>
+    <tongso>13</tongso>
+    <gia_th>75000</gia_th>
+    <ngaycdha>19/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>261</id_gia>
+    <makt>NOI001</makt>
+    <tenkt>Nội soi dạ dày+clotest</tenkt>
+    <tongso>11</tongso>
+    <gia_th>75000</gia_th>
+    <ngaycdha>20/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>261</id_gia>
+    <makt>NOI001</makt>
+    <tenkt>Nội soi dạ dày+clotest</tenkt>
+    <tongso>24</tongso>
+    <gia_th>75000</gia_th>
+    <ngaycdha>21/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>261</id_gia>
+    <makt>NOI001</makt>
+    <tenkt>Nội soi dạ dày+clotest</tenkt>
+    <tongso>25</tongso>
+    <gia_th>75000</gia_th>
+    <ngaycdha>22/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>261</id_gia>
+    <makt>NOI001</makt>
+    <tenkt>Nội soi dạ dày+clotest</tenkt>
+    <tongso>23</tongso>
+    <gia_th>75000</gia_th>
+    <ngaycdha>23/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>264</id_gia>
+    <makt>NOI002</makt>
+    <tenkt>Nội soi dạ dày ( cấp cứu)</tenkt>
+    <tongso>8</tongso>
+    <gia_th>300000</gia_th>
+    <ngaycdha>19/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>317</id_gia>
+    <makt>SIE009</makt>
+    <tenkt>Siêu âm thường</tenkt>
+    <tongso>1</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>15/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>317</id_gia>
+    <makt>SIE009</makt>
+    <tenkt>Siêu âm thường</tenkt>
+    <tongso>1</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>19/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>317</id_gia>
+    <makt>SIE009</makt>
+    <tenkt>Siêu âm thường</tenkt>
+    <tongso>1</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>20/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>318</id_gia>
+    <makt>SIE010</makt>
+    <tenkt>Siêu âm màu</tenkt>
+    <tongso>1</tongso>
+    <gia_th>80000</gia_th>
+    <ngaycdha>13/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>318</id_gia>
+    <makt>SIE010</makt>
+    <tenkt>Siêu âm màu</tenkt>
+    <tongso>1</tongso>
+    <gia_th>80000</gia_th>
+    <ngaycdha>16/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>318</id_gia>
+    <makt>SIE010</makt>
+    <tenkt>Siêu âm màu</tenkt>
+    <tongso>4</tongso>
+    <gia_th>80000</gia_th>
+    <ngaycdha>19/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>318</id_gia>
+    <makt>SIE010</makt>
+    <tenkt>Siêu âm màu</tenkt>
+    <tongso>1</tongso>
+    <gia_th>80000</gia_th>
+    <ngaycdha>20/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>318</id_gia>
+    <makt>SIE010</makt>
+    <tenkt>Siêu âm màu</tenkt>
+    <tongso>3</tongso>
+    <gia_th>80000</gia_th>
+    <ngaycdha>22/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>740</id_gia>
+    <makt>SIE016</makt>
+    <tenkt>Siêu âm tại gường</tenkt>
+    <tongso>1</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>03/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>740</id_gia>
+    <makt>SIE016</makt>
+    <tenkt>Siêu âm tại gường</tenkt>
+    <tongso>1</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>08/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>740</id_gia>
+    <makt>SIE016</makt>
+    <tenkt>Siêu âm tại gường</tenkt>
+    <tongso>1</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>13/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>841</id_gia>
+    <makt>SIE017</makt>
+    <tenkt>Siêu âm phần mềm vùng hàm mặt</tenkt>
+    <tongso>3</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>09/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>841</id_gia>
+    <makt>SIE017</makt>
+    <tenkt>Siêu âm phần mềm vùng hàm mặt</tenkt>
+    <tongso>3</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>12/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>841</id_gia>
+    <makt>SIE017</makt>
+    <tenkt>Siêu âm phần mềm vùng hàm mặt</tenkt>
+    <tongso>1</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>13/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>841</id_gia>
+    <makt>SIE017</makt>
+    <tenkt>Siêu âm phần mềm vùng hàm mặt</tenkt>
+    <tongso>2</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>21/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>866</id_gia>
+    <makt>XQC018</makt>
+    <tenkt>XQ cẳng chân thẳng nghiêng</tenkt>
+    <tongso>1</tongso>
+    <gia_th>40000</gia_th>
+    <ngaycdha>08/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>905</id_gia>
+    <makt>SIE019</makt>
+    <tenkt>Siêu âm xuyên thóp</tenkt>
+    <tongso>1</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>03/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>543778</id_gia>
+    <makt>SIE020</makt>
+    <tenkt>Siêu âm thai</tenkt>
+    <tongso>17</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>03/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>543778</id_gia>
+    <makt>SIE020</makt>
+    <tenkt>Siêu âm thai</tenkt>
+    <tongso>18</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>04/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>543778</id_gia>
+    <makt>SIE020</makt>
+    <tenkt>Siêu âm thai</tenkt>
+    <tongso>19</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>05/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>543778</id_gia>
+    <makt>SIE020</makt>
+    <tenkt>Siêu âm thai</tenkt>
+    <tongso>19</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>06/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>543778</id_gia>
+    <makt>SIE020</makt>
+    <tenkt>Siêu âm thai</tenkt>
+    <tongso>23</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>07/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>543778</id_gia>
+    <makt>SIE020</makt>
+    <tenkt>Siêu âm thai</tenkt>
+    <tongso>22</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>08/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>543778</id_gia>
+    <makt>SIE020</makt>
+    <tenkt>Siêu âm thai</tenkt>
+    <tongso>21</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>09/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>543778</id_gia>
+    <makt>SIE020</makt>
+    <tenkt>Siêu âm thai</tenkt>
+    <tongso>25</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>10/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>543778</id_gia>
+    <makt>SIE020</makt>
+    <tenkt>Siêu âm thai</tenkt>
+    <tongso>38</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>12/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>543778</id_gia>
+    <makt>SIE020</makt>
+    <tenkt>Siêu âm thai</tenkt>
+    <tongso>35</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>13/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>543778</id_gia>
+    <makt>SIE020</makt>
+    <tenkt>Siêu âm thai</tenkt>
+    <tongso>9</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>14/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>543778</id_gia>
+    <makt>SIE020</makt>
+    <tenkt>Siêu âm thai</tenkt>
+    <tongso>12</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>15/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>543778</id_gia>
+    <makt>SIE020</makt>
+    <tenkt>Siêu âm thai</tenkt>
+    <tongso>41</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>16/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>543778</id_gia>
+    <makt>SIE020</makt>
+    <tenkt>Siêu âm thai</tenkt>
+    <tongso>17</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>17/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>543778</id_gia>
+    <makt>SIE020</makt>
+    <tenkt>Siêu âm thai</tenkt>
+    <tongso>4</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>18/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>543778</id_gia>
+    <makt>SIE020</makt>
+    <tenkt>Siêu âm thai</tenkt>
+    <tongso>28</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>19/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>543778</id_gia>
+    <makt>SIE020</makt>
+    <tenkt>Siêu âm thai</tenkt>
+    <tongso>14</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>20/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>543778</id_gia>
+    <makt>SIE020</makt>
+    <tenkt>Siêu âm thai</tenkt>
+    <tongso>28</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>21/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>543778</id_gia>
+    <makt>SIE020</makt>
+    <tenkt>Siêu âm thai</tenkt>
+    <tongso>22</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>22/05/2008</ngaycdha>
+  </Table>
+  <Table>
+    <id_gia>543778</id_gia>
+    <makt>SIE020</makt>
+    <tenkt>Siêu âm thai</tenkt>
+    <tongso>9</tongso>
+    <gia_th>20000</gia_th>
+    <ngaycdha>23/05/2008</ngaycdha>
+  </Table>
+</NewDataSet>

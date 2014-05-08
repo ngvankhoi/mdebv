@@ -1,0 +1,4764 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <ravien>
+    <LOAIBA>1</LOAIBA>
+    <MADOITUONGVAO>1</MADOITUONGVAO>
+    <MATT>13011660</MATT>
+    <MABN>13011660</MABN>
+    <MAQL>130125095511330459</MAQL>
+    <IDKHOA>0</IDKHOA>
+    <HOTEN>ĐẶNG MINH THƯ</HOTEN>
+    <NAMSINH>2012</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <DIACHI> , P. Châu Phú A, TX. Châu Đốc, An Giang</DIACHI>
+    <MADOITUONG>1</MADOITUONG>
+    <DOITUONG>BHYT</DOITUONG>
+    <SOTHE>TE189020030291889013</SOTHE>
+    <MAPHU>100.00</MAPHU>
+    <DENNGAY>04/05/2012^10/03/2018</DENNGAY>
+    <NOIGIOITHIEU>^KKB</NOIGIOITHIEU>
+    <NOICAP>BVĐK khu vực tỉnh^89013</NOICAP>
+    <GIUONG />
+    <MAKP>10</MAKP>
+    <TENKP>Khoa Ngoại Tổng Hợp</TENKP>
+    <NGAYVAO>25/01/2013 09:53</NGAYVAO>
+    <NGAYRA>28/01/2013 15:33</NGAYRA>
+    <CHANDOAN>Lồng ruột; </CHANDOAN>
+    <MAICD>K56.1; </MAICD>
+    <STTNHOM>1</STTNHOM>
+    <NHOM>Giường </NHOM>
+    <STTLOAI>1</STTLOAI>
+    <LOAI>Giường</LOAI>
+    <MA>-631506</MA>
+    <TEN>Giường K.Ngoại TH - Phẫu thuật Loại III ( 01 người / 01 giường )</TEN>
+    <DVT>Ngày</DVT>
+    <SOLUONG>3.000</SOLUONG>
+    <DONGIA>40000</DONGIA>
+    <SOTIEN>120000.00</SOTIEN>
+    <TAMUNG>1000000.0000</TAMUNG>
+    <TCSOTIEN>120000.000</TCSOTIEN>
+    <DICHSO>Một trăm hai mươi  nghìn</DICHSO>
+    <MIEN>0</MIEN>
+    <BHYTTRA>120000.000</BHYTTRA>
+    <BNTRA>0</BNTRA>
+    <DICHSOTRA>Không</DICHSOTRA>
+    <SBLTAMUNG>TAMUNG/45-107967:1000000.0000;</SBLTAMUNG>
+    <SOLUUTRU>^13011660^0</SOLUUTRU>
+    <NGUOINHA />
+    <HINHTHUC>2</HINHTHUC>
+    <PHUONGPHAP>2</PHUONGPHAP>
+    <KETQUA>1</KETQUA>
+    <SOPHIEU>0</SOPHIEU>
+    <LANIN>0</LANIN>
+    <tenuser>toancau</tenuser>
+    <tenbs>Nguyễn Hữu Tuấn</tenbs>
+    <mabs>0042</mabs>
+    <makprv>10</makprv>
+    <cholam />
+    <madt>1</madt>
+    <haophi>0</haophi>
+    <gianovat>40000</gianovat>
+    <idttrv>0</idttrv>
+    <sotientra>120000.000</sotientra>
+    <traituyen>0</traituyen>
+    <tbh>0</tbh>
+    <tbn>0</tbn>
+    <tltraituyen>50</tltraituyen>
+    <dbh>120000.000</dbh>
+    <dbn>0</dbn>
+    <tlchitra>100</tlchitra>
+    <kythuat>-1</kythuat>
+    <loaikythuat />
+    <tong_tu>1000000.0000</tong_tu>
+    <bienlai_tu>TAMUNG/45-107967:1000000.0000;</bienlai_tu>
+    <tongcp>1389278.37</tongcp>
+    <tongmien>165724.64559999990000</tongmien>
+    <tongbhyttra>513313.81187500010000</tongbhyttra>
+    <tongbntra>710239.91</tongbntra>
+    <tlchinhsach>0</tlchinhsach>
+    <ID_KTCAO>0</ID_KTCAO>
+    <ID_VPKHOA>0</ID_VPKHOA>
+    <VUOTTRAN>0</VUOTTRAN>
+    <dinhmucKTcao>26000000</dinhmucKTcao>
+    <giaban>40000</giaban>
+    <mabv />
+    <tenbv />
+    <tuoivao>0111</tuoivao>
+  </ravien>
+  <ravien>
+    <LOAIBA>1</LOAIBA>
+    <MADOITUONGVAO>1</MADOITUONGVAO>
+    <MATT>13011660</MATT>
+    <MABN>13011660</MABN>
+    <MAQL>130125095511330459</MAQL>
+    <IDKHOA>0</IDKHOA>
+    <HOTEN>ĐẶNG MINH THƯ</HOTEN>
+    <NAMSINH>2012</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <DIACHI> , P. Châu Phú A, TX. Châu Đốc, An Giang</DIACHI>
+    <MADOITUONG>1</MADOITUONG>
+    <DOITUONG>BHYT</DOITUONG>
+    <SOTHE>TE189020030291889013</SOTHE>
+    <MAPHU>100.00</MAPHU>
+    <DENNGAY>04/05/2012^10/03/2018</DENNGAY>
+    <NOIGIOITHIEU>^KKB</NOIGIOITHIEU>
+    <NOICAP>BVĐK khu vực tỉnh^89013</NOICAP>
+    <GIUONG />
+    <MAKP>10</MAKP>
+    <TENKP>Khoa Ngoại Tổng Hợp</TENKP>
+    <NGAYVAO>25/01/2013 09:53</NGAYVAO>
+    <NGAYRA>28/01/2013 15:33</NGAYRA>
+    <CHANDOAN>Lồng ruột; </CHANDOAN>
+    <MAICD>K56.1; </MAICD>
+    <STTNHOM>3</STTNHOM>
+    <NHOM>Thuốc</NHOM>
+    <STTLOAI>3</STTLOAI>
+    <LOAI>Thuốc Thường viên</LOAI>
+    <MA>630749</MA>
+    <TEN>Acefalgan EFF. [Paracetamol] 500mg</TEN>
+    <DVT>Viên</DVT>
+    <SOLUONG>3.0000</SOLUONG>
+    <DONGIA>1620.00</DONGIA>
+    <SOTIEN>4860.00</SOTIEN>
+    <TAMUNG>1000000.0000</TAMUNG>
+    <TCSOTIEN>124859.99937500010000</TCSOTIEN>
+    <DICHSO>Một trăm hai mươi bốn nghìn tám trăm năm mươi chín</DICHSO>
+    <MIEN>0</MIEN>
+    <BHYTTRA>124859.99937500010000</BHYTTRA>
+    <BNTRA>0</BNTRA>
+    <DICHSOTRA>Không</DICHSOTRA>
+    <SBLTAMUNG>TAMUNG/45-107967:1000000.0000;</SBLTAMUNG>
+    <SOLUUTRU>^13011660^0</SOLUUTRU>
+    <NGUOINHA />
+    <HINHTHUC>2</HINHTHUC>
+    <PHUONGPHAP>2</PHUONGPHAP>
+    <KETQUA>1</KETQUA>
+    <SOPHIEU>0</SOPHIEU>
+    <LANIN>0</LANIN>
+    <tenuser>toancau</tenuser>
+    <tenbs>Nguyễn Hữu Tuấn</tenbs>
+    <mabs>0</mabs>
+    <makprv>10</makprv>
+    <cholam />
+    <madt>1</madt>
+    <haophi>0</haophi>
+    <gianovat>0</gianovat>
+    <idttrv>0</idttrv>
+    <sotientra>4859.99937500010000</sotientra>
+    <traituyen>0</traituyen>
+    <tbh>0</tbh>
+    <tbn>0</tbn>
+    <tltraituyen>50</tltraituyen>
+    <dbh>124859.99937500010000</dbh>
+    <dbn>0</dbn>
+    <tlchitra>100</tlchitra>
+    <kythuat>-1</kythuat>
+    <loaikythuat />
+    <tong_tu>1000000.0000</tong_tu>
+    <bienlai_tu>TAMUNG/45-107967:1000000.0000;</bienlai_tu>
+    <tongcp>1389278.37</tongcp>
+    <tongmien>165724.64559999990000</tongmien>
+    <tongbhyttra>513313.81187500010000</tongbhyttra>
+    <tongbntra>710239.91</tongbntra>
+    <tlchinhsach>0</tlchinhsach>
+    <ID_KTCAO>0</ID_KTCAO>
+    <ID_VPKHOA>0</ID_VPKHOA>
+    <VUOTTRAN>0</VUOTTRAN>
+    <dinhmucKTcao>26000000</dinhmucKTcao>
+    <giaban>1620.00</giaban>
+    <mabv />
+    <tenbv />
+    <tuoivao>0111</tuoivao>
+  </ravien>
+  <ravien>
+    <LOAIBA>1</LOAIBA>
+    <MADOITUONGVAO>1</MADOITUONGVAO>
+    <MATT>13011660</MATT>
+    <MABN>13011660</MABN>
+    <MAQL>130125095511330459</MAQL>
+    <IDKHOA>0</IDKHOA>
+    <HOTEN>ĐẶNG MINH THƯ</HOTEN>
+    <NAMSINH>2012</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <DIACHI> , P. Châu Phú A, TX. Châu Đốc, An Giang</DIACHI>
+    <MADOITUONG>1</MADOITUONG>
+    <DOITUONG>BHYT</DOITUONG>
+    <SOTHE>TE189020030291889013</SOTHE>
+    <MAPHU>100.00</MAPHU>
+    <DENNGAY>04/05/2012^10/03/2018</DENNGAY>
+    <NOIGIOITHIEU>^KKB</NOIGIOITHIEU>
+    <NOICAP>BVĐK khu vực tỉnh^89013</NOICAP>
+    <GIUONG />
+    <MAKP>10</MAKP>
+    <TENKP>Khoa Ngoại Tổng Hợp</TENKP>
+    <NGAYVAO>25/01/2013 09:53</NGAYVAO>
+    <NGAYRA>28/01/2013 15:33</NGAYRA>
+    <CHANDOAN>Lồng ruột; </CHANDOAN>
+    <MAICD>K56.1; </MAICD>
+    <STTNHOM>3</STTNHOM>
+    <NHOM>Thuốc</NHOM>
+    <STTLOAI>3</STTLOAI>
+    <LOAI>Thuốc Thường viên</LOAI>
+    <MA>629117</MA>
+    <TEN>Agimol 150. [Paracetamol] 1g</TEN>
+    <DVT>Gói</DVT>
+    <SOLUONG>2.0000</SOLUONG>
+    <DONGIA>1200.00</DONGIA>
+    <SOTIEN>2400.00</SOTIEN>
+    <TAMUNG>1000000.0000</TAMUNG>
+    <TCSOTIEN>127259.99937500010000</TCSOTIEN>
+    <DICHSO>Một trăm hai mươi bảy nghìn hai trăm năm mươi chín</DICHSO>
+    <MIEN>0</MIEN>
+    <BHYTTRA>127259.99937500010000</BHYTTRA>
+    <BNTRA>0</BNTRA>
+    <DICHSOTRA>Không</DICHSOTRA>
+    <SBLTAMUNG>TAMUNG/45-107967:1000000.0000;</SBLTAMUNG>
+    <SOLUUTRU>^13011660^0</SOLUUTRU>
+    <NGUOINHA />
+    <HINHTHUC>2</HINHTHUC>
+    <PHUONGPHAP>2</PHUONGPHAP>
+    <KETQUA>1</KETQUA>
+    <SOPHIEU>0</SOPHIEU>
+    <LANIN>0</LANIN>
+    <tenuser>toancau</tenuser>
+    <tenbs>Nguyễn Hữu Tuấn</tenbs>
+    <mabs />
+    <makprv>10</makprv>
+    <cholam />
+    <madt>1</madt>
+    <haophi>0</haophi>
+    <gianovat>0</gianovat>
+    <idttrv>0</idttrv>
+    <sotientra>2400.00000000000000</sotientra>
+    <traituyen>0</traituyen>
+    <tbh>0</tbh>
+    <tbn>0</tbn>
+    <tltraituyen>50</tltraituyen>
+    <dbh>127259.99937500010000</dbh>
+    <dbn>0</dbn>
+    <tlchitra>100</tlchitra>
+    <kythuat>-1</kythuat>
+    <loaikythuat />
+    <tong_tu>1000000.0000</tong_tu>
+    <bienlai_tu>TAMUNG/45-107967:1000000.0000;</bienlai_tu>
+    <tongcp>1389278.37</tongcp>
+    <tongmien>165724.64559999990000</tongmien>
+    <tongbhyttra>513313.81187500010000</tongbhyttra>
+    <tongbntra>710239.91</tongbntra>
+    <tlchinhsach>0</tlchinhsach>
+    <ID_KTCAO>0</ID_KTCAO>
+    <ID_VPKHOA>0</ID_VPKHOA>
+    <VUOTTRAN>0</VUOTTRAN>
+    <dinhmucKTcao>26000000</dinhmucKTcao>
+    <giachenhlech>1200.04</giachenhlech>
+    <giaban>2400.04</giaban>
+    <mabv />
+    <tenbv />
+    <tuoivao>0111</tuoivao>
+  </ravien>
+  <ravien>
+    <LOAIBA>1</LOAIBA>
+    <MADOITUONGVAO>1</MADOITUONGVAO>
+    <MATT>13011660</MATT>
+    <MABN>13011660</MABN>
+    <MAQL>130125095511330459</MAQL>
+    <IDKHOA>0</IDKHOA>
+    <HOTEN>ĐẶNG MINH THƯ</HOTEN>
+    <NAMSINH>2012</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <DIACHI> , P. Châu Phú A, TX. Châu Đốc, An Giang</DIACHI>
+    <MADOITUONG>1</MADOITUONG>
+    <DOITUONG>BHYT</DOITUONG>
+    <SOTHE>TE189020030291889013</SOTHE>
+    <MAPHU>100.00</MAPHU>
+    <DENNGAY>04/05/2012^10/03/2018</DENNGAY>
+    <NOIGIOITHIEU>^KKB</NOIGIOITHIEU>
+    <NOICAP>BVĐK khu vực tỉnh^89013</NOICAP>
+    <GIUONG />
+    <MAKP>10</MAKP>
+    <TENKP>Khoa Ngoại Tổng Hợp</TENKP>
+    <NGAYVAO>25/01/2013 09:53</NGAYVAO>
+    <NGAYRA>28/01/2013 15:33</NGAYRA>
+    <CHANDOAN>Lồng ruột; </CHANDOAN>
+    <MAICD>K56.1; </MAICD>
+    <STTNHOM>3</STTNHOM>
+    <NHOM>Thuốc</NHOM>
+    <STTLOAI>3</STTLOAI>
+    <LOAI>Thuốc Thường viên</LOAI>
+    <MA>630707</MA>
+    <TEN>Alphachymotrypsin. [Alphachymotrypsin] 21microkatals</TEN>
+    <DVT>Viên</DVT>
+    <SOLUONG>3.0000</SOLUONG>
+    <DONGIA>1199.99</DONGIA>
+    <SOTIEN>3599.98</SOTIEN>
+    <TAMUNG>1000000.0000</TAMUNG>
+    <TCSOTIEN>130859.97687500010000</TCSOTIEN>
+    <DICHSO>Một trăm ba mươi  nghìn tám trăm năm mươi chín</DICHSO>
+    <MIEN>0</MIEN>
+    <BHYTTRA>130859.97687500010000</BHYTTRA>
+    <BNTRA>0</BNTRA>
+    <DICHSOTRA>Không</DICHSOTRA>
+    <SBLTAMUNG>TAMUNG/45-107967:1000000.0000;</SBLTAMUNG>
+    <SOLUUTRU>^13011660^0</SOLUUTRU>
+    <NGUOINHA />
+    <HINHTHUC>2</HINHTHUC>
+    <PHUONGPHAP>2</PHUONGPHAP>
+    <KETQUA>1</KETQUA>
+    <SOPHIEU>0</SOPHIEU>
+    <LANIN>0</LANIN>
+    <tenuser>toancau</tenuser>
+    <tenbs>Nguyễn Hữu Tuấn</tenbs>
+    <mabs>0</mabs>
+    <makprv>10</makprv>
+    <cholam />
+    <madt>1</madt>
+    <haophi>0</haophi>
+    <gianovat>0</gianovat>
+    <idttrv>0</idttrv>
+    <sotientra>3599.97750000000000</sotientra>
+    <traituyen>0</traituyen>
+    <tbh>0</tbh>
+    <tbn>0</tbn>
+    <tltraituyen>50</tltraituyen>
+    <dbh>130859.97687500010000</dbh>
+    <dbn>0</dbn>
+    <tlchitra>100</tlchitra>
+    <kythuat>-1</kythuat>
+    <loaikythuat />
+    <tong_tu>1000000.0000</tong_tu>
+    <bienlai_tu>TAMUNG/45-107967:1000000.0000;</bienlai_tu>
+    <tongcp>1389278.37</tongcp>
+    <tongmien>165724.64559999990000</tongmien>
+    <tongbhyttra>513313.81187500010000</tongbhyttra>
+    <tongbntra>710239.91</tongbntra>
+    <tlchinhsach>0</tlchinhsach>
+    <ID_KTCAO>0</ID_KTCAO>
+    <ID_VPKHOA>0</ID_VPKHOA>
+    <VUOTTRAN>0</VUOTTRAN>
+    <dinhmucKTcao>26000000</dinhmucKTcao>
+    <giaban>1199.99</giaban>
+    <mabv />
+    <tenbv />
+    <tuoivao>0111</tuoivao>
+  </ravien>
+  <ravien>
+    <LOAIBA>1</LOAIBA>
+    <MADOITUONGVAO>1</MADOITUONGVAO>
+    <MATT>13011660</MATT>
+    <MABN>13011660</MABN>
+    <MAQL>130125095511330459</MAQL>
+    <IDKHOA>0</IDKHOA>
+    <HOTEN>ĐẶNG MINH THƯ</HOTEN>
+    <NAMSINH>2012</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <DIACHI> , P. Châu Phú A, TX. Châu Đốc, An Giang</DIACHI>
+    <MADOITUONG>1</MADOITUONG>
+    <DOITUONG>BHYT</DOITUONG>
+    <SOTHE>TE189020030291889013</SOTHE>
+    <MAPHU>100.00</MAPHU>
+    <DENNGAY>04/05/2012^10/03/2018</DENNGAY>
+    <NOIGIOITHIEU>^KKB</NOIGIOITHIEU>
+    <NOICAP>BVĐK khu vực tỉnh^89013</NOICAP>
+    <GIUONG />
+    <MAKP>10</MAKP>
+    <TENKP>Khoa Ngoại Tổng Hợp</TENKP>
+    <NGAYVAO>25/01/2013 09:53</NGAYVAO>
+    <NGAYRA>28/01/2013 15:33</NGAYRA>
+    <CHANDOAN>Lồng ruột; </CHANDOAN>
+    <MAICD>K56.1; </MAICD>
+    <STTNHOM>3</STTNHOM>
+    <NHOM>Thuốc</NHOM>
+    <STTLOAI>10</STTLOAI>
+    <LOAI>Kháng Sinh</LOAI>
+    <MA>630174</MA>
+    <TEN>Cefuroxime. [Cefuroxime] 750mg</TEN>
+    <DVT>Lọ</DVT>
+    <SOLUONG>2.0000</SOLUONG>
+    <DONGIA>39900.00</DONGIA>
+    <SOTIEN>79800.00</SOTIEN>
+    <TAMUNG>1000000.0000</TAMUNG>
+    <TCSOTIEN>210659.97687500010000</TCSOTIEN>
+    <DICHSO>Hai trăm  mười  nghìn sáu trăm năm mươi chín</DICHSO>
+    <MIEN>0</MIEN>
+    <BHYTTRA>210659.97687500010000</BHYTTRA>
+    <BNTRA>0</BNTRA>
+    <DICHSOTRA>Không</DICHSOTRA>
+    <SBLTAMUNG>TAMUNG/45-107967:1000000.0000;</SBLTAMUNG>
+    <SOLUUTRU>^13011660^0</SOLUUTRU>
+    <NGUOINHA />
+    <HINHTHUC>2</HINHTHUC>
+    <PHUONGPHAP>2</PHUONGPHAP>
+    <KETQUA>1</KETQUA>
+    <SOPHIEU>0</SOPHIEU>
+    <LANIN>0</LANIN>
+    <tenuser>toancau</tenuser>
+    <tenbs>Nguyễn Hữu Tuấn</tenbs>
+    <mabs />
+    <makprv>10</makprv>
+    <cholam />
+    <madt>1</madt>
+    <haophi>0</haophi>
+    <gianovat>0</gianovat>
+    <idttrv>0</idttrv>
+    <sotientra>79800.00000000000000</sotientra>
+    <traituyen>0</traituyen>
+    <tbh>0</tbh>
+    <tbn>0</tbn>
+    <tltraituyen>50</tltraituyen>
+    <dbh>210659.97687500010000</dbh>
+    <dbn>0</dbn>
+    <tlchitra>100</tlchitra>
+    <kythuat>-1</kythuat>
+    <loaikythuat />
+    <tong_tu>1000000.0000</tong_tu>
+    <bienlai_tu>TAMUNG/45-107967:1000000.0000;</bienlai_tu>
+    <tongcp>1389278.37</tongcp>
+    <tongmien>165724.64559999990000</tongmien>
+    <tongbhyttra>513313.81187500010000</tongbhyttra>
+    <tongbntra>710239.91</tongbntra>
+    <tlchinhsach>0</tlchinhsach>
+    <ID_KTCAO>0</ID_KTCAO>
+    <ID_VPKHOA>0</ID_VPKHOA>
+    <VUOTTRAN>0</VUOTTRAN>
+    <dinhmucKTcao>26000000</dinhmucKTcao>
+    <giaban>39900.00</giaban>
+    <mabv />
+    <tenbv />
+    <tuoivao>0111</tuoivao>
+  </ravien>
+  <ravien>
+    <LOAIBA>1</LOAIBA>
+    <MADOITUONGVAO>1</MADOITUONGVAO>
+    <MATT>13011660</MATT>
+    <MABN>13011660</MABN>
+    <MAQL>130125095511330459</MAQL>
+    <IDKHOA>0</IDKHOA>
+    <HOTEN>ĐẶNG MINH THƯ</HOTEN>
+    <NAMSINH>2012</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <DIACHI> , P. Châu Phú A, TX. Châu Đốc, An Giang</DIACHI>
+    <MADOITUONG>1</MADOITUONG>
+    <DOITUONG>BHYT</DOITUONG>
+    <SOTHE>TE189020030291889013</SOTHE>
+    <MAPHU>100.00</MAPHU>
+    <DENNGAY>04/05/2012^10/03/2018</DENNGAY>
+    <NOIGIOITHIEU>^KKB</NOIGIOITHIEU>
+    <NOICAP>BVĐK khu vực tỉnh^89013</NOICAP>
+    <GIUONG />
+    <MAKP>10</MAKP>
+    <TENKP>Khoa Ngoại Tổng Hợp</TENKP>
+    <NGAYVAO>25/01/2013 09:53</NGAYVAO>
+    <NGAYRA>28/01/2013 15:33</NGAYRA>
+    <CHANDOAN>Lồng ruột; </CHANDOAN>
+    <MAICD>K56.1; </MAICD>
+    <STTNHOM>3</STTNHOM>
+    <NHOM>Thuốc</NHOM>
+    <STTLOAI>10</STTLOAI>
+    <LOAI>Kháng Sinh</LOAI>
+    <MA>627947</MA>
+    <TEN>Kefcin. [Cefaclor] 125mg</TEN>
+    <DVT>Gói</DVT>
+    <SOLUONG>10.0000</SOLUONG>
+    <DONGIA>1516.00</DONGIA>
+    <SOTIEN>15160.00</SOTIEN>
+    <TAMUNG>1000000.0000</TAMUNG>
+    <TCSOTIEN>225819.97687500010000</TCSOTIEN>
+    <DICHSO>Hai trăm hai mươi lăm nghìn tám trăm  mười chín</DICHSO>
+    <MIEN>0</MIEN>
+    <BHYTTRA>225819.97687500010000</BHYTTRA>
+    <BNTRA>0</BNTRA>
+    <DICHSOTRA>Không</DICHSOTRA>
+    <SBLTAMUNG>TAMUNG/45-107967:1000000.0000;</SBLTAMUNG>
+    <SOLUUTRU>^13011660^0</SOLUUTRU>
+    <NGUOINHA />
+    <HINHTHUC>2</HINHTHUC>
+    <PHUONGPHAP>2</PHUONGPHAP>
+    <KETQUA>1</KETQUA>
+    <SOPHIEU>0</SOPHIEU>
+    <LANIN>0</LANIN>
+    <tenuser>toancau</tenuser>
+    <tenbs>Nguyễn Hữu Tuấn</tenbs>
+    <mabs>0132</mabs>
+    <makprv>10</makprv>
+    <cholam />
+    <madt>1</madt>
+    <haophi>0</haophi>
+    <gianovat>0</gianovat>
+    <idttrv>0</idttrv>
+    <sotientra>15160.00000000</sotientra>
+    <traituyen>0</traituyen>
+    <tbh>0</tbh>
+    <tbn>0</tbn>
+    <tltraituyen>50</tltraituyen>
+    <dbh>225819.97687500010000</dbh>
+    <dbn>0</dbn>
+    <tlchitra>100</tlchitra>
+    <kythuat>-1</kythuat>
+    <loaikythuat />
+    <tong_tu>1000000.0000</tong_tu>
+    <bienlai_tu>TAMUNG/45-107967:1000000.0000;</bienlai_tu>
+    <tongcp>1389278.37</tongcp>
+    <tongmien>165724.64559999990000</tongmien>
+    <tongbhyttra>513313.81187500010000</tongbhyttra>
+    <tongbntra>710239.91</tongbntra>
+    <tlchinhsach>0</tlchinhsach>
+    <ID_KTCAO>0</ID_KTCAO>
+    <ID_VPKHOA>0</ID_VPKHOA>
+    <VUOTTRAN>0</VUOTTRAN>
+    <dinhmucKTcao>26000000</dinhmucKTcao>
+    <giaban>1516.00</giaban>
+    <mabv />
+    <tenbv />
+    <tuoivao>0111</tuoivao>
+  </ravien>
+  <ravien>
+    <LOAIBA>1</LOAIBA>
+    <MADOITUONGVAO>1</MADOITUONGVAO>
+    <MATT>13011660</MATT>
+    <MABN>13011660</MABN>
+    <MAQL>130125095511330459</MAQL>
+    <IDKHOA>0</IDKHOA>
+    <HOTEN>ĐẶNG MINH THƯ</HOTEN>
+    <NAMSINH>2012</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <DIACHI> , P. Châu Phú A, TX. Châu Đốc, An Giang</DIACHI>
+    <MADOITUONG>1</MADOITUONG>
+    <DOITUONG>BHYT</DOITUONG>
+    <SOTHE>TE189020030291889013</SOTHE>
+    <MAPHU>100.00</MAPHU>
+    <DENNGAY>04/05/2012^10/03/2018</DENNGAY>
+    <NOIGIOITHIEU>^KKB</NOIGIOITHIEU>
+    <NOICAP>BVĐK khu vực tỉnh^89013</NOICAP>
+    <GIUONG />
+    <MAKP>10</MAKP>
+    <TENKP>Khoa Ngoại Tổng Hợp</TENKP>
+    <NGAYVAO>25/01/2013 09:53</NGAYVAO>
+    <NGAYRA>28/01/2013 15:33</NGAYRA>
+    <CHANDOAN>Lồng ruột; </CHANDOAN>
+    <MAICD>K56.1; </MAICD>
+    <STTNHOM>3</STTNHOM>
+    <NHOM>Thuốc</NHOM>
+    <STTLOAI>3</STTLOAI>
+    <LOAI>Thuốc Thường viên</LOAI>
+    <MA>630688</MA>
+    <TEN>Partamol [Paracetamol] 80mg</TEN>
+    <DVT>Gói</DVT>
+    <SOLUONG>3.0000</SOLUONG>
+    <DONGIA>899.96</DONGIA>
+    <SOTIEN>2699.86</SOTIEN>
+    <TAMUNG>1000000.0000</TAMUNG>
+    <TCSOTIEN>228519.84187500010000</TCSOTIEN>
+    <DICHSO>Hai trăm hai mươi tám nghìn năm trăm  mười chín</DICHSO>
+    <MIEN>0</MIEN>
+    <BHYTTRA>228519.84187500010000</BHYTTRA>
+    <BNTRA>0</BNTRA>
+    <DICHSOTRA>Không</DICHSOTRA>
+    <SBLTAMUNG>TAMUNG/45-107967:1000000.0000;</SBLTAMUNG>
+    <SOLUUTRU>^13011660^0</SOLUUTRU>
+    <NGUOINHA />
+    <HINHTHUC>2</HINHTHUC>
+    <PHUONGPHAP>2</PHUONGPHAP>
+    <KETQUA>1</KETQUA>
+    <SOPHIEU>0</SOPHIEU>
+    <LANIN>0</LANIN>
+    <tenuser>toancau</tenuser>
+    <tenbs>Nguyễn Hữu Tuấn</tenbs>
+    <mabs>0</mabs>
+    <makprv>10</makprv>
+    <cholam />
+    <madt>1</madt>
+    <haophi>0</haophi>
+    <gianovat>0</gianovat>
+    <idttrv>0</idttrv>
+    <sotientra>2699.86500000000000</sotientra>
+    <traituyen>0</traituyen>
+    <tbh>0</tbh>
+    <tbn>0</tbn>
+    <tltraituyen>50</tltraituyen>
+    <dbh>228519.84187500010000</dbh>
+    <dbn>0</dbn>
+    <tlchitra>100</tlchitra>
+    <kythuat>-1</kythuat>
+    <loaikythuat />
+    <tong_tu>1000000.0000</tong_tu>
+    <bienlai_tu>TAMUNG/45-107967:1000000.0000;</bienlai_tu>
+    <tongcp>1389278.37</tongcp>
+    <tongmien>165724.64559999990000</tongmien>
+    <tongbhyttra>513313.81187500010000</tongbhyttra>
+    <tongbntra>710239.91</tongbntra>
+    <tlchinhsach>0</tlchinhsach>
+    <ID_KTCAO>0</ID_KTCAO>
+    <ID_VPKHOA>0</ID_VPKHOA>
+    <VUOTTRAN>0</VUOTTRAN>
+    <dinhmucKTcao>26000000</dinhmucKTcao>
+    <giaban>899.96</giaban>
+    <mabv />
+    <tenbv />
+    <tuoivao>0111</tuoivao>
+  </ravien>
+  <ravien>
+    <LOAIBA>1</LOAIBA>
+    <MADOITUONGVAO>1</MADOITUONGVAO>
+    <MATT>13011660</MATT>
+    <MABN>13011660</MABN>
+    <MAQL>130125095511330459</MAQL>
+    <IDKHOA>0</IDKHOA>
+    <HOTEN>ĐẶNG MINH THƯ</HOTEN>
+    <NAMSINH>2012</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <DIACHI> , P. Châu Phú A, TX. Châu Đốc, An Giang</DIACHI>
+    <MADOITUONG>1</MADOITUONG>
+    <DOITUONG>BHYT</DOITUONG>
+    <SOTHE>TE189020030291889013</SOTHE>
+    <MAPHU>100.00</MAPHU>
+    <DENNGAY>04/05/2012^10/03/2018</DENNGAY>
+    <NOIGIOITHIEU>^KKB</NOIGIOITHIEU>
+    <NOICAP>BVĐK khu vực tỉnh^89013</NOICAP>
+    <GIUONG />
+    <MAKP>10</MAKP>
+    <TENKP>Khoa Ngoại Tổng Hợp</TENKP>
+    <NGAYVAO>25/01/2013 09:53</NGAYVAO>
+    <NGAYRA>28/01/2013 15:33</NGAYRA>
+    <CHANDOAN>Lồng ruột; </CHANDOAN>
+    <MAICD>K56.1; </MAICD>
+    <STTNHOM>3</STTNHOM>
+    <NHOM>Thuốc</NHOM>
+    <STTLOAI>3</STTLOAI>
+    <LOAI>Thuốc Thường viên</LOAI>
+    <MA>630688</MA>
+    <TEN>Partamol [Paracetamol] 80mg</TEN>
+    <DVT>Gói</DVT>
+    <SOLUONG>13.0000</SOLUONG>
+    <DONGIA>900.00</DONGIA>
+    <SOTIEN>11700.00</SOTIEN>
+    <TAMUNG>1000000.0000</TAMUNG>
+    <TCSOTIEN>240219.84187500010000</TCSOTIEN>
+    <DICHSO>Hai trăm bốn mươi  nghìn hai trăm  mười chín</DICHSO>
+    <MIEN>0</MIEN>
+    <BHYTTRA>240219.84187500010000</BHYTTRA>
+    <BNTRA>0</BNTRA>
+    <DICHSOTRA>Không</DICHSOTRA>
+    <SBLTAMUNG>TAMUNG/45-107967:1000000.0000;</SBLTAMUNG>
+    <SOLUUTRU>^13011660^0</SOLUUTRU>
+    <NGUOINHA />
+    <HINHTHUC>2</HINHTHUC>
+    <PHUONGPHAP>2</PHUONGPHAP>
+    <KETQUA>1</KETQUA>
+    <SOPHIEU>0</SOPHIEU>
+    <LANIN>0</LANIN>
+    <tenuser>toancau</tenuser>
+    <tenbs>Nguyễn Hữu Tuấn</tenbs>
+    <mabs />
+    <makprv>10</makprv>
+    <cholam />
+    <madt>1</madt>
+    <haophi>0</haophi>
+    <gianovat>0</gianovat>
+    <idttrv>0</idttrv>
+    <sotientra>11700.00000000000000</sotientra>
+    <traituyen>0</traituyen>
+    <tbh>0</tbh>
+    <tbn>0</tbn>
+    <tltraituyen>50</tltraituyen>
+    <dbh>240219.84187500010000</dbh>
+    <dbn>0</dbn>
+    <tlchitra>100</tlchitra>
+    <kythuat>-1</kythuat>
+    <loaikythuat />
+    <tong_tu>1000000.0000</tong_tu>
+    <bienlai_tu>TAMUNG/45-107967:1000000.0000;</bienlai_tu>
+    <tongcp>1389278.37</tongcp>
+    <tongmien>165724.64559999990000</tongmien>
+    <tongbhyttra>513313.81187500010000</tongbhyttra>
+    <tongbntra>710239.91</tongbntra>
+    <tlchinhsach>0</tlchinhsach>
+    <ID_KTCAO>0</ID_KTCAO>
+    <ID_VPKHOA>0</ID_VPKHOA>
+    <VUOTTRAN>0</VUOTTRAN>
+    <dinhmucKTcao>26000000</dinhmucKTcao>
+    <giaban>900.00</giaban>
+    <mabv />
+    <tenbv />
+    <tuoivao>0111</tuoivao>
+  </ravien>
+  <ravien>
+    <LOAIBA>1</LOAIBA>
+    <MADOITUONGVAO>1</MADOITUONGVAO>
+    <MATT>13011660</MATT>
+    <MABN>13011660</MABN>
+    <MAQL>130125095511330459</MAQL>
+    <IDKHOA>0</IDKHOA>
+    <HOTEN>ĐẶNG MINH THƯ</HOTEN>
+    <NAMSINH>2012</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <DIACHI> , P. Châu Phú A, TX. Châu Đốc, An Giang</DIACHI>
+    <MADOITUONG>1</MADOITUONG>
+    <DOITUONG>BHYT</DOITUONG>
+    <SOTHE>TE189020030291889013</SOTHE>
+    <MAPHU>100.00</MAPHU>
+    <DENNGAY>04/05/2012^10/03/2018</DENNGAY>
+    <NOIGIOITHIEU>^KKB</NOIGIOITHIEU>
+    <NOICAP>BVĐK khu vực tỉnh^89013</NOICAP>
+    <GIUONG />
+    <MAKP>10</MAKP>
+    <TENKP>Khoa Ngoại Tổng Hợp</TENKP>
+    <NGAYVAO>25/01/2013 09:53</NGAYVAO>
+    <NGAYRA>28/01/2013 15:33</NGAYRA>
+    <CHANDOAN>Lồng ruột; </CHANDOAN>
+    <MAICD>K56.1; </MAICD>
+    <STTNHOM>3</STTNHOM>
+    <NHOM>Thuốc</NHOM>
+    <STTLOAI>3</STTLOAI>
+    <LOAI>Thuốc Thường viên</LOAI>
+    <MA>627672</MA>
+    <TEN>Probio. [Lactobaccillus acidophilus] 1g</TEN>
+    <DVT>Gói</DVT>
+    <SOLUONG>14.0000</SOLUONG>
+    <DONGIA>1260.00</DONGIA>
+    <SOTIEN>17640.00</SOTIEN>
+    <TAMUNG>1000000.0000</TAMUNG>
+    <TCSOTIEN>257859.84187500010000</TCSOTIEN>
+    <DICHSO>Hai trăm năm mươi bảy nghìn tám trăm năm mươi chín</DICHSO>
+    <MIEN>0</MIEN>
+    <BHYTTRA>257859.84187500010000</BHYTTRA>
+    <BNTRA>0</BNTRA>
+    <DICHSOTRA>Không</DICHSOTRA>
+    <SBLTAMUNG>TAMUNG/45-107967:1000000.0000;</SBLTAMUNG>
+    <SOLUUTRU>^13011660^0</SOLUUTRU>
+    <NGUOINHA />
+    <HINHTHUC>2</HINHTHUC>
+    <PHUONGPHAP>2</PHUONGPHAP>
+    <KETQUA>1</KETQUA>
+    <SOPHIEU>0</SOPHIEU>
+    <LANIN>0</LANIN>
+    <tenuser>toancau</tenuser>
+    <tenbs>Nguyễn Hữu Tuấn</tenbs>
+    <mabs />
+    <makprv>10</makprv>
+    <cholam />
+    <madt>1</madt>
+    <haophi>0</haophi>
+    <gianovat>0</gianovat>
+    <idttrv>0</idttrv>
+    <sotientra>17640.00000000000000</sotientra>
+    <traituyen>0</traituyen>
+    <tbh>0</tbh>
+    <tbn>0</tbn>
+    <tltraituyen>50</tltraituyen>
+    <dbh>257859.84187500010000</dbh>
+    <dbn>0</dbn>
+    <tlchitra>100</tlchitra>
+    <kythuat>-1</kythuat>
+    <loaikythuat />
+    <tong_tu>1000000.0000</tong_tu>
+    <bienlai_tu>TAMUNG/45-107967:1000000.0000;</bienlai_tu>
+    <tongcp>1389278.37</tongcp>
+    <tongmien>165724.64559999990000</tongmien>
+    <tongbhyttra>513313.81187500010000</tongbhyttra>
+    <tongbntra>710239.91</tongbntra>
+    <tlchinhsach>0</tlchinhsach>
+    <ID_KTCAO>0</ID_KTCAO>
+    <ID_VPKHOA>0</ID_VPKHOA>
+    <VUOTTRAN>0</VUOTTRAN>
+    <dinhmucKTcao>26000000</dinhmucKTcao>
+    <giaban>1260.00</giaban>
+    <mabv />
+    <tenbv />
+    <tuoivao>0111</tuoivao>
+  </ravien>
+  <ravien>
+    <LOAIBA>1</LOAIBA>
+    <MADOITUONGVAO>1</MADOITUONGVAO>
+    <MATT>13011660</MATT>
+    <MABN>13011660</MABN>
+    <MAQL>130125095511330459</MAQL>
+    <IDKHOA>0</IDKHOA>
+    <HOTEN>ĐẶNG MINH THƯ</HOTEN>
+    <NAMSINH>2012</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <DIACHI> , P. Châu Phú A, TX. Châu Đốc, An Giang</DIACHI>
+    <MADOITUONG>1</MADOITUONG>
+    <DOITUONG>BHYT</DOITUONG>
+    <SOTHE>TE189020030291889013</SOTHE>
+    <MAPHU>100.00</MAPHU>
+    <DENNGAY>04/05/2012^10/03/2018</DENNGAY>
+    <NOIGIOITHIEU>^KKB</NOIGIOITHIEU>
+    <NOICAP>BVĐK khu vực tỉnh^89013</NOICAP>
+    <GIUONG />
+    <MAKP>10</MAKP>
+    <TENKP>Khoa Ngoại Tổng Hợp</TENKP>
+    <NGAYVAO>25/01/2013 09:53</NGAYVAO>
+    <NGAYRA>28/01/2013 15:33</NGAYRA>
+    <CHANDOAN>Lồng ruột; </CHANDOAN>
+    <MAICD>K56.1; </MAICD>
+    <STTNHOM>3</STTNHOM>
+    <NHOM>Thuốc</NHOM>
+    <STTLOAI>8</STTLOAI>
+    <LOAI>Thuốc Thường Ống</LOAI>
+    <MA>626289</MA>
+    <TEN>Transamin. [Acid Tranexamide] 250mg/5ml</TEN>
+    <DVT>Ống</DVT>
+    <SOLUONG>2.0000</SOLUONG>
+    <DONGIA>14999.98</DONGIA>
+    <SOTIEN>29999.97</SOTIEN>
+    <TAMUNG>1000000.0000</TAMUNG>
+    <TCSOTIEN>287859.81187500010000</TCSOTIEN>
+    <DICHSO>Hai trăm tám mươi bảy nghìn tám trăm năm mươi chín</DICHSO>
+    <MIEN>0</MIEN>
+    <BHYTTRA>287859.81187500010000</BHYTTRA>
+    <BNTRA>0</BNTRA>
+    <DICHSOTRA>Không</DICHSOTRA>
+    <SBLTAMUNG>TAMUNG/45-107967:1000000.0000;</SBLTAMUNG>
+    <SOLUUTRU>^13011660^0</SOLUUTRU>
+    <NGUOINHA />
+    <HINHTHUC>2</HINHTHUC>
+    <PHUONGPHAP>2</PHUONGPHAP>
+    <KETQUA>1</KETQUA>
+    <SOPHIEU>0</SOPHIEU>
+    <LANIN>0</LANIN>
+    <tenuser>toancau</tenuser>
+    <tenbs>Nguyễn Hữu Tuấn</tenbs>
+    <mabs>0</mabs>
+    <makprv>10</makprv>
+    <cholam />
+    <madt>1</madt>
+    <haophi>0</haophi>
+    <gianovat>0</gianovat>
+    <idttrv>0</idttrv>
+    <sotientra>29999.97000000000000</sotientra>
+    <traituyen>0</traituyen>
+    <tbh>0</tbh>
+    <tbn>0</tbn>
+    <tltraituyen>50</tltraituyen>
+    <dbh>287859.81187500010000</dbh>
+    <dbn>0</dbn>
+    <tlchitra>100</tlchitra>
+    <kythuat>-1</kythuat>
+    <loaikythuat />
+    <tong_tu>1000000.0000</tong_tu>
+    <bienlai_tu>TAMUNG/45-107967:1000000.0000;</bienlai_tu>
+    <tongcp>1389278.37</tongcp>
+    <tongmien>165724.64559999990000</tongmien>
+    <tongbhyttra>513313.81187500010000</tongbhyttra>
+    <tongbntra>710239.91</tongbntra>
+    <tlchinhsach>0</tlchinhsach>
+    <ID_KTCAO>0</ID_KTCAO>
+    <ID_VPKHOA>0</ID_VPKHOA>
+    <VUOTTRAN>0</VUOTTRAN>
+    <dinhmucKTcao>26000000</dinhmucKTcao>
+    <giaban>14999.98</giaban>
+    <mabv />
+    <tenbv />
+    <tuoivao>0111</tuoivao>
+  </ravien>
+  <ravien>
+    <LOAIBA>1</LOAIBA>
+    <MADOITUONGVAO>1</MADOITUONGVAO>
+    <MATT>13011660</MATT>
+    <MABN>13011660</MABN>
+    <MAQL>130125095511330459</MAQL>
+    <IDKHOA>0</IDKHOA>
+    <HOTEN>ĐẶNG MINH THƯ</HOTEN>
+    <NAMSINH>2012</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <DIACHI> , P. Châu Phú A, TX. Châu Đốc, An Giang</DIACHI>
+    <MADOITUONG>1</MADOITUONG>
+    <DOITUONG>BHYT</DOITUONG>
+    <SOTHE>TE189020030291889013</SOTHE>
+    <MAPHU>100.00</MAPHU>
+    <DENNGAY>04/05/2012^10/03/2018</DENNGAY>
+    <NOIGIOITHIEU>^KKB</NOIGIOITHIEU>
+    <NOICAP>BVĐK khu vực tỉnh^89013</NOICAP>
+    <GIUONG />
+    <MAKP>10</MAKP>
+    <TENKP>Khoa Ngoại Tổng Hợp</TENKP>
+    <NGAYVAO>25/01/2013 09:53</NGAYVAO>
+    <NGAYRA>28/01/2013 15:33</NGAYRA>
+    <CHANDOAN>Lồng ruột; </CHANDOAN>
+    <MAICD>K56.1; </MAICD>
+    <STTNHOM>3</STTNHOM>
+    <NHOM>Thuốc</NHOM>
+    <STTLOAI>10</STTLOAI>
+    <LOAI>Kháng Sinh</LOAI>
+    <MA>629436</MA>
+    <TEN>Varucefa. [Ceftizoxime] 1g</TEN>
+    <DVT>Lọ</DVT>
+    <SOLUONG>2.0000</SOLUONG>
+    <DONGIA>77700.00</DONGIA>
+    <SOTIEN>155400.00</SOTIEN>
+    <TAMUNG>1000000.0000</TAMUNG>
+    <TCSOTIEN>443259.81187500010000</TCSOTIEN>
+    <DICHSO>Bốn trăm bốn mươi ba nghìn hai trăm năm mươi chín</DICHSO>
+    <MIEN>0</MIEN>
+    <BHYTTRA>443259.81187500010000</BHYTTRA>
+    <BNTRA>0</BNTRA>
+    <DICHSOTRA>Không</DICHSOTRA>
+    <SBLTAMUNG>TAMUNG/45-107967:1000000.0000;</SBLTAMUNG>
+    <SOLUUTRU>^13011660^0</SOLUUTRU>
+    <NGUOINHA />
+    <HINHTHUC>2</HINHTHUC>
+    <PHUONGPHAP>2</PHUONGPHAP>
+    <KETQUA>1</KETQUA>
+    <SOPHIEU>0</SOPHIEU>
+    <LANIN>0</LANIN>
+    <tenuser>toancau</tenuser>
+    <tenbs>Nguyễn Hữu Tuấn</tenbs>
+    <mabs>0</mabs>
+    <makprv>10</makprv>
+    <cholam />
+    <madt>1</madt>
+    <haophi>0</haophi>
+    <gianovat>0</gianovat>
+    <idttrv>0</idttrv>
+    <sotientra>155400.00000000000000</sotientra>
+    <traituyen>0</traituyen>
+    <tbh>0</tbh>
+    <tbn>0</tbn>
+    <tltraituyen>50</tltraituyen>
+    <dbh>443259.81187500010000</dbh>
+    <dbn>0</dbn>
+    <tlchitra>100</tlchitra>
+    <kythuat>-1</kythuat>
+    <loaikythuat />
+    <tong_tu>1000000.0000</tong_tu>
+    <bienlai_tu>TAMUNG/45-107967:1000000.0000;</bienlai_tu>
+    <tongcp>1389278.37</tongcp>
+    <tongmien>165724.64559999990000</tongmien>
+    <tongbhyttra>513313.81187500010000</tongbhyttra>
+    <tongbntra>710239.91</tongbntra>
+    <tlchinhsach>0</tlchinhsach>
+    <ID_KTCAO>0</ID_KTCAO>
+    <ID_VPKHOA>0</ID_VPKHOA>
+    <VUOTTRAN>0</VUOTTRAN>
+    <dinhmucKTcao>26000000</dinhmucKTcao>
+    <giaban>77700.00</giaban>
+    <mabv />
+    <tenbv />
+    <tuoivao>0111</tuoivao>
+  </ravien>
+  <ravien>
+    <LOAIBA>1</LOAIBA>
+    <MADOITUONGVAO>1</MADOITUONGVAO>
+    <MATT>13011660</MATT>
+    <MABN>13011660</MABN>
+    <MAQL>130125095511330459</MAQL>
+    <IDKHOA>0</IDKHOA>
+    <HOTEN>ĐẶNG MINH THƯ</HOTEN>
+    <NAMSINH>2012</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <DIACHI> , P. Châu Phú A, TX. Châu Đốc, An Giang</DIACHI>
+    <MADOITUONG>1</MADOITUONG>
+    <DOITUONG>BHYT</DOITUONG>
+    <SOTHE>TE189020030291889013</SOTHE>
+    <MAPHU>100.00</MAPHU>
+    <DENNGAY>04/05/2012^10/03/2018</DENNGAY>
+    <NOIGIOITHIEU>^KKB</NOIGIOITHIEU>
+    <NOICAP>BVĐK khu vực tỉnh^89013</NOICAP>
+    <GIUONG />
+    <MAKP>33</MAKP>
+    <TENKP>Khoa Hồi Sinh</TENKP>
+    <NGAYVAO>25/01/2013 09:53</NGAYVAO>
+    <NGAYRA>28/01/2013 15:33</NGAYRA>
+    <CHANDOAN>Lồng ruột; </CHANDOAN>
+    <MAICD>K56.1; </MAICD>
+    <STTNHOM>3</STTNHOM>
+    <NHOM>Thuốc</NHOM>
+    <STTLOAI>10</STTLOAI>
+    <LOAI>Kháng Sinh</LOAI>
+    <MA>630174</MA>
+    <TEN>Cefuroxime. [Cefuroxime] 750mg</TEN>
+    <DVT>Lọ</DVT>
+    <SOLUONG>1.0000</SOLUONG>
+    <DONGIA>39900.00</DONGIA>
+    <SOTIEN>39900.00</SOTIEN>
+    <TAMUNG>1000000.0000</TAMUNG>
+    <TCSOTIEN>483159.81187500010000</TCSOTIEN>
+    <DICHSO>Bốn trăm tám mươi ba nghìn một trăm năm mươi chín</DICHSO>
+    <MIEN>0</MIEN>
+    <BHYTTRA>483159.81187500010000</BHYTTRA>
+    <BNTRA>0</BNTRA>
+    <DICHSOTRA>Không</DICHSOTRA>
+    <SBLTAMUNG>TAMUNG/45-107967:1000000.0000;</SBLTAMUNG>
+    <SOLUUTRU>^13011660^0</SOLUUTRU>
+    <NGUOINHA />
+    <HINHTHUC>2</HINHTHUC>
+    <PHUONGPHAP>2</PHUONGPHAP>
+    <KETQUA>1</KETQUA>
+    <SOPHIEU>0</SOPHIEU>
+    <LANIN>0</LANIN>
+    <tenuser>toancau</tenuser>
+    <tenbs>Nguyễn Hữu Tuấn</tenbs>
+    <mabs />
+    <makprv>10</makprv>
+    <cholam />
+    <madt>1</madt>
+    <haophi>0</haophi>
+    <gianovat>0</gianovat>
+    <idttrv>0</idttrv>
+    <sotientra>39900.00000000000000</sotientra>
+    <traituyen>0</traituyen>
+    <tbh>0</tbh>
+    <tbn>0</tbn>
+    <tltraituyen>50</tltraituyen>
+    <dbh>483159.81187500010000</dbh>
+    <dbn>0</dbn>
+    <tlchitra>100</tlchitra>
+    <kythuat>-1</kythuat>
+    <loaikythuat />
+    <tong_tu>1000000.0000</tong_tu>
+    <bienlai_tu>TAMUNG/45-107967:1000000.0000;</bienlai_tu>
+    <tongcp>1389278.37</tongcp>
+    <tongmien>165724.64559999990000</tongmien>
+    <tongbhyttra>513313.81187500010000</tongbhyttra>
+    <tongbntra>710239.91</tongbntra>
+    <tlchinhsach>0</tlchinhsach>
+    <ID_KTCAO>0</ID_KTCAO>
+    <ID_VPKHOA>0</ID_VPKHOA>
+    <VUOTTRAN>0</VUOTTRAN>
+    <dinhmucKTcao>26000000</dinhmucKTcao>
+    <giaban>39900.00</giaban>
+    <mabv />
+    <tenbv />
+    <tuoivao>0111</tuoivao>
+  </ravien>
+  <ravien>
+    <LOAIBA>1</LOAIBA>
+    <MADOITUONGVAO>1</MADOITUONGVAO>
+    <MATT>13011660</MATT>
+    <MABN>13011660</MABN>
+    <MAQL>130125095511330459</MAQL>
+    <IDKHOA>0</IDKHOA>
+    <HOTEN>ĐẶNG MINH THƯ</HOTEN>
+    <NAMSINH>2012</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <DIACHI> , P. Châu Phú A, TX. Châu Đốc, An Giang</DIACHI>
+    <MADOITUONG>1</MADOITUONG>
+    <DOITUONG>BHYT</DOITUONG>
+    <SOTHE>TE189020030291889013</SOTHE>
+    <MAPHU>100.00</MAPHU>
+    <DENNGAY>04/05/2012^10/03/2018</DENNGAY>
+    <NOIGIOITHIEU>^KKB</NOIGIOITHIEU>
+    <NOICAP>BVĐK khu vực tỉnh^89013</NOICAP>
+    <GIUONG />
+    <MAKP>33</MAKP>
+    <TENKP>Khoa Hồi Sinh</TENKP>
+    <NGAYVAO>25/01/2013 09:53</NGAYVAO>
+    <NGAYRA>28/01/2013 15:33</NGAYRA>
+    <CHANDOAN>Lồng ruột; </CHANDOAN>
+    <MAICD>K56.1; </MAICD>
+    <STTNHOM>3</STTNHOM>
+    <NHOM>Thuốc</NHOM>
+    <STTLOAI>3</STTLOAI>
+    <LOAI>Thuốc Thường viên</LOAI>
+    <MA>630688</MA>
+    <TEN>Partamol [Paracetamol] 80mg</TEN>
+    <DVT>Gói</DVT>
+    <SOLUONG>3.0000</SOLUONG>
+    <DONGIA>900.00</DONGIA>
+    <SOTIEN>2700.00</SOTIEN>
+    <TAMUNG>1000000.0000</TAMUNG>
+    <TCSOTIEN>485859.81187500010000</TCSOTIEN>
+    <DICHSO>Bốn trăm tám mươi lăm nghìn tám trăm năm mươi chín</DICHSO>
+    <MIEN>0</MIEN>
+    <BHYTTRA>485859.81187500010000</BHYTTRA>
+    <BNTRA>0</BNTRA>
+    <DICHSOTRA>Không</DICHSOTRA>
+    <SBLTAMUNG>TAMUNG/45-107967:1000000.0000;</SBLTAMUNG>
+    <SOLUUTRU>^13011660^0</SOLUUTRU>
+    <NGUOINHA />
+    <HINHTHUC>2</HINHTHUC>
+    <PHUONGPHAP>2</PHUONGPHAP>
+    <KETQUA>1</KETQUA>
+    <SOPHIEU>0</SOPHIEU>
+    <LANIN>0</LANIN>
+    <tenuser>toancau</tenuser>
+    <tenbs>Nguyễn Hữu Tuấn</tenbs>
+    <mabs />
+    <makprv>10</makprv>
+    <cholam />
+    <madt>1</madt>
+    <haophi>0</haophi>
+    <gianovat>0</gianovat>
+    <idttrv>0</idttrv>
+    <sotientra>2700.00000000000000</sotientra>
+    <traituyen>0</traituyen>
+    <tbh>0</tbh>
+    <tbn>0</tbn>
+    <tltraituyen>50</tltraituyen>
+    <dbh>485859.81187500010000</dbh>
+    <dbn>0</dbn>
+    <tlchitra>100</tlchitra>
+    <kythuat>-1</kythuat>
+    <loaikythuat />
+    <tong_tu>1000000.0000</tong_tu>
+    <bienlai_tu>TAMUNG/45-107967:1000000.0000;</bienlai_tu>
+    <tongcp>1389278.37</tongcp>
+    <tongmien>165724.64559999990000</tongmien>
+    <tongbhyttra>513313.81187500010000</tongbhyttra>
+    <tongbntra>710239.91</tongbntra>
+    <tlchinhsach>0</tlchinhsach>
+    <ID_KTCAO>0</ID_KTCAO>
+    <ID_VPKHOA>0</ID_VPKHOA>
+    <VUOTTRAN>0</VUOTTRAN>
+    <dinhmucKTcao>26000000</dinhmucKTcao>
+    <giaban>900.00</giaban>
+    <mabv />
+    <tenbv />
+    <tuoivao>0111</tuoivao>
+  </ravien>
+  <ravien>
+    <LOAIBA>1</LOAIBA>
+    <MADOITUONGVAO>1</MADOITUONGVAO>
+    <MATT>13011660</MATT>
+    <MABN>13011660</MABN>
+    <MAQL>130125095511330459</MAQL>
+    <IDKHOA>0</IDKHOA>
+    <HOTEN>ĐẶNG MINH THƯ</HOTEN>
+    <NAMSINH>2012</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <DIACHI> , P. Châu Phú A, TX. Châu Đốc, An Giang</DIACHI>
+    <MADOITUONG>1</MADOITUONG>
+    <DOITUONG>BHYT</DOITUONG>
+    <SOTHE>TE189020030291889013</SOTHE>
+    <MAPHU>100.00</MAPHU>
+    <DENNGAY>04/05/2012^10/03/2018</DENNGAY>
+    <NOIGIOITHIEU>^KKB</NOIGIOITHIEU>
+    <NOICAP>BVĐK khu vực tỉnh^89013</NOICAP>
+    <GIUONG />
+    <MAKP>33</MAKP>
+    <TENKP>Khoa Hồi Sinh</TENKP>
+    <NGAYVAO>25/01/2013 09:53</NGAYVAO>
+    <NGAYRA>28/01/2013 15:33</NGAYRA>
+    <CHANDOAN>Lồng ruột; </CHANDOAN>
+    <MAICD>K56.1; </MAICD>
+    <STTNHOM>3</STTNHOM>
+    <NHOM>Thuốc</NHOM>
+    <STTLOAI>3</STTLOAI>
+    <LOAI>Thuốc Thường viên</LOAI>
+    <MA>627672</MA>
+    <TEN>Probio. [Lactobaccillus acidophilus] 1g</TEN>
+    <DVT>Gói</DVT>
+    <SOLUONG>2.0000</SOLUONG>
+    <DONGIA>1260.00</DONGIA>
+    <SOTIEN>2520.00</SOTIEN>
+    <TAMUNG>1000000.0000</TAMUNG>
+    <TCSOTIEN>488379.81187500010000</TCSOTIEN>
+    <DICHSO>Bốn trăm tám mươi tám nghìn ba trăm bảy mươi chín</DICHSO>
+    <MIEN>0</MIEN>
+    <BHYTTRA>488379.81187500010000</BHYTTRA>
+    <BNTRA>0</BNTRA>
+    <DICHSOTRA>Không</DICHSOTRA>
+    <SBLTAMUNG>TAMUNG/45-107967:1000000.0000;</SBLTAMUNG>
+    <SOLUUTRU>^13011660^0</SOLUUTRU>
+    <NGUOINHA />
+    <HINHTHUC>2</HINHTHUC>
+    <PHUONGPHAP>2</PHUONGPHAP>
+    <KETQUA>1</KETQUA>
+    <SOPHIEU>0</SOPHIEU>
+    <LANIN>0</LANIN>
+    <tenuser>toancau</tenuser>
+    <tenbs>Nguyễn Hữu Tuấn</tenbs>
+    <mabs />
+    <makprv>10</makprv>
+    <cholam />
+    <madt>1</madt>
+    <haophi>0</haophi>
+    <gianovat>0</gianovat>
+    <idttrv>0</idttrv>
+    <sotientra>2520.00000000000000</sotientra>
+    <traituyen>0</traituyen>
+    <tbh>0</tbh>
+    <tbn>0</tbn>
+    <tltraituyen>50</tltraituyen>
+    <dbh>488379.81187500010000</dbh>
+    <dbn>0</dbn>
+    <tlchitra>100</tlchitra>
+    <kythuat>-1</kythuat>
+    <loaikythuat />
+    <tong_tu>1000000.0000</tong_tu>
+    <bienlai_tu>TAMUNG/45-107967:1000000.0000;</bienlai_tu>
+    <tongcp>1389278.37</tongcp>
+    <tongmien>165724.64559999990000</tongmien>
+    <tongbhyttra>513313.81187500010000</tongbhyttra>
+    <tongbntra>710239.91</tongbntra>
+    <tlchinhsach>0</tlchinhsach>
+    <ID_KTCAO>0</ID_KTCAO>
+    <ID_VPKHOA>0</ID_VPKHOA>
+    <VUOTTRAN>0</VUOTTRAN>
+    <dinhmucKTcao>26000000</dinhmucKTcao>
+    <giaban>1260.00</giaban>
+    <mabv />
+    <tenbv />
+    <tuoivao>0111</tuoivao>
+  </ravien>
+  <ravien>
+    <LOAIBA>1</LOAIBA>
+    <MADOITUONGVAO>1</MADOITUONGVAO>
+    <MATT>13011660</MATT>
+    <MABN>13011660</MABN>
+    <MAQL>130125095511330459</MAQL>
+    <IDKHOA>0</IDKHOA>
+    <HOTEN>ĐẶNG MINH THƯ</HOTEN>
+    <NAMSINH>2012</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <DIACHI> , P. Châu Phú A, TX. Châu Đốc, An Giang</DIACHI>
+    <MADOITUONG>1</MADOITUONG>
+    <DOITUONG>BHYT</DOITUONG>
+    <SOTHE>TE189020030291889013</SOTHE>
+    <MAPHU>100.00</MAPHU>
+    <DENNGAY>04/05/2012^10/03/2018</DENNGAY>
+    <NOIGIOITHIEU>^KKB</NOIGIOITHIEU>
+    <NOICAP>BVĐK khu vực tỉnh^89013</NOICAP>
+    <GIUONG />
+    <MAKP>10</MAKP>
+    <TENKP>Khoa Ngoại Tổng Hợp</TENKP>
+    <NGAYVAO>25/01/2013 09:53</NGAYVAO>
+    <NGAYRA>28/01/2013 15:33</NGAYRA>
+    <CHANDOAN>Lồng ruột; </CHANDOAN>
+    <MAICD>K56.1; </MAICD>
+    <STTNHOM>13</STTNHOM>
+    <NHOM>Vật tư y tế tiêu hao</NHOM>
+    <STTLOAI>5</STTLOAI>
+    <LOAI>Vật tư y tế</LOAI>
+    <MA>631577</MA>
+    <TEN>Bơm tiêm nhựa 10ml. [] </TEN>
+    <DVT>Cái</DVT>
+    <SOLUONG>11.0000</SOLUONG>
+    <DONGIA>1050.00</DONGIA>
+    <SOTIEN>11550.00</SOTIEN>
+    <TAMUNG>1000000.0000</TAMUNG>
+    <TCSOTIEN>499929.81187500010000</TCSOTIEN>
+    <DICHSO>Bốn trăm chín mươi chín nghìn chín trăm hai mươi chín</DICHSO>
+    <MIEN>0</MIEN>
+    <BHYTTRA>499929.81187500010000</BHYTTRA>
+    <BNTRA>0</BNTRA>
+    <DICHSOTRA>Không</DICHSOTRA>
+    <SBLTAMUNG>TAMUNG/45-107967:1000000.0000;</SBLTAMUNG>
+    <SOLUUTRU>^13011660^0</SOLUUTRU>
+    <NGUOINHA />
+    <HINHTHUC>2</HINHTHUC>
+    <PHUONGPHAP>2</PHUONGPHAP>
+    <KETQUA>1</KETQUA>
+    <SOPHIEU>0</SOPHIEU>
+    <LANIN>0</LANIN>
+    <tenuser>toancau</tenuser>
+    <tenbs>Nguyễn Hữu Tuấn</tenbs>
+    <mabs />
+    <makprv>10</makprv>
+    <cholam />
+    <madt>1</madt>
+    <haophi>0</haophi>
+    <gianovat>0</gianovat>
+    <idttrv>0</idttrv>
+    <sotientra>11550.00000000000000</sotientra>
+    <traituyen>0</traituyen>
+    <tbh>0</tbh>
+    <tbn>0</tbn>
+    <tltraituyen>50</tltraituyen>
+    <dbh>499929.81187500010000</dbh>
+    <dbn>0</dbn>
+    <tlchitra>100</tlchitra>
+    <kythuat>-1</kythuat>
+    <loaikythuat />
+    <tong_tu>1000000.0000</tong_tu>
+    <bienlai_tu>TAMUNG/45-107967:1000000.0000;</bienlai_tu>
+    <tongcp>1389278.37</tongcp>
+    <tongmien>165724.64559999990000</tongmien>
+    <tongbhyttra>513313.81187500010000</tongbhyttra>
+    <tongbntra>710239.91</tongbntra>
+    <tlchinhsach>0</tlchinhsach>
+    <ID_KTCAO>0</ID_KTCAO>
+    <ID_VPKHOA>0</ID_VPKHOA>
+    <VUOTTRAN>0</VUOTTRAN>
+    <dinhmucKTcao>26000000</dinhmucKTcao>
+    <giaban>1050.00</giaban>
+    <mabv />
+    <tenbv />
+    <tuoivao>0111</tuoivao>
+  </ravien>
+  <ravien>
+    <LOAIBA>1</LOAIBA>
+    <MADOITUONGVAO>1</MADOITUONGVAO>
+    <MATT>13011660</MATT>
+    <MABN>13011660</MABN>
+    <MAQL>130125095511330459</MAQL>
+    <IDKHOA>0</IDKHOA>
+    <HOTEN>ĐẶNG MINH THƯ</HOTEN>
+    <NAMSINH>2012</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <DIACHI> , P. Châu Phú A, TX. Châu Đốc, An Giang</DIACHI>
+    <MADOITUONG>1</MADOITUONG>
+    <DOITUONG>BHYT</DOITUONG>
+    <SOTHE>TE189020030291889013</SOTHE>
+    <MAPHU>100.00</MAPHU>
+    <DENNGAY>04/05/2012^10/03/2018</DENNGAY>
+    <NOIGIOITHIEU>^KKB</NOIGIOITHIEU>
+    <NOICAP>BVĐK khu vực tỉnh^89013</NOICAP>
+    <GIUONG />
+    <MAKP>10</MAKP>
+    <TENKP>Khoa Ngoại Tổng Hợp</TENKP>
+    <NGAYVAO>25/01/2013 09:53</NGAYVAO>
+    <NGAYRA>28/01/2013 15:33</NGAYRA>
+    <CHANDOAN>Lồng ruột; </CHANDOAN>
+    <MAICD>K56.1; </MAICD>
+    <STTNHOM>13</STTNHOM>
+    <NHOM>Vật tư y tế tiêu hao</NHOM>
+    <STTLOAI>5</STTLOAI>
+    <LOAI>Vật tư y tế</LOAI>
+    <MA>631580</MA>
+    <TEN>Bơm tiêm nhựa 5ml. [] </TEN>
+    <DVT>Cái</DVT>
+    <SOLUONG>4.0000</SOLUONG>
+    <DONGIA>693.00</DONGIA>
+    <SOTIEN>2772.00</SOTIEN>
+    <TAMUNG>1000000.0000</TAMUNG>
+    <TCSOTIEN>502701.81187500010000</TCSOTIEN>
+    <DICHSO>Năm trăm  linh hai nghìn bảy trăm  linh một</DICHSO>
+    <MIEN>0</MIEN>
+    <BHYTTRA>502701.81187500010000</BHYTTRA>
+    <BNTRA>0</BNTRA>
+    <DICHSOTRA>Không</DICHSOTRA>
+    <SBLTAMUNG>TAMUNG/45-107967:1000000.0000;</SBLTAMUNG>
+    <SOLUUTRU>^13011660^0</SOLUUTRU>
+    <NGUOINHA />
+    <HINHTHUC>2</HINHTHUC>
+    <PHUONGPHAP>2</PHUONGPHAP>
+    <KETQUA>1</KETQUA>
+    <SOPHIEU>0</SOPHIEU>
+    <LANIN>0</LANIN>
+    <tenuser>toancau</tenuser>
+    <tenbs>Nguyễn Hữu Tuấn</tenbs>
+    <mabs />
+    <makprv>10</makprv>
+    <cholam />
+    <madt>1</madt>
+    <haophi>0</haophi>
+    <gianovat>0</gianovat>
+    <idttrv>0</idttrv>
+    <sotientra>2772.00000000000000</sotientra>
+    <traituyen>0</traituyen>
+    <tbh>0</tbh>
+    <tbn>0</tbn>
+    <tltraituyen>50</tltraituyen>
+    <dbh>502701.81187500010000</dbh>
+    <dbn>0</dbn>
+    <tlchitra>100</tlchitra>
+    <kythuat>-1</kythuat>
+    <loaikythuat />
+    <tong_tu>1000000.0000</tong_tu>
+    <bienlai_tu>TAMUNG/45-107967:1000000.0000;</bienlai_tu>
+    <tongcp>1389278.37</tongcp>
+    <tongmien>165724.64559999990000</tongmien>
+    <tongbhyttra>513313.81187500010000</tongbhyttra>
+    <tongbntra>710239.91</tongbntra>
+    <tlchinhsach>0</tlchinhsach>
+    <ID_KTCAO>0</ID_KTCAO>
+    <ID_VPKHOA>0</ID_VPKHOA>
+    <VUOTTRAN>0</VUOTTRAN>
+    <dinhmucKTcao>26000000</dinhmucKTcao>
+    <giaban>693.00</giaban>
+    <mabv />
+    <tenbv />
+    <tuoivao>0111</tuoivao>
+  </ravien>
+  <ravien>
+    <LOAIBA>1</LOAIBA>
+    <MADOITUONGVAO>1</MADOITUONGVAO>
+    <MATT>13011660</MATT>
+    <MABN>13011660</MABN>
+    <MAQL>130125095511330459</MAQL>
+    <IDKHOA>0</IDKHOA>
+    <HOTEN>ĐẶNG MINH THƯ</HOTEN>
+    <NAMSINH>2012</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <DIACHI> , P. Châu Phú A, TX. Châu Đốc, An Giang</DIACHI>
+    <MADOITUONG>1</MADOITUONG>
+    <DOITUONG>BHYT</DOITUONG>
+    <SOTHE>TE189020030291889013</SOTHE>
+    <MAPHU>100.00</MAPHU>
+    <DENNGAY>04/05/2012^10/03/2018</DENNGAY>
+    <NOIGIOITHIEU>^KKB</NOIGIOITHIEU>
+    <NOICAP>BVĐK khu vực tỉnh^89013</NOICAP>
+    <GIUONG />
+    <MAKP>10</MAKP>
+    <TENKP>Khoa Ngoại Tổng Hợp</TENKP>
+    <NGAYVAO>25/01/2013 09:53</NGAYVAO>
+    <NGAYRA>28/01/2013 15:33</NGAYRA>
+    <CHANDOAN>Lồng ruột; </CHANDOAN>
+    <MAICD>K56.1; </MAICD>
+    <STTNHOM>13</STTNHOM>
+    <NHOM>Vật tư y tế tiêu hao</NHOM>
+    <STTLOAI>5</STTLOAI>
+    <LOAI>Vật tư y tế</LOAI>
+    <MA>631581</MA>
+    <TEN>Kim rời số 18.  [] </TEN>
+    <DVT>Cái</DVT>
+    <SOLUONG>5.0000</SOLUONG>
+    <DONGIA>336.00</DONGIA>
+    <SOTIEN>1680.00</SOTIEN>
+    <TAMUNG>1000000.0000</TAMUNG>
+    <TCSOTIEN>504381.81187500010000</TCSOTIEN>
+    <DICHSO>Năm trăm  linh bốn nghìn ba trăm tám mươi mốt</DICHSO>
+    <MIEN>0</MIEN>
+    <BHYTTRA>504381.81187500010000</BHYTTRA>
+    <BNTRA>0</BNTRA>
+    <DICHSOTRA>Không</DICHSOTRA>
+    <SBLTAMUNG>TAMUNG/45-107967:1000000.0000;</SBLTAMUNG>
+    <SOLUUTRU>^13011660^0</SOLUUTRU>
+    <NGUOINHA />
+    <HINHTHUC>2</HINHTHUC>
+    <PHUONGPHAP>2</PHUONGPHAP>
+    <KETQUA>1</KETQUA>
+    <SOPHIEU>0</SOPHIEU>
+    <LANIN>0</LANIN>
+    <tenuser>toancau</tenuser>
+    <tenbs>Nguyễn Hữu Tuấn</tenbs>
+    <mabs />
+    <makprv>10</makprv>
+    <cholam />
+    <madt>1</madt>
+    <haophi>0</haophi>
+    <gianovat>0</gianovat>
+    <idttrv>0</idttrv>
+    <sotientra>1680.00000000000000</sotientra>
+    <traituyen>0</traituyen>
+    <tbh>0</tbh>
+    <tbn>0</tbn>
+    <tltraituyen>50</tltraituyen>
+    <dbh>504381.81187500010000</dbh>
+    <dbn>0</dbn>
+    <tlchitra>100</tlchitra>
+    <kythuat>-1</kythuat>
+    <loaikythuat />
+    <tong_tu>1000000.0000</tong_tu>
+    <bienlai_tu>TAMUNG/45-107967:1000000.0000;</bienlai_tu>
+    <tongcp>1389278.37</tongcp>
+    <tongmien>165724.64559999990000</tongmien>
+    <tongbhyttra>513313.81187500010000</tongbhyttra>
+    <tongbntra>710239.91</tongbntra>
+    <tlchinhsach>0</tlchinhsach>
+    <ID_KTCAO>0</ID_KTCAO>
+    <ID_VPKHOA>0</ID_VPKHOA>
+    <VUOTTRAN>0</VUOTTRAN>
+    <dinhmucKTcao>26000000</dinhmucKTcao>
+    <giaban>336.00</giaban>
+    <mabv />
+    <tenbv />
+    <tuoivao>0111</tuoivao>
+  </ravien>
+  <ravien>
+    <LOAIBA>1</LOAIBA>
+    <MADOITUONGVAO>1</MADOITUONGVAO>
+    <MATT>13011660</MATT>
+    <MABN>13011660</MABN>
+    <MAQL>130125095511330459</MAQL>
+    <IDKHOA>0</IDKHOA>
+    <HOTEN>ĐẶNG MINH THƯ</HOTEN>
+    <NAMSINH>2012</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <DIACHI> , P. Châu Phú A, TX. Châu Đốc, An Giang</DIACHI>
+    <MADOITUONG>1</MADOITUONG>
+    <DOITUONG>BHYT</DOITUONG>
+    <SOTHE>TE189020030291889013</SOTHE>
+    <MAPHU>100.00</MAPHU>
+    <DENNGAY>04/05/2012^10/03/2018</DENNGAY>
+    <NOIGIOITHIEU>^KKB</NOIGIOITHIEU>
+    <NOICAP>BVĐK khu vực tỉnh^89013</NOICAP>
+    <GIUONG />
+    <MAKP>14</MAKP>
+    <TENKP>Khoa Phẫu Thuật - GMHS</TENKP>
+    <NGAYVAO>25/01/2013 09:53</NGAYVAO>
+    <NGAYRA>28/01/2013 15:33</NGAYRA>
+    <CHANDOAN>Lồng ruột; </CHANDOAN>
+    <MAICD>K56.1; </MAICD>
+    <STTNHOM>13</STTNHOM>
+    <NHOM>Vật tư y tế tiêu hao</NHOM>
+    <STTLOAI>5</STTLOAI>
+    <LOAI>Vật tư y tế</LOAI>
+    <MA>631631</MA>
+    <TEN>Sonde hút đàm có nắp khóa số 8. [] </TEN>
+    <DVT>Cái</DVT>
+    <SOLUONG>0.0000</SOLUONG>
+    <DONGIA>2520.00</DONGIA>
+    <SOTIEN>0.00</SOTIEN>
+    <TAMUNG>1000000.0000</TAMUNG>
+    <TCSOTIEN>504381.81187500010000</TCSOTIEN>
+    <DICHSO>Năm trăm  linh bốn nghìn ba trăm tám mươi mốt</DICHSO>
+    <MIEN>0</MIEN>
+    <BHYTTRA>504381.81187500010000</BHYTTRA>
+    <BNTRA>0</BNTRA>
+    <DICHSOTRA>Không</DICHSOTRA>
+    <SBLTAMUNG>TAMUNG/45-107967:1000000.0000;</SBLTAMUNG>
+    <SOLUUTRU>^13011660^0</SOLUUTRU>
+    <NGUOINHA />
+    <HINHTHUC>2</HINHTHUC>
+    <PHUONGPHAP>2</PHUONGPHAP>
+    <KETQUA>1</KETQUA>
+    <SOPHIEU>0</SOPHIEU>
+    <LANIN>0</LANIN>
+    <tenuser>toancau</tenuser>
+    <tenbs>Nguyễn Hữu Tuấn</tenbs>
+    <mabs />
+    <makprv>10</makprv>
+    <cholam />
+    <madt>1</madt>
+    <haophi>0</haophi>
+    <gianovat>0</gianovat>
+    <idttrv>0</idttrv>
+    <sotientra>0.00000000000000</sotientra>
+    <traituyen>0</traituyen>
+    <tbh>0</tbh>
+    <tbn>0</tbn>
+    <tltraituyen>50</tltraituyen>
+    <dbh>504381.81187500010000</dbh>
+    <dbn>0</dbn>
+    <tlchitra>100</tlchitra>
+    <kythuat>-1</kythuat>
+    <loaikythuat />
+    <tong_tu>1000000.0000</tong_tu>
+    <bienlai_tu>TAMUNG/45-107967:1000000.0000;</bienlai_tu>
+    <tongcp>1389278.37</tongcp>
+    <tongmien>165724.64559999990000</tongmien>
+    <tongbhyttra>513313.81187500010000</tongbhyttra>
+    <tongbntra>710239.91</tongbntra>
+    <tlchinhsach>0</tlchinhsach>
+    <ID_KTCAO>0</ID_KTCAO>
+    <ID_VPKHOA>0</ID_VPKHOA>
+    <VUOTTRAN>0</VUOTTRAN>
+    <dinhmucKTcao>26000000</dinhmucKTcao>
+    <giaban>2520.00</giaban>
+    <mabv />
+    <tenbv />
+    <tuoivao>0111</tuoivao>
+  </ravien>
+  <ravien>
+    <LOAIBA>1</LOAIBA>
+    <MADOITUONGVAO>1</MADOITUONGVAO>
+    <MATT>13011660</MATT>
+    <MABN>13011660</MABN>
+    <MAQL>130125095511330459</MAQL>
+    <IDKHOA>0</IDKHOA>
+    <HOTEN>ĐẶNG MINH THƯ</HOTEN>
+    <NAMSINH>2012</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <DIACHI> , P. Châu Phú A, TX. Châu Đốc, An Giang</DIACHI>
+    <MADOITUONG>1</MADOITUONG>
+    <DOITUONG>BHYT</DOITUONG>
+    <SOTHE>TE189020030291889013</SOTHE>
+    <MAPHU>100.00</MAPHU>
+    <DENNGAY>04/05/2012^10/03/2018</DENNGAY>
+    <NOIGIOITHIEU>^KKB</NOIGIOITHIEU>
+    <NOICAP>BVĐK khu vực tỉnh^89013</NOICAP>
+    <GIUONG />
+    <MAKP>33</MAKP>
+    <TENKP>Khoa Hồi Sinh</TENKP>
+    <NGAYVAO>25/01/2013 09:53</NGAYVAO>
+    <NGAYRA>28/01/2013 15:33</NGAYRA>
+    <CHANDOAN>Lồng ruột; </CHANDOAN>
+    <MAICD>K56.1; </MAICD>
+    <STTNHOM>13</STTNHOM>
+    <NHOM>Vật tư y tế tiêu hao</NHOM>
+    <STTLOAI>5</STTLOAI>
+    <LOAI>Vật tư y tế</LOAI>
+    <MA>631577</MA>
+    <TEN>Bơm tiêm nhựa 10ml. [] </TEN>
+    <DVT>Cái</DVT>
+    <SOLUONG>2.0000</SOLUONG>
+    <DONGIA>1050.00</DONGIA>
+    <SOTIEN>2100.00</SOTIEN>
+    <TAMUNG>1000000.0000</TAMUNG>
+    <TCSOTIEN>506481.81187500010000</TCSOTIEN>
+    <DICHSO>Năm trăm  linh sáu nghìn bốn trăm tám mươi mốt</DICHSO>
+    <MIEN>0</MIEN>
+    <BHYTTRA>506481.81187500010000</BHYTTRA>
+    <BNTRA>0</BNTRA>
+    <DICHSOTRA>Không</DICHSOTRA>
+    <SBLTAMUNG>TAMUNG/45-107967:1000000.0000;</SBLTAMUNG>
+    <SOLUUTRU>^13011660^0</SOLUUTRU>
+    <NGUOINHA />
+    <HINHTHUC>2</HINHTHUC>
+    <PHUONGPHAP>2</PHUONGPHAP>
+    <KETQUA>1</KETQUA>
+    <SOPHIEU>0</SOPHIEU>
+    <LANIN>0</LANIN>
+    <tenuser>toancau</tenuser>
+    <tenbs>Nguyễn Hữu Tuấn</tenbs>
+    <mabs />
+    <makprv>10</makprv>
+    <cholam />
+    <madt>1</madt>
+    <haophi>0</haophi>
+    <gianovat>0</gianovat>
+    <idttrv>0</idttrv>
+    <sotientra>2100.00000000000000</sotientra>
+    <traituyen>0</traituyen>
+    <tbh>0</tbh>
+    <tbn>0</tbn>
+    <tltraituyen>50</tltraituyen>
+    <dbh>506481.81187500010000</dbh>
+    <dbn>0</dbn>
+    <tlchitra>100</tlchitra>
+    <kythuat>-1</kythuat>
+    <loaikythuat />
+    <tong_tu>1000000.0000</tong_tu>
+    <bienlai_tu>TAMUNG/45-107967:1000000.0000;</bienlai_tu>
+    <tongcp>1389278.37</tongcp>
+    <tongmien>165724.64559999990000</tongmien>
+    <tongbhyttra>513313.81187500010000</tongbhyttra>
+    <tongbntra>710239.91</tongbntra>
+    <tlchinhsach>0</tlchinhsach>
+    <ID_KTCAO>0</ID_KTCAO>
+    <ID_VPKHOA>0</ID_VPKHOA>
+    <VUOTTRAN>0</VUOTTRAN>
+    <dinhmucKTcao>26000000</dinhmucKTcao>
+    <giaban>1050.00</giaban>
+    <mabv />
+    <tenbv />
+    <tuoivao>0111</tuoivao>
+  </ravien>
+  <ravien>
+    <LOAIBA>1</LOAIBA>
+    <MADOITUONGVAO>1</MADOITUONGVAO>
+    <MATT>13011660</MATT>
+    <MABN>13011660</MABN>
+    <MAQL>130125095511330459</MAQL>
+    <IDKHOA>0</IDKHOA>
+    <HOTEN>ĐẶNG MINH THƯ</HOTEN>
+    <NAMSINH>2012</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <DIACHI> , P. Châu Phú A, TX. Châu Đốc, An Giang</DIACHI>
+    <MADOITUONG>1</MADOITUONG>
+    <DOITUONG>BHYT</DOITUONG>
+    <SOTHE>TE189020030291889013</SOTHE>
+    <MAPHU>100.00</MAPHU>
+    <DENNGAY>04/05/2012^10/03/2018</DENNGAY>
+    <NOIGIOITHIEU>^KKB</NOIGIOITHIEU>
+    <NOICAP>BVĐK khu vực tỉnh^89013</NOICAP>
+    <GIUONG />
+    <MAKP>33</MAKP>
+    <TENKP>Khoa Hồi Sinh</TENKP>
+    <NGAYVAO>25/01/2013 09:53</NGAYVAO>
+    <NGAYRA>28/01/2013 15:33</NGAYRA>
+    <CHANDOAN>Lồng ruột; </CHANDOAN>
+    <MAICD>K56.1; </MAICD>
+    <STTNHOM>13</STTNHOM>
+    <NHOM>Vật tư y tế tiêu hao</NHOM>
+    <STTLOAI>5</STTLOAI>
+    <LOAI>Vật tư y tế</LOAI>
+    <MA>631588</MA>
+    <TEN>Dây truyền dịch ( có lưới lọc ). [] </TEN>
+    <DVT>Sợi</DVT>
+    <SOLUONG>1.0000</SOLUONG>
+    <DONGIA>5250.00</DONGIA>
+    <SOTIEN>5250.00</SOTIEN>
+    <TAMUNG>1000000.0000</TAMUNG>
+    <TCSOTIEN>511731.81187500010000</TCSOTIEN>
+    <DICHSO>Năm trăm  mười một  nghìn bảy trăm ba mươi mốt</DICHSO>
+    <MIEN>0</MIEN>
+    <BHYTTRA>511731.81187500010000</BHYTTRA>
+    <BNTRA>0</BNTRA>
+    <DICHSOTRA>Không</DICHSOTRA>
+    <SBLTAMUNG>TAMUNG/45-107967:1000000.0000;</SBLTAMUNG>
+    <SOLUUTRU>^13011660^0</SOLUUTRU>
+    <NGUOINHA />
+    <HINHTHUC>2</HINHTHUC>
+    <PHUONGPHAP>2</PHUONGPHAP>
+    <KETQUA>1</KETQUA>
+    <SOPHIEU>0</SOPHIEU>
+    <LANIN>0</LANIN>
+    <tenuser>toancau</tenuser>
+    <tenbs>Nguyễn Hữu Tuấn</tenbs>
+    <mabs />
+    <makprv>10</makprv>
+    <cholam />
+    <madt>1</madt>
+    <haophi>0</haophi>
+    <gianovat>0</gianovat>
+    <idttrv>0</idttrv>
+    <sotientra>5250.00000000000000</sotientra>
+    <traituyen>0</traituyen>
+    <tbh>0</tbh>
+    <tbn>0</tbn>
+    <tltraituyen>50</tltraituyen>
+    <dbh>511731.81187500010000</dbh>
+    <dbn>0</dbn>
+    <tlchitra>100</tlchitra>
+    <kythuat>-1</kythuat>
+    <loaikythuat />
+    <tong_tu>1000000.0000</tong_tu>
+    <bienlai_tu>TAMUNG/45-107967:1000000.0000;</bienlai_tu>
+    <tongcp>1389278.37</tongcp>
+    <tongmien>165724.64559999990000</tongmien>
+    <tongbhyttra>513313.81187500010000</tongbhyttra>
+    <tongbntra>710239.91</tongbntra>
+    <tlchinhsach>0</tlchinhsach>
+    <ID_KTCAO>0</ID_KTCAO>
+    <ID_VPKHOA>0</ID_VPKHOA>
+    <VUOTTRAN>0</VUOTTRAN>
+    <dinhmucKTcao>26000000</dinhmucKTcao>
+    <giaban>5250.00</giaban>
+    <mabv />
+    <tenbv />
+    <tuoivao>0111</tuoivao>
+  </ravien>
+  <ravien>
+    <LOAIBA>1</LOAIBA>
+    <MADOITUONGVAO>1</MADOITUONGVAO>
+    <MATT>13011660</MATT>
+    <MABN>13011660</MABN>
+    <MAQL>130125095511330459</MAQL>
+    <IDKHOA>0</IDKHOA>
+    <HOTEN>ĐẶNG MINH THƯ</HOTEN>
+    <NAMSINH>2012</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <DIACHI> , P. Châu Phú A, TX. Châu Đốc, An Giang</DIACHI>
+    <MADOITUONG>1</MADOITUONG>
+    <DOITUONG>BHYT</DOITUONG>
+    <SOTHE>TE189020030291889013</SOTHE>
+    <MAPHU>100.00</MAPHU>
+    <DENNGAY>04/05/2012^10/03/2018</DENNGAY>
+    <NOIGIOITHIEU>^KKB</NOIGIOITHIEU>
+    <NOICAP>BVĐK khu vực tỉnh^89013</NOICAP>
+    <GIUONG />
+    <MAKP>33</MAKP>
+    <TENKP>Khoa Hồi Sinh</TENKP>
+    <NGAYVAO>25/01/2013 09:53</NGAYVAO>
+    <NGAYRA>28/01/2013 15:33</NGAYRA>
+    <CHANDOAN>Lồng ruột; </CHANDOAN>
+    <MAICD>K56.1; </MAICD>
+    <STTNHOM>13</STTNHOM>
+    <NHOM>Vật tư y tế tiêu hao</NHOM>
+    <STTLOAI>5</STTLOAI>
+    <LOAI>Vật tư y tế</LOAI>
+    <MA>627121</MA>
+    <TEN>Kim cánh bướm số 23G*3/4 [] </TEN>
+    <DVT>Cây</DVT>
+    <SOLUONG>1.0000</SOLUONG>
+    <DONGIA>910.00</DONGIA>
+    <SOTIEN>910.00</SOTIEN>
+    <TAMUNG>1000000.0000</TAMUNG>
+    <TCSOTIEN>512641.81187500010000</TCSOTIEN>
+    <DICHSO>Năm trăm  mười hai nghìn sáu trăm bốn mươi mốt</DICHSO>
+    <MIEN>0</MIEN>
+    <BHYTTRA>512641.81187500010000</BHYTTRA>
+    <BNTRA>0</BNTRA>
+    <DICHSOTRA>Không</DICHSOTRA>
+    <SBLTAMUNG>TAMUNG/45-107967:1000000.0000;</SBLTAMUNG>
+    <SOLUUTRU>^13011660^0</SOLUUTRU>
+    <NGUOINHA />
+    <HINHTHUC>2</HINHTHUC>
+    <PHUONGPHAP>2</PHUONGPHAP>
+    <KETQUA>1</KETQUA>
+    <SOPHIEU>0</SOPHIEU>
+    <LANIN>0</LANIN>
+    <tenuser>toancau</tenuser>
+    <tenbs>Nguyễn Hữu Tuấn</tenbs>
+    <mabs />
+    <makprv>10</makprv>
+    <cholam />
+    <madt>1</madt>
+    <haophi>0</haophi>
+    <gianovat>0</gianovat>
+    <idttrv>0</idttrv>
+    <sotientra>910.00000000000000</sotientra>
+    <traituyen>0</traituyen>
+    <tbh>0</tbh>
+    <tbn>0</tbn>
+    <tltraituyen>50</tltraituyen>
+    <dbh>512641.81187500010000</dbh>
+    <dbn>0</dbn>
+    <tlchitra>100</tlchitra>
+    <kythuat>-1</kythuat>
+    <loaikythuat />
+    <tong_tu>1000000.0000</tong_tu>
+    <bienlai_tu>TAMUNG/45-107967:1000000.0000;</bienlai_tu>
+    <tongcp>1389278.37</tongcp>
+    <tongmien>165724.64559999990000</tongmien>
+    <tongbhyttra>513313.81187500010000</tongbhyttra>
+    <tongbntra>710239.91</tongbntra>
+    <tlchinhsach>0</tlchinhsach>
+    <ID_KTCAO>0</ID_KTCAO>
+    <ID_VPKHOA>0</ID_VPKHOA>
+    <VUOTTRAN>0</VUOTTRAN>
+    <dinhmucKTcao>26000000</dinhmucKTcao>
+    <giaban>910.00</giaban>
+    <mabv />
+    <tenbv />
+    <tuoivao>0111</tuoivao>
+  </ravien>
+  <ravien>
+    <LOAIBA>1</LOAIBA>
+    <MADOITUONGVAO>1</MADOITUONGVAO>
+    <MATT>13011660</MATT>
+    <MABN>13011660</MABN>
+    <MAQL>130125095511330459</MAQL>
+    <IDKHOA>0</IDKHOA>
+    <HOTEN>ĐẶNG MINH THƯ</HOTEN>
+    <NAMSINH>2012</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <DIACHI> , P. Châu Phú A, TX. Châu Đốc, An Giang</DIACHI>
+    <MADOITUONG>1</MADOITUONG>
+    <DOITUONG>BHYT</DOITUONG>
+    <SOTHE>TE189020030291889013</SOTHE>
+    <MAPHU>100.00</MAPHU>
+    <DENNGAY>04/05/2012^10/03/2018</DENNGAY>
+    <NOIGIOITHIEU>^KKB</NOIGIOITHIEU>
+    <NOICAP>BVĐK khu vực tỉnh^89013</NOICAP>
+    <GIUONG />
+    <MAKP>33</MAKP>
+    <TENKP>Khoa Hồi Sinh</TENKP>
+    <NGAYVAO>25/01/2013 09:53</NGAYVAO>
+    <NGAYRA>28/01/2013 15:33</NGAYRA>
+    <CHANDOAN>Lồng ruột; </CHANDOAN>
+    <MAICD>K56.1; </MAICD>
+    <STTNHOM>13</STTNHOM>
+    <NHOM>Vật tư y tế tiêu hao</NHOM>
+    <STTLOAI>5</STTLOAI>
+    <LOAI>Vật tư y tế</LOAI>
+    <MA>631581</MA>
+    <TEN>Kim rời số 18.  [] </TEN>
+    <DVT>Cái</DVT>
+    <SOLUONG>2.0000</SOLUONG>
+    <DONGIA>336.00</DONGIA>
+    <SOTIEN>672.00</SOTIEN>
+    <TAMUNG>1000000.0000</TAMUNG>
+    <TCSOTIEN>513313.81187500010000</TCSOTIEN>
+    <DICHSO>Năm trăm  mười ba nghìn ba trăm  mười ba</DICHSO>
+    <MIEN>0</MIEN>
+    <BHYTTRA>513313.81187500010000</BHYTTRA>
+    <BNTRA>0</BNTRA>
+    <DICHSOTRA>Không</DICHSOTRA>
+    <SBLTAMUNG>TAMUNG/45-107967:1000000.0000;</SBLTAMUNG>
+    <SOLUUTRU>^13011660^0</SOLUUTRU>
+    <NGUOINHA />
+    <HINHTHUC>2</HINHTHUC>
+    <PHUONGPHAP>2</PHUONGPHAP>
+    <KETQUA>1</KETQUA>
+    <SOPHIEU>0</SOPHIEU>
+    <LANIN>0</LANIN>
+    <tenuser>toancau</tenuser>
+    <tenbs>Nguyễn Hữu Tuấn</tenbs>
+    <mabs />
+    <makprv>10</makprv>
+    <cholam />
+    <madt>1</madt>
+    <haophi>0</haophi>
+    <gianovat>0</gianovat>
+    <idttrv>0</idttrv>
+    <sotientra>672.00000000000000</sotientra>
+    <traituyen>0</traituyen>
+    <tbh>0</tbh>
+    <tbn>0</tbn>
+    <tltraituyen>50</tltraituyen>
+    <dbh>513313.81187500010000</dbh>
+    <dbn>0</dbn>
+    <tlchitra>100</tlchitra>
+    <kythuat>-1</kythuat>
+    <loaikythuat />
+    <tong_tu>1000000.0000</tong_tu>
+    <bienlai_tu>TAMUNG/45-107967:1000000.0000;</bienlai_tu>
+    <tongcp>1389278.37</tongcp>
+    <tongmien>165724.64559999990000</tongmien>
+    <tongbhyttra>513313.81187500010000</tongbhyttra>
+    <tongbntra>710239.91</tongbntra>
+    <tlchinhsach>0</tlchinhsach>
+    <ID_KTCAO>0</ID_KTCAO>
+    <ID_VPKHOA>0</ID_VPKHOA>
+    <VUOTTRAN>0</VUOTTRAN>
+    <dinhmucKTcao>26000000</dinhmucKTcao>
+    <giaban>336.00</giaban>
+    <mabv />
+    <tenbv />
+    <tuoivao>0111</tuoivao>
+  </ravien>
+  <ravien>
+    <LOAIBA>1</LOAIBA>
+    <MADOITUONGVAO>1</MADOITUONGVAO>
+    <MATT>13011660</MATT>
+    <MABN>13011660</MABN>
+    <MAQL>130125095511330459</MAQL>
+    <IDKHOA>0</IDKHOA>
+    <HOTEN>ĐẶNG MINH THƯ</HOTEN>
+    <NAMSINH>2012</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <DIACHI> , P. Châu Phú A, TX. Châu Đốc, An Giang</DIACHI>
+    <MADOITUONG>2</MADOITUONG>
+    <DOITUONG>Thu phí</DOITUONG>
+    <SOTHE>TE189020030291889013</SOTHE>
+    <MAPHU>100.00</MAPHU>
+    <DENNGAY>04/05/2012^10/03/2018</DENNGAY>
+    <NOIGIOITHIEU>^KKB</NOIGIOITHIEU>
+    <NOICAP>BVĐK khu vực tỉnh^89013</NOICAP>
+    <GIUONG />
+    <MAKP>33</MAKP>
+    <TENKP>Khoa Hồi Sinh</TENKP>
+    <NGAYVAO>25/01/2013 09:53</NGAYVAO>
+    <NGAYRA>28/01/2013 15:33</NGAYRA>
+    <CHANDOAN>Lồng ruột; </CHANDOAN>
+    <MAICD>K56.1; </MAICD>
+    <STTNHOM>1</STTNHOM>
+    <NHOM>Giường </NHOM>
+    <STTLOAI>1</STTLOAI>
+    <LOAI>Giường</LOAI>
+    <MA>-631514</MA>
+    <TEN>Giường Hồi Sinh ( Loại III )</TEN>
+    <DVT>Ngày</DVT>
+    <SOLUONG>1.000</SOLUONG>
+    <DONGIA>60000</DONGIA>
+    <SOTIEN>60000.00</SOTIEN>
+    <TAMUNG>0</TAMUNG>
+    <TCSOTIEN>60000.000</TCSOTIEN>
+    <DICHSO>Sáu mươi  nghìn</DICHSO>
+    <MIEN>0</MIEN>
+    <BHYTTRA>0</BHYTTRA>
+    <BNTRA>60000.000</BNTRA>
+    <DICHSOTRA>Sáu mươi  nghìn</DICHSOTRA>
+    <SBLTAMUNG>TAMUNG/45-107967:1000000.0000;</SBLTAMUNG>
+    <SOLUUTRU>^13011660^0</SOLUUTRU>
+    <NGUOINHA />
+    <HINHTHUC>2</HINHTHUC>
+    <PHUONGPHAP>2</PHUONGPHAP>
+    <KETQUA>1</KETQUA>
+    <SOPHIEU>0</SOPHIEU>
+    <LANIN>0</LANIN>
+    <tenuser>toancau</tenuser>
+    <tenbs>Nguyễn Hữu Tuấn</tenbs>
+    <mabs>0079</mabs>
+    <makprv>10</makprv>
+    <cholam />
+    <madt>2</madt>
+    <haophi>0</haophi>
+    <gianovat>60000</gianovat>
+    <idttrv>0</idttrv>
+    <sotientra>60000.000</sotientra>
+    <traituyen>0</traituyen>
+    <tbh>0</tbh>
+    <tbn>0</tbn>
+    <tltraituyen>50</tltraituyen>
+    <dbh>0</dbh>
+    <dbn>0</dbn>
+    <tlchitra>0</tlchitra>
+    <kythuat>-1</kythuat>
+    <loaikythuat />
+    <tong_tu>1000000.0000</tong_tu>
+    <bienlai_tu>TAMUNG/45-107967:1000000.0000;</bienlai_tu>
+    <tongcp>1389278.37</tongcp>
+    <tongmien>165724.64559999990000</tongmien>
+    <tongbhyttra>513313.81187500010000</tongbhyttra>
+    <tongbntra>710239.91</tongbntra>
+    <tlchinhsach>0</tlchinhsach>
+    <ID_KTCAO>0</ID_KTCAO>
+    <ID_VPKHOA>0</ID_VPKHOA>
+    <VUOTTRAN>0</VUOTTRAN>
+    <dinhmucKTcao>26000000</dinhmucKTcao>
+    <giaban>60000</giaban>
+    <mabv />
+    <tenbv />
+    <tuoivao>0111</tuoivao>
+  </ravien>
+  <ravien>
+    <LOAIBA>1</LOAIBA>
+    <MADOITUONGVAO>1</MADOITUONGVAO>
+    <MATT>13011660</MATT>
+    <MABN>13011660</MABN>
+    <MAQL>130125095511330459</MAQL>
+    <IDKHOA>0</IDKHOA>
+    <HOTEN>ĐẶNG MINH THƯ</HOTEN>
+    <NAMSINH>2012</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <DIACHI> , P. Châu Phú A, TX. Châu Đốc, An Giang</DIACHI>
+    <MADOITUONG>2</MADOITUONG>
+    <DOITUONG>Thu phí</DOITUONG>
+    <SOTHE>TE189020030291889013</SOTHE>
+    <MAPHU>0</MAPHU>
+    <DENNGAY>04/05/2012^10/03/2018</DENNGAY>
+    <NOIGIOITHIEU>^KKB</NOIGIOITHIEU>
+    <NOICAP>BVĐK khu vực tỉnh^89013</NOICAP>
+    <GIUONG />
+    <MAKP>10</MAKP>
+    <TENKP>Khoa Ngoại Tổng Hợp</TENKP>
+    <NGAYVAO>25/01/2013 09:53</NGAYVAO>
+    <NGAYRA>28/01/2013 15:33</NGAYRA>
+    <CHANDOAN>Lồng ruột; </CHANDOAN>
+    <MAICD>K56.1; </MAICD>
+    <STTNHOM>3</STTNHOM>
+    <NHOM>Thuốc</NHOM>
+    <STTLOAI>3</STTLOAI>
+    <LOAI>Thuốc Thường viên</LOAI>
+    <MA>629117</MA>
+    <TEN>Agimol 150. [Paracetamol] 1g</TEN>
+    <DVT>Gói</DVT>
+    <SOLUONG>-2.0000</SOLUONG>
+    <DONGIA>1200.04</DONGIA>
+    <SOTIEN>-2400.09</SOTIEN>
+    <TAMUNG>0</TAMUNG>
+    <TCSOTIEN>57599.91000000000000</TCSOTIEN>
+    <DICHSO>Năm mươi bảy nghìn năm trăm chín mươi chín</DICHSO>
+    <MIEN>0</MIEN>
+    <BHYTTRA>0</BHYTTRA>
+    <BNTRA>57599.91000000000000</BNTRA>
+    <DICHSOTRA />
+    <SBLTAMUNG>TAMUNG/45-107967:1000000.0000;</SBLTAMUNG>
+    <SOLUUTRU>^13011660^0</SOLUUTRU>
+    <NGUOINHA />
+    <HINHTHUC>2</HINHTHUC>
+    <PHUONGPHAP>2</PHUONGPHAP>
+    <KETQUA>1</KETQUA>
+    <SOPHIEU>0</SOPHIEU>
+    <LANIN>0</LANIN>
+    <tenuser>toancau</tenuser>
+    <tenbs>Nguyễn Hữu Tuấn</tenbs>
+    <mabs>0</mabs>
+    <makprv>10</makprv>
+    <cholam />
+    <madt>2</madt>
+    <haophi>0</haophi>
+    <gianovat>0</gianovat>
+    <idttrv>0</idttrv>
+    <sotientra>-2400.09000000000000</sotientra>
+    <traituyen>0</traituyen>
+    <tbh>0</tbh>
+    <tbn>0</tbn>
+    <tltraituyen>50</tltraituyen>
+    <dbh>0</dbh>
+    <dbn>0</dbn>
+    <tlchitra>0</tlchitra>
+    <kythuat>-1</kythuat>
+    <loaikythuat />
+    <tong_tu>1000000.0000</tong_tu>
+    <bienlai_tu>TAMUNG/45-107967:1000000.0000;</bienlai_tu>
+    <tongcp>1389278.37</tongcp>
+    <tongmien>165724.64559999990000</tongmien>
+    <tongbhyttra>513313.81187500010000</tongbhyttra>
+    <tongbntra>710239.91</tongbntra>
+    <tlchinhsach>0</tlchinhsach>
+    <ID_KTCAO>0</ID_KTCAO>
+    <ID_VPKHOA>0</ID_VPKHOA>
+    <VUOTTRAN>0</VUOTTRAN>
+    <dinhmucKTcao>26000000</dinhmucKTcao>
+    <giaban>2400.04</giaban>
+    <mabv />
+    <tenbv />
+    <tuoivao>0111</tuoivao>
+  </ravien>
+  <ravien>
+    <LOAIBA>1</LOAIBA>
+    <MADOITUONGVAO>1</MADOITUONGVAO>
+    <MATT>13011660</MATT>
+    <MABN>13011660</MABN>
+    <MAQL>130125095511330459</MAQL>
+    <IDKHOA>0</IDKHOA>
+    <HOTEN>ĐẶNG MINH THƯ</HOTEN>
+    <NAMSINH>2012</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <DIACHI> , P. Châu Phú A, TX. Châu Đốc, An Giang</DIACHI>
+    <MADOITUONG>2</MADOITUONG>
+    <DOITUONG>Thu phí</DOITUONG>
+    <SOTHE>TE189020030291889013</SOTHE>
+    <MAPHU>100.00</MAPHU>
+    <DENNGAY>04/05/2012^10/03/2018</DENNGAY>
+    <NOIGIOITHIEU>^KKB</NOIGIOITHIEU>
+    <NOICAP>BVĐK khu vực tỉnh^89013</NOICAP>
+    <GIUONG />
+    <MAKP>10</MAKP>
+    <TENKP>Khoa Ngoại Tổng Hợp</TENKP>
+    <NGAYVAO>25/01/2013 09:53</NGAYVAO>
+    <NGAYRA>28/01/2013 15:33</NGAYRA>
+    <CHANDOAN>Lồng ruột; </CHANDOAN>
+    <MAICD>K56.1; </MAICD>
+    <STTNHOM>5</STTNHOM>
+    <NHOM>Xét nghiệm - TDCN</NHOM>
+    <STTLOAI>5</STTLOAI>
+    <LOAI>XN Huyết học</LOAI>
+    <MA>626462</MA>
+    <TEN>AST (GOT)</TEN>
+    <DVT>Lần</DVT>
+    <SOLUONG>1.000</SOLUONG>
+    <DONGIA>23000</DONGIA>
+    <SOTIEN>23000.00</SOTIEN>
+    <TAMUNG>0</TAMUNG>
+    <TCSOTIEN>80599.91000000000000</TCSOTIEN>
+    <DICHSO>Tám mươi  nghìn năm trăm chín mươi chín</DICHSO>
+    <MIEN>0</MIEN>
+    <BHYTTRA>0</BHYTTRA>
+    <BNTRA>80599.91000000000000</BNTRA>
+    <DICHSOTRA />
+    <SBLTAMUNG>TAMUNG/45-107967:1000000.0000;</SBLTAMUNG>
+    <SOLUUTRU>^13011660^0</SOLUUTRU>
+    <NGUOINHA />
+    <HINHTHUC>2</HINHTHUC>
+    <PHUONGPHAP>2</PHUONGPHAP>
+    <KETQUA>1</KETQUA>
+    <SOPHIEU>0</SOPHIEU>
+    <LANIN>0</LANIN>
+    <tenuser>toancau</tenuser>
+    <tenbs>Nguyễn Hữu Tuấn</tenbs>
+    <mabs>0048</mabs>
+    <makprv>10</makprv>
+    <cholam />
+    <madt>2</madt>
+    <haophi>0</haophi>
+    <gianovat>23000</gianovat>
+    <idttrv>0</idttrv>
+    <sotientra>23000.000</sotientra>
+    <traituyen>0</traituyen>
+    <tbh>0</tbh>
+    <tbn>0</tbn>
+    <tltraituyen>50</tltraituyen>
+    <dbh>0</dbh>
+    <dbn>0</dbn>
+    <tlchitra>0</tlchitra>
+    <kythuat>-1</kythuat>
+    <loaikythuat />
+    <tong_tu>1000000.0000</tong_tu>
+    <bienlai_tu>TAMUNG/45-107967:1000000.0000;</bienlai_tu>
+    <tongcp>1389278.37</tongcp>
+    <tongmien>165724.64559999990000</tongmien>
+    <tongbhyttra>513313.81187500010000</tongbhyttra>
+    <tongbntra>710239.91</tongbntra>
+    <tlchinhsach>0</tlchinhsach>
+    <ID_KTCAO>0</ID_KTCAO>
+    <ID_VPKHOA>0</ID_VPKHOA>
+    <VUOTTRAN>0</VUOTTRAN>
+    <dinhmucKTcao>26000000</dinhmucKTcao>
+    <giaban>23000</giaban>
+    <mabv />
+    <tenbv />
+    <tuoivao>0111</tuoivao>
+  </ravien>
+  <ravien>
+    <LOAIBA>1</LOAIBA>
+    <MADOITUONGVAO>1</MADOITUONGVAO>
+    <MATT>13011660</MATT>
+    <MABN>13011660</MABN>
+    <MAQL>130125095511330459</MAQL>
+    <IDKHOA>0</IDKHOA>
+    <HOTEN>ĐẶNG MINH THƯ</HOTEN>
+    <NAMSINH>2012</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <DIACHI> , P. Châu Phú A, TX. Châu Đốc, An Giang</DIACHI>
+    <MADOITUONG>2</MADOITUONG>
+    <DOITUONG>Thu phí</DOITUONG>
+    <SOTHE>TE189020030291889013</SOTHE>
+    <MAPHU>100.00</MAPHU>
+    <DENNGAY>04/05/2012^10/03/2018</DENNGAY>
+    <NOIGIOITHIEU>^KKB</NOIGIOITHIEU>
+    <NOICAP>BVĐK khu vực tỉnh^89013</NOICAP>
+    <GIUONG />
+    <MAKP>10</MAKP>
+    <TENKP>Khoa Ngoại Tổng Hợp</TENKP>
+    <NGAYVAO>25/01/2013 09:53</NGAYVAO>
+    <NGAYRA>28/01/2013 15:33</NGAYRA>
+    <CHANDOAN>Lồng ruột; </CHANDOAN>
+    <MAICD>K56.1; </MAICD>
+    <STTNHOM>5</STTNHOM>
+    <NHOM>Xét nghiệm - TDCN</NHOM>
+    <STTLOAI>5</STTLOAI>
+    <LOAI>XN Huyết học</LOAI>
+    <MA>-631034</MA>
+    <TEN>Công Thức Máu (Tổng phân tích TB máu ngoại vi bằng hệ thống tự động hoàn toàn)</TEN>
+    <DVT>Lần</DVT>
+    <SOLUONG>1.000</SOLUONG>
+    <DONGIA>83000</DONGIA>
+    <SOTIEN>83000.00</SOTIEN>
+    <TAMUNG>0</TAMUNG>
+    <TCSOTIEN>163599.91000000000000</TCSOTIEN>
+    <DICHSO>Một trăm sáu mươi ba nghìn năm trăm chín mươi chín</DICHSO>
+    <MIEN>0</MIEN>
+    <BHYTTRA>0</BHYTTRA>
+    <BNTRA>163599.91000000000000</BNTRA>
+    <DICHSOTRA />
+    <SBLTAMUNG>TAMUNG/45-107967:1000000.0000;</SBLTAMUNG>
+    <SOLUUTRU>^13011660^0</SOLUUTRU>
+    <NGUOINHA />
+    <HINHTHUC>2</HINHTHUC>
+    <PHUONGPHAP>2</PHUONGPHAP>
+    <KETQUA>1</KETQUA>
+    <SOPHIEU>0</SOPHIEU>
+    <LANIN>0</LANIN>
+    <tenuser>toancau</tenuser>
+    <tenbs>Nguyễn Hữu Tuấn</tenbs>
+    <mabs>0048</mabs>
+    <makprv>10</makprv>
+    <cholam />
+    <madt>2</madt>
+    <haophi>0</haophi>
+    <gianovat>83000</gianovat>
+    <idttrv>0</idttrv>
+    <sotientra>83000.000</sotientra>
+    <traituyen>0</traituyen>
+    <tbh>0</tbh>
+    <tbn>0</tbn>
+    <tltraituyen>50</tltraituyen>
+    <dbh>0</dbh>
+    <dbn>0</dbn>
+    <tlchitra>0</tlchitra>
+    <kythuat>-1</kythuat>
+    <loaikythuat />
+    <tong_tu>1000000.0000</tong_tu>
+    <bienlai_tu>TAMUNG/45-107967:1000000.0000;</bienlai_tu>
+    <tongcp>1389278.37</tongcp>
+    <tongmien>165724.64559999990000</tongmien>
+    <tongbhyttra>513313.81187500010000</tongbhyttra>
+    <tongbntra>710239.91</tongbntra>
+    <tlchinhsach>0</tlchinhsach>
+    <ID_KTCAO>0</ID_KTCAO>
+    <ID_VPKHOA>0</ID_VPKHOA>
+    <VUOTTRAN>0</VUOTTRAN>
+    <dinhmucKTcao>26000000</dinhmucKTcao>
+    <giaban>83000</giaban>
+    <mabv />
+    <tenbv />
+    <tuoivao>0111</tuoivao>
+  </ravien>
+  <ravien>
+    <LOAIBA>1</LOAIBA>
+    <MADOITUONGVAO>1</MADOITUONGVAO>
+    <MATT>13011660</MATT>
+    <MABN>13011660</MABN>
+    <MAQL>130125095511330459</MAQL>
+    <IDKHOA>0</IDKHOA>
+    <HOTEN>ĐẶNG MINH THƯ</HOTEN>
+    <NAMSINH>2012</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <DIACHI> , P. Châu Phú A, TX. Châu Đốc, An Giang</DIACHI>
+    <MADOITUONG>2</MADOITUONG>
+    <DOITUONG>Thu phí</DOITUONG>
+    <SOTHE>TE189020030291889013</SOTHE>
+    <MAPHU>100.00</MAPHU>
+    <DENNGAY>04/05/2012^10/03/2018</DENNGAY>
+    <NOIGIOITHIEU>^KKB</NOIGIOITHIEU>
+    <NOICAP>BVĐK khu vực tỉnh^89013</NOICAP>
+    <GIUONG />
+    <MAKP>10</MAKP>
+    <TENKP>Khoa Ngoại Tổng Hợp</TENKP>
+    <NGAYVAO>25/01/2013 09:53</NGAYVAO>
+    <NGAYRA>28/01/2013 15:33</NGAYRA>
+    <CHANDOAN>Lồng ruột; </CHANDOAN>
+    <MAICD>K56.1; </MAICD>
+    <STTNHOM>5</STTNHOM>
+    <NHOM>Xét nghiệm - TDCN</NHOM>
+    <STTLOAI>5</STTLOAI>
+    <LOAI>XN Huyết học</LOAI>
+    <MA>626370</MA>
+    <TEN>CREATININ</TEN>
+    <DVT>Lần</DVT>
+    <SOLUONG>1.000</SOLUONG>
+    <DONGIA>23000</DONGIA>
+    <SOTIEN>23000.00</SOTIEN>
+    <TAMUNG>0</TAMUNG>
+    <TCSOTIEN>186599.91000000000000</TCSOTIEN>
+    <DICHSO>Một trăm tám mươi sáu nghìn năm trăm chín mươi chín</DICHSO>
+    <MIEN>0</MIEN>
+    <BHYTTRA>0</BHYTTRA>
+    <BNTRA>186599.91000000000000</BNTRA>
+    <DICHSOTRA />
+    <SBLTAMUNG>TAMUNG/45-107967:1000000.0000;</SBLTAMUNG>
+    <SOLUUTRU>^13011660^0</SOLUUTRU>
+    <NGUOINHA />
+    <HINHTHUC>2</HINHTHUC>
+    <PHUONGPHAP>2</PHUONGPHAP>
+    <KETQUA>1</KETQUA>
+    <SOPHIEU>0</SOPHIEU>
+    <LANIN>0</LANIN>
+    <tenuser>toancau</tenuser>
+    <tenbs>Nguyễn Hữu Tuấn</tenbs>
+    <mabs>0048</mabs>
+    <makprv>10</makprv>
+    <cholam />
+    <madt>2</madt>
+    <haophi>0</haophi>
+    <gianovat>23000</gianovat>
+    <idttrv>0</idttrv>
+    <sotientra>23000.000</sotientra>
+    <traituyen>0</traituyen>
+    <tbh>0</tbh>
+    <tbn>0</tbn>
+    <tltraituyen>50</tltraituyen>
+    <dbh>0</dbh>
+    <dbn>0</dbn>
+    <tlchitra>0</tlchitra>
+    <kythuat>-1</kythuat>
+    <loaikythuat />
+    <tong_tu>1000000.0000</tong_tu>
+    <bienlai_tu>TAMUNG/45-107967:1000000.0000;</bienlai_tu>
+    <tongcp>1389278.37</tongcp>
+    <tongmien>165724.64559999990000</tongmien>
+    <tongbhyttra>513313.81187500010000</tongbhyttra>
+    <tongbntra>710239.91</tongbntra>
+    <tlchinhsach>0</tlchinhsach>
+    <ID_KTCAO>0</ID_KTCAO>
+    <ID_VPKHOA>0</ID_VPKHOA>
+    <VUOTTRAN>0</VUOTTRAN>
+    <dinhmucKTcao>26000000</dinhmucKTcao>
+    <giaban>23000</giaban>
+    <mabv />
+    <tenbv />
+    <tuoivao>0111</tuoivao>
+  </ravien>
+  <ravien>
+    <LOAIBA>1</LOAIBA>
+    <MADOITUONGVAO>1</MADOITUONGVAO>
+    <MATT>13011660</MATT>
+    <MABN>13011660</MABN>
+    <MAQL>130125095511330459</MAQL>
+    <IDKHOA>0</IDKHOA>
+    <HOTEN>ĐẶNG MINH THƯ</HOTEN>
+    <NAMSINH>2012</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <DIACHI> , P. Châu Phú A, TX. Châu Đốc, An Giang</DIACHI>
+    <MADOITUONG>2</MADOITUONG>
+    <DOITUONG>Thu phí</DOITUONG>
+    <SOTHE>TE189020030291889013</SOTHE>
+    <MAPHU>100.00</MAPHU>
+    <DENNGAY>04/05/2012^10/03/2018</DENNGAY>
+    <NOIGIOITHIEU>^KKB</NOIGIOITHIEU>
+    <NOICAP>BVĐK khu vực tỉnh^89013</NOICAP>
+    <GIUONG />
+    <MAKP>10</MAKP>
+    <TENKP>Khoa Ngoại Tổng Hợp</TENKP>
+    <NGAYVAO>25/01/2013 09:53</NGAYVAO>
+    <NGAYRA>28/01/2013 15:33</NGAYRA>
+    <CHANDOAN>Lồng ruột; </CHANDOAN>
+    <MAICD>K56.1; </MAICD>
+    <STTNHOM>5</STTNHOM>
+    <NHOM>Xét nghiệm - TDCN</NHOM>
+    <STTLOAI>5</STTLOAI>
+    <LOAI>XN Huyết học</LOAI>
+    <MA>631213</MA>
+    <TEN>Điện giải đồ (Na+, K+, CL-)</TEN>
+    <DVT>Lần</DVT>
+    <SOLUONG>1.000</SOLUONG>
+    <DONGIA>34000</DONGIA>
+    <SOTIEN>34000.00</SOTIEN>
+    <TAMUNG>0</TAMUNG>
+    <TCSOTIEN>220599.91000000000000</TCSOTIEN>
+    <DICHSO>Hai trăm hai mươi  nghìn năm trăm chín mươi chín</DICHSO>
+    <MIEN>0</MIEN>
+    <BHYTTRA>0</BHYTTRA>
+    <BNTRA>220599.91000000000000</BNTRA>
+    <DICHSOTRA />
+    <SBLTAMUNG>TAMUNG/45-107967:1000000.0000;</SBLTAMUNG>
+    <SOLUUTRU>^13011660^0</SOLUUTRU>
+    <NGUOINHA />
+    <HINHTHUC>2</HINHTHUC>
+    <PHUONGPHAP>2</PHUONGPHAP>
+    <KETQUA>1</KETQUA>
+    <SOPHIEU>0</SOPHIEU>
+    <LANIN>0</LANIN>
+    <tenuser>toancau</tenuser>
+    <tenbs>Nguyễn Hữu Tuấn</tenbs>
+    <mabs>0048</mabs>
+    <makprv>10</makprv>
+    <cholam />
+    <madt>2</madt>
+    <haophi>0</haophi>
+    <gianovat>34000</gianovat>
+    <idttrv>0</idttrv>
+    <sotientra>34000.000</sotientra>
+    <traituyen>0</traituyen>
+    <tbh>0</tbh>
+    <tbn>0</tbn>
+    <tltraituyen>50</tltraituyen>
+    <dbh>0</dbh>
+    <dbn>0</dbn>
+    <tlchitra>0</tlchitra>
+    <kythuat>-1</kythuat>
+    <loaikythuat />
+    <tong_tu>1000000.0000</tong_tu>
+    <bienlai_tu>TAMUNG/45-107967:1000000.0000;</bienlai_tu>
+    <tongcp>1389278.37</tongcp>
+    <tongmien>165724.64559999990000</tongmien>
+    <tongbhyttra>513313.81187500010000</tongbhyttra>
+    <tongbntra>710239.91</tongbntra>
+    <tlchinhsach>0</tlchinhsach>
+    <ID_KTCAO>0</ID_KTCAO>
+    <ID_VPKHOA>0</ID_VPKHOA>
+    <VUOTTRAN>0</VUOTTRAN>
+    <dinhmucKTcao>26000000</dinhmucKTcao>
+    <giaban>34000</giaban>
+    <mabv />
+    <tenbv />
+    <tuoivao>0111</tuoivao>
+  </ravien>
+  <ravien>
+    <LOAIBA>1</LOAIBA>
+    <MADOITUONGVAO>1</MADOITUONGVAO>
+    <MATT>13011660</MATT>
+    <MABN>13011660</MABN>
+    <MAQL>130125095511330459</MAQL>
+    <IDKHOA>0</IDKHOA>
+    <HOTEN>ĐẶNG MINH THƯ</HOTEN>
+    <NAMSINH>2012</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <DIACHI> , P. Châu Phú A, TX. Châu Đốc, An Giang</DIACHI>
+    <MADOITUONG>2</MADOITUONG>
+    <DOITUONG>Thu phí</DOITUONG>
+    <SOTHE>TE189020030291889013</SOTHE>
+    <MAPHU>100.00</MAPHU>
+    <DENNGAY>04/05/2012^10/03/2018</DENNGAY>
+    <NOIGIOITHIEU>^KKB</NOIGIOITHIEU>
+    <NOICAP>BVĐK khu vực tỉnh^89013</NOICAP>
+    <GIUONG />
+    <MAKP>10</MAKP>
+    <TENKP>Khoa Ngoại Tổng Hợp</TENKP>
+    <NGAYVAO>25/01/2013 09:53</NGAYVAO>
+    <NGAYRA>28/01/2013 15:33</NGAYRA>
+    <CHANDOAN>Lồng ruột; </CHANDOAN>
+    <MAICD>K56.1; </MAICD>
+    <STTNHOM>5</STTNHOM>
+    <NHOM>Xét nghiệm - TDCN</NHOM>
+    <STTLOAI>6</STTLOAI>
+    <LOAI>XN Sinh hóa</LOAI>
+    <MA>626438</MA>
+    <TEN>GAMA-GT</TEN>
+    <DVT>Lần</DVT>
+    <SOLUONG>1.000</SOLUONG>
+    <DONGIA>18000</DONGIA>
+    <SOTIEN>18000.00</SOTIEN>
+    <TAMUNG>0</TAMUNG>
+    <TCSOTIEN>238599.91000000000000</TCSOTIEN>
+    <DICHSO>Hai trăm ba mươi tám nghìn năm trăm chín mươi chín</DICHSO>
+    <MIEN>0</MIEN>
+    <BHYTTRA>0</BHYTTRA>
+    <BNTRA>238599.91000000000000</BNTRA>
+    <DICHSOTRA />
+    <SBLTAMUNG>TAMUNG/45-107967:1000000.0000;</SBLTAMUNG>
+    <SOLUUTRU>^13011660^0</SOLUUTRU>
+    <NGUOINHA />
+    <HINHTHUC>2</HINHTHUC>
+    <PHUONGPHAP>2</PHUONGPHAP>
+    <KETQUA>1</KETQUA>
+    <SOPHIEU>0</SOPHIEU>
+    <LANIN>0</LANIN>
+    <tenuser>toancau</tenuser>
+    <tenbs>Nguyễn Hữu Tuấn</tenbs>
+    <mabs>0048</mabs>
+    <makprv>10</makprv>
+    <cholam />
+    <madt>2</madt>
+    <haophi>0</haophi>
+    <gianovat>18000</gianovat>
+    <idttrv>0</idttrv>
+    <sotientra>18000.000</sotientra>
+    <traituyen>0</traituyen>
+    <tbh>0</tbh>
+    <tbn>0</tbn>
+    <tltraituyen>50</tltraituyen>
+    <dbh>0</dbh>
+    <dbn>0</dbn>
+    <tlchitra>0</tlchitra>
+    <kythuat>-1</kythuat>
+    <loaikythuat />
+    <tong_tu>1000000.0000</tong_tu>
+    <bienlai_tu>TAMUNG/45-107967:1000000.0000;</bienlai_tu>
+    <tongcp>1389278.37</tongcp>
+    <tongmien>165724.64559999990000</tongmien>
+    <tongbhyttra>513313.81187500010000</tongbhyttra>
+    <tongbntra>710239.91</tongbntra>
+    <tlchinhsach>0</tlchinhsach>
+    <ID_KTCAO>0</ID_KTCAO>
+    <ID_VPKHOA>0</ID_VPKHOA>
+    <VUOTTRAN>0</VUOTTRAN>
+    <dinhmucKTcao>26000000</dinhmucKTcao>
+    <giaban>18000</giaban>
+    <mabv />
+    <tenbv />
+    <tuoivao>0111</tuoivao>
+  </ravien>
+  <ravien>
+    <LOAIBA>1</LOAIBA>
+    <MADOITUONGVAO>1</MADOITUONGVAO>
+    <MATT>13011660</MATT>
+    <MABN>13011660</MABN>
+    <MAQL>130125095511330459</MAQL>
+    <IDKHOA>0</IDKHOA>
+    <HOTEN>ĐẶNG MINH THƯ</HOTEN>
+    <NAMSINH>2012</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <DIACHI> , P. Châu Phú A, TX. Châu Đốc, An Giang</DIACHI>
+    <MADOITUONG>2</MADOITUONG>
+    <DOITUONG>Thu phí</DOITUONG>
+    <SOTHE>TE189020030291889013</SOTHE>
+    <MAPHU>100.00</MAPHU>
+    <DENNGAY>04/05/2012^10/03/2018</DENNGAY>
+    <NOIGIOITHIEU>^KKB</NOIGIOITHIEU>
+    <NOICAP>BVĐK khu vực tỉnh^89013</NOICAP>
+    <GIUONG />
+    <MAKP>10</MAKP>
+    <TENKP>Khoa Ngoại Tổng Hợp</TENKP>
+    <NGAYVAO>25/01/2013 09:53</NGAYVAO>
+    <NGAYRA>28/01/2013 15:33</NGAYRA>
+    <CHANDOAN>Lồng ruột; </CHANDOAN>
+    <MAICD>K56.1; </MAICD>
+    <STTNHOM>5</STTNHOM>
+    <NHOM>Xét nghiệm - TDCN</NHOM>
+    <STTLOAI>5</STTLOAI>
+    <LOAI>XN Huyết học</LOAI>
+    <MA>626371</MA>
+    <TEN>GLUCOSE</TEN>
+    <DVT>Lần</DVT>
+    <SOLUONG>1.000</SOLUONG>
+    <DONGIA>23000</DONGIA>
+    <SOTIEN>23000.00</SOTIEN>
+    <TAMUNG>0</TAMUNG>
+    <TCSOTIEN>261599.91000000000000</TCSOTIEN>
+    <DICHSO>Hai trăm sáu mươi mốt nghìn năm trăm chín mươi chín</DICHSO>
+    <MIEN>0</MIEN>
+    <BHYTTRA>0</BHYTTRA>
+    <BNTRA>261599.91000000000000</BNTRA>
+    <DICHSOTRA />
+    <SBLTAMUNG>TAMUNG/45-107967:1000000.0000;</SBLTAMUNG>
+    <SOLUUTRU>^13011660^0</SOLUUTRU>
+    <NGUOINHA />
+    <HINHTHUC>2</HINHTHUC>
+    <PHUONGPHAP>2</PHUONGPHAP>
+    <KETQUA>1</KETQUA>
+    <SOPHIEU>0</SOPHIEU>
+    <LANIN>0</LANIN>
+    <tenuser>toancau</tenuser>
+    <tenbs>Nguyễn Hữu Tuấn</tenbs>
+    <mabs>0048</mabs>
+    <makprv>10</makprv>
+    <cholam />
+    <madt>2</madt>
+    <haophi>0</haophi>
+    <gianovat>23000</gianovat>
+    <idttrv>0</idttrv>
+    <sotientra>23000.000</sotientra>
+    <traituyen>0</traituyen>
+    <tbh>0</tbh>
+    <tbn>0</tbn>
+    <tltraituyen>50</tltraituyen>
+    <dbh>0</dbh>
+    <dbn>0</dbn>
+    <tlchitra>0</tlchitra>
+    <kythuat>-1</kythuat>
+    <loaikythuat />
+    <tong_tu>1000000.0000</tong_tu>
+    <bienlai_tu>TAMUNG/45-107967:1000000.0000;</bienlai_tu>
+    <tongcp>1389278.37</tongcp>
+    <tongmien>165724.64559999990000</tongmien>
+    <tongbhyttra>513313.81187500010000</tongbhyttra>
+    <tongbntra>710239.91</tongbntra>
+    <tlchinhsach>0</tlchinhsach>
+    <ID_KTCAO>0</ID_KTCAO>
+    <ID_VPKHOA>0</ID_VPKHOA>
+    <VUOTTRAN>0</VUOTTRAN>
+    <dinhmucKTcao>26000000</dinhmucKTcao>
+    <giaban>23000</giaban>
+    <mabv />
+    <tenbv />
+    <tuoivao>0111</tuoivao>
+  </ravien>
+  <ravien>
+    <LOAIBA>1</LOAIBA>
+    <MADOITUONGVAO>1</MADOITUONGVAO>
+    <MATT>13011660</MATT>
+    <MABN>13011660</MABN>
+    <MAQL>130125095511330459</MAQL>
+    <IDKHOA>0</IDKHOA>
+    <HOTEN>ĐẶNG MINH THƯ</HOTEN>
+    <NAMSINH>2012</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <DIACHI> , P. Châu Phú A, TX. Châu Đốc, An Giang</DIACHI>
+    <MADOITUONG>2</MADOITUONG>
+    <DOITUONG>Thu phí</DOITUONG>
+    <SOTHE>TE189020030291889013</SOTHE>
+    <MAPHU>100.00</MAPHU>
+    <DENNGAY>04/05/2012^10/03/2018</DENNGAY>
+    <NOIGIOITHIEU>^KKB</NOIGIOITHIEU>
+    <NOICAP>BVĐK khu vực tỉnh^89013</NOICAP>
+    <GIUONG />
+    <MAKP>10</MAKP>
+    <TENKP>Khoa Ngoại Tổng Hợp</TENKP>
+    <NGAYVAO>25/01/2013 09:53</NGAYVAO>
+    <NGAYRA>28/01/2013 15:33</NGAYRA>
+    <CHANDOAN>Lồng ruột; </CHANDOAN>
+    <MAICD>K56.1; </MAICD>
+    <STTNHOM>5</STTNHOM>
+    <NHOM>Xét nghiệm - TDCN</NHOM>
+    <STTLOAI>5</STTLOAI>
+    <LOAI>XN Huyết học</LOAI>
+    <MA>626463</MA>
+    <TEN>GPT</TEN>
+    <DVT>Lần</DVT>
+    <SOLUONG>1.000</SOLUONG>
+    <DONGIA>23000</DONGIA>
+    <SOTIEN>23000.00</SOTIEN>
+    <TAMUNG>0</TAMUNG>
+    <TCSOTIEN>284599.91000000000000</TCSOTIEN>
+    <DICHSO>Hai trăm tám mươi bốn nghìn năm trăm chín mươi chín</DICHSO>
+    <MIEN>0</MIEN>
+    <BHYTTRA>0</BHYTTRA>
+    <BNTRA>284599.91000000000000</BNTRA>
+    <DICHSOTRA />
+    <SBLTAMUNG>TAMUNG/45-107967:1000000.0000;</SBLTAMUNG>
+    <SOLUUTRU>^13011660^0</SOLUUTRU>
+    <NGUOINHA />
+    <HINHTHUC>2</HINHTHUC>
+    <PHUONGPHAP>2</PHUONGPHAP>
+    <KETQUA>1</KETQUA>
+    <SOPHIEU>0</SOPHIEU>
+    <LANIN>0</LANIN>
+    <tenuser>toancau</tenuser>
+    <tenbs>Nguyễn Hữu Tuấn</tenbs>
+    <mabs>0048</mabs>
+    <makprv>10</makprv>
+    <cholam />
+    <madt>2</madt>
+    <haophi>0</haophi>
+    <gianovat>23000</gianovat>
+    <idttrv>0</idttrv>
+    <sotientra>23000.000</sotientra>
+    <traituyen>0</traituyen>
+    <tbh>0</tbh>
+    <tbn>0</tbn>
+    <tltraituyen>50</tltraituyen>
+    <dbh>0</dbh>
+    <dbn>0</dbn>
+    <tlchitra>0</tlchitra>
+    <kythuat>-1</kythuat>
+    <loaikythuat />
+    <tong_tu>1000000.0000</tong_tu>
+    <bienlai_tu>TAMUNG/45-107967:1000000.0000;</bienlai_tu>
+    <tongcp>1389278.37</tongcp>
+    <tongmien>165724.64559999990000</tongmien>
+    <tongbhyttra>513313.81187500010000</tongbhyttra>
+    <tongbntra>710239.91</tongbntra>
+    <tlchinhsach>0</tlchinhsach>
+    <ID_KTCAO>0</ID_KTCAO>
+    <ID_VPKHOA>0</ID_VPKHOA>
+    <VUOTTRAN>0</VUOTTRAN>
+    <dinhmucKTcao>26000000</dinhmucKTcao>
+    <giaban>23000</giaban>
+    <mabv />
+    <tenbv />
+    <tuoivao>0111</tuoivao>
+  </ravien>
+  <ravien>
+    <LOAIBA>1</LOAIBA>
+    <MADOITUONGVAO>1</MADOITUONGVAO>
+    <MATT>13011660</MATT>
+    <MABN>13011660</MABN>
+    <MAQL>130125095511330459</MAQL>
+    <IDKHOA>0</IDKHOA>
+    <HOTEN>ĐẶNG MINH THƯ</HOTEN>
+    <NAMSINH>2012</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <DIACHI> , P. Châu Phú A, TX. Châu Đốc, An Giang</DIACHI>
+    <MADOITUONG>2</MADOITUONG>
+    <DOITUONG>Thu phí</DOITUONG>
+    <SOTHE>TE189020030291889013</SOTHE>
+    <MAPHU>100.00</MAPHU>
+    <DENNGAY>04/05/2012^10/03/2018</DENNGAY>
+    <NOIGIOITHIEU>^KKB</NOIGIOITHIEU>
+    <NOICAP>BVĐK khu vực tỉnh^89013</NOICAP>
+    <GIUONG />
+    <MAKP>10</MAKP>
+    <TENKP>Khoa Ngoại Tổng Hợp</TENKP>
+    <NGAYVAO>25/01/2013 09:53</NGAYVAO>
+    <NGAYRA>28/01/2013 15:33</NGAYRA>
+    <CHANDOAN>Lồng ruột; </CHANDOAN>
+    <MAICD>K56.1; </MAICD>
+    <STTNHOM>5</STTNHOM>
+    <NHOM>Xét nghiệm - TDCN</NHOM>
+    <STTLOAI>8</STTLOAI>
+    <LOAI>XN  Miễn dịch</LOAI>
+    <MA>626501</MA>
+    <TEN>HBsAG(nhanh)</TEN>
+    <DVT>Lần</DVT>
+    <SOLUONG>1.000</SOLUONG>
+    <DONGIA>30000</DONGIA>
+    <SOTIEN>30000.00</SOTIEN>
+    <TAMUNG>0</TAMUNG>
+    <TCSOTIEN>314599.91000000000000</TCSOTIEN>
+    <DICHSO>Ba trăm  mười bốn nghìn năm trăm chín mươi chín</DICHSO>
+    <MIEN>0</MIEN>
+    <BHYTTRA>0</BHYTTRA>
+    <BNTRA>314599.91000000000000</BNTRA>
+    <DICHSOTRA />
+    <SBLTAMUNG>TAMUNG/45-107967:1000000.0000;</SBLTAMUNG>
+    <SOLUUTRU>^13011660^0</SOLUUTRU>
+    <NGUOINHA />
+    <HINHTHUC>2</HINHTHUC>
+    <PHUONGPHAP>2</PHUONGPHAP>
+    <KETQUA>1</KETQUA>
+    <SOPHIEU>0</SOPHIEU>
+    <LANIN>0</LANIN>
+    <tenuser>toancau</tenuser>
+    <tenbs>Nguyễn Hữu Tuấn</tenbs>
+    <mabs>0048</mabs>
+    <makprv>10</makprv>
+    <cholam />
+    <madt>2</madt>
+    <haophi>0</haophi>
+    <gianovat>30000</gianovat>
+    <idttrv>0</idttrv>
+    <sotientra>30000.000</sotientra>
+    <traituyen>0</traituyen>
+    <tbh>0</tbh>
+    <tbn>0</tbn>
+    <tltraituyen>50</tltraituyen>
+    <dbh>0</dbh>
+    <dbn>0</dbn>
+    <tlchitra>0</tlchitra>
+    <kythuat>-1</kythuat>
+    <loaikythuat />
+    <tong_tu>1000000.0000</tong_tu>
+    <bienlai_tu>TAMUNG/45-107967:1000000.0000;</bienlai_tu>
+    <tongcp>1389278.37</tongcp>
+    <tongmien>165724.64559999990000</tongmien>
+    <tongbhyttra>513313.81187500010000</tongbhyttra>
+    <tongbntra>710239.91</tongbntra>
+    <tlchinhsach>0</tlchinhsach>
+    <ID_KTCAO>0</ID_KTCAO>
+    <ID_VPKHOA>0</ID_VPKHOA>
+    <VUOTTRAN>0</VUOTTRAN>
+    <dinhmucKTcao>26000000</dinhmucKTcao>
+    <giaban>30000</giaban>
+    <mabv />
+    <tenbv />
+    <tuoivao>0111</tuoivao>
+  </ravien>
+  <ravien>
+    <LOAIBA>1</LOAIBA>
+    <MADOITUONGVAO>1</MADOITUONGVAO>
+    <MATT>13011660</MATT>
+    <MABN>13011660</MABN>
+    <MAQL>130125095511330459</MAQL>
+    <IDKHOA>0</IDKHOA>
+    <HOTEN>ĐẶNG MINH THƯ</HOTEN>
+    <NAMSINH>2012</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <DIACHI> , P. Châu Phú A, TX. Châu Đốc, An Giang</DIACHI>
+    <MADOITUONG>2</MADOITUONG>
+    <DOITUONG>Thu phí</DOITUONG>
+    <SOTHE>TE189020030291889013</SOTHE>
+    <MAPHU>0.00</MAPHU>
+    <DENNGAY>04/05/2012^10/03/2018</DENNGAY>
+    <NOIGIOITHIEU>^KKB</NOIGIOITHIEU>
+    <NOICAP>BVĐK khu vực tỉnh^89013</NOICAP>
+    <GIUONG />
+    <MAKP>10</MAKP>
+    <TENKP>Khoa Ngoại Tổng Hợp</TENKP>
+    <NGAYVAO>25/01/2013 09:53</NGAYVAO>
+    <NGAYRA>28/01/2013 15:33</NGAYRA>
+    <CHANDOAN>Lồng ruột; </CHANDOAN>
+    <MAICD>K56.1; </MAICD>
+    <STTNHOM>5</STTNHOM>
+    <NHOM>Xét nghiệm - TDCN</NHOM>
+    <STTLOAI>8</STTLOAI>
+    <LOAI>XN  Miễn dịch</LOAI>
+    <MA>626504</MA>
+    <TEN>HIV (nhanh)</TEN>
+    <DVT>Lần</DVT>
+    <SOLUONG>1.000</SOLUONG>
+    <DONGIA>50000</DONGIA>
+    <SOTIEN>50000.00</SOTIEN>
+    <TAMUNG>0</TAMUNG>
+    <TCSOTIEN>364599.91000000000000</TCSOTIEN>
+    <DICHSO>Ba trăm sáu mươi bốn nghìn năm trăm chín mươi chín</DICHSO>
+    <MIEN>0</MIEN>
+    <BHYTTRA>0</BHYTTRA>
+    <BNTRA>364599.91000000000000</BNTRA>
+    <DICHSOTRA />
+    <SBLTAMUNG>TAMUNG/45-107967:1000000.0000;</SBLTAMUNG>
+    <SOLUUTRU>^13011660^0</SOLUUTRU>
+    <NGUOINHA />
+    <HINHTHUC>2</HINHTHUC>
+    <PHUONGPHAP>2</PHUONGPHAP>
+    <KETQUA>1</KETQUA>
+    <SOPHIEU>0</SOPHIEU>
+    <LANIN>0</LANIN>
+    <tenuser>toancau</tenuser>
+    <tenbs>Nguyễn Hữu Tuấn</tenbs>
+    <mabs>0048</mabs>
+    <makprv>10</makprv>
+    <cholam />
+    <madt>2</madt>
+    <haophi>0</haophi>
+    <gianovat>50000</gianovat>
+    <idttrv>0</idttrv>
+    <sotientra>50000.000</sotientra>
+    <traituyen>0</traituyen>
+    <tbh>0</tbh>
+    <tbn>0</tbn>
+    <tltraituyen>50</tltraituyen>
+    <dbh>0</dbh>
+    <dbn>0</dbn>
+    <tlchitra>0</tlchitra>
+    <kythuat>-1</kythuat>
+    <loaikythuat />
+    <tong_tu>1000000.0000</tong_tu>
+    <bienlai_tu>TAMUNG/45-107967:1000000.0000;</bienlai_tu>
+    <tongcp>1389278.37</tongcp>
+    <tongmien>165724.64559999990000</tongmien>
+    <tongbhyttra>513313.81187500010000</tongbhyttra>
+    <tongbntra>710239.91</tongbntra>
+    <tlchinhsach>0</tlchinhsach>
+    <ID_KTCAO>0</ID_KTCAO>
+    <ID_VPKHOA>0</ID_VPKHOA>
+    <VUOTTRAN>0</VUOTTRAN>
+    <dinhmucKTcao>26000000</dinhmucKTcao>
+    <giaban>50000</giaban>
+    <mabv />
+    <tenbv />
+    <tuoivao>0111</tuoivao>
+  </ravien>
+  <ravien>
+    <LOAIBA>1</LOAIBA>
+    <MADOITUONGVAO>1</MADOITUONGVAO>
+    <MATT>13011660</MATT>
+    <MABN>13011660</MABN>
+    <MAQL>130125095511330459</MAQL>
+    <IDKHOA>0</IDKHOA>
+    <HOTEN>ĐẶNG MINH THƯ</HOTEN>
+    <NAMSINH>2012</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <DIACHI> , P. Châu Phú A, TX. Châu Đốc, An Giang</DIACHI>
+    <MADOITUONG>2</MADOITUONG>
+    <DOITUONG>Thu phí</DOITUONG>
+    <SOTHE>TE189020030291889013</SOTHE>
+    <MAPHU>100.00</MAPHU>
+    <DENNGAY>04/05/2012^10/03/2018</DENNGAY>
+    <NOIGIOITHIEU>^KKB</NOIGIOITHIEU>
+    <NOICAP>BVĐK khu vực tỉnh^89013</NOICAP>
+    <GIUONG />
+    <MAKP>10</MAKP>
+    <TENKP>Khoa Ngoại Tổng Hợp</TENKP>
+    <NGAYVAO>25/01/2013 09:53</NGAYVAO>
+    <NGAYRA>28/01/2013 15:33</NGAYRA>
+    <CHANDOAN>Lồng ruột; </CHANDOAN>
+    <MAICD>K56.1; </MAICD>
+    <STTNHOM>5</STTNHOM>
+    <NHOM>Xét nghiệm - TDCN</NHOM>
+    <STTLOAI>5</STTLOAI>
+    <LOAI>XN Huyết học</LOAI>
+    <MA>626467</MA>
+    <TEN>TCK</TEN>
+    <DVT>Lần</DVT>
+    <SOLUONG>1.000</SOLUONG>
+    <DONGIA>35000</DONGIA>
+    <SOTIEN>35000.00</SOTIEN>
+    <TAMUNG>0</TAMUNG>
+    <TCSOTIEN>399599.91000000000000</TCSOTIEN>
+    <DICHSO>Ba trăm chín mươi chín nghìn năm trăm chín mươi chín</DICHSO>
+    <MIEN>0</MIEN>
+    <BHYTTRA>0</BHYTTRA>
+    <BNTRA>399599.91000000000000</BNTRA>
+    <DICHSOTRA />
+    <SBLTAMUNG>TAMUNG/45-107967:1000000.0000;</SBLTAMUNG>
+    <SOLUUTRU>^13011660^0</SOLUUTRU>
+    <NGUOINHA />
+    <HINHTHUC>2</HINHTHUC>
+    <PHUONGPHAP>2</PHUONGPHAP>
+    <KETQUA>1</KETQUA>
+    <SOPHIEU>0</SOPHIEU>
+    <LANIN>0</LANIN>
+    <tenuser>toancau</tenuser>
+    <tenbs>Nguyễn Hữu Tuấn</tenbs>
+    <mabs>0048</mabs>
+    <makprv>10</makprv>
+    <cholam />
+    <madt>2</madt>
+    <haophi>0</haophi>
+    <gianovat>35000</gianovat>
+    <idttrv>0</idttrv>
+    <sotientra>35000.000</sotientra>
+    <traituyen>0</traituyen>
+    <tbh>0</tbh>
+    <tbn>0</tbn>
+    <tltraituyen>50</tltraituyen>
+    <dbh>0</dbh>
+    <dbn>0</dbn>
+    <tlchitra>0</tlchitra>
+    <kythuat>-1</kythuat>
+    <loaikythuat />
+    <tong_tu>1000000.0000</tong_tu>
+    <bienlai_tu>TAMUNG/45-107967:1000000.0000;</bienlai_tu>
+    <tongcp>1389278.37</tongcp>
+    <tongmien>165724.64559999990000</tongmien>
+    <tongbhyttra>513313.81187500010000</tongbhyttra>
+    <tongbntra>710239.91</tongbntra>
+    <tlchinhsach>0</tlchinhsach>
+    <ID_KTCAO>0</ID_KTCAO>
+    <ID_VPKHOA>0</ID_VPKHOA>
+    <VUOTTRAN>0</VUOTTRAN>
+    <dinhmucKTcao>26000000</dinhmucKTcao>
+    <giaban>35000</giaban>
+    <mabv />
+    <tenbv />
+    <tuoivao>0111</tuoivao>
+  </ravien>
+  <ravien>
+    <LOAIBA>1</LOAIBA>
+    <MADOITUONGVAO>1</MADOITUONGVAO>
+    <MATT>13011660</MATT>
+    <MABN>13011660</MABN>
+    <MAQL>130125095511330459</MAQL>
+    <IDKHOA>0</IDKHOA>
+    <HOTEN>ĐẶNG MINH THƯ</HOTEN>
+    <NAMSINH>2012</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <DIACHI> , P. Châu Phú A, TX. Châu Đốc, An Giang</DIACHI>
+    <MADOITUONG>2</MADOITUONG>
+    <DOITUONG>Thu phí</DOITUONG>
+    <SOTHE>TE189020030291889013</SOTHE>
+    <MAPHU>100.00</MAPHU>
+    <DENNGAY>04/05/2012^10/03/2018</DENNGAY>
+    <NOIGIOITHIEU>^KKB</NOIGIOITHIEU>
+    <NOICAP>BVĐK khu vực tỉnh^89013</NOICAP>
+    <GIUONG />
+    <MAKP>10</MAKP>
+    <TENKP>Khoa Ngoại Tổng Hợp</TENKP>
+    <NGAYVAO>25/01/2013 09:53</NGAYVAO>
+    <NGAYRA>28/01/2013 15:33</NGAYRA>
+    <CHANDOAN>Lồng ruột; </CHANDOAN>
+    <MAICD>K56.1; </MAICD>
+    <STTNHOM>5</STTNHOM>
+    <NHOM>Xét nghiệm - TDCN</NHOM>
+    <STTLOAI>5</STTLOAI>
+    <LOAI>XN Huyết học</LOAI>
+    <MA>631181</MA>
+    <TEN>Thời gian Prothrobin (TQ)</TEN>
+    <DVT>Lần</DVT>
+    <SOLUONG>1.000</SOLUONG>
+    <DONGIA>50000</DONGIA>
+    <SOTIEN>50000.00</SOTIEN>
+    <TAMUNG>0</TAMUNG>
+    <TCSOTIEN>449599.91000000000000</TCSOTIEN>
+    <DICHSO>Bốn trăm bốn mươi chín nghìn năm trăm chín mươi chín</DICHSO>
+    <MIEN>0</MIEN>
+    <BHYTTRA>0</BHYTTRA>
+    <BNTRA>449599.91000000000000</BNTRA>
+    <DICHSOTRA />
+    <SBLTAMUNG>TAMUNG/45-107967:1000000.0000;</SBLTAMUNG>
+    <SOLUUTRU>^13011660^0</SOLUUTRU>
+    <NGUOINHA />
+    <HINHTHUC>2</HINHTHUC>
+    <PHUONGPHAP>2</PHUONGPHAP>
+    <KETQUA>1</KETQUA>
+    <SOPHIEU>0</SOPHIEU>
+    <LANIN>0</LANIN>
+    <tenuser>toancau</tenuser>
+    <tenbs>Nguyễn Hữu Tuấn</tenbs>
+    <mabs>0048</mabs>
+    <makprv>10</makprv>
+    <cholam />
+    <madt>2</madt>
+    <haophi>0</haophi>
+    <gianovat>50000</gianovat>
+    <idttrv>0</idttrv>
+    <sotientra>50000.000</sotientra>
+    <traituyen>0</traituyen>
+    <tbh>0</tbh>
+    <tbn>0</tbn>
+    <tltraituyen>50</tltraituyen>
+    <dbh>0</dbh>
+    <dbn>0</dbn>
+    <tlchitra>0</tlchitra>
+    <kythuat>-1</kythuat>
+    <loaikythuat />
+    <tong_tu>1000000.0000</tong_tu>
+    <bienlai_tu>TAMUNG/45-107967:1000000.0000;</bienlai_tu>
+    <tongcp>1389278.37</tongcp>
+    <tongmien>165724.64559999990000</tongmien>
+    <tongbhyttra>513313.81187500010000</tongbhyttra>
+    <tongbntra>710239.91</tongbntra>
+    <tlchinhsach>0</tlchinhsach>
+    <ID_KTCAO>0</ID_KTCAO>
+    <ID_VPKHOA>0</ID_VPKHOA>
+    <VUOTTRAN>0</VUOTTRAN>
+    <dinhmucKTcao>26000000</dinhmucKTcao>
+    <giaban>50000</giaban>
+    <mabv />
+    <tenbv />
+    <tuoivao>0111</tuoivao>
+  </ravien>
+  <ravien>
+    <LOAIBA>1</LOAIBA>
+    <MADOITUONGVAO>1</MADOITUONGVAO>
+    <MATT>13011660</MATT>
+    <MABN>13011660</MABN>
+    <MAQL>130125095511330459</MAQL>
+    <IDKHOA>0</IDKHOA>
+    <HOTEN>ĐẶNG MINH THƯ</HOTEN>
+    <NAMSINH>2012</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <DIACHI> , P. Châu Phú A, TX. Châu Đốc, An Giang</DIACHI>
+    <MADOITUONG>2</MADOITUONG>
+    <DOITUONG>Thu phí</DOITUONG>
+    <SOTHE>TE189020030291889013</SOTHE>
+    <MAPHU>100.00</MAPHU>
+    <DENNGAY>04/05/2012^10/03/2018</DENNGAY>
+    <NOIGIOITHIEU>^KKB</NOIGIOITHIEU>
+    <NOICAP>BVĐK khu vực tỉnh^89013</NOICAP>
+    <GIUONG />
+    <MAKP>10</MAKP>
+    <TENKP>Khoa Ngoại Tổng Hợp</TENKP>
+    <NGAYVAO>25/01/2013 09:53</NGAYVAO>
+    <NGAYRA>28/01/2013 15:33</NGAYRA>
+    <CHANDOAN>Lồng ruột; </CHANDOAN>
+    <MAICD>K56.1; </MAICD>
+    <STTNHOM>5</STTNHOM>
+    <NHOM>Xét nghiệm - TDCN</NHOM>
+    <STTLOAI>5</STTLOAI>
+    <LOAI>XN Huyết học</LOAI>
+    <MA>626376</MA>
+    <TEN>URÊ</TEN>
+    <DVT>Lần</DVT>
+    <SOLUONG>1.000</SOLUONG>
+    <DONGIA>23000</DONGIA>
+    <SOTIEN>23000.00</SOTIEN>
+    <TAMUNG>0</TAMUNG>
+    <TCSOTIEN>472599.91000000000000</TCSOTIEN>
+    <DICHSO>Bốn trăm bảy mươi hai nghìn năm trăm chín mươi chín</DICHSO>
+    <MIEN>0</MIEN>
+    <BHYTTRA>0</BHYTTRA>
+    <BNTRA>472599.91000000000000</BNTRA>
+    <DICHSOTRA />
+    <SBLTAMUNG>TAMUNG/45-107967:1000000.0000;</SBLTAMUNG>
+    <SOLUUTRU>^13011660^0</SOLUUTRU>
+    <NGUOINHA />
+    <HINHTHUC>2</HINHTHUC>
+    <PHUONGPHAP>2</PHUONGPHAP>
+    <KETQUA>1</KETQUA>
+    <SOPHIEU>0</SOPHIEU>
+    <LANIN>0</LANIN>
+    <tenuser>toancau</tenuser>
+    <tenbs>Nguyễn Hữu Tuấn</tenbs>
+    <mabs>0048</mabs>
+    <makprv>10</makprv>
+    <cholam />
+    <madt>2</madt>
+    <haophi>0</haophi>
+    <gianovat>23000</gianovat>
+    <idttrv>0</idttrv>
+    <sotientra>23000.000</sotientra>
+    <traituyen>0</traituyen>
+    <tbh>0</tbh>
+    <tbn>0</tbn>
+    <tltraituyen>50</tltraituyen>
+    <dbh>0</dbh>
+    <dbn>0</dbn>
+    <tlchitra>0</tlchitra>
+    <kythuat>-1</kythuat>
+    <loaikythuat />
+    <tong_tu>1000000.0000</tong_tu>
+    <bienlai_tu>TAMUNG/45-107967:1000000.0000;</bienlai_tu>
+    <tongcp>1389278.37</tongcp>
+    <tongmien>165724.64559999990000</tongmien>
+    <tongbhyttra>513313.81187500010000</tongbhyttra>
+    <tongbntra>710239.91</tongbntra>
+    <tlchinhsach>0</tlchinhsach>
+    <ID_KTCAO>0</ID_KTCAO>
+    <ID_VPKHOA>0</ID_VPKHOA>
+    <VUOTTRAN>0</VUOTTRAN>
+    <dinhmucKTcao>26000000</dinhmucKTcao>
+    <giaban>23000</giaban>
+    <mabv />
+    <tenbv />
+    <tuoivao>0111</tuoivao>
+  </ravien>
+  <ravien>
+    <LOAIBA>1</LOAIBA>
+    <MADOITUONGVAO>1</MADOITUONGVAO>
+    <MATT>13011660</MATT>
+    <MABN>13011660</MABN>
+    <MAQL>130125095511330459</MAQL>
+    <IDKHOA>0</IDKHOA>
+    <HOTEN>ĐẶNG MINH THƯ</HOTEN>
+    <NAMSINH>2012</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <DIACHI> , P. Châu Phú A, TX. Châu Đốc, An Giang</DIACHI>
+    <MADOITUONG>2</MADOITUONG>
+    <DOITUONG>Thu phí</DOITUONG>
+    <SOTHE>TE189020030291889013</SOTHE>
+    <MAPHU>100.00</MAPHU>
+    <DENNGAY>04/05/2012^10/03/2018</DENNGAY>
+    <NOIGIOITHIEU>^KKB</NOIGIOITHIEU>
+    <NOICAP>BVĐK khu vực tỉnh^89013</NOICAP>
+    <GIUONG />
+    <MAKP>10</MAKP>
+    <TENKP>Khoa Ngoại Tổng Hợp</TENKP>
+    <NGAYVAO>25/01/2013 09:53</NGAYVAO>
+    <NGAYRA>28/01/2013 15:33</NGAYRA>
+    <CHANDOAN>Lồng ruột; </CHANDOAN>
+    <MAICD>K56.1; </MAICD>
+    <STTNHOM>6</STTNHOM>
+    <NHOM>CHẨN ĐOÁN HÌNH ẢNH</NHOM>
+    <STTLOAI>13</STTLOAI>
+    <LOAI>Siêu âm</LOAI>
+    <MA>626512</MA>
+    <TEN>Siêu âm bụng tổng quát màu</TEN>
+    <DVT>cas</DVT>
+    <SOLUONG>2.000</SOLUONG>
+    <DONGIA>35000</DONGIA>
+    <SOTIEN>70000.00</SOTIEN>
+    <TAMUNG>0</TAMUNG>
+    <TCSOTIEN>542599.91000000000000</TCSOTIEN>
+    <DICHSO>Năm trăm bốn mươi hai nghìn năm trăm chín mươi chín</DICHSO>
+    <MIEN>0</MIEN>
+    <BHYTTRA>0</BHYTTRA>
+    <BNTRA>542599.91000000000000</BNTRA>
+    <DICHSOTRA />
+    <SBLTAMUNG>TAMUNG/45-107967:1000000.0000;</SBLTAMUNG>
+    <SOLUUTRU>^13011660^0</SOLUUTRU>
+    <NGUOINHA />
+    <HINHTHUC>2</HINHTHUC>
+    <PHUONGPHAP>2</PHUONGPHAP>
+    <KETQUA>1</KETQUA>
+    <SOPHIEU>0</SOPHIEU>
+    <LANIN>0</LANIN>
+    <tenuser>toancau</tenuser>
+    <tenbs>Nguyễn Hữu Tuấn</tenbs>
+    <mabs>0042</mabs>
+    <makprv>10</makprv>
+    <cholam />
+    <madt>2</madt>
+    <haophi>0</haophi>
+    <gianovat>35000</gianovat>
+    <idttrv>0</idttrv>
+    <sotientra>70000.000</sotientra>
+    <traituyen>0</traituyen>
+    <tbh>0</tbh>
+    <tbn>0</tbn>
+    <tltraituyen>50</tltraituyen>
+    <dbh>0</dbh>
+    <dbn>0</dbn>
+    <tlchitra>0</tlchitra>
+    <kythuat>-1</kythuat>
+    <loaikythuat />
+    <tong_tu>1000000.0000</tong_tu>
+    <bienlai_tu>TAMUNG/45-107967:1000000.0000;</bienlai_tu>
+    <tongcp>1389278.37</tongcp>
+    <tongmien>165724.64559999990000</tongmien>
+    <tongbhyttra>513313.81187500010000</tongbhyttra>
+    <tongbntra>710239.91</tongbntra>
+    <tlchinhsach>0</tlchinhsach>
+    <ID_KTCAO>0</ID_KTCAO>
+    <ID_VPKHOA>0</ID_VPKHOA>
+    <VUOTTRAN>0</VUOTTRAN>
+    <dinhmucKTcao>26000000</dinhmucKTcao>
+    <giaban>35000</giaban>
+    <mabv />
+    <tenbv />
+    <tuoivao>0111</tuoivao>
+  </ravien>
+  <ravien>
+    <LOAIBA>1</LOAIBA>
+    <MADOITUONGVAO>1</MADOITUONGVAO>
+    <MATT>13011660</MATT>
+    <MABN>13011660</MABN>
+    <MAQL>130125095511330459</MAQL>
+    <IDKHOA>0</IDKHOA>
+    <HOTEN>ĐẶNG MINH THƯ</HOTEN>
+    <NAMSINH>2012</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <DIACHI> , P. Châu Phú A, TX. Châu Đốc, An Giang</DIACHI>
+    <MADOITUONG>2</MADOITUONG>
+    <DOITUONG>Thu phí</DOITUONG>
+    <SOTHE>TE189020030291889013</SOTHE>
+    <MAPHU>100.00</MAPHU>
+    <DENNGAY>04/05/2012^10/03/2018</DENNGAY>
+    <NOIGIOITHIEU>^KKB</NOIGIOITHIEU>
+    <NOICAP>BVĐK khu vực tỉnh^89013</NOICAP>
+    <GIUONG />
+    <MAKP>10</MAKP>
+    <TENKP>Khoa Ngoại Tổng Hợp</TENKP>
+    <NGAYVAO>25/01/2013 09:53</NGAYVAO>
+    <NGAYRA>28/01/2013 15:33</NGAYRA>
+    <CHANDOAN>Lồng ruột; </CHANDOAN>
+    <MAICD>K56.1; </MAICD>
+    <STTNHOM>6</STTNHOM>
+    <NHOM>CHẨN ĐOÁN HÌNH ẢNH</NHOM>
+    <STTLOAI>14</STTLOAI>
+    <LOAI>X Quang</LOAI>
+    <MA>-631168</MA>
+    <TEN>Tim phổi thẳng</TEN>
+    <DVT>Lần</DVT>
+    <SOLUONG>1.000</SOLUONG>
+    <DONGIA>38000</DONGIA>
+    <SOTIEN>38000.00</SOTIEN>
+    <TAMUNG>0</TAMUNG>
+    <TCSOTIEN>580599.91000000000000</TCSOTIEN>
+    <DICHSO>Năm trăm tám mươi  nghìn năm trăm chín mươi chín</DICHSO>
+    <MIEN>0</MIEN>
+    <BHYTTRA>0</BHYTTRA>
+    <BNTRA>580599.91000000000000</BNTRA>
+    <DICHSOTRA />
+    <SBLTAMUNG>TAMUNG/45-107967:1000000.0000;</SBLTAMUNG>
+    <SOLUUTRU>^13011660^0</SOLUUTRU>
+    <NGUOINHA />
+    <HINHTHUC>2</HINHTHUC>
+    <PHUONGPHAP>2</PHUONGPHAP>
+    <KETQUA>1</KETQUA>
+    <SOPHIEU>0</SOPHIEU>
+    <LANIN>0</LANIN>
+    <tenuser>toancau</tenuser>
+    <tenbs>Nguyễn Hữu Tuấn</tenbs>
+    <mabs>0048</mabs>
+    <makprv>10</makprv>
+    <cholam />
+    <madt>2</madt>
+    <haophi>0</haophi>
+    <gianovat>38000</gianovat>
+    <idttrv>0</idttrv>
+    <sotientra>38000.000</sotientra>
+    <traituyen>0</traituyen>
+    <tbh>0</tbh>
+    <tbn>0</tbn>
+    <tltraituyen>50</tltraituyen>
+    <dbh>0</dbh>
+    <dbn>0</dbn>
+    <tlchitra>0</tlchitra>
+    <kythuat>-1</kythuat>
+    <loaikythuat />
+    <tong_tu>1000000.0000</tong_tu>
+    <bienlai_tu>TAMUNG/45-107967:1000000.0000;</bienlai_tu>
+    <tongcp>1389278.37</tongcp>
+    <tongmien>165724.64559999990000</tongmien>
+    <tongbhyttra>513313.81187500010000</tongbhyttra>
+    <tongbntra>710239.91</tongbntra>
+    <tlchinhsach>0</tlchinhsach>
+    <ID_KTCAO>0</ID_KTCAO>
+    <ID_VPKHOA>0</ID_VPKHOA>
+    <VUOTTRAN>0</VUOTTRAN>
+    <dinhmucKTcao>26000000</dinhmucKTcao>
+    <giaban>38000</giaban>
+    <mabv />
+    <tenbv />
+    <tuoivao>0111</tuoivao>
+  </ravien>
+  <ravien>
+    <LOAIBA>1</LOAIBA>
+    <MADOITUONGVAO>1</MADOITUONGVAO>
+    <MATT>13011660</MATT>
+    <MABN>13011660</MABN>
+    <MAQL>130125095511330459</MAQL>
+    <IDKHOA>0</IDKHOA>
+    <HOTEN>ĐẶNG MINH THƯ</HOTEN>
+    <NAMSINH>2012</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <DIACHI> , P. Châu Phú A, TX. Châu Đốc, An Giang</DIACHI>
+    <MADOITUONG>2</MADOITUONG>
+    <DOITUONG>Thu phí</DOITUONG>
+    <SOTHE>TE189020030291889013</SOTHE>
+    <MAPHU>100.00</MAPHU>
+    <DENNGAY>04/05/2012^10/03/2018</DENNGAY>
+    <NOIGIOITHIEU>^KKB</NOIGIOITHIEU>
+    <NOICAP>BVĐK khu vực tỉnh^89013</NOICAP>
+    <GIUONG />
+    <MAKP>33</MAKP>
+    <TENKP>Khoa Hồi Sinh</TENKP>
+    <NGAYVAO>25/01/2013 09:53</NGAYVAO>
+    <NGAYRA>28/01/2013 15:33</NGAYRA>
+    <CHANDOAN>Lồng ruột; </CHANDOAN>
+    <MAICD>K56.1; </MAICD>
+    <STTNHOM>6</STTNHOM>
+    <NHOM>CHẨN ĐOÁN HÌNH ẢNH</NHOM>
+    <STTLOAI>13</STTLOAI>
+    <LOAI>Siêu âm</LOAI>
+    <MA>626512</MA>
+    <TEN>Siêu âm bụng tổng quát màu</TEN>
+    <DVT>cas</DVT>
+    <SOLUONG>1.000</SOLUONG>
+    <DONGIA>35000</DONGIA>
+    <SOTIEN>35000.00</SOTIEN>
+    <TAMUNG>0</TAMUNG>
+    <TCSOTIEN>615599.91000000000000</TCSOTIEN>
+    <DICHSO>Sáu trăm  mười lăm nghìn năm trăm chín mươi chín</DICHSO>
+    <MIEN>0</MIEN>
+    <BHYTTRA>0</BHYTTRA>
+    <BNTRA>615599.91000000000000</BNTRA>
+    <DICHSOTRA />
+    <SBLTAMUNG>TAMUNG/45-107967:1000000.0000;</SBLTAMUNG>
+    <SOLUUTRU>^13011660^0</SOLUUTRU>
+    <NGUOINHA />
+    <HINHTHUC>2</HINHTHUC>
+    <PHUONGPHAP>2</PHUONGPHAP>
+    <KETQUA>1</KETQUA>
+    <SOPHIEU>0</SOPHIEU>
+    <LANIN>0</LANIN>
+    <tenuser>toancau</tenuser>
+    <tenbs>Nguyễn Hữu Tuấn</tenbs>
+    <mabs>0079</mabs>
+    <makprv>10</makprv>
+    <cholam />
+    <madt>2</madt>
+    <haophi>0</haophi>
+    <gianovat>35000</gianovat>
+    <idttrv>0</idttrv>
+    <sotientra>35000.000</sotientra>
+    <traituyen>0</traituyen>
+    <tbh>0</tbh>
+    <tbn>0</tbn>
+    <tltraituyen>50</tltraituyen>
+    <dbh>0</dbh>
+    <dbn>0</dbn>
+    <tlchitra>0</tlchitra>
+    <kythuat>-1</kythuat>
+    <loaikythuat />
+    <tong_tu>1000000.0000</tong_tu>
+    <bienlai_tu>TAMUNG/45-107967:1000000.0000;</bienlai_tu>
+    <tongcp>1389278.37</tongcp>
+    <tongmien>165724.64559999990000</tongmien>
+    <tongbhyttra>513313.81187500010000</tongbhyttra>
+    <tongbntra>710239.91</tongbntra>
+    <tlchinhsach>0</tlchinhsach>
+    <ID_KTCAO>0</ID_KTCAO>
+    <ID_VPKHOA>0</ID_VPKHOA>
+    <VUOTTRAN>0</VUOTTRAN>
+    <dinhmucKTcao>26000000</dinhmucKTcao>
+    <giaban>35000</giaban>
+    <mabv />
+    <tenbv />
+    <tuoivao>0111</tuoivao>
+  </ravien>
+  <ravien>
+    <LOAIBA>1</LOAIBA>
+    <MADOITUONGVAO>1</MADOITUONGVAO>
+    <MATT>13011660</MATT>
+    <MABN>13011660</MABN>
+    <MAQL>130125095511330459</MAQL>
+    <IDKHOA>0</IDKHOA>
+    <HOTEN>ĐẶNG MINH THƯ</HOTEN>
+    <NAMSINH>2012</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <DIACHI> , P. Châu Phú A, TX. Châu Đốc, An Giang</DIACHI>
+    <MADOITUONG>2</MADOITUONG>
+    <DOITUONG>Thu phí</DOITUONG>
+    <SOTHE>TE189020030291889013</SOTHE>
+    <MAPHU>100.00</MAPHU>
+    <DENNGAY>04/05/2012^10/03/2018</DENNGAY>
+    <NOIGIOITHIEU>^KKB</NOIGIOITHIEU>
+    <NOICAP>BVĐK khu vực tỉnh^89013</NOICAP>
+    <GIUONG />
+    <MAKP>14</MAKP>
+    <TENKP>Khoa Phẫu Thuật - GMHS</TENKP>
+    <NGAYVAO>25/01/2013 09:53</NGAYVAO>
+    <NGAYRA>28/01/2013 15:33</NGAYRA>
+    <CHANDOAN>Lồng ruột; </CHANDOAN>
+    <MAICD>K56.1; </MAICD>
+    <STTNHOM>7</STTNHOM>
+    <NHOM>Phẫu thuật - Thủ thuật</NHOM>
+    <STTLOAI>27</STTLOAI>
+    <LOAI>TT Ngoại khoa tổng quát</LOAI>
+    <MA>-631192</MA>
+    <TEN>Tháo lồng ruột bằng hơi hay baryte</TEN>
+    <DVT>cas</DVT>
+    <SOLUONG>1.000</SOLUONG>
+    <DONGIA>64000</DONGIA>
+    <SOTIEN>64000.00</SOTIEN>
+    <TAMUNG>0</TAMUNG>
+    <TCSOTIEN>679599.91000000000000</TCSOTIEN>
+    <DICHSO>Sáu trăm bảy mươi chín nghìn năm trăm chín mươi chín</DICHSO>
+    <MIEN>0</MIEN>
+    <BHYTTRA>0</BHYTTRA>
+    <BNTRA>679599.91000000000000</BNTRA>
+    <DICHSOTRA />
+    <SBLTAMUNG>TAMUNG/45-107967:1000000.0000;</SBLTAMUNG>
+    <SOLUUTRU>^13011660^0</SOLUUTRU>
+    <NGUOINHA />
+    <HINHTHUC>2</HINHTHUC>
+    <PHUONGPHAP>2</PHUONGPHAP>
+    <KETQUA>1</KETQUA>
+    <SOPHIEU>0</SOPHIEU>
+    <LANIN>0</LANIN>
+    <tenuser>toancau</tenuser>
+    <tenbs>Nguyễn Hữu Tuấn</tenbs>
+    <mabs>0079</mabs>
+    <makprv>10</makprv>
+    <cholam />
+    <madt>2</madt>
+    <haophi>0</haophi>
+    <gianovat>64000</gianovat>
+    <idttrv>0</idttrv>
+    <sotientra>64000.000</sotientra>
+    <traituyen>0</traituyen>
+    <tbh>0</tbh>
+    <tbn>0</tbn>
+    <tltraituyen>50</tltraituyen>
+    <dbh>0</dbh>
+    <dbn>0</dbn>
+    <tlchitra>0</tlchitra>
+    <kythuat>-1</kythuat>
+    <loaikythuat />
+    <tong_tu>1000000.0000</tong_tu>
+    <bienlai_tu>TAMUNG/45-107967:1000000.0000;</bienlai_tu>
+    <tongcp>1389278.37</tongcp>
+    <tongmien>165724.64559999990000</tongmien>
+    <tongbhyttra>513313.81187500010000</tongbhyttra>
+    <tongbntra>710239.91</tongbntra>
+    <tlchinhsach>0</tlchinhsach>
+    <ID_KTCAO>0</ID_KTCAO>
+    <ID_VPKHOA>0</ID_VPKHOA>
+    <VUOTTRAN>0</VUOTTRAN>
+    <dinhmucKTcao>26000000</dinhmucKTcao>
+    <giaban>64000</giaban>
+    <mabv />
+    <tenbv />
+    <tuoivao>0111</tuoivao>
+  </ravien>
+  <ravien>
+    <LOAIBA>1</LOAIBA>
+    <MADOITUONGVAO>1</MADOITUONGVAO>
+    <MATT>13011660</MATT>
+    <MABN>13011660</MABN>
+    <MAQL>130125095511330459</MAQL>
+    <IDKHOA>0</IDKHOA>
+    <HOTEN>ĐẶNG MINH THƯ</HOTEN>
+    <NAMSINH>2012</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <DIACHI> , P. Châu Phú A, TX. Châu Đốc, An Giang</DIACHI>
+    <MADOITUONG>2</MADOITUONG>
+    <DOITUONG>Thu phí</DOITUONG>
+    <SOTHE>TE189020030291889013</SOTHE>
+    <MAPHU>100.00</MAPHU>
+    <DENNGAY>04/05/2012^10/03/2018</DENNGAY>
+    <NOIGIOITHIEU>^KKB</NOIGIOITHIEU>
+    <NOICAP>BVĐK khu vực tỉnh^89013</NOICAP>
+    <GIUONG />
+    <MAKP>33</MAKP>
+    <TENKP>Khoa Hồi Sinh</TENKP>
+    <NGAYVAO>25/01/2013 09:53</NGAYVAO>
+    <NGAYRA>28/01/2013 15:33</NGAYRA>
+    <CHANDOAN>Lồng ruột; </CHANDOAN>
+    <MAICD>K56.1; </MAICD>
+    <STTNHOM>10</STTNHOM>
+    <NHOM>Oxy</NHOM>
+    <STTLOAI>1</STTLOAI>
+    <LOAI>Oxy</LOAI>
+    <MA>629517</MA>
+    <TEN>Oxy 4 lít/phút</TEN>
+    <DVT>giờ</DVT>
+    <SOLUONG>1.000</SOLUONG>
+    <DONGIA>2640</DONGIA>
+    <SOTIEN>2640.00</SOTIEN>
+    <TAMUNG>0</TAMUNG>
+    <TCSOTIEN>682239.91000000000000</TCSOTIEN>
+    <DICHSO>Sáu trăm tám mươi hai nghìn hai trăm ba mươi chín</DICHSO>
+    <MIEN>0</MIEN>
+    <BHYTTRA>0</BHYTTRA>
+    <BNTRA>682239.91000000000000</BNTRA>
+    <DICHSOTRA />
+    <SBLTAMUNG>TAMUNG/45-107967:1000000.0000;</SBLTAMUNG>
+    <SOLUUTRU>^13011660^0</SOLUUTRU>
+    <NGUOINHA />
+    <HINHTHUC>2</HINHTHUC>
+    <PHUONGPHAP>2</PHUONGPHAP>
+    <KETQUA>1</KETQUA>
+    <SOPHIEU>0</SOPHIEU>
+    <LANIN>0</LANIN>
+    <tenuser>toancau</tenuser>
+    <tenbs>Nguyễn Hữu Tuấn</tenbs>
+    <mabs>0079</mabs>
+    <makprv>10</makprv>
+    <cholam />
+    <madt>2</madt>
+    <haophi>0</haophi>
+    <gianovat>2640</gianovat>
+    <idttrv>0</idttrv>
+    <sotientra>2640.000</sotientra>
+    <traituyen>0</traituyen>
+    <tbh>0</tbh>
+    <tbn>0</tbn>
+    <tltraituyen>50</tltraituyen>
+    <dbh>0</dbh>
+    <dbn>0</dbn>
+    <tlchitra>0</tlchitra>
+    <kythuat>-1</kythuat>
+    <loaikythuat />
+    <tong_tu>1000000.0000</tong_tu>
+    <bienlai_tu>TAMUNG/45-107967:1000000.0000;</bienlai_tu>
+    <tongcp>1389278.37</tongcp>
+    <tongmien>165724.64559999990000</tongmien>
+    <tongbhyttra>513313.81187500010000</tongbhyttra>
+    <tongbntra>710239.91</tongbntra>
+    <tlchinhsach>0</tlchinhsach>
+    <ID_KTCAO>0</ID_KTCAO>
+    <ID_VPKHOA>0</ID_VPKHOA>
+    <VUOTTRAN>0</VUOTTRAN>
+    <dinhmucKTcao>26000000</dinhmucKTcao>
+    <giaban>2640</giaban>
+    <mabv />
+    <tenbv />
+    <tuoivao>0111</tuoivao>
+  </ravien>
+  <ravien>
+    <LOAIBA>1</LOAIBA>
+    <MADOITUONGVAO>1</MADOITUONGVAO>
+    <MATT>13011660</MATT>
+    <MABN>13011660</MABN>
+    <MAQL>130125095511330459</MAQL>
+    <IDKHOA>0</IDKHOA>
+    <HOTEN>ĐẶNG MINH THƯ</HOTEN>
+    <NAMSINH>2012</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <DIACHI> , P. Châu Phú A, TX. Châu Đốc, An Giang</DIACHI>
+    <MADOITUONG>2</MADOITUONG>
+    <DOITUONG>Thu phí</DOITUONG>
+    <SOTHE>TE189020030291889013</SOTHE>
+    <MAPHU>0.00</MAPHU>
+    <DENNGAY>04/05/2012^10/03/2018</DENNGAY>
+    <NOIGIOITHIEU>^KKB</NOIGIOITHIEU>
+    <NOICAP>BVĐK khu vực tỉnh^89013</NOICAP>
+    <GIUONG />
+    <MAKP>10</MAKP>
+    <TENKP>Khoa Ngoại Tổng Hợp</TENKP>
+    <NGAYVAO>25/01/2013 09:53</NGAYVAO>
+    <NGAYRA>28/01/2013 15:33</NGAYRA>
+    <CHANDOAN>Lồng ruột; </CHANDOAN>
+    <MAICD>K56.1; </MAICD>
+    <STTNHOM>11</STTNHOM>
+    <NHOM>Khác</NHOM>
+    <STTLOAI>48</STTLOAI>
+    <LOAI>Các khoản thu khác</LOAI>
+    <MA>629455</MA>
+    <TEN>Quần  áo Drap</TEN>
+    <DVT>Lần</DVT>
+    <SOLUONG>3.000</SOLUONG>
+    <DONGIA>4000</DONGIA>
+    <SOTIEN>12000.00</SOTIEN>
+    <TAMUNG>0</TAMUNG>
+    <TCSOTIEN>694239.91000000000000</TCSOTIEN>
+    <DICHSO>Sáu trăm chín mươi bốn nghìn hai trăm ba mươi chín</DICHSO>
+    <MIEN>0</MIEN>
+    <BHYTTRA>0</BHYTTRA>
+    <BNTRA>694239.91000000000000</BNTRA>
+    <DICHSOTRA />
+    <SBLTAMUNG>TAMUNG/45-107967:1000000.0000;</SBLTAMUNG>
+    <SOLUUTRU>^13011660^0</SOLUUTRU>
+    <NGUOINHA />
+    <HINHTHUC>2</HINHTHUC>
+    <PHUONGPHAP>2</PHUONGPHAP>
+    <KETQUA>1</KETQUA>
+    <SOPHIEU>0</SOPHIEU>
+    <LANIN>0</LANIN>
+    <tenuser>toancau</tenuser>
+    <tenbs>Nguyễn Hữu Tuấn</tenbs>
+    <mabs>0042</mabs>
+    <makprv>10</makprv>
+    <cholam />
+    <madt>2</madt>
+    <haophi>0</haophi>
+    <gianovat>4000</gianovat>
+    <idttrv>0</idttrv>
+    <sotientra>12000.000</sotientra>
+    <traituyen>0</traituyen>
+    <tbh>0</tbh>
+    <tbn>0</tbn>
+    <tltraituyen>50</tltraituyen>
+    <dbh>0</dbh>
+    <dbn>0</dbn>
+    <tlchitra>0</tlchitra>
+    <kythuat>-1</kythuat>
+    <loaikythuat />
+    <tong_tu>1000000.0000</tong_tu>
+    <bienlai_tu>TAMUNG/45-107967:1000000.0000;</bienlai_tu>
+    <tongcp>1389278.37</tongcp>
+    <tongmien>165724.64559999990000</tongmien>
+    <tongbhyttra>513313.81187500010000</tongbhyttra>
+    <tongbntra>710239.91</tongbntra>
+    <tlchinhsach>0</tlchinhsach>
+    <ID_KTCAO>0</ID_KTCAO>
+    <ID_VPKHOA>0</ID_VPKHOA>
+    <VUOTTRAN>0</VUOTTRAN>
+    <dinhmucKTcao>26000000</dinhmucKTcao>
+    <giaban>4000</giaban>
+    <mabv />
+    <tenbv />
+    <tuoivao>0111</tuoivao>
+  </ravien>
+  <ravien>
+    <LOAIBA>1</LOAIBA>
+    <MADOITUONGVAO>1</MADOITUONGVAO>
+    <MATT>13011660</MATT>
+    <MABN>13011660</MABN>
+    <MAQL>130125095511330459</MAQL>
+    <IDKHOA>0</IDKHOA>
+    <HOTEN>ĐẶNG MINH THƯ</HOTEN>
+    <NAMSINH>2012</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <DIACHI> , P. Châu Phú A, TX. Châu Đốc, An Giang</DIACHI>
+    <MADOITUONG>2</MADOITUONG>
+    <DOITUONG>Thu phí</DOITUONG>
+    <SOTHE>TE189020030291889013</SOTHE>
+    <MAPHU>0.00</MAPHU>
+    <DENNGAY>04/05/2012^10/03/2018</DENNGAY>
+    <NOIGIOITHIEU>^KKB</NOIGIOITHIEU>
+    <NOICAP>BVĐK khu vực tỉnh^89013</NOICAP>
+    <GIUONG />
+    <MAKP>33</MAKP>
+    <TENKP>Khoa Hồi Sinh</TENKP>
+    <NGAYVAO>25/01/2013 09:53</NGAYVAO>
+    <NGAYRA>28/01/2013 15:33</NGAYRA>
+    <CHANDOAN>Lồng ruột; </CHANDOAN>
+    <MAICD>K56.1; </MAICD>
+    <STTNHOM>11</STTNHOM>
+    <NHOM>Khác</NHOM>
+    <STTLOAI>48</STTLOAI>
+    <LOAI>Các khoản thu khác</LOAI>
+    <MA>626712</MA>
+    <TEN>Đặt máy MONITOR</TEN>
+    <DVT>Giờ</DVT>
+    <SOLUONG>1.000</SOLUONG>
+    <DONGIA>12000</DONGIA>
+    <SOTIEN>12000.00</SOTIEN>
+    <TAMUNG>0</TAMUNG>
+    <TCSOTIEN>706239.91000000000000</TCSOTIEN>
+    <DICHSO>Bảy trăm  linh sáu nghìn hai trăm ba mươi chín</DICHSO>
+    <MIEN>0</MIEN>
+    <BHYTTRA>0</BHYTTRA>
+    <BNTRA>706239.91000000000000</BNTRA>
+    <DICHSOTRA />
+    <SBLTAMUNG>TAMUNG/45-107967:1000000.0000;</SBLTAMUNG>
+    <SOLUUTRU>^13011660^0</SOLUUTRU>
+    <NGUOINHA />
+    <HINHTHUC>2</HINHTHUC>
+    <PHUONGPHAP>2</PHUONGPHAP>
+    <KETQUA>1</KETQUA>
+    <SOPHIEU>0</SOPHIEU>
+    <LANIN>0</LANIN>
+    <tenuser>toancau</tenuser>
+    <tenbs>Nguyễn Hữu Tuấn</tenbs>
+    <mabs>0079</mabs>
+    <makprv>10</makprv>
+    <cholam />
+    <madt>2</madt>
+    <haophi>0</haophi>
+    <gianovat>12000</gianovat>
+    <idttrv>0</idttrv>
+    <sotientra>12000.000</sotientra>
+    <traituyen>0</traituyen>
+    <tbh>0</tbh>
+    <tbn>0</tbn>
+    <tltraituyen>50</tltraituyen>
+    <dbh>0</dbh>
+    <dbn>0</dbn>
+    <tlchitra>0</tlchitra>
+    <kythuat>-1</kythuat>
+    <loaikythuat />
+    <tong_tu>1000000.0000</tong_tu>
+    <bienlai_tu>TAMUNG/45-107967:1000000.0000;</bienlai_tu>
+    <tongcp>1389278.37</tongcp>
+    <tongmien>165724.64559999990000</tongmien>
+    <tongbhyttra>513313.81187500010000</tongbhyttra>
+    <tongbntra>710239.91</tongbntra>
+    <tlchinhsach>0</tlchinhsach>
+    <ID_KTCAO>0</ID_KTCAO>
+    <ID_VPKHOA>0</ID_VPKHOA>
+    <VUOTTRAN>0</VUOTTRAN>
+    <dinhmucKTcao>26000000</dinhmucKTcao>
+    <giaban>12000</giaban>
+    <mabv />
+    <tenbv />
+    <tuoivao>0111</tuoivao>
+  </ravien>
+  <ravien>
+    <LOAIBA>1</LOAIBA>
+    <MADOITUONGVAO>1</MADOITUONGVAO>
+    <MATT>13011660</MATT>
+    <MABN>13011660</MABN>
+    <MAQL>130125095511330459</MAQL>
+    <IDKHOA>0</IDKHOA>
+    <HOTEN>ĐẶNG MINH THƯ</HOTEN>
+    <NAMSINH>2012</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <DIACHI> , P. Châu Phú A, TX. Châu Đốc, An Giang</DIACHI>
+    <MADOITUONG>2</MADOITUONG>
+    <DOITUONG>Thu phí</DOITUONG>
+    <SOTHE>TE189020030291889013</SOTHE>
+    <MAPHU>0.00</MAPHU>
+    <DENNGAY>04/05/2012^10/03/2018</DENNGAY>
+    <NOIGIOITHIEU>^KKB</NOIGIOITHIEU>
+    <NOICAP>BVĐK khu vực tỉnh^89013</NOICAP>
+    <GIUONG />
+    <MAKP>33</MAKP>
+    <TENKP>Khoa Hồi Sinh</TENKP>
+    <NGAYVAO>25/01/2013 09:53</NGAYVAO>
+    <NGAYRA>28/01/2013 15:33</NGAYRA>
+    <CHANDOAN>Lồng ruột; </CHANDOAN>
+    <MAICD>K56.1; </MAICD>
+    <STTNHOM>11</STTNHOM>
+    <NHOM>Khác</NHOM>
+    <STTLOAI>48</STTLOAI>
+    <LOAI>Các khoản thu khác</LOAI>
+    <MA>629455</MA>
+    <TEN>Quần  áo Drap</TEN>
+    <DVT>Lần</DVT>
+    <SOLUONG>1.000</SOLUONG>
+    <DONGIA>4000</DONGIA>
+    <SOTIEN>4000.00</SOTIEN>
+    <TAMUNG>0</TAMUNG>
+    <TCSOTIEN>710239.91000000000000</TCSOTIEN>
+    <DICHSO>Bảy trăm  mười  nghìn hai trăm ba mươi chín</DICHSO>
+    <MIEN>0</MIEN>
+    <BHYTTRA>0</BHYTTRA>
+    <BNTRA>710239.91000000000000</BNTRA>
+    <DICHSOTRA />
+    <SBLTAMUNG>TAMUNG/45-107967:1000000.0000;</SBLTAMUNG>
+    <SOLUUTRU>^13011660^0</SOLUUTRU>
+    <NGUOINHA />
+    <HINHTHUC>2</HINHTHUC>
+    <PHUONGPHAP>2</PHUONGPHAP>
+    <KETQUA>1</KETQUA>
+    <SOPHIEU>0</SOPHIEU>
+    <LANIN>0</LANIN>
+    <tenuser>toancau</tenuser>
+    <tenbs>Nguyễn Hữu Tuấn</tenbs>
+    <mabs>0079</mabs>
+    <makprv>10</makprv>
+    <cholam />
+    <madt>2</madt>
+    <haophi>0</haophi>
+    <gianovat>4000</gianovat>
+    <idttrv>0</idttrv>
+    <sotientra>4000.000</sotientra>
+    <traituyen>0</traituyen>
+    <tbh>0</tbh>
+    <tbn>0</tbn>
+    <tltraituyen>50</tltraituyen>
+    <dbh>0</dbh>
+    <dbn>0</dbn>
+    <tlchitra>0</tlchitra>
+    <kythuat>-1</kythuat>
+    <loaikythuat />
+    <tong_tu>1000000.0000</tong_tu>
+    <bienlai_tu>TAMUNG/45-107967:1000000.0000;</bienlai_tu>
+    <tongcp>1389278.37</tongcp>
+    <tongmien>165724.64559999990000</tongmien>
+    <tongbhyttra>513313.81187500010000</tongbhyttra>
+    <tongbntra>710239.91</tongbntra>
+    <tlchinhsach>0</tlchinhsach>
+    <ID_KTCAO>0</ID_KTCAO>
+    <ID_VPKHOA>0</ID_VPKHOA>
+    <VUOTTRAN>0</VUOTTRAN>
+    <dinhmucKTcao>26000000</dinhmucKTcao>
+    <giaban>4000</giaban>
+    <mabv />
+    <tenbv />
+    <tuoivao>0111</tuoivao>
+  </ravien>
+  <ravien>
+    <LOAIBA>1</LOAIBA>
+    <MADOITUONGVAO>1</MADOITUONGVAO>
+    <MATT>13011660</MATT>
+    <MABN>13011660</MABN>
+    <MAQL>130125095511330459</MAQL>
+    <IDKHOA>0</IDKHOA>
+    <HOTEN>ĐẶNG MINH THƯ</HOTEN>
+    <NAMSINH>2012</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <DIACHI> , P. Châu Phú A, TX. Châu Đốc, An Giang</DIACHI>
+    <MADOITUONG>5</MADOITUONG>
+    <DOITUONG>Hao phí</DOITUONG>
+    <SOTHE>TE189020030291889013</SOTHE>
+    <MAPHU>0</MAPHU>
+    <DENNGAY>04/05/2012^10/03/2018</DENNGAY>
+    <NOIGIOITHIEU>^KKB</NOIGIOITHIEU>
+    <NOICAP>BVĐK khu vực tỉnh^89013</NOICAP>
+    <GIUONG />
+    <MAKP>14</MAKP>
+    <TENKP>Khoa Phẫu Thuật - GMHS</TENKP>
+    <NGAYVAO>25/01/2013 09:53</NGAYVAO>
+    <NGAYRA>28/01/2013 15:33</NGAYRA>
+    <CHANDOAN>Lồng ruột; </CHANDOAN>
+    <MAICD>K56.1; </MAICD>
+    <STTNHOM>3</STTNHOM>
+    <NHOM>Thuốc</NHOM>
+    <STTLOAI>8</STTLOAI>
+    <LOAI>Thuốc Thường Ống</LOAI>
+    <MA>627942</MA>
+    <TEN>Hydrocortisone. [Hydrocortisone] 100mg</TEN>
+    <DVT>Lọ</DVT>
+    <SOLUONG>1.0000</SOLUONG>
+    <DONGIA>24000.00</DONGIA>
+    <SOTIEN>24000.00</SOTIEN>
+    <TAMUNG>0</TAMUNG>
+    <TCSOTIEN>23999.99800000000000</TCSOTIEN>
+    <DICHSO>Hai mươi ba nghìn chín trăm chín mươi chín</DICHSO>
+    <MIEN>23999.99800000000000</MIEN>
+    <BHYTTRA>0</BHYTTRA>
+    <BNTRA>0</BNTRA>
+    <DICHSOTRA />
+    <SBLTAMUNG>TAMUNG/45-107967:1000000.0000;</SBLTAMUNG>
+    <SOLUUTRU>^13011660^0</SOLUUTRU>
+    <NGUOINHA />
+    <HINHTHUC>2</HINHTHUC>
+    <PHUONGPHAP>2</PHUONGPHAP>
+    <KETQUA>1</KETQUA>
+    <SOPHIEU>0</SOPHIEU>
+    <LANIN>0</LANIN>
+    <tenuser>toancau</tenuser>
+    <tenbs>Nguyễn Hữu Tuấn</tenbs>
+    <mabs>0</mabs>
+    <makprv>10</makprv>
+    <cholam />
+    <madt>5</madt>
+    <haophi>0</haophi>
+    <gianovat>0</gianovat>
+    <idttrv>0</idttrv>
+    <sotientra>23999.99800000000000</sotientra>
+    <traituyen>0</traituyen>
+    <tbh>0</tbh>
+    <tbn>0</tbn>
+    <tltraituyen>50</tltraituyen>
+    <dbh>0</dbh>
+    <dbn>0</dbn>
+    <tlchitra>0</tlchitra>
+    <kythuat>-1</kythuat>
+    <loaikythuat />
+    <tong_tu>1000000.0000</tong_tu>
+    <bienlai_tu>TAMUNG/45-107967:1000000.0000;</bienlai_tu>
+    <tongcp>1389278.37</tongcp>
+    <tongmien>165724.64559999990000</tongmien>
+    <tongbhyttra>513313.81187500010000</tongbhyttra>
+    <tongbntra>710239.91</tongbntra>
+    <tlchinhsach>0</tlchinhsach>
+    <ID_KTCAO>0</ID_KTCAO>
+    <ID_VPKHOA>0</ID_VPKHOA>
+    <VUOTTRAN>0</VUOTTRAN>
+    <dinhmucKTcao>26000000</dinhmucKTcao>
+    <giaban>24000.00</giaban>
+    <mabv />
+    <tenbv />
+    <tuoivao>0111</tuoivao>
+  </ravien>
+  <ravien>
+    <LOAIBA>1</LOAIBA>
+    <MADOITUONGVAO>1</MADOITUONGVAO>
+    <MATT>13011660</MATT>
+    <MABN>13011660</MABN>
+    <MAQL>130125095511330459</MAQL>
+    <IDKHOA>0</IDKHOA>
+    <HOTEN>ĐẶNG MINH THƯ</HOTEN>
+    <NAMSINH>2012</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <DIACHI> , P. Châu Phú A, TX. Châu Đốc, An Giang</DIACHI>
+    <MADOITUONG>5</MADOITUONG>
+    <DOITUONG>Hao phí</DOITUONG>
+    <SOTHE>TE189020030291889013</SOTHE>
+    <MAPHU>0</MAPHU>
+    <DENNGAY>04/05/2012^10/03/2018</DENNGAY>
+    <NOIGIOITHIEU>^KKB</NOIGIOITHIEU>
+    <NOICAP>BVĐK khu vực tỉnh^89013</NOICAP>
+    <GIUONG />
+    <MAKP>14</MAKP>
+    <TENKP>Khoa Phẫu Thuật - GMHS</TENKP>
+    <NGAYVAO>25/01/2013 09:53</NGAYVAO>
+    <NGAYRA>28/01/2013 15:33</NGAYRA>
+    <CHANDOAN>Lồng ruột; </CHANDOAN>
+    <MAICD>K56.1; </MAICD>
+    <STTNHOM>3</STTNHOM>
+    <NHOM>Thuốc</NHOM>
+    <STTLOAI>1</STTLOAI>
+    <LOAI>Thuốc Hướng Tâm Thần</LOAI>
+    <MA>629466</MA>
+    <TEN>Paciflam. [Midazolam] 5mg/ml</TEN>
+    <DVT>Ống</DVT>
+    <SOLUONG>0.5000</SOLUONG>
+    <DONGIA>18900.00</DONGIA>
+    <SOTIEN>9450.00</SOTIEN>
+    <TAMUNG>0</TAMUNG>
+    <TCSOTIEN>33449.99800000000000</TCSOTIEN>
+    <DICHSO>Ba mươi ba nghìn bốn trăm bốn mươi chín</DICHSO>
+    <MIEN>33449.99800000000000</MIEN>
+    <BHYTTRA>0</BHYTTRA>
+    <BNTRA>0</BNTRA>
+    <DICHSOTRA />
+    <SBLTAMUNG>TAMUNG/45-107967:1000000.0000;</SBLTAMUNG>
+    <SOLUUTRU>^13011660^0</SOLUUTRU>
+    <NGUOINHA />
+    <HINHTHUC>2</HINHTHUC>
+    <PHUONGPHAP>2</PHUONGPHAP>
+    <KETQUA>1</KETQUA>
+    <SOPHIEU>0</SOPHIEU>
+    <LANIN>0</LANIN>
+    <tenuser>toancau</tenuser>
+    <tenbs>Nguyễn Hữu Tuấn</tenbs>
+    <mabs>0</mabs>
+    <makprv>10</makprv>
+    <cholam />
+    <madt>5</madt>
+    <haophi>0</haophi>
+    <gianovat>0</gianovat>
+    <idttrv>0</idttrv>
+    <sotientra>9450.00000000000000</sotientra>
+    <traituyen>0</traituyen>
+    <tbh>0</tbh>
+    <tbn>0</tbn>
+    <tltraituyen>50</tltraituyen>
+    <dbh>0</dbh>
+    <dbn>0</dbn>
+    <tlchitra>0</tlchitra>
+    <kythuat>-1</kythuat>
+    <loaikythuat />
+    <tong_tu>1000000.0000</tong_tu>
+    <bienlai_tu>TAMUNG/45-107967:1000000.0000;</bienlai_tu>
+    <tongcp>1389278.37</tongcp>
+    <tongmien>165724.64559999990000</tongmien>
+    <tongbhyttra>513313.81187500010000</tongbhyttra>
+    <tongbntra>710239.91</tongbntra>
+    <tlchinhsach>0</tlchinhsach>
+    <ID_KTCAO>0</ID_KTCAO>
+    <ID_VPKHOA>0</ID_VPKHOA>
+    <VUOTTRAN>0</VUOTTRAN>
+    <dinhmucKTcao>26000000</dinhmucKTcao>
+    <giaban>18900.00</giaban>
+    <mabv />
+    <tenbv />
+    <tuoivao>0111</tuoivao>
+  </ravien>
+  <ravien>
+    <LOAIBA>1</LOAIBA>
+    <MADOITUONGVAO>1</MADOITUONGVAO>
+    <MATT>13011660</MATT>
+    <MABN>13011660</MABN>
+    <MAQL>130125095511330459</MAQL>
+    <IDKHOA>0</IDKHOA>
+    <HOTEN>ĐẶNG MINH THƯ</HOTEN>
+    <NAMSINH>2012</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <DIACHI> , P. Châu Phú A, TX. Châu Đốc, An Giang</DIACHI>
+    <MADOITUONG>5</MADOITUONG>
+    <DOITUONG>Hao phí</DOITUONG>
+    <SOTHE>TE189020030291889013</SOTHE>
+    <MAPHU>0</MAPHU>
+    <DENNGAY>04/05/2012^10/03/2018</DENNGAY>
+    <NOIGIOITHIEU>^KKB</NOIGIOITHIEU>
+    <NOICAP>BVĐK khu vực tỉnh^89013</NOICAP>
+    <GIUONG />
+    <MAKP>14</MAKP>
+    <TENKP>Khoa Phẫu Thuật - GMHS</TENKP>
+    <NGAYVAO>25/01/2013 09:53</NGAYVAO>
+    <NGAYRA>28/01/2013 15:33</NGAYRA>
+    <CHANDOAN>Lồng ruột; </CHANDOAN>
+    <MAICD>K56.1; </MAICD>
+    <STTNHOM>3</STTNHOM>
+    <NHOM>Thuốc</NHOM>
+    <STTLOAI>8</STTLOAI>
+    <LOAI>Thuốc Thường Ống</LOAI>
+    <MA>626283</MA>
+    <TEN>Xylocain. [Lidocain] 2%/30g</TEN>
+    <DVT>Tube</DVT>
+    <SOLUONG>1.0000</SOLUONG>
+    <DONGIA>55600.00</DONGIA>
+    <SOTIEN>55600.00</SOTIEN>
+    <TAMUNG>0</TAMUNG>
+    <TCSOTIEN>89049.99550000000000</TCSOTIEN>
+    <DICHSO>Tám mươi chín nghìn bốn mươi chín</DICHSO>
+    <MIEN>89049.99550000000000</MIEN>
+    <BHYTTRA>0</BHYTTRA>
+    <BNTRA>0</BNTRA>
+    <DICHSOTRA />
+    <SBLTAMUNG>TAMUNG/45-107967:1000000.0000;</SBLTAMUNG>
+    <SOLUUTRU>^13011660^0</SOLUUTRU>
+    <NGUOINHA />
+    <HINHTHUC>2</HINHTHUC>
+    <PHUONGPHAP>2</PHUONGPHAP>
+    <KETQUA>1</KETQUA>
+    <SOPHIEU>0</SOPHIEU>
+    <LANIN>0</LANIN>
+    <tenuser>toancau</tenuser>
+    <tenbs>Nguyễn Hữu Tuấn</tenbs>
+    <mabs>0</mabs>
+    <makprv>10</makprv>
+    <cholam />
+    <madt>5</madt>
+    <haophi>0</haophi>
+    <gianovat>0</gianovat>
+    <idttrv>0</idttrv>
+    <sotientra>55599.99750000000000</sotientra>
+    <traituyen>0</traituyen>
+    <tbh>0</tbh>
+    <tbn>0</tbn>
+    <tltraituyen>50</tltraituyen>
+    <dbh>0</dbh>
+    <dbn>0</dbn>
+    <tlchitra>0</tlchitra>
+    <kythuat>-1</kythuat>
+    <loaikythuat />
+    <tong_tu>1000000.0000</tong_tu>
+    <bienlai_tu>TAMUNG/45-107967:1000000.0000;</bienlai_tu>
+    <tongcp>1389278.37</tongcp>
+    <tongmien>165724.64559999990000</tongmien>
+    <tongbhyttra>513313.81187500010000</tongbhyttra>
+    <tongbntra>710239.91</tongbntra>
+    <tlchinhsach>0</tlchinhsach>
+    <ID_KTCAO>0</ID_KTCAO>
+    <ID_VPKHOA>0</ID_VPKHOA>
+    <VUOTTRAN>0</VUOTTRAN>
+    <dinhmucKTcao>26000000</dinhmucKTcao>
+    <giaban>55600.00</giaban>
+    <mabv />
+    <tenbv />
+    <tuoivao>0111</tuoivao>
+  </ravien>
+  <ravien>
+    <LOAIBA>1</LOAIBA>
+    <MADOITUONGVAO>1</MADOITUONGVAO>
+    <MATT>13011660</MATT>
+    <MABN>13011660</MABN>
+    <MAQL>130125095511330459</MAQL>
+    <IDKHOA>0</IDKHOA>
+    <HOTEN>ĐẶNG MINH THƯ</HOTEN>
+    <NAMSINH>2012</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <DIACHI> , P. Châu Phú A, TX. Châu Đốc, An Giang</DIACHI>
+    <MADOITUONG>5</MADOITUONG>
+    <DOITUONG>Hao phí</DOITUONG>
+    <SOTHE>TE189020030291889013</SOTHE>
+    <MAPHU>0</MAPHU>
+    <DENNGAY>04/05/2012^10/03/2018</DENNGAY>
+    <NOIGIOITHIEU>^KKB</NOIGIOITHIEU>
+    <NOICAP>BVĐK khu vực tỉnh^89013</NOICAP>
+    <GIUONG />
+    <MAKP>10</MAKP>
+    <TENKP>Khoa Ngoại Tổng Hợp</TENKP>
+    <NGAYVAO>25/01/2013 09:53</NGAYVAO>
+    <NGAYRA>28/01/2013 15:33</NGAYRA>
+    <CHANDOAN>Lồng ruột; </CHANDOAN>
+    <MAICD>K56.1; </MAICD>
+    <STTNHOM>13</STTNHOM>
+    <NHOM>Vật tư y tế tiêu hao</NHOM>
+    <STTLOAI>5</STTLOAI>
+    <LOAI>Vật tư y tế</LOAI>
+    <MA>631595</MA>
+    <TEN>Băng keo cá nhân Urgo Durable. [] </TEN>
+    <DVT>Miếng</DVT>
+    <SOLUONG>3.0000</SOLUONG>
+    <DONGIA>347.55</DONGIA>
+    <SOTIEN>1042.65</SOTIEN>
+    <TAMUNG>0</TAMUNG>
+    <TCSOTIEN>90092.64550000000000</TCSOTIEN>
+    <DICHSO>Chín mươi  nghìn chín mươi hai</DICHSO>
+    <MIEN>90092.64550000000000</MIEN>
+    <BHYTTRA>0</BHYTTRA>
+    <BNTRA>0</BNTRA>
+    <DICHSOTRA />
+    <SBLTAMUNG>TAMUNG/45-107967:1000000.0000;</SBLTAMUNG>
+    <SOLUUTRU>^13011660^0</SOLUUTRU>
+    <NGUOINHA />
+    <HINHTHUC>2</HINHTHUC>
+    <PHUONGPHAP>2</PHUONGPHAP>
+    <KETQUA>1</KETQUA>
+    <SOPHIEU>0</SOPHIEU>
+    <LANIN>0</LANIN>
+    <tenuser>toancau</tenuser>
+    <tenbs>Nguyễn Hữu Tuấn</tenbs>
+    <mabs>0</mabs>
+    <makprv>10</makprv>
+    <cholam />
+    <madt>5</madt>
+    <haophi>0</haophi>
+    <gianovat>0</gianovat>
+    <idttrv>0</idttrv>
+    <sotientra>1042.65000000000000</sotientra>
+    <traituyen>0</traituyen>
+    <tbh>0</tbh>
+    <tbn>0</tbn>
+    <tltraituyen>50</tltraituyen>
+    <dbh>0</dbh>
+    <dbn>0</dbn>
+    <tlchitra>0</tlchitra>
+    <kythuat>-1</kythuat>
+    <loaikythuat />
+    <tong_tu>1000000.0000</tong_tu>
+    <bienlai_tu>TAMUNG/45-107967:1000000.0000;</bienlai_tu>
+    <tongcp>1389278.37</tongcp>
+    <tongmien>165724.64559999990000</tongmien>
+    <tongbhyttra>513313.81187500010000</tongbhyttra>
+    <tongbntra>710239.91</tongbntra>
+    <tlchinhsach>0</tlchinhsach>
+    <ID_KTCAO>0</ID_KTCAO>
+    <ID_VPKHOA>0</ID_VPKHOA>
+    <VUOTTRAN>0</VUOTTRAN>
+    <dinhmucKTcao>26000000</dinhmucKTcao>
+    <giaban>347.55</giaban>
+    <mabv />
+    <tenbv />
+    <tuoivao>0111</tuoivao>
+  </ravien>
+  <ravien>
+    <LOAIBA>1</LOAIBA>
+    <MADOITUONGVAO>1</MADOITUONGVAO>
+    <MATT>13011660</MATT>
+    <MABN>13011660</MABN>
+    <MAQL>130125095511330459</MAQL>
+    <IDKHOA>0</IDKHOA>
+    <HOTEN>ĐẶNG MINH THƯ</HOTEN>
+    <NAMSINH>2012</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <DIACHI> , P. Châu Phú A, TX. Châu Đốc, An Giang</DIACHI>
+    <MADOITUONG>5</MADOITUONG>
+    <DOITUONG>Hao phí</DOITUONG>
+    <SOTHE>TE189020030291889013</SOTHE>
+    <MAPHU>0</MAPHU>
+    <DENNGAY>04/05/2012^10/03/2018</DENNGAY>
+    <NOIGIOITHIEU>^KKB</NOIGIOITHIEU>
+    <NOICAP>BVĐK khu vực tỉnh^89013</NOICAP>
+    <GIUONG />
+    <MAKP>10</MAKP>
+    <TENKP>Khoa Ngoại Tổng Hợp</TENKP>
+    <NGAYVAO>25/01/2013 09:53</NGAYVAO>
+    <NGAYRA>28/01/2013 15:33</NGAYRA>
+    <CHANDOAN>Lồng ruột; </CHANDOAN>
+    <MAICD>K56.1; </MAICD>
+    <STTNHOM>13</STTNHOM>
+    <NHOM>Vật tư y tế tiêu hao</NHOM>
+    <STTLOAI>5</STTLOAI>
+    <LOAI>Vật tư y tế</LOAI>
+    <MA>630228</MA>
+    <TEN>Găng kiểm tra size M [] </TEN>
+    <DVT>Đôi</DVT>
+    <SOLUONG>12.0000</SOLUONG>
+    <DONGIA>1760.00</DONGIA>
+    <SOTIEN>21120.00</SOTIEN>
+    <TAMUNG>0</TAMUNG>
+    <TCSOTIEN>111212.64550000000000</TCSOTIEN>
+    <DICHSO>Một trăm  mười một  nghìn hai trăm  mười hai</DICHSO>
+    <MIEN>111212.64550000000000</MIEN>
+    <BHYTTRA>0</BHYTTRA>
+    <BNTRA>0</BNTRA>
+    <DICHSOTRA />
+    <SBLTAMUNG>TAMUNG/45-107967:1000000.0000;</SBLTAMUNG>
+    <SOLUUTRU>^13011660^0</SOLUUTRU>
+    <NGUOINHA />
+    <HINHTHUC>2</HINHTHUC>
+    <PHUONGPHAP>2</PHUONGPHAP>
+    <KETQUA>1</KETQUA>
+    <SOPHIEU>0</SOPHIEU>
+    <LANIN>0</LANIN>
+    <tenuser>toancau</tenuser>
+    <tenbs>Nguyễn Hữu Tuấn</tenbs>
+    <mabs>0</mabs>
+    <makprv>10</makprv>
+    <cholam />
+    <madt>5</madt>
+    <haophi>0</haophi>
+    <gianovat>0</gianovat>
+    <idttrv>0</idttrv>
+    <sotientra>21120.00000000000000</sotientra>
+    <traituyen>0</traituyen>
+    <tbh>0</tbh>
+    <tbn>0</tbn>
+    <tltraituyen>50</tltraituyen>
+    <dbh>0</dbh>
+    <dbn>0</dbn>
+    <tlchitra>0</tlchitra>
+    <kythuat>-1</kythuat>
+    <loaikythuat />
+    <tong_tu>1000000.0000</tong_tu>
+    <bienlai_tu>TAMUNG/45-107967:1000000.0000;</bienlai_tu>
+    <tongcp>1389278.37</tongcp>
+    <tongmien>165724.64559999990000</tongmien>
+    <tongbhyttra>513313.81187500010000</tongbhyttra>
+    <tongbntra>710239.91</tongbntra>
+    <tlchinhsach>0</tlchinhsach>
+    <ID_KTCAO>0</ID_KTCAO>
+    <ID_VPKHOA>0</ID_VPKHOA>
+    <VUOTTRAN>0</VUOTTRAN>
+    <dinhmucKTcao>26000000</dinhmucKTcao>
+    <giaban>1760.00</giaban>
+    <mabv />
+    <tenbv />
+    <tuoivao>0111</tuoivao>
+  </ravien>
+  <ravien>
+    <LOAIBA>1</LOAIBA>
+    <MADOITUONGVAO>1</MADOITUONGVAO>
+    <MATT>13011660</MATT>
+    <MABN>13011660</MABN>
+    <MAQL>130125095511330459</MAQL>
+    <IDKHOA>0</IDKHOA>
+    <HOTEN>ĐẶNG MINH THƯ</HOTEN>
+    <NAMSINH>2012</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <DIACHI> , P. Châu Phú A, TX. Châu Đốc, An Giang</DIACHI>
+    <MADOITUONG>5</MADOITUONG>
+    <DOITUONG>Hao phí</DOITUONG>
+    <SOTHE>TE189020030291889013</SOTHE>
+    <MAPHU>0</MAPHU>
+    <DENNGAY>04/05/2012^10/03/2018</DENNGAY>
+    <NOIGIOITHIEU>^KKB</NOIGIOITHIEU>
+    <NOICAP>BVĐK khu vực tỉnh^89013</NOICAP>
+    <GIUONG />
+    <MAKP>14</MAKP>
+    <TENKP>Khoa Phẫu Thuật - GMHS</TENKP>
+    <NGAYVAO>25/01/2013 09:53</NGAYVAO>
+    <NGAYRA>28/01/2013 15:33</NGAYRA>
+    <CHANDOAN>Lồng ruột; </CHANDOAN>
+    <MAICD>K56.1; </MAICD>
+    <STTNHOM>13</STTNHOM>
+    <NHOM>Vật tư y tế tiêu hao</NHOM>
+    <STTLOAI>5</STTLOAI>
+    <LOAI>Vật tư y tế</LOAI>
+    <MA>631577</MA>
+    <TEN>Bơm tiêm nhựa 10ml. [] </TEN>
+    <DVT>Cái</DVT>
+    <SOLUONG>2.0000</SOLUONG>
+    <DONGIA>1050.00</DONGIA>
+    <SOTIEN>2100.00</SOTIEN>
+    <TAMUNG>0</TAMUNG>
+    <TCSOTIEN>113312.64550000000000</TCSOTIEN>
+    <DICHSO>Một trăm  mười ba nghìn ba trăm  mười hai</DICHSO>
+    <MIEN>113312.64550000000000</MIEN>
+    <BHYTTRA>0</BHYTTRA>
+    <BNTRA>0</BNTRA>
+    <DICHSOTRA />
+    <SBLTAMUNG>TAMUNG/45-107967:1000000.0000;</SBLTAMUNG>
+    <SOLUUTRU>^13011660^0</SOLUUTRU>
+    <NGUOINHA />
+    <HINHTHUC>2</HINHTHUC>
+    <PHUONGPHAP>2</PHUONGPHAP>
+    <KETQUA>1</KETQUA>
+    <SOPHIEU>0</SOPHIEU>
+    <LANIN>0</LANIN>
+    <tenuser>toancau</tenuser>
+    <tenbs>Nguyễn Hữu Tuấn</tenbs>
+    <mabs>0</mabs>
+    <makprv>10</makprv>
+    <cholam />
+    <madt>5</madt>
+    <haophi>0</haophi>
+    <gianovat>0</gianovat>
+    <idttrv>0</idttrv>
+    <sotientra>2100.00000000000000</sotientra>
+    <traituyen>0</traituyen>
+    <tbh>0</tbh>
+    <tbn>0</tbn>
+    <tltraituyen>50</tltraituyen>
+    <dbh>0</dbh>
+    <dbn>0</dbn>
+    <tlchitra>0</tlchitra>
+    <kythuat>-1</kythuat>
+    <loaikythuat />
+    <tong_tu>1000000.0000</tong_tu>
+    <bienlai_tu>TAMUNG/45-107967:1000000.0000;</bienlai_tu>
+    <tongcp>1389278.37</tongcp>
+    <tongmien>165724.64559999990000</tongmien>
+    <tongbhyttra>513313.81187500010000</tongbhyttra>
+    <tongbntra>710239.91</tongbntra>
+    <tlchinhsach>0</tlchinhsach>
+    <ID_KTCAO>0</ID_KTCAO>
+    <ID_VPKHOA>0</ID_VPKHOA>
+    <VUOTTRAN>0</VUOTTRAN>
+    <dinhmucKTcao>26000000</dinhmucKTcao>
+    <giaban>1050.00</giaban>
+    <mabv />
+    <tenbv />
+    <tuoivao>0111</tuoivao>
+  </ravien>
+  <ravien>
+    <LOAIBA>1</LOAIBA>
+    <MADOITUONGVAO>1</MADOITUONGVAO>
+    <MATT>13011660</MATT>
+    <MABN>13011660</MABN>
+    <MAQL>130125095511330459</MAQL>
+    <IDKHOA>0</IDKHOA>
+    <HOTEN>ĐẶNG MINH THƯ</HOTEN>
+    <NAMSINH>2012</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <DIACHI> , P. Châu Phú A, TX. Châu Đốc, An Giang</DIACHI>
+    <MADOITUONG>5</MADOITUONG>
+    <DOITUONG>Hao phí</DOITUONG>
+    <SOTHE>TE189020030291889013</SOTHE>
+    <MAPHU>0</MAPHU>
+    <DENNGAY>04/05/2012^10/03/2018</DENNGAY>
+    <NOIGIOITHIEU>^KKB</NOIGIOITHIEU>
+    <NOICAP>BVĐK khu vực tỉnh^89013</NOICAP>
+    <GIUONG />
+    <MAKP>14</MAKP>
+    <TENKP>Khoa Phẫu Thuật - GMHS</TENKP>
+    <NGAYVAO>25/01/2013 09:53</NGAYVAO>
+    <NGAYRA>28/01/2013 15:33</NGAYRA>
+    <CHANDOAN>Lồng ruột; </CHANDOAN>
+    <MAICD>K56.1; </MAICD>
+    <STTNHOM>13</STTNHOM>
+    <NHOM>Vật tư y tế tiêu hao</NHOM>
+    <STTLOAI>5</STTLOAI>
+    <LOAI>Vật tư y tế</LOAI>
+    <MA>629471</MA>
+    <TEN>Găng phẩu thuật tiệt trùng 7 (SS-CT3-TT) [] </TEN>
+    <DVT>Đôi</DVT>
+    <SOLUONG>3.0000</SOLUONG>
+    <DONGIA>5492.00</DONGIA>
+    <SOTIEN>16476.00</SOTIEN>
+    <TAMUNG>0</TAMUNG>
+    <TCSOTIEN>129788.64559999990000</TCSOTIEN>
+    <DICHSO>Một trăm hai mươi chín nghìn bảy trăm tám mươi tám</DICHSO>
+    <MIEN>129788.64559999990000</MIEN>
+    <BHYTTRA>0</BHYTTRA>
+    <BNTRA>0</BNTRA>
+    <DICHSOTRA />
+    <SBLTAMUNG>TAMUNG/45-107967:1000000.0000;</SBLTAMUNG>
+    <SOLUUTRU>^13011660^0</SOLUUTRU>
+    <NGUOINHA />
+    <HINHTHUC>2</HINHTHUC>
+    <PHUONGPHAP>2</PHUONGPHAP>
+    <KETQUA>1</KETQUA>
+    <SOPHIEU>0</SOPHIEU>
+    <LANIN>0</LANIN>
+    <tenuser>toancau</tenuser>
+    <tenbs>Nguyễn Hữu Tuấn</tenbs>
+    <mabs>0</mabs>
+    <makprv>10</makprv>
+    <cholam />
+    <madt>5</madt>
+    <haophi>0</haophi>
+    <gianovat>0</gianovat>
+    <idttrv>0</idttrv>
+    <sotientra>16476.00009999990000</sotientra>
+    <traituyen>0</traituyen>
+    <tbh>0</tbh>
+    <tbn>0</tbn>
+    <tltraituyen>50</tltraituyen>
+    <dbh>0</dbh>
+    <dbn>0</dbn>
+    <tlchitra>0</tlchitra>
+    <kythuat>-1</kythuat>
+    <loaikythuat />
+    <tong_tu>1000000.0000</tong_tu>
+    <bienlai_tu>TAMUNG/45-107967:1000000.0000;</bienlai_tu>
+    <tongcp>1389278.37</tongcp>
+    <tongmien>165724.64559999990000</tongmien>
+    <tongbhyttra>513313.81187500010000</tongbhyttra>
+    <tongbntra>710239.91</tongbntra>
+    <tlchinhsach>0</tlchinhsach>
+    <ID_KTCAO>0</ID_KTCAO>
+    <ID_VPKHOA>0</ID_VPKHOA>
+    <VUOTTRAN>0</VUOTTRAN>
+    <dinhmucKTcao>26000000</dinhmucKTcao>
+    <giaban>5492.00</giaban>
+    <mabv />
+    <tenbv />
+    <tuoivao>0111</tuoivao>
+  </ravien>
+  <ravien>
+    <LOAIBA>1</LOAIBA>
+    <MADOITUONGVAO>1</MADOITUONGVAO>
+    <MATT>13011660</MATT>
+    <MABN>13011660</MABN>
+    <MAQL>130125095511330459</MAQL>
+    <IDKHOA>0</IDKHOA>
+    <HOTEN>ĐẶNG MINH THƯ</HOTEN>
+    <NAMSINH>2012</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <DIACHI> , P. Châu Phú A, TX. Châu Đốc, An Giang</DIACHI>
+    <MADOITUONG>5</MADOITUONG>
+    <DOITUONG>Hao phí</DOITUONG>
+    <SOTHE>TE189020030291889013</SOTHE>
+    <MAPHU>0</MAPHU>
+    <DENNGAY>04/05/2012^10/03/2018</DENNGAY>
+    <NOIGIOITHIEU>^KKB</NOIGIOITHIEU>
+    <NOICAP>BVĐK khu vực tỉnh^89013</NOICAP>
+    <GIUONG />
+    <MAKP>14</MAKP>
+    <TENKP>Khoa Phẫu Thuật - GMHS</TENKP>
+    <NGAYVAO>25/01/2013 09:53</NGAYVAO>
+    <NGAYRA>28/01/2013 15:33</NGAYRA>
+    <CHANDOAN>Lồng ruột; </CHANDOAN>
+    <MAICD>K56.1; </MAICD>
+    <STTNHOM>13</STTNHOM>
+    <NHOM>Vật tư y tế tiêu hao</NHOM>
+    <STTLOAI>5</STTLOAI>
+    <LOAI>Vật tư y tế</LOAI>
+    <MA>631613</MA>
+    <TEN>Miếng dán điện cực sóc điện. [] </TEN>
+    <DVT>Miếng</DVT>
+    <SOLUONG>3.0000</SOLUONG>
+    <DONGIA>2100.00</DONGIA>
+    <SOTIEN>6300.00</SOTIEN>
+    <TAMUNG>0</TAMUNG>
+    <TCSOTIEN>136088.64559999990000</TCSOTIEN>
+    <DICHSO>Một trăm ba mươi sáu nghìn tám mươi tám</DICHSO>
+    <MIEN>136088.64559999990000</MIEN>
+    <BHYTTRA>0</BHYTTRA>
+    <BNTRA>0</BNTRA>
+    <DICHSOTRA />
+    <SBLTAMUNG>TAMUNG/45-107967:1000000.0000;</SBLTAMUNG>
+    <SOLUUTRU>^13011660^0</SOLUUTRU>
+    <NGUOINHA />
+    <HINHTHUC>2</HINHTHUC>
+    <PHUONGPHAP>2</PHUONGPHAP>
+    <KETQUA>1</KETQUA>
+    <SOPHIEU>0</SOPHIEU>
+    <LANIN>0</LANIN>
+    <tenuser>toancau</tenuser>
+    <tenbs>Nguyễn Hữu Tuấn</tenbs>
+    <mabs>0</mabs>
+    <makprv>10</makprv>
+    <cholam />
+    <madt>5</madt>
+    <haophi>0</haophi>
+    <gianovat>0</gianovat>
+    <idttrv>0</idttrv>
+    <sotientra>6300.00000000000000</sotientra>
+    <traituyen>0</traituyen>
+    <tbh>0</tbh>
+    <tbn>0</tbn>
+    <tltraituyen>50</tltraituyen>
+    <dbh>0</dbh>
+    <dbn>0</dbn>
+    <tlchitra>0</tlchitra>
+    <kythuat>-1</kythuat>
+    <loaikythuat />
+    <tong_tu>1000000.0000</tong_tu>
+    <bienlai_tu>TAMUNG/45-107967:1000000.0000;</bienlai_tu>
+    <tongcp>1389278.37</tongcp>
+    <tongmien>165724.64559999990000</tongmien>
+    <tongbhyttra>513313.81187500010000</tongbhyttra>
+    <tongbntra>710239.91</tongbntra>
+    <tlchinhsach>0</tlchinhsach>
+    <ID_KTCAO>0</ID_KTCAO>
+    <ID_VPKHOA>0</ID_VPKHOA>
+    <VUOTTRAN>0</VUOTTRAN>
+    <dinhmucKTcao>26000000</dinhmucKTcao>
+    <giaban>2100.00</giaban>
+    <mabv />
+    <tenbv />
+    <tuoivao>0111</tuoivao>
+  </ravien>
+  <ravien>
+    <LOAIBA>1</LOAIBA>
+    <MADOITUONGVAO>1</MADOITUONGVAO>
+    <MATT>13011660</MATT>
+    <MABN>13011660</MABN>
+    <MAQL>130125095511330459</MAQL>
+    <IDKHOA>0</IDKHOA>
+    <HOTEN>ĐẶNG MINH THƯ</HOTEN>
+    <NAMSINH>2012</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <DIACHI> , P. Châu Phú A, TX. Châu Đốc, An Giang</DIACHI>
+    <MADOITUONG>5</MADOITUONG>
+    <DOITUONG>Hao phí</DOITUONG>
+    <SOTHE>TE189020030291889013</SOTHE>
+    <MAPHU>0</MAPHU>
+    <DENNGAY>04/05/2012^10/03/2018</DENNGAY>
+    <NOIGIOITHIEU>^KKB</NOIGIOITHIEU>
+    <NOICAP>BVĐK khu vực tỉnh^89013</NOICAP>
+    <GIUONG />
+    <MAKP>14</MAKP>
+    <TENKP>Khoa Phẫu Thuật - GMHS</TENKP>
+    <NGAYVAO>25/01/2013 09:53</NGAYVAO>
+    <NGAYRA>28/01/2013 15:33</NGAYRA>
+    <CHANDOAN>Lồng ruột; </CHANDOAN>
+    <MAICD>K56.1; </MAICD>
+    <STTNHOM>13</STTNHOM>
+    <NHOM>Vật tư y tế tiêu hao</NHOM>
+    <STTLOAI>5</STTLOAI>
+    <LOAI>Vật tư y tế</LOAI>
+    <MA>631676</MA>
+    <TEN>Sonde foley 2 ways số 22. [] </TEN>
+    <DVT>Sợi</DVT>
+    <SOLUONG>2.0000</SOLUONG>
+    <DONGIA>8400.00</DONGIA>
+    <SOTIEN>16800.00</SOTIEN>
+    <TAMUNG>0</TAMUNG>
+    <TCSOTIEN>152888.64559999990000</TCSOTIEN>
+    <DICHSO>Một trăm năm mươi hai nghìn tám trăm tám mươi tám</DICHSO>
+    <MIEN>152888.64559999990000</MIEN>
+    <BHYTTRA>0</BHYTTRA>
+    <BNTRA>0</BNTRA>
+    <DICHSOTRA />
+    <SBLTAMUNG>TAMUNG/45-107967:1000000.0000;</SBLTAMUNG>
+    <SOLUUTRU>^13011660^0</SOLUUTRU>
+    <NGUOINHA />
+    <HINHTHUC>2</HINHTHUC>
+    <PHUONGPHAP>2</PHUONGPHAP>
+    <KETQUA>1</KETQUA>
+    <SOPHIEU>0</SOPHIEU>
+    <LANIN>0</LANIN>
+    <tenuser>toancau</tenuser>
+    <tenbs>Nguyễn Hữu Tuấn</tenbs>
+    <mabs>0</mabs>
+    <makprv>10</makprv>
+    <cholam />
+    <madt>5</madt>
+    <haophi>0</haophi>
+    <gianovat>0</gianovat>
+    <idttrv>0</idttrv>
+    <sotientra>16800.00000000000000</sotientra>
+    <traituyen>0</traituyen>
+    <tbh>0</tbh>
+    <tbn>0</tbn>
+    <tltraituyen>50</tltraituyen>
+    <dbh>0</dbh>
+    <dbn>0</dbn>
+    <tlchitra>0</tlchitra>
+    <kythuat>-1</kythuat>
+    <loaikythuat />
+    <tong_tu>1000000.0000</tong_tu>
+    <bienlai_tu>TAMUNG/45-107967:1000000.0000;</bienlai_tu>
+    <tongcp>1389278.37</tongcp>
+    <tongmien>165724.64559999990000</tongmien>
+    <tongbhyttra>513313.81187500010000</tongbhyttra>
+    <tongbntra>710239.91</tongbntra>
+    <tlchinhsach>0</tlchinhsach>
+    <ID_KTCAO>0</ID_KTCAO>
+    <ID_VPKHOA>0</ID_VPKHOA>
+    <VUOTTRAN>0</VUOTTRAN>
+    <dinhmucKTcao>26000000</dinhmucKTcao>
+    <giaban>8400.00</giaban>
+    <mabv />
+    <tenbv />
+    <tuoivao>0111</tuoivao>
+  </ravien>
+  <ravien>
+    <LOAIBA>1</LOAIBA>
+    <MADOITUONGVAO>1</MADOITUONGVAO>
+    <MATT>13011660</MATT>
+    <MABN>13011660</MABN>
+    <MAQL>130125095511330459</MAQL>
+    <IDKHOA>0</IDKHOA>
+    <HOTEN>ĐẶNG MINH THƯ</HOTEN>
+    <NAMSINH>2012</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <DIACHI> , P. Châu Phú A, TX. Châu Đốc, An Giang</DIACHI>
+    <MADOITUONG>5</MADOITUONG>
+    <DOITUONG>Hao phí</DOITUONG>
+    <SOTHE>TE189020030291889013</SOTHE>
+    <MAPHU>0</MAPHU>
+    <DENNGAY>04/05/2012^10/03/2018</DENNGAY>
+    <NOIGIOITHIEU>^KKB</NOIGIOITHIEU>
+    <NOICAP>BVĐK khu vực tỉnh^89013</NOICAP>
+    <GIUONG />
+    <MAKP>14</MAKP>
+    <TENKP>Khoa Phẫu Thuật - GMHS</TENKP>
+    <NGAYVAO>25/01/2013 09:53</NGAYVAO>
+    <NGAYRA>28/01/2013 15:33</NGAYRA>
+    <CHANDOAN>Lồng ruột; </CHANDOAN>
+    <MAICD>K56.1; </MAICD>
+    <STTNHOM>13</STTNHOM>
+    <NHOM>Vật tư y tế tiêu hao</NHOM>
+    <STTLOAI>5</STTLOAI>
+    <LOAI>Vật tư y tế</LOAI>
+    <MA>631631</MA>
+    <TEN>Sonde hút đàm có nắp khóa số 8. [] </TEN>
+    <DVT>Cái</DVT>
+    <SOLUONG>1.0000</SOLUONG>
+    <DONGIA>2520.00</DONGIA>
+    <SOTIEN>2520.00</SOTIEN>
+    <TAMUNG>0</TAMUNG>
+    <TCSOTIEN>155408.64559999990000</TCSOTIEN>
+    <DICHSO>Một trăm năm mươi lăm nghìn bốn trăm  linh tám</DICHSO>
+    <MIEN>155408.64559999990000</MIEN>
+    <BHYTTRA>0</BHYTTRA>
+    <BNTRA>0</BNTRA>
+    <DICHSOTRA />
+    <SBLTAMUNG>TAMUNG/45-107967:1000000.0000;</SBLTAMUNG>
+    <SOLUUTRU>^13011660^0</SOLUUTRU>
+    <NGUOINHA />
+    <HINHTHUC>2</HINHTHUC>
+    <PHUONGPHAP>2</PHUONGPHAP>
+    <KETQUA>1</KETQUA>
+    <SOPHIEU>0</SOPHIEU>
+    <LANIN>0</LANIN>
+    <tenuser>toancau</tenuser>
+    <tenbs>Nguyễn Hữu Tuấn</tenbs>
+    <mabs>0</mabs>
+    <makprv>10</makprv>
+    <cholam />
+    <madt>5</madt>
+    <haophi>0</haophi>
+    <gianovat>0</gianovat>
+    <idttrv>0</idttrv>
+    <sotientra>2520.00000000000000</sotientra>
+    <traituyen>0</traituyen>
+    <tbh>0</tbh>
+    <tbn>0</tbn>
+    <tltraituyen>50</tltraituyen>
+    <dbh>0</dbh>
+    <dbn>0</dbn>
+    <tlchitra>0</tlchitra>
+    <kythuat>-1</kythuat>
+    <loaikythuat />
+    <tong_tu>1000000.0000</tong_tu>
+    <bienlai_tu>TAMUNG/45-107967:1000000.0000;</bienlai_tu>
+    <tongcp>1389278.37</tongcp>
+    <tongmien>165724.64559999990000</tongmien>
+    <tongbhyttra>513313.81187500010000</tongbhyttra>
+    <tongbntra>710239.91</tongbntra>
+    <tlchinhsach>0</tlchinhsach>
+    <ID_KTCAO>0</ID_KTCAO>
+    <ID_VPKHOA>0</ID_VPKHOA>
+    <VUOTTRAN>0</VUOTTRAN>
+    <dinhmucKTcao>26000000</dinhmucKTcao>
+    <giaban>2520.00</giaban>
+    <mabv />
+    <tenbv />
+    <tuoivao>0111</tuoivao>
+  </ravien>
+  <ravien>
+    <LOAIBA>1</LOAIBA>
+    <MADOITUONGVAO>1</MADOITUONGVAO>
+    <MATT>13011660</MATT>
+    <MABN>13011660</MABN>
+    <MAQL>130125095511330459</MAQL>
+    <IDKHOA>0</IDKHOA>
+    <HOTEN>ĐẶNG MINH THƯ</HOTEN>
+    <NAMSINH>2012</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <DIACHI> , P. Châu Phú A, TX. Châu Đốc, An Giang</DIACHI>
+    <MADOITUONG>5</MADOITUONG>
+    <DOITUONG>Hao phí</DOITUONG>
+    <SOTHE>TE189020030291889013</SOTHE>
+    <MAPHU>0</MAPHU>
+    <DENNGAY>04/05/2012^10/03/2018</DENNGAY>
+    <NOIGIOITHIEU>^KKB</NOIGIOITHIEU>
+    <NOICAP>BVĐK khu vực tỉnh^89013</NOICAP>
+    <GIUONG />
+    <MAKP>33</MAKP>
+    <TENKP>Khoa Hồi Sinh</TENKP>
+    <NGAYVAO>25/01/2013 09:53</NGAYVAO>
+    <NGAYRA>28/01/2013 15:33</NGAYRA>
+    <CHANDOAN>Lồng ruột; </CHANDOAN>
+    <MAICD>K56.1; </MAICD>
+    <STTNHOM>13</STTNHOM>
+    <NHOM>Vật tư y tế tiêu hao</NHOM>
+    <STTLOAI>5</STTLOAI>
+    <LOAI>Vật tư y tế</LOAI>
+    <MA>630228</MA>
+    <TEN>Găng kiểm tra size M [] </TEN>
+    <DVT>Đôi</DVT>
+    <SOLUONG>4.0000</SOLUONG>
+    <DONGIA>1760.00</DONGIA>
+    <SOTIEN>7040.00</SOTIEN>
+    <TAMUNG>0</TAMUNG>
+    <TCSOTIEN>162448.64559999990000</TCSOTIEN>
+    <DICHSO>Một trăm sáu mươi hai nghìn bốn trăm bốn mươi tám</DICHSO>
+    <MIEN>162448.64559999990000</MIEN>
+    <BHYTTRA>0</BHYTTRA>
+    <BNTRA>0</BNTRA>
+    <DICHSOTRA />
+    <SBLTAMUNG>TAMUNG/45-107967:1000000.0000;</SBLTAMUNG>
+    <SOLUUTRU>^13011660^0</SOLUUTRU>
+    <NGUOINHA />
+    <HINHTHUC>2</HINHTHUC>
+    <PHUONGPHAP>2</PHUONGPHAP>
+    <KETQUA>1</KETQUA>
+    <SOPHIEU>0</SOPHIEU>
+    <LANIN>0</LANIN>
+    <tenuser>toancau</tenuser>
+    <tenbs>Nguyễn Hữu Tuấn</tenbs>
+    <mabs>0</mabs>
+    <makprv>10</makprv>
+    <cholam />
+    <madt>5</madt>
+    <haophi>0</haophi>
+    <gianovat>0</gianovat>
+    <idttrv>0</idttrv>
+    <sotientra>7040.00000000000000</sotientra>
+    <traituyen>0</traituyen>
+    <tbh>0</tbh>
+    <tbn>0</tbn>
+    <tltraituyen>50</tltraituyen>
+    <dbh>0</dbh>
+    <dbn>0</dbn>
+    <tlchitra>0</tlchitra>
+    <kythuat>-1</kythuat>
+    <loaikythuat />
+    <tong_tu>1000000.0000</tong_tu>
+    <bienlai_tu>TAMUNG/45-107967:1000000.0000;</bienlai_tu>
+    <tongcp>1389278.37</tongcp>
+    <tongmien>165724.64559999990000</tongmien>
+    <tongbhyttra>513313.81187500010000</tongbhyttra>
+    <tongbntra>710239.91</tongbntra>
+    <tlchinhsach>0</tlchinhsach>
+    <ID_KTCAO>0</ID_KTCAO>
+    <ID_VPKHOA>0</ID_VPKHOA>
+    <VUOTTRAN>0</VUOTTRAN>
+    <dinhmucKTcao>26000000</dinhmucKTcao>
+    <giaban>1760.00</giaban>
+    <mabv />
+    <tenbv />
+    <tuoivao>0111</tuoivao>
+  </ravien>
+  <ravien>
+    <LOAIBA>1</LOAIBA>
+    <MADOITUONGVAO>1</MADOITUONGVAO>
+    <MATT>13011660</MATT>
+    <MABN>13011660</MABN>
+    <MAQL>130125095511330459</MAQL>
+    <IDKHOA>0</IDKHOA>
+    <HOTEN>ĐẶNG MINH THƯ</HOTEN>
+    <NAMSINH>2012</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <DIACHI> , P. Châu Phú A, TX. Châu Đốc, An Giang</DIACHI>
+    <MADOITUONG>5</MADOITUONG>
+    <DOITUONG>Hao phí</DOITUONG>
+    <SOTHE>TE189020030291889013</SOTHE>
+    <MAPHU>0</MAPHU>
+    <DENNGAY>04/05/2012^10/03/2018</DENNGAY>
+    <NOIGIOITHIEU>^KKB</NOIGIOITHIEU>
+    <NOICAP>BVĐK khu vực tỉnh^89013</NOICAP>
+    <GIUONG />
+    <MAKP>10</MAKP>
+    <TENKP>Khoa Ngoại Tổng Hợp</TENKP>
+    <NGAYVAO>25/01/2013 09:53</NGAYVAO>
+    <NGAYRA>28/01/2013 15:33</NGAYRA>
+    <CHANDOAN>Lồng ruột; </CHANDOAN>
+    <MAICD>K56.1; </MAICD>
+    <STTNHOM>14</STTNHOM>
+    <NHOM>Dịch Truyền</NHOM>
+    <STTLOAI>9</STTLOAI>
+    <LOAI>Dịch truyền</LOAI>
+    <MA>630670</MA>
+    <TEN>Nước cất 5ml</TEN>
+    <DVT>Ống</DVT>
+    <SOLUONG>4.0000</SOLUONG>
+    <DONGIA>819.00</DONGIA>
+    <SOTIEN>3276.00</SOTIEN>
+    <TAMUNG>0</TAMUNG>
+    <TCSOTIEN>165724.64559999990000</TCSOTIEN>
+    <DICHSO>Một trăm sáu mươi lăm nghìn bảy trăm hai mươi bốn</DICHSO>
+    <MIEN>165724.64559999990000</MIEN>
+    <BHYTTRA>0</BHYTTRA>
+    <BNTRA>0</BNTRA>
+    <DICHSOTRA />
+    <SBLTAMUNG>TAMUNG/45-107967:1000000.0000;</SBLTAMUNG>
+    <SOLUUTRU>^13011660^0</SOLUUTRU>
+    <NGUOINHA />
+    <HINHTHUC>2</HINHTHUC>
+    <PHUONGPHAP>2</PHUONGPHAP>
+    <KETQUA>1</KETQUA>
+    <SOPHIEU>0</SOPHIEU>
+    <LANIN>0</LANIN>
+    <tenuser>toancau</tenuser>
+    <tenbs>Nguyễn Hữu Tuấn</tenbs>
+    <mabs>0</mabs>
+    <makprv>10</makprv>
+    <cholam />
+    <madt>5</madt>
+    <haophi>0</haophi>
+    <gianovat>0</gianovat>
+    <idttrv>0</idttrv>
+    <sotientra>3276.00000000000000</sotientra>
+    <traituyen>0</traituyen>
+    <tbh>0</tbh>
+    <tbn>0</tbn>
+    <tltraituyen>50</tltraituyen>
+    <dbh>0</dbh>
+    <dbn>0</dbn>
+    <tlchitra>0</tlchitra>
+    <kythuat>-1</kythuat>
+    <loaikythuat />
+    <tong_tu>1000000.0000</tong_tu>
+    <bienlai_tu>TAMUNG/45-107967:1000000.0000;</bienlai_tu>
+    <tongcp>1389278.37</tongcp>
+    <tongmien>165724.64559999990000</tongmien>
+    <tongbhyttra>513313.81187500010000</tongbhyttra>
+    <tongbntra>710239.91</tongbntra>
+    <tlchinhsach>0</tlchinhsach>
+    <ID_KTCAO>0</ID_KTCAO>
+    <ID_VPKHOA>0</ID_VPKHOA>
+    <VUOTTRAN>0</VUOTTRAN>
+    <dinhmucKTcao>26000000</dinhmucKTcao>
+    <giaban>819.00</giaban>
+    <mabv />
+    <tenbv />
+    <tuoivao>0111</tuoivao>
+  </ravien>
+</NewDataSet>

@@ -1,0 +1,15 @@
+﻿HUONG DAN VIEN PHI 30/10/2006
+
+- Chép chương trình mới về: (Chỉ chép bin thôi để khỏi mất các option đang chạy)
+
+* Sữa:
+- Trong khai báo thông số hệ thống có cho chọn lựa in biên lai nội trú chi tiết hay tổng hợp theo loại viện phí, nhóm viện phí,
+kết xuất ra field lydo trong report (Huyết học)
+- Trong Phân quyển sử dụng -> Giới hạn quyền có thêm phần [Không cho sữa ngày thu] ứng với từng chức năng 
+và từng người thu (ĐKTN)
+- Trong phần Tùy chọn/ <Các chức năng> có các mục chỉ thu các nội dung sau/Không thu các nội dung sau: (ĐKTN)
+Sau khi khai báo một user, 
++ right-click vào user đó trên combo và chọn copy, sau đó chọn user khác và 
++ right-click -> chọn paste để giới hạn giống nhau
+- Báo cáo mục số 7 đã sữa, kiểm tra lại xem sao (TRƯỜNG).
+- Sữa loại bệnh nhân phòng khám trong thanh toán ra viện rồi (KHÁNH).

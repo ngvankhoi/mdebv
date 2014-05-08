@@ -1,0 +1,95 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="MAKHO" type="xs:decimal" minOccurs="0" />
+                <xs:element name="MABD" type="xs:decimal" minOccurs="0" />
+                <xs:element name="SOLUONG" type="xs:decimal" minOccurs="0" />
+                <xs:element name="TEN" type="xs:string" minOccurs="0" />
+                <xs:element name="TENHC" type="xs:string" minOccurs="0" />
+                <xs:element name="DANG" type="xs:string" minOccurs="0" />
+                <xs:element name="HAMLUONG" type="xs:string" minOccurs="0" />
+                <xs:element name="MANHOM" type="xs:decimal" minOccurs="0" />
+                <xs:element name="TENNHOM" type="xs:string" minOccurs="0" />
+                <xs:element name="HOTEN" type="xs:string" minOccurs="0" />
+                <xs:element name="NAMSINH" type="xs:string" minOccurs="0" />
+                <xs:element name="PHAI" type="xs:decimal" minOccurs="0" />
+                <xs:element name="MA" type="xs:string" minOccurs="0" />
+                <xs:element name="DONGIA" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <MAKHO>2</MAKHO>
+    <MABD>305</MABD>
+    <SOLUONG>1</SOLUONG>
+    <TEN>Depersolone</TEN>
+    <TENHC>Mazipredone</TENHC>
+    <DANG>Ống</DANG>
+    <HAMLUONG>30mg   /1ml</HAMLUONG>
+    <MANHOM>3</MANHOM>
+    <TENNHOM>Thuốc Độc A-B</TENNHOM>
+    <HOTEN>HUỲNH THỊ ÁNH HOA</HOTEN>
+    <NAMSINH>1958</NAMSINH>
+    <PHAI>1</PHAI>
+    <MA>DEP000</MA>
+    <DONGIA>9660</DONGIA>
+  </Table>
+  <Table>
+    <MAKHO>2</MAKHO>
+    <MABD>430</MABD>
+    <SOLUONG>10</SOLUONG>
+    <TEN>Glucophage</TEN>
+    <TENHC>Metformin</TENHC>
+    <DANG>Viên</DANG>
+    <HAMLUONG>850mg  ( H/100 )</HAMLUONG>
+    <MANHOM>3</MANHOM>
+    <TENNHOM>Thuốc Độc A-B</TENNHOM>
+    <HOTEN>HỒ THỊ HOA</HOTEN>
+    <NAMSINH>1954</NAMSINH>
+    <PHAI>1</PHAI>
+    <MA>GLU001</MA>
+    <DONGIA>2140.005</DONGIA>
+  </Table>
+  <Table>
+    <MAKHO>2</MAKHO>
+    <MABD>677</MABD>
+    <SOLUONG>2</SOLUONG>
+    <TEN>Nitromint</TEN>
+    <TENHC>Glycerin   Trinitate</TENHC>
+    <DANG>Viên</DANG>
+    <HAMLUONG>2,6mg ( H/30 )</HAMLUONG>
+    <MANHOM>3</MANHOM>
+    <TENNHOM>Thuốc Độc A-B</TENNHOM>
+    <HOTEN>VŨ THỊ HỘI</HOTEN>
+    <NAMSINH>1929</NAMSINH>
+    <PHAI>1</PHAI>
+    <MA>NIT000</MA>
+    <DONGIA>686.665</DONGIA>
+  </Table>
+  <Table>
+    <MAKHO>2</MAKHO>
+    <MABD>795</MABD>
+    <SOLUONG>2</SOLUONG>
+    <TEN>Primperran      inj</TEN>
+    <TENHC>Metoclopramid</TENHC>
+    <DANG>Ống</DANG>
+    <HAMLUONG>10mg 2ml (H/12 )</HAMLUONG>
+    <MANHOM>3</MANHOM>
+    <TENNHOM>Thuốc Độc A-B</TENNHOM>
+    <HOTEN>PHẠM HỮU TÂN</HOTEN>
+    <NAMSINH>1976</NAMSINH>
+    <PHAI>0</PHAI>
+    <MA>PRI000</MA>
+    <DONGIA>2835</DONGIA>
+  </Table>
+</NewDataSet>

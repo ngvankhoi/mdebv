@@ -1,0 +1,1114 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ID" type="xs:decimal" minOccurs="0" />
+                <xs:element name="LOAI" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ID_CHA" type="xs:decimal" minOccurs="0" />
+                <xs:element name="STT" type="xs:decimal" minOccurs="0" />
+                <xs:element name="TEN" type="xs:string" minOccurs="0" />
+                <xs:element name="SQL" type="xs:string" minOccurs="0" />
+                <xs:element name="TENFIELD" type="xs:string" minOccurs="0" />
+                <xs:element name="CAPTIONFIELD" type="xs:string" minOccurs="0" />
+                <xs:element name="WIDTH" type="xs:string" minOccurs="0" />
+                <xs:element name="REPORT" type="xs:string" minOccurs="0" />
+                <xs:element name="READONLY" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <ID>99</ID>
+    <LOAI>1</LOAI>
+    <ID_CHA>1</ID_CHA>
+    <STT>1</STT>
+    <TEN>Tiếp đón</TEN>
+    <SQL>select b.makp,b.tenkp, count(*) soca, sum(decode(a.madoituong,1,1,0)) bhyt, sum(decode(a.madoituong,2,1,0)) thuphi,sum(decode(a.madoituong,3,1,0)) mien,sum(decode(a.madoituong,4,1,0)) khac, sum(decode(a.madoituong,5,1,0)) treem from tiepdon a, btdkp_bv b where a.makp=b.makp(+) and b.loai in (1) and a.ngay between to_date(':v_tn16','dd/mm/yyyy hh24:mi') and to_date(':v_dn16','dd/mm/yyyy hh24:mi') group by b.makp,b.tenkp order by b.tenkp</SQL>
+    <TENFIELD>makp,tenkp,soca,bhyt,thuphi,mien,treem,khac</TENFIELD>
+    <CAPTIONFIELD>Mã KP, Tên khoa phòng, Số ca.,Trong đó BHYT.,Thu phí.,Miễn.,Trẻ em &lt;6T.,Khác</CAPTIONFIELD>
+    <WIDTH>50,150,100,100,100,100,100</WIDTH>
+    <REPORT>v_thtv_tiepdonpk.rpt</REPORT>
+    <READONLY>0</READONLY>
+  </Table>
+  <Table>
+    <ID>100</ID>
+    <LOAI>1</LOAI>
+    <ID_CHA>99</ID_CHA>
+    <STT>2</STT>
+    <TEN>2. Báo cáo số liệu theo ngày</TEN>
+    <SQL>select to_char(a.ngay,'dd/mm/yyyy') ngay, count(*) soca, sum(decode(a.madoituong,1,1,0)) bhyt,sum(decode(a.madoituong,2,1,0)) thuphi,sum(decode(a.madoituong,3,1,0)) mien,sum(decode(a.madoituong,4,1,0)) khac,sum(decode(a.madoituong,5,1,0)) treem from medibvmmyy.tiepdon a where to_date(to_char(a.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and to_date(':v_dn','dd/mm/yyyy') group by to_char(a.ngay,'dd/mm/yyyy')</SQL>
+    <TENFIELD>ngay,soca,bhyt,thuphi,mien,treem,khac</TENFIELD>
+    <CAPTIONFIELD>Ngày,Số ca.,Trong đó BHYT.,Thu phí.,Miễn.,Trẻ em &lt;6T.,Khác.</CAPTIONFIELD>
+    <WIDTH>80,80,80,80,80,80,80</WIDTH>
+    <REPORT>v_thtv_tiepdonngay_anbinh.rpt</REPORT>
+    <READONLY>0</READONLY>
+  </Table>
+  <Table>
+    <ID>96</ID>
+    <LOAI>1</LOAI>
+    <ID_CHA>159</ID_CHA>
+    <STT>5</STT>
+    <TEN>Tổng hợp thuốc sử dụng theo khoa</TEN>
+    <SQL>select c.makp,c.tenkp,sum(a.sotien) sotien, sum(decode(a.done,1,a.sotien,0)) dathu, sum(decode(a.done,1,0,a.sotien)) conlai from d_tienthuoc a, d_duockp b, btdkp_bv c where a.makp=b.id(+) and b.makp=c.makp(+) and a.sotien&gt;0 and  to_date(to_char(a.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and  to_date(':v_dn','dd/mm/yyyy') group by c.makp,c.tenkp order by c.tenkp</SQL>
+    <TENFIELD>makp,tenkp,sotien,dathu,conlai</TENFIELD>
+    <CAPTIONFIELD>Mã KP,Tên khoa phòng,Số tiền,BN đã thanh toán,BN còn nợ</CAPTIONFIELD>
+    <WIDTH>45,200,100,100,100</WIDTH>
+    <READONLY>0</READONLY>
+  </Table>
+  <Table>
+    <ID>95</ID>
+    <LOAI>1</LOAI>
+    <ID_CHA>6</ID_CHA>
+    <STT>2</STT>
+    <TEN>Báo cáo theo theo nơi giới thiệu</TEN>
+    <SQL>select b.makp,b.tenkp, sum(decode(a.dentu,1,1,0)) cqyt, sum(decode(a.dentu,2,1,0)) tuden,sum(decode(a.dentu,3,1,0)) khac, count(*) soca from benhandt a, btdkp_bv b where a.makp=b.makp and a.loaiba in (1,4) and to_date(to_char(a.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and to_date(':v_dn','dd/mm/yyyy')
+group by b.makp,b.tenkp</SQL>
+    <TENFIELD>makp,tenkp,soca,cqyt,tuden,khac</TENFIELD>
+    <CAPTIONFIELD>Mã KP,Tên khoa phòng, Số ca.,CQYT Chuyển đến.,Tự đến.,Khác.</CAPTIONFIELD>
+    <WIDTH>40,150,100,80,80,80</WIDTH>
+    <REPORT>v_thtv_nhapvien_noigioithieu.rpt</REPORT>
+    <READONLY>0</READONLY>
+  </Table>
+  <Table>
+    <ID>73</ID>
+    <LOAI>1</LOAI>
+    <ID_CHA>18</ID_CHA>
+    <STT>12</STT>
+    <TEN>12. Tổng hợp miễn giảm theo nhân viên thu ngân</TEN>
+    <SQL>select a.userid, d.hoten,sum(nvl(b.soluong,0)*nvl(b.dongia,0)-nvl(b.thieu,0)) sotien from medibvmmyy.v_vienphill a, medibvmmyy.v_vienphict b, medibvmmyy.v_mienngtru c, v_dlogin d where a.id=b.id and a.id=c.id and a.userid=d.id and to_date(to_char(a.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and to_date(':v_dn','dd/mm/yyyy') group by a.userid, d.hoten order by d.hoten</SQL>
+    <TENFIELD>hoten,sotien</TENFIELD>
+    <CAPTIONFIELD>Nhân viên thu ngân,Tổng tiền miễn.</CAPTIONFIELD>
+    <WIDTH>150,100</WIDTH>
+    <READONLY>0</READONLY>
+  </Table>
+  <Table>
+    <ID>74</ID>
+    <LOAI>1</LOAI>
+    <ID_CHA>18</ID_CHA>
+    <STT>13</STT>
+    <TEN>13. Tổng hợp miễn giảm theo nhân viên nhập liệu</TEN>
+    <SQL>select c.maduyet, d.ten,sum(nvl(b.soluong,0)*nvl(b.dongia,0)-nvl(b.thieu,0)) sotien from medibvmmyy.v_vienphill a, medibvmmyy.v_vienphict b, medibvmmyy.v_mienngtru c, v_dsduyet d where a.id=b.id and a.id=c.id and c.maduyet=d.ma and to_date(to_char(a.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and to_date(':v_dn','dd/mm/yyyy') group by c.maduyet, d.ten order by d.ten</SQL>
+    <TENFIELD>ten,sotien</TENFIELD>
+    <CAPTIONFIELD>Nhân viên nhập miễn,Tổng tiền miễn.</CAPTIONFIELD>
+    <WIDTH>150,100</WIDTH>
+    <READONLY>0</READONLY>
+  </Table>
+  <Table>
+    <ID>110</ID>
+    <LOAI>1</LOAI>
+    <ID_CHA>53</ID_CHA>
+    <STT>4</STT>
+    <TEN>4. Báo cáo số biên lai toàn viện</TEN>
+    <SQL>select to_char(a.ngay,'dd/mm/yyyy') ngay,b.id, b.sohieu,b.sohieubl, count(a.id) sobl, sum(decode(c.id,null,0,1)) soblhuy,min(a.sobienlai) minsbl, max(a.sobienlai) maxsbl from  v_quyenso b, (select ngay,id, quyenso,sobienlai,loai,loaibn from medibvmmyy.v_tamung union all select ngay,id, quyenso,sobienlai,loai,loaibn from medibvmmyy.v_ttrvll union all select ngay,id, quyenso,sobienlai,loai,loaibn from medibvmmyy.v_vienphill) a, medibvmmyy.v_hoantra c where a.quyenso=b.id and a.quyenso=c.quyenso(+) and a.sobienlai=c.sobienlai(+) and a.loai=c.loai(+) and a.loaibn=c.loaibn(+) and to_date(to_char(a.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and to_date(':v_dn','dd/mm/yyyy') group by to_char(a.ngay,'dd/mm/yyyy'), b.id, b.sohieu,b.sohieubl</SQL>
+    <TENFIELD>ngay,sohieu,sohieubl,sobl,soblhuy,minsbl,maxsbl</TENFIELD>
+    <CAPTIONFIELD>Ngày,Ký hiệu,Tên sổ,Số biên lai sử dụng.,Số biên lai hủy.Từ số.,Đến số.</CAPTIONFIELD>
+    <WIDTH>80,120,120,120,120,120,120</WIDTH>
+    <REPORT>v_thtv_baocaosobienlai.rpt</REPORT>
+    <READONLY>0</READONLY>
+  </Table>
+  <Table>
+    <ID>109</ID>
+    <LOAI>1</LOAI>
+    <ID_CHA>53</ID_CHA>
+    <STT>3</STT>
+    <TEN>3. Báo cáo số biên lai thu tạm ứng</TEN>
+    <SQL>select to_char(a.ngay,'dd/mm/yyyy') ngay,b.id, b.sohieu,b.sohieubl, count(a.id) sobl, sum(decode(c.id,null,0,1)) soblhuy,min(a.sobienlai) minsbl, max(a.sobienlai) maxsbl from medibvmmyy.v_tamung a, v_quyenso b, medibvmmyy.v_hoantra c where a.quyenso=b.id and a.quyenso=c.quyenso(+) and a.sobienlai=c.sobienlai(+) and a.loai=c.loai(+) and a.loaibn=c.loaibn(+) and to_date(to_char(a.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and to_date(':v_dn','dd/mm/yyyy') group by to_char(a.ngay,'dd/mm/yyyy'), b.id, b.sohieu,b.sohieubl</SQL>
+    <TENFIELD>ngay,sohieu,sohieubl,sobl,soblhuy,minsbl,maxsbl</TENFIELD>
+    <CAPTIONFIELD>Ngày,Ký hiệu,Tên sổ,Số biên lai sử dụng.,Số biên lai hủy.,Từ số.,Đến số.</CAPTIONFIELD>
+    <WIDTH>80,120,120,120,120,120,120</WIDTH>
+    <REPORT>v_thtv_baocaosobienlai.rpt</REPORT>
+    <READONLY>0</READONLY>
+  </Table>
+  <Table>
+    <ID>27</ID>
+    <LOAI>1</LOAI>
+    <ID_CHA>19</ID_CHA>
+    <STT>1</STT>
+    <TEN>Tổng hợp theo ngày</TEN>
+    <SQL>select to_char(a.ngay,'dd/mm/yyyy') ngay,sum(a.sotien) sotien, count(a.id) sobl, sum(decode(a.done,1,1,0)) soblhoan,sum(decode(a.done,1,a.sotien,0)) hoan,sum(decode(a.done,1,0,1)) soblcon, sum(decode(a.done,1,0,a.sotien)) con from v_tamung a where  to_date(to_char(a.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and  to_date(':v_dn','dd/mm/yyyy') group by to_char(a.ngay,'dd/mm/yyyy') 
+union all 
+select null ngay,sum(a.sotien) sotien, count(a.id) sobl, sum(decode(a.done,1,1,0)) soblhoan,sum(decode(a.done,1,a.sotien,0)) hoan,sum(decode(a.done,1,0,1)) soblcon, sum(decode(a.done,1,0,a.sotien)) con from v_tamung a where to_date(to_char(a.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and  to_date(':v_dn','dd/mm/yyyy') order by ngay</SQL>
+    <TENFIELD>ngay,sobl,sotien,soblhoan,hoan,soblcon,con</TENFIELD>
+    <CAPTIONFIELD>Ngày,Tổng biên lai,Tổng số tiền,Tổng biên lai hoàn,Số tiền hoàn,Tổng biên lai còn lại,Số tiền còn lại</CAPTIONFIELD>
+    <WIDTH>70,100,100,100,100,100,100,100</WIDTH>
+    <READONLY>0</READONLY>
+  </Table>
+  <Table>
+    <ID>94</ID>
+    <LOAI>1</LOAI>
+    <ID_CHA>6</ID_CHA>
+    <STT>1</STT>
+    <TEN>Báo cáo theo nơi tiếp nhận</TEN>
+    <SQL>select b.makp,b.tenkp, sum(decode(a.nhantu,1,1,0)) capcuu, sum(decode(a.nhantu,2,1,0)) khambenh,sum(decode(a.nhantu,3,1,0)) dieutri, count(*) soca from benhandt a, btdkp_bv b where a.makp=b.makp and a.loaiba in (1,4) and to_date(to_char(a.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and to_date(':v_dn','dd/mm/yyyy')
+group by b.makp,b.tenkp</SQL>
+    <TENFIELD>makp,tenkp,soca,capcuu,khambenh,dieutri</TENFIELD>
+    <CAPTIONFIELD>Mã KP,Tên khoa phòng, Số ca.,Cấp cứu.,Khám bệnh.,Điều trị.</CAPTIONFIELD>
+    <WIDTH>40,150,100,60,70,60</WIDTH>
+    <REPORT>v_thtv_nhapvien_noitiepnhan.rpt</REPORT>
+    <READONLY>0</READONLY>
+  </Table>
+  <Table>
+    <ID>4</ID>
+    <LOAI>1</LOAI>
+    <ID_CHA>135</ID_CHA>
+    <STT>11</STT>
+    <TEN>Danh mục phòng khám</TEN>
+    <SQL>select a.makp,a.tenkp, a.kehoach,b.makp makpbo, b.tenkp tenkpbo from btdkp_bv a, btdkp b where a.loai=1 and a.makpbo=b.makp</SQL>
+    <TENFIELD>makp,tenkp,makpbo,tenkpbo</TENFIELD>
+    <CAPTIONFIELD>Mã ,Tên,Mã theo bộ,Tên theo bộ</CAPTIONFIELD>
+    <WIDTH>60,200,80,200</WIDTH>
+    <READONLY>0</READONLY>
+  </Table>
+  <Table>
+    <ID>3</ID>
+    <LOAI>1</LOAI>
+    <ID_CHA>135</ID_CHA>
+    <STT>10</STT>
+    <TEN>Danh mục khoa</TEN>
+    <SQL>select a.makp,a.viettat,a.tenkp, a.kehoach,a.thucke, b.makp makpbo, b.tenkp tenkpbo from btdkp_bv a, btdkp b where a.loai=0 and a.makpbo=b.makp</SQL>
+    <TENFIELD>makp,viettat,tenkp,kehoach,thucke, makpbo,tenkpbo</TENFIELD>
+    <CAPTIONFIELD>Mã,Viết tắt,Tên,Kế hoạch,Thực kê,Mã theo bộ,Tên theo bộ</CAPTIONFIELD>
+    <WIDTH>60,60,200,60,60,70,200</WIDTH>
+    <READONLY>0</READONLY>
+  </Table>
+  <Table>
+    <ID>28</ID>
+    <LOAI>1</LOAI>
+    <ID_CHA>19</ID_CHA>
+    <STT>2</STT>
+    <TEN>Tổng hợp theo khoa</TEN>
+    <SQL>select b.makp,b.tenkp,sum(a.sotien) sotien, count(a.id) sobl, sum(decode(a.done,1,1,0)) soblhoan,sum(decode(a.done,1,a.sotien,0)) hoan,sum(decode(a.done,1,0,1)) soblcon, sum(decode(a.done,1,0,a.sotien)) con from v_tamung a, btdkp_bv b where a.makp=b.makp(+)  and  to_date(to_char(a.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and  to_date(':v_dn','dd/mm/yyyy') group by b.makp,b.tenkp
+union all 
+select null makp, null tenkp,sum(a.sotien) sotien, count(a.id) sobl, sum(decode(a.done,1,1,0)) soblhoan,sum(decode(a.done,1,a.sotien,0)) hoan,sum(decode(a.done,1,0,1)) soblcon, sum(decode(a.done,1,0,a.sotien)) con from v_tamung a where to_date(to_char(a.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and  to_date(':v_dn','dd/mm/yyyy') order by makp,tenkp</SQL>
+    <TENFIELD>makp,tenkp,sobl,sotien,soblhoan,hoan,soblcon,con</TENFIELD>
+    <CAPTIONFIELD>Mã KP,Tên khoa phòng,Tổng biên lai,Tổng số tiền,Tổng biên lai hoàn,Số tiền hoàn,Tổng biên lai còn lại,Số tiền còn lại</CAPTIONFIELD>
+    <WIDTH>45,150,100,100,100,100,100,100,100</WIDTH>
+    <READONLY>0</READONLY>
+  </Table>
+  <Table>
+    <ID>75</ID>
+    <LOAI>1</LOAI>
+    <ID_CHA>18</ID_CHA>
+    <STT>2</STT>
+    <TEN>2a. Tổng hợp thu trực tiếp theo ngày (tách riêng nhóm viện phí)</TEN>
+    <SQL>select e.id_nhom id,f.ma,f.ten, to_char(a.ngay,'dd/mm/yyyy') ngay, sum(nvl(b.soluong,0)*nvl(b.dongia,0)-nvl(b.mien,0)-nvl(b.thieu,0)) sotien from medibvmmyy.v_vienphill a, medibvmmyy.v_vienphict b, medibvmmyy.v_mienngtru c, v_giavp d, v_loaivp e, v_nhomvp f  where a.id=b.id and a.id=c.id(+) and c.id is null and b.mavp=d.id and d.id_loai=e.id and e.id_nhom=f.ma and to_date(to_char(a.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and to_date(':v_dn','dd/mm/yyyy') group by e.id_nhom,f.ma,f.ten,to_char(a.ngay,'dd/mm/yyyy') order by to_date(to_char(a.ngay,'dd/mm/yyyy'),'dd/mm/yyyy'), f.ten</SQL>
+    <TENFIELD>ngay,ma,ten,sotien</TENFIELD>
+    <CAPTIONFIELD>Ngày,Mã,Loại viện phí,Tổng tiền.</CAPTIONFIELD>
+    <WIDTH>80,50,200,100</WIDTH>
+    <REPORT>v_thtv_baocaothutructiep_nhomvp_ngay_anbinh.rpt</REPORT>
+    <READONLY>0</READONLY>
+  </Table>
+  <Table>
+    <ID>36</ID>
+    <LOAI>1</LOAI>
+    <ID_CHA>7</ID_CHA>
+    <STT>1</STT>
+    <TEN>Danh sách bệnh nhân</TEN>
+    <SQL>select a.mabn,a.hoten, nvl(to_char(a.ngaysinh,'dd/mm/yyyy'),a.namsinh) namsinh, e.ten phai, to_char(b.ngay,'dd/mm/yyyy hh24:mi') ngayvao, b.maicd,b.chandoan, to_char(c.ngay,'dd/mm/yyyy hh24:mi') ngayra, c.maicd maicdr,c.chandoan chandoanr, d.ten ketqua from btdbn a, benhandt b, xuatvien c, ketqua d, dmphai e where a.mabn=b.mabn and a.phai=e.ma(+) and b.maql=c.maql and b.loaiba in(1,4) and c.ketqua=d.ma(+) and to_date(to_char(c.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and  to_date(':v_dn','dd/mm/yyyy') order by c.ngay desc, a.hoten asc</SQL>
+    <TENFIELD>mabn,hoten,namsinh,phai,ngayvao,maicd,chandoan,ngayra,maicdr,chandoanr,ketqua</TENFIELD>
+    <CAPTIONFIELD>Mã BN,Họ và tên,Ngày sinh,Giới tính,Ngày vào,ICD vào,Chẩn đoán vào,Ngày ra,ICD ra,Chẩn đoán ra,Kết quả</CAPTIONFIELD>
+    <WIDTH>60,170,70,50,100,70,200,100,70,200,100</WIDTH>
+    <READONLY>0</READONLY>
+  </Table>
+  <Table>
+    <ID>132</ID>
+    <LOAI>1</LOAI>
+    <ID_CHA>16</ID_CHA>
+    <STT>7</STT>
+    <TEN>Báo cáo Bộ y tế</TEN>
+    <READONLY>0</READONLY>
+  </Table>
+  <Table>
+    <ID>9</ID>
+    <LOAI>1</LOAI>
+    <ID_CHA>1</ID_CHA>
+    <STT>9</STT>
+    <TEN>Tử vong</TEN>
+    <SQL>select a.mabn,a.hoten, nvl(to_char(a.ngaysinh,'dd/mm/yyyy'),a.namsinh) namsinh, f.ten phai,a.sonha,a.thon,a.cholam,g.tentt tinh,h.tenquan quan, i.tenpxa xa, to_char(b.ngay,'dd/mm/yyyy hh24:mi') ngayvao, b.maicd,b.chandoan, to_char(c.ngay,'dd/mm/yyyy hh24:mi') ngayra, c.maicd maicdr,c.chandoan chandoanr, e.ten nguyennhan from btdbn a, benhandt b, xuatvien c, tuvong d, chetdo e, dmphai f, btdtt g, btdquan h, btdpxa i where a.mabn=b.mabn and a.matt=g.matt(+) and a.maqu=h.maqu(+) and a.maphuongxa=i.maphuongxa(+) and a.phai=f.ma(+) and b.maql=c.maql and b.maql=d.maql and d.nguyennhan=e.ma(+) and to_date(to_char(c.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and  to_date(':v_dn','dd/mm/yyyy')</SQL>
+    <TENFIELD>mabn,hoten,namsinh,phai,sonha,thon,cholam,xa,quan,tinh,ngayvao,maicd,chandoan,ngayra,maicdr,chandoanr,nguyennhan</TENFIELD>
+    <CAPTIONFIELD>Mã BN,Họ và tên,Ngày sinh,Giới tính,Số nhà/đường,Thôn/phố,Chổ làm,Phường/Xã,Quận/Huyện,Tỉnh/TP,Ngày vào,ICD vào,Chẩn đoán vào,Ngày ra (chết),ICD ra,Chẩn đoán ra, Nguyên nhân tử vong</CAPTIONFIELD>
+    <WIDTH>60,170,70,50,100,100,100,150,100,100,100,70,200,100,70,200,150</WIDTH>
+    <READONLY>0</READONLY>
+  </Table>
+  <Table>
+    <ID>26</ID>
+    <LOAI>2</LOAI>
+    <ID_CHA>0</ID_CHA>
+    <STT>13</STT>
+    <TEN>Quá trình điều trị</TEN>
+    <SQL>select a.mabn,b.maql, to_char(l.ngay,'dd/mm/yyyy hh24:mi') ngaytd,to_char(b.ngay,'dd/mm/yyyy hh24:mi') ngayvv,to_char(f.ngay,'dd/mm/yyyy hh24:mi') ngayvk,to_char(g.ngay,'dd/mm/yyyy hh24:mi') ngayxk,to_char(h.ngay,'dd/mm/yyyy hh24:mi') ngayxv, c.ten nhantu,d.ten  dentu,e.doituong from btdbn a, benhandt b, nhantu c, dentu d, doituong e, nhapkhoa f, xuatkhoa g, xuatvien h,btdkp_bv i ,btdkp_bv j,btdkp_bv k, tiepdon l where a.mabn=b.mabn and a.mabn=l.mabn and b.maql=f.maql(+) and f.id=g.id(+) and b.maql=h.maql(+) and b.nhantu=c.ma(+) and b.dentu=d.ma(+) and b.madoituong=e.madoituong(+) and b.makp=i.makp(+) and f.makp=j.makp(+) and h.makp=k.makp(+) and a.mabn=':v_mabn' order by b.ngay desc</SQL>
+    <TENFIELD>ngaytd,ngayvv,ngayvk,ngayxk,ngayxv,nhantu,dentu,doituong</TENFIELD>
+    <CAPTIONFIELD>Ngày tiếp đón,Ngày vào viện,Ngày vào khoa,Ngày xuất khoa,Ngày xuất viện,Nơi tiếp nhận,Nơi giới thiệu,Đối tượng</CAPTIONFIELD>
+    <WIDTH>100,100,100,100,100,100,100,100,100</WIDTH>
+    <READONLY>0</READONLY>
+  </Table>
+  <Table>
+    <ID>2</ID>
+    <LOAI>1</LOAI>
+    <ID_CHA>1</ID_CHA>
+    <STT>2</STT>
+    <TEN>Hiện diện</TEN>
+    <SQL>select c.makp, c.tenkp, count(b.id) soca from btdbn a, hiendien b, btdkp_bv c, benhandt d, nhapkhoa e where a.mabn=b.mabn and b.maql=d.maql and b.id=e.id and b.makp=c.makp and c.loai=0 and b.nhapkhoa=1 and b.xuatkhoa=0 group by c.makp, c.tenkp</SQL>
+    <TENFIELD>makp,tenkp,soca</TENFIELD>
+    <CAPTIONFIELD>Mã KP, Tên khoa phòng, Hiện diện</CAPTIONFIELD>
+    <WIDTH>50,200,100</WIDTH>
+    <REPORT>v_thtv_hiendien.rpt</REPORT>
+    <READONLY>0</READONLY>
+  </Table>
+  <Table>
+    <ID>101</ID>
+    <LOAI>1</LOAI>
+    <ID_CHA>99</ID_CHA>
+    <STT>1</STT>
+    <TEN>1. Báo cáo số liệu theo khoa phòng</TEN>
+    <SQL>select b.makp,b.tenkp, count(*) soca, sum(decode(a.madoituong,1,1,0)) bhyt, sum(decode(a.madoituong,2,1,0)) thuphi,sum(decode(a.madoituong,3,1,0)) mien,sum(decode(a.madoituong,4,1,0)) khac, sum(decode(a.madoituong,5,1,0)) treem from medibvmmyy.tiepdon a, btdkp_bv b where a.makp=b.makp(+) and b.loai in (1) and a.ngay between to_date(':v_tn16','dd/mm/yyyy hh24:mi') and to_date(':v_dn16','dd/mm/yyyy hh24:mi') group by b.makp,b.tenkp order by b.tenkp</SQL>
+    <TENFIELD>makp,tenkp,soca,bhyt,thuphi,mien,treem,khac</TENFIELD>
+    <CAPTIONFIELD>Mã KP, Tên khoa phòng, Số ca.,Trong đó BHYT.,Thu phí.,Miễn.,Trẻ em &lt;6T.,Khác</CAPTIONFIELD>
+    <WIDTH>50,150,100,100,100,100,100</WIDTH>
+    <REPORT>v_thtv_tiepdonpk_anbinh.rpt</REPORT>
+    <READONLY>0</READONLY>
+  </Table>
+  <Table>
+    <ID>53</ID>
+    <LOAI>1</LOAI>
+    <ID_CHA>16</ID_CHA>
+    <STT>5</STT>
+    <TEN>Báo cáo biên lai sử dụng</TEN>
+    <SQL>select ':v_tn'||' -&gt; '||':v_dn' ngay, sum(a.sotien) sotien, sum(a.bhyt) bhyt, sum(a.mien) mien, sum(a.tamung) tamung, sum(a.sotien-a.bhyt-a.mien-a.tamung) conlai from v_ttrvll a where to_date(to_char(a.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and to_date(':v_dn','dd/mm/yyyy')</SQL>
+    <TENFIELD>ngay,sotien,bhyt,mien,tamung,conlai</TENFIELD>
+    <CAPTIONFIELD>Thời gian.,Tổng chi phí., BHYT., Miễn giảm.,Tạm ứng., Thu(+)/Chi(-).</CAPTIONFIELD>
+    <WIDTH>150,100,80,80,80,100</WIDTH>
+    <READONLY>0</READONLY>
+  </Table>
+  <Table>
+    <ID>7</ID>
+    <LOAI>1</LOAI>
+    <ID_CHA>1</ID_CHA>
+    <STT>7</STT>
+    <TEN>Xuất viện</TEN>
+    <SQL>select d.makp,d.tenkp, count(c.maql) soca from btdbn a, benhandt b, xuatvien c, btdkp_bv d where a.mabn=b.mabn and b.maql=c.maql and c.makp=d.makp(+) and b.loaiba in(1,4) and to_date(to_char(c.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and  to_date(':v_dn','dd/mm/yyyy') group by d.makp,d.tenkp order by d.tenkp</SQL>
+    <TENFIELD>makp,tenkp,soca</TENFIELD>
+    <CAPTIONFIELD>Mã KP,Tên khoa phòng,Số ca.</CAPTIONFIELD>
+    <WIDTH>60,200,100</WIDTH>
+    <REPORT>v_thtv_xuatvien.rpt</REPORT>
+    <READONLY>0</READONLY>
+  </Table>
+  <Table>
+    <ID>16</ID>
+    <LOAI>1</LOAI>
+    <ID_CHA>0</ID_CHA>
+    <STT>3</STT>
+    <TEN>Viện phí</TEN>
+    <SQL>1</SQL>
+    <READONLY>1</READONLY>
+  </Table>
+  <Table>
+    <ID>97</ID>
+    <LOAI>1</LOAI>
+    <ID_CHA>159</ID_CHA>
+    <STT>7</STT>
+    <TEN>Khoa sử dụng thuốc nhiều nhất</TEN>
+    <SQL>select c.makp,c.tenkp,sum(a.sotien) sotien, sum(decode(a.done,1,a.sotien,0)) dathu, sum(decode(a.done,1,0,a.sotien)) conlai from d_tienthuoc a, d_duockp b, btdkp_bv c where a.makp=b.id(+) and b.makp=c.makp(+) and a.sotien&gt;0 and  to_date(to_char(a.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and  to_date(':v_dn','dd/mm/yyyy') group by c.makp,c.tenkp order by sotien desc</SQL>
+    <TENFIELD>makp,tenkp,sotien,dathu,conlai</TENFIELD>
+    <CAPTIONFIELD>Mã KP,Tên khoa phòng,Số tiền,BN đã thanh toán,BN còn nợ</CAPTIONFIELD>
+    <WIDTH>45,200,100,100,100</WIDTH>
+    <READONLY>0</READONLY>
+  </Table>
+  <Table>
+    <ID>98</ID>
+    <LOAI>1</LOAI>
+    <ID_CHA>159</ID_CHA>
+    <STT>8</STT>
+    <TEN>Khoa sử dụng thuốc ít  nhất</TEN>
+    <SQL>select c.makp,c.tenkp,sum(a.sotien) sotien, sum(decode(a.done,1,a.sotien,0)) dathu, sum(decode(a.done,1,0,a.sotien)) conlai from d_tienthuoc a, d_duockp b, btdkp_bv c where a.makp=b.id(+) and b.makp=c.makp(+) and a.sotien&gt;0 and  to_date(to_char(a.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and  to_date(':v_dn','dd/mm/yyyy') group by c.makp,c.tenkp order by sotien asc</SQL>
+    <TENFIELD>makp,tenkp,sotien,dathu,conlai</TENFIELD>
+    <CAPTIONFIELD>Mã KP,Tên khoa phòng,Số tiền,BN đã thanh toán,BN còn nợ</CAPTIONFIELD>
+    <WIDTH>45,200,100,100,100</WIDTH>
+    <READONLY>0</READONLY>
+  </Table>
+  <Table>
+    <ID>153</ID>
+    <LOAI>1</LOAI>
+    <ID_CHA>152</ID_CHA>
+    <STT>1</STT>
+    <TEN>1a. Báo cáo hiệu quả công việc của nhân viên (theo số ca)</TEN>
+    <SQL>select a.ma,a.hoten,sum(b.kham) kham, sum(b.kham_bhyt) kham_bhyt, sum(b.pttt) pttt, sum(b.pttt_bhyt) pttt_bhyt, sum(b.chidinh) chidinh, sum(b.chidinh_bhyt) chidinh_bhyt, sum(b.duoc) duoc, sum(b.duoc_bhyt) duoc_bhyt from dmbs a,(
+select a.mabs, sum(decode(a.madoituong,1,0,1)) kham, sum(decode(a.madoituong,1,1,0)) kham_bhyt , 0 pttt, 0 pttt_bhyt,0 chidinh, 0 chidinh_bhyt,0 duoc, 0 duoc_bhyt from medibvmmyy.benhandt a where to_date(to_char(a.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and to_date(':v_dn','dd/mm/yyyy') group by a.mabs
+union all 
+select a.mabs,0 kham, 0 kham_bhyt,0 pttt, 0 pttt_bhyt,sum(decode(c.madoituong,1,0,c.soluong)) chidinh,sum(decode(c.madoituong,1,c.soluong,0)) chidinh_bhyt, 0 duoc, 0 duoc_bhyt from medibvmmyy.benhandt a, medibvmmyy.v_chidinh c where a.mabn=c.mabn and a.maql=c.maql and to_date(to_char(c.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and to_date(':v_dn','dd/mm/yyyy') group by a.mabs
+union all 
+select b.ptv mabs, 0 kham, 0 kham_bhyt,sum(decode(b.madoituong,1,0,1)) pttt,sum(decode(b.madoituong,1,1,0)) pttt_bhyt, 0 chidinh, 0 chidinh_bhyt, 0 thuoc, 0 thuoc_bhyt from pttt b where to_date(to_char(b.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and to_date(':v_dn','dd/mm/yyyy') group by b.ptv
+union all 
+select a.mabs, 0 kham, 0 kham_bhyt,0 pttt,0pttt_bhyt, 0 chidinh, 0 chidinh_bhyt,count(distinct a.id) thuoc, 0 thuoc_bhyt from medibvdmmyy.d_ngtrull a,medibvdmmyy.d_ngtruct b where a.id=b.id and to_date(to_char(a.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and to_date(':v_dn','dd/mm/yyyy') group by a.mabs
+union all 
+select a.mabs, 0 kham, 0 kham_bhyt,0 pttt,0pttt_bhyt, 0 chidinh, 0 chidinh_bhyt,0 thuoc, count(distinct a.id) thuoc_bhyt from medibvdmmyy.bhytkb a,medibvdmmyy.bhytthuoc b where a.id=b.id and to_date(to_char(a.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and to_date(':v_dn','dd/mm/yyyy') group by a.mabs
+) b where a.ma=b.mabs(+) group by a.ma,a.hoten</SQL>
+    <TENFIELD>mabs,hoten,kham,kham_bhyt,pttt,pttt_bhyt,chidinh,chidinh_bhyt,duoc,duoc_bhyt</TENFIELD>
+    <CAPTIONFIELD>Mã BS, Họ và tên nhân viên,Số ca khám,Số ca khámBHYT,Số ca PTTT,Số ca PTTT BHYT,Số ca chỉ định, Số ca chỉ định BHYT,Số toa, Số toa BHYT</CAPTIONFIELD>
+    <WIDTH>50,150,100,100,100,100,100,100,100,100</WIDTH>
+    <REPORT>v_thtv_baocaohoatdongnhanvien_soca_anbinh.rpt</REPORT>
+    <READONLY>0</READONLY>
+  </Table>
+  <Table>
+    <ID>159</ID>
+    <LOAI>1</LOAI>
+    <ID_CHA>15</ID_CHA>
+    <STT>2</STT>
+    <TEN>Thuốc nội trú</TEN>
+    <READONLY>0</READONLY>
+  </Table>
+  <Table>
+    <ID>160</ID>
+    <LOAI>1</LOAI>
+    <ID_CHA>158</ID_CHA>
+    <STT>1</STT>
+    <TEN>1. Thuốc sử dụng trong ngày</TEN>
+    <SQL>select ngay,sum(bhyt) bhyt,sum(dichvu) dichvu from(
+select to_char(a.ngay,'dd/mm/yyyy') ngay, sum(b.soluong*b.giamua) bhyt,0 dichvu from medibvdmmyy.bhytkb a, medibvdmmyy.bhytthuoc b where a.id=b.id and to_date(to_char(a.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and to_date(':v_dn','dd/mm/yyyy') group by to_char(a.ngay,'dd/mm/yyyy')
+union all 
+select to_char(a.ngay,'dd/mm/yyyy') ngay, 0 bhyt, sum(b.soluong*b.giaban) dichvu from medibvdmmyy.d_ngtrull a, medibvdmmyy.d_ngtruct b where a.id=b.id and to_date(to_char(a.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and to_date(':v_dn','dd/mm/yyyy') group by to_char(a.ngay,'dd/mm/yyyy')) group by ngay</SQL>
+    <TENFIELD>ngay,bhyt,dichvu</TENFIELD>
+    <CAPTIONFIELD>Ngày,Số tiền BHYT, Số tiền bán lẽ</CAPTIONFIELD>
+    <WIDTH>100,120,120</WIDTH>
+    <REPORT>v_thtv_baocaothuocpk_ngay_anbinh.rpt</REPORT>
+    <READONLY>0</READONLY>
+  </Table>
+  <Table>
+    <ID>161</ID>
+    <LOAI>1</LOAI>
+    <ID_CHA>18</ID_CHA>
+    <STT>14</STT>
+    <TEN>3. Tổng hợp thu trực tiếp + bhyt theo nhóm viện phí</TEN>
+    <SQL>select ma,stt,ten,sum(sotien) sotien, sum(bhyt) bhyt from (select f.ma, f.stt, f.ten, sum(nvl(b.soluong,0)*nvl(b.dongia,0)-nvl(b.mien,0)-nvl(b.thieu,0)) sotien, sum(nvl(decode(b.madoituong,1,b.soluong,0),0)*nvl(b.dongia,0)-nvl(decode(b.madoituong,1,b.mien,0),0)-nvl(decode(b.madoituong,1,b.thieu,0),0)) bhyt from medibvmmyy.v_vienphill a, medibvmmyy.v_vienphict b, medibvmmyy.v_mienngtru c, v_giavp d, v_loaivp e, v_nhomvp f  where a.id=b.id and a.id=c.id(+) and c.id is null and b.mavp=d.id and d.id_loai=e.id and e.id_nhom=f.ma and to_date(to_char(a.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and to_date(':v_dn','dd/mm/yyyy') group by f.ma,f.stt,f.ten
+union all 
+select e.ma,e.stt, e.ten,sum(b.soluong*b.dongia) bhyt,  sum(b.soluong*b.dongia) sotien from medibvdmmyy.bhytkb a, medibvdmmyy.bhytcls b, v_giavp c, v_loaivp d, v_nhomvp e where a.id=b.id and b.mavp=c.id and c.id_loai=d.id and d.id_nhom=e.ma and to_date(to_char(a.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and to_date(':v_dn','dd/mm/yyyy') group by e.ma,e.stt,e.ten) group by ma,stt,ten</SQL>
+    <TENFIELD>ma,ten,sotien,bhyt</TENFIELD>
+    <CAPTIONFIELD>Mã nhóm,Nhóm viện phí,Tổng tiền.,Trong đó BHYT</CAPTIONFIELD>
+    <WIDTH>80,200,100,100,150</WIDTH>
+    <REPORT>v_thtv_baocaothutructiep_nhomvp_anbinh.rpt</REPORT>
+    <READONLY>0</READONLY>
+  </Table>
+  <Table>
+    <ID>156</ID>
+    <LOAI>1</LOAI>
+    <ID_CHA>99</ID_CHA>
+    <STT>3</STT>
+    <TEN>3. Báo cáo số liệu theo nhân viên nhập liệu</TEN>
+    <SQL>select b.id,b.userid,b.hoten, count(*) soca, sum(decode(a.madoituong,1,1,0)) bhyt, sum(decode(a.madoituong,2,1,0)) thuphi,sum(decode(a.madoituong,3,1,0)) mien,sum(decode(a.madoituong,4,1,0)) khac, sum(decode(a.madoituong,5,1,0)) treem from medibvmmyy.tiepdon a, dlogin b where a.userid=b.id(+) and a.ngay between to_date(':v_tn16','dd/mm/yyyy hh24:mi') and to_date(':v_dn16','dd/mm/yyyy hh24:mi') group by b.id,b.userid,b.hoten order by b.hoten</SQL>
+    <TENFIELD>userid,hoten,soca,bhyt,thuphi,mien,treem,khac</TENFIELD>
+    <CAPTIONFIELD>Tên đăng nhập,Họ và tên nhân viên, Số ca.,Trong đó BHYT.,Thu phí.,Miễn.,Trẻ em &lt;6T.,Khác</CAPTIONFIELD>
+    <WIDTH>100,150,100,100,100,100,100</WIDTH>
+    <REPORT>v_thtv_tiepdonnhanvien_anbinh.rpt</REPORT>
+    <READONLY>0</READONLY>
+  </Table>
+  <Table>
+    <ID>157</ID>
+    <LOAI>1</LOAI>
+    <ID_CHA>152</ID_CHA>
+    <STT>3</STT>
+    <TEN>3. Báo cáo số liệu tiếp đón theo nhân viên nhập liệu</TEN>
+    <SQL>select b.id,b.userid,b.hoten, count(*) soca, sum(decode(a.madoituong,1,1,0)) bhyt, sum(decode(a.madoituong,2,1,0)) thuphi,sum(decode(a.madoituong,3,1,0)) mien,sum(decode(a.madoituong,4,1,0)) khac, sum(decode(a.madoituong,5,1,0)) treem from medibvmmyy.tiepdon a, dlogin b where a.userid=b.id(+) and a.ngay between to_date(':v_tn16','dd/mm/yyyy hh24:mi') and to_date(':v_dn16','dd/mm/yyyy hh24:mi') group by b.id,b.userid,b.hoten order by b.hoten</SQL>
+    <TENFIELD>userid,hoten,soca,bhyt,thuphi,mien,treem,khac</TENFIELD>
+    <CAPTIONFIELD>Tên đăng nhập,Họ và tên nhân viên, Số ca.,Trong đó BHYT.,Thu phí.,Miễn.,Trẻ em &lt;6T.,Khác</CAPTIONFIELD>
+    <WIDTH>100,150,100,100,100,100,100</WIDTH>
+    <REPORT>v_thtv_tiepdonnhanvien_anbinh.rpt</REPORT>
+    <READONLY>0</READONLY>
+  </Table>
+  <Table>
+    <ID>162</ID>
+    <LOAI>1</LOAI>
+    <ID_CHA>152</ID_CHA>
+    <STT>1</STT>
+    <TEN>1b. Báo cáo hiệu quả công việc của nhân viên (theo số tiền)</TEN>
+    <SQL>select a.ma,a.hoten,sum(b.kham) kham, sum(b.kham_bhyt) kham_bhyt, sum(b.pttt) pttt, sum(b.pttt_bhyt) pttt_bhyt, sum(b.chidinh) chidinh, sum(b.chidinh_bhyt) chidinh_bhyt, sum(b.duoc) duoc, sum(b.duoc_bhyt) duoc_bhyt from dmbs a,(
+select a.mabs, sum(decode(a.madoituong,1,0,1))*10000 kham, sum(decode(a.madoituong,1,1,0))*2000 kham_bhyt , 0 pttt, 0 pttt_bhyt,0 chidinh, 0 chidinh_bhyt,0 duoc, 0 duoc_bhyt from medibvmmyy.benhandt a where  to_date(to_char(a.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and to_date(':v_dn','dd/mm/yyyy') group by a.mabs
+union all 
+select a.mabs,0 kham, 0 kham_bhyt,0 pttt, 0 pttt_bhyt,sum(decode(c.madoituong,1,0,c.soluong*c.dongia)) chidinh,sum(decode(c.madoituong,1,c.soluong*c.dongia,0)) chidinh_bhyt, 0 duoc, 0 duoc_bhyt from medibvmmyy.benhandt a ,medibvmmyy.v_chidinh c,v_giavp d where c.mavp=d.id and d.id_loai in(58,79,106,107,108,109,110,112,113,115,120,129,137,138) and a.mabn=c.mabn and a.maql=c.maql and to_date(to_char(c.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and to_date(':v_dn','dd/mm/yyyy') group by a.mabs
+union all 
+select b.ptv mabs, 0 kham, 0 kham_bhyt,sum(decode(b.madoituong,1,0,1)*e.gia_dv) pttt,sum(decode(b.madoituong,1,1,0)*e.gia_bh) pttt_bhyt, 0 chidinh, 0 chidinh_bhyt, 0 thuoc, 0 thuoc_bhyt from pttt b,pttt_mau c,v_giavp e where b.mamau=c.ma and c.mavp=e.id and to_date(to_char(b.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and to_date(':v_dn','dd/mm/yyyy') group by b.ptv
+union all 
+select a.mabs, 0 kham, 0 kham_bhyt,0 pttt,0pttt_bhyt, 0 chidinh, 0 chidinh_bhyt,sum(b.soluong*b.giaban) thuoc, 0 thuoc_bhyt from medibvdmmyy.d_ngtrull a,medibvdmmyy.d_ngtruct b where a.id=b.id and to_date(to_char(a.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and to_date(':v_dn','dd/mm/yyyy') group by a.mabs
+union all 
+select a.mabs, 0 kham, 0 kham_bhyt,0 pttt,0pttt_bhyt, 0 chidinh, 0 chidinh_bhyt,0 thuoc, sum(b.soluong*b.giamua) thuoc_bhyt from medibvdmmyy.bhytkb a,medibvdmmyy.bhytthuoc b where a.id=b.id and to_date(to_char(a.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and to_date(':v_dn','dd/mm/yyyy') group by a.mabs
+) b where a.ma=b.mabs and a.ma &lt;&gt; '0000' group by a.ma,a.hoten</SQL>
+    <TENFIELD>mabs,hoten,kham,kham_bhyt,pttt,pttt_bhyt,chidinh,chidinh_bhyt,duoc,duoc_bhyt</TENFIELD>
+    <CAPTIONFIELD>Mã BS, Họ và tên nhân viên,Số ca khám DV,Số ca khám BHYT,Số ca PTTT DV,Số ca PTTT BHYT,Số tiền chỉ định DV, Số ca tiền chỉ định BHYT,Số tiền thuốc DV, Số tiền thuốc BHYT</CAPTIONFIELD>
+    <WIDTH>50,150,100,100,100,100,150,150,150,150</WIDTH>
+    <REPORT>v_thtv_baocaohoatdongnhanvien_sotien_anbinh.rpt</REPORT>
+    <READONLY>0</READONLY>
+  </Table>
+  <Table>
+    <ID>163</ID>
+    <LOAI>1</LOAI>
+    <ID_CHA>152</ID_CHA>
+    <STT>2</STT>
+    <TEN>2b. Báo cáo hiệu quả công việc của nhân viên từng ngày (theo số tiền)</TEN>
+    <SQL>select a.ma,a.hoten,b.ngay,sum(b.kham) kham, sum(b.kham_bhyt) kham_bhyt, sum(b.pttt) pttt, sum(b.pttt_bhyt) pttt_bhyt, sum(b.chidinh) chidinh, sum(b.chidinh_bhyt) chidinh_bhyt, sum(b.duoc) duoc, sum(b.duoc_bhyt) duoc_bhyt from dmbs a,(
+select a.mabs, to_char(a.ngay,'dd/mm/yyyy') ngay, sum(decode(a.madoituong,1,0,1))*10000 kham, sum(decode(a.madoituong,1,1,0))*2000 kham_bhyt , 0 pttt, 0 pttt_bhyt,0 chidinh, 0 chidinh_bhyt,0 duoc, 0 duoc_bhyt from medibvmmyy.benhandt a where to_date(to_char(a.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and to_date(':v_dn','dd/mm/yyyy') group by a.mabs, to_char(a.ngay,'dd/mm/yyyy')
+union all 
+select a.mabs,to_char(c.ngay,'dd/mm/yyyy') ngay,0 kham, 0 kham_bhyt,0 pttt, 0 pttt_bhyt,sum(decode(c.madoituong,1,0,c.soluong*c.dongia)) chidinh,sum(decode(c.madoituong,1,c.soluong*c.dongia,0)) chidinh_bhyt, 0 duoc, 0 duoc_bhyt from medibvmmyy.benhandt a,medibvmmyy.v_chidinh c,v_giavp d where c.mavp=d.id and d.id_loai in(58,79,106,107,108,109,110,112,113,115,120,129,137,138) and a.mabn=c.mabn and a.maql=c.maql and  to_date(to_char(c.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and to_date(':v_dn','dd/mm/yyyy') group by a.mabs,to_char(c.ngay,'dd/mm/yyyy')
+union all 
+select b.ptv mabs,to_char(b.ngay,'dd/mm/yyyy') ngay, 0 kham, 0 kham_bhyt,sum(decode(a.madoituong,1,0,1)*e.gia_dv) pttt,sum(decode(a.madoituong,1,1,0)*e.gia_bh) pttt_bhyt, 0 chidinh, 0 chidinh_bhyt, 0 thuoc, 0 thuoc_bhyt from medibvmmyy.benhandt a, pttt b,pttt_mau c,v_giavp e where a.mabn=b.mabn and b.mamau=c.ma and c.mavp=e.id and to_date(to_char(b.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and to_date(':v_dn','dd/mm/yyyy') group by b.ptv,to_char(b.ngay,'dd/mm/yyyy')
+union all 
+select a.mabs, to_char(a.ngay,'dd/mm/yyyy') ngay, 0 kham, 0 kham_bhyt,0 pttt,0pttt_bhyt, 0 chidinh, 0 chidinh_bhyt,sum(b.soluong*b.giaban) thuoc, 0 thuoc_bhyt from medibvdmmyy.d_ngtrull a,medibvdmmyy.d_ngtruct b where a.id=b.id and to_date(to_char(a.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and to_date(':v_dn','dd/mm/yyyy') group by a.mabs,to_char(a.ngay,'dd/mm/yyyy')
+union all 
+select a.mabs,to_char(a.ngay,'dd/mm/yyyy') ngay, 0 kham, 0 kham_bhyt,0 pttt,0pttt_bhyt, 0 chidinh, 0 chidinh_bhyt,0 thuoc, sum(b.soluong*b.giamua) thuoc_bhyt from medibvdmmyy.bhytkb a,medibvdmmyy.bhytthuoc b where a.id=b.id and to_date(to_char(a.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and to_date(':v_dn','dd/mm/yyyy') group by a.mabs, to_char(a.ngay,'dd/mm/yyyy')
+) b where a.ma=b.mabs and a.ma &lt;&gt; '0000' group by a.ma,a.hoten,b.ngay</SQL>
+    <TENFIELD>mabs,hoten,ngay,kham,kham_bhyt,pttt,pttt_bhyt,chidinh,chidinh_bhyt,duoc,duoc_bhyt</TENFIELD>
+    <CAPTIONFIELD>Mã BS, Họ và tên nhân viên,Ngày,Số ca khám DV,Số ca khám BHYT,Số ca PTTT DV,Số ca PTTT BHYT,Số tiền chỉ định DV, Số tiền chỉ định BHYT,Số tiền thuốc DV, Số tiền thuốc BHYT</CAPTIONFIELD>
+    <WIDTH>50,150,80,100,100,100,100,150,150,150,150</WIDTH>
+    <REPORT>v_thtv_baocaohoatdongnhanvien_ngay_sotien_anbinh.rpt</REPORT>
+    <READONLY>0</READONLY>
+  </Table>
+  <Table>
+    <ID>147</ID>
+    <LOAI>1</LOAI>
+    <ID_CHA>18</ID_CHA>
+    <STT>2</STT>
+    <TEN>2b. Tổng hợp thu BHYT theo ngày (tách riêng nhóm viện phí)</TEN>
+    <SQL>select id,ma,ten,ngay,sum(sotien) sotien from (select e.id_nhom id,f.ma,f.ten, to_char(a.ngay,'dd/mm/yyyy') ngay, sum(nvl(b.soluong,0)*nvl(b.dongia,0)) sotien from medibvdmmyy.bhytkb a, medibvdmmyy.bhytcls b, v_giavp d, v_loaivp e, v_nhomvp f  where a.id=b.id and b.mavp=d.id and d.id_loai=e.id and e.id_nhom=f.ma and to_date(to_char(a.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and to_date(':v_dn','dd/mm/yyyy') group by e.id_nhom,f.ma,f.ten,to_char(a.ngay,'dd/mm/yyyy')
+union all
+select e.ma id,e.ma,e.ten, to_char(a.ngay,'dd/mm/yyyy') ngay, sum(nvl(b.soluong,0)*nvl(b.giaban,0)) sotien from medibvdmmyy.bhytkb a, medibvdmmyy.bhytthuoc b, d_dmbd c, d_dmnhom d, v_nhomvp e  where a.id=b.id and b.mabd=c.id and c.manhom=d.id and d.nhomvp=e.ma and to_date(to_char(a.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and to_date(':v_dn','dd/mm/yyyy') group by e.ma, e.ten,to_char(a.ngay,'dd/mm/yyyy')) group by id,ma,ten,ngay</SQL>
+    <TENFIELD>ngay,ma,ten,sotien</TENFIELD>
+    <CAPTIONFIELD>Ngày,Mã,Loại viện phí,Tổng tiền.</CAPTIONFIELD>
+    <WIDTH>80,50,200,100</WIDTH>
+    <REPORT>v_thtv_baocaothubhyt_nhomvp_ngay_anbinh.rpt</REPORT>
+    <READONLY>0</READONLY>
+  </Table>
+  <Table>
+    <ID>148</ID>
+    <LOAI>1</LOAI>
+    <ID_CHA>135</ID_CHA>
+    <STT>21</STT>
+    <TEN>Giá viện phí</TEN>
+    <SQL>select id,stt,ma,ten,dvt,gia_th from v_giavp order by ten</SQL>
+    <TENFIELD>id,stt,ma,ten,dvt,gia_th</TENFIELD>
+    <CAPTIONFIELD>id,stt,ma,ten,dvt,gia_th</CAPTIONFIELD>
+    <WIDTH>50,200</WIDTH>
+    <READONLY>0</READONLY>
+  </Table>
+  <Table>
+    <ID>149</ID>
+    <LOAI>1</LOAI>
+    <ID_CHA>135</ID_CHA>
+    <STT>213</STT>
+    <TEN>Giá viện phí (AB - Nhi - Huyết học - Mắt)</TEN>
+    <SQL>select ten,ten_loai,ten_nhom, max(gia_th) gia_th,max(gia_bh) gia_bh,max(gia_dv) gia_dv,max(gia_nn) gia_nn,max(bhyt) bhyt from (select a.ten,a.gia_th,a.gia_bh,a.gia_dv,a.gia_nn,a.bhyt,b.ten ten_loai, c.ten ten_nhom from medibv_ab.v_giavp a, medibv_ab.v_loaivp b, medibv_ab.v_nhomvp c where a.id_loai=b.id(+) and b.id_nhom=c.ma(+)
+union all
+select a.ten,a.gia_th,a.gia_bh,a.gia_dv,a.gia_nn,a.bhyt,b.ten ten_loai, c.ten ten_nhom from medibv_nhi.v_giavp a, medibv_nhi.v_loaivp b, medibv_nhi.v_nhomvp c where a.id_loai=b.id(+) and b.id_nhom=c.ma(+)
+union all
+select a.ten,a.gia_th,a.gia_bh,a.gia_dv,a.gia_nn,a.bhyt,b.ten ten_loai, c.ten ten_nhom from medibv_hh.v_giavp a, medibv_hh.v_loaivp b, medibv_hh.v_nhomvp c where a.id_loai=b.id(+) and b.id_nhom=c.ma(+)
+union all
+select a.ten,a.gia_th,a.gia_bh,a.gia_dv,a.gia_nn,a.bhyt,b.ten ten_loai, c.ten ten_nhom from medibv_mat.v_giavp a, medibv_mat.v_loaivp b, medibv_mat.v_nhomvp c where a.id_loai=b.id(+) and b.id_nhom=c.ma(+)) group by ten,ten_loai,ten_nhom order by ten_nhom,ten_loai,ten</SQL>
+    <TENFIELD>ten,gia_th,gia_bh,gia_dv,gia_nn,bhyt,ten_loai,ten_nhom</TENFIELD>
+    <CAPTIONFIELD>Giá viện phí, Đơn giá, Giá BHYT, Giá DV, Giá NN,BHYT,Loại viện phí, Nhóm viện phí</CAPTIONFIELD>
+    <WIDTH>300,80,80,80,80,60,300,300,300</WIDTH>
+    <READONLY>0</READONLY>
+  </Table>
+  <Table>
+    <ID>150</ID>
+    <LOAI>1</LOAI>
+    <ID_CHA>135</ID_CHA>
+    <STT>21</STT>
+    <TEN>Nhóm viện phí (AB - Nhi - Huyết học - Mắt)</TEN>
+    <SQL>select distinct ten_nhom from (select a.id,a.ten,a.id_nhom, b.ten ten_nhom from medibv_ab.v_loaivp a, medibv_ab.v_nhomvp b where a.id_nhom=b.ma
+union all
+select a.id,a.ten,a.id_nhom, b.ten ten_nhom from medibv_nhi.v_loaivp a, medibv_nhi.v_nhomvp b where a.id_nhom=b.ma
+union all
+select a.id,a.ten,a.id_nhom, b.ten ten_nhom from medibv_hh.v_loaivp a, medibv_hh.v_nhomvp b where a.id_nhom=b.ma
+union all
+select a.id,a.ten,a.id_nhom, b.ten ten_nhom from medibv_mat.v_loaivp a, medibv_mat.v_nhomvp b where a.id_nhom=b.ma)</SQL>
+    <TENFIELD>ten_nhom</TENFIELD>
+    <CAPTIONFIELD>Nhóm viện phí</CAPTIONFIELD>
+    <WIDTH>400</WIDTH>
+    <READONLY>0</READONLY>
+  </Table>
+  <Table>
+    <ID>164</ID>
+    <LOAI>1</LOAI>
+    <ID_CHA>18</ID_CHA>
+    <STT>0</STT>
+    <TEN>Tổng hợp thu viện phí trực tiếp + bhyt  theo khoa phòng</TEN>
+    <SQL>select makp, tenkp, sum(sotien) sotien, sum(bhyt) bhyt from (select d.makp,d.tenkp,sum(nvl(b.soluong,0)*nvl(b.dongia,0)-nvl(b.mien,0)-nvl(b.thieu,0)) sotien, sum(nvl(decode(b.madoituong,1,b.soluong,0),0)*nvl(b.dongia,0)-nvl(decode(b.madoituong,1,b.mien,0),0)-nvl(decode(b.madoituong,1,b.thieu,0),0)) bhyt from medibvmmyy.v_vienphill a, medibvmmyy.v_vienphict b, medibvmmyy.v_mienngtru c, btdkp_bv d,medibvmmyy.v_hoantra e where a.id=b.id and a.id=c.id(+) and c.id is null and a.makp=d.makp and a.quyenso=e.quyenso(+) and a.sobienlai=e.sobienlai(+) and a.mabn=e.mabn(+) and e.id is null and to_date(to_char(a.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and to_date(':v_dn','dd/mm/yyyy') group by d.makp,d.tenkp union all select c.makp,c.tenkp,sum(b.soluong*b.dongia) bhyt, sum(b.soluong*b.dongia) sotien from medibvdmmyy.bhytkb a, medibvdmmyy.bhytcls b,btdkp_bv c where a.id=b.id and a.makp=c.makp and to_date(to_char(a.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and to_date(':v_dn','dd/mm/yyyy') group by c.makp,c.tenkp
+union all
+select c.makp,c.tenkp,sum(b.soluong*b.giamua) bhyt, sum(b.soluong*b.giamua) sotien from medibvdmmyy.bhytkb a, 
+medibvdmmyy.bhytthuoc b,btdkp_bv c where a.id=b.id and a.makp=c.makp and 
+to_date(to_char(a.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and 
+to_date(':v_dn','dd/mm/yyyy') group by c.makp,c.tenkp) group by makp,tenkp</SQL>
+    <TENFIELD>makp,tenkp,sotien,bhyt</TENFIELD>
+    <CAPTIONFIELD>Mã KP,Tên KP,Tổng tiền.,Trong đó BHYT</CAPTIONFIELD>
+    <WIDTH>80,200,100,100</WIDTH>
+    <REPORT>v_thvp_bhyt_kp.rpt</REPORT>
+    <READONLY>0</READONLY>
+  </Table>
+  <Table>
+    <ID>143</ID>
+    <LOAI>1</LOAI>
+    <ID_CHA>18</ID_CHA>
+    <STT>3</STT>
+    <TEN>3. Tổng hợp thu trực tiếp + bhyt theo nhóm viện phí</TEN>
+    <SQL>select ma,stt,ten,sum(sotien) sotien, sum(bhyt) bhyt from (select f.ma, f.stt, f.ten, sum(nvl(b.soluong,0)*nvl(b.dongia,0)-nvl(b.mien,0)-nvl(b.thieu,0)) sotien, sum(nvl(decode(b.madoituong,1,b.soluong,0),0)*nvl(b.dongia,0)-nvl(decode(b.madoituong,1,b.mien,0),0)-nvl(decode(b.madoituong,1,b.thieu,0),0)) bhyt from medibvmmyy.v_vienphill a, medibvmmyy.v_vienphict b, medibvmmyy.v_mienngtru c, v_giavp d, v_loaivp e, v_nhomvp f ,medibvmmyy.v_hoantra g where a.id=b.id and a.id=c.id(+) and c.id is null and b.mavp=d.id and d.id_loai=e.id and e.id_nhom=f.ma and a.quyenso=g.quyenso(+) and a.sobienlai=g.sobienlai(+) and a.mabn=g.mabn(+) and g.id is null and to_date(to_char(a.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and to_date(':v_dn','dd/mm/yyyy') group by f.ma,f.stt,f.ten
+union all 
+select e.ma,e.stt, e.ten,sum(b.soluong*b.dongia) bhyt,  sum(b.soluong*b.dongia) sotien from medibvdmmyy.bhytkb a, medibvdmmyy.bhytcls b, v_giavp c, v_loaivp d, v_nhomvp e where a.id=b.id and b.mavp=c.id and c.id_loai=d.id and d.id_nhom=e.ma and to_date(to_char(a.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and to_date(':v_dn','dd/mm/yyyy') group by e.ma,e.stt,e.ten) group by ma,stt,ten</SQL>
+    <TENFIELD>ma,ten,sotien,bhyt</TENFIELD>
+    <CAPTIONFIELD>Mã nhóm,Nhóm viện phí,Tổng tiền.,Trong đó BHYT</CAPTIONFIELD>
+    <WIDTH>80,200,100,100,150</WIDTH>
+    <REPORT>v_thtv_baocaothutructiep_nhomvp_anbinh.rpt</REPORT>
+    <READONLY>0</READONLY>
+  </Table>
+  <Table>
+    <ID>144</ID>
+    <LOAI>1</LOAI>
+    <ID_CHA>18</ID_CHA>
+    <STT>5</STT>
+    <TEN>5. Tổng hợp thu trực tiếp + bhyt theo giá viện phí</TEN>
+    <SQL>select id,ma, ten, dvt, id_loai, stt_loai, ten_loai, id_nhom, stt_nhom, ten_nhom, sum(sotien) sotien, sum(bhyt) bhyt from (
+select d.id,d.ma,d.ten,d.dvt,d.id_loai,e.stt stt_loai, e.ten ten_loai, e.id_nhom, f.stt stt_nhom, f.ten ten_nhom, sum(nvl(b.soluong,0)*nvl(b.dongia,0)-nvl(b.mien,0)-nvl(b.thieu,0)) sotien, sum(nvl(decode(b.madoituong,1,b.soluong,0),0)*nvl(b.dongia,0)-nvl(decode(b.madoituong,1,b.mien,0),0)-nvl(decode(b.madoituong,1,b.thieu,0),0)) bhyt from medibvmmyy.v_vienphill a, medibvmmyy.v_vienphict b, medibvmmyy.v_mienngtru c, v_giavp d, v_loaivp e ,v_nhomvp f,medibvmmyy.v_hoantra g where a.id=b.id and a.id=c.id(+) and c.id is null and b.mavp=d.id and d.id_loai=e.id and e.id_nhom=f.ma  and a.quyenso=g.quyenso(+) and a.sobienlai=g.sobienlai(+) and a.mabn=g.mabn(+) and g.id is null and to_date(to_char(a.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and to_date(':v_dn','dd/mm/yyyy') group by d.id,d.ma,d.ten,d.dvt,d.id_loai, e.stt, e.ten, e.id_nhom,f.stt,f.ten 
+union all 
+select c.id,c.ma, c.ten, c.dvt, c.id_loai, d.stt stt_loai, d.ten ten_loai, d.id_nhom, e.stt stt_nhom, e.ten ten_nhom ,sum(b.soluong*b.dongia) bhyt,  sum(b.soluong*b.dongia) sotien from medibvdmmyy.bhytkb a, medibvdmmyy.bhytcls b, v_giavp c, v_loaivp d, v_nhomvp e where a.id=b.id and b.mavp=c.id and c.id_loai=d.id and d.id_nhom=e.ma and to_date(to_char(a.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and to_date(':v_dn','dd/mm/yyyy') group by c.id,c.ma, c.ten, c.dvt, c.id_loai, d.stt, d.ten, d.id_nhom, e.stt, e.ten) group by id,ma, ten, dvt, id_loai, stt_loai, ten_loai, id_nhom, stt_nhom, ten_nhom</SQL>
+    <TENFIELD>ma,ten,dvt,sotien,bhyt</TENFIELD>
+    <CAPTIONFIELD>Mã VP,Tên viện phí,Đơn vị tính,Tổng tiền.,Trong đó BHYT</CAPTIONFIELD>
+    <WIDTH>80,200,100,100,150</WIDTH>
+    <REPORT>v_thtv_baocaothutructiep_giavp_anbinh.rpt</REPORT>
+    <READONLY>0</READONLY>
+  </Table>
+  <Table>
+    <ID>154</ID>
+    <LOAI>1</LOAI>
+    <ID_CHA>152</ID_CHA>
+    <STT>2</STT>
+    <TEN>2a. Báo cáo hiệu quả công việc của nhân viên từng ngày (theo số ca)</TEN>
+    <SQL>select a.ma,a.hoten,b.ngay,sum(b.kham) kham, sum(b.kham_bhyt) kham_bhyt, sum(b.pttt) pttt, sum(b.pttt_bhyt) pttt_bhyt, sum(b.chidinh) chidinh, sum(b.chidinh_bhyt) chidinh_bhyt, sum(b.duoc) duoc, sum(b.duoc_bhyt) duoc_bhyt from dmbs a,(
+select a.mabs, to_char(a.ngay,'dd/mm/yyyy') ngay, sum(decode(a.madoituong,1,0,1)) kham, sum(decode(a.madoituong,1,1,0)) kham_bhyt , 0 pttt, 0 pttt_bhyt,0 chidinh, 0 chidinh_bhyt,0 duoc, 0 duoc_bhyt from medibvmmyy.benhandt a where to_date(to_char(a.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and to_date(':v_dn','dd/mm/yyyy') group by a.mabs, to_char(a.ngay,'dd/mm/yyyy')
+union all 
+select a.mabs,to_char(c.ngay,'dd/mm/yyyy') ngay,0 kham, 0 kham_bhyt,0 pttt, 0 pttt_bhyt,sum(decode(c.madoituong,1,0,c.soluong)) chidinh,sum(decode(c.madoituong,1,c.soluong,0)) chidinh_bhyt, 0 duoc, 0 duoc_bhyt from medibvmmyy.benhandt a,medibvmmyy.v_chidinh c where a.mabn=c.mabn and a.maql=c.maql and to_date(to_char(c.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and to_date(':v_dn','dd/mm/yyyy') group by a.mabs,to_char(c.ngay,'dd/mm/yyyy')
+union all 
+select b.ptv mabs,to_char(b.ngay,'dd/mm/yyyy') ngay, 0 kham, 0 kham_bhyt,sum(decode(a.madoituong,1,0,1)) pttt,sum(decode(a.madoituong,1,1,0)) pttt_bhyt, 0 chidinh, 0 chidinh_bhyt, 0 thuoc, 0 thuoc_bhyt from medibvmmyy.benhandt a, pttt b where a.mabn=b.mabn and to_date(to_char(b.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and to_date(':v_dn','dd/mm/yyyy') group by b.ptv,to_char(b.ngay,'dd/mm/yyyy')
+union all 
+select a.mabs, to_char(a.ngay,'dd/mm/yyyy') ngay, 0 kham, 0 kham_bhyt,0 pttt,0pttt_bhyt, 0 chidinh, 0 chidinh_bhyt,count(distinct a.id) thuoc, 0 thuoc_bhyt from medibvdmmyy.d_ngtrull a,medibvdmmyy.d_ngtruct b where a.id=b.id and to_date(to_char(a.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and to_date(':v_dn','dd/mm/yyyy') group by a.mabs,to_char(a.ngay,'dd/mm/yyyy')
+union all 
+select a.mabs,to_char(a.ngay,'dd/mm/yyyy') ngay, 0 kham, 0 kham_bhyt,0 pttt,0pttt_bhyt, 0 chidinh, 0 chidinh_bhyt,0 thuoc, count(distinct a.id) thuoc_bhyt from medibvdmmyy.bhytkb a,medibvdmmyy.bhytthuoc b where a.id=b.id and to_date(to_char(a.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and to_date(':v_dn','dd/mm/yyyy') group by a.mabs, to_char(a.ngay,'dd/mm/yyyy')
+) b where a.ma=b.mabs and a.ma &lt;&gt; '0000' group by a.ma,a.hoten,b.ngay</SQL>
+    <TENFIELD>mabs,hoten,ngay,kham,kham_bhyt,pttt,pttt_bhyt,chidinh,chidinh_bhyt,duoc,duoc_bhyt</TENFIELD>
+    <CAPTIONFIELD>Mã BS, Họ và tên nhân viên,Ngày,Số ca khám,Số ca khámBHYT,Số ca PTTT,Số ca PTTT BHYT,Số ca chỉ định, Số ca chỉ định BHYT,Số toa, Số toa BHYT</CAPTIONFIELD>
+    <WIDTH>50,150,80,100,100,100,100,100,100,100,100</WIDTH>
+    <REPORT>v_thtv_baocaohoatdongnhanvien_ngay_soca_anbinh.rpt</REPORT>
+    <READONLY>0</READONLY>
+  </Table>
+  <Table>
+    <ID>158</ID>
+    <LOAI>1</LOAI>
+    <ID_CHA>15</ID_CHA>
+    <STT>1</STT>
+    <TEN>Thuốc phòng khám</TEN>
+    <READONLY>0</READONLY>
+  </Table>
+  <Table>
+    <ID>19</ID>
+    <LOAI>1</LOAI>
+    <ID_CHA>16</ID_CHA>
+    <STT>3</STT>
+    <TEN>Thu tạm ứng</TEN>
+    <SQL>select to_char(a.ngay,'dd/mm/yyyy') ngay,sum(a.sotien) sotien, count(a.id) sobl, sum(decode(a.done,1,1,0)) soblhoan,sum(decode(a.done,1,a.sotien,0)) hoan,sum(decode(a.done,1,0,1)) soblcon, sum(decode(a.done,1,0,a.sotien)) con from v_tamung a where  to_date(to_char(a.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and  to_date(':v_dn','dd/mm/yyyy') group by to_char(a.ngay,'dd/mm/yyyy') 
+union all 
+select null ngay,sum(a.sotien) sotien, count(a.id) sobl, sum(decode(a.done,1,1,0)) soblhoan,sum(decode(a.done,1,a.sotien,0)) hoan,sum(decode(a.done,1,0,1)) soblcon, sum(decode(a.done,1,0,a.sotien)) con from v_tamung a where to_date(to_char(a.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and  to_date(':v_dn','dd/mm/yyyy') order by ngay</SQL>
+    <TENFIELD>makp,tenkp,sobl,sotien,soblhoan,hoan,soblcon,con</TENFIELD>
+    <CAPTIONFIELD>Mã KP,Tên khoa phòng,Tổng biên lai,Tổng số tiền,Tổng biên lai hoàn,Số tiền hoàn,Tổng biên lai còn lại,Số tiền còn lại</CAPTIONFIELD>
+    <WIDTH>45,150,100,100,100,100,100,100,100</WIDTH>
+    <READONLY>0</READONLY>
+  </Table>
+  <Table>
+    <ID>29</ID>
+    <LOAI>1</LOAI>
+    <ID_CHA>19</ID_CHA>
+    <STT>3</STT>
+    <TEN>Tổng hợp theo đối tượng</TEN>
+    <SQL>select b.madoituong,b.doituong,sum(a.sotien) sotien, count(a.id) sobl, sum(decode(a.done,1,1,0)) soblhoan,sum(decode(a.done,1,a.sotien,0)) hoan,sum(decode(a.done,1,0,1)) soblcon, sum(decode(a.done,1,0,a.sotien)) con from v_tamung a, doituong b where a.madoituong=b.madoituong(+)  and  to_date(to_char(a.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and  to_date(':v_dn','dd/mm/yyyy') group by b.madoituong,b.doituong
+union all 
+select null makp, null tenkp,sum(a.sotien) sotien, count(a.id) sobl, sum(decode(a.done,1,1,0)) soblhoan,sum(decode(a.done,1,a.sotien,0)) hoan,sum(decode(a.done,1,0,1)) soblcon, sum(decode(a.done,1,0,a.sotien)) con from v_tamung a where to_date(to_char(a.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and  to_date(':v_dn','dd/mm/yyyy') order by madoituong,doituong</SQL>
+    <TENFIELD>doituong,sobl,sotien,soblhoan,hoan,soblcon,con</TENFIELD>
+    <CAPTIONFIELD>Đối tượng,Tổng biên lai,Tổng số tiền,Tổng biên lai hoàn,Số tiền hoàn,Tổng biên lai còn lại,Số tiền còn lại</CAPTIONFIELD>
+    <WIDTH>150,100,100,100,100,100,100,100</WIDTH>
+    <READONLY>0</READONLY>
+  </Table>
+  <Table>
+    <ID>25</ID>
+    <LOAI>1</LOAI>
+    <ID_CHA>135</ID_CHA>
+    <STT>12</STT>
+    <TEN>Đối tượng</TEN>
+    <SQL>select to_char(madoituong) madoituong, doituong from doituong</SQL>
+    <TENFIELD>madoituong,doituong</TENFIELD>
+    <CAPTIONFIELD>Mã, Đối tượng</CAPTIONFIELD>
+    <WIDTH>40,100</WIDTH>
+    <READONLY>0</READONLY>
+  </Table>
+  <Table>
+    <ID>66</ID>
+    <LOAI>1</LOAI>
+    <ID_CHA>18</ID_CHA>
+    <STT>7</STT>
+    <TEN>7. Tộng hợp miễn giảm theo ngày</TEN>
+    <SQL>select to_char(a.ngay,'dd/mm/yyyy') ngay, sum(nvl(b.soluong,0)*nvl(b.dongia,0)-nvl(b.thieu,0)) sotien from medibvmmyy.v_vienphill a, medibvmmyy.v_vienphict b, medibvmmyy.v_mienngtru c where a.id=b.id and a.id=c.id and to_date(to_char(a.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and to_date(':v_dn','dd/mm/yyyy') group by to_char(a.ngay,'dd/mm/yyyy') order by to_date(to_char(a.ngay,'dd/mm/yyyy'),'dd/mm/yyyy')</SQL>
+    <TENFIELD>ngay,sotien</TENFIELD>
+    <CAPTIONFIELD>Ngày,Tổng tiền miễn.</CAPTIONFIELD>
+    <WIDTH>80,100</WIDTH>
+    <REPORT>v_thtv_baocaomienpk_ngay.rpt</REPORT>
+    <READONLY>0</READONLY>
+  </Table>
+  <Table>
+    <ID>76</ID>
+    <LOAI>1</LOAI>
+    <ID_CHA>2</ID_CHA>
+    <STT>2</STT>
+    <TEN>Cấp cứu lưu</TEN>
+    <SQL>select a.mabn,a.hoten,nvl(to_char(a.ngaysinh,'dd/mm/yyyy'),a.namsinh) namsinh, d.ten phai,to_char(c.ngay,'dd/mm/yyyy hh24:mi') ngaynhap, c.lan,c.maicd, c.chandoan from btdbn a, hiendien b, nhapkhoa c, dmphai d where a.mabn=b.mabn and a.phai=d.ma(+) and b.id=c.id and b.nhapkhoa=1 and b.xuatkhoa=0 and b.makp in('99') order by c.ngay desc</SQL>
+    <TENFIELD>mabn,hoten,namsinh,phai,ngaynhap,lan,maicd,chandoan</TENFIELD>
+    <CAPTIONFIELD>Mã BN,Họ và tên,Năm sinh,Giới tính,Ngày vào khoa,Lần, Mã ICD,Chẩn đoán</CAPTIONFIELD>
+    <WIDTH>60,170,70,50,100,35,60,70</WIDTH>
+    <READONLY>0</READONLY>
+  </Table>
+  <Table>
+    <ID>133</ID>
+    <LOAI>1</LOAI>
+    <ID_CHA>20</ID_CHA>
+    <STT>1</STT>
+    <TEN>1. Tổng hợp thu chi ra viện</TEN>
+    <READONLY>0</READONLY>
+  </Table>
+  <Table>
+    <ID>151</ID>
+    <LOAI>1</LOAI>
+    <ID_CHA>135</ID_CHA>
+    <STT>22</STT>
+    <TEN>Loại viện phí (AB - Nhi - Huyết học - Mắt)</TEN>
+    <SQL>select distinct ten,ten_nhom from (select a.id,a.ten,a.id_nhom, b.ten ten_nhom from medibv_ab.v_loaivp a, medibv_ab.v_nhomvp b where a.id_nhom=b.ma(+)
+union all
+select a.id,a.ten,a.id_nhom, b.ten ten_nhom from medibv_nhi.v_loaivp a, medibv_nhi.v_nhomvp b where a.id_nhom=b.ma(+)
+union all
+select a.id,a.ten,a.id_nhom, b.ten ten_nhom from medibv_hh.v_loaivp a, medibv_hh.v_nhomvp b where a.id_nhom=b.ma(+)
+union all
+select a.id,a.ten,a.id_nhom, b.ten ten_nhom from medibv_mat.v_loaivp a, medibv_mat.v_nhomvp b where a.id_nhom=b.ma(+)) order by ten_nhom, ten</SQL>
+    <TENFIELD>ten,ten_nhom</TENFIELD>
+    <CAPTIONFIELD>Loại viện phí, Nhóm viện phí</CAPTIONFIELD>
+    <WIDTH>300,300</WIDTH>
+    <READONLY>0</READONLY>
+  </Table>
+  <Table>
+    <ID>152</ID>
+    <LOAI>1</LOAI>
+    <ID_CHA>0</ID_CHA>
+    <STT>4</STT>
+    <TEN>Hoạt động nhân viên</TEN>
+    <SQL>select ma,hoten from dmbs where hoten is not null order by hoten</SQL>
+    <TENFIELD>ma,hoten</TENFIELD>
+    <CAPTIONFIELD>Mã BS, Họ và tên bác sĩ</CAPTIONFIELD>
+    <WIDTH>60,200</WIDTH>
+    <READONLY>1</READONLY>
+  </Table>
+  <Table>
+    <ID>68</ID>
+    <LOAI>1</LOAI>
+    <ID_CHA>135</ID_CHA>
+    <STT>18</STT>
+    <TEN>Nhóm viện phí</TEN>
+    <SQL>select * from v_nhomvp order by ten</SQL>
+    <TENFIELD>ma,ten</TENFIELD>
+    <CAPTIONFIELD>ma,ten</CAPTIONFIELD>
+    <WIDTH>50,200</WIDTH>
+    <READONLY>0</READONLY>
+  </Table>
+  <Table>
+    <ID>69</ID>
+    <LOAI>1</LOAI>
+    <ID_CHA>18</ID_CHA>
+    <STT>10</STT>
+    <TEN>10. Tổng hợp miễn giảm theo lý do</TEN>
+    <SQL>select c.lydo, d.ten,sum(nvl(b.soluong,0)*nvl(b.dongia,0)-nvl(b.thieu,0)) sotien from medibvmmyy.v_vienphill a, medibvmmyy.v_vienphict b, medibvmmyy.v_mienngtru c, v_lydomien d where a.id=b.id and a.id=c.id and c.lydo=d.id and to_date(to_char(a.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and to_date(':v_dn','dd/mm/yyyy') group by c.lydo, d.ten order by d.ten</SQL>
+    <TENFIELD>ten,sotien</TENFIELD>
+    <CAPTIONFIELD>Lý do miễn giảm,Tổng tiền miễn.</CAPTIONFIELD>
+    <WIDTH>150,100</WIDTH>
+    <REPORT>v_thtv_baocaomienpk_lydo.rpt</REPORT>
+    <READONLY>0</READONLY>
+  </Table>
+  <Table>
+    <ID>135</ID>
+    <LOAI>1</LOAI>
+    <ID_CHA>0</ID_CHA>
+    <STT>5</STT>
+    <TEN>Danh mục</TEN>
+    <READONLY>1</READONLY>
+  </Table>
+  <Table>
+    <ID>136</ID>
+    <LOAI>1</LOAI>
+    <ID_CHA>16</ID_CHA>
+    <STT>6</STT>
+    <TEN>Báo cáo tổng hợp</TEN>
+    <READONLY>0</READONLY>
+  </Table>
+  <Table>
+    <ID>137</ID>
+    <LOAI>1</LOAI>
+    <ID_CHA>136</ID_CHA>
+    <STT>1</STT>
+    <TEN>1. Tổng hợp thu viện phí theo Nhóm viện phí</TEN>
+    <READONLY>0</READONLY>
+  </Table>
+  <Table>
+    <ID>138</ID>
+    <LOAI>1</LOAI>
+    <ID_CHA>136</ID_CHA>
+    <STT>2</STT>
+    <TEN>2. Tổng hợp thu viện phí theo Loại viện phí</TEN>
+    <READONLY>0</READONLY>
+  </Table>
+  <Table>
+    <ID>139</ID>
+    <LOAI>1</LOAI>
+    <ID_CHA>136</ID_CHA>
+    <STT>3</STT>
+    <TEN>3. Tổng hợp thu viện phí theo Giá viện</TEN>
+    <READONLY>0</READONLY>
+  </Table>
+  <Table>
+    <ID>140</ID>
+    <LOAI>1</LOAI>
+    <ID_CHA>132</ID_CHA>
+    <STT>2</STT>
+    <TEN>2. HĐTC - Chi tiết về thu viện phí, BHYT (Biểu 10.2.1-TCTVP/BH)</TEN>
+    <READONLY>0</READONLY>
+  </Table>
+  <Table>
+    <ID>141</ID>
+    <LOAI>1</LOAI>
+    <ID_CHA>132</ID_CHA>
+    <STT>4</STT>
+    <TEN>4. HĐTC - Các khoản không thu được (Biểu 10.3-TC/KT)</TEN>
+    <READONLY>0</READONLY>
+  </Table>
+  <Table>
+    <ID>142</ID>
+    <LOAI>1</LOAI>
+    <ID_CHA>132</ID_CHA>
+    <STT>3</STT>
+    <TEN>3. HĐTC - Chi tiết về các khoản chi (Biểu 10.2.2-TCC)</TEN>
+    <READONLY>0</READONLY>
+  </Table>
+  <Table>
+    <ID>70</ID>
+    <LOAI>1</LOAI>
+    <ID_CHA>18</ID_CHA>
+    <STT>8</STT>
+    <TEN>8. Tộng hợp miễn giảm theo ngày (tách riêng loại viện phí)</TEN>
+    <SQL>select e.id,e.ma,e.ten, to_char(a.ngay,'dd/mm/yyyy') ngay, sum(nvl(b.soluong,0)*nvl(b.dongia,0)-nvl(b.thieu,0)) sotien from medibvmmyy.v_vienphill a, medibvmmyy.v_vienphict b, medibvmmyy.v_mienngtru c, v_giavp d, v_loaivp e  where a.id=b.id and a.id=c.id and b.mavp=d.id and d.id_loai=e.id and to_date(to_char(a.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and to_date(':v_dn','dd/mm/yyyy') group by e.id,e.ma,e.ten,to_char(a.ngay,'dd/mm/yyyy') order by to_date(to_char(a.ngay,'dd/mm/yyyy'),'dd/mm/yyyy'), e.ten</SQL>
+    <TENFIELD>ngay,ma,ten,sotien</TENFIELD>
+    <CAPTIONFIELD>Ngày,Mã,Loại viện phí,Tổng tiền.</CAPTIONFIELD>
+    <WIDTH>80,50,200,100</WIDTH>
+    <REPORT>v_thtv_baocaomiengiam_loaivp_ngay.rpt</REPORT>
+    <READONLY>0</READONLY>
+  </Table>
+  <Table>
+    <ID>134</ID>
+    <LOAI>1</LOAI>
+    <ID_CHA>132</ID_CHA>
+    <STT>1</STT>
+    <TEN>1. Hoạt động tài chánh (Biểu 10.1-TC)</TEN>
+    <READONLY>0</READONLY>
+  </Table>
+  <Table>
+    <ID>72</ID>
+    <LOAI>1</LOAI>
+    <ID_CHA>135</ID_CHA>
+    <STT>19</STT>
+    <TEN>Lý do miễn giảm</TEN>
+    <SQL>select * from v_lydomien order by id</SQL>
+    <TENFIELD>id,ten</TENFIELD>
+    <CAPTIONFIELD>id,ten</CAPTIONFIELD>
+    <WIDTH>50,200</WIDTH>
+    <READONLY>0</READONLY>
+  </Table>
+  <Table>
+    <ID>67</ID>
+    <LOAI>1</LOAI>
+    <ID_CHA>135</ID_CHA>
+    <STT>17</STT>
+    <TEN>Loại viện phí</TEN>
+    <SQL>select a.id,a.stt,a.ma,a.ten, a.id_nhom, b.stt stt_nhom, b.ten ten_nhom from v_loaivp a, v_nhomvp b where a.id_nhom=b.ma(+) order by b.ten,a.ten</SQL>
+    <TENFIELD>id,ma,ten,ten_nhom</TENFIELD>
+    <CAPTIONFIELD>id,ma,ten,ten_nhom</CAPTIONFIELD>
+    <WIDTH>50,60,200,200</WIDTH>
+    <REPORT>this_dmloaivp</REPORT>
+    <READONLY>0</READONLY>
+  </Table>
+  <Table>
+    <ID>34</ID>
+    <LOAI>1</LOAI>
+    <ID_CHA>6</ID_CHA>
+    <STT>3</STT>
+    <TEN>Danh sách bệnh nhân vào từ phòng khám</TEN>
+    <SQL>select a.mabn,a.hoten, nvl(to_char(a.ngaysinh,'dd/mm/yyyy'),a.namsinh) namsinh, c.ten phai, to_char(b.ngay,'dd/mm/yyyy hh24:mi') ngayvao, b.maicd,b.chandoan from btdbn a, benhandt b, dmphai c where a.mabn=b.mabn and b.loaiba in(1,4) and a.phai=c.ma(+) and b.nhantu in (2)  and to_date(to_char(b.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and  to_date(':v_dn','dd/mm/yyyy') order by b.ngay desc, a.hoten asc</SQL>
+    <TENFIELD>mabn,hoten,namsinh,phai,ngayvao,maicd,chandoan</TENFIELD>
+    <CAPTIONFIELD>Mã BN,Họ và tên,Năm sinh,Giới tính,Ngày vào,ICD,Chẩn đoán</CAPTIONFIELD>
+    <WIDTH>60,170,70,50,100,70,70</WIDTH>
+    <READONLY>0</READONLY>
+  </Table>
+  <Table>
+    <ID>71</ID>
+    <LOAI>1</LOAI>
+    <ID_CHA>18</ID_CHA>
+    <STT>9</STT>
+    <TEN>9. Tổng hợp miễn giảm theo ngày (tách riêng lý do miển giảm)</TEN>
+    <SQL>select to_char(a.ngay,'dd/mm/yyyy') ngay, c.lydo, d.ten,sum(nvl(b.soluong,0)*nvl(b.dongia,0)-nvl(b.thieu,0)) sotien from medibvmmyy.v_vienphill a, medibvmmyy.v_vienphict b, medibvmmyy.v_mienngtru c, v_lydomien d where a.id=b.id and a.id=c.id and c.lydo=d.id and to_date(to_char(a.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and to_date(':v_dn','dd/mm/yyyy') group by c.lydo, d.ten, to_char(a.ngay,'dd/mm/yyyy') order by to_date(to_char(a.ngay,'dd/mm/yyyy'),'dd/mm/yyyy'),d.ten</SQL>
+    <TENFIELD>ngay,lydo,ten,sotien</TENFIELD>
+    <CAPTIONFIELD>Ngày, lydo,Lý do miễn giảm,Tổng tiền miễn.</CAPTIONFIELD>
+    <WIDTH>80,0,150,100</WIDTH>
+    <REPORT>v_thtv_baocaomiengiam_lydo_ngay.rpt</REPORT>
+    <READONLY>0</READONLY>
+  </Table>
+  <Table>
+    <ID>8</ID>
+    <LOAI>1</LOAI>
+    <ID_CHA>1</ID_CHA>
+    <STT>8</STT>
+    <TEN>Chuyển viện</TEN>
+    <SQL>select a.mabn,a.hoten, nvl(to_char(a.ngaysinh,'dd/mm/yyyy'),a.namsinh) namsinh, g.ten phai, to_char(b.ngay,'dd/mm/yyyy hh24:mi') ngayvao, b.maicd,b.chandoan, to_char(c.ngay,'dd/mm/yyyy hh24:mi') ngayra, c.maicd maicdr,c.chandoan chandoanr, e.mabv, e.tenbv, f.ten loaibv from btdbn a, benhandt b, xuatvien c, chuyenvien d, tenvien e, loaibv f, dmphai g where a.mabn=b.mabn and a.phai=g.ma(+) and b.maql=c.maql and b.maql=d.maql and d.mabv=e.mabv(+) and e.maloai=f.ma(+) and to_date(to_char(c.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and  to_date(':v_dn','dd/mm/yyyy')</SQL>
+    <TENFIELD>mabn,hoten,namsinh,phai,ngayvao,maicd,chandoan,ngayra,maicdr,chandoanr,mabv,tenbv,loaibv</TENFIELD>
+    <CAPTIONFIELD>Mã BN,Họ và tên,Ngày sinh,Giới tính,Ngày vào,ICD vào,Chẩn đoán vào,Ngày ra,ICD ra,Chẩn đoán ra, Mã BV,Tên bệnh viện chuyển đến, Loại bệnh viện</CAPTIONFIELD>
+    <WIDTH>60,170,70,50,100,70,200,100,70,200,70,200,100</WIDTH>
+    <READONLY>0</READONLY>
+  </Table>
+  <Table>
+    <ID>118</ID>
+    <LOAI>1</LOAI>
+    <ID_CHA>16</ID_CHA>
+    <STT>4</STT>
+    <TEN>Báo cáo bảo hiểm</TEN>
+    <SQL>select ':v_tn'||' -&gt; '||':v_dn' ngay, sum(a.sotien) sotien, sum(a.bhyt) bhyt, sum(a.mien) mien, sum(a.tamung) tamung, sum(a.sotien-a.bhyt-a.mien-a.tamung) conlai from v_ttrvll a where to_date(to_char(a.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and to_date(':v_dn','dd/mm/yyyy')</SQL>
+    <TENFIELD>ngay,sotien,bhyt,mien,tamung,conlai</TENFIELD>
+    <CAPTIONFIELD>Thời gian.,Tổng chi phí., BHYT., Miễn giảm.,Tạm ứng., Thu(+)/Chi(-).</CAPTIONFIELD>
+    <WIDTH>150,100,80,80,80,100</WIDTH>
+    <READONLY>0</READONLY>
+  </Table>
+  <Table>
+    <ID>145</ID>
+    <LOAI>1</LOAI>
+    <ID_CHA>18</ID_CHA>
+    <STT>4</STT>
+    <TEN>4. Tổng hợp thu trực tiếp + bhyt theo loại viện phí</TEN>
+    <SQL>select id,stt,ma,ten,id_nhom,stt_nhom,ten_nhom, sum(sotien) sotien, sum(bhyt) bhyt from (
+select e.id, e.stt, e.ma, e.ten, f.ma id_nhom, f.stt stt_nhom, f.ten ten_nhom,sum(nvl(b.soluong,0)*nvl(b.dongia,0)-nvl(b.mien,0)-nvl(b.thieu,0)) sotien, sum(nvl(decode(b.madoituong,1,b.soluong,0),0)*nvl(b.dongia,0)-nvl(decode(b.madoituong,1,b.mien,0),0)-nvl(decode(b.madoituong,1,b.thieu,0),0)) bhyt from medibvmmyy.v_vienphill a, medibvmmyy.v_vienphict b, medibvmmyy.v_mienngtru c, v_giavp d, v_loaivp e, v_nhomvp f,medibvmmyy.v_hoantra g  where a.id=b.id and a.id=c.id(+) and c.id is null and b.mavp=d.id and d.id_loai=e.id and e.id_nhom=f.ma and a.quyenso=g.quyenso(+) and a.sobienlai=g.sobienlai(+) and a.mabn=g.mabn(+) and g.id is null and to_date(to_char(a.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and to_date(':v_dn','dd/mm/yyyy') group by e.id,e.stt,e.ma,e.ten,f.ma,f.stt,f.ten 
+union all 
+select d.id,d.stt,d.ma,d.ten,d.id_nhom,e.stt stt_nhom, e.ten ten_nhom,sum(b.soluong*b.dongia) bhyt,  sum(b.soluong*b.dongia) sotien from medibvdmmyy.bhytkb a, medibvdmmyy.bhytcls b, v_giavp c, v_loaivp d, v_nhomvp e where a.id=b.id and b.mavp=c.id and c.id_loai=d.id and d.id_nhom=e.ma and to_date(to_char(a.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and to_date(':v_dn','dd/mm/yyyy') group by d.id,d.stt,d.ma,d.ten,d.id_nhom,e.stt, e.ten
+) group by id,stt,ma,ten,id_nhom,stt_nhom,ten_nhom</SQL>
+    <TENFIELD>ma,ten,sotien,BHYT</TENFIELD>
+    <CAPTIONFIELD>Mã VP,Tên loại viện phí,Tổng tiền., Trong đó BHYT</CAPTIONFIELD>
+    <WIDTH>80,200,100,150</WIDTH>
+    <REPORT>v_thtv_baocaothutructiep_loaivp_anbinh.rpt</REPORT>
+    <READONLY>0</READONLY>
+  </Table>
+  <Table>
+    <ID>122</ID>
+    <LOAI>1</LOAI>
+    <ID_CHA>118</ID_CHA>
+    <STT>2</STT>
+    <TEN>2. Ngoại trú (đơn vị tính: 1.000đồng)</TEN>
+    <SQL>select a.id,to_char(b.ngay,'dd/mm/yyyy') ngay,f.mabn,f.hoten,decode(f.ngaysinh,null,f.namsinh,to_char(f.ngaysinh,'dd/mm/yyyy')) ngaysinh, f.cholam, to_char(a.ngayvao,'dd/mm/yyyy') ngayvao,to_char(a.ngayra,'dd/mm/yyyy') ngayra, a.maicd,a.chandoan,(a.ngayra-a.ngayvao)+1 songay,c.sothe,to_char(c.ngay,'dd/mm/yyyy') denngay, b.sotien/1000 sotien,b.bhyt/1000 bhyt,b.mien/1000 mien, sum(decode(g.id_nhom,31,d.soluong*d.dongia,0))/1000 c01,sum(decode(g.id_nhom,1,d.soluong*d.dongia,0))/1000 c02,sum(decode(g.id_nhom,16,d.soluong*d.dongia,0))/1000 c03,sum(decode(g.id_nhom,28,d.soluong*d.dongia,0))/1000 c04,sum(decode(g.id_nhom,2,d.soluong*d.dongia,3,d.soluong*d.dongia,4,d.soluong*d.dongia,0))/1000 c05,sum(decode(g.id_nhom,10,d.soluong*d.dongia,0))/1000 c06,sum(decode(g.id_nhom,34,d.soluong*d.dongia,0))/1000 c07,sum(decode(g.id_nhom,7,d.soluong*d.dongia,0))/1000 c08,0 c09,0 c10,0 c11,0 c12,0 c13, 0 c14,0 c15 from medibvmmyy.v_ttrvds a, medibvmmyy.v_ttrvll b, medibvmmyy.v_ttrvbhyt c, medibvmmyy.v_ttrvct d, medibvmmyy.v_miennoitru e, btdbn f, (select a1.id, a2.id_nhom, a2.id id_loai from v_giavp a1, v_loaivp a2 where a1.id_loai=a2.id union all select a3.id,a4.nhomvp id_nhom, -1 id_loai from d_dmbd a3, d_dmnhom a4 where a3.manhom=a4.id) g where a.id=b.id and a.id=d.id and a.id=c.id(+) and a.id=e.id(+) and d.mavp=g.id and a.mabn=f.mabn and b.loaibn  in (1) and e.lydo in (4) and to_date(to_char(b.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and to_date(':v_dn','dd/mm/yyyy') group by a.id,to_char(b.ngay,'dd/mm/yyyy'),f.mabn,f.hoten,decode(f.ngaysinh,null,f.namsinh,to_char(f.ngaysinh,'dd/mm/yyyy')), f.cholam, to_char(a.ngayvao,'dd/mm/yyyy') ,to_char(a.ngayra,'dd/mm/yyyy'), a.maicd,a.chandoan,(a.ngayra-a.ngayvao)+1 ,c.sothe,to_char(c.ngay,'dd/mm/yyyy'), b.sotien/1000,b.bhyt/1000,b.mien/1000</SQL>
+    <TENFIELD>mabn,hoten,ngaysinh,cholam,sothe,denngay,ngayvao,ngayra,songay,maicd,chandoan,sotien,bhyt,mien,01,c02,c03,c04,c05,c06,c07,c08,c09,c10,c11</TENFIELD>
+    <CAPTIONFIELD>Mã BN,Họ và tên bệnh nhân,Ngày sinh,Chổ làm,Số thẻ,Đến ngày,Ngày vào,Ngày ra,Số ngày,Mã ICD,Chẩn đoán,Số tiền,BHYT,Miễn,Tiền giường,Thuốc,Dịch,Máu,XN,X Quang, DVKT cao, VTTH,Tổng chi,20% cùng chi trả,BHXH thanh toán</CAPTIONFIELD>
+    <REPORT>v_thtv_baocaobhyt_ngoaitru.rpt</REPORT>
+    <READONLY>0</READONLY>
+  </Table>
+  <Table>
+    <ID>61</ID>
+    <LOAI>1</LOAI>
+    <ID_CHA>18</ID_CHA>
+    <STT>1</STT>
+    <TEN>1. Tổng hợp thu trực tiếp theo ngày</TEN>
+    <SQL>select ngay, sum(sotien) sotien,count(id) sobl, sum(bhyt) bhyt, sum(mien) mien, sum(thieu) thieu, sum(sotien-bhyt-mien-thieu) thucthu from (select to_char(a.ngay,'dd/mm/yyyy') ngay,a.id, sum(b.soluong*b.dongia) sotien, sum(decode(b.madoituong,1,0,0)) bhyt, max(nvl(c.sotien,0)) mien, sum(b.thieu) thieu  from medibvmmyy.v_vienphill a, medibvmmyy.v_vienphict b, medibvmmyy.v_mienngtru c, medibvmmyy.v_hoantra d where a.id=b.id and a.id=c.id(+) and a.quyenso=d.quyenso(+) and a.sobienlai=d.sobienlai(+) and a.loaibn=d.loaibn(+) and a.loai=d.loai(+) and d.id is null and to_date(to_char(a.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy')  and to_date(':v_dn','dd/mm/yyyy') group by to_char(a.ngay,'dd/mm/yyyy'),a.id) group by ngay order by to_date(ngay,'dd/mm/yyyy')</SQL>
+    <TENFIELD>ngay,sobl,sotien,bhyt,mien,thucthu</TENFIELD>
+    <CAPTIONFIELD>Ngày,1.Tổng biên lai.,2.Tổng tiền.,3.Tổng BHYT.,4.Tổng miễn.,5.Tổng thu (5=2-3-4).</CAPTIONFIELD>
+    <WIDTH>70,100,100,100,100,150</WIDTH>
+    <REPORT>v_thtv_baocaothutructieptheongay_anbinh.rpt</REPORT>
+    <READONLY>0</READONLY>
+  </Table>
+  <Table>
+    <ID>107</ID>
+    <LOAI>1</LOAI>
+    <ID_CHA>53</ID_CHA>
+    <STT>1</STT>
+    <TEN>1. Báo cáo số biên lai thu viện phí phòng khám</TEN>
+    <SQL>select to_char(a.ngay,'dd/mm/yyyy') ngay,b.id, b.sohieu,b.sohieubl, count(a.id) sobl, sum(decode(c.id,null,0,1)) soblhuy,min(a.sobienlai) minsbl,max(a.sobienlai) maxsbl from medibvmmyy.v_vienphill a, v_quyenso b, medibvmmyy.v_hoantra c where a.quyenso=b.id and a.quyenso=c.quyenso(+) and a.sobienlai=c.sobienlai(+) and a.loai=c.loai(+) and a.loaibn=c.loaibn(+) and to_date(to_char(a.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and to_date(':v_dn','dd/mm/yyyy') group by to_char(a.ngay,'dd/mm/yyyy'), b.id, b.sohieu,b.sohieubl</SQL>
+    <TENFIELD>ngay,sohieu,sohieubl,sobl,soblhuy,minsbl,maxsbl</TENFIELD>
+    <CAPTIONFIELD>Ngày,Ký hiệu,Tên sổ,Số biên lai sử dụng.,Số biên lai hủy.,Từ số.,Đến số.</CAPTIONFIELD>
+    <WIDTH>80,120,120,120,120,120,120</WIDTH>
+    <REPORT>v_thtv_baocaosobienlai.rpt</REPORT>
+    <READONLY>0</READONLY>
+  </Table>
+  <Table>
+    <ID>62</ID>
+    <LOAI>1</LOAI>
+    <ID_CHA>18</ID_CHA>
+    <STT>6</STT>
+    <TEN>6. Tổng hợp hoàn trả biên lai thu trực tiếp theo ngày</TEN>
+    <SQL>select ngay, count(id) sobl, sum(sotien) sotien, sum(bhyt) bhyt, sum(mien) mien, sum(thieu) thieu, sum(sotien-bhyt-mien-thieu) thucthu from (select to_char(a.ngay,'dd/mm/yyyy') ngay,a.id, sum(b.soluong*b.dongia) sotien, sum(decode(b.madoituong,1,b.mien,0)) bhyt, max(nvl(c.sotien,0)) mien, sum(b.thieu) thieu  from medibvmmyy.v_vienphill a, medibvmmyy.v_vienphict b, medibvmmyy.v_mienngtru c, medibvmmyy.v_hoantra d where a.id=b.id and a.id=c.id(+) and a.quyenso=d.quyenso(+) and a.sobienlai=d.sobienlai(+) and a.loaibn=d.loaibn(+) and a.loai=d.loai(+) and d.id is not null and to_date(to_char(a.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy')  and to_date(':v_dn','dd/mm/yyyy') group by to_char(a.ngay,'dd/mm/yyyy'),a.id) group by ngay order by to_date(ngay,'dd/mm/yyyy')</SQL>
+    <TENFIELD>ngay,sobl,sotien,bhyt,mien,thucthu</TENFIELD>
+    <CAPTIONFIELD>Ngày,1.Tổng biên lai.,2.Tổng tiền.,3.Tổng BHYT.,4.Tổng miễn.,5.Tổng thu (5=2-3-4).</CAPTIONFIELD>
+    <WIDTH>70,100,100,100,100,150</WIDTH>
+    <REPORT>v_thtv_baocaothutructieptheongay_hoan_anbinh.rpt</REPORT>
+    <READONLY>0</READONLY>
+  </Table>
+  <Table>
+    <ID>121</ID>
+    <LOAI>1</LOAI>
+    <ID_CHA>118</ID_CHA>
+    <STT>1</STT>
+    <TEN>1. Nội trú (đơn vị tính: 1.000đồng)</TEN>
+    <SQL>select a.id,to_char(b.ngay,'dd/mm/yyyy') ngay,f.mabn,f.hoten,decode(f.ngaysinh,null,f.namsinh,to_char(f.ngaysinh,'dd/mm/yyyy')) ngaysinh, f.cholam, to_char(a.ngayvao,'dd/mm/yyyy') ngayvao,to_char(a.ngayra,'dd/mm/yyyy') ngayra, a.maicd,a.chandoan,(a.ngayra-a.ngayvao)+1 songay,c.sothe,to_char(c.ngay,'dd/mm/yyyy') denngay, b.sotien/1000 sotien,b.bhyt/1000 bhyt,b.mien/1000 mien, sum(decode(g.id_nhom,31,d.soluong*d.dongia,0))/1000 c01,sum(decode(g.id_nhom,1,d.soluong*d.dongia,0))/1000 c02,sum(decode(g.id_nhom,16,d.soluong*d.dongia,0))/1000 c03,sum(decode(g.id_nhom,28,d.soluong*d.dongia,0))/1000 c04,sum(decode(g.id_nhom,2,d.soluong*d.dongia,3,d.soluong*d.dongia,4,d.soluong*d.dongia,0))/1000 c05,sum(decode(g.id_nhom,10,d.soluong*d.dongia,0))/1000 c06,sum(decode(g.id_nhom,34,d.soluong*d.dongia,0))/1000 c07,sum(decode(g.id_nhom,7,d.soluong*d.dongia,0))/1000 c08,0 c09,0 c10,0 c11,0 c12,0 c13, 0 c14,0 c15 from medibvmmyy.v_ttrvds a, medibvmmyy.v_ttrvll b, medibvmmyy.v_ttrvbhyt c, medibvmmyy.v_ttrvct d, medibvmmyy.v_miennoitru e, btdbn f, (select a1.id, a2.id_nhom, a2.id id_loai from v_giavp a1, v_loaivp a2 where a1.id_loai=a2.id union all select a3.id,a4.nhomvp id_nhom, -1 id_loai from d_dmbd a3, d_dmnhom a4 where a3.manhom=a4.id) g where a.id=b.id and a.id=d.id and a.id=c.id(+) and a.id=e.id(+) and d.mavp=g.id and a.mabn=f.mabn and b.loaibn  in (1) and e.lydo in (4) and to_date(to_char(b.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and to_date(':v_dn','dd/mm/yyyy') group by a.id,to_char(b.ngay,'dd/mm/yyyy'),f.mabn,f.hoten,decode(f.ngaysinh,null,f.namsinh,to_char(f.ngaysinh,'dd/mm/yyyy')), f.cholam, to_char(a.ngayvao,'dd/mm/yyyy') ,to_char(a.ngayra,'dd/mm/yyyy'), a.maicd,a.chandoan,(a.ngayra-a.ngayvao)+1 ,c.sothe,to_char(c.ngay,'dd/mm/yyyy'), b.sotien/1000,b.bhyt/1000,b.mien/1000</SQL>
+    <TENFIELD>mabn,hoten,ngaysinh,cholam,sothe,denngay,ngayvao,ngayra,songay,maicd,chandoan,sotien,bhyt,mien,01,c02,c03,c04,c05,c06,c07,c08,c09,c10,c11</TENFIELD>
+    <CAPTIONFIELD>Mã BN,Họ và tên bệnh nhân,Ngày sinh,Chổ làm,Số thẻ,Đến ngày,Ngày vào,Ngày ra,Số ngày,Mã ICD,Chẩn đoán,Số tiền,BHYT,Miễn,Tiền giường,Thuốc,Dịch,Máu,XN,X Quang, DVKT cao, VTTH,Tổng chi,20% cùng chi trả,BHXH thanh toán</CAPTIONFIELD>
+    <REPORT>v_thtv_baocaobhyt_noitru.rpt</REPORT>
+    <READONLY>0</READONLY>
+  </Table>
+  <Table>
+    <ID>15</ID>
+    <LOAI>1</LOAI>
+    <ID_CHA>0</ID_CHA>
+    <STT>2</STT>
+    <TEN>Thuốc, vật tư y tế</TEN>
+    <SQL>select to_char(a.ngay,'dd/mm/yyyy') ngay,sum(a.sotien) sotien, sum(decode(a.done,1,a.sotien,0)) dathu, sum(decode(a.done,1,0,a.sotien)) conlai from d_tienthuoc a where to_date(to_char(a.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and  to_date(':v_dn','dd/mm/yyyy') group by to_char(a.ngay,'dd/mm/yyyy') order by to_date(to_char(a.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') desc</SQL>
+    <TENFIELD>ngay,sotien,dathu,conlai</TENFIELD>
+    <CAPTIONFIELD>Ngày,Số tiền thuốc sử dụng,BN đã thanh toán, BN còn nợ</CAPTIONFIELD>
+    <WIDTH>70,150,100,100</WIDTH>
+    <READONLY>1</READONLY>
+  </Table>
+  <Table>
+    <ID>6</ID>
+    <LOAI>1</LOAI>
+    <ID_CHA>1</ID_CHA>
+    <STT>6</STT>
+    <TEN>Nhập viện</TEN>
+    <SQL>select to_char(b.ngay,'dd/mm/yyyy') ngay, count(b.maql) soca, sum(decode(b.nhantu,1,1,0)) capcuu,sum(decode(b.nhantu,2,1,0)) khambenh,sum(decode(b.nhantu,3,1,0)) dieutri,sum(decode(b.dentu,1,1,0)) cqyt,sum(decode(b.dentu,2,1,0)) tuden,sum(decode(b.dentu,3,1,0)) khac from btdbn a, benhandt b, nhantu c where a.mabn=b.mabn and b.loaiba in(1,4) and b.nhantu=c.ma(+) and to_date(to_char(b.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and  to_date(':v_dn','dd/mm/yyyy') group by to_char(b.ngay,'dd/mm/yyyy')</SQL>
+    <TENFIELD>ngay,soca,capcuu,khambenh,dieutri,cqyt,tuden,khac</TENFIELD>
+    <CAPTIONFIELD>Ngày,Số ca.,Cấp cứu.,Khám bệnh.,Điều trị.,Cơ quan y tế.,Tự đến.,Khác.</CAPTIONFIELD>
+    <WIDTH>80,100,100,100,100,100,100,100</WIDTH>
+    <REPORT>v_thtv_nhapvien.rpt</REPORT>
+    <READONLY>0</READONLY>
+  </Table>
+  <Table>
+    <ID>17</ID>
+    <LOAI>1</LOAI>
+    <ID_CHA>159</ID_CHA>
+    <STT>6</STT>
+    <TEN>Tổng hợp thuốc sử dụng theo khoa (từng ngày)</TEN>
+    <SQL>select to_char(a.ngay,'dd/mm/yyyy') ngay,c.makp,c.tenkp,sum(a.sotien) sotien, sum(decode(a.done,1,a.sotien,0)) dathu, sum(decode(a.done,1,0,a.sotien)) conlai from d_tienthuoc a, d_duockp b, btdkp_bv c where a.makp=b.id(+) and b.makp=c.makp(+) and a.sotien&gt;0 and  to_date(to_char(a.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and  to_date(':v_dn','dd/mm/yyyy') group by to_char(a.ngay,'dd/mm/yyyy'), c.makp,c.tenkp order by c.tenkp, to_date(to_char(a.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') desc</SQL>
+    <TENFIELD>ngay,makp,tenkp,sotien,dathu,conlai</TENFIELD>
+    <CAPTIONFIELD>Ngày,Mã KP,Tên khoa phòng,Số tiền,BN đã thanh toán,BN còn nợ</CAPTIONFIELD>
+    <WIDTH>70,45,200,100,100,100</WIDTH>
+    <READONLY>0</READONLY>
+  </Table>
+  <Table>
+    <ID>18</ID>
+    <LOAI>1</LOAI>
+    <ID_CHA>16</ID_CHA>
+    <STT>2</STT>
+    <TEN>Thu viện phí phòng khám</TEN>
+    <SQL>select ':v_tn'||' -&gt; '||':v_dn' ngay, sum(sotien) sotien,count(id) sobl, sum(bhyt) bhyt, sum(mien) mien, sum(thieu) thieu, sum(sotien-bhyt-mien-thieu) thucthu from (select to_char(a.ngay,'dd/mm/yyyy') ngay,a.id, sum(b.soluong*b.dongia) sotien, sum(decode(b.madoituong,1,b.mien,0)) bhyt, max(nvl(c.sotien,0)) mien, sum(b.thieu) thieu  from v_vienphill a, v_vienphict b, v_mienngtru c, v_hoantra d where a.id=b.id and a.id=c.id(+) and a.quyenso=d.quyenso(+) and a.sobienlai=d.sobienlai(+) and a.loaibn=d.loaibn(+) and a.loai=d.loai(+) and d.id is null and to_date(to_char(a.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy')  and to_date(':v_dn','dd/mm/yyyy') group by to_char(a.ngay,'dd/mm/yyyy'),a.id)</SQL>
+    <TENFIELD>ngay,sobl,sotien,bhyt,mien,thucthu</TENFIELD>
+    <CAPTIONFIELD>Ngày,1. Tổng biên lai.,2. Tổng tiền.,3. Tổng BHYT.,4. Tổng miễn.,5. Tổng thu (2-3-4).</CAPTIONFIELD>
+    <WIDTH>140,90,100,100,100,100</WIDTH>
+    <READONLY>0</READONLY>
+  </Table>
+  <Table>
+    <ID>1</ID>
+    <LOAI>1</LOAI>
+    <ID_CHA>0</ID_CHA>
+    <STT>1</STT>
+    <TEN>Thông tin bệnh nhân</TEN>
+    <SQL>select b.ten,a.soca from ( 
+select 11 id,count(id) soca from hiendien where nhapkhoa=1 and xuatkhoa=0 
+union all 
+select 12 id, count(maql) soca from benhandt where loaiba in(1,4) and to_char(ngay,'dd/mm/yyyy')=':v_dn' 
+union all 
+select 13 id, count(b.maql) soca from benhandt a, xuatvien b where a.maql=b.maql and a.loaiba in(1,4) and to_char(b.ngay,'dd/mm/yyyy')=':v_dn' 
+union all 
+select 14 id, count(b.maql) soca from benhandt a, xuatvien b where a.maql=b.maql and a.loaiba in(1,4) and b.ttlucrv in (7) and to_char(b.ngay,'dd/mm/yyyy')=':v_dn' 
+) a, this_null b where a.id=b.id(+)</SQL>
+    <TENFIELD>ten,soca</TENFIELD>
+    <CAPTIONFIELD>Nội dung,Số ca</CAPTIONFIELD>
+    <WIDTH>200,100</WIDTH>
+    <READONLY>1</READONLY>
+  </Table>
+  <Table>
+    <ID>108</ID>
+    <LOAI>1</LOAI>
+    <ID_CHA>53</ID_CHA>
+    <STT>2</STT>
+    <TEN>2. Báo cáo số biên lai thu viện phí nội trú</TEN>
+    <SQL>select to_char(a.ngay,'dd/mm/yyyy') ngay,b.id, b.sohieu,b.sohieubl, count(a.id) sobl, sum(decode(c.id,null,0,1)) soblhuy,min(a.sobienlai) minsbl,max(a.sobienlai) maxsbl from medibvmmyy.v_ttrvll a, v_quyenso b, medibvmmyy.v_hoantra c where a.quyenso=b.id and a.quyenso=c.quyenso(+) and a.sobienlai=c.sobienlai(+) and a.loai=c.loai(+) and a.loaibn=c.loaibn(+) and to_date(to_char(a.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and to_date(':v_dn','dd/mm/yyyy') group by to_char(a.ngay,'dd/mm/yyyy'), b.id, b.sohieu,b.sohieubl</SQL>
+    <TENFIELD>ngay,sohieu,sohieubl,sobl,soblhuy,minsbl,maxsbl</TENFIELD>
+    <CAPTIONFIELD>Ngày,Ký hiệu,Tên sổ,Số biên lai sử dụng.,Số biên lai hủy.,Từ số.,Đến số.</CAPTIONFIELD>
+    <WIDTH>80,120,120,120,120,120,120</WIDTH>
+    <REPORT>v_thtv_baocaosobienlai.rpt</REPORT>
+    <READONLY>0</READONLY>
+  </Table>
+  <Table>
+    <ID>20</ID>
+    <LOAI>1</LOAI>
+    <ID_CHA>16</ID_CHA>
+    <STT>4</STT>
+    <TEN>Thu viện phí nội trú</TEN>
+    <SQL>select to_char(a.ngay,'dd/mm/yyyy') ngay, sum(sotien) sotien, sum(tamung) tamung, sum(bhyt) bhyt, sum(mien) mien, sum(sotien-bhyt-mien-tamung) thu 
+from v_ttrvll a where to_date(to_char(a.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and to_date(':v_dn','dd/mm/yyyy')
+ group by to_char(a.ngay,'dd/mm/yyyy')</SQL>
+    <TENFIELD>ngay,sotien,tamung,bhyt,mien,thu,chi</TENFIELD>
+    <CAPTIONFIELD>Ngày, Tổng chi phí, Đã thu, BHYT,Miễn,Thu(+)/Chi(-)</CAPTIONFIELD>
+    <WIDTH>80,130,130,100,100,130,130</WIDTH>
+    <READONLY>0</READONLY>
+  </Table>
+  <Table>
+    <ID>33</ID>
+    <LOAI>1</LOAI>
+    <ID_CHA>6</ID_CHA>
+    <STT>2</STT>
+    <TEN>Danh sách bệnh nhân vào trực tiếp cấp cứu</TEN>
+    <SQL>select a.mabn,a.hoten, nvl(to_char(a.ngaysinh,'dd/mm/yyyy'),a.namsinh) namsinh, c.ten phai, to_char(b.ngay,'dd/mm/yyyy hh24:mi') ngayvao, b.maicd,b.chandoan from btdbn a, benhandt b, dmphai c where a.mabn=b.mabn and b.loaiba in(1,4) and a.phai=c.ma(+) and b.nhantu in (1)  and to_date(to_char(b.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and  to_date(':v_dn','dd/mm/yyyy') order by b.ngay desc, a.hoten asc</SQL>
+    <TENFIELD>mabn,hoten,namsinh,phai,ngayvao,maicd,chandoan</TENFIELD>
+    <CAPTIONFIELD>Mã BN,Họ và tên,Năm sinh,Giới tính,Ngày vào,ICD,Chẩn đoán</CAPTIONFIELD>
+    <WIDTH>60,170,70,50,100,70,70</WIDTH>
+    <READONLY>0</READONLY>
+  </Table>
+  <Table>
+    <ID>35</ID>
+    <LOAI>1</LOAI>
+    <ID_CHA>6</ID_CHA>
+    <STT>4</STT>
+    <TEN>Dah sách bệnh nhân bệnh viện khác chuyển đến</TEN>
+    <SQL>select a.mabn,a.hoten, nvl(to_char(a.ngaysinh,'dd/mm/yyyy'),a.namsinh) namsinh, c.ten phai, to_char(b.ngay,'dd/mm/yyyy hh24:mi') ngayvao, b.maicd,b.chandoan from btdbn a, benhandt b, dmphai c where a.mabn=b.mabn and b.loaiba in(1,4) and a.phai=c.ma(+) and b.nhantu in (3)  and to_date(to_char(b.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and  to_date(':v_dn','dd/mm/yyyy') order by b.ngay desc, a.hoten asc</SQL>
+    <TENFIELD>mabn,hoten,namsinh,phai,ngayvao,maicd,chandoan</TENFIELD>
+    <CAPTIONFIELD>Mã BN,Họ và tên,Năm sinh,Giới tính,Ngày vào,ICD,Chẩn đoán</CAPTIONFIELD>
+    <WIDTH>60,170,70,50,100,70,70</WIDTH>
+    <READONLY>0</READONLY>
+  </Table>
+  <Table>
+    <ID>65</ID>
+    <LOAI>1</LOAI>
+    <ID_CHA>18</ID_CHA>
+    <STT>10</STT>
+    <TEN>10. Tổng hợp miễn giảm theo loại viện phí</TEN>
+    <SQL>select e.id,e.ma,e.ten, sum(nvl(b.soluong,0)*nvl(b.dongia,0)-nvl(b.thieu,0)) sotien from medibvmmyy.v_vienphill a, medibvmmyy.v_vienphict b, medibvmmyy.v_mienngtru c, v_giavp d, v_loaivp e  where a.id=b.id and a.id=c.id and b.mavp=d.id and d.id_loai=e.id and to_date(to_char(a.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date(':v_tn','dd/mm/yyyy') and to_date(':v_dn','dd/mm/yyyy') group by e.id,e.ma,e.ten order by e.ten</SQL>
+    <TENFIELD>ma,ten,sotien</TENFIELD>
+    <CAPTIONFIELD>Mã, Loại viện phí,Tổng tiền.</CAPTIONFIELD>
+    <WIDTH>50,200,100</WIDTH>
+    <REPORT>v_thtv_baocaomienpk_loai.rpt</REPORT>
+    <READONLY>0</READONLY>
+  </Table>
+</NewDataSet>

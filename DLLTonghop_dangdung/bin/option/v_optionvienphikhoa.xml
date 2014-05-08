@@ -1,0 +1,100 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="MA" type="xs:string" minOccurs="0" />
+                <xs:element name="TEN" type="xs:string" minOccurs="0" />
+                <xs:element name="GIATRI" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <MA>chkSystemColor</MA>
+    <TEN>Màu hệ thống</TEN>
+    <GIATRI>0</GIATRI>
+  </Table>
+  <Table>
+    <MA>chkLoaibn</MA>
+    <TEN>Loại bệnh nhân</TEN>
+    <GIATRI>0</GIATRI>
+  </Table>
+  <Table>
+    <MA>chkNhomtheokhoa</MA>
+    <TEN>In chi phí nhóm theo khoa</TEN>
+    <GIATRI>0</GIATRI>
+  </Table>
+  <Table>
+    <MA>chkVienphikhaigiathuoc</MA>
+    <TEN>Viện phí khai giá thuốc</TEN>
+    <GIATRI>0</GIATRI>
+  </Table>
+  <Table>
+    <MA>chkDutruvattu</MA>
+    <TEN>Cộng tiền dự trù vật tư tiêu hao trong bảng chi phí</TEN>
+    <GIATRI>0</GIATRI>
+  </Table>
+  <Table>
+    <MA>chkDutruthuoc</MA>
+    <TEN>Cộng tiền dự trù thuốc trong bảng chi phí</TEN>
+    <GIATRI>0</GIATRI>
+  </Table>
+  <Table>
+    <MA>chkChithumavienphi</MA>
+    <TEN>Chỉ thu các nội dung sau</TEN>
+    <GIATRI>0</GIATRI>
+  </Table>
+  <Table>
+    <MA>chkKhongthumavienphi</MA>
+    <TEN>Không thu các nội dung sau</TEN>
+    <GIATRI>0</GIATRI>
+  </Table>
+  <Table>
+    <MA>chkIntoanbochiphi</MA>
+    <TEN>In toàn bộ chi phí trong một lần điều trị (kể cả nội dung đã thu tiền)</TEN>
+    <GIATRI>0</GIATRI>
+  </Table>
+  <Table>
+    <MA>chkHoiinchiphi</MA>
+    <TEN>In chi phí hỏi in bảng chi tiết hay tổng hợp</TEN>
+    <GIATRI>0</GIATRI>
+  </Table>
+  <Table>
+    <MA>chkInchiphitonghop</MA>
+    <TEN>In chi phí mặc định in bảng tổng hợp</TEN>
+    <GIATRI>0</GIATRI>
+  </Table>
+  <Table>
+    <MA>chkInchiphichitiet</MA>
+    <TEN>In chi phí mặc định in bảng chi tiết</TEN>
+    <GIATRI>1</GIATRI>
+  </Table>
+  <Table>
+    <MA>chkChosuagiabangkhong</MA>
+    <TEN>Cho phép sữa giá viện phí = 0 </TEN>
+    <GIATRI>1</GIATRI>
+  </Table>
+  <Table>
+    <MA>chkChosuagia</MA>
+    <TEN>Cho phép sữa giá viện phí  &gt; 0</TEN>
+    <GIATRI>0</GIATRI>
+  </Table>
+  <Table>
+    <MA>chkSorttheoABC</MA>
+    <TEN>Sắp xếp giá, loại viện phí theo ABC</TEN>
+    <GIATRI>0</GIATRI>
+  </Table>
+  <Table>
+    <MA>chkChonhapthuoc</MA>
+    <TEN>Lấy danh mục thuốc khoa dược</TEN>
+    <GIATRI>0</GIATRI>
+  </Table>
+</NewDataSet>

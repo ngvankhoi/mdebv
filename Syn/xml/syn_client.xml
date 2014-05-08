@@ -1,0 +1,45 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="synClient">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Host" type="xs:string" minOccurs="0" />
+                <xs:element name="Port" type="xs:string" minOccurs="0" />
+                <xs:element name="User" type="xs:string" minOccurs="0" />
+                <xs:element name="Password" type="xs:string" minOccurs="0" />
+                <xs:element name="Database" type="xs:string" minOccurs="0" />
+                <xs:element name="Servername" type="xs:string" minOccurs="0" />
+                <xs:element name="Dblink" type="xs:string" minOccurs="0" />
+                <xs:element name="ID" type="xs:long" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <synClient>
+    <Host>192.168.1.131</Host>
+    <Port>5433</Port>
+    <User>medisoft</User>
+    <Password>links1920</Password>
+    <Database>hepa</Database>
+    <Servername>may131</Servername>
+    <Dblink>may131</Dblink>
+    <ID>1</ID>
+  </synClient>
+  <synClient>
+    <Host>192.168.1.136</Host>
+    <Port>5432</Port>
+    <User>medisoft</User>
+    <Password>links1920</Password>
+    <Database>hepa</Database>
+    <Servername>may136</Servername>
+    <Dblink>may136</Dblink>
+    <ID>1</ID>
+  </synClient>
+</NewDataSet>

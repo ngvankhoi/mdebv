@@ -1,0 +1,3803 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="control_name" type="xs:string" minOccurs="0" />
+                <xs:element name="text" type="xs:string" minOccurs="0" />
+                <xs:element name="vie" type="xs:string" minOccurs="0" />
+                <xs:element name="eng" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <control_name>hh</control_name>
+    <text>0</text>
+    <vie>0</vie>
+  </Table>
+  <Table>
+    <control_name>c402</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>c401</control_name>
+    <text />
+    <vie>Kho Chẵn</vie>
+  </Table>
+  <Table>
+    <control_name>c400</control_name>
+    <text>F29. Tự động duyệt phiếu dự trù sau khi chuyển xuống kho</text>
+    <vie>(-)Tự động duyệt phiếu dự trù sau khi chuyển xuống kho, Không được sử dụng option này, ngọai trừ 1 số trường hợp hết sức đặc biệt (cần thông báo về công ty)</vie>
+  </Table>
+  <Table>
+    <control_name>c394</control_name>
+    <text>F28. Cho phép khoa sau hoàn trả</text>
+    <vie>(-)Khoa sau được phép hòan trả thuốc , vật tư y tế đã được khoa trước dự trù và đã nhận cấp phát.
+    Không nên sử dụng option này. Cần khuyến cáo bệnh viện hòan tất hòan trả tại khoa trước khi chuyển bệnh nhân sang khoa khác.
+	- Nếu thanh toán theo khoa thì không được dùng option này.</vie>
+  </Table>
+  <Table>
+    <control_name>c300</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>c390</control_name>
+    <text />
+    <vie>Phòng khám số 4 (YHCT-PHCN)</vie>
+  </Table>
+  <Table>
+    <control_name>c389</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>label103</control_name>
+    <text>F25 + Kho phát theo khai báo khoa phòng của dược</text>
+    <vie>(+)Cần chú ý kho dược phát theo danh mục khoa phòng riêng của kho dược,không phải là danh mục khoa phòng của Medisoft, Danh mục khoa phòng này bao gồm cả các khoa cận lâm sàng.Khai báo ở chương trình Dược-&gt; Tiện ích-&gt;Danh mục khoa phòng  </vie>
+  </Table>
+  <Table>
+    <control_name>c383</control_name>
+    <text>F27. Chọn thông số dược trong phẫu thủ thuật</text>
+    <vie>Chọn thông số dược trong phẫu thủ thuật.
+	- Khi vào nhập PTTT thì phải chọn thông tin phiếu xuất tủ trực: chọn phiếu, kho... để chuyển thông tin về đúng nơi duyệt.
+	- Nếu không chọn thì chương trình tự động chọn phiếu xuất tủ trực.
+	- Lưu ý: khi muốn bù thì phải vào Nội trú --&gt; Thuốc, VTYT --&gt; phiếu xuất tủ trực theo người bệnh: để chuyển số liệu về kho duyệt bù.</vie>
+  </Table>
+  <Table>
+    <control_name>c379</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>label102</control_name>
+    <text>Kho 2 :</text>
+    <vie>Kho 2 :</vie>
+  </Table>
+  <Table>
+    <control_name>c229</control_name>
+    <text />
+    <vie>nth</vie>
+  </Table>
+  <Table>
+    <control_name>c165</control_name>
+    <text />
+    <vie>Kho Dược</vie>
+  </Table>
+  <Table>
+    <control_name>c376</control_name>
+    <text />
+    <vie>Phòng khám số 4 (YHCT-PHCN)</vie>
+  </Table>
+  <Table>
+    <control_name>label101</control_name>
+    <text>Khoa :</text>
+    <vie>Khoa :</vie>
+  </Table>
+  <Table>
+    <control_name>c375</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>label100</control_name>
+    <text>Kho 1 :</text>
+    <vie>Kho 1 :</vie>
+  </Table>
+  <Table>
+    <control_name>c374</control_name>
+    <text>F24 - Phát thuốc phân theo kho và khoa phòng</text>
+    <vie>Phát thuốc phân theo kho và khoa phòng</vie>
+  </Table>
+  <Table>
+    <control_name>c364</control_name>
+    <text />
+    <vie>nth</vie>
+  </Table>
+  <Table>
+    <control_name>c363</control_name>
+    <text>F14. Đơn thuốc xuất khoa cho về trừ tồn kho</text>
+    <vie>(-)Đơn thuốc cấp F3 khi xuất khoa nội trú cho về trừ tồn kho theo user chọn ở dưới. Ít có trường hợp này </vie>
+  </Table>
+  <Table>
+    <control_name>dataGrid2</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>mml</control_name>
+    <text>0</text>
+    <vie>0</vie>
+  </Table>
+  <Table>
+    <control_name>c342</control_name>
+    <text>F13 - Đơn thuốc mua ngoài cho phép nhập ngoài tồn kho</text>
+    <vie>(-) Cấp toa thuốc mua ngoài (F5) lấy số liệu tồn nhà thuốc. Định hướng cho bệnh nhân mua thuốc tại nhà thuốc bệnh viện.
+	- Chỉ chọn option này khi có quản lý nhà thuốc.
+	- Chọn nhóm kho Nhà thuốc tương ứng bên cạnh.
+	- Lấy danh mục có số lượng tồn kho &gt;0 nhà thuốc.
+	- Nếu chọn F11 + F13 thì thể hiện toàn bộ danh mục, kể cả số lượng tồn kho =0.
+	- Nếu chọn F11 + F17 (không chọn F13) số lượng không vượt quá tồn kho. Thể hiện tồn kho &gt;0.
+	- Nếu chọn F11 + F13 + F17 thì không cho phép nhập số liệu lớn hơn tồn kho. Thể hiện tồn kho &gt;=0.</vie>
+  </Table>
+  <Table>
+    <control_name>c334</control_name>
+    <text>F23 - Điều trị nội trú có cấp đơn thuốc</text>
+    <vie>(-)Điều trị nội trú, có cấp đơn thuốc. Thường dùng cho các bệnh viện tư nhân, bệnh nhân mua thuốc hàng ngày tại nhà thuốc để điều trị mặc dù đang nằm nội trú </vie>
+  </Table>
+  <Table>
+    <control_name>c137</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>c299</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>c298</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>label61</control_name>
+    <text>Đối tượng :</text>
+    <vie>Đối tượng :</vie>
+  </Table>
+  <Table>
+    <control_name>c297</control_name>
+    <text>F12. Ngoại trú</text>
+    <vie>(-) Trường hợp ngoại lệ Bệnh nhân phòng khám, ngoại trú (đối tượng khác BHYT, TE) khi nhấn F3:
+	- Khoa phòng nào, đối tượng nào được phép thấy kho nào.
+	- Vd: tại BV Lê Lợi: đối tượng Thu phí tại phòng khám Nội được phép thấy kho và lấy thuốc tại kho Đông Y khi nhấn F3 ( thông thường F3 chỉ dùng cho BHYT, TE)</vie>
+  </Table>
+  <Table>
+    <control_name>c294</control_name>
+    <text>F22 - Lĩnh thuốc ngoài giờ dựa vào ngày giờ y lệnh</text>
+    <vie>(-) Lĩnh thuốc ngoài giờ dựa vào ngày giờ y lệnh để ấn định kho cấp thuốc
+- Chọn: dựa vào ngày giờ mà người dùng nhập --&gt; sẽ tìm kho theo giờ tương ứng được khai báo ở F01.
+- Không chọn: Tính theo giờ của máy chủ  --&gt; sẽ tìm kho theo giờ tương ứng được khai báo ở F01.
+</vie>
+  </Table>
+  <Table>
+    <control_name>hhl</control_name>
+    <text>0</text>
+    <vie>0</vie>
+  </Table>
+  <Table>
+    <control_name>c293</control_name>
+    <text>14:30</text>
+    <vie>15:34</vie>
+  </Table>
+  <Table>
+    <control_name>c292</control_name>
+    <text>14:30</text>
+    <vie>15:34</vie>
+  </Table>
+  <Table>
+    <control_name>c291</control_name>
+    <text>14:30</text>
+    <vie>15:34</vie>
+  </Table>
+  <Table>
+    <control_name>label63</control_name>
+    <text>Ngày nghỉ :</text>
+    <vie>Ngày nghỉ :</vie>
+  </Table>
+  <Table>
+    <control_name>label62</control_name>
+    <text>giờ nghỉ trưa từ                    đến</text>
+    <vie>giờ nghỉ trưa từ                    đến</vie>
+  </Table>
+  <Table>
+    <control_name>label60</control_name>
+    <text>F01. Phiếu lĩnh ngoài giờ ngày thường sau :</text>
+    <vie>(-) Dùng khi BV có phân biệt kho trong giờ ngoài giờ.
+- Phiếu lĩnh ngoài giờ được lĩnh từ giờ nào đến giờ nào, giờ nghỉ trưa, ngày lễ và phải chọn kho ngoài giờ tương ứng
+- Lưu ý: Do lĩnh kho nào trả vào kho đấy, nên sẽ gặp khó khăn khi lĩnh thuốc từ kho ngoài giờ nhưng trả trong giờ hành chính</vie>
+  </Table>
+  <Table>
+    <control_name>c282</control_name>
+    <text>F21 + Đơn thuốc khám bệnh chỉ nhập 1 lần trong lần khám</text>
+    <vie>(+)Đơn thuốc khám bệnh chỉ nhập 1 lần trong lần khám, Bác sĩ không thể cấp 2 toa trong 1 lần khám.
+</vie>
+  </Table>
+  <Table>
+    <control_name>c281</control_name>
+    <text>F20 + Đơn thuốc khác ngày chỉ Admin mới in lại được</text>
+    <vie>(+)Đơn thuốc khác ngày chỉ Admin mới in lại được. Giúp tránh gian lận cấp thuốc ngày cũ</vie>
+  </Table>
+  <Table>
+    <control_name>c166</control_name>
+    <text />
+    <vie>Kho Dược</vie>
+  </Table>
+  <Table>
+    <control_name>c145</control_name>
+    <text>F19 - Chuyển thuốc/vật tư tiêu hao pttt vào dược</text>
+    <vie>(-) Chuyển thuốc/vật tư tiêu hao pttt vào dược
+	- Yêu cầu khai báo tường trình trong PTTT đồng thời khai báo thuốc, vật tư và tủ trực sử dụng liên quan.
+	- Khi nhập PTTT thì tự động xuất thuốc, VTTH tủ trực cho bệnh nhân.
+	- Lưu ý: số liệu này chưa chuyển xuống kho duyệt bù. Nếu muốn duyệt bù thì phải chuyển số liệu xuống kho duyệt (Nội trú --&gt; Thuốc, VTYT --&gt; Phiếu xuất cơ số tủ trực:).
+</vie>
+  </Table>
+  <Table>
+    <control_name>c147</control_name>
+    <text />
+    <vie>Trẻ em &lt; 6t</vie>
+  </Table>
+  <Table>
+    <control_name>c61</control_name>
+    <text>F03 + Kiểm tra dị ứng trong đơn thuốc</text>
+    <vie>(+)Kiểm tra dị ứng trong đơn thuốc. Trường hợp này khoa dược phải khai báo hoạt chất đầy đủ cho từng loại thuốc</vie>
+  </Table>
+  <Table>
+    <control_name>c156</control_name>
+    <text>F02 + In đơn thuốc kèm cách dùng</text>
+    <vie>(+) In đơn thuốc kèm cách dùng cho mỗi lọai thuốc có trong đơn</vie>
+  </Table>
+  <Table>
+    <control_name>c56</control_name>
+    <text>F26. Xem sử dụng thuốc</text>
+    <vie>Xem sử dụng thuốc. Yêu cầu chọn "Bỏ qua"</vie>
+  </Table>
+  <Table>
+    <control_name>c194</control_name>
+    <text>F08 - Tự động cập nhật lại đơn thuốc của bác sỹ</text>
+    <vie>(-) Tự động lưu lại đơn thuốc của bác sỹ khi cấp toa
+- Khi dùng sau một thời gian thì số toa lưu rất nhiều là cho chương trình chạy rất chậm
+- Nên dùng cách khai báo toa mẫu trong Medisoft (Tiện ích --&gt; Danh mục: toa theo bác sĩ và tên bệnh)
+- Hoặc gói trong chương trình Dược (Tiện ích --&gt; Danh mục --&gt; Khai báo gói thuốc, vtyt)</vie>
+  </Table>
+  <Table>
+    <control_name>c198</control_name>
+    <text>F05 + Cho thuốc nhiều ngày trong ngày nghỉ,lễ tết</text>
+    <vie>(+)Cho thuốc nhiều ngày trong ngày thứ 6 hàng tuần và nghỉ,lễ tết. Chương trình tự phát hiện ngày lễ, ngày nghĩ để cấp phát thuốc nhiều ngày. 
+	Ngày Tết Nguyên Đán thì phải khai thành ngày dương lịch vào mỗi năm.
+- Phải khai báo các ngày nghỉ lễ bên cạnh (F30)
+- Khi sử dụng: thì thuốc ngày sau phải giống ngày đang nhập thuốc
+- Kết hợp với option: F22. Lĩnh thuốc ngoài giờ dựa vào ngày y lệnh
+</vie>
+  </Table>
+  <Table>
+    <control_name>c191</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>c48</control_name>
+    <text>F10 - Cấp toa thuốc lấy số liệu trong danh mục thuốc bệnh viện</text>
+    <vie>(-) Cấp toa thuốc mua ngoài (F5) lấy số liệu trong danh mục thuốc bệnh viện dựa vào nhóm Dược bệnh viện (A).
+	Bệnh nhân được cấp thuốc theo danh mục thuốc của bệnh viện, không được nhập thuốc bằng cách gõ tự do theo ý bác sĩ. 
+	Cấp thuốc kiểu này lợi là nhập thuốc theo danh sách có sẵn, nhưng bất lợi là có thể không có thuốc tồn trong nhà thuốc.</vie>
+  </Table>
+  <Table>
+    <control_name>label51</control_name>
+    <text>Kho :</text>
+    <vie> Chọn kho ngoài giờ tương ứng</vie>
+  </Table>
+  <Table>
+    <control_name>c135</control_name>
+    <text>F11 - Cấp toa thuốc lấy số liệu tồn nhà thuốc</text>
+    <vie>(-) Cấp toa thuốc mua ngoài (F5) lấy số liệu tồn nhà thuốc. Định hướng cho bệnh nhân mua thuốc tại nhà thuốc bệnh viện.
+	- Chỉ chọn option này khi có quản lý nhà thuốc.
+	- Chọn nhóm kho Nhà thuốc tương ứng bên cạnh.
+	- Lấy danh mục có số lượng tồn kho &gt;0 nhà thuốc.
+	- Nếu chọn F11 + F13 thì thể hiện toàn bộ danh mục, kể cả số lượng tồn kho =0. 
+	- Nếu chọn F11 + F17 (không chọn F13) số lượng không vượt quá tồn kho. Thể hiện tồn kho &gt;0.
+	- Nếu chọn F11 + F13 + F17 thì không cho phép nhập số liệu lớn hơn tồn kho. Thể hiện tồn kho &gt;=0.
+** Lưu ý: nếu không có nhà thuốc bỏ chọn F11, F13, F17.</vie>
+  </Table>
+  <Table>
+    <control_name>c261</control_name>
+    <text>F16 - Hiện tổng số tiền tương đối trong đơn cấp</text>
+    <vie>(+)Chỉ có thể hiện tổng số tiền tương đối trong đơn cấp, vì giá thuốc theo nguyên tắc nhập trước xuất trước. 
+	Option này giúp bệnh nhân ước lượng được số tiền phải trả cho đơn thuốc. 
+	Nếu không đủ tiền có thể yêu cầu thầy thuốc kê toa với chi phí thấp hơn . </vie>
+  </Table>
+  <Table>
+    <control_name>label52</control_name>
+    <text>:</text>
+    <vie>:</vie>
+  </Table>
+  <Table>
+    <control_name>c260</control_name>
+    <text>F17- Đơn thuốc mua ngoài kiểm tra tồn kho</text>
+    <vie>(-) Cấp toa thuốc mua ngoài (F5) lấy số liệu tồn nhà thuốc. Định hướng cho bệnh nhân mua thuốc tại nhà thuốc bệnh viện.
+	- Chỉ chọn option này khi có quản lý nhà thuốc.
+	- Chọn nhóm kho Nhà thuốc tương ứng bên cạnh.
+	- Lấy danh mục có số lượng tồn kho &gt;0 nhà thuốc.
+	- Nếu chọn F11 + F13 thì thể hiện toàn bộ danh mục, kể cả số lượng tồn kho =0.
+	- Nếu chọn F11 + F17 (không chọn F13) số lượng không vượt quá tồn kho. Thể hiện tồn kho &gt;0.
+	- Nếu chọn F11 + F13 + F17 thì không cho phép nhập số liệu lớn hơn tồn kho. Thể hiện tồn kho &gt;=0.</vie>
+  </Table>
+  <Table>
+    <control_name>label31</control_name>
+    <text>Sau :</text>
+    <vie>Sau :</vie>
+  </Table>
+  <Table>
+    <control_name>c184</control_name>
+    <text>F07 + Đơn thuốc số lần trong ngày</text>
+    <vie>(+) Đơn thuốc ghi theo số lần sử dụng thuốc trong ngày (Thí dụ : Ngày 3 lần , lần uống 1 viên) </vie>
+  </Table>
+  <Table>
+    <control_name>label32</control_name>
+    <text>:</text>
+    <vie>:</vie>
+  </Table>
+  <Table>
+    <control_name>c169</control_name>
+    <text>F06 + Kiểm tra thuốc trùng trong ngày</text>
+    <vie>(+) Kiểm tra tên biệt dược trùng trong ngày. Một thuốc trong ngày khi cho 2 lần tại nhiều phòng khám khác nhau thì chương trình sẽ cảnh báo.</vie>
+  </Table>
+  <Table>
+    <control_name>c186</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>mm</control_name>
+    <text>0</text>
+    <vie>0</vie>
+  </Table>
+  <Table>
+    <control_name>label45</control_name>
+    <text>Kho :</text>
+    <vie>Kho :</vie>
+  </Table>
+  <Table>
+    <control_name>mmt</control_name>
+    <text>0</text>
+    <vie>0</vie>
+  </Table>
+  <Table>
+    <control_name>c164</control_name>
+    <text>F04 - In chỉ định vào đơn thuốc</text>
+    <vie>(-)In chỉ định vào đơn thuốc. Trong đơn thuốc có in kèm chỉ định.
+	- Dùng để tiết kiệm giấy in.</vie>
+  </Table>
+  <Table>
+    <control_name>c244</control_name>
+    <text>F18 - Tự động lưu lại cách dùng</text>
+    <vie>(-)Tự động lưu lại cách dùng, để dùng cho lần sau. Nên khai báo trước để tránh rác trong danh mục cách dùng (Tiện ích --&gt; danh mục --&gt; danh mục cách dùng)</vie>
+  </Table>
+  <Table>
+    <control_name>label33</control_name>
+    <text>Kho :</text>
+    <vie>Kho :</vie>
+  </Table>
+  <Table>
+    <control_name>c233</control_name>
+    <text>F15 - In chữ ký điện tử trong đơn thuốc + chỉ định</text>
+    <vie>(-) In chữ ký điện tử trong đơn thuốc + chỉ định. Dùng trong trường hợp tại phòng khám không có máy in. 
+	Bệnh nhân được hướng dẫn đến kho cấp phát, nhà thuốc nhận toa và mua thuốc</vie>
+  </Table>
+  <Table>
+    <control_name>c176</control_name>
+    <text />
+    <vie>Kho lẻ BHYT</vie>
+  </Table>
+  <Table>
+    <control_name>label46</control_name>
+    <text>:</text>
+    <vie>:</vie>
+  </Table>
+  <Table>
+    <control_name>label44</control_name>
+    <text>Kho :</text>
+    <vie>Kho :</vie>
+  </Table>
+  <Table>
+    <control_name>mmb</control_name>
+    <text>0</text>
+    <vie>0</vie>
+  </Table>
+  <Table>
+    <control_name>label38</control_name>
+    <text>Trẻ em &lt; 6 tuổi :</text>
+    <vie>Trẻ em &lt; 6 tuổi :</vie>
+  </Table>
+  <Table>
+    <control_name>hht</control_name>
+    <text>0</text>
+    <vie>0</vie>
+  </Table>
+  <Table>
+    <control_name>label43</control_name>
+    <text>:</text>
+    <vie>:</vie>
+  </Table>
+  <Table>
+    <control_name>hhb</control_name>
+    <text>0</text>
+    <vie>0</vie>
+  </Table>
+  <Table>
+    <control_name>label47</control_name>
+    <text>Sau :</text>
+    <vie>Sau :</vie>
+  </Table>
+  <Table>
+    <control_name>label42</control_name>
+    <text>BHYT Sau :</text>
+    <vie>BHYT Sau :</vie>
+  </Table>
+  <Table>
+    <control_name>c228</control_name>
+    <text>F09 - Đơn thuốc dược phát trong khám bệnh trừ tồn kho</text>
+    <vie>(-) Đơn thuốc dược phát trong khám bệnh trừ tồn kho, không cần duyệt và chọn tên người dùng bên cạnh dùng để xem thuốc trong chương trình Dược.
+- Bắt buột chọn thêm tùy chọn: G41, G52 (mục viện phí); C53 (mục chuyên môn).</vie>
+  </Table>
+  <Table>
+    <control_name>label40</control_name>
+    <text>Nhóm dược bệnh viện :</text>
+    <vie>Chọn nhóm kho tương ưng với:
+- Kho lĩnh ngoài giờ
+- Kho cấp phát thuốc theo đơn BHYT, Miễn phí...(F3 trong màn hình khám bệnh) 
+- Kết hợp với khai báo nhóm phiếu trong chương trình dược
+- Kết hợp với khai báo khoa phòng trong chương trình dược
+- Kết hợp với khai báo đối tượng trong chương trình dược05
+
+</vie>
+  </Table>
+  <Table>
+    <control_name>c365</control_name>
+    <text>7000000</text>
+    <vie>7000000</vie>
+  </Table>
+  <Table>
+    <control_name>label95</control_name>
+    <text>E17. Thứ 7, chủ nhật BHYT chi trả chi phí tối đa :</text>
+    <vie>E02. Thứ 7, chủ nhật BHYT chi trả chi phí tối đa :</vie>
+  </Table>
+  <Table>
+    <control_name>c362</control_name>
+    <text>E16 - Kiểm tra số thẻ và nơi đăng ký khám chữa bệnh</text>
+    <vie>(+).**** Kiểm tra số thẻ và nơi đăng ký khám chữa bệnh</vie>
+  </Table>
+  <Table>
+    <control_name>c360</control_name>
+    <text>E13.1 Chênh lệch theo giá mua</text>
+    <vie>E15. Chênh lệch theo giá mua</vie>
+  </Table>
+  <Table>
+    <control_name>c348</control_name>
+    <text>7000000</text>
+    <vie>7000000</vie>
+  </Table>
+  <Table>
+    <control_name>c353</control_name>
+    <text>E14 + Nhập ngày bắt đầu hưởng các khoản chi phí, chăm sóc,thuốc đặc trị</text>
+    <vie>(+)Nhập ngày bắt đầu hưởng các khoản chi phí, chăm sóc,thuốc đặc trị</vie>
+  </Table>
+  <Table>
+    <control_name>c351</control_name>
+    <text>20000000</text>
+    <vie>20000000</vie>
+  </Table>
+  <Table>
+    <control_name>c352</control_name>
+    <text>60</text>
+    <vie>60</vie>
+  </Table>
+  <Table>
+    <control_name>c350</control_name>
+    <text />
+    <vie>EL+FL+IL+HL+HN+HS+GL+JL</vie>
+  </Table>
+  <Table>
+    <control_name>c349</control_name>
+    <text />
+    <vie>ES+BS+AS+IS</vie>
+  </Table>
+  <Table>
+    <control_name>lbl60</control_name>
+    <text>2.3. Những thẻ bắt buộc còn lại được thanh toán               %,  nhưng không quá :</text>
+    <vie>2.3. Những thẻ bắt buộc còn lại được thanh toán               %,  nhưng không quá :</vie>
+  </Table>
+  <Table>
+    <control_name>label93</control_name>
+    <text>2.2. Những thẻ được thanh toán 100 %                                                                      , nhưng không quá :</text>
+    <vie>2.2. Những thẻ được thanh toán 100 %                                                                      , nhưng không quá :</vie>
+  </Table>
+  <Table>
+    <control_name>label94</control_name>
+    <text>2.1. Những thẻ được thanh toán 100 %</text>
+    <vie>2.1. Những thẻ được thanh toán 100 %</vie>
+  </Table>
+  <Table>
+    <control_name>label92</control_name>
+    <text>2. Nếu trên :</text>
+    <vie>E18. 2. Nếu trên :</vie>
+  </Table>
+  <Table>
+    <control_name>label91</control_name>
+    <text>(tùy theo ngày được hưởng dịch vụ ghi trên thẻ)</text>
+    <vie>(tùy theo ngày được hưởng dịch vụ ghi trên thẻ)</vie>
+  </Table>
+  <Table>
+    <control_name>label90</control_name>
+    <text>1.2. Đối tượng tự nguyện được thanh toán 80 %</text>
+    <vie>1.2. Đối tượng tự nguyện được thanh toán 80 %</vie>
+  </Table>
+  <Table>
+    <control_name>label89</control_name>
+    <text>1.1. Đối tượng bắt buộc được thanh toán 100 %</text>
+    <vie>1.1. Đối tượng bắt buộc được thanh toán 100 %</vie>
+  </Table>
+  <Table>
+    <control_name>label88</control_name>
+    <text>1. Nếu dưới :</text>
+    <vie>E18. 1. Nếu dưới :</vie>
+  </Table>
+  <Table>
+    <control_name>label87</control_name>
+    <text>E15. Mức chi phí dịch vụ kỹ thuật cao bảo hiểm qui định :</text>
+    <vie>Mức chi phí dịch vụ kỹ thuật cao bảo hiểm qui định.
+	- Muốn sử dụng tùy chọn này phải chọn tùy chọn E14.</vie>
+  </Table>
+  <Table>
+    <control_name>c347</control_name>
+    <text>E13 - Bảo hiểm quyết toán giá thuốc theo giá qui định</text>
+    <vie>(-) Bảo hiểm quyết toán giá thuốc theo giá qui định không theo hóa đơn.
+	-  Nếu chọn Chênh lệch theo giá mua thì bệnh nhân phải thanh toán chênh lệch giữa giá mua và giá quy định
+	-  Nếu không chọn Chênh lệch theo giá mua thì bệnh nhân phải thanh toán chênh lệch giữa giá bán và giá quy định
+</vie>
+  </Table>
+  <Table>
+    <control_name>c345</control_name>
+    <text>E12 - Nhập số thẻ theo danh mục bảo hiểm cung cấp</text>
+    <vie>Nhập số thẻ trong danh mục bảo hiểm cung cấp, Điều này xảy ra ở 1 vài bệnh viện , BHYT cung cáp danh sách bệnh nhân đăng ký khám tại bệnh viện cùng với số thẻ của họ, Medisoft sẽ import danh sách này vào cơ sở dữ liệu</vie>
+  </Table>
+  <Table>
+    <control_name>label84</control_name>
+    <text>được hưởng tất cả dịch vụ</text>
+    <vie>được hưởng tất cả dịch vụ</vie>
+  </Table>
+  <Table>
+    <control_name>c333</control_name>
+    <text>0</text>
+    <vie>0</vie>
+  </Table>
+  <Table>
+    <control_name>label83</control_name>
+    <text>Vị trí :</text>
+    <vie>Vị trí :</vie>
+  </Table>
+  <Table>
+    <control_name>c332</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>label82</control_name>
+    <text>E11. Số thẻ :</text>
+    <vie> Ký hiệu số thẻ được hưởng 100% chi phí toàn bộ các dịch vụ. Vd: chuyển viện, tiền ăn...</vie>
+  </Table>
+  <Table>
+    <control_name>c321</control_name>
+    <text>E10. Người bệnh BHYT trong ngày chỉ khám 1 lần</text>
+    <vie>Người bệnh BHYT trong 1 ngày chỉ khám 1 lần</vie>
+  </Table>
+  <Table>
+    <control_name>c163</control_name>
+    <text>E01 - BHYT nhập từ ngày ... đến ngày</text>
+    <vie> (+)**** Nhập giá trị thẻ BHYT nhập từ ngày ... đến ngày. Thông thường chỉ nhập ngày hết hạn (đến ngày).***</vie>
+  </Table>
+  <Table>
+    <control_name>c205</control_name>
+    <text>E03 + Kiểm tra hạn sử dụng khi sử dụng dịch vụ</text>
+    <vie>(+) Kiểm tra hạn sử dụng thẻ khi sử dụng dịch vụ. Được sử dụng trong nội trú khi sử dụng thuốc, chỉ định hay làm viện phí khoa.
+	Còn phòng khám thì đã có bộ phận (con người) kiểm tra thẻ tại tiếp đón.</vie>
+  </Table>
+  <Table>
+    <control_name>c131</control_name>
+    <text>E09 Cho phép chỉnh sửa đối tượng ban đầu trong thuốc,vp</text>
+    <vie>(+) Có thể chỉnh sửa đối tượng khi sử dụng dịch vụ. Thí dụ chỉnh sửa đối tượng dịch vụ của bệnh nhân BHYT thành Thu phí nếu dịch vụ đó BHYT không chi trả</vie>
+  </Table>
+  <Table>
+    <control_name>c204</control_name>
+    <text>E02 + Kiểm tra số thẻ &amp;&amp; mã  người bệnh</text>
+    <vie>(+) Kiểm tra số thẻ;&amp; mã  người bệnh,tránh tình trạng 1 bệnh nhân có nhiều mã bệnh nhân (tiếp đón lại hay cho mượn thẻ).</vie>
+  </Table>
+  <Table>
+    <control_name>c180</control_name>
+    <text>E05. Chỉnh sửa đối tượng trong nhập khoa</text>
+    <vie>(-)Khoa có thể chỉnh sửa đối tượng nhập sai </vie>
+  </Table>
+  <Table>
+    <control_name>c192</control_name>
+    <text>E04 - Chỉnh sửa đối tượng trong khám bệnh</text>
+    <vie>(-) Phòng khám có thể chỉnh sửa đối tượng nhập sai ở nơi đăng ký</vie>
+  </Table>
+  <Table>
+    <control_name>c132</control_name>
+    <text>E06 - Chỉnh sửa đối tượng dịch vụ chi tiết</text>
+    <vie>Đề nghị bỏ option này - không còn tác dụng</vie>
+  </Table>
+  <Table>
+    <control_name>c154</control_name>
+    <text>E07 + Kiểm tra hạn sử dụng số thẻ</text>
+    <vie>(+) Kiểm tra hạn sử dụng thẻ so với ngày vào viện, vào khám...</vie>
+  </Table>
+  <Table>
+    <control_name>c178</control_name>
+    <text>E08 - Hiện danh sách khi nhập số thẻ</text>
+    <vie>(-) Hiện danh sách khi nhập số thẻ, trong trường hợp BHYT cung cấp danh sách</vie>
+  </Table>
+  <Table>
+    <control_name>c346</control_name>
+    <text>D18 + Tự động chuyển thông tin vào phòng lưu trong khám bệnh</text>
+    <vie>(+) Tự động chuyển thông tin từ phòng khám vào phòng lưu.
+	Bệnh nhân khi được xử trí nhập phòng lưu thì bệnh nhân được đưa vào danh sách chờ nhập khoa. </vie>
+  </Table>
+  <Table>
+    <control_name>c301</control_name>
+    <text>- Trong xuất khoa</text>
+    <vie>Số lưu trữ tăng tự động trong xuất khoa</vie>
+  </Table>
+  <Table>
+    <control_name>c239</control_name>
+    <text>+ Trong xuất viện</text>
+    <vie>Số lưu trữ tăng tự động trong xuất viện</vie>
+  </Table>
+  <Table>
+    <control_name>c216</control_name>
+    <text>D03 - Số lưu trữ tăng tự động = 3 ký tự ICD+stt+năm 2 số</text>
+    <vie>(-) Số lưu trữ tăng tự động = 3 ký tự ICD+stt+năm (2 số cuối)</vie>
+  </Table>
+  <Table>
+    <control_name>c59</control_name>
+    <text>D12 + Số khám tự động</text>
+    <vie>(+) Số thứ tự vào phòng khám được cấp tự động liên tục từ 1 - n. Nên chọn tự động theo từng phòng khám.</vie>
+  </Table>
+  <Table>
+    <control_name>c241</control_name>
+    <text>+ Trong nội trú  và Phòng lưu</text>
+    <vie>Số vào viện tăng tự động trong nội trú + Phòng lưu</vie>
+  </Table>
+  <Table>
+    <control_name>sovaovien</control_name>
+    <text>D01 + Số vào viện tự động</text>
+    <vie>(+) Số vào viện tự động tăng từ 1 - n và có thể không liên tục nếu có xóa hồ sơ bệnh án.</vie>
+  </Table>
+  <Table>
+    <control_name>c225</control_name>
+    <text>+ Trong nội trú</text>
+    <vie>Số vào viện tăng tự động trong nội trú</vie>
+  </Table>
+  <Table>
+    <control_name>c226</control_name>
+    <text>D02 + Số lưu trữ tăng tự động</text>
+    <vie>(+) Số lưu trữ tăng tự động từ 1 - n và có thể không liên tục vì thu hồi hồ sơ bệnh án (khi bệnh nhân đã xuất khoa, xuất viện) sau đó nhập lại.</vie>
+  </Table>
+  <Table>
+    <control_name>c51</control_name>
+    <text>D05 - Quản lý mã vạch</text>
+    <vie>(-) Quản lý mã vạch, cần chép thêm dll vân tay</vie>
+  </Table>
+  <Table>
+    <control_name>c140</control_name>
+    <text>D07 - Quản lý vân tay</text>
+    <vie>(-) Quản lý vân tay, cần cài đặt phần mềm barcode, chép bộ font 128code</vie>
+  </Table>
+  <Table>
+    <control_name>c177</control_name>
+    <text>D08 - Mã BN tự động</text>
+    <vie>Mã BN tăng tự động</vie>
+  </Table>
+  <Table>
+    <control_name>c243</control_name>
+    <text>D09 + Số khám phòng lưu tăng tự động</text>
+    <vie>Số khám phòng lưu tăng tự động</vie>
+  </Table>
+  <Table>
+    <control_name>c108</control_name>
+    <text>D13 + Tự động chuyển thông tin vào điều trị nội trú trong khám bệnh</text>
+    <vie>(+) Tự động chuyển thông tin từ phòng khám vào khoa điều trị nội trú. 
+	Bệnh nhân khi được xử trí nhập viện thì không phải qua bàn nhập viện (trên máy) mà được đưa thẳng vào danh sách chờ nhập khoa.</vie>
+  </Table>
+  <Table>
+    <control_name>c203</control_name>
+    <text>D16 + Tự động chuyển thông tin vào điều trị ngoại trú trong phòng lưu</text>
+    <vie>(+) Tự động chuyển thông tin từ phòng lưu vào điều trị ngoại trú.
+	Bệnh nhân khi được xử trí điều trị ngoại trú từ phòng lưu thì không phải qua tiếp đón ngoại trú mà được đưa thẳng vào danh sách chờ nhập khoa ngoại trú.</vie>
+  </Table>
+  <Table>
+    <control_name>c201</control_name>
+    <text>D15 + Tự động chuyển thông tin vào điều trị nội trú trong ngoại trú</text>
+    <vie>(+) Tự động chuyển thông tin ngọai trú vào điều trị nội trú.
+	Bệnh nhân khi được xử trí nhập viện từ ngoại trú thì không phải qua bàn nhập viện (trên máy) mà được đưa thẳng vào danh sách chờ nhập khoa nội trú.</vie>
+  </Table>
+  <Table>
+    <control_name>c202</control_name>
+    <text>D17 + Tự động chuyển thông tin vào điều trị nội trú trong phòng lưu</text>
+    <vie>(+)Tự động chuyển thông tin phòng lưu vào điều trị nội trú.
+	Bệnh nhân khi được xử trí nhập viện từ phòng lưu thì không phải qua bàn nhập viện (trên máy) mà được đưa thẳng vào danh sách chờ nhập khoa.</vie>
+  </Table>
+  <Table>
+    <control_name>c109</control_name>
+    <text>D14 + Tự động chuyển thông tin vào điều trị ngoại trú trong khám bệnh</text>
+    <vie>(+)Tự động chuyển thông tin phòng khám vào điều trị ngoại trú.
+	Bệnh nhân khi được xử trí điều trị thì không phải qua bàn tiếp đón để điều trị ngoại trú mà được đưa thẳng vào danh sách chờ nhập khoa ngoại trú.</vie>
+  </Table>
+  <Table>
+    <control_name>c223</control_name>
+    <text>D10 - Mã BN tự động trong đăng ký khám bệnh</text>
+    <vie>(-) Mã BN tự động trong đăng ký khám bệnh</vie>
+  </Table>
+  <Table>
+    <control_name>c224</control_name>
+    <text>D11 - Đọc mã vạch</text>
+    <vie>(-) Đọc mã vạch. Chọn khi bệnh viện có quản lý mã vạch và phải có đầu đọc mã vạch.</vie>
+  </Table>
+  <Table>
+    <control_name>c102</control_name>
+    <text>D04 - Số lưu trữ = Mã người bệnh</text>
+    <vie>Số lưu trữ = Mã người bệnh</vie>
+  </Table>
+  <Table>
+    <control_name>c227</control_name>
+    <text>D06 + Số lưu trữ = Số vào viện</text>
+    <vie>Số lưu trữ = Số vào viện</vie>
+  </Table>
+  <Table>
+    <control_name>c248</control_name>
+    <text>B01 - Quản lý hình người bệnh</text>
+    <vie>(-) Quản lý ảnh người bệnh.</vie>
+  </Table>
+  <Table>
+    <control_name>c343</control_name>
+    <text>B03 - Quản lý Smart Card</text>
+    <vie>(-) Sử dụng khi dùng thẻ thông minh, nếu check vào cần phải có dll smart card nếu không sẽ báo lỗi</vie>
+  </Table>
+  <Table>
+    <control_name>c121</control_name>
+    <text />
+    <vie>Sinh viên, học sinh</vie>
+  </Table>
+  <Table>
+    <control_name>c119</control_name>
+    <text />
+    <vie>Nam</vie>
+  </Table>
+  <Table>
+    <control_name>c275</control_name>
+    <text />
+    <vie>JPEG</vie>
+  </Table>
+  <Table>
+    <control_name>c125</control_name>
+    <text>B10 - Tình trạng hôn nhân</text>
+    <vie>(-) Tình trạng hôn nhân</vie>
+  </Table>
+  <Table>
+    <control_name>c123</control_name>
+    <text />
+    <vie>Tỉnh khác</vie>
+  </Table>
+  <Table>
+    <control_name>label29</control_name>
+    <text>Tỉnh :</text>
+    <vie>Tỉnh :</vie>
+  </Table>
+  <Table>
+    <control_name>c0</control_name>
+    <text>B06 - Cho phép điều chỉnh thông tin hành chính trong nhập/xuất khoa</text>
+    <vie>(-) Khoa được phép chỉnh sửa thông tin hành chánh của bệnh nhân khi nhập khoa.
+        </vie>
+  </Table>
+  <Table>
+    <control_name>c114</control_name>
+    <text>B07 - Bắt buộc nhập mã bà mẹ</text>
+    <vie>(-)Bắt buộc nhập mã bà mẹ trong trường hợp bệnh án sơ sinh. Lợi ích khi tính viện phí con theo mẹ
+	- Nếu không nhập mã bà mẹ thì không quản lý được về chuyên môn, viện phí (em bé chưa có tên phải sử dụng tên em bé là Con bà + tên bà mẹ).
+	- Lợi ích của option này là khi nhập bà mẹ sẽ gom được viện phí của con, địa điểm khoa phòng của em bé...
+	- Chỉ thích hợp ở khoa sản. 
+    </vie>
+  </Table>
+  <Table>
+    <control_name>c122</control_name>
+    <text />
+    <vie>*Kinh</vie>
+  </Table>
+  <Table>
+    <control_name>c44</control_name>
+    <text>B08 - Kiểm tra hợp lệ họ tên và giới tính</text>
+    <vie>(-)Kiểm tra hợp lệ họ tên và giới tính (văn là nam, thị là nữ). 
+                Sẽ gặp bất lợi khi gặp bệnh nhân sơ sinh thường nhập theo tên mẹ (tên lót THỊ) nhưng giới tính là Nam.
+                Bệnh nhân dân tộc có họ Thị đối với nam, họ Văn đối với nữ</vie>
+  </Table>
+  <Table>
+    <control_name>butImage</control_name>
+    <text>...</text>
+    <vie>...</vie>
+  </Table>
+  <Table>
+    <control_name>label28</control_name>
+    <text>Dân tộc :</text>
+    <vie>Dân tộc :</vie>
+  </Table>
+  <Table>
+    <control_name>label9</control_name>
+    <text>tuổi</text>
+    <vie>tuổi</vie>
+  </Table>
+  <Table>
+    <control_name>c107</control_name>
+    <text>100</text>
+    <vie>100</vie>
+  </Table>
+  <Table>
+    <control_name>c265</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>c124</control_name>
+    <text />
+    <vie>VÔ DANH</vie>
+  </Table>
+  <Table>
+    <control_name>label12</control_name>
+    <text>B11. Tuổi tối đa người bệnh</text>
+    <vie>Tuổi tối đa người bệnh, Giúp tránh nhập sai số tuổi quá lớn</vie>
+  </Table>
+  <Table>
+    <control_name>label57</control_name>
+    <text>B05. Đường dẫn sao lưu số liệu :</text>
+    <vie>Đường dẫn sao lưu hình ảnh của bệnh nhân.b</vie>
+  </Table>
+  <Table>
+    <control_name>c264</control_name>
+    <text>B04. Lưu ảnh BN theo định dạng</text>
+    <vie>Lưu ảnh với format:</vie>
+  </Table>
+  <Table>
+    <control_name>c142</control_name>
+    <text>B09 + Nhập điện thoại người bệnh trong đăng ký</text>
+    <vie>(-) Nhập điện thoại người bệnh trong đăng ký.nên ghi nhận số điện thọai di động  giúp phần mềm nhắn tin cho người bệnh qua điện thọai di động
+	- Thích hợp cho bệnh viện tư nhân.</vie>
+  </Table>
+  <Table>
+    <control_name>label27</control_name>
+    <text>B12. VÔ DANH :</text>
+    <vie>Dùng trong trường hợp cấp cứu, bệnh nhân hôn mê, không khai thác được phần hành chính. Về sau khi bệnh nhân hồi tỉnh sẽ sửa lại thông tin hành chính này</vie>
+  </Table>
+  <Table>
+    <control_name>label26</control_name>
+    <text>Nghề nghiệp :</text>
+    <vie>Nghề nghiệp :</vie>
+  </Table>
+  <Table>
+    <control_name>c120</control_name>
+    <text>0</text>
+    <vie>0</vie>
+  </Table>
+  <Table>
+    <control_name>label24</control_name>
+    <text>Giới tính :</text>
+    <vie>Giới tính :</vie>
+  </Table>
+  <Table>
+    <control_name>label25</control_name>
+    <text>Tuổi :</text>
+    <vie>Tuổi :</vie>
+  </Table>
+  <Table>
+    <control_name>c258</control_name>
+    <text>B02 - Chọn hình người bệnh</text>
+    <vie>(-)Chọn ảnh người bệnh, từ thư mục lưu ảnh, sau khi đã lưu ảnh bệnh nhân</vie>
+  </Table>
+  <Table>
+    <control_name>c386</control_name>
+    <text>A28 - Bật bộ gõ tiếng Việt theo chương trình</text>
+    <vie>(-)Phần mềm đã trang bị sẵn bộ gỏ tiếng Việt,Khi bật option này không cần bộ gỏ Việtkey hay Unikey, Tuy nhiên cần có font tiếng Việt. Hiện nay chỉ hổ trợ kiểu gỏ VNI</vie>
+  </Table>
+  <Table>
+    <control_name>c115</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>songaydemo</control_name>
+    <text>30</text>
+    <vie>30</vie>
+  </Table>
+  <Table>
+    <control_name>demo</control_name>
+    <text>Demo               ngày</text>
+    <vie>Demo               ngày</vie>
+  </Table>
+  <Table>
+    <control_name>but341</control_name>
+    <text>...</text>
+    <vie>...</vie>
+  </Table>
+  <Table>
+    <control_name>c341</control_name>
+    <text />
+    <vie>D:\NANGCAP</vie>
+  </Table>
+  <Table>
+    <control_name>c340</control_name>
+    <text>A10 - Tự động cập nhật lại version, thư mục chứa MEDISOFT tổng thể :</text>
+    <vie>(-)Tự động cập nhật lại version, thư mục chứa MEDISOFT tổng thể. Option này giúp phần mềm tự động cập nhật version mới của phần mềm vào máy trạm. 
+                Giúp ta không phải di chuyển đến từng máy trạm hoặc phải cập nhập cho từng máy, giúp tiết kiệm thời gian và công lao động của người triển khai. Tuy nhiên sẽ làm chậm hệ thống
+              </vie>
+  </Table>
+  <Table>
+    <control_name>c138h</control_name>
+    <text>0</text>
+    <vie>0</vie>
+  </Table>
+  <Table>
+    <control_name>c138m</control_name>
+    <text>0</text>
+    <vie>0</vie>
+  </Table>
+  <Table>
+    <control_name>label53</control_name>
+    <text>:</text>
+    <vie>:</vie>
+  </Table>
+  <Table>
+    <control_name>c277</control_name>
+    <text>A12+ Tự động hủy các tập tin trong thư mục TEMP</text>
+    <vie>(+)Tự động hủy các tập tin trong thư mục TEMP để giải phóng dung lượng đĩa</vie>
+  </Table>
+  <Table>
+    <control_name>butTemp</control_name>
+    <text>...</text>
+    <vie>...</vie>
+  </Table>
+  <Table>
+    <control_name>tTemp</control_name>
+    <text />
+    <vie>C:\Users\LeThiThuy\AppData\Local\Temp\</vie>
+  </Table>
+  <Table>
+    <control_name>lTemp</control_name>
+    <text>A11. Thư mục TEMP của :</text>
+    <vie>Đường dẫn đến thư mục TEMP của phần mềm :</vie>
+  </Table>
+  <Table>
+    <control_name>c112</control_name>
+    <text>A23+ Nhập thuốc &amp;&amp; viện phí theo tên người bệnh</text>
+    <vie>(+) Nhập thuốc &amp; viện phí theo tên người bệnh trong màn hình cho thuốc, viện phí khoa, chỉ định dịch vụ - giúp tìm bệnh nhân nhanh hơn.
+                  Nếu dùng mã vạch thì xử dụng theo mã bệnh nhân, tắt option này đi.
+    </vie>
+  </Table>
+  <Table>
+    <control_name>c240</control_name>
+    <text>A19 - Xóa trắng bác sĩ khám bệnh khi nhập người bệnh mới</text>
+    <vie>(-) Xóa trắng bác sĩ khám bệnh khi nhập người bệnh mới.
+             Điều này dùng khi huấn luyện, một người nhập cho nhiều phòng khám với bác sĩ điều trị khác nhau. Khi đã chạy thật, không còn dùng option này nữa.</vie>
+  </Table>
+  <Table>
+    <control_name>label8</control_name>
+    <text>tuổi</text>
+    <vie>tuổi</vie>
+  </Table>
+  <Table>
+    <control_name>c104</control_name>
+    <text>6</text>
+    <vie>6</vie>
+  </Table>
+  <Table>
+    <control_name>label7</control_name>
+    <text>A25. Khám nhi phải dưới</text>
+    <vie>Lớn hơn tuổi này không được chấp nhận khám nhi.Lý do có điều kiện này vì tại bệnh viện nhi có bệnh nhân được theo dõi từ bé đến 18 tuổi</vie>
+  </Table>
+  <Table>
+    <control_name>label34</control_name>
+    <text>A20. Giờ báo cáo :</text>
+    <vie>Giờ báo cáo quy định tại bệnh viện, thường là 07:00 AM để kết thúc tòan bộ hồ sơ, phục vụ giao ban buổi sáng:</vie>
+  </Table>
+  <Table>
+    <control_name>groupBox1</control_name>
+    <text>A27. LỌC DANH SÁCH BÁC SĨ THEO KHOA/PHÒNG TRONG CÁC BIỂU NHẬP SAU :</text>
+    <vie>Điều này giúp giới hạn bớt danh sách các bác sĩ theo khoa phòng , tránh liệt kê tòan bộ tên các bác sĩ trong bệnh viện. Bất lợi là bác sĩ không có tên trong phòng khám sẽ không khám được </vie>
+  </Table>
+  <Table>
+    <control_name>c41</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>songay</control_name>
+    <text>30</text>
+    <vie>30</vie>
+  </Table>
+  <Table>
+    <control_name>but174</control_name>
+    <text>...</text>
+    <vie>...</vie>
+  </Table>
+  <Table>
+    <control_name>dienthoai</control_name>
+    <text />
+    <vie>(0650)3777999</vie>
+  </Table>
+  <Table>
+    <control_name>c195</control_name>
+    <text>A17+ Mẫu đăng ký khám bệnh số 1</text>
+    <vie>(-) Mẫu đăng ký khám bệnh số 1, điều này là mặc định. Mẫu số 2 là mẫu ngắn gọn, dùng cho các bệnh viện quá tải, muốn nhập liệu nhanh </vie>
+  </Table>
+  <Table>
+    <control_name>c174</control_name>
+    <text />
+    <vie>D:\Medisoft2007_Backup</vie>
+  </Table>
+  <Table>
+    <control_name>label20</control_name>
+    <text>tuổi không đi học</text>
+    <vie>tuổi không đi học</vie>
+  </Table>
+  <Table>
+    <control_name>c43</control_name>
+    <text>15</text>
+    <vie>15</vie>
+  </Table>
+  <Table>
+    <control_name>label18</control_name>
+    <text>tuổi đi học, dưới</text>
+    <vie>tuổi đi học, dưới</vie>
+  </Table>
+  <Table>
+    <control_name>c42</control_name>
+    <text>6</text>
+    <vie>6</vie>
+  </Table>
+  <Table>
+    <control_name>label19</control_name>
+    <text>A24. Trẻ dưới</text>
+    <vie>A15. Trẻ dưới</vie>
+  </Table>
+  <Table>
+    <control_name>matt</control_name>
+    <text />
+    <vie>Bình Phước</vie>
+  </Table>
+  <Table>
+    <control_name>label41</control_name>
+    <text>A09. Sao lưu số liệu :</text>
+    <vie>Đường dẫn thư mục sao lưu số liệu </vie>
+  </Table>
+  <Table>
+    <control_name>diachi</control_name>
+    <text />
+    <vie>45 Hồ văn cống, Tương Bình Hiệp, TDM, Bình Dương</vie>
+  </Table>
+  <Table>
+    <control_name>soyte</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>benhvien</control_name>
+    <text />
+    <vie>BVĐK Tỉnh Bình Phước</vie>
+  </Table>
+  <Table>
+    <control_name>maqu</control_name>
+    <text />
+    <vie>H. Lộc Ninh</vie>
+  </Table>
+  <Table>
+    <control_name>loaidv</control_name>
+    <text />
+    <vie>Bệnh Viện</vie>
+  </Table>
+  <Table>
+    <control_name>c189</control_name>
+    <text>30</text>
+    <vie>30</vie>
+  </Table>
+  <Table>
+    <control_name>label50</control_name>
+    <text>A14. Số chương trình Medisoft kích hoạt tối đa trên mỗi máy là :</text>
+    <vie>Số chương trình Medisoft kích hoạt tối đa trên mỗi máy, giúp tránh mở quá nhiều màn hình , làm ảnh hưởng đến phần mềm, làm tăng số session</vie>
+  </Table>
+  <Table>
+    <control_name>ngonngu</control_name>
+    <text />
+    <vie>Việt</vie>
+  </Table>
+  <Table>
+    <control_name>c40</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>label17</control_name>
+    <text>Thống kê :</text>
+    <vie>Họ và tên nhân viên Thống kê dùng in ra trong các biểu của Bộ Y Tế.</vie>
+  </Table>
+  <Table>
+    <control_name>ngaylv</control_name>
+    <text>A16+ Mặc nhiên ngày làm việc bằng ngày hiện hành</text>
+    <vie>(+) Mặc nhiên ngày làm việc bằng ngày hiện hành (nhập real-time).</vie>
+  </Table>
+  <Table>
+    <control_name>c39</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>label1</control_name>
+    <text>A01. Loại đơn vị :</text>
+    <vie>A1. Loại đơn vị :</vie>
+  </Table>
+  <Table>
+    <control_name>label30</control_name>
+    <text>A22. Ngôn ngữ thể hiện :</text>
+    <vie>Thề hiện phần mềm bằng ngôn ngữ khác tiếng Việt, hiện nay chỉ mới có phần tiếng Anh</vie>
+  </Table>
+  <Table>
+    <control_name>label16</control_name>
+    <text>KHTH :</text>
+    <vie>Họ và tên Trưởng phòng Kế Họach Tổng Hợp</vie>
+  </Table>
+  <Table>
+    <control_name>label2</control_name>
+    <text>A02. Tỉnh/T. phố :</text>
+    <vie>Tỉnh/thành phố </vie>
+  </Table>
+  <Table>
+    <control_name>label13</control_name>
+    <text>A03. Quận/Huyện :</text>
+    <vie>Quận/Huyện </vie>
+  </Table>
+  <Table>
+    <control_name>label3</control_name>
+    <text>A04. Chủ quản :</text>
+    <vie>A2. Cơ quan chủ quản là : Bộ Y tế hoặc Sở Y tế (cần hỏi bệnh viện cho kỹ) :</vie>
+  </Table>
+  <Table>
+    <control_name>label15</control_name>
+    <text>A26. Giám đốc :</text>
+    <vie>Họ tên Giám đốc  :</vie>
+  </Table>
+  <Table>
+    <control_name>label4</control_name>
+    <text>A05. Bệnh viện :</text>
+    <vie>Bệnh viện :</vie>
+  </Table>
+  <Table>
+    <control_name>label5</control_name>
+    <text>A06. Địa chỉ :</text>
+    <vie>A3. Địa chỉ của bệnh viện</vie>
+  </Table>
+  <Table>
+    <control_name>label6</control_name>
+    <text>A07. Điện thoại :</text>
+    <vie>Điện thoại của bệnh viện</vie>
+  </Table>
+  <Table>
+    <control_name>label21</control_name>
+    <text>A08. File thông báo :</text>
+    <vie>Chỉ đường dẫn đến file thông báo từ Ban Giam đốc đến tòan bộ người dùng trên hệ thống.Khi muốn xem thông báo cần bấm vào "Xem thông báo trên mạng nội bộ" ở phần tiện ích </vie>
+  </Table>
+  <Table>
+    <control_name>butThongbao</control_name>
+    <text>...</text>
+    <vie>...</vie>
+  </Table>
+  <Table>
+    <control_name>saoluu33</control_name>
+    <text>A15 - Thông báo sao lưu số liệu trước khi kết thúc chương trình</text>
+    <vie>(-) Thông báo sao lưu số liệu trước khi kết thúc chương trình.</vie>
+  </Table>
+  <Table>
+    <control_name>label10</control_name>
+    <text>A13. Khoảng cách ngày làm việc so với ngày hệ thống :</text>
+    <vie>Đây là giới hạn số ngày nhập hồ sơ trể hạn, trong truờng hợp làm việc real-time cần điều chỉnh là 3 ngày</vie>
+  </Table>
+  <Table>
+    <control_name>label11</control_name>
+    <text>ngày</text>
+    <vie>ngày</vie>
+  </Table>
+  <Table>
+    <control_name>c45</control_name>
+    <text>A18 - Xem trước khi in</text>
+    <vie>(-)Xem trước khi in,Chỉ thực hiện ở giai đọan đầu khi huấn luyện, về sau cần tắt đi để làm việc cho nhanh </vie>
+  </Table>
+  <Table>
+    <control_name>c319</control_name>
+    <text />
+    <vie>Thuốc hướng thần</vie>
+  </Table>
+  <Table>
+    <control_name>c318</control_name>
+    <text />
+    <vie>Thuốc hướng thần</vie>
+  </Table>
+  <Table>
+    <control_name>c317</control_name>
+    <text />
+    <vie>Thuốc hướng thần</vie>
+  </Table>
+  <Table>
+    <control_name>c316</control_name>
+    <text />
+    <vie>Thuốc hướng thần</vie>
+  </Table>
+  <Table>
+    <control_name>label79</control_name>
+    <text>4. Xét nghiệm khác :</text>
+    <vie>4. Xét nghiệm khác :</vie>
+  </Table>
+  <Table>
+    <control_name>label78</control_name>
+    <text>3. Chẩn đoán hình :</text>
+    <vie>3. Chẩn đoán hình :</vie>
+  </Table>
+  <Table>
+    <control_name>label77</control_name>
+    <text>2. Xét nghiệm nước tiểu :</text>
+    <vie>2. Xét nghiệm nước tiểu :</vie>
+  </Table>
+  <Table>
+    <control_name>label76</control_name>
+    <text>1. Xét nghiệm máu :</text>
+    <vie>1. Xét nghiệm máu :</vie>
+  </Table>
+  <Table>
+    <control_name>label75</control_name>
+    <text>M09. Cận lâm sàng :</text>
+    <vie>Cận lâm sàng :</vie>
+  </Table>
+  <Table>
+    <control_name>c314</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>c313</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>c312</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>c311</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>c310</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>c309</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>c308</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>label73</control_name>
+    <text>M08. Xử trí khám sức khỏe :</text>
+    <vie>Xử trí khám sức khỏe :</vie>
+  </Table>
+  <Table>
+    <control_name>label72</control_name>
+    <text>M07. Khám sản phụ khoa :</text>
+    <vie>Khám sản phụ khoa :</vie>
+  </Table>
+  <Table>
+    <control_name>label71</control_name>
+    <text>M06. Khám TMH :</text>
+    <vie>Khám TMH :</vie>
+  </Table>
+  <Table>
+    <control_name>label70</control_name>
+    <text>M05. Khám RHM :</text>
+    <vie>Khám RHM :</vie>
+  </Table>
+  <Table>
+    <control_name>label69</control_name>
+    <text>M04. Khám mắt :</text>
+    <vie>Khám mắt :</vie>
+  </Table>
+  <Table>
+    <control_name>label68</control_name>
+    <text>M03. Khám ngoại :</text>
+    <vie>Khám ngoại :</vie>
+  </Table>
+  <Table>
+    <control_name>label67</control_name>
+    <text>M02. Khám nội :</text>
+    <vie>Khám nội :</vie>
+  </Table>
+  <Table>
+    <control_name>c307</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>c306</control_name>
+    <text>M01. Khám sức khỏe</text>
+    <vie>Khám sức khỏe</vie>
+  </Table>
+  <Table>
+    <control_name>c393</control_name>
+    <text>C52 + Người bệnh đang điều trị ngoại trú không cho nhập phòng khám</text>
+    <vie>(+)Người bệnh đang điều trị ngoại trú không cho nhập phòng khám</vie>
+  </Table>
+  <Table>
+    <control_name>c385</control_name>
+    <text>C51 + Lọc dịch vụ theo đối tượng chỉ định</text>
+    <vie>(+) Lọc thuốc + dịch vụ theo đối tượng chỉ định. Giúp lọai bỏ các thuốc, chỉ định không đúng đối tượng.
+	- Ngược lại tự động chuyển đối tượng khi nhập liệu.</vie>
+  </Table>
+  <Table>
+    <control_name>c373</control_name>
+    <text>C13 - Nhập tường trình phẩu thuật vắng tắt trong xuất khoa</text>
+    <vie>(-)Nhập sơ lược tường trình phẩu thuật trong xuất khoa , để lấy thông tin phẩu thuật in trên giấy ra viện </vie>
+  </Table>
+  <Table>
+    <control_name>c361</control_name>
+    <text>C47 - Tiếp đón nhiều phòng khám cùng 1 lúc in chung chi phí điều trị</text>
+    <vie>(-) Đăng ký khám tại nhiều phòng khám cùng 1 lúc, in chung chi phí điều trị thanh toán BHYT (mẫu 38) sau khi kết thúc khám bệnh.
+	- Nếu phòng khám chuyển khám theo yêu cầu chuyên môn thì vẫn in chung.
+	- Tóm lại in riêng là in theo chỉ định của đăng ký.
+	- Vd: Bệnh nhân BHYT đăng ký khám 2 phòng khám A và B:
+		 Nếu PK A cần chuyển sang PK C theo yêu cầu chuyển môn thì khi kết thúc khám bệnh.
+		+ Nếu chọn option này thì in chung toàn bộ 3 phòng khám A,B,C vào 1 tờ chi phí điều trị.
+		+ Nếu không chọn thì in riêng 2 tờ chi phí: tờ 1: A+C và tờ 2: B</vie>
+  </Table>
+  <Table>
+    <control_name>c354</control_name>
+    <text>C49 - Chọn bác sỹ trong khám bệnh</text>
+    <vie>(-) Chọn bác sỹ trong khám bệnh. Dùng để bảo mật cần có 2 mật khẩu: 1 mật khẩu của người nhập liệu và 1 mật khẩu của BS khám.
+	- Khuyến cáo BS tự nhập liệu không cần dùng option này.</vie>
+  </Table>
+  <Table>
+    <control_name>c344</control_name>
+    <text>C46 + Tiền sử bệnh nhập tự do</text>
+    <vie>(+)Tiền sử bệnh nhập tự do. Nếu không chọn, phải nhập theo danh mục ( Tiện ích --&gt; Khác --&gt; Danh mục tiền sử bệnh).</vie>
+  </Table>
+  <Table>
+    <control_name>c330</control_name>
+    <text>C45 - Khám bệnh nhập theo mẫu bệnh án</text>
+    <vie>(-)Khám bệnh nhập theo mẫu bệnh án đặc thù của bệnh viện</vie>
+  </Table>
+  <Table>
+    <control_name>label35</control_name>
+    <text>ngày</text>
+    <vie>ngày</vie>
+  </Table>
+  <Table>
+    <control_name>c139</control_name>
+    <text>30</text>
+    <vie>30</vie>
+  </Table>
+  <Table>
+    <control_name>c329</control_name>
+    <text>C44 + Toa thuốc &amp;&amp; chỉ định lấy ngày hiện hành</text>
+    <vie>(+)Toa thuốc chỉ định lấy ngày hiện hành, cần phân biệt với lấy ngày điều trị.
+	- Bệnh nhân khám ngày trước ngày sau BS cho toa: nếu chọn toa thuốc lấy ngày hiện hành (ngày server) ngược lại lấy ngày khám bệnh.</vie>
+  </Table>
+  <Table>
+    <control_name>c327</control_name>
+    <text>C43 + Tiếp đón nhận bệnh điều trị ngoại trú</text>
+    <vie>(+)Tiếp đón được phép nhận bệnh điều trị ngoại trú, chuyển thông tin vào điều trị ngọai trú</vie>
+  </Table>
+  <Table>
+    <control_name>label80</control_name>
+    <text>ngày</text>
+    <vie>ngày</vie>
+  </Table>
+  <Table>
+    <control_name>c325</control_name>
+    <text>0</text>
+    <vie>0</vie>
+  </Table>
+  <Table>
+    <control_name>label81</control_name>
+    <text>C42. Hẹn tái khám tối đa</text>
+    <vie>Khoảng thời gian được Hẹn tái khám, tránh nhập liệu sai hẹn quá dài.</vie>
+  </Table>
+  <Table>
+    <control_name>c324</control_name>
+    <text />
+    <vie>BHYT</vie>
+  </Table>
+  <Table>
+    <control_name>c323</control_name>
+    <text>- In phiếu hẹn</text>
+    <vie>In phiếu hẹn</vie>
+  </Table>
+  <Table>
+    <control_name>c322</control_name>
+    <text>C41 + Tái khám nhập ngày hẹn</text>
+    <vie>(+) Tái khám nhập ngày hẹn cho lần tái khám sau, cần khai thêm giới hạn thời gian hẹn và đối tượng nào sẽ được hẹn</vie>
+  </Table>
+  <Table>
+    <control_name>c315</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>label74</control_name>
+    <text>C23. Chỉ được chuyển khoa</text>
+    <vie>(-) Chỉ được chuyển khoa: các khoa được chọn mới được chuyển khoa. Mặc định tất cả các khoa đều được chuyển.</vie>
+  </Table>
+  <Table>
+    <control_name>label66</control_name>
+    <text>lần</text>
+    <vie>lần</vie>
+  </Table>
+  <Table>
+    <control_name>c305</control_name>
+    <text>0</text>
+    <vie>0</vie>
+  </Table>
+  <Table>
+    <control_name>label65</control_name>
+    <text>C22. Số lần tái khám điều trị ngoại trú</text>
+    <vie>(-)Khống chế số lần tái khám điều trị ngoại trú để kết thúc HSBA ngoại trú, không để kéo quá dài.</vie>
+  </Table>
+  <Table>
+    <control_name>c296</control_name>
+    <text>C21 - Nhập thông tin bác sĩ, bệnh viện giới thiệu</text>
+    <vie>(-) Nhập thông tin bác sĩ, bệnh viện giới thiệu. Giúp thống kê về sau, nhất là hoa hồng cho bác sĩ giới thiệu tại các bệnh viện tư nhân</vie>
+  </Table>
+  <Table>
+    <control_name>c295</control_name>
+    <text>C20 - Cho phép nhập khám bệnh người bệnh đăng ký ngày hôm qua</text>
+    <vie>(-) Cho phép nhập khám bệnh người bệnh đăng ký ngày hôm qua (chỉ cho 1 ngày). Giải quyết trường hợp bệnh nhân đã đăng ký ngày hôm trước, nhưng không khám kịp. 
+    Không khuyến khích sử dụng option này, để tránh tiêu cực </vie>
+  </Table>
+  <Table>
+    <control_name>c193</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>chandoan</control_name>
+    <text>C38 - Cho phép nhập theo chẩn đoán bệnh</text>
+    <vie>(+) Cho phép nhập theo chẩn đoán bệnh có phần combo hổ trợ.
+	- Nếu không chọn option này thì người dùng phải nhớ mã ICD 10 để nhập trong chẩn đoán.
+    </vie>
+  </Table>
+  <Table>
+    <control_name>mmtn</control_name>
+    <text>0</text>
+    <vie>0</vie>
+  </Table>
+  <Table>
+    <control_name>c55</control_name>
+    <text>C40 + Nhập dấu sinh tồn trong y lệnh</text>
+    <vie>(+) Nhập dấu sinh tồn trong y lệnh. Rất cần thiết để theo dõi bệnh nhân, giao ban trên mạng và in phiếu biểu đồ dấu sinh tồn.</vie>
+  </Table>
+  <Table>
+    <control_name>label48</control_name>
+    <text>:</text>
+    <vie>:</vie>
+  </Table>
+  <Table>
+    <control_name>hhtn</control_name>
+    <text>0</text>
+    <vie>0</vie>
+  </Table>
+  <Table>
+    <control_name>c126</control_name>
+    <text>C36 - Dấu sinh tồn trong đăng ký</text>
+    <vie>(-)Nhập dấu sinh tồn trong đăng ký, Chỉ có ít bệnh viện thực hiện được điều này, </vie>
+  </Table>
+  <Table>
+    <control_name>c130</control_name>
+    <text>C17 - In y lệnh kèm theo cách dùng</text>
+    <vie>(-)In y lệnh kèm theo cách dùng trong sổ y lệnh giấy A3 trong nội trú </vie>
+  </Table>
+  <Table>
+    <control_name>c153</control_name>
+    <text>C19 - Phân biệt khám trong/ngoài giờ</text>
+    <vie>(-)Phân biệt khám trong/ngoài giờ. Dùng để tính bồi dưỡng cho bác sĩ khám
+    	- Cần khai báo từ mấy giờ là ngòai giờ và đối tượng là Dịch vụ.
+    </vie>
+  </Table>
+  <Table>
+    <control_name>solieu</control_name>
+    <text>C37 + Chỉ xem những mục có số liệu phát sinh</text>
+    <vie>(+)Chỉ xem những mục có số liệu phát sinh trong các báo cáo theo mẫu của bộ, giúp tiết kiệm giấy in </vie>
+  </Table>
+  <Table>
+    <control_name>c181</control_name>
+    <text>C18 - Y lệnh kèm theo đơn nhà thuốc</text>
+    <vie>(-)Trong sổ y lệnh nội trú có luôn phần thuốc kê đơn mua tại nhà thuốc bệnh viện.
+	- Option này thường được sử dụng tại bệnh viện tư nhân.</vie>
+  </Table>
+  <Table>
+    <control_name>c276</control_name>
+    <text>C16 - Đơn thuốc nhập theo sáng, trưa , chiều</text>
+    <vie>(-)Đơn thuốc nhập cách dùng theo sáng, trưa , chiều (Thí dụ : sáng 2 viên, trưa 1 viên, chiều 1 viên), thay vì cho theo: ngày 3 lần lần 1 viên</vie>
+  </Table>
+  <Table>
+    <control_name>c215</control_name>
+    <text>C02 + Thông tin phòng khám phải được chỉ định</text>
+    <vie>(+)Bệnh nhân phải được chỉ định vào phòng khám thì mới được khám
+	- Nếu C14 (+) cùng với C02 (+) thì đối tượng đóng tiền không phải đóng tiền cho phòng khám kế tiếp (chuyển khám).</vie>
+  </Table>
+  <Table>
+    <control_name>c274</control_name>
+    <text>C27 - Chỉnh sửa giờ khám bệnh</text>
+    <vie>(-)Chỉnh sửa giờ khám bệnh. Chỉ dùng trong trường hợp nhập offline</vie>
+  </Table>
+  <Table>
+    <control_name>c52</control_name>
+    <text>C39 - In phiếu điều trị</text>
+    <vie>(-) In phiếu điều trị tại nơi đăng ký, để bệnh nhân cầm vào phòng khám. Phiếu điều trị này có thể khác nhau theo đối tượng, phải làm report thích hợp.</vie>
+  </Table>
+  <Table>
+    <control_name>c197</control_name>
+    <text>C34 + Số lưu trữ không được trùng</text>
+    <vie>(-)**** Số lưu trữ dùng lưu trữ hồ sơ bệnh án không được trùng. Nếu bệnh viện dùng số lưu trữ cũng là mã bệnh nhân thì gỡ ra
+      Khuyến cáo các bệnh viện dùng số lưu trữ = mã bệnh nhân để gom chung toàn bộ hồ sơ của 1 bệnh nhân, giúp dể tìm kiếm khi cấp cứu.
+      Nếu dùng option số lưu trữ tăng tự động thì phải bỏ option này, trong trường hợp này hồ sơ bệnh nhân sẽ nằm rải rác nhiều chỗ. 
+    </vie>
+  </Table>
+  <Table>
+    <control_name>c38</control_name>
+    <text>C06 - Liệt kê bệnh khác trong BC nhiễm,SXH,lây,viêm phổi,ARI</text>
+    <vie>(-)Liệt kê bệnh khác trong BC nhiễm,SXH,lây,viêm phổi,ARI, Đay là yêu cầu của Bộ Y tế để so sánh bệnh nhiễm với các bệnh khác.
+    Option này sẽ làm rối các báo cáo.
+    </vie>
+  </Table>
+  <Table>
+    <control_name>khambenh</control_name>
+    <text>C01 - Bắt buộc phải nhập chẩn đoán trong khám bệnh</text>
+    <vie>(-) Bắt buộc phải nhập chẩn đoán trong tất cả mọi tình huống bao gồm chỉ định Cận Lâm Sàng</vie>
+  </Table>
+  <Table>
+    <control_name>c54</control_name>
+    <text>C32 - Chỉnh sửa ICD10</text>
+    <vie>(-) Cho phép chỉnh sửa ICD10 trong tiện ích khai báo ICD 10, chỉ dùng với sự kiểm soát chặt chẽ của phòng kế họach tổng hợp để tránh báo cáo sai.</vie>
+  </Table>
+  <Table>
+    <control_name>c148</control_name>
+    <text>C35 - Chọn bác sỹ trong đăng ký</text>
+    <vie>(-)Chọn bác sỹ trong đăng ký, khám theo yêu cầu</vie>
+  </Table>
+  <Table>
+    <control_name>c200</control_name>
+    <text>C31 + Số liệu cộng dồn theo kỳ</text>
+    <vie>(+)Số liệu cộng dồn theo kỳ dùng cho form nhập tổng hợp của Bộ y tế</vie>
+  </Table>
+  <Table>
+    <control_name>c213</control_name>
+    <text>C12 + Phòng mỗ sử dụng thuốc &amp;&amp; dịch vụ không cần nhập khoa</text>
+    <vie>(+)Phòng mỗ sử dụng thuốc ,dịch vụ không cần nhập khoa. 
+    Không cần nhập khoa "phòng mổ". Thực hiện form phẩu thuật thủ thuật mà không cần khoa chuyển đến.
+    Option này rất cần cho bệnh viện lớn vì nhân viên không đủ thời gian làm thủ tục nhập khoa "phòng mỗ"
+    
+    </vie>
+  </Table>
+  <Table>
+    <control_name>c111</control_name>
+    <text>C24 - Nhập số lưu trữ trong nhập viện</text>
+    <vie>(-)Nhập số lưu trữ trong nhập viện. Đây là thói quen trước đây theo Bộ Y tế nhằm sử dụng số lưu trữ thay thế mã BN, 
+    Hiện nay việc này không còn hợp lý nữa, số lưu trữ sẽ được nhập lúc xuất viện</vie>
+  </Table>
+  <Table>
+    <control_name>noichuyen</control_name>
+    <text>C04 - Cho phép điều chỉnh nơi chuyển trong nhập khoa</text>
+    <vie>(-)Cho phép điều chỉnh nơi chuyển trong nhập khoa, khuyến cáo nơi khoa trước nhập sai phải sửa chữa</vie>
+  </Table>
+  <Table>
+    <control_name>c36</control_name>
+    <text>C03 - Chỉnh sửa thông tin nhập viện trong nhập khoa</text>
+    <vie>(-)Tại khoa có quyền chỉnh sửa thông tin nhập sai từ bàn nhập viện. Nên khuyến cáo khoa trả lại nơi nhập sai để ý thức tính trách nhiệm.
+        </vie>
+  </Table>
+  <Table>
+    <control_name>c116</control_name>
+    <text>C29 - Thông tin khám thai</text>
+    <vie>(-)Nhập thông tin khám thai
+	- Cần thiết cho các bệnh viện sản khoa.</vie>
+  </Table>
+  <Table>
+    <control_name>c100</control_name>
+    <text>C05 - Thống kê chẩn đoán nguyên nhân vào tình hình bệnh tật</text>
+    <vie>(-)Thống kê chẩn đoán nguyên nhân vào tình hình bệnh tật. Dùng cho các bệnh nhân ngọai khoa cần thống kê báo cáo nguyên nhân.
+    Thí dụ thống kê có bao nhiêu chấn thương sọ do tai nạn giao thông.
+    Cần lưu ý, trong trường hợp này báo cáo có kèm nguyên nhân thì số liệu báo cáo sẽ nhiều hơn số bệnh nhân thực tế. 
+    </vie>
+  </Table>
+  <Table>
+    <control_name>c106</control_name>
+    <text>C25 - Phân biệt người bệnh mới/cũ</text>
+    <vie>(-) Phân biệt người bệnh mới/cũ. Option này chỉ dùng ở các bệnh viện mà bệnh nhân đa số là ngọai trú, như RHM, YHCT.
+    Option này giúp phân biệt bệnh nhân ngọai trú đến vì 1 bệnh mới xảy ra.
+    Giá công khám khác nhau giữa người bệnh cũ và mới. Cần dùng cho bệnh viện tư nhân để khuyến mãi. Cần thiết cho báo cáo.
+    </vie>
+  </Table>
+  <Table>
+    <control_name>c118</control_name>
+    <text>C07 - Nhập phẫu thuật thủ thuật theo phòng mỗ</text>
+    <vie>(+) Nhập phẫu thuật thủ thuật theo phòng mỗ. Dùng trong trường hợp muốn thống kê số ca phẩu thuật theo phòng mổ ****</vie>
+  </Table>
+  <Table>
+    <control_name>c160</control_name>
+    <text>C08 + Chẩn đoán chính phải có trong ICD10</text>
+    <vie>(-) Chẩn đoán phải có trong ICD10. Tên bệnh phải đúng theo ICD 10.****
+    Không được nhập tên bệnh tự do.
+    </vie>
+  </Table>
+  <Table>
+    <control_name>c105</control_name>
+    <text>C10 + Hiện danh sách đăng ký trong khám bệnh</text>
+    <vie>(+)Hiện danh sách đăng ký trong khám bệnh. Giúp bác sĩ chọn tên bệnh nhân từ đăng ký chuyển vào theo thứ tự trên lưới 
+    Cần lưu ý màu thể hiện trên lưới cho 3 trường hợp : Chờ khám (màu đen), Chờ kết quả CLS (màu đỏ), Đã có kết quả CLS (màu xanh).
+    </vie>
+  </Table>
+  <Table>
+    <control_name>c162</control_name>
+    <text>C28 + Xem các lần tiếp đón</text>
+    <vie>(+)Xem các lần tiếp đón, Nếu mạng chậm quá  không chọn option này.</vie>
+  </Table>
+  <Table>
+    <control_name>c259</control_name>
+    <text>C15 + Nhập triệu chứng lâm sàng ban đầu</text>
+    <vie>(+) Nhập triệu chứng lâm sàng ban đầu. Dùng để có chẩn đóan sơ bộ để chuyển bệnh nhân đến khoa cận lâm sàng khi chưa rõ bệnh tật, 
+    hoặc theo yêu cầu của BHYT muốn tham khảo triệu chứng đến khám với toa thuốc có hợp lý không.
+	- Option này phục vụ cho chỉ định CLS mà chưa biết chẩn đoán. Phiếu chỉ định sẽ lấy Triệu chứng lâm sàng ban đầu làm chẩn đoán cho BN đi thực hiện CLS.</vie>
+  </Table>
+  <Table>
+    <control_name>c167</control_name>
+    <text>C30 - In số vào viện trong y lệnh</text>
+    <vie>(-) In số vào viện trong y lệnh nội trú để đáp ứng thói quen cũ của người dùng.</vie>
+  </Table>
+  <Table>
+    <control_name>c252</control_name>
+    <text>C11 - Dấu sinh tồn trong khám bệnh &amp;&amp; phòng lưu</text>
+    <vie>(-)Lấy dấu sinh tồn trong khám bệnh và phòng lưu. Cần hỏi ý kiến bệnh viện xem có cần thiết không</vie>
+  </Table>
+  <Table>
+    <control_name>c250</control_name>
+    <text>C14 - Chuyển phòng khám tự động chuyển vào danh sách chờ</text>
+    <vie>(-) Chuyển phòng khám tự động chuyển vào danh sách chờ của phòng khám sau. 
+               - Dùng trong trường hợp bệnh viện chỉ thu tiền khám 1 lần cho phòng khám đầu tiên, trong 1 lượt điều trị (trong ngày có thể có nhiều lượt điều trị (sáng, chiều...)).</vie>
+  </Table>
+  <Table>
+    <control_name>c172</control_name>
+    <text>C50 - Nhập nơi giới thiệu trong đăng ký</text>
+    <vie>(-) Nhập nơi giới thiệu trong đăng ký. Lưu ý bệnh viện có yêu cầu báo cáo vấn đề này không?
+	- Nếu bệnh viện quá tải thì gỡ ra.</vie>
+  </Table>
+  <Table>
+    <control_name>c245</control_name>
+    <text>C09 + Chuyển khám bắt buộc nhập chẩn đoán</text>
+    <vie>(+)Phòng khám muốn chuyển sang phòng khám khác, bắt buộc phải nhập chẩn đoán vào, nếu không sẽ không chuyển được.
+	- Nếu (+) cần bổ sung ICD 10 các lý do chuyển khám chưa rõ chẩn đoán.
+	</vie>
+  </Table>
+  <Table>
+    <control_name>soluutru</control_name>
+    <text>C33 + Bắt buộc nhập số lưu trữ</text>
+    <vie>(+)Bắt buộc nhập số lưu trữ để quản lý hồ sơ sau khi bệnh nhân đã ra viện</vie>
+  </Table>
+  <Table>
+    <control_name>label36</control_name>
+    <text>C48.1 - Kết thúc điều trị ngoại trú sau :</text>
+    <vie>Tự động kết thúc điều trị ngoại trú nếu người bệnh không tái khám</vie>
+  </Table>
+  <Table>
+    <control_name>c127</control_name>
+    <text>C26 - Lý do khám trong đăng ký</text>
+    <vie>(-)Nhập lý do khám trong đăng ký. Ở BV tư nhân nên đưa option này vào</vie>
+  </Table>
+  <Table>
+    <control_name>c231</control_name>
+    <text>G39 - In chi phí theo loại viện phí</text>
+    <vie>(+) In chi phí theo loại viện phí (Thí dụ : Siêu âm: ?$, Huyết học, Thuốc: ?$
+	- Nếu không chọn thì sẽ in ra theo nhóm viện phí, vd: CĐHA, Xét nghiệm... </vie>
+  </Table>
+  <Table>
+    <control_name>c188</control_name>
+    <text>G49 - Trẻ sơ sinh thanh toán theo bà mẹ</text>
+    <vie>(-)Trẻ sơ sinh thanh toán theo bà mẹ. Cần phải có option nhập mã bà mẹ. Chủ yếu thực hiện ở bệnh viện chuyên khoa sản.
+	- Khi chọn option này khi nhập mã bà mẹ có thể truy cập thông tin của con. </vie>
+  </Table>
+  <Table>
+    <control_name>c403</control_name>
+    <text>G60 + Đối tượng thu phí chuyển khám tính công</text>
+    <vie>Đối tượng thu phí chuyển khám tính công khám????? 
+	(vào phòng khám nào tính tiền khám phòng đó, ngay cả trường hợp phòng khám có khám nhưng không cấp đơn)????
+	Option này có gì khác với 2 option đối tượng đóng tiền phải đóng tiền khám trước khi vào khám và chuyển phòng khám tự động chuyển vào danh sách chờ???
+	- Kiểm tra lại G23, C14.</vie>
+  </Table>
+  <Table>
+    <control_name>c399</control_name>
+    <text>G59 - Thanh toán BHYT tại ngoại trú theo cách tính phòng khám</text>
+    <vie>(-) Thanh toán BHYT tại ngoại trú theo cách tính phòng khám (tự nguyện trên 100.000 thu 20%) </vie>
+  </Table>
+  <Table>
+    <control_name>c398</control_name>
+    <text>G58 - Thanh toán BHYT tại phòng lưu theo cách tính phòng khám</text>
+    <vie>(-) Thanh toán BHYT tại phòng lưu theo cách tính phòng khám (tự nguyện trên 100.000 thu 20%)</vie>
+  </Table>
+  <Table>
+    <control_name>c238</control_name>
+    <text>G53 + Cộng công khám khi in chi phí khám bệnh</text>
+    <vie>(+)**** Cộng công khám khi in chi phí khám bệnh.
+	- Dùng trong trường hợp duyệt tự động.
+	- Không chọn G06 nếu chọn option này.</vie>
+  </Table>
+  <Table>
+    <control_name>c237</control_name>
+    <text>G52 + In chi phí chuyển dịch vụ vào viện phí khám bệnh</text>
+    <vie>(-)**** In chi phí chuyển dịch vụ vào viện phí khám bệnh. Dùng trong trường hợp duyệt tự động. </vie>
+  </Table>
+  <Table>
+    <control_name>c397</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>label104</control_name>
+    <text>G57 - Tự động chuyển vào chỉ định khi đăng ký</text>
+    <vie>Khi đăng ký khám thì có kèm theo 1 dịch vụ đặc biệt, vd:
+	- BV Tam Kỳ: Bệnh nhân khi đăng ký phòng khám Mắt thì tự động kèm theo 1 dịch vụ Đo thị lực (2 mục riêng biệt với nhau - giá riêng).</vie>
+  </Table>
+  <Table>
+    <control_name>c396</control_name>
+    <text />
+    <vie>Công khám</vie>
+  </Table>
+  <Table>
+    <control_name>c395</control_name>
+    <text>G47.Thu trực tiếp</text>
+    <vie>Thu trực tiếp</vie>
+  </Table>
+  <Table>
+    <control_name>c392</control_name>
+    <text>G56 + Phòng lưu chuyển khám không tính tiền khám</text>
+    <vie>(+)Phòng lưu chuyển khám không tính tiền khám của phòng khám được chuyển đến.</vie>
+  </Table>
+  <Table>
+    <control_name>c387</control_name>
+    <text>G55 - Giá trọn gói tính theo đối tượng</text>
+    <vie>(-)Giá trọn gói tính theo đối tượng
+	- Kiểm tra lại phần mềm. Không có vẫn chạy được (tốt).
+	- </vie>
+  </Table>
+  <Table>
+    <control_name>c384</control_name>
+    <text>G30.Khai báo danh mục</text>
+    <vie>Chênh lệch theo danh mục của chương trình Dược (Tiện ích --&gt; danh mục --&gt; Danh mục thuốc, vtyt).</vie>
+  </Table>
+  <Table>
+    <control_name>c382</control_name>
+    <text>G54 - Đưa chi phí khám bệnh vào nội ngoại trú</text>
+    <vie>(-) Tự động chuyển toàn bộ chi phí của phòng khám vào ngoại trú, nội trú nếu phòng khám cho xử trí nhập viện.
+	- Khi chọn option này phải chọn D13, D14 (Treeview mục  Mã số - tự động ).
+	- Khi chọn option này yêu cầu kiểm tra lại báo cáo BHYT (mẫu 79a, 80a).</vie>
+  </Table>
+  <Table>
+    <control_name>c381</control_name>
+    <text>G28 - Thu trực tiếp</text>
+    <vie>Khi có chênh lệch ra Thu trực tiếp để đóng tiền.</vie>
+  </Table>
+  <Table>
+    <control_name>c378</control_name>
+    <text>G31 +Miễn giảm công khám, phần chênh lệch BN tự thanh toán</text>
+    <vie>(-) G21,G32,G33,G34 Miễn giảm cho 1 nhân viên của 1 đơn vị đặc biệt, vd: nhân viên bệnh viện.
+	- Chủ yếu dùng cho bệnh viện tư nhân miễn giảm cho nhân viên của mình.
+	- Khuyến cáo không sử dụng.</vie>
+  </Table>
+  <Table>
+    <control_name>c372</control_name>
+    <text />
+    <vie>trong phẫu thuật</vie>
+  </Table>
+  <Table>
+    <control_name>label99</control_name>
+    <text>G22. Nội dung hao phí :</text>
+    <vie>Nội dung hao phí PTTT sẽ được ghi chú thêm trong phiếu thanh toán chủ yếu phục vụ cho phòng mổ.</vie>
+  </Table>
+  <Table>
+    <control_name>c220</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>c219</control_name>
+    <text>G45 - Tái khám chuyển chi phí vào điều trị</text>
+    <vie>Tái khám chuyển chi phí vào điều trị ngoại trú
+	**** Thêm chữ ngoại trú.</vie>
+  </Table>
+  <Table>
+    <control_name>c290</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>c371</control_name>
+    <text>G21 - In hao phí chung đối tượng vào trong phiếu thanh toán</text>
+    <vie>(-) In hao phí chung đối tượng vào trong 1 phiếu thanh toán nhằm tiết kiệm giấy và phục vụ đối chiếu của BHYT</vie>
+  </Table>
+  <Table>
+    <control_name>c335</control_name>
+    <text />
+    <vie>BN thanh toán chệnh lệch</vie>
+  </Table>
+  <Table>
+    <control_name>c302</control_name>
+    <text>Theo đối tượng</text>
+    <vie>Có thanh toán chênh lệch theo đối tượng trong G26.</vie>
+  </Table>
+  <Table>
+    <control_name>c179</control_name>
+    <text>G27 + Thanh toán chênh lệch giá dịch vụ</text>
+    <vie>Thanh toán chênh lệch giá dịch vụ. Bệnh viện có thanh toán chênh lệch hay không.
+	- G27 hỗ trợ G26</vie>
+  </Table>
+  <Table>
+    <control_name>c370</control_name>
+    <text>G02 + BHYT, Miễn, Trả sau chuyển công khám vào chỉ định</text>
+    <vie>****BHYT, Miễn, Trả sau chuyển công khám vào chỉ định</vie>
+  </Table>
+  <Table>
+    <control_name>c369</control_name>
+    <text>G25 - Người bệnh BHYT, tiếp đón cùng 1 lúc nhiều phòng khám in chung chi phí điều trị</text>
+    <vie>(-)**** Người bệnh BHYT, tiếp đón cùng 1 lúc nhiều phòng khám in chung chi phí điều trị.
+	- Kiểm tra lại Tab Chuyên môn C47.</vie>
+  </Table>
+  <Table>
+    <control_name>c368</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>label98</control_name>
+    <text>G34.In phiếu thanh toán vào đối tượng :</text>
+    <vie>In phiếu thanh toán vào đối tượng :</vie>
+  </Table>
+  <Table>
+    <control_name>c367</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>c366</control_name>
+    <text>0</text>
+    <vie>0</vie>
+  </Table>
+  <Table>
+    <control_name>label97</control_name>
+    <text>G32. Miễn giảm                 %, phần chênh lệch BN tự thanh toán</text>
+    <vie>Miễn giảm                 %, phần chênh lệch BN tự thanh toán</vie>
+  </Table>
+  <Table>
+    <control_name>label96</control_name>
+    <text>G33 - Nhập nơi làm việc là :</text>
+    <vie>Nhập nơi làm việc là :</vie>
+  </Table>
+  <Table>
+    <control_name>c359</control_name>
+    <text>G29 - Chênh lệch giá thuốc,vật tư y tế</text>
+    <vie>(-) Chênh lệch giá thuốc+vật tư y tế theo giá đã được khai báo trong Treeview --&gt; mục Đối tượng E13.
+	- Chủ yếu phục vụ cho bệnh viện tư nhân.</vie>
+  </Table>
+  <Table>
+    <control_name>label85</control_name>
+    <text>Nội dung :</text>
+    <vie>Nội dung in ra trong phiếu thanh toán khi có phần chênh lệch :</vie>
+  </Table>
+  <Table>
+    <control_name>c331</control_name>
+    <text>G50 + Hiện đơn giá trong liệt kê chỉ định + viện phí khoa</text>
+    <vie>(+) Hiện đơn giá trong liệt kê chỉ định + viện phí khoa</vie>
+  </Table>
+  <Table>
+    <control_name>c320</control_name>
+    <text>G07 - In 1 lần</text>
+    <vie>(-) In 1 lần trong trường hợp tiếp đón thu tiền khám để tránh tiêu cực. Sẽ gặp khó khăn nếu máy in có trục trặc
+	Chọn trong trường hợp chọn option G01.</vie>
+  </Table>
+  <Table>
+    <control_name>c304</control_name>
+    <text>G03.a-In biên lai miễn phí</text>
+    <vie>Miễn phí cũng phải in biên lai</vie>
+  </Table>
+  <Table>
+    <control_name>c303</control_name>
+    <text />
+    <vie>Thuốc, dich truyền</vie>
+  </Table>
+  <Table>
+    <control_name>label64</control_name>
+    <text>G46. Nhóm viện phí thuốc :</text>
+    <vie>Nhóm viện phí thuốc :
+	**** Cần kéo label ra, mất chữ thuốc.</vie>
+  </Table>
+  <Table>
+    <control_name>c289</control_name>
+    <text>G44 - Công khám ngoại trú chuyển vào chi phí điều trị</text>
+    <vie>Công khám ngoại trú chuyển vào chi phí điều trị ngoại trú
+	*** Thêm G44 ngoại trú.</vie>
+  </Table>
+  <Table>
+    <control_name>c288</control_name>
+    <text>G48 + Phục hồi bệnh án khi hủy số liệu chuyển xuống viện phí</text>
+    <vie>(+) Khi xuất khoa với tình trạng ra viện thì chi phí sẽ tự động chuyển xuống viện phí nhưng nếu cần thay đổi thì sẽ hủy số liệu chuyển xuống thì chương trình
+          	sẽ tự động phục hồi (xóa xuất viện, xuất khoa) cho bệnh nhân hiện tại khoa.
+	- Lưu ý khoa có thể tiếp tục cho thuốc trên bệnh nhân đã ra viện.</vie>
+  </Table>
+  <Table>
+    <control_name>c287</control_name>
+    <text>G03 - Ký hiệu biên lai theo máy</text>
+    <vie>Ký hiệu biên lai theo từng máy
+	- Quản lý biên lai theo report thích hợp với mỗi máy. </vie>
+  </Table>
+  <Table>
+    <control_name>c284</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>c286</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>label49</control_name>
+    <text>Sang đối tượng :</text>
+    <vie>Sang đối tượng :</vie>
+  </Table>
+  <Table>
+    <control_name>label14</control_name>
+    <text>Đối tượng :</text>
+    <vie>Đối tượng :</vie>
+  </Table>
+  <Table>
+    <control_name>c283</control_name>
+    <text>G08 - Chuyển đối tượng trong đăng ký</text>
+    <vie>(-) Chuyển đối tượng trong đăng ký. Không sử dụng option này khi nào cần liên hệ công ty. </vie>
+  </Table>
+  <Table>
+    <control_name>c263</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>c249</control_name>
+    <text>G23 + Đối tượng nộp tiền phải đóng tiền trước khi vào khám</text>
+    <vie>(+) Đối tượng thu phí phải đóng tiền trước khi vào khám.</vie>
+  </Table>
+  <Table>
+    <control_name>c214</control_name>
+    <text>G19 - In số vào viện trong phiếu thanh toán ra viện</text>
+    <vie>(-) In số vào viện trong phiếu thanh toán ra viện</vie>
+  </Table>
+  <Table>
+    <control_name>c113</control_name>
+    <text>G64. Xem chi phí điều trị</text>
+    <vie>Xem chi phí điều trị. Nên chọn xem theo đợt vào viện.</vie>
+  </Table>
+  <Table>
+    <control_name>c242</control_name>
+    <text>G36 - Thanh toán theo khoa</text>
+    <vie>(-) Thanh toán ra viện cho 1 khoa trước khi chuyển sang khoa khác.</vie>
+  </Table>
+  <Table>
+    <control_name>c196</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>c129</control_name>
+    <text>G38 - In chi tiết thanh toán theo từng khoa</text>
+    <vie>(+) In chi tiết theo từng khoa trong phiếu thanh toán ra viện. Dùng trong trường hợp bệnh nhân thanh toán ra viện tổng hợp nhiều khoa.</vie>
+  </Table>
+  <Table>
+    <control_name>c128</control_name>
+    <text>G51 - Thanh toán viện phí (Không lấy số liệu dược)</text>
+    <vie>(-) Thanh toán viện phí (Không lấy số liệu dược). Chỉ chọn khi mới triển khai, kho dược chưa ổn định, chưa dự trù trên máy.</vie>
+  </Table>
+  <Table>
+    <control_name>c149</control_name>
+    <text />
+    <vie>Thu phí</vie>
+  </Table>
+  <Table>
+    <control_name>c183</control_name>
+    <text>G24 - Đưa chi phí điều trị ngoại trú BHYT vào nội trú</text>
+    <vie>(-) Đưa chi phí điều trị ngoại trú BHYT vào nội trú</vie>
+  </Table>
+  <Table>
+    <control_name>c46</control_name>
+    <text>G01 - In tiền khám bệnh</text>
+    <vie>(-) Tiếp đón thu tiền khám bệnh theo user của viện phí được chọn bên cạnh.</vie>
+  </Table>
+  <Table>
+    <control_name>label39</control_name>
+    <text>G26.Đối tượng                                          chuyển tính chênh lệch</text>
+    <vie>****Chọn đối tượng để tính phần phụ thu so với giá của BHYT quy định. Đối tượng này được khai báo trong Tiện ích --&gt; Danh mục --&gt; Khai báo đối tượng.
+	- Sửa lại G26. BN muốn sử dụng loại dịch vụ:</vie>
+  </Table>
+  <Table>
+    <control_name>c262</control_name>
+    <text>G43 -Thu tiền in thẻ</text>
+    <vie>(-) Thu tiền in thẻ trong trường hợp bệnh viện có sử dụng thẻ nhựa khám bệnh.</vie>
+  </Table>
+  <Table>
+    <control_name>c182</control_name>
+    <text>G17 - Chi phí phòng khám chuyển vào chi phí ngoại nội trú</text>
+    <vie>(+) Chi phí phòng khám được tính vào chi phí nội ngoại trú.
+	**** Cần sửa lại nội dung G17.
+	Kiểm tra lại phần mềm.</vie>
+  </Table>
+  <Table>
+    <control_name>c133</control_name>
+    <text>G04 - Chuyển tiền khám vào viện phí (không in)</text>
+    <vie>(-) Chuyển tiền khám vào viện phí (không in dùng trong trường hợp bán vé khám).</vie>
+  </Table>
+  <Table>
+    <control_name>c151</control_name>
+    <text>G05 - Sử dụng chung ký hiệu quyển sổ trong đăng ký</text>
+    <vie>Sử dụng chung ký hiệu quyển sổ trong đăng ký</vie>
+  </Table>
+  <Table>
+    <control_name>c58</control_name>
+    <text>G13 - Ràng buộc số biên lai trong khoản từ ... đến</text>
+    <vie>(-) Ràng buộc số biên lai trong khoản từ ... đến, sử dụng trong khai báo quyến sổ ở chương trình Viện phí.</vie>
+  </Table>
+  <Table>
+    <control_name>c47</control_name>
+    <text>G06 + Danh sách chờ đóng tiền</text>
+    <vie>(+) Sau khi đăng ký khám bệnh nhân sẽ được chuyển sang danh sách chờ của viện phí để thu tiền khám mới được vào phòng khám.</vie>
+  </Table>
+  <Table>
+    <control_name>c53</control_name>
+    <text>G09 - Sửa đơn giá trong đăng ký</text>
+    <vie>(-) Sửa đơn giá trong đăng ký khám bệnh trong trường hợp tiếp đón thu tiền khám và có thể thay đổi giá.</vie>
+  </Table>
+  <Table>
+    <control_name>c157</control_name>
+    <text>G18 + Lấy thông tin chỉ định vào viện phí</text>
+    <vie>(+) Lấy thông tin chỉ định vào viện phí.
+	- Nếu CĐHA, Xét nghiệm không khai "Làm xong chuyển vào viện phí"</vie>
+  </Table>
+  <Table>
+    <control_name>c134</control_name>
+    <text>G11 - Lựa chọn tiền khám trong đăng ký</text>
+    <vie>(-) Lựa chọn tiền khám trong đăng ký. Tiếp đón có thể lựa chọn tiền khám đã được viện phí khai báo sẵn. Không được phép nhập mới.</vie>
+  </Table>
+  <Table>
+    <control_name>c161</control_name>
+    <text>G41 - Mặc nhiên in phiếu thanh toán khi xuất khoa</text>
+    <vie>(-)**** In phiếu thanh toán ra viện khi xuất khoa với tình trạng khác 
+	- Kiểm tra lại khi xuất khoa có Chuyển khoa và chuyển số liệu xuống Viện phí.
+	- Option này có liên quan đến option In phiếu thanh toán trong form xuất khoa.</vie>
+  </Table>
+  <Table>
+    <control_name>c57</control_name>
+    <text>G10 + Chọn ký hiệu biên lai</text>
+    <vie>(-) ****Chọn ký hiệu biên lai, quyển sổ, tên người dùng, mật khẩu của viện phí trong trường hợp viện phí thu tiền nhưng do tài vụ kiểm soát.</vie>
+  </Table>
+  <Table>
+    <control_name>c141</control_name>
+    <text>G12 + Nhập lý do miễn trong đăng ký</text>
+    <vie>(+)Nhập lý do miễn trong đăng ký</vie>
+  </Table>
+  <Table>
+    <control_name>c144</control_name>
+    <text>G15 + Chuyển chi phí phẫu thủ thuật vào viện phí</text>
+    <vie>(-) Khi nhập tường trình PTTT sẽ tự động đưa vào chi phí của bệnh nhân. Phải khai báo tường trình PTTT và chọn giá viện phí tương ứng với PTTT.
+	- Khi chọn option này sẽ Enable option I02. </vie>
+  </Table>
+  <Table>
+    <control_name>c246</control_name>
+    <text>G20 + In đối tượng hao phí trong phiếu thanh toán</text>
+    <vie>(+) In đối tượng hao phí trong phiếu thanh toán. Phần hao phí bệnh nhân không phải thanh toán nhưng in ra dùng để kiểm soát, đối chiếu.</vie>
+  </Table>
+  <Table>
+    <control_name>c155</control_name>
+    <text>G14 - Thu tiền trong ngày (Chiều hôm qua &amp;&amp; sáng hôm nay)</text>
+    <vie>(-) Thu tiền trong ngày (Chiều hôm qua &amp;&amp; sáng hôm nay), do kết sổ buổi trưa</vie>
+  </Table>
+  <Table>
+    <control_name>c150</control_name>
+    <text>G16 + Chuyển chi phí cấp cứu vào nội trú</text>
+    <vie>(+) Bệnh nhân phòng cấp cứu lưu được cho nhập viện thì chi phí sẽ được đi kèm theo và được thanh toán khi ra viện (chỉ ứng dụng cho trường hợp không thanh toán theo khoa). Ngược lại bệnh nhân sẽ phải thanh toán phòng lưu và nội trú riêng.
+	- Cấp cứu - lưu xem như 1 khoa nội trú (ngày vào viện cũng là ngày vào cấp cứu - lưu).
+	- Khi chọn option này phải chọn D17 (Treeview mục Mã số - tự động).</vie>
+  </Table>
+  <Table>
+    <control_name>c110</control_name>
+    <text>G35 - Thanh toán nhiều đợt</text>
+    <vie>(-) Thanh toán ra viện theo nhiều đợt. Mỗi lần muốn thanh toán phải làm thao tác chuyển số liệu xuống viện phí.</vie>
+  </Table>
+  <Table>
+    <control_name>c217</control_name>
+    <text>G40 - Chuyển số liệu thanh toán sang viện phí khi xuất khoa</text>
+    <vie>(+) Khi xuất khoa với tình trạng ra viện sẽ in phiếu thanh toán nhưng còn tùy thuộc vào option In phiếu thanh toán trong form xuất khoa (có in hay không).</vie>
+  </Table>
+  <Table>
+    <control_name>c218</control_name>
+    <text>G37 - Thanh toán làm tròn số lượng</text>
+    <vie>(-) Thanh toán làm tròn số lượng chủ yếu là thuốc.</vie>
+  </Table>
+  <Table>
+    <control_name>c230</control_name>
+    <text>G42 - Phòng khám cuối in tổng hợp chi phí điều trị</text>
+    <vie>(-) Phòng khám cuối in tổng hợp chi phí điều trị (mẫu 38) không phải qua bàn duyệt BHYT. 
+	****- Khi chạy sẽ làm chậm hệ thống.</vie>
+  </Table>
+  <Table>
+    <control_name>c391</control_name>
+    <text>H10 (-) Chỉ định theo loại viện phí</text>
+    <vie>(+) In Chỉ định theo loại viện phí.
+	- Nếu không chọn thì in theo nhóm viện phí.</vie>
+  </Table>
+  <Table>
+    <control_name>c388</control_name>
+    <text>H09 + Duyệt dịch vụ cận lâm sàng thực hiện</text>
+    <vie>Duyệt dịch vụ cận lâm sàng thực hiện.
+	- Chọn option này khi chưa triển khai CLS.</vie>
+  </Table>
+  <Table>
+    <control_name>c339</control_name>
+    <text>1000</text>
+    <vie>1000</vie>
+  </Table>
+  <Table>
+    <control_name>label86</control_name>
+    <text>H08. Thời gian tự động đọc tin nhắn âm thanh :</text>
+    <vie>Thời gian tự động đọc tinh nhắn âm thanh :</vie>
+  </Table>
+  <Table>
+    <control_name>c338</control_name>
+    <text>H07 + Chỉ định nội trú đóng tiền trước khi thực hiện</text>
+    <vie>****(-)Chỉ định nội trú đóng tiền trước khi thực hiện</vie>
+  </Table>
+  <Table>
+    <control_name>c337</control_name>
+    <text>H06 + Chỉ định ngoại trú đóng tiền trước khi thực hiện</text>
+    <vie>Chỉ định ngoại trú đóng tiền trước khi thực hiện</vie>
+  </Table>
+  <Table>
+    <control_name>c336</control_name>
+    <text>H02 + Gửi tin nhắn âm thanh sau khi chỉ định</text>
+    <vie>Gửi tin nhắn âm thanh sau khi chỉ định</vie>
+  </Table>
+  <Table>
+    <control_name>c328</control_name>
+    <text>H05 - Bắt buộc nhập chẩn đoán và bác sỹ trong chỉ định</text>
+    <vie>Bắt buộc nhập chẩn đoán và bác sỹ trong chỉ định.
+	- **** Phần mềm chuyển tự động Triệu chứng lâm sàng ban đầu vào chẩn đoán trong chỉ định.</vie>
+  </Table>
+  <Table>
+    <control_name>c326</control_name>
+    <text>H04 - Chỉ định xuất ra File.TXT</text>
+    <vie>Chỉ định xuất ra File.TXT</vie>
+  </Table>
+  <Table>
+    <control_name>c199</control_name>
+    <text>H03 - In chỉ định theo mẫu điền</text>
+    <vie>In chỉ định theo mẫu điền</vie>
+  </Table>
+  <Table>
+    <control_name>c251</control_name>
+    <text>H01 + Gửi tin nhắn sau khi chỉ định</text>
+    <vie>Gửi tin nhắn sau khi chỉ định</vie>
+  </Table>
+  <Table>
+    <control_name>c60</control_name>
+    <text>H11. Xem chỉ định</text>
+    <vie>Xem chỉ định</vie>
+  </Table>
+  <Table>
+    <control_name>c171</control_name>
+    <text />
+    <vie>Moi benh nhan</vie>
+  </Table>
+  <Table>
+    <control_name>c273</control_name>
+    <text>600</text>
+    <vie>600</vie>
+  </Table>
+  <Table>
+    <control_name>c170</control_name>
+    <text>K06. Kết xuất nội dung ra bảng điện</text>
+    <vie>(-) Kết xuất nội dung thông báo ra bảng điện</vie>
+  </Table>
+  <Table>
+    <control_name>c255</control_name>
+    <text>K01 + Gọi người bệnh vào đăng ký</text>
+    <vie>Dùng phần mềm gọi người bệnh vào đăng ký</vie>
+  </Table>
+  <Table>
+    <control_name>c272</control_name>
+    <text>600</text>
+    <vie>600</vie>
+  </Table>
+  <Table>
+    <control_name>c256</control_name>
+    <text>K02 - Gọi người bệnh vào khám</text>
+    <vie>Dùng phần mềm gọi bệnh nhân vào khám</vie>
+  </Table>
+  <Table>
+    <control_name>c270</control_name>
+    <text>600</text>
+    <vie>600</vie>
+  </Table>
+  <Table>
+    <control_name>c271</control_name>
+    <text>K05 + Đọc hàng chục,trăm,ngàn</text>
+    <vie>(+) Đọc hàng chục,trăm,ngàn, giúp phát âm hàng chục hàng trăm, khi gọi bệnh nhân</vie>
+  </Table>
+  <Table>
+    <control_name>c269</control_name>
+    <text>600</text>
+    <vie>600</vie>
+  </Table>
+  <Table>
+    <control_name>label55</control_name>
+    <text>K03. 1 lần gọi :</text>
+    <vie>Số bệnh nhâ được gọi mỗi lần để vào đăng ký khám bệnh</vie>
+  </Table>
+  <Table>
+    <control_name>c268</control_name>
+    <text>300</text>
+    <vie>300</vie>
+  </Table>
+  <Table>
+    <control_name>c257</control_name>
+    <text>4</text>
+    <vie>4</vie>
+  </Table>
+  <Table>
+    <control_name>c267</control_name>
+    <text>600</text>
+    <vie>600</vie>
+  </Table>
+  <Table>
+    <control_name>label56</control_name>
+    <text>số</text>
+    <vie>số</vie>
+  </Table>
+  <Table>
+    <control_name>c266</control_name>
+    <text>1800</text>
+    <vie>Mời bệnh nhân</vie>
+  </Table>
+  <Table>
+    <control_name>label58</control_name>
+    <text>K04. Sleep :</text>
+    <vie>Sleep :</vie>
+  </Table>
+  <Table>
+    <control_name>c377</control_name>
+    <text>J07 - Theo bệnh án</text>
+    <vie>Quản lý phòng giường Theo bệnh án được khai báo trong (Tiện ích --&gt; Danh mục --&gt; Bệnh án sử dụng).</vie>
+  </Table>
+  <Table>
+    <control_name>c280</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>c279</control_name>
+    <text>J06. Đối tượng phòng dịch vụ</text>
+    <vie>Đối tượng phòng dịch vụ</vie>
+  </Table>
+  <Table>
+    <control_name>c278</control_name>
+    <text>J05 - Giường dịch vụ &lt;12 giờ tính nữa ngày, Giường thường ngày ra-ngày vào</text>
+    <vie>(-)Giường dịch vụ &lt;12 giờ tính nữa ngày, Giường thường ngày ra-ngày vào</vie>
+  </Table>
+  <Table>
+    <control_name>c247</control_name>
+    <text>J02 + Bắt buộc nhập giường</text>
+    <vie>(+)Bắt buộc nhập số giường</vie>
+  </Table>
+  <Table>
+    <control_name>c236</control_name>
+    <text>J04 - Một giường 1 người bệnh</text>
+    <vie>Một giường chỉ chấp nhận cho 1 bệnh nhân</vie>
+  </Table>
+  <Table>
+    <control_name>label54</control_name>
+    <text>J01. Nhóm viện phí phòng/giường :</text>
+    <vie>Nhóm viện phí phòng/giường :</vie>
+  </Table>
+  <Table>
+    <control_name>c235</control_name>
+    <text>J03 - Quản lý phòng giường</text>
+    <vie>Quản lý phòng giường, cần có cài đặt phần mềm quản lý phòng giường. Lưu ý option này độc lập với option nhập số phòng giường</vie>
+  </Table>
+  <Table>
+    <control_name>c234</control_name>
+    <text />
+    <vie>Tiền giường</vie>
+  </Table>
+  <Table>
+    <control_name>c254</control_name>
+    <text />
+    <vie>Xét nghiệm</vie>
+  </Table>
+  <Table>
+    <control_name>pttt</control_name>
+    <text>I01 + Cho phép nhập theo phương pháp phẫu thuật - thủ thuật</text>
+    <vie>Cho phép nhập theo phương pháp phẫu thuật - thủ thuật</vie>
+  </Table>
+  <Table>
+    <control_name>c146</control_name>
+    <text>I02 - Sửa chi phí phẫu thủ thuật</text>
+    <vie>(-) Có thể sửa chi phí phẫu thủ thuật.
+	- Sáng lên khi chọn option G15.</vie>
+  </Table>
+  <Table>
+    <control_name>c158</control_name>
+    <text>I03 + Nhập thông tin hồi sức &amp;&amp; dụng cụ</text>
+    <vie>(+) Nhập thông tin nhân viên hồi sức &amp;&amp; dụng cụ phục vụ cuộc mổ.
+	- Mục đích tính tiền phụ cấp.</vie>
+  </Table>
+  <Table>
+    <control_name>c143</control_name>
+    <text />
+    <vie>Xét nghiệm</vie>
+  </Table>
+  <Table>
+    <control_name>label37</control_name>
+    <text>I06. Nhóm viện phí phẫu thủ thuật :</text>
+    <vie>(+) Nhóm viện phí phẫu thủ thuật:
+	- Ánh xạ đưa nhóm viện phí vào trong khai báo tường trình PTTT (Nội trú --&gt; Nhập PTTT --&gt; Tường trình PTTT).</vie>
+  </Table>
+  <Table>
+    <control_name>c159</control_name>
+    <text>I04 + Nhập số phiếu trong phẫu thủ thuật</text>
+    <vie>(+)Nhập số phiếu trong phẫu thủ thuật, theo sổ phẩu thuật thủ thuật đặt tại phòng mổ</vie>
+  </Table>
+  <Table>
+    <control_name>c253</control_name>
+    <text>I05 + Thủ thuật nhập theo chỉ định</text>
+    <vie>(+)Phải có chỉ định của bác sĩ mới nhập thủ thuật được.
+	- Cần triển khai khu vực PTTT.</vie>
+  </Table>
+  <Table>
+    <control_name>butFile</control_name>
+    <text>...</text>
+    <vie>...</vie>
+  </Table>
+  <Table>
+    <control_name>id</control_name>
+    <text>0</text>
+    <vie>0</vie>
+  </Table>
+  <Table>
+    <control_name>butBoqua</control_name>
+    <text>&amp;Bỏ qua</text>
+    <vie>&amp;Bỏ qua</vie>
+  </Table>
+  <Table>
+    <control_name>chophep</control_name>
+    <text>Cho phép tiếp đón người bệnh</text>
+    <vie>Cho phép tiếp đón người bệnh</vie>
+  </Table>
+  <Table>
+    <control_name>butLuu</control_name>
+    <text>&amp;Lưu</text>
+    <vie>&amp;Lưu</vie>
+  </Table>
+  <Table>
+    <control_name>dataGrid1</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>butSua</control_name>
+    <text>&amp;Sửa</text>
+    <vie>&amp;Sửa</vie>
+  </Table>
+  <Table>
+    <control_name>ten</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>butThem</control_name>
+    <text>&amp;Thêm</text>
+    <vie>&amp;Thêm</vie>
+  </Table>
+  <Table>
+    <control_name>label22</control_name>
+    <text>Mã số :</text>
+    <vie>Mã số :</vie>
+  </Table>
+  <Table>
+    <control_name>label23</control_name>
+    <text>Diễn giải :</text>
+    <vie>Diễn giải :</vie>
+  </Table>
+  <Table>
+    <control_name>dataGrid3</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>label59</control_name>
+    <text>Viện phí :</text>
+    <vie>Viện phí :</vie>
+  </Table>
+  <Table>
+    <control_name>txtNodeTextSearch</control_name>
+    <text>Tìm kiếm</text>
+    <vie>Tìm kiếm</vie>
+  </Table>
+  <Table>
+    <control_name>treeView1</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>butCancel</control_name>
+    <text>&amp;Kết thúc</text>
+    <vie>&amp;Kết thúc</vie>
+  </Table>
+  <Table>
+    <control_name>butOk</control_name>
+    <text>&amp;Lưu</text>
+    <vie>&amp;Lưu</vie>
+  </Table>
+  <Table>
+    <control_name>c404</control_name>
+    <text>C53 - Xử trí hẹn không cho phép in chi phí tại phòng khám</text>
+    <vie>(-)Xử trí hẹn không cho phép in chi phí tại phòng khám cho mỗi lần điều trị, để dồn lại in khi kết thúc điều trị.
+	- Dùng trong trường hợp duyệt thuốc phòng khám tự động.</vie>
+  </Table>
+  <Table>
+    <control_name>c232</control_name>
+    <text>A21 - Kiểm tra khi tạo số liệu mới</text>
+    <vie>(-)Kiểm tra việc tạo dữ liệu tháng mới (schema tháng năm) có thành công hay không.
+	- Nếu không thành công chương trình tự động tạo lại.</vie>
+  </Table>
+  <Table>
+    <control_name>c440</control_name>
+    <text>H13 (-) Chọn ngày chỉ định trong phòng lưu</text>
+    <vie>H13 (-) Chọn ngày chỉ định trong phòng lưu</vie>
+  </Table>
+  <Table>
+    <control_name>c439</control_name>
+    <text>H12 (-) In số phiếu trong chỉ định</text>
+    <vie>H12 (-) In số phiếu trong chỉ định</vie>
+  </Table>
+  <Table>
+    <control_name>c438</control_name>
+    <text>E18.4 - Trên chi phí bảo hiểm chi trả</text>
+    <vie>E18.4 - Trên chi phí bảo hiểm chi trả</vie>
+  </Table>
+  <Table>
+    <control_name>d50</control_name>
+    <text>20000</text>
+    <vie>20000</vie>
+  </Table>
+  <Table>
+    <control_name>ma13</control_name>
+    <text />
+    <vie>6+7</vie>
+  </Table>
+  <Table>
+    <control_name>label120</control_name>
+    <text>Số thẻ 15 ký tự, Chi trả 80 % :</text>
+    <vie>Số thẻ 15 ký tự, Chi trả 80 % :</vie>
+  </Table>
+  <Table>
+    <control_name>label122</control_name>
+    <text>&gt;</text>
+    <vie>&gt;</vie>
+  </Table>
+  <Table>
+    <control_name>d52</control_name>
+    <text>5,1</text>
+    <vie>5,1</vie>
+  </Table>
+  <Table>
+    <control_name>c431</control_name>
+    <text>0</text>
+    <vie>0</vie>
+  </Table>
+  <Table>
+    <control_name>label121</control_name>
+    <text>E18.3. Mức bảo hiểm chi trả  :                                        %</text>
+    <vie>E18.3. Mức bảo hiểm chi trả  :                                        %</vie>
+  </Table>
+  <Table>
+    <control_name>d53</control_name>
+    <text>5,2</text>
+    <vie>5,2</vie>
+  </Table>
+  <Table>
+    <control_name>d51</control_name>
+    <text>20000</text>
+    <vie>20000</vie>
+  </Table>
+  <Table>
+    <control_name>c49</control_name>
+    <text />
+    <vie>TC+VC+UC+XC+GD</vie>
+  </Table>
+  <Table>
+    <control_name>c175</control_name>
+    <text />
+    <vie>4+5</vie>
+  </Table>
+  <Table>
+    <control_name>label114</control_name>
+    <text>95 % :</text>
+    <vie>95 % :</vie>
+  </Table>
+  <Table>
+    <control_name>label115</control_name>
+    <text>Bảo hiểm cùng chi trả</text>
+    <vie>Bảo hiểm cùng chi trả</vie>
+  </Table>
+  <Table>
+    <control_name>label116</control_name>
+    <text>Số thẻ 18 ký tự, Chi trả 80 % :</text>
+    <vie>Số thẻ 18 ký tự, Chi trả 80 % :</vie>
+  </Table>
+  <Table>
+    <control_name>label117</control_name>
+    <text>&gt;</text>
+    <vie>&gt;</vie>
+  </Table>
+  <Table>
+    <control_name>label118</control_name>
+    <text>Số tiền</text>
+    <vie>Số tiền</vie>
+  </Table>
+  <Table>
+    <control_name>label119</control_name>
+    <text>Vị trí</text>
+    <vie>Vị trí</vie>
+  </Table>
+  <Table>
+    <control_name>c428</control_name>
+    <text>550000</text>
+    <vie>550000</vie>
+  </Table>
+  <Table>
+    <control_name>label112</control_name>
+    <text>E18.2. Mức chi trả tối đa nội trú :                                   đợt điều trị</text>
+    <vie>E18.2. Mức chi trả tối đa nội trú :                                   đợt điều trị</vie>
+  </Table>
+  <Table>
+    <control_name>c427</control_name>
+    <text>30000</text>
+    <vie>30000</vie>
+  </Table>
+  <Table>
+    <control_name>label111</control_name>
+    <text>E18.1. Mức chi trả tối đa phòng khám :                   lần khám và cấp toa</text>
+    <vie>E18.1. Mức chi trả tối đa phòng khám :                   lần khám và cấp toa</vie>
+  </Table>
+  <Table>
+    <control_name>c426</control_name>
+    <text>E18 - Áp dụng thanh toán trái tuyến BHYT</text>
+    <vie>E18 - Áp dụng thanh toán trái tuyến BHYT</vie>
+  </Table>
+  <Table>
+    <control_name>cboStopbit</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>label126</control_name>
+    <text>StopBit</text>
+    <vie>StopBit</vie>
+  </Table>
+  <Table>
+    <control_name>label125</control_name>
+    <text>Baud</text>
+    <vie>Baud</vie>
+  </Table>
+  <Table>
+    <control_name>label222</control_name>
+    <text>Port</text>
+    <vie>Port</vie>
+  </Table>
+  <Table>
+    <control_name>cboBaudrate</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>cboParity</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>cboDatabit</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>cboPort</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>c435</control_name>
+    <text>K02.1. Xuất bảng điện phòng khám:</text>
+    <vie>K02.1. Xuất bảng điện phòng khám:</vie>
+  </Table>
+  <Table>
+    <control_name>label124</control_name>
+    <text>Parity</text>
+    <vie>Parity</vie>
+  </Table>
+  <Table>
+    <control_name>label127</control_name>
+    <text>Databit</text>
+    <vie>Databit</vie>
+  </Table>
+  <Table>
+    <control_name>c433</control_name>
+    <text>D19 - Số lưu trữ ngoại trú tăng tự động theo năm</text>
+    <vie>D19 - Số lưu trữ ngoại trú tăng tự động theo năm</vie>
+  </Table>
+  <Table>
+    <control_name>c430</control_name>
+    <text>C58 - Cho phép phòng khám chỉnh sữa thông tin hành chánh</text>
+    <vie>C58 - Cho phép phòng khám chỉnh sữa thông tin hành chánh</vie>
+  </Table>
+  <Table>
+    <control_name>label110</control_name>
+    <text>ngày</text>
+    <vie>ngày</vie>
+  </Table>
+  <Table>
+    <control_name>c425</control_name>
+    <text>C57 - Nhập phòng khám sau khi nhập mã người bệnh con trỏ đến chẩn đoán</text>
+    <vie>C57 - Nhập phòng khám sau khi nhập mã người bệnh con trỏ đến chẩn đoán</vie>
+  </Table>
+  <Table>
+    <control_name>c424</control_name>
+    <text>14</text>
+    <vie>14</vie>
+  </Table>
+  <Table>
+    <control_name>label109</control_name>
+    <text>C48.2 - Kết thúc điều trị ngoại trú khi bệnh nhân không quay lại tái khám :</text>
+    <vie>C48.2 - Kết thúc điều trị ngoại trú khi bệnh nhân không quay lại tái khám :</vie>
+  </Table>
+  <Table>
+    <control_name>c423</control_name>
+    <text>7</text>
+    <vie>7</vie>
+  </Table>
+  <Table>
+    <control_name>label108</control_name>
+    <text>C56 - Số ngày cho thuốc mặc định :</text>
+    <vie>c56 - Số ngày cho thuốc mặc định :</vie>
+  </Table>
+  <Table>
+    <control_name>label107</control_name>
+    <text>ngày</text>
+    <vie>ngày</vie>
+  </Table>
+  <Table>
+    <control_name>c422</control_name>
+    <text>C48.3 - Hiện danh sách vượt quá điều trị ngoại trú khi vào nhập bệnh án</text>
+    <vie>C48.3 - Hiện danh sách vượt quá điều trị ngoại trú khi vào nhập bệnh án</vie>
+  </Table>
+  <Table>
+    <control_name>c408</control_name>
+    <text>Triệu chứng lâm sàng ban đầu :</text>
+    <vie>Triệu chứng lâm sàng ban đầu :</vie>
+  </Table>
+  <Table>
+    <control_name>c406</control_name>
+    <text>C55 - Điều trị ngoại trú lọc theo bác sỹ</text>
+    <vie>C55 - Điều trị ngoại trú lọc theo bác sỹ</vie>
+  </Table>
+  <Table>
+    <control_name>c405</control_name>
+    <text>C54 - Đơn thuốc nhập bấm huyệt</text>
+    <vie>C54 - Đơn thuốc nhập bấm huyệt</vie>
+  </Table>
+  <Table>
+    <control_name>c432</control_name>
+    <text>G70 - Chỉ định khám chuyên khoa chuyển vào danh sách chờ đóng tiền</text>
+    <vie>G70 - Chỉ định khám chuyên khoa chuyển vào danh sách chờ đóng tiền</vie>
+  </Table>
+  <Table>
+    <control_name>c429</control_name>
+    <text>0</text>
+    <vie>0</vie>
+  </Table>
+  <Table>
+    <control_name>label113</control_name>
+    <text>G69. Thông báo số tiền tạm ứng &lt;=</text>
+    <vie>G69. Thông báo số tiền tạm ứng &lt;=</vie>
+  </Table>
+  <Table>
+    <control_name>c421</control_name>
+    <text>G68 - Phiếu thanh toán ra viện xuất ra nhiều giá</text>
+    <vie>G68 - Phiếu thanh toán ra viện xuất ra nhiều giá</vie>
+  </Table>
+  <Table>
+    <control_name>c419</control_name>
+    <text>G67 - Tái khám in chi phí riêng trong khám bệnh</text>
+    <vie>G67 - Tái khám in chi phí riêng trong khám bệnh</vie>
+  </Table>
+  <Table>
+    <control_name>c418</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>c417</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>label106</control_name>
+    <text>Phẫu thủ thuật :</text>
+    <vie>Phẫu thủ thuật :</vie>
+  </Table>
+  <Table>
+    <control_name>label105</control_name>
+    <text>Khoa :</text>
+    <vie>Khoa :</vie>
+  </Table>
+  <Table>
+    <control_name>c416</control_name>
+    <text />
+    <vie>Xét nghiệm</vie>
+  </Table>
+  <Table>
+    <control_name>c415</control_name>
+    <text />
+    <vie>BHYT</vie>
+  </Table>
+  <Table>
+    <control_name>c414</control_name>
+    <text>G66 - Khoán vật tư tiêu hao theo khoa, phẫu thủ thuật</text>
+    <vie>G66 - Khoán vật tư tiêu hao theo khoa, phẫu thủ thuật</vie>
+  </Table>
+  <Table>
+    <control_name>c412</control_name>
+    <text>G65 - Phòng khám xử trí tái khám chuyển vào danh sách chờ đóng tiền</text>
+    <vie>G65 - Phòng khám xử trí tái khám chuyển vào danh sách chờ đóng tiền</vie>
+  </Table>
+  <Table>
+    <control_name>c411</control_name>
+    <text />
+    <vie>BHYT</vie>
+  </Table>
+  <Table>
+    <control_name>c410</control_name>
+    <text>G63 - Không tính công khám khi xử trí nhập viện</text>
+    <vie>G63 - Không tính công khám khi xử trí nhập viện</vie>
+  </Table>
+  <Table>
+    <control_name>c409</control_name>
+    <text>G62 - Sữa khoa phòng trong sữa đối tượng dịch vụ</text>
+    <vie>G62 - Sữa khoa phòng trong sữa đối tượng dịch vụ</vie>
+  </Table>
+  <Table>
+    <control_name>c407</control_name>
+    <text>G61 - Phiếu thanh toán dịch vụ in kèm giá gốc</text>
+    <vie>G61 - Phiếu thanh toán dịch vụ in kèm giá gốc</vie>
+  </Table>
+  <Table>
+    <control_name>c434</control_name>
+    <text>G60.1.BHYT,Miễn</text>
+    <vie>G60.1.BHYT,Miễn</vie>
+  </Table>
+  <Table>
+    <control_name>c420</control_name>
+    <text>F31. Đơn thuốc ngoại trú duyệt tự động.</text>
+    <vie>F31. Đơn thuốc ngoại trú duyệt tự động</vie>
+  </Table>
+  <Table>
+    <control_name>c413</control_name>
+    <text>F30. Cho phép nhập hai mặt hàng giống trong dự trù, đơn thuốc</text>
+    <vie>F30. Cho phép nhập hai mặt hàng giống trong dự trù, đơn thuốc</vie>
+  </Table>
+  <Table>
+    <control_name>c443</control_name>
+    <text>G71 - Thanh toán BHYT tại nội trú theo cách tính phòng khám</text>
+    <vie>G59 - Thanh toán BHYT tại nội trú theo cách tính phòng khám</vie>
+  </Table>
+  <Table>
+    <control_name>label123</control_name>
+    <text>95 % :</text>
+    <vie>95 % :</vie>
+  </Table>
+  <Table>
+    <control_name>c442</control_name>
+    <text />
+    <vie>GL+JL+HN+HL</vie>
+  </Table>
+  <Table>
+    <control_name>c441</control_name>
+    <text>K07. Phòng khám xuất số thứ tự ra bảng điện (Hà nội)</text>
+    <vie>K07. Phòng khám xuất số thứ tự ra bảng điện (Hà nội)</vie>
+  </Table>
+  <Table>
+    <control_name>c444</control_name>
+    <text>G72 - Yêu cầu bệnh nhân phòng khám đóng tiền tạm ứng khi chưa đóng</text>
+    <vie>G72 - Yêu cầu bệnh nhân phòng khám đóng tiền tạm ứng khi chưa đóng</vie>
+  </Table>
+  <Table>
+    <control_name>c1004</control_name>
+    <text>I07 + Cho phép nhập PTTT khi bệnh nhân đã xuất viện</text>
+    <vie>I07 + Cho phép nhập PTTT khi bệnh nhân đã xuất viện</vie>
+  </Table>
+  <Table>
+    <control_name>c1003</control_name>
+    <text>C60-Phòng khám bắt buộc nhập xử trí khi có chẩn đoán chính</text>
+    <vie>C60-Phòng khám bắt buột nhập xử trí khi có chẩn đoán chính</vie>
+  </Table>
+  <Table>
+    <control_name>c1001</control_name>
+    <text>C59-Phòng lưu kết thúc điều trị mới được phép cấp toa cho về</text>
+    <vie>C59-Phòng lưu kết thúc điều trị mới được phép cấp toa cho về</vie>
+  </Table>
+  <Table>
+    <control_name>c1002</control_name>
+    <text>F14.1. Phòng lưu</text>
+    <vie>F14.1. Phòng lưu</vie>
+  </Table>
+  <Table>
+    <control_name>c1005</control_name>
+    <text>G73 - BHYT, Miễn: Chuyển khám tính chênh lệnh công khám</text>
+    <vie>G73 - BHYT, Miễn: Chuyển khám tính chênh lệnh công khám</vie>
+  </Table>
+  <Table>
+    <control_name>c1006</control_name>
+    <text>G74 - Thanh toán BHYT tại phòng lưu như phòng khám khi BN không nhập viện</text>
+    <vie>G74 - Thanh toán BHYT tại phòng lưu như phòng khám khi BN không nhập viện</vie>
+  </Table>
+  <Table>
+    <control_name>c1009</control_name>
+    <text>G75 - In tên hoạt chất TRƯỚC trong phiếu thanh toán ra viện</text>
+    <vie>G75 - In tên hoạt chất TRƯỚC trong phiếu thanh toán ra viện</vie>
+  </Table>
+  <Table>
+    <control_name>c1008</control_name>
+    <text>20000000</text>
+    <vie>20000000</vie>
+  </Table>
+  <Table>
+    <control_name>c1007</control_name>
+    <text>KT cao, BHYT chỉ chi trả tối đa:</text>
+    <vie>E19 - KT cao, BHYT chỉ chi trả tối đa:</vie>
+  </Table>
+  <Table>
+    <control_name>c1011</control_name>
+    <text>C62 - Chẩn đoán nguyên nhân phải có trong ICD10</text>
+    <vie>C62 - Chẩn đoán nguyên nhân phải có trong ICD10</vie>
+  </Table>
+  <Table>
+    <control_name>c1010</control_name>
+    <text>C61 - Chẩn đoán kèm theo, nơi chuyển đến, phân biệt phải có trong ICD10</text>
+    <vie>C61 - Chẩn đoán kèm theo, nơi chuyển đến, phân biệt phải có trong ICD10</vie>
+  </Table>
+  <Table>
+    <control_name>c1012</control_name>
+    <text>G76. Phòng khám in chi phí điều trị gom cả chi phí phòng lưu</text>
+    <vie>G76. Phòng khám in chi phí điều trị gom cả chi phí phòng lưu</vie>
+  </Table>
+  <Table>
+    <control_name>c1025</control_name>
+    <text>H14. (-) Đã in không được hủy phiếu chỉ định</text>
+    <vie>H14. (-) Đã in không được hủy phiếu chỉ định</vie>
+  </Table>
+  <Table>
+    <control_name>c1021</control_name>
+    <text>C51.2 - Lọc thuốc dự trù, tủ trực ... theo đối tượng</text>
+    <vie>C51.2 - Lọc thuốc dự trù, tủ trực ... theo đối tượng</vie>
+  </Table>
+  <Table>
+    <control_name>c1020</control_name>
+    <text>C51.1 - Lọc thuốc cấp toa theo đối tượng</text>
+    <vie>C51.1 - Lọc thuốc cấp toa theo đối tượng</vie>
+  </Table>
+  <Table>
+    <control_name>c1024</control_name>
+    <text>G54.1-Bỏ Thu phí</text>
+    <vie>G54.1-Bỏ Thu phí</vie>
+  </Table>
+  <Table>
+    <control_name>c1022</control_name>
+    <text>G77. TTRV tổng hợp tất cả biên lai tạm ứng chưa hoàn</text>
+    <vie>G77. TTRV tổng hợp tất cả biên lai tạm ứng chưa hoàn</vie>
+  </Table>
+  <Table>
+    <control_name>c1023</control_name>
+    <text>Sửa đối tượng tự động sửa đối tượng dịch vụ theo ngày trình thẻ</text>
+    <vie>E20. Sửa đối tượng tự động sửa đối tượng dịch vụ theo ngày trình</vie>
+  </Table>
+  <Table>
+    <control_name>c1019</control_name>
+    <text>600</text>
+    <vie>600</vie>
+  </Table>
+  <Table>
+    <control_name>c1018</control_name>
+    <text>900</text>
+    <vie>900</vie>
+  </Table>
+  <Table>
+    <control_name>c1017</control_name>
+    <text>900</text>
+    <vie>900</vie>
+  </Table>
+  <Table>
+    <control_name>c1016</control_name>
+    <text>600</text>
+    <vie>600</vie>
+  </Table>
+  <Table>
+    <control_name>c1015</control_name>
+    <text>300</text>
+    <vie>300</vie>
+  </Table>
+  <Table>
+    <control_name>c1014</control_name>
+    <text>600</text>
+    <vie>600</vie>
+  </Table>
+  <Table>
+    <control_name>c1013</control_name>
+    <text>2200</text>
+    <vie>2200</vie>
+  </Table>
+  <Table>
+    <control_name>label128</control_name>
+    <text>K04.1. Sleep PK :</text>
+    <vie>K04.1. Sleep PK :</vie>
+  </Table>
+  <Table>
+    <control_name>c1028</control_name>
+    <text>D21. Số vào viện ngoại trú tăng tự động (theo dãy số riêng)</text>
+    <vie>D21. Số vào viện ngoại trú tăng tự động (theo dãy số riêng)</vie>
+  </Table>
+  <Table>
+    <control_name>c1027</control_name>
+    <text>D20. Số vào viện ngoại trú tăng tự động chung với nội trú</text>
+    <vie>D20. Số vào viện ngoại trú tăng tự động chung với nội trú</vie>
+  </Table>
+  <Table>
+    <control_name>c1026</control_name>
+    <text>C63 - Phòng khám không được xử trí chuyển viện</text>
+    <vie>C63 - Phòng khám không được xử trí chuyển viện</vie>
+  </Table>
+  <Table>
+    <control_name>c1030</control_name>
+    <text>0</text>
+    <vie>0</vie>
+  </Table>
+  <Table>
+    <control_name>label129</control_name>
+    <text>F32. Khoảng cách ngày cấp toa so với ngày khám là:</text>
+    <vie>F32. Khoảng cách ngày cấp toa so với ngày khám là:</vie>
+  </Table>
+  <Table>
+    <control_name>c1029</control_name>
+    <text>D22. Số chuyển viện tăng tự động</text>
+    <vie>D22. Số chuyển viện tăng tự động</vie>
+  </Table>
+  <Table>
+    <control_name>c1031</control_name>
+    <text>C64. Phòng lưu: kiểm tra thông tin chuyển viện trước khi in</text>
+    <vie>C64. Phòng lưu: kiểm tra thông tin chuyển viện trước khi in</vie>
+  </Table>
+  <Table>
+    <control_name>label135</control_name>
+    <text>A30. Chi nhánh hiện tại :</text>
+    <vie>A30. Chi nhánh :</vie>
+  </Table>
+  <Table>
+    <control_name>c999</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>c1135</control_name>
+    <text>A17.1 Mẫu số 2</text>
+    <vie>A17.1 Mẫu số 2</vie>
+  </Table>
+  <Table>
+    <control_name>c1073</control_name>
+    <text>A14.1. Quản lý theo khu</text>
+    <vie>A14.1. Quản lý theo cơ sở (khu)</vie>
+  </Table>
+  <Table>
+    <control_name>label131</control_name>
+    <text>ngày</text>
+    <vie>ngày</vie>
+  </Table>
+  <Table>
+    <control_name>c1063</control_name>
+    <text>1</text>
+    <vie>1</vie>
+  </Table>
+  <Table>
+    <control_name>label132</control_name>
+    <text>A29. Ngày điều trị= ngày ra - ngày vào +</text>
+    <vie>A29. Ngày điều trị= ngày ra - ngày vào +</vie>
+  </Table>
+  <Table>
+    <control_name>c1059</control_name>
+    <text>G79.1. BN BHYT đăng ký nhiều phòng khám (hay đăng ký nhiều lần trong ngày), BH chỉ trả 1 công khám, CÒN LẠI KHÔNG TÍNH</text>
+    <vie>G79.1. BN BHYT đăng ký nhiều phòng khám (hay đăng ký nhiều lần trong ngày), BH chỉ trả 1 công khám, CÒN LẠI KHÔNG TÍNH</vie>
+  </Table>
+  <Table>
+    <control_name>c1050</control_name>
+    <text>G86. (-) Tính chênh lệch ở khu khám vào ngày nghỉ (T7,CN,lễ tết)</text>
+    <vie>G86. (-) Tính chênh lệch ở khu khám vào ngày nghĩ (T7,CN,lễ tết)</vie>
+  </Table>
+  <Table>
+    <control_name>c1044</control_name>
+    <text>G85. BN chưa làm thủ tục thanh toán ra viện, không cho in giấy ra viện</text>
+    <vie>G85. BN chưa làm thủ tục thanh toán ra viện, không cho in giấy ra viện</vie>
+  </Table>
+  <Table>
+    <control_name>c1043</control_name>
+    <text>G84. BN chưa làm thủ tục thanh toán ra viện đợt trước, không cho nhập viện</text>
+    <vie>G84. BN chưa làm thủ tục thanh toán ra viện đợt trước, không cho nhập viện</vie>
+  </Table>
+  <Table>
+    <control_name>c1042</control_name>
+    <text>G83. BN chưa làm thủ tục thanh toán ra viện đợt trước, không cho đăng ký khám bệnh</text>
+    <vie>G83. BN chưa làm thủ tục thanh toán ra viện đợt trước, không cho đăng ký khám bệnh</vie>
+  </Table>
+  <Table>
+    <control_name>c1041</control_name>
+    <text>G82. In phiếu TTRV (mẫu 38) đầy đủ</text>
+    <vie>G82. In phiếu TTRV (mẫu 38) đầy đủ</vie>
+  </Table>
+  <Table>
+    <control_name>c1039</control_name>
+    <text>G81. Khám từ PK thứ 2 tính giá tái khám</text>
+    <vie>G81. Khám từ PK thứ 2 tính giá tái khám</vie>
+  </Table>
+  <Table>
+    <control_name>c1037</control_name>
+    <text>G80. Dịch vụ, vật tư, thuốc BHYT chi trả dưới 100%, phần còn lại tính vào đối tượng thu phí</text>
+    <vie>G80. Dịch vụ, vật tư, thuốc BHYT chi trả dưới 100%, phần còn lại tính vào đối tượng thu phí</vie>
+  </Table>
+  <Table>
+    <control_name>c1036</control_name>
+    <text>G79. BN BHYT đăng ký nhiều phòng khám (hay đăng ký nhiều lần trong ngày), BH chỉ trả 1 công khám, còn lại chuyển thu phí</text>
+    <vie>G79. BN BHYT đăng ký nhiều phòng khám (hay đăng ký nhiều lần trong ngày), BH chỉ trả 1 công khám, còn lại chuyển thu phí</vie>
+  </Table>
+  <Table>
+    <control_name>c1034</control_name>
+    <text>G78. BN BHYT, miễn: Chuyển khám tính công khám đối tượng thu phí (Enabled khi G60.1 được check)</text>
+    <vie>G78. BN BHYT, miễn Chuyển khám tính công khám đối tượng thu phí (Enabled khi G60.1 được check)</vie>
+  </Table>
+  <Table>
+    <control_name>c1075</control_name>
+    <text>E25. BHYT cần phân biệt nhân viên của bệnh viện</text>
+    <vie>E25. BHYT cần phân biệt nhân viên của bệnh viện</vie>
+  </Table>
+  <Table>
+    <control_name>c1053</control_name>
+    <text>E24. CPVC xét kèm mã quyền lợi (ký tự thứ 3 trên thẻ)</text>
+    <vie>E24. Chi phí vận chuyển xét kèm mã quyền lợi (ký tự thứ 3 trên thẻ)</vie>
+  </Table>
+  <Table>
+    <control_name>c1046</control_name>
+    <text>E23. BHYT trái tuyến tính theo tỷ lệ chi trả riêng</text>
+    <vie>E23. BHYT trái tuyến tính theo tỷ lệ chi trả riêng</vie>
+  </Table>
+  <Table>
+    <control_name>c1045</control_name>
+    <text>E22. Lấy giá mua khi giá BH=0, hoặc giá BH &gt; Giá mua</text>
+    <vie>E22. Lấy giá mua khi giá BH=0, hoặc giá BH &gt; Giá mua</vie>
+  </Table>
+  <Table>
+    <control_name>c1038</control_name>
+    <text>E20. Thẻ BHYT khác tỉnh mặc định là trái tuyến</text>
+    <vie>E20. Thẻ BHYT khác tỉnh mặc định là trái tuyến</vie>
+  </Table>
+  <Table>
+    <control_name>c1074</control_name>
+    <text>D10.1 - Mã BN tự động theo máy (MSBN liên tục)</text>
+    <vie>D10.1 - Mã BN tự động theo máy (MSBN liên tục)</vie>
+  </Table>
+  <Table>
+    <control_name>c1066</control_name>
+    <text>D26. Số phiếu thanh toán ra viện tăng theo tháng, tính từ ngày tạo số liệu</text>
+    <vie>D26. Số phiếu thanh toán ra viện tăng theo tháng, tính từ ngày tạo số liệu</vie>
+  </Table>
+  <Table>
+    <control_name>c1065</control_name>
+    <text>D25. Số phiếu thanh toán ra viện tăng theo tháng, tính từ ngày 1</text>
+    <vie>D25. Số phiếu thanh toán ra viện tăng theo tháng, tính từ ngày 1</vie>
+  </Table>
+  <Table>
+    <control_name>c1064</control_name>
+    <text>D24. Số phiếu thanh toán ra viện tăng theo năm, tính từ ngày tạo số liệu tháng 1</text>
+    <vie>D24. Số phiếu thanh toán ra viện tăng theo năm, tính từ ngày tạo số liệu tháng 1</vie>
+  </Table>
+  <Table>
+    <control_name>c1060</control_name>
+    <text>D27 - Mã bệnh nhân tăng tự động lấy từ server internet</text>
+    <vie>D27 - Mã bệnh nhân tăng tự động lấy từ server internet</vie>
+  </Table>
+  <Table>
+    <control_name>c1056</control_name>
+    <text>D23. Số phiếu thanh toán ra viện tăng theo năm, tính từ ngày 1</text>
+    <vie>D23. Số phiếu thanh toán ra viện tăng theo năm, tính từ ngày 1</vie>
+  </Table>
+  <Table>
+    <control_name>c1047</control_name>
+    <text>D07.1 - Bắt buộc phải lăn vân tay</text>
+    <vie>D07.1 - Bắt buộc phải lăn vân tay</vie>
+  </Table>
+  <Table>
+    <control_name>c1054</control_name>
+    <text>K08. Phòng khám xuất số thứ tự ra bảng điện (Kontum)</text>
+    <vie>K08. Phòng khám xuất số thứ tự ra bảng điện (Kontum)</vie>
+  </Table>
+  <Table>
+    <control_name>c1071</control_name>
+    <text>J09. Tính tiền giường lúc đặt giường</text>
+    <vie>J09. Tính tiền giường lúc đặt giường</vie>
+  </Table>
+  <Table>
+    <control_name>c1070</control_name>
+    <text>J05.1 - Giường thường ngày ra-ngày vào, Giường dịch vụ tính thêm 0.5 ngày khi: Vào sáng, ra sáng hoặc vào chiều ra chiều; tính thêm 1 ngày: vào sáng ra chiều</text>
+    <vie>J05.1 - Giường thường ngày ra-ngày vào, Giường dịch vụ tính thêm 0.5 ngày khi: Vào sáng, ra sáng hoặc vào chiều ra chiều; tính thêm 1 ngày: vào sáng ra chiều</vie>
+  </Table>
+  <Table>
+    <control_name>c1057</control_name>
+    <text>J08 - Bệnh nhân khoa A, có thể nằm giường khoa B (do hết giường khoa A)</text>
+    <vie>J08 - Bệnh nhân khoa A, có thể nằm giường khoa B (do hết giường khoa A)</vie>
+  </Table>
+  <Table>
+    <control_name>c1052</control_name>
+    <text>H18. (+) Chỉ có quản trị mới được phép in phiếu chỉ định ngày trước</text>
+    <vie>H18. (+) Chỉ có quản trị mới được phép in phiếu chỉ định ngày trước</vie>
+  </Table>
+  <Table>
+    <control_name>c1049</control_name>
+    <text>H17. (-) Đã duyệt chi phí mẫu 38 không được chỉ định CLS [G42]</text>
+    <vie>H17. (-) Đã duyệt chi phí mẫu 38 không được chỉ định CLS [G42]</vie>
+  </Table>
+  <Table>
+    <control_name>c1040</control_name>
+    <text>H16. Liệt kê danh mục dịch vụ kèm giá</text>
+    <vie>H16. Liệt kê danh mục dịch vụ kèm giá</vie>
+  </Table>
+  <Table>
+    <control_name>c1035</control_name>
+    <text>H15. (-) Khi ra phòng lưu không được phép chỉ định</text>
+    <vie>H15. (-) Khi ra phòng lưu không được phép chỉ định</vie>
+  </Table>
+  <Table>
+    <control_name>cbokhotc</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>chkkho</control_name>
+    <text>T02-Chọn kho tiêm chủng</text>
+    <vie>T02-Chọn kho tiêm chủng</vie>
+  </Table>
+  <Table>
+    <control_name>cbotutruc</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>chktutruc</control_name>
+    <text>T01-Quản lý tủ trực</text>
+    <vie>T01-Quản lý tủ trực</vie>
+  </Table>
+  <Table>
+    <control_name>cbophongtc</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>label134</control_name>
+    <text>Chọn phòng tiêm chủng :</text>
+    <vie>Chọn phòng tiêm chủng :</vie>
+  </Table>
+  <Table>
+    <control_name>c1033</control_name>
+    <text>I09 - Chênh lệch giá với BHYT cũng tính miễn giảm theo</text>
+    <vie>I09 - Chênh lệch giá với BHYT cũng tính miễn giảm theo</vie>
+  </Table>
+  <Table>
+    <control_name>c1032</control_name>
+    <text>I08 - Nhập PTTT trong viện khoa, chỉ định có nhập miễn giảm</text>
+    <vie>I08 - Nhập PTTT trong viện khoa, chỉ định có nhập miễn giảm</vie>
+  </Table>
+  <Table>
+    <control_name>c1433</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>c1061</control_name>
+    <text>C66. Biểu 02 không hiển thị khoa điều trị</text>
+    <vie>C66. Biểu 02 không hiển thị khoa điều trị</vie>
+  </Table>
+  <Table>
+    <control_name>c1051</control_name>
+    <text>C65. Load lại thông tin quan hệ của lần đăng ký trước</text>
+    <vie>C65. Load lại thông tin quan hệ của lần đăng ký trước</vie>
+  </Table>
+  <Table>
+    <control_name>c1072</control_name>
+    <text>F38. -Dự trù tài sản trên cơ sở dữ liệu kho TTB mới</text>
+    <vie>F38. -Dự trù tài sản trên cơ sở dữ liệu kho TTB mới</vie>
+  </Table>
+  <Table>
+    <control_name>c1069</control_name>
+    <text>100000</text>
+    <vie>100000</vie>
+  </Table>
+  <Table>
+    <control_name>label133</control_name>
+    <text>F37. Cảnh báo khi số tiền cấp toa BHYT vượt quá :</text>
+    <vie>F37. Cảnh báo khi số tiền cấp toa BHYT vượt quá :</vie>
+  </Table>
+  <Table>
+    <control_name>c1068</control_name>
+    <text>F36. -Cấp toa lọc kho theo khai báo khoa phòng trong Dược</text>
+    <vie>F36. -Cấp toa lọc kho theo khai báo khoa phòng trong Dược</vie>
+  </Table>
+  <Table>
+    <control_name>c1067</control_name>
+    <text>F35. Cấp toa theo danh mục thuốc được phép kê toa</text>
+    <vie>F35. Cấp toa theo danh mục thuốc được phép kê toa</vie>
+  </Table>
+  <Table>
+    <control_name>c1062</control_name>
+    <text>0</text>
+    <vie>0</vie>
+  </Table>
+  <Table>
+    <control_name>label130</control_name>
+    <text>F35. Số lần in toa thuốc</text>
+    <vie>F35. Số lần in toa thuốc</vie>
+  </Table>
+  <Table>
+    <control_name>c1055</control_name>
+    <text>F34. Đối tượng khác BHYT không load thuốc BHYT</text>
+    <vie>F34. Đối tượng khác BHYT không load thuốc BHYT</vie>
+  </Table>
+  <Table>
+    <control_name>c1048</control_name>
+    <text>F33. BN phòng lưu ra viện không cho phép xuất tủ trực</text>
+    <vie>F33. BN phòng lưu ra viện không cho phép xuất tủ trực</vie>
+  </Table>
+  <Table>
+    <control_name>c1058</control_name>
+    <text>B13. Xóa trắng ô nơi đăng ký KCB ban đầu khi chọn BHYT</text>
+    <vie>B13. Xóa trắng ô nơi đăng ký KCB ban đầu khi chọn BHYT</vie>
+  </Table>
+  <Table>
+    <control_name>c998</control_name>
+    <text>A14.2. Quản lý theo chi nhánh</text>
+    <vie>A14.2. Quản lý theo chi nhánh</vie>
+  </Table>
+  <Table>
+    <control_name>c1080</control_name>
+    <text>E27. Quản lý Bệnh nhân Trung cao</text>
+    <vie>E27. Quản lý Bệnh nhân Trung cao</vie>
+  </Table>
+  <Table>
+    <control_name>c1076</control_name>
+    <text>E26. BN BHYT bắt buộc nhập CMND</text>
+    <vie>E26. BN BHYT bắt buộc nhập CMND</vie>
+  </Table>
+  <Table>
+    <control_name>c1084</control_name>
+    <text>H24 - Kiểm tra dịch vụ kéo dài nhiều ngày để yêu cầu làm HSBA ngoại trú</text>
+    <vie>H24 - Kiểm tra dịch vụ kéo dài nhiều ngày để yêu cầu làm HSBA ngoại trú</vie>
+  </Table>
+  <Table>
+    <control_name>c1083</control_name>
+    <text>H23 - Kiểm tra dịch vụ có xâm lấn để yêu cầu làm HSBA ngoại trú</text>
+    <vie>H23 - Kiểm tra dịch vụ có xâm lấn để yêu cầu làm HSBA ngoại trú</vie>
+  </Table>
+  <Table>
+    <control_name>c1082</control_name>
+    <text>H22 - Kiểm tra dịch vụ cần giấy cam đoan</text>
+    <vie>H22 - Kiểm tra dịch vụ cần giấy cam đoan</vie>
+  </Table>
+  <Table>
+    <control_name>c1081</control_name>
+    <text>H21 - Kiểm tra dịch vụ cần biên bản hội chẩn</text>
+    <vie>H21 - Kiểm tra dịch vụ cần biên bản hội chẩn</vie>
+  </Table>
+  <Table>
+    <control_name>c1079</control_name>
+    <text>H20 - Kiểm tra các chỉ định không phù hợp</text>
+    <vie>H20 - Kiểm tra các chỉ định không phù hợp</vie>
+  </Table>
+  <Table>
+    <control_name>c1078</control_name>
+    <text>H19 (-) Cận lâm sàng phân biệt giá trong giờ, ngoài giờ</text>
+    <vie>H19 (-) Cận lâm sàng phân biệt giá trong giờ, ngoài giờ</vie>
+  </Table>
+  <Table>
+    <control_name>c1077</control_name>
+    <text>B14. Chụp hình chứng từ</text>
+    <vie>B14. Chụp hình chứng từ</vie>
+  </Table>
+  <Table>
+    <control_name>mst</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>label137</control_name>
+    <text>A07.1. MS thuế :</text>
+    <vie>A07.1. MS thuế :</vie>
+  </Table>
+  <Table>
+    <control_name>c1085</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>label136</control_name>
+    <text>B15. Thư mục lưu ảnh chứng từ:</text>
+    <vie>B15. Thư mục lưu ảnh chứng từ:</vie>
+  </Table>
+  <Table>
+    <control_name>c1088</control_name>
+    <text>G27.1 giá phụ thu</text>
+    <vie>G27.1 giá phụ thu</vie>
+  </Table>
+  <Table>
+    <control_name>c1136</control_name>
+    <text>F39. -Nhóm thuốc hướng tâm thần</text>
+    <vie>F39. -Nhóm thuốc hướng tâm thần</vie>
+  </Table>
+  <Table>
+    <control_name>chkdmNhom</control_name>
+    <text />
+    <vie>Nhóm thuốc bổ âm, bổ huyết</vie>
+  </Table>
+  <Table>
+    <control_name>c1087</control_name>
+    <text>B14.1 Nhắc nhở chụp hình chứng từ đối với bệnh nhân BHYT trái tuyến</text>
+    <vie>B14.1 Nhắc nhở chụp hình chứng từ đối với bệnh nhân BHYT trái tuyến</vie>
+  </Table>
+  <Table>
+    <control_name>c1086</control_name>
+    <text>B16. Bệnh nhân dưới 72 tháng tuổi bắt buộc nhập thông tin người thân</text>
+    <vie>B16. Bệnh nhân dưới 72 tháng tuổi bắt buộc nhập thông tin người thân</vie>
+  </Table>
+  <Table>
+    <control_name>c1091</control_name>
+    <text>B17. Bệnh nhân phòng lưu bắt buộc nhập thông tin người thân</text>
+    <vie>B17. Bệnh nhân phòng lưu bắt buộc nhập thông tin người thân</vie>
+  </Table>
+  <Table>
+    <control_name>c1089</control_name>
+    <text>G87. BN tái khám do dị ứng thuốc được miễn phụ thu tiền khám</text>
+    <vie>G87. BN tái khám do dị ứng thuốc được miễn phụ thu tiền khám</vie>
+  </Table>
+  <Table>
+    <control_name>c1090</control_name>
+    <text>D28 - Số lưu trữ khu khám, ngoại trú tăng tự động(CNYYMMXXXXXX)</text>
+    <vie>D28 - Số lưu trữ khu khám, ngoại trú tăng tự động(CNYYMMXXXXXX)</vie>
+  </Table>
+  <Table>
+    <control_name>c1092</control_name>
+    <text>C67. Chuyển phải qua duyệt khi chuyển sang bệnh viện ngoài danh sách</text>
+    <vie>C67. Chuyển phải qua duyệt khi chuyển sang bệnh viện ngoài danh sách</vie>
+  </Table>
+  <Table>
+    <control_name>c1094</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>butDichvu</control_name>
+    <text>...</text>
+    <vie>...</vie>
+  </Table>
+  <Table>
+    <control_name>txtVienphi</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>c1093</control_name>
+    <text>C68. Bệnh nhân tử vong bắt buộc có kết quả:</text>
+    <vie>C68. Bệnh nhân tử vong bắt buộc có kết quả:</vie>
+  </Table>
+  <Table>
+    <control_name>c605</control_name>
+    <text>C33.1 Phòng khám không nhập số lưu trữ</text>
+  </Table>
+  <Table>
+    <control_name>numSongaychotoa</control_name>
+    <text>0</text>
+    <vie>0</vie>
+  </Table>
+  <Table>
+    <control_name>label138</control_name>
+    <text>F41. Cảnh báo khi số ngày cho trong toa thuốc lớn hơn                 ngày</text>
+    <vie>F41. Cảnh báo khi số ngày cho trong toa thuốc lớn hơn                 ngày</vie>
+  </Table>
+  <Table>
+    <control_name>c1095</control_name>
+    <text>F40. Cấp toa xong tự động lưu và kết thúc khám</text>
+    <vie>F40. Cấp toa xong tự động lưu và kết thúc khám</vie>
+  </Table>
+  <Table>
+    <control_name>c1098</control_name>
+    <text>C69 - Thông báo số vào viện khi nhập khoa, khám bệnh, phòng lưu</text>
+    <vie>C69 - Thông báo số vào viện khi nhập khoa</vie>
+  </Table>
+  <Table>
+    <control_name>c1501</control_name>
+    <text>Thu phí</text>
+    <vie>Thu phí</vie>
+  </Table>
+  <Table>
+    <control_name>c1097</control_name>
+    <text>G88. Chênh lệch công khám lúc đăng ký cho phép nhân viên chọn</text>
+    <vie>G88. Chênh lệch công khám lúc đăng ký cho phép nhân viên chọn</vie>
+  </Table>
+  <Table>
+    <control_name>c1096</control_name>
+    <text>G79.2. BN BHYT đăng ký nhiều phòng khám (hay đăng ký nhiều lần trong ngày), BH chỉ trả 1 công khám, CÒN LẠI TÍNH THEO ĐT TỰ NGUYỆN (G26)</text>
+    <vie>G79.2. BN BHYT đăng ký nhiều phòng khám (hay đăng ký nhiều lần trong ngày), BH chỉ trả 1 công khám, CÒN LẠI TÍNH THEO ĐT TỰ NGUYỆN (G26)</vie>
+  </Table>
+  <Table>
+    <control_name>c594</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>label139</control_name>
+    <text>G89. Nhóm bác sĩ</text>
+    <vie>G89. Nhóm bác sĩ</vie>
+  </Table>
+  <Table>
+    <control_name>label140</control_name>
+    <text>Những mã tỉnh ngoài trong qui định :</text>
+    <vie>Những mã tỉnh ngoài trong qui định :</vie>
+  </Table>
+  <Table>
+    <control_name>label141</control_name>
+    <text>2 kí tự chữ qui định của BHYT :</text>
+    <vie>2 kí tự chữ qui định của BHYT :</vie>
+  </Table>
+  <Table>
+    <control_name>txtmatinh</control_name>
+    <text />
+    <vie>00~03~05~07~09~13~16~18~21~23~28~29~32~39~41~43~47~50~53~55~57~59~61~63~65~69~71~73~76~78~81~85~88~90~98</vie>
+  </Table>
+  <Table>
+    <control_name>txtkituchu</control_name>
+    <text />
+    <vie>DN~HX~CH~NN~TK~HC~XK~CA~HT~TB~MS~XB~XN~TN~CC~CK~CB~KC~HD~BT~HN~TC~TQ~TA~TY~TE~HG~LS~CN~HS~GD~TL~XV~NO</vie>
+  </Table>
+  <Table>
+    <control_name>c997</control_name>
+    <text>E28. Kiểm tra tính hợp lệ của thẻ dựa vào 5 kí tự đầu theo qui định của BHYT</text>
+    <vie>E28. Kiểm tra tính hợp lệ của thẻ dựa vào 5 kí tự đầu theo qui định của BHYT</vie>
+  </Table>
+  <Table>
+    <control_name>c445</control_name>
+    <text>F42. Quản lý thuốc mổ</text>
+    <vie>F42. Quản lý thuốc mổ</vie>
+  </Table>
+  <Table>
+    <control_name>c595</control_name>
+    <text>G90. Làm tròn đơn giá toa thuốc mua ngoài</text>
+    <vie>G90. Làm tròn đơn giá đối với đối tượng khác BHYT</vie>
+  </Table>
+  <Table>
+    <control_name>c1101</control_name>
+    <text>H25 - In số thứ tự thực hiện CLS theo loại viện phí</text>
+    <vie>H25 - In số thứ tự thực hiện CLS theo loại viện phí</vie>
+  </Table>
+  <Table>
+    <control_name>c1099</control_name>
+    <text>C70 - Thông báo số lưu trữ khi xuất khoa</text>
+    <vie>F43 - Hoàn trả hao phí chỉ lấy số liệu dự trù</vie>
+  </Table>
+  <Table>
+    <control_name>c1100</control_name>
+    <text>F43. Đơn thuốc dịch vụ được phép cấp nhiều lần trong ngày</text>
+    <vie>F43. Đơn thuốc dịch vụ được phép cấp nhiều lần trong ngày</vie>
+  </Table>
+  <Table>
+    <control_name>c1102</control_name>
+    <text>J10. Tính tiền giường tự động theo bảng giá của BHYT</text>
+    <vie>J10. Tính tiền giường tự động theo bảng giá của BHYT</vie>
+  </Table>
+  <Table>
+    <control_name>c1103</control_name>
+    <text>J10.1 Nếu ngày phẫu thuật hoặc ngày sanh trừ ngày vào khoa &lt;1 thì không tính</text>
+    <vie>J10.1 Nếu ngày phẫu thuật hoặc ngày sanh trừ ngày vào khoa &lt;1 thì không tính</vie>
+  </Table>
+  <Table>
+    <control_name>rbcaptheotv</control_name>
+    <text>Cấp theo toàn viện</text>
+    <vie>Cấp theo toàn viện</vie>
+  </Table>
+  <Table>
+    <control_name>rbcaptheokhoa</control_name>
+    <text>Cấp theo khoa</text>
+    <vie>Cấp theo khoa</vie>
+  </Table>
+  <Table>
+    <control_name>checkBox2</control_name>
+    <text>checkBox2</text>
+    <vie>checkBox2</vie>
+  </Table>
+  <Table>
+    <control_name>checkBox1</control_name>
+    <text>checkBox1</text>
+    <vie>checkBox1</vie>
+  </Table>
+  <Table>
+    <control_name>c446</control_name>
+    <text>G91. Áp dụng công thức tính chênh lệch công khám</text>
+    <vie>G91. Áp dụng công thức tính chênh lệch</vie>
+  </Table>
+  <Table>
+    <control_name>c62</control_name>
+    <text>E19 Bệnh nhân khác tỉnh tính trái tuyến tử phòng khám thứ 2</text>
+    <vie>E30. Bệnh nhân khác tỉnh tính trái tuyến tử phòng khám thứ 2</vie>
+  </Table>
+  <Table>
+    <control_name>c1502</control_name>
+    <text>G92. BN trái tuyến BHYT không chi trả(Theo qui định BHYT dành cho BV tư nhân từ ngày 15/02/2012)</text>
+    <vie>G92. Áp dụng quản lý trái tuyến theo luật BHYT dành cho tư nhân bắt đầu từ ngày 15/02/2012</vie>
+  </Table>
+  <Table>
+    <control_name>C1503</control_name>
+    <text>F31.1 Chỉ áp dụng cho toa dược phát.</text>
+    <vie>F31.1 Chỉ áp dụng cho toa dược phát.</vie>
+  </Table>
+  <Table>
+    <control_name>c1104</control_name>
+    <text>C71 - Phát quà thôi nôi khi xuất khoa</text>
+    <vie>C71 - Phát quà khi xuất khoa</vie>
+  </Table>
+  <Table>
+    <control_name>c1504</control_name>
+    <text>I10 - Ngoại trú được phép nhập phẩu thuật.</text>
+    <vie>I10 - Ngoại trú được phép nhập phẩu thuật.</vie>
+  </Table>
+  <Table>
+    <control_name>c1505</control_name>
+    <text>H26 - Chuyển CLS và thông tin người bệnh sang chi nhánh khác</text>
+    <vie>H26 - Chuyển CLS và thông tin người bệnh sang chi nhánh khác</vie>
+  </Table>
+  <Table>
+    <control_name>label149</control_name>
+    <text>E33. Các đối tượng còn lại hưởng              % nhưng không quá :</text>
+    <vie>E33. Các đối tượng còn lại hưởng              % nhưng không quá :</vie>
+  </Table>
+  <Table>
+    <control_name>c1141</control_name>
+    <text>BT4+HN4+HT5</text>
+    <vie>BT4+HN4+HT5</vie>
+  </Table>
+  <Table>
+    <control_name>label147</control_name>
+    <text>E32. Đối tượng hưởng 95%:</text>
+    <vie>E32. Đối tượng hưởng 95%:</vie>
+  </Table>
+  <Table>
+    <control_name>label148</control_name>
+    <text>không quá:</text>
+    <vie>không quá:</vie>
+  </Table>
+  <Table>
+    <control_name>c1140</control_name>
+    <text>20000000</text>
+    <vie>20000000</vie>
+  </Table>
+  <Table>
+    <control_name>c1139</control_name>
+    <text>CA3+HT2+CK2</text>
+    <vie>CA3+HT2+CK2</vie>
+  </Table>
+  <Table>
+    <control_name>label145</control_name>
+    <text>E31. Đối tượng hưởng 100%:</text>
+    <vie>E31. Đối tượng hưởng 100%:</vie>
+  </Table>
+  <Table>
+    <control_name>c1138</control_name>
+    <text>TE1+CC1</text>
+    <vie>TE1+CC1</vie>
+  </Table>
+  <Table>
+    <control_name>label144</control_name>
+    <text>E30. Đối tượng hưởng 100%:</text>
+    <vie>E30. Đối tượng hưởng 100%:</vie>
+  </Table>
+  <Table>
+    <control_name>c1137</control_name>
+    <text>E29. Tính tiền theo từng dịch vụ</text>
+    <vie>E29. Tính tiền theo từng dịch vụ</vie>
+  </Table>
+  <Table>
+    <control_name>label143</control_name>
+    <text>DỊCH VỤ KỸ THUẬT CAO, CHI PHÍ LỚN:</text>
+    <vie>DỊCH VỤ KỸ THUẬT CAO, CHI PHÍ LỚN:</vie>
+  </Table>
+  <Table>
+    <control_name>label142</control_name>
+    <text>DỊCH VỤ KỸ THUẬT CAO CHI PHÍ LỚN THEO TT03 VÀ QĐ36</text>
+    <vie>DỊCH VỤ KỸ THUẬT CAO CHI PHÍ LỚN THEO TT03 VÀ QĐ36</vie>
+  </Table>
+  <Table>
+    <control_name>label146</control_name>
+    <text>không quá:</text>
+    <vie>không quá:</vie>
+  </Table>
+  <Table>
+    <control_name>label150</control_name>
+    <text>Áp dụng cho những bệnh nhân vào viện kể từ ngày</text>
+    <vie>Áp dụng cho những bệnh nhân vào viện kể từ ngày</vie>
+  </Table>
+  <Table>
+    <control_name>txtNgayBenhNhanThongTuLienTich</control_name>
+    <text>/  /</text>
+    <vie>/  /</vie>
+  </Table>
+  <Table>
+    <control_name>cboNgayGiaVienPhiThongTuLienTich</control_name>
+    <text />
+    <vie />
+  </Table>
+  <Table>
+    <control_name>label151</control_name>
+    <text>Sử dụng bảng giá ngày</text>
+    <vie>Sử dụng bảng giá ngày</vie>
+  </Table>
+  <Table>
+    <control_name>chkApDungThongTuLienTich15042012</control_name>
+    <text>G93. Áp dụng thông tư liên tịch ngày 15/04/2012</text>
+    <vie>G93. Áp dụng thông tư liên tịch ngày 15/04/2012</vie>
+  </Table>
+  <Table>
+    <control_name>c1105</control_name>
+    <text>G94 - Chi phí vượt tạm ứng không cho chỉ định</text>
+    <vie>C72 - Chi phí vượt tạm ứng không cho chỉ định</vie>
+  </Table>
+  <Table>
+    <control_name>c1506</control_name>
+    <text>C73 - Không cho phép sửa chẩn đoán lúc in giấy chuyển viện.</text>
+    <vie>C73 - Không cho phép sửa chẩn đoán lúc in giấy chuyển viện.</vie>
+  </Table>
+  <Table>
+    <control_name>c1507</control_name>
+    <text>C74 - Lấy chẩn đoán theo khoa cuối trong phiếu thanh toán ra viện</text>
+    <vie>C74 - Lấy chẩn đoán theo khoa cuối trong phiếu thanh toán ra viện</vie>
+  </Table>
+  <Table>
+    <control_name>c1508</control_name>
+    <text>C75 - Quản lí nhân viên sale</text>
+    <vie>C75 - Quản lí nhân viên sale</vie>
+  </Table>
+  <Table>
+    <control_name>c1509</control_name>
+    <text>C76 - Từ chối nhập viện nếu chưa thanh toán viện phí</text>
+    <vie>C76 - Từ chối nhập viện nếu chưa thanh toán viện phí</vie>
+  </Table>
+  <Table>
+    <control_name>C1000</control_name>
+    <text>1</text>
+    <vie>1</vie>
+  </Table>
+  <Table>
+    <control_name>label152</control_name>
+    <text>A31. Số quầy tiếp đón:</text>
+    <vie>A31. Số quầy tiếp đón:</vie>
+  </Table>
+  <Table>
+    <control_name>c1510</control_name>
+    <text>24</text>
+    <vie>24</vie>
+  </Table>
+  <Table>
+    <control_name>label154</control_name>
+    <text>tháng tuổi hiển thị số tháng tuổi</text>
+    <vie>tháng tuổi hiển thị số tháng tuổi</vie>
+  </Table>
+  <Table>
+    <control_name>label153</control_name>
+    <text>A32. Bệnh nhân &lt;</text>
+    <vie>A32. Bệnh nhân &lt;</vie>
+  </Table>
+  <Table>
+    <control_name>c1511</control_name>
+    <text>C77 - Không cho phép đăng kí nếu chưa hết ngày thuốc BHYT</text>
+    <vie>C77 - Không cho phép đăng kí nếu chưa hết ngày thuốc BHYT</vie>
+  </Table>
+  <Table>
+    <control_name>c1512</control_name>
+    <text>F44. Đơn thuốc F5 trừ tồn kho (F09)</text>
+    <vie>F44. Đơn thuốc F5 trừ tồn kho (F09)</vie>
+  </Table>
+  <Table>
+    <control_name>c1513</control_name>
+    <text>C78 - Xuất thuốc tủ trực theo gói không cho phép sửa</text>
+    <vie>C78 - Xuất thuốc tủ trực theo gói không cho phép sửa</vie>
+  </Table>
+  <Table>
+    <control_name>c1600</control_name>
+    <text>B18. BHYT dùng QA code khi đăng ký</text>
+    <vie>B18. BHYT dùng QA code khi đăng ký</vie>
+  </Table>
+  <Table>
+    <control_name>c1260</control_name>
+    <text>F45. Cấp toa lọc theo danh mục phân loại</text>
+    <vie>F45. Cấp toa lọc theo danh mục phân loại</vie>
+  </Table>
+  <Table>
+    <control_name>c1261</control_name>
+    <text>H27. Chi phí vượt tạm ứng không cho thực hiện CLS</text>
+    <vie>H27. Chi phí vượt tạm ứng không cho thực hiện CLS</vie>
+  </Table>
+  <Table>
+    <control_name>c1142</control_name>
+    <text>E34. BN đã in mẫu 01, trong ngày không cho đăng ký lại</text>
+  </Table>
+  <Table>
+    <control_name>c50034</control_name>
+    <text>E34. BN đã in mẫu 01, trong ngày không cho đăng ký lại</text>
+    <vie>E34. BN đã in mẫu 01, trong ngày không cho đăng ký lại</vie>
+  </Table>
+</NewDataSet>

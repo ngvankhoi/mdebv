@@ -1,0 +1,71 @@
+<?xml version="1.0" standalone="yes" ?>
+<NewDataSet>
+	<xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xs:element name="NewDataSet" msdata:IsDataSet="true">
+			<xs:complexType>
+				<xs:choice maxOccurs="unbounded">
+					<xs:element name="Table">
+						<xs:complexType>
+							<xs:sequence>
+								<xs:element name="text" type="xs:string" minOccurs="0" />
+								<xs:element name="tag" type="xs:string" minOccurs="0" />
+							</xs:sequence>
+						</xs:complexType>
+					</xs:element>
+				</xs:choice>
+			</xs:complexType>
+		</xs:element>
+	</xs:schema>
+	<Table>
+		<text>Chung</text>
+		<tag>p01</tag>
+	</Table>
+	<Table>
+		<text>Hành chánh</text>
+		<tag>p02</tag>
+	</Table>
+	<Table>
+		<text>Chuyên môn</text>
+		<tag>p03</tag>
+	</Table>
+	<Table>
+		<text>Mã số - Tự động</text>
+		<tag>p04</tag>
+	</Table>
+	<Table>
+		<text>Đối tượng</text>
+		<tag>p05</tag>
+	</Table>
+	<Table>
+		<text>Dược</text>
+		<tag>p06</tag>
+	</Table>
+	<Table>
+		<text>Viện phí</text>
+		<tag>p07</tag>
+	</Table>
+	<Table>
+		<text>CLS</text>
+		<tag>p08</tag>
+	</Table>
+	<Table>
+		<text>Phẫu thủ thuật</text>
+		<tag>p09</tag>
+	</Table>
+	<Table>
+		<text>Phòng giường</text>
+		<tag>p10</tag>
+	</Table>
+	<Table>
+		<text>Bảng điện</text>
+		<tag>p11</tag>
+	</Table>
+	<Table>
+		<text>Khác</text>
+		<tag>p12</tag>
+	</Table>
+  <Table>
+    <text>Khám sức khỏe</text>
+    <tag>p13</tag>
+  </Table>
+</NewDataSet>

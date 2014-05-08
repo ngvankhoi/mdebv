@@ -1,0 +1,200 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="mabn" type="xs:string" minOccurs="0" />
+                <xs:element name="hoten" type="xs:string" minOccurs="0" />
+                <xs:element name="namsinh" type="xs:string" minOccurs="0" />
+                <xs:element name="phai" type="xs:string" minOccurs="0" />
+                <xs:element name="tennn" type="xs:string" minOccurs="0" />
+                <xs:element name="diachi" type="xs:string" minOccurs="0" />
+                <xs:element name="mabn1" type="xs:string" minOccurs="0" />
+                <xs:element name="maql" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ngay" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="lydo" type="xs:string" minOccurs="0" />
+                <xs:element name="benhsu" type="xs:string" minOccurs="0" />
+                <xs:element name="chandoan" type="xs:string" minOccurs="0" />
+                <xs:element name="ngoaichan" type="xs:string" minOccurs="0" />
+                <xs:element name="lamsang" type="xs:string" minOccurs="0" />
+                <xs:element name="sinhthiet" type="xs:string" minOccurs="0" />
+                <xs:element name="dieutri" type="xs:string" minOccurs="0" />
+                <xs:element name="dienbien" type="xs:string" minOccurs="0" />
+                <xs:element name="tinhthan" type="xs:string" minOccurs="0" />
+                <xs:element name="chetngay" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="comat" type="xs:string" minOccurs="0" />
+                <xs:element name="nguyennhan" type="xs:string" minOccurs="0" />
+                <xs:element name="chandoant" type="xs:string" minOccurs="0" />
+                <xs:element name="chandoangpb" type="xs:string" minOccurs="0" />
+                <xs:element name="kiendiem" type="xs:string" minOccurs="0" />
+                <xs:element name="chutoa" type="xs:string" minOccurs="0" />
+                <xs:element name="thuky" type="xs:string" minOccurs="0" />
+                <xs:element name="khth" type="xs:string" minOccurs="0" />
+                <xs:element name="userid" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ngayud" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="chucvu" type="xs:string" minOccurs="0" />
+                <xs:element name="tennv" type="xs:string" minOccurs="0" />
+                <xs:element name="chutoa1" type="xs:string" minOccurs="0" />
+                <xs:element name="thuky1" type="xs:string" minOccurs="0" />
+                <xs:element name="khth1" type="xs:string" minOccurs="0" />
+                <xs:element name="stt" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <mabn>08021394</mabn>
+    <hoten>NGUYỄN THANH ĐÔNG</hoten>
+    <namsinh>1978</namsinh>
+    <phai>Nữ</phai>
+    <tennn>Công nhân</tennn>
+    <diachi>  P. Phước Hưng,TX. Bà Rịa,Bà Rịa - Vũng Tàu</diachi>
+    <mabn1>08021394</mabn1>
+    <maql>80507120650396178</maql>
+    <ngay>0012-10-28T12:06:00+07:00</ngay>
+    <lydo>sdfsdfjskfjksljfklsjfl</lydo>
+    <benhsu>akljfklajfklajkfljasf</benhsu>
+    <chandoan>Bệnh thương hàn và phó thương hàn</chandoan>
+    <ngoaichan />
+    <lamsang>klajfkjasklfjakljfakljf</lamsang>
+    <sinhthiet />
+    <dieutri>klasjfklajkfljaklfjaklsdfj</dieutri>
+    <dienbien>klajsfklajsfkljaklsfdjdkaslf</dienbien>
+    <tinhthan>kasjdfklajsdfklajsfdkl</tinhthan>
+    <chetngay>0018-10-29T16:23:00+07:00</chetngay>
+    <comat>klasjdfkljasklfjaklsfj</comat>
+    <nguyennhan>askldjfklasjf</nguyennhan>
+    <chandoant>Bệnh khác của mí mắt</chandoant>
+    <chandoangpb>U nang lông</chandoangpb>
+    <kiendiem>salfjasfjkalsjfklajsf</kiendiem>
+    <chutoa>0006</chutoa>
+    <thuky>0010</thuky>
+    <khth>0021</khth>
+    <userid>1</userid>
+    <ngayud>2008-05-13T16:22:18.470897+07:00</ngayud>
+    <chucvu>Giám đốc bệnh viện</chucvu>
+    <tennv>Nguyễn Hoàng Lân</tennv>
+    <chutoa1>Nguyễn Văn Hoan</chutoa1>
+    <thuky1>Nguyễn Phi Ngọ</thuky1>
+    <khth1>Nguyễn Hữu Thọ</khth1>
+    <stt>1</stt>
+  </Table>
+  <Table>
+    <mabn>08021394</mabn>
+    <hoten>NGUYỄN THANH ĐÔNG</hoten>
+    <namsinh>1978</namsinh>
+    <phai>Nữ</phai>
+    <tennn>Công nhân</tennn>
+    <diachi>  P. Phước Hưng,TX. Bà Rịa,Bà Rịa - Vũng Tàu</diachi>
+    <mabn1>08021394</mabn1>
+    <maql>80507120650396178</maql>
+    <ngay>0012-10-28T12:06:00+07:00</ngay>
+    <lydo>sdfsdfjskfjksljfklsjfl</lydo>
+    <benhsu>akljfklajfklajkfljasf</benhsu>
+    <chandoan>Bệnh thương hàn và phó thương hàn</chandoan>
+    <ngoaichan />
+    <lamsang>klajfkjasklfjakljfakljf</lamsang>
+    <sinhthiet />
+    <dieutri>klasjfklajkfljaklfjaklsdfj</dieutri>
+    <dienbien>klajsfklajsfkljaklsfdjdkaslf</dienbien>
+    <tinhthan>kasjdfklajsdfklajsfdkl</tinhthan>
+    <chetngay>0018-10-29T16:23:00+07:00</chetngay>
+    <comat>klasjdfkljasklfjaklsfj</comat>
+    <nguyennhan>askldjfklasjf</nguyennhan>
+    <chandoant>Bệnh khác của mí mắt</chandoant>
+    <chandoangpb>U nang lông</chandoangpb>
+    <kiendiem>salfjasfjkalsjfklajsf</kiendiem>
+    <chutoa>0006</chutoa>
+    <thuky>0010</thuky>
+    <khth>0021</khth>
+    <userid>1</userid>
+    <ngayud>2008-05-13T16:22:18.470897+07:00</ngayud>
+    <chucvu>hjsdhfjshfjkshdf</chucvu>
+    <tennv>Phạm Duy Toàn</tennv>
+    <chutoa1>Nguyễn Văn Hoan</chutoa1>
+    <thuky1>Nguyễn Phi Ngọ</thuky1>
+    <khth1>Nguyễn Hữu Thọ</khth1>
+    <stt>4</stt>
+  </Table>
+  <Table>
+    <mabn>08021394</mabn>
+    <hoten>NGUYỄN THANH ĐÔNG</hoten>
+    <namsinh>1978</namsinh>
+    <phai>Nữ</phai>
+    <tennn>Công nhân</tennn>
+    <diachi>  P. Phước Hưng,TX. Bà Rịa,Bà Rịa - Vũng Tàu</diachi>
+    <mabn1>08021394</mabn1>
+    <maql>80507120650396178</maql>
+    <ngay>0012-10-28T12:06:00+07:00</ngay>
+    <lydo>sdfsdfjskfjksljfklsjfl</lydo>
+    <benhsu>akljfklajfklajkfljasf</benhsu>
+    <chandoan>Bệnh thương hàn và phó thương hàn</chandoan>
+    <ngoaichan />
+    <lamsang>klajfkjasklfjakljfakljf</lamsang>
+    <sinhthiet />
+    <dieutri>klasjfklajkfljaklfjaklsdfj</dieutri>
+    <dienbien>klajsfklajsfkljaklsfdjdkaslf</dienbien>
+    <tinhthan>kasjdfklajsdfklajsfdkl</tinhthan>
+    <chetngay>0018-10-29T16:23:00+07:00</chetngay>
+    <comat>klasjdfkljasklfjaklsfj</comat>
+    <nguyennhan>askldjfklasjf</nguyennhan>
+    <chandoant>Bệnh khác của mí mắt</chandoant>
+    <chandoangpb>U nang lông</chandoangpb>
+    <kiendiem>salfjasfjkalsjfklajsf</kiendiem>
+    <chutoa>0006</chutoa>
+    <thuky>0010</thuky>
+    <khth>0021</khth>
+    <userid>1</userid>
+    <ngayud>2008-05-13T16:22:18.470897+07:00</ngayud>
+    <chucvu>Nhân viên Khám nghiệm tử thi</chucvu>
+    <tennv>Trần Đình Phú</tennv>
+    <chutoa1>Nguyễn Văn Hoan</chutoa1>
+    <thuky1>Nguyễn Phi Ngọ</thuky1>
+    <khth1>Nguyễn Hữu Thọ</khth1>
+    <stt>3</stt>
+  </Table>
+  <Table>
+    <mabn>08021394</mabn>
+    <hoten>NGUYỄN THANH ĐÔNG</hoten>
+    <namsinh>1978</namsinh>
+    <phai>Nữ</phai>
+    <tennn>Công nhân</tennn>
+    <diachi>  P. Phước Hưng,TX. Bà Rịa,Bà Rịa - Vũng Tàu</diachi>
+    <mabn1>08021394</mabn1>
+    <maql>80507120650396178</maql>
+    <ngay>0012-10-28T12:06:00+07:00</ngay>
+    <lydo>sdfsdfjskfjksljfklsjfl</lydo>
+    <benhsu>akljfklajfklajkfljasf</benhsu>
+    <chandoan>Bệnh thương hàn và phó thương hàn</chandoan>
+    <ngoaichan />
+    <lamsang>klajfkjasklfjakljfakljf</lamsang>
+    <sinhthiet />
+    <dieutri>klasjfklajkfljaklfjaklsdfj</dieutri>
+    <dienbien>klajsfklajsfkljaklsfdjdkaslf</dienbien>
+    <tinhthan>kasjdfklajsdfklajsfdkl</tinhthan>
+    <chetngay>0018-10-29T16:23:00+07:00</chetngay>
+    <comat>klasjdfkljasklfjaklsfj</comat>
+    <nguyennhan>askldjfklasjf</nguyennhan>
+    <chandoant>Bệnh khác của mí mắt</chandoant>
+    <chandoangpb>U nang lông</chandoangpb>
+    <kiendiem>salfjasfjkalsjfklajsf</kiendiem>
+    <chutoa>0006</chutoa>
+    <thuky>0010</thuky>
+    <khth>0021</khth>
+    <userid>1</userid>
+    <ngayud>2008-05-13T16:22:18.470897+07:00</ngayud>
+    <chucvu>Trưởng phòng KHTH</chucvu>
+    <tennv>Nguyễn Hữu Thọ</tennv>
+    <chutoa1>Nguyễn Văn Hoan</chutoa1>
+    <thuky1>Nguyễn Phi Ngọ</thuky1>
+    <khth1>Nguyễn Hữu Thọ</khth1>
+    <stt>2</stt>
+  </Table>
+</NewDataSet>

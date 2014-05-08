@@ -1,0 +1,75 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Hosobenhan">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="stt" type="xs:decimal" minOccurs="0" />
+                <xs:element name="soluutru" type="xs:string" minOccurs="0" />
+                <xs:element name="mabn" type="xs:string" minOccurs="0" />
+                <xs:element name="benhan" type="xs:string" minOccurs="0" />
+                <xs:element name="hoten" type="xs:string" minOccurs="0" />
+                <xs:element name="nam" type="xs:string" minOccurs="0" />
+                <xs:element name="nu" type="xs:string" minOccurs="0" />
+                <xs:element name="CVC" type="xs:string" minOccurs="0" />
+                <xs:element name="bhyt" type="xs:string" minOccurs="0" />
+                <xs:element name="Thanhthi" type="xs:string" minOccurs="0" />
+                <xs:element name="Nongthon" type="xs:string" minOccurs="0" />
+                <xs:element name="TEduoi12" type="xs:string" minOccurs="0" />
+                <xs:element name="TE1-15" type="xs:string" minOccurs="0" />
+                <xs:element name="nghenghiep" type="xs:string" minOccurs="0" />
+                <xs:element name="diachi" type="xs:string" minOccurs="0" />
+                <xs:element name="noigioithieu" type="xs:string" minOccurs="0" />
+                <xs:element name="vaovien" type="xs:string" minOccurs="0" />
+                <xs:element name="Chuyenvien" type="xs:string" minOccurs="0" />
+                <xs:element name="ravien" type="xs:string" minOccurs="0" />
+                <xs:element name="CDGioithieu" type="xs:string" minOccurs="0" />
+                <xs:element name="CDvao" type="xs:string" minOccurs="0" />
+                <xs:element name="CDRA" type="xs:string" minOccurs="0" />
+                <xs:element name="dienthoai" type="xs:string" minOccurs="0" />
+                <xs:element name="kq_1" type="xs:string" minOccurs="0" />
+                <xs:element name="kq_2" type="xs:string" minOccurs="0" />
+                <xs:element name="kq_3" type="xs:string" minOccurs="0" />
+                <xs:element name="kq_4" type="xs:string" minOccurs="0" />
+                <xs:element name="kq_5" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Hosobenhan>
+    <stt>6</stt>
+    <soluutru>11888888</soluutru>
+    <mabn>11888888</mabn>
+    <benhan>Bệnh án phụ khoa</benhan>
+    <hoten>VÕ THỊ GÁI TƯ</hoten>
+    <nam />
+    <nu>1986</nu>
+    <CVC />
+    <bhyt>X</bhyt>
+    <Thanhthi />
+    <Nongthon>X</Nongthon>
+    <TEduoi12 />
+    <TE1-15 />
+    <nghenghiep>Nông dân</nghenghiep>
+    <diachi>  An Phú,H. Củ Chi,Tp. H C M</diachi>
+    <noigioithieu />
+    <vaovien>10/12/2011 11:00</vaovien>
+    <Chuyenvien />
+    <ravien>13/12/2011 12:00</ravien>
+    <CDGioithieu />
+    <CDvao>Tăng huyết áp có sẵn gây biến chứng cho thai nghén, cuộc đẻ và sau khi đẻ</CDvao>
+    <CDRA>Tăng huyết áp có sẵn gây biến chứng cho thai nghén, cuộc đẻ và sau khi đẻ</CDRA>
+    <dienthoai />
+    <kq_1>X</kq_1>
+    <kq_2 />
+    <kq_3 />
+    <kq_4 />
+    <kq_5 />
+  </Hosobenhan>
+</NewDataSet>

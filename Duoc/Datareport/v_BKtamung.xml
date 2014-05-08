@@ -1,0 +1,1581 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="id" type="xs:decimal" minOccurs="0" />
+                <xs:element name="mabn" type="xs:string" minOccurs="0" />
+                <xs:element name="mavaovien" type="xs:decimal" minOccurs="0" />
+                <xs:element name="maql" type="xs:decimal" minOccurs="0" />
+                <xs:element name="loai" type="xs:decimal" minOccurs="0" />
+                <xs:element name="loaibn" type="xs:decimal" minOccurs="0" />
+                <xs:element name="hoten" type="xs:string" minOccurs="0" />
+                <xs:element name="namsinh" type="xs:string" minOccurs="0" />
+                <xs:element name="diachi" type="xs:string" minOccurs="0" />
+                <xs:element name="tentt" type="xs:string" minOccurs="0" />
+                <xs:element name="tenquan" type="xs:string" minOccurs="0" />
+                <xs:element name="tenpxa" type="xs:string" minOccurs="0" />
+                <xs:element name="madoituong" type="xs:decimal" minOccurs="0" />
+                <xs:element name="doituong" type="xs:string" minOccurs="0" />
+                <xs:element name="makp" type="xs:string" minOccurs="0" />
+                <xs:element name="tenkp" type="xs:string" minOccurs="0" />
+                <xs:element name="viettat" type="xs:string" minOccurs="0" />
+                <xs:element name="ngay" type="xs:string" minOccurs="0" />
+                <xs:element name="sotien" type="xs:decimal" minOccurs="0" />
+                <xs:element name="user_hoten" type="xs:string" minOccurs="0" />
+                <xs:element name="user_username" type="xs:string" minOccurs="0" />
+                <xs:element name="userid" type="xs:decimal" minOccurs="0" />
+                <xs:element name="quyenso" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sobienlai" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sohieu" type="xs:string" minOccurs="0" />
+                <xs:element name="sohieubl" type="xs:string" minOccurs="0" />
+                <xs:element name="hoan" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <id>101119182513213017</id>
+    <mabn>10035546</mabn>
+    <mavaovien>101119102655138001</mavaovien>
+    <maql>101119111725539140</maql>
+    <loai>1</loai>
+    <loaibn>1</loaibn>
+    <hoten>NGUYỄN THỊ NŨA</hoten>
+    <namsinh>1964</namsinh>
+    <diachi>Bờ Dâu/</diachi>
+    <tentt>An Giang</tentt>
+    <tenquan>Huyện Châu Phú</tenquan>
+    <tenpxa>Xã Thạnh Mỹ Tây</tenpxa>
+    <madoituong>1</madoituong>
+    <doituong>BHYT</doituong>
+    <makp>02</makp>
+    <tenkp>Nội</tenkp>
+    <viettat>02</viettat>
+    <ngay>20/11/2010</ngay>
+    <sotien>1000000.0000</sotien>
+    <user_hoten>Nguyễn Thanh Quang</user_hoten>
+    <user_username>quang</user_username>
+    <userid>7</userid>
+    <quyenso>73</quyenso>
+    <sobienlai>70</sobienlai>
+    <sohieu>VP11.A1/10</sohieu>
+    <sohieubl>VP11.A1/10</sohieubl>
+    <hoan>0</hoan>
+  </Table>
+  <Table>
+    <id>101119190615036017</id>
+    <mabn>10035545</mabn>
+    <mavaovien>101119155453015011</mavaovien>
+    <maql>101119155858211012</maql>
+    <loai>1</loai>
+    <loaibn>1</loaibn>
+    <hoten>HÂY</hoten>
+    <namsinh>2003</namsinh>
+    <diachi>Cambodia</diachi>
+    <tentt>.</tentt>
+    <tenquan>Không Xác Định</tenquan>
+    <tenpxa>Không Xác Định</tenpxa>
+    <madoituong>2</madoituong>
+    <doituong>Thu phí</doituong>
+    <makp>05</makp>
+    <tenkp>Nhi</tenkp>
+    <viettat>05</viettat>
+    <ngay>20/11/2010</ngay>
+    <sotien>700000.0000</sotien>
+    <user_hoten>Nguyễn Thanh Quang</user_hoten>
+    <user_username>quang</user_username>
+    <userid>7</userid>
+    <quyenso>73</quyenso>
+    <sobienlai>72</sobienlai>
+    <sohieu>VP11.A1/10</sohieu>
+    <sohieubl>VP11.A1/10</sohieubl>
+    <hoan>0</hoan>
+  </Table>
+  <Table>
+    <id>101119223921211017</id>
+    <mabn>10035569</mabn>
+    <mavaovien>101119214619902011</mavaovien>
+    <maql>101119222653577018</maql>
+    <loai>1</loai>
+    <loaibn>1</loaibn>
+    <hoten>TRẦN THỊ PHẤN</hoten>
+    <namsinh>1946</namsinh>
+    <diachi>Sơn Đông/</diachi>
+    <tentt>An Giang</tentt>
+    <tenquan>Huyện Tịnh Biên</tenquan>
+    <tenpxa>Thị trấn Nhà Bàng</tenpxa>
+    <madoituong>2</madoituong>
+    <doituong>Thu phí</doituong>
+    <makp>03</makp>
+    <tenkp>Ngoại</tenkp>
+    <viettat>03</viettat>
+    <ngay>20/11/2010</ngay>
+    <sotien>500000.0000</sotien>
+    <user_hoten>Nguyễn Thanh Quang</user_hoten>
+    <user_username>quang</user_username>
+    <userid>7</userid>
+    <quyenso>73</quyenso>
+    <sobienlai>82</sobienlai>
+    <sohieu>VP11.A1/10</sohieu>
+    <sohieubl>VP11.A1/10</sohieubl>
+    <hoan>0</hoan>
+  </Table>
+  <Table>
+    <id>101120034503184017</id>
+    <mabn>07013076</mabn>
+    <mavaovien>101120030524985011</mavaovien>
+    <maql>101120031741836028</maql>
+    <loai>1</loai>
+    <loaibn>1</loaibn>
+    <hoten>TRƯƠNG NGỌC HUYỀN</hoten>
+    <namsinh>1985</namsinh>
+    <diachi>Vĩnh Bình</diachi>
+    <tentt>An Giang</tentt>
+    <tenquan>Huyện An Phú</tenquan>
+    <tenpxa>Xã Vĩnh Trường</tenpxa>
+    <madoituong>1</madoituong>
+    <doituong>BHYT</doituong>
+    <makp>08</makp>
+    <tenkp>Phòng Sanh</tenkp>
+    <viettat>08</viettat>
+    <ngay>20/11/2010</ngay>
+    <sotien>2000000.0000</sotien>
+    <user_hoten>Nguyễn Thanh Quang</user_hoten>
+    <user_username>quang</user_username>
+    <userid>7</userid>
+    <quyenso>73</quyenso>
+    <sobienlai>89</sobienlai>
+    <sohieu>VP11.A1/10</sohieu>
+    <sohieubl>VP11.A1/10</sohieubl>
+    <hoan>0</hoan>
+  </Table>
+  <Table>
+    <id>101120070137555017</id>
+    <mabn>10035535</mabn>
+    <mavaovien>101119092020976001</mavaovien>
+    <maql>101119093217172105</maql>
+    <loai>1</loai>
+    <loaibn>1</loaibn>
+    <hoten>NGUYỄN THỊ TẤN</hoten>
+    <namsinh>1939</namsinh>
+    <diachi>Long Thị B/</diachi>
+    <tentt>An Giang</tentt>
+    <tenquan>Thị xã Tân Châu</tenquan>
+    <tenpxa>Phường Long Hưng</tenpxa>
+    <madoituong>2</madoituong>
+    <doituong>Thu phí</doituong>
+    <makp>07</makp>
+    <tenkp>Hồi Sức Cấp Cứu</tenkp>
+    <viettat>07</viettat>
+    <ngay>20/11/2010</ngay>
+    <sotien>1000000.0000</sotien>
+    <user_hoten>Nguyễn Thanh Quang</user_hoten>
+    <user_username>quang</user_username>
+    <userid>7</userid>
+    <quyenso>73</quyenso>
+    <sobienlai>91</sobienlai>
+    <sohieu>VP11.A1/10</sohieu>
+    <sohieubl>VP11.A1/10</sohieubl>
+    <hoan>0</hoan>
+  </Table>
+  <Table>
+    <id>101120070455176017</id>
+    <mabn>10035574</mabn>
+    <mavaovien>101120002616768011</mavaovien>
+    <maql>101120004414452015</maql>
+    <loai>1</loai>
+    <loaibn>1</loaibn>
+    <hoten>DUNG SMAU</hoten>
+    <namsinh>1971</namsinh>
+    <diachi>Cpc</diachi>
+    <tentt>..</tentt>
+    <tenquan>Không xác định</tenquan>
+    <tenpxa>Không xác định</tenpxa>
+    <madoituong>2</madoituong>
+    <doituong>Thu phí</doituong>
+    <makp>02</makp>
+    <tenkp>Nội</tenkp>
+    <viettat>02</viettat>
+    <ngay>20/11/2010</ngay>
+    <sotien>1000000.0000</sotien>
+    <user_hoten>Nguyễn Thanh Quang</user_hoten>
+    <user_username>quang</user_username>
+    <userid>7</userid>
+    <quyenso>73</quyenso>
+    <sobienlai>95</sobienlai>
+    <sohieu>VP11.A1/10</sohieu>
+    <sohieubl>VP11.A1/10</sohieubl>
+    <hoan>0</hoan>
+  </Table>
+  <Table>
+    <id>101120073153354017</id>
+    <mabn>10034989</mabn>
+    <mavaovien>101115070011652125</mavaovien>
+    <maql>101115081556840140</maql>
+    <loai>1</loai>
+    <loaibn>1</loaibn>
+    <hoten>TRẦN QUỐC TRẠNG</hoten>
+    <namsinh>1938</namsinh>
+    <diachi>Ấp 1.</diachi>
+    <tentt>An Giang</tentt>
+    <tenquan>Huyện An Phú</tenquan>
+    <tenpxa>Xã Phước Hưng</tenpxa>
+    <madoituong>1</madoituong>
+    <doituong>BHYT</doituong>
+    <makp>07</makp>
+    <tenkp>Hồi Sức Cấp Cứu</tenkp>
+    <viettat>07</viettat>
+    <ngay>20/11/2010</ngay>
+    <sotien>1000000.0000</sotien>
+    <user_hoten>Nguyễn Thanh Quang</user_hoten>
+    <user_username>quang</user_username>
+    <userid>7</userid>
+    <quyenso>73</quyenso>
+    <sobienlai>112</sobienlai>
+    <sohieu>VP11.A1/10</sohieu>
+    <sohieubl>VP11.A1/10</sohieubl>
+    <hoan>0</hoan>
+  </Table>
+  <Table>
+    <id>101120073843110017</id>
+    <mabn>10034439</mabn>
+    <mavaovien>101109151146245001</mavaovien>
+    <maql>101109152922202140</maql>
+    <loai>1</loai>
+    <loaibn>1</loaibn>
+    <hoten>KICH SOM PHOS</hoten>
+    <namsinh>1989</namsinh>
+    <diachi>Cambodia</diachi>
+    <tentt>.</tentt>
+    <tenquan>Không Xác Định</tenquan>
+    <tenpxa>Không Xác Định</tenpxa>
+    <madoituong>2</madoituong>
+    <doituong>Thu phí</doituong>
+    <makp>02</makp>
+    <tenkp>Nội</tenkp>
+    <viettat>02</viettat>
+    <ngay>20/11/2010</ngay>
+    <sotien>500000.0000</sotien>
+    <user_hoten>Nguyễn Thanh Quang</user_hoten>
+    <user_username>quang</user_username>
+    <userid>7</userid>
+    <quyenso>73</quyenso>
+    <sobienlai>119</sobienlai>
+    <sohieu>VP11.A1/10</sohieu>
+    <sohieubl>VP11.A1/10</sohieubl>
+    <hoan>0</hoan>
+  </Table>
+  <Table>
+    <id>101120080357084017</id>
+    <mabn>10035468</mabn>
+    <mavaovien>101119055120366125</mavaovien>
+    <maql>101119060907679140</maql>
+    <loai>1</loai>
+    <loaibn>1</loaibn>
+    <hoten>NGUYỄN THANH BÌNH</hoten>
+    <namsinh>1982</namsinh>
+    <diachi>Quốc Hưng</diachi>
+    <tentt>An Giang</tentt>
+    <tenquan>Huyện An Phú</tenquan>
+    <tenpxa>Xã Quốc Thái</tenpxa>
+    <madoituong>1</madoituong>
+    <doituong>BHYT</doituong>
+    <makp>02</makp>
+    <tenkp>Nội</tenkp>
+    <viettat>02</viettat>
+    <ngay>20/11/2010</ngay>
+    <sotien>1000000.0000</sotien>
+    <user_hoten>Nguyễn Thanh Quang</user_hoten>
+    <user_username>quang</user_username>
+    <userid>7</userid>
+    <quyenso>73</quyenso>
+    <sobienlai>147</sobienlai>
+    <sohieu>VP11.A1/10</sohieu>
+    <sohieubl>VP11.A1/10</sohieubl>
+    <hoan>0</hoan>
+  </Table>
+  <Table>
+    <id>101120080444182017</id>
+    <mabn>10035548</mabn>
+    <mavaovien>101119123014018010</mavaovien>
+    <maql>101119162131240015</maql>
+    <loai>1</loai>
+    <loaibn>1</loaibn>
+    <hoten>PHẠM VĂN HƯỜNG</hoten>
+    <namsinh>1963</namsinh>
+    <diachi>Vĩnh An.</diachi>
+    <tentt>An Giang</tentt>
+    <tenquan>Huyện Châu Phú</tenquan>
+    <tenpxa>Xã Vĩnh Thạnh Trung</tenpxa>
+    <madoituong>1</madoituong>
+    <doituong>BHYT</doituong>
+    <makp>02</makp>
+    <tenkp>Nội</tenkp>
+    <viettat>02</viettat>
+    <ngay>20/11/2010</ngay>
+    <sotien>500000.0000</sotien>
+    <user_hoten>Nguyễn Thanh Quang</user_hoten>
+    <user_username>quang</user_username>
+    <userid>7</userid>
+    <quyenso>73</quyenso>
+    <sobienlai>148</sobienlai>
+    <sohieu>VP11.A1/10</sohieu>
+    <sohieubl>VP11.A1/10</sohieubl>
+    <hoan>0</hoan>
+  </Table>
+  <Table>
+    <id>101120080846341017</id>
+    <mabn>10035415</mabn>
+    <mavaovien>101118075600038001</mavaovien>
+    <maql>101118081138792010</maql>
+    <loai>1</loai>
+    <loaibn>1</loaibn>
+    <hoten>ÔN</hoten>
+    <namsinh>1932</namsinh>
+    <diachi>Cambodia</diachi>
+    <tentt>.</tentt>
+    <tenquan>Không Xác Định</tenquan>
+    <tenpxa>Không Xác Định</tenpxa>
+    <madoituong>2</madoituong>
+    <doituong>Thu phí</doituong>
+    <makp>02</makp>
+    <tenkp>Nội</tenkp>
+    <viettat>02</viettat>
+    <ngay>20/11/2010</ngay>
+    <sotien>500000.0000</sotien>
+    <user_hoten>Nguyễn Thanh Quang</user_hoten>
+    <user_username>quang</user_username>
+    <userid>7</userid>
+    <quyenso>73</quyenso>
+    <sobienlai>153</sobienlai>
+    <sohieu>VP11.A1/10</sohieu>
+    <sohieubl>VP11.A1/10</sohieubl>
+    <hoan>0</hoan>
+  </Table>
+  <Table>
+    <id>101120081434281017</id>
+    <mabn>10035291</mabn>
+    <mavaovien>101117073445243001</mavaovien>
+    <maql>101117085443546140</maql>
+    <loai>1</loai>
+    <loaibn>1</loaibn>
+    <hoten>PHAN HỒNG LĨNH</hoten>
+    <namsinh>1978</namsinh>
+    <diachi />
+    <tentt>An Giang</tentt>
+    <tenquan>Thị xã Tân Châu</tenquan>
+    <tenpxa>Phường Long Phú</tenpxa>
+    <madoituong>2</madoituong>
+    <doituong>Thu phí</doituong>
+    <makp>02</makp>
+    <tenkp>Nội</tenkp>
+    <viettat>02</viettat>
+    <ngay>20/11/2010</ngay>
+    <sotien>500000.0000</sotien>
+    <user_hoten>Nguyễn Thanh Quang</user_hoten>
+    <user_username>quang</user_username>
+    <userid>7</userid>
+    <quyenso>73</quyenso>
+    <sobienlai>164</sobienlai>
+    <sohieu>VP11.A1/10</sohieu>
+    <sohieubl>VP11.A1/10</sohieubl>
+    <hoan>0</hoan>
+  </Table>
+  <Table>
+    <id>101120081500127017</id>
+    <mabn>10035546</mabn>
+    <mavaovien>101119102655138001</mavaovien>
+    <maql>101119111725539140</maql>
+    <loai>1</loai>
+    <loaibn>1</loaibn>
+    <hoten>NGUYỄN THỊ NŨA</hoten>
+    <namsinh>1964</namsinh>
+    <diachi>Bờ Dâu/</diachi>
+    <tentt>An Giang</tentt>
+    <tenquan>Huyện Châu Phú</tenquan>
+    <tenpxa>Xã Thạnh Mỹ Tây</tenpxa>
+    <madoituong>1</madoituong>
+    <doituong>BHYT</doituong>
+    <makp>02</makp>
+    <tenkp>Nội</tenkp>
+    <viettat>02</viettat>
+    <ngay>20/11/2010</ngay>
+    <sotien>500000.0000</sotien>
+    <user_hoten>Nguyễn Thanh Quang</user_hoten>
+    <user_username>quang</user_username>
+    <userid>7</userid>
+    <quyenso>73</quyenso>
+    <sobienlai>165</sobienlai>
+    <sohieu>VP11.A1/10</sohieu>
+    <sohieubl>VP11.A1/10</sohieubl>
+    <hoan>0</hoan>
+  </Table>
+  <Table>
+    <id>101120092642807017</id>
+    <mabn>10035585</mabn>
+    <mavaovien>101120080151041011</mavaovien>
+    <maql>101120082546557015</maql>
+    <loai>1</loai>
+    <loaibn>1</loaibn>
+    <hoten>LÂM HỒNG LẠT</hoten>
+    <namsinh>1941</namsinh>
+    <diachi>Vĩnh Tây 2?</diachi>
+    <tentt>An Giang</tentt>
+    <tenquan>Thị xã Châu Đốc</tenquan>
+    <tenpxa>Phường Núi Sam</tenpxa>
+    <madoituong>2</madoituong>
+    <doituong>Thu phí</doituong>
+    <makp>02</makp>
+    <tenkp>Nội</tenkp>
+    <viettat>02</viettat>
+    <ngay>20/11/2010</ngay>
+    <sotien>1000000.0000</sotien>
+    <user_hoten>Nguyễn Thanh Quang</user_hoten>
+    <user_username>quang</user_username>
+    <userid>7</userid>
+    <quyenso>73</quyenso>
+    <sobienlai>249</sobienlai>
+    <sohieu>VP11.A1/10</sohieu>
+    <sohieubl>VP11.A1/10</sohieubl>
+    <hoan>0</hoan>
+  </Table>
+  <Table>
+    <id>101120092745160017</id>
+    <mabn>10035295</mabn>
+    <mavaovien>101117075051048001</mavaovien>
+    <maql>101117100854274105</maql>
+    <loai>1</loai>
+    <loaibn>1</loaibn>
+    <hoten>NAI</hoten>
+    <namsinh>1994</namsinh>
+    <diachi>Cambodia</diachi>
+    <tentt>.</tentt>
+    <tenquan>Không Xác Định</tenquan>
+    <tenpxa>Không Xác Định</tenpxa>
+    <madoituong>2</madoituong>
+    <doituong>Thu phí</doituong>
+    <makp>02</makp>
+    <tenkp>Nội</tenkp>
+    <viettat>02</viettat>
+    <ngay>20/11/2010</ngay>
+    <sotien>500000.0000</sotien>
+    <user_hoten>Nguyễn Thanh Quang</user_hoten>
+    <user_username>quang</user_username>
+    <userid>7</userid>
+    <quyenso>73</quyenso>
+    <sobienlai>251</sobienlai>
+    <sohieu>VP11.A1/10</sohieu>
+    <sohieubl>VP11.A1/10</sohieubl>
+    <hoan>0</hoan>
+  </Table>
+  <Table>
+    <id>101120101316943017</id>
+    <mabn>10034986</mabn>
+    <mavaovien>101115063351676125</mavaovien>
+    <maql>101115081012452107</maql>
+    <loai>1</loai>
+    <loaibn>1</loaibn>
+    <hoten>NGUYỄN THỊ QUẾ TRÂN</hoten>
+    <namsinh>2001</namsinh>
+    <diachi>Hưng Trung.</diachi>
+    <tentt>An Giang</tentt>
+    <tenquan>Huyện Châu Phú</tenquan>
+    <tenpxa>Xã Đào Hữu Cảnh</tenpxa>
+    <madoituong>2</madoituong>
+    <doituong>Thu phí</doituong>
+    <makp>05</makp>
+    <tenkp>Nhi</tenkp>
+    <viettat>05</viettat>
+    <ngay>20/11/2010</ngay>
+    <sotien>700000.0000</sotien>
+    <user_hoten>Nguyễn Thanh Quang</user_hoten>
+    <user_username>quang</user_username>
+    <userid>7</userid>
+    <quyenso>73</quyenso>
+    <sobienlai>294</sobienlai>
+    <sohieu>VP11.A1/10</sohieu>
+    <sohieubl>VP11.A1/10</sohieubl>
+    <hoan>0</hoan>
+  </Table>
+  <Table>
+    <id>101120101656794017</id>
+    <mabn>10035573</mabn>
+    <mavaovien>101119234213788011</mavaovien>
+    <maql>101120002557913012</maql>
+    <loai>1</loai>
+    <loaibn>1</loaibn>
+    <hoten>LÂM CAO HUY</hoten>
+    <namsinh>2006</namsinh>
+    <diachi>Châu Long 8</diachi>
+    <tentt>An Giang</tentt>
+    <tenquan>Thị xã Châu Đốc</tenquan>
+    <tenpxa>Phường Châu Phú B</tenpxa>
+    <madoituong>2</madoituong>
+    <doituong>Thu phí</doituong>
+    <makp>05</makp>
+    <tenkp>Nhi</tenkp>
+    <viettat>05</viettat>
+    <ngay>20/11/2010</ngay>
+    <sotien>700000.0000</sotien>
+    <user_hoten>Nguyễn Thanh Quang</user_hoten>
+    <user_username>quang</user_username>
+    <userid>7</userid>
+    <quyenso>73</quyenso>
+    <sobienlai>299</sobienlai>
+    <sohieu>VP11.A1/10</sohieu>
+    <sohieubl>VP11.A1/10</sohieubl>
+    <hoan>0</hoan>
+  </Table>
+  <Table>
+    <id>101120071023591017</id>
+    <mabn>10031298</mabn>
+    <mavaovien>101117203024201001</mavaovien>
+    <maql>101117203848876140</maql>
+    <loai>1</loai>
+    <loaibn>1</loaibn>
+    <hoten>NGUYỄN THỊ BA</hoten>
+    <namsinh>1942</namsinh>
+    <diachi>Vĩnh Nghĩa/</diachi>
+    <tentt>An Giang</tentt>
+    <tenquan>Huyện An Phú</tenquan>
+    <tenpxa>Xã Vĩnh Trường</tenpxa>
+    <madoituong>2</madoituong>
+    <doituong>Thu phí</doituong>
+    <makp>07</makp>
+    <tenkp>Hồi Sức Cấp Cứu</tenkp>
+    <viettat>07</viettat>
+    <ngay>20/11/2010</ngay>
+    <sotien>1000000.0000</sotien>
+    <user_hoten>Nguyễn Thanh Quang</user_hoten>
+    <user_username>quang</user_username>
+    <userid>7</userid>
+    <quyenso>73</quyenso>
+    <sobienlai>100</sobienlai>
+    <sohieu>VP11.A1/10</sohieu>
+    <sohieubl>VP11.A1/10</sohieubl>
+    <hoan>0</hoan>
+  </Table>
+  <Table>
+    <id>101120090107466017</id>
+    <mabn>10034978</mabn>
+    <mavaovien>101114194443167001</mavaovien>
+    <maql>101114195703438107</maql>
+    <loai>1</loai>
+    <loaibn>1</loaibn>
+    <hoten>NGUYỄN MINH HẠNH</hoten>
+    <namsinh>2010</namsinh>
+    <diachi>Ba Xưa</diachi>
+    <tentt>An Giang</tentt>
+    <tenquan>Huyện Châu Phú</tenquan>
+    <tenpxa>Xã Thạnh Mỹ Tây</tenpxa>
+    <madoituong>1</madoituong>
+    <doituong>BHYT</doituong>
+    <makp>05</makp>
+    <tenkp>Nhi</tenkp>
+    <viettat>05</viettat>
+    <ngay>20/11/2010</ngay>
+    <sotien>200000.0000</sotien>
+    <user_hoten>Nguyễn Thanh Quang</user_hoten>
+    <user_username>quang</user_username>
+    <userid>7</userid>
+    <quyenso>73</quyenso>
+    <sobienlai>223</sobienlai>
+    <sohieu>VP11.A1/10</sohieu>
+    <sohieubl>VP11.A1/10</sohieubl>
+    <hoan>0</hoan>
+  </Table>
+  <Table>
+    <id>101120092716592017</id>
+    <mabn>10035384</mabn>
+    <mavaovien>101118090351882001</mavaovien>
+    <maql>101118090620931140</maql>
+    <loai>1</loai>
+    <loaibn>1</loaibn>
+    <hoten>NGUYỄN VĂN ĐỂ</hoten>
+    <namsinh>1941</namsinh>
+    <diachi>Long Hưng</diachi>
+    <tentt>An Giang</tentt>
+    <tenquan>Thị xã Tân Châu</tenquan>
+    <tenpxa>Phường Long Sơn</tenpxa>
+    <madoituong>1</madoituong>
+    <doituong>BHYT</doituong>
+    <makp>02</makp>
+    <tenkp>Nội</tenkp>
+    <viettat>02</viettat>
+    <ngay>20/11/2010</ngay>
+    <sotien>500000.0000</sotien>
+    <user_hoten>Nguyễn Thanh Quang</user_hoten>
+    <user_username>quang</user_username>
+    <userid>7</userid>
+    <quyenso>73</quyenso>
+    <sobienlai>250</sobienlai>
+    <sohieu>VP11.A1/10</sohieu>
+    <sohieubl>VP11.A1/10</sohieubl>
+    <hoan>0</hoan>
+  </Table>
+  <Table>
+    <id>101120111235152017</id>
+    <mabn>10036369</mabn>
+    <mavaovien>101118170849555001</mavaovien>
+    <maql>101118175639467036</maql>
+    <loai>1</loai>
+    <loaibn>1</loaibn>
+    <hoten>SO NA</hoten>
+    <namsinh>2009</namsinh>
+    <diachi>Ấp 5</diachi>
+    <tentt>An Giang</tentt>
+    <tenquan>Huyện An Phú</tenquan>
+    <tenpxa>Xã Khánh An</tenpxa>
+    <madoituong>2</madoituong>
+    <doituong>Thu phí</doituong>
+    <makp>05</makp>
+    <tenkp>Nhi</tenkp>
+    <viettat>05</viettat>
+    <ngay>20/11/2010</ngay>
+    <sotien>700000.0000</sotien>
+    <user_hoten>Nguyễn Thanh Quang</user_hoten>
+    <user_username>quang</user_username>
+    <userid>7</userid>
+    <quyenso>73</quyenso>
+    <sobienlai>336</sobienlai>
+    <sohieu>VP11.A1/10</sohieu>
+    <sohieubl>VP11.A1/10</sohieubl>
+    <hoan>0</hoan>
+  </Table>
+  <Table>
+    <id>101120111338821017</id>
+    <mabn>10035627</mabn>
+    <mavaovien>101120095855914011</mavaovien>
+    <maql>101120105229898018</maql>
+    <loai>1</loai>
+    <loaibn>1</loaibn>
+    <hoten>PHA BUM</hoten>
+    <namsinh>2005</namsinh>
+    <diachi>Cambodia</diachi>
+    <tentt>.</tentt>
+    <tenquan>Không Xác Định</tenquan>
+    <tenpxa>Không Xác Định</tenpxa>
+    <madoituong>2</madoituong>
+    <doituong>Thu phí</doituong>
+    <makp>03</makp>
+    <tenkp>Ngoại</tenkp>
+    <viettat>03</viettat>
+    <ngay>20/11/2010</ngay>
+    <sotien>500000.0000</sotien>
+    <user_hoten>Nguyễn Thanh Quang</user_hoten>
+    <user_username>quang</user_username>
+    <userid>7</userid>
+    <quyenso>73</quyenso>
+    <sobienlai>337</sobienlai>
+    <sohieu>VP11.A1/10</sohieu>
+    <sohieubl>VP11.A1/10</sohieubl>
+    <hoan>0</hoan>
+  </Table>
+  <Table>
+    <id>101120084404606017</id>
+    <mabn>09035853</mabn>
+    <mavaovien>101120071400246010</mavaovien>
+    <maql>101120074210594025</maql>
+    <loai>1</loai>
+    <loaibn>1</loaibn>
+    <hoten>HỒ VĂN BA</hoten>
+    <namsinh>1939</namsinh>
+    <diachi>Long Bình/</diachi>
+    <tentt>An Giang</tentt>
+    <tenquan>Huyện Châu Phú</tenquan>
+    <tenpxa>Xã Ô Long Vỹ</tenpxa>
+    <madoituong>1</madoituong>
+    <doituong>BHYT</doituong>
+    <makp>07</makp>
+    <tenkp>Hồi Sức Cấp Cứu</tenkp>
+    <viettat>07</viettat>
+    <ngay>20/11/2010</ngay>
+    <sotien>1000000.0000</sotien>
+    <user_hoten>Nguyễn Thanh Quang</user_hoten>
+    <user_username>quang</user_username>
+    <userid>7</userid>
+    <quyenso>73</quyenso>
+    <sobienlai>201</sobienlai>
+    <sohieu>VP11.A1/10</sohieu>
+    <sohieubl>VP11.A1/10</sohieubl>
+    <hoan>0</hoan>
+  </Table>
+  <Table>
+    <id>101120112902363017</id>
+    <mabn>10035368</mabn>
+    <mavaovien>101117224653806001</mavaovien>
+    <maql>101117225059613140</maql>
+    <loai>1</loai>
+    <loaibn>1</loaibn>
+    <hoten>LÊ THỊ VIÊN</hoten>
+    <namsinh>1952</namsinh>
+    <diachi>Khóm A</diachi>
+    <tentt>An Giang</tentt>
+    <tenquan>Thị xã Châu Đốc</tenquan>
+    <tenpxa>Phường Châu Phú A</tenpxa>
+    <madoituong>2</madoituong>
+    <doituong>Thu phí</doituong>
+    <makp>02</makp>
+    <tenkp>Nội</tenkp>
+    <viettat>02</viettat>
+    <ngay>20/11/2010</ngay>
+    <sotien>500000.0000</sotien>
+    <user_hoten>Nguyễn Thanh Quang</user_hoten>
+    <user_username>quang</user_username>
+    <userid>7</userid>
+    <quyenso>73</quyenso>
+    <sobienlai>342</sobienlai>
+    <sohieu>VP11.A1/10</sohieu>
+    <sohieubl>VP11.A1/10</sohieubl>
+    <hoan>0</hoan>
+  </Table>
+  <Table>
+    <id>101120114432660017</id>
+    <mabn>10035247</mabn>
+    <mavaovien>101116152024977001</mavaovien>
+    <maql>101116152618078107</maql>
+    <loai>1</loai>
+    <loaibn>1</loaibn>
+    <hoten>NGUYỄN MINH TRÍ</hoten>
+    <namsinh>2002</namsinh>
+    <diachi>Vĩnh Ngữ/</diachi>
+    <tentt>An Giang</tentt>
+    <tenquan>Huyện An Phú</tenquan>
+    <tenpxa>Xã Vĩnh Hậu</tenpxa>
+    <madoituong>1</madoituong>
+    <doituong>BHYT</doituong>
+    <makp>05</makp>
+    <tenkp>Nhi</tenkp>
+    <viettat>05</viettat>
+    <ngay>20/11/2010</ngay>
+    <sotien>700000.0000</sotien>
+    <user_hoten>Nguyễn Thanh Quang</user_hoten>
+    <user_username>quang</user_username>
+    <userid>7</userid>
+    <quyenso>73</quyenso>
+    <sobienlai>350</sobienlai>
+    <sohieu>VP11.A1/10</sohieu>
+    <sohieubl>VP11.A1/10</sohieubl>
+    <hoan>0</hoan>
+  </Table>
+  <Table>
+    <id>101120115002206017</id>
+    <mabn>10035423</mabn>
+    <mavaovien>101120104038685011</mavaovien>
+    <maql>101120110822762015</maql>
+    <loai>1</loai>
+    <loaibn>1</loaibn>
+    <hoten>NGUYỄN THỊ SÁNH</hoten>
+    <namsinh>1946</namsinh>
+    <diachi>Vĩnh Thạnh 2</diachi>
+    <tentt>An Giang</tentt>
+    <tenquan>Thị xã Tân Châu</tenquan>
+    <tenpxa>Xã Lê Chánh</tenpxa>
+    <madoituong>1</madoituong>
+    <doituong>BHYT</doituong>
+    <makp>07</makp>
+    <tenkp>Hồi Sức Cấp Cứu</tenkp>
+    <viettat>07</viettat>
+    <ngay>20/11/2010</ngay>
+    <sotien>1000000.0000</sotien>
+    <user_hoten>Nguyễn Thanh Quang</user_hoten>
+    <user_username>quang</user_username>
+    <userid>7</userid>
+    <quyenso>73</quyenso>
+    <sobienlai>353</sobienlai>
+    <sohieu>VP11.A1/10</sohieu>
+    <sohieubl>VP11.A1/10</sohieubl>
+    <hoan>0</hoan>
+  </Table>
+  <Table>
+    <id>101120085400807017</id>
+    <mabn>10035250</mabn>
+    <mavaovien>101116144904331125</mavaovien>
+    <maql>101116154644237140</maql>
+    <loai>1</loai>
+    <loaibn>1</loaibn>
+    <hoten>PHẠM THỊ BÊ</hoten>
+    <namsinh>1946</namsinh>
+    <diachi>Vĩnh Lợi</diachi>
+    <tentt>An Giang</tentt>
+    <tenquan>Huyện An Phú</tenquan>
+    <tenpxa>Xã Vĩnh Lộc</tenpxa>
+    <madoituong>1</madoituong>
+    <doituong>BHYT</doituong>
+    <makp>02</makp>
+    <tenkp>Nội</tenkp>
+    <viettat>02</viettat>
+    <ngay>20/11/2010</ngay>
+    <sotien>500000.0000</sotien>
+    <user_hoten>Nguyễn Thanh Quang</user_hoten>
+    <user_username>quang</user_username>
+    <userid>7</userid>
+    <quyenso>73</quyenso>
+    <sobienlai>215</sobienlai>
+    <sohieu>VP11.A1/10</sohieu>
+    <sohieubl>VP11.A1/10</sohieubl>
+    <hoan>0</hoan>
+  </Table>
+  <Table>
+    <id>101120085109309017</id>
+    <mabn>10035281</mabn>
+    <mavaovien>101117083958402125</mavaovien>
+    <maql>101117091007240105</maql>
+    <loai>1</loai>
+    <loaibn>1</loaibn>
+    <hoten>LƯU MỸ LỆ</hoten>
+    <namsinh>1946</namsinh>
+    <diachi>Phú Bình.</diachi>
+    <tentt>An Giang</tentt>
+    <tenquan>Huyện Phú Tân</tenquan>
+    <tenpxa>Xã Phú An</tenpxa>
+    <madoituong>1</madoituong>
+    <doituong>BHYT</doituong>
+    <makp>02</makp>
+    <tenkp>Nội</tenkp>
+    <viettat>02</viettat>
+    <ngay>20/11/2010</ngay>
+    <sotien>500000.0000</sotien>
+    <user_hoten>Nguyễn Thanh Quang</user_hoten>
+    <user_username>quang</user_username>
+    <userid>7</userid>
+    <quyenso>73</quyenso>
+    <sobienlai>212</sobienlai>
+    <sohieu>VP11.A1/10</sohieu>
+    <sohieubl>VP11.A1/10</sohieubl>
+    <hoan>0</hoan>
+  </Table>
+  <Table>
+    <id>101120123503930017</id>
+    <mabn>10035569</mabn>
+    <mavaovien>101119214619902011</mavaovien>
+    <maql>101119222653577018</maql>
+    <loai>1</loai>
+    <loaibn>1</loaibn>
+    <hoten>TRẦN THỊ PHẤN</hoten>
+    <namsinh>1946</namsinh>
+    <diachi>Sơn Đông/</diachi>
+    <tentt>An Giang</tentt>
+    <tenquan>Huyện Tịnh Biên</tenquan>
+    <tenpxa>Thị trấn Nhà Bàng</tenpxa>
+    <madoituong>2</madoituong>
+    <doituong>Thu phí</doituong>
+    <makp>03</makp>
+    <tenkp>Ngoại</tenkp>
+    <viettat>03</viettat>
+    <ngay>20/11/2010</ngay>
+    <sotien>500000.0000</sotien>
+    <user_hoten>Nguyễn Thanh Quang</user_hoten>
+    <user_username>quang</user_username>
+    <userid>7</userid>
+    <quyenso>73</quyenso>
+    <sobienlai>366</sobienlai>
+    <sohieu>VP11.A1/10</sohieu>
+    <sohieubl>VP11.A1/10</sohieubl>
+    <hoan>0</hoan>
+  </Table>
+  <Table>
+    <id>101120081101316017</id>
+    <mabn>10035133</mabn>
+    <mavaovien>101115175712494125</mavaovien>
+    <maql>101115180601528010</maql>
+    <loai>1</loai>
+    <loaibn>1</loaibn>
+    <hoten>NGUYỄN THỊ BẢNH</hoten>
+    <namsinh>1934</namsinh>
+    <diachi>Hoà Phát</diachi>
+    <tentt>An Giang</tentt>
+    <tenquan>Huyện Phú Tân</tenquan>
+    <tenpxa>Xã Phú Hiệp</tenpxa>
+    <madoituong>2</madoituong>
+    <doituong>Thu phí</doituong>
+    <makp>02</makp>
+    <tenkp>Nội</tenkp>
+    <viettat>02</viettat>
+    <ngay>20/11/2010</ngay>
+    <sotien>500000.0000</sotien>
+    <user_hoten>Nguyễn Thanh Quang</user_hoten>
+    <user_username>quang</user_username>
+    <userid>7</userid>
+    <quyenso>73</quyenso>
+    <sobienlai>158</sobienlai>
+    <sohieu>VP11.A1/10</sohieu>
+    <sohieubl>VP11.A1/10</sohieubl>
+    <hoan>0</hoan>
+  </Table>
+  <Table>
+    <id>101120125704447017</id>
+    <mabn>08035076</mabn>
+    <mavaovien>101118174051330010</mavaovien>
+    <maql>101118174050420010</maql>
+    <loai>1</loai>
+    <loaibn>1</loaibn>
+    <hoten>LÊ HỮU PHƯỚC</hoten>
+    <namsinh>1938</namsinh>
+    <diachi>Vĩnh Đông 1</diachi>
+    <tentt>An Giang</tentt>
+    <tenquan>Thị xã Châu Đốc</tenquan>
+    <tenpxa>Phường Núi Sam</tenpxa>
+    <madoituong>2</madoituong>
+    <doituong>Thu phí</doituong>
+    <makp>07</makp>
+    <tenkp>Hồi Sức Cấp Cứu</tenkp>
+    <viettat>07</viettat>
+    <ngay>20/11/2010</ngay>
+    <sotien>1000000.0000</sotien>
+    <user_hoten>Nguyễn Thanh Quang</user_hoten>
+    <user_username>quang</user_username>
+    <userid>7</userid>
+    <quyenso>73</quyenso>
+    <sobienlai>369</sobienlai>
+    <sohieu>VP11.A1/10</sohieu>
+    <sohieubl>VP11.A1/10</sohieubl>
+    <hoan>0</hoan>
+  </Table>
+  <Table>
+    <id>101120131858115017</id>
+    <mabn>10035653</mabn>
+    <mavaovien>101120130555257011</mavaovien>
+    <maql>101120130820069028</maql>
+    <loai>1</loai>
+    <loaibn>1</loaibn>
+    <hoten>TRẦN THỊ BÌNH</hoten>
+    <namsinh>1987</namsinh>
+    <diachi>Hoà Thạnh.</diachi>
+    <tentt>An Giang</tentt>
+    <tenquan>Thị xã Tân Châu</tenquan>
+    <tenpxa>Xã Châu Phong</tenpxa>
+    <madoituong>2</madoituong>
+    <doituong>Thu phí</doituong>
+    <makp>08</makp>
+    <tenkp>Phòng Sanh</tenkp>
+    <viettat>08</viettat>
+    <ngay>20/11/2010</ngay>
+    <sotien>2000000.0000</sotien>
+    <user_hoten>Nguyễn Thanh Quang</user_hoten>
+    <user_username>quang</user_username>
+    <userid>7</userid>
+    <quyenso>73</quyenso>
+    <sobienlai>375</sobienlai>
+    <sohieu>VP11.A1/10</sohieu>
+    <sohieubl>VP11.A1/10</sohieubl>
+    <hoan>0</hoan>
+  </Table>
+  <Table>
+    <id>101120132012803017</id>
+    <mabn>10035214</mabn>
+    <mavaovien>101116100251547001</mavaovien>
+    <maql>101116100618761130</maql>
+    <loai>1</loai>
+    <loaibn>1</loaibn>
+    <hoten>NGUYỄN THỊ MỸ HẠNH</hoten>
+    <namsinh>1980</namsinh>
+    <diachi>Long Hưng/</diachi>
+    <tentt>An Giang</tentt>
+    <tenquan>Thị xã Tân Châu</tenquan>
+    <tenpxa>Phường Long Châu</tenpxa>
+    <madoituong>2</madoituong>
+    <doituong>Thu phí</doituong>
+    <makp>04</makp>
+    <tenkp>Hậu Sản</tenkp>
+    <viettat>04</viettat>
+    <ngay>20/11/2010</ngay>
+    <sotien>1000000.0000</sotien>
+    <user_hoten>Nguyễn Thanh Quang</user_hoten>
+    <user_username>quang</user_username>
+    <userid>7</userid>
+    <quyenso>73</quyenso>
+    <sobienlai>376</sobienlai>
+    <sohieu>VP11.A1/10</sohieu>
+    <sohieubl>VP11.A1/10</sohieubl>
+    <hoan>0</hoan>
+  </Table>
+  <Table>
+    <id>101120132138057017</id>
+    <mabn>10034781</mabn>
+    <mavaovien>101113075142944125</mavaovien>
+    <maql>101113094152979099</maql>
+    <loai>1</loai>
+    <loaibn>1</loaibn>
+    <hoten>THÁI THỊ HUỆ</hoten>
+    <namsinh>1958</namsinh>
+    <diachi>Vĩnh Hội.</diachi>
+    <tentt>An Giang</tentt>
+    <tenquan>Huyện An Phú</tenquan>
+    <tenpxa>Xã Vĩnh Hội Đông</tenpxa>
+    <madoituong>1</madoituong>
+    <doituong>BHYT</doituong>
+    <makp>04</makp>
+    <tenkp>Hậu Sản</tenkp>
+    <viettat>04</viettat>
+    <ngay>20/11/2010</ngay>
+    <sotien>1000000.0000</sotien>
+    <user_hoten>Nguyễn Thanh Quang</user_hoten>
+    <user_username>quang</user_username>
+    <userid>7</userid>
+    <quyenso>73</quyenso>
+    <sobienlai>378</sobienlai>
+    <sohieu>VP11.A1/10</sohieu>
+    <sohieubl>VP11.A1/10</sohieubl>
+    <hoan>0</hoan>
+  </Table>
+  <Table>
+    <id>101120132405936017</id>
+    <mabn>10035671</mabn>
+    <mavaovien>101118201051903001</mavaovien>
+    <maql>101118201554286130</maql>
+    <loai>1</loai>
+    <loaibn>1</loaibn>
+    <hoten>NÈANG RÂY</hoten>
+    <namsinh>1989</namsinh>
+    <diachi>Cambodia</diachi>
+    <tentt>.</tentt>
+    <tenquan>Không Xác Định</tenquan>
+    <tenpxa>Không Xác Định</tenpxa>
+    <madoituong>2</madoituong>
+    <doituong>Thu phí</doituong>
+    <makp>04</makp>
+    <tenkp>Hậu Sản</tenkp>
+    <viettat>04</viettat>
+    <ngay>20/11/2010</ngay>
+    <sotien>500000.0000</sotien>
+    <user_hoten>Nguyễn Thanh Quang</user_hoten>
+    <user_username>quang</user_username>
+    <userid>7</userid>
+    <quyenso>73</quyenso>
+    <sobienlai>380</sobienlai>
+    <sohieu>VP11.A1/10</sohieu>
+    <sohieubl>VP11.A1/10</sohieubl>
+    <hoan>0</hoan>
+  </Table>
+  <Table>
+    <id>101120132721173017</id>
+    <mabn>10034959</mabn>
+    <mavaovien>101114142743071125</mavaovien>
+    <maql>101114153329881099</maql>
+    <loai>1</loai>
+    <loaibn>1</loaibn>
+    <hoten>NGUYỄN THỊ SANG</hoten>
+    <namsinh>1980</namsinh>
+    <diachi>Long Thạnh</diachi>
+    <tentt>An Giang</tentt>
+    <tenquan>Thị xã Tân Châu</tenquan>
+    <tenpxa>Xã Long An</tenpxa>
+    <madoituong>2</madoituong>
+    <doituong>Thu phí</doituong>
+    <makp>04</makp>
+    <tenkp>Hậu Sản</tenkp>
+    <viettat>04</viettat>
+    <ngay>20/11/2010</ngay>
+    <sotien>500000.0000</sotien>
+    <user_hoten>Nguyễn Thanh Quang</user_hoten>
+    <user_username>quang</user_username>
+    <userid>7</userid>
+    <quyenso>73</quyenso>
+    <sobienlai>382</sobienlai>
+    <sohieu>VP11.A1/10</sohieu>
+    <sohieubl>VP11.A1/10</sohieubl>
+    <hoan>0</hoan>
+  </Table>
+  <Table>
+    <id>101120102102279017</id>
+    <mabn>10035467</mabn>
+    <mavaovien>101119023033260001</mavaovien>
+    <maql>101119031735300036</maql>
+    <loai>1</loai>
+    <loaibn>1</loaibn>
+    <hoten>NGUYỄN THẾ TOÀN</hoten>
+    <namsinh>2008</namsinh>
+    <diachi>Mỹ Á</diachi>
+    <tentt>An Giang</tentt>
+    <tenquan>Huyện Tịnh Biên</tenquan>
+    <tenpxa>Xã Núi Voi</tenpxa>
+    <madoituong>2</madoituong>
+    <doituong>Thu phí</doituong>
+    <makp>05</makp>
+    <tenkp>Nhi</tenkp>
+    <viettat>05</viettat>
+    <ngay>20/11/2010</ngay>
+    <sotien>400000.0000</sotien>
+    <user_hoten>Nguyễn Thanh Quang</user_hoten>
+    <user_username>quang</user_username>
+    <userid>7</userid>
+    <quyenso>73</quyenso>
+    <sobienlai>305</sobienlai>
+    <sohieu>VP11.A1/10</sohieu>
+    <sohieubl>VP11.A1/10</sohieubl>
+    <hoan>0</hoan>
+  </Table>
+  <Table>
+    <id>101119183644568017</id>
+    <mabn>06015459</mabn>
+    <mavaovien>101119170626238011</mavaovien>
+    <maql>101119171502132007</maql>
+    <loai>1</loai>
+    <loaibn>1</loaibn>
+    <hoten>LÂM THỊ BÉ </hoten>
+    <namsinh>1941</namsinh>
+    <diachi>HOÀ AN</diachi>
+    <tentt>An Giang</tentt>
+    <tenquan>Huyện Phú Tân</tenquan>
+    <tenpxa>Xã Hoà Lạc</tenpxa>
+    <madoituong>2</madoituong>
+    <doituong>Thu phí</doituong>
+    <makp>07</makp>
+    <tenkp>Hồi Sức Cấp Cứu</tenkp>
+    <viettat>07</viettat>
+    <ngay>20/11/2010</ngay>
+    <sotien>1000000.0000</sotien>
+    <user_hoten>Nguyễn Thanh Quang</user_hoten>
+    <user_username>quang</user_username>
+    <userid>7</userid>
+    <quyenso>73</quyenso>
+    <sobienlai>71</sobienlai>
+    <sohieu>VP11.A1/10</sohieu>
+    <sohieubl>VP11.A1/10</sohieubl>
+    <hoan>0</hoan>
+  </Table>
+  <Table>
+    <id>101120073041965017</id>
+    <mabn>05008422</mabn>
+    <mavaovien>101118093935024001</mavaovien>
+    <maql>101118095336658105</maql>
+    <loai>1</loai>
+    <loaibn>1</loaibn>
+    <hoten>NGUYỄN THỊ CHIẾU</hoten>
+    <namsinh>1935</namsinh>
+    <diachi>Long Thạnh D</diachi>
+    <tentt>An Giang</tentt>
+    <tenquan>Thị xã Tân Châu</tenquan>
+    <tenpxa>Phường Long Châu</tenpxa>
+    <madoituong>2</madoituong>
+    <doituong>Thu phí</doituong>
+    <makp>07</makp>
+    <tenkp>Hồi Sức Cấp Cứu</tenkp>
+    <viettat>07</viettat>
+    <ngay>20/11/2010</ngay>
+    <sotien>1000000.0000</sotien>
+    <user_hoten>Nguyễn Thanh Quang</user_hoten>
+    <user_username>quang</user_username>
+    <userid>7</userid>
+    <quyenso>73</quyenso>
+    <sobienlai>111</sobienlai>
+    <sohieu>VP11.A1/10</sohieu>
+    <sohieubl>VP11.A1/10</sohieubl>
+    <hoan>0</hoan>
+  </Table>
+  <Table>
+    <id>101120121920859017</id>
+    <mabn>10010475</mabn>
+    <mavaovien>101118113304907001</mavaovien>
+    <maql>101118114712461140</maql>
+    <loai>1</loai>
+    <loaibn>1</loaibn>
+    <hoten>VÕ THỊ MUỘI</hoten>
+    <namsinh>1947</namsinh>
+    <diachi>Khóm 3/</diachi>
+    <tentt>An Giang</tentt>
+    <tenquan>Thị xã Châu Đốc</tenquan>
+    <tenpxa>Phường Châu Phú A</tenpxa>
+    <madoituong>1</madoituong>
+    <doituong>BHYT</doituong>
+    <makp>02</makp>
+    <tenkp>Nội</tenkp>
+    <viettat>02</viettat>
+    <ngay>20/11/2010</ngay>
+    <sotien>500000.0000</sotien>
+    <user_hoten>Nguyễn Thanh Quang</user_hoten>
+    <user_username>quang</user_username>
+    <userid>7</userid>
+    <quyenso>73</quyenso>
+    <sobienlai>362</sobienlai>
+    <sohieu>VP11.A1/10</sohieu>
+    <sohieubl>VP11.A1/10</sohieubl>
+    <hoan>0</hoan>
+  </Table>
+  <Table>
+    <id>101120101535665017</id>
+    <mabn>10035564</mabn>
+    <mavaovien>101119165548887011</mavaovien>
+    <maql>101119181012418012</maql>
+    <loai>1</loai>
+    <loaibn>1</loaibn>
+    <hoten>ĐINH HOÀNG ĐĂNG</hoten>
+    <namsinh>2009</namsinh>
+    <diachi>Châu Quới 2/</diachi>
+    <tentt>An Giang</tentt>
+    <tenquan>Thị xã Châu Đốc</tenquan>
+    <tenpxa>Phường Châu Phú B</tenpxa>
+    <madoituong>2</madoituong>
+    <doituong>Thu phí</doituong>
+    <makp>05</makp>
+    <tenkp>Nhi</tenkp>
+    <viettat>05</viettat>
+    <ngay>20/11/2010</ngay>
+    <sotien>700000.0000</sotien>
+    <user_hoten>Nguyễn Thanh Quang</user_hoten>
+    <user_username>quang</user_username>
+    <userid>7</userid>
+    <quyenso>73</quyenso>
+    <sobienlai>297</sobienlai>
+    <sohieu>VP11.A1/10</sohieu>
+    <sohieubl>VP11.A1/10</sohieubl>
+    <hoan>0</hoan>
+  </Table>
+  <Table>
+    <id>101120101451397017</id>
+    <mabn>10035566</mabn>
+    <mavaovien>101119181046254011</mavaovien>
+    <maql>101119191419013012</maql>
+    <loai>1</loai>
+    <loaibn>1</loaibn>
+    <hoten>NGUYỄN THỊ GIÀU</hoten>
+    <namsinh>2000</namsinh>
+    <diachi>Bờ Dâu/</diachi>
+    <tentt>An Giang</tentt>
+    <tenquan>Huyện Châu Phú</tenquan>
+    <tenpxa>Xã Thạnh Mỹ Tây</tenpxa>
+    <madoituong>1</madoituong>
+    <doituong>BHYT</doituong>
+    <makp>05</makp>
+    <tenkp>Nhi</tenkp>
+    <viettat>05</viettat>
+    <ngay>20/11/2010</ngay>
+    <sotien>700000.0000</sotien>
+    <user_hoten>Nguyễn Thanh Quang</user_hoten>
+    <user_username>quang</user_username>
+    <userid>7</userid>
+    <quyenso>73</quyenso>
+    <sobienlai>296</sobienlai>
+    <sohieu>VP11.A1/10</sohieu>
+    <sohieubl>VP11.A1/10</sohieubl>
+    <hoan>0</hoan>
+  </Table>
+  <Table>
+    <id>101120161659787017</id>
+    <mabn>10035654</mabn>
+    <mavaovien>101120131425881011</mavaovien>
+    <maql>101120131545674028</maql>
+    <loai>1</loai>
+    <loaibn>1</loaibn>
+    <hoten>PHẠM THỊ NHO</hoten>
+    <namsinh>1987</namsinh>
+    <diachi>Khóm 1.</diachi>
+    <tentt>An Giang</tentt>
+    <tenquan>Huyện Tri Tôn</tenquan>
+    <tenpxa>Thị trấn Tri Tôn</tenpxa>
+    <madoituong>2</madoituong>
+    <doituong>Thu phí</doituong>
+    <makp>08</makp>
+    <tenkp>Phòng Sanh</tenkp>
+    <viettat>08</viettat>
+    <ngay>20/11/2010</ngay>
+    <sotien>2000000.0000</sotien>
+    <user_hoten>Nguyễn Thanh Quang</user_hoten>
+    <user_username>quang</user_username>
+    <userid>7</userid>
+    <quyenso>73</quyenso>
+    <sobienlai>424</sobienlai>
+    <sohieu>VP11.A1/10</sohieu>
+    <sohieubl>VP11.A1/10</sohieubl>
+    <hoan>0</hoan>
+  </Table>
+  <Table>
+    <id>101120161858615017</id>
+    <mabn>10036371</mabn>
+    <mavaovien>101118181424021001</mavaovien>
+    <maql>101118191103014036</maql>
+    <loai>1</loai>
+    <loaibn>1</loaibn>
+    <hoten>TRẦN THỊ THANH THẢO</hoten>
+    <namsinh>2001</namsinh>
+    <diachi>Khánh Mỹ</diachi>
+    <tentt>An Giang</tentt>
+    <tenquan>Huyện Châu Phú</tenquan>
+    <tenpxa>Xã Khánh Hòa</tenpxa>
+    <madoituong>1</madoituong>
+    <doituong>BHYT</doituong>
+    <makp>05</makp>
+    <tenkp>Nhi</tenkp>
+    <viettat>05</viettat>
+    <ngay>20/11/2010</ngay>
+    <sotien>700000.0000</sotien>
+    <user_hoten>Nguyễn Thanh Quang</user_hoten>
+    <user_username>quang</user_username>
+    <userid>7</userid>
+    <quyenso>73</quyenso>
+    <sobienlai>425</sobienlai>
+    <sohieu>VP11.A1/10</sohieu>
+    <sohieubl>VP11.A1/10</sohieubl>
+    <hoan>0</hoan>
+  </Table>
+  <Table>
+    <id>101120070625617017</id>
+    <mabn>08004217</mabn>
+    <mavaovien>101120055501217007</mavaovien>
+    <maql>101120055501750007</maql>
+    <loai>1</loai>
+    <loaibn>1</loaibn>
+    <hoten>NGUYỄN NGỌC THANH</hoten>
+    <namsinh>1937</namsinh>
+    <diachi>Châu Thạnh</diachi>
+    <tentt>An Giang</tentt>
+    <tenquan>Thị xã Châu Đốc</tenquan>
+    <tenpxa>Phường Châu Phú A</tenpxa>
+    <madoituong>1</madoituong>
+    <doituong>BHYT</doituong>
+    <makp>07</makp>
+    <tenkp>Hồi Sức Cấp Cứu</tenkp>
+    <viettat>07</viettat>
+    <ngay>20/11/2010</ngay>
+    <sotien>1000000.0000</sotien>
+    <user_hoten>Nguyễn Thanh Quang</user_hoten>
+    <user_username>quang</user_username>
+    <userid>7</userid>
+    <quyenso>73</quyenso>
+    <sobienlai>96</sobienlai>
+    <sohieu>VP11.A1/10</sohieu>
+    <sohieubl>VP11.A1/10</sohieubl>
+    <hoan>0</hoan>
+  </Table>
+  <Table>
+    <id>101120162520727017</id>
+    <mabn>05008599</mabn>
+    <mavaovien>101120142552694010</mavaovien>
+    <maql>101120143014756015</maql>
+    <loai>1</loai>
+    <loaibn>1</loaibn>
+    <hoten>PHẠM THỊ ANH</hoten>
+    <namsinh>1930</namsinh>
+    <diachi>Phú Cường</diachi>
+    <tentt>An Giang</tentt>
+    <tenquan>Huyện Phú Tân</tenquan>
+    <tenpxa>Xã Phú Thạnh</tenpxa>
+    <madoituong>1</madoituong>
+    <doituong>BHYT</doituong>
+    <makp>07</makp>
+    <tenkp>Hồi Sức Cấp Cứu</tenkp>
+    <viettat>07</viettat>
+    <ngay>20/11/2010</ngay>
+    <sotien>1000000.0000</sotien>
+    <user_hoten>Nguyễn Thanh Quang</user_hoten>
+    <user_username>quang</user_username>
+    <userid>7</userid>
+    <quyenso>73</quyenso>
+    <sobienlai>427</sobienlai>
+    <sohieu>VP11.A1/10</sohieu>
+    <sohieubl>VP11.A1/10</sohieubl>
+    <hoan>0</hoan>
+  </Table>
+  <Table>
+    <id>101121175826398017</id>
+    <mabn>07013076</mabn>
+    <mavaovien>101120030524985011</mavaovien>
+    <maql>101120031741836028</maql>
+    <loai>1</loai>
+    <loaibn>1</loaibn>
+    <hoten>TRƯƠNG NGỌC HUYỀN</hoten>
+    <namsinh>1985</namsinh>
+    <diachi>Vĩnh Bình</diachi>
+    <tentt>An Giang</tentt>
+    <tenquan>Huyện An Phú</tenquan>
+    <tenpxa>Xã Vĩnh Trường</tenpxa>
+    <madoituong>1</madoituong>
+    <doituong>BHYT</doituong>
+    <makp>04</makp>
+    <tenkp>Hậu Sản</tenkp>
+    <viettat>04</viettat>
+    <ngay>20/11/2010</ngay>
+    <sotien>2000000.0000</sotien>
+    <user_hoten>Nguyễn Thanh Quang</user_hoten>
+    <user_username>quang</user_username>
+    <userid>7</userid>
+    <quyenso>73</quyenso>
+    <sobienlai>430</sobienlai>
+    <sohieu>VP11.A1/10</sohieu>
+    <sohieubl>VP11.A1/10</sohieubl>
+    <hoan>0</hoan>
+  </Table>
+  <Table>
+    <id>101120122040634017</id>
+    <mabn>10035536</mabn>
+    <mavaovien>101119155523134011</mavaovien>
+    <maql>101119162832468012</maql>
+    <loai>1</loai>
+    <loaibn>1</loaibn>
+    <hoten>NGUYỄN PHƯỚC KHA</hoten>
+    <namsinh>2009</namsinh>
+    <diachi>Cầu Dây/</diachi>
+    <tentt>An Giang</tentt>
+    <tenquan>Huyện Châu Phú</tenquan>
+    <tenpxa>Xã Thạnh Mỹ Tây</tenpxa>
+    <madoituong>1</madoituong>
+    <doituong>BHYT</doituong>
+    <makp>05</makp>
+    <tenkp>Nhi</tenkp>
+    <viettat>05</viettat>
+    <ngay>20/11/2010</ngay>
+    <sotien>700000.0000</sotien>
+    <user_hoten>Nguyễn Thanh Quang</user_hoten>
+    <user_username>quang</user_username>
+    <userid>7</userid>
+    <quyenso>73</quyenso>
+    <sobienlai>363</sobienlai>
+    <sohieu>VP11.A1/10</sohieu>
+    <sohieubl>VP11.A1/10</sohieubl>
+    <hoan>0</hoan>
+  </Table>
+  <Table>
+    <id>101120190425053017</id>
+    <mabn>07007823</mabn>
+    <mavaovien>101102135952410010</mavaovien>
+    <maql>101102135952357010</maql>
+    <loai>1</loai>
+    <loaibn>1</loaibn>
+    <hoten>NGUYỄN VĂN HAI</hoten>
+    <namsinh>1921</namsinh>
+    <diachi>Châu Quới 1</diachi>
+    <tentt>An Giang</tentt>
+    <tenquan>Thị xã Châu Đốc</tenquan>
+    <tenpxa>Phường Châu Phú B</tenpxa>
+    <madoituong>1</madoituong>
+    <doituong>BHYT</doituong>
+    <makp>02</makp>
+    <tenkp>Nội</tenkp>
+    <viettat>02</viettat>
+    <ngay>20/11/2010</ngay>
+    <sotien>500000.0000</sotien>
+    <user_hoten>Nguyễn Thanh Quang</user_hoten>
+    <user_username>quang</user_username>
+    <userid>7</userid>
+    <quyenso>73</quyenso>
+    <sobienlai>433</sobienlai>
+    <sohieu>VP11.A1/10</sohieu>
+    <sohieubl>VP11.A1/10</sohieubl>
+    <hoan>0</hoan>
+  </Table>
+  <Table>
+    <id>101120191009897017</id>
+    <mabn>10035647</mabn>
+    <mavaovien>101120113118427011</mavaovien>
+    <maql>101120122604181012</maql>
+    <loai>1</loai>
+    <loaibn>1</loaibn>
+    <hoten>NGUYỄN CÔNG MINH</hoten>
+    <namsinh>2000</namsinh>
+    <diachi>Vĩnh Hưng.</diachi>
+    <tentt>An Giang</tentt>
+    <tenquan>Huyện An Phú</tenquan>
+    <tenpxa>Xã Vĩnh Lộc</tenpxa>
+    <madoituong>1</madoituong>
+    <doituong>BHYT</doituong>
+    <makp>05</makp>
+    <tenkp>Nhi</tenkp>
+    <viettat>05</viettat>
+    <ngay>20/11/2010</ngay>
+    <sotien>700000.0000</sotien>
+    <user_hoten>Nguyễn Thanh Quang</user_hoten>
+    <user_username>quang</user_username>
+    <userid>7</userid>
+    <quyenso>73</quyenso>
+    <sobienlai>435</sobienlai>
+    <sohieu>VP11.A1/10</sohieu>
+    <sohieubl>VP11.A1/10</sohieubl>
+    <hoan>0</hoan>
+  </Table>
+  <Table>
+    <id>101120191148450017</id>
+    <mabn>10035659</mabn>
+    <mavaovien>101120135716023011</mavaovien>
+    <maql>101120155119176012</maql>
+    <loai>1</loai>
+    <loaibn>1</loaibn>
+    <hoten>VÕ TRÚC ĐÀO</hoten>
+    <namsinh>2000</namsinh>
+    <diachi>Long Thạnh B.</diachi>
+    <tentt>An Giang</tentt>
+    <tenquan>Thị xã Tân Châu</tenquan>
+    <tenpxa>Phường Long Thạnh</tenpxa>
+    <madoituong>2</madoituong>
+    <doituong>Thu phí</doituong>
+    <makp>05</makp>
+    <tenkp>Nhi</tenkp>
+    <viettat>05</viettat>
+    <ngay>20/11/2010</ngay>
+    <sotien>700000.0000</sotien>
+    <user_hoten>Nguyễn Thanh Quang</user_hoten>
+    <user_username>quang</user_username>
+    <userid>7</userid>
+    <quyenso>73</quyenso>
+    <sobienlai>436</sobienlai>
+    <sohieu>VP11.A1/10</sohieu>
+    <sohieubl>VP11.A1/10</sohieubl>
+    <hoan>0</hoan>
+  </Table>
+  <Table>
+    <id>101120210247613017</id>
+    <mabn>10035658</mabn>
+    <mavaovien>101120134046091011</mavaovien>
+    <maql>101120205510845028</maql>
+    <loai>1</loai>
+    <loaibn>1</loaibn>
+    <hoten>ĐÀO THỊ BÍCH HẠNH</hoten>
+    <namsinh>1989</namsinh>
+    <diachi>Hoà Lợi.</diachi>
+    <tentt>An Giang</tentt>
+    <tenquan>Huyện Phú Tân</tenquan>
+    <tenpxa>Xã Phú Hiệp</tenpxa>
+    <madoituong>2</madoituong>
+    <doituong>Thu phí</doituong>
+    <makp>08</makp>
+    <tenkp>Phòng Sanh</tenkp>
+    <viettat>08</viettat>
+    <ngay>20/11/2010</ngay>
+    <sotien>2000000.0000</sotien>
+    <user_hoten>Nguyễn Thanh Quang</user_hoten>
+    <user_username>quang</user_username>
+    <userid>7</userid>
+    <quyenso>73</quyenso>
+    <sobienlai>439</sobienlai>
+    <sohieu>VP11.A1/10</sohieu>
+    <sohieubl>VP11.A1/10</sohieubl>
+    <hoan>0</hoan>
+  </Table>
+  <Table>
+    <id>101120210450519017</id>
+    <mabn>10035677</mabn>
+    <mavaovien>101120204553645011</mavaovien>
+    <maql>101120205314830028</maql>
+    <loai>1</loai>
+    <loaibn>1</loaibn>
+    <hoten>LÊ THỊ LOAN</hoten>
+    <namsinh>1988</namsinh>
+    <diachi>Hoà Thạnh</diachi>
+    <tentt>An Giang</tentt>
+    <tenquan>Thị xã Tân Châu</tenquan>
+    <tenpxa>Xã Châu Phong</tenpxa>
+    <madoituong>2</madoituong>
+    <doituong>Thu phí</doituong>
+    <makp>08</makp>
+    <tenkp>Phòng Sanh</tenkp>
+    <viettat>08</viettat>
+    <ngay>20/11/2010</ngay>
+    <sotien>1000000.0000</sotien>
+    <user_hoten>Nguyễn Thanh Quang</user_hoten>
+    <user_username>quang</user_username>
+    <userid>7</userid>
+    <quyenso>73</quyenso>
+    <sobienlai>440</sobienlai>
+    <sohieu>VP11.A1/10</sohieu>
+    <sohieubl>VP11.A1/10</sohieubl>
+    <hoan>0</hoan>
+  </Table>
+</NewDataSet>

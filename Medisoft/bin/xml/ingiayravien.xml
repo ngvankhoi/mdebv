@@ -1,0 +1,117 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="MABO" type="xs:string" minOccurs="0" />
+                <xs:element name="MAKP" type="xs:string" minOccurs="0" />
+                <xs:element name="TENKP" type="xs:string" minOccurs="0" />
+                <xs:element name="SOVAOVIEN" type="xs:string" minOccurs="0" />
+                <xs:element name="SOLUUTRU" type="xs:string" minOccurs="0" />
+                <xs:element name="MABN" type="xs:string" minOccurs="0" />
+                <xs:element name="MAQL" type="xs:decimal" minOccurs="0" />
+                <xs:element name="HOTEN" type="xs:string" minOccurs="0" />
+                <xs:element name="NAMSINH" type="xs:string" minOccurs="0" />
+                <xs:element name="PHAI" type="xs:string" minOccurs="0" />
+                <xs:element name="TENNN" type="xs:string" minOccurs="0" />
+                <xs:element name="DANTOC" type="xs:string" minOccurs="0" />
+                <xs:element name="SOTHE" type="xs:string" minOccurs="0" />
+                <xs:element name="DENNGAY" type="xs:string" minOccurs="0" />
+                <xs:element name="DIACHI" type="xs:string" minOccurs="0" />
+                <xs:element name="CHOLAM" type="xs:string" minOccurs="0" />
+                <xs:element name="NGAYVAO" type="xs:string" minOccurs="0" />
+                <xs:element name="NGAYRA" type="xs:string" minOccurs="0" />
+                <xs:element name="CHANDOAN" type="xs:string" minOccurs="0" />
+                <xs:element name="MAICD" type="xs:string" minOccurs="0" />
+                <xs:element name="DIEUTRI" type="xs:string" minOccurs="0" />
+                <xs:element name="LOIDAN" type="xs:string" minOccurs="0" />
+                <xs:element name="CHUCVU" type="xs:string" minOccurs="0" />
+                <xs:element name="KYRAVIEN" type="xs:string" minOccurs="0" />
+                <xs:element name="LANIN" type="xs:decimal" minOccurs="0" />
+                <xs:element name="IDKYRAVIEN" type="xs:decimal" minOccurs="0" />
+                <xs:element name="TRUONGKHOA" type="xs:string" minOccurs="0" />
+                <xs:element name="NOIDKKCB" type="xs:string" minOccurs="0" />
+                <xs:element name="NOIGIOITHIEU" type="xs:string" minOccurs="0" />
+                <xs:element name="MATRUONGKHOA" type="xs:string" minOccurs="0" />
+                <xs:element name="CHUKY" type="xs:base64Binary" minOccurs="0" />
+                <xs:element name="TENBS" type="xs:string" minOccurs="0" />
+                <xs:element name="NGAYPT" type="xs:string" minOccurs="0" />
+                <xs:element name="PTV" type="xs:string" minOccurs="0" />
+                <xs:element name="TENPT" type="xs:string" minOccurs="0" />
+                <xs:element name="BENHLY" type="xs:string" minOccurs="0" />
+                <xs:element name="NHOMMAU" type="xs:string" minOccurs="0" />
+                <xs:element name="RH" type="xs:string" minOccurs="0" />
+                <xs:element name="NGAYTK" type="xs:string" minOccurs="0" />
+                <xs:element name="TAIKHAM" type="xs:string" minOccurs="0" />
+                <xs:element name="MABSKHAM" type="xs:string" minOccurs="0" />
+                <xs:element name="BSKHAM" type="xs:string" minOccurs="0" />
+                <xs:element name="IMAGE" type="xs:base64Binary" minOccurs="0" />
+                <xs:element name="TINHTRANG" type="xs:string" minOccurs="0" />
+                <xs:element name="TENNHOMMAU" type="xs:string" minOccurs="0" />
+                <xs:element name="NOIDUNG" type="xs:string" minOccurs="0" />
+                <xs:element name="VOCAM" type="xs:string" minOccurs="0" />
+                <xs:element name="TTNGUOIBENHLUCRV" type="xs:string" minOccurs="0" />
+                <xs:element name="chon" type="xs:boolean" minOccurs="0" />
+                <xs:element name="tuoivao" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <MABO>BHYT</MABO>
+    <MAKP>42</MAKP>
+    <TENKP>Khoa Phục Hồi Chức Năng</TENKP>
+    <SOVAOVIEN />
+    <SOLUUTRU />
+    <MABN>13000220</MABN>
+    <MAQL>131011091146840157</MAQL>
+    <HOTEN>NGUYỄN THỊ MINH ANH</HOTEN>
+    <NAMSINH>2012</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <TENNN>Trẻ dưới 6 tuổi đi học, dưới 15 tuổi không đi học</TENNN>
+    <DANTOC>*Kinh^ </DANTOC>
+    <SOTHE>TE1012002000276</SOTHE>
+    <DENNGAY>03/01/2013^05/06/2018</DENNGAY>
+    <DIACHI>Xã. La Phù, H. Hoài Đức, Hà Nội</DIACHI>
+    <CHOLAM />
+    <NGAYVAO>11/10/2013 09:11</NGAYVAO>
+    <NGAYRA>22/11/2013 15:00</NGAYRA>
+    <CHANDOAN>Bại não trẻ em</CHANDOAN>
+    <MAICD>G80</MAICD>
+    <DIEUTRI />
+    <LOIDAN />
+    <CHUCVU>GIÁM ĐỐC</CHUCVU>
+    <KYRAVIEN>NGUYỄN GIA THỨC</KYRAVIEN>
+    <LANIN>0</LANIN>
+    <IDKYRAVIEN>1</IDKYRAVIEN>
+    <TRUONGKHOA />
+    <NOIDKKCB>TYT Xã La Phù  (TTYT h. Hoài Đức)</NOIDKKCB>
+    <NOIGIOITHIEU />
+    <MATRUONGKHOA />
+    <TENBS>Nguyễn Thị Hạnh</TENBS>
+    <NGAYPT />
+    <PTV />
+    <TENPT />
+    <BENHLY />
+    <NHOMMAU>0</NHOMMAU>
+    <RH />
+    <NGAYTK />
+    <TAIKHAM />
+    <MABSKHAM />
+    <BSKHAM />
+    <TINHTRANG>Đở, giảm</TINHTRANG>
+    <TENNHOMMAU>Không Rõ</TENNHOMMAU>
+    <NOIDUNG />
+    <VOCAM />
+    <TTNGUOIBENHLUCRV />
+    <chon>false</chon>
+    <tuoivao>0161</tuoivao>
+  </Table>
+</NewDataSet>

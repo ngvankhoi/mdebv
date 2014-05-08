@@ -1,0 +1,78 @@
+<?xml version="1.0" standalone="yes" ?>
+<NewDataSet>
+	<xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xs:element name="NewDataSet" msdata:IsDataSet="true">
+			<xs:complexType>
+				<xs:choice maxOccurs="unbounded">
+					<xs:element name="Table">
+						<xs:complexType>
+							<xs:sequence>
+								<xs:element name="STT" type="xs:decimal" minOccurs="0" />
+								<xs:element name="STTT" type="xs:decimal" minOccurs="0" />
+								<xs:element name="MABD" type="xs:decimal" minOccurs="0" />
+								<xs:element name="MA" type="xs:string" minOccurs="0" />
+								<xs:element name="TEN" type="xs:string" minOccurs="0" />
+								<xs:element name="TENHC" type="xs:string" minOccurs="0" />
+								<xs:element name="DANG" type="xs:string" minOccurs="0" />
+								<xs:element name="TENKHO" type="xs:string" minOccurs="0" />
+								<xs:element name="TENNGUON" type="xs:string" minOccurs="0" />
+								<xs:element name="TENNHOMCC" type="xs:string" minOccurs="0" />
+								<xs:element name="HANDUNG" type="xs:string" minOccurs="0" />
+								<xs:element name="LOSX" type="xs:string" minOccurs="0" />
+								<xs:element name="SOLUONG" type="xs:decimal" minOccurs="0" />
+								<xs:element name="DONGIA" type="xs:decimal" minOccurs="0" />
+								<xs:element name="SOTIEN" type="xs:decimal" minOccurs="0" />
+								<xs:element name="CACHDUNG" type="xs:string" minOccurs="0" />
+								<xs:element name="MAKHO" type="xs:decimal" minOccurs="0" />
+								<xs:element name="MANGUON" type="xs:decimal" minOccurs="0" />
+								<xs:element name="NHOMCC" type="xs:decimal" minOccurs="0" />
+							</xs:sequence>
+						</xs:complexType>
+					</xs:element>
+				</xs:choice>
+			</xs:complexType>
+		</xs:element>
+	</xs:schema>
+	<Table>
+		<STT>1</STT>
+		<STTT>87</STTT>
+		<MABD>159</MABD>
+		<MA>MET002</MA>
+		<TEN>Metronidazol 500mg/100ml</TEN>
+		<TENHC>Metronidazol</TENHC>
+		<DANG>Chai</DANG>
+		<TENKHO>Khám B (ĐC)</TENKHO>
+		<TENNGUON>Sự nghiệp</TENNGUON>
+		<TENNHOMCC>DNTN</TENNHOMCC>
+		<HANDUNG>0000</HANDUNG>
+		<LOSX>..........</LOSX>
+		<SOLUONG>1</SOLUONG>
+		<DONGIA>2083.333</DONGIA>
+		<SOTIEN>2083.333</SOTIEN>
+		<CACHDUNG>Ngày 3 lần, Lần 3 Viên</CACHDUNG>
+		<MAKHO>4</MAKHO>
+		<MANGUON>1</MANGUON>
+		<NHOMCC>3</NHOMCC>
+	</Table>
+	<Table>
+		<STT>2</STT>
+		<STTT>90</STTT>
+		<MABD>12</MABD>
+		<MA>CAL001</MA>
+		<TEN>Calmezin 500mg+ 4mg </TEN>
+		<TENHC>Paracetamol+Clorpheniramin</TENHC>
+		<DANG>Viên</DANG>
+		<TENKHO>Khám B (ĐC)</TENKHO>
+		<TENNGUON>Sự nghiệp</TENNGUON>
+		<TENNHOMCC>DNTN</TENNHOMCC>
+		<HANDUNG>0000</HANDUNG>
+		<LOSX>..........</LOSX>
+		<SOLUONG>12</SOLUONG>
+		<DONGIA>3937.5</DONGIA>
+		<SOTIEN>47250</SOTIEN>
+		<CACHDUNG>Ngày 4 Lần, Lần 1 Viên</CACHDUNG>
+		<MAKHO>4</MAKHO>
+		<MANGUON>1</MANGUON>
+		<NHOMCC>3</NHOMCC>
+	</Table>
+</NewDataSet>

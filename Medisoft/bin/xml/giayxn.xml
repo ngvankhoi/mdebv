@@ -1,0 +1,96 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="MAQL" type="xs:decimal" minOccurs="0" />
+                <xs:element name="TENBV" type="xs:string" minOccurs="0" />
+                <xs:element name="TENKP" type="xs:string" minOccurs="0" />
+                <xs:element name="MABN" type="xs:string" minOccurs="0" />
+                <xs:element name="HOTEN" type="xs:string" minOccurs="0" />
+                <xs:element name="NAMSINH" type="xs:string" minOccurs="0" />
+                <xs:element name="PHAI" type="xs:string" minOccurs="0" />
+                <xs:element name="TENNN" type="xs:string" minOccurs="0" />
+                <xs:element name="DANTOC" type="xs:string" minOccurs="0" />
+                <xs:element name="DOITUONG" type="xs:string" minOccurs="0" />
+                <xs:element name="SOTHE" type="xs:string" minOccurs="0" />
+                <xs:element name="DENNGAY" type="xs:string" minOccurs="0" />
+                <xs:element name="DIACHI" type="xs:string" minOccurs="0" />
+                <xs:element name="NOILAMVIEC" type="xs:string" minOccurs="0" />
+                <xs:element name="NGAYVAO" type="xs:string" minOccurs="0" />
+                <xs:element name="NGAYRA" type="xs:string" minOccurs="0" />
+                <xs:element name="CHANDOAN" type="xs:string" minOccurs="0" />
+                <xs:element name="MAICD" type="xs:string" minOccurs="0" />
+                <xs:element name="TENBS" type="xs:string" minOccurs="0" />
+                <xs:element name="NOIDKKCB" type="xs:string" minOccurs="0" />
+                <xs:element name="NOIGIOITHIEU" type="xs:string" minOccurs="0" />
+                <xs:element name="LAMSANG" type="xs:string" minOccurs="0" />
+                <xs:element name="XN" type="xs:string" minOccurs="0" />
+                <xs:element name="THUOC" type="xs:string" minOccurs="0" />
+                <xs:element name="TINHTRANG" type="xs:string" minOccurs="0" />
+                <xs:element name="LYDO" type="xs:string" minOccurs="0" />
+                <xs:element name="NGAY" type="xs:string" minOccurs="0" />
+                <xs:element name="VANCHUYEN" type="xs:string" minOccurs="0" />
+                <xs:element name="NGUOIDUA" type="xs:string" minOccurs="0" />
+                <xs:element name="loaibn" type="xs:decimal" minOccurs="0" />
+                <xs:element name="lanin" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <MAQL>90417081717977055</MAQL>
+    <TENBV>0003917/09</TENBV>
+    <TENKP>Khoa Nội</TENKP>
+    <MABN>09806616</MABN>
+    <HOTEN>HOÀNG ĐỨC TRÌNH   </HOTEN>
+    <NAMSINH>1967</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <TENNN>Loại khác</TENNN>
+    <DANTOC>*Kinh</DANTOC>
+    <DOITUONG>Thu phí</DOITUONG>
+    <SOTHE />
+    <DENNGAY />
+    <DIACHI>140/5 5 ,P. Tam Bình ,Q. Thủ Đức ,Tp. H C M</DIACHI>
+    <NOILAMVIEC />
+    <NGAYVAO>17/04/2009 08:16</NGAYVAO>
+    <NGAYRA>21/04/2009 16:00</NGAYRA>
+    <CHANDOAN />
+    <MAICD />
+    <TENBS>Bs Lê Hồng Điểm</TENBS>
+    <NOIDKKCB>Tiêu chảy chức năng</NOIDKKCB>
+    <NOIGIOITHIEU>Viêm dạ dày </NOIGIOITHIEU>
+    <LAMSANG />
+    <XN>phương pháp</XN>
+    <THUOC>Diazepam 5mg 4.00 Viên;
+Hamett 3g 2.00 Gói;
+Oresol 27,5g 1.00 Gói;
+Glucose 5% 500ml 1.00 Chai;
+Natri clorid 0.9% 500ml 1.00 Chai;
+Lactat Ringer 500ml 3.00 Chai;
+Neopeptin 2.00 Viên;
+Atropin Sulfat (Ống) 0,25mg/1ml 2.00 Ống;
+Mekociprox 500mg 2.00 Viên;
+Biocupan 20mg 10.00 Ống;
+Konimag 2.00 Gói;
+Grangel 8.00 Gói;
+Pantoprazol 40mg 10.00 Hộp;
+Actadol 500mg 3.00 Viên;
+</THUOC>
+    <TINHTRANG>1,676,182.50</TINHTRANG>
+    <LYDO>lý do vào viện
+</LYDO>
+    <NGAY />
+    <VANCHUYEN />
+    <NGUOIDUA />
+    <loaibn>5</loaibn>
+    <lanin>3</lanin>
+  </Table>
+</NewDataSet>

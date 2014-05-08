@@ -1,0 +1,5420 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ID" type="xs:decimal" minOccurs="0" />
+                <xs:element name="MABN" type="xs:string" minOccurs="0" />
+                <xs:element name="HOTEN" type="xs:string" minOccurs="0" />
+                <xs:element name="SOBIENLAI" type="xs:decimal" minOccurs="0" />
+                <xs:element name="SOVAOVIEN" type="xs:string" minOccurs="0" />
+                <xs:element name="SOTIEN" type="xs:decimal" minOccurs="0" />
+                <xs:element name="NGAY" type="xs:string" minOccurs="0" />
+                <xs:element name="QUYENSO" type="xs:string" minOccurs="0" />
+                <xs:element name="QUYENSOID" type="xs:decimal" minOccurs="0" />
+                <xs:element name="DOITUONG" type="xs:string" minOccurs="0" />
+                <xs:element name="TENKP" type="xs:string" minOccurs="0" />
+                <xs:element name="NGUOITHU" type="xs:string" minOccurs="0" />
+                <xs:element name="USERID" type="xs:string" minOccurs="0" />
+                <xs:element name="HUY" type="xs:decimal" minOccurs="0" />
+                <xs:element name="TENTT" type="xs:string" minOccurs="0" />
+                <xs:element name="TENQUAN" type="xs:string" minOccurs="0" />
+                <xs:element name="TENPXA" type="xs:string" minOccurs="0" />
+                <xs:element name="SONHA" type="xs:string" minOccurs="0" />
+                <xs:element name="THON" type="xs:string" minOccurs="0" />
+                <xs:element name="CHOLAM" type="xs:string" minOccurs="0" />
+                <xs:element name="NGAYSINH" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <ID>58000000501</ID>
+    <MABN>04111047</MABN>
+    <HOTEN>BẠCH ĐĂNG QUANG</HOTEN>
+    <SOBIENLAI>596</SOBIENLAI>
+    <SOVAOVIEN>0017716/06</SOVAOVIEN>
+    <SOTIEN>900000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUBS2006</QUYENSO>
+    <QUYENSOID>109</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Hồi Sức Cấp Cứu</TENKP>
+    <NGUOITHU>Phạm Tuyết Trinh</NGUOITHU>
+    <USERID>Phạm Tuyết Trinh (trinh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Quận Thanh Xuân</TENQUAN>
+    <TENPXA>Phường Khương Trung</TENPXA>
+    <NGAYSINH>01/06/2002</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>58000000502</ID>
+    <MABN>06063521</MABN>
+    <HOTEN>NGÔ BẢO LINH</HOTEN>
+    <SOBIENLAI>597</SOBIENLAI>
+    <SOVAOVIEN>0016457/06</SOVAOVIEN>
+    <SOTIEN>800000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUBS2006</QUYENSO>
+    <QUYENSOID>109</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Hồi Sức Ngoại Khoa</TENKP>
+    <NGUOITHU>Phạm Tuyết Trinh</NGUOITHU>
+    <USERID>Phạm Tuyết Trinh (trinh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Tây</TENTT>
+    <TENQUAN>Thị xã Hà Đông</TENQUAN>
+    <TENPXA>Phường Phúc La</TENPXA>
+    <NGAYSINH>15/07/2004</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>58000000503</ID>
+    <MABN>06039901</MABN>
+    <HOTEN>NGUYỄN KHÁNH LINH</HOTEN>
+    <SOBIENLAI>598</SOBIENLAI>
+    <SOVAOVIEN>0015967/06</SOVAOVIEN>
+    <SOTIEN>1000000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUBS2006</QUYENSO>
+    <QUYENSOID>109</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Hồi Sức Cấp Cứu</TENKP>
+    <NGUOITHU>Phạm Tuyết Trinh</NGUOITHU>
+    <USERID>Phạm Tuyết Trinh (trinh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nam</TENTT>
+    <TENQUAN>Huyện Bình Lục</TENQUAN>
+    <TENPXA>Xã Đồn Xá</TENPXA>
+    <NGAYSINH>11/10/2005</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>58000000504</ID>
+    <MABN>06067193</MABN>
+    <HOTEN>NGUYỄN MINH ĐỨC</HOTEN>
+    <SOBIENLAI>599</SOBIENLAI>
+    <SOVAOVIEN>0017386/06</SOVAOVIEN>
+    <SOTIEN>1000000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUBS2006</QUYENSO>
+    <QUYENSOID>109</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Hồi Sức Cấp Cứu</TENKP>
+    <NGUOITHU>Phạm Tuyết Trinh</NGUOITHU>
+    <USERID>Phạm Tuyết Trinh (trinh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Quận Hai Bà Trưng</TENQUAN>
+    <TENPXA>Phường Trương Định</TENPXA>
+    <NGAYSINH>16/05/2006</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>58000000505</ID>
+    <MABN>06999902</MABN>
+    <HOTEN>NGUYỄN ĐỨC TRUNG</HOTEN>
+    <SOBIENLAI>600</SOBIENLAI>
+    <SOVAOVIEN>0016125/06</SOVAOVIEN>
+    <SOTIEN>600000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUBS2006</QUYENSO>
+    <QUYENSOID>109</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Hồi Sức Cấp Cứu</TENKP>
+    <NGUOITHU>Phạm Tuyết Trinh</NGUOITHU>
+    <USERID>Phạm Tuyết Trinh (trinh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Quận Hai Bà Trưng</TENQUAN>
+    <TENPXA>Phường Bạch Đằng</TENPXA>
+    <NGAYSINH>28/10/2005</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>58000000506</ID>
+    <MABN>06863047</MABN>
+    <HOTEN>LÊ THỊ HOÀN</HOTEN>
+    <SOBIENLAI>601</SOBIENLAI>
+    <SOVAOVIEN>0016914/06</SOVAOVIEN>
+    <SOTIEN>1200000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUBS2006</QUYENSO>
+    <QUYENSOID>109</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Hồi Sức Cấp Cứu</TENKP>
+    <NGUOITHU>Phạm Tuyết Trinh</NGUOITHU>
+    <USERID>Phạm Tuyết Trinh (trinh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Nam Định</TENTT>
+    <TENQUAN>Huyện Mỹ Lộc</TENQUAN>
+    <TENPXA>Xã Mỹ Hà</TENPXA>
+    <NGAYSINH>1998</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>29000001945</ID>
+    <MABN>05172210</MABN>
+    <HOTEN>NGUYỄN YẾN MINH</HOTEN>
+    <SOBIENLAI>5668</SOBIENLAI>
+    <SOVAOVIEN>0017836/06</SOVAOVIEN>
+    <SOTIEN>600000</SOTIEN>
+    <NGAY>21/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Hồi Sức Cấp Cứu</TENKP>
+    <NGUOITHU>Vũ Thanh Thủy</NGUOITHU>
+    <USERID>Vũ Thanh Thủy (thuy1 )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Quận Ba Đình</TENQUAN>
+    <TENPXA>Phường Vĩnh Phúc</TENPXA>
+    <NGAYSINH>17/12/2004</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>29000001946</ID>
+    <MABN>06070897</MABN>
+    <HOTEN>NGUYỄN TÚ UYÊN</HOTEN>
+    <SOBIENLAI>5669</SOBIENLAI>
+    <SOVAOVIEN>0017837/06</SOVAOVIEN>
+    <SOTIEN>600000</SOTIEN>
+    <NGAY>21/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Tiêu Hoá - A8</TENKP>
+    <NGUOITHU>Vũ Thanh Thủy</NGUOITHU>
+    <USERID>Vũ Thanh Thủy (thuy1 )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Huyện Gia Lâm</TENQUAN>
+    <TENPXA>Xã Ninh Hiệp</TENPXA>
+    <NGAYSINH>24/02/2005</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>29000001947</ID>
+    <MABN>06071217</MABN>
+    <HOTEN>NGUYỄN THỊ CHIÊN</HOTEN>
+    <SOBIENLAI>5670</SOBIENLAI>
+    <SOVAOVIEN>0017748/06</SOVAOVIEN>
+    <SOTIEN>800000</SOTIEN>
+    <NGAY>21/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Cấp Cứu Lưu - A2</TENKP>
+    <NGUOITHU>Vũ Thanh Thủy</NGUOITHU>
+    <USERID>Vũ Thanh Thủy (thuy1 )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Tây</TENTT>
+    <TENQUAN>Huyện Quốc Oai</TENQUAN>
+    <TENPXA>Xã Đồng Quang</TENPXA>
+    <NGAYSINH>16/05/2005</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>29000001949</ID>
+    <MABN>05136086</MABN>
+    <HOTEN>NGUYỄN VIẾT NAM</HOTEN>
+    <SOBIENLAI>5671</SOBIENLAI>
+    <SOVAOVIEN>0017838/06</SOVAOVIEN>
+    <SOTIEN>300000</SOTIEN>
+    <NGAY>21/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Tim Mạch - A10</TENKP>
+    <NGUOITHU>Vũ Thanh Thủy</NGUOITHU>
+    <USERID>Vũ Thanh Thủy (thuy1 )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hải Dương</TENTT>
+    <TENQUAN>Thành phố Hải Dương</TENQUAN>
+    <TENPXA>Xã Việt Hòa</TENPXA>
+    <NGAYSINH>14/06/2005</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>29000001951</ID>
+    <MABN>06028857</MABN>
+    <HOTEN>ĐINH THỊ VIỆT ANH</HOTEN>
+    <SOBIENLAI>5672</SOBIENLAI>
+    <SOVAOVIEN>0017814/06</SOVAOVIEN>
+    <SOTIEN>800000</SOTIEN>
+    <NGAY>21/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Miễn</DOITUONG>
+    <TENKP>Cấp Cứu Lưu - A2</TENKP>
+    <NGUOITHU>Vũ Thanh Thủy</NGUOITHU>
+    <USERID>Vũ Thanh Thủy (thuy1 )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Bắc Ninh</TENTT>
+    <TENQUAN>Huyện Thuận Thành</TENQUAN>
+    <TENPXA>Xã Thanh Khương</TENPXA>
+    <NGAYSINH>10/08/2004</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>29000001952</ID>
+    <MABN>06070937</MABN>
+    <HOTEN>BÙI QUỐC BẢO</HOTEN>
+    <SOBIENLAI>5673</SOBIENLAI>
+    <SOVAOVIEN>0017840/06</SOVAOVIEN>
+    <SOTIEN>300000</SOTIEN>
+    <NGAY>21/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Miễn</DOITUONG>
+    <TENKP>Hô Hấp - A15</TENKP>
+    <NGUOITHU>Vũ Thanh Thủy</NGUOITHU>
+    <USERID>Vũ Thanh Thủy (thuy1 )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Yên Bái</TENTT>
+    <TENQUAN>Thị xã Yên Bái</TENQUAN>
+    <TENPXA>Phường Yên Ninh</TENPXA>
+    <NGAYSINH>04/10/2005</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>29000001953</ID>
+    <MABN>06071326</MABN>
+    <HOTEN>LÊ THUỲ DUNG</HOTEN>
+    <SOBIENLAI>5674</SOBIENLAI>
+    <SOVAOVIEN>0017841/06</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>21/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Cấp Cứu Lưu - A2</TENKP>
+    <NGUOITHU>Vũ Thanh Thủy</NGUOITHU>
+    <USERID>Vũ Thanh Thủy (thuy1 )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Tây</TENTT>
+    <TENQUAN>Huyện Hoài Đức</TENQUAN>
+    <TENPXA>Xã Cát Quế</TENPXA>
+    <NGAYSINH>01/03/2005</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>29000001955</ID>
+    <MABN>06070852</MABN>
+    <HOTEN>TẠ HUY HÀ</HOTEN>
+    <SOBIENLAI>5675</SOBIENLAI>
+    <SOVAOVIEN>0017843/06</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>21/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Cấp Cứu Lưu - A2</TENKP>
+    <NGUOITHU>Vũ Thanh Thủy</NGUOITHU>
+    <USERID>Vũ Thanh Thủy (thuy1 )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Huyện Từ Liêm</TENQUAN>
+    <TENPXA>Xã Cổ Nhuế</TENPXA>
+    <NGAYSINH>18/01/2003</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>29000001956</ID>
+    <MABN>06070843</MABN>
+    <HOTEN>NGUYỄN THUỲ LINH</HOTEN>
+    <SOBIENLAI>5676</SOBIENLAI>
+    <SOVAOVIEN>0017844/06</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>21/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Cấp Cứu Lưu - A2</TENKP>
+    <NGUOITHU>Vũ Thanh Thủy</NGUOITHU>
+    <USERID>Vũ Thanh Thủy (thuy1 )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Tuyên Quang</TENTT>
+    <TENQUAN>Huyện Sơn Dương</TENQUAN>
+    <TENPXA>Xã Phú Lương</TENPXA>
+    <NGAYSINH>10/05/2006</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>29000001957</ID>
+    <MABN>06070865</MABN>
+    <HOTEN>ĐẶNG QUANG HÙNG</HOTEN>
+    <SOBIENLAI>5677</SOBIENLAI>
+    <SOVAOVIEN>0017846/06</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>21/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Cấp Cứu Lưu - A2</TENKP>
+    <NGUOITHU>Vũ Thanh Thủy</NGUOITHU>
+    <USERID>Vũ Thanh Thủy (thuy1 )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hưng Yên</TENTT>
+    <TENQUAN>Huyện Ân Thi</TENQUAN>
+    <TENPXA>Xã Quang Vinh</TENPXA>
+    <NGAYSINH>17/11/2004</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>29000001958</ID>
+    <MABN>05089590</MABN>
+    <HOTEN>NGUYỄN HỮU PHÚC</HOTEN>
+    <SOBIENLAI>5678</SOBIENLAI>
+    <SOVAOVIEN>0017847/06</SOVAOVIEN>
+    <SOTIEN>600000</SOTIEN>
+    <NGAY>21/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Hô Hấp - A15</TENKP>
+    <NGUOITHU>Vũ Thanh Thủy</NGUOITHU>
+    <USERID>Vũ Thanh Thủy (thuy1 )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Huyện Từ Liêm</TENQUAN>
+    <TENPXA>Xã Tây Mỗ</TENPXA>
+    <NGAYSINH>09/12/1994</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>29000001959</ID>
+    <MABN>06070930</MABN>
+    <HOTEN>NGUYỄN THÁI SƠN</HOTEN>
+    <SOBIENLAI>5679</SOBIENLAI>
+    <SOVAOVIEN>0017848/06</SOVAOVIEN>
+    <SOTIEN>600000</SOTIEN>
+    <NGAY>21/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Hô Hấp - A15</TENKP>
+    <NGUOITHU>Vũ Thanh Thủy</NGUOITHU>
+    <USERID>Vũ Thanh Thủy (thuy1 )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Quận Đống Đa</TENQUAN>
+    <TENPXA>Phường Kim Liên</TENPXA>
+    <NGAYSINH>2004</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>29000001961</ID>
+    <MABN>06053594</MABN>
+    <HOTEN>CHU VĂN QUANG</HOTEN>
+    <SOBIENLAI>5680</SOBIENLAI>
+    <SOVAOVIEN>0017850/06</SOVAOVIEN>
+    <SOTIEN>400000</SOTIEN>
+    <NGAY>21/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Cấp Cứu Lưu - A2</TENKP>
+    <NGUOITHU>Vũ Thanh Thủy</NGUOITHU>
+    <USERID>Vũ Thanh Thủy (thuy1 )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Tây</TENTT>
+    <TENQUAN>Huyện Thạch Thất</TENQUAN>
+    <TENPXA>Không xác định</TENPXA>
+    <NGAYSINH>26/12/2005</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>29000001963</ID>
+    <MABN>06070835</MABN>
+    <HOTEN>NGUYỄN HOÀNG MAI CHI</HOTEN>
+    <SOBIENLAI>5681</SOBIENLAI>
+    <SOVAOVIEN>0017852/06</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>21/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Cấp Cứu Lưu - A2</TENKP>
+    <NGUOITHU>Vũ Thanh Thủy</NGUOITHU>
+    <USERID>Vũ Thanh Thủy (thuy1 )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Quận Ba Đình</TENQUAN>
+    <TENPXA>Phường Giảng Võ</TENPXA>
+    <NGAYSINH>07/07/1996</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>29000001965</ID>
+    <MABN>06058571</MABN>
+    <HOTEN>NGUYỄN VĂN THỊNH</HOTEN>
+    <SOBIENLAI>5682</SOBIENLAI>
+    <SOVAOVIEN>0017854/06</SOVAOVIEN>
+    <SOTIEN>600000</SOTIEN>
+    <NGAY>21/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Nội Thận Tiết Niệu - A11</TENKP>
+    <NGUOITHU>Vũ Thanh Thủy</NGUOITHU>
+    <USERID>Vũ Thanh Thủy (thuy1 )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Tây</TENTT>
+    <TENQUAN>Huyện Chương Mỹ</TENQUAN>
+    <TENPXA>Xã Trung Hòa</TENPXA>
+    <NGAYSINH>2000</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>29000001966</ID>
+    <MABN>06959098</MABN>
+    <HOTEN>ỨNG VŨ CHÍ BẰNG</HOTEN>
+    <SOBIENLAI>5683</SOBIENLAI>
+    <SOVAOVIEN>0017855/06</SOVAOVIEN>
+    <SOTIEN>600000</SOTIEN>
+    <NGAY>21/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Hô Hấp - A16</TENKP>
+    <NGUOITHU>Vũ Thanh Thủy</NGUOITHU>
+    <USERID>Vũ Thanh Thủy (thuy1 )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Quận Hai Bà Trưng</TENQUAN>
+    <TENPXA>Không xác định</TENPXA>
+    <NGAYSINH>20/09/2005</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>29000001968</ID>
+    <MABN>05018432</MABN>
+    <HOTEN>KIỀU ANH CHI</HOTEN>
+    <SOBIENLAI>5684</SOBIENLAI>
+    <SOVAOVIEN>0017857/06</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>21/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Cấp Cứu Lưu - A2</TENKP>
+    <NGUOITHU>Vũ Thanh Thủy</NGUOITHU>
+    <USERID>Vũ Thanh Thủy (thuy1 )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Quận Thanh Xuân</TENQUAN>
+    <TENPXA>Phường Khương Trung</TENPXA>
+    <NGAYSINH>05/01/2004</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>29000001969</ID>
+    <MABN>05160022</MABN>
+    <HOTEN>TRẦN CÔNG THÀNH</HOTEN>
+    <SOBIENLAI>5685</SOBIENLAI>
+    <SOVAOVIEN>0017858/06</SOVAOVIEN>
+    <SOTIEN>400000</SOTIEN>
+    <NGAY>21/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Cấp Cứu Lưu - A2</TENKP>
+    <NGUOITHU>Vũ Thanh Thủy</NGUOITHU>
+    <USERID>Vũ Thanh Thủy (thuy1 )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Quận Ba Đình</TENQUAN>
+    <TENPXA>Phường Vĩnh Phúc</TENPXA>
+    <NGAYSINH>22/05/2005</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>29000001970</ID>
+    <MABN>06070888</MABN>
+    <HOTEN>TRẦN THỊ LAN ANH</HOTEN>
+    <SOBIENLAI>5686</SOBIENLAI>
+    <SOVAOVIEN>0017859/06</SOVAOVIEN>
+    <SOTIEN>400000</SOTIEN>
+    <NGAY>21/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Tiêu Hoá - A8</TENKP>
+    <NGUOITHU>Vũ Thanh Thủy</NGUOITHU>
+    <USERID>Vũ Thanh Thủy (thuy1 )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hưng Yên</TENTT>
+    <TENQUAN>Huyện Khoái Châu</TENQUAN>
+    <TENPXA>Xã Tứ Dân</TENPXA>
+    <NGAYSINH>26/07/2005</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>29000001971</ID>
+    <MABN>06070884</MABN>
+    <HOTEN>PHAN MINH  HUYỀN</HOTEN>
+    <SOBIENLAI>5687</SOBIENLAI>
+    <SOVAOVIEN>0017860/06</SOVAOVIEN>
+    <SOTIEN>600000</SOTIEN>
+    <NGAY>21/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Cấp Cứu Lưu - A2</TENKP>
+    <NGUOITHU>Vũ Thanh Thủy</NGUOITHU>
+    <USERID>Vũ Thanh Thủy (thuy1 )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Quận Ba Đình</TENQUAN>
+    <TENPXA>Phường Phúc Xá</TENPXA>
+    <NGAYSINH>04/06/2003</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>29000001976</ID>
+    <MABN>05011031</MABN>
+    <HOTEN>VŨ ANH TUẤN</HOTEN>
+    <SOBIENLAI>5688</SOBIENLAI>
+    <SOVAOVIEN>0017863/06</SOVAOVIEN>
+    <SOTIEN>500000</SOTIEN>
+    <NGAY>21/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Cấp Cứu Lưu - A2</TENKP>
+    <NGUOITHU>Vũ Thanh Thủy</NGUOITHU>
+    <USERID>Vũ Thanh Thủy (thuy1 )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Huyện Từ Liêm</TENQUAN>
+    <TENPXA>Xã Liên Mạc</TENPXA>
+    <NGAYSINH>16/02/2004</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>29000001977</ID>
+    <MABN>06071042</MABN>
+    <HOTEN>VŨ PHAN LONG</HOTEN>
+    <SOBIENLAI>5689</SOBIENLAI>
+    <SOVAOVIEN>0017864/06</SOVAOVIEN>
+    <SOTIEN>500000</SOTIEN>
+    <NGAY>21/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Cấp Cứu Lưu - A2</TENKP>
+    <NGUOITHU>Vũ Thanh Thủy</NGUOITHU>
+    <USERID>Vũ Thanh Thủy (thuy1 )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Quận Đống Đa</TENQUAN>
+    <TENPXA>Phường Hàng Bột</TENPXA>
+    <NGAYSINH>26/07/2003</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>29000001979</ID>
+    <MABN>06070954</MABN>
+    <HOTEN>KIM NGỌC ÁNH</HOTEN>
+    <SOBIENLAI>5690</SOBIENLAI>
+    <SOVAOVIEN>0017839/06</SOVAOVIEN>
+    <SOTIEN>500000</SOTIEN>
+    <NGAY>21/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Cấp Cứu Lưu - A2</TENKP>
+    <NGUOITHU>Vũ Thanh Thủy</NGUOITHU>
+    <USERID>Vũ Thanh Thủy (thuy1 )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Tây</TENTT>
+    <TENQUAN>Huyện ứng Hòa</TENQUAN>
+    <TENPXA>Không xác định</TENPXA>
+    <NGAYSINH>28/09/2005</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>29000001980</ID>
+    <MABN>06070818</MABN>
+    <HOTEN>TRẦN XUÂN QUANG</HOTEN>
+    <SOBIENLAI>5691</SOBIENLAI>
+    <SOVAOVIEN>0017867/06</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>21/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Cấp Cứu Lưu - A2</TENKP>
+    <NGUOITHU>Vũ Thanh Thủy</NGUOITHU>
+    <USERID>Vũ Thanh Thủy (thuy1 )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Huyện Đông Anh</TENQUAN>
+    <TENPXA>Không xác định</TENPXA>
+    <NGAYSINH>16/01/2006</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>29000001981</ID>
+    <MABN>06070894</MABN>
+    <HOTEN>PHẠM XUÂN BÁCH</HOTEN>
+    <SOBIENLAI>5692</SOBIENLAI>
+    <SOVAOVIEN>0017868/06</SOVAOVIEN>
+    <SOTIEN>400000</SOTIEN>
+    <NGAY>21/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Cấp Cứu Lưu - A2</TENKP>
+    <NGUOITHU>Vũ Thanh Thủy</NGUOITHU>
+    <USERID>Vũ Thanh Thủy (thuy1 )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hải Dương</TENTT>
+    <TENQUAN>Huyện Thanh Hà</TENQUAN>
+    <TENPXA>Không xác định</TENPXA>
+    <NGAYSINH>09/01/2005</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>29000001982</ID>
+    <MABN>06070819</MABN>
+    <HOTEN>NHÂM THÁI BÌNH</HOTEN>
+    <SOBIENLAI>5693</SOBIENLAI>
+    <SOVAOVIEN>0017869/06</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>21/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Cấp Cứu Lưu - A2</TENKP>
+    <NGUOITHU>Vũ Thanh Thủy</NGUOITHU>
+    <USERID>Vũ Thanh Thủy (thuy1 )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Quận Long Biên</TENQUAN>
+    <TENPXA>Không Xác Định</TENPXA>
+    <NGAYSINH>21/12/2003</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>29000001983</ID>
+    <MABN>06071127</MABN>
+    <HOTEN>TRƯƠNG ÁNH TUYẾT</HOTEN>
+    <SOBIENLAI>5694</SOBIENLAI>
+    <SOVAOVIEN>0017870/06</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>21/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Cấp Cứu Lưu - A2</TENKP>
+    <NGUOITHU>Vũ Thanh Thủy</NGUOITHU>
+    <USERID>Vũ Thanh Thủy (thuy1 )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Phú Thọ</TENTT>
+    <TENQUAN>Huyện Tam Thanh</TENQUAN>
+    <TENPXA>Xã Phương Thịnh</TENPXA>
+    <NGAYSINH>24/04/2006</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>29000001984</ID>
+    <MABN>05164770</MABN>
+    <HOTEN>NGUYỄN THU HUYỀN</HOTEN>
+    <SOBIENLAI>5695</SOBIENLAI>
+    <SOVAOVIEN>0017871/06</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>21/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Cấp Cứu Lưu - A2</TENKP>
+    <NGUOITHU>Vũ Thanh Thủy</NGUOITHU>
+    <USERID>Vũ Thanh Thủy (thuy1 )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Quận Ba Đình</TENQUAN>
+    <TENPXA>Phường Liễu Giai</TENPXA>
+    <NGAYSINH>12/06/2005</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>29000001985</ID>
+    <MABN>06070942</MABN>
+    <HOTEN>DƯƠNG NGỌC MINH</HOTEN>
+    <SOBIENLAI>5696</SOBIENLAI>
+    <SOVAOVIEN>0017872/06</SOVAOVIEN>
+    <SOTIEN>600000</SOTIEN>
+    <NGAY>21/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Cấp Cứu Lưu - A2</TENKP>
+    <NGUOITHU>Vũ Thanh Thủy</NGUOITHU>
+    <USERID>Vũ Thanh Thủy (thuy1 )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Huyện Từ Liêm</TENQUAN>
+    <TENPXA>Xã Xuân Đỉnh</TENPXA>
+    <NGAYSINH>14/05/2006</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>109000000737</ID>
+    <MABN>06022382</MABN>
+    <HOTEN>VŨ THU TRANG</HOTEN>
+    <SOBIENLAI>5697</SOBIENLAI>
+    <SOVAOVIEN>2</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>21/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Cấp Cứu Lưu - A2</TENKP>
+    <NGUOITHU>Nguyễn Thế Trọng</NGUOITHU>
+    <USERID>Nguyễn Thế Trọng (trongnt )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Tây</TENTT>
+    <TENQUAN>Huyện Thường Tín</TENQUAN>
+    <TENPXA>Xã Tô Hiệu</TENPXA>
+    <NGAYSINH>07/01/2006</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>109000000739</ID>
+    <MABN>05088077</MABN>
+    <HOTEN>NGUYỄN PHƯƠNG ANH</HOTEN>
+    <SOBIENLAI>5698</SOBIENLAI>
+    <SOVAOVIEN>0017875/06</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>21/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Cấp Cứu Lưu - A2</TENKP>
+    <NGUOITHU>Nguyễn Thế Trọng</NGUOITHU>
+    <USERID>Nguyễn Thế Trọng (trongnt )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Quận Tây Hồ</TENQUAN>
+    <TENPXA>Phường Thuỵ Khuê</TENPXA>
+    <NGAYSINH>02/12/2004</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>109000000741</ID>
+    <MABN>06070782</MABN>
+    <HOTEN>VÕ VĂN HOÀNG</HOTEN>
+    <SOBIENLAI>5699</SOBIENLAI>
+    <SOVAOVIEN>0017876/06</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>21/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Truyền Nhiễm - K</TENKP>
+    <NGUOITHU>Nguyễn Thế Trọng</NGUOITHU>
+    <USERID>Nguyễn Thế Trọng (trongnt )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Tĩnh</TENTT>
+    <TENQUAN>Huyện Cẩm Xuyên</TENQUAN>
+    <TENPXA>Xã Cẩm Bình</TENPXA>
+    <NGAYSINH>03/09/2001</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>109000000742</ID>
+    <MABN>06949588</MABN>
+    <HOTEN>HOÀNG TUẤN MINH</HOTEN>
+    <SOBIENLAI>5700</SOBIENLAI>
+    <SOVAOVIEN>0017877/06</SOVAOVIEN>
+    <SOTIEN>400000</SOTIEN>
+    <NGAY>21/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Tiêu Hoá - A8</TENKP>
+    <NGUOITHU>Nguyễn Thế Trọng</NGUOITHU>
+    <USERID>Nguyễn Thế Trọng (trongnt )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Quận Hoàng Mai</TENQUAN>
+    <TENPXA>Phường Định Công</TENPXA>
+    <NGAYSINH>17/10/2005</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>109000000743</ID>
+    <MABN>06070792</MABN>
+    <HOTEN>NGUYỄN THƯ ANH</HOTEN>
+    <SOBIENLAI>5701</SOBIENLAI>
+    <SOVAOVIEN>0017878/06</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>21/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Tiêu Hoá - A8</TENKP>
+    <NGUOITHU>Nguyễn Thế Trọng</NGUOITHU>
+    <USERID>Nguyễn Thế Trọng (trongnt )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Vĩnh Phúc</TENTT>
+    <TENQUAN>Thị Xã Phúc Yên</TENQUAN>
+    <TENPXA>Không Xác Định</TENPXA>
+    <NGAYSINH>24/07/2005</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>109000000744</ID>
+    <MABN>06355107</MABN>
+    <HOTEN>NGUYỄN TUẤN DŨNG</HOTEN>
+    <SOBIENLAI>5702</SOBIENLAI>
+    <SOVAOVIEN>0017879/06</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>21/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Cấp Cứu Lưu - A2</TENKP>
+    <NGUOITHU>Nguyễn Thế Trọng</NGUOITHU>
+    <USERID>Nguyễn Thế Trọng (trongnt )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Quận Thanh Xuân</TENQUAN>
+    <TENPXA>Phường Khương Trung</TENPXA>
+    <NGAYSINH>25/01/2001</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>109000000745</ID>
+    <MABN>06070791</MABN>
+    <HOTEN>NGUYỄN THỊ TRÀ MY</HOTEN>
+    <SOBIENLAI>5703</SOBIENLAI>
+    <SOVAOVIEN>0017880/06</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>21/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Tiêu Hoá - A8</TENKP>
+    <NGUOITHU>Nguyễn Thế Trọng</NGUOITHU>
+    <USERID>Nguyễn Thế Trọng (trongnt )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Quận Hoàng Mai</TENQUAN>
+    <TENPXA>Phường Thịnh Liệt</TENPXA>
+    <NGAYSINH>13/06/2005</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>109000000746</ID>
+    <MABN>06070790</MABN>
+    <HOTEN>NGUYỄN TRƯỜNG GIANG</HOTEN>
+    <SOBIENLAI>5704</SOBIENLAI>
+    <SOVAOVIEN>0017881/06</SOVAOVIEN>
+    <SOTIEN>300000</SOTIEN>
+    <NGAY>21/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Truyền Nhiễm - K</TENKP>
+    <NGUOITHU>Nguyễn Thế Trọng</NGUOITHU>
+    <USERID>Nguyễn Thế Trọng (trongnt )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Tây</TENTT>
+    <TENQUAN>Huyện Đan Phượng</TENQUAN>
+    <TENPXA>Xã Liên Hà</TENPXA>
+    <NGAYSINH>2005</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>109000000748</ID>
+    <MABN>06069478</MABN>
+    <HOTEN>NGUYỄN VĂN HÙNG</HOTEN>
+    <SOBIENLAI>5705</SOBIENLAI>
+    <SOVAOVIEN>0017883/06</SOVAOVIEN>
+    <SOTIEN>400000</SOTIEN>
+    <NGAY>21/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Cấp Cứu Lưu - A2</TENKP>
+    <NGUOITHU>Nguyễn Thế Trọng</NGUOITHU>
+    <USERID>Nguyễn Thế Trọng (trongnt )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Tây</TENTT>
+    <TENQUAN>Huyện Thường Tín</TENQUAN>
+    <TENPXA>Xã Văn Phú</TENPXA>
+    <NGAYSINH>10/08/2000</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>109000000749</ID>
+    <MABN>06070931</MABN>
+    <HOTEN>PHẠM HẢI NGỌC ANH</HOTEN>
+    <SOBIENLAI>5706</SOBIENLAI>
+    <SOVAOVIEN>0017884/06</SOVAOVIEN>
+    <SOTIEN>300000</SOTIEN>
+    <NGAY>21/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Cấp Cứu Lưu - A2</TENKP>
+    <NGUOITHU>Nguyễn Thế Trọng</NGUOITHU>
+    <USERID>Nguyễn Thế Trọng (trongnt )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Tây</TENTT>
+    <TENQUAN>Huyện Thanh Oai</TENQUAN>
+    <TENPXA>Xã Cự Khê</TENPXA>
+    <NGAYSINH>16/12/2002</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>109000000750</ID>
+    <MABN>06065609</MABN>
+    <HOTEN>NGUYỄN DUY MAI ANH</HOTEN>
+    <SOBIENLAI>5707</SOBIENLAI>
+    <SOVAOVIEN>14</SOVAOVIEN>
+    <SOTIEN>300000</SOTIEN>
+    <NGAY>21/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Cấp Cứu Lưu - A2</TENKP>
+    <NGUOITHU>Nguyễn Thế Trọng</NGUOITHU>
+    <USERID>Nguyễn Thế Trọng (trongnt )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Quận Hai Bà Trưng</TENQUAN>
+    <TENPXA>Phường Trương Định</TENPXA>
+    <NGAYSINH>01/05/2006</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>109000000751</ID>
+    <MABN>05017814</MABN>
+    <HOTEN>NGUYỄN LÊ QUANG HUY</HOTEN>
+    <SOBIENLAI>5708</SOBIENLAI>
+    <SOVAOVIEN>0017885/06</SOVAOVIEN>
+    <SOTIEN>300000</SOTIEN>
+    <NGAY>21/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Cấp Cứu Lưu - A2</TENKP>
+    <NGUOITHU>Nguyễn Thế Trọng</NGUOITHU>
+    <USERID>Nguyễn Thế Trọng (trongnt )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Quận Thanh Xuân</TENQUAN>
+    <TENPXA>Phường Thanh Xuân Nam</TENPXA>
+    <NGAYSINH>06/09/2000</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>109000000752</ID>
+    <MABN>05016229</MABN>
+    <HOTEN>NGUYỄN THÀNH LỘC</HOTEN>
+    <SOBIENLAI>5709</SOBIENLAI>
+    <SOVAOVIEN>16</SOVAOVIEN>
+    <SOTIEN>600000</SOTIEN>
+    <NGAY>21/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Hô Hấp - A15</TENKP>
+    <NGUOITHU>Nguyễn Thế Trọng</NGUOITHU>
+    <USERID>Nguyễn Thế Trọng (trongnt )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Quận Đống Đa</TENQUAN>
+    <TENPXA>Phường Láng Thượng</TENPXA>
+    <NGAYSINH>28/02/1997</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>109000000753</ID>
+    <MABN>05176498</MABN>
+    <HOTEN>ĐẶNG THÀNH ĐẠT</HOTEN>
+    <SOBIENLAI>5710</SOBIENLAI>
+    <SOVAOVIEN>14</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>21/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Cấp Cứu Lưu - A2</TENKP>
+    <NGUOITHU>Nguyễn Thế Trọng</NGUOITHU>
+    <USERID>Nguyễn Thế Trọng (trongnt )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hòa Bình</TENTT>
+    <TENQUAN>Huyện Lương Sơn</TENQUAN>
+    <TENPXA>Xã Thành Lập</TENPXA>
+    <NGAYSINH>03/08/2000</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>109000000754</ID>
+    <MABN>06070731</MABN>
+    <HOTEN>NGUYỄN PHƯƠNG THẢO</HOTEN>
+    <SOBIENLAI>5711</SOBIENLAI>
+    <SOVAOVIEN>0017886/06</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>21/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Cấp Cứu Lưu - A2</TENKP>
+    <NGUOITHU>Nguyễn Thế Trọng</NGUOITHU>
+    <USERID>Nguyễn Thế Trọng (trongnt )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Quận Thanh Xuân</TENQUAN>
+    <TENPXA>Phường Nhân Chính</TENPXA>
+    <NGAYSINH>08/05/2002</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>109000000755</ID>
+    <MABN>04882388</MABN>
+    <HOTEN>TÔ MINH NHẬT</HOTEN>
+    <SOBIENLAI>5712</SOBIENLAI>
+    <SOVAOVIEN>0017887/06</SOVAOVIEN>
+    <SOTIEN>600000</SOTIEN>
+    <NGAY>21/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Hô Hấp - A15</TENKP>
+    <NGUOITHU>Nguyễn Thế Trọng</NGUOITHU>
+    <USERID>Nguyễn Thế Trọng (trongnt )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Quận Hoàng Mai</TENQUAN>
+    <TENPXA>Phường Hoàng Liệt</TENPXA>
+    <NGAYSINH>17/03/2002</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>109000000757</ID>
+    <MABN>05065144</MABN>
+    <HOTEN>NGUYỄN QUANG HUY</HOTEN>
+    <SOBIENLAI>5713</SOBIENLAI>
+    <SOVAOVIEN>0017890/06</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>21/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Cấp Cứu Lưu - A2</TENKP>
+    <NGUOITHU>Nguyễn Thế Trọng</NGUOITHU>
+    <USERID>Nguyễn Thế Trọng (trongnt )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Quận Ba Đình</TENQUAN>
+    <TENPXA>Phường Ngọc Khánh</TENPXA>
+    <NGAYSINH>14/12/2003</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>109000000758</ID>
+    <MABN>06070730</MABN>
+    <HOTEN>NGUYỄN QUANG THẮNG</HOTEN>
+    <SOBIENLAI>5714</SOBIENLAI>
+    <SOVAOVIEN>0017891/06</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>21/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Cấp Cứu Lưu - A2</TENKP>
+    <NGUOITHU>Nguyễn Thế Trọng</NGUOITHU>
+    <USERID>Nguyễn Thế Trọng (trongnt )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Tây</TENTT>
+    <TENQUAN>Huyện Phú Xuyên</TENQUAN>
+    <TENPXA>Xã Phú Yên</TENPXA>
+    <NGAYSINH>24/01/2006</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>109000000759</ID>
+    <MABN>06070736</MABN>
+    <HOTEN>DƯƠNG TRUNG ĐỨC</HOTEN>
+    <SOBIENLAI>5715</SOBIENLAI>
+    <SOVAOVIEN>0017892/06</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>21/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Cấp Cứu Lưu - A2</TENKP>
+    <NGUOITHU>Nguyễn Thế Trọng</NGUOITHU>
+    <USERID>Nguyễn Thế Trọng (trongnt )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hưng Yên</TENTT>
+    <TENQUAN>Huyện Văn Lâm</TENQUAN>
+    <TENPXA>Xã Lạc Đạo</TENPXA>
+    <NGAYSINH>17/12/2003</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>109000000760</ID>
+    <MABN>06039021</MABN>
+    <HOTEN>NGUYỄN VĂN PHAN</HOTEN>
+    <SOBIENLAI>5716</SOBIENLAI>
+    <SOVAOVIEN>30</SOVAOVIEN>
+    <SOTIEN>300000</SOTIEN>
+    <NGAY>21/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Tâm Thần - A17</TENKP>
+    <NGUOITHU>Nguyễn Thế Trọng</NGUOITHU>
+    <USERID>Nguyễn Thế Trọng (trongnt )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Tây</TENTT>
+    <TENQUAN>Huyện Quốc Oai</TENQUAN>
+    <TENPXA>Xã Đông Yên</TENPXA>
+    <NGAYSINH>15/04/1995</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>109000000761</ID>
+    <MABN>06070829</MABN>
+    <HOTEN>NGUYỄN DUY KIÊN</HOTEN>
+    <SOBIENLAI>5717</SOBIENLAI>
+    <SOVAOVIEN>0017893/06</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>21/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Cấp Cứu Lưu - A2</TENKP>
+    <NGUOITHU>Nguyễn Thế Trọng</NGUOITHU>
+    <USERID>Nguyễn Thế Trọng (trongnt )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Quận Ba Đình</TENQUAN>
+    <TENPXA>Phường Thành Công</TENPXA>
+    <NGAYSINH>19/10/2001</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>109000000762</ID>
+    <MABN>06070733</MABN>
+    <HOTEN>NGUYỄN HỒNG NGỌC</HOTEN>
+    <SOBIENLAI>5718</SOBIENLAI>
+    <SOVAOVIEN>0017894/06</SOVAOVIEN>
+    <SOTIEN>400000</SOTIEN>
+    <NGAY>21/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Cấp Cứu Lưu - A2</TENKP>
+    <NGUOITHU>Nguyễn Thế Trọng</NGUOITHU>
+    <USERID>Nguyễn Thế Trọng (trongnt )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Tây</TENTT>
+    <TENQUAN>Huyện Phú Xuyên</TENQUAN>
+    <TENPXA>Xã Bạch Hạ</TENPXA>
+    <NGAYSINH>12/12/2005</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>109000000763</ID>
+    <MABN>06070813</MABN>
+    <HOTEN>TÔ BÌNH DƯƠNG</HOTEN>
+    <SOBIENLAI>5719</SOBIENLAI>
+    <SOVAOVIEN>0017895/06</SOVAOVIEN>
+    <SOTIEN>400000</SOTIEN>
+    <NGAY>21/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Hô Hấp - A15</TENKP>
+    <NGUOITHU>Nguyễn Thế Trọng</NGUOITHU>
+    <USERID>Nguyễn Thế Trọng (trongnt )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Quận Đống Đa</TENQUAN>
+    <TENPXA>Phường Láng Hạ</TENPXA>
+    <NGAYSINH>01/05/1994</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>109000000764</ID>
+    <MABN>06070734</MABN>
+    <HOTEN>NGÔ LÊ DUY</HOTEN>
+    <SOBIENLAI>5720</SOBIENLAI>
+    <SOVAOVIEN>3</SOVAOVIEN>
+    <SOTIEN>400000</SOTIEN>
+    <NGAY>21/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Cấp Cứu Lưu - A2</TENKP>
+    <NGUOITHU>Nguyễn Thế Trọng</NGUOITHU>
+    <USERID>Nguyễn Thế Trọng (trongnt )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Vĩnh Phúc</TENTT>
+    <TENQUAN>Huyện Mê Linh</TENQUAN>
+    <TENPXA>Xã Tiền Phong</TENPXA>
+    <NGAYSINH>29/12/2001</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>109000000765</ID>
+    <MABN>06070743</MABN>
+    <HOTEN>NGUYỄN HOÀNG CHÍNH</HOTEN>
+    <SOBIENLAI>5721</SOBIENLAI>
+    <SOVAOVIEN>0017896/06</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>21/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Cấp Cứu Lưu - A2</TENKP>
+    <NGUOITHU>Nguyễn Thế Trọng</NGUOITHU>
+    <USERID>Nguyễn Thế Trọng (trongnt )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Quận Đống Đa</TENQUAN>
+    <TENPXA>Phường Khương Thượng</TENPXA>
+    <NGAYSINH>14/03/2000</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>109000000766</ID>
+    <MABN>05152347</MABN>
+    <HOTEN>ĐINH GIA LONG</HOTEN>
+    <SOBIENLAI>5722</SOBIENLAI>
+    <SOVAOVIEN>0017897/06</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>21/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Cấp Cứu Lưu - A2</TENKP>
+    <NGUOITHU>Nguyễn Thế Trọng</NGUOITHU>
+    <USERID>Nguyễn Thế Trọng (trongnt )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Quận Cầu Giấy</TENQUAN>
+    <TENPXA>Phường Nghĩa Tân</TENPXA>
+    <NGAYSINH>2000</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>109000000767</ID>
+    <MABN>06068696</MABN>
+    <HOTEN>ĐÀO QUỲNH ANH</HOTEN>
+    <SOBIENLAI>5723</SOBIENLAI>
+    <SOVAOVIEN>0017898/06</SOVAOVIEN>
+    <SOTIEN>400000</SOTIEN>
+    <NGAY>21/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Cấp Cứu Lưu - A2</TENKP>
+    <NGUOITHU>Nguyễn Thế Trọng</NGUOITHU>
+    <USERID>Nguyễn Thế Trọng (trongnt )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Tây</TENTT>
+    <TENQUAN>Huyện Quốc Oai</TENQUAN>
+    <TENPXA>Thị trấn Quốc Oai</TENPXA>
+    <NGAYSINH>07/12/2005</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>109000000768</ID>
+    <MABN>06070745</MABN>
+    <HOTEN>LƯU PHƯƠNG HÀ</HOTEN>
+    <SOBIENLAI>5724</SOBIENLAI>
+    <SOVAOVIEN>0017899/06</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>21/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Cấp Cứu Lưu - A2</TENKP>
+    <NGUOITHU>Nguyễn Thế Trọng</NGUOITHU>
+    <USERID>Nguyễn Thế Trọng (trongnt )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Tuyên Quang</TENTT>
+    <TENQUAN>Thị xã Tuyên Quang</TENQUAN>
+    <TENPXA>Xã Nông Tiến</TENPXA>
+    <NGAYSINH>11/09/2005</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>109000000769</ID>
+    <MABN>06070746</MABN>
+    <HOTEN>NGÔ PHƯƠNG ANH</HOTEN>
+    <SOBIENLAI>5725</SOBIENLAI>
+    <SOVAOVIEN>0017900/06</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>21/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Cấp Cứu Lưu - A2</TENKP>
+    <NGUOITHU>Nguyễn Thế Trọng</NGUOITHU>
+    <USERID>Nguyễn Thế Trọng (trongnt )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Quận Long Biên</TENQUAN>
+    <TENPXA>Phường Đức Giang</TENPXA>
+    <NGAYSINH>07/07/2005</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>109000000770</ID>
+    <MABN>05164403</MABN>
+    <HOTEN>LÊ VĂN MẠNH</HOTEN>
+    <SOBIENLAI>5726</SOBIENLAI>
+    <SOVAOVIEN>15</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>21/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Cấp Cứu Lưu - A2</TENKP>
+    <NGUOITHU>Nguyễn Thế Trọng</NGUOITHU>
+    <USERID>Nguyễn Thế Trọng (trongnt )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Thanh Hóa</TENTT>
+    <TENQUAN>Huyện Ngọc Lạc</TENQUAN>
+    <TENPXA>Thị trấn NT Lam Sơn</TENPXA>
+    <NGAYSINH>15/10/2004</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>109000000771</ID>
+    <MABN>05020916</MABN>
+    <HOTEN>NGUYỄN ĐỨC MINH</HOTEN>
+    <SOBIENLAI>5727</SOBIENLAI>
+    <SOVAOVIEN>0017901/06</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>21/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Cấp Cứu Lưu - A2</TENKP>
+    <NGUOITHU>Nguyễn Thế Trọng</NGUOITHU>
+    <USERID>Nguyễn Thế Trọng (trongnt )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Quận Cầu Giấy</TENQUAN>
+    <TENPXA>Phường Nghĩa Tân</TENPXA>
+    <NGAYSINH>11/06/2003</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>109000000772</ID>
+    <MABN>06067733</MABN>
+    <HOTEN>PHÙNG MẠNH HÙNG</HOTEN>
+    <SOBIENLAI>5728</SOBIENLAI>
+    <SOVAOVIEN>0017902/06</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>21/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Cấp Cứu Lưu - A2</TENKP>
+    <NGUOITHU>Nguyễn Thế Trọng</NGUOITHU>
+    <USERID>Nguyễn Thế Trọng (trongnt )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Huyện Thanh Trì</TENQUAN>
+    <TENPXA>Xã Vạn Phúc</TENPXA>
+    <NGAYSINH>15/08/2005</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>109000000773</ID>
+    <MABN>06070751</MABN>
+    <HOTEN>TẠ ĐỨC MINH</HOTEN>
+    <SOBIENLAI>5729</SOBIENLAI>
+    <SOVAOVIEN>0017903/06</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>21/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Cấp Cứu Lưu - A2</TENKP>
+    <NGUOITHU>Nguyễn Thế Trọng</NGUOITHU>
+    <USERID>Nguyễn Thế Trọng (trongnt )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Quận Hoàng Mai</TENQUAN>
+    <TENPXA>Phường Định Công</TENPXA>
+    <NGAYSINH>25/11/2004</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>109000000774</ID>
+    <MABN>06355104</MABN>
+    <HOTEN>NGUYỄN THỊ LY</HOTEN>
+    <SOBIENLAI>5730</SOBIENLAI>
+    <SOVAOVIEN>0017905/06</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>21/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Cấp Cứu Lưu - A2</TENKP>
+    <NGUOITHU>Nguyễn Thế Trọng</NGUOITHU>
+    <USERID>Nguyễn Thế Trọng (trongnt )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Cao Bằng</TENTT>
+    <TENQUAN>Thị xã Cao Bằng</TENQUAN>
+    <TENPXA>Phường Sông Bằng</TENPXA>
+    <NGAYSINH>18/05/2006</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>109000000775</ID>
+    <MABN>06070754</MABN>
+    <HOTEN>NGUYỄN THỊ NGUYỆT</HOTEN>
+    <SOBIENLAI>5731</SOBIENLAI>
+    <SOVAOVIEN>0017906/06</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>21/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Hô Hấp - A15</TENKP>
+    <NGUOITHU>Nguyễn Thế Trọng</NGUOITHU>
+    <USERID>Nguyễn Thế Trọng (trongnt )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Tây</TENTT>
+    <TENQUAN>Huyện Phúc Thọ</TENQUAN>
+    <TENPXA>Xã Liên Hiệp</TENPXA>
+    <NGAYSINH>18/02/2006</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>109000000776</ID>
+    <MABN>06070728</MABN>
+    <HOTEN>NGUYỄN THỊ MAI</HOTEN>
+    <SOBIENLAI>5732</SOBIENLAI>
+    <SOVAOVIEN>0017907/06</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>21/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Cấp Cứu Lưu - A2</TENKP>
+    <NGUOITHU>Nguyễn Thế Trọng</NGUOITHU>
+    <USERID>Nguyễn Thế Trọng (trongnt )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Tây</TENTT>
+    <TENQUAN>Huyện Chương Mỹ</TENQUAN>
+    <TENPXA>Xã Thủy Xuân Tiên</TENPXA>
+    <NGAYSINH>29/07/2001</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>109000000777</ID>
+    <MABN>05039856</MABN>
+    <HOTEN>NGUYỄN TẤT ANH PHONG</HOTEN>
+    <SOBIENLAI>5733</SOBIENLAI>
+    <SOVAOVIEN>0016430/06</SOVAOVIEN>
+    <SOTIEN>400000</SOTIEN>
+    <NGAY>21/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Cấp Cứu Lưu - A2</TENKP>
+    <NGUOITHU>Nguyễn Thế Trọng</NGUOITHU>
+    <USERID>Nguyễn Thế Trọng (trongnt )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Quận Đống Đa</TENQUAN>
+    <TENPXA>Không xác định</TENPXA>
+    <NGAYSINH>15/01/2001</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>109000000778</ID>
+    <MABN>06070713</MABN>
+    <HOTEN>PHẠM HỒNG NHUNG</HOTEN>
+    <SOBIENLAI>5734</SOBIENLAI>
+    <SOVAOVIEN>5</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>21/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Cấp Cứu Lưu - A2</TENKP>
+    <NGUOITHU>Nguyễn Thế Trọng</NGUOITHU>
+    <USERID>Nguyễn Thế Trọng (trongnt )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hòa Bình</TENTT>
+    <TENQUAN>Huyện Lạc Thủy</TENQUAN>
+    <TENPXA>Xã Đồng Tâm</TENPXA>
+    <NGAYSINH>2005</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>109000000779</ID>
+    <MABN>06070718</MABN>
+    <HOTEN>NGÔ MINH HẰNG</HOTEN>
+    <SOBIENLAI>5735</SOBIENLAI>
+    <SOVAOVIEN>9</SOVAOVIEN>
+    <SOTIEN>300000</SOTIEN>
+    <NGAY>21/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Cấp Cứu Lưu - A2</TENKP>
+    <NGUOITHU>Nguyễn Thế Trọng</NGUOITHU>
+    <USERID>Nguyễn Thế Trọng (trongnt )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Bắc Ninh</TENTT>
+    <TENQUAN>Huyện Từ Sơn</TENQUAN>
+    <TENPXA>Xã Đình Bảng</TENPXA>
+    <NGAYSINH>07/04/2006</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>109000000780</ID>
+    <MABN>06059450</MABN>
+    <HOTEN>NGUYỄN MINH CÔNG</HOTEN>
+    <SOBIENLAI>5736</SOBIENLAI>
+    <SOVAOVIEN>16</SOVAOVIEN>
+    <SOTIEN>300000</SOTIEN>
+    <NGAY>21/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Cấp Cứu Lưu - A2</TENKP>
+    <NGUOITHU>Nguyễn Thế Trọng</NGUOITHU>
+    <USERID>Nguyễn Thế Trọng (trongnt )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Thanh Hóa</TENTT>
+    <TENQUAN>Huyện Tĩnh Gia</TENQUAN>
+    <TENPXA>Xã Bình Minh</TENPXA>
+    <NGAYSINH>03/12/2005</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>109000000781</ID>
+    <MABN>06070720</MABN>
+    <HOTEN>HỒ VĂN Ý</HOTEN>
+    <SOBIENLAI>5737</SOBIENLAI>
+    <SOVAOVIEN>0017909/06</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>21/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Miễn</DOITUONG>
+    <TENKP>Cấp Cứu Lưu - A2</TENKP>
+    <NGUOITHU>Nguyễn Thế Trọng</NGUOITHU>
+    <USERID>Nguyễn Thế Trọng (trongnt )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Nghệ An</TENTT>
+    <TENQUAN>Huyện Quỳnh Lưu</TENQUAN>
+    <TENPXA>Xã Quỳnh Hưng</TENPXA>
+    <NGAYSINH>10/06/2005</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>109000000782</ID>
+    <MABN>06070715</MABN>
+    <HOTEN>PHẠM NGỌC THANH</HOTEN>
+    <SOBIENLAI>5738</SOBIENLAI>
+    <SOVAOVIEN>13</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>21/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Miễn</DOITUONG>
+    <TENKP>Cấp Cứu Lưu - A2</TENKP>
+    <NGUOITHU>Nguyễn Thế Trọng</NGUOITHU>
+    <USERID>Nguyễn Thế Trọng (trongnt )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Phú Thọ</TENTT>
+    <TENQUAN>Thành phố Việt Trì</TENQUAN>
+    <TENPXA>Phường Thanh Miếu</TENPXA>
+    <NGAYSINH>14/03/2005</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>109000000783</ID>
+    <MABN>06070714</MABN>
+    <HOTEN>PHẠM TRUNG PHONG</HOTEN>
+    <SOBIENLAI>5739</SOBIENLAI>
+    <SOVAOVIEN>15</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>21/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Cấp Cứu Lưu - A2</TENKP>
+    <NGUOITHU>Nguyễn Thế Trọng</NGUOITHU>
+    <USERID>Nguyễn Thế Trọng (trongnt )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Tây</TENTT>
+    <TENQUAN>Huyện Thạch Thất</TENQUAN>
+    <TENPXA>Thị trấn Liên Quan</TENPXA>
+    <NGAYSINH>19/07/2004</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>109000000784</ID>
+    <MABN>06070744</MABN>
+    <HOTEN>NGUYỄN HƯƠNG QUỲNH</HOTEN>
+    <SOBIENLAI>5740</SOBIENLAI>
+    <SOVAOVIEN>9</SOVAOVIEN>
+    <SOTIEN>400000</SOTIEN>
+    <NGAY>21/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Cấp Cứu Lưu - A2</TENKP>
+    <NGUOITHU>Nguyễn Thế Trọng</NGUOITHU>
+    <USERID>Nguyễn Thế Trọng (trongnt )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Quận Thanh Xuân</TENQUAN>
+    <TENPXA>Phường Nhân Chính</TENPXA>
+    <NGAYSINH>04/07/2005</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>109000000797</ID>
+    <MABN>06059450</MABN>
+    <HOTEN>NGUYỄN MINH CÔNG</HOTEN>
+    <SOBIENLAI>5741</SOBIENLAI>
+    <SOVAOVIEN>16</SOVAOVIEN>
+    <SOTIEN>600000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Cấp Cứu Lưu - A2</TENKP>
+    <NGUOITHU>Nguyễn Ngọc Liên</NGUOITHU>
+    <USERID>Nguyễn Ngọc Liên (lien )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Thanh Hóa</TENTT>
+    <TENQUAN>Huyện Tĩnh Gia</TENQUAN>
+    <TENPXA>Xã Bình Minh</TENPXA>
+    <NGAYSINH>03/12/2005</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>109000000799</ID>
+    <MABN>06563356</MABN>
+    <HOTEN>NGUYỄN THỊ THANH THẢO</HOTEN>
+    <SOBIENLAI>5742</SOBIENLAI>
+    <SOVAOVIEN>0018027/06</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Miễn</DOITUONG>
+    <TENKP>Tim Mạch - A10</TENKP>
+    <NGUOITHU>Nguyễn Ngọc Liên</NGUOITHU>
+    <USERID>Nguyễn Ngọc Liên (lien )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Bắc Giang</TENTT>
+    <TENQUAN>Huyện Hiệp Hòa</TENQUAN>
+    <TENPXA>Xã Đoan Bái</TENPXA>
+    <NGAYSINH>01/10/2000</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>116000001591</ID>
+    <MABN>06067121</MABN>
+    <HOTEN>VŨ ANH QUYÊN</HOTEN>
+    <SOBIENLAI>5743</SOBIENLAI>
+    <SOVAOVIEN>0017291/06</SOVAOVIEN>
+    <SOTIEN>700000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Cấp Cứu Lưu - A2</TENKP>
+    <NGUOITHU>Nguyễn Ngọc Liên</NGUOITHU>
+    <USERID>Nguyễn Ngọc Liên (lien )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Quận Hoàn Kiếm</TENQUAN>
+    <TENPXA>Phường Hàng Bạc</TENPXA>
+    <NGAYSINH>14/03/2006</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>116000001592</ID>
+    <MABN>06072481</MABN>
+    <HOTEN>NGUYỄN TRỌNG TUYÊN</HOTEN>
+    <SOBIENLAI>5744</SOBIENLAI>
+    <SOVAOVIEN>0018030/06</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Cấp Cứu Lưu - A2</TENKP>
+    <NGUOITHU>Nguyễn Ngọc Liên</NGUOITHU>
+    <USERID>Nguyễn Ngọc Liên (lien )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Huyện Từ Liêm</TENQUAN>
+    <TENPXA>Xã Minh Khai</TENPXA>
+    <NGAYSINH>03/06/2005</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>116000001593</ID>
+    <MABN>06070227</MABN>
+    <HOTEN>PHẠM THỊ TRANG</HOTEN>
+    <SOBIENLAI>5745</SOBIENLAI>
+    <SOVAOVIEN>0018019/06</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Cấp Cứu Lưu - A2</TENKP>
+    <NGUOITHU>Nguyễn Ngọc Liên</NGUOITHU>
+    <USERID>Nguyễn Ngọc Liên (lien )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Thanh Hóa</TENTT>
+    <TENQUAN>Huyện Hà Trung</TENQUAN>
+    <TENPXA>Xã Hà Châu</TENPXA>
+    <NGAYSINH>02/09/1999</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>116000001594</ID>
+    <MABN>06070213</MABN>
+    <HOTEN>PHAN PHƯƠNG KHANH</HOTEN>
+    <SOBIENLAI>5746</SOBIENLAI>
+    <SOVAOVIEN>0018031/06</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Miễn</DOITUONG>
+    <TENKP>Hô Hấp - A15</TENKP>
+    <NGUOITHU>Nguyễn Ngọc Liên</NGUOITHU>
+    <USERID>Nguyễn Ngọc Liên (lien )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Tây</TENTT>
+    <TENQUAN>Thị xã Sơn Tây</TENQUAN>
+    <TENPXA>Phường Ngô Quyền</TENPXA>
+    <NGAYSINH>13/12/2005</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>116000001595</ID>
+    <MABN>06070262</MABN>
+    <HOTEN>DƯƠNG THỊ HƯỜNG</HOTEN>
+    <SOBIENLAI>5747</SOBIENLAI>
+    <SOVAOVIEN>0018032/06</SOVAOVIEN>
+    <SOTIEN>600000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Tiêu Hoá - A8</TENKP>
+    <NGUOITHU>Nguyễn Ngọc Liên</NGUOITHU>
+    <USERID>Nguyễn Ngọc Liên (lien )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Sơn La</TENTT>
+    <TENQUAN>Huyện Mộc Châu</TENQUAN>
+    <TENPXA>Không xác định</TENPXA>
+    <NGAYSINH>28/08/1996</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>116000001596</ID>
+    <MABN>06070211</MABN>
+    <HOTEN>ĐỖ MINH ĐỨC</HOTEN>
+    <SOBIENLAI>5748</SOBIENLAI>
+    <SOVAOVIEN>0018026/06</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Cấp Cứu Lưu - A2</TENKP>
+    <NGUOITHU>Nguyễn Ngọc Liên</NGUOITHU>
+    <USERID>Nguyễn Ngọc Liên (lien )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Tây</TENTT>
+    <TENQUAN>Huyện ứng Hòa</TENQUAN>
+    <TENPXA>Xã Trung Tú</TENPXA>
+    <NGAYSINH>09/10/2005</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>116000001597</ID>
+    <MABN>06072508</MABN>
+    <HOTEN>NGUYỄN TRỌNG PHÚC</HOTEN>
+    <SOBIENLAI>5749</SOBIENLAI>
+    <SOVAOVIEN>0018033/06</SOVAOVIEN>
+    <SOTIEN>400000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Tiêu Hoá - A8</TENKP>
+    <NGUOITHU>Nguyễn Ngọc Liên</NGUOITHU>
+    <USERID>Nguyễn Ngọc Liên (lien )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hải Phòng</TENTT>
+    <TENQUAN>Không xác định</TENQUAN>
+    <TENPXA>Không xác định</TENPXA>
+    <NGAYSINH>12/10/2004</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>116000001598</ID>
+    <MABN>04125603</MABN>
+    <HOTEN>NGUYỄN ĐẠT THỨC</HOTEN>
+    <SOBIENLAI>5750</SOBIENLAI>
+    <SOVAOVIEN>0018034/06</SOVAOVIEN>
+    <SOTIEN>400000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Tiêu Hoá - A8</TENKP>
+    <NGUOITHU>Nguyễn Ngọc Liên</NGUOITHU>
+    <USERID>Nguyễn Ngọc Liên (lien )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Quận Hoàng Mai</TENQUAN>
+    <TENPXA>Phường Thanh Trì</TENPXA>
+    <NGAYSINH>21/12/2003</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>116000001599</ID>
+    <MABN>06072471</MABN>
+    <HOTEN>PHÙNG THỊ THUỶ</HOTEN>
+    <SOBIENLAI>5751</SOBIENLAI>
+    <SOVAOVIEN>0018036/06</SOVAOVIEN>
+    <SOTIEN>600000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Hô Hấp - A16</TENKP>
+    <NGUOITHU>Nguyễn Ngọc Liên</NGUOITHU>
+    <USERID>Nguyễn Ngọc Liên (lien )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Tây</TENTT>
+    <TENQUAN>Huyện Thạch Thất</TENQUAN>
+    <TENPXA>Xã Hạ Bằng</TENPXA>
+    <NGAYSINH>21/09/2002</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>116000001600</ID>
+    <MABN>05169457</MABN>
+    <HOTEN>NGUYỄN HÀ CHI</HOTEN>
+    <SOBIENLAI>5752</SOBIENLAI>
+    <SOVAOVIEN>0018038/06</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Cấp Cứu Lưu - A2</TENKP>
+    <NGUOITHU>Nguyễn Ngọc Liên</NGUOITHU>
+    <USERID>Nguyễn Ngọc Liên (lien )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Quận Đống Đa</TENQUAN>
+    <TENPXA>Phường Thịnh Quang</TENPXA>
+    <NGAYSINH>25/11/2003</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>116000001601</ID>
+    <MABN>06713644</MABN>
+    <HOTEN>NGUYỄN ĐÌNH HUY</HOTEN>
+    <SOBIENLAI>5753</SOBIENLAI>
+    <SOVAOVIEN>0018039/06</SOVAOVIEN>
+    <SOTIEN>400000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Cấp Cứu Lưu - A2</TENKP>
+    <NGUOITHU>Nguyễn Ngọc Liên</NGUOITHU>
+    <USERID>Nguyễn Ngọc Liên (lien )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hưng Yên</TENTT>
+    <TENQUAN>Huyện Yên Mỹ</TENQUAN>
+    <TENPXA>Xã Yên Phú</TENPXA>
+    <NGAYSINH>09/04/2005</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>116000001602</ID>
+    <MABN>06075032</MABN>
+    <HOTEN>PHẠM VIỆT TIẾN</HOTEN>
+    <SOBIENLAI>5754</SOBIENLAI>
+    <SOVAOVIEN>0018040/06</SOVAOVIEN>
+    <SOTIEN>500000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Hô Hấp - A16</TENKP>
+    <NGUOITHU>Nguyễn Ngọc Liên</NGUOITHU>
+    <USERID>Nguyễn Ngọc Liên (lien )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Tây</TENTT>
+    <TENQUAN>Thị xã Hà Đông</TENQUAN>
+    <TENPXA>Xã La Khê</TENPXA>
+    <NGAYSINH>12/02/2003</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>116000001603</ID>
+    <MABN>05121497</MABN>
+    <HOTEN>CHU TIẾN TRUNG</HOTEN>
+    <SOBIENLAI>5755</SOBIENLAI>
+    <SOVAOVIEN>0018041/06</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Cấp Cứu Lưu - A2</TENKP>
+    <NGUOITHU>Nguyễn Ngọc Liên</NGUOITHU>
+    <USERID>Nguyễn Ngọc Liên (lien )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Huyện Từ Liêm</TENQUAN>
+    <TENPXA>Xã Cổ Nhuế</TENPXA>
+    <NGAYSINH>1992</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>116000001604</ID>
+    <MABN>06035778</MABN>
+    <HOTEN>ĐÀO HỮU CHIẾN</HOTEN>
+    <SOBIENLAI>5756</SOBIENLAI>
+    <SOVAOVIEN>0018043/06</SOVAOVIEN>
+    <SOTIEN>400000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Miễn</DOITUONG>
+    <TENKP>Tiêu Hoá - A8</TENKP>
+    <NGUOITHU>Nguyễn Ngọc Liên</NGUOITHU>
+    <USERID>Nguyễn Ngọc Liên (lien )</USERID>
+    <HUY>1</HUY>
+    <TENTT>Hưng Yên</TENTT>
+    <TENQUAN>Thị xã Hưng Yên</TENQUAN>
+    <TENPXA>Phường Hiến Nam</TENPXA>
+    <NGAYSINH>01/11/2005</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>116000001605</ID>
+    <MABN>06072489</MABN>
+    <HOTEN>VŨ NGỌC LONG</HOTEN>
+    <SOBIENLAI>5757</SOBIENLAI>
+    <SOVAOVIEN>0018044/06</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Cấp Cứu Lưu - A2</TENKP>
+    <NGUOITHU>Nguyễn Ngọc Liên</NGUOITHU>
+    <USERID>Nguyễn Ngọc Liên (lien )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Quận Hoàng Mai</TENQUAN>
+    <TENPXA>Phường Định Công</TENPXA>
+    <NGAYSINH>2001</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>116000001606</ID>
+    <MABN>06098045</MABN>
+    <HOTEN>VŨ THỊ HIỀN</HOTEN>
+    <SOBIENLAI>5758</SOBIENLAI>
+    <SOVAOVIEN>0018045/06</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Miễn</DOITUONG>
+    <TENKP>Cấp Cứu Lưu - A2</TENKP>
+    <NGUOITHU>Nguyễn Ngọc Liên</NGUOITHU>
+    <USERID>Nguyễn Ngọc Liên (lien )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Thái Bình</TENTT>
+    <TENQUAN>Huyện Kiến Xương</TENQUAN>
+    <TENPXA>Không xác định</TENPXA>
+    <NGAYSINH>19/05/2006</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>116000001607</ID>
+    <MABN>06072490</MABN>
+    <HOTEN>PHẠM KHÁNH HÙNG</HOTEN>
+    <SOBIENLAI>5759</SOBIENLAI>
+    <SOVAOVIEN>0018046/06</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Cấp Cứu Lưu - A2</TENKP>
+    <NGUOITHU>Nguyễn Ngọc Liên</NGUOITHU>
+    <USERID>Nguyễn Ngọc Liên (lien )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Ninh Bình</TENTT>
+    <TENQUAN>Huyện Kim Sơn</TENQUAN>
+    <TENPXA>Xã Thượng Kiệm</TENPXA>
+    <NGAYSINH>09/02/2004</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>116000001608</ID>
+    <MABN>06072492</MABN>
+    <HOTEN>TÒNG VĂN KHIÊM</HOTEN>
+    <SOBIENLAI>5760</SOBIENLAI>
+    <SOVAOVIEN>0018048/06</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Miễn</DOITUONG>
+    <TENKP>Huyết Học Lâm Sàng - A9</TENKP>
+    <NGUOITHU>Nguyễn Ngọc Liên</NGUOITHU>
+    <USERID>Nguyễn Ngọc Liên (lien )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Sơn La</TENTT>
+    <TENQUAN>Không xác định</TENQUAN>
+    <TENPXA>Không xác định</TENPXA>
+    <NGAYSINH>09/08/2001</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>116000001609</ID>
+    <MABN>06072489</MABN>
+    <HOTEN>VŨ NGỌC LONG</HOTEN>
+    <SOBIENLAI>5761</SOBIENLAI>
+    <SOVAOVIEN>0018044/06</SOVAOVIEN>
+    <SOTIEN>700000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Hồi Sức Ngoại Khoa</TENKP>
+    <NGUOITHU>Nguyễn Ngọc Liên</NGUOITHU>
+    <USERID>Nguyễn Ngọc Liên (lien )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Quận Hoàng Mai</TENQUAN>
+    <TENPXA>Phường Định Công</TENPXA>
+    <NGAYSINH>2001</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>116000001610</ID>
+    <MABN>06070236</MABN>
+    <HOTEN>VŨ VĂN THẮNG</HOTEN>
+    <SOBIENLAI>5762</SOBIENLAI>
+    <SOVAOVIEN>0018049/06</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Cấp Cứu Lưu - A2</TENKP>
+    <NGUOITHU>Nguyễn Ngọc Liên</NGUOITHU>
+    <USERID>Nguyễn Ngọc Liên (lien )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hưng Yên</TENTT>
+    <TENQUAN>Huyện Ân Thi</TENQUAN>
+    <TENPXA>Xã Bãi Sậy</TENPXA>
+    <NGAYSINH>2003</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>116000001611</ID>
+    <MABN>06084056</MABN>
+    <HOTEN>NGUYỄN THỊ LAN</HOTEN>
+    <SOBIENLAI>5763</SOBIENLAI>
+    <SOVAOVIEN>0018050/06</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Miễn</DOITUONG>
+    <TENKP>Cấp Cứu Lưu - A2</TENKP>
+    <NGUOITHU>Nguyễn Ngọc Liên</NGUOITHU>
+    <USERID>Nguyễn Ngọc Liên (lien )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Quảng Ninh</TENTT>
+    <TENQUAN>Huyện Đông Triều</TENQUAN>
+    <TENPXA>Xã Bình Dương</TENPXA>
+    <NGAYSINH>20/05/2006</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>116000001612</ID>
+    <MABN>06079589</MABN>
+    <HOTEN>HOÀNG HỮU KHIÊM</HOTEN>
+    <SOBIENLAI>5764</SOBIENLAI>
+    <SOVAOVIEN>0018051/06</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Miễn</DOITUONG>
+    <TENKP>Truyền Nhiễm - K</TENKP>
+    <NGUOITHU>Nguyễn Ngọc Liên</NGUOITHU>
+    <USERID>Nguyễn Ngọc Liên (lien )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Nghệ An</TENTT>
+    <TENQUAN>Huyện Đô Lương</TENQUAN>
+    <TENPXA>Không xác định</TENPXA>
+    <NGAYSINH>2003</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>116000001613</ID>
+    <MABN>06072500</MABN>
+    <HOTEN>NGUYỄN HỮU TÚ</HOTEN>
+    <SOBIENLAI>5765</SOBIENLAI>
+    <SOVAOVIEN>0018052/06</SOVAOVIEN>
+    <SOTIEN>600000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Truyền Nhiễm - K</TENKP>
+    <NGUOITHU>Nguyễn Ngọc Liên</NGUOITHU>
+    <USERID>Nguyễn Ngọc Liên (lien )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Nghệ An</TENTT>
+    <TENQUAN>Huyện Đô Lương</TENQUAN>
+    <TENPXA>Xã Trung Sơn</TENPXA>
+    <NGAYSINH>1994</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>116000001614</ID>
+    <MABN>06345096</MABN>
+    <HOTEN>VŨ QUANG HƯNG</HOTEN>
+    <SOBIENLAI>5766</SOBIENLAI>
+    <SOVAOVIEN>0018053/06</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Cấp Cứu Lưu - A2</TENKP>
+    <NGUOITHU>Nguyễn Ngọc Liên</NGUOITHU>
+    <USERID>Nguyễn Ngọc Liên (lien )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Vĩnh Phúc</TENTT>
+    <TENQUAN>Huyện Vĩnh Tường</TENQUAN>
+    <TENPXA>Xã Thổ Tang</TENPXA>
+    <NGAYSINH>25/04/2006</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>116000001615</ID>
+    <MABN>06072609</MABN>
+    <HOTEN>NGUYỄN ĐỨC TUỆ</HOTEN>
+    <SOBIENLAI>5767</SOBIENLAI>
+    <SOVAOVIEN>0018054/06</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Cấp Cứu Lưu - A2</TENKP>
+    <NGUOITHU>Nguyễn Ngọc Liên</NGUOITHU>
+    <USERID>Nguyễn Ngọc Liên (lien )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Tây</TENTT>
+    <TENQUAN>Huyện Phú Xuyên</TENQUAN>
+    <TENPXA>Thị trấn Phú Xuyên</TENPXA>
+    <NGAYSINH>01/05/2006</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>116000001616</ID>
+    <MABN>06078032</MABN>
+    <HOTEN>ĐỖ THẠCH THẢO</HOTEN>
+    <SOBIENLAI>5768</SOBIENLAI>
+    <SOVAOVIEN>0018055/06</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Cấp Cứu Lưu - A2</TENKP>
+    <NGUOITHU>Nguyễn Ngọc Liên</NGUOITHU>
+    <USERID>Nguyễn Ngọc Liên (lien )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Quận Đống Đa</TENQUAN>
+    <TENPXA>Phường Thịnh Quang</TENPXA>
+    <NGAYSINH>10/09/1996</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>116000001617</ID>
+    <MABN>06072503</MABN>
+    <HOTEN>NGUYỄN MINH HIẾU</HOTEN>
+    <SOBIENLAI>5769</SOBIENLAI>
+    <SOVAOVIEN>0018058/06</SOVAOVIEN>
+    <SOTIEN>400000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Cấp Cứu Lưu - A2</TENKP>
+    <NGUOITHU>Nguyễn Ngọc Liên</NGUOITHU>
+    <USERID>Nguyễn Ngọc Liên (lien )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Quận Đống Đa</TENQUAN>
+    <TENPXA>Phường Phương Mai</TENPXA>
+    <NGAYSINH>01/05/2004</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>116000001618</ID>
+    <MABN>06034598</MABN>
+    <HOTEN>NGUYỄN THẢO NHI</HOTEN>
+    <SOBIENLAI>5770</SOBIENLAI>
+    <SOVAOVIEN>0018059/06</SOVAOVIEN>
+    <SOTIEN>600000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Sơ Sinh - A3</TENKP>
+    <NGUOITHU>Nguyễn Ngọc Liên</NGUOITHU>
+    <USERID>Nguyễn Ngọc Liên (lien )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Nam Định</TENTT>
+    <TENQUAN>Thành phố Nam Định</TENQUAN>
+    <TENPXA>Phường Hạ Long</TENPXA>
+    <NGAYSINH>22/05/2006</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>116000001619</ID>
+    <MABN>05045183</MABN>
+    <HOTEN>DƯƠNG ĐỨC TRUNG</HOTEN>
+    <SOBIENLAI>5771</SOBIENLAI>
+    <SOVAOVIEN>0018060/06</SOVAOVIEN>
+    <SOTIEN>300000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Hô Hấp - A16</TENKP>
+    <NGUOITHU>Nguyễn Ngọc Liên</NGUOITHU>
+    <USERID>Nguyễn Ngọc Liên (lien )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Quận Thanh Xuân</TENQUAN>
+    <TENPXA>Phường Kim Giang</TENPXA>
+    <NGAYSINH>15/11/2001</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>116000001620</ID>
+    <MABN>06070889</MABN>
+    <HOTEN>NGUYỄN QUANG DUY</HOTEN>
+    <SOBIENLAI>5772</SOBIENLAI>
+    <SOVAOVIEN>0018061/06</SOVAOVIEN>
+    <SOTIEN>300000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Cấp Cứu Lưu - A2</TENKP>
+    <NGUOITHU>Nguyễn Ngọc Liên</NGUOITHU>
+    <USERID>Nguyễn Ngọc Liên (lien )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Tây</TENTT>
+    <TENQUAN>Huyện Đan Phượng</TENQUAN>
+    <TENPXA>Xã Liên Hà</TENPXA>
+    <NGAYSINH>18/03/2006</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>116000001621</ID>
+    <MABN>06082876</MABN>
+    <HOTEN>NGUYỄN THỊ ĐOAN</HOTEN>
+    <SOBIENLAI>5773</SOBIENLAI>
+    <SOVAOVIEN>0018063/06</SOVAOVIEN>
+    <SOTIEN>400000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Cấp Cứu Lưu - A2</TENKP>
+    <NGUOITHU>Nguyễn Ngọc Liên</NGUOITHU>
+    <USERID>Nguyễn Ngọc Liên (lien )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Tây</TENTT>
+    <TENQUAN>Huyện Hoài Đức</TENQUAN>
+    <TENPXA>Không xác định</TENPXA>
+    <NGAYSINH>13/05/2006</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>116000001622</ID>
+    <MABN>05074323</MABN>
+    <HOTEN>PHẠM THÀNH ĐẠT</HOTEN>
+    <SOBIENLAI>5774</SOBIENLAI>
+    <SOVAOVIEN>0018064/06</SOVAOVIEN>
+    <SOTIEN>300000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Cấp Cứu Lưu - A2</TENKP>
+    <NGUOITHU>Nguyễn Ngọc Liên</NGUOITHU>
+    <USERID>Nguyễn Ngọc Liên (lien )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Quận Thanh Xuân</TENQUAN>
+    <TENPXA>Phường Khương Trung</TENPXA>
+    <NGAYSINH>05/04/2004</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>116000001623</ID>
+    <MABN>06785036</MABN>
+    <HOTEN>ĐỖ VĂN QUYẾT</HOTEN>
+    <SOBIENLAI>5775</SOBIENLAI>
+    <SOVAOVIEN>0018065/06</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUNG2006</QUYENSO>
+    <QUYENSOID>107</QUYENSOID>
+    <DOITUONG>Miễn</DOITUONG>
+    <TENKP>Cấp Cứu Lưu - A2</TENKP>
+    <NGUOITHU>Nguyễn Ngọc Liên</NGUOITHU>
+    <USERID>Nguyễn Ngọc Liên (lien )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Sơn La</TENTT>
+    <TENQUAN>Huyện Mai Sơn</TENQUAN>
+    <TENPXA>Xã Chiềng Mai</TENPXA>
+    <NGAYSINH>19/05/2006</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>117000000957</ID>
+    <MABN>06063616</MABN>
+    <HOTEN>BÙI THỊ HẠNH</HOTEN>
+    <SOBIENLAI>6122</SOBIENLAI>
+    <SOVAOVIEN>0017910/06</SOVAOVIEN>
+    <SOTIEN>800000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUTT2006</QUYENSO>
+    <QUYENSOID>105</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Ngoại - A6</TENKP>
+    <NGUOITHU>Nguyễn Thị Minh Khanh</NGUOITHU>
+    <USERID>Nguyễn Thị Minh Khanh (khanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hòa Bình</TENTT>
+    <TENQUAN>Huyện Lương Sơn</TENQUAN>
+    <TENPXA>Xã Yên Bình</TENPXA>
+    <NGAYSINH>15/03/2006</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>117000000958</ID>
+    <MABN>05152074</MABN>
+    <HOTEN>NGUYỄN VIỆT ANH</HOTEN>
+    <SOBIENLAI>6123</SOBIENLAI>
+    <SOVAOVIEN>0017911/06</SOVAOVIEN>
+    <SOTIEN>800000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUTT2006</QUYENSO>
+    <QUYENSOID>105</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Ngoại - A5</TENKP>
+    <NGUOITHU>Nguyễn Thị Minh Khanh</NGUOITHU>
+    <USERID>Nguyễn Thị Minh Khanh (khanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Quận Hai Bà Trưng</TENQUAN>
+    <TENPXA>Không xác định</TENPXA>
+    <NGAYSINH>02/03/1995</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>117000000959</ID>
+    <MABN>06046093</MABN>
+    <HOTEN>NGUYỄN NGỌC NHƯ Ý</HOTEN>
+    <SOBIENLAI>6124</SOBIENLAI>
+    <SOVAOVIEN>8</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUTT2006</QUYENSO>
+    <QUYENSOID>105</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Cấp Cứu Lưu - A2</TENKP>
+    <NGUOITHU>Nguyễn Thị Minh Khanh</NGUOITHU>
+    <USERID>Nguyễn Thị Minh Khanh (khanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Quận Hoàn Kiếm</TENQUAN>
+    <TENPXA>Phường Chương Dương Độ</TENPXA>
+    <NGAYSINH>03/11/2005</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>117000000960</ID>
+    <MABN>05140511</MABN>
+    <HOTEN>TRỊNH THỊ LY</HOTEN>
+    <SOBIENLAI>6125</SOBIENLAI>
+    <SOVAOVIEN>0017912/06</SOVAOVIEN>
+    <SOTIEN>600000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUTT2006</QUYENSO>
+    <QUYENSOID>105</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Hô Hấp - A15</TENKP>
+    <NGUOITHU>Nguyễn Thị Minh Khanh</NGUOITHU>
+    <USERID>Nguyễn Thị Minh Khanh (khanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Tây</TENTT>
+    <TENQUAN>Huyện Hoài Đức</TENQUAN>
+    <TENPXA>Xã Dương Nội</TENPXA>
+    <NGAYSINH>12/12/2004</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>117000000961</ID>
+    <MABN>06067598</MABN>
+    <HOTEN>LÊ PHƯƠNG THẢO</HOTEN>
+    <SOBIENLAI>6126</SOBIENLAI>
+    <SOVAOVIEN>0017913/06</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUTT2006</QUYENSO>
+    <QUYENSOID>105</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Vật Lý Trị Liệu - Phục Hồi Chức Năng</TENKP>
+    <NGUOITHU>Nguyễn Thị Minh Khanh</NGUOITHU>
+    <USERID>Nguyễn Thị Minh Khanh (khanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Quận Hoàn Kiếm</TENQUAN>
+    <TENPXA>Phường Đồng Xuân</TENPXA>
+    <NGAYSINH>04/09/2005</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>117000000962</ID>
+    <MABN>05095152</MABN>
+    <HOTEN>VŨ VĂN TOÀN</HOTEN>
+    <SOBIENLAI>6127</SOBIENLAI>
+    <SOVAOVIEN>0017914/06</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUTT2006</QUYENSO>
+    <QUYENSOID>105</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Vật Lý Trị Liệu - Phục Hồi Chức Năng</TENKP>
+    <NGUOITHU>Nguyễn Thị Minh Khanh</NGUOITHU>
+    <USERID>Nguyễn Thị Minh Khanh (khanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Ninh Bình</TENTT>
+    <TENQUAN>Huyện Yên Mô</TENQUAN>
+    <TENPXA>Xã Yên Phú</TENPXA>
+    <NGAYSINH>28/07/2004</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>117000000963</ID>
+    <MABN>04886056</MABN>
+    <HOTEN>VŨ VĂN SINH</HOTEN>
+    <SOBIENLAI>6128</SOBIENLAI>
+    <SOVAOVIEN>0017915/06</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUTT2006</QUYENSO>
+    <QUYENSOID>105</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Vật Lý Trị Liệu - Phục Hồi Chức Năng</TENKP>
+    <NGUOITHU>Nguyễn Thị Minh Khanh</NGUOITHU>
+    <USERID>Nguyễn Thị Minh Khanh (khanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Quận Long Biên</TENQUAN>
+    <TENPXA>Không Xác Định</TENPXA>
+    <NGAYSINH>24/09/2004</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>117000000964</ID>
+    <MABN>06070589</MABN>
+    <HOTEN>LÊ MINH TUẤN</HOTEN>
+    <SOBIENLAI>6129</SOBIENLAI>
+    <SOVAOVIEN>0017917/06</SOVAOVIEN>
+    <SOTIEN>400000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUTT2006</QUYENSO>
+    <QUYENSOID>105</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Tiêu Hoá - A7</TENKP>
+    <NGUOITHU>Nguyễn Thị Minh Khanh</NGUOITHU>
+    <USERID>Nguyễn Thị Minh Khanh (khanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Tây</TENTT>
+    <TENQUAN>Không xác định</TENQUAN>
+    <TENPXA>Không xác định</TENPXA>
+    <NGAYSINH>12/12/2005</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>117000000965</ID>
+    <MABN>06056537</MABN>
+    <HOTEN>HOÀNG THỊ THẢO</HOTEN>
+    <SOBIENLAI>6130</SOBIENLAI>
+    <SOVAOVIEN>0017918/06</SOVAOVIEN>
+    <SOTIEN>800000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUTT2006</QUYENSO>
+    <QUYENSOID>105</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Chỉnh Hình Nhi</TENKP>
+    <NGUOITHU>Nguyễn Thị Minh Khanh</NGUOITHU>
+    <USERID>Nguyễn Thị Minh Khanh (khanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Thanh Hóa</TENTT>
+    <TENQUAN>Huyện Triệu Sơn</TENQUAN>
+    <TENPXA>Xã Thọ Thế</TENPXA>
+    <NGAYSINH>20/10/1996</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>117000000966</ID>
+    <MABN>06062009</MABN>
+    <HOTEN>NGUYỄN THỊ HẠNH</HOTEN>
+    <SOBIENLAI>6131</SOBIENLAI>
+    <SOVAOVIEN>0017919/06</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUTT2006</QUYENSO>
+    <QUYENSOID>105</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Chỉnh Hình Nhi</TENKP>
+    <NGUOITHU>Nguyễn Thị Minh Khanh</NGUOITHU>
+    <USERID>Nguyễn Thị Minh Khanh (khanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Phú Thọ</TENTT>
+    <TENQUAN>Huyện Thanh Ba</TENQUAN>
+    <TENPXA>Xã Đỗ Xuyên</TENPXA>
+    <NGAYSINH>2001</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>117000000967</ID>
+    <MABN>05057326</MABN>
+    <HOTEN>TRẦN BẢO LONG</HOTEN>
+    <SOBIENLAI>6132</SOBIENLAI>
+    <SOVAOVIEN>0017920/06</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUTT2006</QUYENSO>
+    <QUYENSOID>105</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Ung Bướu - A14</TENKP>
+    <NGUOITHU>Nguyễn Thị Minh Khanh</NGUOITHU>
+    <USERID>Nguyễn Thị Minh Khanh (khanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Quảng Ninh</TENTT>
+    <TENQUAN>Thị xã Cẩm Phả</TENQUAN>
+    <TENPXA>Phường Cẩm Thạch</TENPXA>
+    <NGAYSINH>20/08/1995</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>117000000968</ID>
+    <MABN>05040051</MABN>
+    <HOTEN>TRƯƠNG QUANG ĐẠT</HOTEN>
+    <SOBIENLAI>6133</SOBIENLAI>
+    <SOVAOVIEN>0017921/06</SOVAOVIEN>
+    <SOTIEN>400000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUTT2006</QUYENSO>
+    <QUYENSOID>105</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Tiêu Hoá - A8</TENKP>
+    <NGUOITHU>Nguyễn Thị Minh Khanh</NGUOITHU>
+    <USERID>Nguyễn Thị Minh Khanh (khanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Vĩnh Phúc</TENTT>
+    <TENQUAN>Huyện Mê Linh</TENQUAN>
+    <TENPXA>Thị trấn Phúc Yên</TENPXA>
+    <NGAYSINH>27/04/2004</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>117000000969</ID>
+    <MABN>06069408</MABN>
+    <HOTEN>DƯƠNG QUANG TÂM</HOTEN>
+    <SOBIENLAI>6134</SOBIENLAI>
+    <SOVAOVIEN>0017923/06</SOVAOVIEN>
+    <SOTIEN>600000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUTT2006</QUYENSO>
+    <QUYENSOID>105</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Truyền Nhiễm - K</TENKP>
+    <NGUOITHU>Nguyễn Thị Minh Khanh</NGUOITHU>
+    <USERID>Nguyễn Thị Minh Khanh (khanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Vĩnh Phúc</TENTT>
+    <TENQUAN>Huyện Yên Lạc</TENQUAN>
+    <TENPXA>Xã Yên Đồng</TENPXA>
+    <NGAYSINH>04/03/2003</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>117000000970</ID>
+    <MABN>06059661</MABN>
+    <HOTEN>PHẠM VĂN PHONG</HOTEN>
+    <SOBIENLAI>6135</SOBIENLAI>
+    <SOVAOVIEN>0017924/06</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUTT2006</QUYENSO>
+    <QUYENSOID>105</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Tim Mạch - A10</TENKP>
+    <NGUOITHU>Nguyễn Thị Minh Khanh</NGUOITHU>
+    <USERID>Nguyễn Thị Minh Khanh (khanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hải Phòng</TENTT>
+    <TENQUAN>Huyện Kiến Thuỵ</TENQUAN>
+    <TENPXA>Xã Đại Hợp</TENPXA>
+    <NGAYSINH>13/05/2002</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>117000000971</ID>
+    <MABN>06060774</MABN>
+    <HOTEN>NGUYỄN THẾ THÀNH</HOTEN>
+    <SOBIENLAI>6136</SOBIENLAI>
+    <SOVAOVIEN>0016558/06</SOVAOVIEN>
+    <SOTIEN>700000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUTT2006</QUYENSO>
+    <QUYENSOID>105</QUYENSOID>
+    <DOITUONG>Miễn</DOITUONG>
+    <TENKP>Ngoại - A6</TENKP>
+    <NGUOITHU>Nguyễn Thị Minh Khanh</NGUOITHU>
+    <USERID>Nguyễn Thị Minh Khanh (khanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Sơn La</TENTT>
+    <TENQUAN>Huyện Yên Châu</TENQUAN>
+    <TENPXA>Không xác định</TENPXA>
+    <NGAYSINH>18/05/2005</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>117000000972</ID>
+    <MABN>06050051</MABN>
+    <HOTEN>MÃ THỊ TRANG</HOTEN>
+    <SOBIENLAI>6137</SOBIENLAI>
+    <SOVAOVIEN>0017929/06</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUTT2006</QUYENSO>
+    <QUYENSOID>105</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Tiêu Hoá - A8</TENKP>
+    <NGUOITHU>Nguyễn Thị Minh Khanh</NGUOITHU>
+    <USERID>Nguyễn Thị Minh Khanh (khanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Thanh Hóa</TENTT>
+    <TENQUAN>Huyện Nga Sơn</TENQUAN>
+    <TENPXA>Xã Nga Thành</TENPXA>
+    <NGAYSINH>01/05/2001</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>117000000973</ID>
+    <MABN>06062296</MABN>
+    <HOTEN>ĐÀO TUẤN ANH</HOTEN>
+    <SOBIENLAI>6138</SOBIENLAI>
+    <SOVAOVIEN>0017930/06</SOVAOVIEN>
+    <SOTIEN>800000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUTT2006</QUYENSO>
+    <QUYENSOID>105</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Chỉnh Hình Nhi</TENKP>
+    <NGUOITHU>Nguyễn Thị Minh Khanh</NGUOITHU>
+    <USERID>Nguyễn Thị Minh Khanh (khanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hải Dương</TENTT>
+    <TENQUAN>Huyện Kim Thành</TENQUAN>
+    <TENPXA>Xã Cộng Hòa</TENPXA>
+    <NGAYSINH>10/10/2003</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>117000000974</ID>
+    <MABN>05076353</MABN>
+    <HOTEN>PHẠM VŨ TRÚC LINH</HOTEN>
+    <SOBIENLAI>6139</SOBIENLAI>
+    <SOVAOVIEN>0017932/06</SOVAOVIEN>
+    <SOTIEN>600000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUTT2006</QUYENSO>
+    <QUYENSOID>105</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Tiêu Hoá - A7</TENKP>
+    <NGUOITHU>Nguyễn Thị Minh Khanh</NGUOITHU>
+    <USERID>Nguyễn Thị Minh Khanh (khanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hải Dương</TENTT>
+    <TENQUAN>Thành phố Hải Dương</TENQUAN>
+    <TENPXA>Không xác định</TENPXA>
+    <NGAYSINH>09/03/2005</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>117000000975</ID>
+    <MABN>06062300</MABN>
+    <HOTEN>NGUYỄN ĐỨC HUY</HOTEN>
+    <SOBIENLAI>6140</SOBIENLAI>
+    <SOVAOVIEN>0017933/06</SOVAOVIEN>
+    <SOTIEN>800000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUTT2006</QUYENSO>
+    <QUYENSOID>105</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Chỉnh Hình Nhi</TENKP>
+    <NGUOITHU>Nguyễn Thị Minh Khanh</NGUOITHU>
+    <USERID>Nguyễn Thị Minh Khanh (khanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hải Dương</TENTT>
+    <TENQUAN>Huyện Kim Thành</TENQUAN>
+    <TENPXA>Xã Cộng Hòa</TENPXA>
+    <THON>Hđkch</THON>
+    <NGAYSINH>15/01/2000</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>117000000976</ID>
+    <MABN>06070926</MABN>
+    <HOTEN>LÊ NGUYỄN BẢO ANH</HOTEN>
+    <SOBIENLAI>6141</SOBIENLAI>
+    <SOVAOVIEN>0017939/06</SOVAOVIEN>
+    <SOTIEN>600000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUTT2006</QUYENSO>
+    <QUYENSOID>105</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Thần Kinh - A13</TENKP>
+    <NGUOITHU>Nguyễn Thị Minh Khanh</NGUOITHU>
+    <USERID>Nguyễn Thị Minh Khanh (khanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Yên Bái</TENTT>
+    <TENQUAN>Thị xã Yên Bái</TENQUAN>
+    <TENPXA>Phường Yên Thịnh</TENPXA>
+    <NGAYSINH>24/07/2002</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>117000000977</ID>
+    <MABN>05113393</MABN>
+    <HOTEN>NGUYỄN MINH HIẾU</HOTEN>
+    <SOBIENLAI>6142</SOBIENLAI>
+    <SOVAOVIEN>0017940/06</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUTT2006</QUYENSO>
+    <QUYENSOID>105</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Vật Lý Trị Liệu - Phục Hồi Chức Năng</TENKP>
+    <NGUOITHU>Nguyễn Thị Minh Khanh</NGUOITHU>
+    <USERID>Nguyễn Thị Minh Khanh (khanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Quận Đống Đa</TENQUAN>
+    <TENPXA>Phường Khương Thượng</TENPXA>
+    <NGAYSINH>06/03/2001</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>117000000978</ID>
+    <MABN>06063207</MABN>
+    <HOTEN>ĐÀO NGUYÊN VŨ</HOTEN>
+    <SOBIENLAI>6143</SOBIENLAI>
+    <SOVAOVIEN>0017431/06</SOVAOVIEN>
+    <SOTIEN>800000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUTT2006</QUYENSO>
+    <QUYENSOID>105</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Ngoại - A6</TENKP>
+    <NGUOITHU>Nguyễn Thị Minh Khanh</NGUOITHU>
+    <USERID>Nguyễn Thị Minh Khanh (khanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hưng Yên</TENTT>
+    <TENQUAN>Huyện Kim Động</TENQUAN>
+    <TENPXA>Xã Ngũ Lão</TENPXA>
+    <NGAYSINH>03/07/2004</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>117000000979</ID>
+    <MABN>06068732</MABN>
+    <HOTEN>NGUYỄN THỊ HÀ MY</HOTEN>
+    <SOBIENLAI>6144</SOBIENLAI>
+    <SOVAOVIEN>0017947/06</SOVAOVIEN>
+    <SOTIEN>400000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUTT2006</QUYENSO>
+    <QUYENSOID>105</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Tiêu Hoá - A7</TENKP>
+    <NGUOITHU>Nguyễn Thị Minh Khanh</NGUOITHU>
+    <USERID>Nguyễn Thị Minh Khanh (khanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Quận Cầu Giấy</TENQUAN>
+    <TENPXA>Phường Trung Hoà</TENPXA>
+    <NGAYSINH>30/10/2000</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>117000000980</ID>
+    <MABN>04107167</MABN>
+    <HOTEN>NGUYỄN ĐÌNH AN</HOTEN>
+    <SOBIENLAI>6145</SOBIENLAI>
+    <SOVAOVIEN>0017948/06</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUTT2006</QUYENSO>
+    <QUYENSOID>105</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Vật Lý Trị Liệu - Phục Hồi Chức Năng</TENKP>
+    <NGUOITHU>Nguyễn Thị Minh Khanh</NGUOITHU>
+    <USERID>Nguyễn Thị Minh Khanh (khanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hải Dương</TENTT>
+    <TENQUAN>Huyện Cẩm Giàng</TENQUAN>
+    <TENPXA>Thị trấn Cẩm Giàng</TENPXA>
+    <NGAYSINH>13/10/2004</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>117000000981</ID>
+    <MABN>06070718</MABN>
+    <HOTEN>NGÔ MINH HẰNG</HOTEN>
+    <SOBIENLAI>6146</SOBIENLAI>
+    <SOVAOVIEN>9</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUTT2006</QUYENSO>
+    <QUYENSOID>105</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Cấp Cứu Lưu - A2</TENKP>
+    <NGUOITHU>Nguyễn Thị Minh Khanh</NGUOITHU>
+    <USERID>Nguyễn Thị Minh Khanh (khanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Bắc Ninh</TENTT>
+    <TENQUAN>Huyện Từ Sơn</TENQUAN>
+    <TENPXA>Xã Đình Bảng</TENPXA>
+    <NGAYSINH>07/04/2006</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>117000000982</ID>
+    <MABN>04095668</MABN>
+    <HOTEN>ĐỖ MINH HIẾU</HOTEN>
+    <SOBIENLAI>6147</SOBIENLAI>
+    <SOVAOVIEN>0017951/06</SOVAOVIEN>
+    <SOTIEN>600000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUTT2006</QUYENSO>
+    <QUYENSOID>105</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Tim Mạch - A10</TENKP>
+    <NGUOITHU>Nguyễn Thị Minh Khanh</NGUOITHU>
+    <USERID>Nguyễn Thị Minh Khanh (khanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Quận Cầu Giấy</TENQUAN>
+    <TENPXA>Phường Nghĩa Đô</TENPXA>
+    <NGAYSINH>30/03/2003</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>117000000983</ID>
+    <MABN>06070714</MABN>
+    <HOTEN>PHẠM TRUNG PHONG</HOTEN>
+    <SOBIENLAI>6148</SOBIENLAI>
+    <SOVAOVIEN>15</SOVAOVIEN>
+    <SOTIEN>600000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUTT2006</QUYENSO>
+    <QUYENSOID>105</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Hô Hấp - A15</TENKP>
+    <NGUOITHU>Nguyễn Thị Minh Khanh</NGUOITHU>
+    <USERID>Nguyễn Thị Minh Khanh (khanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Tây</TENTT>
+    <TENQUAN>Huyện Thạch Thất</TENQUAN>
+    <TENPXA>Thị trấn Liên Quan</TENPXA>
+    <NGAYSINH>19/07/2004</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>117000000984</ID>
+    <MABN>04025287</MABN>
+    <HOTEN>VŨ TRẦN THU VÂN</HOTEN>
+    <SOBIENLAI>6149</SOBIENLAI>
+    <SOVAOVIEN>0017952/06</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUTT2006</QUYENSO>
+    <QUYENSOID>105</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Ung Bướu - A14</TENKP>
+    <NGUOITHU>Nguyễn Thị Minh Khanh</NGUOITHU>
+    <USERID>Nguyễn Thị Minh Khanh (khanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Quận Đống Đa</TENQUAN>
+    <TENPXA>Phường Cát Linh</TENPXA>
+    <NGAYSINH>2002</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>117000000985</ID>
+    <MABN>04033409</MABN>
+    <HOTEN>ĐÀO NGUYỄN DIỆU THU</HOTEN>
+    <SOBIENLAI>6150</SOBIENLAI>
+    <SOVAOVIEN>0017953/06</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUTT2006</QUYENSO>
+    <QUYENSOID>105</QUYENSOID>
+    <DOITUONG>Miễn</DOITUONG>
+    <TENKP>Ung Bướu - A14</TENKP>
+    <NGUOITHU>Nguyễn Thị Minh Khanh</NGUOITHU>
+    <USERID>Nguyễn Thị Minh Khanh (khanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Huyện Đông Anh</TENQUAN>
+    <TENPXA>Không xác định</TENPXA>
+    <NGAYSINH>27/08/1999</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>117000000986</ID>
+    <MABN>06502478</MABN>
+    <HOTEN>TRỊNH VIẾT HÙNG</HOTEN>
+    <SOBIENLAI>6151</SOBIENLAI>
+    <SOVAOVIEN>0017954/06</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUTT2006</QUYENSO>
+    <QUYENSOID>105</QUYENSOID>
+    <DOITUONG>Miễn</DOITUONG>
+    <TENKP>Tiêu Hoá - A7</TENKP>
+    <NGUOITHU>Nguyễn Thị Minh Khanh</NGUOITHU>
+    <USERID>Nguyễn Thị Minh Khanh (khanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Thanh Hóa</TENTT>
+    <TENQUAN>Huyện Quảng Xương</TENQUAN>
+    <TENPXA>Xã Quảng Lợi</TENPXA>
+    <NGAYSINH>21/05/2003</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>117000000987</ID>
+    <MABN>05050106</MABN>
+    <HOTEN>PHẠM TIẾN TÀI</HOTEN>
+    <SOBIENLAI>6152</SOBIENLAI>
+    <SOVAOVIEN>0017956/06</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUTT2006</QUYENSO>
+    <QUYENSOID>105</QUYENSOID>
+    <DOITUONG>BHYT</DOITUONG>
+    <TENKP>Ung Bướu - A14</TENKP>
+    <NGUOITHU>Nguyễn Thị Minh Khanh</NGUOITHU>
+    <USERID>Nguyễn Thị Minh Khanh (khanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Quảng Ninh</TENTT>
+    <TENQUAN>Không xác định</TENQUAN>
+    <TENPXA>Không xác định</TENPXA>
+    <NGAYSINH>1995</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>117000000988</ID>
+    <MABN>06024851</MABN>
+    <HOTEN>LUYỆN TRÍ THÀNH</HOTEN>
+    <SOBIENLAI>6153</SOBIENLAI>
+    <SOVAOVIEN>0017957/06</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUTT2006</QUYENSO>
+    <QUYENSOID>105</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Ung Bướu - A14</TENKP>
+    <NGUOITHU>Nguyễn Thị Minh Khanh</NGUOITHU>
+    <USERID>Nguyễn Thị Minh Khanh (khanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hưng Yên</TENTT>
+    <TENQUAN>Huyện Yên Mỹ</TENQUAN>
+    <TENPXA>Xã Ngọc Long</TENPXA>
+    <NGAYSINH>10/08/2003</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>117000000989</ID>
+    <MABN>06070746</MABN>
+    <HOTEN>NGÔ PHƯƠNG ANH</HOTEN>
+    <SOBIENLAI>6154</SOBIENLAI>
+    <SOVAOVIEN>0017900/06</SOVAOVIEN>
+    <SOTIEN>600000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUTT2006</QUYENSO>
+    <QUYENSOID>105</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Hô Hấp - A16</TENKP>
+    <NGUOITHU>Nguyễn Thị Minh Khanh</NGUOITHU>
+    <USERID>Nguyễn Thị Minh Khanh (khanh )</USERID>
+    <HUY>1</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Quận Long Biên</TENQUAN>
+    <TENPXA>Phường Đức Giang</TENPXA>
+    <NGAYSINH>07/07/2005</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>117000000990</ID>
+    <MABN>06070746</MABN>
+    <HOTEN>NGÔ PHƯƠNG ANH</HOTEN>
+    <SOBIENLAI>6155</SOBIENLAI>
+    <SOVAOVIEN>0017900/06</SOVAOVIEN>
+    <SOTIEN>400000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUTT2006</QUYENSO>
+    <QUYENSOID>105</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Hô Hấp - A16</TENKP>
+    <NGUOITHU>Nguyễn Thị Minh Khanh</NGUOITHU>
+    <USERID>Nguyễn Thị Minh Khanh (khanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Quận Long Biên</TENQUAN>
+    <TENPXA>Phường Đức Giang</TENPXA>
+    <NGAYSINH>07/07/2005</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>117000000991</ID>
+    <MABN>06000023</MABN>
+    <HOTEN>NGUYỄN THẾ TOÀN</HOTEN>
+    <SOBIENLAI>6156</SOBIENLAI>
+    <SOVAOVIEN>0017958/06</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUTT2006</QUYENSO>
+    <QUYENSOID>105</QUYENSOID>
+    <DOITUONG>Miễn</DOITUONG>
+    <TENKP>Ung Bướu - A14</TENKP>
+    <NGUOITHU>Nguyễn Thị Minh Khanh</NGUOITHU>
+    <USERID>Nguyễn Thị Minh Khanh (khanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Bắc Ninh</TENTT>
+    <TENQUAN>Huyện Từ Sơn</TENQUAN>
+    <TENPXA>Xã Hương Mạc</TENPXA>
+    <NGAYSINH>08/04/2005</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>117000000992</ID>
+    <MABN>05165301</MABN>
+    <HOTEN>NGUYỄN THỊ KIM CHI</HOTEN>
+    <SOBIENLAI>6157</SOBIENLAI>
+    <SOVAOVIEN>0017959/06</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUTT2006</QUYENSO>
+    <QUYENSOID>105</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Ung Bướu - A14</TENKP>
+    <NGUOITHU>Nguyễn Thị Minh Khanh</NGUOITHU>
+    <USERID>Nguyễn Thị Minh Khanh (khanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Quận Long Biên</TENQUAN>
+    <TENPXA>Không Xác Định</TENPXA>
+    <NGAYSINH>2000</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>117000000993</ID>
+    <MABN>05165256</MABN>
+    <HOTEN>NGUYỄN THỊ MINH ÁNH</HOTEN>
+    <SOBIENLAI>6158</SOBIENLAI>
+    <SOVAOVIEN>0017962/06</SOVAOVIEN>
+    <SOTIEN>600000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUTT2006</QUYENSO>
+    <QUYENSOID>105</QUYENSOID>
+    <DOITUONG>Miễn</DOITUONG>
+    <TENKP>Ung Bướu - A14</TENKP>
+    <NGUOITHU>Nguyễn Thị Minh Khanh</NGUOITHU>
+    <USERID>Nguyễn Thị Minh Khanh (khanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Bắc Giang</TENTT>
+    <TENQUAN>Huyện Yên Thế</TENQUAN>
+    <TENPXA>Xã Hương Vĩ</TENPXA>
+    <NGAYSINH>24/11/2003</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>117000000994</ID>
+    <MABN>06069348</MABN>
+    <HOTEN>NGUYỄN THỊ LƯU</HOTEN>
+    <SOBIENLAI>6159</SOBIENLAI>
+    <SOVAOVIEN>0017960/06</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUTT2006</QUYENSO>
+    <QUYENSOID>105</QUYENSOID>
+    <DOITUONG>Miễn</DOITUONG>
+    <TENKP>Thần Kinh - A13</TENKP>
+    <NGUOITHU>Nguyễn Thị Minh Khanh</NGUOITHU>
+    <USERID>Nguyễn Thị Minh Khanh (khanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Quảng Ninh</TENTT>
+    <TENQUAN>Huyện Yên Hưng</TENQUAN>
+    <TENPXA>Xã Hiệp Hòa</TENPXA>
+    <NGAYSINH>30/11/2004</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>117000000995</ID>
+    <MABN>06067764</MABN>
+    <HOTEN>NGUYỄN QUỐC BẢO</HOTEN>
+    <SOBIENLAI>6160</SOBIENLAI>
+    <SOVAOVIEN>0017963/06</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUTT2006</QUYENSO>
+    <QUYENSOID>105</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Vật Lý Trị Liệu - Phục Hồi Chức Năng</TENKP>
+    <NGUOITHU>Nguyễn Thị Minh Khanh</NGUOITHU>
+    <USERID>Nguyễn Thị Minh Khanh (khanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Quận Đống Đa</TENQUAN>
+    <TENPXA>Phường Quang Trung</TENPXA>
+    <NGAYSINH>18/08/2002</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>117000000996</ID>
+    <MABN>06069756</MABN>
+    <HOTEN>LÊ KHẮC DUY</HOTEN>
+    <SOBIENLAI>6161</SOBIENLAI>
+    <SOVAOVIEN>0017964/06</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUTT2006</QUYENSO>
+    <QUYENSOID>105</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Cấp Cứu Lưu - A2</TENKP>
+    <NGUOITHU>Nguyễn Thị Minh Khanh</NGUOITHU>
+    <USERID>Nguyễn Thị Minh Khanh (khanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Quận Ba Đình</TENQUAN>
+    <TENPXA>Phường Thành Công</TENPXA>
+    <NGAYSINH>26/06/2003</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>117000000997</ID>
+    <MABN>06056350</MABN>
+    <HOTEN>LÝ THỊ LOAN</HOTEN>
+    <SOBIENLAI>6162</SOBIENLAI>
+    <SOVAOVIEN>0017965/06</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUTT2006</QUYENSO>
+    <QUYENSOID>105</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Khoa Tmh - Mắt - Rhm</TENKP>
+    <NGUOITHU>Nguyễn Thị Minh Khanh</NGUOITHU>
+    <USERID>Nguyễn Thị Minh Khanh (khanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Tây</TENTT>
+    <TENQUAN>Huyện Thanh Oai</TENQUAN>
+    <TENPXA>Xã Thanh Cao</TENPXA>
+    <NGAYSINH>25/03/2006</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>117000000998</ID>
+    <MABN>06069802</MABN>
+    <HOTEN>BÀN VĂN MAI</HOTEN>
+    <SOBIENLAI>6163</SOBIENLAI>
+    <SOVAOVIEN>0017967/06</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUTT2006</QUYENSO>
+    <QUYENSOID>105</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Thần Kinh - A13</TENKP>
+    <NGUOITHU>Nguyễn Thị Minh Khanh</NGUOITHU>
+    <USERID>Nguyễn Thị Minh Khanh (khanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hòa Bình</TENTT>
+    <TENQUAN>Huyện Đà Bắc</TENQUAN>
+    <TENPXA>Xã Tân Minh</TENPXA>
+    <NGAYSINH>17/12/1990</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>117000000999</ID>
+    <MABN>06061705</MABN>
+    <HOTEN>LÊ SƠN TÙNG</HOTEN>
+    <SOBIENLAI>6164</SOBIENLAI>
+    <SOVAOVIEN>0017969/06</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUTT2006</QUYENSO>
+    <QUYENSOID>105</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Cấp Cứu Lưu - A2</TENKP>
+    <NGUOITHU>Nguyễn Thị Minh Khanh</NGUOITHU>
+    <USERID>Nguyễn Thị Minh Khanh (khanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Quận Hoàng Mai</TENQUAN>
+    <TENPXA>Phường Định Công</TENPXA>
+    <NGAYSINH>2004</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>117000001000</ID>
+    <MABN>06063166</MABN>
+    <HOTEN>LÊ VĂN KHANG</HOTEN>
+    <SOBIENLAI>6165</SOBIENLAI>
+    <SOVAOVIEN>0017970/06</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUTT2006</QUYENSO>
+    <QUYENSOID>105</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Thần Kinh - A13</TENKP>
+    <NGUOITHU>Nguyễn Thị Minh Khanh</NGUOITHU>
+    <USERID>Nguyễn Thị Minh Khanh (khanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hải Phòng</TENTT>
+    <TENQUAN>Huyện Thuỷ Nguyên</TENQUAN>
+    <TENPXA>Xã Lưu Kiếm</TENPXA>
+    <NGAYSINH>1991</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>117000001001</ID>
+    <MABN>06012502</MABN>
+    <HOTEN>NGUYỄN VĂN HẢI</HOTEN>
+    <SOBIENLAI>6166</SOBIENLAI>
+    <SOVAOVIEN>0017971/06</SOVAOVIEN>
+    <SOTIEN>100000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUTT2006</QUYENSO>
+    <QUYENSOID>105</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Ung Bướu - A14</TENKP>
+    <NGUOITHU>Nguyễn Thị Minh Khanh</NGUOITHU>
+    <USERID>Nguyễn Thị Minh Khanh (khanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Tây</TENTT>
+    <TENQUAN>Huyện Phú Xuyên</TENQUAN>
+    <TENPXA>Xã Khai Thái</TENPXA>
+    <NGAYSINH>1988</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>117000001002</ID>
+    <MABN>06063214</MABN>
+    <HOTEN>BÙI THỊ PHƯƠNG ANH</HOTEN>
+    <SOBIENLAI>6167</SOBIENLAI>
+    <SOVAOVIEN>0017972/06</SOVAOVIEN>
+    <SOTIEN>100000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUTT2006</QUYENSO>
+    <QUYENSOID>105</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Vật Lý Trị Liệu - Phục Hồi Chức Năng</TENKP>
+    <NGUOITHU>Nguyễn Thị Minh Khanh</NGUOITHU>
+    <USERID>Nguyễn Thị Minh Khanh (khanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Thái Bình</TENTT>
+    <TENQUAN>Huyện Đông Hưng</TENQUAN>
+    <TENPXA>Xã Phong Châu</TENPXA>
+    <NGAYSINH>1991</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>109000000785</ID>
+    <MABN>06062451</MABN>
+    <HOTEN>HOÀNG HẢI ANH</HOTEN>
+    <SOBIENLAI>6168</SOBIENLAI>
+    <SOVAOVIEN>0017973/06</SOVAOVIEN>
+    <SOTIEN>400000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUTT2006</QUYENSO>
+    <QUYENSOID>105</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Cấp Cứu Lưu - A2</TENKP>
+    <NGUOITHU>Nguyễn Thị Minh Khanh</NGUOITHU>
+    <USERID>Nguyễn Thị Minh Khanh (khanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Tây</TENTT>
+    <TENQUAN>Thị xã Hà Đông</TENQUAN>
+    <TENPXA>Xã Yên Nghĩa</TENPXA>
+    <NGAYSINH>20/08/2005</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>109000000786</ID>
+    <MABN>06070528</MABN>
+    <HOTEN>LÊ NGUYỄN TRƯỜNG  GIANG</HOTEN>
+    <SOBIENLAI>6169</SOBIENLAI>
+    <SOVAOVIEN>0017974/06</SOVAOVIEN>
+    <SOTIEN>100000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUTT2006</QUYENSO>
+    <QUYENSOID>105</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Thần Kinh - A13</TENKP>
+    <NGUOITHU>Nguyễn Thị Minh Khanh</NGUOITHU>
+    <USERID>Nguyễn Thị Minh Khanh (khanh )</USERID>
+    <HUY>1</HUY>
+    <TENTT>Nam Định</TENTT>
+    <TENQUAN>Thành phố Nam Định</TENQUAN>
+    <TENPXA>Xã Lộc Hạ</TENPXA>
+    <NGAYSINH>30/06/2004</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>109000000787</ID>
+    <MABN>06970671</MABN>
+    <HOTEN>LƯU HUY HÙNG</HOTEN>
+    <SOBIENLAI>6170</SOBIENLAI>
+    <SOVAOVIEN>0017977/06</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUTT2006</QUYENSO>
+    <QUYENSOID>105</QUYENSOID>
+    <DOITUONG>Miễn</DOITUONG>
+    <TENKP>Cấp Cứu Lưu - A2</TENKP>
+    <NGUOITHU>Nguyễn Thị Minh Khanh</NGUOITHU>
+    <USERID>Nguyễn Thị Minh Khanh (khanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Quận Hoàn Kiếm</TENQUAN>
+    <TENPXA>Phường Hàng Bông</TENPXA>
+    <NGAYSINH>02/04/2005</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>109000000788</ID>
+    <MABN>06067512</MABN>
+    <HOTEN>NGUYỄN MINH QUÂN</HOTEN>
+    <SOBIENLAI>6171</SOBIENLAI>
+    <SOVAOVIEN>0017976/06</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUTT2006</QUYENSO>
+    <QUYENSOID>105</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Cấp Cứu Lưu - A2</TENKP>
+    <NGUOITHU>Nguyễn Thị Minh Khanh</NGUOITHU>
+    <USERID>Nguyễn Thị Minh Khanh (khanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Quận Hoàng Mai</TENQUAN>
+    <TENPXA>Phường Định Công</TENPXA>
+    <NGAYSINH>05/11/2005</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>109000000789</ID>
+    <MABN>06070295</MABN>
+    <HOTEN>NGUYỄN THỊ NGỌC DIỄM</HOTEN>
+    <SOBIENLAI>6172</SOBIENLAI>
+    <SOVAOVIEN>0017978/06</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUTT2006</QUYENSO>
+    <QUYENSOID>105</QUYENSOID>
+    <DOITUONG>Miễn</DOITUONG>
+    <TENKP>Cấp Cứu Lưu - A2</TENKP>
+    <NGUOITHU>Nguyễn Thị Minh Khanh</NGUOITHU>
+    <USERID>Nguyễn Thị Minh Khanh (khanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Thái Bình</TENTT>
+    <TENQUAN>Huyện Tiền Hải</TENQUAN>
+    <TENPXA>Xã Nam Hà</TENPXA>
+    <NGAYSINH>06/06/2004</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>109000000790</ID>
+    <MABN>06070280</MABN>
+    <HOTEN>NHẬT LINH</HOTEN>
+    <SOBIENLAI>6173</SOBIENLAI>
+    <SOVAOVIEN>0017979/06</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUTT2006</QUYENSO>
+    <QUYENSOID>105</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Cấp Cứu Lưu - A2</TENKP>
+    <NGUOITHU>Nguyễn Thị Minh Khanh</NGUOITHU>
+    <USERID>Nguyễn Thị Minh Khanh (khanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Quận Ba Đình</TENQUAN>
+    <TENPXA>Phường Liễu Giai</TENPXA>
+    <NGAYSINH>2001</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>109000000791</ID>
+    <MABN>06070284</MABN>
+    <HOTEN>PHẠM VĂN HẢI</HOTEN>
+    <SOBIENLAI>6174</SOBIENLAI>
+    <SOVAOVIEN>0017980/06</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUTT2006</QUYENSO>
+    <QUYENSOID>105</QUYENSOID>
+    <DOITUONG>Miễn</DOITUONG>
+    <TENKP>Cấp Cứu Lưu - A2</TENKP>
+    <NGUOITHU>Nguyễn Thị Minh Khanh</NGUOITHU>
+    <USERID>Nguyễn Thị Minh Khanh (khanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Ninh Bình</TENTT>
+    <TENQUAN>Huyện Hoa Lư</TENQUAN>
+    <TENPXA>Xã Ninh Vân</TENPXA>
+    <NGAYSINH>21/11/2005</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>109000000792</ID>
+    <MABN>06070286</MABN>
+    <HOTEN>NGUYỄN THỊ TUYẾT CHINH</HOTEN>
+    <SOBIENLAI>6175</SOBIENLAI>
+    <SOVAOVIEN>0017981/06</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUTT2006</QUYENSO>
+    <QUYENSOID>105</QUYENSOID>
+    <DOITUONG>Miễn</DOITUONG>
+    <TENKP>Cấp Cứu Lưu - A2</TENKP>
+    <NGUOITHU>Nguyễn Thị Minh Khanh</NGUOITHU>
+    <USERID>Nguyễn Thị Minh Khanh (khanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Ninh Bình</TENTT>
+    <TENQUAN>Huyện Gia Viễn</TENQUAN>
+    <TENPXA>Xã Gia Tiến</TENPXA>
+    <NGAYSINH>26/12/2005</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>109000000793</ID>
+    <MABN>06041827</MABN>
+    <HOTEN>TRẦN TRUNG KIÊN</HOTEN>
+    <SOBIENLAI>6176</SOBIENLAI>
+    <SOVAOVIEN>0017982/06</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUTT2006</QUYENSO>
+    <QUYENSOID>105</QUYENSOID>
+    <DOITUONG>Miễn</DOITUONG>
+    <TENKP>Cấp Cứu Lưu - A2</TENKP>
+    <NGUOITHU>Nguyễn Thị Minh Khanh</NGUOITHU>
+    <USERID>Nguyễn Thị Minh Khanh (khanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Tuyên Quang</TENTT>
+    <TENQUAN>Huyện Sơn Dương</TENQUAN>
+    <TENPXA>Thị trấn Sơn Dương</TENPXA>
+    <THON>Bắc Hoàng</THON>
+    <NGAYSINH>04/08/2005</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>109000000794</ID>
+    <MABN>06970280</MABN>
+    <HOTEN>NGHIÊM BẢO ANH</HOTEN>
+    <SOBIENLAI>6177</SOBIENLAI>
+    <SOVAOVIEN>0017983/06</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUTT2006</QUYENSO>
+    <QUYENSOID>105</QUYENSOID>
+    <DOITUONG>Miễn</DOITUONG>
+    <TENKP>Cấp Cứu Lưu - A2</TENKP>
+    <NGUOITHU>Nguyễn Thị Minh Khanh</NGUOITHU>
+    <USERID>Nguyễn Thị Minh Khanh (khanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Quận Tây Hồ</TENQUAN>
+    <TENPXA>Phường Tứ Liên</TENPXA>
+    <NGAYSINH>21/05/2006</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>109000000795</ID>
+    <MABN>06969746</MABN>
+    <HOTEN>PHẠM VĂN PHÚC</HOTEN>
+    <SOBIENLAI>6178</SOBIENLAI>
+    <SOVAOVIEN>0017984/06</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUTT2006</QUYENSO>
+    <QUYENSOID>105</QUYENSOID>
+    <DOITUONG>Miễn</DOITUONG>
+    <TENKP>Cấp Cứu Lưu - A2</TENKP>
+    <NGUOITHU>Nguyễn Thị Minh Khanh</NGUOITHU>
+    <USERID>Nguyễn Thị Minh Khanh (khanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Huyện Đông Anh</TENQUAN>
+    <TENPXA>Xã Bắc Hồng</TENPXA>
+    <NGAYSINH>17/05/2006</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>109000000796</ID>
+    <MABN>06070292</MABN>
+    <HOTEN>VŨ PHƯƠNG ANH</HOTEN>
+    <SOBIENLAI>6179</SOBIENLAI>
+    <SOVAOVIEN>0017985/06</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUTT2006</QUYENSO>
+    <QUYENSOID>105</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Cấp Cứu Lưu - A2</TENKP>
+    <NGUOITHU>Nguyễn Thị Minh Khanh</NGUOITHU>
+    <USERID>Nguyễn Thị Minh Khanh (khanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Tây</TENTT>
+    <TENQUAN>Huyện Hoài Đức</TENQUAN>
+    <TENPXA>Xã Lại Yên</TENPXA>
+    <NGAYSINH>17/09/2005</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>117000001003</ID>
+    <MABN>06070294</MABN>
+    <HOTEN>MAI LƯU ÁNH HỒNG</HOTEN>
+    <SOBIENLAI>6180</SOBIENLAI>
+    <SOVAOVIEN>0017986/06</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUTT2006</QUYENSO>
+    <QUYENSOID>105</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Tiêu Hoá - A8</TENKP>
+    <NGUOITHU>Nguyễn Thị Minh Khanh</NGUOITHU>
+    <USERID>Nguyễn Thị Minh Khanh (khanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Thái Bình</TENTT>
+    <TENQUAN>Huyện Thái Thụy</TENQUAN>
+    <TENPXA>Không xác định</TENPXA>
+    <NGAYSINH>17/03/2006</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>117000001004</ID>
+    <MABN>06052244</MABN>
+    <HOTEN>ĐỖ VĂN THỊNH</HOTEN>
+    <SOBIENLAI>6181</SOBIENLAI>
+    <SOVAOVIEN>0017987/06</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUTT2006</QUYENSO>
+    <QUYENSOID>105</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Chỉnh Hình Nhi</TENKP>
+    <NGUOITHU>Nguyễn Thị Minh Khanh</NGUOITHU>
+    <USERID>Nguyễn Thị Minh Khanh (khanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Thanh Hóa</TENTT>
+    <TENQUAN>Huyện Thường Xuân</TENQUAN>
+    <TENPXA>Xã Xuân Thắng</TENPXA>
+    <NGAYSINH>14/05/2001</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>117000001005</ID>
+    <MABN>06059117</MABN>
+    <HOTEN>ĐỖ PHƯƠNG NAM</HOTEN>
+    <SOBIENLAI>6182</SOBIENLAI>
+    <SOVAOVIEN>0017988/06</SOVAOVIEN>
+    <SOTIEN>800000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUTT2006</QUYENSO>
+    <QUYENSOID>105</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Chỉnh Hình Nhi</TENKP>
+    <NGUOITHU>Nguyễn Thị Minh Khanh</NGUOITHU>
+    <USERID>Nguyễn Thị Minh Khanh (khanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Tây</TENTT>
+    <TENQUAN>Huyện Hoài Đức</TENQUAN>
+    <TENPXA>Xã Đông La</TENPXA>
+    <NGAYSINH>29/11/2000</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>117000001006</ID>
+    <MABN>06070282</MABN>
+    <HOTEN>HOÀNG THỊ KHÁNH HUYỀN</HOTEN>
+    <SOBIENLAI>6183</SOBIENLAI>
+    <SOVAOVIEN>0017989/06</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUTT2006</QUYENSO>
+    <QUYENSOID>105</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Cấp Cứu Lưu - A2</TENKP>
+    <NGUOITHU>Nguyễn Thị Minh Khanh</NGUOITHU>
+    <USERID>Nguyễn Thị Minh Khanh (khanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hưng Yên</TENTT>
+    <TENQUAN>Huyện Kim Động</TENQUAN>
+    <TENPXA>Xã Vĩnh Xá</TENPXA>
+    <NGAYSINH>20/03/2005</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>117000001007</ID>
+    <MABN>06070155</MABN>
+    <HOTEN>BÙI THỊ HUYỀN LINH</HOTEN>
+    <SOBIENLAI>6184</SOBIENLAI>
+    <SOVAOVIEN>0017991/06</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUTT2006</QUYENSO>
+    <QUYENSOID>105</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Cấp Cứu Lưu - A2</TENKP>
+    <NGUOITHU>Nguyễn Thị Minh Khanh</NGUOITHU>
+    <USERID>Nguyễn Thị Minh Khanh (khanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Bắc Giang</TENTT>
+    <TENQUAN>Thị xã Bắc Giang</TENQUAN>
+    <TENPXA>Phường Ngô Quyền</TENPXA>
+    <NGAYSINH>15/05/2006</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>117000001008</ID>
+    <MABN>06070637</MABN>
+    <HOTEN>NGUYỄN THỊ KIỀU TRINH</HOTEN>
+    <SOBIENLAI>6185</SOBIENLAI>
+    <SOVAOVIEN>0017992/06</SOVAOVIEN>
+    <SOTIEN>400000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUTT2006</QUYENSO>
+    <QUYENSOID>105</QUYENSOID>
+    <DOITUONG>Miễn</DOITUONG>
+    <TENKP>Tiêu Hoá - A8</TENKP>
+    <NGUOITHU>Nguyễn Thị Minh Khanh</NGUOITHU>
+    <USERID>Nguyễn Thị Minh Khanh (khanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Nam Định</TENTT>
+    <TENQUAN>Huyện ý Yên</TENQUAN>
+    <TENPXA>Xã Yên Minh</TENPXA>
+    <NGAYSINH>19/08/2003</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>117000001009</ID>
+    <MABN>06069537</MABN>
+    <HOTEN>NGUYỄN CAO TIẾN</HOTEN>
+    <SOBIENLAI>6186</SOBIENLAI>
+    <SOVAOVIEN>0017993/06</SOVAOVIEN>
+    <SOTIEN>400000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUTT2006</QUYENSO>
+    <QUYENSOID>105</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Tiêu Hoá - A8</TENKP>
+    <NGUOITHU>Nguyễn Thị Minh Khanh</NGUOITHU>
+    <USERID>Nguyễn Thị Minh Khanh (khanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Tây</TENTT>
+    <TENQUAN>Huyện Thường Tín</TENQUAN>
+    <TENPXA>Xã Tiền Phong</TENPXA>
+    <NGAYSINH>15/01/2000</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>117000001010</ID>
+    <MABN>06067864</MABN>
+    <HOTEN>LƯỜNG TÚ QUÝ</HOTEN>
+    <SOBIENLAI>6187</SOBIENLAI>
+    <SOVAOVIEN>0017994/06</SOVAOVIEN>
+    <SOTIEN>800000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUTT2006</QUYENSO>
+    <QUYENSOID>105</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Chỉnh Hình Nhi</TENKP>
+    <NGUOITHU>Nguyễn Thị Minh Khanh</NGUOITHU>
+    <USERID>Nguyễn Thị Minh Khanh (khanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Thanh Hóa</TENTT>
+    <TENQUAN>Huyện Tĩnh Gia</TENQUAN>
+    <TENPXA>Xã Thanh Sơn</TENPXA>
+    <NGAYSINH>10/07/1993</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>117000001011</ID>
+    <MABN>06070745</MABN>
+    <HOTEN>LƯU PHƯƠNG HÀ</HOTEN>
+    <SOBIENLAI>6188</SOBIENLAI>
+    <SOVAOVIEN>0017899/06</SOVAOVIEN>
+    <SOTIEN>400000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUTT2006</QUYENSO>
+    <QUYENSOID>105</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Cấp Cứu Lưu - A2</TENKP>
+    <NGUOITHU>Nguyễn Thị Minh Khanh</NGUOITHU>
+    <USERID>Nguyễn Thị Minh Khanh (khanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Tuyên Quang</TENTT>
+    <TENQUAN>Thị xã Tuyên Quang</TENQUAN>
+    <TENPXA>Xã Nông Tiến</TENPXA>
+    <NGAYSINH>11/09/2005</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>117000001012</ID>
+    <MABN>06070175</MABN>
+    <HOTEN>NGUYỄN TƯỜNG AN</HOTEN>
+    <SOBIENLAI>6189</SOBIENLAI>
+    <SOVAOVIEN>0017996/06</SOVAOVIEN>
+    <SOTIEN>400000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUTT2006</QUYENSO>
+    <QUYENSOID>105</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Sơ Sinh - A3</TENKP>
+    <NGUOITHU>Nguyễn Thị Minh Khanh</NGUOITHU>
+    <USERID>Nguyễn Thị Minh Khanh (khanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hải Dương</TENTT>
+    <TENQUAN>Huyện Kinh Môn</TENQUAN>
+    <TENPXA>Xã Minh Tân</TENPXA>
+    <NGAYSINH>18/05/2006</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>117000001013</ID>
+    <MABN>06069443</MABN>
+    <HOTEN>VŨ THỊ HƯƠNG GIANG</HOTEN>
+    <SOBIENLAI>6190</SOBIENLAI>
+    <SOVAOVIEN>0017997/06</SOVAOVIEN>
+    <SOTIEN>300000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUTT2006</QUYENSO>
+    <QUYENSOID>105</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Tim Mạch - A10</TENKP>
+    <NGUOITHU>Nguyễn Thị Minh Khanh</NGUOITHU>
+    <USERID>Nguyễn Thị Minh Khanh (khanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hưng Yên</TENTT>
+    <TENQUAN>Huyện Văn Giang</TENQUAN>
+    <TENPXA>Thị Trấn Văn Giang</TENPXA>
+    <NGAYSINH>18/08/2004</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>117000001014</ID>
+    <MABN>06051519</MABN>
+    <HOTEN>ĐẶNG THỊ MINH GIANG</HOTEN>
+    <SOBIENLAI>6191</SOBIENLAI>
+    <SOVAOVIEN>0017998/06</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUTT2006</QUYENSO>
+    <QUYENSOID>105</QUYENSOID>
+    <DOITUONG>Miễn</DOITUONG>
+    <TENKP>Tim Mạch - A10</TENKP>
+    <NGUOITHU>Nguyễn Thị Minh Khanh</NGUOITHU>
+    <USERID>Nguyễn Thị Minh Khanh (khanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hải Phòng</TENTT>
+    <TENQUAN>Huyện Cát Hải</TENQUAN>
+    <TENPXA>Không xác định</TENPXA>
+    <NGAYSINH>10/12/2004</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>117000001015</ID>
+    <MABN>05159420</MABN>
+    <HOTEN>CHU VĂN KHÁNH</HOTEN>
+    <SOBIENLAI>6192</SOBIENLAI>
+    <SOVAOVIEN>0017999/06</SOVAOVIEN>
+    <SOTIEN>400000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUTT2006</QUYENSO>
+    <QUYENSOID>105</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Nội Tiết - Ch - Di Truyền - A12</TENKP>
+    <NGUOITHU>Nguyễn Thị Minh Khanh</NGUOITHU>
+    <USERID>Nguyễn Thị Minh Khanh (khanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Cao Bằng</TENTT>
+    <TENQUAN>Thị xã Cao Bằng</TENQUAN>
+    <TENPXA>Không xác định</TENPXA>
+    <NGAYSINH>1989</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>117000001016</ID>
+    <MABN>04013596</MABN>
+    <HOTEN>NGUYỄN VĂN ĐẠT</HOTEN>
+    <SOBIENLAI>6193</SOBIENLAI>
+    <SOVAOVIEN>0018000/06</SOVAOVIEN>
+    <SOTIEN>1000000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUTT2006</QUYENSO>
+    <QUYENSOID>105</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Tiêu Hoá - A8</TENKP>
+    <NGUOITHU>Nguyễn Thị Minh Khanh</NGUOITHU>
+    <USERID>Nguyễn Thị Minh Khanh (khanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hưng Yên</TENTT>
+    <TENQUAN>Huyện Văn Lâm</TENQUAN>
+    <TENPXA>Xã Lạc Hồng</TENPXA>
+    <NGAYSINH>01/10/2002</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>117000001017</ID>
+    <MABN>06070147</MABN>
+    <HOTEN>NGUYỄN ĐỨC TRIỆU</HOTEN>
+    <SOBIENLAI>6194</SOBIENLAI>
+    <SOVAOVIEN>0018001/06</SOVAOVIEN>
+    <SOTIEN>600000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUTT2006</QUYENSO>
+    <QUYENSOID>105</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Thần Kinh - A13</TENKP>
+    <NGUOITHU>Nguyễn Thị Minh Khanh</NGUOITHU>
+    <USERID>Nguyễn Thị Minh Khanh (khanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Nam Định</TENTT>
+    <TENQUAN>Huyện Mỹ Lộc</TENQUAN>
+    <TENPXA>Xã Mỹ Hà</TENPXA>
+    <NGAYSINH>1995</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>117000001018</ID>
+    <MABN>06055894</MABN>
+    <HOTEN>NGUYỄN YẾN NHI</HOTEN>
+    <SOBIENLAI>6195</SOBIENLAI>
+    <SOVAOVIEN>0018002/06</SOVAOVIEN>
+    <SOTIEN>800000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUTT2006</QUYENSO>
+    <QUYENSOID>105</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Chỉnh Hình Nhi</TENKP>
+    <NGUOITHU>Nguyễn Thị Minh Khanh</NGUOITHU>
+    <USERID>Nguyễn Thị Minh Khanh (khanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Thanh Hóa</TENTT>
+    <TENQUAN>Thị xã Sầm Sơn</TENQUAN>
+    <TENPXA>Phường Trường Sơn</TENPXA>
+    <NGAYSINH>09/02/2002</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>117000001019</ID>
+    <MABN>06070154</MABN>
+    <HOTEN>ĐÀO DUY QUANG</HOTEN>
+    <SOBIENLAI>6196</SOBIENLAI>
+    <SOVAOVIEN>0018003/06</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUTT2006</QUYENSO>
+    <QUYENSOID>105</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Nội Tiết - Ch - Di Truyền - A12</TENKP>
+    <NGUOITHU>Nguyễn Thị Minh Khanh</NGUOITHU>
+    <USERID>Nguyễn Thị Minh Khanh (khanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Tây</TENTT>
+    <TENQUAN>Huyện Thạch Thất</TENQUAN>
+    <TENPXA>Không xác định</TENPXA>
+    <NGAYSINH>15/04/2006</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>117000001020</ID>
+    <MABN>06070662</MABN>
+    <HOTEN>NGUYỄN NGỌC MINH CHÂU</HOTEN>
+    <SOBIENLAI>6197</SOBIENLAI>
+    <SOVAOVIEN>0018004/06</SOVAOVIEN>
+    <SOTIEN>600000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUTT2006</QUYENSO>
+    <QUYENSOID>105</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Ung Bướu - A14</TENKP>
+    <NGUOITHU>Nguyễn Thị Minh Khanh</NGUOITHU>
+    <USERID>Nguyễn Thị Minh Khanh (khanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nam</TENTT>
+    <TENQUAN>Thị xã Phủ Lý</TENQUAN>
+    <TENPXA>Không xác định</TENPXA>
+    <NGAYSINH>1999</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>117000001021</ID>
+    <MABN>06070632</MABN>
+    <HOTEN>ĐỖ VĂN HÙNG</HOTEN>
+    <SOBIENLAI>6198</SOBIENLAI>
+    <SOVAOVIEN>0018007/06</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUTT2006</QUYENSO>
+    <QUYENSOID>105</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Hô Hấp - A16</TENKP>
+    <NGUOITHU>Nguyễn Thị Minh Khanh</NGUOITHU>
+    <USERID>Nguyễn Thị Minh Khanh (khanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Tây</TENTT>
+    <TENQUAN>Huyện ứng Hòa</TENQUAN>
+    <TENPXA>Xã Quảng Phú Cầu</TENPXA>
+    <NGAYSINH>13/04/2006</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>117000001022</ID>
+    <MABN>06067859</MABN>
+    <HOTEN>NGHIÊM ANH THƠ</HOTEN>
+    <SOBIENLAI>6199</SOBIENLAI>
+    <SOVAOVIEN>0017328/06</SOVAOVIEN>
+    <SOTIEN>400000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUTT2006</QUYENSO>
+    <QUYENSOID>105</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Tiêu Hoá - A8</TENKP>
+    <NGUOITHU>Nguyễn Thị Minh Khanh</NGUOITHU>
+    <USERID>Nguyễn Thị Minh Khanh (khanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Sơn La</TENTT>
+    <TENQUAN>Huyện Mộc Châu</TENQUAN>
+    <TENPXA>Xã Vân Hồ</TENPXA>
+    <NGAYSINH>27/10/1996</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>117000001023</ID>
+    <MABN>06061609</MABN>
+    <HOTEN>VƯƠNG THU PHƯƠNG</HOTEN>
+    <SOBIENLAI>6200</SOBIENLAI>
+    <SOVAOVIEN>0017638/06</SOVAOVIEN>
+    <SOTIEN>300000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUTT2006</QUYENSO>
+    <QUYENSOID>105</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Tiêu Hoá - A8</TENKP>
+    <NGUOITHU>Nguyễn Thị Minh Khanh</NGUOITHU>
+    <USERID>Nguyễn Thị Minh Khanh (khanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Tây</TENTT>
+    <TENQUAN>Huyện Hoài Đức</TENQUAN>
+    <TENPXA>Xã Di Trạch</TENPXA>
+    <NGAYSINH>29/07/2005</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>117000001024</ID>
+    <MABN>05156400</MABN>
+    <HOTEN>PHẠM HÀ GIANG</HOTEN>
+    <SOBIENLAI>6201</SOBIENLAI>
+    <SOVAOVIEN>0018008/06</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUTT2006</QUYENSO>
+    <QUYENSOID>105</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Ngoại - A6</TENKP>
+    <NGUOITHU>Nguyễn Thị Minh Khanh</NGUOITHU>
+    <USERID>Nguyễn Thị Minh Khanh (khanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Điện Biên</TENTT>
+    <TENQUAN>Huyện Tuần Giáo</TENQUAN>
+    <TENPXA>Không Xác Định</TENPXA>
+    <NGAYSINH>1998</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>117000001025</ID>
+    <MABN>06070326</MABN>
+    <HOTEN>PHẠM THỊ QUỲNH</HOTEN>
+    <SOBIENLAI>6202</SOBIENLAI>
+    <SOVAOVIEN>0018009/06</SOVAOVIEN>
+    <SOTIEN>600000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUTT2006</QUYENSO>
+    <QUYENSOID>105</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Nội Thận Tiết Niệu - A11</TENKP>
+    <NGUOITHU>Nguyễn Thị Minh Khanh</NGUOITHU>
+    <USERID>Nguyễn Thị Minh Khanh (khanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hưng Yên</TENTT>
+    <TENQUAN>Huyện Yên Mỹ</TENQUAN>
+    <TENPXA>Xã Giai Phạm</TENPXA>
+    <NGAYSINH>1999</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>117000001026</ID>
+    <MABN>06068810</MABN>
+    <HOTEN>ĐỖ THÀNH QUÂN</HOTEN>
+    <SOBIENLAI>6203</SOBIENLAI>
+    <SOVAOVIEN>0018010/06</SOVAOVIEN>
+    <SOTIEN>600000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUTT2006</QUYENSO>
+    <QUYENSOID>105</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Thần Kinh - A13</TENKP>
+    <NGUOITHU>Nguyễn Thị Minh Khanh</NGUOITHU>
+    <USERID>Nguyễn Thị Minh Khanh (khanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Huyện Đông Anh</TENQUAN>
+    <TENPXA>Xã Liên Hà</TENPXA>
+    <NGAYSINH>27/01/2002</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>117000001027</ID>
+    <MABN>06070272</MABN>
+    <HOTEN>PHẠM ĐỨC VIỆT</HOTEN>
+    <SOBIENLAI>6204</SOBIENLAI>
+    <SOVAOVIEN>0018012/06</SOVAOVIEN>
+    <SOTIEN>800000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUTT2006</QUYENSO>
+    <QUYENSOID>105</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Chỉnh Hình Nhi</TENKP>
+    <NGUOITHU>Nguyễn Thị Minh Khanh</NGUOITHU>
+    <USERID>Nguyễn Thị Minh Khanh (khanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Quận Ba Đình</TENQUAN>
+    <TENPXA>Phường Điện Biên</TENPXA>
+    <NGAYSINH>08/02/2001</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>117000001028</ID>
+    <MABN>06017786</MABN>
+    <HOTEN>PHẠM HỮU LIÊM</HOTEN>
+    <SOBIENLAI>6205</SOBIENLAI>
+    <SOVAOVIEN>0018013/06</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUTT2006</QUYENSO>
+    <QUYENSOID>105</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Cấp Cứu Lưu - A2</TENKP>
+    <NGUOITHU>Nguyễn Thị Minh Khanh</NGUOITHU>
+    <USERID>Nguyễn Thị Minh Khanh (khanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Tây</TENTT>
+    <TENQUAN>Huyện Phú Xuyên</TENQUAN>
+    <TENPXA>Xã Sơn Hà</TENPXA>
+    <NGAYSINH>18/10/2005</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>117000001029</ID>
+    <MABN>06056576</MABN>
+    <HOTEN>NGUYỄN VĂN HIẾU</HOTEN>
+    <SOBIENLAI>6206</SOBIENLAI>
+    <SOVAOVIEN>0018015/06</SOVAOVIEN>
+    <SOTIEN>800000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUTT2006</QUYENSO>
+    <QUYENSOID>105</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Chỉnh Hình Nhi</TENKP>
+    <NGUOITHU>Nguyễn Thị Minh Khanh</NGUOITHU>
+    <USERID>Nguyễn Thị Minh Khanh (khanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Huyện Đông Anh</TENQUAN>
+    <TENPXA>Xã Vĩnh Ngọc</TENPXA>
+    <NGAYSINH>24/06/1996</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>117000001030</ID>
+    <MABN>06070135</MABN>
+    <HOTEN>TRẦN THỊ HẰNG</HOTEN>
+    <SOBIENLAI>6207</SOBIENLAI>
+    <SOVAOVIEN>0018014/06</SOVAOVIEN>
+    <SOTIEN>400000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUTT2006</QUYENSO>
+    <QUYENSOID>105</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Tâm Thần - A17</TENKP>
+    <NGUOITHU>Nguyễn Thị Minh Khanh</NGUOITHU>
+    <USERID>Nguyễn Thị Minh Khanh (khanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Nam Định</TENTT>
+    <TENQUAN>Huyện Mỹ Lộc</TENQUAN>
+    <TENPXA>Không xác định</TENPXA>
+    <NGAYSINH>08/07/1993</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>117000001031</ID>
+    <MABN>06070278</MABN>
+    <HOTEN>HÀ HIỂU ÂN</HOTEN>
+    <SOBIENLAI>6208</SOBIENLAI>
+    <SOVAOVIEN>0018016/06</SOVAOVIEN>
+    <SOTIEN>600000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUTT2006</QUYENSO>
+    <QUYENSOID>105</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Huyết Học Lâm Sàng - A9</TENKP>
+    <NGUOITHU>Nguyễn Thị Minh Khanh</NGUOITHU>
+    <USERID>Nguyễn Thị Minh Khanh (khanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Ninh Bình</TENTT>
+    <TENQUAN>Huyện Nho Quan</TENQUAN>
+    <TENPXA>Xã Cúc Phương</TENPXA>
+    <NGAYSINH>21/11/2005</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>117000001032</ID>
+    <MABN>06702279</MABN>
+    <HOTEN>NGUYỄN THỊ LAM</HOTEN>
+    <SOBIENLAI>6209</SOBIENLAI>
+    <SOVAOVIEN>0018017/06</SOVAOVIEN>
+    <SOTIEN>400000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUTT2006</QUYENSO>
+    <QUYENSOID>105</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Tâm Thần - A17</TENKP>
+    <NGUOITHU>Nguyễn Thị Minh Khanh</NGUOITHU>
+    <USERID>Nguyễn Thị Minh Khanh (khanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Thanh Hóa</TENTT>
+    <TENQUAN>Huyện Cẩm Thủy</TENQUAN>
+    <TENPXA>Xã Cẩm Châu</TENPXA>
+    <NGAYSINH>20/08/1998</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>117000001033</ID>
+    <MABN>06037175</MABN>
+    <HOTEN>GIÀNG I MỴ</HOTEN>
+    <SOBIENLAI>6210</SOBIENLAI>
+    <SOVAOVIEN>0018018/06</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUTT2006</QUYENSO>
+    <QUYENSOID>105</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Ngoại - A6</TENKP>
+    <NGUOITHU>Nguyễn Thị Minh Khanh</NGUOITHU>
+    <USERID>Nguyễn Thị Minh Khanh (khanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hòa Bình</TENTT>
+    <TENQUAN>Huyện Mai Châu</TENQUAN>
+    <TENPXA>Xã Hang Kia</TENPXA>
+    <NGAYSINH>17/09/2005</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>117000001034</ID>
+    <MABN>06070291</MABN>
+    <HOTEN>HOÀNG THUỲ DƯƠNG</HOTEN>
+    <SOBIENLAI>6211</SOBIENLAI>
+    <SOVAOVIEN>0018020/06</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUTT2006</QUYENSO>
+    <QUYENSOID>105</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Hô Hấp - A16</TENKP>
+    <NGUOITHU>Nguyễn Thị Minh Khanh</NGUOITHU>
+    <USERID>Nguyễn Thị Minh Khanh (khanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Thái Nguyên</TENTT>
+    <TENQUAN>Huyện Võ Nhai</TENQUAN>
+    <TENPXA>Xã La Hiên</TENPXA>
+    <NGAYSINH>20/04/2005</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>117000001035</ID>
+    <MABN>06078023</MABN>
+    <HOTEN>NGUYỄN THỊ GÁI</HOTEN>
+    <SOBIENLAI>6212</SOBIENLAI>
+    <SOVAOVIEN>0018022/06</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUTT2006</QUYENSO>
+    <QUYENSOID>105</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Cấp Cứu Lưu - A2</TENKP>
+    <NGUOITHU>Nguyễn Thị Minh Khanh</NGUOITHU>
+    <USERID>Nguyễn Thị Minh Khanh (khanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Tây</TENTT>
+    <TENQUAN>Huyện Thường Tín</TENQUAN>
+    <TENPXA>Xã Thư Phú</TENPXA>
+    <NGAYSINH>21/05/2006</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>117000001036</ID>
+    <MABN>06070285</MABN>
+    <HOTEN>PHẠM THỊ LINH</HOTEN>
+    <SOBIENLAI>6213</SOBIENLAI>
+    <SOVAOVIEN>0018023/06</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUTT2006</QUYENSO>
+    <QUYENSOID>105</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Huyết Học Lâm Sàng - A9</TENKP>
+    <NGUOITHU>Nguyễn Thị Minh Khanh</NGUOITHU>
+    <USERID>Nguyễn Thị Minh Khanh (khanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Ninh Bình</TENTT>
+    <TENQUAN>Huyện Hoa Lư</TENQUAN>
+    <TENPXA>Xã Ninh Khang</TENPXA>
+    <NGAYSINH>07/10/2000</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>117000001037</ID>
+    <MABN>06070218</MABN>
+    <HOTEN>ĐÀO PHÚC LƯƠNG</HOTEN>
+    <SOBIENLAI>6214</SOBIENLAI>
+    <SOVAOVIEN>0018025/06</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUTT2006</QUYENSO>
+    <QUYENSOID>105</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Tiêu Hoá - A8</TENKP>
+    <NGUOITHU>Nguyễn Thị Minh Khanh</NGUOITHU>
+    <USERID>Nguyễn Thị Minh Khanh (khanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Thái Nguyên</TENTT>
+    <TENQUAN>Không xác định</TENQUAN>
+    <TENPXA>Không xác định</TENPXA>
+    <NGAYSINH>12/02/2006</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>117000001038</ID>
+    <MABN>06070217</MABN>
+    <HOTEN>PHẠM HỒNG QUÂN</HOTEN>
+    <SOBIENLAI>6215</SOBIENLAI>
+    <SOVAOVIEN>0018024/06</SOVAOVIEN>
+    <SOTIEN>200000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUTT2006</QUYENSO>
+    <QUYENSOID>105</QUYENSOID>
+    <DOITUONG>Miễn</DOITUONG>
+    <TENKP>Tiêu Hoá - A8</TENKP>
+    <NGUOITHU>Nguyễn Thị Minh Khanh</NGUOITHU>
+    <USERID>Nguyễn Thị Minh Khanh (khanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Thái Nguyên</TENTT>
+    <TENQUAN>Không xác định</TENQUAN>
+    <TENPXA>Không xác định</TENPXA>
+    <NGAYSINH>16/03/2006</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>117000001039</ID>
+    <MABN>06067733</MABN>
+    <HOTEN>PHÙNG MẠNH HÙNG</HOTEN>
+    <SOBIENLAI>6216</SOBIENLAI>
+    <SOVAOVIEN>0017902/06</SOVAOVIEN>
+    <SOTIEN>400000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUTT2006</QUYENSO>
+    <QUYENSOID>105</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Cấp Cứu Lưu - A2</TENKP>
+    <NGUOITHU>Nguyễn Thị Minh Khanh</NGUOITHU>
+    <USERID>Nguyễn Thị Minh Khanh (khanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Huyện Thanh Trì</TENQUAN>
+    <TENPXA>Xã Vạn Phúc</TENPXA>
+    <NGAYSINH>15/08/2005</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>26000002197</ID>
+    <MABN>06069577</MABN>
+    <HOTEN>NGUYỄN NGỌC CHÂU ANH</HOTEN>
+    <SOBIENLAI>9338</SOBIENLAI>
+    <SOVAOVIEN>0017561/06</SOVAOVIEN>
+    <SOTIEN>500000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUYC2005</QUYENSO>
+    <QUYENSOID>11</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Điều Trị Tự Nguyện</TENKP>
+    <NGUOITHU>Nguyễn Thị Mai Oanh</NGUOITHU>
+    <USERID>Nguyễn Thị Mai Oanh (oanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Quận Long Biên</TENQUAN>
+    <TENPXA>Phường Long Biên</TENPXA>
+    <NGAYSINH>01/11/2005</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>29000001943</ID>
+    <MABN>06029557</MABN>
+    <HOTEN>PHAN HƯƠNG LINH</HOTEN>
+    <SOBIENLAI>4037</SOBIENLAI>
+    <SOVAOVIEN>0017835/06</SOVAOVIEN>
+    <SOTIEN>500000</SOTIEN>
+    <NGAY>21/05/2006</NGAY>
+    <QUYENSO>TUYC2006</QUYENSO>
+    <QUYENSOID>101</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Điều Trị Tự Nguyện</TENKP>
+    <NGUOITHU>Nguyễn Thị Thanh</NGUOITHU>
+    <USERID>Nguyễn Thị Thanh (thanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Quận Hoàng Mai</TENQUAN>
+    <TENPXA>Phường Giáp Bát</TENPXA>
+    <NGAYSINH>10/11/2005</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>29000001944</ID>
+    <MABN>05172210</MABN>
+    <HOTEN>NGUYỄN YẾN MINH</HOTEN>
+    <SOBIENLAI>4038</SOBIENLAI>
+    <SOVAOVIEN>0017836/06</SOVAOVIEN>
+    <SOTIEN>600000</SOTIEN>
+    <NGAY>21/05/2006</NGAY>
+    <QUYENSO>TUYC2006</QUYENSO>
+    <QUYENSOID>101</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Hồi Sức Cấp Cứu</TENKP>
+    <NGUOITHU>Nguyễn Thị Thanh</NGUOITHU>
+    <USERID>Nguyễn Thị Thanh (thanh )</USERID>
+    <HUY>1</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Quận Ba Đình</TENQUAN>
+    <TENPXA>Phường Vĩnh Phúc</TENPXA>
+    <NGAYSINH>17/12/2004</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>29000001948</ID>
+    <MABN>06063061</MABN>
+    <HOTEN>NGUYỄN TIẾN MẠNH</HOTEN>
+    <SOBIENLAI>4039</SOBIENLAI>
+    <SOVAOVIEN>0017784/06</SOVAOVIEN>
+    <SOTIEN>500000</SOTIEN>
+    <NGAY>21/05/2006</NGAY>
+    <QUYENSO>TUYC2006</QUYENSO>
+    <QUYENSOID>101</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Điều Trị Tự Nguyện</TENKP>
+    <NGUOITHU>Nguyễn Thị Thanh</NGUOITHU>
+    <USERID>Nguyễn Thị Thanh (thanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Quận Hoàn Kiếm</TENQUAN>
+    <TENPXA>Không xác định</TENPXA>
+    <NGAYSINH>17/01/2005</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>29000001950</ID>
+    <MABN>06070954</MABN>
+    <HOTEN>KIM NGỌC ÁNH</HOTEN>
+    <SOBIENLAI>4040</SOBIENLAI>
+    <SOVAOVIEN>0017839/06</SOVAOVIEN>
+    <SOTIEN>500000</SOTIEN>
+    <NGAY>21/05/2006</NGAY>
+    <QUYENSO>TUYC2006</QUYENSO>
+    <QUYENSOID>101</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Điều Trị Tự Nguyện</TENKP>
+    <NGUOITHU>Nguyễn Thị Thanh</NGUOITHU>
+    <USERID>Nguyễn Thị Thanh (thanh )</USERID>
+    <HUY>1</HUY>
+    <TENTT>Hà Tây</TENTT>
+    <TENQUAN>Huyện ứng Hòa</TENQUAN>
+    <TENPXA>Không xác định</TENPXA>
+    <NGAYSINH>28/09/2005</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>29000001954</ID>
+    <MABN>06071030</MABN>
+    <HOTEN>TRẦN THU UYÊN</HOTEN>
+    <SOBIENLAI>4041</SOBIENLAI>
+    <SOVAOVIEN>0017842/06</SOVAOVIEN>
+    <SOTIEN>500000</SOTIEN>
+    <NGAY>21/05/2006</NGAY>
+    <QUYENSO>TUYC2006</QUYENSO>
+    <QUYENSOID>101</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Điều Trị Tự Nguyện</TENKP>
+    <NGUOITHU>Nguyễn Thị Thanh</NGUOITHU>
+    <USERID>Nguyễn Thị Thanh (thanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Quận Đống Đa</TENQUAN>
+    <TENPXA>Không xác định</TENPXA>
+    <NGAYSINH>22/12/1999</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>29000001960</ID>
+    <MABN>06070841</MABN>
+    <HOTEN>DƯƠNG VŨ HỒNG ANH</HOTEN>
+    <SOBIENLAI>4042</SOBIENLAI>
+    <SOVAOVIEN>0017849/06</SOVAOVIEN>
+    <SOTIEN>500000</SOTIEN>
+    <NGAY>21/05/2006</NGAY>
+    <QUYENSO>TUYC2006</QUYENSO>
+    <QUYENSOID>101</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Điều Trị Tự Nguyện</TENKP>
+    <NGUOITHU>Nguyễn Thị Thanh</NGUOITHU>
+    <USERID>Nguyễn Thị Thanh (thanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Phú Thọ</TENTT>
+    <TENQUAN>Thành phố Việt Trì</TENQUAN>
+    <TENPXA>Phường Tiên Cát</TENPXA>
+    <NGAYSINH>14/10/2000</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>29000001962</ID>
+    <MABN>05104107</MABN>
+    <HOTEN>VŨ THỊ LƯƠNG THẢO</HOTEN>
+    <SOBIENLAI>4043</SOBIENLAI>
+    <SOVAOVIEN>0017851/06</SOVAOVIEN>
+    <SOTIEN>500000</SOTIEN>
+    <NGAY>21/05/2006</NGAY>
+    <QUYENSO>TUYC2006</QUYENSO>
+    <QUYENSOID>101</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Điều Trị Tự Nguyện</TENKP>
+    <NGUOITHU>Nguyễn Thị Thanh</NGUOITHU>
+    <USERID>Nguyễn Thị Thanh (thanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Quận Đống Đa</TENQUAN>
+    <TENPXA>Phường Thịnh Quang</TENPXA>
+    <NGAYSINH>05/06/2005</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>29000001964</ID>
+    <MABN>06070830</MABN>
+    <HOTEN>TRẦN CÔNG HIẾU</HOTEN>
+    <SOBIENLAI>4044</SOBIENLAI>
+    <SOVAOVIEN>0017853/06</SOVAOVIEN>
+    <SOTIEN>500000</SOTIEN>
+    <NGAY>21/05/2006</NGAY>
+    <QUYENSO>TUYC2006</QUYENSO>
+    <QUYENSOID>101</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Điều Trị Tự Nguyện</TENKP>
+    <NGUOITHU>Nguyễn Thị Thanh</NGUOITHU>
+    <USERID>Nguyễn Thị Thanh (thanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Quận Ba Đình</TENQUAN>
+    <TENPXA>Phường Cống Vị</TENPXA>
+    <NGAYSINH>2002</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>29000001967</ID>
+    <MABN>05049714</MABN>
+    <HOTEN>TRẦN TÂM ĐỨC</HOTEN>
+    <SOBIENLAI>4045</SOBIENLAI>
+    <SOVAOVIEN>0017856/06</SOVAOVIEN>
+    <SOTIEN>500000</SOTIEN>
+    <NGAY>21/05/2006</NGAY>
+    <QUYENSO>TUYC2006</QUYENSO>
+    <QUYENSOID>101</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Điều Trị Tự Nguyện</TENKP>
+    <NGUOITHU>Nguyễn Thị Thanh</NGUOITHU>
+    <USERID>Nguyễn Thị Thanh (thanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Quận Cầu Giấy</TENQUAN>
+    <TENPXA>Phường Quan Hoa</TENPXA>
+    <NGAYSINH>14/02/2005</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>29000001972</ID>
+    <MABN>06070887</MABN>
+    <HOTEN>NGUYỄN THỊ BẢO CHI</HOTEN>
+    <SOBIENLAI>4046</SOBIENLAI>
+    <SOVAOVIEN>0017861/06</SOVAOVIEN>
+    <SOTIEN>500000</SOTIEN>
+    <NGAY>21/05/2006</NGAY>
+    <QUYENSO>TUYC2006</QUYENSO>
+    <QUYENSOID>101</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Điều Trị Tự Nguyện</TENKP>
+    <NGUOITHU>Nguyễn Thị Thanh</NGUOITHU>
+    <USERID>Nguyễn Thị Thanh (thanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hải Dương</TENTT>
+    <TENQUAN>Thành phố Hải Dương</TENQUAN>
+    <TENPXA>Phường Thanh Bình</TENPXA>
+    <NGAYSINH>12/06/2000</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>29000001973</ID>
+    <MABN>06048942</MABN>
+    <HOTEN>NGUYỄN DUY AN</HOTEN>
+    <SOBIENLAI>4047</SOBIENLAI>
+    <SOVAOVIEN>0017862/06</SOVAOVIEN>
+    <SOTIEN>500000</SOTIEN>
+    <NGAY>21/05/2006</NGAY>
+    <QUYENSO>TUYC2006</QUYENSO>
+    <QUYENSOID>101</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Điều Trị Tự Nguyện</TENKP>
+    <NGUOITHU>Nguyễn Thị Thanh</NGUOITHU>
+    <USERID>Nguyễn Thị Thanh (thanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Quận Long Biên</TENQUAN>
+    <TENPXA>Phường Phúc Đồng</TENPXA>
+    <NGAYSINH>29/03/2006</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>29000001974</ID>
+    <MABN>05011031</MABN>
+    <HOTEN>VŨ ANH TUẤN</HOTEN>
+    <SOBIENLAI>4048</SOBIENLAI>
+    <SOVAOVIEN>0017863/06</SOVAOVIEN>
+    <SOTIEN>500000</SOTIEN>
+    <NGAY>21/05/2006</NGAY>
+    <QUYENSO>TUYC2006</QUYENSO>
+    <QUYENSOID>101</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Điều Trị Tự Nguyện</TENKP>
+    <NGUOITHU>Nguyễn Thị Thanh</NGUOITHU>
+    <USERID>Nguyễn Thị Thanh (thanh )</USERID>
+    <HUY>1</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Huyện Từ Liêm</TENQUAN>
+    <TENPXA>Xã Liên Mạc</TENPXA>
+    <NGAYSINH>16/02/2004</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>29000001975</ID>
+    <MABN>06071042</MABN>
+    <HOTEN>VŨ PHAN LONG</HOTEN>
+    <SOBIENLAI>4049</SOBIENLAI>
+    <SOVAOVIEN>0017864/06</SOVAOVIEN>
+    <SOTIEN>500000</SOTIEN>
+    <NGAY>21/05/2006</NGAY>
+    <QUYENSO>TUYC2006</QUYENSO>
+    <QUYENSOID>101</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Điều Trị Tự Nguyện</TENKP>
+    <NGUOITHU>Nguyễn Thị Thanh</NGUOITHU>
+    <USERID>Nguyễn Thị Thanh (thanh )</USERID>
+    <HUY>1</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Quận Đống Đa</TENQUAN>
+    <TENPXA>Phường Hàng Bột</TENPXA>
+    <NGAYSINH>26/07/2003</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>29000001978</ID>
+    <MABN>06070890</MABN>
+    <HOTEN>PHAN NGỌC HÂN</HOTEN>
+    <SOBIENLAI>4050</SOBIENLAI>
+    <SOVAOVIEN>0017866/06</SOVAOVIEN>
+    <SOTIEN>500000</SOTIEN>
+    <NGAY>21/05/2006</NGAY>
+    <QUYENSO>TUYC2006</QUYENSO>
+    <QUYENSOID>101</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Điều Trị Tự Nguyện</TENKP>
+    <NGUOITHU>Nguyễn Thị Thanh</NGUOITHU>
+    <USERID>Nguyễn Thị Thanh (thanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Tây</TENTT>
+    <TENQUAN>Huyện Hoài Đức</TENQUAN>
+    <TENPXA>Xã La Phù</TENPXA>
+    <NGAYSINH>22/04/2006</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>109000000736</ID>
+    <MABN>06065115</MABN>
+    <HOTEN>PHẠM VĂN NGUYỄN</HOTEN>
+    <SOBIENLAI>4051</SOBIENLAI>
+    <SOVAOVIEN>0017873/06</SOVAOVIEN>
+    <SOTIEN>500000</SOTIEN>
+    <NGAY>21/05/2006</NGAY>
+    <QUYENSO>TUYC2006</QUYENSO>
+    <QUYENSOID>101</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Điều Trị Tự Nguyện</TENKP>
+    <NGUOITHU>VŨ HÀ ĐỨC</NGUOITHU>
+    <USERID>VŨ HÀ ĐỨC (haduc )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hưng Yên</TENTT>
+    <TENQUAN>Thị xã Hưng Yên</TENQUAN>
+    <TENPXA>Không xác định</TENPXA>
+    <NGAYSINH>12/02/2006</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>109000000738</ID>
+    <MABN>05997394</MABN>
+    <HOTEN>ĐÀO TRẦN THUỲ ANH</HOTEN>
+    <SOBIENLAI>4052</SOBIENLAI>
+    <SOVAOVIEN>0017874/06</SOVAOVIEN>
+    <SOTIEN>500000</SOTIEN>
+    <NGAY>21/05/2006</NGAY>
+    <QUYENSO>TUYC2006</QUYENSO>
+    <QUYENSOID>101</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Điều Trị Tự Nguyện</TENKP>
+    <NGUOITHU>VŨ HÀ ĐỨC</NGUOITHU>
+    <USERID>VŨ HÀ ĐỨC (haduc )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Quận Ba Đình</TENQUAN>
+    <TENPXA>Phường Ngọc Khánh</TENPXA>
+    <NGAYSINH>17/11/2004</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>109000000740</ID>
+    <MABN>06042830</MABN>
+    <HOTEN>PHẠM HÀ CHI</HOTEN>
+    <SOBIENLAI>4053</SOBIENLAI>
+    <SOVAOVIEN>3</SOVAOVIEN>
+    <SOTIEN>500000</SOTIEN>
+    <NGAY>21/05/2006</NGAY>
+    <QUYENSO>TUYC2006</QUYENSO>
+    <QUYENSOID>101</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Điều Trị Tự Nguyện</TENKP>
+    <NGUOITHU>VŨ HÀ ĐỨC</NGUOITHU>
+    <USERID>VŨ HÀ ĐỨC (haduc )</USERID>
+    <HUY>1</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Quận Cầu Giấy</TENQUAN>
+    <TENPXA>Phường Nghĩa Đô</TENPXA>
+    <NGAYSINH>15/11/2005</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>109000000747</ID>
+    <MABN>05134821</MABN>
+    <HOTEN>NGUYỄN CẨM NHUNG</HOTEN>
+    <SOBIENLAI>4054</SOBIENLAI>
+    <SOVAOVIEN>0017882/06</SOVAOVIEN>
+    <SOTIEN>500000</SOTIEN>
+    <NGAY>21/05/2006</NGAY>
+    <QUYENSO>TUYC2006</QUYENSO>
+    <QUYENSOID>101</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Điều Trị Tự Nguyện</TENKP>
+    <NGUOITHU>VŨ HÀ ĐỨC</NGUOITHU>
+    <USERID>VŨ HÀ ĐỨC (haduc )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Không xác định</TENQUAN>
+    <TENPXA>Không xác định</TENPXA>
+    <NGAYSINH>23/08/2002</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>109000000756</ID>
+    <MABN>06070804</MABN>
+    <HOTEN>PHẠM ĐỨC THẮNG</HOTEN>
+    <SOBIENLAI>4055</SOBIENLAI>
+    <SOVAOVIEN>0017888/06</SOVAOVIEN>
+    <SOTIEN>500000</SOTIEN>
+    <NGAY>21/05/2006</NGAY>
+    <QUYENSO>TUYC2006</QUYENSO>
+    <QUYENSOID>101</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Điều Trị Tự Nguyện</TENKP>
+    <NGUOITHU>VŨ HÀ ĐỨC</NGUOITHU>
+    <USERID>VŨ HÀ ĐỨC (haduc )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hòa Bình</TENTT>
+    <TENQUAN>Huyện Lạc Thủy</TENQUAN>
+    <TENPXA>Xã Phú Lão</TENPXA>
+    <NGAYSINH>2006</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>26000002198</ID>
+    <MABN>05094003</MABN>
+    <HOTEN>NGUYỄN HỒNG QUÂN</HOTEN>
+    <SOBIENLAI>4056</SOBIENLAI>
+    <SOVAOVIEN>0017396/06</SOVAOVIEN>
+    <SOTIEN>500000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUYC2006</QUYENSO>
+    <QUYENSOID>101</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Điều Trị Tự Nguyện</TENKP>
+    <NGUOITHU>Nguyễn Thị Mai Oanh</NGUOITHU>
+    <USERID>Nguyễn Thị Mai Oanh (oanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Quận Thanh Xuân</TENQUAN>
+    <TENPXA>Phường Thanh Xuân Nam</TENPXA>
+    <NGAYSINH>30/05/2005</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>26000002199</ID>
+    <MABN>06066829</MABN>
+    <HOTEN>NGUYỄN BẢO QUYÊN</HOTEN>
+    <SOBIENLAI>4057</SOBIENLAI>
+    <SOVAOVIEN>0017356/06</SOVAOVIEN>
+    <SOTIEN>500000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUYC2006</QUYENSO>
+    <QUYENSOID>101</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Điều Trị Tự Nguyện</TENKP>
+    <NGUOITHU>Nguyễn Thị Mai Oanh</NGUOITHU>
+    <USERID>Nguyễn Thị Mai Oanh (oanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Bắc Ninh</TENTT>
+    <TENQUAN>Huyện Từ Sơn</TENQUAN>
+    <TENPXA>Xã Đình Bảng</TENPXA>
+    <NGAYSINH>28/12/2005</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>26000002200</ID>
+    <MABN>06041888</MABN>
+    <HOTEN>LÊ CÔNG HÙNG</HOTEN>
+    <SOBIENLAI>4058</SOBIENLAI>
+    <SOVAOVIEN>0017678/06</SOVAOVIEN>
+    <SOTIEN>500000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUYC2006</QUYENSO>
+    <QUYENSOID>101</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Điều Trị Tự Nguyện</TENKP>
+    <NGUOITHU>Nguyễn Thị Mai Oanh</NGUOITHU>
+    <USERID>Nguyễn Thị Mai Oanh (oanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Bắc Ninh</TENTT>
+    <TENQUAN>Huyện Từ Sơn</TENQUAN>
+    <TENPXA>Thị trấn Từ Sơn</TENPXA>
+    <NGAYSINH>08/06/2004</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>26000002201</ID>
+    <MABN>06042100</MABN>
+    <HOTEN>TRẦN GIA BẢO</HOTEN>
+    <SOBIENLAI>4059</SOBIENLAI>
+    <SOVAOVIEN>0017677/06</SOVAOVIEN>
+    <SOTIEN>500000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUYC2006</QUYENSO>
+    <QUYENSOID>101</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Điều Trị Tự Nguyện</TENKP>
+    <NGUOITHU>Nguyễn Thị Mai Oanh</NGUOITHU>
+    <USERID>Nguyễn Thị Mai Oanh (oanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Tây</TENTT>
+    <TENQUAN>Thị xã Hà Đông</TENQUAN>
+    <TENPXA>Phường Quang Trung</TENPXA>
+    <NGAYSINH>24/10/2005</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>26000002202</ID>
+    <MABN>06065204</MABN>
+    <HOTEN>HOÀNG NGỌC ĐỨC</HOTEN>
+    <SOBIENLAI>4060</SOBIENLAI>
+    <SOVAOVIEN>0017926/06</SOVAOVIEN>
+    <SOTIEN>500000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUYC2006</QUYENSO>
+    <QUYENSOID>101</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Điều Trị Tự Nguyện</TENKP>
+    <NGUOITHU>Nguyễn Thị Mai Oanh</NGUOITHU>
+    <USERID>Nguyễn Thị Mai Oanh (oanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Quận Tây Hồ</TENQUAN>
+    <TENPXA>Phường Xuân La</TENPXA>
+    <NGAYSINH>09/10/2003</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>26000002203</ID>
+    <MABN>06047234</MABN>
+    <HOTEN>KHÁNH VÂN</HOTEN>
+    <SOBIENLAI>4061</SOBIENLAI>
+    <SOVAOVIEN>0017927/06</SOVAOVIEN>
+    <SOTIEN>300000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUYC2006</QUYENSO>
+    <QUYENSOID>101</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Điều Trị Tự Nguyện</TENKP>
+    <NGUOITHU>Nguyễn Thị Mai Oanh</NGUOITHU>
+    <USERID>Nguyễn Thị Mai Oanh (oanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Huyện Từ Liêm</TENQUAN>
+    <TENPXA>Xã Thượng Cát</TENPXA>
+    <NGAYSINH>16/12/2004</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>26000002204</ID>
+    <MABN>06070854</MABN>
+    <HOTEN>ĐỖ THUỲ TRANG</HOTEN>
+    <SOBIENLAI>4062</SOBIENLAI>
+    <SOVAOVIEN>0017945/06</SOVAOVIEN>
+    <SOTIEN>300000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUYC2006</QUYENSO>
+    <QUYENSOID>101</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Điều Trị Tự Nguyện</TENKP>
+    <NGUOITHU>Nguyễn Thị Mai Oanh</NGUOITHU>
+    <USERID>Nguyễn Thị Mai Oanh (oanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Huyện Từ Liêm</TENQUAN>
+    <TENPXA>Xã Đại Mỗ</TENPXA>
+    <NGAYSINH>28/11/2004</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>26000002205</ID>
+    <MABN>06069876</MABN>
+    <HOTEN>NGUYỄN HÙNG CƯỜNG</HOTEN>
+    <SOBIENLAI>4063</SOBIENLAI>
+    <SOVAOVIEN>0017961/06</SOVAOVIEN>
+    <SOTIEN>500000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUYC2006</QUYENSO>
+    <QUYENSOID>101</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Điều Trị Tự Nguyện</TENKP>
+    <NGUOITHU>Nguyễn Thị Mai Oanh</NGUOITHU>
+    <USERID>Nguyễn Thị Mai Oanh (oanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Gia Lai</TENTT>
+    <TENQUAN>Thị xã Pleiku</TENQUAN>
+    <TENPXA>Không xác định</TENPXA>
+    <NGAYSINH>1995</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>26000002206</ID>
+    <MABN>06063186</MABN>
+    <HOTEN>NGUYỄN KHÁNH LINH</HOTEN>
+    <SOBIENLAI>4064</SOBIENLAI>
+    <SOVAOVIEN>0017277/06</SOVAOVIEN>
+    <SOTIEN>500000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUYC2006</QUYENSO>
+    <QUYENSOID>101</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Điều Trị Tự Nguyện</TENKP>
+    <NGUOITHU>Nguyễn Thị Mai Oanh</NGUOITHU>
+    <USERID>Nguyễn Thị Mai Oanh (oanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Huyện Đông Anh</TENQUAN>
+    <TENPXA>Không xác định</TENPXA>
+    <NGAYSINH>03/08/2005</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>26000002207</ID>
+    <MABN>06039476</MABN>
+    <HOTEN>LÊ TRẠCH ĐỒNG</HOTEN>
+    <SOBIENLAI>4065</SOBIENLAI>
+    <SOVAOVIEN>0017385/06</SOVAOVIEN>
+    <SOTIEN>600000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUYC2006</QUYENSO>
+    <QUYENSOID>101</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Điều Trị Tự Nguyện</TENKP>
+    <NGUOITHU>Nguyễn Thị Mai Oanh</NGUOITHU>
+    <USERID>Nguyễn Thị Mai Oanh (oanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Tây</TENTT>
+    <TENQUAN>Huyện Hoài Đức</TENQUAN>
+    <TENPXA>Xã Cát Quế</TENPXA>
+    <NGAYSINH>01/09/2004</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>26000002208</ID>
+    <MABN>06065941</MABN>
+    <HOTEN>NGUYỄN DUY MẠNH</HOTEN>
+    <SOBIENLAI>4066</SOBIENLAI>
+    <SOVAOVIEN>0017265/06</SOVAOVIEN>
+    <SOTIEN>1000000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUYC2006</QUYENSO>
+    <QUYENSOID>101</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Điều Trị Tự Nguyện</TENKP>
+    <NGUOITHU>Nguyễn Thị Mai Oanh</NGUOITHU>
+    <USERID>Nguyễn Thị Mai Oanh (oanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Bắc Ninh</TENTT>
+    <TENQUAN>Huyện Lương Tài</TENQUAN>
+    <TENPXA>Không xác định</TENPXA>
+    <NGAYSINH>09/09/2005</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>26000002209</ID>
+    <MABN>06096504</MABN>
+    <HOTEN>VƯƠNG NGỌC TRÂN</HOTEN>
+    <SOBIENLAI>4067</SOBIENLAI>
+    <SOVAOVIEN>0017589/06</SOVAOVIEN>
+    <SOTIEN>300000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUYC2006</QUYENSO>
+    <QUYENSOID>101</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Điều Trị Tự Nguyện</TENKP>
+    <NGUOITHU>Nguyễn Thị Mai Oanh</NGUOITHU>
+    <USERID>Nguyễn Thị Mai Oanh (oanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Quận Cầu Giấy</TENQUAN>
+    <TENPXA>Phường Yên Hoà</TENPXA>
+    <NGAYSINH>23/10/2002</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>26000002210</ID>
+    <MABN>06037197</MABN>
+    <HOTEN>NGUYỄN THU TRANG</HOTEN>
+    <SOBIENLAI>4068</SOBIENLAI>
+    <SOVAOVIEN>0017423/06</SOVAOVIEN>
+    <SOTIEN>500000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUYC2006</QUYENSO>
+    <QUYENSOID>101</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Điều Trị Tự Nguyện</TENKP>
+    <NGUOITHU>Nguyễn Thị Mai Oanh</NGUOITHU>
+    <USERID>Nguyễn Thị Mai Oanh (oanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Quận Thanh Xuân</TENQUAN>
+    <TENPXA>Không xác định</TENPXA>
+    <NGAYSINH>18/10/2000</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>26000002211</ID>
+    <MABN>06067525</MABN>
+    <HOTEN>ĐINH THẾ KIỆT</HOTEN>
+    <SOBIENLAI>4069</SOBIENLAI>
+    <SOVAOVIEN>0017644/06</SOVAOVIEN>
+    <SOTIEN>1000000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUYC2006</QUYENSO>
+    <QUYENSOID>101</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Điều Trị Tự Nguyện</TENKP>
+    <NGUOITHU>Nguyễn Thị Mai Oanh</NGUOITHU>
+    <USERID>Nguyễn Thị Mai Oanh (oanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Quảng Ninh</TENTT>
+    <TENQUAN>Huyện Đông Triều</TENQUAN>
+    <TENPXA>Thị trấn Mạo Khê</TENPXA>
+    <NGAYSINH>20/06/2001</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>26000002212</ID>
+    <MABN>06052642</MABN>
+    <HOTEN>NGÔ VIỆT TRUNG</HOTEN>
+    <SOBIENLAI>4070</SOBIENLAI>
+    <SOVAOVIEN>0017650/06</SOVAOVIEN>
+    <SOTIEN>1000000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUYC2006</QUYENSO>
+    <QUYENSOID>101</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Điều Trị Tự Nguyện</TENKP>
+    <NGUOITHU>Nguyễn Thị Mai Oanh</NGUOITHU>
+    <USERID>Nguyễn Thị Mai Oanh (oanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hòa Bình</TENTT>
+    <TENQUAN>Không xác định</TENQUAN>
+    <TENPXA>Không xác định</TENPXA>
+    <NGAYSINH>25/03/2001</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>26000002213</ID>
+    <MABN>06067019</MABN>
+    <HOTEN>VŨ ĐỨC TRUNG</HOTEN>
+    <SOBIENLAI>4071</SOBIENLAI>
+    <SOVAOVIEN>0017419/06</SOVAOVIEN>
+    <SOTIEN>1000000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUYC2006</QUYENSO>
+    <QUYENSOID>101</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Điều Trị Tự Nguyện</TENKP>
+    <NGUOITHU>Nguyễn Thị Mai Oanh</NGUOITHU>
+    <USERID>Nguyễn Thị Mai Oanh (oanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Quảng Ninh</TENTT>
+    <TENQUAN>Thị xã Uông Bí</TENQUAN>
+    <TENPXA>Xã Nam Khê</TENPXA>
+    <NGAYSINH>15/10/2002</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>26000002214</ID>
+    <MABN>06665208</MABN>
+    <HOTEN>HOÀNG QUỐC VIỆT</HOTEN>
+    <SOBIENLAI>4072</SOBIENLAI>
+    <SOVAOVIEN>0017225/06</SOVAOVIEN>
+    <SOTIEN>500000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUYC2006</QUYENSO>
+    <QUYENSOID>101</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Điều Trị Tự Nguyện</TENKP>
+    <NGUOITHU>Nguyễn Thị Mai Oanh</NGUOITHU>
+    <USERID>Nguyễn Thị Mai Oanh (oanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Quận Long Biên</TENQUAN>
+    <TENPXA>Không Xác Định</TENPXA>
+    <NGAYSINH>2003</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>26000002215</ID>
+    <MABN>06056281</MABN>
+    <HOTEN>TRƯƠNG THỊ TRANG</HOTEN>
+    <SOBIENLAI>4073</SOBIENLAI>
+    <SOVAOVIEN>0017823/06</SOVAOVIEN>
+    <SOTIEN>500000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUYC2006</QUYENSO>
+    <QUYENSOID>101</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Điều Trị Tự Nguyện</TENKP>
+    <NGUOITHU>Nguyễn Thị Mai Oanh</NGUOITHU>
+    <USERID>Nguyễn Thị Mai Oanh (oanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hưng Yên</TENTT>
+    <TENQUAN>Huyện Yên Mỹ</TENQUAN>
+    <TENPXA>Thị trấn Yên Mỹ</TENPXA>
+    <NGAYSINH>28/09/1995</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>26000002216</ID>
+    <MABN>06071252</MABN>
+    <HOTEN>VŨ NGHIÊM MINH TRUNG</HOTEN>
+    <SOBIENLAI>4074</SOBIENLAI>
+    <SOVAOVIEN>0017751/06</SOVAOVIEN>
+    <SOTIEN>500000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUYC2006</QUYENSO>
+    <QUYENSOID>101</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Điều Trị Tự Nguyện</TENKP>
+    <NGUOITHU>Nguyễn Thị Mai Oanh</NGUOITHU>
+    <USERID>Nguyễn Thị Mai Oanh (oanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Quận Đống Đa</TENQUAN>
+    <TENPXA>Phường Trung Tự</TENPXA>
+    <NGAYSINH>20/04/2006</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>26000002217</ID>
+    <MABN>06044699</MABN>
+    <HOTEN>ĐẬU NGỌC MINH</HOTEN>
+    <SOBIENLAI>4075</SOBIENLAI>
+    <SOVAOVIEN>0017995/06</SOVAOVIEN>
+    <SOTIEN>500000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUYC2006</QUYENSO>
+    <QUYENSOID>101</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Điều Trị Tự Nguyện</TENKP>
+    <NGUOITHU>Nguyễn Thị Mai Oanh</NGUOITHU>
+    <USERID>Nguyễn Thị Mai Oanh (oanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Tuyên Quang</TENTT>
+    <TENQUAN>Huyện Yên Sơn</TENQUAN>
+    <TENPXA>Thị trấn Tân Bình</TENPXA>
+    <NGAYSINH>04/04/2006</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>26000002218</ID>
+    <MABN>06061467</MABN>
+    <HOTEN>TRẦN ANH ĐỨC</HOTEN>
+    <SOBIENLAI>4076</SOBIENLAI>
+    <SOVAOVIEN>0017404/06</SOVAOVIEN>
+    <SOTIEN>500000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUYC2006</QUYENSO>
+    <QUYENSOID>101</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Điều Trị Tự Nguyện</TENKP>
+    <NGUOITHU>Nguyễn Thị Mai Oanh</NGUOITHU>
+    <USERID>Nguyễn Thị Mai Oanh (oanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Huyện Đông Anh</TENQUAN>
+    <TENPXA>Xã Vân Hà</TENPXA>
+    <NGAYSINH>17/10/2005</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>26000002219</ID>
+    <MABN>05972243</MABN>
+    <HOTEN>HÀ TRUNG KIÊN</HOTEN>
+    <SOBIENLAI>4077</SOBIENLAI>
+    <SOVAOVIEN>0017730/06</SOVAOVIEN>
+    <SOTIEN>500000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUYC2006</QUYENSO>
+    <QUYENSOID>101</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Điều Trị Tự Nguyện</TENKP>
+    <NGUOITHU>Nguyễn Thị Mai Oanh</NGUOITHU>
+    <USERID>Nguyễn Thị Mai Oanh (oanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Huyện Sóc Sơn</TENQUAN>
+    <TENPXA>Xã Phú Minh</TENPXA>
+    <NGAYSINH>29/07/2003</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>26000002220</ID>
+    <MABN>04125077</MABN>
+    <HOTEN>PHÙNG VIỆT ANH</HOTEN>
+    <SOBIENLAI>4078</SOBIENLAI>
+    <SOVAOVIEN>0017527/06</SOVAOVIEN>
+    <SOTIEN>500000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUYC2006</QUYENSO>
+    <QUYENSOID>101</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Điều Trị Tự Nguyện</TENKP>
+    <NGUOITHU>Nguyễn Thị Mai Oanh</NGUOITHU>
+    <USERID>Nguyễn Thị Mai Oanh (oanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Quận Thanh Xuân</TENQUAN>
+    <TENPXA>Phường Nhân Chính</TENPXA>
+    <NGAYSINH>10/10/2002</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>26000002221</ID>
+    <MABN>06069487</MABN>
+    <HOTEN>PHAN VŨ BẢO KHANH</HOTEN>
+    <SOBIENLAI>4079</SOBIENLAI>
+    <SOVAOVIEN>0017571/06</SOVAOVIEN>
+    <SOTIEN>500000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUYC2006</QUYENSO>
+    <QUYENSOID>101</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Điều Trị Tự Nguyện</TENKP>
+    <NGUOITHU>Nguyễn Thị Mai Oanh</NGUOITHU>
+    <USERID>Nguyễn Thị Mai Oanh (oanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Quận Hai Bà Trưng</TENQUAN>
+    <TENPXA>Phường Thanh Nhàn</TENPXA>
+    <NGAYSINH>23/10/1998</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>26000002222</ID>
+    <MABN>06058611</MABN>
+    <HOTEN>PHAN LẠC VƯƠNG</HOTEN>
+    <SOBIENLAI>4080</SOBIENLAI>
+    <SOVAOVIEN>0017680/06</SOVAOVIEN>
+    <SOTIEN>500000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUYC2006</QUYENSO>
+    <QUYENSOID>101</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Điều Trị Tự Nguyện</TENKP>
+    <NGUOITHU>Nguyễn Thị Mai Oanh</NGUOITHU>
+    <USERID>Nguyễn Thị Mai Oanh (oanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Tây</TENTT>
+    <TENQUAN>Huyện Thạch Thất</TENQUAN>
+    <TENPXA>Không xác định</TENPXA>
+    <NGAYSINH>13/06/2003</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>26000002223</ID>
+    <MABN>05087773</MABN>
+    <HOTEN>VƯƠNG ĐỨC MINH</HOTEN>
+    <SOBIENLAI>4081</SOBIENLAI>
+    <SOVAOVIEN>0018011/06</SOVAOVIEN>
+    <SOTIEN>500000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUYC2006</QUYENSO>
+    <QUYENSOID>101</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Điều Trị Tự Nguyện</TENKP>
+    <NGUOITHU>Nguyễn Thị Mai Oanh</NGUOITHU>
+    <USERID>Nguyễn Thị Mai Oanh (oanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Quận Đống Đa</TENQUAN>
+    <TENPXA>Phường Văn Miếu</TENPXA>
+    <NGAYSINH>24/06/2004</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>26000002224</ID>
+    <MABN>06058550</MABN>
+    <HOTEN>ĐẶNG NHẬT TÙNG DƯƠNG</HOTEN>
+    <SOBIENLAI>4082</SOBIENLAI>
+    <SOVAOVIEN>0017674/06</SOVAOVIEN>
+    <SOTIEN>500000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUYC2006</QUYENSO>
+    <QUYENSOID>101</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Điều Trị Tự Nguyện</TENKP>
+    <NGUOITHU>Nguyễn Thị Mai Oanh</NGUOITHU>
+    <USERID>Nguyễn Thị Mai Oanh (oanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Quận Tây Hồ</TENQUAN>
+    <TENPXA>Phường Phú Thượng</TENPXA>
+    <NGAYSINH>05/03/2006</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>109000000798</ID>
+    <MABN>06058760</MABN>
+    <HOTEN>NGUYỄN TÙNG DƯƠNG</HOTEN>
+    <SOBIENLAI>4083</SOBIENLAI>
+    <SOVAOVIEN>0017687/06</SOVAOVIEN>
+    <SOTIEN>500000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUYC2006</QUYENSO>
+    <QUYENSOID>101</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Điều Trị Tự Nguyện</TENKP>
+    <NGUOITHU>Nguyễn Thị Thanh</NGUOITHU>
+    <USERID>Nguyễn Thị Thanh (thanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Tây</TENTT>
+    <TENQUAN>Huyện Đan Phượng</TENQUAN>
+    <TENPXA>Xã Liên Hà</TENPXA>
+    <NGAYSINH>26/01/2006</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>109000000800</ID>
+    <MABN>06071229</MABN>
+    <HOTEN>NGUYỄN VIỆT ANH</HOTEN>
+    <SOBIENLAI>4084</SOBIENLAI>
+    <SOVAOVIEN>0018028/06</SOVAOVIEN>
+    <SOTIEN>500000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUYC2006</QUYENSO>
+    <QUYENSOID>101</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Điều Trị Tự Nguyện</TENKP>
+    <NGUOITHU>Nguyễn Thị Thanh</NGUOITHU>
+    <USERID>Nguyễn Thị Thanh (thanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Bắc Giang</TENTT>
+    <TENQUAN>Huyện Lạng Giang</TENQUAN>
+    <TENPXA>Không xác định</TENPXA>
+    <NGAYSINH>06/08/2005</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>109000000801</ID>
+    <MABN>06059182</MABN>
+    <HOTEN>CAO DUY LONG</HOTEN>
+    <SOBIENLAI>4085</SOBIENLAI>
+    <SOVAOVIEN>0018029/06</SOVAOVIEN>
+    <SOTIEN>500000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUYC2006</QUYENSO>
+    <QUYENSOID>101</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Điều Trị Tự Nguyện</TENKP>
+    <NGUOITHU>Nguyễn Thị Thanh</NGUOITHU>
+    <USERID>Nguyễn Thị Thanh (thanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Quận Đống Đa</TENQUAN>
+    <TENPXA>Phường Thịnh Quang</TENPXA>
+    <NGAYSINH>05/02/2006</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>109000000802</ID>
+    <MABN>06072474</MABN>
+    <HOTEN>NGUYỄN ĐÌNH VƯƠNG</HOTEN>
+    <SOBIENLAI>4086</SOBIENLAI>
+    <SOVAOVIEN>0018035/06</SOVAOVIEN>
+    <SOTIEN>500000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUYC2006</QUYENSO>
+    <QUYENSOID>101</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Điều Trị Tự Nguyện</TENKP>
+    <NGUOITHU>Nguyễn Thị Thanh</NGUOITHU>
+    <USERID>Nguyễn Thị Thanh (thanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Tây</TENTT>
+    <TENQUAN>Thị xã Hà Đông</TENQUAN>
+    <TENPXA>Xã Phú Lãm</TENPXA>
+    <NGAYSINH>09/12/2005</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>109000000803</ID>
+    <MABN>04978860</MABN>
+    <HOTEN>VŨ TIẾN ĐẠT</HOTEN>
+    <SOBIENLAI>4087</SOBIENLAI>
+    <SOVAOVIEN>0018037/06</SOVAOVIEN>
+    <SOTIEN>500000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUYC2006</QUYENSO>
+    <QUYENSOID>101</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Điều Trị Tự Nguyện</TENKP>
+    <NGUOITHU>Nguyễn Thị Thanh</NGUOITHU>
+    <USERID>Nguyễn Thị Thanh (thanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Sơn La</TENTT>
+    <TENQUAN>Thị xã Sơn La</TENQUAN>
+    <TENPXA>Phường Quyết Thắng</TENPXA>
+    <NGAYSINH>11/11/2003</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>109000000804</ID>
+    <MABN>06067663</MABN>
+    <HOTEN>TRẦN TUẤN PHONG</HOTEN>
+    <SOBIENLAI>4088</SOBIENLAI>
+    <SOVAOVIEN>0018047/06</SOVAOVIEN>
+    <SOTIEN>500000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUYC2006</QUYENSO>
+    <QUYENSOID>101</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Điều Trị Tự Nguyện</TENKP>
+    <NGUOITHU>Nguyễn Thị Thanh</NGUOITHU>
+    <USERID>Nguyễn Thị Thanh (thanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Quận Cầu Giấy</TENQUAN>
+    <TENPXA>Phường Yên Hoà</TENPXA>
+    <NGAYSINH>07/12/2005</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>109000000805</ID>
+    <MABN>06072698</MABN>
+    <HOTEN>TRẦN ĐỨC MINH</HOTEN>
+    <SOBIENLAI>4089</SOBIENLAI>
+    <SOVAOVIEN>2</SOVAOVIEN>
+    <SOTIEN>500000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUYC2006</QUYENSO>
+    <QUYENSOID>101</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Điều Trị Tự Nguyện</TENKP>
+    <NGUOITHU>Nguyễn Thị Thanh</NGUOITHU>
+    <USERID>Nguyễn Thị Thanh (thanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Quận Hai Bà Trưng</TENQUAN>
+    <TENPXA>Phường Quỳnh Mai</TENPXA>
+    <NGAYSINH>27/07/2005</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>109000000806</ID>
+    <MABN>06072613</MABN>
+    <HOTEN>PHƯƠNG THẾ VINH</HOTEN>
+    <SOBIENLAI>4090</SOBIENLAI>
+    <SOVAOVIEN>0018057/06</SOVAOVIEN>
+    <SOTIEN>500000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUYC2006</QUYENSO>
+    <QUYENSOID>101</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Điều Trị Tự Nguyện</TENKP>
+    <NGUOITHU>Nguyễn Thị Thanh</NGUOITHU>
+    <USERID>Nguyễn Thị Thanh (thanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hải Dương</TENTT>
+    <TENQUAN>Huyện Chí Linh</TENQUAN>
+    <TENPXA>Thị trấn Phả Lại</TENPXA>
+    <NGAYSINH>03/04/2006</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>109000000807</ID>
+    <MABN>06072610</MABN>
+    <HOTEN>NGUYỄN DUY KIỆT</HOTEN>
+    <SOBIENLAI>4091</SOBIENLAI>
+    <SOVAOVIEN>0018062/06</SOVAOVIEN>
+    <SOTIEN>500000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUYC2006</QUYENSO>
+    <QUYENSOID>101</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Điều Trị Tự Nguyện</TENKP>
+    <NGUOITHU>Nguyễn Thị Thanh</NGUOITHU>
+    <USERID>Nguyễn Thị Thanh (thanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Quận Thanh Xuân</TENQUAN>
+    <TENPXA>Phường Thanh Xuân Trung</TENPXA>
+    <NGAYSINH>29/03/2006</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>109000000811</ID>
+    <MABN>04115832</MABN>
+    <HOTEN>TRẦN ĐÌNH CƯỜNG</HOTEN>
+    <SOBIENLAI>4092</SOBIENLAI>
+    <SOVAOVIEN>0018069/06</SOVAOVIEN>
+    <SOTIEN>500000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUYC2006</QUYENSO>
+    <QUYENSOID>101</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Điều Trị Tự Nguyện</TENKP>
+    <NGUOITHU>Nguyễn Thị Thanh</NGUOITHU>
+    <USERID>Nguyễn Thị Thanh (thanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hưng Yên</TENTT>
+    <TENQUAN>Huyện Kim Động</TENQUAN>
+    <TENPXA>Xã Lương Bằng</TENPXA>
+    <NGAYSINH>24/04/2004</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>109000000813</ID>
+    <MABN>06072619</MABN>
+    <HOTEN>DƯƠNG VĂN LONG</HOTEN>
+    <SOBIENLAI>4093</SOBIENLAI>
+    <SOVAOVIEN>0018071/06</SOVAOVIEN>
+    <SOTIEN>500000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUYC2006</QUYENSO>
+    <QUYENSOID>101</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Điều Trị Tự Nguyện</TENKP>
+    <NGUOITHU>Nguyễn Thị Thanh</NGUOITHU>
+    <USERID>Nguyễn Thị Thanh (thanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Nội</TENTT>
+    <TENQUAN>Huyện Gia Lâm</TENQUAN>
+    <TENPXA>Xã Kim Sơn</TENPXA>
+    <NGAYSINH>04/02/2006</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>109000000814</ID>
+    <MABN>06072602</MABN>
+    <HOTEN>NGÔ VĂN KHOA</HOTEN>
+    <SOBIENLAI>4094</SOBIENLAI>
+    <SOVAOVIEN>2</SOVAOVIEN>
+    <SOTIEN>500000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUYC2006</QUYENSO>
+    <QUYENSOID>101</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Điều Trị Tự Nguyện</TENKP>
+    <NGUOITHU>Nguyễn Thị Thanh</NGUOITHU>
+    <USERID>Nguyễn Thị Thanh (thanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Tây</TENTT>
+    <TENQUAN>Huyện Hoài Đức</TENQUAN>
+    <TENPXA>Xã La Phù</TENPXA>
+    <NGAYSINH>13/06/2005</NGAYSINH>
+  </Table>
+  <Table>
+    <ID>109000000815</ID>
+    <MABN>06072600</MABN>
+    <HOTEN>NGUYỄN THỊ NGỌC ÁNH</HOTEN>
+    <SOBIENLAI>4095</SOBIENLAI>
+    <SOVAOVIEN>2</SOVAOVIEN>
+    <SOTIEN>500000</SOTIEN>
+    <NGAY>22/05/2006</NGAY>
+    <QUYENSO>TUYC2006</QUYENSO>
+    <QUYENSOID>101</QUYENSOID>
+    <DOITUONG>Thu Phí</DOITUONG>
+    <TENKP>Điều Trị Tự Nguyện</TENKP>
+    <NGUOITHU>Nguyễn Thị Thanh</NGUOITHU>
+    <USERID>Nguyễn Thị Thanh (thanh )</USERID>
+    <HUY>0</HUY>
+    <TENTT>Hà Tây</TENTT>
+    <TENQUAN>Huyện Hoài Đức</TENQUAN>
+    <TENPXA>Xã La Phù</TENPXA>
+    <NGAYSINH>19/04/2006</NGAYSINH>
+  </Table>
+</NewDataSet>

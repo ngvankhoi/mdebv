@@ -1,0 +1,330 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ID" type="xs:decimal" minOccurs="0" />
+                <xs:element name="STT" type="xs:decimal" minOccurs="0" />
+                <xs:element name="MA" type="xs:string" minOccurs="0" />
+                <xs:element name="TEN" type="xs:string" minOccurs="0" />
+                <xs:element name="ID_NHOM" type="xs:decimal" minOccurs="0" />
+                <xs:element name="STT_NHOM" type="xs:decimal" minOccurs="0" />
+                <xs:element name="TEN_NHOM" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <ID>60</ID>
+    <STT>1</STT>
+    <MA>KB</MA>
+    <TEN>Khám bệnh</TEN>
+    <ID_NHOM>11</ID_NHOM>
+    <STT_NHOM>1</STT_NHOM>
+    <TEN_NHOM>Khám bệnh</TEN_NHOM>
+  </Table>
+  <Table>
+    <ID>135</ID>
+    <STT>2</STT>
+    <MA>Tiencong</MA>
+    <TEN>Tiền công</TEN>
+    <ID_NHOM>11</ID_NHOM>
+    <STT_NHOM>1</STT_NHOM>
+    <TEN_NHOM>Khám bệnh</TEN_NHOM>
+  </Table>
+  <Table>
+    <ID>129</ID>
+    <STT>12</STT>
+    <MA>xnhs</MA>
+    <TEN>Sinh hoá</TEN>
+    <ID_NHOM>4</ID_NHOM>
+    <STT_NHOM>2</STT_NHOM>
+    <TEN_NHOM>Xét Nghiệm</TEN_NHOM>
+  </Table>
+  <Table>
+    <ID>61</ID>
+    <STT>13</STT>
+    <MA>XN</MA>
+    <TEN>Huyết học</TEN>
+    <ID_NHOM>4</ID_NHOM>
+    <STT_NHOM>2</STT_NHOM>
+    <TEN_NHOM>Xét Nghiệm</TEN_NHOM>
+  </Table>
+  <Table>
+    <ID>106</ID>
+    <STT>14</STT>
+    <MA>XNVS</MA>
+    <TEN>Vi sinh</TEN>
+    <ID_NHOM>4</ID_NHOM>
+    <STT_NHOM>2</STT_NHOM>
+    <TEN_NHOM>Xét Nghiệm</TEN_NHOM>
+  </Table>
+  <Table>
+    <ID>107</ID>
+    <STT>15</STT>
+    <MA>XNNT</MA>
+    <TEN>Nước tiểu</TEN>
+    <ID_NHOM>4</ID_NHOM>
+    <STT_NHOM>2</STT_NHOM>
+    <TEN_NHOM>Xét Nghiệm</TEN_NHOM>
+  </Table>
+  <Table>
+    <ID>111</ID>
+    <STT>16</STT>
+    <MA>XNGP</MA>
+    <TEN>Giải phẫu bệnh lý</TEN>
+    <ID_NHOM>4</ID_NHOM>
+    <STT_NHOM>2</STT_NHOM>
+    <TEN_NHOM>Xét Nghiệm</TEN_NHOM>
+  </Table>
+  <Table>
+    <ID>109</ID>
+    <STT>17</STT>
+    <MA>XNMD</MA>
+    <TEN>Huyết học miễn dịch</TEN>
+    <ID_NHOM>4</ID_NHOM>
+    <STT_NHOM>2</STT_NHOM>
+    <TEN_NHOM>Xét Nghiệm</TEN_NHOM>
+  </Table>
+  <Table>
+    <ID>108</ID>
+    <STT>18</STT>
+    <MA>XNDCT</MA>
+    <TEN>Dịch</TEN>
+    <ID_NHOM>4</ID_NHOM>
+    <STT_NHOM>2</STT_NHOM>
+    <TEN_NHOM>Xét Nghiệm</TEN_NHOM>
+  </Table>
+  <Table>
+    <ID>112</ID>
+    <STT>19</STT>
+    <MA>XNĐC</MA>
+    <TEN>Xét nghiệm độc chất</TEN>
+    <ID_NHOM>4</ID_NHOM>
+    <STT_NHOM>2</STT_NHOM>
+    <TEN_NHOM>Xét Nghiệm</TEN_NHOM>
+  </Table>
+  <Table>
+    <ID>110</ID>
+    <STT>20</STT>
+    <MA>XNP</MA>
+    <TEN>Xét nghiệm phân</TEN>
+    <ID_NHOM>4</ID_NHOM>
+    <STT_NHOM>2</STT_NHOM>
+    <TEN_NHOM>Xét Nghiệm</TEN_NHOM>
+  </Table>
+  <Table>
+    <ID>80</ID>
+    <STT>21</STT>
+    <MA>ECG</MA>
+    <TEN>ECG</TEN>
+    <ID_NHOM>4</ID_NHOM>
+    <STT_NHOM>2</STT_NHOM>
+    <TEN_NHOM>Xét Nghiệm</TEN_NHOM>
+  </Table>
+  <Table>
+    <ID>114</ID>
+    <STT>16</STT>
+    <MA>DTPX</MA>
+    <TEN>Điều trị bằng chất phóng xạ</TEN>
+    <ID_NHOM>26</ID_NHOM>
+    <STT_NHOM>3</STT_NHOM>
+    <TEN_NHOM>Chẩn đoán hình ảnh</TEN_NHOM>
+  </Table>
+  <Table>
+    <ID>79</ID>
+    <STT>30</STT>
+    <MA>SA</MA>
+    <TEN>Siêu âm</TEN>
+    <ID_NHOM>26</ID_NHOM>
+    <STT_NHOM>3</STT_NHOM>
+    <TEN_NHOM>Chẩn đoán hình ảnh</TEN_NHOM>
+  </Table>
+  <Table>
+    <ID>58</ID>
+    <STT>31</STT>
+    <MA>XQ</MA>
+    <TEN>X Quang</TEN>
+    <ID_NHOM>26</ID_NHOM>
+    <STT_NHOM>3</STT_NHOM>
+    <TEN_NHOM>Chẩn đoán hình ảnh</TEN_NHOM>
+  </Table>
+  <Table>
+    <ID>120</ID>
+    <STT>32</STT>
+    <MA>MSCXQKH</MA>
+    <TEN>X Quang khác</TEN>
+    <ID_NHOM>26</ID_NHOM>
+    <STT_NHOM>3</STT_NHOM>
+    <TEN_NHOM>Chẩn đoán hình ảnh</TEN_NHOM>
+  </Table>
+  <Table>
+    <ID>123</ID>
+    <STT>33</STT>
+    <MA>CTTTT,NS</MA>
+    <TEN>Thủ thuật nội soi</TEN>
+    <ID_NHOM>26</ID_NHOM>
+    <STT_NHOM>3</STT_NHOM>
+    <TEN_NHOM>Chẩn đoán hình ảnh</TEN_NHOM>
+  </Table>
+  <Table>
+    <ID>2</ID>
+    <STT>40</STT>
+    <MA>RHM</MA>
+    <TEN>PTTT Răng - Hàm - Mặt</TEN>
+    <ID_NHOM>8</ID_NHOM>
+    <STT_NHOM>4</STT_NHOM>
+    <TEN_NHOM>Phẩu thuật - thủ thuật</TEN_NHOM>
+  </Table>
+  <Table>
+    <ID>1</ID>
+    <STT>41</STT>
+    <MA>TMH</MA>
+    <TEN>PTTT Tai - Mũi - Họng</TEN>
+    <ID_NHOM>8</ID_NHOM>
+    <STT_NHOM>4</STT_NHOM>
+    <TEN_NHOM>Phẩu thuật - thủ thuật</TEN_NHOM>
+  </Table>
+  <Table>
+    <ID>3</ID>
+    <STT>42</STT>
+    <MA>MAT</MA>
+    <TEN>PTTT Mắt</TEN>
+    <ID_NHOM>8</ID_NHOM>
+    <STT_NHOM>4</STT_NHOM>
+    <TEN_NHOM>Phẩu thuật - thủ thuật</TEN_NHOM>
+  </Table>
+  <Table>
+    <ID>105</ID>
+    <STT>43</STT>
+    <MA>PTTT</MA>
+    <TEN>PTTT Ngoại khoa tổng quát</TEN>
+    <ID_NHOM>8</ID_NHOM>
+    <STT_NHOM>4</STT_NHOM>
+    <TEN_NHOM>Phẩu thuật - thủ thuật</TEN_NHOM>
+  </Table>
+  <Table>
+    <ID>127</ID>
+    <STT>44</STT>
+    <MA>PTTT-K</MA>
+    <TEN>PTTT Khác</TEN>
+    <ID_NHOM>8</ID_NHOM>
+    <STT_NHOM>4</STT_NHOM>
+    <TEN_NHOM>Phẩu thuật - thủ thuật</TEN_NHOM>
+  </Table>
+  <Table>
+    <ID>125</ID>
+    <STT>45</STT>
+    <MA>PT-TTSPK</MA>
+    <TEN>PTTT Sản khoa</TEN>
+    <ID_NHOM>8</ID_NHOM>
+    <STT_NHOM>4</STT_NHOM>
+    <TEN_NHOM>Phẩu thuật - thủ thuật</TEN_NHOM>
+  </Table>
+  <Table>
+    <ID>103</ID>
+    <STT>46</STT>
+    <MA>SPK</MA>
+    <TEN>Sản phụ khoa</TEN>
+    <ID_NHOM>8</ID_NHOM>
+    <STT_NHOM>4</STT_NHOM>
+    <TEN_NHOM>Phẩu thuật - thủ thuật</TEN_NHOM>
+  </Table>
+  <Table>
+    <ID>126</ID>
+    <STT>47</STT>
+    <MA>B</MA>
+    <TEN>Bỏng</TEN>
+    <ID_NHOM>8</ID_NHOM>
+    <STT_NHOM>4</STT_NHOM>
+    <TEN_NHOM>Phẩu thuật - thủ thuật</TEN_NHOM>
+  </Table>
+  <Table>
+    <ID>104</ID>
+    <STT>48</STT>
+    <MA>YHDT</MA>
+    <TEN>PTTT Y học dân tộc</TEN>
+    <ID_NHOM>8</ID_NHOM>
+    <STT_NHOM>4</STT_NHOM>
+    <TEN_NHOM>Phẩu thuật - thủ thuật</TEN_NHOM>
+  </Table>
+  <Table>
+    <ID>132</ID>
+    <STT>50</STT>
+    <MA>TC</MA>
+    <TEN>INJ - Thuốc chích</TEN>
+    <ID_NHOM>2</ID_NHOM>
+    <STT_NHOM>6</STT_NHOM>
+    <TEN_NHOM>Thuốc</TEN_NHOM>
+  </Table>
+  <Table>
+    <ID>133</ID>
+    <STT>51</STT>
+    <MA>DTR</MA>
+    <TEN>Dịch truyền</TEN>
+    <ID_NHOM>2</ID_NHOM>
+    <STT_NHOM>6</STT_NHOM>
+    <TEN_NHOM>Thuốc</TEN_NHOM>
+  </Table>
+  <Table>
+    <ID>101</ID>
+    <STT>52</STT>
+    <MA>TT</MA>
+    <TEN>Tiền thuốc</TEN>
+    <ID_NHOM>2</ID_NHOM>
+    <STT_NHOM>6</STT_NHOM>
+    <TEN_NHOM>Thuốc</TEN_NHOM>
+  </Table>
+  <Table>
+    <ID>134</ID>
+    <STT>60</STT>
+    <MA>VTYT</MA>
+    <TEN>Vật tư y tế</TEN>
+    <ID_NHOM>10</ID_NHOM>
+    <STT_NHOM>7</STT_NHOM>
+    <TEN_NHOM>Vật tư y tế</TEN_NHOM>
+  </Table>
+  <Table>
+    <ID>81</ID>
+    <STT>70</STT>
+    <MA>GIUONG</MA>
+    <TEN>Giường</TEN>
+    <ID_NHOM>15</ID_NHOM>
+    <STT_NHOM>8</STT_NHOM>
+    <TEN_NHOM>Tiền giường</TEN_NHOM>
+  </Table>
+  <Table>
+    <ID>115</ID>
+    <STT>7</STT>
+    <MA>TDCN</MA>
+    <TEN>Thăm dò chức năng đặc biệt khác</TEN>
+    <ID_NHOM>27</ID_NHOM>
+    <STT_NHOM>10</STT_NHOM>
+    <TEN_NHOM>Thăm dò chức năng</TEN_NHOM>
+  </Table>
+  <Table>
+    <ID>113</ID>
+    <STT>90</STT>
+    <MA>TD-PX</MA>
+    <TEN>Thăm dò bằng đồng vị phóng xạ</TEN>
+    <ID_NHOM>27</ID_NHOM>
+    <STT_NHOM>10</STT_NHOM>
+    <TEN_NHOM>Thăm dò chức năng</TEN_NHOM>
+  </Table>
+  <Table>
+    <ID>128</ID>
+    <STT>30</STT>
+    <MA>SKB</MA>
+    <TEN>SKB</TEN>
+    <ID_NHOM>20</ID_NHOM>
+    <STT_NHOM>12</STT_NHOM>
+    <TEN_NHOM>Khác</TEN_NHOM>
+  </Table>
+</NewDataSet>

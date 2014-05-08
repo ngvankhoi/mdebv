@@ -1,0 +1,5385 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="schema" type="xs:string" minOccurs="0" />
+                <xs:element name="tablep" type="xs:string" minOccurs="0" />
+                <xs:element name="tablef" type="xs:string" minOccurs="0" />
+                <xs:element name="fkey" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dmloaiphong</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dmloaithe</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dmmete</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dmngodoc</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dmngoithai</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>datgiuong</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dmdangkt</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dmmucdokt</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>tinhhinhpt</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>khbieu_01</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>khdm_01</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>khdm_01_dk</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>khbieu_02</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>khdm_02</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>khdm_02_dk</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dmloaicoso</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>khdm_031</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>khbieu_031</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>khdm_031_dk</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>khdm_032</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>khbieu_032</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>khdm_032_dk</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>khdm_04</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>khbieu_04</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>khdm_04_dk</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>khdm_05</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>khbieu_05</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>khdm_05_dk</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>khdm_06</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>khbieu_06</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>khdm_06_dk</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>khdm_07</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>khbieu_07</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>khdm_07_dk</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>khdm_08</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>khbieu_08</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>khdm_08_dk</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>khdm_09</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>khbieu_09</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>khdm_09_dk</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>khdm_10</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>khbieu_10</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>khdm_10_dk</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>khdm_11</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>khbieu_11</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>khdm_11_dk</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>khdm_121</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>khbieu_121</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>khdm_121_dk</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>khdm_122</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>khbieu_122</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>khdm_122_dk</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>khdm_13</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>khbieu_13</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>khdm_13_dk</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>khdm_141</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>khbieu_141</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>khdm_141_dk</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>khdm_142</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>khbieu_142</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>khdm_142_dk</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>khdm_143</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>khbieu_143</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>khdm_143_dk</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>v_dmloaibc</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>events</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>thuocnghingo_adr</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>xutri_adr</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dmkq_adr</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>bavv_mat</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>khuyettat</tablep>
+    <tablef>_btdbn</tablef>
+    <fkey>maql</fkey>
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>phanungthuoc_adr</tablep>
+    <tablef>_btdbn</tablef>
+    <fkey>id</fkey>
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_dmnhom_medisoft</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_dmloai_medisoft</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_nhombc_medisoft</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>benhantc</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_nhombo_medisoft</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_nhomin_medisoft</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_nhomctd_medisoft</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_dmnhomkt_medisoft</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>eve_au_update</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dmnguyennhan</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dmnhomdv_bhyt</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dmnhommau</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dmnoicapbhyt</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dmnoitiepdon</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dmnop</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dmphai</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dmphanloaisk</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dmphu</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dmpttt</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dmpttt_bv</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dmquocgia</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dmtable</tablep>
+    <tablef>eve_upd_del_s</tablef>
+    <fkey>loai,loai</fkey>
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dmtaibiensanh</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dmthe</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dmtheodoi</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>ba_danhmuc</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>a_dmdt</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>a_dmloaidt</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>a_dmtcnkp</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>atc_generic</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>ba_dmchedoan</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>ba_dmchepham</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>ba_dmcongtac</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>ba_dmcongtaccc</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>ba_dmdacdiem</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>ba_dmduongan</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>ba_dmhoso</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>ba_dmkythuat</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>ba_dmloaian</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>ba_dmmau</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>ba_dmppde</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>ba_dmppthu</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>ba_khambenh</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>ba_luutru</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>ba_dmvanchuyen</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>ba_dmxntienphau</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>ba_dmylenh</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>ba_hinh</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>ba_loaiphieu</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>ba_muon</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>ba_sankhoa</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>ba_soket</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>ba_tiensusk</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>bask_chiso</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>bask_cls</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>bask_donvi</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>bask_mat</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>bask_ngkhoa</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>bask_noikhoa</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>bask_rmh</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>bask_sanphu</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>bask_tmh</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>bask_tongket</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>bbtuvong</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>bbtuvongnv</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>bc_bv_right</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>bc_dlogin</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>bc_dmbv</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>bc_dmkhac</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>bc_loainhanvien</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>bc_maubaocao</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>bc_nhomdoituong</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>bc_nhomicd10</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>bc_nhomkhoabvct</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>bc_nhomkhoabvll</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>bc_theonhomicd</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>bctheoicd</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>bctheopttt</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>bhyt</tablep>
+    <tablef>v_ttrv_v_ttrvll</tablef>
+    <fkey>mabn,mabn,mabn,mabn,mabn,mabn,mabn,mabn,mabn,mabn,mabn,mabn,mabn</fkey>
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>benhmantinh</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>bhyt_maubaocao</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>bhyt_thongso</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>bieu_01</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>bieu_02</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>bieu_031</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>bieu_04</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>bieu_05</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>bieu_06</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>bieu_07</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>bieu_08</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>bieu_091</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>bieu_092</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>bieu_101</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>bieu_1021</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>bieu_1022</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>bieu_103</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>bieu_11</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>bn_treemenu</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>bn_treemenu_null</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>boiduong_pttt</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>btdkp_add</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>bsnghi</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>btdkp</tablep>
+    <tablef>xuatvien__bv</tablef>
+    <fkey>makp,makp,makp,makp,makp,makp,makp,makp,makp,makp,makp,makp,makp,makp,makp,makp,makp,makp,makp,makp</fkey>
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>btdnn</tablep>
+    <tablef>btdbn__bv</tablef>
+    <fkey>mann</fkey>
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>btdnn_add</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>btdpmo</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>btdpxa_add</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>btdquan_add</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>btdtt_add</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>btdvt</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>bv_dlogin</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>capid</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>capmabn</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>capmaql</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>capmatudong</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>capsotoa</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>cd_phieucd</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>cd_thongsophieucd</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>cdha_bv_right</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>cdha_capid</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>cdha_chuan</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>cdha_coquan</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>cdha_coquan_giatri</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>cdha_dlogin</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>cdha_dmvt</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>cdha_dsktv</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>cdha_error</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>cdha_kythuat</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>cdha_loai</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>cdha_loaiphim</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>cdha_logo</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>cdha_mau</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>cdha_maumota</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>cdha_maumota_thuocphim</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>cdha_may</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>cdha_motachitiet</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>cdha_motachitiet_bt</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>cdha_nhomkt</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>cdha_option_user</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>cdha_table</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>cdha_tabpage</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>cdha_tencoquan</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>cdha_tenobject</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>cdha_thongso</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>cdha_thuocphim</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>cdha_thuocvattu</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>cdha_tieude</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>cdha_tinhtrang</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>cdkemtheo</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>cdnguyennhan</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>cdha_treemenu</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>cdsankhoa</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>cdha_treemenu_null</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>chuyenvien</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>cdungbuou</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>chuyenkhoa</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>cls_hen</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>chetdo</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>cls_denghi</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>cls_kehoach</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>cls_hinh</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>cls_mat</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>cls_ketqua</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>cls_loai</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>datao</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>cls_mau</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>cls_may</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>cls_motact</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>cls_mota</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>cls_noidung</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>cls_sdthuoc</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>cls_phanloai</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>cls_thuoc</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>cls_vung</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>ct_capid</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>ct_doan</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>ct_giavp</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>ct_loaivp</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>ct_muc</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>ct_mucct</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>ct_nhomvp</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_bbkk</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>cyberlicense</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_bangiabaocao</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_chandoan</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_capid</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_capsotoa</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_chatluong</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_dlogin</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_dausinhton</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_cosotutruc</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_dangduyet</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_dmbhyt</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_dmbd_luu</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_dmbd_sudung</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_dmbdkemtheo</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_dmbdtd</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_dmcachdung</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_dmloai</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_dmdonggoi</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_dmduongdung</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_dmdvt</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_dmhang</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_dmhoatchat</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_dmkhac</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_dmloaint</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_dmloaitscd</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_dmlydo</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_dmlydotscd</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_dmnhomkt</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_dmnguongoc</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_dmnoisc</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_dmnxtscd</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_dmthuoc</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_dmthoidiemdung</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_dmtinhtrang</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_dmvay</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_dutrukho</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_dutrumua</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_dutruthang</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_error</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_hcton</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_khoaso</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_khonghi</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_kiemtra</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_kinhphi</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_license</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_loaikho</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_mabd</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_menuitem</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_menuitems</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_nhombc</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_nhombo</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_nhomin</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_nhomctd</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_ngaylanh</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_nhomcc</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_nhomhang</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_nhomkhoa</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_nhomnuoc</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_sophieukb</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_suachuatscd</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_suamadt</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_theodonct</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_theodonll</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_tonvayct</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_thongso</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_thongso_tim</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_tieuchuan</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_toithieu</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_tonam</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_tonvayth</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_treemenu</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_treemenu_null</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_treo</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_ttngay</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_tscdsc</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_tscdkhoa</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_treoduyet</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_tuongtac</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_tscdimage</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_tscdkem</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_tscdlc</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dasuamadt</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_webt_toathuocct</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dausinhton</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dd_anct</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dd_anll</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dd_anmon</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dd_anphieu</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dd_btdbn</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dd_buoian</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dd_chedoan</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dd_chedoanicd</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dd_chidinhct</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dd_chidinhll</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dd_chidinhmon</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dd_chidinhphieu</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dd_dlogin</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dd_donvi</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dd_error</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dd_license</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dd_loaithucan</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dd_mabn</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dd_mucan</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dd_nhomdlogin</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dd_nhomthucan</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dd_phanquyen</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dd_phanquyennhom</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dd_thucan</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dd_thucdon</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dd_thucdon_his</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dd_thucdonct</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dd_thucdonct_his</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dd_thucdonnau</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dd_thucdonnau_his</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dd_thucpham</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>ddsosinh</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>di_anlong</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dentu</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>di_dmchedoan</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>di_dmloaitp</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>di_dmthu</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>diungthuoc</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>di_duyet</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>di_kthucdonct</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>di_dmthucdon</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>di_dmthucdonct</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>di_dmthucdontp</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>di_dmthucpham</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>di_kthucdonll</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>di_nauan</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>di_nauanct</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>di_thucdonct</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dienthoai</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dlogin</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dm_01</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dm_01_dk</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dm_02</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dm_02_dk</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dm_031</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dm_031_dk</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dm_032</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dm_04</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dm_04_dk</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dm_05</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dm_06</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dm_06_dk</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dm_07</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dm_08</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dm_08_dk</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dm_091</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dm_092</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dm_101</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dm_1021</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dm_1021_ct</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dm_1022</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dm_103</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dm_103_dk</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dm_11</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dm_11_dk</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dmbaocao_bhyt</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dmbenhan</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dmbenhan_bv</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dmbhyt</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dmbs</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dmbieudo</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dmbophan</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dmbvchidinh</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dmbschidinh</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dmcoso</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dmcachde</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dmchidinh</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dmcssxkd</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dmdiadiem</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dmdienbien</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dmditat</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dmdtsosinh</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dmdvchitra</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dmhangbv</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dmhuyet</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dmicd10</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dmkhoachidinh</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dmkieusanh</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dmkythuat</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dmloaibv</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dmthon</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dmthuchien</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dstt</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dmtinhtrang</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dmttsosinh</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dmtuoi</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dmtuyen</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dmtuyenbv</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dmtuyenyte</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dmtyleban</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dmvebieudo</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dmvungbv</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dmxutri</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dmxutrirang</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>doituong_bhyt</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>eba_barcode</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>eba_hinhbn</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>eba_vantay</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>eha_capid</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>eha_dmns_bacsi</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>eha_dmns_bacsicd</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>eha_dmns_kythuat</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>eha_noisoi_ct</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>eha_noisoi_hc</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>eha_noisoi_ll</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>error</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>eve_tables</tablep>
+    <tablef>_dmtables</tablef>
+    <fkey>tableid,tableid</fkey>
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>eve_upd_del</tablep>
+    <tablef>_dmtables</tablef>
+    <fkey>tableid,tableid</fkey>
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>filedm</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>gphaubenh</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>hcnhi</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>hcsosinh</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>ghichudt</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>giayravien</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>giayxacnhan</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>hen</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>icd10</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>inchiphipk</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>icd10_bv</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>icd_chapter</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>icd_nhom</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>inmavach</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>kehoachdt</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>ketqua</tablep>
+    <tablef>ct__ct_loai</tablef>
+    <fkey>ma,ma,ma</fkey>
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>kh_bieu_01</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>kh_bieu_02</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>kh_bieu_03</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>kh_bieu_04</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>kh_bieu_05</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>kh_bieu_06</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>kh_bieu_07</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>kh_bieu_08</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>kh_bieu_09</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>kh_bieu_10</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>kh_bieu_11</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>kh_bieu_121</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>kh_bieu_122</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>kh_bieu_123</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>kh_bieu_124</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>kh_bieu_131</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>kh_bieu_132</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>kh_bieu_133</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>kh_bieu_141</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>kh_bieu_142</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>kh_bieu_143</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>kh_bieu_144</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>kh_bieu_1451</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>kh_bieu_1452</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>kh_bieu_15</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>kh_dm_01</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>kh_dm_01_dk</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>kh_dm_02</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>kh_dm_02_dk</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>kh_dm_03</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>kh_dm_03_dk</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>kh_dm_04</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>kh_dm_04_dk</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>kh_dm_05</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>kh_dm_05_dk</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>kh_dm_06</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>kh_dm_06_dk</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>kh_dm_07</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>kh_dm_07_dk</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>kh_dm_08</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>kh_dm_08_dk</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>kh_dm_09</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>kh_dm_09_dk</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>kh_dm_10</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>kh_dm_10_dk</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>kh_dm_11</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>kh_dm_11_dk</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>kh_dm_121</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>kh_dm_121_dk</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>kh_dm_122</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>kh_dm_122_dk</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>kh_dm_123</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>kh_dm_123_dk</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>kh_dm_124</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>kh_dm_124_dk</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>kh_dm_131</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>kh_dm_131_dk</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>kh_dm_132</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>kh_dm_132_dk</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>kh_dm_133</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>kh_dm_133_dk</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>kh_dm_141</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>kh_dm_141_dk</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>kh_dm_142</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>kh_dm_142_dk</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>kh_dm_143</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>kh_dm_143_dk</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>kh_dm_144</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>kh_dm_144_dk</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>kh_dm_1451</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>kh_dm_1451_dk</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>kskbtdbn</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>kh_dm_1452</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>kskdoan</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>kh_dm_15_dk</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>khdieutri</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>kskdonvi</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>khongdau</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>kskloai</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>letet</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>kx_icd10</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>kyravien</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>license</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>kskmuc</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>links_histhongso</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>loaibv</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>loaipttt</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>kskmucct</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>login</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>lienhe</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>lydokham</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>m_license</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>m_menuitem</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>m_menuitems</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>ng_huybienlai</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>m_thongso_tim</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>maincode</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>menubar</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>menuloai</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>muc</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>mucdodiung</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>ng_capid</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>ng_chia</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>ng_dlogin</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>ng_dmloainv</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>ng_dmnv</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>ng_giavp</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>ng_loaivp</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>ng_nhomvp</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>ng_quyenso</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>ng_tenloaivp</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>ng_thongso</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>ng_tiencong</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>nhantu</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>ngaykb</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>nhanxetdt</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>noigioithieu</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>nhomnhanvien</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>nuocngoai</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>phanhe</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>phanloaipttt</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>pttt_loai</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>pttt_mau</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>pttt_thuoc</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>r_dateinput</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>r_diengiai</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>r_fields</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>pttt_bs</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>pttt_bs_duyetmo</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>r_format</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>pttt_hinh</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>quanhe</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>r_inputs</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>r_nhom</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>r_report</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>r_tables</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>r_tenobject</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>rec_del</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>rec_upd</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>right</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>sttkham</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>stttiepdon</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>r_function</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>table</tablep>
+    <tablef>eve_upd_del_dms</tablef>
+    <fkey>mmyy,mmyy,mmyy</fkey>
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>tablehl7</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>taibien</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>taibienpt</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>taotable</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>tenvien</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>tenvien_add</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>t_cdnguyennhan</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>t_congkhai</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>t_pttt</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>theodoitiensu</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>t_thcpdt</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>theodoitsu</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>this_history</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>this_null</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>this_treemenu</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>thongso</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>ththbn</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>trieuchungct</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>trieuchungl</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>ttb_menuitem</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>ttt</tablep>
+    <tablef>v_ttrvpct_v_ttrvll</tablef>
+    <fkey>mmyy,mmyy,mmyy,mmyy,mmyy,mmyy</fkey>
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>ttxk</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>v_dlogin</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>tuchoilydo</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>tusathinhthuc</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>tusatnghenghiep</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>tusatnguyennhan</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>tusattinhtrang</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>tttamthan</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>tttiepdon</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>tuvong</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>tuvongpt</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>v_capid</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>tusat</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>v_bhyt</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>v_dmghe</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>v_dsduyet</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>v_dmlydonopthem</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>v_dmlydothieu</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>v_giuong</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>v_dot_khuyenmai</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>v_huybienlai</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>v_error</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>v_ghichu</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>v_giavattu</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>v_giavp_luu</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>v_khambenh</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>v_khoaso</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>v_khongdau</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>v_khuyenmai</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>v_lamtron</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>v_license</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>v_loaivp</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>v_loaibn</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>v_loaitu</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>v_lydomien</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>v_mienngtru</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>v_miennoitru</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>v_nhom</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>v_loaivp_medisoft</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>v_lydonopthem</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>v_lydothieu</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>v_maubaocao</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>v_menuitems</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>v_miendtloaivp</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>v_nhombhyt</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>v_nhombhyt_medisoft</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>v_nhomdlogin</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>v_nhomkhoabv1ct</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>v_nhomkhoabv1ll</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>v_nhomkhoabvct</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>v_nhomkhoabvll</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>v_nhomvp_medisoft</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>v_nhomvp</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>v_option</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>v_option_bcct</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>v_option_locgiavp</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>v_option_thutheonhom</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>v_optionform</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>v_optionhotkey</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>v_optionhotkey_ksk</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>v_optionlien</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>v_paid</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>v_quyenso</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>v_phanquyen</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>v_phanquyennhom</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>v_sdghe</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>v_sdvattu</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>v_tenloaivp</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>v_theodoigia</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>v_thongso</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>v_trongoipk</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>v_tygia</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>v_tylebhyt</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>v_viettat</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>v_webt_ttrvct</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>v_webt_vienphict</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>vantay</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>version</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>vp_license</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>vp_null</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>vp_treemenu</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>web_right</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>web_session</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>web_sokham</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>xn_2007_treemenu</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>xn_2007_treemenu_null</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>xn_bv_chitiet</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>xn_bv_khangsinh</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>xn_bv_so</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>xn_bv_ten</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>xn_bv_vitrung</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>xn_capid</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>xn_chitiet_default</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>xn_diadiem</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>xn_dlogin</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>xn_dmnuoicay</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>xn_done</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>xn_donvi</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>xn_donvi_hl7</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>xn_error</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>xn_gram_vt</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>xn_hoachat</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>xn_hoachatbn</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>xn_inmavach</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>xn_ketqua</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>xn_ketqua_ksd</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>xn_hoachatdm</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>xn_khangsinh</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>xn_ksd</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>xn_ktv</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>xn_laymau_ct</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>xn_laymau</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>xn_license</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>xn_loai</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>xn_mauthu</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>xn_may</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>xn_nhom</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>xn_nhomdlogin</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>xn_nhuomgram</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>xn_null</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>xn_option</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>xn_optionform</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>xn_phanquyen</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>xn_phanquyennhom</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>xn_phieu</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>xn_reportphieu</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>xn_sdmauthu</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>xn_sdxetnghiem</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>xn_so</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>xn_status_vt</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>xn_ten_default</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>xn_thongso</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>xn_thongsomay</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>xn_thuoc</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>xn_ten</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>xn_tinhtrang</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>xn_treebaocao</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>xn_treemenu</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>xn_vienphi</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>xn_viettat</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>xn_viettatkq</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>xn_vitri</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>xn_vitrung</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>xn_vitrung_thuoc</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>xn_vpkhoa</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>xuattamlydo</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>xuatkhoangtr</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>xutrikb</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>btddt</tablep>
+    <tablef>btdbn_</tablef>
+    <fkey>madantoc</fkey>
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>btdnn_bv</tablep>
+    <tablef>btdbn_</tablef>
+    <fkey>mann</fkey>
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>benhanpk</tablep>
+    <tablef>_doituong</tablef>
+    <fkey>mabn,mabn,mabn</fkey>
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>benhancc</tablep>
+    <tablef>_doituong</tablef>
+    <fkey>mabn,mabn,mabn</fkey>
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>ct_btdbn</tablep>
+    <tablef>ct_ketqua_</tablef>
+    <fkey>mabn</fkey>
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>cls_thuchien</tablep>
+    <tablef>_btdbn</tablef>
+    <fkey>id</fkey>
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_daduyet</tablep>
+    <tablef>_d_nhomkho</tablef>
+    <fkey>nhom,nhom,nhom,nhom,nhom,nhom</fkey>
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_nhomkho</tablep>
+    <tablef>d_daduyet_</tablef>
+    <fkey>id</fkey>
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_ngayduyet</tablep>
+    <tablef>_d_loaiphieu</tablef>
+    <fkey>nhom,nhom,nhom</fkey>
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_phieuxuat</tablep>
+    <tablef>_d_duockp</tablef>
+    <fkey>id</fkey>
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_solankiemtra</tablep>
+    <tablef>cstt_d_duockp</tablef>
+    <fkey>makho,makho,makho</fkey>
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_solankiemtracstt</tablep>
+    <tablef>_d_duockp</tablef>
+    <fkey>makp,makp</fkey>
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_sophieu</tablep>
+    <tablef>_d_loaiphieu</tablef>
+    <fkey>yy,yy,yy,yy,yy,yy,yy,yy</fkey>
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_theodoiduyet</tablep>
+    <tablef>_d_duockp</tablef>
+    <fkey>nhom,nhom</fkey>
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_theodoigia</tablep>
+    <tablef>_d_dmbd</tablef>
+    <fkey>mabd</fkey>
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_dmnhom</tablep>
+    <tablef>dmb</tablef>
+    <fkey>id,id</fkey>
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_dmnuoc</tablep>
+    <tablef>dmb</tablef>
+    <fkey>id</fkey>
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dmphong</tablep>
+    <tablef>_btdkp_bv</tablef>
+    <fkey>id,makp</fkey>
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>eve_views</tablep>
+    <tablef>_dmforms</tablef>
+    <fkey>formid</fkey>
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dmforms</tablep>
+    <tablef>eve_views_</tablef>
+    <fkey>id</fkey>
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>hiendien</tablep>
+    <tablef>ngtr_btdkp_bv</tablef>
+    <fkey>mavaovien,id,mavaovien,id</fkey>
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>hiendienngtr</tablep>
+    <tablef>_btdkp_bv</tablef>
+    <fkey>mavaovien,id</fkey>
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>khoacdkham</tablep>
+    <tablef>_btdbn</tablef>
+    <fkey>mabn</fkey>
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dmgiuong</tablep>
+    <tablef>theodoigiuong_</tablef>
+    <fkey>id,id</fkey>
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>ct_donvi</tablep>
+    <tablef>ct_ketqua_</tablef>
+    <fkey>id</fkey>
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>ct_loai</tablep>
+    <tablef>ct_ketqua_</tablef>
+    <fkey>id</fkey>
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_dmnhomkho</tablep>
+    <tablef>d_daduyet_</tablef>
+    <fkey>id</fkey>
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_dmnx</tablep>
+    <tablef>d_nhapslll_</tablef>
+    <fkey>id,id,id,id</fkey>
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dmcomputer</tablep>
+    <tablef>eve_upd_del_</tablef>
+    <fkey>id,id</fkey>
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dmtables</tablep>
+    <tablef>eve_upd_del_</tablef>
+    <fkey>id,id</fkey>
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>di_dmphieu</tablep>
+    <tablef>di_ngayduyet_</tablef>
+    <fkey>id</fkey>
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>btdpxa</tablep>
+    <tablef>tainantt_</tablef>
+    <fkey>maphuongxa,maphuongxa</fkey>
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>btdquan</tablep>
+    <tablef>tainantt_</tablef>
+    <fkey>maqu,maqu</fkey>
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>btdtt</tablep>
+    <tablef>tainantt_</tablef>
+    <fkey>matt,matt</fkey>
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>doituong</tablep>
+    <tablef>tuchoi_</tablef>
+    <fkey>madoituong,madoituong,madoituong,madoituong,madoituong,madoituong,madoituong,madoituong,madoituong</fkey>
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>v_giavp</tablep>
+    <tablef>v_vpkhoa_</tablef>
+    <fkey>id,id,id</fkey>
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_doituong</tablep>
+    <tablef>d_xtutrucct_</tablef>
+    <fkey>madoituong,madoituong,madoituong</fkey>
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>v_giavp_khuyenmai</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>capmabns</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_taosolieu</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>tiepdon</tablep>
+    <tablef>_doituong</tablef>
+    <fkey>mabn,mabn,mabn</fkey>
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>dmkhudt</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>client</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_dmnguon</tablep>
+    <tablef>d_xtutrucct_</tablef>
+    <fkey>id,id,id,id,id,id,id,id,id,id,id,id</fkey>
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_dmbd</tablep>
+    <tablef>d_xuatsdct_</tablef>
+    <fkey>id,id,id,id,id,id,id,id,id,id,id,id,id,id,id,id,id,id,id,id,id,id,id,id,id,id,id,id,id,id,id</fkey>
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_duockp</tablep>
+    <tablef>d_xuatsdll_</tablef>
+    <fkey>id,id,id,id,id,id,id,id,id,id,id,id,id,id</fkey>
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_dmkho</tablep>
+    <tablef>d_xuatsdct_</tablef>
+    <fkey>id,id,id,id,id,id,id,id,id,id,id,id,id,id,id,id,id,id,id,id,id,id,id,id,id,id,id,id,id</fkey>
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_dmphieu</tablep>
+    <tablef>d_xuatsdll_</tablef>
+    <fkey>id,id,id,id,id,id,id</fkey>
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_loaiphieu</tablep>
+    <tablef>d_xuatsdll_</tablef>
+    <fkey>id,id,id,id,id,id</fkey>
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>btdkp_bv</tablep>
+    <tablef>xuatvien_</tablef>
+    <fkey>makp,makp,makp,makp,makp,makp,makp,makp,makp,makp,makp,makp,makp,makp,makp,makp,makp,makp,makp,makp</fkey>
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>btdbn</tablep>
+    <tablef>v_vpkhoa_</tablef>
+    <fkey>mabn,mabn,mabn,mabn,mabn,mabn,mabn,mabn,mabn,mabn,ngaysinh,mabn,mabn,mabn,mabn,mabn,mabn,mabn,mabn,mabn,mabn,mabn,mabn,mabn,mabn,mabn,mabn,mabn,mabn,mabn,mabn,mabn,mabn,mabn</fkey>
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>di_thucdonll</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>r_ffields</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>r_finputs</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>r_ftables</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>r_listinput</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>sokhamthai</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>sokhamthaict</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>sophieurv</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>sukien</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>t_ttba</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>tainangt</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>theodoidt</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>ttmat</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>thuocdt</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>tresosinh</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>trieuchung</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>ttbong</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>ttkhamthai</tablep>
+    <tablef>_btdbn</tablef>
+    <fkey>mabn</fkey>
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>ttptttkhoa</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>v_tamungdatru</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>v_theodoicongno</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>v_trongoi</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>v_ttrvthatthu</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>v_ttrvthua</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>xuattam</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>xutrikbct</tablep>
+    <tablef />
+    <fkey />
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>ct_chitiet</tablep>
+    <tablef>_ct_ketqua</tablef>
+    <fkey>id</fkey>
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>ct_ketqua</tablep>
+    <tablef>_ct_loai</tablef>
+    <fkey>id,mabn,id,id</fkey>
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_dmthauct</tablep>
+    <tablef>_d_dmbd</tablef>
+    <fkey>id</fkey>
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>d_dmthaull</tablep>
+    <tablef>_d_dmnx</tablef>
+    <fkey>id</fkey>
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>ng_hoantract</tablep>
+    <tablef>_ng_hoantra</tablef>
+    <fkey>id</fkey>
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>ng_hoantra</tablep>
+    <tablef>ct_</tablef>
+    <fkey>id</fkey>
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>ng_vienphict</tablep>
+    <tablef>_ng_vienphill</tablef>
+    <fkey>id,id</fkey>
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>ng_vienphill</tablep>
+    <tablef>ng_vienphict_</tablef>
+    <fkey>id,id</fkey>
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>benhanngtr</tablep>
+    <tablef>nhapkhoangtr_</tablef>
+    <fkey>mabn,mabn,maql,maql</fkey>
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>nhapkhoangtr</tablep>
+    <tablef>_btdkp_bv</tablef>
+    <fkey>maql,id</fkey>
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>pttt</tablep>
+    <tablef>v_ttrvct_v_ttrvll</tablef>
+    <fkey>id,id,id,id,id,id</fkey>
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>pttt_lichmo</tablep>
+    <tablef>_btdkp_bv</tablef>
+    <fkey>id,id</fkey>
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>tainantt</tablep>
+    <tablef>_btdtt</tablef>
+    <fkey>mabn,mabn,mabn,mabn</fkey>
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>theodoigiuong</tablep>
+    <tablef>_dmgiuong</tablef>
+    <fkey>makp</fkey>
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>tuchoi</tablep>
+    <tablef>_doituong</tablef>
+    <fkey>mabn</fkey>
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>v_congno</tablep>
+    <tablef>_btdbn</tablef>
+    <fkey>mabn</fkey>
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>v_tylegiamct</tablep>
+    <tablef>_v_tylegiamll</tablef>
+    <fkey>id</fkey>
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>v_tylegiamll</tablep>
+    <tablef>v_tylegiamct_</tablef>
+    <fkey>id</fkey>
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>nhapkhoa</tablep>
+    <tablef>xuatkhoa_</tablef>
+    <fkey>maql,id,maql,id,id</fkey>
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>xuatkhoa</tablep>
+    <tablef>_nhapkhoa</tablef>
+    <fkey>id</fkey>
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>benhandt</tablep>
+    <tablef>xuatvien_</tablef>
+    <fkey>mabn,mabn,maql,maql,maql</fkey>
+  </Table>
+  <Table>
+    <schema>medibv</schema>
+    <tablep>xuatvien</tablep>
+    <tablef>_btdkp_bv</tablef>
+    <fkey>makp,mabn</fkey>
+  </Table>
+</NewDataSet>

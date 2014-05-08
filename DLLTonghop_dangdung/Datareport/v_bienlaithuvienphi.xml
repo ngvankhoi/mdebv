@@ -1,0 +1,94 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="BienLaiTamUng">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="syt" type="xs:string" minOccurs="0" />
+                <xs:element name="bv" type="xs:string" minOccurs="0" />
+                <xs:element name="diachibv" type="xs:string" minOccurs="0" />
+                <xs:element name="tongcucthue" type="xs:string" minOccurs="0" />
+                <xs:element name="cucthue" type="xs:string" minOccurs="0" />
+                <xs:element name="masothue" type="xs:string" minOccurs="0" />
+                <xs:element name="mauso" type="xs:string" minOccurs="0" />
+                <xs:element name="quyenso" type="xs:string" minOccurs="0" />
+                <xs:element name="sobienlai" type="xs:string" minOccurs="0" />
+                <xs:element name="ngayin" type="xs:string" minOccurs="0" />
+                <xs:element name="nguoiin" type="xs:string" minOccurs="0" />
+                <xs:element name="ghichu" type="xs:string" minOccurs="0" />
+                <xs:element name="sovaovien" type="xs:string" minOccurs="0" />
+                <xs:element name="lien" type="xs:string" minOccurs="0" />
+                <xs:element name="mabn" type="xs:string" minOccurs="0" />
+                <xs:element name="hoten" type="xs:string" minOccurs="0" />
+                <xs:element name="ngaysinh" type="xs:string" minOccurs="0" />
+                <xs:element name="gioitinh" type="xs:string" minOccurs="0" />
+                <xs:element name="khoa" type="xs:string" minOccurs="0" />
+                <xs:element name="diachi" type="xs:string" minOccurs="0" />
+                <xs:element name="lydo" type="xs:string" minOccurs="0" />
+                <xs:element name="sotien" type="xs:string" minOccurs="0" />
+                <xs:element name="chutien" type="xs:string" minOccurs="0" />
+                <xs:element name="nguoithu" type="xs:string" minOccurs="0" />
+                <xs:element name="diengiai" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <BienLaiTamUng>
+    <syt>Bộ Y Tế</syt>
+    <bv>Viện Nhi Trung Ương</bv>
+    <diachibv />
+    <tongcucthue>&lt;TỔNG CỤC THUẾ&gt;</tongcucthue>
+    <cucthue>&lt;CỤC THUẾ&gt;</cucthue>
+    <masothue>0302159861</masothue>
+    <mauso>HCM 27/ĐT-VT.20VP</mauso>
+    <quyenso>KBCK2006</quyenso>
+    <sobienlai>3200</sobienlai>
+    <ngayin>24/01/2006</ngayin>
+    <nguoiin />
+    <ghichu>(In lần 3)</ghichu>
+    <lien>Liên 1: Lưu</lien>
+    <mabn>05945561</mabn>
+    <hoten>LÊ NGỌC TÚ</hoten>
+    <ngaysinh>16/06/1997</ngaysinh>
+    <gioitinh>Nam</gioitinh>
+    <khoa>Pk Chung Số 1</khoa>
+    <diachi>Phường Yên Hoà, Quận Cầu Giấy, Hà Nội</diachi>
+    <lydo>Khám thông thường</lydo>
+    <sotien>15000</sotien>
+    <chutien>Mười lăm ngàn  đồng</chutien>
+    <nguoithu>Trịnh Thị Bốn</nguoithu>
+    <diengiai />
+  </BienLaiTamUng>
+  <BienLaiTamUng>
+    <syt>Bộ Y Tế</syt>
+    <bv>Viện Nhi Trung Ương</bv>
+    <diachibv />
+    <tongcucthue>&lt;TỔNG CỤC THUẾ&gt;</tongcucthue>
+    <cucthue>&lt;CỤC THUẾ&gt;</cucthue>
+    <masothue>0302159861</masothue>
+    <mauso>HCM 27/ĐT-VT.20VP</mauso>
+    <quyenso>KBCK2006</quyenso>
+    <sobienlai>3200</sobienlai>
+    <ngayin>24/01/2006</ngayin>
+    <nguoiin />
+    <ghichu>(In lần 3)</ghichu>
+    <lien>Liên 2: Giao cho bệnh nhân</lien>
+    <mabn>05945561</mabn>
+    <hoten>LÊ NGỌC TÚ</hoten>
+    <ngaysinh>16/06/1997</ngaysinh>
+    <gioitinh>Nam</gioitinh>
+    <khoa>Pk Chung Số 1</khoa>
+    <diachi>Phường Yên Hoà, Quận Cầu Giấy, Hà Nội</diachi>
+    <lydo>Khám thông thường</lydo>
+    <sotien>15000</sotien>
+    <chutien>Mười lăm ngàn  đồng</chutien>
+    <nguoithu>Trịnh Thị Bốn</nguoithu>
+    <diengiai />
+  </BienLaiTamUng>
+</NewDataSet>

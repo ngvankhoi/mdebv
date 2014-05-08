@@ -1,0 +1,105 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table1">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="loai" type="xs:string" minOccurs="0" />
+                <xs:element name="tenloai" type="xs:string" minOccurs="0" />
+                <xs:element name="id" type="xs:string" minOccurs="0" />
+                <xs:element name="ten" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table1>
+    <loai>000</loai>
+    <tenloai>1. Lệnh chi</tenloai>
+    <id>000</id>
+    <ten>Hóa đơn</ten>
+  </Table1>
+  <Table1>
+    <loai>000</loai>
+    <tenloai>1. Lệnh chi</tenloai>
+    <id>000</id>
+    <ten>Ủy nhiệm chi</ten>
+  </Table1>
+  <Table1>
+    <loai>000</loai>
+    <tenloai>1. Lệnh chi</tenloai>
+    <id>000</id>
+    <ten>Công nợ</ten>
+  </Table1>
+  <Table1>
+    <loai>001</loai>
+    <tenloai>2. Tiện ích</tenloai>
+    <id>001</id>
+    <ten>Đơn vị</ten>
+  </Table1>
+  <Table1>
+    <loai>001</loai>
+    <tenloai>2. Tiện ích</tenloai>
+    <id>002</id>
+    <ten>Khách hàng</ten>
+  </Table1>
+  <Table1>
+    <loai>001</loai>
+    <tenloai>2. Tiện ích</tenloai>
+    <id>011</id>
+    <ten>Khai báo viết tắt</ten>
+  </Table1>
+  <Table1>
+    <loai>001</loai>
+    <tenloai>2. Tiện ích</tenloai>
+    <id>003</id>
+    <ten>Cấu hình thông số hệ thống</ten>
+  </Table1>
+  <Table1>
+    <loai>001</loai>
+    <tenloai>2. Tiện ích</tenloai>
+    <id>004</id>
+    <ten>Phân quyền sử dụng</ten>
+  </Table1>
+  <Table1>
+    <loai>001</loai>
+    <tenloai>2. Tiện ích</tenloai>
+    <id>005</id>
+    <ten>Thay đổi mật khẩu</ten>
+  </Table1>
+  <Table1>
+    <loai>001</loai>
+    <tenloai>2. Tiện ích</tenloai>
+    <id>006</id>
+    <ten>Sao lưu số liệu</ten>
+  </Table1>
+  <Table1>
+    <loai>001</loai>
+    <tenloai>2. Tiện ích</tenloai>
+    <id>007</id>
+    <ten>Truy vấn theo câu lệnh SQL</ten>
+  </Table1>
+  <Table1>
+    <loai>001</loai>
+    <tenloai>2. Tiện ích</tenloai>
+    <id>008</id>
+    <ten>Đổi ngày</ten>
+  </Table1>
+  <Table1>
+    <loai>001</loai>
+    <tenloai>2. Tiện ích</tenloai>
+    <id>009</id>
+    <ten>Quản lý khai thác số liệu</ten>
+  </Table1>
+  <Table1>
+    <loai>001</loai>
+    <tenloai>2. Tiện ích</tenloai>
+    <id>010</id>
+    <ten>Log Off 1</ten>
+  </Table1>
+</NewDataSet>

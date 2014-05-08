@@ -1,0 +1,264 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table1>
+    <TEN>Phiếu nhập kho</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Phiếu tái nhập kho</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Chứng từ ghi sổ</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Công nợ</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Phiếu đề nghị thanh toán</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Phiếu xuất chuyển kho</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Duyệt cấp theo kho dự trù</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Duyệt cấp trang thiết bị</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Duyệt hoàn trả trang thiết bị</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Phiếu lĩnh</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Phiếu hoàn trả</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Phiếu xuất khác</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Phiếu xuất chuyển nguồn</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Phiếu dự trù kho cấp</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Dự trù mua vật tư, sản phẩm, hàng hoá</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Kết quả thầu vật tư, sản phẩm, hàng hoá</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Kinh phí mua sắm trong năm</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Phiếu nhập kho</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Nhập - xuất - tồn (Tổng hợp)</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Nhập - xuất - tồn (Chi tiết)</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Đã sử dụng</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Chi tiết vật liệu, dụng cụ, sản phẩm, hàng hóa</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Bảng nhập thuốc vật tư y tế</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Bảng xuất thuốc vật tư y tế</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Nhập từ kho trung tâm</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Sử dụng</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Sử dụng theo ngày</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Sử dụng theo phân loại</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Sử dụng theo nhóm</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Tồn kho</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Nhập xuất tồn (Tổng hợp)</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Nhập xuất tồn (chi tiết)</TEN>
+  </Table1>
+  <Table1>
+    <TEN>.. đến tháng</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Xuất kho (chi tiết)</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Xuất kho tổng hợp theo ngày</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Xuất kho - tổng hợp theo khoa phòng</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Kiểm nhập vật tư, sản phẩm, hàng hóa kiêm phiếu nhập kho</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Kiểm nhập</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Kiểm kê vật tư, sản phẩm, hàng hoá</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Kiểm kê vật tư, sản phẩm, hàng hoá (nhóm)</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Thanh lý, hủy</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Phiếu kiểm kê kho</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Sổ chi tiết vật tư, sản phẩm, hàng hóa</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Sổ kho</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Thẻ kho</TEN>
+  </Table1>
+  <Table1>
+    <TEN>In phiếu xuất kho</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Biến động giá</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Báo cáo nhập xuất tồn khoa</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Trang thiết bị y tế</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Nước sản xuất</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Hãng sản xuất</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Nhóm</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Phân loại</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Nhà cung cấp</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Nhóm nước sản xuất</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Nhóm hãng sản xuất</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Nhóm nhà cung cấp</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Nhóm báo cáo bệnh viện</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Nhóm in phiếu lĩnh</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Nhóm kế toán</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Nhóm phiếu</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Nhóm kho</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Kho</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Nguồn</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Nhóm khoa/phòng</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Khoa/phòng</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Khác</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Lý do hoàn trả</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Đơn vị tính</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Loại phiếu</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Kho</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Khoa/phòng</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Chi tiết</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Tổng hợp</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Kiểm tra tồn đầu</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Chi tiết</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Tổng hợp</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Kiểm tra tồn đầu</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Kiểm tra số liệu tồn kho</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Khai báo thông số hệ thống</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Phân quyền sử dụng</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Thay đổi mật khẩu</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Sao lưu số liệu</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Truy vấn theo câu lệnh SQL</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Đổi ngày</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Gửi thông tin qua mạng nội bộ</TEN>
+  </Table1>
+  <Table1>
+    <TEN>Thông báo qua mạng nội bộ</TEN>
+  </Table1>
+</NewDataSet>

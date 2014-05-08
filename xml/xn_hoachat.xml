@@ -1,0 +1,96 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="id_ten_xn" type="xs:decimal" minOccurs="0" />
+                <xs:element name="xn_ten" type="xs:string" minOccurs="0" />
+                <xs:element name="id_hc" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ten_hc" type="xs:string" minOccurs="0" />
+                <xs:element name="tongso" type="xs:long" minOccurs="0" />
+                <xs:element name="soluong" type="xs:decimal" minOccurs="0" />
+                <xs:element name="dang" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <id_ten_xn>1</id_ten_xn>
+    <xn_ten>KST sốt rét</xn_ten>
+    <id_hc>3</id_hc>
+    <ten_hc>Acerovax</ten_hc>
+    <tongso>2</tongso>
+    <soluong>0.600</soluong>
+    <dang>viên</dang>
+  </Table>
+  <Table>
+    <id_ten_xn>1</id_ten_xn>
+    <xn_ten>KST sốt rét</xn_ten>
+    <id_hc>12</id_hc>
+    <ten_hc>Acirax tube</ten_hc>
+    <tongso>2</tongso>
+    <soluong>0.040</soluong>
+    <dang>tube</dang>
+  </Table>
+  <Table>
+    <id_ten_xn>1</id_ten_xn>
+    <xn_ten>KST sốt rét</xn_ten>
+    <id_hc>15630</id_hc>
+    <ten_hc>Acirax5%</ten_hc>
+    <tongso>2</tongso>
+    <soluong>0.020</soluong>
+    <dang>tube</dang>
+  </Table>
+  <Table>
+    <id_ten_xn>1</id_ten_xn>
+    <xn_ten>KST sốt rét</xn_ten>
+    <id_hc>15694</id_hc>
+    <ten_hc>Acirax</ten_hc>
+    <tongso>2</tongso>
+    <soluong>0.030</soluong>
+    <dang>Viên</dang>
+  </Table>
+  <Table>
+    <id_ten_xn>81</id_ten_xn>
+    <xn_ten>Công thức máu (18 thông số)</xn_ten>
+    <id_hc>4380</id_hc>
+    <ten_hc>Rotunda </ten_hc>
+    <tongso>12</tongso>
+    <soluong>0.200</soluong>
+    <dang>Viên</dang>
+  </Table>
+  <Table>
+    <id_ten_xn>81</id_ten_xn>
+    <xn_ten>Công thức máu (18 thông số)</xn_ten>
+    <id_hc>4388</id_hc>
+    <ten_hc>Sedal cardin</ten_hc>
+    <tongso>12</tongso>
+    <soluong>0.300</soluong>
+    <dang>Viên</dang>
+  </Table>
+  <Table>
+    <id_ten_xn>81</id_ten_xn>
+    <xn_ten>Công thức máu (18 thông số)</xn_ten>
+    <id_hc>4442</id_hc>
+    <ten_hc>Stresam</ten_hc>
+    <tongso>12</tongso>
+    <soluong>0.400</soluong>
+    <dang>Viên</dang>
+  </Table>
+  <Table>
+    <id_ten_xn>81</id_ten_xn>
+    <xn_ten>Công thức máu (18 thông số)</xn_ten>
+    <id_hc>4468</id_hc>
+    <ten_hc>Melatonin</ten_hc>
+    <tongso>12</tongso>
+    <soluong>0.600</soluong>
+    <dang>Viên</dang>
+  </Table>
+</NewDataSet>

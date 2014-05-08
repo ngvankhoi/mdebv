@@ -1,0 +1,612 @@
+04/06/2013 11:23:38 AM:	Exception 	System.Resources.MissingManifestResourceException
+ExceptionMessage   :	 Could not find any resources appropriate for the specified culture (or the neutral culture) on disk.
+baseName:   locationInfo: <null>  fileName: .resources
+ExceptionSource    :	mscorlib
+ExceptionStackTrace:	    at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetString(String name, CultureInfo culture)
+   at System.Resources.ResourceManager.GetString(String name)
+   at MEDISOFT2011.DESKTOP.FileBaseResourceManager.GetString(String name) in D:\SoftwareMedsonParttition\Medisoft_English28_03_2013_Partition_ALL\MEDISOFT2011.DESKTOP\FileBaseResourceManager.cs:line 22
+
+
+04/06/2013 11:23:39 AM:	Exception 	System.Resources.MissingManifestResourceException
+ExceptionMessage   :	 Could not find any resources appropriate for the specified culture (or the neutral culture) on disk.
+baseName:   locationInfo: <null>  fileName: .resources
+ExceptionSource    :	mscorlib
+ExceptionStackTrace:	    at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetString(String name, CultureInfo culture)
+   at System.Resources.ResourceManager.GetString(String name)
+   at MEDISOFT2011.DESKTOP.FileBaseResourceManager.GetString(String name) in D:\SoftwareMedsonParttition\Medisoft_English28_03_2013_Partition_ALL\MEDISOFT2011.DESKTOP\FileBaseResourceManager.cs:line 22
+
+
+04/06/2013 11:23:40 AM:	Exception 	System.Resources.MissingManifestResourceException
+ExceptionMessage   :	 Could not find any resources appropriate for the specified culture (or the neutral culture) on disk.
+baseName:   locationInfo: <null>  fileName: .resources
+ExceptionSource    :	mscorlib
+ExceptionStackTrace:	    at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetString(String name, CultureInfo culture)
+   at System.Resources.ResourceManager.GetString(String name)
+   at MEDISOFT2011.DESKTOP.FileBaseResourceManager.GetString(String name) in D:\SoftwareMedsonParttition\Medisoft_English28_03_2013_Partition_ALL\MEDISOFT2011.DESKTOP\FileBaseResourceManager.cs:line 22
+
+
+04/06/2013 11:23:40 AM:	Exception 	System.Resources.MissingManifestResourceException
+ExceptionMessage   :	 Could not find any resources appropriate for the specified culture (or the neutral culture) on disk.
+baseName:   locationInfo: <null>  fileName: .resources
+ExceptionSource    :	mscorlib
+ExceptionStackTrace:	    at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetString(String name, CultureInfo culture)
+   at System.Resources.ResourceManager.GetString(String name)
+   at MEDISOFT2011.DESKTOP.FileBaseResourceManager.GetString(String name) in D:\SoftwareMedsonParttition\Medisoft_English28_03_2013_Partition_ALL\MEDISOFT2011.DESKTOP\FileBaseResourceManager.cs:line 22
+
+
+04/06/2013 11:23:41 AM:	Exception 	System.Resources.MissingManifestResourceException
+ExceptionMessage   :	 Could not find any resources appropriate for the specified culture (or the neutral culture) on disk.
+baseName:   locationInfo: <null>  fileName: .resources
+ExceptionSource    :	mscorlib
+ExceptionStackTrace:	    at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetString(String name, CultureInfo culture)
+   at System.Resources.ResourceManager.GetString(String name)
+   at MEDISOFT2011.DESKTOP.FileBaseResourceManager.GetString(String name) in D:\SoftwareMedsonParttition\Medisoft_English28_03_2013_Partition_ALL\MEDISOFT2011.DESKTOP\FileBaseResourceManager.cs:line 22
+
+
+04/06/2013 11:23:41 AM:	Exception 	System.Resources.MissingManifestResourceException
+ExceptionMessage   :	 Could not find any resources appropriate for the specified culture (or the neutral culture) on disk.
+baseName:   locationInfo: <null>  fileName: .resources
+ExceptionSource    :	mscorlib
+ExceptionStackTrace:	    at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetString(String name, CultureInfo culture)
+   at System.Resources.ResourceManager.GetString(String name)
+   at MEDISOFT2011.DESKTOP.FileBaseResourceManager.GetString(String name) in D:\SoftwareMedsonParttition\Medisoft_English28_03_2013_Partition_ALL\MEDISOFT2011.DESKTOP\FileBaseResourceManager.cs:line 22
+
+
+04/06/2013 11:23:42 AM:	Exception 	System.Resources.MissingManifestResourceException
+ExceptionMessage   :	 Could not find any resources appropriate for the specified culture (or the neutral culture) on disk.
+baseName:   locationInfo: <null>  fileName: .resources
+ExceptionSource    :	mscorlib
+ExceptionStackTrace:	    at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetString(String name, CultureInfo culture)
+   at System.Resources.ResourceManager.GetString(String name)
+   at MEDISOFT2011.DESKTOP.FileBaseResourceManager.GetString(String name) in D:\SoftwareMedsonParttition\Medisoft_English28_03_2013_Partition_ALL\MEDISOFT2011.DESKTOP\FileBaseResourceManager.cs:line 22
+
+
+04/06/2013 11:23:42 AM:	Exception 	System.Resources.MissingManifestResourceException
+ExceptionMessage   :	 Could not find any resources appropriate for the specified culture (or the neutral culture) on disk.
+baseName:   locationInfo: <null>  fileName: .resources
+ExceptionSource    :	mscorlib
+ExceptionStackTrace:	    at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetString(String name, CultureInfo culture)
+   at System.Resources.ResourceManager.GetString(String name)
+   at MEDISOFT2011.DESKTOP.FileBaseResourceManager.GetString(String name) in D:\SoftwareMedsonParttition\Medisoft_English28_03_2013_Partition_ALL\MEDISOFT2011.DESKTOP\FileBaseResourceManager.cs:line 22
+
+
+04/06/2013 11:23:43 AM:	Exception 	System.Resources.MissingManifestResourceException
+ExceptionMessage   :	 Could not find any resources appropriate for the specified culture (or the neutral culture) on disk.
+baseName:   locationInfo: <null>  fileName: .resources
+ExceptionSource    :	mscorlib
+ExceptionStackTrace:	    at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetString(String name, CultureInfo culture)
+   at System.Resources.ResourceManager.GetString(String name)
+   at MEDISOFT2011.DESKTOP.FileBaseResourceManager.GetString(String name) in D:\SoftwareMedsonParttition\Medisoft_English28_03_2013_Partition_ALL\MEDISOFT2011.DESKTOP\FileBaseResourceManager.cs:line 22
+
+
+04/06/2013 11:23:43 AM:	Exception 	System.Resources.MissingManifestResourceException
+ExceptionMessage   :	 Could not find any resources appropriate for the specified culture (or the neutral culture) on disk.
+baseName:   locationInfo: <null>  fileName: .resources
+ExceptionSource    :	mscorlib
+ExceptionStackTrace:	    at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetString(String name, CultureInfo culture)
+   at System.Resources.ResourceManager.GetString(String name)
+   at MEDISOFT2011.DESKTOP.FileBaseResourceManager.GetString(String name) in D:\SoftwareMedsonParttition\Medisoft_English28_03_2013_Partition_ALL\MEDISOFT2011.DESKTOP\FileBaseResourceManager.cs:line 22
+
+
+04/06/2013 11:23:43 AM:	Exception 	System.Resources.MissingManifestResourceException
+ExceptionMessage   :	 Could not find any resources appropriate for the specified culture (or the neutral culture) on disk.
+baseName:   locationInfo: <null>  fileName: .resources
+ExceptionSource    :	mscorlib
+ExceptionStackTrace:	    at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetString(String name, CultureInfo culture)
+   at System.Resources.ResourceManager.GetString(String name)
+   at MEDISOFT2011.DESKTOP.FileBaseResourceManager.GetString(String name) in D:\SoftwareMedsonParttition\Medisoft_English28_03_2013_Partition_ALL\MEDISOFT2011.DESKTOP\FileBaseResourceManager.cs:line 22
+
+
+04/06/2013 11:23:44 AM:	Exception 	System.Resources.MissingManifestResourceException
+ExceptionMessage   :	 Could not find any resources appropriate for the specified culture (or the neutral culture) on disk.
+baseName:   locationInfo: <null>  fileName: .resources
+ExceptionSource    :	mscorlib
+ExceptionStackTrace:	    at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetString(String name, CultureInfo culture)
+   at System.Resources.ResourceManager.GetString(String name)
+   at MEDISOFT2011.DESKTOP.FileBaseResourceManager.GetString(String name) in D:\SoftwareMedsonParttition\Medisoft_English28_03_2013_Partition_ALL\MEDISOFT2011.DESKTOP\FileBaseResourceManager.cs:line 22
+
+
+04/06/2013 11:23:44 AM:	Exception 	System.Resources.MissingManifestResourceException
+ExceptionMessage   :	 Could not find any resources appropriate for the specified culture (or the neutral culture) on disk.
+baseName:   locationInfo: <null>  fileName: .resources
+ExceptionSource    :	mscorlib
+ExceptionStackTrace:	    at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetString(String name, CultureInfo culture)
+   at System.Resources.ResourceManager.GetString(String name)
+   at MEDISOFT2011.DESKTOP.FileBaseResourceManager.GetString(String name) in D:\SoftwareMedsonParttition\Medisoft_English28_03_2013_Partition_ALL\MEDISOFT2011.DESKTOP\FileBaseResourceManager.cs:line 22
+
+
+04/06/2013 11:23:45 AM:	Exception 	System.Resources.MissingManifestResourceException
+ExceptionMessage   :	 Could not find any resources appropriate for the specified culture (or the neutral culture) on disk.
+baseName:   locationInfo: <null>  fileName: .resources
+ExceptionSource    :	mscorlib
+ExceptionStackTrace:	    at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetString(String name, CultureInfo culture)
+   at System.Resources.ResourceManager.GetString(String name)
+   at MEDISOFT2011.DESKTOP.FileBaseResourceManager.GetString(String name) in D:\SoftwareMedsonParttition\Medisoft_English28_03_2013_Partition_ALL\MEDISOFT2011.DESKTOP\FileBaseResourceManager.cs:line 22
+
+
+04/06/2013 11:23:45 AM:	Exception 	System.Resources.MissingManifestResourceException
+ExceptionMessage   :	 Could not find any resources appropriate for the specified culture (or the neutral culture) on disk.
+baseName:   locationInfo: <null>  fileName: .resources
+ExceptionSource    :	mscorlib
+ExceptionStackTrace:	    at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetString(String name, CultureInfo culture)
+   at System.Resources.ResourceManager.GetString(String name)
+   at MEDISOFT2011.DESKTOP.FileBaseResourceManager.GetString(String name) in D:\SoftwareMedsonParttition\Medisoft_English28_03_2013_Partition_ALL\MEDISOFT2011.DESKTOP\FileBaseResourceManager.cs:line 22
+
+
+04/06/2013 11:23:45 AM:	Exception 	System.Resources.MissingManifestResourceException
+ExceptionMessage   :	 Could not find any resources appropriate for the specified culture (or the neutral culture) on disk.
+baseName:   locationInfo: <null>  fileName: .resources
+ExceptionSource    :	mscorlib
+ExceptionStackTrace:	    at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetString(String name, CultureInfo culture)
+   at System.Resources.ResourceManager.GetString(String name)
+   at MEDISOFT2011.DESKTOP.FileBaseResourceManager.GetString(String name) in D:\SoftwareMedsonParttition\Medisoft_English28_03_2013_Partition_ALL\MEDISOFT2011.DESKTOP\FileBaseResourceManager.cs:line 22
+
+
+04/06/2013 11:23:46 AM:	Exception 	System.Resources.MissingManifestResourceException
+ExceptionMessage   :	 Could not find any resources appropriate for the specified culture (or the neutral culture) on disk.
+baseName:   locationInfo: <null>  fileName: .resources
+ExceptionSource    :	mscorlib
+ExceptionStackTrace:	    at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetString(String name, CultureInfo culture)
+   at System.Resources.ResourceManager.GetString(String name)
+   at MEDISOFT2011.DESKTOP.FileBaseResourceManager.GetString(String name) in D:\SoftwareMedsonParttition\Medisoft_English28_03_2013_Partition_ALL\MEDISOFT2011.DESKTOP\FileBaseResourceManager.cs:line 22
+
+
+04/06/2013 11:26:04 AM:	Exception 	System.Resources.MissingManifestResourceException
+ExceptionMessage   :	 Could not find any resources appropriate for the specified culture (or the neutral culture) on disk.
+baseName:   locationInfo: <null>  fileName: .resources
+ExceptionSource    :	mscorlib
+ExceptionStackTrace:	    at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetString(String name, CultureInfo culture)
+   at System.Resources.ResourceManager.GetString(String name)
+   at MEDISOFT2011.DESKTOP.FileBaseResourceManager.GetString(String name) in D:\SoftwareMedsonParttition\Medisoft_English28_03_2013_Partition_ALL\MEDISOFT2011.DESKTOP\FileBaseResourceManager.cs:line 22
+
+
+04/06/2013 11:26:06 AM:	Exception 	System.Resources.MissingManifestResourceException
+ExceptionMessage   :	 Could not find any resources appropriate for the specified culture (or the neutral culture) on disk.
+baseName:   locationInfo: <null>  fileName: .resources
+ExceptionSource    :	mscorlib
+ExceptionStackTrace:	    at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetString(String name, CultureInfo culture)
+   at System.Resources.ResourceManager.GetString(String name)
+   at MEDISOFT2011.DESKTOP.FileBaseResourceManager.GetString(String name) in D:\SoftwareMedsonParttition\Medisoft_English28_03_2013_Partition_ALL\MEDISOFT2011.DESKTOP\FileBaseResourceManager.cs:line 22
+
+
+04/06/2013 11:26:06 AM:	Exception 	System.Resources.MissingManifestResourceException
+ExceptionMessage   :	 Could not find any resources appropriate for the specified culture (or the neutral culture) on disk.
+baseName:   locationInfo: <null>  fileName: .resources
+ExceptionSource    :	mscorlib
+ExceptionStackTrace:	    at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetString(String name, CultureInfo culture)
+   at System.Resources.ResourceManager.GetString(String name)
+   at MEDISOFT2011.DESKTOP.FileBaseResourceManager.GetString(String name) in D:\SoftwareMedsonParttition\Medisoft_English28_03_2013_Partition_ALL\MEDISOFT2011.DESKTOP\FileBaseResourceManager.cs:line 22
+
+
+04/06/2013 11:26:06 AM:	Exception 	System.Resources.MissingManifestResourceException
+ExceptionMessage   :	 Could not find any resources appropriate for the specified culture (or the neutral culture) on disk.
+baseName:   locationInfo: <null>  fileName: .resources
+ExceptionSource    :	mscorlib
+ExceptionStackTrace:	    at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetString(String name, CultureInfo culture)
+   at System.Resources.ResourceManager.GetString(String name)
+   at MEDISOFT2011.DESKTOP.FileBaseResourceManager.GetString(String name) in D:\SoftwareMedsonParttition\Medisoft_English28_03_2013_Partition_ALL\MEDISOFT2011.DESKTOP\FileBaseResourceManager.cs:line 22
+
+
+04/06/2013 11:26:07 AM:	Exception 	System.Resources.MissingManifestResourceException
+ExceptionMessage   :	 Could not find any resources appropriate for the specified culture (or the neutral culture) on disk.
+baseName:   locationInfo: <null>  fileName: .resources
+ExceptionSource    :	mscorlib
+ExceptionStackTrace:	    at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetString(String name, CultureInfo culture)
+   at System.Resources.ResourceManager.GetString(String name)
+   at MEDISOFT2011.DESKTOP.FileBaseResourceManager.GetString(String name) in D:\SoftwareMedsonParttition\Medisoft_English28_03_2013_Partition_ALL\MEDISOFT2011.DESKTOP\FileBaseResourceManager.cs:line 22
+
+
+04/06/2013 11:26:07 AM:	Exception 	System.Resources.MissingManifestResourceException
+ExceptionMessage   :	 Could not find any resources appropriate for the specified culture (or the neutral culture) on disk.
+baseName:   locationInfo: <null>  fileName: .resources
+ExceptionSource    :	mscorlib
+ExceptionStackTrace:	    at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetString(String name, CultureInfo culture)
+   at System.Resources.ResourceManager.GetString(String name)
+   at MEDISOFT2011.DESKTOP.FileBaseResourceManager.GetString(String name) in D:\SoftwareMedsonParttition\Medisoft_English28_03_2013_Partition_ALL\MEDISOFT2011.DESKTOP\FileBaseResourceManager.cs:line 22
+
+
+04/06/2013 11:26:07 AM:	Exception 	System.Resources.MissingManifestResourceException
+ExceptionMessage   :	 Could not find any resources appropriate for the specified culture (or the neutral culture) on disk.
+baseName:   locationInfo: <null>  fileName: .resources
+ExceptionSource    :	mscorlib
+ExceptionStackTrace:	    at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetString(String name, CultureInfo culture)
+   at System.Resources.ResourceManager.GetString(String name)
+   at MEDISOFT2011.DESKTOP.FileBaseResourceManager.GetString(String name) in D:\SoftwareMedsonParttition\Medisoft_English28_03_2013_Partition_ALL\MEDISOFT2011.DESKTOP\FileBaseResourceManager.cs:line 22
+
+
+04/06/2013 11:26:08 AM:	Exception 	System.Resources.MissingManifestResourceException
+ExceptionMessage   :	 Could not find any resources appropriate for the specified culture (or the neutral culture) on disk.
+baseName:   locationInfo: <null>  fileName: .resources
+ExceptionSource    :	mscorlib
+ExceptionStackTrace:	    at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetString(String name, CultureInfo culture)
+   at System.Resources.ResourceManager.GetString(String name)
+   at MEDISOFT2011.DESKTOP.FileBaseResourceManager.GetString(String name) in D:\SoftwareMedsonParttition\Medisoft_English28_03_2013_Partition_ALL\MEDISOFT2011.DESKTOP\FileBaseResourceManager.cs:line 22
+
+
+04/06/2013 11:26:08 AM:	Exception 	System.Resources.MissingManifestResourceException
+ExceptionMessage   :	 Could not find any resources appropriate for the specified culture (or the neutral culture) on disk.
+baseName:   locationInfo: <null>  fileName: .resources
+ExceptionSource    :	mscorlib
+ExceptionStackTrace:	    at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetString(String name, CultureInfo culture)
+   at System.Resources.ResourceManager.GetString(String name)
+   at MEDISOFT2011.DESKTOP.FileBaseResourceManager.GetString(String name) in D:\SoftwareMedsonParttition\Medisoft_English28_03_2013_Partition_ALL\MEDISOFT2011.DESKTOP\FileBaseResourceManager.cs:line 22
+
+
+04/06/2013 11:26:09 AM:	Exception 	System.Resources.MissingManifestResourceException
+ExceptionMessage   :	 Could not find any resources appropriate for the specified culture (or the neutral culture) on disk.
+baseName:   locationInfo: <null>  fileName: .resources
+ExceptionSource    :	mscorlib
+ExceptionStackTrace:	    at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetString(String name, CultureInfo culture)
+   at System.Resources.ResourceManager.GetString(String name)
+   at MEDISOFT2011.DESKTOP.FileBaseResourceManager.GetString(String name) in D:\SoftwareMedsonParttition\Medisoft_English28_03_2013_Partition_ALL\MEDISOFT2011.DESKTOP\FileBaseResourceManager.cs:line 22
+
+
+04/06/2013 11:26:09 AM:	Exception 	System.Resources.MissingManifestResourceException
+ExceptionMessage   :	 Could not find any resources appropriate for the specified culture (or the neutral culture) on disk.
+baseName:   locationInfo: <null>  fileName: .resources
+ExceptionSource    :	mscorlib
+ExceptionStackTrace:	    at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetString(String name, CultureInfo culture)
+   at System.Resources.ResourceManager.GetString(String name)
+   at MEDISOFT2011.DESKTOP.FileBaseResourceManager.GetString(String name) in D:\SoftwareMedsonParttition\Medisoft_English28_03_2013_Partition_ALL\MEDISOFT2011.DESKTOP\FileBaseResourceManager.cs:line 22
+
+
+04/06/2013 11:26:10 AM:	Exception 	System.Resources.MissingManifestResourceException
+ExceptionMessage   :	 Could not find any resources appropriate for the specified culture (or the neutral culture) on disk.
+baseName:   locationInfo: <null>  fileName: .resources
+ExceptionSource    :	mscorlib
+ExceptionStackTrace:	    at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetString(String name, CultureInfo culture)
+   at System.Resources.ResourceManager.GetString(String name)
+   at MEDISOFT2011.DESKTOP.FileBaseResourceManager.GetString(String name) in D:\SoftwareMedsonParttition\Medisoft_English28_03_2013_Partition_ALL\MEDISOFT2011.DESKTOP\FileBaseResourceManager.cs:line 22
+
+
+04/06/2013 11:26:10 AM:	Exception 	System.Resources.MissingManifestResourceException
+ExceptionMessage   :	 Could not find any resources appropriate for the specified culture (or the neutral culture) on disk.
+baseName:   locationInfo: <null>  fileName: .resources
+ExceptionSource    :	mscorlib
+ExceptionStackTrace:	    at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetString(String name, CultureInfo culture)
+   at System.Resources.ResourceManager.GetString(String name)
+   at MEDISOFT2011.DESKTOP.FileBaseResourceManager.GetString(String name) in D:\SoftwareMedsonParttition\Medisoft_English28_03_2013_Partition_ALL\MEDISOFT2011.DESKTOP\FileBaseResourceManager.cs:line 22
+
+
+04/06/2013 11:26:11 AM:	Exception 	System.Resources.MissingManifestResourceException
+ExceptionMessage   :	 Could not find any resources appropriate for the specified culture (or the neutral culture) on disk.
+baseName:   locationInfo: <null>  fileName: .resources
+ExceptionSource    :	mscorlib
+ExceptionStackTrace:	    at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetString(String name, CultureInfo culture)
+   at System.Resources.ResourceManager.GetString(String name)
+   at MEDISOFT2011.DESKTOP.FileBaseResourceManager.GetString(String name) in D:\SoftwareMedsonParttition\Medisoft_English28_03_2013_Partition_ALL\MEDISOFT2011.DESKTOP\FileBaseResourceManager.cs:line 22
+
+
+04/06/2013 11:26:11 AM:	Exception 	System.Resources.MissingManifestResourceException
+ExceptionMessage   :	 Could not find any resources appropriate for the specified culture (or the neutral culture) on disk.
+baseName:   locationInfo: <null>  fileName: .resources
+ExceptionSource    :	mscorlib
+ExceptionStackTrace:	    at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetString(String name, CultureInfo culture)
+   at System.Resources.ResourceManager.GetString(String name)
+   at MEDISOFT2011.DESKTOP.FileBaseResourceManager.GetString(String name) in D:\SoftwareMedsonParttition\Medisoft_English28_03_2013_Partition_ALL\MEDISOFT2011.DESKTOP\FileBaseResourceManager.cs:line 22
+
+
+04/06/2013 11:26:11 AM:	Exception 	System.Resources.MissingManifestResourceException
+ExceptionMessage   :	 Could not find any resources appropriate for the specified culture (or the neutral culture) on disk.
+baseName:   locationInfo: <null>  fileName: .resources
+ExceptionSource    :	mscorlib
+ExceptionStackTrace:	    at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetString(String name, CultureInfo culture)
+   at System.Resources.ResourceManager.GetString(String name)
+   at MEDISOFT2011.DESKTOP.FileBaseResourceManager.GetString(String name) in D:\SoftwareMedsonParttition\Medisoft_English28_03_2013_Partition_ALL\MEDISOFT2011.DESKTOP\FileBaseResourceManager.cs:line 22
+
+
+04/06/2013 11:26:12 AM:	Exception 	System.Resources.MissingManifestResourceException
+ExceptionMessage   :	 Could not find any resources appropriate for the specified culture (or the neutral culture) on disk.
+baseName:   locationInfo: <null>  fileName: .resources
+ExceptionSource    :	mscorlib
+ExceptionStackTrace:	    at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetString(String name, CultureInfo culture)
+   at System.Resources.ResourceManager.GetString(String name)
+   at MEDISOFT2011.DESKTOP.FileBaseResourceManager.GetString(String name) in D:\SoftwareMedsonParttition\Medisoft_English28_03_2013_Partition_ALL\MEDISOFT2011.DESKTOP\FileBaseResourceManager.cs:line 22
+
+
+04/06/2013 11:27:53 AM:	Exception 	System.Resources.MissingManifestResourceException
+ExceptionMessage   :	 Could not find any resources appropriate for the specified culture (or the neutral culture) on disk.
+baseName: MEDISOFTDESKTOP_ot  locationInfo: <null>  fileName: MEDISOFTDESKTOP_ot.resources
+ExceptionSource    :	mscorlib
+ExceptionStackTrace:	    at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetString(String name, CultureInfo culture)
+   at System.Resources.ResourceManager.GetString(String name)
+   at MEDISOFT2011.DESKTOP.FileBaseResourceManager.GetString(String name) in D:\SoftwareMedsonParttition\Medisoft_English28_03_2013_Partition_ALL\MEDISOFT2011.DESKTOP\FileBaseResourceManager.cs:line 22
+
+
+04/06/2013 11:27:56 AM:	Exception 	System.Resources.MissingManifestResourceException
+ExceptionMessage   :	 Could not find any resources appropriate for the specified culture (or the neutral culture) on disk.
+baseName: MEDISOFTDESKTOP_ot  locationInfo: <null>  fileName: MEDISOFTDESKTOP_ot.resources
+ExceptionSource    :	mscorlib
+ExceptionStackTrace:	    at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetString(String name, CultureInfo culture)
+   at System.Resources.ResourceManager.GetString(String name)
+   at MEDISOFT2011.DESKTOP.FileBaseResourceManager.GetString(String name) in D:\SoftwareMedsonParttition\Medisoft_English28_03_2013_Partition_ALL\MEDISOFT2011.DESKTOP\FileBaseResourceManager.cs:line 22
+
+
+04/06/2013 11:27:57 AM:	Exception 	System.Resources.MissingManifestResourceException
+ExceptionMessage   :	 Could not find any resources appropriate for the specified culture (or the neutral culture) on disk.
+baseName: MEDISOFTDESKTOP_ot  locationInfo: <null>  fileName: MEDISOFTDESKTOP_ot.resources
+ExceptionSource    :	mscorlib
+ExceptionStackTrace:	    at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetString(String name, CultureInfo culture)
+   at System.Resources.ResourceManager.GetString(String name)
+   at MEDISOFT2011.DESKTOP.FileBaseResourceManager.GetString(String name) in D:\SoftwareMedsonParttition\Medisoft_English28_03_2013_Partition_ALL\MEDISOFT2011.DESKTOP\FileBaseResourceManager.cs:line 22
+
+
+04/06/2013 11:27:57 AM:	Exception 	System.Resources.MissingManifestResourceException
+ExceptionMessage   :	 Could not find any resources appropriate for the specified culture (or the neutral culture) on disk.
+baseName: MEDISOFTDESKTOP_ot  locationInfo: <null>  fileName: MEDISOFTDESKTOP_ot.resources
+ExceptionSource    :	mscorlib
+ExceptionStackTrace:	    at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetString(String name, CultureInfo culture)
+   at System.Resources.ResourceManager.GetString(String name)
+   at MEDISOFT2011.DESKTOP.FileBaseResourceManager.GetString(String name) in D:\SoftwareMedsonParttition\Medisoft_English28_03_2013_Partition_ALL\MEDISOFT2011.DESKTOP\FileBaseResourceManager.cs:line 22
+
+
+04/06/2013 11:27:58 AM:	Exception 	System.Resources.MissingManifestResourceException
+ExceptionMessage   :	 Could not find any resources appropriate for the specified culture (or the neutral culture) on disk.
+baseName: MEDISOFTDESKTOP_ot  locationInfo: <null>  fileName: MEDISOFTDESKTOP_ot.resources
+ExceptionSource    :	mscorlib
+ExceptionStackTrace:	    at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetString(String name, CultureInfo culture)
+   at System.Resources.ResourceManager.GetString(String name)
+   at MEDISOFT2011.DESKTOP.FileBaseResourceManager.GetString(String name) in D:\SoftwareMedsonParttition\Medisoft_English28_03_2013_Partition_ALL\MEDISOFT2011.DESKTOP\FileBaseResourceManager.cs:line 22
+
+
+04/06/2013 11:27:58 AM:	Exception 	System.Resources.MissingManifestResourceException
+ExceptionMessage   :	 Could not find any resources appropriate for the specified culture (or the neutral culture) on disk.
+baseName: MEDISOFTDESKTOP_ot  locationInfo: <null>  fileName: MEDISOFTDESKTOP_ot.resources
+ExceptionSource    :	mscorlib
+ExceptionStackTrace:	    at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetString(String name, CultureInfo culture)
+   at System.Resources.ResourceManager.GetString(String name)
+   at MEDISOFT2011.DESKTOP.FileBaseResourceManager.GetString(String name) in D:\SoftwareMedsonParttition\Medisoft_English28_03_2013_Partition_ALL\MEDISOFT2011.DESKTOP\FileBaseResourceManager.cs:line 22
+
+
+04/06/2013 11:27:59 AM:	Exception 	System.Resources.MissingManifestResourceException
+ExceptionMessage   :	 Could not find any resources appropriate for the specified culture (or the neutral culture) on disk.
+baseName: MEDISOFTDESKTOP_ot  locationInfo: <null>  fileName: MEDISOFTDESKTOP_ot.resources
+ExceptionSource    :	mscorlib
+ExceptionStackTrace:	    at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetString(String name, CultureInfo culture)
+   at System.Resources.ResourceManager.GetString(String name)
+   at MEDISOFT2011.DESKTOP.FileBaseResourceManager.GetString(String name) in D:\SoftwareMedsonParttition\Medisoft_English28_03_2013_Partition_ALL\MEDISOFT2011.DESKTOP\FileBaseResourceManager.cs:line 22
+
+
+04/06/2013 11:27:59 AM:	Exception 	System.Resources.MissingManifestResourceException
+ExceptionMessage   :	 Could not find any resources appropriate for the specified culture (or the neutral culture) on disk.
+baseName: MEDISOFTDESKTOP_ot  locationInfo: <null>  fileName: MEDISOFTDESKTOP_ot.resources
+ExceptionSource    :	mscorlib
+ExceptionStackTrace:	    at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetString(String name, CultureInfo culture)
+   at System.Resources.ResourceManager.GetString(String name)
+   at MEDISOFT2011.DESKTOP.FileBaseResourceManager.GetString(String name) in D:\SoftwareMedsonParttition\Medisoft_English28_03_2013_Partition_ALL\MEDISOFT2011.DESKTOP\FileBaseResourceManager.cs:line 22
+
+
+04/06/2013 11:28:00 AM:	Exception 	System.Resources.MissingManifestResourceException
+ExceptionMessage   :	 Could not find any resources appropriate for the specified culture (or the neutral culture) on disk.
+baseName: MEDISOFTDESKTOP_ot  locationInfo: <null>  fileName: MEDISOFTDESKTOP_ot.resources
+ExceptionSource    :	mscorlib
+ExceptionStackTrace:	    at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetString(String name, CultureInfo culture)
+   at System.Resources.ResourceManager.GetString(String name)
+   at MEDISOFT2011.DESKTOP.FileBaseResourceManager.GetString(String name) in D:\SoftwareMedsonParttition\Medisoft_English28_03_2013_Partition_ALL\MEDISOFT2011.DESKTOP\FileBaseResourceManager.cs:line 22
+
+
+04/06/2013 11:28:00 AM:	Exception 	System.Resources.MissingManifestResourceException
+ExceptionMessage   :	 Could not find any resources appropriate for the specified culture (or the neutral culture) on disk.
+baseName: MEDISOFTDESKTOP_ot  locationInfo: <null>  fileName: MEDISOFTDESKTOP_ot.resources
+ExceptionSource    :	mscorlib
+ExceptionStackTrace:	    at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetString(String name, CultureInfo culture)
+   at System.Resources.ResourceManager.GetString(String name)
+   at MEDISOFT2011.DESKTOP.FileBaseResourceManager.GetString(String name) in D:\SoftwareMedsonParttition\Medisoft_English28_03_2013_Partition_ALL\MEDISOFT2011.DESKTOP\FileBaseResourceManager.cs:line 22
+
+
+04/06/2013 11:28:00 AM:	Exception 	System.Resources.MissingManifestResourceException
+ExceptionMessage   :	 Could not find any resources appropriate for the specified culture (or the neutral culture) on disk.
+baseName: MEDISOFTDESKTOP_ot  locationInfo: <null>  fileName: MEDISOFTDESKTOP_ot.resources
+ExceptionSource    :	mscorlib
+ExceptionStackTrace:	    at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetString(String name, CultureInfo culture)
+   at System.Resources.ResourceManager.GetString(String name)
+   at MEDISOFT2011.DESKTOP.FileBaseResourceManager.GetString(String name) in D:\SoftwareMedsonParttition\Medisoft_English28_03_2013_Partition_ALL\MEDISOFT2011.DESKTOP\FileBaseResourceManager.cs:line 22
+
+
+04/06/2013 11:28:01 AM:	Exception 	System.Resources.MissingManifestResourceException
+ExceptionMessage   :	 Could not find any resources appropriate for the specified culture (or the neutral culture) on disk.
+baseName: MEDISOFTDESKTOP_ot  locationInfo: <null>  fileName: MEDISOFTDESKTOP_ot.resources
+ExceptionSource    :	mscorlib
+ExceptionStackTrace:	    at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetString(String name, CultureInfo culture)
+   at System.Resources.ResourceManager.GetString(String name)
+   at MEDISOFT2011.DESKTOP.FileBaseResourceManager.GetString(String name) in D:\SoftwareMedsonParttition\Medisoft_English28_03_2013_Partition_ALL\MEDISOFT2011.DESKTOP\FileBaseResourceManager.cs:line 22
+
+
+04/06/2013 11:28:01 AM:	Exception 	System.Resources.MissingManifestResourceException
+ExceptionMessage   :	 Could not find any resources appropriate for the specified culture (or the neutral culture) on disk.
+baseName: MEDISOFTDESKTOP_ot  locationInfo: <null>  fileName: MEDISOFTDESKTOP_ot.resources
+ExceptionSource    :	mscorlib
+ExceptionStackTrace:	    at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetString(String name, CultureInfo culture)
+   at System.Resources.ResourceManager.GetString(String name)
+   at MEDISOFT2011.DESKTOP.FileBaseResourceManager.GetString(String name) in D:\SoftwareMedsonParttition\Medisoft_English28_03_2013_Partition_ALL\MEDISOFT2011.DESKTOP\FileBaseResourceManager.cs:line 22
+
+
+04/06/2013 11:28:02 AM:	Exception 	System.Resources.MissingManifestResourceException
+ExceptionMessage   :	 Could not find any resources appropriate for the specified culture (or the neutral culture) on disk.
+baseName: MEDISOFTDESKTOP_ot  locationInfo: <null>  fileName: MEDISOFTDESKTOP_ot.resources
+ExceptionSource    :	mscorlib
+ExceptionStackTrace:	    at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetString(String name, CultureInfo culture)
+   at System.Resources.ResourceManager.GetString(String name)
+   at MEDISOFT2011.DESKTOP.FileBaseResourceManager.GetString(String name) in D:\SoftwareMedsonParttition\Medisoft_English28_03_2013_Partition_ALL\MEDISOFT2011.DESKTOP\FileBaseResourceManager.cs:line 22
+
+
+04/06/2013 11:28:02 AM:	Exception 	System.Resources.MissingManifestResourceException
+ExceptionMessage   :	 Could not find any resources appropriate for the specified culture (or the neutral culture) on disk.
+baseName: MEDISOFTDESKTOP_ot  locationInfo: <null>  fileName: MEDISOFTDESKTOP_ot.resources
+ExceptionSource    :	mscorlib
+ExceptionStackTrace:	    at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetString(String name, CultureInfo culture)
+   at System.Resources.ResourceManager.GetString(String name)
+   at MEDISOFT2011.DESKTOP.FileBaseResourceManager.GetString(String name) in D:\SoftwareMedsonParttition\Medisoft_English28_03_2013_Partition_ALL\MEDISOFT2011.DESKTOP\FileBaseResourceManager.cs:line 22
+
+
+04/06/2013 11:28:03 AM:	Exception 	System.Resources.MissingManifestResourceException
+ExceptionMessage   :	 Could not find any resources appropriate for the specified culture (or the neutral culture) on disk.
+baseName: MEDISOFTDESKTOP_ot  locationInfo: <null>  fileName: MEDISOFTDESKTOP_ot.resources
+ExceptionSource    :	mscorlib
+ExceptionStackTrace:	    at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetString(String name, CultureInfo culture)
+   at System.Resources.ResourceManager.GetString(String name)
+   at MEDISOFT2011.DESKTOP.FileBaseResourceManager.GetString(String name) in D:\SoftwareMedsonParttition\Medisoft_English28_03_2013_Partition_ALL\MEDISOFT2011.DESKTOP\FileBaseResourceManager.cs:line 22
+
+
+04/06/2013 11:28:04 AM:	Exception 	System.Resources.MissingManifestResourceException
+ExceptionMessage   :	 Could not find any resources appropriate for the specified culture (or the neutral culture) on disk.
+baseName: MEDISOFTDESKTOP_ot  locationInfo: <null>  fileName: MEDISOFTDESKTOP_ot.resources
+ExceptionSource    :	mscorlib
+ExceptionStackTrace:	    at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetString(String name, CultureInfo culture)
+   at System.Resources.ResourceManager.GetString(String name)
+   at MEDISOFT2011.DESKTOP.FileBaseResourceManager.GetString(String name) in D:\SoftwareMedsonParttition\Medisoft_English28_03_2013_Partition_ALL\MEDISOFT2011.DESKTOP\FileBaseResourceManager.cs:line 22
+
+

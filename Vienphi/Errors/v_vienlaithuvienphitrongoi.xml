@@ -1,0 +1,95 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="BienLaiTamUng">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="syt" type="xs:string" minOccurs="0" />
+                <xs:element name="bv" type="xs:string" minOccurs="0" />
+                <xs:element name="diachibv" type="xs:string" minOccurs="0" />
+                <xs:element name="tongcucthue" type="xs:string" minOccurs="0" />
+                <xs:element name="cucthue" type="xs:string" minOccurs="0" />
+                <xs:element name="masothue" type="xs:string" minOccurs="0" />
+                <xs:element name="mauso" type="xs:string" minOccurs="0" />
+                <xs:element name="quyenso" type="xs:string" minOccurs="0" />
+                <xs:element name="sobienlai" type="xs:string" minOccurs="0" />
+                <xs:element name="ngayin" type="xs:string" minOccurs="0" />
+                <xs:element name="nguoiin" type="xs:string" minOccurs="0" />
+                <xs:element name="ghichu" type="xs:string" minOccurs="0" />
+                <xs:element name="sovaovien" type="xs:string" minOccurs="0" />
+                <xs:element name="lien" type="xs:string" minOccurs="0" />
+                <xs:element name="mabn" type="xs:string" minOccurs="0" />
+                <xs:element name="hoten" type="xs:string" minOccurs="0" />
+                <xs:element name="ngaysinh" type="xs:string" minOccurs="0" />
+                <xs:element name="gioitinh" type="xs:string" minOccurs="0" />
+                <xs:element name="khoa" type="xs:string" minOccurs="0" />
+                <xs:element name="diachi" type="xs:string" minOccurs="0" />
+                <xs:element name="lydo" type="xs:string" minOccurs="0" />
+                <xs:element name="sotien" type="xs:string" minOccurs="0" />
+                <xs:element name="chutien" type="xs:string" minOccurs="0" />
+                <xs:element name="nguoithu" type="xs:string" minOccurs="0" />
+                <xs:element name="diengiai" type="xs:string" minOccurs="0" />
+                <xs:element name="tamung" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <BienLaiTamUng>
+    <syt>Sở Y Tế TP. Hồ Chí Minh</syt>
+    <bv>Trung Tâm Y Khoa Medic</bv>
+    <diachibv />
+    <tongcucthue>&lt;TỔNG CỤC THUẾ&gt;</tongcucthue>
+    <cucthue>&lt;CỤC THUẾ&gt;</cucthue>
+    <masothue />
+    <mauso />
+    <quyenso>TRAN0111/2006</quyenso>
+    <sobienlai>139</sobienlai>
+    <ngayin>04/12/2006</ngayin>
+    <nguoiin>Trần Văn Bánh</nguoiin>
+    <ghichu>(In lần 2)</ghichu>
+    <lien>Liên 1: Giao cho bệnh nhân</lien>
+    <mabn>06000002</mabn>
+    <hoten>TEST</hoten>
+    <ngaysinh>1985</ngaysinh>
+    <gioitinh>Nam</gioitinh>
+    <khoa>Không Khám</khoa>
+    <diachi>P. Đa Kao, Q. 1, Tp. Hồ Chí Minh</diachi>
+    <lydo>Chụp Nhũ Ảnh -M4 (Mammography)</lydo>
+    <sotien>1000000.000000</sotien>
+    <nguoithu>Trần Văn Bánh</nguoithu>
+    <diengiai>Ghi chú: - Tổng chi phí: 1,450,000đ - Miễn: 450,000đ - Tạm ứng: 500,000đ</diengiai>
+    <tamung>500000</tamung>
+  </BienLaiTamUng>
+  <BienLaiTamUng>
+    <syt>Sở Y Tế TP. Hồ Chí Minh</syt>
+    <bv>Trung Tâm Y Khoa Medic</bv>
+    <diachibv />
+    <tongcucthue>&lt;TỔNG CỤC THUẾ&gt;</tongcucthue>
+    <cucthue>&lt;CỤC THUẾ&gt;</cucthue>
+    <masothue />
+    <mauso />
+    <quyenso>TRAN0111/2006</quyenso>
+    <sobienlai>139</sobienlai>
+    <ngayin>04/12/2006</ngayin>
+    <nguoiin>Trần Văn Bánh</nguoiin>
+    <ghichu>(In lần 2)</ghichu>
+    <lien>Liên 2: Lưu</lien>
+    <mabn>06000002</mabn>
+    <hoten>TEST</hoten>
+    <ngaysinh>1985</ngaysinh>
+    <gioitinh>Nam</gioitinh>
+    <khoa>Không Khám</khoa>
+    <diachi>P. Đa Kao, Q. 1, Tp. Hồ Chí Minh</diachi>
+    <lydo>Chụp Nhũ Ảnh -M4 (Mammography)</lydo>
+    <sotien>1000000.000000</sotien>
+    <nguoithu>Trần Văn Bánh</nguoithu>
+    <diengiai>Ghi chú: - Tổng chi phí: 1,450,000đ - Miễn: 450,000đ - Tạm ứng: 500,000đ</diengiai>
+    <tamung>500000</tamung>
+  </BienLaiTamUng>
+</NewDataSet>

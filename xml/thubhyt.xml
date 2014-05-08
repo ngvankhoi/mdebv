@@ -1,0 +1,35 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="thubhyt">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="user" type="xs:string" minOccurs="0" />
+                <xs:element name="khoa" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <thubhyt>
+    <user>all</user>
+    <khoa>(Tất cả)</khoa>
+  </thubhyt>
+  <thubhyt>
+    <user>oanh</user>
+    <khoa>Phòng khám TT</khoa>
+  </thubhyt>
+  <thubhyt>
+    <user>khoanoi</user>
+    <khoa>Nội tổng hợp</khoa>
+  </thubhyt>
+  <thubhyt>
+    <user>khoasan</user>
+    <khoa>Sản</khoa>
+  </thubhyt>
+</NewDataSet>

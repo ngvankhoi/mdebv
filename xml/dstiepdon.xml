@@ -1,0 +1,440 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="MABN" type="xs:string" minOccurs="0" />
+                <xs:element name="HOTEN" type="xs:string" minOccurs="0" />
+                <xs:element name="TUOI" type="xs:string" minOccurs="0" />
+                <xs:element name="NAMSINH" type="xs:string" minOccurs="0" />
+                <xs:element name="SONHA" type="xs:string" minOccurs="0" />
+                <xs:element name="THON" type="xs:string" minOccurs="0" />
+                <xs:element name="TENPXA" type="xs:string" minOccurs="0" />
+                <xs:element name="TENQUAN" type="xs:string" minOccurs="0" />
+                <xs:element name="TENTT" type="xs:string" minOccurs="0" />
+                <xs:element name="TENNN" type="xs:string" minOccurs="0" />
+                <xs:element name="NGAY" type="xs:string" minOccurs="0" />
+                <xs:element name="TENKP" type="xs:string" minOccurs="0" />
+                <xs:element name="DOITUONG" type="xs:string" minOccurs="0" />
+                <xs:element name="SOVAOVIEN" type="xs:string" minOccurs="0" />
+                <xs:element name="SOTHE" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <MABN>31101470</MABN>
+    <HOTEN>VÕ THỊ PHƯƠNG THẢO</HOTEN>
+    <TUOI>043TU</TUOI>
+    <NAMSINH>1962</NAMSINH>
+    <SONHA> </SONHA>
+    <THON> </THON>
+    <TENPXA>Không xác định</TENPXA>
+    <TENQUAN>Không xác định</TENQUAN>
+    <TENTT>Hồ Chí Minh</TENTT>
+    <TENNN>Công Nhân Viên</TENNN>
+    <NGAY>02/06/2005 14:26</NGAY>
+    <TENKP>Phòng Khám Nội 03</TENKP>
+    <DOITUONG>BHYT</DOITUONG>
+    <SOVAOVIEN>24</SOVAOVIEN>
+    <SOTHE>0502AA0CDU000044</SOTHE>
+  </Table>
+  <Table>
+    <MABN>31202030</MABN>
+    <HOTEN>PHẠM THỊ NGUYỆT</HOTEN>
+    <TUOI>045TU</TUOI>
+    <NAMSINH>1960</NAMSINH>
+    <SONHA> </SONHA>
+    <THON>84/10 Lê Quang Định ,f14,bt</THON>
+    <TENPXA>Phường 14</TENPXA>
+    <TENQUAN>Quận Bình Thạnh</TENQUAN>
+    <TENTT>Hồ Chí Minh</TENTT>
+    <TENNN>Công Nhân Viên</TENNN>
+    <NGAY>02/06/2005 15:16</NGAY>
+    <TENKP>Phòng Khám Nội 03</TENKP>
+    <DOITUONG>BHYT</DOITUONG>
+    <SOVAOVIEN>25</SOVAOVIEN>
+    <SOTHE>0502DB0FOF000410</SOTHE>
+  </Table>
+  <Table>
+    <MABN>40202187</MABN>
+    <HOTEN>NGUYỄN THUÝ HUỆ</HOTEN>
+    <TUOI>059TU</TUOI>
+    <NAMSINH>1946</NAMSINH>
+    <SONHA> </SONHA>
+    <THON>4 Thi Sách</THON>
+    <TENPXA>Phường Bến Nghé</TENPXA>
+    <TENQUAN>Quận 1</TENQUAN>
+    <TENTT>Hồ Chí Minh</TENTT>
+    <TENNN>Khác</TENNN>
+    <NGAY>03/06/2005 09:28</NGAY>
+    <TENKP>Phòng Khám Nội 03</TENKP>
+    <DOITUONG>BHYT</DOITUONG>
+    <SOVAOVIEN>108</SOVAOVIEN>
+    <SOTHE>0502IA0010301948</SOTHE>
+  </Table>
+  <Table>
+    <MABN>41101398</MABN>
+    <HOTEN>ĐỖ HUY CẬN</HOTEN>
+    <TUOI>021TU</TUOI>
+    <NAMSINH>1984</NAMSINH>
+    <SONHA> </SONHA>
+    <THON>Dh Khxh Và Nv</THON>
+    <TENPXA>Không xác định</TENPXA>
+    <TENQUAN>Không xác định</TENQUAN>
+    <TENTT>Hồ Chí Minh</TENTT>
+    <TENNN>Sinh Viên - Học Sinh</TENNN>
+    <NGAY>03/06/2005 10:11</NGAY>
+    <TENKP>Phòng Khám Nội 03</TENKP>
+    <DOITUONG>BHYT</DOITUONG>
+    <SOVAOVIEN>130</SOVAOVIEN>
+    <SOTHE>0402SS0WOA000088</SOTHE>
+  </Table>
+  <Table>
+    <MABN>05031342</MABN>
+    <HOTEN>NGUYỄN THỊ NGỌC NGÀ</HOTEN>
+    <TUOI>018TU</TUOI>
+    <NAMSINH>1987</NAMSINH>
+    <SONHA>70</SONHA>
+    <THON>Cao Thắng </THON>
+    <TENPXA>Phường 17</TENPXA>
+    <TENQUAN>Quận Phú Nhuận</TENQUAN>
+    <TENTT>Hồ Chí Minh</TENTT>
+    <TENNN>Khác</TENNN>
+    <NGAY>01/06/2005 07:47</NGAY>
+    <TENKP>Phòng Khám Nội 03</TENKP>
+    <DOITUONG>Thu phí</DOITUONG>
+    <SOVAOVIEN>35</SOVAOVIEN>
+    <SOTHE> </SOTHE>
+  </Table>
+  <Table>
+    <MABN>05031359</MABN>
+    <HOTEN>NGUYỄN THỊ THẠO</HOTEN>
+    <TUOI>035TU</TUOI>
+    <NAMSINH>1970</NAMSINH>
+    <SONHA>59</SONHA>
+    <THON>Mạc Đỉnh Chi </THON>
+    <TENPXA>Phường Đa Kao</TENPXA>
+    <TENQUAN>Quận 1</TENQUAN>
+    <TENTT>Hồ Chí Minh</TENTT>
+    <TENNN>Khác</TENNN>
+    <NGAY>01/06/2005 08:22</NGAY>
+    <TENKP>Phòng Khám Nội 03</TENKP>
+    <DOITUONG>Thu phí</DOITUONG>
+    <SOVAOVIEN>61</SOVAOVIEN>
+    <SOTHE> </SOTHE>
+  </Table>
+  <Table>
+    <MABN>05031124</MABN>
+    <HOTEN>PHAN THỊ HUỆ</HOTEN>
+    <TUOI>055TU</TUOI>
+    <NAMSINH>1950</NAMSINH>
+    <SONHA>46/2/2</SONHA>
+    <THON>Thạch Thị Thanh </THON>
+    <TENPXA>Phường Tân Định</TENPXA>
+    <TENQUAN>Quận 1</TENQUAN>
+    <TENTT>Hồ Chí Minh</TENTT>
+    <TENNN>Khác</TENNN>
+    <NGAY>01/06/2005 08:25</NGAY>
+    <TENKP>Phòng Khám Nội 03</TENKP>
+    <DOITUONG>Thu phí</DOITUONG>
+    <SOVAOVIEN>1</SOVAOVIEN>
+    <SOTHE> </SOTHE>
+  </Table>
+  <Table>
+    <MABN>05031372</MABN>
+    <HOTEN>LÊ THỊ THUỲ TRANG</HOTEN>
+    <TUOI>023TU</TUOI>
+    <NAMSINH>1982</NAMSINH>
+    <SONHA>15</SONHA>
+    <THON>Phan Đình Phùng </THON>
+    <TENPXA>Phường 17</TENPXA>
+    <TENQUAN>Quận Phú Nhuận</TENQUAN>
+    <TENTT>Hồ Chí Minh</TENTT>
+    <TENNN>Khác</TENNN>
+    <NGAY>01/06/2005 08:37</NGAY>
+    <TENKP>Phòng Khám Nội 03</TENKP>
+    <DOITUONG>Thu phí</DOITUONG>
+    <SOVAOVIEN>75</SOVAOVIEN>
+    <SOTHE> </SOTHE>
+  </Table>
+  <Table>
+    <MABN>30802403</MABN>
+    <HOTEN>THÁI MUỘI</HOTEN>
+    <TUOI>065TU</TUOI>
+    <NAMSINH>1940</NAMSINH>
+    <SONHA> </SONHA>
+    <THON>34 Hai Bà Trưng</THON>
+    <TENPXA>Phường 8</TENPXA>
+    <TENQUAN>Quận 3</TENQUAN>
+    <TENTT>Hồ Chí Minh</TENTT>
+    <TENNN>Già Trên 60 Tuổi</TENNN>
+    <NGAY>01/06/2005 08:54</NGAY>
+    <TENKP>Phòng Khám Nội 03</TENKP>
+    <DOITUONG>Thu phí</DOITUONG>
+    <SOVAOVIEN>91</SOVAOVIEN>
+    <SOTHE> </SOTHE>
+  </Table>
+  <Table>
+    <MABN>05031412</MABN>
+    <HOTEN>NGUYỄN NHẬT PHƯƠNG QUỲNH</HOTEN>
+    <TUOI>007TU</TUOI>
+    <NAMSINH>1998</NAMSINH>
+    <SONHA>694/3a</SONHA>
+    <THON>Nguyễn Kiệm </THON>
+    <TENPXA>Phường 4</TENPXA>
+    <TENQUAN>Quận Phú Nhuận</TENQUAN>
+    <TENTT>Hồ Chí Minh</TENTT>
+    <TENNN>Trẻ Dưới 15 Tuổi</TENNN>
+    <NGAY>01/06/2005 08:59</NGAY>
+    <TENKP>Phòng Khám Nội 03</TENKP>
+    <DOITUONG>Thu phí</DOITUONG>
+    <SOVAOVIEN>95</SOVAOVIEN>
+    <SOTHE> </SOTHE>
+  </Table>
+  <Table>
+    <MABN>05031942</MABN>
+    <HOTEN>ĐẶNG THỊ HUỆ</HOTEN>
+    <TUOI>029TU</TUOI>
+    <NAMSINH>1976</NAMSINH>
+    <SONHA>23/31</SONHA>
+    <THON>Đinh Tiên Hoàng </THON>
+    <TENPXA>Phường 3</TENPXA>
+    <TENQUAN>Quận Bình Thạnh</TENQUAN>
+    <TENTT>Hồ Chí Minh</TENTT>
+    <TENNN>Khác</TENNN>
+    <NGAY>03/06/2005 09:59</NGAY>
+    <TENKP>Phòng Khám Nội 03</TENKP>
+    <DOITUONG>Thu phí</DOITUONG>
+    <SOVAOVIEN>129</SOVAOVIEN>
+    <SOTHE> </SOTHE>
+  </Table>
+  <Table>
+    <MABN>05031916</MABN>
+    <HOTEN>LÝ MAI</HOTEN>
+    <TUOI>060TU</TUOI>
+    <NAMSINH>1945</NAMSINH>
+    <SONHA>2/16</SONHA>
+    <THON>Cô Giang </THON>
+    <TENPXA>Phường 2</TENPXA>
+    <TENQUAN>Quận Phú Nhuận</TENQUAN>
+    <TENTT>Hồ Chí Minh</TENTT>
+    <TENNN>Khác</TENNN>
+    <NGAY>03/06/2005 09:25</NGAY>
+    <TENKP>Phòng Khám Nội 03</TENKP>
+    <DOITUONG>Thu phí</DOITUONG>
+    <SOVAOVIEN>107</SOVAOVIEN>
+    <SOTHE> </SOTHE>
+  </Table>
+  <Table>
+    <MABN>05010109</MABN>
+    <HOTEN>NGUYỄN THÀNH AN</HOTEN>
+    <TUOI>063TU</TUOI>
+    <NAMSINH>1942</NAMSINH>
+    <SONHA>b18</SONHA>
+    <THON>Lý Văn Phức </THON>
+    <TENPXA>Phường Tân Định</TENPXA>
+    <TENQUAN>Quận 1</TENQUAN>
+    <TENTT>Hồ Chí Minh</TENTT>
+    <TENNN>Khác</TENNN>
+    <NGAY>03/06/2005 09:05</NGAY>
+    <TENKP>Phòng Khám Nội 03</TENKP>
+    <DOITUONG>Thu phí</DOITUONG>
+    <SOVAOVIEN>1</SOVAOVIEN>
+    <SOTHE> </SOTHE>
+  </Table>
+  <Table>
+    <MABN>40607311</MABN>
+    <HOTEN>HOÀNG THỊ TOÀN</HOTEN>
+    <TUOI>038TU</TUOI>
+    <NAMSINH>1967</NAMSINH>
+    <SONHA> </SONHA>
+    <THON>144/4a Điện Biên Phủ Qb T</THON>
+    <TENPXA>Phường 25</TENPXA>
+    <TENQUAN>Quận Bình Thạnh</TENQUAN>
+    <TENTT>Hồ Chí Minh</TENTT>
+    <TENNN>Khác</TENNN>
+    <NGAY>03/06/2005 09:00</NGAY>
+    <TENKP>Phòng Khám Nội 03</TENKP>
+    <DOITUONG>Thu phí</DOITUONG>
+    <SOVAOVIEN>89</SOVAOVIEN>
+    <SOTHE> </SOTHE>
+  </Table>
+  <Table>
+    <MABN>31100008</MABN>
+    <HOTEN>ĐÀO THỊ BA</HOTEN>
+    <TUOI>074TU</TUOI>
+    <NAMSINH>1931</NAMSINH>
+    <SONHA> </SONHA>
+    <THON>28/38 Mã Lộ </THON>
+    <TENPXA>Phường Tân Định</TENPXA>
+    <TENQUAN>Quận 1</TENQUAN>
+    <TENTT>Hồ Chí Minh</TENTT>
+    <TENNN>Già Trên 60 Tuổi</TENNN>
+    <NGAY>03/06/2005 08:55</NGAY>
+    <TENKP>Phòng Khám Nội 03</TENKP>
+    <DOITUONG>Thu phí</DOITUONG>
+    <SOVAOVIEN>61</SOVAOVIEN>
+    <SOTHE> </SOTHE>
+  </Table>
+  <Table>
+    <MABN>05031882</MABN>
+    <HOTEN>LÊ THỊ MỘNG LINH</HOTEN>
+    <TUOI>026TU</TUOI>
+    <NAMSINH>1979</NAMSINH>
+    <SONHA>32/3</SONHA>
+    <THON>Lý Chính Thắng </THON>
+    <TENPXA>Phường 8</TENPXA>
+    <TENQUAN>Quận 3</TENQUAN>
+    <TENTT>Hồ Chí Minh</TENTT>
+    <TENNN>Khác</TENNN>
+    <NGAY>03/06/2005 08:46</NGAY>
+    <TENKP>Phòng Khám Nội 03</TENKP>
+    <DOITUONG>Thu phí</DOITUONG>
+    <SOVAOVIEN>79</SOVAOVIEN>
+    <SOTHE> </SOTHE>
+  </Table>
+  <Table>
+    <MABN>30800215</MABN>
+    <HOTEN>NGUYỄN KIM TUYẾN</HOTEN>
+    <TUOI>067TU</TUOI>
+    <NAMSINH>1938</NAMSINH>
+    <SONHA> </SONHA>
+    <THON>66 Điện Biên Phủ </THON>
+    <TENPXA>Phường Đa Kao</TENPXA>
+    <TENQUAN>Quận 1</TENQUAN>
+    <TENTT>Hồ Chí Minh</TENTT>
+    <TENNN>Già Trên 60 Tuổi</TENNN>
+    <NGAY>03/06/2005 08:43</NGAY>
+    <TENKP>Phòng Khám Nội 03</TENKP>
+    <DOITUONG>Thu phí</DOITUONG>
+    <SOVAOVIEN>75</SOVAOVIEN>
+    <SOTHE> </SOTHE>
+  </Table>
+  <Table>
+    <MABN>05031865</MABN>
+    <HOTEN>LÝ TRƯƠNG THANH TÂM</HOTEN>
+    <TUOI>057TU</TUOI>
+    <NAMSINH>1948</NAMSINH>
+    <SONHA>12s</SONHA>
+    <THON>Nguyễn Thị Minh Khai </THON>
+    <TENPXA>Phường Đa Kao</TENPXA>
+    <TENQUAN>Quận 1</TENQUAN>
+    <TENTT>Hồ Chí Minh</TENTT>
+    <TENNN>Khác</TENNN>
+    <NGAY>03/06/2005 08:27</NGAY>
+    <TENKP>Phòng Khám Nội 03</TENKP>
+    <DOITUONG>Thu phí</DOITUONG>
+    <SOVAOVIEN>55</SOVAOVIEN>
+    <SOTHE> </SOTHE>
+  </Table>
+  <Table>
+    <MABN>40200113</MABN>
+    <HOTEN>TRẦN THỊ NGÂN</HOTEN>
+    <TUOI>075TU</TUOI>
+    <NAMSINH>1930</NAMSINH>
+    <SONHA> </SONHA>
+    <THON>215 Lô G Cc Nguyễn Thiện Thuật</THON>
+    <TENPXA>Phường 1</TENPXA>
+    <TENQUAN>Quận 3</TENQUAN>
+    <TENTT>Hồ Chí Minh</TENTT>
+    <TENNN>Già Trên 60 Tuổi</TENNN>
+    <NGAY>01/06/2005 09:47</NGAY>
+    <TENKP>Phòng Khám Nội 03</TENKP>
+    <DOITUONG>Thu phí</DOITUONG>
+    <SOVAOVIEN>147</SOVAOVIEN>
+    <SOTHE> </SOTHE>
+  </Table>
+  <Table>
+    <MABN>05031490</MABN>
+    <HOTEN>TRẦN THỊ  MAI LAN</HOTEN>
+    <TUOI>028TU</TUOI>
+    <NAMSINH>1977</NAMSINH>
+    <SONHA> </SONHA>
+    <THON> </THON>
+    <TENPXA>Phường Tân Định</TENPXA>
+    <TENQUAN>Quận 1</TENQUAN>
+    <TENTT>Hồ Chí Minh</TENTT>
+    <TENNN>Sinh Viên - Học Sinh</TENNN>
+    <NGAY>01/06/2005 11:13</NGAY>
+    <TENKP>Phòng Khám Nội 03</TENKP>
+    <DOITUONG>Thu phí</DOITUONG>
+    <SOVAOVIEN>148</SOVAOVIEN>
+    <SOTHE> </SOTHE>
+  </Table>
+  <Table>
+    <MABN>05031524</MABN>
+    <HOTEN>TRƯƠNG THỊ XỤÂN</HOTEN>
+    <TUOI>069TU</TUOI>
+    <NAMSINH>1936</NAMSINH>
+    <SONHA>25/5</SONHA>
+    <THON>Trần Khắc Chân </THON>
+    <TENPXA>Phường Tân Định</TENPXA>
+    <TENQUAN>Quận 1</TENQUAN>
+    <TENTT>Hồ Chí Minh</TENTT>
+    <TENNN>Khác</TENNN>
+    <NGAY>01/06/2005 14:31</NGAY>
+    <TENKP>Phòng Khám Nội 03</TENKP>
+    <DOITUONG>Thu phí</DOITUONG>
+    <SOVAOVIEN>199</SOVAOVIEN>
+    <SOTHE> </SOTHE>
+  </Table>
+  <Table>
+    <MABN>05031579</MABN>
+    <HOTEN>DANH THỊ MINH UYÊN</HOTEN>
+    <TUOI>036TU</TUOI>
+    <NAMSINH>1969</NAMSINH>
+    <SONHA>66/92</SONHA>
+    <THON>Xô Viết Nghệ Tĩnh </THON>
+    <TENPXA>Phường 21</TENPXA>
+    <TENQUAN>Quận Bình Thạnh</TENQUAN>
+    <TENTT>Hồ Chí Minh</TENTT>
+    <TENNN>Khác</TENNN>
+    <NGAY>02/06/2005 07:08</NGAY>
+    <TENKP>Phòng Khám Nội 03</TENKP>
+    <DOITUONG>Thu phí</DOITUONG>
+    <SOVAOVIEN>5</SOVAOVIEN>
+    <SOTHE> </SOTHE>
+  </Table>
+  <Table>
+    <MABN>05031588</MABN>
+    <HOTEN>VÕ THỊ CƯỞNG</HOTEN>
+    <TUOI>057TU</TUOI>
+    <NAMSINH>1948</NAMSINH>
+    <SONHA>6c-12a</SONHA>
+    <THON>Phan Xích Long </THON>
+    <TENPXA>Phường 2</TENPXA>
+    <TENQUAN>Quận Phú Nhuận</TENQUAN>
+    <TENTT>Hồ Chí Minh</TENTT>
+    <TENNN>Khác</TENNN>
+    <NGAY>02/06/2005 07:30</NGAY>
+    <TENKP>Phòng Khám Nội 03</TENKP>
+    <DOITUONG>Thu phí</DOITUONG>
+    <SOVAOVIEN>23</SOVAOVIEN>
+    <SOTHE> </SOTHE>
+  </Table>
+  <Table>
+    <MABN>41209393</MABN>
+    <HOTEN>BÙI THỊ NĂNG</HOTEN>
+    <TUOI>061TU</TUOI>
+    <NAMSINH>1944</NAMSINH>
+    <SONHA> </SONHA>
+    <THON> </THON>
+    <TENPXA>Phường 2</TENPXA>
+    <TENQUAN>Quận Phú Nhuận</TENQUAN>
+    <TENTT>Hồ Chí Minh</TENTT>
+    <TENNN>Khác</TENNN>
+    <NGAY>02/06/2005 08:00</NGAY>
+    <TENKP>Phòng Khám Nội 03</TENKP>
+    <DOITUONG>Thu phí</DOITUONG>
+    <SOVAOVIEN>1</SOVAOVIEN>
+    <SOTHE> </SOTHE>
+  </Table>
+</NewDataSet>
