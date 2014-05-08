@@ -385,7 +385,9 @@ namespace Medisoft
 			}
 			if (load) dataGrid1.DataSource=ds.Tables[0];
 		}
-
+        /// <summary>
+        /// 
+        /// </summary>
 		private void load_ngay()
 		{
 			cmbNgay.DataSource=m.get_data("select ID,to_char(ngay,'dd/mm/yyyy') as NGAY from "+m.user+".kh_bieu_133 group by id,ngay order by ngay").Tables[0];
