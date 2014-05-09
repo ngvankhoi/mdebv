@@ -471,7 +471,7 @@ namespace Medisoft
 				s_tu1=s_tu;
 				if (m.bCongdon) s_tu=s_tu2;
 				j=ky.SelectedIndex+1;
-				string dir=System.IO.Directory.GetCurrentDirectory()+"//temp";
+				string dir=System.IO.Directory.GetCurrentDirectory()+"\\temp";
 				string exp=dir+"//"+ky.Text.Substring(0,2)+nam.Value.ToString();
 				string sql="";
 				string filexuat=dir+"//"+m.Mabv_so.ToString()+j.ToString()+nam.Value.ToString()+".ZIP";

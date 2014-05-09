@@ -15,6 +15,7 @@ using NpgsqlTypes;
 using System.Runtime.InteropServices;
 using System.IO;
 using SCreenReader;
+using System.Collections.Generic;
 
 namespace LibMedi
 {
@@ -33467,9 +33468,24 @@ namespace LibMedi
             }
             return tmp;
         }
-
+        public List<string> get_listSchemaName()
+        {
+            List<string> rs = new List<string>();
+            using(Npgsql.NpgsqlCommand comm = new NpgsqlCommand("select schema_name from information_schema.schemata",new NpgsqlConnection(this.ConStr)))
+            {
+                comm.Connection.Open();
+                NpgsqlDataReader drd = comm.ExecuteReader();
+                while (drd.Read())
+                {
+                    rs.Add(drd[0].ToString());
+                }
+                comm.Connection.Close();
+            }
+            return rs;
+        }
         public DataSet get_data_mmyy(string str, string tu, string den, bool khoangcach)
         {
+            
             DataSet tmp = new DataSet();
             d = new LibDuoc.AccessData();
             DateTime dt1 = (khoangcach) ? StringToDate(tu).AddDays(-d.iNgaykiemke) : StringToDate(tu);
@@ -33479,6 +33495,7 @@ namespace LibMedi
             int itu, iden;
             string mmyy = "";
             bool be = true;
+            List<string> danhsachshema = get_listSchemaName();
             for (int i = y1; i <= y2; i++)
             {
                 itu = (i == y1) ? m1 : 1;
