@@ -1,0 +1,100 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ma" type="xs:decimal" minOccurs="0" />
+                <xs:element name="c01" type="xs:decimal" minOccurs="0" />
+                <xs:element name="c02" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <ma>1</ma>
+    <c01>69228</c01>
+    <c02>56088</c02>
+  </Table>
+  <Table>
+    <ma>2</ma>
+    <c01>19581</c01>
+    <c02>18603</c02>
+  </Table>
+  <Table>
+    <ma>3</ma>
+    <c01>37962</c01>
+    <c02>27406</c02>
+  </Table>
+  <Table>
+    <ma>4</ma>
+    <c01>1062</c01>
+    <c02>816</c02>
+  </Table>
+  <Table>
+    <ma>5</ma>
+    <c01>2437</c01>
+    <c02>2348</c02>
+  </Table>
+  <Table>
+    <ma>6</ma>
+    <c01>8186</c01>
+    <c02>6915</c02>
+  </Table>
+  <Table>
+    <ma>8</ma>
+    <c01>18913</c01>
+    <c02>9933</c02>
+  </Table>
+  <Table>
+    <ma>10</ma>
+    <c01>11781</c01>
+    <c02>7016</c02>
+  </Table>
+  <Table>
+    <ma>11</ma>
+    <c01>5496</c01>
+    <c02>1970</c02>
+  </Table>
+  <Table>
+    <ma>12</ma>
+    <c01>1636</c01>
+    <c02>947</c02>
+  </Table>
+  <Table>
+    <ma>16</ma>
+    <c01>1930</c01>
+    <c02>580</c02>
+  </Table>
+  <Table>
+    <ma>17</ma>
+    <c01>1388</c01>
+    <c02>320</c02>
+  </Table>
+  <Table>
+    <ma>18</ma>
+    <c01>8</c01>
+    <c02>1</c02>
+  </Table>
+  <Table>
+    <ma>19</ma>
+    <c01>534</c01>
+    <c02>259</c02>
+  </Table>
+  <Table>
+    <ma>22</ma>
+    <c01>160620</c01>
+    <c02>140150</c02>
+  </Table>
+  <Table>
+    <ma>23</ma>
+    <c01>160620</c01>
+    <c02>140150</c02>
+  </Table>
+</NewDataSet>

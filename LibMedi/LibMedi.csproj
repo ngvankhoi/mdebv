@@ -85,17 +85,20 @@
     </Reference>
     <Reference Include="LibLicense, Version=1.0.2729.19536, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\lib_chung\LibLicense.dll</HintPath>
+      <HintPath>..\..\DLL chung\LibLicense.dll</HintPath>
     </Reference>
     <Reference Include="LibVienphi, Version=1.0.4531.31615, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\LibVienphi\bin\Debug\LibVienphi.dll</HintPath>
     </Reference>
     <Reference Include="Medisoft2009.License, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
-    <Reference Include="Medisoft2009.MACAddress, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="Medisoft2009.MACAddress, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\DLL chung\Medisoft2009.MACAddress.dll</HintPath>
+    </Reference>
     <Reference Include="Npgsql, Version=0.7.0.0, Culture=neutral, PublicKeyToken=5d8b90d52f46fda7">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\lib_chung\Npgsql.dll</HintPath>
+      <HintPath>..\..\DLL chung\Npgsql.dll</HintPath>
     </Reference>
     <Reference Include="System">
       <Name>System</Name>

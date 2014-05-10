@@ -1,0 +1,95 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ma" type="xs:decimal" minOccurs="0" />
+                <xs:element name="soluong" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <ma>1</ma>
+    <soluong>813</soluong>
+  </Table>
+  <Table>
+    <ma>2</ma>
+    <soluong>68</soluong>
+  </Table>
+  <Table>
+    <ma>3</ma>
+    <soluong>68</soluong>
+  </Table>
+  <Table>
+    <ma>7</ma>
+    <soluong>582</soluong>
+  </Table>
+  <Table>
+    <ma>8</ma>
+    <soluong>1048</soluong>
+  </Table>
+  <Table>
+    <ma>9</ma>
+    <soluong>398</soluong>
+  </Table>
+  <Table>
+    <ma>10</ma>
+    <soluong>390</soluong>
+  </Table>
+  <Table>
+    <ma>11</ma>
+    <soluong>2</soluong>
+  </Table>
+  <Table>
+    <ma>12</ma>
+    <soluong>9</soluong>
+  </Table>
+  <Table>
+    <ma>13</ma>
+    <soluong>1051</soluong>
+  </Table>
+  <Table>
+    <ma>15</ma>
+    <soluong>5</soluong>
+  </Table>
+  <Table>
+    <ma>17</ma>
+    <soluong>93</soluong>
+  </Table>
+  <Table>
+    <ma>18</ma>
+    <soluong>13</soluong>
+  </Table>
+  <Table>
+    <ma>19</ma>
+    <soluong>13</soluong>
+  </Table>
+  <Table>
+    <ma>25</ma>
+    <soluong>15</soluong>
+  </Table>
+  <Table>
+    <ma>28</ma>
+    <soluong>7</soluong>
+  </Table>
+  <Table>
+    <ma>29</ma>
+    <soluong>2</soluong>
+  </Table>
+  <Table>
+    <ma>30</ma>
+    <soluong>1</soluong>
+  </Table>
+  <Table>
+    <ma>36</ma>
+    <soluong>1</soluong>
+  </Table>
+</NewDataSet>
