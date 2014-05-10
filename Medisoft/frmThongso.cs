@@ -4589,9 +4589,9 @@ namespace Medisoft
             this.txtNodeTextSearch.TabIndex = 77;
             this.txtNodeTextSearch.Text = "Tìm kiếm";
             this.txtNodeTextSearch.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.txtNodeTextSearch.Enter += new System.EventHandler(this.txtNodeTextSearch_Enter);
             this.txtNodeTextSearch.TextChanged += new System.EventHandler(this.txtNodeTextSearch_TextChanged);
             this.txtNodeTextSearch.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtNodeTextSearch_KeyDown);
+            this.txtNodeTextSearch.Enter += new System.EventHandler(this.txtNodeTextSearch_Enter);
             // 
             // p01
             // 
@@ -5783,6 +5783,7 @@ namespace Medisoft
                         | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
             this.p12.AutoScroll = true;
+            this.p12.Controls.Add(this.p07);
             this.p12.Controls.Add(this.butFile);
             this.p12.Controls.Add(this.id);
             this.p12.Controls.Add(this.butBoqua);
@@ -5795,7 +5796,7 @@ namespace Medisoft
             this.p12.Controls.Add(this.label23);
             this.p12.Controls.Add(this.dataGrid3);
             this.p12.Controls.Add(this.dataGrid1);
-            this.p12.Location = new System.Drawing.Point(159, 3);
+            this.p12.Location = new System.Drawing.Point(0, 0);
             this.p12.Name = "p12";
             this.p12.Size = new System.Drawing.Size(660, 509);
             this.p12.TabIndex = 81;
@@ -7766,7 +7767,7 @@ namespace Medisoft
             this.p07.Controls.Add(this.c1502);
             this.p07.Controls.Add(this.c446);
             this.p07.Controls.Add(this.c595);
-            this.p07.Location = new System.Drawing.Point(159, 3);
+            this.p07.Location = new System.Drawing.Point(0, 0);
             this.p07.Name = "p07";
             this.p07.Size = new System.Drawing.Size(669, 508);
             this.p07.TabIndex = 82;
@@ -8884,6 +8885,7 @@ namespace Medisoft
                         | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
             this.p09.AutoScroll = true;
+            this.p09.Controls.Add(this.p12);
             this.p09.Controls.Add(this.c254);
             this.p09.Controls.Add(this.c1504);
             this.p09.Controls.Add(this.c143);
@@ -9767,18 +9769,16 @@ namespace Medisoft
             // 
             this.AutoScaleBaseSize = new System.Drawing.Size(5, 13);
             this.ClientSize = new System.Drawing.Size(825, 515);
-            this.Controls.Add(this.p07);
+            this.Controls.Add(this.p09);
             this.Controls.Add(this.p05);
             this.Controls.Add(this.p06);
             this.Controls.Add(this.p08);
-            this.Controls.Add(this.p09);
             this.Controls.Add(this.label59);
             this.Controls.Add(this.txtNodeTextSearch);
             this.Controls.Add(this.treeView1);
             this.Controls.Add(this.butCancel);
             this.Controls.Add(this.butOk);
             this.Controls.Add(this.p01);
-            this.Controls.Add(this.p12);
             this.Controls.Add(this.p13);
             this.Controls.Add(this.p11);
             this.Controls.Add(this.p10);
@@ -9792,8 +9792,8 @@ namespace Medisoft
             this.Name = "frmThongso";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Khai báo thông số hệ thống";
-            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.frmThongso_KeyDown);
             this.Load += new System.EventHandler(this.frmThongso_Load);
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.frmThongso_KeyDown);
             ((System.ComponentModel.ISupportInitialize)(this.c104)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.c42)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.c43)).EndInit();
