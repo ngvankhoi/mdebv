@@ -196,17 +196,17 @@
   </Table>
   <Table>
     <control_name>c293</control_name>
-    <text>14:30</text>
+    <text>10:01</text>
     <vie>15:34</vie>
   </Table>
   <Table>
     <control_name>c292</control_name>
-    <text>14:30</text>
+    <text>10:01</text>
     <vie>15:34</vie>
   </Table>
   <Table>
     <control_name>c291</control_name>
-    <text>14:30</text>
+    <text>10:01</text>
     <vie>15:34</vie>
   </Table>
   <Table>
@@ -3799,5 +3799,13 @@
     <control_name>c50034</control_name>
     <text>E34. BN đã in mẫu 01, trong ngày không cho đăng ký lại</text>
     <vie>E34. BN đã in mẫu 01, trong ngày không cho đăng ký lại</vie>
+  </Table>
+  <Table>
+    <control_name>p04</control_name>
+    <text />
+  </Table>
+  <Table>
+    <control_name>p10</control_name>
+    <text />
   </Table>
 </NewDataSet>

@@ -9003,22 +9003,33 @@ namespace LibMedi
             {
                 con.Close(); con.Dispose();
             }
-            sql = "update " + user + ".dmcomputer set computer=:m_computer where computer=:m_computer";
-            con = new NpgsqlConnection(sConn);
-            con.Open();
-            cmd = new NpgsqlCommand(sql, con);
-            cmd.CommandType = CommandType.Text;
-            cmd.Parameters.Add("m_computer", NpgsqlDbType.Varchar, 20).Value = sComputer;
-            int irec = cmd.ExecuteNonQuery();
-            cmd.Dispose();
-            con.Close(); con.Dispose();
-            if (irec == 0)
+            int i_id = 0;
+            DataSet DS1=  get_data("select id from " + user + ".dmcomputer where computer='" + sComputer + "'");
+            if (DS1 == null || DS1.Tables.Count <= 0 || DS1.Tables[0].Rows.Count<=0)
             {
-                sql = "insert into " + user + ".dmcomputer(id,computer) values (" + get_id_dmcomputer + ",'" + sComputer + "')";
-                execute_data(sql);
+                sql = "update " + user + ".dmcomputer set computer=:m_computer where computer=:m_computer";
+                con = new NpgsqlConnection(sConn);
+                con.Open();
+                cmd = new NpgsqlCommand(sql, con);
+                cmd.CommandType = CommandType.Text;
+                cmd.Parameters.Add("m_computer", NpgsqlDbType.Varchar, 20).Value = sComputer;
+                int irec = cmd.ExecuteNonQuery();
+                cmd.Dispose();
+                con.Close(); con.Dispose();
+                if (irec == 0)
+                {
+                    sql = "insert into " + user + ".dmcomputer(id,computer) values (" + get_id_dmcomputer + ",'" + sComputer + "')";
+                    execute_data(sql);
+                }
+                 i_id=int.Parse(get_data("select id from " + user + ".dmcomputer where computer='" + sComputer + "'").Tables[0].Rows[0][0].ToString());
             }
-            return int.Parse(get_data("select id from " + user + ".dmcomputer where computer='" + sComputer + "'").Tables[0].Rows[0][0].ToString());
-        }
+            else
+            {
+                i_id = int.Parse(DS1.Tables[0].Rows[0]["id"].ToString());
+                
+            }
+            return i_id;
+            }
 
         public int get_dmcomputer(string m_computer)
         {

@@ -4677,7 +4677,7 @@ namespace Medisoft
             this.p01.Controls.Add(this.tTemp);
             this.p01.Controls.Add(this.lTemp);
             this.p01.Controls.Add(this.c998);
-            this.p01.Location = new System.Drawing.Point(159, 3);
+            this.p01.Location = new System.Drawing.Point(0, 0);
             this.p01.Name = "p01";
             this.p01.Size = new System.Drawing.Size(669, 509);
             this.p01.TabIndex = 78;
@@ -5025,6 +5025,7 @@ namespace Medisoft
             this.p02.Controls.Add(this.c123);
             this.p02.Controls.Add(this.label29);
             this.p02.Controls.Add(this.c0);
+            this.p02.Controls.Add(this.p04);
             this.p02.Controls.Add(this.c114);
             this.p02.Controls.Add(this.c122);
             this.p02.Controls.Add(this.c44);
@@ -5849,6 +5850,7 @@ namespace Medisoft
                         | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
             this.p04.AutoScroll = true;
+            this.p04.Controls.Add(this.p01);
             this.p04.Controls.Add(this.rbcaptheotv);
             this.p04.Controls.Add(this.rbcaptheokhoa);
             this.p04.Controls.Add(this.c1090);
@@ -5885,7 +5887,7 @@ namespace Medisoft
             this.p04.Controls.Add(this.c224);
             this.p04.Controls.Add(this.c102);
             this.p04.Controls.Add(this.c227);
-            this.p04.Location = new System.Drawing.Point(159, 3);
+            this.p04.Location = new System.Drawing.Point(0, 0);
             this.p04.Name = "p04";
             this.p04.Size = new System.Drawing.Size(660, 509);
             this.p04.TabIndex = 82;
@@ -7647,6 +7649,7 @@ namespace Medisoft
             this.p07.Controls.Add(this.c238);
             this.p07.Controls.Add(this.c237);
             this.p07.Controls.Add(this.c384);
+            this.p07.Controls.Add(this.p10);
             this.p07.Controls.Add(this.c1088);
             this.p07.Controls.Add(this.c594);
             this.p07.Controls.Add(this.label139);
@@ -9320,7 +9323,7 @@ namespace Medisoft
             this.p10.Controls.Add(this.c236);
             this.p10.Controls.Add(this.label54);
             this.p10.Controls.Add(this.c235);
-            this.p10.Location = new System.Drawing.Point(159, 3);
+            this.p10.Location = new System.Drawing.Point(8, 2);
             this.p10.Name = "p10";
             this.p10.Size = new System.Drawing.Size(660, 509);
             this.p10.TabIndex = 88;
@@ -9767,6 +9770,8 @@ namespace Medisoft
             // 
             this.AutoScaleBaseSize = new System.Drawing.Size(5, 13);
             this.ClientSize = new System.Drawing.Size(825, 515);
+            this.Controls.Add(this.p02);
+            this.Controls.Add(this.p03);
             this.Controls.Add(this.p07);
             this.Controls.Add(this.p05);
             this.Controls.Add(this.p06);
@@ -9777,15 +9782,10 @@ namespace Medisoft
             this.Controls.Add(this.treeView1);
             this.Controls.Add(this.butCancel);
             this.Controls.Add(this.butOk);
-            this.Controls.Add(this.p01);
             this.Controls.Add(this.p12);
             this.Controls.Add(this.p13);
             this.Controls.Add(this.p11);
-            this.Controls.Add(this.p10);
             this.Controls.Add(this.p14);
-            this.Controls.Add(this.p03);
-            this.Controls.Add(this.p02);
-            this.Controls.Add(this.p04);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.KeyPreview = true;

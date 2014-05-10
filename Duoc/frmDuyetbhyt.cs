@@ -1898,6 +1898,7 @@ namespace Duoc
                             if (_xutri.IndexOf("03,") != -1 || _xutri.Trim() == "") { _mabn += r["mabn"].ToString() + " " + r["hoten"].ToString() + "\n"; bln_chuakhamxong_hen = true; break; }
                         }
                         else if (_xutri.IndexOf("08,") != -1 || _xutri.Trim() == "") { _mabn += r["mabn"].ToString() + " " + r["hoten"].ToString() + "\n"; break; }
+                        break;
                     }
                     //if (_xutri.IndexOf("08,") != -1 || _xutri.Trim() == "") _mabn += r["mabn"].ToString() + " " + r["hoten"].ToString() + "\n";
                 }

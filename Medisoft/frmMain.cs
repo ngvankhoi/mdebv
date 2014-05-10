@@ -4898,7 +4898,16 @@ namespace Medisoft
                 else Application.Exit();
             }
 			b_sovaovien=m.bSovaovien;
-			b_soluutru=m.bSoluutru;
+			
+            
+            
+            
+            
+            
+            
+            
+            
+            b_soluutru=m.bSoluutru;
 			gan_right();
             //f_capnhap_length_id();//tang id len chieu dai 22 ky tu so
 		}

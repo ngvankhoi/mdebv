@@ -286,7 +286,6 @@ namespace Duoc
         private IContainer components;
         private string __userid = "";
         private string __ngaylv = "";
-        private MenuItem menuItem240;
         private string __ngaysl = "";
 
         public frmMain(string v_userid, string v_ngaylv, string v_ngaysl)
@@ -589,7 +588,6 @@ namespace Duoc
             this.menuItem16 = new System.Windows.Forms.MenuItem();
             this.menuItem17 = new System.Windows.Forms.MenuItem();
             this.menuItem6 = new System.Windows.Forms.MenuItem();
-            this.menuItem240 = new System.Windows.Forms.MenuItem();
             this.SuspendLayout();
             // 
             // mainMenu1
@@ -703,7 +701,6 @@ namespace Duoc
             this.menuItem78,
             this.menuItem177,
             this.menuItem79,
-            this.menuItem240,
             this.menuItem168,
             this.menuItem173,
             this.menuItem136,
@@ -822,7 +819,7 @@ namespace Duoc
             // 
             // menuItem168
             // 
-            this.menuItem168.Index = 14;
+            this.menuItem168.Index = 13;
             this.menuItem168.MenuItems.AddRange(new System.Windows.Forms.MenuItem[] {
             this.menuItem170,
             this.menuItem171,
@@ -870,7 +867,7 @@ namespace Duoc
             // 
             // menuItem173
             // 
-            this.menuItem173.Index = 15;
+            this.menuItem173.Index = 14;
             this.menuItem173.MenuItems.AddRange(new System.Windows.Forms.MenuItem[] {
             this.menuItem174,
             this.menuItem175,
@@ -909,7 +906,7 @@ namespace Duoc
             // 
             // menuItem136
             // 
-            this.menuItem136.Index = 16;
+            this.menuItem136.Index = 15;
             this.menuItem136.MenuItems.AddRange(new System.Windows.Forms.MenuItem[] {
             this.menuItem229,
             this.menuItem230,
@@ -949,66 +946,66 @@ namespace Duoc
             // 
             // menuItem112
             // 
-            this.menuItem112.Index = 17;
+            this.menuItem112.Index = 16;
             this.menuItem112.Text = "-";
             // 
             // menuItem38
             // 
-            this.menuItem38.Index = 18;
+            this.menuItem38.Index = 17;
             this.menuItem38.MergeOrder = 25;
             this.menuItem38.Text = "15. Phiếu lĩnh";
             this.menuItem38.Click += new System.EventHandler(this.menuItem38_Click);
             // 
             // menuItem39
             // 
-            this.menuItem39.Index = 19;
+            this.menuItem39.Index = 18;
             this.menuItem39.MergeOrder = 26;
             this.menuItem39.Text = "16. Phiếu hoàn trả";
             this.menuItem39.Click += new System.EventHandler(this.menuItem39_Click);
             // 
             // menuItem109
             // 
-            this.menuItem109.Index = 20;
+            this.menuItem109.Index = 19;
             this.menuItem109.MergeOrder = 27;
             this.menuItem109.Text = "17. Phiếu xuất tủ trực";
             this.menuItem109.Click += new System.EventHandler(this.menuItem109_Click);
             // 
             // menuItem41
             // 
-            this.menuItem41.Index = 21;
+            this.menuItem41.Index = 20;
             this.menuItem41.MergeOrder = 28;
             this.menuItem41.Text = "18. Phiếu xuất ngoại trú";
             this.menuItem41.Click += new System.EventHandler(this.menuItem41_Click);
             // 
             // menuItem42
             // 
-            this.menuItem42.Index = 22;
+            this.menuItem42.Index = 21;
             this.menuItem42.MergeOrder = 29;
             this.menuItem42.Text = "19. Phiếu xuất khác";
             this.menuItem42.Click += new System.EventHandler(this.menuItem42_Click);
             // 
             // menuItem165
             // 
-            this.menuItem165.Index = 23;
+            this.menuItem165.Index = 22;
             this.menuItem165.MergeOrder = 30;
             this.menuItem165.Text = "20. Phiếu xuất hoàn trả nhà cung cấp";
             this.menuItem165.Click += new System.EventHandler(this.menuItem165_Click);
             // 
             // menuItem205
             // 
-            this.menuItem205.Index = 24;
+            this.menuItem205.Index = 23;
             this.menuItem205.MergeOrder = 31;
             this.menuItem205.Text = "21. Phiếu xuất Implants";
             this.menuItem205.Click += new System.EventHandler(this.menuItem205_Click);
             // 
             // menuItem92
             // 
-            this.menuItem92.Index = 25;
+            this.menuItem92.Index = 24;
             this.menuItem92.Text = "-";
             // 
             // menuItem72
             // 
-            this.menuItem72.Index = 26;
+            this.menuItem72.Index = 25;
             this.menuItem72.MenuItems.AddRange(new System.Windows.Forms.MenuItem[] {
             this.menuItem95,
             this.menuItem96,
@@ -1047,12 +1044,12 @@ namespace Duoc
             // 
             // menuItem115
             // 
-            this.menuItem115.Index = 27;
+            this.menuItem115.Index = 26;
             this.menuItem115.Text = "-";
             // 
             // menuItem238
             // 
-            this.menuItem238.Index = 28;
+            this.menuItem238.Index = 27;
             this.menuItem238.MenuItems.AddRange(new System.Windows.Forms.MenuItem[] {
             this.menuItem116,
             this.mnuPhatthuoc});
@@ -1076,70 +1073,70 @@ namespace Duoc
             // 
             // menuItem118
             // 
-            this.menuItem118.Index = 29;
+            this.menuItem118.Index = 28;
             this.menuItem118.MergeOrder = 36;
             this.menuItem118.Text = "24. Phiếu trả thuốc";
             this.menuItem118.Click += new System.EventHandler(this.menuItem118_Click);
             // 
             // menuItem142
             // 
-            this.menuItem142.Index = 30;
+            this.menuItem142.Index = 29;
             this.menuItem142.MergeOrder = 37;
             this.menuItem142.Text = "26. Phiếu xuất chuyển nguồn";
             this.menuItem142.Click += new System.EventHandler(this.menuItem142_Click);
             // 
             // menuItem167
             // 
-            this.menuItem167.Index = 31;
+            this.menuItem167.Index = 30;
             this.menuItem167.MergeOrder = 38;
             this.menuItem167.Text = "27. Phiếu quyết toán vay";
             this.menuItem167.Click += new System.EventHandler(this.menuItem167_Click);
             // 
             // menuItem166
             // 
-            this.menuItem166.Index = 32;
+            this.menuItem166.Index = 31;
             this.menuItem166.MergeOrder = 39;
             this.menuItem166.Text = "28. Phiếu xuất vay";
             this.menuItem166.Click += new System.EventHandler(this.menuItem166_Click);
             // 
             // menuItem111
             // 
-            this.menuItem111.Index = 33;
+            this.menuItem111.Index = 32;
             this.menuItem111.MergeOrder = 2040;
             this.menuItem111.Text = "29. Phiếu xuất chuyển kho qua chi nhánh khác";
             this.menuItem111.Click += new System.EventHandler(this.menuItem111_Click);
             // 
             // menuItem191
             // 
-            this.menuItem191.Index = 34;
+            this.menuItem191.Index = 33;
             this.menuItem191.MergeOrder = 2041;
             this.menuItem191.Text = "30. Phiếu nhập từ kho chi nhánh";
             this.menuItem191.Click += new System.EventHandler(this.menuItem191_Click);
             // 
             // menuItem224
             // 
-            this.menuItem224.Index = 35;
+            this.menuItem224.Index = 34;
             this.menuItem224.MergeOrder = 391;
             this.menuItem224.Text = "31. Tổng hợp các phiếu dự trù từ các chi nhánh";
             this.menuItem224.Click += new System.EventHandler(this.menuItem224_Click_1);
             // 
             // menuItem235
             // 
-            this.menuItem235.Index = 36;
+            this.menuItem235.Index = 35;
             this.menuItem235.MergeOrder = 392;
             this.menuItem235.Text = "32. Lập kế hoạch mua hàng gợi ý";
             this.menuItem235.Click += new System.EventHandler(this.menuItem235_Click);
             // 
             // menuItem236
             // 
-            this.menuItem236.Index = 37;
+            this.menuItem236.Index = 36;
             this.menuItem236.MergeOrder = 393;
             this.menuItem236.Text = "33. Lập kế hoạch mua hàng thực tế";
             this.menuItem236.Click += new System.EventHandler(this.menuItem236_Click);
             // 
             // menuItem239
             // 
-            this.menuItem239.Index = 38;
+            this.menuItem239.Index = 37;
             this.menuItem239.MergeOrder = 23400;
             this.menuItem239.Text = "34. Duyệt toa thuốc chương trình";
             this.menuItem239.Click += new System.EventHandler(this.menuItem239_Click_1);
@@ -2660,11 +2657,6 @@ namespace Duoc
             this.menuItem6.Index = 7;
             this.menuItem6.Text = "&C. Kết thúc";
             this.menuItem6.Click += new System.EventHandler(this.menuItem6_Click);
-            // 
-            // menuItem240
-            // 
-            this.menuItem240.Index = 13;
-            this.menuItem240.Text = "D:\\links\\MedisoftPos_Chung\\Duoc\\frmMain.cs";
             // 
             // frmMain
             // 
@@ -5558,6 +5550,11 @@ namespace Duoc
         }
 
         private void menuItem81_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void menuItem240_Click(object sender, EventArgs e)
         {
 
         }

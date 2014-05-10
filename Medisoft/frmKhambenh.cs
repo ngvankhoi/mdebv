@@ -24,7 +24,7 @@ namespace Medisoft
         private frmGoibenhKham fgoi = null;
 		private LibDuoc.AccessData d=new LibDuoc.AccessData();
 		private DataSet ds=new DataSet();
-        private string xxx, user, nam, s_userid, s_makp, s_mabn, s_msg, s_ngayvv, sql, s_madoituong, s_mabs, s_nhomkho, ngaysrv, FileType, u00 = "U00", s_ngaydk = "", maso = "", sNhapvien_kocongkham_madoituong, s_mavp_kham = "", ngay_reset_phieu38 = "",tenkhoa_save="";
+        private string  s_soluutru = "",xxx, user, nam, s_userid, s_makp, s_mabn, s_msg, s_ngayvv, sql, s_madoituong, s_mabs, s_nhomkho, ngaysrv, FileType, u00 = "U00", s_ngaydk = "", maso = "", sNhapvien_kocongkham_madoituong, s_mavp_kham = "", ngay_reset_phieu38 = "",tenkhoa_save="";
         private short s_port=1;
         private int i_userid, i_mabv, i_maba, i_bangoaitru, iChidinh, iHaophi, i_khudt = 0, i_chinhanh=0;
 		private decimal l_maql=0,l_matd=0,d_id=0,lTraituyen=0;
@@ -42,9 +42,8 @@ namespace Medisoft
         private DataTable dtkpfull = new DataTable();
         private DataTable dtdt1 = new DataTable();
         private bool bdacocongkham = false, bKhacbv_traituyen_pk2 = false, bThongBaoSoVaoVien = false, bQuanly_Theo_Chinhanh=false,bTimkiem=false;
-
-
-		private System.Windows.Forms.ComboBox tenba;
+        private bool bSoluutruPK_PL_NGT_tudong = false; //truongthuy 10052014 them so luu tru tang tu dong khi check Option D28 
+        private System.Windows.Forms.ComboBox tenba;
 		private System.Windows.Forms.Label label2;
 		private System.Windows.Forms.Label label3;
 		private System.Windows.Forms.Label label4;
@@ -158,6 +157,7 @@ namespace Medisoft
 		private System.Windows.Forms.TextBox tendstt;
 		private LibList.List listdstt;
 		private System.Windows.Forms.TreeView treeView1;
+        private bool SoluutruPK_PL_NGT_tang_tudong = false;
         private string s_icd_noichuyenden, s_icd_chinh, s_icd_kemtheo, s_mabv, s_noicap, s_chonxutri = "", s_tungay, d_mmyy, khoa_save = "", xutri_save = "", pathImage, s_ngaymakp="",ngay1,ngay2,ngay3;
 		private System.Windows.Forms.TextBox cd_chinh;
 		private LibList.List listICD;
@@ -3835,6 +3835,7 @@ namespace Medisoft
 			bnmoi.ValueMember="ID";
 			bnmoi.DataSource=dsbnmoi.Tables[0];
 			bnmoi.Enabled=m.bMoi_cu;
+           
 			bSoluutru=m.bSoluutru_nhapvien;
 			bBacsy=m.bBacsy_tiepdon;
 			bTiepdon=m.bTiepdon(LibMedi.AccessData.Khambenh);
@@ -7452,7 +7453,11 @@ namespace Medisoft
             //decimal tmp_maql_pk = l_maql;//binh 25042013 -- do lam thay doi thong tin kham nen comment lai
             l_maql = m.get_maql_benhanngtr(s_mabn, ngayvv.Text + " " + giovv.Text, true);
             //m.execute_data_mmyy("update xxx.benhanpk set mangtr=" + l_maql + " where maql=" + tmp_maql_pk, ngayvv.Text.Substring(0, 10), ngayvv.Text.Substring(0, 10), true);////binh 25042013 -- do lam thay doi thong tin kham nen comment lai
-            if (dausinhton.Visible) m.upd_dausinhton(ngayvv.Text, l_maql, (mach.Text != "") ? decimal.Parse(mach.Text) : 0, (nhietdo.Text != "") ? decimal.Parse(nhietdo.Text) : 0, huyetap.Text, (nang.Text != "") ? decimal.Parse(nang.Text) : 0, (cao.Text != "") ? decimal.Parse(cao.Text) : 0, (txtNhipTho.Text != "") ? decimal.Parse(txtNhipTho.Text) : 0);
+            if (dausinhton.Visible)
+            {
+                m.upd_dausinhton(l_maql, (mach.Text != "") ? decimal.Parse(mach.Text) : 0, (nhietdo.Text != "") ? decimal.Parse(nhietdo.Text) : 0, huyetap.Text, (nang.Text != "") ? decimal.Parse(nang.Text) : 0, (cao.Text != "") ? decimal.Parse(cao.Text) : 0, (txtNhipTho.Text != "") ? decimal.Parse(txtNhipTho.Text) : 0);
+                m.upd_dausinhton(ngayvv.Text, l_maql, (mach.Text != "") ? decimal.Parse(mach.Text) : 0, (nhietdo.Text != "") ? decimal.Parse(nhietdo.Text) : 0, huyetap.Text, (nang.Text != "") ? decimal.Parse(nang.Text) : 0, (cao.Text != "") ? decimal.Parse(cao.Text) : 0, (txtNhipTho.Text != "") ? decimal.Parse(txtNhipTho.Text) : 0);
+            }
            
             if (!m.upd_lienhe(l_maql,sonha.Text,thon.Text,cholam.Text,matt.Text,maqu1.Text+maqu2.Text,mapxa1.Text+mapxa2.Text,tuoi.Text.PadLeft(3,'0')+loaituoi.SelectedIndex.ToString(),loai.SelectedIndex,bnmoi.SelectedIndex))
 			{
@@ -7850,6 +7855,16 @@ namespace Medisoft
             {
                 danhsach.Visible=false;
             }
+            //truongthuy 10052014 them so luu  tru tu dong phong kham 
+            if (bSoluutruPK_PL_NGT_tudong)
+            {
+                string s_mmyy = "";
+                s_mmyy = DateTime.Now.Year.ToString().Substring(2, 2).PadLeft(2, '0') + DateTime.Now.Month.ToString().PadLeft(2, '0');
+                decimal l_idluutru = m.get_capid(200, s_mmyy);
+                s_soluutru = i_chinhanh.ToString().PadLeft(2, '0') + s_mmyy + l_idluutru.ToString().PadLeft(6, '0');
+                m.execute_data("update " + user + m.mmyy(ngayvv.Text.Substring(0, 10)) + ".lienhe set soluutru='" + s_soluutru + "' where maql=" + l_maql + "");
+            }
+           //end truongthuy  
 		}
 
 		private void butRef_Click(object sender, System.EventArgs e)
@@ -10246,7 +10261,7 @@ namespace Medisoft
             bAdmin_hethong = m.bAdminHethong(i_userid);
             bKhacbv_traituyen_pk2 = m.bKhacbv_traituyen_pk2;//gam 12/01/2012
 
-
+            bSoluutruPK_PL_NGT_tudong = m.bSoluutruPK_PL_NGT_tudong; //truongthuy 10052014
             bDainmau38_khongcho_chidinh_cls = m.bDainmau38_khongcho_chidinh_cls;
             //dang ky MSCOM
             if (m.Thongso("dangkycom")!="1" && System.IO.File.Exists("..\\MSComm32\\dangkymscom.bat"))

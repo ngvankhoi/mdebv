@@ -322,6 +322,7 @@ namespace Duoc
             this.chkInchuathu = new System.Windows.Forms.CheckBox();
             this.chkKodichvu = new System.Windows.Forms.CheckBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.chkInbienlai_kquyensoKbienlai = new System.Windows.Forms.CheckBox();
             this.chkds = new System.Windows.Forms.CheckBox();
             this.chkXML = new System.Windows.Forms.CheckBox();
             this.timkiem = new System.Windows.Forms.TextBox();
@@ -348,7 +349,6 @@ namespace Duoc
             this.butTreem = new System.Windows.Forms.Button();
             this.butList = new System.Windows.Forms.Button();
             this.cbTraituyen = new System.Windows.Forms.ComboBox();
-            this.chkInbienlai_kquyensoKbienlai = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGrid1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGrid2)).BeginInit();
             this.groupBox2.SuspendLayout();
@@ -483,8 +483,8 @@ namespace Duoc
             this.tenbd.Name = "tenbd";
             this.tenbd.Size = new System.Drawing.Size(203, 21);
             this.tenbd.TabIndex = 18;
-            this.tenbd.TextChanged += new System.EventHandler(this.tenbd_TextChanged);
             this.tenbd.Validated += new System.EventHandler(this.tenbd_Validated);
+            this.tenbd.TextChanged += new System.EventHandler(this.tenbd_TextChanged);
             this.tenbd.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tenbd_KeyDown);
             // 
             // mabd
@@ -498,8 +498,8 @@ namespace Duoc
             this.mabd.Name = "mabd";
             this.mabd.Size = new System.Drawing.Size(56, 21);
             this.mabd.TabIndex = 17;
-            this.mabd.TextChanged += new System.EventHandler(this.mabd_TextChanged);
             this.mabd.Validated += new System.EventHandler(this.mabd_Validated);
+            this.mabd.TextChanged += new System.EventHandler(this.mabd_TextChanged);
             this.mabd.KeyDown += new System.Windows.Forms.KeyEventHandler(this.mabd_KeyDown);
             // 
             // dang
@@ -867,8 +867,8 @@ namespace Duoc
             this.cachdung.Name = "cachdung";
             this.cachdung.Size = new System.Drawing.Size(329, 21);
             this.cachdung.TabIndex = 1;
-            this.cachdung.TextChanged += new System.EventHandler(this.cachdung_TextChanged);
             this.cachdung.Validated += new System.EventHandler(this.cachdung_Validated);
+            this.cachdung.TextChanged += new System.EventHandler(this.cachdung_TextChanged);
             this.cachdung.KeyDown += new System.Windows.Forms.KeyEventHandler(this.cachdung_KeyDown);
             // 
             // listcachdung
@@ -937,8 +937,8 @@ namespace Duoc
             this.tenbv.Name = "tenbv";
             this.tenbv.Size = new System.Drawing.Size(257, 21);
             this.tenbv.TabIndex = 10;
-            this.tenbv.TextChanged += new System.EventHandler(this.tenbv_TextChanged);
             this.tenbv.Validated += new System.EventHandler(this.tenbv_Validated);
+            this.tenbv.TextChanged += new System.EventHandler(this.tenbv_TextChanged);
             this.tenbv.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tenbv_KeyDown);
             // 
             // mabv
@@ -1169,7 +1169,7 @@ namespace Duoc
             this.dataGrid2.HeaderFont = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Bold);
             this.dataGrid2.HeaderForeColor = System.Drawing.Color.WhiteSmoke;
             this.dataGrid2.LinkColor = System.Drawing.Color.Teal;
-            this.dataGrid2.Location = new System.Drawing.Point(401, 59);
+            this.dataGrid2.Location = new System.Drawing.Point(400, 59);
             this.dataGrid2.Name = "dataGrid2";
             this.dataGrid2.ParentRowsBackColor = System.Drawing.Color.Gainsboro;
             this.dataGrid2.ParentRowsForeColor = System.Drawing.Color.MidnightBlue;
@@ -1464,6 +1464,16 @@ namespace Duoc
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Dịch vụ";
             // 
+            // chkInbienlai_kquyensoKbienlai
+            // 
+            this.chkInbienlai_kquyensoKbienlai.AutoSize = true;
+            this.chkInbienlai_kquyensoKbienlai.Location = new System.Drawing.Point(104, 147);
+            this.chkInbienlai_kquyensoKbienlai.Name = "chkInbienlai_kquyensoKbienlai";
+            this.chkInbienlai_kquyensoKbienlai.Size = new System.Drawing.Size(227, 17);
+            this.chkInbienlai_kquyensoKbienlai.TabIndex = 238;
+            this.chkInbienlai_kquyensoKbienlai.Text = "In biên lai không cần quyển sổ, số biên lai ";
+            this.chkInbienlai_kquyensoKbienlai.UseVisualStyleBackColor = true;
+            // 
             // chkds
             // 
             this.chkds.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
@@ -1501,8 +1511,8 @@ namespace Duoc
             this.timkiem.TabIndex = 233;
             this.timkiem.Text = "Tìm kiếm";
             this.timkiem.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.timkiem.TextChanged += new System.EventHandler(this.timkiem_TextChanged);
             this.timkiem.Enter += new System.EventHandler(this.timkiem_Enter);
+            this.timkiem.TextChanged += new System.EventHandler(this.timkiem_TextChanged);
             // 
             // chkXem
             // 
@@ -1589,8 +1599,8 @@ namespace Duoc
             this.tenvp.Name = "tenvp";
             this.tenvp.Size = new System.Drawing.Size(196, 21);
             this.tenvp.TabIndex = 28;
-            this.tenvp.TextChanged += new System.EventHandler(this.tenvp_TextChanged);
             this.tenvp.Validated += new System.EventHandler(this.tenvp_Validated);
+            this.tenvp.TextChanged += new System.EventHandler(this.tenvp_TextChanged);
             this.tenvp.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tenvp_KeyDown);
             // 
             // dvt
@@ -1782,16 +1792,6 @@ namespace Duoc
             this.cbTraituyen.TabIndex = 236;
             this.cbTraituyen.TabStop = false;
             // 
-            // chkInbienlai_kquyensoKbienlai
-            // 
-            this.chkInbienlai_kquyensoKbienlai.AutoSize = true;
-            this.chkInbienlai_kquyensoKbienlai.Location = new System.Drawing.Point(104, 147);
-            this.chkInbienlai_kquyensoKbienlai.Name = "chkInbienlai_kquyensoKbienlai";
-            this.chkInbienlai_kquyensoKbienlai.Size = new System.Drawing.Size(227, 17);
-            this.chkInbienlai_kquyensoKbienlai.TabIndex = 238;
-            this.chkInbienlai_kquyensoKbienlai.Text = "In biên lai không cần quyển sổ, số biên lai ";
-            this.chkInbienlai_kquyensoKbienlai.UseVisualStyleBackColor = true;
-            // 
             // frmHoadonbhyt
             // 
             this.AutoScaleBaseSize = new System.Drawing.Size(5, 13);
@@ -1900,8 +1900,8 @@ namespace Duoc
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Phiếu xuất bảo hiểm";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
-            this.Load += new System.EventHandler(this.frmHoadonbhyt_Load);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.frmHoadonbhyt_KeyDown);
+            this.Load += new System.EventHandler(this.frmHoadonbhyt_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGrid1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGrid2)).EndInit();
             this.groupBox2.ResumeLayout(false);

@@ -4210,6 +4210,18 @@ lan.Change_language_MessageText("Cùng địa chỉ");
 				MessageBox.Show(lan.Change_language_MessageText("Không cập nhật được thông tin vào viện !"),s_msg);
 				return;
 			}
+            //
+            DataSet dsdausinhton = new DataSet();
+            dsdausinhton = m.get_data(" select * from medibv.dausinhton where maql="+l_mangtr+"");
+            if (dsdausinhton != null && dsdausinhton.Tables.Count > 0 && dsdausinhton.Tables[0].Rows.Count > 0)
+            {
+                foreach (DataRow dr0 in dsdausinhton.Tables[0].Rows)
+                {
+                    m.upd_dausinhton(ngayvv.Text, l_maql, decimal.Parse(dr0["mach"].ToString()), decimal.Parse(dr0["nhietdo"].ToString()), dr0["huyetap"].ToString(), decimal.Parse(dr0["cannang"].ToString()), decimal.Parse(dr0["chieucao"].ToString()), decimal.Parse(dr0["nhiptho"].ToString()));
+                    break;
+                }
+            }
+            //
 			string so=m.sothe(int.Parse(tendoituong.SelectedValue.ToString()));
 			if (int.Parse(so.Substring(0,2))>0)
 			{
@@ -5247,6 +5259,7 @@ lan.Change_language_MessageText("Yêu cầu nhập chẩn đoán !"), LibMedi.Ac
         {
             s_mabn = mabn2.Text + mabn3.Text;
             l_maql = m.get_maql_benhanpk(s_mabn, ngayvv.Text + " " + giovv.Text,makp.Text,false);
+
             if (l_maql == 0)
             {
                 if (!kiemtra()) return;
