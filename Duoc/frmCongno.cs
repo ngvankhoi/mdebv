@@ -1367,6 +1367,7 @@ namespace Duoc
                         }
 						foreach(DataRow r in d.get_data(sql).Tables[0].Rows)
 						{
+
 							d.execute_data("update "+xxx+".d_thanhtoan set sotien=0, sotiennovat=0 where id="+decimal.Parse(r["id"].ToString()));
                             d.upd_thanhtoan(mmyy, decimal.Parse(r["id"].ToString()), decimal.Parse(r["sotien"].ToString()), decimal.Parse(r["sotiennovat"].ToString()));
 						}

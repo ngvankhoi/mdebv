@@ -1,0 +1,10 @@
+*.dll
+*.exe
+*.pdb
+/obj/*
+/Language
+/Language_d
+/Language_vp
+*/save/
+
+#/xml/maincode.xml
