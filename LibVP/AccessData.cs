@@ -47,6 +47,12 @@ namespace LibVP
         private NpgsqlDataAdapter dest;
         private NpgsqlConnection con;
         private NpgsqlCommand cmd;
+        public string ConStr
+        {
+            get {
+                return sConn;
+            }
+        }
         public AccessData()
         {
             m_computername = System.Environment.MachineName.Trim().ToUpper();
