@@ -7011,24 +7011,42 @@ namespace Medisoft
 				return;
 			}
           //  D19 - Số lưu trữ ngoại trú tăng tự động theo năm ";
-            // //Cap so luu tru phong kham: dung chung ngoai tru
-            if (m.bSoluutru_ngtru_nam && soluutru.Text == "")
+            // truongthuy them so luu tru doi voi nhung BV vao vien chi co 1 so luu tru
+            DataSet dsktsoluutru = new DataSet();
+            dsktsoluutru = m.get_data_mmyy("select * from xxx.lienhe  where maql=" + l_maql + "",ngayvv.Text,ngayvv.Text,true);
+            string kt_luutru ="";
+            if (dsktsoluutru != null || dsktsoluutru.Tables.Count > 0 || dsktsoluutru.Tables[0].Rows.Count > 0)
             {
-                soluutru.Text = m.get_capid((int)LibMedi.ma_table_capid.Soluutru_ngtru_nam, ngayvv.Text.Substring(8, 2)).ToString().PadLeft(10, '0');
-                soluutru.Update();
+                foreach (DataRow dr in dsktsoluutru.Tables[0].Rows)
+                {
+                    kt_luutru = dr["soluutru"].ToString();
+                }
             }
-            //Tu:28/06/2011 soluutru tang tu dong neu check option D28
-            else if (m.bSoluutruPK_PL_NGT_tudong && soluutru.Text == "")
+            if (kt_luutru == "")
+            {  // //Cap so luu tru phong kham: dung chung ngoai tru
+                if (m.bSoluutru_ngtru_nam && soluutru.Text == "")
+                {
+                    soluutru.Text = m.get_capid((int)LibMedi.ma_table_capid.Soluutru_ngtru_nam, ngayvv.Text.Substring(8, 2)).ToString().PadLeft(10, '0');
+                    soluutru.Update();
+                }
+                //Tu:28/06/2011 soluutru tang tu dong neu check option D28
+                else if (m.bSoluutruPK_PL_NGT_tudong && soluutru.Text == "")
+                {
+                    string s_mmyy = "";
+                    s_mmyy = DateTime.Now.Year.ToString().Substring(2, 2).PadLeft(2, '0') + DateTime.Now.Month.ToString().PadLeft(2, '0');
+                    decimal l_idluutru = m.get_capid((int)LibMedi.ma_table_capid.SoluutruPK_PL_NGT_tudong, s_mmyy);//m.get_capid(200, s_mmyy);
+                    s_soluutru = i_chinhanh.ToString().PadLeft(2, '0') + s_mmyy + l_idluutru.ToString().PadLeft(6, '0');
+                    soluutru.Text = s_soluutru;
+                }
+
+                if (bSoluutru && soluutru.Text != "") m.execute_data("update " + xxx + ".lienhe set soluutru='" + soluutru.Text + "' where maql=" + l_maql);
+            }
+            else
             {
-                string s_mmyy = "";
-                s_mmyy = DateTime.Now.Year.ToString().Substring(2, 2).PadLeft(2, '0') + DateTime.Now.Month.ToString().PadLeft(2, '0');
-                decimal l_idluutru = m.get_capid((int)LibMedi.ma_table_capid.SoluutruPK_PL_NGT_tudong, s_mmyy);//m.get_capid(200, s_mmyy);
-                s_soluutru = i_chinhanh.ToString().PadLeft(2, '0') + s_mmyy + l_idluutru.ToString().PadLeft(6, '0');
-                soluutru.Text = s_soluutru;
+                soluutru.Text = kt_luutru;
             }
 
-			if (bSoluutru && soluutru.Text!="") m.execute_data("update "+xxx+".lienhe set soluutru='"+soluutru.Text+"' where maql="+l_maql);
-			if (khamthai.Visible) m.upd_ttkhamthai(ngayvv.Text,s_mabn,l_maql,para1.Text.PadLeft(2,'0')+para2.Text.PadLeft(2,'0')+para3.Text.PadLeft(2,'0')+para4.Text.PadLeft(2,'0'),kinhcc.Text,ngaysanh.Text,"");
+            if (khamthai.Visible) m.upd_ttkhamthai(ngayvv.Text,s_mabn,l_maql,para1.Text.PadLeft(2,'0')+para2.Text.PadLeft(2,'0')+para3.Text.PadLeft(2,'0')+para4.Text.PadLeft(2,'0'),kinhcc.Text,ngaysanh.Text,"");
             if (dausinhton.Visible) m.upd_dausinhton(ngayvv.Text, l_maql, (mach.Text != "") ? decimal.Parse(mach.Text) : 0, (nhietdo.Text != "") ? decimal.Parse(nhietdo.Text) : 0, huyetap.Text, (nang.Text != "") ? decimal.Parse(nang.Text) : 0, (cao.Text != "") ? decimal.Parse(cao.Text) : 0, (txtNhipTho.Text != "") ? decimal.Parse(txtNhipTho.Text) : 0);
             if (!m.upd_benhanpk(s_mabn, l_matd, l_maql, makp.Text, ngayvv.Text + " " + giovv.Text, int.Parse(dentu.Text), int.Parse(nhantu.Text), int.Parse(tendoituong.SelectedValue.ToString()), cd_chinh.Text, icd_chinh.Text, (s_ttlucrv != "") ? int.Parse(s_ttlucrv) : 0, mabs.Text, sovaovien.Text, (bienchung.Checked) ? 1 : 0, (taibien.Checked) ? 1 : 0, (giaiphau.Checked) ? 1 : 0, 0, i_userid))
 			{
