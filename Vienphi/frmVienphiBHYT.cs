@@ -3319,10 +3319,19 @@ namespace Vienphi
                             
                         }
                         if (dtyle > 0) d_cpvc += asotien;
-                        abhtra = (asotien - d_dichvu_tt) * dtyle + d_dichvu_tt_bhyt_tra;
-                        abntra = asotien - abhtra;
-                        amien = abntra * i_tylechinhsach / 100;
-                        abntra = abntra ;
+                        if (r["madoituong"].ToString() == "7") // truongthuy 20052014 BN bo doi  MIEN 100%
+                        {
+                            abhtra = 0;
+                            abntra = 0;
+                            amien = asotien;
+                        }
+                        else
+                        {
+                            abhtra = (asotien - d_dichvu_tt) * dtyle + d_dichvu_tt_bhyt_tra;
+                            abntra = asotien - abhtra;
+                            amien = abntra * i_tylechinhsach / 100;
+                            abntra = abntra;
+                        }
                     }
                     // f_Get_Tyle_BHYT(r["madoituong"].ToString(), r["mavp"].ToString());
                     if (dtyle == 0)
@@ -3350,12 +3359,12 @@ namespace Vienphi
                         }
                         abhtra = (asotien - d_dichvu_tt) * dtyle + d_dichvu_tt_bhyt_tra;
                         if (r["madoituong"].ToString() == "1" && atyle != 100 ) abhtra = abhtra * (bKhongcungchitra ? 100 : atyle) / 100;
-                       // truong thuy them doi voi BN bộ dội BHYT trả 100% 16052014
+                       // truong thuy them doi voi BN bộ dội BHYT trả 100% 20052014
                         else if(r["madoituong"].ToString() == "7")
                         {
-                            abhtra = asotien;
+                            abhtra = 0;
                             abntra = 0;
-                            amien = 0;
+                            amien = asotien;
 
                         }
  
@@ -3399,13 +3408,13 @@ namespace Vienphi
                     atongmien += amien;
                     
                 }
-               
-            //   toolStrip_Mien.Text = atongmien .ToString("###,###,##0.##");//21/03/14khuyen
-                toolStrip_Mien.Text = tongso.ToString("###,###,##0.##");//21/03/14khuyen
+
+                toolStrip_Mien.Text = atongmien.ToString("###,###,##0.##");//truongthuy 20052014
+              //  toolStrip_Mien.Text = tongso.ToString("###,###,##0.##");//21/03/14khuyen
                try
                 {
-                    // amientong = decimal.Parse(toolStrip_Mien.Text.Trim().Replace(",", ""));//21/03/14khuyen
-                    amientong = decimal.Parse(tongso.ToString().Trim().Replace(",", ""));////21/03/14khuyen
+                    amientong = decimal.Parse(toolStrip_Mien.Text.Trim().Replace(",", ""));//truongthuy 20052014
+                  //  amientong = decimal.Parse(tongso.ToString().Trim().Replace(",", ""));////21/03/14khuyen
                 }
                 catch
                 {
@@ -3534,227 +3543,6 @@ namespace Vienphi
             }
         }
 
-       /* private void f_Tinhtien()
-        {
-            try
-            {
-                bool bBHYT_Traituyen_tinh_Tyle_khac = m.bBHYT_Traituyen_tinh_Tyle_khac;
-                bool bTraituyen_bhtra = m.bTraituyen_bhtra;//true: trai tuyen tinh theo: ty le the * ty le trai tuyen
-                decimal asoluong = 0, adongia = 0, asotien = 0, abhtra = 0, abntra = 0, atongcp = 0, atongbhyttra = 0, atongbntra = 0, acongkhambhyt = 0, atamung = 0, atongsocp = 0, atyle = 0;
-                foreach (DataRow r in m_dsnhomvp.Tables[0].Rows)
-                {
-                    r["sotien"] = 0;
-                }
-                foreach (DataRow r in m_dshoadon.Tables[0].Rows)
-                {
-                    if (r["madoituong"].ToString() == "1")
-                    {
-                        try
-                        {
-                            adongia = decimal.Parse(r["dongia"].ToString().Trim().Replace(",", ""));
-                            if (adongia < 0)
-                            {
-                                adongia = 0;
-                            }
-                        }
-                        catch
-                        {
-                            adongia = 0;
-                        }
-                        try
-                        {
-                            asoluong = decimal.Parse(r["soluong"].ToString().Trim().Replace(",", ""));
-                        }
-                        catch
-                        {
-                            asoluong = 0;
-                        }
-                        asotien += Math.Round(asoluong * adongia, 2);
-                    }
-                }
-                //
-                get_tongchiphi_datra(txtMabn.Text + txtMabn1.Text, m_mavaovien, txtNgaythu.Text, txtSothe.Text);
-                //
-                if (cmbTraituyen.SelectedIndex != 0 && iTraituyen != 0 && !bTraituyen_bhtra) atyle = iTraituyen;
-                else if (cmbTraituyen.SelectedIndex != 0 && iTraituyen != 0 && bTraituyen_bhtra && asotien > m_v.ma13_st(m_v.nhom_duoc))
-                {
-                    atyle = f_get_Tylebhytchitra(9999999);
-                    atyle = atyle * decimal.Parse(iTraituyen.ToString()) / 100; 
-                }
-                else if (cmbTraituyen.SelectedIndex != 0 && iTraituyen != 0 && bTraituyen_bhtra && asotien <= m_v.ma13_st(m_v.nhom_duoc))
-                {
-                    atyle = decimal.Parse(iTraituyen.ToString());
-                }
-                else atyle = f_get_Tylebhytchitra(asotien + zsotien_datra);
-                decimal dtyle = 0;
-                bool bKhongcungchitra = false;
-                decimal d_dichvu_tt = 0, d_dichvu_tt_bhyt_tra = 0;
-                foreach (DataRow r in m_dshoadon.Tables[0].Rows)
-                {
-                    try
-                    {
-                        adongia = decimal.Parse(r["dongia"].ToString().Trim().Replace(",", ""));
-                        if (adongia < 0)
-                        {
-                            adongia = 0;
-                        }
-                    }
-                    catch
-                    {
-                        adongia = 0;
-                    }
-                    try
-                    {
-                        asoluong = decimal.Parse(r["soluong"].ToString().Trim().Replace(",", ""));
-                    }
-                    catch
-                    {
-                        asoluong = 0;
-                    }
-                    asotien = Math.Round(asoluong * adongia, 2);
-                    //tinh chi phi van chuyen nhung the ma BHYT cho huong 100%
-                    DataRow r1 = null;
-                    try { r1 = m_dsgiavp.Tables[0].Select("id='" + r["mavp"].ToString() + "'")[0]; }
-                    catch { r1 = null; }
-                    //	
-                    bKhongcungchitra = false; d_dichvu_tt_bhyt_tra = 0; d_dichvu_tt = 0;
-                    if (r1 != null)
-                    {
-                        dtyle = f_Get_Tyle_BHYT(r["madoituong"].ToString(), r["mavp"].ToString());//100% tra ve 1
-                        if (cmbTraituyen.SelectedIndex != 0 && iTraituyen != 0 && bBHYT_Traituyen_tinh_Tyle_khac && decimal.Parse(r1["bhyt"].ToString()) > decimal.Parse(r1["bhyt_tt"].ToString()))
-                        {
-                            bKhongcungchitra = true;
-                            d_dichvu_tt = asotien;
-                            d_dichvu_tt_bhyt_tra = asotien * decimal.Parse(r1["bhyt_tt"].ToString()) / 100;
-                        }
-                    }
-                    abhtra = (asotien - d_dichvu_tt) * dtyle + d_dichvu_tt_bhyt_tra;// f_Get_Tyle_BHYT(r["madoituong"].ToString(), r["mavp"].ToString());
-                    //
-                    if (r["madoituong"].ToString() == "1" && atyle != 100) abhtra = abhtra * (bKhongcungchitra ? 100 : atyle) / 100;
-                    else if (m_doituongmien.IndexOf("," + r["madoituong"].ToString() + ",") != -1) abhtra = asotien;
-                    abntra = asotien - abhtra;
-
-                    r["soluong"] = asoluong;
-                    r["dongia"] = adongia;
-                    r["sotien"] = asotien;
-                    r["bntra"] = abntra;
-                    r["bhyttra"] = abhtra;
-
-                    try
-                    {
-                        string aid_nhom = m_dsgiavp.Tables[0].Select("id=" + r["mavp"].ToString())[0]["id_nhom"].ToString();
-                        foreach (DataRow rn in m_dsnhomvp.Tables[0].Select("id=" + aid_nhom))
-                        {
-                            rn["sotien"] = (decimal.Parse(rn["sotien"].ToString()) + asotien);
-                        }
-                    }
-                    catch
-                    {
-                    }
-
-                    atongbntra += abntra;
-                    atongbhyttra += abhtra;
-                    atongcp += asotien;
-                }
-
-                m_dshoadon.AcceptChanges();
-
-                atamung = decimal.Parse(txtTamung.Text.Replace(",", ""));
-
-                //atongbhyttra = atongbhyttra * f_get_Tylebhytchitra(atongbhyttra) / 100;
-                atongbntra = atongcp - atongbhyttra;
-                try
-                {
-                    acongkhambhyt = decimal.Parse(get_congkhambhyt().Tables[0].Rows[0]["sotien"].ToString());
-                    toolStrip_CongkhamBHYT.Text = acongkhambhyt.ToString("###,###,##0.##");
-                }
-                catch
-                {
-                    toolStrip_CongkhamBHYT.Text = "0";
-                }
-
-                string s_ngay_7_cn = ((DateTime)(m_v.s_server_date)).DayOfWeek.ToString().ToUpper();
-                
-                if (dBhyt_Chitra_Toida_7CN != 0 && (s_ngay_7_cn == DayOfWeek.Saturday.ToString().ToUpper() || s_ngay_7_cn == DayOfWeek.Sunday.ToString().ToUpper()))
-                {
-                    if (atongcp + zsotien_datra > dBhyt_Chitra_Toida_7CN)
-                    {
-                        atongbhyttra = dBhyt_Chitra_Toida_7CN;
-                        //atongbhyttra = (atongcp+zsotien_datra <= dBhyt_Chitra_Toida_7CN) ? atongcp+zsotien_datra : dBhyt_Chitra_Toida_7CN;
-                        atongbntra = atongcp + zsotien_datra - atongbhyttra - zbhyt_datra;
-                    }
-                }
-                else if (lTraituyen!=0 && cmbTraituyen.SelectedIndex!=0 && atongbhyttra>lTraituyen)
-                {
-                    decimal tc = atongbhyttra + atongbntra;
-                    atongbhyttra = decimal.Parse(lTraituyen.ToString());
-                    atongbntra = tc - atongbhyttra;
-                }
-                atongsocp = atongbntra - atamung;
-                //
-
-                //
-                if (atongsocp < 0)
-                {
-                    toolStrip_Thucthu.Text = atongsocp.ToString("###,###,##0.##").Trim('-');
-                    txtPhaithu.Text = atongsocp.ToString("###,###,##0.##").Trim('-');
-                    lbBNTra.Text = lan.Change_language_MessageText("Phải hoàn:");
-                    lbPhaithu.Text = lan.Change_language_MessageText("Phải hoàn:");
-                }
-                else
-                {
-                    toolStrip_Thucthu.Text = atongsocp.ToString("###,###,##0.##");
-                    txtPhaithu.Text = atongsocp.ToString("###,###,##0.##");
-                    lbBNTra.Text = lan.Change_language_MessageText("Phải thu:");
-                    lbPhaithu.Text = lan.Change_language_MessageText("Phải thu:");
-                }
-                toolStrip_Tamung.Text = atamung.ToString("###,###,##0.##");
-                
-                toolStrip_BHYT.Text = atongbhyttra.ToString("###,###,##0.##");
-                toolStrip_Tongcong.Text = atongcp.ToString("###,###,##0.##");
-
-
-                txtCongkham.Text = acongkhambhyt.ToString("###,###,##0.##");
-                txtCPBHYT.Text = atongcp.ToString("###,###,##0.##");
-                txtMienBHYT.Text = atongbhyttra.ToString("###,###,##0.##");
-                txtBNTra_BHYT.Text = atongbntra.ToString("###,###,##0.##");
-                txtTamung.Text = atamung.ToString("###,###,##0.##");
-                try
-                {
-                    foreach (Control c in m_table.Controls)
-                    {
-                        if (c.Name.IndexOf("tbma_") == 0)
-                        {
-                            try
-                            {
-                                c.Text = decimal.Parse(m_dsnhomvp.Tables[0].Select("id=" + c.Name.Replace("tbma_", ""))[0]["sotien"].ToString()).ToString("###,###,##0.##");
-                                if (c.Text == "0")
-                                {
-                                    c.Text = "";
-                                }
-                            }
-                            catch
-                            {
-                                c.Text = "";
-                            }
-                            c.BackColor = (c.Text != "") ? Color.LightYellow : Color.White;
-                        }
-                    }
-                }
-                catch
-                {
-                }
-
-            }
-            catch//(Exception ex)
-            {
-                //MessageBox.Show(ex.ToString());
-                toolStrip_CongkhamBHYT.Text = "0";
-                toolStrip_Tongcong.Text = "0";
-                toolStrip_BHYT.Text = "0";
-                toolStrip_Thucthu.Text = "0";
-            }
-        } */
         /// <summary>
         /// v_asotien <= 0 tính tỷ lệ bhyt chi trả dựa vào tổng chi phí trong m_dshoadon; nếu v_asotien > 0 tính tỷ lệ bhyt chi trả đựa vào tổng tiền truyền vào
         /// </summary>
