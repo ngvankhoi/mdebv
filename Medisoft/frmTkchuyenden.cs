@@ -248,7 +248,8 @@ namespace Medisoft
             this.solieu.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.solieu.Items.AddRange(new object[] {
             "Nội trú",
-            "Ngoại trú"});
+            "Ngoại trú",
+            "Phòng khám"});
             this.solieu.Location = new System.Drawing.Point(88, 111);
             this.solieu.Name = "solieu";
             this.solieu.Size = new System.Drawing.Size(216, 21);
@@ -472,43 +473,52 @@ namespace Medisoft
             sql+= " left join " + m.user + ".bhyt bh on bh.maql=a.maql ";
             sql+=" where ";
 			sql+=" b.mabv<>'"+m.Mabv+"'";
-            if (solieu.SelectedIndex == 0)
+            switch (solieu.SelectedIndex)
             {
-                ds = m.get_data(sql+sql_exp);
-            }
-            else
-            {
-                sql = "select a.mabn,nullif(a.soluutru,' ') soluutru,c.hoten,substr(g.tuoivao,1,3)||decode(substr(g.tuoivao,4,1),0,'TU',decode(substr(g.tuoivao,4,1),1,'TH',decode(substr(g.tuoivao,4,1),2,'NG','GI'))) as tuoivao,";
-                sql += "nullif(c.sonha,' ') sonha,nullif(c.thon,' ') thon,i.tenpxa,j.tenquan,k.tentt,";
-                sql += "nullif(d.quanhe,' ')||' '||nullif(d.hoten,' ') as quanhe,b.chandoan chandoanngt,nullif(a.chandoan,' ') chandoanrv,";
-                sql += "to_char(a.ngay,'dd/mm/yyyy hh24:mi') ngayvao,to_char(a.ngayrv,'dd/mm/yyyy hh24:mi') ngayra,nullif(f.ten,' ') ttlucrv,h.tenbv,b.mabv,a.ngay,bh.traituyen,(case bh.traituyen when 0 then 1 when 1 then 0 else null end) as dungtuyen";
-                sql += " from " + m.user + ".benhanngtr a inner join " + m.user + ".noigioithieu b on a.maql=b.maql inner join " + m.user + ".btdbn c on a.mabn=c.mabn left join " + m.user + ".quanhe d on a.maql=d.maql left join " + m.user + ".ttxk f on a.ttlucrv=f.ma inner join " + m.user + ".lienhe g on a.maql=g.maql inner join " + m.user + ".dstt h on b.mabv=h.mabv inner join " + m.user + ".btdpxa i on c.maphuongxa=i.maphuongxa inner join " + m.user + ".btdquan j on c.maqu=j.maqu inner join " + m.user + ".btdtt k on c.matt=k.matt ";
-                sql += " left join  " + m.user + ".bhyt bh on bh.maql=a.maql ";
-                sql += " where ";
-                sql += " b.mabv<>'" + m.Mabv + "'";
+                case 0:
+                    {
+                        ds = m.get_data(sql + sql_exp);
+                        break;
+                    }
+                case 1:
+                    {
+                        sql = "select a.mabn,nullif(a.soluutru,' ') soluutru,c.hoten,substr(g.tuoivao,1,3)||decode(substr(g.tuoivao,4,1),0,'TU',decode(substr(g.tuoivao,4,1),1,'TH',decode(substr(g.tuoivao,4,1),2,'NG','GI'))) as tuoivao,";
+                        sql += "nullif(c.sonha,' ') sonha,nullif(c.thon,' ') thon,i.tenpxa,j.tenquan,k.tentt,";
+                        sql += "nullif(d.quanhe,' ')||' '||nullif(d.hoten,' ') as quanhe,b.chandoan chandoanngt,nullif(a.chandoan,' ') chandoanrv,";
+                        sql += "to_char(a.ngay,'dd/mm/yyyy hh24:mi') ngayvao,to_char(a.ngayrv,'dd/mm/yyyy hh24:mi') ngayra,nullif(f.ten,' ') ttlucrv,h.tenbv,b.mabv,a.ngay,bh.traituyen,(case bh.traituyen when 0 then 1 when 1 then 0 else null end) as dungtuyen";
+                        sql += " from " + m.user + ".benhanngtr a inner join " + m.user + ".noigioithieu b on a.maql=b.maql inner join " + m.user + ".btdbn c on a.mabn=c.mabn left join " + m.user + ".quanhe d on a.maql=d.maql left join " + m.user + ".ttxk f on a.ttlucrv=f.ma inner join " + m.user + ".lienhe g on a.maql=g.maql inner join " + m.user + ".dstt h on b.mabv=h.mabv inner join " + m.user + ".btdpxa i on c.maphuongxa=i.maphuongxa inner join " + m.user + ".btdquan j on c.maqu=j.maqu inner join " + m.user + ".btdtt k on c.matt=k.matt ";
+                        sql += " left join  " + m.user + ".bhyt bh on bh.maql=a.maql ";
+                        sql += " where ";
+                        sql += " b.mabv<>'" + m.Mabv + "'";
 
-                ds = m.get_data(sql + sql_exp);
+                        ds = m.get_data(sql + sql_exp);
 
-                sql = "select a.mabn,nullif(a.soluutru,' ') soluutru,c.hoten,substr(g.tuoivao,1,3)||decode(substr(g.tuoivao,4,1),0,'TU',decode(substr(g.tuoivao,4,1),1,'TH',decode(substr(g.tuoivao,4,1),2,'NG','GI'))) as tuoivao,";
-                sql += "nullif(c.sonha,' ') sonha,nullif(c.thon,' ') thon,i.tenpxa,j.tenquan,k.tentt,";
-                sql += "nullif(d.quanhe,' ')||' '||nullif(d.hoten,' ') as quanhe,b.chandoan chandoanngt,nullif(a.chandoan,' ') chandoanrv,";
-                sql += "to_char(a.ngay,'dd/mm/yyyy hh24:mi') ngayvao,to_char(a.ngay,'dd/mm/yyyy hh24:mi') ngayra,nullif(f.ten,' ') ttlucrv,h.tenbv,b.mabv,a.ngay,bh.traituyen,(case bh.traituyen when 0 then 1 when 1 then 0 else null end) as dungtuyen";
-                sql += " from xxx.benhanpk a inner join " + m.user + ".noigioithieu b on a.maql=b.maql inner join " + m.user + ".btdbn c on a.mabn=c.mabn left join " + m.user + ".quanhe d on a.maql=d.maql left join " + m.user + ".ttxk f on a.ttlucrv=f.ma inner join " + m.user + ".lienhe g on a.maql=g.maql inner join " + m.user + ".dstt h on b.mabv=h.mabv inner join " + m.user + ".btdpxa i on c.maphuongxa=i.maphuongxa inner join " + m.user + ".btdquan j on c.maqu=j.maqu inner join " + m.user + ".btdtt k on c.matt=k.matt ";
-                sql += " left join  xxx.bhyt bh on bh.maql=a.maql ";
-                sql += " where ";
-                sql += " b.mabv<>'" + m.Mabv + "'";
-                sql += " union all ";
-                sql += "select a.mabn,nullif(a.soluutru,' ') soluutru,c.hoten,substr(g.tuoivao,1,3)||decode(substr(g.tuoivao,4,1),0,'TU',decode(substr(g.tuoivao,4,1),1,'TH',decode(substr(g.tuoivao,4,1),2,'NG','GI'))) as tuoivao,";
-                sql += "nullif(c.sonha,' ') sonha,nullif(c.thon,' ') thon,i.tenpxa,j.tenquan,k.tentt,";
-                sql += "nullif(d.quanhe,' ')||' '||nullif(d.hoten,' ') as quanhe,b.chandoan chandoanngt,nullif(a.chandoan,' ') chandoanrv,";
-                sql += "to_char(a.ngay,'dd/mm/yyyy hh24:mi') ngayvao,to_char(a.ngay,'dd/mm/yyyy hh24:mi') ngayra,nullif(f.ten,' ') ttlucrv,h.tenbv,b.mabv,a.ngay,bh.traituyen,(case bh.traituyen when 0 then 1 when 1 then 0 else null end) as dungtuyen";
-                sql += " from xxx.benhancc a inner join " + m.user + ".noigioithieu b on a.maql=b.maql inner join " + m.user + ".btdbn c on a.mabn=c.mabn left join " + m.user + ".quanhe d on a.maql=d.maql left join " + m.user + ".ttxk f on a.ttlucrv=f.ma inner join " + m.user + ".lienhe g on a.maql=g.maql inner join " + m.user + ".dstt h on b.mabv=h.mabv inner join " + m.user + ".btdpxa i on c.maphuongxa=i.maphuongxa inner join " + m.user + ".btdquan j on c.maqu=j.maqu inner join " + m.user + ".btdtt k on c.matt=k.matt ";
-                sql += " left join xxx.bhyt bh on bh.maql=a.maql ";
-                sql += " where ";
-                sql += " b.mabv<>'" + m.Mabv + "'";
+                        sql = "select a.mabn,nullif(a.soluutru,' ') soluutru,c.hoten,substr(g.tuoivao,1,3)||decode(substr(g.tuoivao,4,1),0,'TU',decode(substr(g.tuoivao,4,1),1,'TH',decode(substr(g.tuoivao,4,1),2,'NG','GI'))) as tuoivao,";
+                        sql += "nullif(c.sonha,' ') sonha,nullif(c.thon,' ') thon,i.tenpxa,j.tenquan,k.tentt,";
+                        sql += "nullif(d.quanhe,' ')||' '||nullif(d.hoten,' ') as quanhe,b.chandoan chandoanngt,nullif(a.chandoan,' ') chandoanrv,";
+                        sql += "to_char(a.ngay,'dd/mm/yyyy hh24:mi') ngayvao,to_char(a.ngay,'dd/mm/yyyy hh24:mi') ngayra,nullif(f.ten,' ') ttlucrv,h.tenbv,b.mabv,a.ngay,bh.traituyen,(case bh.traituyen when 0 then 1 when 1 then 0 else null end) as dungtuyen";
+                        sql += " from xxx.benhanpk a inner join " + m.user + ".noigioithieu b on a.maql=b.maql inner join " + m.user + ".btdbn c on a.mabn=c.mabn left join " + m.user + ".quanhe d on a.maql=d.maql left join " + m.user + ".ttxk f on a.ttlucrv=f.ma inner join " + m.user + ".lienhe g on a.maql=g.maql inner join " + m.user + ".dstt h on b.mabv=h.mabv inner join " + m.user + ".btdpxa i on c.maphuongxa=i.maphuongxa inner join " + m.user + ".btdquan j on c.maqu=j.maqu inner join " + m.user + ".btdtt k on c.matt=k.matt ";
+                        sql += " left join  xxx.bhyt bh on bh.maql=a.maql ";
+                        sql += " where ";
+                        sql += " b.mabv<>'" + m.Mabv + "'";
+                        sql += " union all ";
+                        sql += "select a.mabn,nullif(a.soluutru,' ') soluutru,c.hoten,substr(g.tuoivao,1,3)||decode(substr(g.tuoivao,4,1),0,'TU',decode(substr(g.tuoivao,4,1),1,'TH',decode(substr(g.tuoivao,4,1),2,'NG','GI'))) as tuoivao,";
+                        sql += "nullif(c.sonha,' ') sonha,nullif(c.thon,' ') thon,i.tenpxa,j.tenquan,k.tentt,";
+                        sql += "nullif(d.quanhe,' ')||' '||nullif(d.hoten,' ') as quanhe,b.chandoan chandoanngt,nullif(a.chandoan,' ') chandoanrv,";
+                        sql += "to_char(a.ngay,'dd/mm/yyyy hh24:mi') ngayvao,to_char(a.ngay,'dd/mm/yyyy hh24:mi') ngayra,nullif(f.ten,' ') ttlucrv,h.tenbv,b.mabv,a.ngay,bh.traituyen,(case bh.traituyen when 0 then 1 when 1 then 0 else null end) as dungtuyen";
+                        sql += " from xxx.benhancc a inner join " + m.user + ".noigioithieu b on a.maql=b.maql inner join " + m.user + ".btdbn c on a.mabn=c.mabn left join " + m.user + ".quanhe d on a.maql=d.maql left join " + m.user + ".ttxk f on a.ttlucrv=f.ma inner join " + m.user + ".lienhe g on a.maql=g.maql inner join " + m.user + ".dstt h on b.mabv=h.mabv inner join " + m.user + ".btdpxa i on c.maphuongxa=i.maphuongxa inner join " + m.user + ".btdquan j on c.maqu=j.maqu inner join " + m.user + ".btdtt k on c.matt=k.matt ";
+                        sql += " left join xxx.bhyt bh on bh.maql=a.maql ";
+                        sql += " where ";
+                        sql += " b.mabv<>'" + m.Mabv + "'";
 
-                ds.Merge(m.get_data_mmyy(sql+sql_exp,tu.Text,den.Text,false));
+                        ds.Merge(m.get_data_mmyy(sql + sql_exp, tu.Text, den.Text, false));
+                        break;
+                    }
+                case 3:
+                    {
 
+                        break;
+                    }
             }
             //DateTime mindate=DateTime.MaxValue, maxdate=DateTime.MinValue;
             //foreach (DataRow dsr in ds.Tables[0].Rows)
