@@ -614,7 +614,8 @@ namespace Medisoft
 			DataRow[] r;
 			Int16 iRec;
 			decimal l_tong;
-			for(int k=3;k<ds.Tables[0].Columns.Count;k++)
+			// for(int k=3;k<ds.Tables[0].Columns.Count;k++) goc truongthuy 17052014
+            for (int k = 3; k <= 4; k++)
 			{
 				r=ds.Tables[0].Select(exp);
 				iRec=Convert.ToInt16(r.Length);

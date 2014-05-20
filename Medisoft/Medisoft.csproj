@@ -243,7 +243,7 @@
     </Reference>
     <Reference Include="Npgsql, Version=0.7.0.0, Culture=neutral, PublicKeyToken=5d8b90d52f46fda7">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\LibMedi\bin\Debug\Npgsql.dll</HintPath>
+      <HintPath>..\Duoc\bin\Debug\Npgsql.dll</HintPath>
     </Reference>
     <Reference Include="office, Version=11.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
       <SpecificVersion>False</SpecificVersion>
@@ -384,6 +384,12 @@
     <Compile Include="clsDoitiengviet.cs" />
     <Compile Include="ColorComboBox.cs">
       <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
     </Compile>
     <Compile Include="frmDoiTuongBoDoi.cs">
       <SubType>Form</SubType>
@@ -1767,6 +1773,10 @@
     <EmbeddedResource Include="ColorComboBox.resx">
       <DependentUpon>ColorComboBox.cs</DependentUpon>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Form2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmDoiTuongBoDoi.resx">
       <DependentUpon>frmDoiTuongBoDoi.cs</DependentUpon>

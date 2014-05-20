@@ -54,117 +54,111 @@
     </xs:element>
   </xs:schema>
   <Table>
-    <id>-385</id>
-    <ma>NSD002</ma>
-    <ten>NS đại tràng ống mềm có sinh thiết</ten>
-    <dvt>lần</dvt>
-    <hamluong />
-    <tenhc />
-    <soluong>1.0000</soluong>
-    <giaban>200000.0000</giaban>
-    <giamua>200000.0000</giamua>
+    <id>300</id>
+    <ma>ACE004</ma>
+    <ten>Aceblue</ten>
+    <dvt>gói</dvt>
+    <hamluong>200mg</hamluong>
+    <tenhc>Acetylcystein</tenhc>
+    <soluong>10.0000</soluong>
+    <giaban>1200.0000</giaban>
+    <giamua>1200.0000</giamua>
     <cachdung />
-    <id_nhom>2</id_nhom>
-    <tennhom>Chẩn đoán hình ảnh</tennhom>
-    <stt_nhom>2</stt_nhom>
-    <mabn>14037137</mabn>
-    <hoten>THUY TEST NTRU</hoten>
+    <id_nhom>15</id_nhom>
+    <tennhom>Thuốc</tennhom>
+    <stt_nhom>15</stt_nhom>
+    <mabn>14037141</mabn>
+    <hoten>UHUHUH</hoten>
     <namsinh>1988</namsinh>
     <diachi>, , Không Xác Định, Không Xác Định, Bình Dương</diachi>
-    <sothe>HN736583525078365739</sothe>
-    <denngay>31/12/2014</denngay>
-    <ngay>02/05/2014</ngay>
+    <ngay>10/05/2014</ngay>
     <userid>0</userid>
     <sohieu>14_VPTG</sohieu>
-    <sobienlai>19002</sobienlai>
-    <sotien>349000.0000</sotien>
-    <bhyttra>279200.0000</bhyttra>
-    <bntra>69800.0000</bntra>
-    <mabv>01005</mabv>
-    <tenkp>Phòng 08</tenkp>
-    <maicd>T98.0</maicd>
-    <chandoan>Di chứng do tác động của vật lạ vào qua lỗ tự nhiên</chandoan>
+    <sobienlai>-2</sobienlai>
+    <sotien>762000.0000</sotien>
+    <bhyttra>762000.0000</bhyttra>
+    <bntra>0.0000</bntra>
+    <tenkp>Phòng 03</tenkp>
+    <maicd />
+    <chandoan />
     <phai>0</phai>
     <tamung>0</tamung>
     <thanhtoan>0</thanhtoan>
     <sttcho>0</sttcho>
-    <id_loai>247</id_loai>
+    <id_loai>0</id_loai>
+    <msthue />
     <mien>0.0000</mien>
   </Table>
   <Table>
-    <id>-384</id>
-    <ma>NSD001</ma>
-    <ten>NS đại tràng ống mềm không sinh thiết</ten>
-    <dvt>lần</dvt>
-    <hamluong />
-    <tenhc />
-    <soluong>1.0000</soluong>
-    <giaban>139000.0000</giaban>
-    <giamua>139000.0000</giamua>
-    <cachdung />
-    <id_nhom>2</id_nhom>
-    <tennhom>Chẩn đoán hình ảnh</tennhom>
-    <stt_nhom>2</stt_nhom>
-    <mabn>14037137</mabn>
-    <hoten>THUY TEST NTRU</hoten>
-    <namsinh>1988</namsinh>
-    <diachi>, , Không Xác Định, Không Xác Định, Bình Dương</diachi>
-    <sothe>HN736583525078365739</sothe>
-    <denngay>31/12/2014</denngay>
-    <ngay>02/05/2014</ngay>
-    <userid>0</userid>
-    <sohieu>14_VPTG</sohieu>
-    <sobienlai>19002</sobienlai>
-    <sotien>349000.0000</sotien>
-    <bhyttra>279200.0000</bhyttra>
-    <bntra>69800.0000</bntra>
-    <mabv>01005</mabv>
-    <tenkp>Phòng 08</tenkp>
-    <maicd>T98.0</maicd>
-    <chandoan>Di chứng do tác động của vật lạ vào qua lỗ tự nhiên</chandoan>
-    <phai>0</phai>
-    <tamung>0</tamung>
-    <thanhtoan>0</thanhtoan>
-    <sttcho>0</sttcho>
-    <id_loai>247</id_loai>
-    <mien>0.0000</mien>
-  </Table>
-  <Table>
-    <id>-59</id>
-    <ma>TAP006</ma>
-    <ten>Tập do liệt ngoại biên</ten>
+    <id>-387</id>
+    <ma>NST002</ma>
+    <ten>NS trực tràng có sinh thiết</ten>
     <dvt>Lần</dvt>
     <hamluong />
     <tenhc />
     <soluong>1.0000</soluong>
-    <giaban>10000.0000</giaban>
-    <giamua>10000.0000</giamua>
+    <giaban>150000.0000</giaban>
+    <giamua>150000.0000</giamua>
     <cachdung />
-    <id_nhom>19</id_nhom>
-    <tennhom>Vật lý trị liệu </tennhom>
-    <stt_nhom>19</stt_nhom>
-    <mabn>14037137</mabn>
-    <hoten>THUY TEST NTRU</hoten>
+    <id_nhom>2</id_nhom>
+    <tennhom>Chẩn đoán hình ảnh</tennhom>
+    <stt_nhom>2</stt_nhom>
+    <mabn>14037141</mabn>
+    <hoten>UHUHUH</hoten>
     <namsinh>1988</namsinh>
     <diachi>, , Không Xác Định, Không Xác Định, Bình Dương</diachi>
-    <sothe>HN736583525078365739</sothe>
-    <denngay>31/12/2014</denngay>
-    <ngay>02/05/2014</ngay>
+    <ngay>10/05/2014</ngay>
     <userid>0</userid>
     <sohieu>14_VPTG</sohieu>
-    <sobienlai>19002</sobienlai>
-    <sotien>349000.0000</sotien>
-    <bhyttra>279200.0000</bhyttra>
-    <bntra>69800.0000</bntra>
-    <mabv>01005</mabv>
-    <tenkp>Phòng 08</tenkp>
-    <maicd>T98.0</maicd>
-    <chandoan>Di chứng do tác động của vật lạ vào qua lỗ tự nhiên</chandoan>
+    <sobienlai>-2</sobienlai>
+    <sotien>762000.0000</sotien>
+    <bhyttra>762000.0000</bhyttra>
+    <bntra>0.0000</bntra>
+    <tenkp>Phòng 03</tenkp>
+    <maicd />
+    <chandoan />
     <phai>0</phai>
     <tamung>0</tamung>
     <thanhtoan>0</thanhtoan>
     <sttcho>0</sttcho>
-    <id_loai>73</id_loai>
+    <id_loai>247</id_loai>
+    <msthue />
+    <mien>0.0000</mien>
+  </Table>
+  <Table>
+    <id>-468</id>
+    <ma>XNH001</ma>
+    <ten>XN HCV</ten>
+    <dvt>Lần</dvt>
+    <hamluong />
+    <tenhc />
+    <soluong>10.0000</soluong>
+    <giaban>60000.0000</giaban>
+    <giamua>60000.0000</giamua>
+    <cachdung />
+    <id_nhom>1</id_nhom>
+    <tennhom>Xét nghiệm</tennhom>
+    <stt_nhom>1</stt_nhom>
+    <mabn>14037141</mabn>
+    <hoten>UHUHUH</hoten>
+    <namsinh>1988</namsinh>
+    <diachi>, , Không Xác Định, Không Xác Định, Bình Dương</diachi>
+    <ngay>10/05/2014</ngay>
+    <userid>0</userid>
+    <sohieu>14_VPTG</sohieu>
+    <sobienlai>-2</sobienlai>
+    <sotien>762000.0000</sotien>
+    <bhyttra>762000.0000</bhyttra>
+    <bntra>0.0000</bntra>
+    <tenkp>Phòng 03</tenkp>
+    <maicd />
+    <chandoan />
+    <phai>0</phai>
+    <tamung>0</tamung>
+    <thanhtoan>0</thanhtoan>
+    <sttcho>0</sttcho>
+    <id_loai>253</id_loai>
+    <msthue />
     <mien>0.0000</mien>
   </Table>
 </NewDataSet>

@@ -1373,4 +1373,9 @@
     <text>E11. User thường không được phép xuất excel</text>
     <vie>E11. User thường không được phép xuất excel</vie>
   </Table>
+  <Table>
+    <control_name>c180</control_name>
+    <text>B.60. Lọc thuốc so với tồn tối thiểu</text>
+    <vie>B.60. Lọc thuốc so với tồn tối thiểu</vie>
+  </Table>
 </NewDataSet>

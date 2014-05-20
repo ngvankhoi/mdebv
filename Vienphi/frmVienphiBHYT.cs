@@ -3350,6 +3350,15 @@ namespace Vienphi
                         }
                         abhtra = (asotien - d_dichvu_tt) * dtyle + d_dichvu_tt_bhyt_tra;
                         if (r["madoituong"].ToString() == "1" && atyle != 100 ) abhtra = abhtra * (bKhongcungchitra ? 100 : atyle) / 100;
+                       // truong thuy them doi voi BN bộ dội BHYT trả 100% 16052014
+                        else if(r["madoituong"].ToString() == "7")
+                        {
+                            abhtra = asotien;
+                            abntra = 0;
+                            amien = 0;
+
+                        }
+ 
                         else if (m_doituongmien.IndexOf("," + r["madoituong"].ToString() + ",") != -1 && !TraiTuyenKhongTinhTyLe)
                         {
                             amien = asotien;//Thuy 13.05.2013
@@ -4679,10 +4688,13 @@ namespace Vienphi
                         aexp += " and a.paid=0 and a.idttrv=0";
                     }
                     else aexp += " and a.idttrv!=0";
-                    if (m_doituongthu.Trim() != "")
-                    {
-                        aexp += " and a.madoituong in(" + m_doituongthu.Trim().Trim(',') + ")";
-                    }
+
+                   
+                        if (m_doituongthu.Trim() != "")
+                        {
+                            aexp += " and a.madoituong in(" + m_doituongthu.Trim().Trim(',') + ")";
+                        }
+                   
                     sql = "select b.ma, b.ten, b.dvt, a.soluong, a.dongia, to_number(0,'9') as giaban, to_number(0,'9') as gia_bh, a.soluong*a.dongia as sotien, to_number(0,'9') as bhyttra, to_number(0,'9') as bntra, a.mavp, a.madoituong ,0 as loai,b.dichvu,f.ma nhom ";
                     sql += ",to_char(a.ngay,'dd/MM/yyyy') as ngay,a.mabs, a.id as idtonghop, to_number('0') as stttonghop ";//gam 14/02/2012
                     sql += " from medibvmmyy.v_chidinh a inner join medibv.v_giavp b on a.mavp=b.id left join medibv.doituong c on a.madoituong=c.madoituong left join medibv.btdkp_bv d on a.makp=d.makp ";
@@ -4818,9 +4830,16 @@ namespace Vienphi
                     {
                         aexp += " and a.quyenso=0";
                     }
-                    if (m_doituongthu.Trim() != "")
+                    if (cbDoituongTD.SelectedValue.ToString() == "7")
                     {
-                        aexp += " and a.maphu in(" + m_doituongthu.Trim().Trim(',') + ")";
+                        aexp += " and a.maphu in(" + cbDoituongTD.SelectedValue.ToString() + ")";
+                    }
+                    else
+                    {
+                        if (m_doituongthu.Trim() != "")
+                        {
+                            aexp += " and a.maphu in(" + m_doituongthu.Trim().Trim(',') + ")";
+                        }
                     }
                     if (!tmn_khongcungchitra.Checked)
                     {
@@ -5121,7 +5140,7 @@ namespace Vienphi
                 {
                     sql += " union all ";
                 }
-                sql += "select maql, mavaovien,to_char(ngay,'dd/mm/yyyy hh24:mi') as ngay,to_char(ngay,'yyyymmddhh24:mi') as ngay1, makp,1 as madoituong,loaiba as loaibn, nvl(maicd,' ') as maicd, nvl(chandoan,' ' ) as chandoan, nvl(mabs,' ') as mabs from medibvmmyy.bhytkb where mabn='" + amabn + "' and (sobienlai=0 or sobienlai is null) and (idttrv=0 or idttrv is null)";
+                sql += "select maql, mavaovien,to_char(ngay,'dd/mm/yyyy hh24:mi') as ngay,to_char(ngay,'yyyymmddhh24:mi') as ngay1, makp,maphu as madoituong,loaiba as loaibn, nvl(maicd,' ') as maicd, nvl(chandoan,' ' ) as chandoan, nvl(mabs,' ') as mabs from medibvmmyy.bhytkb where mabn='" + amabn + "' and (sobienlai=0 or sobienlai is null) and (idttrv=0 or idttrv is null)";
                 //end //
                 DataSet ads = null, ads1 = null, ads2 = null;
                 if (sql1 != "")

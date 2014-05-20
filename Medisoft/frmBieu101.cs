@@ -614,12 +614,12 @@ namespace Medisoft
 
 		private void Tongcong()
 		{
-			for(int k=3;k<ds.Tables[0].Columns.Count;k++)
-			{
-				sum("ma in (4,5)","",k);
-				sum("ma in (2,3,6,7)","A",k);
-				sum("ma>=10","B",k);
-			}
+			//for(int k=3;k<ds.Tables[0].Columns.Count;k++)
+			//{
+				sum("ma in (4,5)","",3);  // goc 3=k 
+				sum("ma in (2,3,6,7)","A",3);
+				sum("ma>=10","B",3);
+			//}
 		}
 		
 		private void sum(string exp,string stt,int k)
@@ -629,7 +629,15 @@ namespace Medisoft
 			decimal l_tong=0;
 			r=ds.Tables[0].Select(exp);
 			iRec=Convert.ToInt16(r.Length);
-			for(Int16 i=0;i<iRec;i++) l_tong+=decimal.Parse(r[i][k].ToString());
+            for (Int16 i = 0; i < iRec; i++)
+            {
+                try
+                {
+                    l_tong += decimal.Parse(r[i][k].ToString());
+                }
+                catch { }
+            }
+
 			if (stt=="") m.updrec_07(ds.Tables[0],3,k,Convert.ToInt64(l_tong));
 			else m.updrec_02(ds.Tables[0],stt,k,l_tong);
 		}

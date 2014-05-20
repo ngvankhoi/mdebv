@@ -308,6 +308,7 @@ namespace Duoc
         private DataGrid dataGrid4;
         private CheckBox c603;
         private CheckBox c5011;
+        private CheckBox c180;
         private IContainer components;
 
 		public frmCauhinh(LibDuoc.AccessData acc,string mmyy,int nhom,int userid,bool giaban,bool admin)
@@ -614,6 +615,7 @@ namespace Duoc
             this.label18 = new System.Windows.Forms.Label();
             this.dataGrid1 = new System.Windows.Forms.DataGrid();
             this.tabPage5 = new System.Windows.Forms.TabPage();
+            this.c5011 = new System.Windows.Forms.CheckBox();
             this.c1017 = new System.Windows.Forms.CheckBox();
             this.dataGrid4 = new System.Windows.Forms.DataGrid();
             this.c1032 = new System.Windows.Forms.CheckBox();
@@ -632,7 +634,7 @@ namespace Duoc
             this.c77 = new System.Windows.Forms.CheckBox();
             this.c87 = new System.Windows.Forms.CheckBox();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
-            this.c5011 = new System.Windows.Forms.CheckBox();
+            this.c180 = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.c10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.c22)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.c44)).BeginInit();
@@ -1905,6 +1907,7 @@ namespace Duoc
             // 
             this.tabPage2.AutoScroll = true;
             this.tabPage2.BackColor = System.Drawing.Color.Transparent;
+            this.tabPage2.Controls.Add(this.c180);
             this.tabPage2.Controls.Add(this.c179);
             this.tabPage2.Controls.Add(this.c169);
             this.tabPage2.Controls.Add(this.c160);
@@ -1989,6 +1992,7 @@ namespace Duoc
             this.c179.Size = new System.Drawing.Size(242, 21);
             this.c179.TabIndex = 205;
             this.c179.Text = "B59. Số phiếu nhập tự động theo user";
+            this.c179.CheckedChanged += new System.EventHandler(this.c179_CheckedChanged);
             // 
             // c169
             // 
@@ -3556,6 +3560,15 @@ namespace Duoc
             this.tabPage5.Text = "5";
             this.tabPage5.UseVisualStyleBackColor = true;
             // 
+            // c5011
+            // 
+            this.c5011.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.c5011.Location = new System.Drawing.Point(8, 324);
+            this.c5011.Name = "c5011";
+            this.c5011.Size = new System.Drawing.Size(337, 20);
+            this.c5011.TabIndex = 229;
+            this.c5011.Text = "E11. User thường không được phép xuất excel";
+            // 
             // c1017
             // 
             this.c1017.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -3742,14 +3755,15 @@ namespace Duoc
             this.c87.Visible = false;
             this.c87.KeyDown += new System.Windows.Forms.KeyEventHandler(this.c02_KeyDown);
             // 
-            // c5011
+            // c180
             // 
-            this.c5011.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.c5011.Location = new System.Drawing.Point(8, 324);
-            this.c5011.Name = "c5011";
-            this.c5011.Size = new System.Drawing.Size(337, 20);
-            this.c5011.TabIndex = 229;
-            this.c5011.Text = "E11. User thường không được phép xuất excel";
+            this.c180.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.c180.Location = new System.Drawing.Point(805, 27);
+            this.c180.Name = "c180";
+            this.c180.Size = new System.Drawing.Size(242, 21);
+            this.c180.TabIndex = 206;
+            this.c180.Text = "B.60. Lọc thuốc so với tồn tối thiểu";
+            this.c180.CheckedChanged += new System.EventHandler(this.c180_CheckedChanged);
             // 
             // frmCauhinh
             // 
@@ -3773,9 +3787,9 @@ namespace Duoc
             this.MinimizeBox = false;
             this.Name = "frmCauhinh";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Cấu hình thông số hệ thống";
-            this.Load += new System.EventHandler(this.frmCauhinh_Load);
+            this.Text = "Lọc ";
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.frmCauhinh_KeyDown);
+            this.Load += new System.EventHandler(this.frmCauhinh_Load);
             ((System.ComponentModel.ISupportInitialize)(this.c10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.c22)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.c44)).EndInit();
@@ -4320,6 +4334,8 @@ namespace Duoc
 
                     case 5011: c5011.Checked = (r["ten"].ToString().Trim() == "1");
                         break;
+                    case 180: c180.Checked = (r["ten"].ToString().Trim() == "1");  //truongthuy 19052014 Loc nhung thuoc it hon so voi ton toi thieu B60 
+                        break;
 				}
 			}
 			if (c105.Value==0) c105.Value=7;
@@ -4578,7 +4594,7 @@ namespace Duoc
 
             d.upd_thongso(i_nhom, 216, "Ma noi dang ky kham chua benh", c216.Text);//gam 20/03/2012
             d.upd_thongso(i_nhom, 217, "Vi tri ma noi dang ky kham chua benh",c217.Text);//gam 20/03/2012
-           
+            d.upd_thongso(i_nhom, 180, "Loc thuoc ton it hon so voi ton toi thieu", (c180.Checked) ? "1" : "0");//truongthuy 19052014  
             //
             d.upd_thongso(i_nhom, 5011, "Cam xuat excel", (c5011.Checked) ? "1" : "0");
             //
@@ -5246,6 +5262,16 @@ namespace Duoc
             {
                 dataGrid4.Enabled = c1017.Checked;
             }
+        }
+
+        private void c180_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void c179_CheckedChanged(object sender, EventArgs e)
+        {
+
         }
     
     }

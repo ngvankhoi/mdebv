@@ -1611,6 +1611,19 @@ namespace LibDuoc
             if (ds.Tables[0].Rows.Count == 0) return false;
             return ds.Tables[0].Rows[0][0].ToString() == "1";
         }
+        /// <summary>
+        /// Option B60 để lọc tồn tối thiểu : khi in trong menu : Dược -> Tiện ích -> Kho ->Tổng hợp ->In -> nếu check vào 
+        /// option này thì chỉ lọc những thuốc ít hơn tồn tối thiểu .Còn không thì int hết 
+        /// </summary>
+        /// <param name="d_nhom"></param>
+        /// <returns></returns>
+        public bool bLoctontoithieu(int d_nhom)
+        {
+            ds = get_data("select ten from " + user + ".d_thongso where id=180 and nhom=" + d_nhom);
+            if (ds.Tables[0].Rows.Count == 0) return false;
+            return ds.Tables[0].Rows[0][0].ToString() == "1";
+        }
+
 
         public bool bSophieu_theokho(int d_nhom)
         {
@@ -12328,7 +12341,7 @@ namespace LibDuoc
             return true;
         }
         // khuyen 12.02/2014 public bool upd_qn_benhnhan(string d_mabn, decimal d_mavaovien, int d_capbac,int d_chucvu,int d_donvi)
-        public bool upd_qn_benhnhan(string d_mabn, decimal d_mavaovien, int d_capbac, int d_chucvu, int d_donvicap1, int d_donvicap2, int d_donvicap3, int d_donvicap4,string d_tieudoan)//khuyen 12/02/2014
+        public bool upd_qn_benhnhan(string d_mabn, decimal d_mavaovien, int d_capbac, int d_chucvu, int d_donvicap1, int d_donvicap2, int d_donvicap3, int d_donvicap4)//khuyen 12/02/2014
         {
             #region khuyen bo 12/02/2014
             /* sql = " update " + user + ".qn_benhnhan set mabn=:d_mabn,idcapbac=:d_capbac,idchucvu=:d_chucvu,iddonvi=:d_donvi where mavaovien=:d_mavaovien ";
@@ -12366,7 +12379,7 @@ namespace LibDuoc
             }*/
             #endregion
             //khuyen 12/02/2014 do thay doi cau truc bang
-            sql = " update " + user + ".qn_benhnhan set mabn=:d_mabn,idcapbac=:d_capbac,idchucvu=:d_chucvu,iddonvicap1=:d_donvicap1,iddonvicap2=:d_donvicap2,iddonvicap3=:d_donvicap3,iddonvicap4=:d_donvicap4,tieudoan=:d_tieudoan where mavaovien=:d_mavaovien ";
+            sql = " update " + user + ".qn_benhnhan set mabn=:d_mabn,idcapbac=:d_capbac,idchucvu=:d_chucvu,iddonvicap1=:d_donvicap1,iddonvicap2=:d_donvicap2,iddonvicap3=:d_donvicap3,iddonvicap4=:d_donvicap4 where mavaovien=:d_mavaovien ";
             if (con != null)
             {
                 con.Close(); con.Dispose();
@@ -12384,14 +12397,13 @@ namespace LibDuoc
                 cmd.Parameters.Add("d_donvicap2", NpgsqlDbType.Numeric).Value = d_donvicap2;
                 cmd.Parameters.Add("d_donvicap3", NpgsqlDbType.Numeric).Value = d_donvicap3;
                 cmd.Parameters.Add("d_donvicap4", NpgsqlDbType.Numeric).Value = d_donvicap4;
-                cmd.Parameters.Add("d_tieudoan", NpgsqlDbType.Varchar).Value = d_tieudoan;
                 cmd.Parameters.Add("d_mavaovien", NpgsqlDbType.Numeric).Value = d_mavaovien;
                 int irec = cmd.ExecuteNonQuery();
                 cmd.Dispose();
                 if (irec == 0)
                 {
-                    sql = "insert into " + user + ".qn_benhnhan(mabn,mavaovien,idcapbac,idchucvu,iddonvicap1,iddonvicap2,iddonvicap3,iddonvicap4,tieudoan)";
-                    sql += " values (:d_mabn,:d_mavaovien,:d_capbac,:d_chucvu,:d_donvicap1,:d_donvicap2,:d_donvicap3,:d_donvicap4,:d_tieudoan)";
+                    sql = "insert into " + user + ".qn_benhnhan(mabn,mavaovien,idcapbac,idchucvu,iddonvicap1,iddonvicap2,iddonvicap3,iddonvicap4)";
+                    sql += " values (:d_mabn,:d_mavaovien,:d_capbac,:d_chucvu,:d_donvicap1,:d_donvicap2,:d_donvicap3,:d_donvicap4)";
                     cmd = new NpgsqlCommand(sql, con);
                     cmd.CommandType = CommandType.Text;
                     cmd.Parameters.Add("d_mabn", NpgsqlDbType.Varchar).Value = d_mabn;
@@ -12402,7 +12414,7 @@ namespace LibDuoc
                     cmd.Parameters.Add("d_donvicap2", NpgsqlDbType.Numeric).Value = d_donvicap2;
                     cmd.Parameters.Add("d_donvicap3", NpgsqlDbType.Numeric).Value = d_donvicap3;
                     cmd.Parameters.Add("d_donvicap4", NpgsqlDbType.Numeric).Value = d_donvicap4;
-                    cmd.Parameters.Add("d_tieudoan", NpgsqlDbType.Varchar).Value = d_tieudoan;
+              
                     irec = cmd.ExecuteNonQuery();
                     cmd.Dispose();
                 }

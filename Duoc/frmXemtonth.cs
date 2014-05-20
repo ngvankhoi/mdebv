@@ -557,11 +557,20 @@ namespace Duoc
 				if (r1!=null) r1["tongton"]=r["ton"].ToString();
 			}
 			DataSet dsxml=dstmp.Copy();
-			dsxml.Clear();
-			dsxml.Merge(dstmp.Tables[0].Select("tongton<toithieu"));
+            string tenbaocao = "";
+            if (d.bLoctontoithieu(i_nhom))
+            {
+                dsxml.Clear();
+                dsxml.Merge(dstmp.Tables[0].Select("tongton<toithieu"));
+                tenbaocao = "DANH SÁCH THUỐC DƯỚI TỒN TỐI THIỂU";
+            }
+            else
+            {
+                tenbaocao = "DANH SÁCH THUỐC TỒN KHO ";
+            }
 			if (dsxml.Tables[0].Rows.Count>0)
 			{
-				frmReport f1=new frmReport(d,dsxml.Tables[0],i_userid,"d_tonkho.rpt","DANH SÁCH THUỐC DƯỚI TỒN TỐI THIỂU","Tháng "+s_mmyy.Substring(0,2)+" Năm 20"+s_mmyy.Substring(2),"","","","","","","","");
+                frmReport f1 = new frmReport(d, dsxml.Tables[0], i_userid, "d_tonkho.rpt", tenbaocao, "Tháng " + s_mmyy.Substring(0, 2) + " Năm 20" + s_mmyy.Substring(2), "", "", "", "", "", "", "", "");
 				f1.ShowDialog(this);
 			}
 		}

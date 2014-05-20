@@ -298,6 +298,11 @@ namespace Medisoft
 
 		private void cmdOk_Click(object sender, System.EventArgs e)
         {
+            
+            
+            
+            
+            
             m.setStandar();
             string Ngaydemo = m.Ngaydemo("medisoft");
             if (Ngaydemo != "")

@@ -8407,6 +8407,7 @@ namespace LibMedi
 
         public bool execute_data(string sql)
         {
+            
             sql = sql.Replace("medibv.", user + ".");
             try
             {
@@ -67872,49 +67873,148 @@ namespace LibMedi
         {
             /*sql = "update medibv." + m_table + " set ma=:m_ma,idloaidv=:m_idloaidv,ten=:m_ten";
             sql += " where id=:m_id";*/
-            sql = "update medibv." + m_table + " set ma=:m_ma,iddonvicap1=:m_iddonvicap1,ten=:m_ten";//khuyenn 15/02/14 thay "idloaidv=:m_idloaidv" ="iddonvicap1=:m_iddonvicap1"
-            sql += " where id=:m_id";
-            if (con != null)
+            if (m_table == "qn_dmdonvi_cap2")
             {
-                con.Close(); con.Dispose();
-            }
-            con = new NpgsqlConnection(sConn);
-            try
-            {
-                con.Open();
-                cmd = new NpgsqlCommand(sql, con);
-                cmd.CommandType = CommandType.Text;
-                cmd.Parameters.Add("m_ma", NpgsqlDbType.Varchar, 20).Value = m_ma;
-                //khuyen 15/02/14 cmd.Parameters.Add("m_idloaidv", NpgsqlDbType.Integer, 5).Value = m_idloaidv;
-                cmd.Parameters.Add("m_iddonvicap1", NpgsqlDbType.Integer, 5).Value = m_iddonvicap1;//khuyen 15/2/14 thay m_idloaidv=m_iddonvicap1
-                cmd.Parameters.Add("m_ten", NpgsqlDbType.Text).Value = m_ten;
-                cmd.Parameters.Add("m_id", NpgsqlDbType.Integer, 5).Value = m_id;
-                int irec = cmd.ExecuteNonQuery();
-                cmd.Dispose();
-                if (irec == 0)
+                sql = "update medibv." + m_table + " set ma=:m_ma,iddonvicap1=:m_iddonvicap1,ten=:m_ten";//khuyenn 15/02/14 thay "idloaidv=:m_idloaidv" ="iddonvicap1=:m_iddonvicap1"
+                sql += " where id=:m_id";
+                if (con != null)
                 {
-                   //khuyen 15/02/14 sql = "insert into medibv." + m_table + " (id,ma,idloaidv,ten) values (:m_id,:m_ma,:m_idloaidv,:m_ten)";
-                    sql = "insert into medibv." + m_table + " (id,ma,iddonvicap1,ten) values (:m_id,:m_ma,:m_iddonvicap1,:m_ten)";//khuyen 15/02/14 thay idloaidv=iddonvicap1,m_idloaidv=m_iddonvicap1
+                    con.Close(); con.Dispose();
+                }
+                con = new NpgsqlConnection(sConn);
+                try
+                {
+                    con.Open();
                     cmd = new NpgsqlCommand(sql, con);
                     cmd.CommandType = CommandType.Text;
-                    cmd.Parameters.Add("m_id", NpgsqlDbType.Integer, 5).Value = m_id;
                     cmd.Parameters.Add("m_ma", NpgsqlDbType.Varchar, 20).Value = m_ma;
                     //khuyen 15/02/14 cmd.Parameters.Add("m_idloaidv", NpgsqlDbType.Integer, 5).Value = m_idloaidv;
-                    cmd.Parameters.Add("m_iddonvicap1", NpgsqlDbType.Integer, 5).Value = m_iddonvicap1;//khuyen 15/02/14 thay m_idloaidv=m_iddonvicap1
+                    cmd.Parameters.Add("m_iddonvicap1", NpgsqlDbType.Integer, 5).Value = m_iddonvicap1;//khuyen 15/2/14 thay m_idloaidv=m_iddonvicap1
                     cmd.Parameters.Add("m_ten", NpgsqlDbType.Text).Value = m_ten;
-                    irec = cmd.ExecuteNonQuery();
+                    cmd.Parameters.Add("m_id", NpgsqlDbType.Integer, 5).Value = m_id;
+                    int irec = cmd.ExecuteNonQuery();
                     cmd.Dispose();
+                    if (irec == 0)
+                    {
+                        //khuyen 15/02/14 sql = "insert into medibv." + m_table + " (id,ma,idloaidv,ten) values (:m_id,:m_ma,:m_idloaidv,:m_ten)";
+                        sql = "insert into medibv." + m_table + " (id,ma,iddonvicap1,ten) values (:m_id,:m_ma,:m_iddonvicap1,:m_ten)";//khuyen 15/02/14 thay idloaidv=iddonvicap1,m_idloaidv=m_iddonvicap1
+                        cmd = new NpgsqlCommand(sql, con);
+                        cmd.CommandType = CommandType.Text;
+                        cmd.Parameters.Add("m_id", NpgsqlDbType.Integer, 5).Value = m_id;
+                        cmd.Parameters.Add("m_ma", NpgsqlDbType.Varchar, 20).Value = m_ma;
+                        //khuyen 15/02/14 cmd.Parameters.Add("m_idloaidv", NpgsqlDbType.Integer, 5).Value = m_idloaidv;
+                        cmd.Parameters.Add("m_iddonvicap1", NpgsqlDbType.Integer, 5).Value = m_iddonvicap1;//khuyen 15/02/14 thay m_idloaidv=m_iddonvicap1
+                        cmd.Parameters.Add("m_ten", NpgsqlDbType.Text).Value = m_ten;
+                        irec = cmd.ExecuteNonQuery();
+                        cmd.Dispose();
+                    }
+                }
+                catch (NpgsqlException ex)
+                {
+                    upd_error(ex.Message, sComputer, m_table);
+                    return false;
+                }
+                finally
+                {
+                    con.Close(); con.Dispose();
                 }
             }
-            catch (NpgsqlException ex)
+
+            if (m_table == "qn_dmdonvi_cap3")
             {
-                upd_error(ex.Message, sComputer, m_table);
-                return false;
+                sql = "update medibv." + m_table + " set ma=:m_ma,id_cap2=:m_iddonvicap1,ten=:m_ten";//khuyenn 15/02/14 thay "idloaidv=:m_idloaidv" ="iddonvicap1=:m_iddonvicap1"
+                sql += " where id=:m_id";
+                if (con != null)
+                {
+                    con.Close(); con.Dispose();
+                }
+                con = new NpgsqlConnection(sConn);
+                try
+                {
+                    con.Open();
+                    cmd = new NpgsqlCommand(sql, con);
+                    cmd.CommandType = CommandType.Text;
+                    cmd.Parameters.Add("m_ma", NpgsqlDbType.Varchar, 20).Value = m_ma;
+                    //khuyen 15/02/14 cmd.Parameters.Add("m_idloaidv", NpgsqlDbType.Integer, 5).Value = m_idloaidv;
+                    cmd.Parameters.Add("m_iddonvicap1", NpgsqlDbType.Integer, 5).Value = m_iddonvicap1;//khuyen 15/2/14 thay m_idloaidv=m_iddonvicap1
+                    cmd.Parameters.Add("m_ten", NpgsqlDbType.Text).Value = m_ten;
+                    cmd.Parameters.Add("m_id", NpgsqlDbType.Integer, 5).Value = m_id;
+                    int irec = cmd.ExecuteNonQuery();
+                    cmd.Dispose();
+                    if (irec == 0)
+                    {
+                        //khuyen 15/02/14 sql = "insert into medibv." + m_table + " (id,ma,idloaidv,ten) values (:m_id,:m_ma,:m_idloaidv,:m_ten)";
+                        sql = "insert into medibv." + m_table + " (id,ma,id_cap2,ten) values (:m_id,:m_ma,:m_iddonvicap1,:m_ten)";//khuyen 15/02/14 thay idloaidv=iddonvicap1,m_idloaidv=m_iddonvicap1
+                        cmd = new NpgsqlCommand(sql, con);
+                        cmd.CommandType = CommandType.Text;
+                        cmd.Parameters.Add("m_id", NpgsqlDbType.Integer, 5).Value = m_id;
+                        cmd.Parameters.Add("m_ma", NpgsqlDbType.Varchar, 20).Value = m_ma;
+                        //khuyen 15/02/14 cmd.Parameters.Add("m_idloaidv", NpgsqlDbType.Integer, 5).Value = m_idloaidv;
+                        cmd.Parameters.Add("m_iddonvicap1", NpgsqlDbType.Integer, 5).Value = m_iddonvicap1;//khuyen 15/02/14 thay m_idloaidv=m_iddonvicap1
+                        cmd.Parameters.Add("m_ten", NpgsqlDbType.Text).Value = m_ten;
+                        irec = cmd.ExecuteNonQuery();
+                        cmd.Dispose();
+                    }
+                }
+                catch (NpgsqlException ex)
+                {
+                    upd_error(ex.Message, sComputer, m_table);
+                    return false;
+                }
+                finally
+                {
+                    con.Close(); con.Dispose();
+                }
             }
-            finally
+
+            if (m_table == "qn_dmdonvi_cap4")
             {
-                con.Close(); con.Dispose();
+                sql = "update medibv." + m_table + " set ma=:m_ma,id_cap3=:m_iddonvicap1,ten=:m_ten";//khuyenn 15/02/14 thay "idloaidv=:m_idloaidv" ="iddonvicap1=:m_iddonvicap1"
+                sql += " where id=:m_id";
+                if (con != null)
+                {
+                    con.Close(); con.Dispose();
+                }
+                con = new NpgsqlConnection(sConn);
+                try
+                {
+                    con.Open();
+                    cmd = new NpgsqlCommand(sql, con);
+                    cmd.CommandType = CommandType.Text;
+                    cmd.Parameters.Add("m_ma", NpgsqlDbType.Varchar, 20).Value = m_ma;
+                    //khuyen 15/02/14 cmd.Parameters.Add("m_idloaidv", NpgsqlDbType.Integer, 5).Value = m_idloaidv;
+                    cmd.Parameters.Add("m_iddonvicap1", NpgsqlDbType.Integer, 5).Value = m_iddonvicap1;//khuyen 15/2/14 thay m_idloaidv=m_iddonvicap1
+                    cmd.Parameters.Add("m_ten", NpgsqlDbType.Text).Value = m_ten;
+                    cmd.Parameters.Add("m_id", NpgsqlDbType.Integer, 5).Value = m_id;
+                    int irec = cmd.ExecuteNonQuery();
+                    cmd.Dispose();
+                    if (irec == 0)
+                    {
+                        //khuyen 15/02/14 sql = "insert into medibv." + m_table + " (id,ma,idloaidv,ten) values (:m_id,:m_ma,:m_idloaidv,:m_ten)";
+                        sql = "insert into medibv." + m_table + " (id,ma,id_cap3,ten) values (:m_id,:m_ma,:m_iddonvicap1,:m_ten)";//khuyen 15/02/14 thay idloaidv=iddonvicap1,m_idloaidv=m_iddonvicap1
+                        cmd = new NpgsqlCommand(sql, con);
+                        cmd.CommandType = CommandType.Text;
+                        cmd.Parameters.Add("m_id", NpgsqlDbType.Integer, 5).Value = m_id;
+                        cmd.Parameters.Add("m_ma", NpgsqlDbType.Varchar, 20).Value = m_ma;
+                        //khuyen 15/02/14 cmd.Parameters.Add("m_idloaidv", NpgsqlDbType.Integer, 5).Value = m_idloaidv;
+                        cmd.Parameters.Add("m_iddonvicap1", NpgsqlDbType.Integer, 5).Value = m_iddonvicap1;//khuyen 15/02/14 thay m_idloaidv=m_iddonvicap1
+                        cmd.Parameters.Add("m_ten", NpgsqlDbType.Text).Value = m_ten;
+                        irec = cmd.ExecuteNonQuery();
+                        cmd.Dispose();
+                    }
+                }
+                catch (NpgsqlException ex)
+                {
+                    upd_error(ex.Message, sComputer, m_table);
+                    return false;
+                }
+                finally
+                {
+                    con.Close(); con.Dispose();
+                }
             }
+          
+
             return true;
         }
 

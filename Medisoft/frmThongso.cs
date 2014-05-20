@@ -343,19 +343,19 @@ namespace Medisoft
         private CheckBox c276;
         private TreeView treeView1;
         private TextBox txtNodeTextSearch;
-        private Panel p01;
-        private Panel p02;
+        private Panel p01_chung;
+        private Panel p02_hanhchinh;
         private GroupBox groupBox1;
-        private Panel p03;
-        private Panel p12;
-        private Panel p04;
-        private Panel p05;
-        private Panel p06;
-        private Panel p07;
-        private Panel p08;
-        private Panel p09;
-        private Panel p11;
-        private Panel p10;
+        private Panel p03_chuyenmon;
+        private Panel p12_khamsuckhoe;
+        private Panel p04_masotudong;
+        private Panel p05_doituong;
+        private Panel p06_duoc;
+        private Panel p07_vienphi;
+        private Panel p08_CLS;
+        private Panel p09_phauthuthuat;
+        private Panel p11_bangdien;
+        private Panel p10_phonggiuong;
         private Label lTemp;
         private Button butTemp;
         private TextBox tTemp;
@@ -1147,7 +1147,7 @@ namespace Medisoft
             this.bsKhambenh = new System.Windows.Forms.CheckBox();
             this.treeView1 = new System.Windows.Forms.TreeView();
             this.txtNodeTextSearch = new System.Windows.Forms.TextBox();
-            this.p01 = new System.Windows.Forms.Panel();
+            this.p01_chung = new System.Windows.Forms.Panel();
             this.c1510 = new System.Windows.Forms.NumericUpDown();
             this.label154 = new System.Windows.Forms.Label();
             this.label153 = new System.Windows.Forms.Label();
@@ -1177,7 +1177,7 @@ namespace Medisoft
             this.tTemp = new System.Windows.Forms.TextBox();
             this.lTemp = new System.Windows.Forms.Label();
             this.c998 = new System.Windows.Forms.CheckBox();
-            this.p02 = new System.Windows.Forms.Panel();
+            this.p02_hanhchinh = new System.Windows.Forms.Panel();
             this.c1600 = new System.Windows.Forms.CheckBox();
             this.c1091 = new System.Windows.Forms.CheckBox();
             this.c1087 = new System.Windows.Forms.CheckBox();
@@ -1187,70 +1187,7 @@ namespace Medisoft
             this.c1077 = new System.Windows.Forms.CheckBox();
             this.c1058 = new System.Windows.Forms.CheckBox();
             this.c343 = new System.Windows.Forms.CheckBox();
-            this.p03 = new System.Windows.Forms.Panel();
-            this.c1513 = new System.Windows.Forms.CheckBox();
-            this.c1511 = new System.Windows.Forms.CheckBox();
-            this.c1509 = new System.Windows.Forms.CheckBox();
-            this.c1508 = new System.Windows.Forms.CheckBox();
-            this.c1507 = new System.Windows.Forms.CheckBox();
-            this.c1506 = new System.Windows.Forms.CheckBox();
-            this.c1104 = new System.Windows.Forms.CheckBox();
-            this.c1099 = new System.Windows.Forms.CheckBox();
-            this.c1098 = new System.Windows.Forms.CheckBox();
-            this.c1094 = new System.Windows.Forms.TextBox();
-            this.butDichvu = new System.Windows.Forms.Button();
-            this.txtVienphi = new System.Windows.Forms.TextBox();
-            this.c1093 = new System.Windows.Forms.CheckBox();
-            this.c1092 = new System.Windows.Forms.CheckBox();
-            this.c1061 = new System.Windows.Forms.CheckBox();
-            this.c1051 = new System.Windows.Forms.CheckBox();
-            this.c1031 = new System.Windows.Forms.CheckBox();
-            this.c1026 = new System.Windows.Forms.CheckBox();
-            this.c1021 = new System.Windows.Forms.CheckBox();
-            this.c1020 = new System.Windows.Forms.CheckBox();
-            this.c1011 = new System.Windows.Forms.CheckBox();
-            this.c1010 = new System.Windows.Forms.CheckBox();
-            this.c1003 = new System.Windows.Forms.CheckBox();
-            this.c1001 = new System.Windows.Forms.CheckBox();
-            this.c430 = new System.Windows.Forms.CheckBox();
-            this.label110 = new System.Windows.Forms.Label();
-            this.c425 = new System.Windows.Forms.CheckBox();
-            this.c424 = new System.Windows.Forms.NumericUpDown();
-            this.label109 = new System.Windows.Forms.Label();
-            this.c423 = new System.Windows.Forms.NumericUpDown();
-            this.label108 = new System.Windows.Forms.Label();
-            this.label107 = new System.Windows.Forms.Label();
-            this.c422 = new System.Windows.Forms.CheckBox();
-            this.c408 = new System.Windows.Forms.TextBox();
-            this.c406 = new System.Windows.Forms.CheckBox();
-            this.c405 = new System.Windows.Forms.CheckBox();
-            this.c404 = new System.Windows.Forms.CheckBox();
-            this.c393 = new System.Windows.Forms.CheckBox();
-            this.c385 = new System.Windows.Forms.CheckBox();
-            this.c373 = new System.Windows.Forms.CheckBox();
-            this.c361 = new System.Windows.Forms.CheckBox();
-            this.c354 = new System.Windows.Forms.CheckBox();
-            this.c344 = new System.Windows.Forms.CheckBox();
-            this.c330 = new System.Windows.Forms.CheckBox();
-            this.c329 = new System.Windows.Forms.CheckBox();
-            this.c327 = new System.Windows.Forms.CheckBox();
-            this.label80 = new System.Windows.Forms.Label();
-            this.c325 = new System.Windows.Forms.NumericUpDown();
-            this.label81 = new System.Windows.Forms.Label();
-            this.c324 = new System.Windows.Forms.CheckedListBox();
-            this.c323 = new System.Windows.Forms.CheckBox();
-            this.c322 = new System.Windows.Forms.CheckBox();
-            this.c315 = new System.Windows.Forms.CheckedListBox();
-            this.label74 = new System.Windows.Forms.Label();
-            this.label66 = new System.Windows.Forms.Label();
-            this.c305 = new System.Windows.Forms.NumericUpDown();
-            this.label65 = new System.Windows.Forms.Label();
-            this.c296 = new System.Windows.Forms.CheckBox();
-            this.c295 = new System.Windows.Forms.CheckBox();
-            this.p12 = new System.Windows.Forms.Panel();
-            this.butFile = new System.Windows.Forms.Button();
-            this.dataGrid3 = new System.Windows.Forms.DataGrid();
-            this.p04 = new System.Windows.Forms.Panel();
+            this.p04_masotudong = new System.Windows.Forms.Panel();
             this.rbcaptheotv = new System.Windows.Forms.RadioButton();
             this.rbcaptheokhoa = new System.Windows.Forms.RadioButton();
             this.c1090 = new System.Windows.Forms.CheckBox();
@@ -1268,7 +1205,7 @@ namespace Medisoft
             this.c346 = new System.Windows.Forms.CheckBox();
             this.c301 = new System.Windows.Forms.CheckBox();
             this.sovaovien = new System.Windows.Forms.CheckBox();
-            this.p05 = new System.Windows.Forms.Panel();
+            this.p05_doituong = new System.Windows.Forms.Panel();
             this.c50034 = new System.Windows.Forms.CheckBox();
             this.c352 = new System.Windows.Forms.NumericUpDown();
             this.label149 = new System.Windows.Forms.Label();
@@ -1351,7 +1288,70 @@ namespace Medisoft
             this.label82 = new System.Windows.Forms.Label();
             this.c321 = new System.Windows.Forms.CheckBox();
             this.c362 = new System.Windows.Forms.CheckBox();
-            this.p06 = new System.Windows.Forms.Panel();
+            this.p03_chuyenmon = new System.Windows.Forms.Panel();
+            this.c1513 = new System.Windows.Forms.CheckBox();
+            this.c1511 = new System.Windows.Forms.CheckBox();
+            this.c1509 = new System.Windows.Forms.CheckBox();
+            this.c1508 = new System.Windows.Forms.CheckBox();
+            this.c1507 = new System.Windows.Forms.CheckBox();
+            this.c1506 = new System.Windows.Forms.CheckBox();
+            this.c1104 = new System.Windows.Forms.CheckBox();
+            this.c1099 = new System.Windows.Forms.CheckBox();
+            this.c1098 = new System.Windows.Forms.CheckBox();
+            this.c1094 = new System.Windows.Forms.TextBox();
+            this.butDichvu = new System.Windows.Forms.Button();
+            this.txtVienphi = new System.Windows.Forms.TextBox();
+            this.c1093 = new System.Windows.Forms.CheckBox();
+            this.c1092 = new System.Windows.Forms.CheckBox();
+            this.c1061 = new System.Windows.Forms.CheckBox();
+            this.c1051 = new System.Windows.Forms.CheckBox();
+            this.c1031 = new System.Windows.Forms.CheckBox();
+            this.c1026 = new System.Windows.Forms.CheckBox();
+            this.c1021 = new System.Windows.Forms.CheckBox();
+            this.c1020 = new System.Windows.Forms.CheckBox();
+            this.c1011 = new System.Windows.Forms.CheckBox();
+            this.c1010 = new System.Windows.Forms.CheckBox();
+            this.c1003 = new System.Windows.Forms.CheckBox();
+            this.c1001 = new System.Windows.Forms.CheckBox();
+            this.c430 = new System.Windows.Forms.CheckBox();
+            this.label110 = new System.Windows.Forms.Label();
+            this.c425 = new System.Windows.Forms.CheckBox();
+            this.c424 = new System.Windows.Forms.NumericUpDown();
+            this.label109 = new System.Windows.Forms.Label();
+            this.c423 = new System.Windows.Forms.NumericUpDown();
+            this.label108 = new System.Windows.Forms.Label();
+            this.label107 = new System.Windows.Forms.Label();
+            this.c422 = new System.Windows.Forms.CheckBox();
+            this.c408 = new System.Windows.Forms.TextBox();
+            this.c406 = new System.Windows.Forms.CheckBox();
+            this.c405 = new System.Windows.Forms.CheckBox();
+            this.c404 = new System.Windows.Forms.CheckBox();
+            this.c393 = new System.Windows.Forms.CheckBox();
+            this.c385 = new System.Windows.Forms.CheckBox();
+            this.c373 = new System.Windows.Forms.CheckBox();
+            this.c361 = new System.Windows.Forms.CheckBox();
+            this.c354 = new System.Windows.Forms.CheckBox();
+            this.c344 = new System.Windows.Forms.CheckBox();
+            this.c330 = new System.Windows.Forms.CheckBox();
+            this.c329 = new System.Windows.Forms.CheckBox();
+            this.c327 = new System.Windows.Forms.CheckBox();
+            this.label80 = new System.Windows.Forms.Label();
+            this.c325 = new System.Windows.Forms.NumericUpDown();
+            this.label81 = new System.Windows.Forms.Label();
+            this.c324 = new System.Windows.Forms.CheckedListBox();
+            this.c323 = new System.Windows.Forms.CheckBox();
+            this.c322 = new System.Windows.Forms.CheckBox();
+            this.c315 = new System.Windows.Forms.CheckedListBox();
+            this.label74 = new System.Windows.Forms.Label();
+            this.label66 = new System.Windows.Forms.Label();
+            this.c305 = new System.Windows.Forms.NumericUpDown();
+            this.label65 = new System.Windows.Forms.Label();
+            this.c296 = new System.Windows.Forms.CheckBox();
+            this.c295 = new System.Windows.Forms.CheckBox();
+            this.p12_khamsuckhoe = new System.Windows.Forms.Panel();
+            this.butFile = new System.Windows.Forms.Button();
+            this.dataGrid3 = new System.Windows.Forms.DataGrid();
+            this.p06_duoc = new System.Windows.Forms.Panel();
             this.c1260 = new System.Windows.Forms.CheckBox();
             this.c1512 = new System.Windows.Forms.CheckBox();
             this.C1503 = new System.Windows.Forms.CheckBox();
@@ -1410,7 +1410,7 @@ namespace Medisoft
             this.c282 = new System.Windows.Forms.CheckBox();
             this.c281 = new System.Windows.Forms.CheckBox();
             this.c334 = new System.Windows.Forms.CheckBox();
-            this.p07 = new System.Windows.Forms.Panel();
+            this.p07_vienphi = new System.Windows.Forms.Panel();
             this.c1105 = new System.Windows.Forms.CheckBox();
             this.c284 = new System.Windows.Forms.ComboBox();
             this.label150 = new System.Windows.Forms.Label();
@@ -1423,6 +1423,16 @@ namespace Medisoft
             this.label105 = new System.Windows.Forms.Label();
             this.c395 = new System.Windows.Forms.CheckBox();
             this.c384 = new System.Windows.Forms.CheckBox();
+            this.p10_phonggiuong = new System.Windows.Forms.Panel();
+            this.c1103 = new System.Windows.Forms.CheckBox();
+            this.c1102 = new System.Windows.Forms.CheckBox();
+            this.c1071 = new System.Windows.Forms.CheckBox();
+            this.c278 = new System.Windows.Forms.CheckBox();
+            this.c1070 = new System.Windows.Forms.CheckBox();
+            this.c1057 = new System.Windows.Forms.CheckBox();
+            this.c377 = new System.Windows.Forms.CheckBox();
+            this.c280 = new System.Windows.Forms.ComboBox();
+            this.c279 = new System.Windows.Forms.CheckBox();
             this.c1088 = new System.Windows.Forms.CheckBox();
             this.c594 = new System.Windows.Forms.ComboBox();
             this.label139 = new System.Windows.Forms.Label();
@@ -1506,7 +1516,7 @@ namespace Medisoft
             this.c446 = new System.Windows.Forms.CheckBox();
             this.c595 = new System.Windows.Forms.CheckBox();
             this.label59 = new System.Windows.Forms.Label();
-            this.p08 = new System.Windows.Forms.Panel();
+            this.p08_CLS = new System.Windows.Forms.Panel();
             this.c1261 = new System.Windows.Forms.CheckBox();
             this.c1505 = new System.Windows.Forms.CheckBox();
             this.c1101 = new System.Windows.Forms.CheckBox();
@@ -1532,14 +1542,14 @@ namespace Medisoft
             this.c328 = new System.Windows.Forms.CheckBox();
             this.c326 = new System.Windows.Forms.CheckBox();
             this.c439 = new System.Windows.Forms.CheckBox();
-            this.p09 = new System.Windows.Forms.Panel();
+            this.p09_phauthuthuat = new System.Windows.Forms.Panel();
             this.c254 = new System.Windows.Forms.CheckedListBox();
             this.c1504 = new System.Windows.Forms.CheckBox();
             this.c143 = new System.Windows.Forms.CheckedListBox();
             this.c1033 = new System.Windows.Forms.CheckBox();
             this.c1032 = new System.Windows.Forms.CheckBox();
             this.c1004 = new System.Windows.Forms.CheckBox();
-            this.p11 = new System.Windows.Forms.Panel();
+            this.p11_bangdien = new System.Windows.Forms.Panel();
             this.c1054 = new System.Windows.Forms.CheckBox();
             this.c1019 = new System.Windows.Forms.NumericUpDown();
             this.c1018 = new System.Windows.Forms.NumericUpDown();
@@ -1561,16 +1571,6 @@ namespace Medisoft
             this.c435 = new System.Windows.Forms.CheckBox();
             this.label124 = new System.Windows.Forms.Label();
             this.label127 = new System.Windows.Forms.Label();
-            this.p10 = new System.Windows.Forms.Panel();
-            this.c1103 = new System.Windows.Forms.CheckBox();
-            this.c1102 = new System.Windows.Forms.CheckBox();
-            this.c1071 = new System.Windows.Forms.CheckBox();
-            this.c278 = new System.Windows.Forms.CheckBox();
-            this.c1070 = new System.Windows.Forms.CheckBox();
-            this.c1057 = new System.Windows.Forms.CheckBox();
-            this.c377 = new System.Windows.Forms.CheckBox();
-            this.c280 = new System.Windows.Forms.ComboBox();
-            this.c279 = new System.Windows.Forms.CheckBox();
             this.p13 = new System.Windows.Forms.Panel();
             this.c319 = new System.Windows.Forms.CheckedListBox();
             this.c318 = new System.Windows.Forms.CheckedListBox();
@@ -1640,7 +1640,7 @@ namespace Medisoft
             ((System.ComponentModel.ISupportInitialize)(this.songay)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.c189)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.c120)).BeginInit();
-            this.p01.SuspendLayout();
+            this.p01_chung.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.c1510)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.C1000)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.c1063)).BeginInit();
@@ -1648,16 +1648,9 @@ namespace Medisoft
             ((System.ComponentModel.ISupportInitialize)(this.c138h)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.c138m)).BeginInit();
             this.groupBox1.SuspendLayout();
-            this.p02.SuspendLayout();
-            this.p03.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.c424)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.c423)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.c325)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.c305)).BeginInit();
-            this.p12.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGrid3)).BeginInit();
-            this.p04.SuspendLayout();
-            this.p05.SuspendLayout();
+            this.p02_hanhchinh.SuspendLayout();
+            this.p04_masotudong.SuspendLayout();
+            this.p05_doituong.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.c352)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.c1140)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.c1008)).BeginInit();
@@ -1668,18 +1661,26 @@ namespace Medisoft
             ((System.ComponentModel.ISupportInitialize)(this.c348)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.c351)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.c333)).BeginInit();
-            this.p06.SuspendLayout();
+            this.p03_chuyenmon.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.c424)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.c423)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.c325)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.c305)).BeginInit();
+            this.p12_khamsuckhoe.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGrid3)).BeginInit();
+            this.p06_duoc.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numSongaychotoa)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.c1069)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.c1062)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.c1030)).BeginInit();
-            this.p07.SuspendLayout();
+            this.p07_vienphi.SuspendLayout();
+            this.p10_phonggiuong.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.c429)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.c366)).BeginInit();
-            this.p08.SuspendLayout();
+            this.p08_CLS.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.c339)).BeginInit();
-            this.p09.SuspendLayout();
-            this.p11.SuspendLayout();
+            this.p09_phauthuthuat.SuspendLayout();
+            this.p11_bangdien.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.c1019)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.c1018)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.c1017)).BeginInit();
@@ -1687,7 +1688,6 @@ namespace Medisoft
             ((System.ComponentModel.ISupportInitialize)(this.c1015)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.c1014)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.c1013)).BeginInit();
-            this.p10.SuspendLayout();
             this.p13.SuspendLayout();
             this.p14.SuspendLayout();
             this.SuspendLayout();
@@ -4585,7 +4585,7 @@ namespace Medisoft
             this.txtNodeTextSearch.ForeColor = System.Drawing.Color.Red;
             this.txtNodeTextSearch.Location = new System.Drawing.Point(2, 3);
             this.txtNodeTextSearch.Name = "txtNodeTextSearch";
-            this.txtNodeTextSearch.Size = new System.Drawing.Size(152, 21);
+            this.txtNodeTextSearch.Size = new System.Drawing.Size(147, 21);
             this.txtNodeTextSearch.TabIndex = 77;
             this.txtNodeTextSearch.Text = "Tìm kiếm";
             this.txtNodeTextSearch.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -4593,95 +4593,95 @@ namespace Medisoft
             this.txtNodeTextSearch.TextChanged += new System.EventHandler(this.txtNodeTextSearch_TextChanged);
             this.txtNodeTextSearch.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtNodeTextSearch_KeyDown);
             // 
-            // p01
+            // p01_chung
             // 
-            this.p01.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.p01_chung.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
                         | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
-            this.p01.AutoScroll = true;
-            this.p01.Controls.Add(this.c1510);
-            this.p01.Controls.Add(this.label154);
-            this.p01.Controls.Add(this.label153);
-            this.p01.Controls.Add(this.C1000);
-            this.p01.Controls.Add(this.label152);
-            this.p01.Controls.Add(this.mst);
-            this.p01.Controls.Add(this.label137);
-            this.p01.Controls.Add(this.c999);
-            this.p01.Controls.Add(this.label135);
-            this.p01.Controls.Add(this.c1135);
-            this.p01.Controls.Add(this.c1073);
-            this.p01.Controls.Add(this.label131);
-            this.p01.Controls.Add(this.c1063);
-            this.p01.Controls.Add(this.label132);
-            this.p01.Controls.Add(this.c386);
-            this.p01.Controls.Add(this.c115);
-            this.p01.Controls.Add(this.songaydemo);
-            this.p01.Controls.Add(this.demo);
-            this.p01.Controls.Add(this.but341);
-            this.p01.Controls.Add(this.c341);
-            this.p01.Controls.Add(this.c340);
-            this.p01.Controls.Add(this.c138h);
-            this.p01.Controls.Add(this.c138m);
-            this.p01.Controls.Add(this.label53);
-            this.p01.Controls.Add(this.c277);
-            this.p01.Controls.Add(this.butTemp);
-            this.p01.Controls.Add(this.c112);
-            this.p01.Controls.Add(this.c232);
-            this.p01.Controls.Add(this.c240);
-            this.p01.Controls.Add(this.label8);
-            this.p01.Controls.Add(this.c104);
-            this.p01.Controls.Add(this.label7);
-            this.p01.Controls.Add(this.label34);
-            this.p01.Controls.Add(this.groupBox1);
-            this.p01.Controls.Add(this.c41);
-            this.p01.Controls.Add(this.songay);
-            this.p01.Controls.Add(this.but174);
-            this.p01.Controls.Add(this.dienthoai);
-            this.p01.Controls.Add(this.c195);
-            this.p01.Controls.Add(this.c174);
-            this.p01.Controls.Add(this.label20);
-            this.p01.Controls.Add(this.c43);
-            this.p01.Controls.Add(this.label18);
-            this.p01.Controls.Add(this.c42);
-            this.p01.Controls.Add(this.label19);
-            this.p01.Controls.Add(this.matt);
-            this.p01.Controls.Add(this.label41);
-            this.p01.Controls.Add(this.diachi);
-            this.p01.Controls.Add(this.soyte);
-            this.p01.Controls.Add(this.benhvien);
-            this.p01.Controls.Add(this.maqu);
-            this.p01.Controls.Add(this.loaidv);
-            this.p01.Controls.Add(this.c189);
-            this.p01.Controls.Add(this.label50);
-            this.p01.Controls.Add(this.ngonngu);
-            this.p01.Controls.Add(this.c40);
-            this.p01.Controls.Add(this.label17);
-            this.p01.Controls.Add(this.ngaylv);
-            this.p01.Controls.Add(this.c39);
-            this.p01.Controls.Add(this.label1);
-            this.p01.Controls.Add(this.label30);
-            this.p01.Controls.Add(this.label16);
-            this.p01.Controls.Add(this.label2);
-            this.p01.Controls.Add(this.label13);
-            this.p01.Controls.Add(this.label3);
-            this.p01.Controls.Add(this.label15);
-            this.p01.Controls.Add(this.label4);
-            this.p01.Controls.Add(this.label5);
-            this.p01.Controls.Add(this.label6);
-            this.p01.Controls.Add(this.label21);
-            this.p01.Controls.Add(this.butThongbao);
-            this.p01.Controls.Add(this.saoluu33);
-            this.p01.Controls.Add(this.label11);
-            this.p01.Controls.Add(this.c45);
-            this.p01.Controls.Add(this.label10);
-            this.p01.Controls.Add(this.tTemp);
-            this.p01.Controls.Add(this.lTemp);
-            this.p01.Controls.Add(this.c998);
-            this.p01.Location = new System.Drawing.Point(0, 0);
-            this.p01.Name = "p01";
-            this.p01.Size = new System.Drawing.Size(669, 509);
-            this.p01.TabIndex = 78;
-            this.p01.Visible = false;
+            this.p01_chung.AutoScroll = true;
+            this.p01_chung.Controls.Add(this.c1510);
+            this.p01_chung.Controls.Add(this.label154);
+            this.p01_chung.Controls.Add(this.label153);
+            this.p01_chung.Controls.Add(this.C1000);
+            this.p01_chung.Controls.Add(this.label152);
+            this.p01_chung.Controls.Add(this.mst);
+            this.p01_chung.Controls.Add(this.label137);
+            this.p01_chung.Controls.Add(this.c999);
+            this.p01_chung.Controls.Add(this.label135);
+            this.p01_chung.Controls.Add(this.c1135);
+            this.p01_chung.Controls.Add(this.c1073);
+            this.p01_chung.Controls.Add(this.label131);
+            this.p01_chung.Controls.Add(this.c1063);
+            this.p01_chung.Controls.Add(this.label132);
+            this.p01_chung.Controls.Add(this.c386);
+            this.p01_chung.Controls.Add(this.c115);
+            this.p01_chung.Controls.Add(this.songaydemo);
+            this.p01_chung.Controls.Add(this.demo);
+            this.p01_chung.Controls.Add(this.but341);
+            this.p01_chung.Controls.Add(this.c341);
+            this.p01_chung.Controls.Add(this.c340);
+            this.p01_chung.Controls.Add(this.c138h);
+            this.p01_chung.Controls.Add(this.c138m);
+            this.p01_chung.Controls.Add(this.label53);
+            this.p01_chung.Controls.Add(this.c277);
+            this.p01_chung.Controls.Add(this.butTemp);
+            this.p01_chung.Controls.Add(this.c112);
+            this.p01_chung.Controls.Add(this.c232);
+            this.p01_chung.Controls.Add(this.c240);
+            this.p01_chung.Controls.Add(this.label8);
+            this.p01_chung.Controls.Add(this.c104);
+            this.p01_chung.Controls.Add(this.label7);
+            this.p01_chung.Controls.Add(this.label34);
+            this.p01_chung.Controls.Add(this.groupBox1);
+            this.p01_chung.Controls.Add(this.c41);
+            this.p01_chung.Controls.Add(this.songay);
+            this.p01_chung.Controls.Add(this.but174);
+            this.p01_chung.Controls.Add(this.dienthoai);
+            this.p01_chung.Controls.Add(this.c195);
+            this.p01_chung.Controls.Add(this.c174);
+            this.p01_chung.Controls.Add(this.label20);
+            this.p01_chung.Controls.Add(this.c43);
+            this.p01_chung.Controls.Add(this.label18);
+            this.p01_chung.Controls.Add(this.c42);
+            this.p01_chung.Controls.Add(this.label19);
+            this.p01_chung.Controls.Add(this.matt);
+            this.p01_chung.Controls.Add(this.label41);
+            this.p01_chung.Controls.Add(this.diachi);
+            this.p01_chung.Controls.Add(this.soyte);
+            this.p01_chung.Controls.Add(this.benhvien);
+            this.p01_chung.Controls.Add(this.maqu);
+            this.p01_chung.Controls.Add(this.loaidv);
+            this.p01_chung.Controls.Add(this.c189);
+            this.p01_chung.Controls.Add(this.label50);
+            this.p01_chung.Controls.Add(this.ngonngu);
+            this.p01_chung.Controls.Add(this.c40);
+            this.p01_chung.Controls.Add(this.label17);
+            this.p01_chung.Controls.Add(this.ngaylv);
+            this.p01_chung.Controls.Add(this.c39);
+            this.p01_chung.Controls.Add(this.label1);
+            this.p01_chung.Controls.Add(this.label30);
+            this.p01_chung.Controls.Add(this.label16);
+            this.p01_chung.Controls.Add(this.label2);
+            this.p01_chung.Controls.Add(this.label13);
+            this.p01_chung.Controls.Add(this.label3);
+            this.p01_chung.Controls.Add(this.label15);
+            this.p01_chung.Controls.Add(this.label4);
+            this.p01_chung.Controls.Add(this.label5);
+            this.p01_chung.Controls.Add(this.label6);
+            this.p01_chung.Controls.Add(this.label21);
+            this.p01_chung.Controls.Add(this.butThongbao);
+            this.p01_chung.Controls.Add(this.saoluu33);
+            this.p01_chung.Controls.Add(this.label11);
+            this.p01_chung.Controls.Add(this.c45);
+            this.p01_chung.Controls.Add(this.label10);
+            this.p01_chung.Controls.Add(this.tTemp);
+            this.p01_chung.Controls.Add(this.lTemp);
+            this.p01_chung.Controls.Add(this.c998);
+            this.p01_chung.Location = new System.Drawing.Point(157, 3);
+            this.p01_chung.Name = "p01_chung";
+            this.p01_chung.Size = new System.Drawing.Size(961, 475);
+            this.p01_chung.TabIndex = 78;
+            this.p01_chung.Visible = false;
             // 
             // c1510
             // 
@@ -5002,54 +5002,53 @@ namespace Medisoft
             this.c998.TabIndex = 246;
             this.c998.Text = "A14.2. Quản lý theo chi nhánh";
             // 
-            // p02
+            // p02_hanhchinh
             // 
-            this.p02.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.p02_hanhchinh.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
                         | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
-            this.p02.AutoScroll = true;
-            this.p02.Controls.Add(this.c1600);
-            this.p02.Controls.Add(this.c1091);
-            this.p02.Controls.Add(this.c1087);
-            this.p02.Controls.Add(this.c142);
-            this.p02.Controls.Add(this.c1086);
-            this.p02.Controls.Add(this.c1085);
-            this.p02.Controls.Add(this.label136);
-            this.p02.Controls.Add(this.c1077);
-            this.p02.Controls.Add(this.c1058);
-            this.p02.Controls.Add(this.c343);
-            this.p02.Controls.Add(this.c121);
-            this.p02.Controls.Add(this.c119);
-            this.p02.Controls.Add(this.c275);
-            this.p02.Controls.Add(this.c125);
-            this.p02.Controls.Add(this.c123);
-            this.p02.Controls.Add(this.label29);
-            this.p02.Controls.Add(this.c0);
-            this.p02.Controls.Add(this.p04);
-            this.p02.Controls.Add(this.c114);
-            this.p02.Controls.Add(this.c122);
-            this.p02.Controls.Add(this.c44);
-            this.p02.Controls.Add(this.butImage);
-            this.p02.Controls.Add(this.label28);
-            this.p02.Controls.Add(this.label9);
-            this.p02.Controls.Add(this.c107);
-            this.p02.Controls.Add(this.c265);
-            this.p02.Controls.Add(this.c124);
-            this.p02.Controls.Add(this.label12);
-            this.p02.Controls.Add(this.label57);
-            this.p02.Controls.Add(this.c264);
-            this.p02.Controls.Add(this.label27);
-            this.p02.Controls.Add(this.label26);
-            this.p02.Controls.Add(this.c120);
-            this.p02.Controls.Add(this.label24);
-            this.p02.Controls.Add(this.label25);
-            this.p02.Controls.Add(this.c248);
-            this.p02.Controls.Add(this.c258);
-            this.p02.Location = new System.Drawing.Point(159, 3);
-            this.p02.Name = "p02";
-            this.p02.Size = new System.Drawing.Size(660, 509);
-            this.p02.TabIndex = 79;
-            this.p02.Visible = false;
+            this.p02_hanhchinh.AutoScroll = true;
+            this.p02_hanhchinh.Controls.Add(this.c1600);
+            this.p02_hanhchinh.Controls.Add(this.c1091);
+            this.p02_hanhchinh.Controls.Add(this.c1087);
+            this.p02_hanhchinh.Controls.Add(this.c142);
+            this.p02_hanhchinh.Controls.Add(this.c1086);
+            this.p02_hanhchinh.Controls.Add(this.c1085);
+            this.p02_hanhchinh.Controls.Add(this.label136);
+            this.p02_hanhchinh.Controls.Add(this.c1077);
+            this.p02_hanhchinh.Controls.Add(this.c1058);
+            this.p02_hanhchinh.Controls.Add(this.c343);
+            this.p02_hanhchinh.Controls.Add(this.c121);
+            this.p02_hanhchinh.Controls.Add(this.c119);
+            this.p02_hanhchinh.Controls.Add(this.c275);
+            this.p02_hanhchinh.Controls.Add(this.c125);
+            this.p02_hanhchinh.Controls.Add(this.c123);
+            this.p02_hanhchinh.Controls.Add(this.label29);
+            this.p02_hanhchinh.Controls.Add(this.c0);
+            this.p02_hanhchinh.Controls.Add(this.c114);
+            this.p02_hanhchinh.Controls.Add(this.c122);
+            this.p02_hanhchinh.Controls.Add(this.c44);
+            this.p02_hanhchinh.Controls.Add(this.butImage);
+            this.p02_hanhchinh.Controls.Add(this.label28);
+            this.p02_hanhchinh.Controls.Add(this.label9);
+            this.p02_hanhchinh.Controls.Add(this.c107);
+            this.p02_hanhchinh.Controls.Add(this.c265);
+            this.p02_hanhchinh.Controls.Add(this.c124);
+            this.p02_hanhchinh.Controls.Add(this.label12);
+            this.p02_hanhchinh.Controls.Add(this.label57);
+            this.p02_hanhchinh.Controls.Add(this.c264);
+            this.p02_hanhchinh.Controls.Add(this.label27);
+            this.p02_hanhchinh.Controls.Add(this.label26);
+            this.p02_hanhchinh.Controls.Add(this.c120);
+            this.p02_hanhchinh.Controls.Add(this.label24);
+            this.p02_hanhchinh.Controls.Add(this.label25);
+            this.p02_hanhchinh.Controls.Add(this.c248);
+            this.p02_hanhchinh.Controls.Add(this.c258);
+            this.p02_hanhchinh.Location = new System.Drawing.Point(157, 3);
+            this.p02_hanhchinh.Name = "p02_hanhchinh";
+            this.p02_hanhchinh.Size = new System.Drawing.Size(663, 509);
+            this.p02_hanhchinh.TabIndex = 79;
+            this.p02_hanhchinh.Visible = false;
             // 
             // c1600
             // 
@@ -5136,762 +5135,53 @@ namespace Medisoft
             this.c343.TabIndex = 265;
             this.c343.Text = "B03 - Quản lý Smart Card";
             // 
-            // p03
+            // p04_masotudong
             // 
-            this.p03.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.p04_masotudong.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
                         | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
-            this.p03.AutoScroll = true;
-            this.p03.Controls.Add(this.c1513);
-            this.p03.Controls.Add(this.c1511);
-            this.p03.Controls.Add(this.c1509);
-            this.p03.Controls.Add(this.c1508);
-            this.p03.Controls.Add(this.c1507);
-            this.p03.Controls.Add(this.c1506);
-            this.p03.Controls.Add(this.c1104);
-            this.p03.Controls.Add(this.c1099);
-            this.p03.Controls.Add(this.c1098);
-            this.p03.Controls.Add(this.c1094);
-            this.p03.Controls.Add(this.butDichvu);
-            this.p03.Controls.Add(this.txtVienphi);
-            this.p03.Controls.Add(this.c1093);
-            this.p03.Controls.Add(this.c1092);
-            this.p03.Controls.Add(this.c1061);
-            this.p03.Controls.Add(this.c1051);
-            this.p03.Controls.Add(this.c1031);
-            this.p03.Controls.Add(this.c1026);
-            this.p03.Controls.Add(this.c1021);
-            this.p03.Controls.Add(this.c1020);
-            this.p03.Controls.Add(this.c1011);
-            this.p03.Controls.Add(this.c1010);
-            this.p03.Controls.Add(this.c1003);
-            this.p03.Controls.Add(this.c1001);
-            this.p03.Controls.Add(this.c430);
-            this.p03.Controls.Add(this.label110);
-            this.p03.Controls.Add(this.c425);
-            this.p03.Controls.Add(this.c424);
-            this.p03.Controls.Add(this.label109);
-            this.p03.Controls.Add(this.c423);
-            this.p03.Controls.Add(this.label108);
-            this.p03.Controls.Add(this.label107);
-            this.p03.Controls.Add(this.c422);
-            this.p03.Controls.Add(this.c408);
-            this.p03.Controls.Add(this.c406);
-            this.p03.Controls.Add(this.c405);
-            this.p03.Controls.Add(this.c404);
-            this.p03.Controls.Add(this.c393);
-            this.p03.Controls.Add(this.c385);
-            this.p03.Controls.Add(this.c373);
-            this.p03.Controls.Add(this.c361);
-            this.p03.Controls.Add(this.c354);
-            this.p03.Controls.Add(this.c344);
-            this.p03.Controls.Add(this.c330);
-            this.p03.Controls.Add(this.label35);
-            this.p03.Controls.Add(this.c139);
-            this.p03.Controls.Add(this.c329);
-            this.p03.Controls.Add(this.c327);
-            this.p03.Controls.Add(this.label80);
-            this.p03.Controls.Add(this.c325);
-            this.p03.Controls.Add(this.label81);
-            this.p03.Controls.Add(this.c324);
-            this.p03.Controls.Add(this.c323);
-            this.p03.Controls.Add(this.c322);
-            this.p03.Controls.Add(this.c315);
-            this.p03.Controls.Add(this.label74);
-            this.p03.Controls.Add(this.label66);
-            this.p03.Controls.Add(this.c305);
-            this.p03.Controls.Add(this.label65);
-            this.p03.Controls.Add(this.c296);
-            this.p03.Controls.Add(this.c295);
-            this.p03.Controls.Add(this.c193);
-            this.p03.Controls.Add(this.chandoan);
-            this.p03.Controls.Add(this.mmtn);
-            this.p03.Controls.Add(this.c55);
-            this.p03.Controls.Add(this.label48);
-            this.p03.Controls.Add(this.hhtn);
-            this.p03.Controls.Add(this.c126);
-            this.p03.Controls.Add(this.c130);
-            this.p03.Controls.Add(this.c153);
-            this.p03.Controls.Add(this.solieu);
-            this.p03.Controls.Add(this.c181);
-            this.p03.Controls.Add(this.c215);
-            this.p03.Controls.Add(this.c274);
-            this.p03.Controls.Add(this.c52);
-            this.p03.Controls.Add(this.c197);
-            this.p03.Controls.Add(this.c38);
-            this.p03.Controls.Add(this.khambenh);
-            this.p03.Controls.Add(this.c148);
-            this.p03.Controls.Add(this.c200);
-            this.p03.Controls.Add(this.c213);
-            this.p03.Controls.Add(this.c111);
-            this.p03.Controls.Add(this.noichuyen);
-            this.p03.Controls.Add(this.c116);
-            this.p03.Controls.Add(this.c100);
-            this.p03.Controls.Add(this.c160);
-            this.p03.Controls.Add(this.c105);
-            this.p03.Controls.Add(this.c259);
-            this.p03.Controls.Add(this.c167);
-            this.p03.Controls.Add(this.c252);
-            this.p03.Controls.Add(this.c250);
-            this.p03.Controls.Add(this.c172);
-            this.p03.Controls.Add(this.soluutru);
-            this.p03.Controls.Add(this.label36);
-            this.p03.Controls.Add(this.c127);
-            this.p03.Controls.Add(this.c106);
-            this.p03.Controls.Add(this.c118);
-            this.p03.Controls.Add(this.c162);
-            this.p03.Controls.Add(this.c245);
-            this.p03.Controls.Add(this.c36);
-            this.p03.Controls.Add(this.c276);
-            this.p03.Controls.Add(this.c54);
-            this.p03.Location = new System.Drawing.Point(159, 3);
-            this.p03.Name = "p03";
-            this.p03.Size = new System.Drawing.Size(664, 509);
-            this.p03.TabIndex = 80;
-            this.p03.Visible = false;
-            this.p03.Paint += new System.Windows.Forms.PaintEventHandler(this.p03_Paint);
-            // 
-            // c1513
-            // 
-            this.c1513.Location = new System.Drawing.Point(1056, 237);
-            this.c1513.Name = "c1513";
-            this.c1513.Size = new System.Drawing.Size(348, 21);
-            this.c1513.TabIndex = 322;
-            this.c1513.Text = "C78 - Xuất thuốc tủ trực theo gói không cho phép sửa";
-            // 
-            // c1511
-            // 
-            this.c1511.Location = new System.Drawing.Point(1056, 217);
-            this.c1511.Name = "c1511";
-            this.c1511.Size = new System.Drawing.Size(348, 21);
-            this.c1511.TabIndex = 321;
-            this.c1511.Text = "C77 - Không cho phép đăng kí nếu chưa hết ngày thuốc BHYT";
-            // 
-            // c1509
-            // 
-            this.c1509.Location = new System.Drawing.Point(1056, 198);
-            this.c1509.Name = "c1509";
-            this.c1509.Size = new System.Drawing.Size(348, 21);
-            this.c1509.TabIndex = 320;
-            this.c1509.Text = "C76 - Từ chối nhập viện nếu chưa thanh toán viện phí";
-            // 
-            // c1508
-            // 
-            this.c1508.Location = new System.Drawing.Point(1056, 180);
-            this.c1508.Name = "c1508";
-            this.c1508.Size = new System.Drawing.Size(348, 21);
-            this.c1508.TabIndex = 319;
-            this.c1508.Text = "C75 - Quản lí nhân viên sale";
-            this.c1508.CheckedChanged += new System.EventHandler(this.c1508_CheckedChanged);
-            // 
-            // c1507
-            // 
-            this.c1507.Location = new System.Drawing.Point(1056, 163);
-            this.c1507.Name = "c1507";
-            this.c1507.Size = new System.Drawing.Size(350, 19);
-            this.c1507.TabIndex = 318;
-            this.c1507.Text = "C74 - Lấy chẩn đoán theo khoa cuối trong phiếu thanh toán ra viện";
-            // 
-            // c1506
-            // 
-            this.c1506.Location = new System.Drawing.Point(1056, 146);
-            this.c1506.Name = "c1506";
-            this.c1506.Size = new System.Drawing.Size(331, 19);
-            this.c1506.TabIndex = 317;
-            this.c1506.Text = "C73 - Không cho phép sửa chẩn đoán lúc in giấy chuyển viện.";
-            // 
-            // c1104
-            // 
-            this.c1104.AutoSize = true;
-            this.c1104.Location = new System.Drawing.Point(1056, 130);
-            this.c1104.Name = "c1104";
-            this.c1104.Size = new System.Drawing.Size(201, 17);
-            this.c1104.TabIndex = 315;
-            this.c1104.Text = "C71 - Phát quà thôi nôi khi xuất khoa";
-            this.c1104.UseVisualStyleBackColor = true;
-            // 
-            // c1099
-            // 
-            this.c1099.AutoSize = true;
-            this.c1099.Location = new System.Drawing.Point(1056, 114);
-            this.c1099.Name = "c1099";
-            this.c1099.Size = new System.Drawing.Size(219, 17);
-            this.c1099.TabIndex = 314;
-            this.c1099.Text = "C70 - Thông báo số lưu trữ khi xuất khoa";
-            this.c1099.UseVisualStyleBackColor = true;
-            // 
-            // c1098
-            // 
-            this.c1098.AutoSize = true;
-            this.c1098.Location = new System.Drawing.Point(1056, 98);
-            this.c1098.Name = "c1098";
-            this.c1098.Size = new System.Drawing.Size(347, 17);
-            this.c1098.TabIndex = 313;
-            this.c1098.Text = "C69 - Thông báo số vào viện khi nhập khoa, khám bệnh, phòng lưu";
-            this.c1098.UseVisualStyleBackColor = true;
-            // 
-            // c1094
-            // 
-            this.c1094.Location = new System.Drawing.Point(1337, 19);
-            this.c1094.Name = "c1094";
-            this.c1094.Size = new System.Drawing.Size(86, 20);
-            this.c1094.TabIndex = 312;
-            this.c1094.Visible = false;
-            // 
-            // butDichvu
-            // 
-            this.butDichvu.Location = new System.Drawing.Point(1299, 17);
-            this.butDichvu.Name = "butDichvu";
-            this.butDichvu.Size = new System.Drawing.Size(29, 23);
-            this.butDichvu.TabIndex = 311;
-            this.butDichvu.Text = "...";
-            this.butDichvu.UseVisualStyleBackColor = true;
-            this.butDichvu.Click += new System.EventHandler(this.butDichvu_Click);
-            // 
-            // txtVienphi
-            // 
-            this.txtVienphi.Location = new System.Drawing.Point(1056, 40);
-            this.txtVienphi.Multiline = true;
-            this.txtVienphi.Name = "txtVienphi";
-            this.txtVienphi.ReadOnly = true;
-            this.txtVienphi.Size = new System.Drawing.Size(366, 38);
-            this.txtVienphi.TabIndex = 310;
-            // 
-            // c1093
-            // 
-            this.c1093.Location = new System.Drawing.Point(1056, 20);
-            this.c1093.Name = "c1093";
-            this.c1093.Size = new System.Drawing.Size(417, 20);
-            this.c1093.TabIndex = 309;
-            this.c1093.Text = "C68. Bệnh nhân tử vong bắt buộc có kết quả:";
-            this.c1093.CheckedChanged += new System.EventHandler(this.c1093_CheckedChanged);
-            // 
-            // c1092
-            // 
-            this.c1092.Location = new System.Drawing.Point(1056, 3);
-            this.c1092.Name = "c1092";
-            this.c1092.Size = new System.Drawing.Size(417, 20);
-            this.c1092.TabIndex = 308;
-            this.c1092.Text = "C67. Chuyển phải qua duyệt khi chuyển sang bệnh viện ngoài danh sách";
-            // 
-            // c1061
-            // 
-            this.c1061.Location = new System.Drawing.Point(608, 463);
-            this.c1061.Name = "c1061";
-            this.c1061.Size = new System.Drawing.Size(417, 20);
-            this.c1061.TabIndex = 307;
-            this.c1061.Text = "C66. Biểu 02 không hiển thị khoa điều trị";
-            // 
-            // c1051
-            // 
-            this.c1051.Location = new System.Drawing.Point(608, 445);
-            this.c1051.Name = "c1051";
-            this.c1051.Size = new System.Drawing.Size(417, 20);
-            this.c1051.TabIndex = 306;
-            this.c1051.Text = "C65. Load lại thông tin quan hệ của lần đăng ký trước";
-            // 
-            // c1031
-            // 
-            this.c1031.Location = new System.Drawing.Point(608, 426);
-            this.c1031.Name = "c1031";
-            this.c1031.Size = new System.Drawing.Size(417, 20);
-            this.c1031.TabIndex = 305;
-            this.c1031.Text = "C64. Phòng lưu: kiểm tra thông tin chuyển viện trước khi in";
-            // 
-            // c1026
-            // 
-            this.c1026.Location = new System.Drawing.Point(608, 406);
-            this.c1026.Name = "c1026";
-            this.c1026.Size = new System.Drawing.Size(417, 20);
-            this.c1026.TabIndex = 304;
-            this.c1026.Text = "C63 - Phòng khám không được xử trí chuyển viện";
-            // 
-            // c1021
-            // 
-            this.c1021.Location = new System.Drawing.Point(624, 148);
-            this.c1021.Name = "c1021";
-            this.c1021.Size = new System.Drawing.Size(303, 19);
-            this.c1021.TabIndex = 303;
-            this.c1021.Text = "C51.2 - Lọc thuốc dự trù, tủ trực ... theo đối tượng";
-            // 
-            // c1020
-            // 
-            this.c1020.Checked = true;
-            this.c1020.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.c1020.Location = new System.Drawing.Point(625, 130);
-            this.c1020.Name = "c1020";
-            this.c1020.Size = new System.Drawing.Size(269, 20);
-            this.c1020.TabIndex = 302;
-            this.c1020.Text = "C51.1 - Lọc thuốc cấp toa theo đối tượng";
-            // 
-            // c1011
-            // 
-            this.c1011.Location = new System.Drawing.Point(608, 386);
-            this.c1011.Name = "c1011";
-            this.c1011.Size = new System.Drawing.Size(417, 20);
-            this.c1011.TabIndex = 301;
-            this.c1011.Text = "C62 - Chẩn đoán nguyên nhân phải có trong ICD10";
-            // 
-            // c1010
-            // 
-            this.c1010.Location = new System.Drawing.Point(608, 367);
-            this.c1010.Name = "c1010";
-            this.c1010.Size = new System.Drawing.Size(417, 20);
-            this.c1010.TabIndex = 300;
-            this.c1010.Text = "C61 - Chẩn đoán kèm theo, nơi chuyển đến, phân biệt phải có trong ICD10";
-            // 
-            // c1003
-            // 
-            this.c1003.Location = new System.Drawing.Point(608, 348);
-            this.c1003.Name = "c1003";
-            this.c1003.Size = new System.Drawing.Size(417, 20);
-            this.c1003.TabIndex = 299;
-            this.c1003.Text = "C60-Phòng khám bắt buộc nhập xử trí khi có chẩn đoán chính";
-            // 
-            // c1001
-            // 
-            this.c1001.Location = new System.Drawing.Point(608, 329);
-            this.c1001.Name = "c1001";
-            this.c1001.Size = new System.Drawing.Size(417, 20);
-            this.c1001.TabIndex = 298;
-            this.c1001.Text = "C59-Phòng lưu kết thúc điều trị mới được phép cấp toa cho về";
-            // 
-            // c430
-            // 
-            this.c430.Location = new System.Drawing.Point(623, 308);
-            this.c430.Name = "c430";
-            this.c430.Size = new System.Drawing.Size(417, 20);
-            this.c430.TabIndex = 297;
-            this.c430.Text = "C58 - Cho phép phòng khám chỉnh sữa thông tin hành chánh";
-            // 
-            // label110
-            // 
-            this.label110.Location = new System.Drawing.Point(1007, 45);
-            this.label110.Name = "label110";
-            this.label110.Size = new System.Drawing.Size(32, 16);
-            this.label110.TabIndex = 296;
-            this.label110.Text = "ngày";
-            this.label110.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // c425
-            // 
-            this.c425.Location = new System.Drawing.Point(608, 288);
-            this.c425.Name = "c425";
-            this.c425.Size = new System.Drawing.Size(417, 20);
-            this.c425.TabIndex = 296;
-            this.c425.Text = "C57 - Nhập phòng khám sau khi nhập mã người bệnh con trỏ đến chẩn đoán";
-            // 
-            // c424
-            // 
-            this.c424.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.c424.Location = new System.Drawing.Point(961, 42);
-            this.c424.Maximum = new decimal(new int[] {
-            9999,
-            0,
-            0,
-            0});
-            this.c424.Name = "c424";
-            this.c424.Size = new System.Drawing.Size(43, 21);
-            this.c424.TabIndex = 295;
-            this.c424.Value = new decimal(new int[] {
-            14,
-            0,
-            0,
-            0});
-            // 
-            // label109
-            // 
-            this.label109.AutoSize = true;
-            this.label109.Location = new System.Drawing.Point(607, 45);
-            this.label109.Name = "label109";
-            this.label109.Size = new System.Drawing.Size(358, 13);
-            this.label109.TabIndex = 294;
-            this.label109.Text = "C48.2 - Kết thúc điều trị ngoại trú khi bệnh nhân không quay lại tái khám : ";
-            this.label109.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // c423
-            // 
-            this.c423.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.c423.Location = new System.Drawing.Point(783, 264);
-            this.c423.Name = "c423";
-            this.c423.Size = new System.Drawing.Size(43, 21);
-            this.c423.TabIndex = 291;
-            this.c423.Value = new decimal(new int[] {
-            7,
-            0,
-            0,
-            0});
-            // 
-            // label108
-            // 
-            this.label108.AutoSize = true;
-            this.label108.Location = new System.Drawing.Point(607, 269);
-            this.label108.Name = "label108";
-            this.label108.Size = new System.Drawing.Size(178, 13);
-            this.label108.TabIndex = 293;
-            this.label108.Text = "C56 - Số ngày cho thuốc mặc định :";
-            this.label108.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // label107
-            // 
-            this.label107.Location = new System.Drawing.Point(827, 263);
-            this.label107.Name = "label107";
-            this.label107.Size = new System.Drawing.Size(32, 16);
-            this.label107.TabIndex = 292;
-            this.label107.Text = "ngày";
-            this.label107.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // c422
-            // 
-            this.c422.Location = new System.Drawing.Point(607, 63);
-            this.c422.Name = "c422";
-            this.c422.Size = new System.Drawing.Size(374, 17);
-            this.c422.TabIndex = 290;
-            this.c422.Text = "C48.3 - Hiện danh sách vượt quá điều trị ngoại trú khi vào nhập bệnh án";
-            // 
-            // c408
-            // 
-            this.c408.Location = new System.Drawing.Point(608, 242);
-            this.c408.Name = "c408";
-            this.c408.Size = new System.Drawing.Size(329, 20);
-            this.c408.TabIndex = 289;
-            this.c408.Text = "Triệu chứng lâm sàng ban đầu :";
-            // 
-            // c406
-            // 
-            this.c406.Location = new System.Drawing.Point(608, 223);
-            this.c406.Name = "c406";
-            this.c406.Size = new System.Drawing.Size(364, 20);
-            this.c406.TabIndex = 288;
-            this.c406.Text = "C55 - Điều trị ngoại trú lọc theo bác sỹ";
-            // 
-            // c405
-            // 
-            this.c405.Location = new System.Drawing.Point(608, 203);
-            this.c405.Name = "c405";
-            this.c405.Size = new System.Drawing.Size(364, 20);
-            this.c405.TabIndex = 287;
-            this.c405.Text = "C54 - Đơn thuốc nhập bấm huyệt";
-            // 
-            // c404
-            // 
-            this.c404.Location = new System.Drawing.Point(608, 184);
-            this.c404.Name = "c404";
-            this.c404.Size = new System.Drawing.Size(364, 20);
-            this.c404.TabIndex = 286;
-            this.c404.Text = "C53 - Xử trí hẹn không cho phép in chi phí tại phòng khám";
-            // 
-            // c393
-            // 
-            this.c393.Location = new System.Drawing.Point(608, 165);
-            this.c393.Name = "c393";
-            this.c393.Size = new System.Drawing.Size(364, 20);
-            this.c393.TabIndex = 285;
-            this.c393.Text = "C52 + Người bệnh đang điều trị ngoại trú không cho nhập phòng khám";
-            // 
-            // c385
-            // 
-            this.c385.Location = new System.Drawing.Point(608, 113);
-            this.c385.Name = "c385";
-            this.c385.Size = new System.Drawing.Size(232, 20);
-            this.c385.TabIndex = 284;
-            this.c385.Text = "C51 + Lọc dịch vụ theo đối tượng chỉ định";
-            // 
-            // c373
-            // 
-            this.c373.Location = new System.Drawing.Point(5, 223);
-            this.c373.Name = "c373";
-            this.c373.Size = new System.Drawing.Size(345, 17);
-            this.c373.TabIndex = 283;
-            this.c373.Text = "C13 - Nhập tường trình phẩu thuật vắng tắt trong xuất khoa";
-            // 
-            // c361
-            // 
-            this.c361.Location = new System.Drawing.Point(608, 4);
-            this.c361.Name = "c361";
-            this.c361.Size = new System.Drawing.Size(364, 17);
-            this.c361.TabIndex = 282;
-            this.c361.Text = "C47 - Tiếp đón nhiều phòng khám cùng 1 lúc in chung chi phí điều trị";
-            // 
-            // c354
-            // 
-            this.c354.Location = new System.Drawing.Point(608, 81);
-            this.c354.Name = "c354";
-            this.c354.Size = new System.Drawing.Size(364, 17);
-            this.c354.TabIndex = 281;
-            this.c354.Text = "C49 - Chọn bác sỹ trong khám bệnh";
-            // 
-            // c344
-            // 
-            this.c344.Location = new System.Drawing.Point(360, 458);
-            this.c344.Name = "c344";
-            this.c344.Size = new System.Drawing.Size(221, 17);
-            this.c344.TabIndex = 280;
-            this.c344.Text = "C46 + Tiền sử bệnh nhập tự do";
-            // 
-            // c330
-            // 
-            this.c330.Location = new System.Drawing.Point(360, 442);
-            this.c330.Name = "c330";
-            this.c330.Size = new System.Drawing.Size(254, 17);
-            this.c330.TabIndex = 279;
-            this.c330.Text = "C45 - Khám bệnh nhập theo mẫu bệnh án";
-            // 
-            // c329
-            // 
-            this.c329.Location = new System.Drawing.Point(360, 425);
-            this.c329.Name = "c329";
-            this.c329.Size = new System.Drawing.Size(255, 17);
-            this.c329.TabIndex = 278;
-            this.c329.Text = "C44 + Toa thuốc && chỉ định lấy ngày hiện hành";
-            // 
-            // c327
-            // 
-            this.c327.Location = new System.Drawing.Point(360, 407);
-            this.c327.Name = "c327";
-            this.c327.Size = new System.Drawing.Size(249, 21);
-            this.c327.TabIndex = 277;
-            this.c327.Text = "C43 + Tiếp đón nhận bệnh điều trị ngoại trú";
-            // 
-            // label80
-            // 
-            this.label80.Location = new System.Drawing.Point(535, 389);
-            this.label80.Name = "label80";
-            this.label80.Size = new System.Drawing.Size(32, 16);
-            this.label80.TabIndex = 275;
-            this.label80.Text = "ngày";
-            this.label80.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // c325
-            // 
-            this.c325.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.c325.Location = new System.Drawing.Point(488, 386);
-            this.c325.Maximum = new decimal(new int[] {
-            9999,
-            0,
-            0,
-            0});
-            this.c325.Name = "c325";
-            this.c325.Size = new System.Drawing.Size(43, 21);
-            this.c325.TabIndex = 274;
-            // 
-            // label81
-            // 
-            this.label81.Location = new System.Drawing.Point(359, 387);
-            this.label81.Name = "label81";
-            this.label81.Size = new System.Drawing.Size(179, 17);
-            this.label81.TabIndex = 276;
-            this.label81.Text = "C42. Hẹn tái khám tối đa";
-            this.label81.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // c324
-            // 
-            this.c324.CheckOnClick = true;
-            this.c324.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.c324.FormattingEnabled = true;
-            this.c324.Location = new System.Drawing.Point(360, 332);
-            this.c324.Name = "c324";
-            this.c324.Size = new System.Drawing.Size(230, 52);
-            this.c324.TabIndex = 273;
-            // 
-            // c323
-            // 
-            this.c323.Location = new System.Drawing.Point(532, 312);
-            this.c323.Name = "c323";
-            this.c323.Size = new System.Drawing.Size(104, 21);
-            this.c323.TabIndex = 272;
-            this.c323.Text = "- In phiếu hẹn";
-            // 
-            // c322
-            // 
-            this.c322.Location = new System.Drawing.Point(360, 312);
-            this.c322.Name = "c322";
-            this.c322.Size = new System.Drawing.Size(200, 21);
-            this.c322.TabIndex = 271;
-            this.c322.Text = "C41 + Tái khám nhập ngày hẹn";
-            this.c322.CheckedChanged += new System.EventHandler(this.c322_CheckedChanged);
-            // 
-            // c315
-            // 
-            this.c315.CheckOnClick = true;
-            this.c315.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.c315.FormattingEnabled = true;
-            this.c315.Location = new System.Drawing.Point(156, 419);
-            this.c315.Name = "c315";
-            this.c315.Size = new System.Drawing.Size(197, 52);
-            this.c315.TabIndex = 270;
-            // 
-            // label74
-            // 
-            this.label74.Location = new System.Drawing.Point(18, 416);
-            this.label74.Name = "label74";
-            this.label74.Size = new System.Drawing.Size(179, 17);
-            this.label74.TabIndex = 269;
-            this.label74.Text = "C23. Chỉ được chuyển khoa";
-            this.label74.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // label66
-            // 
-            this.label66.Location = new System.Drawing.Point(272, 396);
-            this.label66.Name = "label66";
-            this.label66.Size = new System.Drawing.Size(32, 16);
-            this.label66.TabIndex = 267;
-            this.label66.Text = "lần";
-            this.label66.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // c305
-            // 
-            this.c305.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.c305.Location = new System.Drawing.Point(226, 393);
-            this.c305.Maximum = new decimal(new int[] {
-            9999,
-            0,
-            0,
-            0});
-            this.c305.Name = "c305";
-            this.c305.Size = new System.Drawing.Size(43, 21);
-            this.c305.TabIndex = 266;
-            // 
-            // label65
-            // 
-            this.label65.Location = new System.Drawing.Point(20, 395);
-            this.label65.Name = "label65";
-            this.label65.Size = new System.Drawing.Size(207, 17);
-            this.label65.TabIndex = 268;
-            this.label65.Text = "C22. Số lần tái khám điều trị ngoại trú";
-            this.label65.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // c296
-            // 
-            this.c296.Location = new System.Drawing.Point(5, 375);
-            this.c296.Name = "c296";
-            this.c296.Size = new System.Drawing.Size(348, 21);
-            this.c296.TabIndex = 265;
-            this.c296.Text = "C21 - Nhập thông tin bác sĩ, bệnh viện giới thiệu";
-            this.c296.CheckedChanged += new System.EventHandler(this.c296_CheckedChanged);
-            // 
-            // c295
-            // 
-            this.c295.Location = new System.Drawing.Point(5, 355);
-            this.c295.Name = "c295";
-            this.c295.Size = new System.Drawing.Size(380, 21);
-            this.c295.TabIndex = 264;
-            this.c295.Text = "C20 - Cho phép nhập khám bệnh người bệnh đăng ký ngày hôm qua";
-            // 
-            // p12
-            // 
-            this.p12.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
-            this.p12.AutoScroll = true;
-            this.p12.Controls.Add(this.butFile);
-            this.p12.Controls.Add(this.id);
-            this.p12.Controls.Add(this.butBoqua);
-            this.p12.Controls.Add(this.chophep);
-            this.p12.Controls.Add(this.butLuu);
-            this.p12.Controls.Add(this.butSua);
-            this.p12.Controls.Add(this.ten);
-            this.p12.Controls.Add(this.butThem);
-            this.p12.Controls.Add(this.label22);
-            this.p12.Controls.Add(this.label23);
-            this.p12.Controls.Add(this.dataGrid3);
-            this.p12.Controls.Add(this.dataGrid1);
-            this.p12.Location = new System.Drawing.Point(159, 3);
-            this.p12.Name = "p12";
-            this.p12.Size = new System.Drawing.Size(660, 509);
-            this.p12.TabIndex = 81;
-            this.p12.Visible = false;
-            // 
-            // butFile
-            // 
-            this.butFile.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.butFile.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.butFile.Location = new System.Drawing.Point(587, 227);
-            this.butFile.Name = "butFile";
-            this.butFile.Size = new System.Drawing.Size(24, 23);
-            this.butFile.TabIndex = 199;
-            this.butFile.Text = "...";
-            this.toolTip1.SetToolTip(this.butFile, "Tập tin tin nhắn giống nhau trong phân hệ");
-            this.butFile.Click += new System.EventHandler(this.butFile_Click);
-            // 
-            // dataGrid3
-            // 
-            this.dataGrid3.AlternatingBackColor = System.Drawing.Color.Lavender;
-            this.dataGrid3.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.dataGrid3.BackgroundColor = System.Drawing.SystemColors.Control;
-            this.dataGrid3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.dataGrid3.CaptionBackColor = System.Drawing.SystemColors.Control;
-            this.dataGrid3.CaptionFont = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dataGrid3.CaptionForeColor = System.Drawing.Color.MidnightBlue;
-            this.dataGrid3.CaptionText = "Nhập vào tập tin tin nhắn";
-            this.dataGrid3.DataMember = "";
-            this.dataGrid3.FlatMode = true;
-            this.dataGrid3.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dataGrid3.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.dataGrid3.GridLineColor = System.Drawing.Color.Gainsboro;
-            this.dataGrid3.GridLineStyle = System.Windows.Forms.DataGridLineStyle.None;
-            this.dataGrid3.HeaderFont = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Bold);
-            this.dataGrid3.HeaderForeColor = System.Drawing.Color.WhiteSmoke;
-            this.dataGrid3.LinkColor = System.Drawing.Color.Teal;
-            this.dataGrid3.Location = new System.Drawing.Point(7, 231);
-            this.dataGrid3.Name = "dataGrid3";
-            this.dataGrid3.ParentRowsBackColor = System.Drawing.Color.Gainsboro;
-            this.dataGrid3.ParentRowsForeColor = System.Drawing.Color.MidnightBlue;
-            this.dataGrid3.ReadOnly = true;
-            this.dataGrid3.RowHeaderWidth = 10;
-            this.dataGrid3.SelectionBackColor = System.Drawing.Color.CadetBlue;
-            this.dataGrid3.SelectionForeColor = System.Drawing.Color.WhiteSmoke;
-            this.dataGrid3.Size = new System.Drawing.Size(602, 264);
-            this.dataGrid3.TabIndex = 198;
-            // 
-            // p04
-            // 
-            this.p04.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
-            this.p04.AutoScroll = true;
-            this.p04.Controls.Add(this.p01);
-            this.p04.Controls.Add(this.rbcaptheotv);
-            this.p04.Controls.Add(this.rbcaptheokhoa);
-            this.p04.Controls.Add(this.c1090);
-            this.p04.Controls.Add(this.c1074);
-            this.p04.Controls.Add(this.c1066);
-            this.p04.Controls.Add(this.c1065);
-            this.p04.Controls.Add(this.c1064);
-            this.p04.Controls.Add(this.c1060);
-            this.p04.Controls.Add(this.c1056);
-            this.p04.Controls.Add(this.c1047);
-            this.p04.Controls.Add(this.c1029);
-            this.p04.Controls.Add(this.c1028);
-            this.p04.Controls.Add(this.c241);
-            this.p04.Controls.Add(this.c1027);
-            this.p04.Controls.Add(this.c433);
-            this.p04.Controls.Add(this.c225);
-            this.p04.Controls.Add(this.c346);
-            this.p04.Controls.Add(this.c301);
-            this.p04.Controls.Add(this.c239);
-            this.p04.Controls.Add(this.c216);
-            this.p04.Controls.Add(this.c59);
-            this.p04.Controls.Add(this.sovaovien);
-            this.p04.Controls.Add(this.c226);
-            this.p04.Controls.Add(this.c51);
-            this.p04.Controls.Add(this.c140);
-            this.p04.Controls.Add(this.c177);
-            this.p04.Controls.Add(this.c243);
-            this.p04.Controls.Add(this.c108);
-            this.p04.Controls.Add(this.c203);
-            this.p04.Controls.Add(this.c201);
-            this.p04.Controls.Add(this.c202);
-            this.p04.Controls.Add(this.c109);
-            this.p04.Controls.Add(this.c223);
-            this.p04.Controls.Add(this.c224);
-            this.p04.Controls.Add(this.c102);
-            this.p04.Controls.Add(this.c227);
-            this.p04.Location = new System.Drawing.Point(0, 0);
-            this.p04.Name = "p04";
-            this.p04.Size = new System.Drawing.Size(660, 509);
-            this.p04.TabIndex = 82;
-            this.p04.Visible = false;
+            this.p04_masotudong.AutoScroll = true;
+            this.p04_masotudong.Controls.Add(this.rbcaptheotv);
+            this.p04_masotudong.Controls.Add(this.rbcaptheokhoa);
+            this.p04_masotudong.Controls.Add(this.c1090);
+            this.p04_masotudong.Controls.Add(this.c1074);
+            this.p04_masotudong.Controls.Add(this.c1066);
+            this.p04_masotudong.Controls.Add(this.c1065);
+            this.p04_masotudong.Controls.Add(this.c1064);
+            this.p04_masotudong.Controls.Add(this.c1060);
+            this.p04_masotudong.Controls.Add(this.c1056);
+            this.p04_masotudong.Controls.Add(this.c1047);
+            this.p04_masotudong.Controls.Add(this.c1029);
+            this.p04_masotudong.Controls.Add(this.c1028);
+            this.p04_masotudong.Controls.Add(this.c241);
+            this.p04_masotudong.Controls.Add(this.c1027);
+            this.p04_masotudong.Controls.Add(this.c433);
+            this.p04_masotudong.Controls.Add(this.c225);
+            this.p04_masotudong.Controls.Add(this.c346);
+            this.p04_masotudong.Controls.Add(this.c301);
+            this.p04_masotudong.Controls.Add(this.c239);
+            this.p04_masotudong.Controls.Add(this.c216);
+            this.p04_masotudong.Controls.Add(this.c59);
+            this.p04_masotudong.Controls.Add(this.sovaovien);
+            this.p04_masotudong.Controls.Add(this.c226);
+            this.p04_masotudong.Controls.Add(this.c51);
+            this.p04_masotudong.Controls.Add(this.c140);
+            this.p04_masotudong.Controls.Add(this.c177);
+            this.p04_masotudong.Controls.Add(this.c243);
+            this.p04_masotudong.Controls.Add(this.c108);
+            this.p04_masotudong.Controls.Add(this.c203);
+            this.p04_masotudong.Controls.Add(this.c201);
+            this.p04_masotudong.Controls.Add(this.c202);
+            this.p04_masotudong.Controls.Add(this.c109);
+            this.p04_masotudong.Controls.Add(this.c223);
+            this.p04_masotudong.Controls.Add(this.c224);
+            this.p04_masotudong.Controls.Add(this.c102);
+            this.p04_masotudong.Controls.Add(this.c227);
+            this.p04_masotudong.Location = new System.Drawing.Point(157, 3);
+            this.p04_masotudong.Name = "p04_masotudong";
+            this.p04_masotudong.Size = new System.Drawing.Size(663, 509);
+            this.p04_masotudong.TabIndex = 82;
+            this.p04_masotudong.Visible = false;
             // 
             // rbcaptheotv
             // 
@@ -6048,108 +5338,108 @@ namespace Medisoft
             this.sovaovien.Text = "D01 + Số vào viện tự động";
             this.sovaovien.CheckedChanged += new System.EventHandler(this.sovaovien_CheckedChanged);
             // 
-            // p05
+            // p05_doituong
             // 
-            this.p05.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.p05_doituong.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
                         | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
-            this.p05.AutoScroll = true;
-            this.p05.Controls.Add(this.c50034);
-            this.p05.Controls.Add(this.c352);
-            this.p05.Controls.Add(this.label149);
-            this.p05.Controls.Add(this.c1141);
-            this.p05.Controls.Add(this.label147);
-            this.p05.Controls.Add(this.label148);
-            this.p05.Controls.Add(this.c1140);
-            this.p05.Controls.Add(this.c1139);
-            this.p05.Controls.Add(this.label145);
-            this.p05.Controls.Add(this.c1138);
-            this.p05.Controls.Add(this.label144);
-            this.p05.Controls.Add(this.c1137);
-            this.p05.Controls.Add(this.label143);
-            this.p05.Controls.Add(this.label142);
-            this.p05.Controls.Add(this.label146);
-            this.p05.Controls.Add(this.c62);
-            this.p05.Controls.Add(this.label140);
-            this.p05.Controls.Add(this.label141);
-            this.p05.Controls.Add(this.txtmatinh);
-            this.p05.Controls.Add(this.txtkituchu);
-            this.p05.Controls.Add(this.c997);
-            this.p05.Controls.Add(this.c1080);
-            this.p05.Controls.Add(this.c1076);
-            this.p05.Controls.Add(this.c1075);
-            this.p05.Controls.Add(this.c1053);
-            this.p05.Controls.Add(this.c1046);
-            this.p05.Controls.Add(this.c1045);
-            this.p05.Controls.Add(this.c1038);
-            this.p05.Controls.Add(this.c1023);
-            this.p05.Controls.Add(this.c1008);
-            this.p05.Controls.Add(this.c1007);
-            this.p05.Controls.Add(this.c49);
-            this.p05.Controls.Add(this.label123);
-            this.p05.Controls.Add(this.c442);
-            this.p05.Controls.Add(this.c438);
-            this.p05.Controls.Add(this.d50);
-            this.p05.Controls.Add(this.ma13);
-            this.p05.Controls.Add(this.label120);
-            this.p05.Controls.Add(this.label122);
-            this.p05.Controls.Add(this.d52);
-            this.p05.Controls.Add(this.c431);
-            this.p05.Controls.Add(this.label121);
-            this.p05.Controls.Add(this.d53);
-            this.p05.Controls.Add(this.d51);
-            this.p05.Controls.Add(this.c175);
-            this.p05.Controls.Add(this.label114);
-            this.p05.Controls.Add(this.label115);
-            this.p05.Controls.Add(this.label116);
-            this.p05.Controls.Add(this.label117);
-            this.p05.Controls.Add(this.label118);
-            this.p05.Controls.Add(this.label119);
-            this.p05.Controls.Add(this.c428);
-            this.p05.Controls.Add(this.label112);
-            this.p05.Controls.Add(this.c427);
-            this.p05.Controls.Add(this.label111);
-            this.p05.Controls.Add(this.c426);
-            this.p05.Controls.Add(this.c365);
-            this.p05.Controls.Add(this.label95);
-            this.p05.Controls.Add(this.c360);
-            this.p05.Controls.Add(this.c348);
-            this.p05.Controls.Add(this.c353);
-            this.p05.Controls.Add(this.c351);
-            this.p05.Controls.Add(this.c350);
-            this.p05.Controls.Add(this.c349);
-            this.p05.Controls.Add(this.lbl60);
-            this.p05.Controls.Add(this.label93);
-            this.p05.Controls.Add(this.label94);
-            this.p05.Controls.Add(this.label92);
-            this.p05.Controls.Add(this.label91);
-            this.p05.Controls.Add(this.label90);
-            this.p05.Controls.Add(this.label89);
-            this.p05.Controls.Add(this.label88);
-            this.p05.Controls.Add(this.label87);
-            this.p05.Controls.Add(this.c347);
-            this.p05.Controls.Add(this.c345);
-            this.p05.Controls.Add(this.label84);
-            this.p05.Controls.Add(this.c333);
-            this.p05.Controls.Add(this.label83);
-            this.p05.Controls.Add(this.c332);
-            this.p05.Controls.Add(this.label82);
-            this.p05.Controls.Add(this.c321);
-            this.p05.Controls.Add(this.c163);
-            this.p05.Controls.Add(this.c205);
-            this.p05.Controls.Add(this.c131);
-            this.p05.Controls.Add(this.c204);
-            this.p05.Controls.Add(this.c180);
-            this.p05.Controls.Add(this.c192);
-            this.p05.Controls.Add(this.c132);
-            this.p05.Controls.Add(this.c154);
-            this.p05.Controls.Add(this.c178);
-            this.p05.Controls.Add(this.c362);
-            this.p05.Location = new System.Drawing.Point(163, 3);
-            this.p05.Name = "p05";
-            this.p05.Size = new System.Drawing.Size(669, 509);
-            this.p05.TabIndex = 83;
-            this.p05.Visible = false;
+            this.p05_doituong.AutoScroll = true;
+            this.p05_doituong.Controls.Add(this.c50034);
+            this.p05_doituong.Controls.Add(this.c352);
+            this.p05_doituong.Controls.Add(this.label149);
+            this.p05_doituong.Controls.Add(this.c1141);
+            this.p05_doituong.Controls.Add(this.label147);
+            this.p05_doituong.Controls.Add(this.label148);
+            this.p05_doituong.Controls.Add(this.c1140);
+            this.p05_doituong.Controls.Add(this.c1139);
+            this.p05_doituong.Controls.Add(this.label145);
+            this.p05_doituong.Controls.Add(this.c1138);
+            this.p05_doituong.Controls.Add(this.label144);
+            this.p05_doituong.Controls.Add(this.c1137);
+            this.p05_doituong.Controls.Add(this.label143);
+            this.p05_doituong.Controls.Add(this.label142);
+            this.p05_doituong.Controls.Add(this.label146);
+            this.p05_doituong.Controls.Add(this.c62);
+            this.p05_doituong.Controls.Add(this.label140);
+            this.p05_doituong.Controls.Add(this.label141);
+            this.p05_doituong.Controls.Add(this.txtmatinh);
+            this.p05_doituong.Controls.Add(this.txtkituchu);
+            this.p05_doituong.Controls.Add(this.c997);
+            this.p05_doituong.Controls.Add(this.c1080);
+            this.p05_doituong.Controls.Add(this.c1076);
+            this.p05_doituong.Controls.Add(this.c1075);
+            this.p05_doituong.Controls.Add(this.c1053);
+            this.p05_doituong.Controls.Add(this.c1046);
+            this.p05_doituong.Controls.Add(this.c1045);
+            this.p05_doituong.Controls.Add(this.c1038);
+            this.p05_doituong.Controls.Add(this.c1023);
+            this.p05_doituong.Controls.Add(this.c1008);
+            this.p05_doituong.Controls.Add(this.c1007);
+            this.p05_doituong.Controls.Add(this.c49);
+            this.p05_doituong.Controls.Add(this.label123);
+            this.p05_doituong.Controls.Add(this.c442);
+            this.p05_doituong.Controls.Add(this.c438);
+            this.p05_doituong.Controls.Add(this.d50);
+            this.p05_doituong.Controls.Add(this.ma13);
+            this.p05_doituong.Controls.Add(this.label120);
+            this.p05_doituong.Controls.Add(this.label122);
+            this.p05_doituong.Controls.Add(this.d52);
+            this.p05_doituong.Controls.Add(this.c431);
+            this.p05_doituong.Controls.Add(this.label121);
+            this.p05_doituong.Controls.Add(this.d53);
+            this.p05_doituong.Controls.Add(this.d51);
+            this.p05_doituong.Controls.Add(this.c175);
+            this.p05_doituong.Controls.Add(this.label114);
+            this.p05_doituong.Controls.Add(this.label115);
+            this.p05_doituong.Controls.Add(this.label116);
+            this.p05_doituong.Controls.Add(this.label117);
+            this.p05_doituong.Controls.Add(this.label118);
+            this.p05_doituong.Controls.Add(this.label119);
+            this.p05_doituong.Controls.Add(this.c428);
+            this.p05_doituong.Controls.Add(this.label112);
+            this.p05_doituong.Controls.Add(this.c427);
+            this.p05_doituong.Controls.Add(this.label111);
+            this.p05_doituong.Controls.Add(this.c426);
+            this.p05_doituong.Controls.Add(this.c365);
+            this.p05_doituong.Controls.Add(this.label95);
+            this.p05_doituong.Controls.Add(this.c360);
+            this.p05_doituong.Controls.Add(this.c348);
+            this.p05_doituong.Controls.Add(this.c353);
+            this.p05_doituong.Controls.Add(this.c351);
+            this.p05_doituong.Controls.Add(this.c350);
+            this.p05_doituong.Controls.Add(this.c349);
+            this.p05_doituong.Controls.Add(this.lbl60);
+            this.p05_doituong.Controls.Add(this.label93);
+            this.p05_doituong.Controls.Add(this.label94);
+            this.p05_doituong.Controls.Add(this.label92);
+            this.p05_doituong.Controls.Add(this.label91);
+            this.p05_doituong.Controls.Add(this.label90);
+            this.p05_doituong.Controls.Add(this.label89);
+            this.p05_doituong.Controls.Add(this.label88);
+            this.p05_doituong.Controls.Add(this.label87);
+            this.p05_doituong.Controls.Add(this.c347);
+            this.p05_doituong.Controls.Add(this.c345);
+            this.p05_doituong.Controls.Add(this.label84);
+            this.p05_doituong.Controls.Add(this.c333);
+            this.p05_doituong.Controls.Add(this.label83);
+            this.p05_doituong.Controls.Add(this.c332);
+            this.p05_doituong.Controls.Add(this.label82);
+            this.p05_doituong.Controls.Add(this.c321);
+            this.p05_doituong.Controls.Add(this.c163);
+            this.p05_doituong.Controls.Add(this.c205);
+            this.p05_doituong.Controls.Add(this.c131);
+            this.p05_doituong.Controls.Add(this.c204);
+            this.p05_doituong.Controls.Add(this.c180);
+            this.p05_doituong.Controls.Add(this.c192);
+            this.p05_doituong.Controls.Add(this.c132);
+            this.p05_doituong.Controls.Add(this.c154);
+            this.p05_doituong.Controls.Add(this.c178);
+            this.p05_doituong.Controls.Add(this.c362);
+            this.p05_doituong.Location = new System.Drawing.Point(157, 3);
+            this.p05_doituong.Name = "p05_doituong";
+            this.p05_doituong.Size = new System.Drawing.Size(672, 509);
+            this.p05_doituong.TabIndex = 83;
+            this.p05_doituong.Visible = false;
             // 
             // c50034
             // 
@@ -6983,120 +6273,828 @@ namespace Medisoft
             this.c362.TabIndex = 215;
             this.c362.Text = "E16 - Kiểm tra số thẻ và nơi đăng ký khám chữa bệnh";
             // 
-            // p06
+            // p03_chuyenmon
             // 
-            this.p06.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.p03_chuyenmon.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
                         | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
-            this.p06.AutoScroll = true;
-            this.p06.Controls.Add(this.c1260);
-            this.p06.Controls.Add(this.c1512);
-            this.p06.Controls.Add(this.C1503);
-            this.p06.Controls.Add(this.c1100);
-            this.p06.Controls.Add(this.c445);
-            this.p06.Controls.Add(this.numSongaychotoa);
-            this.p06.Controls.Add(this.label138);
-            this.p06.Controls.Add(this.c1095);
-            this.p06.Controls.Add(this.c1136);
-            this.p06.Controls.Add(this.chkdmNhom);
-            this.p06.Controls.Add(this.c1072);
-            this.p06.Controls.Add(this.c1069);
-            this.p06.Controls.Add(this.label133);
-            this.p06.Controls.Add(this.c364);
-            this.p06.Controls.Add(this.c1002);
-            this.p06.Controls.Add(this.c1068);
-            this.p06.Controls.Add(this.c1067);
-            this.p06.Controls.Add(this.c1062);
-            this.p06.Controls.Add(this.label130);
-            this.p06.Controls.Add(this.c1055);
-            this.p06.Controls.Add(this.c1048);
-            this.p06.Controls.Add(this.c1030);
-            this.p06.Controls.Add(this.label129);
-            this.p06.Controls.Add(this.c191);
-            this.p06.Controls.Add(this.c56);
-            this.p06.Controls.Add(this.c420);
-            this.p06.Controls.Add(this.c413);
-            this.p06.Controls.Add(this.c402);
-            this.p06.Controls.Add(this.c401);
-            this.p06.Controls.Add(this.c400);
-            this.p06.Controls.Add(this.c394);
-            this.p06.Controls.Add(this.c300);
-            this.p06.Controls.Add(this.c390);
-            this.p06.Controls.Add(this.c389);
-            this.p06.Controls.Add(this.label103);
-            this.p06.Controls.Add(this.c383);
-            this.p06.Controls.Add(this.c379);
-            this.p06.Controls.Add(this.label102);
-            this.p06.Controls.Add(this.c229);
-            this.p06.Controls.Add(this.c165);
-            this.p06.Controls.Add(this.c376);
-            this.p06.Controls.Add(this.label101);
-            this.p06.Controls.Add(this.c375);
-            this.p06.Controls.Add(this.label100);
-            this.p06.Controls.Add(this.c374);
-            this.p06.Controls.Add(this.c363);
-            this.p06.Controls.Add(this.dataGrid2);
-            this.p06.Controls.Add(this.mml);
-            this.p06.Controls.Add(this.c342);
-            this.p06.Controls.Add(this.c137);
-            this.p06.Controls.Add(this.c299);
-            this.p06.Controls.Add(this.c298);
-            this.p06.Controls.Add(this.label61);
-            this.p06.Controls.Add(this.c297);
-            this.p06.Controls.Add(this.c294);
-            this.p06.Controls.Add(this.hhl);
-            this.p06.Controls.Add(this.c293);
-            this.p06.Controls.Add(this.c292);
-            this.p06.Controls.Add(this.c291);
-            this.p06.Controls.Add(this.label63);
-            this.p06.Controls.Add(this.label62);
-            this.p06.Controls.Add(this.label60);
-            this.p06.Controls.Add(this.c282);
-            this.p06.Controls.Add(this.c281);
-            this.p06.Controls.Add(this.c166);
-            this.p06.Controls.Add(this.c145);
-            this.p06.Controls.Add(this.c147);
-            this.p06.Controls.Add(this.c61);
-            this.p06.Controls.Add(this.c156);
-            this.p06.Controls.Add(this.c194);
-            this.p06.Controls.Add(this.c198);
-            this.p06.Controls.Add(this.c48);
-            this.p06.Controls.Add(this.label51);
-            this.p06.Controls.Add(this.c135);
-            this.p06.Controls.Add(this.c261);
-            this.p06.Controls.Add(this.label52);
-            this.p06.Controls.Add(this.c260);
-            this.p06.Controls.Add(this.label31);
-            this.p06.Controls.Add(this.c184);
-            this.p06.Controls.Add(this.hh);
-            this.p06.Controls.Add(this.label32);
-            this.p06.Controls.Add(this.c169);
-            this.p06.Controls.Add(this.c186);
-            this.p06.Controls.Add(this.mm);
-            this.p06.Controls.Add(this.label45);
-            this.p06.Controls.Add(this.mmt);
-            this.p06.Controls.Add(this.c164);
-            this.p06.Controls.Add(this.c244);
-            this.p06.Controls.Add(this.label33);
-            this.p06.Controls.Add(this.c233);
-            this.p06.Controls.Add(this.c176);
-            this.p06.Controls.Add(this.label46);
-            this.p06.Controls.Add(this.label44);
-            this.p06.Controls.Add(this.mmb);
-            this.p06.Controls.Add(this.label38);
-            this.p06.Controls.Add(this.hht);
-            this.p06.Controls.Add(this.label43);
-            this.p06.Controls.Add(this.hhb);
-            this.p06.Controls.Add(this.label47);
-            this.p06.Controls.Add(this.label42);
-            this.p06.Controls.Add(this.c228);
-            this.p06.Controls.Add(this.label40);
-            this.p06.Controls.Add(this.c334);
-            this.p06.Location = new System.Drawing.Point(159, 5);
-            this.p06.Name = "p06";
-            this.p06.Size = new System.Drawing.Size(660, 509);
-            this.p06.TabIndex = 84;
-            this.p06.Paint += new System.Windows.Forms.PaintEventHandler(this.p06_Paint);
+            this.p03_chuyenmon.AutoScroll = true;
+            this.p03_chuyenmon.Controls.Add(this.c1513);
+            this.p03_chuyenmon.Controls.Add(this.c1511);
+            this.p03_chuyenmon.Controls.Add(this.c1509);
+            this.p03_chuyenmon.Controls.Add(this.c1508);
+            this.p03_chuyenmon.Controls.Add(this.c1507);
+            this.p03_chuyenmon.Controls.Add(this.c1506);
+            this.p03_chuyenmon.Controls.Add(this.c1104);
+            this.p03_chuyenmon.Controls.Add(this.c1099);
+            this.p03_chuyenmon.Controls.Add(this.c1098);
+            this.p03_chuyenmon.Controls.Add(this.c1094);
+            this.p03_chuyenmon.Controls.Add(this.butDichvu);
+            this.p03_chuyenmon.Controls.Add(this.txtVienphi);
+            this.p03_chuyenmon.Controls.Add(this.c1093);
+            this.p03_chuyenmon.Controls.Add(this.c1092);
+            this.p03_chuyenmon.Controls.Add(this.c1061);
+            this.p03_chuyenmon.Controls.Add(this.c1051);
+            this.p03_chuyenmon.Controls.Add(this.c1031);
+            this.p03_chuyenmon.Controls.Add(this.c1026);
+            this.p03_chuyenmon.Controls.Add(this.c1021);
+            this.p03_chuyenmon.Controls.Add(this.c1020);
+            this.p03_chuyenmon.Controls.Add(this.c1011);
+            this.p03_chuyenmon.Controls.Add(this.c1010);
+            this.p03_chuyenmon.Controls.Add(this.c1003);
+            this.p03_chuyenmon.Controls.Add(this.c1001);
+            this.p03_chuyenmon.Controls.Add(this.c430);
+            this.p03_chuyenmon.Controls.Add(this.label110);
+            this.p03_chuyenmon.Controls.Add(this.c425);
+            this.p03_chuyenmon.Controls.Add(this.c424);
+            this.p03_chuyenmon.Controls.Add(this.label109);
+            this.p03_chuyenmon.Controls.Add(this.c423);
+            this.p03_chuyenmon.Controls.Add(this.label108);
+            this.p03_chuyenmon.Controls.Add(this.label107);
+            this.p03_chuyenmon.Controls.Add(this.c422);
+            this.p03_chuyenmon.Controls.Add(this.c408);
+            this.p03_chuyenmon.Controls.Add(this.c406);
+            this.p03_chuyenmon.Controls.Add(this.c405);
+            this.p03_chuyenmon.Controls.Add(this.c404);
+            this.p03_chuyenmon.Controls.Add(this.c393);
+            this.p03_chuyenmon.Controls.Add(this.c385);
+            this.p03_chuyenmon.Controls.Add(this.c373);
+            this.p03_chuyenmon.Controls.Add(this.c361);
+            this.p03_chuyenmon.Controls.Add(this.c354);
+            this.p03_chuyenmon.Controls.Add(this.c344);
+            this.p03_chuyenmon.Controls.Add(this.c330);
+            this.p03_chuyenmon.Controls.Add(this.label35);
+            this.p03_chuyenmon.Controls.Add(this.c139);
+            this.p03_chuyenmon.Controls.Add(this.c329);
+            this.p03_chuyenmon.Controls.Add(this.c327);
+            this.p03_chuyenmon.Controls.Add(this.label80);
+            this.p03_chuyenmon.Controls.Add(this.c325);
+            this.p03_chuyenmon.Controls.Add(this.label81);
+            this.p03_chuyenmon.Controls.Add(this.c324);
+            this.p03_chuyenmon.Controls.Add(this.c323);
+            this.p03_chuyenmon.Controls.Add(this.c322);
+            this.p03_chuyenmon.Controls.Add(this.c315);
+            this.p03_chuyenmon.Controls.Add(this.label74);
+            this.p03_chuyenmon.Controls.Add(this.label66);
+            this.p03_chuyenmon.Controls.Add(this.c305);
+            this.p03_chuyenmon.Controls.Add(this.label65);
+            this.p03_chuyenmon.Controls.Add(this.c296);
+            this.p03_chuyenmon.Controls.Add(this.c295);
+            this.p03_chuyenmon.Controls.Add(this.c193);
+            this.p03_chuyenmon.Controls.Add(this.chandoan);
+            this.p03_chuyenmon.Controls.Add(this.mmtn);
+            this.p03_chuyenmon.Controls.Add(this.c55);
+            this.p03_chuyenmon.Controls.Add(this.label48);
+            this.p03_chuyenmon.Controls.Add(this.hhtn);
+            this.p03_chuyenmon.Controls.Add(this.c126);
+            this.p03_chuyenmon.Controls.Add(this.c130);
+            this.p03_chuyenmon.Controls.Add(this.c153);
+            this.p03_chuyenmon.Controls.Add(this.solieu);
+            this.p03_chuyenmon.Controls.Add(this.c181);
+            this.p03_chuyenmon.Controls.Add(this.c215);
+            this.p03_chuyenmon.Controls.Add(this.c274);
+            this.p03_chuyenmon.Controls.Add(this.c52);
+            this.p03_chuyenmon.Controls.Add(this.c197);
+            this.p03_chuyenmon.Controls.Add(this.c38);
+            this.p03_chuyenmon.Controls.Add(this.khambenh);
+            this.p03_chuyenmon.Controls.Add(this.c148);
+            this.p03_chuyenmon.Controls.Add(this.c200);
+            this.p03_chuyenmon.Controls.Add(this.c213);
+            this.p03_chuyenmon.Controls.Add(this.c111);
+            this.p03_chuyenmon.Controls.Add(this.noichuyen);
+            this.p03_chuyenmon.Controls.Add(this.c116);
+            this.p03_chuyenmon.Controls.Add(this.c100);
+            this.p03_chuyenmon.Controls.Add(this.c160);
+            this.p03_chuyenmon.Controls.Add(this.c105);
+            this.p03_chuyenmon.Controls.Add(this.c259);
+            this.p03_chuyenmon.Controls.Add(this.c167);
+            this.p03_chuyenmon.Controls.Add(this.c252);
+            this.p03_chuyenmon.Controls.Add(this.c250);
+            this.p03_chuyenmon.Controls.Add(this.c172);
+            this.p03_chuyenmon.Controls.Add(this.soluutru);
+            this.p03_chuyenmon.Controls.Add(this.label36);
+            this.p03_chuyenmon.Controls.Add(this.c127);
+            this.p03_chuyenmon.Controls.Add(this.c106);
+            this.p03_chuyenmon.Controls.Add(this.c118);
+            this.p03_chuyenmon.Controls.Add(this.c162);
+            this.p03_chuyenmon.Controls.Add(this.c245);
+            this.p03_chuyenmon.Controls.Add(this.c36);
+            this.p03_chuyenmon.Controls.Add(this.c276);
+            this.p03_chuyenmon.Controls.Add(this.c54);
+            this.p03_chuyenmon.Location = new System.Drawing.Point(157, 3);
+            this.p03_chuyenmon.Name = "p03_chuyenmon";
+            this.p03_chuyenmon.Size = new System.Drawing.Size(667, 509);
+            this.p03_chuyenmon.TabIndex = 80;
+            this.p03_chuyenmon.Visible = false;
+            this.p03_chuyenmon.Paint += new System.Windows.Forms.PaintEventHandler(this.p03_Paint);
+            // 
+            // c1513
+            // 
+            this.c1513.Location = new System.Drawing.Point(1056, 237);
+            this.c1513.Name = "c1513";
+            this.c1513.Size = new System.Drawing.Size(348, 21);
+            this.c1513.TabIndex = 322;
+            this.c1513.Text = "C78 - Xuất thuốc tủ trực theo gói không cho phép sửa";
+            // 
+            // c1511
+            // 
+            this.c1511.Location = new System.Drawing.Point(1056, 217);
+            this.c1511.Name = "c1511";
+            this.c1511.Size = new System.Drawing.Size(348, 21);
+            this.c1511.TabIndex = 321;
+            this.c1511.Text = "C77 - Không cho phép đăng kí nếu chưa hết ngày thuốc BHYT";
+            // 
+            // c1509
+            // 
+            this.c1509.Location = new System.Drawing.Point(1056, 198);
+            this.c1509.Name = "c1509";
+            this.c1509.Size = new System.Drawing.Size(348, 21);
+            this.c1509.TabIndex = 320;
+            this.c1509.Text = "C76 - Từ chối nhập viện nếu chưa thanh toán viện phí";
+            // 
+            // c1508
+            // 
+            this.c1508.Location = new System.Drawing.Point(1056, 180);
+            this.c1508.Name = "c1508";
+            this.c1508.Size = new System.Drawing.Size(348, 21);
+            this.c1508.TabIndex = 319;
+            this.c1508.Text = "C75 - Quản lí nhân viên sale";
+            this.c1508.CheckedChanged += new System.EventHandler(this.c1508_CheckedChanged);
+            // 
+            // c1507
+            // 
+            this.c1507.Location = new System.Drawing.Point(1056, 163);
+            this.c1507.Name = "c1507";
+            this.c1507.Size = new System.Drawing.Size(350, 19);
+            this.c1507.TabIndex = 318;
+            this.c1507.Text = "C74 - Lấy chẩn đoán theo khoa cuối trong phiếu thanh toán ra viện";
+            // 
+            // c1506
+            // 
+            this.c1506.Location = new System.Drawing.Point(1056, 146);
+            this.c1506.Name = "c1506";
+            this.c1506.Size = new System.Drawing.Size(331, 19);
+            this.c1506.TabIndex = 317;
+            this.c1506.Text = "C73 - Không cho phép sửa chẩn đoán lúc in giấy chuyển viện.";
+            // 
+            // c1104
+            // 
+            this.c1104.AutoSize = true;
+            this.c1104.Location = new System.Drawing.Point(1056, 130);
+            this.c1104.Name = "c1104";
+            this.c1104.Size = new System.Drawing.Size(201, 17);
+            this.c1104.TabIndex = 315;
+            this.c1104.Text = "C71 - Phát quà thôi nôi khi xuất khoa";
+            this.c1104.UseVisualStyleBackColor = true;
+            // 
+            // c1099
+            // 
+            this.c1099.AutoSize = true;
+            this.c1099.Location = new System.Drawing.Point(1056, 114);
+            this.c1099.Name = "c1099";
+            this.c1099.Size = new System.Drawing.Size(219, 17);
+            this.c1099.TabIndex = 314;
+            this.c1099.Text = "C70 - Thông báo số lưu trữ khi xuất khoa";
+            this.c1099.UseVisualStyleBackColor = true;
+            // 
+            // c1098
+            // 
+            this.c1098.AutoSize = true;
+            this.c1098.Location = new System.Drawing.Point(1056, 98);
+            this.c1098.Name = "c1098";
+            this.c1098.Size = new System.Drawing.Size(347, 17);
+            this.c1098.TabIndex = 313;
+            this.c1098.Text = "C69 - Thông báo số vào viện khi nhập khoa, khám bệnh, phòng lưu";
+            this.c1098.UseVisualStyleBackColor = true;
+            // 
+            // c1094
+            // 
+            this.c1094.Location = new System.Drawing.Point(1337, 19);
+            this.c1094.Name = "c1094";
+            this.c1094.Size = new System.Drawing.Size(86, 20);
+            this.c1094.TabIndex = 312;
+            this.c1094.Visible = false;
+            // 
+            // butDichvu
+            // 
+            this.butDichvu.Location = new System.Drawing.Point(1299, 17);
+            this.butDichvu.Name = "butDichvu";
+            this.butDichvu.Size = new System.Drawing.Size(29, 23);
+            this.butDichvu.TabIndex = 311;
+            this.butDichvu.Text = "...";
+            this.butDichvu.UseVisualStyleBackColor = true;
+            this.butDichvu.Click += new System.EventHandler(this.butDichvu_Click);
+            // 
+            // txtVienphi
+            // 
+            this.txtVienphi.Location = new System.Drawing.Point(1056, 40);
+            this.txtVienphi.Multiline = true;
+            this.txtVienphi.Name = "txtVienphi";
+            this.txtVienphi.ReadOnly = true;
+            this.txtVienphi.Size = new System.Drawing.Size(366, 38);
+            this.txtVienphi.TabIndex = 310;
+            // 
+            // c1093
+            // 
+            this.c1093.Location = new System.Drawing.Point(1056, 20);
+            this.c1093.Name = "c1093";
+            this.c1093.Size = new System.Drawing.Size(417, 20);
+            this.c1093.TabIndex = 309;
+            this.c1093.Text = "C68. Bệnh nhân tử vong bắt buộc có kết quả:";
+            this.c1093.CheckedChanged += new System.EventHandler(this.c1093_CheckedChanged);
+            // 
+            // c1092
+            // 
+            this.c1092.Location = new System.Drawing.Point(1056, 3);
+            this.c1092.Name = "c1092";
+            this.c1092.Size = new System.Drawing.Size(417, 20);
+            this.c1092.TabIndex = 308;
+            this.c1092.Text = "C67. Chuyển phải qua duyệt khi chuyển sang bệnh viện ngoài danh sách";
+            // 
+            // c1061
+            // 
+            this.c1061.Location = new System.Drawing.Point(608, 463);
+            this.c1061.Name = "c1061";
+            this.c1061.Size = new System.Drawing.Size(417, 20);
+            this.c1061.TabIndex = 307;
+            this.c1061.Text = "C66. Biểu 02 không hiển thị khoa điều trị";
+            // 
+            // c1051
+            // 
+            this.c1051.Location = new System.Drawing.Point(608, 445);
+            this.c1051.Name = "c1051";
+            this.c1051.Size = new System.Drawing.Size(417, 20);
+            this.c1051.TabIndex = 306;
+            this.c1051.Text = "C65. Load lại thông tin quan hệ của lần đăng ký trước";
+            // 
+            // c1031
+            // 
+            this.c1031.Location = new System.Drawing.Point(608, 426);
+            this.c1031.Name = "c1031";
+            this.c1031.Size = new System.Drawing.Size(417, 20);
+            this.c1031.TabIndex = 305;
+            this.c1031.Text = "C64. Phòng lưu: kiểm tra thông tin chuyển viện trước khi in";
+            // 
+            // c1026
+            // 
+            this.c1026.Location = new System.Drawing.Point(608, 406);
+            this.c1026.Name = "c1026";
+            this.c1026.Size = new System.Drawing.Size(417, 20);
+            this.c1026.TabIndex = 304;
+            this.c1026.Text = "C63 - Phòng khám không được xử trí chuyển viện";
+            // 
+            // c1021
+            // 
+            this.c1021.Location = new System.Drawing.Point(624, 148);
+            this.c1021.Name = "c1021";
+            this.c1021.Size = new System.Drawing.Size(303, 19);
+            this.c1021.TabIndex = 303;
+            this.c1021.Text = "C51.2 - Lọc thuốc dự trù, tủ trực ... theo đối tượng";
+            // 
+            // c1020
+            // 
+            this.c1020.Checked = true;
+            this.c1020.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.c1020.Location = new System.Drawing.Point(625, 130);
+            this.c1020.Name = "c1020";
+            this.c1020.Size = new System.Drawing.Size(269, 20);
+            this.c1020.TabIndex = 302;
+            this.c1020.Text = "C51.1 - Lọc thuốc cấp toa theo đối tượng";
+            // 
+            // c1011
+            // 
+            this.c1011.Location = new System.Drawing.Point(608, 386);
+            this.c1011.Name = "c1011";
+            this.c1011.Size = new System.Drawing.Size(417, 20);
+            this.c1011.TabIndex = 301;
+            this.c1011.Text = "C62 - Chẩn đoán nguyên nhân phải có trong ICD10";
+            // 
+            // c1010
+            // 
+            this.c1010.Location = new System.Drawing.Point(608, 367);
+            this.c1010.Name = "c1010";
+            this.c1010.Size = new System.Drawing.Size(417, 20);
+            this.c1010.TabIndex = 300;
+            this.c1010.Text = "C61 - Chẩn đoán kèm theo, nơi chuyển đến, phân biệt phải có trong ICD10";
+            // 
+            // c1003
+            // 
+            this.c1003.Location = new System.Drawing.Point(608, 348);
+            this.c1003.Name = "c1003";
+            this.c1003.Size = new System.Drawing.Size(417, 20);
+            this.c1003.TabIndex = 299;
+            this.c1003.Text = "C60-Phòng khám bắt buộc nhập xử trí khi có chẩn đoán chính";
+            // 
+            // c1001
+            // 
+            this.c1001.Location = new System.Drawing.Point(608, 329);
+            this.c1001.Name = "c1001";
+            this.c1001.Size = new System.Drawing.Size(417, 20);
+            this.c1001.TabIndex = 298;
+            this.c1001.Text = "C59-Phòng lưu kết thúc điều trị mới được phép cấp toa cho về";
+            // 
+            // c430
+            // 
+            this.c430.Location = new System.Drawing.Point(623, 308);
+            this.c430.Name = "c430";
+            this.c430.Size = new System.Drawing.Size(417, 20);
+            this.c430.TabIndex = 297;
+            this.c430.Text = "C58 - Cho phép phòng khám chỉnh sữa thông tin hành chánh";
+            // 
+            // label110
+            // 
+            this.label110.Location = new System.Drawing.Point(1007, 45);
+            this.label110.Name = "label110";
+            this.label110.Size = new System.Drawing.Size(32, 16);
+            this.label110.TabIndex = 296;
+            this.label110.Text = "ngày";
+            this.label110.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // c425
+            // 
+            this.c425.Location = new System.Drawing.Point(608, 288);
+            this.c425.Name = "c425";
+            this.c425.Size = new System.Drawing.Size(417, 20);
+            this.c425.TabIndex = 296;
+            this.c425.Text = "C57 - Nhập phòng khám sau khi nhập mã người bệnh con trỏ đến chẩn đoán";
+            // 
+            // c424
+            // 
+            this.c424.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.c424.Location = new System.Drawing.Point(961, 42);
+            this.c424.Maximum = new decimal(new int[] {
+            9999,
+            0,
+            0,
+            0});
+            this.c424.Name = "c424";
+            this.c424.Size = new System.Drawing.Size(43, 21);
+            this.c424.TabIndex = 295;
+            this.c424.Value = new decimal(new int[] {
+            14,
+            0,
+            0,
+            0});
+            // 
+            // label109
+            // 
+            this.label109.AutoSize = true;
+            this.label109.Location = new System.Drawing.Point(607, 45);
+            this.label109.Name = "label109";
+            this.label109.Size = new System.Drawing.Size(358, 13);
+            this.label109.TabIndex = 294;
+            this.label109.Text = "C48.2 - Kết thúc điều trị ngoại trú khi bệnh nhân không quay lại tái khám : ";
+            this.label109.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // c423
+            // 
+            this.c423.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.c423.Location = new System.Drawing.Point(783, 264);
+            this.c423.Name = "c423";
+            this.c423.Size = new System.Drawing.Size(43, 21);
+            this.c423.TabIndex = 291;
+            this.c423.Value = new decimal(new int[] {
+            7,
+            0,
+            0,
+            0});
+            // 
+            // label108
+            // 
+            this.label108.AutoSize = true;
+            this.label108.Location = new System.Drawing.Point(607, 269);
+            this.label108.Name = "label108";
+            this.label108.Size = new System.Drawing.Size(178, 13);
+            this.label108.TabIndex = 293;
+            this.label108.Text = "C56 - Số ngày cho thuốc mặc định :";
+            this.label108.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label107
+            // 
+            this.label107.Location = new System.Drawing.Point(827, 263);
+            this.label107.Name = "label107";
+            this.label107.Size = new System.Drawing.Size(32, 16);
+            this.label107.TabIndex = 292;
+            this.label107.Text = "ngày";
+            this.label107.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // c422
+            // 
+            this.c422.Location = new System.Drawing.Point(607, 63);
+            this.c422.Name = "c422";
+            this.c422.Size = new System.Drawing.Size(374, 17);
+            this.c422.TabIndex = 290;
+            this.c422.Text = "C48.3 - Hiện danh sách vượt quá điều trị ngoại trú khi vào nhập bệnh án";
+            // 
+            // c408
+            // 
+            this.c408.Location = new System.Drawing.Point(608, 242);
+            this.c408.Name = "c408";
+            this.c408.Size = new System.Drawing.Size(329, 20);
+            this.c408.TabIndex = 289;
+            this.c408.Text = "Triệu chứng lâm sàng ban đầu :";
+            // 
+            // c406
+            // 
+            this.c406.Location = new System.Drawing.Point(608, 223);
+            this.c406.Name = "c406";
+            this.c406.Size = new System.Drawing.Size(364, 20);
+            this.c406.TabIndex = 288;
+            this.c406.Text = "C55 - Điều trị ngoại trú lọc theo bác sỹ";
+            // 
+            // c405
+            // 
+            this.c405.Location = new System.Drawing.Point(608, 203);
+            this.c405.Name = "c405";
+            this.c405.Size = new System.Drawing.Size(364, 20);
+            this.c405.TabIndex = 287;
+            this.c405.Text = "C54 - Đơn thuốc nhập bấm huyệt";
+            // 
+            // c404
+            // 
+            this.c404.Location = new System.Drawing.Point(608, 184);
+            this.c404.Name = "c404";
+            this.c404.Size = new System.Drawing.Size(364, 20);
+            this.c404.TabIndex = 286;
+            this.c404.Text = "C53 - Xử trí hẹn không cho phép in chi phí tại phòng khám";
+            // 
+            // c393
+            // 
+            this.c393.Location = new System.Drawing.Point(608, 165);
+            this.c393.Name = "c393";
+            this.c393.Size = new System.Drawing.Size(364, 20);
+            this.c393.TabIndex = 285;
+            this.c393.Text = "C52 + Người bệnh đang điều trị ngoại trú không cho nhập phòng khám";
+            // 
+            // c385
+            // 
+            this.c385.Location = new System.Drawing.Point(608, 113);
+            this.c385.Name = "c385";
+            this.c385.Size = new System.Drawing.Size(232, 20);
+            this.c385.TabIndex = 284;
+            this.c385.Text = "C51 + Lọc dịch vụ theo đối tượng chỉ định";
+            // 
+            // c373
+            // 
+            this.c373.Location = new System.Drawing.Point(5, 223);
+            this.c373.Name = "c373";
+            this.c373.Size = new System.Drawing.Size(345, 17);
+            this.c373.TabIndex = 283;
+            this.c373.Text = "C13 - Nhập tường trình phẩu thuật vắng tắt trong xuất khoa";
+            // 
+            // c361
+            // 
+            this.c361.Location = new System.Drawing.Point(608, 4);
+            this.c361.Name = "c361";
+            this.c361.Size = new System.Drawing.Size(364, 17);
+            this.c361.TabIndex = 282;
+            this.c361.Text = "C47 - Tiếp đón nhiều phòng khám cùng 1 lúc in chung chi phí điều trị";
+            // 
+            // c354
+            // 
+            this.c354.Location = new System.Drawing.Point(608, 81);
+            this.c354.Name = "c354";
+            this.c354.Size = new System.Drawing.Size(364, 17);
+            this.c354.TabIndex = 281;
+            this.c354.Text = "C49 - Chọn bác sỹ trong khám bệnh";
+            // 
+            // c344
+            // 
+            this.c344.Location = new System.Drawing.Point(360, 458);
+            this.c344.Name = "c344";
+            this.c344.Size = new System.Drawing.Size(221, 17);
+            this.c344.TabIndex = 280;
+            this.c344.Text = "C46 + Tiền sử bệnh nhập tự do";
+            // 
+            // c330
+            // 
+            this.c330.Location = new System.Drawing.Point(360, 442);
+            this.c330.Name = "c330";
+            this.c330.Size = new System.Drawing.Size(254, 17);
+            this.c330.TabIndex = 279;
+            this.c330.Text = "C45 - Khám bệnh nhập theo mẫu bệnh án";
+            // 
+            // c329
+            // 
+            this.c329.Location = new System.Drawing.Point(360, 425);
+            this.c329.Name = "c329";
+            this.c329.Size = new System.Drawing.Size(255, 17);
+            this.c329.TabIndex = 278;
+            this.c329.Text = "C44 + Toa thuốc && chỉ định lấy ngày hiện hành";
+            // 
+            // c327
+            // 
+            this.c327.Location = new System.Drawing.Point(360, 407);
+            this.c327.Name = "c327";
+            this.c327.Size = new System.Drawing.Size(249, 21);
+            this.c327.TabIndex = 277;
+            this.c327.Text = "C43 + Tiếp đón nhận bệnh điều trị ngoại trú";
+            // 
+            // label80
+            // 
+            this.label80.Location = new System.Drawing.Point(535, 389);
+            this.label80.Name = "label80";
+            this.label80.Size = new System.Drawing.Size(32, 16);
+            this.label80.TabIndex = 275;
+            this.label80.Text = "ngày";
+            this.label80.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // c325
+            // 
+            this.c325.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.c325.Location = new System.Drawing.Point(488, 386);
+            this.c325.Maximum = new decimal(new int[] {
+            9999,
+            0,
+            0,
+            0});
+            this.c325.Name = "c325";
+            this.c325.Size = new System.Drawing.Size(43, 21);
+            this.c325.TabIndex = 274;
+            // 
+            // label81
+            // 
+            this.label81.Location = new System.Drawing.Point(359, 387);
+            this.label81.Name = "label81";
+            this.label81.Size = new System.Drawing.Size(179, 17);
+            this.label81.TabIndex = 276;
+            this.label81.Text = "C42. Hẹn tái khám tối đa";
+            this.label81.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // c324
+            // 
+            this.c324.CheckOnClick = true;
+            this.c324.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.c324.FormattingEnabled = true;
+            this.c324.Location = new System.Drawing.Point(360, 332);
+            this.c324.Name = "c324";
+            this.c324.Size = new System.Drawing.Size(230, 52);
+            this.c324.TabIndex = 273;
+            // 
+            // c323
+            // 
+            this.c323.Location = new System.Drawing.Point(532, 312);
+            this.c323.Name = "c323";
+            this.c323.Size = new System.Drawing.Size(104, 21);
+            this.c323.TabIndex = 272;
+            this.c323.Text = "- In phiếu hẹn";
+            // 
+            // c322
+            // 
+            this.c322.Location = new System.Drawing.Point(360, 312);
+            this.c322.Name = "c322";
+            this.c322.Size = new System.Drawing.Size(200, 21);
+            this.c322.TabIndex = 271;
+            this.c322.Text = "C41 + Tái khám nhập ngày hẹn";
+            this.c322.CheckedChanged += new System.EventHandler(this.c322_CheckedChanged);
+            // 
+            // c315
+            // 
+            this.c315.CheckOnClick = true;
+            this.c315.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.c315.FormattingEnabled = true;
+            this.c315.Location = new System.Drawing.Point(156, 419);
+            this.c315.Name = "c315";
+            this.c315.Size = new System.Drawing.Size(197, 52);
+            this.c315.TabIndex = 270;
+            // 
+            // label74
+            // 
+            this.label74.Location = new System.Drawing.Point(18, 416);
+            this.label74.Name = "label74";
+            this.label74.Size = new System.Drawing.Size(179, 17);
+            this.label74.TabIndex = 269;
+            this.label74.Text = "C23. Chỉ được chuyển khoa";
+            this.label74.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // label66
+            // 
+            this.label66.Location = new System.Drawing.Point(272, 396);
+            this.label66.Name = "label66";
+            this.label66.Size = new System.Drawing.Size(32, 16);
+            this.label66.TabIndex = 267;
+            this.label66.Text = "lần";
+            this.label66.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // c305
+            // 
+            this.c305.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.c305.Location = new System.Drawing.Point(226, 393);
+            this.c305.Maximum = new decimal(new int[] {
+            9999,
+            0,
+            0,
+            0});
+            this.c305.Name = "c305";
+            this.c305.Size = new System.Drawing.Size(43, 21);
+            this.c305.TabIndex = 266;
+            // 
+            // label65
+            // 
+            this.label65.Location = new System.Drawing.Point(20, 395);
+            this.label65.Name = "label65";
+            this.label65.Size = new System.Drawing.Size(207, 17);
+            this.label65.TabIndex = 268;
+            this.label65.Text = "C22. Số lần tái khám điều trị ngoại trú";
+            this.label65.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // c296
+            // 
+            this.c296.Location = new System.Drawing.Point(5, 375);
+            this.c296.Name = "c296";
+            this.c296.Size = new System.Drawing.Size(348, 21);
+            this.c296.TabIndex = 265;
+            this.c296.Text = "C21 - Nhập thông tin bác sĩ, bệnh viện giới thiệu";
+            this.c296.CheckedChanged += new System.EventHandler(this.c296_CheckedChanged);
+            // 
+            // c295
+            // 
+            this.c295.Location = new System.Drawing.Point(5, 355);
+            this.c295.Name = "c295";
+            this.c295.Size = new System.Drawing.Size(380, 21);
+            this.c295.TabIndex = 264;
+            this.c295.Text = "C20 - Cho phép nhập khám bệnh người bệnh đăng ký ngày hôm qua";
+            // 
+            // p12_khamsuckhoe
+            // 
+            this.p12_khamsuckhoe.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.p12_khamsuckhoe.AutoScroll = true;
+            this.p12_khamsuckhoe.Controls.Add(this.butFile);
+            this.p12_khamsuckhoe.Controls.Add(this.id);
+            this.p12_khamsuckhoe.Controls.Add(this.butBoqua);
+            this.p12_khamsuckhoe.Controls.Add(this.chophep);
+            this.p12_khamsuckhoe.Controls.Add(this.butLuu);
+            this.p12_khamsuckhoe.Controls.Add(this.butSua);
+            this.p12_khamsuckhoe.Controls.Add(this.ten);
+            this.p12_khamsuckhoe.Controls.Add(this.butThem);
+            this.p12_khamsuckhoe.Controls.Add(this.label22);
+            this.p12_khamsuckhoe.Controls.Add(this.label23);
+            this.p12_khamsuckhoe.Controls.Add(this.dataGrid3);
+            this.p12_khamsuckhoe.Controls.Add(this.dataGrid1);
+            this.p12_khamsuckhoe.Location = new System.Drawing.Point(157, 3);
+            this.p12_khamsuckhoe.Name = "p12_khamsuckhoe";
+            this.p12_khamsuckhoe.Size = new System.Drawing.Size(663, 509);
+            this.p12_khamsuckhoe.TabIndex = 81;
+            this.p12_khamsuckhoe.Visible = false;
+            // 
+            // butFile
+            // 
+            this.butFile.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.butFile.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.butFile.Location = new System.Drawing.Point(587, 227);
+            this.butFile.Name = "butFile";
+            this.butFile.Size = new System.Drawing.Size(24, 23);
+            this.butFile.TabIndex = 199;
+            this.butFile.Text = "...";
+            this.toolTip1.SetToolTip(this.butFile, "Tập tin tin nhắn giống nhau trong phân hệ");
+            this.butFile.Click += new System.EventHandler(this.butFile_Click);
+            // 
+            // dataGrid3
+            // 
+            this.dataGrid3.AlternatingBackColor = System.Drawing.Color.Lavender;
+            this.dataGrid3.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.dataGrid3.BackgroundColor = System.Drawing.SystemColors.Control;
+            this.dataGrid3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dataGrid3.CaptionBackColor = System.Drawing.SystemColors.Control;
+            this.dataGrid3.CaptionFont = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dataGrid3.CaptionForeColor = System.Drawing.Color.MidnightBlue;
+            this.dataGrid3.CaptionText = "Nhập vào tập tin tin nhắn";
+            this.dataGrid3.DataMember = "";
+            this.dataGrid3.FlatMode = true;
+            this.dataGrid3.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dataGrid3.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.dataGrid3.GridLineColor = System.Drawing.Color.Gainsboro;
+            this.dataGrid3.GridLineStyle = System.Windows.Forms.DataGridLineStyle.None;
+            this.dataGrid3.HeaderFont = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Bold);
+            this.dataGrid3.HeaderForeColor = System.Drawing.Color.WhiteSmoke;
+            this.dataGrid3.LinkColor = System.Drawing.Color.Teal;
+            this.dataGrid3.Location = new System.Drawing.Point(7, 231);
+            this.dataGrid3.Name = "dataGrid3";
+            this.dataGrid3.ParentRowsBackColor = System.Drawing.Color.Gainsboro;
+            this.dataGrid3.ParentRowsForeColor = System.Drawing.Color.MidnightBlue;
+            this.dataGrid3.ReadOnly = true;
+            this.dataGrid3.RowHeaderWidth = 10;
+            this.dataGrid3.SelectionBackColor = System.Drawing.Color.CadetBlue;
+            this.dataGrid3.SelectionForeColor = System.Drawing.Color.WhiteSmoke;
+            this.dataGrid3.Size = new System.Drawing.Size(602, 264);
+            this.dataGrid3.TabIndex = 198;
+            // 
+            // p06_duoc
+            // 
+            this.p06_duoc.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.p06_duoc.AutoScroll = true;
+            this.p06_duoc.Controls.Add(this.c1260);
+            this.p06_duoc.Controls.Add(this.c1512);
+            this.p06_duoc.Controls.Add(this.C1503);
+            this.p06_duoc.Controls.Add(this.c1100);
+            this.p06_duoc.Controls.Add(this.c445);
+            this.p06_duoc.Controls.Add(this.numSongaychotoa);
+            this.p06_duoc.Controls.Add(this.label138);
+            this.p06_duoc.Controls.Add(this.c1095);
+            this.p06_duoc.Controls.Add(this.c1136);
+            this.p06_duoc.Controls.Add(this.chkdmNhom);
+            this.p06_duoc.Controls.Add(this.c1072);
+            this.p06_duoc.Controls.Add(this.c1069);
+            this.p06_duoc.Controls.Add(this.label133);
+            this.p06_duoc.Controls.Add(this.c364);
+            this.p06_duoc.Controls.Add(this.c1002);
+            this.p06_duoc.Controls.Add(this.c1068);
+            this.p06_duoc.Controls.Add(this.c1067);
+            this.p06_duoc.Controls.Add(this.c1062);
+            this.p06_duoc.Controls.Add(this.label130);
+            this.p06_duoc.Controls.Add(this.c1055);
+            this.p06_duoc.Controls.Add(this.c1048);
+            this.p06_duoc.Controls.Add(this.c1030);
+            this.p06_duoc.Controls.Add(this.label129);
+            this.p06_duoc.Controls.Add(this.c191);
+            this.p06_duoc.Controls.Add(this.c56);
+            this.p06_duoc.Controls.Add(this.c420);
+            this.p06_duoc.Controls.Add(this.c413);
+            this.p06_duoc.Controls.Add(this.c402);
+            this.p06_duoc.Controls.Add(this.c401);
+            this.p06_duoc.Controls.Add(this.c400);
+            this.p06_duoc.Controls.Add(this.c394);
+            this.p06_duoc.Controls.Add(this.c300);
+            this.p06_duoc.Controls.Add(this.c390);
+            this.p06_duoc.Controls.Add(this.c389);
+            this.p06_duoc.Controls.Add(this.label103);
+            this.p06_duoc.Controls.Add(this.c383);
+            this.p06_duoc.Controls.Add(this.c379);
+            this.p06_duoc.Controls.Add(this.label102);
+            this.p06_duoc.Controls.Add(this.c229);
+            this.p06_duoc.Controls.Add(this.c165);
+            this.p06_duoc.Controls.Add(this.c376);
+            this.p06_duoc.Controls.Add(this.label101);
+            this.p06_duoc.Controls.Add(this.c375);
+            this.p06_duoc.Controls.Add(this.label100);
+            this.p06_duoc.Controls.Add(this.c374);
+            this.p06_duoc.Controls.Add(this.c363);
+            this.p06_duoc.Controls.Add(this.dataGrid2);
+            this.p06_duoc.Controls.Add(this.mml);
+            this.p06_duoc.Controls.Add(this.c342);
+            this.p06_duoc.Controls.Add(this.c137);
+            this.p06_duoc.Controls.Add(this.c299);
+            this.p06_duoc.Controls.Add(this.c298);
+            this.p06_duoc.Controls.Add(this.label61);
+            this.p06_duoc.Controls.Add(this.c297);
+            this.p06_duoc.Controls.Add(this.c294);
+            this.p06_duoc.Controls.Add(this.hhl);
+            this.p06_duoc.Controls.Add(this.c293);
+            this.p06_duoc.Controls.Add(this.c292);
+            this.p06_duoc.Controls.Add(this.c291);
+            this.p06_duoc.Controls.Add(this.label63);
+            this.p06_duoc.Controls.Add(this.label62);
+            this.p06_duoc.Controls.Add(this.label60);
+            this.p06_duoc.Controls.Add(this.c282);
+            this.p06_duoc.Controls.Add(this.c281);
+            this.p06_duoc.Controls.Add(this.c166);
+            this.p06_duoc.Controls.Add(this.c145);
+            this.p06_duoc.Controls.Add(this.c147);
+            this.p06_duoc.Controls.Add(this.c61);
+            this.p06_duoc.Controls.Add(this.c156);
+            this.p06_duoc.Controls.Add(this.c194);
+            this.p06_duoc.Controls.Add(this.c198);
+            this.p06_duoc.Controls.Add(this.c48);
+            this.p06_duoc.Controls.Add(this.label51);
+            this.p06_duoc.Controls.Add(this.c135);
+            this.p06_duoc.Controls.Add(this.c261);
+            this.p06_duoc.Controls.Add(this.label52);
+            this.p06_duoc.Controls.Add(this.c260);
+            this.p06_duoc.Controls.Add(this.label31);
+            this.p06_duoc.Controls.Add(this.c184);
+            this.p06_duoc.Controls.Add(this.hh);
+            this.p06_duoc.Controls.Add(this.label32);
+            this.p06_duoc.Controls.Add(this.c169);
+            this.p06_duoc.Controls.Add(this.c186);
+            this.p06_duoc.Controls.Add(this.mm);
+            this.p06_duoc.Controls.Add(this.label45);
+            this.p06_duoc.Controls.Add(this.mmt);
+            this.p06_duoc.Controls.Add(this.c164);
+            this.p06_duoc.Controls.Add(this.c244);
+            this.p06_duoc.Controls.Add(this.label33);
+            this.p06_duoc.Controls.Add(this.c233);
+            this.p06_duoc.Controls.Add(this.c176);
+            this.p06_duoc.Controls.Add(this.label46);
+            this.p06_duoc.Controls.Add(this.label44);
+            this.p06_duoc.Controls.Add(this.mmb);
+            this.p06_duoc.Controls.Add(this.label38);
+            this.p06_duoc.Controls.Add(this.hht);
+            this.p06_duoc.Controls.Add(this.label43);
+            this.p06_duoc.Controls.Add(this.hhb);
+            this.p06_duoc.Controls.Add(this.label47);
+            this.p06_duoc.Controls.Add(this.label42);
+            this.p06_duoc.Controls.Add(this.c228);
+            this.p06_duoc.Controls.Add(this.label40);
+            this.p06_duoc.Controls.Add(this.c334);
+            this.p06_duoc.Location = new System.Drawing.Point(157, 3);
+            this.p06_duoc.Name = "p06_duoc";
+            this.p06_duoc.Size = new System.Drawing.Size(663, 509);
+            this.p06_duoc.TabIndex = 84;
+            this.p06_duoc.Paint += new System.Windows.Forms.PaintEventHandler(this.p06_Paint);
             // 
             // c1260
             // 
@@ -7629,152 +7627,151 @@ namespace Medisoft
             this.c334.TabIndex = 266;
             this.c334.Text = "F23 - Điều trị nội trú có cấp đơn thuốc";
             // 
-            // p07
+            // p07_vienphi
             // 
-            this.p07.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.p07_vienphi.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
                         | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
-            this.p07.AutoScroll = true;
-            this.p07.Controls.Add(this.c1105);
-            this.p07.Controls.Add(this.c284);
-            this.p07.Controls.Add(this.label150);
-            this.p07.Controls.Add(this.txtNgayBenhNhanThongTuLienTich);
-            this.p07.Controls.Add(this.cboNgayGiaVienPhiThongTuLienTich);
-            this.p07.Controls.Add(this.label151);
-            this.p07.Controls.Add(this.chkApDungThongTuLienTich15042012);
-            this.p07.Controls.Add(this.c418);
-            this.p07.Controls.Add(this.label106);
-            this.p07.Controls.Add(this.label105);
-            this.p07.Controls.Add(this.c395);
-            this.p07.Controls.Add(this.c238);
-            this.p07.Controls.Add(this.c237);
-            this.p07.Controls.Add(this.c384);
-            this.p07.Controls.Add(this.p10);
-            this.p07.Controls.Add(this.c1088);
-            this.p07.Controls.Add(this.c594);
-            this.p07.Controls.Add(this.label139);
-            this.p07.Controls.Add(this.c1501);
-            this.p07.Controls.Add(this.c1097);
-            this.p07.Controls.Add(this.c1096);
-            this.p07.Controls.Add(this.c1089);
-            this.p07.Controls.Add(this.c188);
-            this.p07.Controls.Add(this.c1059);
-            this.p07.Controls.Add(this.c1050);
-            this.p07.Controls.Add(this.c1044);
-            this.p07.Controls.Add(this.c1043);
-            this.p07.Controls.Add(this.c1042);
-            this.p07.Controls.Add(this.c1041);
-            this.p07.Controls.Add(this.c1039);
-            this.p07.Controls.Add(this.c1037);
-            this.p07.Controls.Add(this.c1036);
-            this.p07.Controls.Add(this.c1034);
-            this.p07.Controls.Add(this.c1024);
-            this.p07.Controls.Add(this.c1022);
-            this.p07.Controls.Add(this.c1012);
-            this.p07.Controls.Add(this.c263);
-            this.p07.Controls.Add(this.c1009);
-            this.p07.Controls.Add(this.c1006);
-            this.p07.Controls.Add(this.c1005);
-            this.p07.Controls.Add(this.c444);
-            this.p07.Controls.Add(this.c443);
-            this.p07.Controls.Add(this.c432);
-            this.p07.Controls.Add(this.c429);
-            this.p07.Controls.Add(this.label113);
-            this.p07.Controls.Add(this.c421);
-            this.p07.Controls.Add(this.c419);
-            this.p07.Controls.Add(this.c417);
-            this.p07.Controls.Add(this.c416);
-            this.p07.Controls.Add(this.c415);
-            this.p07.Controls.Add(this.c414);
-            this.p07.Controls.Add(this.c412);
-            this.p07.Controls.Add(this.c411);
-            this.p07.Controls.Add(this.c410);
-            this.p07.Controls.Add(this.c409);
-            this.p07.Controls.Add(this.c407);
-            this.p07.Controls.Add(this.c399);
-            this.p07.Controls.Add(this.c398);
-            this.p07.Controls.Add(this.c397);
-            this.p07.Controls.Add(this.label104);
-            this.p07.Controls.Add(this.c396);
-            this.p07.Controls.Add(this.c392);
-            this.p07.Controls.Add(this.c387);
-            this.p07.Controls.Add(this.c382);
-            this.p07.Controls.Add(this.c381);
-            this.p07.Controls.Add(this.c378);
-            this.p07.Controls.Add(this.c372);
-            this.p07.Controls.Add(this.label99);
-            this.p07.Controls.Add(this.c220);
-            this.p07.Controls.Add(this.c219);
-            this.p07.Controls.Add(this.c290);
-            this.p07.Controls.Add(this.c371);
-            this.p07.Controls.Add(this.c335);
-            this.p07.Controls.Add(this.c302);
-            this.p07.Controls.Add(this.c179);
-            this.p07.Controls.Add(this.c370);
-            this.p07.Controls.Add(this.c369);
-            this.p07.Controls.Add(this.c368);
-            this.p07.Controls.Add(this.label98);
-            this.p07.Controls.Add(this.c367);
-            this.p07.Controls.Add(this.c366);
-            this.p07.Controls.Add(this.label97);
-            this.p07.Controls.Add(this.label96);
-            this.p07.Controls.Add(this.c359);
-            this.p07.Controls.Add(this.label85);
-            this.p07.Controls.Add(this.c331);
-            this.p07.Controls.Add(this.c320);
-            this.p07.Controls.Add(this.c304);
-            this.p07.Controls.Add(this.c303);
-            this.p07.Controls.Add(this.c289);
-            this.p07.Controls.Add(this.c288);
-            this.p07.Controls.Add(this.c287);
-            this.p07.Controls.Add(this.c286);
-            this.p07.Controls.Add(this.label49);
-            this.p07.Controls.Add(this.label14);
-            this.p07.Controls.Add(this.c283);
-            this.p07.Controls.Add(this.c214);
-            this.p07.Controls.Add(this.c113);
-            this.p07.Controls.Add(this.c242);
-            this.p07.Controls.Add(this.c196);
-            this.p07.Controls.Add(this.c128);
-            this.p07.Controls.Add(this.c149);
-            this.p07.Controls.Add(this.c46);
-            this.p07.Controls.Add(this.label39);
-            this.p07.Controls.Add(this.c262);
-            this.p07.Controls.Add(this.c182);
-            this.p07.Controls.Add(this.c133);
-            this.p07.Controls.Add(this.c151);
-            this.p07.Controls.Add(this.c58);
-            this.p07.Controls.Add(this.c47);
-            this.p07.Controls.Add(this.c53);
-            this.p07.Controls.Add(this.c157);
-            this.p07.Controls.Add(this.c134);
-            this.p07.Controls.Add(this.c161);
-            this.p07.Controls.Add(this.c141);
-            this.p07.Controls.Add(this.c144);
-            this.p07.Controls.Add(this.c246);
-            this.p07.Controls.Add(this.c155);
-            this.p07.Controls.Add(this.c150);
-            this.p07.Controls.Add(this.c110);
-            this.p07.Controls.Add(this.c217);
-            this.p07.Controls.Add(this.c218);
-            this.p07.Controls.Add(this.c230);
-            this.p07.Controls.Add(this.c231);
-            this.p07.Controls.Add(this.c434);
-            this.p07.Controls.Add(this.c403);
-            this.p07.Controls.Add(this.label64);
-            this.p07.Controls.Add(this.c249);
-            this.p07.Controls.Add(this.c183);
-            this.p07.Controls.Add(this.c57);
-            this.p07.Controls.Add(this.c129);
-            this.p07.Controls.Add(this.c1502);
-            this.p07.Controls.Add(this.c446);
-            this.p07.Controls.Add(this.c595);
-            this.p07.Location = new System.Drawing.Point(159, 3);
-            this.p07.Name = "p07";
-            this.p07.Size = new System.Drawing.Size(669, 508);
-            this.p07.TabIndex = 82;
-            this.p07.Visible = false;
-            this.p07.Paint += new System.Windows.Forms.PaintEventHandler(this.p07_Paint);
+            this.p07_vienphi.AutoScroll = true;
+            this.p07_vienphi.Controls.Add(this.c1105);
+            this.p07_vienphi.Controls.Add(this.c284);
+            this.p07_vienphi.Controls.Add(this.label150);
+            this.p07_vienphi.Controls.Add(this.txtNgayBenhNhanThongTuLienTich);
+            this.p07_vienphi.Controls.Add(this.cboNgayGiaVienPhiThongTuLienTich);
+            this.p07_vienphi.Controls.Add(this.label151);
+            this.p07_vienphi.Controls.Add(this.chkApDungThongTuLienTich15042012);
+            this.p07_vienphi.Controls.Add(this.c418);
+            this.p07_vienphi.Controls.Add(this.label106);
+            this.p07_vienphi.Controls.Add(this.label105);
+            this.p07_vienphi.Controls.Add(this.c395);
+            this.p07_vienphi.Controls.Add(this.c238);
+            this.p07_vienphi.Controls.Add(this.c237);
+            this.p07_vienphi.Controls.Add(this.c384);
+            this.p07_vienphi.Controls.Add(this.c1088);
+            this.p07_vienphi.Controls.Add(this.c594);
+            this.p07_vienphi.Controls.Add(this.label139);
+            this.p07_vienphi.Controls.Add(this.c1501);
+            this.p07_vienphi.Controls.Add(this.c1097);
+            this.p07_vienphi.Controls.Add(this.c1096);
+            this.p07_vienphi.Controls.Add(this.c1089);
+            this.p07_vienphi.Controls.Add(this.c188);
+            this.p07_vienphi.Controls.Add(this.c1059);
+            this.p07_vienphi.Controls.Add(this.c1050);
+            this.p07_vienphi.Controls.Add(this.c1044);
+            this.p07_vienphi.Controls.Add(this.c1043);
+            this.p07_vienphi.Controls.Add(this.c1042);
+            this.p07_vienphi.Controls.Add(this.c1041);
+            this.p07_vienphi.Controls.Add(this.c1039);
+            this.p07_vienphi.Controls.Add(this.c1037);
+            this.p07_vienphi.Controls.Add(this.c1036);
+            this.p07_vienphi.Controls.Add(this.c1034);
+            this.p07_vienphi.Controls.Add(this.c1024);
+            this.p07_vienphi.Controls.Add(this.c1022);
+            this.p07_vienphi.Controls.Add(this.c1012);
+            this.p07_vienphi.Controls.Add(this.c263);
+            this.p07_vienphi.Controls.Add(this.c1009);
+            this.p07_vienphi.Controls.Add(this.c1006);
+            this.p07_vienphi.Controls.Add(this.c1005);
+            this.p07_vienphi.Controls.Add(this.c444);
+            this.p07_vienphi.Controls.Add(this.c443);
+            this.p07_vienphi.Controls.Add(this.c432);
+            this.p07_vienphi.Controls.Add(this.c429);
+            this.p07_vienphi.Controls.Add(this.label113);
+            this.p07_vienphi.Controls.Add(this.c421);
+            this.p07_vienphi.Controls.Add(this.c419);
+            this.p07_vienphi.Controls.Add(this.c417);
+            this.p07_vienphi.Controls.Add(this.c416);
+            this.p07_vienphi.Controls.Add(this.c415);
+            this.p07_vienphi.Controls.Add(this.c414);
+            this.p07_vienphi.Controls.Add(this.c412);
+            this.p07_vienphi.Controls.Add(this.c411);
+            this.p07_vienphi.Controls.Add(this.c410);
+            this.p07_vienphi.Controls.Add(this.c409);
+            this.p07_vienphi.Controls.Add(this.c407);
+            this.p07_vienphi.Controls.Add(this.c399);
+            this.p07_vienphi.Controls.Add(this.c398);
+            this.p07_vienphi.Controls.Add(this.c397);
+            this.p07_vienphi.Controls.Add(this.label104);
+            this.p07_vienphi.Controls.Add(this.c396);
+            this.p07_vienphi.Controls.Add(this.c392);
+            this.p07_vienphi.Controls.Add(this.c387);
+            this.p07_vienphi.Controls.Add(this.c382);
+            this.p07_vienphi.Controls.Add(this.c381);
+            this.p07_vienphi.Controls.Add(this.c378);
+            this.p07_vienphi.Controls.Add(this.c372);
+            this.p07_vienphi.Controls.Add(this.label99);
+            this.p07_vienphi.Controls.Add(this.c220);
+            this.p07_vienphi.Controls.Add(this.c219);
+            this.p07_vienphi.Controls.Add(this.c290);
+            this.p07_vienphi.Controls.Add(this.c371);
+            this.p07_vienphi.Controls.Add(this.c335);
+            this.p07_vienphi.Controls.Add(this.c302);
+            this.p07_vienphi.Controls.Add(this.c179);
+            this.p07_vienphi.Controls.Add(this.c370);
+            this.p07_vienphi.Controls.Add(this.c369);
+            this.p07_vienphi.Controls.Add(this.c368);
+            this.p07_vienphi.Controls.Add(this.label98);
+            this.p07_vienphi.Controls.Add(this.c367);
+            this.p07_vienphi.Controls.Add(this.c366);
+            this.p07_vienphi.Controls.Add(this.label97);
+            this.p07_vienphi.Controls.Add(this.label96);
+            this.p07_vienphi.Controls.Add(this.c359);
+            this.p07_vienphi.Controls.Add(this.label85);
+            this.p07_vienphi.Controls.Add(this.c331);
+            this.p07_vienphi.Controls.Add(this.c320);
+            this.p07_vienphi.Controls.Add(this.c304);
+            this.p07_vienphi.Controls.Add(this.c303);
+            this.p07_vienphi.Controls.Add(this.c289);
+            this.p07_vienphi.Controls.Add(this.c288);
+            this.p07_vienphi.Controls.Add(this.c287);
+            this.p07_vienphi.Controls.Add(this.c286);
+            this.p07_vienphi.Controls.Add(this.label49);
+            this.p07_vienphi.Controls.Add(this.label14);
+            this.p07_vienphi.Controls.Add(this.c283);
+            this.p07_vienphi.Controls.Add(this.c214);
+            this.p07_vienphi.Controls.Add(this.c113);
+            this.p07_vienphi.Controls.Add(this.c242);
+            this.p07_vienphi.Controls.Add(this.c196);
+            this.p07_vienphi.Controls.Add(this.c128);
+            this.p07_vienphi.Controls.Add(this.c149);
+            this.p07_vienphi.Controls.Add(this.c46);
+            this.p07_vienphi.Controls.Add(this.label39);
+            this.p07_vienphi.Controls.Add(this.c262);
+            this.p07_vienphi.Controls.Add(this.c182);
+            this.p07_vienphi.Controls.Add(this.c133);
+            this.p07_vienphi.Controls.Add(this.c151);
+            this.p07_vienphi.Controls.Add(this.c58);
+            this.p07_vienphi.Controls.Add(this.c47);
+            this.p07_vienphi.Controls.Add(this.c53);
+            this.p07_vienphi.Controls.Add(this.c157);
+            this.p07_vienphi.Controls.Add(this.c134);
+            this.p07_vienphi.Controls.Add(this.c161);
+            this.p07_vienphi.Controls.Add(this.c141);
+            this.p07_vienphi.Controls.Add(this.c144);
+            this.p07_vienphi.Controls.Add(this.c246);
+            this.p07_vienphi.Controls.Add(this.c155);
+            this.p07_vienphi.Controls.Add(this.c150);
+            this.p07_vienphi.Controls.Add(this.c110);
+            this.p07_vienphi.Controls.Add(this.c217);
+            this.p07_vienphi.Controls.Add(this.c218);
+            this.p07_vienphi.Controls.Add(this.c230);
+            this.p07_vienphi.Controls.Add(this.c231);
+            this.p07_vienphi.Controls.Add(this.c434);
+            this.p07_vienphi.Controls.Add(this.c403);
+            this.p07_vienphi.Controls.Add(this.label64);
+            this.p07_vienphi.Controls.Add(this.c249);
+            this.p07_vienphi.Controls.Add(this.c183);
+            this.p07_vienphi.Controls.Add(this.c57);
+            this.p07_vienphi.Controls.Add(this.c129);
+            this.p07_vienphi.Controls.Add(this.c1502);
+            this.p07_vienphi.Controls.Add(this.c446);
+            this.p07_vienphi.Controls.Add(this.c595);
+            this.p07_vienphi.Location = new System.Drawing.Point(157, 3);
+            this.p07_vienphi.Name = "p07_vienphi";
+            this.p07_vienphi.Size = new System.Drawing.Size(672, 508);
+            this.p07_vienphi.TabIndex = 82;
+            this.p07_vienphi.Visible = false;
+            this.p07_vienphi.Paint += new System.Windows.Forms.PaintEventHandler(this.p07_Paint);
             // 
             // c1105
             // 
@@ -7890,6 +7887,110 @@ namespace Medisoft
             this.c384.Size = new System.Drawing.Size(157, 19);
             this.c384.TabIndex = 343;
             this.c384.Text = "G30.Khai báo danh mục";
+            // 
+            // p10_phonggiuong
+            // 
+            this.p10_phonggiuong.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.p10_phonggiuong.AutoScroll = true;
+            this.p10_phonggiuong.Controls.Add(this.c1103);
+            this.p10_phonggiuong.Controls.Add(this.c1102);
+            this.p10_phonggiuong.Controls.Add(this.c1071);
+            this.p10_phonggiuong.Controls.Add(this.c278);
+            this.p10_phonggiuong.Controls.Add(this.c1070);
+            this.p10_phonggiuong.Controls.Add(this.c1057);
+            this.p10_phonggiuong.Controls.Add(this.c234);
+            this.p10_phonggiuong.Controls.Add(this.c377);
+            this.p10_phonggiuong.Controls.Add(this.c280);
+            this.p10_phonggiuong.Controls.Add(this.c279);
+            this.p10_phonggiuong.Controls.Add(this.c247);
+            this.p10_phonggiuong.Controls.Add(this.c236);
+            this.p10_phonggiuong.Controls.Add(this.label54);
+            this.p10_phonggiuong.Controls.Add(this.c235);
+            this.p10_phonggiuong.Location = new System.Drawing.Point(157, 3);
+            this.p10_phonggiuong.Name = "p10_phonggiuong";
+            this.p10_phonggiuong.Size = new System.Drawing.Size(3102, 475);
+            this.p10_phonggiuong.TabIndex = 88;
+            this.p10_phonggiuong.Visible = false;
+            // 
+            // c1103
+            // 
+            this.c1103.Location = new System.Drawing.Point(33, 240);
+            this.c1103.Name = "c1103";
+            this.c1103.Size = new System.Drawing.Size(342, 32);
+            this.c1103.TabIndex = 241;
+            this.c1103.Text = "J10.1 Nếu ngày phẫu thuật hoặc ngày sanh trừ ngày vào khoa <1 thì không tính";
+            // 
+            // c1102
+            // 
+            this.c1102.Location = new System.Drawing.Point(6, 217);
+            this.c1102.Name = "c1102";
+            this.c1102.Size = new System.Drawing.Size(392, 19);
+            this.c1102.TabIndex = 240;
+            this.c1102.Text = "J10. Tính tiền giường tự động theo bảng giá của BHYT";
+            this.c1102.CheckedChanged += new System.EventHandler(this.c1102_CheckedChanged);
+            // 
+            // c1071
+            // 
+            this.c1071.Location = new System.Drawing.Point(6, 198);
+            this.c1071.Name = "c1071";
+            this.c1071.Size = new System.Drawing.Size(392, 19);
+            this.c1071.TabIndex = 239;
+            this.c1071.Text = "J09. Tính tiền giường lúc đặt giường";
+            // 
+            // c278
+            // 
+            this.c278.Location = new System.Drawing.Point(6, 85);
+            this.c278.Name = "c278";
+            this.c278.Size = new System.Drawing.Size(444, 19);
+            this.c278.TabIndex = 233;
+            this.c278.Text = "J05 - Giường dịch vụ <12 giờ tính nữa ngày, Giường thường ngày ra-ngày vào";
+            this.c278.CheckedChanged += new System.EventHandler(this.c278_CheckedChanged);
+            // 
+            // c1070
+            // 
+            this.c1070.Location = new System.Drawing.Point(6, 99);
+            this.c1070.Name = "c1070";
+            this.c1070.Size = new System.Drawing.Size(444, 36);
+            this.c1070.TabIndex = 238;
+            this.c1070.Text = "J05.1 - Giường thường ngày ra-ngày vào, Giường dịch vụ tính thêm 0.5 ngày khi: Và" +
+                "o sáng, ra sáng hoặc vào chiều ra chiều; tính thêm 1 ngày: vào sáng ra chiều";
+            this.c1070.CheckedChanged += new System.EventHandler(this.c1070_CheckedChanged);
+            // 
+            // c1057
+            // 
+            this.c1057.Location = new System.Drawing.Point(6, 179);
+            this.c1057.Name = "c1057";
+            this.c1057.Size = new System.Drawing.Size(392, 19);
+            this.c1057.TabIndex = 237;
+            this.c1057.Text = "J08 - Bệnh nhân khoa A, có thể nằm giường khoa B (do hết giường khoa A)";
+            // 
+            // c377
+            // 
+            this.c377.Location = new System.Drawing.Point(6, 160);
+            this.c377.Name = "c377";
+            this.c377.Size = new System.Drawing.Size(392, 19);
+            this.c377.TabIndex = 236;
+            this.c377.Text = "J07 - Theo bệnh án";
+            // 
+            // c280
+            // 
+            this.c280.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.c280.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.c280.Location = new System.Drawing.Point(178, 137);
+            this.c280.Name = "c280";
+            this.c280.Size = new System.Drawing.Size(244, 21);
+            this.c280.TabIndex = 235;
+            // 
+            // c279
+            // 
+            this.c279.Location = new System.Drawing.Point(6, 139);
+            this.c279.Name = "c279";
+            this.c279.Size = new System.Drawing.Size(344, 19);
+            this.c279.TabIndex = 234;
+            this.c279.Text = "J06. Đối tượng phòng dịch vụ";
+            this.c279.CheckedChanged += new System.EventHandler(this.c279_CheckedChanged);
             // 
             // c1088
             // 
@@ -8615,45 +8716,45 @@ namespace Medisoft
             this.label59.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.label59.Visible = false;
             // 
-            // p08
+            // p08_CLS
             // 
-            this.p08.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.p08_CLS.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
                         | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
-            this.p08.AutoScroll = true;
-            this.p08.Controls.Add(this.c1261);
-            this.p08.Controls.Add(this.c1505);
-            this.p08.Controls.Add(this.c1101);
-            this.p08.Controls.Add(this.c1084);
-            this.p08.Controls.Add(this.c1083);
-            this.p08.Controls.Add(this.c1082);
-            this.p08.Controls.Add(this.c1081);
-            this.p08.Controls.Add(this.c1079);
-            this.p08.Controls.Add(this.c1078);
-            this.p08.Controls.Add(this.c1052);
-            this.p08.Controls.Add(this.c1049);
-            this.p08.Controls.Add(this.c1040);
-            this.p08.Controls.Add(this.c1035);
-            this.p08.Controls.Add(this.c1025);
-            this.p08.Controls.Add(this.c440);
-            this.p08.Controls.Add(this.c391);
-            this.p08.Controls.Add(this.c388);
-            this.p08.Controls.Add(this.c339);
-            this.p08.Controls.Add(this.label86);
-            this.p08.Controls.Add(this.c338);
-            this.p08.Controls.Add(this.c337);
-            this.p08.Controls.Add(this.c336);
-            this.p08.Controls.Add(this.c328);
-            this.p08.Controls.Add(this.c326);
-            this.p08.Controls.Add(this.c199);
-            this.p08.Controls.Add(this.c251);
-            this.p08.Controls.Add(this.c60);
-            this.p08.Controls.Add(this.c439);
-            this.p08.Location = new System.Drawing.Point(159, 3);
-            this.p08.Name = "p08";
-            this.p08.Size = new System.Drawing.Size(669, 509);
-            this.p08.TabIndex = 85;
-            this.p08.Visible = false;
+            this.p08_CLS.AutoScroll = true;
+            this.p08_CLS.Controls.Add(this.c1261);
+            this.p08_CLS.Controls.Add(this.c1505);
+            this.p08_CLS.Controls.Add(this.c1101);
+            this.p08_CLS.Controls.Add(this.c1084);
+            this.p08_CLS.Controls.Add(this.c1083);
+            this.p08_CLS.Controls.Add(this.c1082);
+            this.p08_CLS.Controls.Add(this.c1081);
+            this.p08_CLS.Controls.Add(this.c1079);
+            this.p08_CLS.Controls.Add(this.c1078);
+            this.p08_CLS.Controls.Add(this.c1052);
+            this.p08_CLS.Controls.Add(this.c1049);
+            this.p08_CLS.Controls.Add(this.c1040);
+            this.p08_CLS.Controls.Add(this.c1035);
+            this.p08_CLS.Controls.Add(this.c1025);
+            this.p08_CLS.Controls.Add(this.c440);
+            this.p08_CLS.Controls.Add(this.c391);
+            this.p08_CLS.Controls.Add(this.c388);
+            this.p08_CLS.Controls.Add(this.c339);
+            this.p08_CLS.Controls.Add(this.label86);
+            this.p08_CLS.Controls.Add(this.c338);
+            this.p08_CLS.Controls.Add(this.c337);
+            this.p08_CLS.Controls.Add(this.c336);
+            this.p08_CLS.Controls.Add(this.c328);
+            this.p08_CLS.Controls.Add(this.c326);
+            this.p08_CLS.Controls.Add(this.c199);
+            this.p08_CLS.Controls.Add(this.c251);
+            this.p08_CLS.Controls.Add(this.c60);
+            this.p08_CLS.Controls.Add(this.c439);
+            this.p08_CLS.Location = new System.Drawing.Point(157, 3);
+            this.p08_CLS.Name = "p08_CLS";
+            this.p08_CLS.Size = new System.Drawing.Size(672, 509);
+            this.p08_CLS.TabIndex = 85;
+            this.p08_CLS.Visible = false;
             // 
             // c1261
             // 
@@ -8881,30 +8982,30 @@ namespace Medisoft
             this.c439.TabIndex = 246;
             this.c439.Text = "H12 (-) In số phiếu trong chỉ định";
             // 
-            // p09
+            // p09_phauthuthuat
             // 
-            this.p09.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.p09_phauthuthuat.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
                         | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
-            this.p09.AutoScroll = true;
-            this.p09.Controls.Add(this.c254);
-            this.p09.Controls.Add(this.c1504);
-            this.p09.Controls.Add(this.c143);
-            this.p09.Controls.Add(this.c1033);
-            this.p09.Controls.Add(this.c1032);
-            this.p09.Controls.Add(this.c1004);
-            this.p09.Controls.Add(this.pttt);
-            this.p09.Controls.Add(this.c146);
-            this.p09.Controls.Add(this.c158);
-            this.p09.Controls.Add(this.c1433);
-            this.p09.Controls.Add(this.label37);
-            this.p09.Controls.Add(this.c159);
-            this.p09.Controls.Add(this.c253);
-            this.p09.Location = new System.Drawing.Point(159, 3);
-            this.p09.Name = "p09";
-            this.p09.Size = new System.Drawing.Size(660, 509);
-            this.p09.TabIndex = 86;
-            this.p09.Visible = false;
+            this.p09_phauthuthuat.AutoScroll = true;
+            this.p09_phauthuthuat.Controls.Add(this.c254);
+            this.p09_phauthuthuat.Controls.Add(this.c1504);
+            this.p09_phauthuthuat.Controls.Add(this.c143);
+            this.p09_phauthuthuat.Controls.Add(this.c1033);
+            this.p09_phauthuthuat.Controls.Add(this.c1032);
+            this.p09_phauthuthuat.Controls.Add(this.c1004);
+            this.p09_phauthuthuat.Controls.Add(this.pttt);
+            this.p09_phauthuthuat.Controls.Add(this.c146);
+            this.p09_phauthuthuat.Controls.Add(this.c158);
+            this.p09_phauthuthuat.Controls.Add(this.c1433);
+            this.p09_phauthuthuat.Controls.Add(this.label37);
+            this.p09_phauthuthuat.Controls.Add(this.c159);
+            this.p09_phauthuthuat.Controls.Add(this.c253);
+            this.p09_phauthuthuat.Location = new System.Drawing.Point(157, 3);
+            this.p09_phauthuthuat.Name = "p09_phauthuthuat";
+            this.p09_phauthuthuat.Size = new System.Drawing.Size(663, 509);
+            this.p09_phauthuthuat.TabIndex = 86;
+            this.p09_phauthuthuat.Visible = false;
             // 
             // c254
             // 
@@ -8958,54 +9059,54 @@ namespace Medisoft
             this.c1004.TabIndex = 240;
             this.c1004.Text = "I07 + Cho phép nhập PTTT khi bệnh nhân đã xuất viện";
             // 
-            // p11
+            // p11_bangdien
             // 
-            this.p11.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+            this.p11_bangdien.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
                         | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
-            this.p11.AutoScroll = true;
-            this.p11.Controls.Add(this.c1054);
-            this.p11.Controls.Add(this.c1019);
-            this.p11.Controls.Add(this.c1018);
-            this.p11.Controls.Add(this.c1017);
-            this.p11.Controls.Add(this.c1016);
-            this.p11.Controls.Add(this.c1015);
-            this.p11.Controls.Add(this.c1014);
-            this.p11.Controls.Add(this.c1013);
-            this.p11.Controls.Add(this.label128);
-            this.p11.Controls.Add(this.c441);
-            this.p11.Controls.Add(this.cboStopbit);
-            this.p11.Controls.Add(this.label126);
-            this.p11.Controls.Add(this.label125);
-            this.p11.Controls.Add(this.label222);
-            this.p11.Controls.Add(this.cboBaudrate);
-            this.p11.Controls.Add(this.cboParity);
-            this.p11.Controls.Add(this.cboDatabit);
-            this.p11.Controls.Add(this.cboPort);
-            this.p11.Controls.Add(this.c435);
-            this.p11.Controls.Add(this.label124);
-            this.p11.Controls.Add(this.label127);
-            this.p11.Controls.Add(this.c171);
-            this.p11.Controls.Add(this.c273);
-            this.p11.Controls.Add(this.c170);
-            this.p11.Controls.Add(this.c255);
-            this.p11.Controls.Add(this.c272);
-            this.p11.Controls.Add(this.c256);
-            this.p11.Controls.Add(this.c270);
-            this.p11.Controls.Add(this.c271);
-            this.p11.Controls.Add(this.c269);
-            this.p11.Controls.Add(this.label55);
-            this.p11.Controls.Add(this.c268);
-            this.p11.Controls.Add(this.c257);
-            this.p11.Controls.Add(this.c267);
-            this.p11.Controls.Add(this.label56);
-            this.p11.Controls.Add(this.c266);
-            this.p11.Controls.Add(this.label58);
-            this.p11.Location = new System.Drawing.Point(159, 3);
-            this.p11.Name = "p11";
-            this.p11.Size = new System.Drawing.Size(669, 509);
-            this.p11.TabIndex = 87;
-            this.p11.Visible = false;
+            this.p11_bangdien.AutoScroll = true;
+            this.p11_bangdien.Controls.Add(this.c1054);
+            this.p11_bangdien.Controls.Add(this.c1019);
+            this.p11_bangdien.Controls.Add(this.c1018);
+            this.p11_bangdien.Controls.Add(this.c1017);
+            this.p11_bangdien.Controls.Add(this.c1016);
+            this.p11_bangdien.Controls.Add(this.c1015);
+            this.p11_bangdien.Controls.Add(this.c1014);
+            this.p11_bangdien.Controls.Add(this.c1013);
+            this.p11_bangdien.Controls.Add(this.label128);
+            this.p11_bangdien.Controls.Add(this.c441);
+            this.p11_bangdien.Controls.Add(this.cboStopbit);
+            this.p11_bangdien.Controls.Add(this.label126);
+            this.p11_bangdien.Controls.Add(this.label125);
+            this.p11_bangdien.Controls.Add(this.label222);
+            this.p11_bangdien.Controls.Add(this.cboBaudrate);
+            this.p11_bangdien.Controls.Add(this.cboParity);
+            this.p11_bangdien.Controls.Add(this.cboDatabit);
+            this.p11_bangdien.Controls.Add(this.cboPort);
+            this.p11_bangdien.Controls.Add(this.c435);
+            this.p11_bangdien.Controls.Add(this.label124);
+            this.p11_bangdien.Controls.Add(this.label127);
+            this.p11_bangdien.Controls.Add(this.c171);
+            this.p11_bangdien.Controls.Add(this.c273);
+            this.p11_bangdien.Controls.Add(this.c170);
+            this.p11_bangdien.Controls.Add(this.c255);
+            this.p11_bangdien.Controls.Add(this.c272);
+            this.p11_bangdien.Controls.Add(this.c256);
+            this.p11_bangdien.Controls.Add(this.c270);
+            this.p11_bangdien.Controls.Add(this.c271);
+            this.p11_bangdien.Controls.Add(this.c269);
+            this.p11_bangdien.Controls.Add(this.label55);
+            this.p11_bangdien.Controls.Add(this.c268);
+            this.p11_bangdien.Controls.Add(this.c257);
+            this.p11_bangdien.Controls.Add(this.c267);
+            this.p11_bangdien.Controls.Add(this.label56);
+            this.p11_bangdien.Controls.Add(this.c266);
+            this.p11_bangdien.Controls.Add(this.label58);
+            this.p11_bangdien.Location = new System.Drawing.Point(157, 3);
+            this.p11_bangdien.Name = "p11_bangdien";
+            this.p11_bangdien.Size = new System.Drawing.Size(672, 509);
+            this.p11_bangdien.TabIndex = 87;
+            this.p11_bangdien.Visible = false;
             // 
             // c1054
             // 
@@ -9303,110 +9404,6 @@ namespace Medisoft
             this.label127.TabIndex = 306;
             this.label127.Text = "Databit";
             // 
-            // p10
-            // 
-            this.p10.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
-            this.p10.AutoScroll = true;
-            this.p10.Controls.Add(this.c1103);
-            this.p10.Controls.Add(this.c1102);
-            this.p10.Controls.Add(this.c1071);
-            this.p10.Controls.Add(this.c278);
-            this.p10.Controls.Add(this.c1070);
-            this.p10.Controls.Add(this.c1057);
-            this.p10.Controls.Add(this.c234);
-            this.p10.Controls.Add(this.c377);
-            this.p10.Controls.Add(this.c280);
-            this.p10.Controls.Add(this.c279);
-            this.p10.Controls.Add(this.c247);
-            this.p10.Controls.Add(this.c236);
-            this.p10.Controls.Add(this.label54);
-            this.p10.Controls.Add(this.c235);
-            this.p10.Location = new System.Drawing.Point(8, 2);
-            this.p10.Name = "p10";
-            this.p10.Size = new System.Drawing.Size(660, 509);
-            this.p10.TabIndex = 88;
-            this.p10.Visible = false;
-            // 
-            // c1103
-            // 
-            this.c1103.Location = new System.Drawing.Point(33, 240);
-            this.c1103.Name = "c1103";
-            this.c1103.Size = new System.Drawing.Size(342, 32);
-            this.c1103.TabIndex = 241;
-            this.c1103.Text = "J10.1 Nếu ngày phẫu thuật hoặc ngày sanh trừ ngày vào khoa <1 thì không tính";
-            // 
-            // c1102
-            // 
-            this.c1102.Location = new System.Drawing.Point(6, 217);
-            this.c1102.Name = "c1102";
-            this.c1102.Size = new System.Drawing.Size(392, 19);
-            this.c1102.TabIndex = 240;
-            this.c1102.Text = "J10. Tính tiền giường tự động theo bảng giá của BHYT";
-            this.c1102.CheckedChanged += new System.EventHandler(this.c1102_CheckedChanged);
-            // 
-            // c1071
-            // 
-            this.c1071.Location = new System.Drawing.Point(6, 198);
-            this.c1071.Name = "c1071";
-            this.c1071.Size = new System.Drawing.Size(392, 19);
-            this.c1071.TabIndex = 239;
-            this.c1071.Text = "J09. Tính tiền giường lúc đặt giường";
-            // 
-            // c278
-            // 
-            this.c278.Location = new System.Drawing.Point(6, 85);
-            this.c278.Name = "c278";
-            this.c278.Size = new System.Drawing.Size(444, 19);
-            this.c278.TabIndex = 233;
-            this.c278.Text = "J05 - Giường dịch vụ <12 giờ tính nữa ngày, Giường thường ngày ra-ngày vào";
-            this.c278.CheckedChanged += new System.EventHandler(this.c278_CheckedChanged);
-            // 
-            // c1070
-            // 
-            this.c1070.Location = new System.Drawing.Point(6, 99);
-            this.c1070.Name = "c1070";
-            this.c1070.Size = new System.Drawing.Size(444, 36);
-            this.c1070.TabIndex = 238;
-            this.c1070.Text = "J05.1 - Giường thường ngày ra-ngày vào, Giường dịch vụ tính thêm 0.5 ngày khi: Và" +
-                "o sáng, ra sáng hoặc vào chiều ra chiều; tính thêm 1 ngày: vào sáng ra chiều";
-            this.c1070.CheckedChanged += new System.EventHandler(this.c1070_CheckedChanged);
-            // 
-            // c1057
-            // 
-            this.c1057.Location = new System.Drawing.Point(6, 179);
-            this.c1057.Name = "c1057";
-            this.c1057.Size = new System.Drawing.Size(392, 19);
-            this.c1057.TabIndex = 237;
-            this.c1057.Text = "J08 - Bệnh nhân khoa A, có thể nằm giường khoa B (do hết giường khoa A)";
-            // 
-            // c377
-            // 
-            this.c377.Location = new System.Drawing.Point(6, 160);
-            this.c377.Name = "c377";
-            this.c377.Size = new System.Drawing.Size(392, 19);
-            this.c377.TabIndex = 236;
-            this.c377.Text = "J07 - Theo bệnh án";
-            // 
-            // c280
-            // 
-            this.c280.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.c280.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.c280.Location = new System.Drawing.Point(178, 137);
-            this.c280.Name = "c280";
-            this.c280.Size = new System.Drawing.Size(244, 21);
-            this.c280.TabIndex = 235;
-            // 
-            // c279
-            // 
-            this.c279.Location = new System.Drawing.Point(6, 139);
-            this.c279.Name = "c279";
-            this.c279.Size = new System.Drawing.Size(344, 19);
-            this.c279.TabIndex = 234;
-            this.c279.Text = "J06. Đối tượng phòng dịch vụ";
-            this.c279.CheckedChanged += new System.EventHandler(this.c279_CheckedChanged);
-            // 
             // p13
             // 
             this.p13.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
@@ -9437,9 +9434,9 @@ namespace Medisoft
             this.p13.Controls.Add(this.label67);
             this.p13.Controls.Add(this.c307);
             this.p13.Controls.Add(this.c306);
-            this.p13.Location = new System.Drawing.Point(159, 3);
+            this.p13.Location = new System.Drawing.Point(157, 3);
             this.p13.Name = "p13";
-            this.p13.Size = new System.Drawing.Size(660, 509);
+            this.p13.Size = new System.Drawing.Size(663, 509);
             this.p13.TabIndex = 89;
             this.p13.Visible = false;
             // 
@@ -9678,9 +9675,9 @@ namespace Medisoft
             this.p14.Controls.Add(this.chktutruc);
             this.p14.Controls.Add(this.cbophongtc);
             this.p14.Controls.Add(this.label134);
-            this.p14.Location = new System.Drawing.Point(159, 3);
+            this.p14.Location = new System.Drawing.Point(157, 3);
             this.p14.Name = "p14";
-            this.p14.Size = new System.Drawing.Size(660, 509);
+            this.p14.Size = new System.Drawing.Size(663, 509);
             this.p14.TabIndex = 244;
             this.p14.Visible = false;
             // 
@@ -9769,23 +9766,26 @@ namespace Medisoft
             // frmThongso
             // 
             this.AutoScaleBaseSize = new System.Drawing.Size(5, 13);
-            this.ClientSize = new System.Drawing.Size(825, 515);
-            this.Controls.Add(this.p02);
-            this.Controls.Add(this.p03);
-            this.Controls.Add(this.p07);
-            this.Controls.Add(this.p05);
-            this.Controls.Add(this.p06);
-            this.Controls.Add(this.p08);
-            this.Controls.Add(this.p09);
+            this.ClientSize = new System.Drawing.Size(828, 515);
+            this.Controls.Add(this.p01_chung);
+            this.Controls.Add(this.p03_chuyenmon);
+            this.Controls.Add(this.p02_hanhchinh);
+            this.Controls.Add(this.p07_vienphi);
+            this.Controls.Add(this.p06_duoc);
+            this.Controls.Add(this.p08_CLS);
+            this.Controls.Add(this.p09_phauthuthuat);
             this.Controls.Add(this.label59);
             this.Controls.Add(this.txtNodeTextSearch);
-            this.Controls.Add(this.treeView1);
             this.Controls.Add(this.butCancel);
             this.Controls.Add(this.butOk);
-            this.Controls.Add(this.p12);
+            this.Controls.Add(this.p12_khamsuckhoe);
             this.Controls.Add(this.p13);
-            this.Controls.Add(this.p11);
+            this.Controls.Add(this.p11_bangdien);
             this.Controls.Add(this.p14);
+            this.Controls.Add(this.p10_phonggiuong);
+            this.Controls.Add(this.treeView1);
+            this.Controls.Add(this.p04_masotudong);
+            this.Controls.Add(this.p05_doituong);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.KeyPreview = true;
@@ -9827,8 +9827,8 @@ namespace Medisoft
             ((System.ComponentModel.ISupportInitialize)(this.songay)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.c189)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.c120)).EndInit();
-            this.p01.ResumeLayout(false);
-            this.p01.PerformLayout();
+            this.p01_chung.ResumeLayout(false);
+            this.p01_chung.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.c1510)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.C1000)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.c1063)).EndInit();
@@ -9836,21 +9836,12 @@ namespace Medisoft
             ((System.ComponentModel.ISupportInitialize)(this.c138h)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.c138m)).EndInit();
             this.groupBox1.ResumeLayout(false);
-            this.p02.ResumeLayout(false);
-            this.p02.PerformLayout();
-            this.p03.ResumeLayout(false);
-            this.p03.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.c424)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.c423)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.c325)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.c305)).EndInit();
-            this.p12.ResumeLayout(false);
-            this.p12.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGrid3)).EndInit();
-            this.p04.ResumeLayout(false);
-            this.p04.PerformLayout();
-            this.p05.ResumeLayout(false);
-            this.p05.PerformLayout();
+            this.p02_hanhchinh.ResumeLayout(false);
+            this.p02_hanhchinh.PerformLayout();
+            this.p04_masotudong.ResumeLayout(false);
+            this.p04_masotudong.PerformLayout();
+            this.p05_doituong.ResumeLayout(false);
+            this.p05_doituong.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.c352)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.c1140)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.c1008)).EndInit();
@@ -9861,22 +9852,32 @@ namespace Medisoft
             ((System.ComponentModel.ISupportInitialize)(this.c348)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.c351)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.c333)).EndInit();
-            this.p06.ResumeLayout(false);
-            this.p06.PerformLayout();
+            this.p03_chuyenmon.ResumeLayout(false);
+            this.p03_chuyenmon.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.c424)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.c423)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.c325)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.c305)).EndInit();
+            this.p12_khamsuckhoe.ResumeLayout(false);
+            this.p12_khamsuckhoe.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGrid3)).EndInit();
+            this.p06_duoc.ResumeLayout(false);
+            this.p06_duoc.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numSongaychotoa)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.c1069)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.c1062)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.c1030)).EndInit();
-            this.p07.ResumeLayout(false);
-            this.p07.PerformLayout();
+            this.p07_vienphi.ResumeLayout(false);
+            this.p07_vienphi.PerformLayout();
+            this.p10_phonggiuong.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.c429)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.c366)).EndInit();
-            this.p08.ResumeLayout(false);
-            this.p08.PerformLayout();
+            this.p08_CLS.ResumeLayout(false);
+            this.p08_CLS.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.c339)).EndInit();
-            this.p09.ResumeLayout(false);
-            this.p11.ResumeLayout(false);
-            this.p11.PerformLayout();
+            this.p09_phauthuthuat.ResumeLayout(false);
+            this.p11_bangdien.ResumeLayout(false);
+            this.p11_bangdien.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.c1019)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.c1018)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.c1017)).EndInit();
@@ -9884,7 +9885,6 @@ namespace Medisoft
             ((System.ComponentModel.ISupportInitialize)(this.c1015)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.c1014)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.c1013)).EndInit();
-            this.p10.ResumeLayout(false);
             this.p13.ResumeLayout(false);
             this.p13.PerformLayout();
             this.p14.ResumeLayout(false);
@@ -10429,7 +10429,7 @@ namespace Medisoft
 			lan.Read_dtgrid_to_Xml(dataGrid1, this.Name.ToString()+"_"+dataGrid1.Name.ToString());
 			lan.Change_dtgrid_HeaderText_to_English(dataGrid1, this.Name.ToString()+"_"+dataGrid1.Name.ToString());
 			ref_text();
-            check(p06);
+            check(p06_duoc);
             C1503.Enabled=c420.Checked;
 
             //Tu: 09/05/2011
@@ -11730,18 +11730,18 @@ namespace Medisoft
                 node.Nodes.Add(nod);
             }
             treeView1.ExpandAll();
-            this.p01.Location = new System.Drawing.Point(159, 3);
-            this.p02.Location = new System.Drawing.Point(159, 3);
-            this.p03.Location = new System.Drawing.Point(159, 3);
-            this.p04.Location = new System.Drawing.Point(159, 3);
-            this.p05.Location = new System.Drawing.Point(159, 3);
-            this.p06.Location = new System.Drawing.Point(159, 3);
-            this.p07.Location = new System.Drawing.Point(159, 3);
-            this.p08.Location = new System.Drawing.Point(159, 3);
-            this.p09.Location = new System.Drawing.Point(159, 3);
-            this.p11.Location = new System.Drawing.Point(159, 3);
-            this.p10.Location = new System.Drawing.Point(159, 3);
-            this.p12.Location = new System.Drawing.Point(159, 3);
+            this.p01_chung.Location = new System.Drawing.Point(159, 3);
+            this.p02_hanhchinh.Location = new System.Drawing.Point(159, 3);
+            this.p03_chuyenmon.Location = new System.Drawing.Point(159, 3);
+            this.p04_masotudong.Location = new System.Drawing.Point(159, 3);
+            this.p05_doituong.Location = new System.Drawing.Point(159, 3);
+            this.p06_duoc.Location = new System.Drawing.Point(159, 3);
+            this.p07_vienphi.Location = new System.Drawing.Point(159, 3);
+            this.p08_CLS.Location = new System.Drawing.Point(159, 3);
+            this.p09_phauthuthuat.Location = new System.Drawing.Point(159, 3);
+            this.p11_bangdien.Location = new System.Drawing.Point(159, 3);
+            this.p10_phonggiuong.Location = new System.Drawing.Point(159, 3);
+            this.p12_khamsuckhoe.Location = new System.Drawing.Point(159, 3);
             this.p13.Location = new System.Drawing.Point(159, 3);
             this.p14.Location = new System.Drawing.Point(159, 3);
             //this.p01.Visible = true;
@@ -13931,26 +13931,26 @@ namespace Medisoft
                 p.Name=treeView1.SelectedNode.Tag.ToString();
                 p.Visible = true;
                  * */
-                p01.Visible = false;p02.Visible = false;p03.Visible = false;
-                p04.Visible = false;p05.Visible = false;p06.Visible = false;
-                p07.Visible = false;p08.Visible = false;p09.Visible = false;
-                p11.Visible = false;p10.Visible = false;p12.Visible = false;
+                p01_chung.Visible = false;p02_hanhchinh.Visible = false;p03_chuyenmon.Visible = false;
+                p04_masotudong.Visible = false;p05_doituong.Visible = false;p06_duoc.Visible = false;
+                p07_vienphi.Visible = false;p08_CLS.Visible = false;p09_phauthuthuat.Visible = false;
+                p11_bangdien.Visible = false;p10_phonggiuong.Visible = false;p12_khamsuckhoe.Visible = false;
                 p13.Visible = false; p14.Visible = false;
 
                 switch (treeView1.SelectedNode.Tag.ToString())
                 {
-                    case "p01": p01.Visible = true; check(p01); break;
-                    case "p02": p02.Visible = true; check(p02); break;
-                    case "p03": p03.Visible = true; check(p03); break;
-                    case "p04": p04.Visible = true; check(p04); break;
-                    case "p05": p05.Visible = true; check(p05); break;
-                    case "p06": p06.Visible = true; check(p06); f300(); f356_358();break;
-                    case "p07": p07.Visible = true; check(p07); f397(); break;
-                    case "p08": p08.Visible = true; check(p08); break;
-                    case "p09": p09.Visible = true; check(p09); break;
-                    case "p10": p10.Visible = true; check(p10); break;
-                    case "p11": p11.Visible = true; check(p11); break;
-                    case "p12": p12.Visible = true; check(p12); break;
+                    case "p01": p01_chung.Visible = true; check(p01_chung); break;
+                    case "p02": p02_hanhchinh.Visible = true; check(p02_hanhchinh); break;
+                    case "p03": p03_chuyenmon.Visible = true; check(p03_chuyenmon); break;
+                    case "p04": p04_masotudong.Visible = true; check(p04_masotudong); break;
+                    case "p05": p05_doituong.Visible = true; check(p05_doituong); break;
+                    case "p06": p06_duoc.Visible = true; check(p06_duoc); f300(); f356_358();break;
+                    case "p07": p07_vienphi.Visible = true; check(p07_vienphi); f397(); break;
+                    case "p08": p08_CLS.Visible = true; check(p08_CLS); break;
+                    case "p09": p09_phauthuthuat.Visible = true; check(p09_phauthuthuat); break;
+                    case "p10": p10_phonggiuong.Visible = true; check(p10_phonggiuong); break;
+                    case "p11": p11_bangdien.Visible = true; check(p11_bangdien); break;
+                    case "p12": p12_khamsuckhoe.Visible = true; check(p12_khamsuckhoe); break;
                     case "p13": p13.Visible = true; check(p13); break;
                     case "p14": p14.Visible = true; check(p14); break;
                 }

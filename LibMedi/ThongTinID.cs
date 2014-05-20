@@ -31,4 +31,12 @@ namespace LibMedi
         ID_NgayVienPhiThongTuLienTich15042012 = -1007,
         ID_NgayBenhNhanThongTuLienTich15042012 = -1008,
     }
+
+    public enum ma_table_capid
+    {
+        Sovaovien_tudong_ngoaitru_chungnoitru=5,
+        Sovaovien_tudong_ngoaitru_rieng=-5,
+        SoluutruPK_PL_NGT_tudong=200,
+        Soluutru_ngtru_nam=-999,
+    }
 }

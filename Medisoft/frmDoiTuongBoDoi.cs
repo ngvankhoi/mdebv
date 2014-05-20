@@ -25,8 +25,7 @@ namespace Medisoft
 		private System.Windows.Forms.Label label5;
 		private System.Windows.Forms.Label label4;
 		private System.Windows.Forms.TextBox diachi;
-		private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.ComboBox cmbLoaiDonVi;
+        private System.Windows.Forms.Label label6;
 		private System.Windows.Forms.TextBox ma;
 		private System.Windows.Forms.Button butKetthuc;
 		private System.Windows.Forms.Button butHuy;
@@ -41,7 +40,7 @@ namespace Medisoft
         private Label label7;
         private Label label8;
         private ComboBox cmbCapBac;
-        private ComboBox cmbDonVi;
+        private ComboBox cb_sudoan;
         private ComboBox cmbChucVu;
         private bool bbadt = false;
         private decimal d_mavaovien = 0;
@@ -51,6 +50,7 @@ namespace Medisoft
         private Label label10;
         private ComboBox cmbTrung_Doan;
         private TextBox txttieudoan;
+        private ComboBox cb_quandoan;
         private bool bxemlai = false;
         #endregion
 
@@ -106,12 +106,12 @@ namespace Medisoft
             this.label4 = new System.Windows.Forms.Label();
             this.diachi = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.cmbLoaiDonVi = new System.Windows.Forms.ComboBox();
+            this.cb_quandoan = new System.Windows.Forms.ComboBox();
             this.ma = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.cmbCapBac = new System.Windows.Forms.ComboBox();
-            this.cmbDonVi = new System.Windows.Forms.ComboBox();
+            this.cb_sudoan = new System.Windows.Forms.ComboBox();
             this.cmbChucVu = new System.Windows.Forms.ComboBox();
             this.cmbTieu_doan = new System.Windows.Forms.ComboBox();
             this.label9 = new System.Windows.Forms.Label();
@@ -258,18 +258,19 @@ namespace Medisoft
             this.label6.Text = "Quân đoàn cấp tương đương:";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // cmbLoaiDonVi
+            // cb_quandoan
             // 
-            this.cmbLoaiDonVi.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.cmbLoaiDonVi.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.cmbLoaiDonVi.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cmbLoaiDonVi.Enabled = false;
-            this.cmbLoaiDonVi.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmbLoaiDonVi.Location = new System.Drawing.Point(162, 384);
-            this.cmbLoaiDonVi.Name = "cmbLoaiDonVi";
-            this.cmbLoaiDonVi.Size = new System.Drawing.Size(181, 21);
-            this.cmbLoaiDonVi.TabIndex = 6;
-            this.cmbLoaiDonVi.KeyDown += new System.Windows.Forms.KeyEventHandler(this.mucdo_KeyDown);
+            this.cb_quandoan.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.cb_quandoan.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.cb_quandoan.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cb_quandoan.Enabled = false;
+            this.cb_quandoan.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cb_quandoan.Location = new System.Drawing.Point(162, 384);
+            this.cb_quandoan.Name = "cb_quandoan";
+            this.cb_quandoan.Size = new System.Drawing.Size(181, 21);
+            this.cb_quandoan.TabIndex = 6;
+            this.cb_quandoan.SelectedIndexChanged += new System.EventHandler(this.cb_quandoan_SelectedIndexChanged);
+            this.cb_quandoan.KeyDown += new System.Windows.Forms.KeyEventHandler(this.mucdo_KeyDown);
             // 
             // ma
             // 
@@ -313,17 +314,18 @@ namespace Medisoft
             this.cmbCapBac.Size = new System.Drawing.Size(181, 21);
             this.cmbCapBac.TabIndex = 4;
             // 
-            // cmbDonVi
+            // cb_sudoan
             // 
-            this.cmbDonVi.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.cmbDonVi.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.cmbDonVi.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cmbDonVi.Enabled = false;
-            this.cmbDonVi.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmbDonVi.Location = new System.Drawing.Point(493, 382);
-            this.cmbDonVi.Name = "cmbDonVi";
-            this.cmbDonVi.Size = new System.Drawing.Size(198, 21);
-            this.cmbDonVi.TabIndex = 7;
+            this.cb_sudoan.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.cb_sudoan.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.cb_sudoan.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cb_sudoan.Enabled = false;
+            this.cb_sudoan.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cb_sudoan.Location = new System.Drawing.Point(493, 382);
+            this.cb_sudoan.Name = "cb_sudoan";
+            this.cb_sudoan.Size = new System.Drawing.Size(198, 21);
+            this.cb_sudoan.TabIndex = 7;
+            this.cb_sudoan.SelectedIndexChanged += new System.EventHandler(this.cb_sudoan_SelectedIndexChanged);
             // 
             // cmbChucVu
             // 
@@ -472,7 +474,7 @@ namespace Medisoft
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.cmbChucVu);
-            this.Controls.Add(this.cmbDonVi);
+            this.Controls.Add(this.cb_sudoan);
             this.Controls.Add(this.cmbCapBac);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
@@ -482,7 +484,7 @@ namespace Medisoft
             this.Controls.Add(this.butLuu);
             this.Controls.Add(this.butSua);
             this.Controls.Add(this.butMoi);
-            this.Controls.Add(this.cmbLoaiDonVi);
+            this.Controls.Add(this.cb_quandoan);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.diachi);
             this.Controls.Add(this.label4);
@@ -518,25 +520,25 @@ namespace Medisoft
                 this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
                 this.Size = new Size(829 + 40, 610);
             }
-            try
-            {
-                sql = "alter table   " + user + ".qn_benhnhan add column tieudoan varchar(50) ";
-                m.execute_data(sql);
-            }
-            catch
-            {
-            }
+            //try
+            //{
+            //    sql = "alter table   " + user + ".qn_benhnhan add column tieudoan varchar(50) ";
+            //    m.execute_data(sql);
+            //}
+            //catch
+            //{
+            //}
             user = m.user;
             //LoaiDonVi
-			cmbLoaiDonVi.DisplayMember="TEN";
-			cmbLoaiDonVi.ValueMember="id";
-            //khuyen 12/02/2014 cmbLoaiDonVi.DataSource = d.get_data("select * from " + user + ".qn_dmloaidv order by id").Tables[0];
-            cmbLoaiDonVi.DataSource = d.get_data("select * from " + user + ".qn_dmdonvi_cap1 order by id").Tables[0];//khuyen 12/02/2014 thay table qn_dmloaidv=qn_dmdonvi_cap1
+			cb_quandoan.DisplayMember="TEN";
+			cb_quandoan.ValueMember="id";
+            //khuyen 12/02/2014 cb_quandoan.DataSource = d.get_data("select * from " + user + ".qn_dmloaidv order by id").Tables[0];
+            cb_quandoan.DataSource = d.get_data("select * from " + user + ".qn_dmdonvi_cap1 order by id").Tables[0];//khuyen 12/02/2014 thay table qn_dmloaidv=qn_dmdonvi_cap1
             //Donvi
-            cmbDonVi.DisplayMember = "TEN";
-            cmbDonVi.ValueMember = "id";
+            cb_sudoan.DisplayMember = "TEN";
+            cb_sudoan.ValueMember = "id";
             //khuyen 12/02/14 cmbDonVi.DataSource = d.get_data("select * from " + user + ".qn_dmdonvi order by id").Tables[0];
-            cmbDonVi.DataSource = d.get_data("select * from " + user + ".qn_dmdonvi_cap2 order by id").Tables[0];//12/02/14 thay table qn_dmdonvi=qn_dmdonvi_cap2
+            cb_sudoan.DataSource = d.get_data("select * from " + user + ".qn_dmdonvi_cap2 order by id").Tables[0];//12/02/14 thay table qn_dmdonvi=qn_dmdonvi_cap2
            
         //khuyen 12/02/2014 them 2 table qn_dmdonvi_cap3,qn_dmdonvi_cap4 vao phan quan ly thong tin bo doi
             //Donvi trung doan
@@ -566,6 +568,7 @@ namespace Medisoft
             {
                 butMoi_Click(null, null);
             }
+          //  cb_quandoan_SelectedIndexChanged(null, null);
 		}
 
 		private void load_grid()
@@ -576,7 +579,7 @@ namespace Medisoft
                 " inner join " + user + ".qn_dmchucvu e on a.idchucvu=e.id";
             sql += " where a.mabn='" + mabn.Text + "'";*/
             //khuyen 12/02/14 hien thi lai tren dataGrid1 do thay doi cau truc bang
-			sql="select a.mabn,a.mavaovien,c.ten as tenloaidonvi,b.ten as tendonvi,c3.ten as tentrungdoan,a.tieudoan as tentieudoan,d.ten as tencapbac,e.ten as tenchucvu"+
+			sql="select a.mabn,a.mavaovien,c.ten as tenloaidonvi,b.ten as tendonvi,c3.ten as tentrungdoan,c4.ten as tentieudoan,d.ten as tencapbac,e.ten as tenchucvu"+
                 " from "+user+".qn_benhnhan a inner join "+user+".qn_dmdonvi_cap2 b on a.iddonvicap2=b.id"+
                  " inner join " + user + ".qn_dmdonvi_cap3 c3 on c3.id=a.iddonvicap3 "+
                  " left join " + user + ".qn_dmdonvi_cap4 c4 on c4.id=a.iddonvicap4 " +
@@ -664,7 +667,7 @@ namespace Medisoft
             //if (this.ActiveControl==ten)
             //{
             //    Filter(ten.Text);
-            //    list.BrowseToDanhmuc(ten,ma,cmbLoaiDonVi,0);
+            //    list.BrowseToDanhmuc(ten,ma,cb_quandoan,0);
             //}
 		}
 
@@ -673,8 +676,8 @@ namespace Medisoft
 			try
 			{
 				int i_row=dataGrid1.CurrentCell.RowNumber;
-				cmbLoaiDonVi.SelectedValue=dataGrid1[i_row,0].ToString();
-                cmbDonVi.SelectedValue = dataGrid1[i_row, 1].ToString();
+				cb_quandoan.SelectedValue=dataGrid1[i_row,0].ToString();
+                cb_sudoan.SelectedValue = dataGrid1[i_row, 1].ToString();
                 cmbCapBac.SelectedValue = dataGrid1[i_row, 2].ToString();
                 cmbChucVu.SelectedValue = dataGrid1[i_row, 3].ToString();
 			}
@@ -702,8 +705,8 @@ namespace Medisoft
 			CurrencyManager cm = (CurrencyManager)BindingContext[dataGrid1.DataSource,dataGrid1.DataMember];  
 			DataView dv = (DataView) cm.List; 
 			dv.AllowNew = false; 
-			cmbLoaiDonVi.Enabled=ena;
-            cmbDonVi.Enabled = ena;
+			cb_quandoan.Enabled=ena;
+            cb_sudoan.Enabled = ena;
             //khuyen 12/02/2014 do them 2 combobox tren form 
             cmbTrung_Doan.Enabled = ena;
             cmbTieu_doan.Enabled = ena;
@@ -724,7 +727,7 @@ namespace Medisoft
 		{
 			if (e.KeyCode==Keys.Enter || e.KeyCode==Keys.Tab)
 			{
-				if (cmbLoaiDonVi.SelectedIndex==-1 && cmbLoaiDonVi.Items.Count>0) cmbLoaiDonVi.SelectedIndex=0;
+				if (cb_quandoan.SelectedIndex==-1 && cb_quandoan.Items.Count>0) cb_quandoan.SelectedIndex=0;
 				SendKeys.Send("{Tab}");
 			}
 		}
@@ -732,21 +735,21 @@ namespace Medisoft
 		private void butMoi_Click(object sender, System.EventArgs e)
 		{
 			ena_object(true);
-            cmbLoaiDonVi.Focus();
+            cb_quandoan.Focus();
 		}
 
 		private void butSua_Click(object sender, System.EventArgs e)
 		{
 			if (ds.Tables[0].Rows.Count==0) return;
 			ena_object(true);
-			cmbLoaiDonVi.Focus();
+			cb_quandoan.Focus();
 		}
 
 		private bool kiemtra()
 		{
-            if (cmbLoaiDonVi.SelectedIndex == -1)
+            if (cb_quandoan.SelectedIndex == -1)
             {
-                cmbLoaiDonVi.Focus();
+                cb_quandoan.Focus();
                 return false;
             }
 			return true;
@@ -754,8 +757,22 @@ namespace Medisoft
 		private void butLuu_Click(object sender, System.EventArgs e)
 		{
 			if (!kiemtra()) return;
+
+            int id_tieudoan = 1;
+            ds = d.get_data("select  max(id) as id from medibv.qn_dmdonvi_cap4");
+            if (ds.Tables[0].Rows[0]["id"].ToString() == "") id_tieudoan = 1;
+            else id_tieudoan = int.Parse(ds.Tables[0].Rows[0]["id"].ToString()) + 1;
+            {
+                if (!m.upd_danhmuc_quannhan(id_tieudoan, "", txttieudoan.Text, int.Parse(cb_sudoan.SelectedValue.ToString()), "qn_dmdonvi_cap4"))
+                {
+                    MessageBox.Show(lan.Change_language_MessageText("Không cập nhật được số liệu !"));
+                    return;
+                }
+            }
+            // truongthuy them tieu doan trong quan nhan : 12052014 
+           /// if(d)
           //khuyen 12/02/2014  if (!d.upd_qn_benhnhan(mabn.Text, d_mavaovien, int.Parse(cmbCapBac.SelectedValue.ToString()), int.Parse(cmbChucVu.SelectedValue.ToString()), int.Parse(cmbDonVi.SelectedValue.ToString())))
-            if (!d.upd_qn_benhnhan(mabn.Text, d_mavaovien, int.Parse(cmbCapBac.SelectedValue.ToString()), int.Parse(cmbChucVu.SelectedValue.ToString()), int.Parse(cmbLoaiDonVi.SelectedValue.ToString()), int.Parse(cmbDonVi.SelectedValue.ToString()), int.Parse(cmbTrung_Doan.SelectedValue.ToString()),0,txttieudoan.Text))//khuyen 12/02/2014 do thay doi cau truc cua table qn_benhnhan
+            if (!d.upd_qn_benhnhan(mabn.Text, d_mavaovien, int.Parse(cmbCapBac.SelectedValue.ToString()), int.Parse(cmbChucVu.SelectedValue.ToString()), int.Parse(cb_quandoan.SelectedValue.ToString()), int.Parse(cb_sudoan.SelectedValue.ToString()), int.Parse(cmbTrung_Doan.SelectedValue.ToString()), id_tieudoan))//khuyen 12/02/2014 do thay doi cau truc cua table qn_benhnhan
 			{
 				MessageBox.Show(lan.Change_language_MessageText("Không cập nhật được thông tin !"),LibMedi.AccessData.Msg);
 				return;
@@ -802,5 +819,28 @@ namespace Medisoft
 		{
 			m.close();this.Close();
 		}
+
+
+        private void cb_quandoan_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            try
+            {
+                cb_sudoan.DataSource = m.get_data("select * from medibv.qn_dmdonvi_cap2 where iddonvicap1 =" + cb_quandoan.SelectedValue.ToString() + "").Tables[0];
+                cb_sudoan.DisplayMember = "ten";
+                cb_sudoan.ValueMember = "id";
+            }
+            catch { }
+        }
+
+        private void cb_sudoan_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            try
+            {
+                cmbTrung_Doan.DataSource = m.get_data("select * from medibv.qn_dmdonvi_cap3 where id_cap2 =" + cb_sudoan.SelectedValue.ToString() + "").Tables[0];
+                cmbTrung_Doan.DisplayMember = "ten";
+                cmbTrung_Doan.ValueMember = "id";
+            }
+            catch { }
+        }
 	}
 }

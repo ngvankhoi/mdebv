@@ -708,7 +708,7 @@ namespace Medisoft
                                 sql += " and b.id=c.id " + cont;
                                 sql1 += "select b.mabn,e.hoten,d.phong,d.giuong,c.mabd,c." + s_field_soluong + " as slyeucau,' ' as sovaovien,case when e.ngaysinh is null then e.namsinh " +
                                 "else to_char(e.ngaysinh,'dd/mm/yyyy') end as ngaysinh,f.doituong from xxx.d_duyet a inner join xxx.d_dutrull b on a.id=b.idduyet inner join xxx.d_dutruct c on b.id=c.id left join xxx.d_dausinhton d on b.id=d.iddutru inner join " +//khuyen 07/03/14 lay cot f.doituong
-                                user + ".btdbn e on b.mabn=e.mabn inner join " + user + ".doituong f on c.madoituong=f.madoituong where ";//gam 08/11/2011
+                                user + ".btdbn e on b.mabn=e.mabn inner join " + user + ".d_doituong f on c.madoituong=f.madoituong where ";//gam 08/11/2011
                                 sql1 += " 1=1  " + cont;
                                 break;
                             case 2:
@@ -724,14 +724,14 @@ namespace Medisoft
                                     sql += " and b.id=c.id " + cont;
                                 }
                                 sql1 += "select b.mabn,e.hoten,d.phong,d.giuong,c.mabd,c." + s_field_soluong + " as slyeucau,' ' as sovaovien,case when e.ngaysinh is null then e.namsinh " +
-                                    " else to_char(e.ngaysinh,'dd/mm/yyyy') end as ngaysinh,f.doituong from xxx.d_duyet a inner join xxx.d_xtutrucll b on a.id=b.idduyet inner join xxx.d_xtutrucct c on b.id=c.id left join xxx.d_dausinhton d on b.id=d.iddutru inner join " + user + ".btdbn e on b.mabn=e.mabn inner join " + user + ".doituong  f on c.madoituong=f.madoituong where ";//07/03/14 khuyen lay cot doituong
+                                    " else to_char(e.ngaysinh,'dd/mm/yyyy') end as ngaysinh,f.doituong from xxx.d_duyet a inner join xxx.d_xtutrucll b on a.id=b.idduyet inner join xxx.d_xtutrucct c on b.id=c.id left join xxx.d_dausinhton d on b.id=d.iddutru inner join " + user + ".btdbn e on b.mabn=e.mabn inner join " + user + ".d_doituong  f on c.madoituong=f.madoituong where ";//07/03/14 khuyen lay cot doituong
                                 sql1 += " 1=1 " + cont;
                                 break;
                             default:
                                 sql += "select distinct c.mabd from xxx.d_duyet a,xxx.d_hoantrall b,xxx.d_hoantract c where a.id=b.idduyet";
                                 sql += " and b.id=c.id " + cont;
                                 sql1 += "select b.mabn,e.hoten,d.phong,d.giuong,c.mabd,c." + s_field_soluong + " as slyeucau,' ' as sovaovien,case when e.ngaysinh is null then e.namsinh else " +
-                                    " to_char(e.ngaysinh,'dd/mm/yyyy') end as ngaysinh,f.doituong from xxx.d_duyet a inner join xxx.d_hoantrall b on a.id=b.idduyet inner join xxx.d_hoantract c on b.id=c.id left join xxx.d_dausinhton d on b.id=d.iddutru inner join " + user + ".btdbn e on b.mabn=e.mabn inner join " + user + ".doituong f on c.madoituong=f.madoituong where ";//khuyen 07/03/14 lay cot doi tuong,
+                                    " to_char(e.ngaysinh,'dd/mm/yyyy') end as ngaysinh,f.doituong from xxx.d_duyet a inner join xxx.d_hoantrall b on a.id=b.idduyet inner join xxx.d_hoantract c on b.id=c.id left join xxx.d_dausinhton d on b.id=d.iddutru inner join " + user + ".btdbn e on b.mabn=e.mabn inner join " + user + ".d_doituong f on c.madoituong=f.madoituong where ";//khuyen 07/03/14 lay cot doi tuong,
                                 sql1 += " 1=1 " + cont;
                                 break;
                         }

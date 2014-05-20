@@ -5041,6 +5041,10 @@ namespace Medisoft
                 this.mnuNangchieudaikey.Visible = false;
                 this.menuItem277.Visible = false;
                 this.menuItem_dmcn.Visible = false;
+            
+            
+            
+            
             }
         }
 		private void mnuExit_Click(object sender, System.EventArgs e)

@@ -4922,6 +4922,16 @@ namespace Duoc
                     }
                 }
             }
+            if (m.bSoluutruPK_PL_NGT_tudong)  // truongthuy them 19052014 
+            {
+
+                foreach (DataRow r1 in d.get_data_mmyy("select soluutru from " + user + ".lienhe where maql=" + l_maql +" union all select soluutru from xxx.lienhe where maql=" + l_maql +"" , s_tu, s_den, songayduyet).Tables[0].Rows)
+                {
+
+                    s_soluutru =  r1["soluutru"].ToString();
+                }
+
+            }
             int _userid = -1;
             int isophieu = d.get_sophieu_bhyt_userid(s_mmyy, sophieu.Text, mavaovien, ngaysp.Text, int.Parse(maphu.SelectedValue.ToString()), _userid, ngay_reset_phieu38 );
             int lanin = d.get_laninkb(s_mmyy, sophieu.Text, mavaovien, ngaysp.Text, int.Parse(maphu.SelectedValue.ToString()));

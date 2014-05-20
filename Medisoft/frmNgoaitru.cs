@@ -6187,25 +6187,33 @@ lan.Change_language_MessageText("DỊ ỨNG THUỐC :")+tlbl.Text;
 				MessageBox.Show(lan.Change_language_MessageText("Không cập nhật được thông tin hành chính !"),s_msg);
 				return;
 			}
+           //  D19 - Số lưu trữ ngoại trú tăng tự động theo năm ";
+            // //Cap so luu tru phong kham: dung chung ngoai tru
+            if (m.bSoluutru_ngtru_nam && soluutru.Text == "")
+            {
+                soluutru.Text = m.get_capid((int)LibMedi.ma_table_capid.Soluutru_ngtru_nam, ngayrv.Text.Substring(8, 2)).ToString().PadLeft(10, '0');
+                soluutru.Update();
+            }
             //Tu:28/06/2011 soluutru tang tu dong neu check option D28
-            if (m.bSoluutruPK_PL_NGT_tudong)
+            else if (m.bSoluutruPK_PL_NGT_tudong && soluutru.Text == "")
             {
                 string s_mmyy = "";
                 s_mmyy = DateTime.Now.Year.ToString().Substring(2, 2).PadLeft(2, '0') + DateTime.Now.Month.ToString().PadLeft(2, '0');
-                decimal l_idluutru = m.get_capid(200, s_mmyy);
+                decimal l_idluutru = m.get_capid((int)LibMedi.ma_table_capid.SoluutruPK_PL_NGT_tudong, s_mmyy);//m.get_capid(200, s_mmyy);
                 s_soluutru = i_chinhanh.ToString().PadLeft(2, '0') + s_mmyy + l_idluutru.ToString().PadLeft(6, '0');
-                m.execute_data("update " + user + m.mmyy(ngayvv.Text.Substring(0, 10)) + ".lienhe set soluutru='" + s_soluutru + "' where maql=" + l_maql + "");
+                soluutru.Text = s_soluutru;
             }
-            //end Tu
+
 
             if (!m.upd_benhanngtr(s_mabn, l_matd, l_maql, makp.Text, ngayvk.Text + " " + giovk.Text, int.Parse(dentu.Text), int.Parse(nhantu.Text), int.Parse(tendoituong.SelectedValue.ToString()), cd_kkb.Text, icd_kkb.Text, sovaovien.Text, i_userid))
 			{
 				MessageBox.Show(lan.Change_language_MessageText("Không cập nhật được thông tin vào viện !"),s_msg);
 				return;
 			}
-            if(m.bSoluutruPK_PL_NGT_tudong)
-                m.execute_data("update " + user + ".benhanngtr set soluutru='" + s_soluutru + "' where maql=" + l_maql + "");
-
+            if (soluutru.Text.Trim() != "")
+            {
+                m.execute_data("update " + user + ".benhanngtr set soluutru='" + soluutru.Text + "' where maql=" + l_maql + "");
+            }
             m.execute_data("update " + user + ".benhanngtr set mabs='" + mabs.Text + "' where maql=" + l_maql);
 			if (int.Parse(so.Substring(0,2))>0)
 			{
@@ -6249,11 +6257,8 @@ lan.Change_language_MessageText("DỊ ỨNG THUỐC :")+tlbl.Text;
 						return;
 					}
 				}
-                if (bSoluutru_ngtru_nam && soluutru.Text=="")
-                {
-                    soluutru.Text = m.get_capid(-999, ngayrv.Text.Substring(8, 2)).ToString().PadLeft(10, '0');
-                    soluutru.Update();                    
-                }
+             
+
 				if (!m.upd_benhanngtr(l_maql,ngayrv.Text+" "+giorv.Text,int.Parse(ketqua.Text),int.Parse(ttlucrv.Text),cd_chinh.Text,icd_chinh.Text,mabs.Text,(bienchung.Checked)?1:0,(taibien.Checked)?int.Parse(cmbTaibien.SelectedValue.ToString()):0,(giaiphau.Checked)?int.Parse(gphaubenh.SelectedValue.ToString()):0,soluutru.Text))
 				{
 					MessageBox.Show(lan.Change_language_MessageText("Không cập nhật được thông tin ra viện !"),s_msg);

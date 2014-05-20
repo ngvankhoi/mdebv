@@ -5146,7 +5146,7 @@ namespace Medisoft
                 icd_chinh.Text = r["maicd"].ToString();
                 cd_kemtheo.Text = r["k_chandoan"].ToString();
                 icd_kemtheo.Text = r["k_maicd"].ToString();
-
+                soluutru.Text = r["soluutru"].ToString();
                 mabs.Text = r["mabs"].ToString();
                 r1 = m.getrowbyid(dtbs, "ma='" + mabs.Text + "'");
                 if (r1 != null) tenbs.Text = r1["hoten"].ToString();
@@ -6751,12 +6751,19 @@ namespace Medisoft
 					}
 				}
 			}
-			if (soluutru.Text=="" && b_soluutru && soluutru.Enabled)
-			{
-				MessageBox.Show(lan.Change_language_MessageText("Nhập số lưu trữ !"),s_msg);
-				soluutru.Focus();
-				return false;
-			}
+            if (m.bSoluutru_ngtru_nam != true || m.bSoluutruPK_PL_NGT_tudong != true)
+            {
+                if (soluutru.Text == "" && b_soluutru && soluutru.Enabled)
+                {
+                    MessageBox.Show(lan.Change_language_MessageText("Nhập số lưu trữ !"), s_msg);
+                    soluutru.Focus();
+                    return false;
+                }
+            }
+            else
+            {
+                soluutru.Enabled = false; 
+            }
             if (!m.bMmyy(m.mmyy(ngayvv.Text))) m.tao_schema(m.mmyy(ngayvv.Text), i_userid);
 			s_mabn=mabn2.Text+mabn3.Text;
             decimal maql1 = m.get_maql_benhanpk(s_mabn, ngayvv.Text+" "+giovv.Text,makp.Text,false);
@@ -7003,6 +7010,23 @@ namespace Medisoft
 				MessageBox.Show(lan.Change_language_MessageText("Không cập nhật được thông tin hành chính !"),s_msg);
 				return;
 			}
+          //  D19 - Số lưu trữ ngoại trú tăng tự động theo năm ";
+            // //Cap so luu tru phong kham: dung chung ngoai tru
+            if (m.bSoluutru_ngtru_nam && soluutru.Text == "")
+            {
+                soluutru.Text = m.get_capid((int)LibMedi.ma_table_capid.Soluutru_ngtru_nam, ngayvv.Text.Substring(8, 2)).ToString().PadLeft(10, '0');
+                soluutru.Update();
+            }
+            //Tu:28/06/2011 soluutru tang tu dong neu check option D28
+            else if (m.bSoluutruPK_PL_NGT_tudong && soluutru.Text == "")
+            {
+                string s_mmyy = "";
+                s_mmyy = DateTime.Now.Year.ToString().Substring(2, 2).PadLeft(2, '0') + DateTime.Now.Month.ToString().PadLeft(2, '0');
+                decimal l_idluutru = m.get_capid((int)LibMedi.ma_table_capid.SoluutruPK_PL_NGT_tudong, s_mmyy);//m.get_capid(200, s_mmyy);
+                s_soluutru = i_chinhanh.ToString().PadLeft(2, '0') + s_mmyy + l_idluutru.ToString().PadLeft(6, '0');
+                soluutru.Text = s_soluutru;
+            }
+
 			if (bSoluutru && soluutru.Text!="") m.execute_data("update "+xxx+".lienhe set soluutru='"+soluutru.Text+"' where maql="+l_maql);
 			if (khamthai.Visible) m.upd_ttkhamthai(ngayvv.Text,s_mabn,l_maql,para1.Text.PadLeft(2,'0')+para2.Text.PadLeft(2,'0')+para3.Text.PadLeft(2,'0')+para4.Text.PadLeft(2,'0'),kinhcc.Text,ngaysanh.Text,"");
             if (dausinhton.Visible) m.upd_dausinhton(ngayvv.Text, l_maql, (mach.Text != "") ? decimal.Parse(mach.Text) : 0, (nhietdo.Text != "") ? decimal.Parse(nhietdo.Text) : 0, huyetap.Text, (nang.Text != "") ? decimal.Parse(nang.Text) : 0, (cao.Text != "") ? decimal.Parse(cao.Text) : 0, (txtNhipTho.Text != "") ? decimal.Parse(txtNhipTho.Text) : 0);
@@ -7855,16 +7879,7 @@ namespace Medisoft
             {
                 danhsach.Visible=false;
             }
-            //truongthuy 10052014 them so luu  tru tu dong phong kham 
-            if (bSoluutruPK_PL_NGT_tudong)
-            {
-                string s_mmyy = "";
-                s_mmyy = DateTime.Now.Year.ToString().Substring(2, 2).PadLeft(2, '0') + DateTime.Now.Month.ToString().PadLeft(2, '0');
-                decimal l_idluutru = m.get_capid(200, s_mmyy);
-                s_soluutru = i_chinhanh.ToString().PadLeft(2, '0') + s_mmyy + l_idluutru.ToString().PadLeft(6, '0');
-                m.execute_data("update " + user + m.mmyy(ngayvv.Text.Substring(0, 10)) + ".lienhe set soluutru='" + s_soluutru + "' where maql=" + l_maql + "");
-            }
-           //end truongthuy  
+    
 		}
 
 		private void butRef_Click(object sender, System.EventArgs e)

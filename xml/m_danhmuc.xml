@@ -160,19 +160,19 @@
     <SQL>dmtang</SQL>
   </Table>
   <Table>
-    <TEN>Khai báo danh mục đơn vị cấp 1 của Bộ Đội</TEN>
+    <TEN>Khai báo danh mục đơn vị cấp  quân đoàn của Bộ Đội</TEN>
     <SQL>qn_dmdonvi_cap1</SQL>
   </Table>
   <Table>
-    <TEN>Khai báo danh mục đơn vị  cấp 2 của Bộ Đội</TEN>
+    <TEN>Khai báo danh mục đơn vị  sư đoàn   của Bộ Đội</TEN>
     <SQL>qn_dmdonvi_cap2</SQL>
   </Table>
  <Table>
-    <TEN>Khai báo danh mục đơn vị  cấp 3 của Bộ Đội</TEN>
+    <TEN>Khai báo danh mục đơn vị  trung đoàn của Bộ Đội</TEN>
     <SQL>qn_dmdonvi_cap3</SQL>
   </Table>
  <Table>
-    <TEN>Khai báo danh mục đơn vị  cấp 4 của Bộ Đội</TEN>
+    <TEN>Khai báo danh mục đơn vị tiểu đoàn của Bộ Đội</TEN>
     <SQL>qn_dmdonvi_cap4</SQL>
   </Table>
   <Table>
