@@ -1367,6 +1367,23 @@ namespace Duoc
                         }
 						foreach(DataRow r in d.get_data(sql).Tables[0].Rows)
 						{
+
+                            //using (Npgsql.NpgsqlCommand cmm = new Npgsql.NpgsqlCommand("select * from " + xxx + ".d_thanhtoan where id=" + decimal.Parse(r["id"].ToString()), new Npgsql.NpgsqlConnection(d.ConStr)))
+                            //{
+                            //    try
+                            //    {
+                            //        cmm.Connection.Open();
+                            //        if (!cmm.ExecuteReader().HasRows)
+                            //        {
+                            //            cmm.CommandText="INSERT INTO medibv0514.d_thanhtoan(id, ngay, \"no\", co, sotien, datra, lanin, userid, ngayud, sotiennovat,ghichu, idcomputer, mmyy, idsystem, change, mac, chuyendi) SELECT * ";
+                            //            cmm.ExecuteNonQuery();
+                            //        }
+                            //    }
+                            //    finally
+                            //    {
+                            //        cmm.Connection.Close();
+                            //    }
+                            //}
 							d.execute_data("update "+xxx+".d_thanhtoan set sotien=0, sotiennovat=0 where id="+decimal.Parse(r["id"].ToString()));
                             d.upd_thanhtoan(mmyy, decimal.Parse(r["id"].ToString()), decimal.Parse(r["sotien"].ToString()), decimal.Parse(r["sotiennovat"].ToString()));
 						}

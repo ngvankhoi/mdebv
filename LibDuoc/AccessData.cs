@@ -32,6 +32,13 @@ namespace LibDuoc
         string sql = "", schema = "", owner = "medisoft", password = "links1920", userid = "medibv", database = "medisoft", xxxxx = "Ð§Ì©Î«³²°Ô£";
         string sHost = "", sPort = "";//linh 02012013
         DataSet ds = null;
+        public string ConStr
+        {
+            get
+            {
+                return sConn;
+            }
+        }
         public AccessData()
         {
             sComputer = System.Environment.MachineName.Trim().ToUpper();
