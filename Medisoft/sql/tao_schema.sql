@@ -1,0 +1,1 @@
+select * from medibv.btdnn_bv where mannbo<>'01' and mann='99'

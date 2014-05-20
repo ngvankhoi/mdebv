@@ -6188,32 +6188,52 @@ lan.Change_language_MessageText("DỊ ỨNG THUỐC :")+tlbl.Text;
 				return;
 			}
            //  D19 - Số lưu trữ ngoại trú tăng tự động theo năm ";
-            // //Cap so luu tru phong kham: dung chung ngoai tru
-            if (m.bSoluutru_ngtru_nam && soluutru.Text == "")
+            // //Cap so luu tru phong kham: dung chung ngoai tru   : truongthuy 20052014
+             DataSet dsktsoluutru = new DataSet();
+            dsktsoluutru = m.get_data("select * from " + user + ".benhanngtr  where maql=" + l_maql + "");
+            string kt_luutru ="";
+            if (dsktsoluutru != null || dsktsoluutru.Tables.Count > 0 || dsktsoluutru.Tables[0].Rows.Count > 0)
             {
-                soluutru.Text = m.get_capid((int)LibMedi.ma_table_capid.Soluutru_ngtru_nam, ngayrv.Text.Substring(8, 2)).ToString().PadLeft(10, '0');
-                soluutru.Update();
+                foreach (DataRow dr in dsktsoluutru.Tables[0].Rows)
+                {
+                    kt_luutru = dr["soluutru"].ToString();
+                }
             }
-            //Tu:28/06/2011 soluutru tang tu dong neu check option D28
-            else if (m.bSoluutruPK_PL_NGT_tudong && soluutru.Text == "")
+            if (kt_luutru == "")
             {
-                string s_mmyy = "";
-                s_mmyy = DateTime.Now.Year.ToString().Substring(2, 2).PadLeft(2, '0') + DateTime.Now.Month.ToString().PadLeft(2, '0');
-                decimal l_idluutru = m.get_capid((int)LibMedi.ma_table_capid.SoluutruPK_PL_NGT_tudong, s_mmyy);//m.get_capid(200, s_mmyy);
-                s_soluutru = i_chinhanh.ToString().PadLeft(2, '0') + s_mmyy + l_idluutru.ToString().PadLeft(6, '0');
-                soluutru.Text = s_soluutru;
-            }
+                if (m.bSoluutru_ngtru_nam && soluutru.Text == "")
+                {
+                    soluutru.Text = m.get_capid((int)LibMedi.ma_table_capid.Soluutru_ngtru_nam, ngayrv.Text.Substring(8, 2)).ToString().PadLeft(10, '0');
+                    soluutru.Update();
+                }
+                //Tu:28/06/2011 soluutru tang tu dong neu check option D28
+                else if (m.bSoluutruPK_PL_NGT_tudong && soluutru.Text == "")
+                {
+                    string s_mmyy = "";
+                    s_mmyy = DateTime.Now.Year.ToString().Substring(2, 2).PadLeft(2, '0') + DateTime.Now.Month.ToString().PadLeft(2, '0');
+                    decimal l_idluutru = m.get_capid((int)LibMedi.ma_table_capid.SoluutruPK_PL_NGT_tudong, s_mmyy);//m.get_capid(200, s_mmyy);
+                    s_soluutru = i_chinhanh.ToString().PadLeft(2, '0') + s_mmyy + l_idluutru.ToString().PadLeft(6, '0');
+                    soluutru.Text = s_soluutru;
+                }
+                if (soluutru.Text.Trim() != "")
+                {
+                    m.execute_data("update " + user + ".benhanngtr set soluutru='" + soluutru.Text + "' where maql=" + l_maql + "");
+                }
 
+            }
+            else
+            {
+                soluutru.Text = kt_luutru;
+
+            }
+            // 
 
             if (!m.upd_benhanngtr(s_mabn, l_matd, l_maql, makp.Text, ngayvk.Text + " " + giovk.Text, int.Parse(dentu.Text), int.Parse(nhantu.Text), int.Parse(tendoituong.SelectedValue.ToString()), cd_kkb.Text, icd_kkb.Text, sovaovien.Text, i_userid))
 			{
 				MessageBox.Show(lan.Change_language_MessageText("Không cập nhật được thông tin vào viện !"),s_msg);
 				return;
 			}
-            if (soluutru.Text.Trim() != "")
-            {
-                m.execute_data("update " + user + ".benhanngtr set soluutru='" + soluutru.Text + "' where maql=" + l_maql + "");
-            }
+            
             m.execute_data("update " + user + ".benhanngtr set mabs='" + mabs.Text + "' where maql=" + l_maql);
 			if (int.Parse(so.Substring(0,2))>0)
 			{
