@@ -47,22 +47,100 @@
     <cucthue>CỤC THUẾ</cucthue>
     <masothue />
     <mauso />
-    <quyenso>DỊCH VỤ</quyenso>
-    <sobienlai>90036</sobienlai>
-    <ngayin>31/03/2014</ngayin>
-    <nguoiin>Quản trị chung</nguoiin>
+    <quyenso>14_VPTG</quyenso>
+    <sobienlai>19003</sobienlai>
+    <ngayin>12/05/2014</ngayin>
+    <nguoiin>Administrator</nguoiin>
     <ghichu />
     <lien>Liên 1: Giao cho bệnh nhân</lien>
-    <mabn>13000017</mabn>
-    <hoten>TEST PHONG LUU NV</hoten>
-    <ngaysinh>1984</ngaysinh>
+    <mabn>14037142</mabn>
+    <hoten>TRẦN VĂN BÊ</hoten>
+    <ngaysinh>1980</ngaysinh>
     <gioitinh>Nam</gioitinh>
-    <khoa>Khoa Hồi Sức Cấp Cứu</khoa>
-    <diachi>Bình Dương</diachi>
+    <khoa>Khoa A1</khoa>
+    <diachi>X. Thạnh Hội, H. Tân Uyên, Bình Dương</diachi>
     <lydo>Tạm ứng nhập viện</lydo>
-    <sotien>300000</sotien>
-    <chutien>Ba trăm ngàn  đồng</chutien>
-    <nguoithu>Quản trị chung</nguoithu>
+    <sotien>500000</sotien>
+    <chutien>Năm trăm ngàn  đồng</chutien>
+    <nguoithu>Administrator</nguoithu>
+    <lanin>1</lanin>
+  </BienLaiTamUng>
+  <BienLaiTamUng>
+    <syt>Sở Y tế ĐĂCNÔNG</syt>
+    <bv>Bệnh viện đa khoa Huyện Krông Pắc</bv>
+    <diachibv>Đường 23/3</diachibv>
+    <tongcucthue>TỔNG CỤC THUẾ</tongcucthue>
+    <cucthue>CỤC THUẾ</cucthue>
+    <masothue />
+    <mauso />
+    <quyenso>14_VPTG</quyenso>
+    <sobienlai>19003</sobienlai>
+    <ngayin>12/05/2014</ngayin>
+    <nguoiin>Administrator</nguoiin>
+    <ghichu />
+    <lien>Liên 1: Giao cho bệnh nhân</lien>
+    <mabn>14037142</mabn>
+    <hoten>TRẦN VĂN BÊ</hoten>
+    <ngaysinh>1980</ngaysinh>
+    <gioitinh>Nam</gioitinh>
+    <khoa>Khoa A1</khoa>
+    <diachi>X. Thạnh Hội, H. Tân Uyên, Bình Dương</diachi>
+    <lydo>Tạm ứng nhập viện</lydo>
+    <sotien>500000</sotien>
+    <chutien>Năm trăm ngàn  đồng</chutien>
+    <nguoithu>Administrator</nguoithu>
+    <lanin>1</lanin>
+  </BienLaiTamUng>
+  <BienLaiTamUng>
+    <syt>Sở Y tế ĐĂCNÔNG</syt>
+    <bv>Bệnh viện đa khoa Huyện Krông Pắc</bv>
+    <diachibv>Đường 23/3</diachibv>
+    <tongcucthue>TỔNG CỤC THUẾ</tongcucthue>
+    <cucthue>CỤC THUẾ</cucthue>
+    <masothue />
+    <mauso />
+    <quyenso>14_VPTG</quyenso>
+    <sobienlai>19003</sobienlai>
+    <ngayin>12/05/2014</ngayin>
+    <nguoiin>Administrator</nguoiin>
+    <ghichu />
+    <lien>Liên 1: Giao cho bệnh nhân</lien>
+    <mabn>14037142</mabn>
+    <hoten>TRẦN VĂN BÊ</hoten>
+    <ngaysinh>1980</ngaysinh>
+    <gioitinh>Nam</gioitinh>
+    <khoa>Khoa A1</khoa>
+    <diachi>X. Thạnh Hội, H. Tân Uyên, Bình Dương</diachi>
+    <lydo>Tạm ứng nhập viện</lydo>
+    <sotien>500000</sotien>
+    <chutien>Năm trăm ngàn  đồng</chutien>
+    <nguoithu>Administrator</nguoithu>
+    <lanin>1</lanin>
+  </BienLaiTamUng>
+  <BienLaiTamUng>
+    <syt>Sở Y tế ĐĂCNÔNG</syt>
+    <bv>Bệnh viện đa khoa Huyện Krông Pắc</bv>
+    <diachibv>Đường 23/3</diachibv>
+    <tongcucthue>TỔNG CỤC THUẾ</tongcucthue>
+    <cucthue>CỤC THUẾ</cucthue>
+    <masothue />
+    <mauso />
+    <quyenso>14_VPTG</quyenso>
+    <sobienlai>19003</sobienlai>
+    <ngayin>12/05/2014</ngayin>
+    <nguoiin>Administrator</nguoiin>
+    <ghichu />
+    <lien>Liên 1: Giao cho bệnh nhân</lien>
+    <mabn>14037142</mabn>
+    <hoten>TRẦN VĂN BÊ</hoten>
+    <ngaysinh>1980</ngaysinh>
+    <gioitinh>Nam</gioitinh>
+    <khoa>Khoa A1</khoa>
+    <diachi>X. Thạnh Hội, H. Tân Uyên, Bình Dương</diachi>
+    <lydo>Tạm ứng nhập viện</lydo>
+    <sotien>500000</sotien>
+    <chutien>Năm trăm ngàn  đồng</chutien>
+    <nguoithu>Administrator</nguoithu>
     <lanin>1</lanin>
   </BienLaiTamUng>
 </NewDataSet>

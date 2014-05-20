@@ -126,16 +126,16 @@ namespace Vienphi
                     "medibv.v_dlogin c on a.userid=c.id left join medibv.v_tenloaivp d on a.loai=d.ma left join medibv.v_loaibn"+
                     " e on a.loaibn=e.id left join medibv.btdkp_bv f on a.makp=f.makp left join medibv.btdbn g on a.mabn=g.mabn "+
                     "left join medibv.dmphai h on g.phai=h.ma " + aexp;
-                //ton tamung
-                //sql += " union all ";
-                //sql += " select 1 as ton, a.mabn,g.hoten,case when g.ngaysinh is null then g.namsinh else "+
-                //    "to_char(g.ngaysinh,'dd/mm/yyyy') end as namsinh,h.ten as gioitinh,a.id,to_char(a.ngay,'dd/mm/yyyy')"+
-                //    " as ngay,b.sohieu,to_char(a.sobienlai,'9999999999') as sobienlai,a.sotien as sotienton,"+
-                //    " 0 as sotien,f.tenkp,d.ten as tenloaidv, e.ten as tenloaibn,a.lanin,c.hoten||' ('||c.userid||')' "+
+                ////ton tamung
+                //sql += " UNION all ";
+                //sql += " select 1 as ton, a.mabn,g.hoten,case when g.ngaysinh is null then g.namsinh else " +
+                //    "to_char(g.ngaysinh,'dd/mm/yyyy') end as namsinh,h.ten as gioitinh,a.id,to_char(a.ngay,'dd/mm/yyyy')" +
+                //    " as ngay,b.sohieu,to_char(a.sobienlai,'9999999999') as sobienlai,a.sotien as sotienton," +
+                //    " 0 as sotien,f.tenkp,d.ten as tenloaidv, e.ten as tenloaibn,a.lanin,c.hoten||' ('||c.userid||')' " +
                 //    "as user, trim(g.sonha||' '||g.thon) as diachi";
-                //sql += " from medibvmmyy.v_tontamung a left join medibv.v_quyenso b on a.quyenso=b.id"+
-                //    " left join medibv.v_dlogin c on a.userid=c.id left join medibv.v_tenloaivp d on a.loai=d.ma left join"+
-                //    " medibv.v_loaibn e on a.loaibn=e.id left join medibv.btdkp_bv f on a.makp=f.makp left join medibv.btdbn"+
+                //sql += " from medibvmmyy.v_tontamung a left join medibv.v_quyenso b on a.quyenso=b.id" +
+                //    " left join medibv.v_dlogin c on a.userid=c.id left join medibv.v_tenloaivp d on a.loai=d.ma left join" +
+                //    " medibv.v_loaibn e on a.loaibn=e.id left join medibv.btdkp_bv f on a.makp=f.makp left join medibv.btdbn" +
                 //    " g on a.mabn=g.mabn left join medibv.dmphai h on g.phai=h.ma " + aexp1;
                 
                 m_dstamung = m_v.get_data(sql);
