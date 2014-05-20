@@ -6,5 +6,5 @@
 /Language_d
 /Language_vp
 */save/
-
+!/bin/*/*.dll
 #/xml/maincode.xml
