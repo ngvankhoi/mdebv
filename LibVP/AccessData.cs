@@ -23974,5 +23974,123 @@ namespace LibVP
             decimal d_id = get_v_capid(decimal.Parse(mmyy));
             return d_id;
         }
+        // truong thuy 21052014 dung de khai bao dot gia moi 
+        public bool upd_v_giavp_truoc(decimal v_id, decimal v_id_loai, decimal v_stt, string v_ma, string v_ten, string v_dvt, decimal v_bhyt, decimal v_gia_th, decimal v_gia_bh, decimal v_gia_dv, decimal v_gia_nn, decimal v_gia_ksk, decimal v_gia_cs, decimal v_phuthu_th, decimal v_phuthu_dv, decimal v_phuthu_nn, decimal v_phuthu_cs, decimal v_userid, string v_idchinhanh, string v_ngayhieuluc, int v_tuyen, string v_cnapdung, string v_tncv_1, string v_tncv_2, string v_tncv_3, string v_tncv_4, string v_tncv_5, string v_tncv_6, int v_bbhoichan, int v_giaycamdoan, int v_hsngoaitru, int v_kythuatcao, string v_dblink, string v_doituongapdung, string v_maluong)
+        {
+            string sql = "update " + m_db_schemaroot + ".v_giavp_truoc" + v_dblink + " set id_loai=:v_id_loai, stt=:v_stt";
+            sql += ", ma=:v_ma,ten=:v_ten,dvt=:v_dvt,bhyt=:v_bhyt,gia_th=:v_gia_th,gia_bh=:v_gia_bh,gia_cs=:v_gia_cs,gia_dv=:v_gia_dv,gia_nn=:v_gia_nn, phuthu_th=:v_phuthu_th, phuthu_dv=:v_phuthu_dv,phuthu_nn=:v_phuthu_nn,phuthu_cs=:v_phuthu_cs,userid=:v_userid,ngayud=now() ";//gia_ksk=:v_gia_ksk,
+            sql += ", tuyen=" + v_tuyen + ",cnapdung='" + v_cnapdung + "', tiepnhancv_cn1='" + v_tncv_1 + "', tiepnhancv_cn2='" + v_tncv_2 + "', tiepnhancv_cn3='" + v_tncv_3 + "', tiepnhancv_cn4='" + v_tncv_4 + "', tiepnhancv_cn5='" + v_tncv_5 + "', tiepnhancv_cn6='" + v_tncv_6 + "', hoichan=" + v_bbhoichan + ", giaycamdoan=" + v_giaycamdoan + ",hsngoaitru=" + v_hsngoaitru + ", kythuat=" + v_kythuatcao;
+            sql += ", doituongapdung='" + v_doituongapdung + "', maluong='" + v_maluong + "'";
+            sql += " where id=:v_id and idchinhanh=:v_idchinhanh and to_char(ngayhieuluc,'dd/mm/yyyy')=:v_ngayhieuluc";
+            if (con != null)
+            {
+                con.Close(); con.Dispose();
+            }
+            con = new NpgsqlConnection(sConn);
+            cmd = new NpgsqlCommand(sql, con);
+            cmd.CommandType = CommandType.Text;
+            cmd.Parameters.Add("v_id_loai", NpgsqlDbType.Numeric).Value = v_id_loai;
+            cmd.Parameters.Add("v_stt", NpgsqlDbType.Numeric).Value = v_stt;
+            cmd.Parameters.Add("v_ma", NpgsqlDbType.Text, 50).Value = v_ma;
+            cmd.Parameters.Add("v_ten", NpgsqlDbType.Text, 255).Value = v_ten;
+            cmd.Parameters.Add("v_dvt", NpgsqlDbType.Text, 20).Value = v_dvt;
+            cmd.Parameters.Add("v_bhyt", NpgsqlDbType.Numeric).Value = v_bhyt;
+
+            cmd.Parameters.Add("v_gia_th", NpgsqlDbType.Numeric).Value = v_gia_th;
+            cmd.Parameters.Add("v_gia_bh", NpgsqlDbType.Numeric).Value = v_gia_bh;
+            cmd.Parameters.Add("v_gia_cs", NpgsqlDbType.Numeric).Value = v_gia_cs;
+            cmd.Parameters.Add("v_gia_dv", NpgsqlDbType.Numeric).Value = v_gia_dv;
+            cmd.Parameters.Add("v_gia_nn", NpgsqlDbType.Numeric).Value = v_gia_nn;
+            // cmd.Parameters.Add("v_gia_ksk", NpgsqlDbType.Numeric).Value = v_gia_ksk;
+
+            cmd.Parameters.Add("v_phuthu_th", NpgsqlDbType.Numeric).Value = v_phuthu_th;
+            cmd.Parameters.Add("v_phuthu_dv", NpgsqlDbType.Numeric).Value = v_phuthu_dv;
+            cmd.Parameters.Add("v_phuthu_nn", NpgsqlDbType.Numeric).Value = v_phuthu_nn;
+            cmd.Parameters.Add("v_phuthu_cs", NpgsqlDbType.Numeric).Value = v_phuthu_cs;
+
+            cmd.Parameters.Add("v_userid", NpgsqlDbType.Numeric).Value = v_userid;
+            cmd.Parameters.Add("v_id", NpgsqlDbType.Numeric).Value = v_id;
+            cmd.Parameters.Add("v_idchinhanh", NpgsqlDbType.Numeric).Value = v_idchinhanh;
+            cmd.Parameters.Add("v_ngayhieuluc", NpgsqlDbType.Varchar, 10).Value = v_ngayhieuluc;
+            try
+            {
+                con.Open();
+                int irec = cmd.ExecuteNonQuery();
+                cmd.Dispose();
+                if (irec == 0)
+                {
+                    sql = "insert into " + m_db_schemaroot + ".v_giavp_truoc" + v_dblink + "(id,id_loai,stt,ma,ten,dvt,bhyt,gia_th,gia_bh,gia_cs,gia_dv,gia_nn,phuthu_th,phuthu_dv,phuthu_nn,phuthu_cs,userid,idchinhanh,ngayhieuluc,ngayud, done, tuyen, cnapdung, tiepnhancv_cn1, tiepnhancv_cn2, tiepnhancv_cn3, tiepnhancv_cn4, tiepnhancv_cn5, tiepnhancv_cn6, hoichan, giaycamdoan, hsngoaitru,kythuat, doituongapdung, maluong) ";//gia_ksk
+                    sql += " values(:v_id,:v_id_loai,:v_stt,:v_ma,:v_ten,:v_dvt,:v_bhyt,:v_gia_th,:v_gia_bh,:v_gia_cs,:v_gia_dv,:v_gia_nn,:v_phuthu_th,:v_phuthu_dv,:v_phuthu_nn,:v_phuthu_cs,:v_userid,:v_idchinhanh,to_date(:v_ngayhieuluc,'dd/mm/yyyy'),now(),0," + v_tuyen + ",'" + v_cnapdung + "','" + v_tncv_1 + "', '" + v_tncv_2 + "', '" + v_tncv_3 + "', '" + v_tncv_4 + "', '" + v_tncv_5 + "', '" + v_tncv_6 + "'," + v_bbhoichan + ", " + v_giaycamdoan + "," + v_hsngoaitru + "," + v_kythuatcao + ",'" + v_doituongapdung + "','" + v_maluong + "')";//:v_gia_ksk,
+                    cmd = new NpgsqlCommand(sql, con);
+                    cmd.CommandType = CommandType.Text;
+                    cmd.Parameters.Add("v_id", NpgsqlDbType.Numeric).Value = v_id;
+                    cmd.Parameters.Add("v_id_loai", NpgsqlDbType.Numeric).Value = v_id_loai;
+                    cmd.Parameters.Add("v_stt", NpgsqlDbType.Numeric).Value = v_stt;
+                    cmd.Parameters.Add("v_ma", NpgsqlDbType.Text, 50).Value = v_ma;
+                    cmd.Parameters.Add("v_ten", NpgsqlDbType.Text, 255).Value = v_ten;
+                    cmd.Parameters.Add("v_dvt", NpgsqlDbType.Text, 20).Value = v_dvt;
+                    cmd.Parameters.Add("v_bhyt", NpgsqlDbType.Numeric).Value = v_bhyt;
+                    cmd.Parameters.Add("v_gia_th", NpgsqlDbType.Numeric).Value = v_gia_th;
+                    cmd.Parameters.Add("v_gia_bh", NpgsqlDbType.Numeric).Value = v_gia_bh;
+                    cmd.Parameters.Add("v_gia_cs", NpgsqlDbType.Numeric).Value = v_gia_cs;
+                    cmd.Parameters.Add("v_gia_dv", NpgsqlDbType.Numeric).Value = v_gia_dv;
+                    cmd.Parameters.Add("v_gia_nn", NpgsqlDbType.Numeric).Value = v_gia_nn;
+                    //cmd.Parameters.Add("v_gia_ksk", NpgsqlDbType.Numeric).Value = v_gia_ksk;
+                    cmd.Parameters.Add("v_phuthu_th", NpgsqlDbType.Numeric).Value = v_phuthu_th;
+                    cmd.Parameters.Add("v_phuthu_dv", NpgsqlDbType.Numeric).Value = v_phuthu_dv;
+                    cmd.Parameters.Add("v_phuthu_nn", NpgsqlDbType.Numeric).Value = v_phuthu_nn;
+                    cmd.Parameters.Add("v_phuthu_cs", NpgsqlDbType.Numeric).Value = v_phuthu_cs;
+
+                    cmd.Parameters.Add("v_userid", NpgsqlDbType.Numeric).Value = v_userid;
+                    cmd.Parameters.Add("v_idchinhanh", NpgsqlDbType.Numeric).Value = v_idchinhanh;
+                    cmd.Parameters.Add("v_ngayhieuluc", NpgsqlDbType.Varchar, 10).Value = v_ngayhieuluc.Substring(0, 10);
+
+                    irec = cmd.ExecuteNonQuery();
+                    cmd.Dispose();
+                }
+            }
+            catch (Exception ex)
+            {
+                upd_v_error(ex.Message, m_computername, "v_giavp_truoc");
+                return false;
+            }
+            finally
+            {
+                cmd.Dispose();
+                con.Dispose();
+            }
+            return true;
+        }
+        public DataSet f_get_v_nhomvp_frmgiavp_cochitiet()
+        {
+            string sql = "";
+            sql = "select distinct a.ma, a.stt, a.ten, a.idnhombhyt from " + s_schemaroot + ".v_nhomvp a inner join medibv.v_loaivp b on a.ma=b.id_nhom inner join medibv.v_giavp c on b.id=c.id_loai order by a.ten";
+            return get_data(sql);
+        }
+        public DataSet f_get_v_loaivp_frmgiavp_cochitiet()
+        {
+            string sql = "";
+            sql = "select distinct a.id, a.stt, a.ten, a.id_nhom from " + s_schemaroot + ".v_loaivp a inner join medibv.v_giavp b on a.id=b.id_loai order by a.ten";
+            return get_data(sql);
+        }
+        public bool bDblinkAlive(string d_dblinkname)
+        {
+            try
+            {
+                return get_data("select * from medibv.dmchinhanh@" + d_dblinkname).Tables[0].Rows.Count > 0;
+            }
+            catch
+            {
+                return false;
+            }
+        }
+        public enum IDLoaiImport
+        {
+            Import_DMKT_gia = 1,
+            Import_DMKT_MaLuong = 2,
+            Import_DMKT_MaNhom_Machuyenkhoa = 3,
+            Import_DMKT_Tenviettat = 4
+
+        }
     }
 }

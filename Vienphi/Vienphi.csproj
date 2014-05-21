@@ -200,6 +200,9 @@
     <Compile Include="frmDotKhuyenMai.designer.cs">
       <DependentUpon>frmDotKhuyenMai.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmDsexcel.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmDuyetbhyt.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -277,6 +280,12 @@
     </Compile>
     <Compile Include="frmKhaibaogiavp_thoigian.Designer.cs">
       <DependentUpon>frmKhaibaogiavp_thoigian.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmKhaibaogiavp_truoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmKhaibaogiavp_truoc.Designer.cs">
+      <DependentUpon>frmKhaibaogiavp_truoc.cs</DependentUpon>
     </Compile>
     <Compile Include="frmKhaibaoKP_theogiaVP.cs">
       <SubType>Form</SubType>
@@ -976,6 +985,10 @@
       <DependentUpon>frmDotKhuyenMai.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmDsexcel.resx">
+      <DependentUpon>frmDsexcel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmDuyetbhyt.resx">
       <DependentUpon>frmDuyetbhyt.cs</DependentUpon>
       <SubType>Designer</SubType>
@@ -1038,6 +1051,10 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmKhaibaogiavp_thoigian.resx">
       <DependentUpon>frmKhaibaogiavp_thoigian.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmKhaibaogiavp_truoc.resx">
+      <DependentUpon>frmKhaibaogiavp_truoc.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="frmKhaibaoKP_theogiaVP.resx">
