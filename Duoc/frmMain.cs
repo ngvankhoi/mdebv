@@ -2742,7 +2742,7 @@ namespace Duoc
                     ds = d.get_data(sql);
                     if (ds.Tables[0].Rows.Count > 0)
                     {
-                        s_userid = ds.Tables[0].Rows[0]["hoten"].ToString(); //f.mUserid;
+                        s_userid = ds.Tables[0].Rows[0]["userid"].ToString(); //f.mUserid; Khôi sửa userid lấy từ cột hoten sang cột userid ngày 22/5
                         s_right = ds.Tables[0].Rows[0]["right_"].ToString(); //f.mRight;
                         i_userid = int.Parse(ds.Tables[0].Rows[0]["id"].ToString()); //f.iUserid;
                         i_nhomkho = int.Parse(ds.Tables[0].Rows[0]["nhomkho"].ToString()); //f.iNhomkho;
