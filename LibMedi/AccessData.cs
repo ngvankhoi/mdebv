@@ -62134,6 +62134,18 @@ namespace LibMedi
                 catch { return false; }
             }
         }
+        public bool bSTT_phieulinhbangSTTcongkhai
+        {//B18
+            get
+            {
+                try
+                {
+                    DataSet ds = get_data("select ten from " + user + ".thongso where id=50114");
+                    return int.Parse(ds.Tables[0].Rows[0][0].ToString()) == 1;
+                }
+                catch { return false; }
+            }
+        }
         public bool bChuyenvien_ngoaids_duyet
         {//B17
             get

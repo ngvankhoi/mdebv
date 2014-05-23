@@ -6398,6 +6398,7 @@ namespace Medisoft
             this.c1513.Size = new System.Drawing.Size(348, 21);
             this.c1513.TabIndex = 322;
             this.c1513.Text = "C78 - Xuất thuốc tủ trực theo gói không cho phép sửa";
+            this.c1513.CheckedChanged += new System.EventHandler(this.c1513_CheckedChanged);
             // 
             // c1511
             // 
@@ -9768,11 +9769,11 @@ namespace Medisoft
             // 
             // c50114
             // 
-            this.c50114.Location = new System.Drawing.Point(1056, 254);
+            this.c50114.Location = new System.Drawing.Point(1056, 256);
             this.c50114.Name = "c50114";
             this.c50114.Size = new System.Drawing.Size(348, 21);
             this.c50114.TabIndex = 323;
-            this.c50114.Text = "C78 - Xuất thuốc tủ trực theo gói không cho phép sửa";
+            this.c50114.Text = "C79 - In số thứ tự trong phiếu lĩnh trùng với số thứ tự trong phiếu công khai\r\n";
             // 
             // frmThongso
             // 
@@ -11696,6 +11697,10 @@ namespace Medisoft
                         case 1600: c1600.Checked = r[fie].ToString() == "1";
                             break;
                             //End 
+                        case 50114: c50114.Checked = r[fie].ToString() == "1"; // truongthuy 23052014 them option  C79 - In số thứ tự trong phiếu lĩnh trùng với số thứ tự trong phiếu công khai
+
+                            break;
+                        //End 50114
                     }
                 }
             }
@@ -13046,6 +13051,7 @@ namespace Medisoft
             m.upd_thongso(1511, fie, (c1511.Checked) ? "1" : "0");
             m.upd_thongso(1513, fie, (c1513.Checked) ? "1" : "0");
             m.upd_thongso(1600, fie, (c1600.Checked) ? "1" : "0");
+            m.upd_thongso(50114, fie, (c50114.Checked) ? "1" : "0");//truongthuy 23.04.2014 them C79
             //End
             //linh
             m.upd_thongso(50034, fie, (c50034.Checked) ? "1" : "0"); //thuytruong 19.04.2014  //  thêm  E34
@@ -15242,6 +15248,11 @@ namespace Medisoft
         }
 
         private void c1023_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void c1513_CheckedChanged(object sender, EventArgs e)
         {
 
         }
