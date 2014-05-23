@@ -1477,7 +1477,7 @@ namespace Medisoft
             {
                 if (sothe.Enabled && sothe1.Text.Trim() != "")
                 {
-                    string s = m.mabn_bhyt(nam, mabn2.Text + mabn3.Text, sothe1.Text); // m.mabn_bhyt(nam, mabn2.Text + mabn3.Text, sothe.Text);
+                    string s = m.mabn_bhyt_ngayhethan(nam, mabn2.Text + mabn3.Text, sothe1.Text,denngay.Text); // m.mabn_bhyt(nam, mabn2.Text + mabn3.Text, sothe.Text);
                     if (s != "")
                     {
                         MessageBox.Show(lan.Change_language_MessageText("Số thẻ ") + " " + sothe1.Text + "\n " + lan.Change_language_MessageText("Đã có mã người bệnh :") + s + "\n" + lan.Change_language_MessageText("Sử dụng !"), LibMedi.AccessData.Msg);

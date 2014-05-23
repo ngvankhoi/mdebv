@@ -729,12 +729,17 @@ namespace dllDanhmucMedisoft
 			load_grid();
 
 			ena_object(false);
-         
+            get_giatricombox(quandoan, sudoan, trungdoan);
             cb_quandoan.SelectedValue = quandoan;
             cb_sudoan.SelectedValue = sudoan;
             cb_trungdoan.SelectedValue = trungdoan;
 		}
-     
+        private void get_giatricombox(int _quandoan,int _sudoan,int _trungdoan)
+        {
+            _quandoan = quandoan;
+            _sudoan = sudoan;
+            _trungdoan = trungdoan;
+        }
 		private void butBoqua_Click(object sender, System.EventArgs e)
 		{
 			ena_object(false);
@@ -935,8 +940,7 @@ namespace dllDanhmucMedisoft
                 }
             }
             catch { }
-            load_grid_quannhan();
-           
+            load_grid_quannhan();  
         }
 
         private void cb_sudoan_SelectedIndexChanged(object sender, EventArgs e)

@@ -7506,7 +7506,7 @@ namespace LibDuoc
             }
         }
         public decimal get_id_dmbd { get { return get_capid(1); } }
-        public decimal get_id_dmnx { get { return get_capid(2); } }
+        public decimal get_id_dmnx { get { return get_capid(2); } }//nha cung cap
         public decimal get_id_dmnoisc { get { return get_capid(19); } }
         public decimal get_id_dmhang { get { return get_capid(3); } }
         public decimal get_id_dmnhom { get { return get_capid(100); } }

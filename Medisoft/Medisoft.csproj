@@ -1721,6 +1721,12 @@
     <Compile Include="frmYlenh_cd.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmStatusProcess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmStatusProcess.Designer.cs">
+      <DependentUpon>frmStatusProcess.cs</DependentUpon>
+    </Compile>
     <Compile Include="Globals.cs" />
     <Compile Include="Language.cs">
       <SubType>Code</SubType>
@@ -3338,6 +3344,10 @@
     <EmbeddedResource Include="frmYlenh_cd.resx">
       <DependentUpon>frmYlenh_cd.cs</DependentUpon>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmStatusProcess.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmStatusProcess.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="OfficeMenus.resx">
       <DependentUpon>OfficeMenus.cs</DependentUpon>

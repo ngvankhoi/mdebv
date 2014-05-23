@@ -93,6 +93,8 @@
             this.tmn_Excel = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.tmn_DaHoan = new System.Windows.Forms.ToolStripButton();
+            this.toolStripProgressBar1 = new System.Windows.Forms.ToolStripProgressBar();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.toolStrip3.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgDanhsach)).BeginInit();
@@ -530,9 +532,9 @@
             this.tmn_Timnhanh.Size = new System.Drawing.Size(100, 25);
             this.tmn_Timnhanh.Text = "Tìm kiếm";
             this.tmn_Timnhanh.TextBoxTextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tmn_Timnhanh.Leave += new System.EventHandler(this.tmn_Timnhanh_Leave);
             this.tmn_Timnhanh.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tmn_Timnhanh_KeyDown);
             this.tmn_Timnhanh.Enter += new System.EventHandler(this.tmn_Timnhanh_Enter);
-            this.tmn_Timnhanh.Leave += new System.EventHandler(this.tmn_Timnhanh_Leave);
             this.tmn_Timnhanh.TextChanged += new System.EventHandler(this.tmn_Timnhanh_TextChanged);
             // 
             // toolStrip1
@@ -546,10 +548,11 @@
             this.toolStripSeparator1,
             this.tmn_In,
             this.toolStripSeparator6,
+            this.toolStripSeparator4,
             this.tmn_Excel,
             this.toolStripSeparator2,
             this.tmn_DaHoan,
-            this.toolStripSeparator4,
+            this.toolStripProgressBar1,
             this.tmn_Timnhanh});
             this.toolStrip1.Location = new System.Drawing.Point(1, 481);
             this.toolStrip1.Name = "toolStrip1";
@@ -579,6 +582,7 @@
             this.tmn_ChuyenTon.Name = "tmn_ChuyenTon";
             this.tmn_ChuyenTon.Size = new System.Drawing.Size(85, 22);
             this.tmn_ChuyenTon.Text = "Chuyển Tồn";
+            this.tmn_ChuyenTon.Visible = false;
             this.tmn_ChuyenTon.Click += new System.EventHandler(this.tmn_ChuyenTon_Click);
             // 
             // tmn_In
@@ -624,6 +628,18 @@
             this.tmn_DaHoan.Text = "Đã Hoàn";
             this.tmn_DaHoan.Click += new System.EventHandler(this.tmn_DaHoan_Click);
             // 
+            // toolStripProgressBar1
+            // 
+            this.toolStripProgressBar1.Name = "toolStripProgressBar1";
+            this.toolStripProgressBar1.Size = new System.Drawing.Size(100, 22);
+            // 
+            // backgroundWorker1
+            // 
+            this.backgroundWorker1.WorkerReportsProgress = true;
+            this.backgroundWorker1.DoWork += new System.ComponentModel.DoWorkEventHandler(this.backgroundWorker1_DoWork);
+            this.backgroundWorker1.RunWorkerCompleted += new System.ComponentModel.RunWorkerCompletedEventHandler(this.backgroundWorker1_RunWorkerCompleted);
+            this.backgroundWorker1.ProgressChanged += new System.ComponentModel.ProgressChangedEventHandler(this.backgroundWorker1_ProgressChanged);
+            // 
             // frmDanhsachtontamung
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -639,9 +655,9 @@
             this.Padding = new System.Windows.Forms.Padding(1, 1, 1, 0);
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Bảng kê hoá đơn tạm ứng";
-            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.frmDanhsachthutamung_KeyDown);
+            this.Text = " ";
             this.Load += new System.EventHandler(this.frmDanhsachthutamung_Load);
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.frmDanhsachthutamung_KeyDown);
             this.toolStrip3.ResumeLayout(false);
             this.toolStrip3.PerformLayout();
             this.panel3.ResumeLayout(false);
@@ -702,5 +718,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2_13;
         private System.Windows.Forms.DataGridViewTextBoxColumn Colume2_15;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2_14;
+        private System.Windows.Forms.ToolStripProgressBar toolStripProgressBar1;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
     }
 }

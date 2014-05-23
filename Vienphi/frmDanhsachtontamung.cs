@@ -29,12 +29,77 @@ namespace Vienphi
                 m_userid = v_userid;
                 m_v.f_SetEvent(this);
                 f_Load_Data();
-                f_Load_DG();
+             //   f_Load_DG();
             }
             catch
             {
             }
         }
+       
+/// <summary>
+/// Kiểm tra dữ liệu tồn tháng trước đã được chuyển sang tháng này chưa nếu chưa thì tạo một BackgroundWork để chuyển tồn.
+/// </summary>
+/// <returns></returns>
+        bool KiemtraChuyenTonTamUng()
+        {
+            DataTable data = new DataTable();
+            using (Npgsql.NpgsqlCommand cmm = new Npgsql.NpgsqlCommand("select * from updatedatatontamung order by stt desc ", new Npgsql.NpgsqlConnection(m_v.ConStr)))
+            {
+                try
+                {
+                    cmm.Connection.Open();
+                    Npgsql.NpgsqlDataReader dtrd = cmm.ExecuteReader();
+                    for (int i = 0; i < dtrd.FieldCount; i++)
+                    {
+
+                        data.Columns.Add(dtrd.GetName(i), dtrd.GetFieldType(i));
+                    }
+
+                    while (dtrd.Read())
+                    {
+                        DataRow dr = data.NewRow();
+                        foreach (DataColumn dc in data.Columns)
+                        {
+                            dr[dc] = dtrd[dc.ColumnName];
+                        }
+                        data.Rows.Add(dr);
+                    }
+                }
+                catch
+                {
+                    using (Npgsql.NpgsqlCommand cmm2 = new Npgsql.NpgsqlCommand("create table updatedatatontamung (stt serial, ngayupdate date,userid number)", new Npgsql.NpgsqlConnection(m_v.ConStr)))
+                    {
+                        try
+                        {
+                            cmm2.Connection.Open();
+                            cmm2.ExecuteNonQuery();
+                            
+                        }
+                        finally
+                        {
+                            cmm2.Connection.Close();
+                        }
+                    }
+                }
+                finally
+                {
+                    cmm.Connection.Close();
+                }
+            }
+            if (data.Rows.Count == 0 || (DateTime.Today.Month > ((DateTime)data.Rows[0]["ngayupdate"]).Month))
+            {                
+                //fst.ThucThi();
+                return false;
+            }
+            else
+                return true;
+        }
+
+        void fst_HoanTatXuLy()
+        {
+            f_Load_DG();
+        }
+        
         public string s_quyenso
         {
             set
@@ -91,86 +156,15 @@ namespace Vienphi
         }
         private void f_Load_DG()
         {
-            decimal asotienton = 0;
-            int sohoadon = 0;
+            this.Cursor = Cursors.WaitCursor;
+            tmn_Timnhanh.Text = lan.Change_language_MessageText("Tìm kiếm");
+            ParamAsynResult agr = new ParamAsynResult();
+            agr.Ngay = txtTN.Value;
+            agr.m_v = m_v;
+            agr.m_userid = m_userid;
+            dgDanhsach.AutoGenerateColumns = false;
             butTim.Enabled = false;
-            try
-            {
-                tmn_Timnhanh.Text = lan.Change_language_MessageText("Tìm kiếm");
-                string sql = "", aexp = "", aexp1 = "";
-                //try
-                //{
-                //    alimit = int.Parse(txtLimit.Value.ToString());
-                //}
-                //catch
-                //{
-                //    alimit = 0;
-                //}
-                DataTable dt = new DataTable();
-                dgDanhsach.AutoGenerateColumns = false;
-                aexp = "where to_date(to_char(a.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') <= to_date('" + txtTN.Text.Substring(0, 10) + "','dd/mm/yyyy') ";
-                aexp1 = " where (to_date(to_char(a.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') <= to_date('" + txtTN.Text.Substring(0, 10) + 
-                    "','dd/mm/yyyy') and a.done=0) or (a.done=1 and  to_date(to_char(a.ngaytra,'dd/mm/yyyy'),'dd/mm/yyyy') > to_date('" +
-                    txtTN.Text.Substring(0, 10) + "','dd/mm/yyyy') and  to_date(to_char(a.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') <="+
-                    " to_date('" + txtTN.Text.Substring(0, 10) + "','dd/mm/yyyy') ) ";
-
-                sql = "select case when a.done = 0 then 1 else case when to_date(to_char(a.ngaytra,'dd/mm/yyyy'),'dd/mm/yyyy') > to_date('" +
-                    txtTN.Text.Substring(0, 10) + "','dd/mm/yyyy')  then 1 else 0 end end as ton, a.mabn,g.hoten,case when g.ngaysinh is null"+
-                    " then g.namsinh else to_char(g.ngaysinh,'dd/mm/yyyy') end as namsinh,h.ten as gioitinh,a.id,to_char(a.ngay,'dd/mm/yyyy')"+
-                    " as ngay,b.sohieu,to_char(a.sobienlai,'9999999999') as sobienlai,case when a.done = 0 then a.sotien else case when "+
-                    "to_date(to_char(a.ngaytra,'dd/mm/yyyy'),'dd/mm/yyyy') > to_date('" + txtTN.Text.Substring(0, 10) + "','dd/mm/yyyy')  "+
-                    "then a.sotien else 0 end end as sotienton," +
-                    " a.sotien,f.tenkp,d.ten as tenloaidv, e.ten as tenloaibn,a.lanin,c.hoten||' ('||c.userid||')' "+
-                    "as user, trim(g.sonha||' '||g.thon) as diachi"+
-                    " from medibv.v_tamung a left join medibv.v_quyenso b on a.quyenso=b.id left join "+
-                    "medibv.v_dlogin c on a.userid=c.id left join medibv.v_tenloaivp d on a.loai=d.ma left join medibv.v_loaibn"+
-                    " e on a.loaibn=e.id left join medibv.btdkp_bv f on a.makp=f.makp left join medibv.btdbn g on a.mabn=g.mabn "+
-                    "left join medibv.dmphai h on g.phai=h.ma " + aexp;
-                ////ton tamung
-                //sql += " UNION all ";
-                //sql += " select 1 as ton, a.mabn,g.hoten,case when g.ngaysinh is null then g.namsinh else " +
-                //    "to_char(g.ngaysinh,'dd/mm/yyyy') end as namsinh,h.ten as gioitinh,a.id,to_char(a.ngay,'dd/mm/yyyy')" +
-                //    " as ngay,b.sohieu,to_char(a.sobienlai,'9999999999') as sobienlai,a.sotien as sotienton," +
-                //    " 0 as sotien,f.tenkp,d.ten as tenloaidv, e.ten as tenloaibn,a.lanin,c.hoten||' ('||c.userid||')' " +
-                //    "as user, trim(g.sonha||' '||g.thon) as diachi";
-                //sql += " from medibvmmyy.v_tontamung a left join medibv.v_quyenso b on a.quyenso=b.id" +
-                //    " left join medibv.v_dlogin c on a.userid=c.id left join medibv.v_tenloaivp d on a.loai=d.ma left join" +
-                //    " medibv.v_loaibn e on a.loaibn=e.id left join medibv.btdkp_bv f on a.makp=f.makp left join medibv.btdbn" +
-                //    " g on a.mabn=g.mabn left join medibv.dmphai h on g.phai=h.ma " + aexp1;
-                
-                m_dstamung = m_v.get_data(sql);
-                m_dstamung.Tables[0].Columns.Add("chon", typeof(bool));
-                foreach (DataRow r in m_dstamung.Tables[0].Rows)
-                {
-                    r["chon"] = false;
-                    sohoadon++;
-                    asotienton += decimal.Parse(r["sotienton"].ToString());
-                }
-                //m_dstamung.Dispose();
-                //m_dstamung = new DataSet();
-                //m_dstamung.Tables.Add(dt);
-                dgDanhsach.DataSource = m_dstamung.Tables[0];
-                tmn_Sotien.Text = lan.Change_language_MessageText(sohoadon.ToString() +" HĐ = " + asotienton.ToString("###,###,###,##0.##") + " Đ");
-                sohoadon = 0;
-                asotienton = 0;
-                dgDanhsach.EndEdit();
-                //dataGridView1.DataSource = m_v.get_data_mmyy(sql, txtTN.Text.Substring(0, 10), txtTN.Text.Substring(0, 10), false).Tables[0];
-                //dgDanhsach.Update();
-            }
-            catch
-            {
-                try
-                {
-                    CurrencyManager cm = (CurrencyManager)(BindingContext[dgDanhsach.DataSource, dgDanhsach.DataMember]);
-                    DataView dv = (DataView)(cm.List);
-                    dv.Table.Rows.Clear();
-                }
-                catch
-                {
-                }
-               
-            }
-            butTim.Enabled = true;
+            backgroundWorker1.RunWorkerAsync(agr);
         }
 
         private void tmn_Refresh_Click(object sender, EventArgs e)
@@ -197,7 +191,18 @@ namespace Vienphi
 
         private void frmDanhsachthutamung_Load(object sender, EventArgs e)
         {
-            f_Load_DG();
+            if (KiemtraChuyenTonTamUng())
+                f_Load_DG();
+            else
+            {
+                frmCapNhatTonTamUng fst = new frmCapNhatTonTamUng(m_v, m_userid);
+                fst.progressBar1.Value = 0;
+                // fst.Parent = this;
+                fst.HoanTatXuLy += new frmCapNhatTonTamUng.XuLyCapNhatTonTamUngHoanTat(fst_HoanTatXuLy);
+                fst.Show();
+                fst.ThucHien();
+                //backgroundWorker1.RunWorkerAsync();
+            }
         }
 
         private void txtTN_KeyDown(object sender, KeyEventArgs e)
@@ -487,6 +492,147 @@ namespace Vienphi
             dgDanhsach.BeginEdit(true);
         }
 
+        private void backgroundWorker1_DoWork(object sender, DoWorkEventArgs e)
+        {
+            decimal asotienton = 0;
+            int sohoadon = 0;
+            ParamAsynResult arg = (ParamAsynResult)e.Argument;
+            
+            backgroundWorker1.ReportProgress(0);
+            try
+            {
+                string ngay = arg.Ngay.ToString("dd/MM/yyyy");
+                string sql = "", aexp = "", aexp1 = "";
+                //try
+                //{
+                //    alimit = int.Parse(txtLimit.Value.ToString());
+                //}
+                //catch
+                //{
+                //    alimit = 0;
+                //}m_
+                string mmyy = arg.m_v.get_mmyy(txtDN.Value.ToString("dd/MM/yyyy"));
+                DataTable dt = new DataTable();
+                
+                aexp = "where to_date(to_char(a.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') <= to_date('" + ngay + "','dd/mm/yyyy') ";
+                aexp1 = " where (to_date(to_char(a.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') <= to_date('" + ngay +
+                    "','dd/mm/yyyy') and a.done=0) or (a.done=1 and  to_date(to_char(a.ngaytra,'dd/mm/yyyy'),'dd/mm/yyyy') > to_date('" +
+                    ngay + "','dd/mm/yyyy') and  to_date(to_char(a.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') <=" +
+                    " to_date('" + ngay + "','dd/mm/yyyy') ) ";
+
+                //sql = "select case when a.done = 0 then 1 else case when to_date(to_char(a.ngaytra,'dd/mm/yyyy'),'dd/mm/yyyy') > to_date('" +
+                //    txtTN.Text.Substring(0, 10) + "','dd/mm/yyyy')  then 1 else 0 end end as ton, a.mabn,g.hoten,case when g.ngaysinh is null"+
+                //    " then g.namsinh else to_char(g.ngaysinh,'dd/mm/yyyy') end as namsinh,h.ten as gioitinh,a.id,to_char(a.ngay,'dd/mm/yyyy')"+
+                //    " as ngay,b.sohieu,to_char(a.sobienlai,'9999999999') as sobienlai,case when a.done = 0 then a.sotien else case when "+
+                //    "to_date(to_char(a.ngaytra,'dd/mm/yyyy'),'dd/mm/yyyy') > to_date('" + txtTN.Text.Substring(0, 10) + "','dd/mm/yyyy')  "+
+                //    "then a.sotien else 0 end end as sotienton," +
+                //    " a.sotien,f.tenkp,d.ten as tenloaidv, e.ten as tenloaibn,a.lanin,c.hoten||' ('||c.userid||')' "+
+                //    "as user, trim(g.sonha||' '||g.thon) as diachi"+
+                //    " from medibv.v_tamung a left join medibv.v_quyenso b on a.quyenso=b.id left join "+
+                //    "medibv.v_dlogin c on a.userid=c.id left join medibv.v_tenloaivp d on a.loai=d.ma left join medibv.v_loaibn"+
+                //    " e on a.loaibn=e.id left join medibv.btdkp_bv f on a.makp=f.makp left join medibv.btdbn g on a.mabn=g.mabn "+
+                //    "left join medibv.dmphai h on g.phai=h.ma " + aexp;
+
+                sql = "select case when a.done = 0 then 1 else case when to_date(to_char(a.ngaytra,'dd/mm/yyyy'),'dd/mm/yyyy') > to_date('" +
+                    ngay + "','dd/mm/yyyy')  then 1 else 0 end end as ton, a.mabn,g.hoten,case when g.ngaysinh is null" +
+                    " then g.namsinh else to_char(g.ngaysinh,'dd/mm/yyyy') end as namsinh,h.ten as gioitinh,a.id,to_char(a.ngay,'dd/mm/yyyy')" +
+                    " as ngay,b.sohieu,to_char(a.sobienlai,'9999999999') as sobienlai,case when a.done = 0 then a.sotien else case when " +
+                    "to_date(to_char(a.ngaytra,'dd/mm/yyyy'),'dd/mm/yyyy') > to_date('" + ngay + "','dd/mm/yyyy')  " +
+                    "then a.sotien else 0 end end as sotienton," +
+                    " a.sotien,f.tenkp,d.ten as tenloaidv, e.ten as tenloaibn,a.lanin,c.hoten||' ('||c.userid||')' " +
+                    "as user, trim(g.sonha||' '||g.thon) as diachi" +
+                    " from " + arg.m_v.user + mmyy + ".v_tamung a left join medibv.v_quyenso b on a.quyenso=b.id left join " +
+                    "medibv.v_dlogin c on a.userid=c.id left join medibv.v_tenloaivp d on a.loai=d.ma left join medibv.v_loaibn" +
+                    " e on a.loaibn=e.id left join medibv.btdkp_bv f on a.makp=f.makp left join medibv.btdbn g on a.mabn=g.mabn " +
+                    "left join medibv.dmphai h on g.phai=h.ma " + aexp;
+                //ton tamung
+
+                sql += " union all ";
+                sql += " select 1 as ton, a.mabn,g.hoten,case when g.ngaysinh is null then g.namsinh else " +
+                    "to_char(g.ngaysinh,'dd/mm/yyyy') end as namsinh,h.ten as gioitinh,a.id,to_char(a.ngay,'dd/mm/yyyy')" +
+                    " as ngay,b.sohieu,to_char(a.sobienlai,'9999999999') as sobienlai,a.sotien as sotienton," +
+                    " 0 as sotien,f.tenkp,d.ten as tenloaidv, e.ten as tenloaibn,a.lanin,c.hoten||' ('||c.userid||')' " +
+                    "as user, trim(g.sonha||' '||g.thon) as diachi";
+                sql += " from medibv"+mmyy+".v_tontamung a left join medibv.v_quyenso b on a.quyenso=b.id" +
+                    " left join medibv.v_dlogin c on a.userid=c.id left join medibv.v_tenloaivp d on a.loai=d.ma left join" +
+                    " medibv.v_loaibn e on a.loaibn=e.id left join medibv.btdkp_bv f on a.makp=f.makp left join medibv.btdbn" +
+                    " g on a.mabn=g.mabn left join medibv.dmphai h on g.phai=h.ma " + aexp1;
+
+                arg.Data = arg.m_v.get_data(sql);
+                backgroundWorker1.ReportProgress(70);
+                arg.Data.Tables[0].Columns.Add("chon", typeof(bool));
+                foreach (DataRow r in arg.Data.Tables[0].Rows)
+                {
+                    r["chon"] = false;
+                    sohoadon++;
+                    asotienton += decimal.Parse(r["sotienton"].ToString());
+                }
+                //m_dstamung.Dispose();
+                //m_dstamung = new DataSet();
+                //m_dstamung.Tables.Add(dt);
+                arg.sohoadon = sohoadon;
+                arg.asotienton = asotienton;
+                e.Result = arg;
+                //dataGridView1.DataSource = m_v.get_data_mmyy(sql, txtTN.Text.Substring(0, 10), txtTN.Text.Substring(0, 10), false).Tables[0];
+                //dgDanhsach.Update();
+                backgroundWorker1.ReportProgress(100);
+            }
+            catch
+            {
+                e.Result = null;               
+
+            }
+           
+
+        }
+
+        private void backgroundWorker1_ProgressChanged(object sender, ProgressChangedEventArgs e)
+        {
+           // this.Invoke((MethodInvoker)delegate()
+         //   {
+                this.toolStripProgressBar1.Value = e.ProgressPercentage;
+          //  });
+        }
+
+        private void backgroundWorker1_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
+        {
+            this.Cursor = Cursors.Default;
+            if (e.Result != null)
+            {
+                ParamAsynResult result = e.Result as ParamAsynResult;
+                m_dstamung = result.Data;
+                dgDanhsach.DataSource = result.Data.Tables[0];
+                tmn_Sotien.Text = lan.Change_language_MessageText(result.sohoadon.ToString() + " HĐ = " + result.asotienton.ToString("###,###,###,##0.##") + " Đ");
+                // sohoadon = 0;
+                // asotienton = 0;
+                dgDanhsach.EndEdit();
+            }
+            else
+            {
+                try
+                {
+                    CurrencyManager cm = (CurrencyManager)(BindingContext[dgDanhsach.DataSource, dgDanhsach.DataMember]);
+                    DataView dv = (DataView)(cm.List);
+                    dv.Table.Rows.Clear();
+                }
+                catch
+                { 
+                }
+            }
+            toolStripProgressBar1.Value = 0;
+            butTim.Enabled = true;
+        }
+        class ParamAsynResult
+        {
+            DataSet data;
+            public DataSet Data { set { data = value; } get { return data; } }
+            DateTime ngayxem;
+            public DateTime Ngay { set { ngayxem = value; } get { return ngayxem; } }
+            public LibVP.AccessData m_v;
+            public string m_userid;
+            public decimal asotienton ;
+            public int sohoadon;
+        }
         
     }
 }

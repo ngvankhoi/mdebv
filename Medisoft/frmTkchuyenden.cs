@@ -11,8 +11,78 @@ namespace Medisoft
 	/// <summary>
 	/// Summary description for frmTkchuyenden.
 	/// </summary>
+    /// 
 	public class frmTkchuyenden : System.Windows.Forms.Form
 	{
+        class ParamAsynResult
+        {
+            DataSet _ds;
+            public DataSet ds
+            {
+                set {
+                    _ds = value;
+                }
+                get
+                {
+                    return _ds;
+                }
+            }
+            string _t1, _t2,_sql,_tn,_dn;
+            public string NgayExp
+            {
+                set {
+                    _t1 = value;
+                }
+                get {
+                    return _t1;
+                }
+            }
+            public string DiaDiemExp
+            {
+                set {
+                    _t2 = value;
+                }
+                get {
+                    return _t2;
+                }
+            }
+            public string SqlExp {
+                set
+                {
+                    _sql = value;
+                }
+                get {
+                    return _sql;
+                }
+            }
+            public string TuNgay
+            {
+                set {
+                    _tn = value;
+                }
+                get {
+                    return _tn;
+                }
+            }
+            public string DenNgay
+            {
+                set {
+                    _dn = value;
+                }
+                get {
+                    return _dn;
+                }
+            }
+            int _i;
+           public int SelectCase
+            {
+                set {
+                    _i= value;
+                }
+                get {
+                return _i;}
+            }
+        }
 		Language lan = new Language();Bogotiengviet tv = new Bogotiengviet();private System.Windows.Forms.TextBox textBox111 = new System.Windows.Forms.TextBox();
 		private MaskedBox.MaskedBox den;
 		private MaskedBox.MaskedBox tu;
@@ -249,7 +319,8 @@ namespace Medisoft
             this.solieu.Items.AddRange(new object[] {
             "Nội trú",
             "Ngoại trú",
-            "Phòng khám"});
+            "Phòng khám",
+            "Tất cả"});
             this.solieu.Location = new System.Drawing.Point(88, 111);
             this.solieu.Name = "solieu";
             this.solieu.Size = new System.Drawing.Size(216, 21);
@@ -439,7 +510,10 @@ namespace Medisoft
 
 		private void butIn_Click(object sender, System.EventArgs e)
 		{
-            string t1="",sql_exp="",t2=solieu.Text;
+            frmStatusProcess fStatus = new frmStatusProcess("Tổng hợp thông tin");
+            fStatus.DoWork += new frmStatusProcess.DoWorkEventHandler(fStatus_DoWork);
+            fStatus.WorkerCompleted += new RunWorkerCompletedEventHandler(fStatus_WorkerCompleted);
+            string t1 = "", sql_exp = "", t2 = solieu.Text;
             ds = null;
 
             if (tu.Text != "" && den.Text != "")
@@ -464,77 +538,147 @@ namespace Medisoft
                 t2 += "," + tendstt.Text;
             }
             sql_exp += " order by mabv,ngay";
+            ParamAsynResult arg = new ParamAsynResult();
+            arg.DiaDiemExp = t2;
+            arg.NgayExp = t1;
+            arg.SqlExp = sql_exp;
+            arg.TuNgay = tu.Text;
+            arg.DenNgay = den.Text;
+            arg.SelectCase = solieu.SelectedIndex;
+            fStatus.ShowRunWorkerAsync(arg);
+		}
 
-			sql="select distinct a.mabn,e.soluutru,c.hoten,substr(g.tuoivao,1,3)||decode(substr(g.tuoivao,4,1),0,'TU',decode(substr(g.tuoivao,4,1),1,'TH',decode(substr(g.tuoivao,4,1),2,'NG','GI'))) as tuoivao,";
-			sql+="c.sonha,c.thon,i.tenpxa,j.tenquan,k.tentt,";
-			sql+="d.quanhe||' '||d.hoten as quanhe,b.chandoan chandoanngt,nullif(e.chandoan,' ') chandoanrv,";
-            sql += "to_char(a.ngay,'dd/mm/yyyy hh24:mi') ngayvao,to_char(e.ngay,'dd/mm/yyyy hh24:mi') ngayra,nullif(f.ten,' ') ttlucrv,h.tenbv,b.mabv,a.ngay, bh.traituyen,(case bh.traituyen when 0 then 1 when 1 then 0 else null end) as dungtuyen";
-            sql+=" from "+m.user+".benhandt a inner join " + m.user + ".noigioithieu b on a.maql=b.maql inner join " + m.user + ".btdbn c on a.mabn=c.mabn left join " + m.user + ".quanhe d on a.maql=d.maql left join " + m.user + ".xuatvien e on a.maql=e.maql left join " + m.user + ".ttxk f on e.ttlucrv=f.ma inner join " + m.user + ".lienhe g on a.maql=g.maql inner join " + m.user + ".dstt h on b.mabv=h.mabv inner join " + m.user + ".btdpxa i on c.maphuongxa=i.maphuongxa inner join " + m.user + ".btdquan j on c.maqu=j.maqu inner join " + m.user + ".btdtt k on c.matt=k.matt ";
-            sql+= " left join " + m.user + ".bhyt bh on bh.maql=a.maql ";
-            sql+=" where ";
-			sql+=" b.mabv<>'"+m.Mabv+"'";
-            switch (solieu.SelectedIndex)
+        void fStatus_WorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
+        {
+
+            ParamAsynResult dss = e.Result as ParamAsynResult;
+            if (dss.ds.Tables[0].Rows.Count == 0) MessageBox.Show(lan.Change_language_MessageText("Không có số liệu !"), AccessData.Msg);
+            else
             {
-                case 0:
+                //  string sql = "select maql,mabn,traituyen from xxx.bhyt ";
+                dllReportM.frmReport f = new dllReportM.frmReport(m, dss.ds, dss.NgayExp + " " + dss.DiaDiemExp, "rptTKchuyenden.rpt");
+                f.ShowDialog();
+            }
+        }
+        
+        void fStatus_DoWork(BackgroundWorker sender, DoWorkEventArgs e)
+        {
+
+
+            ParamAsynResult agr = e.Argument as ParamAsynResult;
+            string sql_exp = agr.SqlExp; 
+            sender.ReportProgress(10,"Đang tổng hợp số liệu.....");
+            switch (agr.SelectCase)
+            {
+                case 0://Nội trú
                     {
+                        
+                        sql = "select distinct a.mabn,e.soluutru,c.hoten,substr(g.tuoivao,1,3)||decode(substr(g.tuoivao,4,1),0,'TU',decode(substr(g.tuoivao,4,1),1,'TH',decode(substr(g.tuoivao,4,1),2,'NG','GI'))) as tuoivao,";
+                        sql += "c.sonha,c.thon,i.tenpxa,j.tenquan,k.tentt,";
+                        sql += "d.quanhe||' '||d.hoten as quanhe,b.chandoan chandoanngt,nullif(e.chandoan,' ') chandoanrv,";
+                        sql += "to_char(a.ngay,'dd/mm/yyyy hh24:mi') ngayvao,to_char(e.ngay,'dd/mm/yyyy hh24:mi') ngayra,nullif(f.ten,' ') ttlucrv,h.tenbv,b.mabv,a.ngay, bh.traituyen,(case bh.traituyen when 0 then 1 when 1 then 0 else null end) as dungtuyen";
+                        sql += " from " + m.user + ".benhandt a inner join " + m.user + ".noigioithieu b on a.maql=b.maql inner join " + m.user + ".btdbn c on a.mabn=c.mabn left join " + m.user + ".quanhe d on a.maql=d.maql left join " + m.user + ".xuatvien e on a.maql=e.maql left join " + m.user + ".ttxk f on e.ttlucrv=f.ma left join " + m.user + ".lienhe g on a.maql=g.maql inner join " + m.user + ".dstt h on b.mabv=h.mabv inner join " + m.user + ".btdpxa i on c.maphuongxa=i.maphuongxa inner join " + m.user + ".btdquan j on c.maqu=j.maqu inner join " + m.user + ".btdtt k on c.matt=k.matt ";
+                        sql += " left join " + m.user + ".bhyt bh on bh.maql=a.maql ";
+                        sql += " where ";
+                        sql += " b.mabv<>'" + m.Mabv + "'";
                         ds = m.get_data(sql + sql_exp);
+                        sender.ReportProgress(90, "Hoàn tất.");
                         break;
                     }
-                case 1:
+                case 1: //Ngoai trú
                     {
                         sql = "select a.mabn,nullif(a.soluutru,' ') soluutru,c.hoten,substr(g.tuoivao,1,3)||decode(substr(g.tuoivao,4,1),0,'TU',decode(substr(g.tuoivao,4,1),1,'TH',decode(substr(g.tuoivao,4,1),2,'NG','GI'))) as tuoivao,";
                         sql += "nullif(c.sonha,' ') sonha,nullif(c.thon,' ') thon,i.tenpxa,j.tenquan,k.tentt,";
                         sql += "nullif(d.quanhe,' ')||' '||nullif(d.hoten,' ') as quanhe,b.chandoan chandoanngt,nullif(a.chandoan,' ') chandoanrv,";
                         sql += "to_char(a.ngay,'dd/mm/yyyy hh24:mi') ngayvao,to_char(a.ngayrv,'dd/mm/yyyy hh24:mi') ngayra,nullif(f.ten,' ') ttlucrv,h.tenbv,b.mabv,a.ngay,bh.traituyen,(case bh.traituyen when 0 then 1 when 1 then 0 else null end) as dungtuyen";
-                        sql += " from " + m.user + ".benhanngtr a inner join " + m.user + ".noigioithieu b on a.maql=b.maql inner join " + m.user + ".btdbn c on a.mabn=c.mabn left join " + m.user + ".quanhe d on a.maql=d.maql left join " + m.user + ".ttxk f on a.ttlucrv=f.ma inner join " + m.user + ".lienhe g on a.maql=g.maql inner join " + m.user + ".dstt h on b.mabv=h.mabv inner join " + m.user + ".btdpxa i on c.maphuongxa=i.maphuongxa inner join " + m.user + ".btdquan j on c.maqu=j.maqu inner join " + m.user + ".btdtt k on c.matt=k.matt ";
+                        sql += " from " + m.user + ".benhanngtr a inner join " + m.user + ".noigioithieu b on a.maql=b.maql inner join " + m.user + ".btdbn c on a.mabn=c.mabn left join " + m.user + ".quanhe d on a.maql=d.maql left join " + m.user + ".ttxk f on a.ttlucrv=f.ma left join " + m.user + ".lienhe g on a.maql=g.maql inner join " + m.user + ".dstt h on b.mabv=h.mabv inner join " + m.user + ".btdpxa i on c.maphuongxa=i.maphuongxa inner join " + m.user + ".btdquan j on c.maqu=j.maqu inner join " + m.user + ".btdtt k on c.matt=k.matt ";
                         sql += " left join  " + m.user + ".bhyt bh on bh.maql=a.maql ";
                         sql += " where ";
                         sql += " b.mabv<>'" + m.Mabv + "'";
 
                         ds = m.get_data(sql + sql_exp);
+                        sender.ReportProgress(90, "Hoàn tất.");
 
-                        sql = "select a.mabn,nullif(a.soluutru,' ') soluutru,c.hoten,substr(g.tuoivao,1,3)||decode(substr(g.tuoivao,4,1),0,'TU',decode(substr(g.tuoivao,4,1),1,'TH',decode(substr(g.tuoivao,4,1),2,'NG','GI'))) as tuoivao,";
+
+                        //  ds.Merge(m.get_data_mmyy(sql + sql_exp, tu.Text, den.Text, false));
+                        break;
+                    }
+                case 2:// Phòng khám
+                    {
+
+                        sql = "select a.mabn,c.hoten,substr(g.tuoivao,1,3)||decode(substr(g.tuoivao,4,1),0,'TU',decode(substr(g.tuoivao,4,1),1,'TH',decode(substr(g.tuoivao,4,1),2,'NG','GI'))) as tuoivao,";
                         sql += "nullif(c.sonha,' ') sonha,nullif(c.thon,' ') thon,i.tenpxa,j.tenquan,k.tentt,";
                         sql += "nullif(d.quanhe,' ')||' '||nullif(d.hoten,' ') as quanhe,b.chandoan chandoanngt,nullif(a.chandoan,' ') chandoanrv,";
                         sql += "to_char(a.ngay,'dd/mm/yyyy hh24:mi') ngayvao,to_char(a.ngay,'dd/mm/yyyy hh24:mi') ngayra,nullif(f.ten,' ') ttlucrv,h.tenbv,b.mabv,a.ngay,bh.traituyen,(case bh.traituyen when 0 then 1 when 1 then 0 else null end) as dungtuyen";
-                        sql += " from xxx.benhanpk a inner join " + m.user + ".noigioithieu b on a.maql=b.maql inner join " + m.user + ".btdbn c on a.mabn=c.mabn left join " + m.user + ".quanhe d on a.maql=d.maql left join " + m.user + ".ttxk f on a.ttlucrv=f.ma inner join " + m.user + ".lienhe g on a.maql=g.maql inner join " + m.user + ".dstt h on b.mabv=h.mabv inner join " + m.user + ".btdpxa i on c.maphuongxa=i.maphuongxa inner join " + m.user + ".btdquan j on c.maqu=j.maqu inner join " + m.user + ".btdtt k on c.matt=k.matt ";
+                        sql += " from xxx.benhanpk a inner join xxx.noigioithieu b on a.maql=b.maql inner join " + m.user + ".btdbn c on a.mabn=c.mabn left join " + m.user + ".quanhe d on a.maql=d.maql left join " + m.user + ".ttxk f on a.ttlucrv=f.ma left join " + m.user + ".lienhe g on a.maql=g.maql inner join " + m.user + ".dstt h on b.mabv=h.mabv inner join " + m.user + ".btdpxa i on c.maphuongxa=i.maphuongxa inner join " + m.user + ".btdquan j on c.maqu=j.maqu inner join " + m.user + ".btdtt k on c.matt=k.matt ";
                         sql += " left join  xxx.bhyt bh on bh.maql=a.maql ";
                         sql += " where ";
                         sql += " b.mabv<>'" + m.Mabv + "'";
-                        sql += " union all ";
-                        sql += "select a.mabn,nullif(a.soluutru,' ') soluutru,c.hoten,substr(g.tuoivao,1,3)||decode(substr(g.tuoivao,4,1),0,'TU',decode(substr(g.tuoivao,4,1),1,'TH',decode(substr(g.tuoivao,4,1),2,'NG','GI'))) as tuoivao,";
-                        sql += "nullif(c.sonha,' ') sonha,nullif(c.thon,' ') thon,i.tenpxa,j.tenquan,k.tentt,";
-                        sql += "nullif(d.quanhe,' ')||' '||nullif(d.hoten,' ') as quanhe,b.chandoan chandoanngt,nullif(a.chandoan,' ') chandoanrv,";
-                        sql += "to_char(a.ngay,'dd/mm/yyyy hh24:mi') ngayvao,to_char(a.ngay,'dd/mm/yyyy hh24:mi') ngayra,nullif(f.ten,' ') ttlucrv,h.tenbv,b.mabv,a.ngay,bh.traituyen,(case bh.traituyen when 0 then 1 when 1 then 0 else null end) as dungtuyen";
-                        sql += " from xxx.benhancc a inner join " + m.user + ".noigioithieu b on a.maql=b.maql inner join " + m.user + ".btdbn c on a.mabn=c.mabn left join " + m.user + ".quanhe d on a.maql=d.maql left join " + m.user + ".ttxk f on a.ttlucrv=f.ma inner join " + m.user + ".lienhe g on a.maql=g.maql inner join " + m.user + ".dstt h on b.mabv=h.mabv inner join " + m.user + ".btdpxa i on c.maphuongxa=i.maphuongxa inner join " + m.user + ".btdquan j on c.maqu=j.maqu inner join " + m.user + ".btdtt k on c.matt=k.matt ";
-                        sql += " left join xxx.bhyt bh on bh.maql=a.maql ";
-                        sql += " where ";
-                        sql += " b.mabv<>'" + m.Mabv + "'";
-
-                        ds.Merge(m.get_data_mmyy(sql + sql_exp, tu.Text, den.Text, false));
+                        ds = m.get_data_mmyy(sql + sql_exp, agr.TuNgay, agr.DenNgay, false);
+                        sender.ReportProgress(90, "Hoàn tất.");
                         break;
                     }
-                case 3:
+                case 3: // tất cả
                     {
+                        sql = "(select distinct a.mabn,c.hoten,substr(g.tuoivao,1,3)||decode(substr(g.tuoivao,4,1),0,'TU',decode(substr(g.tuoivao,4,1),1,'TH',decode(substr(g.tuoivao,4,1),2,'NG','GI'))) as tuoivao,";
+                        sql += "nullif(c.sonha,' ') sonha,nullif(c.thon,' ') thon,i.tenpxa,j.tenquan,k.tentt,";
+                        sql += "nullif(d.quanhe,' ')||' '||nullif(d.hoten,' ') as quanhe,b.chandoan chandoanngt,nullif(a.chandoan,' ') chandoanrv,";
+                        sql += "to_char(a.ngay,'dd/mm/yyyy hh24:mi') ngayvao,to_char(a.ngay,'dd/mm/yyyy hh24:mi') ngayra,nullif(f.ten,' ') ttlucrv,h.tenbv,b.mabv,a.ngay,bh.traituyen,(case bh.traituyen when 0 then 1 when 1 then 0 else null end) as dungtuyen,varchar 'Phòng Khám' as loai";
+                        sql += " from xxx.benhanpk a inner join xxx.noigioithieu b on a.maql=b.maql inner join " + m.user + ".btdbn c on a.mabn=c.mabn left join " + m.user + ".quanhe d on a.maql=d.maql left join " + m.user + ".ttxk f on a.ttlucrv=f.ma left join " + m.user + ".lienhe g on a.maql=g.maql inner join " + m.user + ".dstt h on b.mabv=h.mabv inner join " + m.user + ".btdpxa i on c.maphuongxa=i.maphuongxa inner join " + m.user + ".btdquan j on c.maqu=j.maqu inner join " + m.user + ".btdtt k on c.matt=k.matt ";
+                        sql += " left join  xxx.bhyt bh on bh.maql=a.maql ";
+                        sql += " where ";
+                        sql += " b.mabv<>'" + m.Mabv + "'" + sql_exp;
+                        sql += ") union all ";
+                        sql += "select distinct a.mabn,c.hoten,substr(g.tuoivao,1,3)||decode(substr(g.tuoivao,4,1),0,'TU',decode(substr(g.tuoivao,4,1),1,'TH',decode(substr(g.tuoivao,4,1),2,'NG','GI'))) as tuoivao,";
+                        sql += "nullif(c.sonha,' ') sonha,nullif(c.thon,' ') thon,i.tenpxa,j.tenquan,k.tentt,";
+                        sql += "nullif(d.quanhe,' ')||' '||nullif(d.hoten,' ') as quanhe,b.chandoan chandoanngt,nullif(a.chandoan,' ') chandoanrv,";
+                        sql += "to_char(a.ngay,'dd/mm/yyyy hh24:mi') ngayvao,to_char(a.ngay,'dd/mm/yyyy hh24:mi') ngayra,nullif(f.ten,' ') ttlucrv,h.tenbv,b.mabv,a.ngay,bh.traituyen,(case bh.traituyen when 0 then 1 when 1 then 0 else null end) as dungtuyen,varchar 'Phòng Cấp Cứu' as loai";
+                        sql += " from xxx.benhancc a inner join xxx.noigioithieu b on a.maql=b.maql inner join " + m.user + ".btdbn c on a.mabn=c.mabn left join " + m.user + ".quanhe d on a.maql=d.maql left join " + m.user + ".ttxk f on a.ttlucrv=f.ma left join " + m.user + ".lienhe g on a.maql=g.maql inner join " + m.user + ".dstt h on b.mabv=h.mabv inner join " + m.user + ".btdpxa i on c.maphuongxa=i.maphuongxa inner join " + m.user + ".btdquan j on c.maqu=j.maqu inner join " + m.user + ".btdtt k on c.matt=k.matt ";
+                        sql += " left join xxx.bhyt bh on bh.maql=a.maql ";
+                        sql += " where ";
+                        sql += " b.mabv<>'" + m.Mabv + "'" + sql_exp;
+                        ds = m.get_data_mmyy(sql , agr.TuNgay, agr.DenNgay, false);
+                        sender.ReportProgress(65);
+                        sql = "(select distinct a.mabn,e.soluutru,c.hoten,substr(g.tuoivao,1,3)||decode(substr(g.tuoivao,4,1),0,'TU',decode(substr(g.tuoivao,4,1),1,'TH',decode(substr(g.tuoivao,4,1),2,'NG','GI'))) as tuoivao,";
+                        sql += "c.sonha,c.thon,i.tenpxa,j.tenquan,k.tentt,";
+                        sql += "d.quanhe||' '||d.hoten as quanhe,b.chandoan chandoanngt,nullif(e.chandoan,' ') chandoanrv,";
+                        sql += "to_char(a.ngay,'dd/mm/yyyy hh24:mi') ngayvao,to_char(e.ngay,'dd/mm/yyyy hh24:mi') ngayra,nullif(f.ten,' ') ttlucrv,h.tenbv,b.mabv,a.ngay, bh.traituyen,(case bh.traituyen when 0 then 1 when 1 then 0 else null end) as dungtuyen,varchar 'Nội trú' as loai";
+                        sql += " from " + m.user + ".benhandt a inner join " + m.user + ".noigioithieu b on a.maql=b.maql inner join " + m.user + ".btdbn c on a.mabn=c.mabn left join " + m.user + ".quanhe d on a.maql=d.maql left join " + m.user + ".xuatvien e on a.maql=e.maql left join " + m.user + ".ttxk f on e.ttlucrv=f.ma left join " + m.user + ".lienhe g on a.maql=g.maql inner join " + m.user + ".dstt h on b.mabv=h.mabv inner join " + m.user + ".btdpxa i on c.maphuongxa=i.maphuongxa inner join " + m.user + ".btdquan j on c.maqu=j.maqu inner join " + m.user + ".btdtt k on c.matt=k.matt ";
+                        sql += " left join " + m.user + ".bhyt bh on bh.maql=a.maql ";
+                        sql += " where ";
+                        sql += " b.mabv<>'" + m.Mabv + "'" +sql_exp;
+                        sql += ") union all ";
+                        sql += "select distinct a.mabn,nullif(a.soluutru,' ') soluutru,c.hoten,substr(g.tuoivao,1,3)||decode(substr(g.tuoivao,4,1),0,'TU',decode(substr(g.tuoivao,4,1),1,'TH',decode(substr(g.tuoivao,4,1),2,'NG','GI'))) as tuoivao,";
+                        sql += "nullif(c.sonha,' ') sonha,nullif(c.thon,' ') thon,i.tenpxa,j.tenquan,k.tentt,";
+                        sql += "nullif(d.quanhe,' ')||' '||nullif(d.hoten,' ') as quanhe,b.chandoan chandoanngt,nullif(a.chandoan,' ') chandoanrv,";
+                        sql += "to_char(a.ngay,'dd/mm/yyyy hh24:mi') ngayvao,to_char(a.ngayrv,'dd/mm/yyyy hh24:mi') ngayra,nullif(f.ten,' ') ttlucrv,h.tenbv,b.mabv,a.ngay,bh.traituyen,(case bh.traituyen when 0 then 1 when 1 then 0 else null end) as dungtuyen,varchar 'Ngoại trú' as loai";
+                        sql += " from " + m.user + ".benhanngtr a inner join " + m.user + ".noigioithieu b on a.maql=b.maql inner join " + m.user + ".btdbn c on a.mabn=c.mabn left join " + m.user + ".quanhe d on a.maql=d.maql left join " + m.user + ".ttxk f on a.ttlucrv=f.ma left join " + m.user + ".lienhe g on a.maql=g.maql inner join " + m.user + ".dstt h on b.mabv=h.mabv inner join " + m.user + ".btdpxa i on c.maphuongxa=i.maphuongxa inner join " + m.user + ".btdquan j on c.maqu=j.maqu inner join " + m.user + ".btdtt k on c.matt=k.matt ";
+                        sql += " left join  " + m.user + ".bhyt bh on bh.maql=a.maql ";
+                        sql += " where ";
+                        sql += " b.mabv<>'" + m.Mabv + "'" + sql_exp;
 
+                        DataSet tm = m.get_data(sql);
+                        sender.ReportProgress(80);
+                        ds.Merge(tm);
+                        sender.ReportProgress(90, "Hoàn tất.");
                         break;
                     }
             }
+
+            
             //DateTime mindate=DateTime.MaxValue, maxdate=DateTime.MinValue;
             //foreach (DataRow dsr in ds.Tables[0].Rows)
             //{
             //    maxdate = DateTime.FromOADate( Math.Max( maxdate.ToOADate() , ((DateTime)dsr["ngay"]).ToOADate()));
             //    mindate = DateTime.FromOADate( Math.Min( mindate.ToOADate() , ((DateTime)dsr["ngay"]).ToOADate()));
             //}
-			          
-            if (ds.Tables[0].Rows.Count==0)	MessageBox.Show(lan.Change_language_MessageText("Không có số liệu !"),AccessData.Msg);
-			else
-			{
-              //  string sql = "select maql,mabn,traituyen from xxx.bhyt ";
-				dllReportM.frmReport f=new dllReportM.frmReport(m,ds,t1+" "+t2,"rptTKchuyenden.rpt");
-				f.ShowDialog();
-			}
-		}
+            sender.ReportProgress(100, "Hoàn tất.");
+            ParamAsynResult result = new ParamAsynResult();
+            result.ds = ds;
+            result.NgayExp = agr.NgayExp;
+            result.DiaDiemExp = agr.DiaDiemExp;
+            e.Result = result;
+        }
 
 		private void matt_KeyDown(object sender, System.Windows.Forms.KeyEventArgs e)
 		{
