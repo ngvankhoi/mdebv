@@ -146,6 +146,19 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\DLLTonghop_dangdung\bin\Debug\DLLBCTonghop.dll</HintPath>
     </Reference>
+    <Reference Include="dllDanhmucMedisoft, Version=1.0.5255.26260, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\dllDanhmucMedisoft\bin\Debug\dllDanhmucMedisoft.dll</HintPath>
+    </Reference>
+    <Reference Include="DLLPrintchidinh, Version=1.0.5252.28077, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="DLLPrintchidinh1, Version=1.0.3513.28714, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="dllReportM, Version=1.0.5252.28076, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="dllvpkhoa_chidinh, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="dllVuKeHoach, Version=1.0.5255.18135, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <ExecutableExtension>.exe</ExecutableExtension>
+      <HintPath>..\dllVuKeHoach\bin\Debug\dllVuKeHoach.dll</HintPath>
+    </Reference>
     <Reference Include="DShowNET, Version=1.0.0.1, Culture=neutral, processorArchitecture=MSIL" />
     <Reference Include="DuTruKhoTTB, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -176,6 +189,7 @@
       <HintPath>..\lib_chung\Interop.MSCommLib.dll</HintPath>
     </Reference>
     <Reference Include="LibCaller, Version=1.0.3047.28052, Culture=neutral" />
+    <Reference Include="LibDuoc, Version=1.0.5252.24992, Culture=neutral, processorArchitecture=MSIL" />
     <Reference Include="LibKSK, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\LibKSK\bin\Debug\LibKSK.dll</HintPath>
@@ -184,6 +198,7 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\lib_chung\LibLicense.dll</HintPath>
     </Reference>
+    <Reference Include="LibList, Version=1.0.5252.25074, Culture=neutral, processorArchitecture=MSIL" />
     <Reference Include="LibMedi, Version=1.0.5214.15027, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\LibMedi\bin\Debug\LibMedi.dll</HintPath>
@@ -200,6 +215,8 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\DuTruKhoTTB\bin\Debug\LibTTB.dll</HintPath>
     </Reference>
+    <Reference Include="LibVienphi, Version=1.0.5252.27826, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="LibVP, Version=1.0.5246.20262, Culture=neutral, processorArchitecture=MSIL" />
     <Reference Include="LibZIP, Version=1.0.3930.24414, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\LibZIP\bin\Debug\LibZIP.dll</HintPath>
@@ -3389,38 +3406,6 @@
     <WebReferences Include="Web References\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\dllDanhmucMedisoft\dllDanhmucMedisoft.csproj">
-      <Project>{1C87CF9F-3A25-412B-9708-845C7C7E8353}</Project>
-      <Name>dllDanhmucMedisoft</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\DLLPrintchidinh\DLLPrintchidinh.csproj">
-      <Project>{F9C09A3C-CC62-42FA-B944-1E77C9FAC47A}</Project>
-      <Name>DLLPrintchidinh</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\dllReportM\dllReportM.csproj">
-      <Project>{EB41D2E3-0273-46A4-BDDA-F3FCE23AF310}</Project>
-      <Name>dllReportM</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\dllvpkhoa_chidinh\dllvpkhoa_chidinh.csproj">
-      <Project>{8117C1EC-C3A6-4858-B79E-494087ED1AA5}</Project>
-      <Name>dllvpkhoa_chidinh</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\dllVuKeHoach\dllVuKeHoach.csproj">
-      <Project>{AEE5EF70-8BF5-4DDB-982A-46CBB2AF87F6}</Project>
-      <Name>dllVuKeHoach</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\LibDuoc\LibDuoc.csproj">
-      <Project>{5A32EE49-C81E-4E30-B03A-37270016F430}</Project>
-      <Name>LibDuoc</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\LibList\LibList.csproj">
-      <Project>{AC81AE2B-D1CF-41FA-934C-6CEBED533383}</Project>
-      <Name>LibList</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\LibVienphi\LibVienphi.csproj">
-      <Project>{32440DBE-505F-455F-A334-407C1FB06123}</Project>
-      <Name>LibVienphi</Name>
-    </ProjectReference>
     <ProjectReference Include="..\SMSAsync\SMSAsync.csproj">
       <Project>{2A8E5C17-0772-47B6-BE8D-A3439ABBCB49}</Project>
       <Name>SMSAsync</Name>

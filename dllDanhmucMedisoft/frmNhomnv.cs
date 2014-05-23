@@ -28,7 +28,9 @@ namespace dllDanhmucMedisoft
 		private System.Windows.Forms.TextBox ma;
 		private System.Windows.Forms.TextBox ten;
 		private string s_table,user;
+        private int quandoan, sudoan, trungdoan;
 		private DataSet ds=new DataSet();
+     
 		private System.Windows.Forms.ComboBox sql;
         private ComboBox cmbDoiTuong;
         private Label label4;
@@ -434,23 +436,21 @@ namespace dllDanhmucMedisoft
          
             if (s_table == "qn_dmdonvi_cap2")
             {
-                cb_quandoan.DataSource = m.get_data("select id,ten,ma from " + user + ".qn_dmdonvi_cap1 order by id").Tables[0];//khuyen 12/02/14 thay table qn_dmloaidv=qn_dmdonvi_cap1
+                cb_quandoan.DataSource = m.get_data("select id,ten,ma from " + user + ".qn_dmdonvi_cap1 ").Tables[0];//khuyen 12/02/14 thay table qn_dmloaidv=qn_dmdonvi_cap1
                 cb_quandoan.DisplayMember = "ten";
                 cb_quandoan.ValueMember = "id";
 
-                //cb_sudoan.DataSource = m.get_data("select id,ten,ma from " + user + ".qn_dmdonvi_cap2 order by id").Tables[0];//khuyen 12/02/14 thay table qn_dmloaidv=qn_dmdonvi_cap1
-                //cb_sudoan.DisplayMember = "ten";
-                //cb_sudoan.ValueMember = "id";
+               
             }
         }
-        private void load_danhmuccap3()
+        private void load_danhmuccap3( )
         {
             if (sql.SelectedValue.ToString()== "qn_dmdonvi_cap3")
             {
-                cb_quandoan.DataSource = m.get_data("select id,ten,ma from " + user + ".qn_dmdonvi_cap1   order by id").Tables[0];//khuyen 12/02/14 thay table qn_dmloaidv=qn_dmdonvi_cap1
+                cb_quandoan.DataSource = m.get_data("select id,ten,ma from " + user + ".qn_dmdonvi_cap1  ").Tables[0];//khuyen 12/02/14 thay table qn_dmloaidv=qn_dmdonvi_cap1
                 cb_quandoan.DisplayMember = "ten";
                 cb_quandoan.ValueMember = "id";
-                cb_sudoan.DataSource = m.get_data("select id,ten,ma from " + user + ".qn_dmdonvi_cap2  where iddonvicap1= " + cb_quandoan.SelectedValue.ToString() + " order by id").Tables[0];//khuyen 12/02/14 thay table qn_dmloaidv=qn_dmdonvi_cap1
+                cb_sudoan.DataSource = m.get_data("select id,ten,ma from " + user + ".qn_dmdonvi_cap2  where iddonvicap1= " + cb_quandoan.SelectedValue.ToString() + " ").Tables[0];//khuyen 12/02/14 thay table qn_dmloaidv=qn_dmdonvi_cap1
                 cb_sudoan.DisplayMember = "ten";
                 cb_sudoan.ValueMember = "id";
             }
@@ -459,13 +459,13 @@ namespace dllDanhmucMedisoft
         {
             if (s_table == "qn_dmdonvi_cap4")
             {
-                cb_quandoan.DataSource = m.get_data("select id,ten,ma from " + user + ".qn_dmdonvi_cap1 order by id").Tables[0];//khuyen 12/02/14 thay table qn_dmloaidv=qn_dmdonvi_cap1
+                cb_quandoan.DataSource = m.get_data("select id,ten,ma from " + user + ".qn_dmdonvi_cap1 ").Tables[0];//khuyen 12/02/14 thay table qn_dmloaidv=qn_dmdonvi_cap1
                 cb_quandoan.DisplayMember="ten";
                 cb_quandoan.ValueMember = "id";
-                cb_sudoan.DataSource = m.get_data("select id,ten,ma from " + user + ".qn_dmdonvi_cap2  where iddonvicap1= " + cb_quandoan.SelectedValue.ToString() + " order by id").Tables[0];//khuyen 12/02/14 thay table qn_dmloaidv=qn_dmdonvi_cap1
+                cb_sudoan.DataSource = m.get_data("select id,ten,ma from " + user + ".qn_dmdonvi_cap2  where iddonvicap1= " + cb_quandoan.SelectedValue.ToString() + " ").Tables[0];//khuyen 12/02/14 thay table qn_dmloaidv=qn_dmdonvi_cap1
                 cb_sudoan.DisplayMember = "ten";
                 cb_sudoan.ValueMember = "id";
-                cb_trungdoan.DataSource = m.get_data("select id,ten,ma from " + user + ".qn_dmdonvi_cap3  where id_cap2= " + cb_sudoan.SelectedValue.ToString() + " order by id").Tables[0];//khuyen 12/02/14 thay table qn_dmloaidv=qn_dmdonvi_cap1
+                cb_trungdoan.DataSource = m.get_data("select id,ten,ma from " + user + ".qn_dmdonvi_cap3  where id_cap2= " + cb_sudoan.SelectedValue.ToString() + " ").Tables[0];//khuyen 12/02/14 thay table qn_dmloaidv=qn_dmdonvi_cap1
                 cb_trungdoan.DisplayMember = "ten";
                 cb_trungdoan.ValueMember = "id";
             }
@@ -473,26 +473,57 @@ namespace dllDanhmucMedisoft
         }
         private void load_danhmuccap1()
         {
-            if (s_table == "qn_dmdonvi_cap1")
-            {
-                cb_quandoan.DataSource = m.get_data("select id,ten,ma from " + user + ".qn_dmdonvi_cap1 order by id").Tables[0];//khuyen 12/02/14 thay table qn_dmloaidv=qn_dmdonvi_cap1
-                cb_quandoan.DisplayMember = "ten";
-                cb_quandoan.ValueMember = "id";
-             
-            }
+         
+                if (s_table == "qn_dmdonvi_cap1")
+                {
+                    cb_quandoan.DataSource = m.get_data("select id,ten,ma from " + user + ".qn_dmdonvi_cap1 ").Tables[0];//khuyen 12/02/14 thay table qn_dmloaidv=qn_dmdonvi_cap1
+                    cb_quandoan.DisplayMember = "ten";
+                    cb_quandoan.ValueMember = "id";
+
+                }
+        
 
         }
-		private void load_grid()
-		{
+        private void load_grid_quannhan()
+        {
             try
             {
-                dt = m.get_data("select *,'' as ma from " + user + "." + s_table + " order by id").Tables[0];
+              
+                if (s_table == "qn_dmdonvi_cap2")
+                {
+                    dt = m.get_data("select *,'' as ma from " + user + "." + s_table + " where iddonvicap1 =" + cb_quandoan.SelectedValue.ToString() + "  order by id").Tables[0];
+                    dataGrid1.DataSource = dt;
+                }
+
+                if (s_table == "qn_dmdonvi_cap3")
+                {
+                    dt = m.get_data("select *,'' as ma from " + user + "." + s_table + " where id_cap2=" + cb_sudoan.SelectedValue.ToString() + "  order by id").Tables[0];
+                    dataGrid1.DataSource = dt;
+                   
+                }
+                if (s_table == "qn_dmdonvi_cap4")
+                {
+                    dt = m.get_data("select *,'' as ma from " + user + "." + s_table + " where id_cap3=" + cb_trungdoan.SelectedValue.ToString() + "  order by id").Tables[0];
+                    dataGrid1.DataSource = dt;
+                  
+                }
+            }
+            catch { }
+        
+        }
+
+		private void load_grid( )
+		{
+
+            try
+            {
+                dt = m.get_data("select *,'' as ma from " + user + "." + s_table + "").Tables[0];
                 dataGrid1.DataSource = dt;
                 ref_text();
             }
             catch { }
             try
-            {
+            {  
                 load_danhmuccap1();
                 load_danhmuccap2();
                 load_danhmuccap3();
@@ -642,7 +673,16 @@ namespace dllDanhmucMedisoft
 		}
 
 		private void butLuu_Click(object sender, System.EventArgs e)
-		{
+        {
+          
+            try
+            {
+               quandoan = int.Parse(cb_quandoan.SelectedValue.ToString());
+               sudoan = int.Parse(cb_sudoan.SelectedValue.ToString());
+               trungdoan = int.Parse(cb_sudoan.SelectedValue.ToString());
+            }
+            catch { }
+
 			if (!kiemtra()) return ;
             // khuyen 12/02/14 if (s_table == "qn_dmloaidv" || s_table == "qn_dmcapbac" || s_table == "qn_dmchucvu")
             if (s_table == "qn_dmdonvi_cap1" || s_table == "qn_dmcapbac" || s_table == "qn_dmchucvu")//khuyen 12/02/2014 thay qn_dmloaidv=qn_dmdonvi_cap1,
@@ -687,9 +727,19 @@ namespace dllDanhmucMedisoft
             }
             
 			load_grid();
-			ena_object(false);
-		}
 
+			ena_object(false);
+            get_giatricombox(quandoan, sudoan, trungdoan);
+            cb_quandoan.SelectedValue = quandoan;
+            cb_sudoan.SelectedValue = sudoan;
+            cb_trungdoan.SelectedValue = trungdoan;
+		}
+        private void get_giatricombox(int _quandoan,int _sudoan,int _trungdoan)
+        {
+            _quandoan = quandoan;
+            _sudoan = sudoan;
+            _trungdoan = trungdoan;
+        }
 		private void butBoqua_Click(object sender, System.EventArgs e)
 		{
 			ena_object(false);
@@ -725,7 +775,14 @@ namespace dllDanhmucMedisoft
                    //khuyen 12/02/14 if (s_table == "qn_dmdonvi")
                     if (s_table == "qn_dmdonvi_cap2")//khuyen 12/02/14 thay qn_dmdonvi==qn_dmdonvi_cap2
                     {
-                        cb_sudoan.SelectedValue = dt.Select("id=" + ma.Text)[0]["idloaidv"].ToString();
+                        //try
+                        //{
+                          
+                            cb_sudoan.SelectedValue = dt.Select("id=" + ma.Text)[0]["idloaidv"].ToString();
+                        //}
+                        //{
+                        //    cb_quandoan
+                        //}
                     }
                     if (s_table == "qn_dmdonvi_cap3")//truong thuy 10/05/2014 them loai câp bac 3
                     {
@@ -871,7 +928,7 @@ namespace dllDanhmucMedisoft
             {
                 if (s_table == "qn_dmdonvi_cap3" )
                 {  // cb_quandoan.DataSource = m.get_data("select id,ten,ma from " + user + ".qn_dmdonvi_cap1   order by id").Tables[0];//khuyen 12/02/14 thay table qn_dmloaidv=qn_dmdonvi_cap1
-                    cb_sudoan.DataSource = m.get_data("select id,ten,ma from " + user + ".qn_dmdonvi_cap2  where iddonvicap1= " + cb_quandoan.SelectedValue.ToString() + " order by id").Tables[0];//khuyen 12/02/14 thay table qn_dmloaidv=qn_dmdonvi_cap1
+                    cb_sudoan.DataSource = m.get_data("select id,ten,ma from " + user + ".qn_dmdonvi_cap2  where iddonvicap1= " + cb_quandoan.SelectedValue.ToString() + " ").Tables[0];//khuyen 12/02/14 thay table qn_dmloaidv=qn_dmdonvi_cap1
                     cb_sudoan.DisplayMember = "ten";
                     cb_sudoan.ValueMember = "id";
                 }
@@ -883,7 +940,7 @@ namespace dllDanhmucMedisoft
                 }
             }
             catch { }
-
+           
         }
 
         private void cb_sudoan_SelectedIndexChanged(object sender, EventArgs e)
@@ -892,18 +949,19 @@ namespace dllDanhmucMedisoft
             {
                 if (s_table == "qn_dmdonvi_cap4")
                 {
-                    cb_trungdoan.DataSource = m.get_data("select id,ten,ma from " + user + ".qn_dmdonvi_cap3  where id_cap2= " + cb_sudoan.SelectedValue.ToString() + " order by id").Tables[0];//khuyen 12/02/14 thay table qn_dmloaidv=qn_dmdonvi_cap1
+                    cb_trungdoan.DataSource = m.get_data("select id,ten,ma from " + user + ".qn_dmdonvi_cap3  where id_cap2= " + cb_sudoan.SelectedValue.ToString() + " ").Tables[0];//khuyen 12/02/14 thay table qn_dmloaidv=qn_dmdonvi_cap1
                     cb_trungdoan.DisplayMember = "ten";
                     cb_trungdoan.ValueMember = "id";
                 }
             }
             catch { }
+            load_grid_quannhan();
 
         }
 
         private void cb_trungdoan_SelectedIndexChanged(object sender, EventArgs e)
         {
-
+            load_grid_quannhan();
         }
 
 	}
