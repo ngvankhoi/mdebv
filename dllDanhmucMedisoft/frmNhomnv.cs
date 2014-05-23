@@ -940,7 +940,7 @@ namespace dllDanhmucMedisoft
                 }
             }
             catch { }
-           
+            load_grid_quannhan();  
         }
 
         private void cb_sudoan_SelectedIndexChanged(object sender, EventArgs e)

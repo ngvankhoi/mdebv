@@ -290,6 +290,7 @@ namespace Medisoft
         #endregion
         public TextBox mathe;
         public CheckBox chkBhyt;
+        private Button button4;
         private ToolStripButton tbutchuphinh;
 
         public frmPhongluu(LibMedi.AccessData acc, string hoten, int userid, int mabv, bool sovaovien, bool soluutru, string _nhomkho, string _madoituong, int _khudt, int _chinhanh)
@@ -582,6 +583,7 @@ namespace Medisoft
             this.label54 = new System.Windows.Forms.Label();
             this.mathe = new System.Windows.Forms.TextBox();
             this.chkBhyt = new System.Windows.Forms.CheckBox();
+            this.button4 = new System.Windows.Forms.Button();
             this.phanhchinh.SuspendLayout();
             this.pvaovien.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ptb)).BeginInit();
@@ -734,7 +736,7 @@ namespace Medisoft
             "h.o."});
             this.loaituoi.Location = new System.Drawing.Point(728, 42);
             this.loaituoi.Name = "loaituoi";
-            this.loaituoi.Size = new System.Drawing.Size(56, 21);
+            this.loaituoi.Size = new System.Drawing.Size(270, 21);
             this.loaituoi.TabIndex = 7;
             this.loaituoi.KeyDown += new System.Windows.Forms.KeyEventHandler(this.loaituoi_KeyDown);
             // 
@@ -845,7 +847,7 @@ namespace Medisoft
             this.tenloaibv.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tenloaibv.Location = new System.Drawing.Point(561, 395);
             this.tenloaibv.Name = "tenloaibv";
-            this.tenloaibv.Size = new System.Drawing.Size(222, 21);
+            this.tenloaibv.Size = new System.Drawing.Size(436, 21);
             this.tenloaibv.TabIndex = 26;
             this.tenloaibv.SelectedIndexChanged += new System.EventHandler(this.tenloaibv_SelectedIndexChanged);
             this.tenloaibv.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tenloaibv_KeyDown);
@@ -908,7 +910,7 @@ namespace Medisoft
             this.tenbv.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tenbv.Location = new System.Drawing.Point(561, 417);
             this.tenbv.Name = "tenbv";
-            this.tenbv.Size = new System.Drawing.Size(222, 21);
+            this.tenbv.Size = new System.Drawing.Size(436, 21);
             this.tenbv.TabIndex = 28;
             this.tenbv.SelectedIndexChanged += new System.EventHandler(this.tenbv_SelectedIndexChanged);
             this.tenbv.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tenbv_KeyDown);
@@ -972,7 +974,7 @@ namespace Medisoft
             this.label52.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.label52.Location = new System.Drawing.Point(5, 24);
             this.label52.Name = "label52";
-            this.label52.Size = new System.Drawing.Size(780, 17);
+            this.label52.Size = new System.Drawing.Size(994, 17);
             this.label52.TabIndex = 141;
             this.label52.Text = "I. HÀNH CHÍNH :";
             this.label52.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -1029,7 +1031,7 @@ namespace Medisoft
             this.phanhchinh.Controls.Add(this.lphai);
             this.phanhchinh.Location = new System.Drawing.Point(5, 62);
             this.phanhchinh.Name = "phanhchinh";
-            this.phanhchinh.Size = new System.Drawing.Size(780, 70);
+            this.phanhchinh.Size = new System.Drawing.Size(994, 70);
             this.phanhchinh.TabIndex = 8;
             // 
             // tqx
@@ -1090,7 +1092,7 @@ namespace Medisoft
             this.cholam.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cholam.Location = new System.Drawing.Point(638, 47);
             this.cholam.Name = "cholam";
-            this.cholam.Size = new System.Drawing.Size(142, 21);
+            this.cholam.Size = new System.Drawing.Size(356, 21);
             this.cholam.TabIndex = 19;
             this.cholam.Validated += new System.EventHandler(this.cholam_Validated);
             this.cholam.KeyDown += new System.Windows.Forms.KeyEventHandler(this.cholam_KeyDown);
@@ -1161,7 +1163,7 @@ namespace Medisoft
             this.tentinh.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tentinh.Location = new System.Drawing.Point(660, 25);
             this.tentinh.Name = "tentinh";
-            this.tentinh.Size = new System.Drawing.Size(120, 21);
+            this.tentinh.Size = new System.Drawing.Size(334, 21);
             this.tentinh.TabIndex = 12;
             this.tentinh.SelectedIndexChanged += new System.EventHandler(this.tentinh_SelectedIndexChanged);
             this.tentinh.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tentinh_KeyDown);
@@ -1277,7 +1279,7 @@ namespace Medisoft
             this.tennuoc.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tennuoc.Location = new System.Drawing.Point(660, 3);
             this.tennuoc.Name = "tennuoc";
-            this.tennuoc.Size = new System.Drawing.Size(120, 21);
+            this.tennuoc.Size = new System.Drawing.Size(334, 21);
             this.tennuoc.TabIndex = 6;
             this.tennuoc.SelectedIndexChanged += new System.EventHandler(this.tennuoc_SelectedIndexChanged);
             this.tennuoc.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tennuoc_KeyDown);
@@ -2460,7 +2462,7 @@ namespace Medisoft
             this.label8.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.label8.Location = new System.Drawing.Point(430, 133);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(357, 18);
+            this.label8.Size = new System.Drawing.Size(571, 18);
             this.label8.TabIndex = 208;
             this.label8.Text = "III. THÔNG TIN RA PHÒNG LƯU :";
             this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -2509,7 +2511,7 @@ namespace Medisoft
             this.cd_chinh.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cd_chinh.Location = new System.Drawing.Point(553, 196);
             this.cd_chinh.Name = "cd_chinh";
-            this.cd_chinh.Size = new System.Drawing.Size(232, 21);
+            this.cd_chinh.Size = new System.Drawing.Size(446, 21);
             this.cd_chinh.TabIndex = 17;
             this.cd_chinh.TextChanged += new System.EventHandler(this.cd_chinh_TextChanged);
             this.cd_chinh.KeyDown += new System.Windows.Forms.KeyEventHandler(this.cd_kkb_KeyDown);
@@ -2537,7 +2539,7 @@ namespace Medisoft
             this.cd_kemtheo.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cd_kemtheo.Location = new System.Drawing.Point(553, 218);
             this.cd_kemtheo.Name = "cd_kemtheo";
-            this.cd_kemtheo.Size = new System.Drawing.Size(232, 21);
+            this.cd_kemtheo.Size = new System.Drawing.Size(446, 21);
             this.cd_kemtheo.TabIndex = 19;
             this.cd_kemtheo.TextChanged += new System.EventHandler(this.cd_kemtheo_TextChanged);
             this.cd_kemtheo.KeyDown += new System.Windows.Forms.KeyEventHandler(this.cd_kkb_KeyDown);
@@ -2589,7 +2591,7 @@ namespace Medisoft
             this.tenbs.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tenbs.Location = new System.Drawing.Point(553, 262);
             this.tenbs.Name = "tenbs";
-            this.tenbs.Size = new System.Drawing.Size(232, 21);
+            this.tenbs.Size = new System.Drawing.Size(446, 21);
             this.tenbs.TabIndex = 23;
             this.tenbs.TextChanged += new System.EventHandler(this.tenbs_TextChanged);
             this.tenbs.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tenbs_KeyDown);
@@ -2626,7 +2628,7 @@ namespace Medisoft
             this.tenkhoa.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tenkhoa.Location = new System.Drawing.Point(561, 439);
             this.tenkhoa.Name = "tenkhoa";
-            this.tenkhoa.Size = new System.Drawing.Size(221, 21);
+            this.tenkhoa.Size = new System.Drawing.Size(435, 21);
             this.tenkhoa.TabIndex = 30;
             this.tenkhoa.SelectedIndexChanged += new System.EventHandler(this.tenkhoa_SelectedIndexChanged);
             this.tenkhoa.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tenkhoa_KeyDown);
@@ -2641,7 +2643,7 @@ namespace Medisoft
             this.xutri.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.xutri.Location = new System.Drawing.Point(504, 306);
             this.xutri.Name = "xutri";
-            this.xutri.Size = new System.Drawing.Size(280, 84);
+            this.xutri.Size = new System.Drawing.Size(494, 84);
             this.xutri.TabIndex = 25;
             this.xutri.SelectedIndexChanged += new System.EventHandler(this.xutri_SelectedIndexChanged);
             this.xutri.KeyDown += new System.Windows.Forms.KeyEventHandler(this.xutri_KeyDown);
@@ -2667,7 +2669,7 @@ namespace Medisoft
             this.songaydt.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.songaydt.Location = new System.Drawing.Point(726, 152);
             this.songaydt.Name = "songaydt";
-            this.songaydt.Size = new System.Drawing.Size(58, 21);
+            this.songaydt.Size = new System.Drawing.Size(272, 21);
             this.songaydt.TabIndex = 12;
             // 
             // label51
@@ -2690,7 +2692,7 @@ namespace Medisoft
             this.tenketqua.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tenketqua.Location = new System.Drawing.Point(696, 174);
             this.tenketqua.Name = "tenketqua";
-            this.tenketqua.Size = new System.Drawing.Size(88, 21);
+            this.tenketqua.Size = new System.Drawing.Size(302, 21);
             this.tenketqua.TabIndex = 15;
             this.tenketqua.SelectedIndexChanged += new System.EventHandler(this.tenketqua_SelectedIndexChanged);
             this.tenketqua.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tenketqua_KeyDown);
@@ -2790,7 +2792,7 @@ namespace Medisoft
             this.toolStrip1.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.Flow;
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(792, 23);
+            this.toolStrip1.Size = new System.Drawing.Size(1006, 23);
             this.toolStrip1.TabIndex = 247;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -2970,7 +2972,7 @@ namespace Medisoft
             this.toolStripButton10.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripButton10.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton10.Name = "toolStripButton10";
-            this.toolStripButton10.Size = new System.Drawing.Size(42, 20);
+            this.toolStripButton10.Size = new System.Drawing.Size(43, 20);
             this.toolStripButton10.Text = "^D";
             this.toolStripButton10.ToolTipText = "Dị ứng thuốc";
             this.toolStripButton10.Click += new System.EventHandler(this.l_diungthuoc_Click);
@@ -2986,7 +2988,7 @@ namespace Medisoft
             this.toolStripButton11.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripButton11.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton11.Name = "toolStripButton11";
-            this.toolStripButton11.Size = new System.Drawing.Size(40, 20);
+            this.toolStripButton11.Size = new System.Drawing.Size(41, 20);
             this.toolStripButton11.Text = "^L";
             this.toolStripButton11.ToolTipText = "Lịch hẹn";
             // 
@@ -3072,21 +3074,21 @@ namespace Medisoft
             this.chkToathuoc.CheckOnClick = true;
             this.chkToathuoc.CheckState = System.Windows.Forms.CheckState.Checked;
             this.chkToathuoc.Name = "chkToathuoc";
-            this.chkToathuoc.Size = new System.Drawing.Size(187, 22);
+            this.chkToathuoc.Size = new System.Drawing.Size(183, 22);
             this.chkToathuoc.Text = "In kèm toa thuốc";
             // 
             // chkXem
             // 
             this.chkXem.CheckOnClick = true;
             this.chkXem.Name = "chkXem";
-            this.chkXem.Size = new System.Drawing.Size(187, 22);
+            this.chkXem.Size = new System.Drawing.Size(183, 22);
             this.chkXem.Text = "Xem trước khi in";
             // 
             // chkIn
             // 
             this.chkIn.CheckOnClick = true;
             this.chkIn.Name = "chkIn";
-            this.chkIn.Size = new System.Drawing.Size(187, 22);
+            this.chkIn.Size = new System.Drawing.Size(183, 22);
             this.chkIn.Text = "In thanh toan ra viện";
             // 
             // tbutchuphinh
@@ -3139,7 +3141,7 @@ namespace Medisoft
             this.button1.BackColor = System.Drawing.SystemColors.Control;
             this.button1.Location = new System.Drawing.Point(2, 25);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(787, 106);
+            this.button1.Size = new System.Drawing.Size(1001, 106);
             this.button1.TabIndex = 259;
             this.button1.UseVisualStyleBackColor = false;
             // 
@@ -3151,7 +3153,7 @@ namespace Medisoft
             this.button2.BackColor = System.Drawing.SystemColors.Control;
             this.button2.Location = new System.Drawing.Point(433, 132);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(356, 373);
+            this.button2.Size = new System.Drawing.Size(570, 373);
             this.button2.TabIndex = 32;
             this.button2.UseVisualStyleBackColor = false;
             // 
@@ -3160,7 +3162,7 @@ namespace Medisoft
             this.chkXML.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.chkXML.BackColor = System.Drawing.SystemColors.Control;
             this.chkXML.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.chkXML.Location = new System.Drawing.Point(658, 509);
+            this.chkXML.Location = new System.Drawing.Point(872, 509);
             this.chkXML.Name = "chkXML";
             this.chkXML.Size = new System.Drawing.Size(124, 17);
             this.chkXML.TabIndex = 261;
@@ -3177,7 +3179,7 @@ namespace Medisoft
             this.maxutri.Location = new System.Drawing.Point(617, 284);
             this.maxutri.Masked = MaskedTextBox.MaskedTextBox.Mask.None;
             this.maxutri.Name = "maxutri";
-            this.maxutri.Size = new System.Drawing.Size(168, 21);
+            this.maxutri.Size = new System.Drawing.Size(382, 21);
             this.maxutri.TabIndex = 25;
             this.maxutri.Validated += new System.EventHandler(this.maxutri_Validated);
             // 
@@ -3318,7 +3320,7 @@ namespace Medisoft
             this.cd_nguyennhan.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cd_nguyennhan.Location = new System.Drawing.Point(553, 240);
             this.cd_nguyennhan.Name = "cd_nguyennhan";
-            this.cd_nguyennhan.Size = new System.Drawing.Size(232, 21);
+            this.cd_nguyennhan.Size = new System.Drawing.Size(446, 21);
             this.cd_nguyennhan.TabIndex = 21;
             this.cd_nguyennhan.Validated += new System.EventHandler(this.cd_nguyennhan_Validated);
             this.cd_nguyennhan.KeyDown += new System.Windows.Forms.KeyEventHandler(this.cd_nguyennhan_KeyDown);
@@ -3374,10 +3376,22 @@ namespace Medisoft
             this.chkBhyt.UseVisualStyleBackColor = false;
             this.chkBhyt.CheckedChanged += new System.EventHandler(this.chkBhyt_CheckedChanged);
             // 
+            // button4
+            // 
+            this.button4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.button4.Location = new System.Drawing.Point(791, 506);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(70, 25);
+            this.button4.TabIndex = 276;
+            this.button4.Text = "In Mã BN";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
             // frmPhongluu
             // 
             this.AutoScaleBaseSize = new System.Drawing.Size(5, 13);
-            this.ClientSize = new System.Drawing.Size(792, 536);
+            this.ClientSize = new System.Drawing.Size(1006, 536);
+            this.Controls.Add(this.button4);
             this.Controls.Add(this.mathe);
             this.Controls.Add(this.chkBhyt);
             this.Controls.Add(this.icd_kemtheo);
@@ -9376,6 +9390,33 @@ lan.Change_language_MessageText("Phòng lưu"), tenbs.Text, "", m.Mabv + "/" + m
             //    }
             //    catch { }
             //}
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            if (mabn3.Text.Length > 1)
+            {
+                DataSet dsbarcode = new DataSet();
+                dsbarcode.ReadXml("..//..//..//xml//m_bnmoi.xml");
+                dsbarcode.Tables[0].Clear();
+                dsbarcode.Tables[0].Columns.Add("mabn");
+                dsbarcode.Tables[0].Columns.Add("hoten");
+                dsbarcode.Tables[0].Columns.Add("namsinh");
+                dsbarcode.Tables[0].Columns.Add("phai");
+                dsbarcode.Tables[0].Columns.Add("diachi");
+                dsbarcode.Tables[0].Columns.Add("barcode");
+                dsbarcode.Tables[0].Columns.Add("image", typeof(byte[]));
+                DataRow dr = dsbarcode.Tables[0].NewRow();
+                dr["mabn"] = f_get_mabn();
+                dr["hoten"] = hoten.Text;
+                dr["namsinh"] = namsinh.Text;
+                dr["phai"] = phai.Text;
+                dr["diachi"] = sonha.Text.Trim() + " " + thon.Text.Trim() + " " + tenpxa.Text.Trim() + ", " + tenquan.Text.Trim() + ", " + tentinh.Text.Trim();
+                dr["image"] = null;
+                dsbarcode.Tables[0].Rows.Add(dr);
+                dllReportM.frmReport f = new dllReportM.frmReport(m, dsbarcode, "rptbarcode.rpt", f_get_mabn(), hoten.Text, namsinh.Text, phai.Text, sonha.Text.Trim() + " " + thon.Text.Trim() + " " + tenpxa.Text.Trim() + "," + tenquan.Text.Trim() + "," + tentinh.Text.Trim(), "");
+                f.ShowDialog(this);
+            }
         }
 
     }
