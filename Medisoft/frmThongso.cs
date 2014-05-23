@@ -808,6 +808,7 @@ namespace Medisoft
         private CheckBox sovaovien;
         private NumericUpDown c352;
         private CheckBox c50034;
+        private CheckBox c50114;
 
         //linh
         private DataSet dsCom = new DataSet();
@@ -1423,16 +1424,6 @@ namespace Medisoft
             this.label105 = new System.Windows.Forms.Label();
             this.c395 = new System.Windows.Forms.CheckBox();
             this.c384 = new System.Windows.Forms.CheckBox();
-            this.p10_phonggiuong = new System.Windows.Forms.Panel();
-            this.c1103 = new System.Windows.Forms.CheckBox();
-            this.c1102 = new System.Windows.Forms.CheckBox();
-            this.c1071 = new System.Windows.Forms.CheckBox();
-            this.c278 = new System.Windows.Forms.CheckBox();
-            this.c1070 = new System.Windows.Forms.CheckBox();
-            this.c1057 = new System.Windows.Forms.CheckBox();
-            this.c377 = new System.Windows.Forms.CheckBox();
-            this.c280 = new System.Windows.Forms.ComboBox();
-            this.c279 = new System.Windows.Forms.CheckBox();
             this.c1088 = new System.Windows.Forms.CheckBox();
             this.c594 = new System.Windows.Forms.ComboBox();
             this.label139 = new System.Windows.Forms.Label();
@@ -1515,6 +1506,16 @@ namespace Medisoft
             this.c1502 = new System.Windows.Forms.CheckBox();
             this.c446 = new System.Windows.Forms.CheckBox();
             this.c595 = new System.Windows.Forms.CheckBox();
+            this.p10_phonggiuong = new System.Windows.Forms.Panel();
+            this.c1103 = new System.Windows.Forms.CheckBox();
+            this.c1102 = new System.Windows.Forms.CheckBox();
+            this.c1071 = new System.Windows.Forms.CheckBox();
+            this.c278 = new System.Windows.Forms.CheckBox();
+            this.c1070 = new System.Windows.Forms.CheckBox();
+            this.c1057 = new System.Windows.Forms.CheckBox();
+            this.c377 = new System.Windows.Forms.CheckBox();
+            this.c280 = new System.Windows.Forms.ComboBox();
+            this.c279 = new System.Windows.Forms.CheckBox();
             this.label59 = new System.Windows.Forms.Label();
             this.p08_CLS = new System.Windows.Forms.Panel();
             this.c1261 = new System.Windows.Forms.CheckBox();
@@ -1607,6 +1608,7 @@ namespace Medisoft
             this.label134 = new System.Windows.Forms.Label();
             this.butCancel = new System.Windows.Forms.Button();
             this.butOk = new System.Windows.Forms.Button();
+            this.c50114 = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.c104)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.c42)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.c43)).BeginInit();
@@ -1674,9 +1676,9 @@ namespace Medisoft
             ((System.ComponentModel.ISupportInitialize)(this.c1062)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.c1030)).BeginInit();
             this.p07_vienphi.SuspendLayout();
-            this.p10_phonggiuong.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.c429)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.c366)).BeginInit();
+            this.p10_phonggiuong.SuspendLayout();
             this.p08_CLS.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.c339)).BeginInit();
             this.p09_phauthuthuat.SuspendLayout();
@@ -6279,6 +6281,7 @@ namespace Medisoft
                         | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
             this.p03_chuyenmon.AutoScroll = true;
+            this.p03_chuyenmon.Controls.Add(this.c50114);
             this.p03_chuyenmon.Controls.Add(this.c1513);
             this.p03_chuyenmon.Controls.Add(this.c1511);
             this.p03_chuyenmon.Controls.Add(this.c1509);
@@ -7888,110 +7891,6 @@ namespace Medisoft
             this.c384.TabIndex = 343;
             this.c384.Text = "G30.Khai báo danh mục";
             // 
-            // p10_phonggiuong
-            // 
-            this.p10_phonggiuong.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
-            this.p10_phonggiuong.AutoScroll = true;
-            this.p10_phonggiuong.Controls.Add(this.c1103);
-            this.p10_phonggiuong.Controls.Add(this.c1102);
-            this.p10_phonggiuong.Controls.Add(this.c1071);
-            this.p10_phonggiuong.Controls.Add(this.c278);
-            this.p10_phonggiuong.Controls.Add(this.c1070);
-            this.p10_phonggiuong.Controls.Add(this.c1057);
-            this.p10_phonggiuong.Controls.Add(this.c234);
-            this.p10_phonggiuong.Controls.Add(this.c377);
-            this.p10_phonggiuong.Controls.Add(this.c280);
-            this.p10_phonggiuong.Controls.Add(this.c279);
-            this.p10_phonggiuong.Controls.Add(this.c247);
-            this.p10_phonggiuong.Controls.Add(this.c236);
-            this.p10_phonggiuong.Controls.Add(this.label54);
-            this.p10_phonggiuong.Controls.Add(this.c235);
-            this.p10_phonggiuong.Location = new System.Drawing.Point(157, 3);
-            this.p10_phonggiuong.Name = "p10_phonggiuong";
-            this.p10_phonggiuong.Size = new System.Drawing.Size(3102, 475);
-            this.p10_phonggiuong.TabIndex = 88;
-            this.p10_phonggiuong.Visible = false;
-            // 
-            // c1103
-            // 
-            this.c1103.Location = new System.Drawing.Point(33, 240);
-            this.c1103.Name = "c1103";
-            this.c1103.Size = new System.Drawing.Size(342, 32);
-            this.c1103.TabIndex = 241;
-            this.c1103.Text = "J10.1 Nếu ngày phẫu thuật hoặc ngày sanh trừ ngày vào khoa <1 thì không tính";
-            // 
-            // c1102
-            // 
-            this.c1102.Location = new System.Drawing.Point(6, 217);
-            this.c1102.Name = "c1102";
-            this.c1102.Size = new System.Drawing.Size(392, 19);
-            this.c1102.TabIndex = 240;
-            this.c1102.Text = "J10. Tính tiền giường tự động theo bảng giá của BHYT";
-            this.c1102.CheckedChanged += new System.EventHandler(this.c1102_CheckedChanged);
-            // 
-            // c1071
-            // 
-            this.c1071.Location = new System.Drawing.Point(6, 198);
-            this.c1071.Name = "c1071";
-            this.c1071.Size = new System.Drawing.Size(392, 19);
-            this.c1071.TabIndex = 239;
-            this.c1071.Text = "J09. Tính tiền giường lúc đặt giường";
-            // 
-            // c278
-            // 
-            this.c278.Location = new System.Drawing.Point(6, 85);
-            this.c278.Name = "c278";
-            this.c278.Size = new System.Drawing.Size(444, 19);
-            this.c278.TabIndex = 233;
-            this.c278.Text = "J05 - Giường dịch vụ <12 giờ tính nữa ngày, Giường thường ngày ra-ngày vào";
-            this.c278.CheckedChanged += new System.EventHandler(this.c278_CheckedChanged);
-            // 
-            // c1070
-            // 
-            this.c1070.Location = new System.Drawing.Point(6, 99);
-            this.c1070.Name = "c1070";
-            this.c1070.Size = new System.Drawing.Size(444, 36);
-            this.c1070.TabIndex = 238;
-            this.c1070.Text = "J05.1 - Giường thường ngày ra-ngày vào, Giường dịch vụ tính thêm 0.5 ngày khi: Và" +
-                "o sáng, ra sáng hoặc vào chiều ra chiều; tính thêm 1 ngày: vào sáng ra chiều";
-            this.c1070.CheckedChanged += new System.EventHandler(this.c1070_CheckedChanged);
-            // 
-            // c1057
-            // 
-            this.c1057.Location = new System.Drawing.Point(6, 179);
-            this.c1057.Name = "c1057";
-            this.c1057.Size = new System.Drawing.Size(392, 19);
-            this.c1057.TabIndex = 237;
-            this.c1057.Text = "J08 - Bệnh nhân khoa A, có thể nằm giường khoa B (do hết giường khoa A)";
-            // 
-            // c377
-            // 
-            this.c377.Location = new System.Drawing.Point(6, 160);
-            this.c377.Name = "c377";
-            this.c377.Size = new System.Drawing.Size(392, 19);
-            this.c377.TabIndex = 236;
-            this.c377.Text = "J07 - Theo bệnh án";
-            // 
-            // c280
-            // 
-            this.c280.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.c280.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.c280.Location = new System.Drawing.Point(178, 137);
-            this.c280.Name = "c280";
-            this.c280.Size = new System.Drawing.Size(244, 21);
-            this.c280.TabIndex = 235;
-            // 
-            // c279
-            // 
-            this.c279.Location = new System.Drawing.Point(6, 139);
-            this.c279.Name = "c279";
-            this.c279.Size = new System.Drawing.Size(344, 19);
-            this.c279.TabIndex = 234;
-            this.c279.Text = "J06. Đối tượng phòng dịch vụ";
-            this.c279.CheckedChanged += new System.EventHandler(this.c279_CheckedChanged);
-            // 
             // c1088
             // 
             this.c1088.Location = new System.Drawing.Point(540, 25);
@@ -8705,6 +8604,110 @@ namespace Medisoft
             this.c595.Text = "G90. Làm tròn đơn giá toa thuốc mua ngoài";
             this.toolTip1.SetToolTip(this.c595, "Làm tròn đơn giá 2 ký tự và làm tròn tổng tiền 3 ký tự đối với đối tượng khác BHY" +
                     "T ");
+            // 
+            // p10_phonggiuong
+            // 
+            this.p10_phonggiuong.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.p10_phonggiuong.AutoScroll = true;
+            this.p10_phonggiuong.Controls.Add(this.c1103);
+            this.p10_phonggiuong.Controls.Add(this.c1102);
+            this.p10_phonggiuong.Controls.Add(this.c1071);
+            this.p10_phonggiuong.Controls.Add(this.c278);
+            this.p10_phonggiuong.Controls.Add(this.c1070);
+            this.p10_phonggiuong.Controls.Add(this.c1057);
+            this.p10_phonggiuong.Controls.Add(this.c234);
+            this.p10_phonggiuong.Controls.Add(this.c377);
+            this.p10_phonggiuong.Controls.Add(this.c280);
+            this.p10_phonggiuong.Controls.Add(this.c279);
+            this.p10_phonggiuong.Controls.Add(this.c247);
+            this.p10_phonggiuong.Controls.Add(this.c236);
+            this.p10_phonggiuong.Controls.Add(this.label54);
+            this.p10_phonggiuong.Controls.Add(this.c235);
+            this.p10_phonggiuong.Location = new System.Drawing.Point(157, 3);
+            this.p10_phonggiuong.Name = "p10_phonggiuong";
+            this.p10_phonggiuong.Size = new System.Drawing.Size(3102, 475);
+            this.p10_phonggiuong.TabIndex = 88;
+            this.p10_phonggiuong.Visible = false;
+            // 
+            // c1103
+            // 
+            this.c1103.Location = new System.Drawing.Point(33, 240);
+            this.c1103.Name = "c1103";
+            this.c1103.Size = new System.Drawing.Size(342, 32);
+            this.c1103.TabIndex = 241;
+            this.c1103.Text = "J10.1 Nếu ngày phẫu thuật hoặc ngày sanh trừ ngày vào khoa <1 thì không tính";
+            // 
+            // c1102
+            // 
+            this.c1102.Location = new System.Drawing.Point(6, 217);
+            this.c1102.Name = "c1102";
+            this.c1102.Size = new System.Drawing.Size(392, 19);
+            this.c1102.TabIndex = 240;
+            this.c1102.Text = "J10. Tính tiền giường tự động theo bảng giá của BHYT";
+            this.c1102.CheckedChanged += new System.EventHandler(this.c1102_CheckedChanged);
+            // 
+            // c1071
+            // 
+            this.c1071.Location = new System.Drawing.Point(6, 198);
+            this.c1071.Name = "c1071";
+            this.c1071.Size = new System.Drawing.Size(392, 19);
+            this.c1071.TabIndex = 239;
+            this.c1071.Text = "J09. Tính tiền giường lúc đặt giường";
+            // 
+            // c278
+            // 
+            this.c278.Location = new System.Drawing.Point(6, 85);
+            this.c278.Name = "c278";
+            this.c278.Size = new System.Drawing.Size(444, 19);
+            this.c278.TabIndex = 233;
+            this.c278.Text = "J05 - Giường dịch vụ <12 giờ tính nữa ngày, Giường thường ngày ra-ngày vào";
+            this.c278.CheckedChanged += new System.EventHandler(this.c278_CheckedChanged);
+            // 
+            // c1070
+            // 
+            this.c1070.Location = new System.Drawing.Point(6, 99);
+            this.c1070.Name = "c1070";
+            this.c1070.Size = new System.Drawing.Size(444, 36);
+            this.c1070.TabIndex = 238;
+            this.c1070.Text = "J05.1 - Giường thường ngày ra-ngày vào, Giường dịch vụ tính thêm 0.5 ngày khi: Và" +
+                "o sáng, ra sáng hoặc vào chiều ra chiều; tính thêm 1 ngày: vào sáng ra chiều";
+            this.c1070.CheckedChanged += new System.EventHandler(this.c1070_CheckedChanged);
+            // 
+            // c1057
+            // 
+            this.c1057.Location = new System.Drawing.Point(6, 179);
+            this.c1057.Name = "c1057";
+            this.c1057.Size = new System.Drawing.Size(392, 19);
+            this.c1057.TabIndex = 237;
+            this.c1057.Text = "J08 - Bệnh nhân khoa A, có thể nằm giường khoa B (do hết giường khoa A)";
+            // 
+            // c377
+            // 
+            this.c377.Location = new System.Drawing.Point(6, 160);
+            this.c377.Name = "c377";
+            this.c377.Size = new System.Drawing.Size(392, 19);
+            this.c377.TabIndex = 236;
+            this.c377.Text = "J07 - Theo bệnh án";
+            // 
+            // c280
+            // 
+            this.c280.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.c280.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.c280.Location = new System.Drawing.Point(178, 137);
+            this.c280.Name = "c280";
+            this.c280.Size = new System.Drawing.Size(244, 21);
+            this.c280.TabIndex = 235;
+            // 
+            // c279
+            // 
+            this.c279.Location = new System.Drawing.Point(6, 139);
+            this.c279.Name = "c279";
+            this.c279.Size = new System.Drawing.Size(344, 19);
+            this.c279.TabIndex = 234;
+            this.c279.Text = "J06. Đối tượng phòng dịch vụ";
+            this.c279.CheckedChanged += new System.EventHandler(this.c279_CheckedChanged);
             // 
             // label59
             // 
@@ -9763,12 +9766,20 @@ namespace Medisoft
             this.butOk.Text = "    &Lưu";
             this.butOk.Click += new System.EventHandler(this.butOk_Click);
             // 
+            // c50114
+            // 
+            this.c50114.Location = new System.Drawing.Point(1056, 254);
+            this.c50114.Name = "c50114";
+            this.c50114.Size = new System.Drawing.Size(348, 21);
+            this.c50114.TabIndex = 323;
+            this.c50114.Text = "C78 - Xuất thuốc tủ trực theo gói không cho phép sửa";
+            // 
             // frmThongso
             // 
             this.AutoScaleBaseSize = new System.Drawing.Size(5, 13);
             this.ClientSize = new System.Drawing.Size(828, 515);
-            this.Controls.Add(this.p01_chung);
             this.Controls.Add(this.p03_chuyenmon);
+            this.Controls.Add(this.p01_chung);
             this.Controls.Add(this.p02_hanhchinh);
             this.Controls.Add(this.p07_vienphi);
             this.Controls.Add(this.p06_duoc);
@@ -9869,9 +9880,9 @@ namespace Medisoft
             ((System.ComponentModel.ISupportInitialize)(this.c1030)).EndInit();
             this.p07_vienphi.ResumeLayout(false);
             this.p07_vienphi.PerformLayout();
-            this.p10_phonggiuong.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.c429)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.c366)).EndInit();
+            this.p10_phonggiuong.ResumeLayout(false);
             this.p08_CLS.ResumeLayout(false);
             this.p08_CLS.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.c339)).EndInit();
