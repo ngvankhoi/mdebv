@@ -24,7 +24,7 @@
     <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
     <DefaultTargetSchema>IE50</DefaultTargetSchema>
     <DelaySign>false</DelaySign>
-    <OutputType>WinExe</OutputType>
+    <OutputType>Library</OutputType>
     <RootNamespace>dllVuKeHoach</RootNamespace>
     <StartupObject>
     </StartupObject>
@@ -91,6 +91,10 @@
     <Reference Include="LibDuoc, Version=1.0.4454.18891, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\LibDuoc\bin\Debug\LibDuoc.dll</HintPath>
+    </Reference>
+    <Reference Include="LibMedi, Version=1.0.5253.21322, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\LibMedi\bin\Debug\LibMedi.dll</HintPath>
     </Reference>
     <Reference Include="System">
       <Name>System</Name>
@@ -345,12 +349,6 @@
   </ItemGroup>
   <ItemGroup>
     <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\LibMedi\LibMedi.csproj">
-      <Project>{95A47237-99CE-4B55-9867-D4CF46AA9E08}</Project>
-      <Name>LibMedi</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
