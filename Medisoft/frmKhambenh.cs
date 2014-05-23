@@ -6814,7 +6814,7 @@ namespace Medisoft
             {
                 if (sothe.Enabled && sothe.Text != "")
                 {
-                    string s = m.mabn_bhyt(nam, mabn2.Text + mabn3.Text, sothe.Text);
+                    string s = m.mabn_bhyt_ngayhethan(nam, mabn2.Text + mabn3.Text, sothe.Text,denngay.Text);
                     if (s != "")
                     {
                         MessageBox.Show(lan.Change_language_MessageText("Số thẻ")+" " + sothe.Text +"\n"+ lan.Change_language_MessageText("Đã có mã người bệnh :") + s +"\n"+ lan.Change_language_MessageText("Sử dụng !)"), LibMedi.AccessData.Msg);
@@ -10639,7 +10639,8 @@ namespace Medisoft
             //{
             //    i_dt = int.Parse(s_dt[0]);
             //}
-            frmBaohiem f = new frmBaohiem(false, s_mabn, 9, s_mmyy, ngayvv.Text + " " + giovv.Text, m.nhom_duoc, i_userid, "Đơn thuốc", l_matd, l_maql, hoten.Text, namsinh.Text + "^" + ngaysinh.Text, sothe.Text, tenkp.Text, tenbs.Text, icd_chinh.Text, cd_chinh.Text,3, makp.Text, mabs.Text, "Miễn phí", cholam.Text, adiachi.Trim().Trim(','), nam, user + m.mmyy(ngayvv.Text) + ".bhyt", 3, s_noicap, false, ss_madoituong, ngayvv.Text + " " + giovv.Text, trieuchung.Text.Replace("\r\n", " "), traituyen.SelectedIndex, ngay1, ngay2, ngay3, phai.Text, bXemlai_toa, i_khudt);
+            //Toa thuoc chuong trinh
+            frmBaohiem f = new frmBaohiem(false, s_mabn, (int)LibMedi.NhomPhieuLinh_CapToa.CaptoaThuocChuongTrinh, s_mmyy, ngayvv.Text + " " + giovv.Text, m.nhom_duoc, i_userid, "Đơn thuốc", l_matd, l_maql, hoten.Text, namsinh.Text + "^" + ngaysinh.Text, sothe.Text, tenkp.Text, tenbs.Text, icd_chinh.Text, cd_chinh.Text,3, makp.Text, mabs.Text, "Miễn phí", cholam.Text, adiachi.Trim().Trim(','), nam, user + m.mmyy(ngayvv.Text) + ".bhyt", (int)LibMedi.LoaiBenhAn.Phongkham, s_noicap, false, ss_madoituong, ngayvv.Text + " " + giovv.Text, trieuchung.Text.Replace("\r\n", " "), traituyen.SelectedIndex, ngay1, ngay2, ngay3, phai.Text, bXemlai_toa, i_khudt);
             f.ShowDialog(this);
             ena_but(!m.bCaptoa_xong_tudongluu);
             load_baohiem();

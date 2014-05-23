@@ -39,4 +39,28 @@ namespace LibMedi
         SoluutruPK_PL_NGT_tudong=200,
         Soluutru_ngtru_nam=-999,
     }
+
+    public enum LoaiBenhAn
+    {
+        Noitru=1,
+        Ngoaitru=2,
+        Phongkham=3,
+        Phongluu=4,
+        Tiepdon=5,
+    }
+    /// <summary>
+    /// Nhom phieu khai bao trong duoc
+    /// </summary>
+    public enum NhomPhieuLinh_CapToa
+    {
+        Phieulinh=1,
+        PhieuXuatBuTuTruc=2,
+        PhieuHoanTra=3,
+        PhieuHaoPhiKhoaPhong=4,
+        CapToaBHYT=5,
+        CapToaBNPK_Khong_BHYT=6,
+        CapToaDichvu=7,
+        CapToa_BN_Dieutringoaitru=8,
+        CaptoaThuocChuongTrinh=9,
+    }
 }

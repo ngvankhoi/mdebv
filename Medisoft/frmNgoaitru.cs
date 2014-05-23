@@ -6062,7 +6062,7 @@ lan.Change_language_MessageText("DỊ ỨNG THUỐC :")+tlbl.Text;
             {
                 if (sothe.Enabled && sothe.Text != "")
                 {
-                    string s = m.mabn_bhyt(mabn2.Text + mabn3.Text, sothe.Text);
+                    string s = m.mabn_bhyt_ngayhethan(mabn2.Text + mabn3.Text, sothe.Text,denngay.Text);
                     if (s != "")
                     {
                         MessageBox.Show(lan.Change_language_MessageText("Số thẻ") + " " + sothe.Text + "\n" + lan.Change_language_MessageText("Đã có mã người bệnh nội trú:") + " " + s + "\n" + lan.Change_language_MessageText("Sử dụng !"), LibMedi.AccessData.Msg);

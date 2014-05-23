@@ -2067,14 +2067,16 @@ namespace Duoc
 
             string s = "";
             sql = "select * from "+user+".doituong ";
-            if (i_loaiba != 2)
+            if (i_loaiba != (int)LibMedi.LoaiBenhAn.Ngoaitru) //if (i_loaiba != 2)
             {
                 if (i_madoituong == 1) sql += " where madoituong=1";
                 else
                 {
                     sql += "where madoituong<>1";
                     foreach (DataRow r in d.get_data("select madoituong from " + user + ".d_dmphieu where id=" + i_loai).Tables[0].Rows) s = r["madoituong"].ToString().Trim();
-                    if (s != "") sql += " and madoituong in (" + s.Substring(0, s.Length - 1) + ")";
+                    if (i_loai == (int)LibMedi.NhomPhieuLinh_CapToa.CaptoaThuocChuongTrinh) s = s.Contains("3") ? s.Trim() : s.Trim() +"3,";
+                    if (s.Trim().Trim(',') != "") sql += " and madoituong in (" + s.Trim().Trim(',') + ")";
+                    
                 }
             }
             else

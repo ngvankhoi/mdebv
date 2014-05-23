@@ -2443,7 +2443,8 @@ namespace Medisoft
             if (!bChonkhoa) load_don();
 
             sql = "select * from "+user+".doituong";
-            if (s_madoituong != "") sql += " where madoituong in (" + s_madoituong.Substring(0, s_madoituong.Length - 1) + ")";
+            if (i_loai == 9) sql += " where madoituong=3 ";
+            else if (s_madoituong != "") sql += " where madoituong in (" + s_madoituong.Substring(0, s_madoituong.Length - 1) + ")";
             else if(i_loai == 7) sql += " where madoituong in (select madoituong from medibv.doituong)";
             sql += " order by madoituong";
             madoituong.DisplayMember = "DOITUONG";

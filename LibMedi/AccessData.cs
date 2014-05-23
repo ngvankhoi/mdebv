@@ -36023,6 +36023,13 @@ namespace LibMedi
             if (ds.Tables[0].Rows.Count > 0) return ds.Tables[0].Rows[0]["mabn"].ToString();
             else return "";
         }
+        public string mabn_bhyt_ngayhethan(string mabn, string sothe,string ngayhethan)
+        {
+            sql = "select mabn from " + user + ".bhyt where sothe='" + sothe + "' and mabn<>'" + mabn + "' and to_char(denngay,'dd/mm/yyyy')= '" + ngayhethan + "'";
+            ds = get_data(sql);
+            if (ds.Tables[0].Rows.Count > 0) return ds.Tables[0].Rows[0]["mabn"].ToString();
+            else return "";
+        }
 
         public string mabn_bhyt(string nam, string mabn, string sothe)
         {
@@ -36039,6 +36046,27 @@ namespace LibMedi
             {
                 foreach (DataRow r in get_data("select mmyy from " + user + ".table order by substr(mmyy,3,2) desc,substr(mmyy,1,2) desc ").Tables[0].Rows) nam += r["mmyy"].ToString() + "+";
                 sql = "select distinct mabn from xxx.bhyt where sothe='" + sothe + "' and mabn<>'" + mabn + "'";
+                ds = get_data_nam_dec(nam, sql);
+            }
+            if (ds.Tables[0].Rows.Count > 0) return ds.Tables[0].Rows[0]["mabn"].ToString();
+            else return "";
+        }
+
+          public string mabn_bhyt_ngayhethan(string nam, string mabn, string sothe,string ngayhethan)
+        {
+            //nam = "";
+            //foreach (DataRow r in get_data("select mmyy from " + user + ".table order by substr(mmyy,3,2) desc,substr(mmyy,1,2) desc ").Tables[0].Rows) nam += r["mmyy"].ToString() + "+";
+            //sql = "select * from xxx.bhyt where sothe='" + sothe + "' and mabn<>'" + mabn + "'";
+            //ds = get_data_nam_dec(nam, sql);
+            //if (ds.Tables[0].Rows.Count > 0) return ds.Tables[0].Rows[0]["mabn"].ToString();
+            //else return "";
+            nam = "";
+            sql = "select distinct mabn from medibv.bhyt where sothe='" + sothe + "' and mabn<>'" + mabn + "' and to_char(denngay,'dd/mm/yyyy')= '"+ngayhethan+"'";
+            ds = get_data(sql);
+            if (ds == null || ds.Tables.Count <= 0 || ds.Tables[0].Rows.Count <= 0)
+            {
+                foreach (DataRow r in get_data("select mmyy from " + user + ".table order by substr(mmyy,3,2) desc,substr(mmyy,1,2) desc ").Tables[0].Rows) nam += r["mmyy"].ToString() + "+";
+                sql = "select distinct mabn from xxx.bhyt where sothe='" + sothe + "' and mabn<>'" + mabn + "' and to_char(denngay,'dd/mm/yyyy')= '"+ngayhethan+"'";
                 ds = get_data_nam_dec(nam, sql);
             }
             if (ds.Tables[0].Rows.Count > 0) return ds.Tables[0].Rows[0]["mabn"].ToString();
