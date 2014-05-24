@@ -8,5 +8,5 @@
 */save/
 *.sln
 *.suo
-#/xml/maincode.xml
+/xml/maincode.xml
 /*.*

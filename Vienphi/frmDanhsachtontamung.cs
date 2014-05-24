@@ -596,7 +596,12 @@ namespace Vienphi
 
         private void backgroundWorker1_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
         {
-            this.Cursor = Cursors.Default;
+            this.Invoke((MethodInvoker)delegate()
+            {
+                this.Cursor = Cursors.Arrow; 
+            });
+            
+           
             if (e.Result != null)
             {
                 ParamAsynResult result = e.Result as ParamAsynResult;

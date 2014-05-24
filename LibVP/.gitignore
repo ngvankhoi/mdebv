@@ -8,3 +8,4 @@
 */save/
 !/bin/*/*.dll
 #/xml/maincode.xml
+/bin/*/LibVP.dll
