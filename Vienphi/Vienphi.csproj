@@ -1566,11 +1566,31 @@
     <Compile Include="sjDataGridComboBox.Designer.cs">
       <DependentUpon>sjDataGridComboBox.cs</DependentUpon>
     </Compile>
+    <Compile Include="VPDatasets\datasetDanhsachtontamung.cs">
+      <DependentUpon>datasetDanhsachtontamung.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="VPDatasets\datasetDanhsachtontamung.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>datasetDanhsachtontamung.xsd</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="APP.ICO" />
     <Content Include="Medisoft.ICO" />
     <None Include="Resources\Icon2.ico" />
+    <None Include="VPDatasets\datasetDanhsachtontamung.xsc">
+      <DependentUpon>datasetDanhsachtontamung.xsd</DependentUpon>
+    </None>
+    <None Include="VPDatasets\datasetDanhsachtontamung.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>datasetDanhsachtontamung.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="VPDatasets\datasetDanhsachtontamung.xss">
+      <DependentUpon>datasetDanhsachtontamung.xsd</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
@@ -1584,7 +1604,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\LibVP\LibVP.csproj">
-      <Project>{32440DBE-505F-455F-A334-407C1FB06123}</Project>
+      <Project>{861BFFF9-34D6-4B84-9246-A92FA13DC317}</Project>
       <Name>LibVP</Name>
     </ProjectReference>
   </ItemGroup>

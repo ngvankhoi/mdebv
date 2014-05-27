@@ -22863,6 +22863,7 @@ namespace LibMedi
                     if (int.Parse(dr[i]["madoituong"].ToString()) != 1) exs = "";
                     foreach (DataRow r in tmp.Select(exs))
                     {
+                        int id = int.Parse(r["mabd"].ToString());
                         r2 = getrowbyid(dtbd, "id=" + int.Parse(r["mabd"].ToString()));
                         if (r2 != null)
                         {
@@ -22972,9 +22973,18 @@ namespace LibMedi
                             }
                             else if (s_madt == "1" && decimal.Parse(r["bhyt"].ToString()) > 0 && decimal.Parse(r["sotien"].ToString()) != decimal.Parse(r["bhyt"].ToString()))
                             {
-                                s_ten += " BHYT thanh toán " + r2["bhyt"].ToString().Trim() + " %";
+                                s_ten += " BHYT thanh toán " + r2["bhyt"].ToString().Trim() + " %"; // khoild
                                 dg1 = dongia * decimal.Parse(r2["bhyt"].ToString()) / 100;
-                                st1 = decimal.Parse(r["bhyt"].ToString());
+                                st1 = decimal.Parse(r["bhyt"].ToString());                               
+                                if (s_madt == "1" && bGia_bh_quydinh && bLayGiabhyt_giamua == false)
+                                {
+                                    giamua = (r["gia_bh"].ToString() == "") ? 0 : decimal.Parse(r["gia_bh"].ToString());/////////////// nghi ngo
+                                    if (giamua > 0)
+                                    {
+                                        dg1 = dongia = giamua * decimal.Parse(r2["bhyt"].ToString()) / 100;
+                                        st1 = decimal.Parse(r["soluong"].ToString()) * dg1;
+                                    }
+                                }
                             }
                             else if (s_madt == "1" && r2["kcct"].ToString() == "1")
                             {
@@ -22982,7 +22992,7 @@ namespace LibMedi
                             }
                             else if (s_madt == "1" && bGia_bh_quydinh && bLayGiabhyt_giamua==false)
                             {
-                                giamua = (r["gia_bh"].ToString() == "") ? 0 : decimal.Parse(r["gia_bh"].ToString());
+                                giamua = (r["gia_bh"].ToString() == "") ? 0 : decimal.Parse(r["gia_bh"].ToString());/////////////// nghi ngo
                                 dg1 = dongia = giamua;
                                 st1 = decimal.Parse(r["soluong"].ToString()) * dg1;
                             }
@@ -23002,6 +23012,7 @@ namespace LibMedi
                                     dr[i]["tenbs"].ToString(), dr[i]["makp"].ToString(), dr[i]["cholam"].ToString(),
                                     i_madoituongvao, decimal.Parse(r["gianovat"].ToString()), decimal.Parse(r["idttrv"].ToString()),
                                     st1, int.Parse(dr[i]["traituyen"].ToString()), kythuat, r["mabs"].ToString(), (r["id_ktcao"].ToString() == null || r["id_ktcao"].ToString() == "") ? 0 : decimal.Parse(r["id_ktcao"].ToString()), 0, dKythuatcao_chitratoiday, 0, 0);
+                           // decimal ttt= decimal.Parse(r["bhyt"].ToString());
                             }
                             if (dr[i]["done"].ToString() == "0" && r["toathuoc"].ToString() == "0")
                             {
@@ -25295,7 +25306,7 @@ namespace LibMedi
                         sql += "sum(0) as bhytt0107,";
                         sql += "sum(case when c.loai=0 then ";
                         sql += "case when a.madoituong=1 then a.soluong*a.giamua*b.bhyt/100 else 0 end ";
-                        sql += "else case when a.madoituong=1 then a.soluong*a.giaban*b.bhyt/100 else 0 end  end) as bhyt";
+                        sql += "else case when a.madoituong=1 then a.soluong*a.giaban*b.bhyt/100 else 0 end  end) as bhyt,b.bhyt tlbhyt";
                         sql += ",to_number('0') as toathuoc, a.traituyen ";
                         sql += ", a.gia_bh ";//binh 290611
                         sql += ",a.mabs";//gam 27/0/2012
@@ -25336,7 +25347,7 @@ namespace LibMedi
                         sql += "to_char(a.ngay,'dd/mm/yyyy'),case when d.makp='' then trim(to_char(d.id,'99')) else d.makp end, a.mabd,case when c.loai=0 then a.giamua else a.giaban end";
                         sql += ", a.gia_bh ";//binh 290611
                         sql += ",a.mabs";//gam 27/0/2012
-                        sql += ",b.kythuat,a.id_ktcao, a.id ";//ThanhCuong - 06/08/2012 - Kỹ thuật cao
+                        sql += ",b.kythuat,a.id_ktcao, a.id,b.bhyt ";//ThanhCuong - 06/08/2012 - Kỹ thuật cao
                         if (be == 0) dst = get_data(sql);
                         else dst.Merge(get_data(sql));
                         be++;
@@ -25358,7 +25369,7 @@ namespace LibMedi
                             sql += "sum(0) as bhytt0107,";
                             sql += "sum(case when c.loai=0 then ";
                             sql += "case when a.madoituong=1 then a.soluong*a.giamua*b.bhyt/100 else 0 end ";
-                            sql += "else case when a.madoituong=1 then a.soluong*a.giaban*b.bhyt/100 else 0 end  end) as bhyt";
+                            sql += "else case when a.madoituong=1 then a.soluong*a.giaban*b.bhyt/100 else 0 end  end) as bhyt,b.bhyt tlbhyt";
                             sql += ", to_number('0') as toathuoc, a.traituyen";
                             sql += ", a.gia_bh ";//binh 290611
                             sql += ",a.mabs";//gam 27/0/2012
@@ -25378,7 +25389,7 @@ namespace LibMedi
                             sql += "to_char(a.ngay,'dd/mm/yyyy'),case when d.makp='' then trim(to_char(d.id,'99')) else d.makp end,a.mabd,case when c.loai=0 then a.giamua else a.giaban end";
                             sql += ", a.gia_bh ";//binh 290611
                             sql += ",a.mabs";//gam 27/0/2012
-                            sql += ",a.traituyen,b.kythuat,a.id_ktcao, a.id ";//ThanhCuong - 06/08/2012 - Kỹ thuật cao
+                            sql += ",a.traituyen,b.kythuat,a.id_ktcao, a.id ,b.bhyt";//ThanhCuong - 06/08/2012 - Kỹ thuật cao
                             dst.Merge(get_data(sql));
                         }
                         if (loaiba == 1 || loaiba == 2 || loaiba == 4)//(bCapve || loaiba == 2 || loaiba==4)
@@ -25394,7 +25405,7 @@ namespace LibMedi
                                 sql += "to_char(k.ngay,'dd/mm/yyyy') as ngay,k.makp,a.mabd,t.giaban as dongia,sum(a.soluong) as soluong,";
                                 sql += "sum(a.soluong*t.giaban) as sotien,";
                                 sql += "sum(0) as bhytt0107,";
-                                sql += "sum(a.soluong*t.giaban*b.bhyt/100) as bhyt";
+                                sql += "sum(a.soluong*t.giaban*b.bhyt/100) as bhyt,b.bhyt tlbhyt";
                                 //if (bCapve) sql += ", to_number('0') as toathuoc, k.traituyen ";
                                 //else sql += ", to_number('1') as toathuoc, k.traituyen";
                                 sql += ", to_number('1') as toathuoc, k.traituyen";
@@ -25427,7 +25438,7 @@ namespace LibMedi
                                 sql += "to_char(k.ngay,'dd/mm/yyyy'),k.makp,a.mabd,t.giaban";
                                 sql += ", a.gia_bh ";//binh 290611
                                 sql += ",k.mabs";//gam 27/0/2012
-                                sql += ", b.kythuat, k.id, a.stt ";//ThanhCuong - 06/08/2012 - Kỹ thuật cao
+                                sql += ", b.kythuat, k.id, a.stt,b.bhyt ";//ThanhCuong - 06/08/2012 - Kỹ thuật cao
                                 merge(dst, get_data(sql));
                             }
                             else
@@ -25443,7 +25454,7 @@ namespace LibMedi
                                 sql += "sum(0) as bhytt0107,";
                                 sql += "sum(case when c.loai=0 then ";
                                 sql += "case when k.maphu=1 then a.soluong*t.giamua*b.bhyt/100 else 0 end ";
-                                sql += "else case when k.maphu=1 then a.soluong*t.giaban*b.bhyt/100 else 0 end  end) as bhyt";
+                                sql += "else case when k.maphu=1 then a.soluong*t.giaban*b.bhyt/100 else 0 end  end) as bhyt,b.bhyt tlbhyt";
                                 //if (bCapve) sql += ", to_number('0') as toathuoc, k.traituyen ";
                                 //else sql += ", to_number('1') as toathuoc, k.traituyen ";
                                 sql += ", to_number('1') as toathuoc, k.traituyen";
@@ -25492,7 +25503,7 @@ namespace LibMedi
                             sql += "sum(0) as bhytt0107,";
                             sql += "sum(case when c.loai=0 then ";
                             sql += "case when k.maphu=1 then a.soluong*t.giamua*b.bhyt/100 else 0 end ";
-                            sql += "else case when k.maphu=1 then a.soluong*t.giaban*b.bhyt/100 else 0 end  end) as bhyt";
+                            sql += "else case when k.maphu=1 then a.soluong*t.giaban*b.bhyt/100 else 0 end  end) as bhyt,b.bhyt tlbhyt";
                             //if (bNgtr) sql += ", to_number('0') as toathuoc, k.traituyen ";
                             //else sql += ", to_number('1') as toathuoc, k.traituyen ";
                             sql += ", to_number('1') as toathuoc, k.traituyen";
@@ -25514,7 +25525,7 @@ namespace LibMedi
                             sql += "to_char(k.ngay,'dd/mm/yyyy'),k.makp,a.mabd,case when c.loai=0 then t.giamua else t.giaban end";
                             sql += ", a.gia_bh ";//binh 290611
                             sql += ",k.mabs";//gam 27/0/2012
-                            sql += ", b.kythuat, k.id, a.stt ";//ThanhCuong - 06/08/2012 - Kỹ thuật cao
+                            sql += ", b.kythuat, k.id, a.stt ,b.bhyt";//ThanhCuong - 06/08/2012 - Kỹ thuật cao
                             merge(dst, get_data(sql));
                         }
 
@@ -25531,7 +25542,7 @@ namespace LibMedi
                             sql += " sum(0) as bhytt0107,";
                             sql += " sum(case when c.loai=0 then ";
                             sql += " case when a.madoituong=1 then a.soluong*t.giamua*b.bhyt/100 else 0 end ";
-                            sql += " else case when a.madoituong=1 then a.soluong*a.giaban*b.bhyt/100 else 0 end  end) as bhyt";
+                            sql += " else case when a.madoituong=1 then a.soluong*a.giaban*b.bhyt/100 else 0 end  end) as bhyt,b.bhyt tlbhyt";
                             sql += ", 0 as toathuoc, 0 as traituyen ";
                             sql += ", t.giamua as gia_bh ";//binh 290611
                             sql += ",k.mabs";//gam 27/0/2012
@@ -25550,7 +25561,7 @@ namespace LibMedi
                             sql += " to_char(k.ngay,'dd/mm/yyyy'),d.makp,a.mabd,case when c.loai=0 then t.giamua else a.giaban end";
                             sql += ", t.giamua ";//binh 290611
                             sql += ",k.mabs";//gam 27/0/2012
-                            sql += ", b.kythuat, k.id, a.stt";//ThanhCuong - 06/08/2012 - Kỹ thuật cao
+                            sql += ", b.kythuat, k.id, a.stt,b.bhyt";//ThanhCuong - 06/08/2012 - Kỹ thuật cao
                             merge(dst, get_data(sql));
                             if (done == 1) // tra thuoc theo don ban
                             {
@@ -25565,7 +25576,7 @@ namespace LibMedi
                                 sql += " sum(0) as bhytt0107,";
                                 sql += " sum(case when c.loai=0 then ";
                                 sql += " case when a.tinhtrang=1 then -1*a.soluong*a.giamua*b.bhyt/100 else 0 end ";
-                                sql += " else case when a.tinhtrang=1 then -1*a.soluong*a.giaban*b.bhyt/100 else 0 end  end) as bhyt";
+                                sql += " else case when a.tinhtrang=1 then -1*a.soluong*a.giaban*b.bhyt/100 else 0 end  end) as bhyt,b.bhyt tlbhyt";
                                 sql += ", 0 as toathuoc, 0 as traituyen ";
                                 sql += ", a.giamua as gia_bh ";//binh 290611
                                 sql += ",'' as mabs";//gam 27/0/2012
@@ -25580,11 +25591,19 @@ namespace LibMedi
                                 if (bChenhlechdv) sql += "c.loai,a.giamua,a.giaban,";
                                 sql += "to_char(k.ngayhd,'dd/mm/yyyy'),d.makp,a.mabd,case when c.loai=0 then a.giamua else a.giaban end";
                                 sql += ", a.giamua ";//binh 290611
-                                sql += ", b.kythuat, k.id, a.stt ";//ThanhCuong - 06/08/2012 - Kỹ thuật cao
+                                sql += ", b.kythuat, k.id, a.stt,b.bhyt ";//ThanhCuong - 06/08/2012 - Kỹ thuật cao
                                 merge(dst, get_data(sql));
                             }
                         }
                     }
+                }
+            }
+            //Khôi 27/5/14: sua loi bảo hiem dưới trần vẫn tính 80%
+            if (madoituong == 1 && this.bGia_bh_quydinh && !bLaygiamua_khi_giabh_0_giabh_nho_giamua)
+            {
+                foreach (DataRow dtr in dst.Tables[0].Rows)
+                {
+                    dtr["bhyt"] = decimal.Parse(dtr["gia_bh"].ToString()) * decimal.Parse(dtr["soluong"].ToString()) * decimal.Parse(dtr["tlbhyt"].ToString()) / 100;
                 }
             }
             return (be == 0) ? null : dst.Tables[0];
@@ -26050,6 +26069,7 @@ namespace LibMedi
                     dsv1.AcceptChanges();
                 }
             }
+            
             return (be == 0) ? null : dsv1.Tables[0];
         }
 

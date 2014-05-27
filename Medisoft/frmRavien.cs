@@ -1797,6 +1797,7 @@ namespace Medisoft
                                     dr["quyenso_tt"] = s_quyenso;
 									dsss.Tables[0].Rows.Add(dr);
 								}
+                           // DataTable tst = dsss.Tables[0];
 							d.upd_laitienthuoc(r1["mabn"].ToString(),decimal.Parse(r["maql"].ToString()),r["ngayvao"].ToString(),r["ngayra"].ToString(),true);
 						}
 					}
