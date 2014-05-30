@@ -54,30 +54,33 @@
     </xs:element>
   </xs:schema>
   <Table>
-    <id>300</id>
-    <ma>ACE004</ma>
-    <ten>Aceblue</ten>
+    <id>46</id>
+    <ma>ACE001</ma>
+    <ten>Acepron</ten>
     <dvt>gói</dvt>
-    <hamluong>200mg</hamluong>
-    <tenhc>Acetylcystein</tenhc>
-    <soluong>10.0000</soluong>
+    <hamluong>250mg</hamluong>
+    <tenhc>Paracetamol</tenhc>
+    <soluong>1.0000</soluong>
     <giaban>1200.0000</giaban>
     <giamua>1200.0000</giamua>
     <cachdung />
     <id_nhom>15</id_nhom>
     <tennhom>Thuốc</tennhom>
     <stt_nhom>15</stt_nhom>
-    <mabn>14037141</mabn>
-    <hoten>UHUHUH</hoten>
+    <mabn>14037144</mabn>
+    <hoten>LKLKLK</hoten>
     <namsinh>1988</namsinh>
     <diachi>, , Không Xác Định, Không Xác Định, Bình Dương</diachi>
-    <ngay>10/05/2014</ngay>
+    <sothe>HS745333333333333333</sothe>
+    <denngay>31/12/2014</denngay>
+    <ngay>29/05/2014</ngay>
     <userid>0</userid>
     <sohieu>14_VPTG</sohieu>
-    <sobienlai>-2</sobienlai>
-    <sotien>762000.0000</sotien>
-    <bhyttra>762000.0000</bhyttra>
-    <bntra>0.0000</bntra>
+    <sobienlai>19009</sobienlai>
+    <sotien>7012200.0000</sotien>
+    <bhyttra>5609760.0000</bhyttra>
+    <bntra>1402440.0000</bntra>
+    <mabv>33333</mabv>
     <tenkp>Phòng 03</tenkp>
     <maicd />
     <chandoan />
@@ -90,30 +93,33 @@
     <mien>0.0000</mien>
   </Table>
   <Table>
-    <id>-387</id>
-    <ma>NST002</ma>
-    <ten>NS trực tràng có sinh thiết</ten>
+    <id>-2</id>
+    <ma>KHA001</ma>
+    <ten>Khám bệnh</ten>
     <dvt>Lần</dvt>
     <hamluong />
     <tenhc />
     <soluong>1.0000</soluong>
-    <giaban>150000.0000</giaban>
-    <giamua>150000.0000</giamua>
+    <giaban>11000.0000</giaban>
+    <giamua>11000.0000</giamua>
     <cachdung />
-    <id_nhom>2</id_nhom>
-    <tennhom>Chẩn đoán hình ảnh</tennhom>
-    <stt_nhom>2</stt_nhom>
-    <mabn>14037141</mabn>
-    <hoten>UHUHUH</hoten>
+    <id_nhom>4</id_nhom>
+    <tennhom>Công khám</tennhom>
+    <stt_nhom>4</stt_nhom>
+    <mabn>14037144</mabn>
+    <hoten>LKLKLK</hoten>
     <namsinh>1988</namsinh>
     <diachi>, , Không Xác Định, Không Xác Định, Bình Dương</diachi>
-    <ngay>10/05/2014</ngay>
+    <sothe>HS745333333333333333</sothe>
+    <denngay>31/12/2014</denngay>
+    <ngay>29/05/2014</ngay>
     <userid>0</userid>
     <sohieu>14_VPTG</sohieu>
-    <sobienlai>-2</sobienlai>
-    <sotien>762000.0000</sotien>
-    <bhyttra>762000.0000</bhyttra>
-    <bntra>0.0000</bntra>
+    <sobienlai>19009</sobienlai>
+    <sotien>7012200.0000</sotien>
+    <bhyttra>5609760.0000</bhyttra>
+    <bntra>1402440.0000</bntra>
+    <mabv>33333</mabv>
     <tenkp>Phòng 03</tenkp>
     <maicd />
     <chandoan />
@@ -121,35 +127,38 @@
     <tamung>0</tamung>
     <thanhtoan>0</thanhtoan>
     <sttcho>0</sttcho>
-    <id_loai>247</id_loai>
+    <id_loai>20</id_loai>
     <msthue />
     <mien>0.0000</mien>
   </Table>
   <Table>
-    <id>-468</id>
-    <ma>XNH001</ma>
-    <ten>XN HCV</ten>
+    <id>-389</id>
+    <ma>SIE006</ma>
+    <ten>Siêu âm đầu dò âm đạo</ten>
     <dvt>Lần</dvt>
     <hamluong />
     <tenhc />
-    <soluong>10.0000</soluong>
-    <giaban>60000.0000</giaban>
-    <giamua>60000.0000</giamua>
+    <soluong>100.0000</soluong>
+    <giaban>70000.0000</giaban>
+    <giamua>70000.0000</giamua>
     <cachdung />
-    <id_nhom>1</id_nhom>
-    <tennhom>Xét nghiệm</tennhom>
-    <stt_nhom>1</stt_nhom>
-    <mabn>14037141</mabn>
-    <hoten>UHUHUH</hoten>
+    <id_nhom>2</id_nhom>
+    <tennhom>Chẩn đoán hình ảnh</tennhom>
+    <stt_nhom>2</stt_nhom>
+    <mabn>14037144</mabn>
+    <hoten>LKLKLK</hoten>
     <namsinh>1988</namsinh>
     <diachi>, , Không Xác Định, Không Xác Định, Bình Dương</diachi>
-    <ngay>10/05/2014</ngay>
+    <sothe>HS745333333333333333</sothe>
+    <denngay>31/12/2014</denngay>
+    <ngay>29/05/2014</ngay>
     <userid>0</userid>
     <sohieu>14_VPTG</sohieu>
-    <sobienlai>-2</sobienlai>
-    <sotien>762000.0000</sotien>
-    <bhyttra>762000.0000</bhyttra>
-    <bntra>0.0000</bntra>
+    <sobienlai>19009</sobienlai>
+    <sotien>7012200.0000</sotien>
+    <bhyttra>5609760.0000</bhyttra>
+    <bntra>1402440.0000</bntra>
+    <mabv>33333</mabv>
     <tenkp>Phòng 03</tenkp>
     <maicd />
     <chandoan />
@@ -157,7 +166,7 @@
     <tamung>0</tamung>
     <thanhtoan>0</thanhtoan>
     <sttcho>0</sttcho>
-    <id_loai>253</id_loai>
+    <id_loai>65</id_loai>
     <msthue />
     <mien>0.0000</mien>
   </Table>

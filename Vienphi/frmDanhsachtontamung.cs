@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
+using Vienphi.VPDatasets;
 
 namespace Vienphi
 {
@@ -43,6 +44,8 @@ namespace Vienphi
         bool KiemtraChuyenTonTamUng()
         {
             DataTable data = new DataTable();
+            if (m_v == null)
+                m_v = new LibVP.AccessData();
             using (Npgsql.NpgsqlCommand cmm = new Npgsql.NpgsqlCommand("select * from updatedatatontamung order by stt desc ", new Npgsql.NpgsqlConnection(m_v.ConStr)))
             {
                 try
@@ -191,6 +194,7 @@ namespace Vienphi
 
         private void frmDanhsachthutamung_Load(object sender, EventArgs e)
         {
+            
             if (KiemtraChuyenTonTamUng())
                 f_Load_DG();
             else
@@ -203,6 +207,24 @@ namespace Vienphi
                 fst.ThucHien();
                 //backgroundWorker1.RunWorkerAsync();
             }
+            datasetDanhsachtontamung1.Initialize(m_v.ConStr);
+            datasetDanhsachtontamung1.ThongBaoQuaTrinhTai += new datasetDanhsachtontamung.QuaTrinhTai(datasetDanhsachtontamung1_ThongBaoQuaTrinhTai);
+        }
+
+        void datasetDanhsachtontamung1_ThongBaoQuaTrinhTai(decimal percent, long curentRecord, long maxRecord, string message)
+        {
+            toolStrip1.Invoke((MethodInvoker)delegate()
+            {
+                if (toolStripProgressBar1.Maximum != (int)maxRecord)
+                {
+                    toolStripProgressBar1.Maximum = (int)maxRecord;
+                    toolStripProgressBar1.Step = 1;
+                }
+                if (curentRecord == 0)
+                    toolStripProgressBar1.Value = 0;
+                else
+                    toolStripProgressBar1.PerformStep();
+            });            
         }
 
         private void txtTN_KeyDown(object sender, KeyEventArgs e)
@@ -588,10 +610,16 @@ namespace Vienphi
 
         private void backgroundWorker1_ProgressChanged(object sender, ProgressChangedEventArgs e)
         {
-           // this.Invoke((MethodInvoker)delegate()
-         //   {
+            toolStrip1.Invoke((MethodInvoker)delegate()
+            {
+                if (e.ProgressPercentage == 0)
+                {
+                    toolStripProgressBar1.Maximum = 100;
+                    toolStripProgressBar1.Value = 0;
+                    toolStripProgressBar1.Step = 10;
+                }
                 this.toolStripProgressBar1.Value = e.ProgressPercentage;
-          //  });
+            });
         }
 
         private void backgroundWorker1_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
@@ -638,6 +666,60 @@ namespace Vienphi
             public decimal asotienton ;
             public int sohoadon;
         }
-        
+
+        private void toolStrip3_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
+
+        private void dataGridView1_DataBindingComplete(object sender, DataGridViewBindingCompleteEventArgs e)
+        {
+           // int rcount = 0;
+            //decimal tongtamung = 0;
+            foreach (DataGridViewRow dtgr in dataGridView1.Rows)
+            {
+                dtgr.Cells["stt"].Value = int.Parse(dtgr.Index.ToString())+1;
+             //   tongtamung += decimal.Parse(dtgr.Cells["tientamung"].Value.ToString());
+            }
+            //this.Invoke((MethodInvoker)delegate()
+            //{
+            //    lb_tongcong.Text = tongtamung.ToString();
+            //});
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Cursor = Cursors.WaitCursor;
+             dataGridView1.Cursor = Cursors.WaitCursor;
+            button1.Enabled = false;
+            dataGridView1.DataSource = null;
+            datasetDanhsachtontamung1.LoadDataAsyn(int.Parse((bds_thang_nam.Current as DataRowView)["thang"].ToString()),
+                int.Parse((bds_thang_nam.Current as DataRowView)["nam"].ToString()), new datasetDanhsachtontamung.TaiHoanTat(XulyLoadHoanTat));
+        }
+        void XulyLoadHoanTat(datasetDanhsachtontamung.ERROCODE er, datasetDanhsachtontamung data)
+        {
+            button1.Enabled = true;
+            dataGridView1.Focus();
+            dataGridView1.Refresh();
+            this.Cursor = Cursors.Arrow;
+            toolStripProgressBar1.Value = 0;
+            dataGridView1.Cursor = Cursors.Arrow;
+            dataGridView1.DataSource = bds_DanhSachDongTamUng;
+            decimal tong = 0;
+            foreach (DataRowView drrr in bds_DanhSachDongTamUng)
+            {
+                decimal t = 0;
+                if (decimal.TryParse(drrr["tientamung"].ToString(), out t))
+                {
+                    tong += t;
+                }
+            }
+            lb_tongcong.Text = tong.ToString();
+        }
+
+        private void dataGridView1_RowValidated(object sender, DataGridViewCellEventArgs e)
+        {
+            
+        }
     }
 }

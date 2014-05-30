@@ -38,7 +38,8 @@ namespace Vienphi
             }
         }
         private void frmBKThutructiep_Load(object sender, EventArgs e)
-        {
+        {          
+
             if (Screen.PrimaryScreen.WorkingArea.Width > 800) this.WindowState = System.Windows.Forms.FormWindowState.Normal;
             f_Check(dgUser, m_userid);
             f_Load_CB_Maubaocao();
