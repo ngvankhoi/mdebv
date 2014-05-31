@@ -150,10 +150,16 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\dllDanhmucMedisoft\bin\Debug\dllDanhmucMedisoft.dll</HintPath>
     </Reference>
-    <Reference Include="DLLPrintchidinh, Version=1.0.5252.28077, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="DLLPrintchidinh, Version=1.0.5257.24818, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLLPrintchidinh\bin\Debug\DLLPrintchidinh.dll</HintPath>
+    </Reference>
     <Reference Include="DLLPrintchidinh1, Version=1.0.3513.28714, Culture=neutral, processorArchitecture=MSIL" />
     <Reference Include="dllReportM, Version=1.0.5252.28076, Culture=neutral, processorArchitecture=MSIL" />
-    <Reference Include="dllvpkhoa_chidinh, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="dllvpkhoa_chidinh, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\dllvpkhoa_chidinh\bin\Debug\dllvpkhoa_chidinh.dll</HintPath>
+    </Reference>
     <Reference Include="dllVuKeHoach, Version=1.0.5255.18135, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <ExecutableExtension>.exe</ExecutableExtension>

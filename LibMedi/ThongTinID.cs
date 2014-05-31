@@ -38,6 +38,7 @@ namespace LibMedi
         Sovaovien_tudong_ngoaitru_rieng=-5,
         SoluutruPK_PL_NGT_tudong=200,
         Soluutru_ngtru_nam=-999,
+        SoluutruPK_PL_NGT_tudong_6so = 201,
     }
 
     public enum LoaiBenhAn

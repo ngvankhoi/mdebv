@@ -54,111 +54,193 @@
     </xs:element>
   </xs:schema>
   <Table>
-    <id>300</id>
-    <ma>ACE004</ma>
-    <ten>Aceblue</ten>
-    <dvt>gói</dvt>
-    <hamluong>200mg</hamluong>
-    <tenhc>Acetylcystein</tenhc>
-    <soluong>10.0000</soluong>
-    <giaban>1200.0000</giaban>
-    <giamua>1200.0000</giamua>
+    <id>15591</id>
+    <ma>API001</ma>
+    <ten>Apitim</ten>
+    <dvt>Viên</dvt>
+    <hamluong>5mg</hamluong>
+    <tenhc>Amlodipin</tenhc>
+    <soluong>8.0000</soluong>
+    <giaban>756.0000</giaban>
+    <giamua>756.0000</giamua>
     <cachdung />
-    <id_nhom>15</id_nhom>
-    <tennhom>Thuốc</tennhom>
-    <stt_nhom>15</stt_nhom>
-    <mabn>14037141</mabn>
-    <hoten>UHUHUH</hoten>
-    <namsinh>1988</namsinh>
-    <diachi>, , Không Xác Định, Không Xác Định, Bình Dương</diachi>
-    <ngay>10/05/2014</ngay>
-    <userid>0</userid>
-    <sohieu>14_VPTG</sohieu>
-    <sobienlai>-2</sobienlai>
-    <sotien>762000.0000</sotien>
-    <bhyttra>762000.0000</bhyttra>
-    <bntra>0.0000</bntra>
-    <tenkp>Phòng 03</tenkp>
-    <maicd />
-    <chandoan />
-    <phai>0</phai>
+    <id_nhom>7</id_nhom>
+    <tennhom>Thuốc - hoá chất</tennhom>
+    <stt_nhom>1</stt_nhom>
+    <mabn>14212121</mabn>
+    <hoten>TEST THAN 4</hoten>
+    <namsinh>2012</namsinh>
+    <diachi>, , Không xác định, Không xác định, Bình Dương</diachi>
+    <sothe>HN7585645666666</sothe>
+    <denngay>31/12/2014</denngay>
+    <ngay>27/05/2014</ngay>
+    <userid>1</userid>
+    <sohieu>TẠM ỨNG 2013 TC</sohieu>
+    <sobienlai>706</sobienlai>
+    <sotien>893324.0000</sotien>
+    <bhyttra>446662.0000</bhyttra>
+    <bntra>446662.0000</bntra>
+    <mabv>36938</mabv>
+    <tenkp>Thận Nhân Tạo</tenkp>
+    <maicd>A00</maicd>
+    <chandoan>Bệnh tả</chandoan>
+    <phai>1</phai>
     <tamung>0</tamung>
     <thanhtoan>0</thanhtoan>
     <sttcho>0</sttcho>
     <id_loai>0</id_loai>
-    <msthue />
     <mien>0.0000</mien>
   </Table>
   <Table>
-    <id>-387</id>
-    <ma>NST002</ma>
-    <ten>NS trực tràng có sinh thiết</ten>
+    <id>15032</id>
+    <ma>AMO002</ma>
+    <ten>AmoDHG</ten>
+    <dvt>Viên</dvt>
+    <hamluong>500mg</hamluong>
+    <tenhc>Amoxicilin</tenhc>
+    <soluong>4.0000</soluong>
+    <giaban>569.0000</giaban>
+    <giamua>569.0000</giamua>
+    <cachdung />
+    <id_nhom>7</id_nhom>
+    <tennhom>Thuốc - hoá chất</tennhom>
+    <stt_nhom>1</stt_nhom>
+    <mabn>14212121</mabn>
+    <hoten>TEST THAN 4</hoten>
+    <namsinh>2012</namsinh>
+    <diachi>, , Không xác định, Không xác định, Bình Dương</diachi>
+    <sothe>HN7585645666666</sothe>
+    <denngay>31/12/2014</denngay>
+    <ngay>27/05/2014</ngay>
+    <userid>1</userid>
+    <sohieu>TẠM ỨNG 2013 TC</sohieu>
+    <sobienlai>706</sobienlai>
+    <sotien>893324.0000</sotien>
+    <bhyttra>446662.0000</bhyttra>
+    <bntra>446662.0000</bntra>
+    <mabv>36938</mabv>
+    <tenkp>Thận Nhân Tạo</tenkp>
+    <maicd>A00</maicd>
+    <chandoan>Bệnh tả</chandoan>
+    <phai>1</phai>
+    <tamung>0</tamung>
+    <thanhtoan>0</thanhtoan>
+    <sttcho>0</sttcho>
+    <id_loai>0</id_loai>
+    <mien>0.0000</mien>
+  </Table>
+  <Table>
+    <id>-13337</id>
+    <ma>DIE071</ma>
+    <ten>Điện tâm đồ</ten>
     <dvt>Lần</dvt>
     <hamluong />
     <tenhc />
     <soluong>1.0000</soluong>
-    <giaban>150000.0000</giaban>
-    <giamua>150000.0000</giamua>
+    <giaban>30000.0000</giaban>
+    <giamua>30000.0000</giamua>
     <cachdung />
-    <id_nhom>2</id_nhom>
+    <id_nhom>3</id_nhom>
     <tennhom>Chẩn đoán hình ảnh</tennhom>
-    <stt_nhom>2</stt_nhom>
-    <mabn>14037141</mabn>
-    <hoten>UHUHUH</hoten>
-    <namsinh>1988</namsinh>
-    <diachi>, , Không Xác Định, Không Xác Định, Bình Dương</diachi>
-    <ngay>10/05/2014</ngay>
-    <userid>0</userid>
-    <sohieu>14_VPTG</sohieu>
-    <sobienlai>-2</sobienlai>
-    <sotien>762000.0000</sotien>
-    <bhyttra>762000.0000</bhyttra>
-    <bntra>0.0000</bntra>
-    <tenkp>Phòng 03</tenkp>
-    <maicd />
-    <chandoan />
-    <phai>0</phai>
+    <stt_nhom>6</stt_nhom>
+    <mabn>14212121</mabn>
+    <hoten>TEST THAN 4</hoten>
+    <namsinh>2012</namsinh>
+    <diachi>, , Không xác định, Không xác định, Bình Dương</diachi>
+    <sothe>HN7585645666666</sothe>
+    <denngay>31/12/2014</denngay>
+    <ngay>27/05/2014</ngay>
+    <userid>1</userid>
+    <sohieu>TẠM ỨNG 2013 TC</sohieu>
+    <sobienlai>706</sobienlai>
+    <sotien>893324.0000</sotien>
+    <bhyttra>446662.0000</bhyttra>
+    <bntra>446662.0000</bntra>
+    <mabv>36938</mabv>
+    <tenkp>Thận Nhân Tạo</tenkp>
+    <maicd>A00</maicd>
+    <chandoan>Bệnh tả</chandoan>
+    <phai>1</phai>
     <tamung>0</tamung>
     <thanhtoan>0</thanhtoan>
     <sttcho>0</sttcho>
-    <id_loai>247</id_loai>
-    <msthue />
+    <id_loai>56</id_loai>
     <mien>0.0000</mien>
   </Table>
   <Table>
-    <id>-468</id>
-    <ma>XNH001</ma>
-    <ten>XN HCV</ten>
+    <id>-11820</id>
+    <ma>NOI046</ma>
+    <ten>Nội soi lồng ngực</ten>
     <dvt>Lần</dvt>
     <hamluong />
     <tenhc />
-    <soluong>10.0000</soluong>
-    <giaban>60000.0000</giaban>
-    <giamua>60000.0000</giamua>
+    <soluong>1.0000</soluong>
+    <giaban>700000.0000</giaban>
+    <giamua>700000.0000</giamua>
     <cachdung />
-    <id_nhom>1</id_nhom>
-    <tennhom>Xét nghiệm</tennhom>
-    <stt_nhom>1</stt_nhom>
-    <mabn>14037141</mabn>
-    <hoten>UHUHUH</hoten>
-    <namsinh>1988</namsinh>
-    <diachi>, , Không Xác Định, Không Xác Định, Bình Dương</diachi>
-    <ngay>10/05/2014</ngay>
-    <userid>0</userid>
-    <sohieu>14_VPTG</sohieu>
-    <sobienlai>-2</sobienlai>
-    <sotien>762000.0000</sotien>
-    <bhyttra>762000.0000</bhyttra>
-    <bntra>0.0000</bntra>
-    <tenkp>Phòng 03</tenkp>
-    <maicd />
-    <chandoan />
-    <phai>0</phai>
+    <id_nhom>3</id_nhom>
+    <tennhom>Chẩn đoán hình ảnh</tennhom>
+    <stt_nhom>6</stt_nhom>
+    <mabn>14212121</mabn>
+    <hoten>TEST THAN 4</hoten>
+    <namsinh>2012</namsinh>
+    <diachi>, , Không xác định, Không xác định, Bình Dương</diachi>
+    <sothe>HN7585645666666</sothe>
+    <denngay>31/12/2014</denngay>
+    <ngay>27/05/2014</ngay>
+    <userid>1</userid>
+    <sohieu>TẠM ỨNG 2013 TC</sohieu>
+    <sobienlai>706</sobienlai>
+    <sotien>893324.0000</sotien>
+    <bhyttra>446662.0000</bhyttra>
+    <bntra>446662.0000</bntra>
+    <mabv>36938</mabv>
+    <tenkp>Thận Nhân Tạo</tenkp>
+    <maicd>A00</maicd>
+    <chandoan>Bệnh tả</chandoan>
+    <phai>1</phai>
     <tamung>0</tamung>
     <thanhtoan>0</thanhtoan>
     <sttcho>0</sttcho>
-    <id_loai>253</id_loai>
-    <msthue />
+    <id_loai>9</id_loai>
+    <mien>0.0000</mien>
+  </Table>
+  <Table>
+    <id>-11446</id>
+    <ma>NOI021</ma>
+    <ten>Nội soi lấy dị vật thực quản gây tê ống mềm</ten>
+    <dvt>Lần</dvt>
+    <hamluong />
+    <tenhc />
+    <soluong>1.0000</soluong>
+    <giaban>155000.0000</giaban>
+    <giamua>155000.0000</giamua>
+    <cachdung />
+    <id_nhom>3</id_nhom>
+    <tennhom>Chẩn đoán hình ảnh</tennhom>
+    <stt_nhom>6</stt_nhom>
+    <mabn>14212121</mabn>
+    <hoten>TEST THAN 4</hoten>
+    <namsinh>2012</namsinh>
+    <diachi>, , Không xác định, Không xác định, Bình Dương</diachi>
+    <sothe>HN7585645666666</sothe>
+    <denngay>31/12/2014</denngay>
+    <ngay>27/05/2014</ngay>
+    <userid>1</userid>
+    <sohieu>TẠM ỨNG 2013 TC</sohieu>
+    <sobienlai>706</sobienlai>
+    <sotien>893324.0000</sotien>
+    <bhyttra>446662.0000</bhyttra>
+    <bntra>446662.0000</bntra>
+    <mabv>36938</mabv>
+    <tenkp>Thận Nhân Tạo</tenkp>
+    <maicd>A00</maicd>
+    <chandoan>Bệnh tả</chandoan>
+    <phai>1</phai>
+    <tamung>0</tamung>
+    <thanhtoan>0</thanhtoan>
+    <sttcho>0</sttcho>
+    <id_loai>9</id_loai>
     <mien>0.0000</mien>
   </Table>
 </NewDataSet>

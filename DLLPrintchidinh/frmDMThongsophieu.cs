@@ -1041,10 +1041,17 @@ namespace DLLPrintchidinh
 					m_m.execute_data("delete from medibv.cd_thongsophieucd where lower(trim(report))=lower('"+areport+"')");
 					foreach(DataRow r in dv.Table.Rows)
 					{
-						if(r["id"].ToString().ToString()!="")
-						{
-							m_m.execute_data("insert into medibv.cd_thongsophieucd(id,report,mavp,val) values('"+r["id"].ToString()+"','"+cbReport.SelectedValue.ToString().Trim().ToLower()+"','"+r["mavp"].ToString()+"','')");
-						}
+                        if (r["id"].ToString().ToString() != "")
+                        {
+                            try
+                            {
+                                m_m.execute_data("insert into medibv.cd_thongsophieucd(id,report,mavp,val) values('" + r["id"].ToString() + "','" + cbReport.SelectedValue.ToString().Trim().ToLower() + "','" + r["mavp"].ToString() + "','')");
+                            }
+                            catch
+                            {
+                            }
+                        }
+
 					}
 				}
 				f_Save_Local(areport);

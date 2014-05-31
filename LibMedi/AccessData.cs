@@ -7580,9 +7580,21 @@ namespace LibMedi
                 catch { return false; }
             }
         }
-
-
-        public decimal lTraituyen_phongkham
+        /// <summary>
+        /// Option D29 Số  lưu trữ phòng khám phòng lưu tăng tự động  6 số 
+        /// </summary>
+        public bool  bSoluutrutangtudong_PK_PL_6so 
+        {
+            get
+            {
+                try
+                {
+                    DataSet ds = get_data("select ten from " + user + ".thongso where id=40091");
+                    return int.Parse(ds.Tables[0].Rows[0][0].ToString()) == 1;
+                }
+                catch { return false; }
+            }
+        }       public decimal lTraituyen_phongkham
         {
             get
             {
@@ -23009,7 +23021,6 @@ namespace LibMedi
                                 if (r["id_ktcao"].ToString() != "0") { execute_data(" update " + user + mmyy(s_ngay) + ".v_thvpct set id_ktcao=" + r["id_ktcao"].ToString() + " where id=" + idvienphi + " and mavp=" + long.Parse(r["mabd"].ToString()) + " and makp='" + r["makp"].ToString() + "'"); }
                             }
                             //}
-
                             bCont = bChenhlechdv && bchenhlech_thuoc;
                             if (bchenhlech_thuoc_dannhmuc) bCont = bCont && r2["chenhlech"].ToString() == "1";
                             if (!bChenhlech_dt)

@@ -105,49 +105,49 @@
   <ravien>
     <DONE>0</DONE>
     <MADOITUONGVAO>1</MADOITUONGVAO>
-    <MATT>14454545</MATT>
-    <MABN>14454545</MABN>
-    <MAQL>1</MAQL>
-    <IDKHOA>3</IDKHOA>
-    <HOTEN>TEST BHYT DOULBE</HOTEN>
-    <NAMSINH>1989</NAMSINH>
-    <PHAI>Nam</PHAI>
-    <DIACHI>Không xác định Không xác định Đắc Lắc^</DIACHI>
+    <MATT>12016053</MATT>
+    <MABN>12016053</MABN>
+    <MAQL>6</MAQL>
+    <IDKHOA>83</IDKHOA>
+    <HOTEN>PHẠM THỊ LIỄU</HOTEN>
+    <NAMSINH>1984</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <DIACHI>Quỳnh Hội H. Quỳnh Phụ Thái Bình^Công Nhân Công Ty Tnhh Sao Vàng Tại Qp</DIACHI>
     <MADOITUONG>1</MADOITUONG>
     <DOITUONG>BHYT</DOITUONG>
-    <SOTHE>HN937439673907401003</SOTHE>
+    <SOTHE>DN734020110030934007</SOTHE>
     <MAPHU>0</MAPHU>
     <DENNGAY>31/12/2014 01/01/2014</DENNGAY>
-    <NOIGIOITHIEU>Bệnh viện đa khoa Xanh Pôn^01003^</NOIGIOITHIEU>
-    <NOICAP>0006</NOICAP>
-    <GIUONG>BS. Nguyễn Hữu Tường Lâm;</GIUONG>
-    <MAKP>02</MAKP>
-    <TENKP>Phòng Khám Số 1</TENKP>
-    <NGAYVAO>28/04/2014 14:40</NGAYVAO>
-    <NGAYRA>28/04/2014 14:58</NGAYRA>
-    <CHANDOAN>Di chứng do tác động khác và chưa xác định của căn nguyên từ bên ngoài;Di chứng do tác động của vật lạ vào qua lỗ tự nhiên;</CHANDOAN>
-    <MAICD>T98;T98.0;</MAICD>
-    <STTNHOM>15</STTNHOM>
-    <NHOM>Thuốc</NHOM>
-    <STTLOAI>3</STTLOAI>
-    <LOAI>Thuốc thường</LOAI>
-    <MA>189842</MA>
-    <TEN>Acyclovir Domesco 200mg [Acyclovir]</TEN>
-    <DVT>Viên</DVT>
-    <SOLUONG>2.0000</SOLUONG>
-    <DONGIA>660.0000750000</DONGIA>
-    <SOTIEN>1320.00015000000000</SOTIEN>
+    <NOIGIOITHIEU>BVĐK Huyện Quỳnh Phụ^34007^</NOIGIOITHIEU>
+    <NOICAP>0135</NOICAP>
+    <GIUONG>BS Vũ Văn Nhân;</GIUONG>
+    <MAKP>24</MAKP>
+    <TENKP>PK Sản</TENKP>
+    <NGAYVAO>28/05/2014 07:31</NGAYVAO>
+    <NGAYRA>28/05/2014 16:31</NGAYRA>
+    <CHANDOAN>Theo dõi thai có nguy cơ cao khác,trong 3 tháng đầu của thai kỳ;</CHANDOAN>
+    <MAICD>O09.891;</MAICD>
+    <STTNHOM>2</STTNHOM>
+    <NHOM>Chẩn đoán hình ảnh</NHOM>
+    <STTLOAI>65</STTLOAI>
+    <LOAI>Siêu âm</LOAI>
+    <MA>115045</MA>
+    <TEN>Siêu âm</TEN>
+    <DVT>Lần</DVT>
+    <SOLUONG>1.00</SOLUONG>
+    <DONGIA>30000</DONGIA>
+    <SOTIEN>30000.00</SOTIEN>
     <TAMUNG>0</TAMUNG>
     <BHYT>0</BHYT>
     <BHYTT0107>0</BHYTT0107>
-    <TCSOTIEN>23320.00015000000000</TCSOTIEN>
-    <DICHSO />
+    <TCSOTIEN>102000.00</TCSOTIEN>
+    <DICHSO>Một trăm  linh hai nghìn</DICHSO>
     <MIEN>0</MIEN>
-    <BHYTTRA>23320.00015000000000</BHYTTRA>
+    <BHYTTRA>102000.00</BHYTTRA>
     <BNTRA>0</BNTRA>
     <DICHSOTRA />
     <SBLTAMUNG xml:space="preserve"> </SBLTAMUNG>
-    <SOLUUTRU>^^^Di chứng do tác động khác và chưa xác định của căn nguyên từ bên ngoài;Di chứng do tác động của vật lạ vào qua lỗ tự nhiên;</SOLUUTRU>
+    <SOLUUTRU>^^^Theo dõi thai có nguy cơ cao khác,trong 3 tháng đầu của thai kỳ;</SOLUUTRU>
     <NGUOINHA />
     <HINHTHUC>1</HINHTHUC>
     <PHUONGPHAP>2</PHUONGPHAP>
@@ -155,21 +155,21 @@
     <mabs />
     <tenbs />
     <makprv />
-    <tenuser>thuy</tenuser>
-    <cholam>Domesco^Việt Nam</cholam>
-    <gianovat>660.0000750000</gianovat>
+    <tenuser>Administrator</tenuser>
+    <cholam>^</cholam>
+    <gianovat>30000</gianovat>
     <idttrv>0</idttrv>
-    <sotientra>1320.00015000000000</sotientra>
+    <sotientra>30000.00</sotientra>
     <traituyen>0</traituyen>
     <kythuat>-1</kythuat>
     <loaikythuat />
-    <sotoa>3</sotoa>
-    <sttbhyt>3</sttbhyt>
-    <idnhombhyt>3</idnhombhyt>
-    <tennhombhyt>Thuốc, dịch truyền</tennhombhyt>
+    <sotoa>227</sotoa>
+    <sttbhyt>2</sttbhyt>
+    <idnhombhyt>2</idnhombhyt>
+    <tennhombhyt>Chẩn đoán hình ảnh</tennhombhyt>
     <cpvc_100>False</cpvc_100>
-    <tylechitra>BHYT 100%</tylechitra>
-    <sokham>1</sokham>
+    <tylechitra>BHYT 80%</tylechitra>
+    <sokham>11</sokham>
     <dienthoai />
     <sovaovien />
     <tyletra>100</tyletra>
@@ -180,49 +180,49 @@
   <ravien>
     <DONE>0</DONE>
     <MADOITUONGVAO>1</MADOITUONGVAO>
-    <MATT>14454545</MATT>
-    <MABN>14454545</MABN>
-    <MAQL>1</MAQL>
-    <IDKHOA>3</IDKHOA>
-    <HOTEN>TEST BHYT DOULBE</HOTEN>
-    <NAMSINH>1989</NAMSINH>
-    <PHAI>Nam</PHAI>
-    <DIACHI>Không xác định Không xác định Đắc Lắc^</DIACHI>
+    <MATT>12016053</MATT>
+    <MABN>12016053</MABN>
+    <MAQL>6</MAQL>
+    <IDKHOA>83</IDKHOA>
+    <HOTEN>PHẠM THỊ LIỄU</HOTEN>
+    <NAMSINH>1984</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <DIACHI>Quỳnh Hội H. Quỳnh Phụ Thái Bình^Công Nhân Công Ty Tnhh Sao Vàng Tại Qp</DIACHI>
     <MADOITUONG>1</MADOITUONG>
     <DOITUONG>BHYT</DOITUONG>
-    <SOTHE>HN937439673907401003</SOTHE>
+    <SOTHE>DN734020110030934007</SOTHE>
     <MAPHU>0</MAPHU>
     <DENNGAY>31/12/2014 01/01/2014</DENNGAY>
-    <NOIGIOITHIEU>Bệnh viện đa khoa Xanh Pôn^01003^</NOIGIOITHIEU>
-    <NOICAP>0006</NOICAP>
-    <GIUONG>BS. Nguyễn Hữu Tường Lâm;</GIUONG>
-    <MAKP>02</MAKP>
-    <TENKP>Phòng Khám Số 1</TENKP>
-    <NGAYVAO>28/04/2014 14:40</NGAYVAO>
-    <NGAYRA>28/04/2014 14:58</NGAYRA>
-    <CHANDOAN>Di chứng do tác động khác và chưa xác định của căn nguyên từ bên ngoài;Di chứng do tác động của vật lạ vào qua lỗ tự nhiên;</CHANDOAN>
-    <MAICD>T98;T98.0;</MAICD>
-    <STTNHOM>4</STTNHOM>
-    <NHOM>Công khám</NHOM>
-    <STTLOAI>20</STTLOAI>
-    <LOAI>Khám bệnh</LOAI>
-    <MA>120614</MA>
-    <TEN>Công Khám</TEN>
+    <NOIGIOITHIEU>BVĐK Huyện Quỳnh Phụ^34007^</NOIGIOITHIEU>
+    <NOICAP>0135</NOICAP>
+    <GIUONG>BS Vũ Văn Nhân;</GIUONG>
+    <MAKP>24</MAKP>
+    <TENKP>PK Sản</TENKP>
+    <NGAYVAO>28/05/2014 07:31</NGAYVAO>
+    <NGAYRA>28/05/2014 16:31</NGAYRA>
+    <CHANDOAN>Theo dõi thai có nguy cơ cao khác,trong 3 tháng đầu của thai kỳ;</CHANDOAN>
+    <MAICD>O09.891;</MAICD>
+    <STTNHOM>1</STTNHOM>
+    <NHOM>Xét nghiệm</NHOM>
+    <STTLOAI>80</STTLOAI>
+    <LOAI>Xét nghiệm Nước tiểu</LOAI>
+    <MA>114319</MA>
+    <TEN>Nước tiểu thường quy cơ bản (10 thông số (máy) )</TEN>
     <DVT>Lần</DVT>
     <SOLUONG>1.00</SOLUONG>
-    <DONGIA>7000.0000000000</DONGIA>
-    <SOTIEN>7000.000000000000</SOTIEN>
+    <DONGIA>35000</DONGIA>
+    <SOTIEN>35000.00</SOTIEN>
     <TAMUNG>0</TAMUNG>
     <BHYT>0</BHYT>
     <BHYTT0107>0</BHYTT0107>
-    <TCSOTIEN>23320.00015000000000</TCSOTIEN>
-    <DICHSO />
+    <TCSOTIEN>102000.00</TCSOTIEN>
+    <DICHSO>Một trăm  linh hai nghìn</DICHSO>
     <MIEN>0</MIEN>
-    <BHYTTRA>23320.00015000000000</BHYTTRA>
+    <BHYTTRA>102000.00</BHYTTRA>
     <BNTRA>0</BNTRA>
     <DICHSOTRA />
     <SBLTAMUNG xml:space="preserve"> </SBLTAMUNG>
-    <SOLUUTRU>^^^Di chứng do tác động khác và chưa xác định của căn nguyên từ bên ngoài;Di chứng do tác động của vật lạ vào qua lỗ tự nhiên;</SOLUUTRU>
+    <SOLUUTRU>^^^Theo dõi thai có nguy cơ cao khác,trong 3 tháng đầu của thai kỳ;</SOLUUTRU>
     <NGUOINHA />
     <HINHTHUC>1</HINHTHUC>
     <PHUONGPHAP>2</PHUONGPHAP>
@@ -230,21 +230,21 @@
     <mabs />
     <tenbs />
     <makprv />
-    <tenuser>thuy</tenuser>
+    <tenuser>Administrator</tenuser>
     <cholam>^</cholam>
-    <gianovat>7000.0000000000</gianovat>
+    <gianovat>35000</gianovat>
     <idttrv>0</idttrv>
-    <sotientra>7000.000000000000</sotientra>
+    <sotientra>35000.00</sotientra>
     <traituyen>0</traituyen>
     <kythuat>-1</kythuat>
     <loaikythuat />
-    <sotoa>3</sotoa>
-    <sttbhyt>9</sttbhyt>
-    <idnhombhyt>9</idnhombhyt>
-    <tennhombhyt>Công khám</tennhombhyt>
+    <sotoa>227</sotoa>
+    <sttbhyt>1</sttbhyt>
+    <idnhombhyt>1</idnhombhyt>
+    <tennhombhyt>Xét Nghiệm, Thăm dò chức năng</tennhombhyt>
     <cpvc_100>False</cpvc_100>
-    <tylechitra>BHYT 100%</tylechitra>
-    <sokham>1</sokham>
+    <tylechitra>BHYT 80%</tylechitra>
+    <sokham>11</sokham>
     <dienthoai />
     <tyletra>100</tyletra>
     <chuyenvien>^</chuyenvien>
@@ -254,49 +254,49 @@
   <ravien>
     <DONE>0</DONE>
     <MADOITUONGVAO>1</MADOITUONGVAO>
-    <MATT>14454545</MATT>
-    <MABN>14454545</MABN>
-    <MAQL>1</MAQL>
-    <IDKHOA>3</IDKHOA>
-    <HOTEN>TEST BHYT DOULBE</HOTEN>
-    <NAMSINH>1989</NAMSINH>
-    <PHAI>Nam</PHAI>
-    <DIACHI>Không xác định Không xác định Đắc Lắc^</DIACHI>
+    <MATT>12016053</MATT>
+    <MABN>12016053</MABN>
+    <MAQL>6</MAQL>
+    <IDKHOA>83</IDKHOA>
+    <HOTEN>PHẠM THỊ LIỄU</HOTEN>
+    <NAMSINH>1984</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <DIACHI>Quỳnh Hội H. Quỳnh Phụ Thái Bình^Công Nhân Công Ty Tnhh Sao Vàng Tại Qp</DIACHI>
     <MADOITUONG>1</MADOITUONG>
     <DOITUONG>BHYT</DOITUONG>
-    <SOTHE>HN937439673907401003</SOTHE>
+    <SOTHE>DN734020110030934007</SOTHE>
     <MAPHU>0</MAPHU>
     <DENNGAY>31/12/2014 01/01/2014</DENNGAY>
-    <NOIGIOITHIEU>Bệnh viện đa khoa Xanh Pôn^01003^</NOIGIOITHIEU>
-    <NOICAP>0006</NOICAP>
-    <GIUONG>BS. Nguyễn Hữu Tường Lâm;</GIUONG>
-    <MAKP>02</MAKP>
-    <TENKP>Phòng Khám Số 1</TENKP>
-    <NGAYVAO>28/04/2014 14:40</NGAYVAO>
-    <NGAYRA>28/04/2014 14:58</NGAYRA>
-    <CHANDOAN>Di chứng do tác động khác và chưa xác định của căn nguyên từ bên ngoài;Di chứng do tác động của vật lạ vào qua lỗ tự nhiên;</CHANDOAN>
-    <MAICD>T98;T98.0;</MAICD>
+    <NOIGIOITHIEU>BVĐK Huyện Quỳnh Phụ^34007^</NOIGIOITHIEU>
+    <NOICAP>0135</NOICAP>
+    <GIUONG>BS Vũ Văn Nhân;</GIUONG>
+    <MAKP>24</MAKP>
+    <TENKP>PK Sản</TENKP>
+    <NGAYVAO>28/05/2014 07:31</NGAYVAO>
+    <NGAYRA>28/05/2014 16:31</NGAYRA>
+    <CHANDOAN>Theo dõi thai có nguy cơ cao khác,trong 3 tháng đầu của thai kỳ;</CHANDOAN>
+    <MAICD>O09.891;</MAICD>
     <STTNHOM>2</STTNHOM>
     <NHOM>Chẩn đoán hình ảnh</NHOM>
     <STTLOAI>4</STTLOAI>
     <LOAI>CĐHA loại khác</LOAI>
-    <MA>100293</MA>
-    <TEN>Đo công suất T3</TEN>
+    <MA>190005</MA>
+    <TEN>Điện tâm đồ</TEN>
     <DVT>Lần</DVT>
     <SOLUONG>1.00</SOLUONG>
-    <DONGIA>15000.0000000000</DONGIA>
-    <SOTIEN>15000.000000000000</SOTIEN>
+    <DONGIA>25000</DONGIA>
+    <SOTIEN>25000.00</SOTIEN>
     <TAMUNG>0</TAMUNG>
     <BHYT>0</BHYT>
     <BHYTT0107>0</BHYTT0107>
-    <TCSOTIEN>23320.00015000000000</TCSOTIEN>
-    <DICHSO />
+    <TCSOTIEN>102000.00</TCSOTIEN>
+    <DICHSO>Một trăm  linh hai nghìn</DICHSO>
     <MIEN>0</MIEN>
-    <BHYTTRA>23320.00015000000000</BHYTTRA>
+    <BHYTTRA>102000.00</BHYTTRA>
     <BNTRA>0</BNTRA>
     <DICHSOTRA />
     <SBLTAMUNG xml:space="preserve"> </SBLTAMUNG>
-    <SOLUUTRU>^^^Di chứng do tác động khác và chưa xác định của căn nguyên từ bên ngoài;Di chứng do tác động của vật lạ vào qua lỗ tự nhiên;</SOLUUTRU>
+    <SOLUUTRU>^^^Theo dõi thai có nguy cơ cao khác,trong 3 tháng đầu của thai kỳ;</SOLUUTRU>
     <NGUOINHA />
     <HINHTHUC>1</HINHTHUC>
     <PHUONGPHAP>2</PHUONGPHAP>
@@ -304,21 +304,95 @@
     <mabs />
     <tenbs />
     <makprv />
-    <tenuser>thuy</tenuser>
+    <tenuser>Administrator</tenuser>
     <cholam>^</cholam>
-    <gianovat>15000.0000000000</gianovat>
+    <gianovat>25000</gianovat>
     <idttrv>0</idttrv>
-    <sotientra>15000.000000000000</sotientra>
+    <sotientra>25000.00</sotientra>
     <traituyen>0</traituyen>
     <kythuat>-1</kythuat>
     <loaikythuat />
-    <sotoa>3</sotoa>
+    <sotoa>227</sotoa>
     <sttbhyt>2</sttbhyt>
     <idnhombhyt>2</idnhombhyt>
     <tennhombhyt>Chẩn đoán hình ảnh</tennhombhyt>
     <cpvc_100>False</cpvc_100>
-    <tylechitra>BHYT 100%</tylechitra>
-    <sokham>1</sokham>
+    <tylechitra>BHYT 80%</tylechitra>
+    <sokham>11</sokham>
+    <dienthoai />
+    <tyletra>100</tyletra>
+    <chuyenvien>^</chuyenvien>
+    <nhapvien>^</nhapvien>
+    <trieuchung />
+  </ravien>
+  <ravien>
+    <DONE>0</DONE>
+    <MADOITUONGVAO>1</MADOITUONGVAO>
+    <MATT>12016053</MATT>
+    <MABN>12016053</MABN>
+    <MAQL>6</MAQL>
+    <IDKHOA>83</IDKHOA>
+    <HOTEN>PHẠM THỊ LIỄU</HOTEN>
+    <NAMSINH>1984</NAMSINH>
+    <PHAI>Nữ</PHAI>
+    <DIACHI>Quỳnh Hội H. Quỳnh Phụ Thái Bình^Công Nhân Công Ty Tnhh Sao Vàng Tại Qp</DIACHI>
+    <MADOITUONG>1</MADOITUONG>
+    <DOITUONG>BHYT</DOITUONG>
+    <SOTHE>DN734020110030934007</SOTHE>
+    <MAPHU>0</MAPHU>
+    <DENNGAY>31/12/2014 01/01/2014</DENNGAY>
+    <NOIGIOITHIEU>BVĐK Huyện Quỳnh Phụ^34007^</NOIGIOITHIEU>
+    <NOICAP>0135</NOICAP>
+    <GIUONG>BS Vũ Văn Nhân;</GIUONG>
+    <MAKP>24</MAKP>
+    <TENKP>PK Sản</TENKP>
+    <NGAYVAO>28/05/2014 07:31</NGAYVAO>
+    <NGAYRA>28/05/2014 16:31</NGAYRA>
+    <CHANDOAN>Theo dõi thai có nguy cơ cao khác,trong 3 tháng đầu của thai kỳ;</CHANDOAN>
+    <MAICD>O09.891;</MAICD>
+    <STTNHOM>4</STTNHOM>
+    <NHOM>Công khám</NHOM>
+    <STTLOAI>20</STTLOAI>
+    <LOAI>Khám bệnh</LOAI>
+    <MA>116829</MA>
+    <TEN>Khám bệnh</TEN>
+    <DVT>Lần</DVT>
+    <SOLUONG>1.00</SOLUONG>
+    <DONGIA>12000</DONGIA>
+    <SOTIEN>12000.00</SOTIEN>
+    <TAMUNG>0</TAMUNG>
+    <BHYT>0</BHYT>
+    <BHYTT0107>0</BHYTT0107>
+    <TCSOTIEN>102000.00</TCSOTIEN>
+    <DICHSO>Một trăm  linh hai nghìn</DICHSO>
+    <MIEN>0</MIEN>
+    <BHYTTRA>102000.00</BHYTTRA>
+    <BNTRA>0</BNTRA>
+    <DICHSOTRA />
+    <SBLTAMUNG xml:space="preserve"> </SBLTAMUNG>
+    <SOLUUTRU>^^^Theo dõi thai có nguy cơ cao khác,trong 3 tháng đầu của thai kỳ;</SOLUUTRU>
+    <NGUOINHA />
+    <HINHTHUC>1</HINHTHUC>
+    <PHUONGPHAP>2</PHUONGPHAP>
+    <KETQUA>0</KETQUA>
+    <mabs />
+    <tenbs />
+    <makprv />
+    <tenuser>Administrator</tenuser>
+    <cholam>^</cholam>
+    <gianovat>12000</gianovat>
+    <idttrv>0</idttrv>
+    <sotientra>12000.00</sotientra>
+    <traituyen>0</traituyen>
+    <kythuat>-1</kythuat>
+    <loaikythuat />
+    <sotoa>227</sotoa>
+    <sttbhyt>9</sttbhyt>
+    <idnhombhyt>9</idnhombhyt>
+    <tennhombhyt>Công khám</tennhombhyt>
+    <cpvc_100>False</cpvc_100>
+    <tylechitra>BHYT 80%</tylechitra>
+    <sokham>11</sokham>
     <dienthoai />
     <tyletra>100</tyletra>
     <chuyenvien>^</chuyenvien>

@@ -809,6 +809,7 @@ namespace Medisoft
         private NumericUpDown c352;
         private CheckBox c50034;
         private CheckBox c50114;
+        private CheckBox c40091;
 
         //linh
         private DataSet dsCom = new DataSet();
@@ -1290,6 +1291,7 @@ namespace Medisoft
             this.c321 = new System.Windows.Forms.CheckBox();
             this.c362 = new System.Windows.Forms.CheckBox();
             this.p03_chuyenmon = new System.Windows.Forms.Panel();
+            this.c50114 = new System.Windows.Forms.CheckBox();
             this.c1513 = new System.Windows.Forms.CheckBox();
             this.c1511 = new System.Windows.Forms.CheckBox();
             this.c1509 = new System.Windows.Forms.CheckBox();
@@ -1608,7 +1610,7 @@ namespace Medisoft
             this.label134 = new System.Windows.Forms.Label();
             this.butCancel = new System.Windows.Forms.Button();
             this.butOk = new System.Windows.Forms.Button();
-            this.c50114 = new System.Windows.Forms.CheckBox();
+            this.c40091 = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.c104)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.c42)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.c43)).BeginInit();
@@ -5143,6 +5145,7 @@ namespace Medisoft
                         | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
             this.p04_masotudong.AutoScroll = true;
+            this.p04_masotudong.Controls.Add(this.c40091);
             this.p04_masotudong.Controls.Add(this.rbcaptheotv);
             this.p04_masotudong.Controls.Add(this.rbcaptheokhoa);
             this.p04_masotudong.Controls.Add(this.c1090);
@@ -6390,6 +6393,14 @@ namespace Medisoft
             this.p03_chuyenmon.TabIndex = 80;
             this.p03_chuyenmon.Visible = false;
             this.p03_chuyenmon.Paint += new System.Windows.Forms.PaintEventHandler(this.p03_Paint);
+            // 
+            // c50114
+            // 
+            this.c50114.Location = new System.Drawing.Point(1056, 256);
+            this.c50114.Name = "c50114";
+            this.c50114.Size = new System.Drawing.Size(348, 21);
+            this.c50114.TabIndex = 323;
+            this.c50114.Text = "C79 - In số thứ tự trong phiếu lĩnh trùng với số thứ tự trong phiếu công khai\r\n";
             // 
             // c1513
             // 
@@ -9767,18 +9778,20 @@ namespace Medisoft
             this.butOk.Text = "    &Lưu";
             this.butOk.Click += new System.EventHandler(this.butOk_Click);
             // 
-            // c50114
+            // c40091
             // 
-            this.c50114.Location = new System.Drawing.Point(1056, 256);
-            this.c50114.Name = "c50114";
-            this.c50114.Size = new System.Drawing.Size(348, 21);
-            this.c50114.TabIndex = 323;
-            this.c50114.Text = "C79 - In số thứ tự trong phiếu lĩnh trùng với số thứ tự trong phiếu công khai\r\n";
+            this.c40091.AccessibleDescription = "";
+            this.c40091.Location = new System.Drawing.Point(383, 270);
+            this.c40091.Name = "c40091";
+            this.c40091.Size = new System.Drawing.Size(401, 24);
+            this.c40091.TabIndex = 245;
+            this.c40091.Text = "D29 - Số lưu trữ khu khám, phòng lưu tăng tự động 6 chữ số";
             // 
             // frmThongso
             // 
             this.AutoScaleBaseSize = new System.Drawing.Size(5, 13);
             this.ClientSize = new System.Drawing.Size(828, 515);
+            this.Controls.Add(this.p04_masotudong);
             this.Controls.Add(this.p03_chuyenmon);
             this.Controls.Add(this.p01_chung);
             this.Controls.Add(this.p02_hanhchinh);
@@ -9796,7 +9809,6 @@ namespace Medisoft
             this.Controls.Add(this.p14);
             this.Controls.Add(this.p10_phonggiuong);
             this.Controls.Add(this.treeView1);
-            this.Controls.Add(this.p04_masotudong);
             this.Controls.Add(this.p05_doituong);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -11455,6 +11467,8 @@ namespace Medisoft
                             break;
                        case 50034: c50034.Checked = r[fie].ToString() == "1";
                             break;
+                        case 40091: c40091.Checked = r[fie].ToString() == "1";
+                            break;
                         case 1047: c1047.Checked = r[fie].ToString() == "1";
                             break;
                         case 1048: c1048.Checked = r[fie].ToString() == "1";
@@ -13055,6 +13069,7 @@ namespace Medisoft
             //End
             //linh
             m.upd_thongso(50034, fie, (c50034.Checked) ? "1" : "0"); //thuytruong 19.04.2014  //  thêm  E34
+            m.upd_thongso(40091, fie, (c40091.Checked) ? "1" : "0"); //thuytruong 30.05.2014  //  thêm  D29
             if (numSongaychotoa.Tag.ToString() != numSongaychotoa.Value.ToString())
             {
                 m.upd_thongso((int)LibMedi.IDThongSo.ID_SoNgayToaThuocCanCanhBao, fie, numSongaychotoa.Value.ToString());

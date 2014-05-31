@@ -18771,6 +18771,7 @@ namespace LibMedi
             s_sql += " alter table " + schema + ".bhytkb alter column maicd character varying (128);\n";
             s_sql += " alter table " + schema + ".d_tonkhoth add stt serial;\n";
             s_sql += " alter table " + schema + ".d_tutructh add stt serial;\n";
+
             s_sql += " alter table " + schema + ".d_hoantract alter column idx type numeric (25) ;\n";
 
             foreach (string s_query in s_sql.Trim(';').Split(';'))

@@ -31,6 +31,7 @@
                 <xs:element name="tungay" type="xs:string" minOccurs="0" />
                 <xs:element name="denngay" type="xs:string" minOccurs="0" />
                 <xs:element name="noigioithieu" type="xs:string" minOccurs="0" />
+                <xs:element name="soluutru" type="xs:string" minOccurs="0" />
                 <xs:element name="tenbs" type="xs:string" minOccurs="0" />
                 <xs:element name="mabs" type="xs:string" minOccurs="0" />
                 <xs:element name="madoituong" type="xs:decimal" minOccurs="0" />
@@ -59,6 +60,7 @@
                 <xs:element name="sttcho" type="xs:decimal" minOccurs="0" />
                 <xs:element name="nguoiin" type="xs:string" minOccurs="0" />
                 <xs:element name="trieuchung" type="xs:string" minOccurs="0" />
+                <xs:element name="stt" type="xs:decimal" minOccurs="0" />
                 <xs:element name="thangtuoi" type="xs:string" minOccurs="0" />
                 <xs:element name="sophieu" type="xs:string" minOccurs="0" />
               </xs:sequence>
@@ -69,54 +71,57 @@
     </xs:element>
   </xs:schema>
   <Table>
-    <nhomvp>Chẩn đoán hình ảnh</nhomvp>
-    <tenloaivp>Nội soi</tenloaivp>
-    <sttloai>35</sttloai>
-    <tennhomvp>Chẩn đoán hình ảnh</tennhomvp>
-    <sttnhom>5</sttnhom>
-    <mabn>13000124</mabn>
-    <hoten>VÕ THỊ ÚT NHỎ</hoten>
-    <tuoi>34</tuoi>
-    <diachi> Ấp Kinh Dài Tây Yên,H. An Biên,Kiên Giang</diachi>
-    <phai>Nữ</phai>
-    <tenkp>Phòng Lưu - CCTH</tenkp>
-    <ten>Nội soi tai (Otoscopy)</ten>
-    <dvt>Lần</dvt>
-    <soluong>1.000</soluong>
-    <chandoan>Cao Huyết Áp</chandoan>
-    <maicd>I10</maicd>
+    <nhomvp>Phí vận chuyển khác</nhomvp>
+    <tenloaivp>Phí vận chuyển khác</tenloaivp>
+    <sttloai>1</sttloai>
+    <tennhomvp>Vận chuyển </tennhomvp>
+    <sttnhom>18</sttnhom>
+    <mabn>14121212</mabn>
+    <hoten>TEST LT</hoten>
+    <tuoi>25</tuoi>
+    <diachi>  Không xác định,Không xác định,Bình Dương</diachi>
+    <phai>Nam</phai>
+    <tenkp>PK Nội Tổng Hợp [p.01]</tenkp>
+    <ten>Chuyển viện từ nt Long Hoà</ten>
+    <dvt>chuyến</dvt>
+    <soluong>1</soluong>
+    <chandoan>Di chứng do tác động của vật lạ vào qua lỗ tự nhiên</chandoan>
+    <maicd>T98.0</maicd>
     <giuong />
-    <tinhtrang>Thuờng</tinhtrang>
+    <tinhtrang>Thuờng
+</tinhtrang>
     <thuchien>Tại giường</thuchien>
-    <sothe>GD715489545142154154</sothe>
-    <tungay>01/01/2013</tungay>
-    <denngay>01/01/2014</denngay>
-    <noigioithieu>Bệnh viện Bạch Mai</noigioithieu>
-    <tenbs>Lưu Thị Xuân</tenbs>
-    <mabs>0001</mabs>
+    <sothe>HN783654865789658765</sothe>
+    <tungay>01/01/2014</tungay>
+    <denngay>31/12/2014</denngay>
+    <noigioithieu>Bệnh viện đa khoa Xanh Pôn</noigioithieu>
+    <soluutru>000001</soluutru>
+    <tenbs>Bs. Nguyễn Thị Kim Bằng </tenbs>
+    <mabs>0417</mabs>
     <madoituong>1</madoituong>
-    <doituong>BHYT</doituong>
-    <ngay>24/05/2013 16:46</ngay>
-    <mavp>141662</mavp>
-    <chenhlech>1</chenhlech>
-    <gia_th>78000</gia_th>
-    <gia_bh>14000</gia_bh>
-    <gia_dv>78000</gia_dv>
-    <gia_cs>78000</gia_cs>
-    <gia_nn>78000</gia_nn>
-    <gia_ksk>78000</gia_ksk>
+    <doituong>Bảo hiểm</doituong>
+    <ngay>31/05/2014 08:53</ngay>
+    <mavp>-615527</mavp>
+    <chenhlech>0</chenhlech>
+    <gia_th>130000</gia_th>
+    <gia_bh>130000</gia_bh>
+    <gia_dv>130000</gia_dv>
+    <gia_cs>130000</gia_cs>
+    <gia_nn>130000</gia_nn>
+    <gia_ksk>130000</gia_ksk>
     <ghichu />
-    <loaiba>4</loaiba>
-    <traituyen>0</traituyen>
-    <tuoivao>0340</tuoivao>
+    <loaiba>3</loaiba>
+    <traituyen>1</traituyen>
+    <tuoivao>0250</tuoivao>
     <cholam />
     <giaycamdoan>0</giaycamdoan>
-    <tennn>Nội Trợ</tennn>
-    <dantoc>kinh</dantoc>
+    <tennn>Sinh viên, học sinh</tennn>
+    <dantoc>*Kinh</dantoc>
     <noilamviec />
     <trangthai>0</trangthai>
     <sttcho>0</sttcho>
-    <nguoiin>Admin Software</nguoiin>
-    <trieuchung>aaaaa</trieuchung>
+    <nguoiin>Medisoft</nguoiin>
+    <trieuchung />
+    <stt>1</stt>
   </Table>
 </NewDataSet>

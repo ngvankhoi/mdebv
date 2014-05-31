@@ -241,14 +241,14 @@ namespace Duoc
 		{
             xxx = user + s_mmyy;
 			sql="select b.mabd,";
-			if (bChitiet) sql+="round(t.giamua,"+i_dongiale+") as dongia,";
+			if (bChitiet) sql+=" t.giamua  as dongia,";
 			else sql+="0 as dongia,";
 			sql+="sum(b.soluong) as soluong from "+xxx+".d_xuatll a,"+xxx+".d_xuatct b,"+user+".d_dmbd c,"+xxx+".d_theodoi t ";
 			sql+=" where a.id=b.id and b.sttt=t.id and b.mabd=c.id and a.loai='XK' and a.nhom="+i_nhom+" and a.ngay between to_date('"+tu.Text+"',"+stime+") and to_date('"+den.Text+"',"+stime+")";
 			if (s_kho!="") sql+=" and a.khox in ("+s_kho.Substring(0,s_kho.Length-1)+")";
 			if (s_loaikhac!="") sql+=" and a.khon in ("+s_loaikhac.Substring(0,s_loaikhac.Length-1)+")";
 			sql+=" group by b.mabd";
-			if (bChitiet) sql+=",round(t.giamua,"+i_dongiale+")";
+			if (bChitiet) sql+=",t.giamua ";
 			ins_items();
 		}
 

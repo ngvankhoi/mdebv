@@ -4924,7 +4924,7 @@ namespace Duoc
                     }
                 }
             }
-            if (m.bSoluutruPK_PL_NGT_tudong)  // truongthuy them 19052014 
+            if (m.bSoluutruPK_PL_NGT_tudong ||m.bSoluutrutangtudong_PK_PL_6so)  // truongthuy them 19052014 
             {
 
                 foreach (DataRow r1 in d.get_data_mmyy("select soluutru from " + user + ".lienhe where maql=" + l_maql +" union all select soluutru from xxx.lienhe where maql=" + l_maql +"" , s_tu, s_den, songayduyet).Tables[0].Rows)

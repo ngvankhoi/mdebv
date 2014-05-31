@@ -196,17 +196,17 @@
   </Table>
   <Table>
     <control_name>c293</control_name>
-    <text>11:36</text>
+    <text>08:50</text>
     <vie>15:34</vie>
   </Table>
   <Table>
     <control_name>c292</control_name>
-    <text>11:36</text>
+    <text>08:50</text>
     <vie>15:34</vie>
   </Table>
   <Table>
     <control_name>c291</control_name>
-    <text>11:36</text>
+    <text>08:50</text>
     <vie>15:34</vie>
   </Table>
   <Table>
@@ -3814,5 +3814,15 @@
     <control_name>p05</control_name>
     <text />
     <vie />
+  </Table>
+  <Table>
+    <control_name>c50114</control_name>
+    <text>C79 - In số thứ tự trong phiếu lĩnh trùng với số thứ tự trong phiếu công khai</text>
+    <vie>C79 - In số thứ tự trong phiếu lĩnh trùng với số thứ tự trong phiếu công khai</vie>
+  </Table>
+  <Table>
+    <control_name>c40091</control_name>
+    <text>D29 - Số lưu trữ khu khám, phòng lưu tăng tự động 6 chữ số</text>
+    <vie>D29 - Số lưu trữ khu khám, phòng lưu tăng tự động 6 chữ số</vie>
   </Table>
 </NewDataSet>

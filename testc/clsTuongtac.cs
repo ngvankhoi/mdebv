@@ -181,7 +181,13 @@ namespace testc
                     //
                         for (int j = 0; j < s2.Length; j++)
                         {
-                            string s_tmp_datuongtac = j.ToString().PadLeft(3, '0') + i.ToString().PadLeft(3,'0') + "+";//kiem tra nhung thuoc da co tuong tac 1 chieu roi thi khong can kiem tra lai: vi du: A tuong tac B thi loai bo B tuong A
+                            string s_tmp_datuongtac = j.ToString().PadLeft(3, '0') + i.ToString().PadLeft(3,'0') + "+";
+                            int a = s_datuongtac.IndexOf(s_tmp_datuongtac);
+                            string b = s2[i].Trim().Replace("'", "");
+                            string c = s2[j].Trim().Replace("'", "");
+                            string thuoca = a_mabdtt[i];
+                            string thuocb = a_mabdtt[j];
+                            //kiem tra nhung thuoc da co tuong tac 1 chieu roi thi khong can kiem tra lai: vi du: A tuong tac B thi loai bo B tuong A
                             if (i != j && s_datuongtac.IndexOf(s_tmp_datuongtac)<0 && s1[i].Trim().Replace("'", "") != s2[j].Trim().Replace("'", "") && a_mabdtt[i] != a_mabdtt[j])
                             {
                                 if (s2[j].Replace("'", "").Trim() != "")
@@ -336,6 +342,7 @@ namespace testc
                         }
                         else if (dr["tenhc"].ToString().Trim() != "")
                         {
+                            string tenhctest = dr["tenhc"].ToString().Trim().ToLower() + "+";
                             s_tenhc += dr["tenhc"].ToString().Trim().ToLower() + "+";
                             a_hc = dr["tenhc"].ToString().Split('+');
                             for (int j = 0; j < a_hc.Length; j++)

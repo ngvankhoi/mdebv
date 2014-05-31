@@ -3838,7 +3838,7 @@ namespace dllvpkhoa_chidinh
             sql += " case when x.sothe is null then x1.sothe else x.sothe end as sothe,";
             sql += " case when x.tungay is null then to_char(x1.tungay,'dd/mm/yyyy')  else to_char(x.tungay,'dd/mm/yyyy') end as tungay,";
             sql += " case when x.denngay is null then to_char(x1.denngay,'dd/mm/yyyy')  else to_char(x.denngay,'dd/mm/yyyy') end as denngay,";
-            sql += " case when y.tenbv is null then y1.tenbv else y.tenbv end as noigioithieu,";
+            sql += " case when y.tenbv is null then y1.tenbv else y.tenbv end as noigioithieu, lh.soluutru, ";
             if (s_table == "xxx.tiepdon") sql += "'' as tenbs,a.mabs";
             else sql += "p.hoten as tenbs,a.mabs";
             sql += ", a.madoituong,z.doituong,to_char(a.ngay,'dd/mm/yyyy hh24:mi') as ngay,a.mavp,b.chenhlech,b.gia_th,b.gia_bh,b.gia_dv,b.gia_cs,b.gia_nn,b.gia_ksk,a.ghichu";

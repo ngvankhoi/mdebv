@@ -618,6 +618,7 @@ namespace Medisoft
             this.label2.TabIndex = 0;
             this.label2.Text = "&Bệnh án :";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
             // 
@@ -756,9 +757,9 @@ namespace Medisoft
             this.tuoi.Name = "tuoi";
             this.tuoi.Size = new System.Drawing.Size(28, 21);
             this.tuoi.TabIndex = 10;
+            this.tuoi.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tuoi_KeyPress);
             this.tuoi.Validated += new System.EventHandler(this.tuoi_Validated);
             this.tuoi.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tuoi_KeyDown);
-            this.tuoi.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tuoi_KeyPress);
             // 
             // hoten
             // 
@@ -870,8 +871,8 @@ namespace Medisoft
             this.icd_chinh.Name = "icd_chinh";
             this.icd_chinh.Size = new System.Drawing.Size(50, 21);
             this.icd_chinh.TabIndex = 21;
-            this.icd_chinh.TextChanged += new System.EventHandler(this.icd_noichuyenden_TextChanged);
             this.icd_chinh.Validated += new System.EventHandler(this.icd_chinh_Validated);
+            this.icd_chinh.TextChanged += new System.EventHandler(this.icd_noichuyenden_TextChanged);
             // 
             // icd_kemtheo
             // 
@@ -883,8 +884,8 @@ namespace Medisoft
             this.icd_kemtheo.Name = "icd_kemtheo";
             this.icd_kemtheo.Size = new System.Drawing.Size(50, 21);
             this.icd_kemtheo.TabIndex = 23;
-            this.icd_kemtheo.TextChanged += new System.EventHandler(this.icd_noichuyenden_TextChanged);
             this.icd_kemtheo.Validated += new System.EventHandler(this.icd_kemtheo_Validated);
+            this.icd_kemtheo.TextChanged += new System.EventHandler(this.icd_noichuyenden_TextChanged);
             // 
             // label46
             // 
@@ -1958,8 +1959,8 @@ namespace Medisoft
             this.tendstt.Name = "tendstt";
             this.tendstt.Size = new System.Drawing.Size(165, 21);
             this.tendstt.TabIndex = 6;
-            this.tendstt.TextChanged += new System.EventHandler(this.tendstt_TextChanged);
             this.tendstt.Validated += new System.EventHandler(this.tendstt_Validated);
+            this.tendstt.TextChanged += new System.EventHandler(this.tendstt_TextChanged);
             this.tendstt.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tendstt_KeyDown);
             // 
             // ngayvv
@@ -2295,8 +2296,8 @@ namespace Medisoft
             this.icd_kkb.Name = "icd_kkb";
             this.icd_kkb.Size = new System.Drawing.Size(50, 21);
             this.icd_kkb.TabIndex = 25;
-            this.icd_kkb.TextChanged += new System.EventHandler(this.icd_noichuyenden_TextChanged);
             this.icd_kkb.Validated += new System.EventHandler(this.icd_kkb_Validated);
+            this.icd_kkb.TextChanged += new System.EventHandler(this.icd_noichuyenden_TextChanged);
             // 
             // label34
             // 
@@ -2319,8 +2320,8 @@ namespace Medisoft
             this.icd_noichuyenden.Name = "icd_noichuyenden";
             this.icd_noichuyenden.Size = new System.Drawing.Size(50, 21);
             this.icd_noichuyenden.TabIndex = 23;
-            this.icd_noichuyenden.TextChanged += new System.EventHandler(this.icd_noichuyenden_TextChanged);
             this.icd_noichuyenden.Validated += new System.EventHandler(this.icd_noichuyenden_Validated);
+            this.icd_noichuyenden.TextChanged += new System.EventHandler(this.icd_noichuyenden_TextChanged);
             // 
             // label31
             // 
@@ -3146,9 +3147,9 @@ namespace Medisoft
             this.tim.TabIndex = 2;
             this.tim.Text = "Tìm kiếm";
             this.tim.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.tim.Enter += new System.EventHandler(this.tim_Enter);
             this.tim.TextChanged += new System.EventHandler(this.tim_TextChanged);
             this.tim.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tim_KeyDown);
-            this.tim.Enter += new System.EventHandler(this.tim_Enter);
             // 
             // butRef
             // 
@@ -3348,8 +3349,8 @@ namespace Medisoft
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Medisoft";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
-            this.Load += new System.EventHandler(this.frmNgoaitru_Load);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.frmNgoaitru_KeyDown);
+            this.Load += new System.EventHandler(this.frmNgoaitru_Load);
             this.phanhchinh.ResumeLayout(false);
             this.phanhchinh.PerformLayout();
             this.pvaovien.ResumeLayout(false);
@@ -5494,7 +5495,7 @@ lan.Change_language_MessageText("DỊ ỨNG THUỐC :")+tlbl.Text;
 
 		private void emp_text(bool skip)
 		{
-			ena_but(true);
+			ena_but(true);  
 			if (!skip)
 			{
 				mabn2.Text=DateTime.Now.Year.ToString().Substring(2,2);
@@ -8156,6 +8157,11 @@ lan.Change_language_MessageText("DỊ ỨNG THUỐC :")+tlbl.Text;
             s_tungay2 = frm.v_Tungay2;
             s_tungay3 = frm.v_Tungay3;
             tungay.Focus();
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
         }
 	}
 }

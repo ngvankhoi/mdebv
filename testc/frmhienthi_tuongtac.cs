@@ -37,5 +37,10 @@ namespace testc
         {
 
         }
+
+        private void lblTieude_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
