@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
 using Vienphi.VPDatasets;
+using Excel;
 
 namespace Vienphi
 {
@@ -213,18 +214,19 @@ namespace Vienphi
 
         void datasetDanhsachtontamung1_ThongBaoQuaTrinhTai(decimal percent, long curentRecord, long maxRecord, string message)
         {
-            toolStrip1.Invoke((MethodInvoker)delegate()
-            {
-                if (toolStripProgressBar1.Maximum != (int)maxRecord)
+            if (!toolStrip1.IsDisposed)
+                toolStrip1.Invoke((MethodInvoker)delegate()
                 {
-                    toolStripProgressBar1.Maximum = (int)maxRecord;
-                    toolStripProgressBar1.Step = 1;
-                }
-                if (curentRecord == 0)
-                    toolStripProgressBar1.Value = 0;
-                else
-                    toolStripProgressBar1.PerformStep();
-            });            
+                    if (toolStripProgressBar1.Maximum != (int)maxRecord)
+                    {
+                        toolStripProgressBar1.Maximum = (int)maxRecord;
+                        toolStripProgressBar1.Step = 1;
+                    }
+                    if (curentRecord == 0)
+                        toolStripProgressBar1.Value = 0;
+                    else
+                        toolStripProgressBar1.PerformStep();
+                });            
         }
 
         private void txtTN_KeyDown(object sender, KeyEventArgs e)
@@ -693,11 +695,14 @@ namespace Vienphi
              dataGridView1.Cursor = Cursors.WaitCursor;
             button1.Enabled = false;
             dataGridView1.DataSource = null;
+            dataGridView2.DataSource = null;
             datasetDanhsachtontamung1.LoadDataAsyn(int.Parse((bds_thang_nam.Current as DataRowView)["thang"].ToString()),
                 int.Parse((bds_thang_nam.Current as DataRowView)["nam"].ToString()), new datasetDanhsachtontamung.TaiHoanTat(XulyLoadHoanTat));
         }
         void XulyLoadHoanTat(datasetDanhsachtontamung.ERROCODE er, datasetDanhsachtontamung data)
         {
+            if (this.IsDisposed)
+                return;
             button1.Enabled = true;
             dataGridView1.Focus();
             dataGridView1.Refresh();
@@ -705,21 +710,60 @@ namespace Vienphi
             toolStripProgressBar1.Value = 0;
             dataGridView1.Cursor = Cursors.Arrow;
             dataGridView1.DataSource = bds_DanhSachDongTamUng;
+            dataGridView2.DataSource = tAMUNGCHITIETTAMUNGBindingSource;
             decimal tong = 0;
+            decimal t,th=0;
             foreach (DataRowView drrr in bds_DanhSachDongTamUng)
             {
-                decimal t = 0;
+                t = 0;
                 if (decimal.TryParse(drrr["tientamung"].ToString(), out t))
                 {
                     tong += t;
                 }
             }
-            lb_tongcong.Text = tong.ToString();
+            lb_tongcong.Text = tong!=0?tong.ToString("###,###,###.#"):"0";
+            decimal tongt = 0;
+            foreach (DataRowView drrr in bds_DanhSachDongTamUng)
+            {
+                t = 0; th = 0;
+                if (decimal.Parse(drrr["hoantatca"].ToString())==0)
+                {
+                    if (decimal.TryParse(drrr["tientamung"].ToString(), out t))
+                    {
+                        decimal.TryParse(drrr["tienhoantra"].ToString(), out th);
+                        tongt += t-th;
+                    }
+                }
+            }
+            lb_tongtu.Text = tongt!=0?tongt.ToString("###,###,###.#"):"0";
+
+            lb_tonghoan.Text = (tong - tongt)!=0?((decimal)(tong - tongt)).ToString("###,###,###.#"):"0";
+
+            decimal tonghql = 0;
+            foreach (DataRowView drrr in bds_DanhSachDongTamUng)
+            {
+                t = 0;
+                if (decimal.TryParse(drrr["tienhoantra"].ToString(), out t))
+                {
+                    tonghql += t;
+                }
+            }
+            lb_tonghoanql.Text =tonghql!=0? tonghql.ToString("###,###,###.#"):"0";
         }
 
         private void dataGridView1_RowValidated(object sender, DataGridViewCellEventArgs e)
         {
-            
+
+        }
+
+        private void tmn_Excel_Click(object sender, EventArgs e)
+        {
+            if (tabControl1.SelectedTab == tabPage2)
+            {
+                Excel.Application exapp = new Excel.Application();
+                
+                exapp.Workbooks
+            }
         }
     }
 }

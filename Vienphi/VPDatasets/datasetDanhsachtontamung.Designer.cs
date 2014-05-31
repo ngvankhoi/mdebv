@@ -1041,6 +1041,8 @@ namespace Vienphi.VPDatasets {
             
             private global::System.Data.DataColumn columnnguoithu;
             
+            private global::System.Data.DataColumn columntenkp;
+            
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             public CHITIETTAMUNGDataTable() {
                 this.TableName = "CHITIETTAMUNG";
@@ -1170,6 +1172,13 @@ namespace Vienphi.VPDatasets {
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public global::System.Data.DataColumn tenkpColumn {
+                get {
+                    return this.columntenkp;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.ComponentModel.Browsable(false)]
             public int Count {
                 get {
@@ -1198,7 +1207,7 @@ namespace Vienphi.VPDatasets {
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-            public CHITIETTAMUNGRow AddCHITIETTAMUNGRow(string mabn, string hoten, TAMUNGRow parentTAMUNGRowByTAMUNG_CHITIETTAMUNG, decimal mavaovien, decimal quyenso, decimal sobienlai, decimal tiendong, System.DateTime ngaydong, decimal hoantra, System.DateTime ngaytra, decimal done, decimal tongvienphi, System.DateTime ngayravien, string nguoithu) {
+            public CHITIETTAMUNGRow AddCHITIETTAMUNGRow(string mabn, string hoten, TAMUNGRow parentTAMUNGRowByTAMUNG_CHITIETTAMUNG, decimal mavaovien, decimal quyenso, decimal sobienlai, decimal tiendong, System.DateTime ngaydong, decimal hoantra, System.DateTime ngaytra, decimal done, decimal tongvienphi, System.DateTime ngayravien, string nguoithu, string tenkp) {
                 CHITIETTAMUNGRow rowCHITIETTAMUNGRow = ((CHITIETTAMUNGRow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
                         mabn,
@@ -1214,7 +1223,8 @@ namespace Vienphi.VPDatasets {
                         done,
                         tongvienphi,
                         ngayravien,
-                        nguoithu};
+                        nguoithu,
+                        tenkp};
                 if ((parentTAMUNGRowByTAMUNG_CHITIETTAMUNG != null)) {
                     columnValuesArray[2] = parentTAMUNGRowByTAMUNG_CHITIETTAMUNG[0];
                 }
@@ -1264,6 +1274,7 @@ namespace Vienphi.VPDatasets {
                 this.columntongvienphi = base.Columns["tongvienphi"];
                 this.columnngayravien = base.Columns["ngayravien"];
                 this.columnnguoithu = base.Columns["nguoithu"];
+                this.columntenkp = base.Columns["tenkp"];
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -1296,6 +1307,8 @@ namespace Vienphi.VPDatasets {
                 base.Columns.Add(this.columnngayravien);
                 this.columnnguoithu = new global::System.Data.DataColumn("nguoithu", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnnguoithu);
+                this.columntenkp = new global::System.Data.DataColumn("tenkp", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columntenkp);
                 this.Constraints.Add(new global::System.Data.UniqueConstraint("Constraint1", new global::System.Data.DataColumn[] {
                                 this.columnquyenso,
                                 this.columnsobienlai,
@@ -2045,6 +2058,21 @@ namespace Vienphi.VPDatasets {
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public string tenkp {
+                get {
+                    try {
+                        return ((string)(this[this.tableCHITIETTAMUNG.tenkpColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("The value for column \'tenkp\' in table \'CHITIETTAMUNG\' is DBNull.", e);
+                    }
+                }
+                set {
+                    this[this.tableCHITIETTAMUNG.tenkpColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             public TAMUNGRow TAMUNGRow {
                 get {
                     return ((TAMUNGRow)(this.GetParentRow(this.Table.ParentRelations["TAMUNG_CHITIETTAMUNG"])));
@@ -2162,6 +2190,16 @@ namespace Vienphi.VPDatasets {
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             public void SetnguoithuNull() {
                 this[this.tableCHITIETTAMUNG.nguoithuColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public bool IstenkpNull() {
+                return this.IsNull(this.tableCHITIETTAMUNG.tenkpColumn);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            public void SettenkpNull() {
+                this[this.tableCHITIETTAMUNG.tenkpColumn] = global::System.Convert.DBNull;
             }
         }
         
