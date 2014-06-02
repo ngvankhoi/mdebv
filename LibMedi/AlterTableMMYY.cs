@@ -14856,6 +14856,7 @@ namespace LibMedi
             s_sql += "alter table " + schema + ".d_dutrull add column mmyy character varying(4) not null default substring(now()::text, 6, 2) || substring(now()::text, 3, 2);\n";
             s_sql += "alter table " + schema + ".d_dutrull add column idsystem numeric(2,0) not null default 0;\n";
             s_sql += "alter table " + schema + ".d_dutrull add column change numeric(1,0) default 0;\n";
+            //s_sql += "alter table " + schema + ".d_dutrull add column stt serial;\n";
             s_sql += "alter table " + schema + ".d_dutrull add column mac character varying(60) default lpad('0'::text,60, '0'::text);\n";
             s_sql += "alter table " + schema + ".d_dutrull add column chuyendi character varying(300) default lpad('0'::text, 300, '0'::text);\n";
             s_sql += "alter table " + schema + ".d_dutrull add constraint pk_d_dutrull primary key(id) using index tablespace medi_index;\n";
@@ -18770,6 +18771,7 @@ namespace LibMedi
             s_sql += " alter table " + schema + ".bhytkb alter column maicd character varying (128);\n";
             s_sql += " alter table " + schema + ".d_tonkhoth add stt serial;\n";
             s_sql += " alter table " + schema + ".d_tutructh add stt serial;\n";
+
             s_sql += " alter table " + schema + ".d_hoantract alter column idx type numeric (25) ;\n";
 
             foreach (string s_query in s_sql.Trim(';').Split(';'))

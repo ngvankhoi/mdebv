@@ -173,12 +173,12 @@ namespace DLLPrintchidinh
             this.contextMenuStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.writeXMLToolStripMenuItem});
             this.contextMenuStrip2.Name = "contextMenuStrip2";
-            this.contextMenuStrip2.Size = new System.Drawing.Size(127, 26);
+            this.contextMenuStrip2.Size = new System.Drawing.Size(131, 26);
             // 
             // writeXMLToolStripMenuItem
             // 
             this.writeXMLToolStripMenuItem.Name = "writeXMLToolStripMenuItem";
-            this.writeXMLToolStripMenuItem.Size = new System.Drawing.Size(126, 22);
+            this.writeXMLToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
             this.writeXMLToolStripMenuItem.Text = "WriteXML";
             this.writeXMLToolStripMenuItem.Click += new System.EventHandler(this.writeXMLToolStripMenuItem_Click);
             // 
@@ -275,6 +275,7 @@ namespace DLLPrintchidinh
             this.cbPhieu.Size = new System.Drawing.Size(234, 21);
             this.cbPhieu.TabIndex = 5;
             this.cbPhieu.SelectionChangeCommitted += new System.EventHandler(this.cbPhieu_SelectionChangeCommitted);
+            this.cbPhieu.SelectedIndexChanged += new System.EventHandler(this.cbPhieu_SelectedIndexChanged);
             this.cbPhieu.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtMabn_KeyDown);
             // 
             // cbNgayvv
@@ -385,12 +386,12 @@ namespace DLLPrintchidinh
             this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.khaiBáoThôngSốPhiếuXétNghiệmToolStripMenuItem});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(250, 26);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(240, 26);
             // 
             // khaiBáoThôngSốPhiếuXétNghiệmToolStripMenuItem
             // 
             this.khaiBáoThôngSốPhiếuXétNghiệmToolStripMenuItem.Name = "khaiBáoThôngSốPhiếuXétNghiệmToolStripMenuItem";
-            this.khaiBáoThôngSốPhiếuXétNghiệmToolStripMenuItem.Size = new System.Drawing.Size(249, 22);
+            this.khaiBáoThôngSốPhiếuXétNghiệmToolStripMenuItem.Size = new System.Drawing.Size(239, 22);
             this.khaiBáoThôngSốPhiếuXétNghiệmToolStripMenuItem.Text = "Khai báo thông số phiếu chỉ định";
             this.khaiBáoThôngSốPhiếuXétNghiệmToolStripMenuItem.Click += new System.EventHandler(this.khaiBáoThôngSốPhiếuXétNghiệmToolStripMenuItem_Click);
             // 
@@ -407,8 +408,8 @@ namespace DLLPrintchidinh
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
-            this.Load += new System.EventHandler(this.frmPrintchidinh_Load);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.frmPrintchidinh_KeyDown);
+            this.Load += new System.EventHandler(this.frmPrintchidinh_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.contextMenuStrip2.ResumeLayout(false);
@@ -1371,6 +1372,11 @@ namespace DLLPrintchidinh
         }
 
         private void frmPrintchidinh_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cbPhieu_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }

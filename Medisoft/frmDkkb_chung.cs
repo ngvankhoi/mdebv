@@ -358,6 +358,7 @@ namespace Medisoft
         public Label label27;
         public Label label26;
         private ToolStripMenuItem mnuthongtinbodoi;
+        private ToolStripButton toolStripButton8;
         private ToolStripMenuItem mnquanlihinhanhbn;
        
 		public frmDkkb_chung()
@@ -693,6 +694,7 @@ namespace Medisoft
             this.chkView = new System.Windows.Forms.CheckBox();
             this.butget_msbn_from_internet = new System.Windows.Forms.Button();
             this.barcode = new System.Windows.Forms.Label();
+            this.toolStripButton8 = new System.Windows.Forms.ToolStripButton();
             this.phanhchinh.SuspendLayout();
             this.pnmakp.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGrid1)).BeginInit();
@@ -1557,7 +1559,8 @@ namespace Medisoft
             this.toolStripSeparator9,
             this.tbutChuphinh,
             this.toolStripSeparator10,
-            this.toolStripDropDownButton1});
+            this.toolStripDropDownButton1,
+            this.toolStripButton8});
             this.toolStrip1.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.Flow;
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
@@ -3845,6 +3848,15 @@ namespace Medisoft
             this.barcode.TabIndex = 270;
             this.barcode.Text = "label41";
             this.barcode.Visible = false;
+            // 
+            // toolStripButton8
+            // 
+            this.toolStripButton8.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton8.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton8.Image")));
+            this.toolStripButton8.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton8.Name = "toolStripButton8";
+            this.toolStripButton8.Size = new System.Drawing.Size(23, 20);
+            this.toolStripButton8.Text = "toolStripButton8";
             // 
             // frmDkkb_chung
             // 

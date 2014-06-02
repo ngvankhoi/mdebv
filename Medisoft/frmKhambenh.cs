@@ -3836,7 +3836,8 @@ namespace Medisoft
 			bnmoi.DataSource=dsbnmoi.Tables[0];
 			bnmoi.Enabled=m.bMoi_cu;
            
-			bSoluutru=m.bSoluutru_nhapvien;
+			
+            bSoluutru=m.bSoluutru_nhapvien;
 			bBacsy=m.bBacsy_tiepdon;
 			bTiepdon=m.bTiepdon(LibMedi.AccessData.Khambenh);
 			bDanhmuc_nhathuoc=m.bDanhmuc_nhathuoc;
@@ -7023,14 +7024,25 @@ namespace Medisoft
                 }
             }
             if (kt_luutru == "")
-            {  // //Cap so luu tru phong kham: dung chung ngoai tru
+            {  
+                
+                // //Cap so luu tru phong kham: dung chung ngoai tru
                 if (m.bSoluutru_ngtru_nam && soluutru.Text == "")
                 {
                     soluutru.Text = m.get_capid((int)LibMedi.ma_table_capid.Soluutru_ngtru_nam, ngayvv.Text.Substring(8, 2)).ToString().PadLeft(10, '0');
                     soluutru.Update();
                 }
+                if (m.bSoluutrutangtudong_PK_PL_6so)
+                {
+                    string s_mmyy = "";
+                    s_mmyy = DateTime.Now.Year.ToString().Substring(2, 2).PadLeft(2, '0') + DateTime.Now.Month.ToString().PadLeft(2, '0');
+                    decimal l_idluutru = m.get_capid((int)LibMedi.ma_table_capid.SoluutruPK_PL_NGT_tudong_6so, s_mmyy);//m.get_capid(200, s_mmyy);
+                    s_soluutru = l_idluutru.ToString().PadLeft(6, '0');
+                    soluutru.Text = s_soluutru;
+
+                }
                 //Tu:28/06/2011 soluutru tang tu dong neu check option D28
-                else if (m.bSoluutruPK_PL_NGT_tudong && soluutru.Text == "")
+                if  (m.bSoluutruPK_PL_NGT_tudong && soluutru.Text == "")
                 {
                     string s_mmyy = "";
                     s_mmyy = DateTime.Now.Year.ToString().Substring(2, 2).PadLeft(2, '0') + DateTime.Now.Month.ToString().PadLeft(2, '0');

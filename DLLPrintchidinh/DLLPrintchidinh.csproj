@@ -83,7 +83,7 @@
     </Reference>
     <Reference Include="CrystalDecisions.Shared, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
     <Reference Include="CrystalDecisions.Windows.Forms, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
-    <Reference Include="LibMedi, Version=1.0.3807.33674, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="LibMedi, Version=1.1.1.1, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\LibMedi\bin\Debug\LibMedi.dll</HintPath>
     </Reference>

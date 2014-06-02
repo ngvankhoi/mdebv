@@ -32,5 +32,15 @@ namespace testc
             if (e.KeyCode == Keys.Escape)
                 this.Close();
         }
+
+        private void frmhienthi_tuongtac_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblTieude_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

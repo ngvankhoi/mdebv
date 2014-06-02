@@ -541,8 +541,8 @@ namespace Medisoft
             this.tenbd.Name = "tenbd";
             this.tenbd.Size = new System.Drawing.Size(241, 21);
             this.tenbd.TabIndex = 17;
-            this.tenbd.TextChanged += new System.EventHandler(this.tenbd_TextChanged);
             this.tenbd.Validated += new System.EventHandler(this.tenbd_Validated);
+            this.tenbd.TextChanged += new System.EventHandler(this.tenbd_TextChanged);
             this.tenbd.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tenbd_KeyDown);
             // 
             // tenhc
@@ -645,8 +645,8 @@ namespace Medisoft
             this.cachdung.Name = "cachdung";
             this.cachdung.Size = new System.Drawing.Size(222, 21);
             this.cachdung.TabIndex = 28;
-            this.cachdung.TextChanged += new System.EventHandler(this.cachdung_TextChanged);
             this.cachdung.Validated += new System.EventHandler(this.cachdung_Validated);
+            this.cachdung.TextChanged += new System.EventHandler(this.cachdung_TextChanged);
             this.cachdung.KeyDown += new System.Windows.Forms.KeyEventHandler(this.cachdung_KeyDown);
             // 
             // label25
@@ -839,8 +839,8 @@ namespace Medisoft
             this.maicd.Name = "maicd";
             this.maicd.Size = new System.Drawing.Size(38, 21);
             this.maicd.TabIndex = 5;
-            this.maicd.TextChanged += new System.EventHandler(this.maicd_TextChanged);
             this.maicd.Validated += new System.EventHandler(this.maicd_Validated);
+            this.maicd.TextChanged += new System.EventHandler(this.maicd_TextChanged);
             this.maicd.KeyDown += new System.Windows.Forms.KeyEventHandler(this.maicd_KeyDown);
             // 
             // tenpk
@@ -933,8 +933,8 @@ namespace Medisoft
             this.ghichu.ScrollBars = System.Windows.Forms.ScrollBars.Both;
             this.ghichu.Size = new System.Drawing.Size(725, 21);
             this.ghichu.TabIndex = 9;
-            this.ghichu.TextChanged += new System.EventHandler(this.ghichu_TextChanged);
             this.ghichu.Validated += new System.EventHandler(this.ghichu_Validated);
+            this.ghichu.TextChanged += new System.EventHandler(this.ghichu_TextChanged);
             this.ghichu.KeyDown += new System.Windows.Forms.KeyEventHandler(this.ghichu_KeyDown_1);
             // 
             // songay
@@ -1041,8 +1041,8 @@ namespace Medisoft
             this.moilan.Size = new System.Drawing.Size(43, 21);
             this.moilan.TabIndex = 1;
             this.moilan.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.moilan.Validated += new System.EventHandler(this.solan_Validated);
             this.moilan.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.moilan_KeyPress);
+            this.moilan.Validated += new System.EventHandler(this.solan_Validated);
             // 
             // lbldvt
             // 
@@ -1158,8 +1158,8 @@ namespace Medisoft
             this.c3.Size = new System.Drawing.Size(30, 21);
             this.c3.TabIndex = 3;
             this.c3.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.c3.Validated += new System.EventHandler(this.c3_Validated);
             this.c3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.c3_KeyPress);
+            this.c3.Validated += new System.EventHandler(this.c3_Validated);
             // 
             // soluong1
             // 
@@ -1185,8 +1185,8 @@ namespace Medisoft
             this.c1.Size = new System.Drawing.Size(39, 21);
             this.c1.TabIndex = 0;
             this.c1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.c1.Validated += new System.EventHandler(this.c1_Validated);
             this.c1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.c1_KeyPress);
+            this.c1.Validated += new System.EventHandler(this.c1_Validated);
             // 
             // label18
             // 
@@ -1217,8 +1217,8 @@ namespace Medisoft
             this.ghichuct.Name = "ghichuct";
             this.ghichuct.Size = new System.Drawing.Size(220, 21);
             this.ghichuct.TabIndex = 23;
-            this.ghichuct.TextChanged += new System.EventHandler(this.ghichuct_TextChanged);
             this.ghichuct.Validated += new System.EventHandler(this.ghichuct_Validated);
+            this.ghichuct.TextChanged += new System.EventHandler(this.ghichuct_TextChanged);
             this.ghichuct.KeyDown += new System.Windows.Forms.KeyEventHandler(this.ghichuct_KeyDown);
             // 
             // label23
@@ -1241,8 +1241,8 @@ namespace Medisoft
             this.c4.Size = new System.Drawing.Size(31, 21);
             this.c4.TabIndex = 2;
             this.c4.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.c4.Validated += new System.EventHandler(this.c4_Validated);
             this.c4.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.c4_KeyPress);
+            this.c4.Validated += new System.EventHandler(this.c4_Validated);
             // 
             // lblduongdung
             // 
@@ -1283,8 +1283,8 @@ namespace Medisoft
             this.c2.Size = new System.Drawing.Size(30, 21);
             this.c2.TabIndex = 1;
             this.c2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.c2.Validated += new System.EventHandler(this.c2_Validated);
             this.c2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.c2_KeyPress);
+            this.c2.Validated += new System.EventHandler(this.c2_Validated);
             // 
             // label15
             // 
@@ -1447,8 +1447,8 @@ namespace Medisoft
             this.tim.TabIndex = 276;
             this.tim.Text = "Tìm kiếm";
             this.tim.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.tim.TextChanged += new System.EventHandler(this.tim_TextChanged);
             this.tim.Enter += new System.EventHandler(this.tim_Enter);
+            this.tim.TextChanged += new System.EventHandler(this.tim_TextChanged);
             // 
             // banin
             // 
@@ -2181,11 +2181,11 @@ namespace Medisoft
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Đơn thuốc";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
-            this.Load += new System.EventHandler(this.frmBaohiem_Load);
             this.Layout += new System.Windows.Forms.LayoutEventHandler(this.frmBaohiem_Layout);
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmBaohiem_FormClosing);
             this.Validated += new System.EventHandler(this.frmBaohiem_Validated);
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmBaohiem_FormClosing);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.frmBaohiem_KeyDown);
+            this.Load += new System.EventHandler(this.frmBaohiem_Load);
             ((System.ComponentModel.ISupportInitialize)(this.songay)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.solan)).EndInit();
             this.p1.ResumeLayout(false);
@@ -5171,7 +5171,9 @@ namespace Medisoft
             tmp.Columns.Add("ngaynghi_denngay", typeof(string)).DefaultValue = txtNgaynghi_denngay.Text.Trim().Trim('/').Trim();
             tmp.Columns.Add("songayhen", typeof(int)).DefaultValue = (int)txtHen.Value;
             tmp.Columns.Add("makp", typeof(String)); 
-            tmp.Columns.Add("thangtuoi", typeof(String)); 
+            tmp.Columns.Add("thangtuoi", typeof(String));
+            tmp.Columns.Add("soluutru", typeof(String)); // truongthuy 31052014
+
 
             //thêm số tháng
             if (int.Parse(s_stuoi) <= 6 && s_ngaysinh != "")
@@ -5239,6 +5241,17 @@ namespace Medisoft
                     break;
                 }
             }
+            // truongthuy 31052014  : Them so luu tru trong toa F3
+            string s_soluutru = "";
+            if (m.bSoluutruPK_PL_NGT_tudong || m.bSoluutrutangtudong_PK_PL_6so)
+            {
+                foreach (DataRow r in m.get_data("select * from " + zzz + ".lienhe where maql=" + l_maql).Tables[0].Rows)
+                {
+                    s_soluutru = r["soluutru"].ToString();
+                    break;
+                }
+            }
+            // end truongthuy 31052014 
             string _giuong = "";
             if (bChonkhoa)
             {
@@ -5315,6 +5328,7 @@ namespace Medisoft
                 {
                     r1["c16"] = 0;
                 }
+                r1["soluutru"] = s_soluutru;  //truongthuy 31052014
             }
             
             string tenfile=(System.IO.File.Exists("..//..//..//report//d_donthuocb.rpt"))?"d_donthuocb.rpt":"d_donthuoc.rpt";

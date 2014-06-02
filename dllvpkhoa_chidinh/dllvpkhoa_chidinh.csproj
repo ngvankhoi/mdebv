@@ -48,6 +48,10 @@
       <HintPath>C:\WINDOWS\assembly\GAC_MSIL\CrystalDecisions.ReportSource\10.2.3600.0__692fbea5521e1304\CrystalDecisions.ReportSource.dll</HintPath>
     </Reference>
     <Reference Include="CrystalDecisions.Shared, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="DLLPrintchidinh, Version=1.0.5257.24818, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLLPrintchidinh\bin\Debug\DLLPrintchidinh.dll</HintPath>
+    </Reference>
     <Reference Include="Interop.Excel, Version=1.3.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>bin\Debug\Interop.Excel.dll</HintPath>
@@ -327,10 +331,6 @@
     <ProjectReference Include="..\dllDanhmucMedisoft\dllDanhmucMedisoft.csproj">
       <Project>{1C87CF9F-3A25-412B-9708-845C7C7E8353}</Project>
       <Name>dllDanhmucMedisoft</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\DLLPrintchidinh\DLLPrintchidinh.csproj">
-      <Project>{F9C09A3C-CC62-42FA-B944-1E77C9FAC47A}</Project>
-      <Name>DLLPrintchidinh</Name>
     </ProjectReference>
     <ProjectReference Include="..\dllReportM\dllReportM.csproj">
       <Project>{EB41D2E3-0273-46A4-BDDA-F3FCE23AF310}</Project>

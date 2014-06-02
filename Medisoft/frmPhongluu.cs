@@ -6608,20 +6608,49 @@ namespace Medisoft
                 }
             }
             catch { }
-            if (m.bSoluutruPK_PL_NGT_tudong)
+            DataSet dsktsoluutru = new DataSet();
+            dsktsoluutru = m.get_data_mmyy("select * from xxx.lienhe  where maql=" + l_maql + "", ngayvv.Text, ngayvv.Text, true);
+            string kt_luutru = "";
+            if (dsktsoluutru != null || dsktsoluutru.Tables.Count > 0 || dsktsoluutru.Tables[0].Rows.Count > 0)
             {
-                string s_mmyy = "";
-                s_mmyy = DateTime.Now.Year.ToString().Substring(2, 2).PadLeft(2, '0') + DateTime.Now.Month.ToString().PadLeft(2, '0');
-                decimal l_idluutru = m.get_capid(200, s_mmyy);
-                s_soluutru = i_chinhanh.ToString().PadLeft(2, '0') + s_mmyy + l_idluutru.ToString().PadLeft(6, '0');
-                m.execute_data("update " + user + m.mmyy(ngayvv.Text.Substring(0, 10)) + ".lienhe set soluutru='" + s_soluutru + "' where maql=" + l_maql + "");
-                m.execute_data("update " + user + m.mmyy(ngayvv.Text.Substring(0, 10)) + ".benhancc set soluutru='" + s_soluutru + "' where maql=" + l_maql + "");
+                foreach (DataRow dr in dsktsoluutru.Tables[0].Rows)
+                {
+                    kt_luutru = dr["soluutru"].ToString();
+                }
             }
-            //if (m.bSoluutruPK_PL_NGT_tudong) gam 02042012 -->code dư, đã update o tren rồi
-            //{
-            //    m.execute_data("update " + user + m.mmyy(ngayvv.Text.Substring(0, 10)) + ".benhancc set soluutru='" + s_soluutru + "' where maql=" + l_maql + "");
-            //}
+            if (kt_luutru == "")
+            {
+                if (m.bSoluutruPK_PL_NGT_tudong)
+                {
+                    string s_mmyy = "";
+                    s_mmyy = DateTime.Now.Year.ToString().Substring(2, 2).PadLeft(2, '0') + DateTime.Now.Month.ToString().PadLeft(2, '0');
+                    decimal l_idluutru = m.get_capid(200, s_mmyy);
+                    s_soluutru = i_chinhanh.ToString().PadLeft(2, '0') + s_mmyy + l_idluutru.ToString().PadLeft(6, '0');
+                    m.execute_data("update " + user + m.mmyy(ngayvv.Text.Substring(0, 10)) + ".lienhe set soluutru='" + s_soluutru + "' where maql=" + l_maql + "");
+                    m.execute_data("update " + user + m.mmyy(ngayvv.Text.Substring(0, 10)) + ".benhancc set soluutru='" + s_soluutru + "' where maql=" + l_maql + "");
 
+                }
+                // truongthuy 31052014 Them so luu trữ tự động 6 số  check option D29  phing 
+                if (m.bSoluutrutangtudong_PK_PL_6so)
+                {
+                    string s_mmyy = "";
+                    s_mmyy = DateTime.Now.Year.ToString().Substring(2, 2).PadLeft(2, '0') + DateTime.Now.Month.ToString().PadLeft(2, '0');
+                    decimal l_idluutru = m.get_capid((int)LibMedi.ma_table_capid.SoluutruPK_PL_NGT_tudong_6so, s_mmyy);
+                    s_soluutru = l_idluutru.ToString().PadLeft(6, '0');
+                    m.execute_data("update " + user + m.mmyy(ngayvv.Text.Substring(0, 10)) + ".lienhe set soluutru='" + s_soluutru + "' where maql=" + l_maql + "");
+                    m.execute_data("update " + user + m.mmyy(ngayvv.Text.Substring(0, 10)) + ".benhancc set soluutru='" + s_soluutru + "' where maql=" + l_maql + "");
+
+
+                }
+                soluutru.Text = s_soluutru;
+                soluutru.Enabled = false;
+            }
+            else
+            {
+                soluutru.Text = kt_luutru;
+                soluutru.Enabled = false;
+            }
+          
             if (bNew) m.execute_data("update " + user + m.mmyy(ngayvv.Text) + ".benhancc set giuong='" + giuong.Text + "' where maql=" + l_maql);
             if (int.Parse(so.Substring(0, 2)) > 0)
             {
@@ -6726,10 +6755,7 @@ namespace Medisoft
                     }
                     m.upd_tiepdon(s_mabn, l_matd, maql1, khoa.Text, ngayrv.Text + " " + giorv.Text, int.Parse(madoituong.Text), (sokham != "") ? sokham : sovaovien.Text, tuoi.Text.PadLeft(3, '0') + loaituoi.SelectedIndex.ToString(), i_userid, 0, LibMedi.AccessData.Khambenh, 0);//bi061009
                     m.upd_lienhe(ngayrv.Text, maql1, sonha.Text, thon.Text, cholam.Text, matt.Text, maqu1.Text + maqu2.Text, mapxa1.Text + mapxa2.Text, tuoi.Text.PadLeft(3, '0') + loaituoi.SelectedIndex.ToString(), 0, 0);
-                    //TU:28/06/2011
-                    if (m.bSoluutruPK_PL_NGT_tudong)
-                        m.execute_data("update " + user + m.mmyy(ngayrv.Text.Substring(0, 10)) + ".lienhe set soluutru='" + s_soluutru + "' where maql=" + maql1 + "");
-                    //end TU
+                  
                     if (int.Parse(so.Substring(0, 2)) > 0)
                     {
                         if (!m.upd_bhyt(ngayrv.Text, s_mabn, maql1, sothe.Text, denngay.Text, manoidk.Text, 0, tungay.Text, s_tungay1, s_tungay2, s_tungay3, traituyen.SelectedIndex))//gam 07/09/2011

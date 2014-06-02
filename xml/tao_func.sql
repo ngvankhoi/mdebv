@@ -1186,10 +1186,8 @@ CREATE OR REPLACE FUNCTION  medibv0514.upd_tienthuoc(d_mabn varchar, d_maql nume
 $BODY$
 DECLARE
     t_id numeric;t_mabn varchar;t_mavaovien numeric;t_maql numeric;t_idkhoa numeric;t_ngay varchar;t_makp numeric;t_madoituong numeric;t_mabd numeric;t_soluong numeric;t_giaban numeric;t_giamua numeric;t_gianovat numeric;t_done numeric;t_idttrv numeric;t_datra numeric;t_traituyen numeric;
-    tienthuocs cursor (p_mabn varchar,p_maql numeric) is select id,mabn,maql, idkhoa, to_char(ngay,'dd/mm/yyyy') as ngay, makp, madoituong, mabd, giamua, done,idttrv,datra,gianovat from medibv0514.d_tienthuoc where  mabn=p_mabn and maql=p_maql and done=1;
     thuocsd cursor  (p_mabn varchar, p_maql numeric) is select a.id,a.mabn,a.mavaovien,a.maql,a.idkhoa,to_char(a.ngayylenh,'dd/mm/yyyy') as ngay, a.makhoa as makp,b.madoituong, b.mabd, case when a.loai=3 then -1*b.soluong else b.soluong end as soluong,t.giaban,t.giamua,t.gianovat, a.traituyen from medibv0514.d_xuatsdll a, medibv0514.d_xuatsdct b,medibv0514.d_theodoi t where a.id=b.id and b.sttt=t.id and a.mabn=p_mabn and a.maql=p_maql;
 begin
-    open tienthuocs(d_mabn,d_maql);
     open thuocsd(d_mabn,d_maql);
     delete from medibv0514.d_tienthuoc where mabn=d_mabn and maql=d_maql and done=0;
     loop
@@ -1203,14 +1201,6 @@ begin
         end if;
     end loop;
     close thuocsd;
-    loop
-        fetch tienthuocs into t_id,t_mabn,t_maql,t_idkhoa,t_ngay,t_makp,t_madoituong,t_mabd,t_giamua,t_done,t_idttrv,t_datra,t_gianovat;
-        if found=false then
-            exit;
-        end if;
-        update medibv0514.d_tienthuoc set done=t_done,idttrv=t_idttrv,datra=t_datra where id=t_id and mabn=t_mabn and maql=t_maql and idkhoa=t_idkhoa and to_char(ngay,'dd/mm/yyyy')=t_ngay and makp=t_makp and madoituong=t_madoituong and mabd=t_mabd and giamua=t_giamua and done=0;
-    end loop;
-    close tienthuocs;
 end;
 $BODY$
   LANGUAGE 'plpgsql' VOLATILE;	
@@ -1219,10 +1209,8 @@ CREATE OR REPLACE FUNCTION  medibv0514.upd_tienthuoc1(d_mabn varchar, d_maql num
 $BODY$
 DECLARE
     t_id numeric;t_mabn varchar;t_mavaovien numeric;t_maql numeric;t_idkhoa numeric;t_ngay varchar;t_makp numeric;t_madoituong numeric;t_mabd numeric;t_soluong numeric;t_giaban numeric;t_giamua numeric;t_gianovat numeric;t_gia_bh numeric;t_done numeric;t_idttrv numeric;t_datra numeric;t_traituyen numeric;
-    tienthuocs cursor (p_mabn varchar,p_maql numeric) is select id,mabn,maql, idkhoa, to_char(ngay,'dd/mm/yyyy') as ngay, makp, madoituong, mabd, giamua, done,idttrv,datra,gianovat,gia_bh from medibv0514.d_tienthuoc where  mabn=p_mabn and maql=p_maql and done=1;
     thuocsd cursor  (p_mabn varchar, p_maql numeric) is select a.id,a.mabn,a.mavaovien,a.maql,a.idkhoa,to_char(b.ngayylenh,'dd/mm/yyyy') as ngay, a.makhoa as makp,b.madoituong, b.mabd, case when a.loai=3 then -1*b.soluong else b.soluong end as soluong,t.giaban,t.giamua,t.gianovat, a.traituyen,b.gia_bh from medibv0514.d_xuatsdll a, medibv0514.d_xuatsdct b,medibv0514.d_theodoi t where a.id=b.id and b.sttt=t.id and a.mabn=p_mabn and a.maql=p_maql;
 begin
-    open tienthuocs(d_mabn,d_maql);
     open thuocsd(d_mabn,d_maql);
     delete from medibv0514.d_tienthuoc where mabn=d_mabn and maql=d_maql and done=0;
     loop
@@ -1236,14 +1224,6 @@ begin
         end if;
     end loop;
     close thuocsd;
-    loop
-        fetch tienthuocs into t_id,t_mabn,t_maql,t_idkhoa,t_ngay,t_makp,t_madoituong,t_mabd,t_giamua,t_done,t_idttrv,t_datra,t_gianovat,t_gia_bh;
-        if found=false then
-            exit;
-        end if;
-        update medibv0514.d_tienthuoc set done=t_done,idttrv=t_idttrv,datra=t_datra,gia_bh=t_gia_bh where id=t_id and mabn=t_mabn and maql=t_maql and idkhoa=t_idkhoa and to_char(ngay,'dd/mm/yyyy')=t_ngay and makp=t_makp and madoituong=t_madoituong and mabd=t_mabd and giamua=t_giamua and done=0;
-    end loop;
-    close tienthuocs;
 end;
 $BODY$
   LANGUAGE 'plpgsql' VOLATILE;	
@@ -1252,10 +1232,8 @@ CREATE OR REPLACE FUNCTION  medibv0514.upd_tienthuoc_ktcao(d_mabn varchar, d_maq
 $BODY$
 DECLARE
     t_id numeric;t_mabn varchar;t_mavaovien numeric;t_maql numeric;t_idkhoa numeric;t_ngay varchar;t_makp numeric;t_madoituong numeric;t_mabd numeric;t_soluong numeric;t_giaban numeric;t_giamua numeric;t_gianovat numeric;t_gia_bh numeric;t_done numeric;t_idttrv numeric;t_datra numeric;t_traituyen numeric;t_id_ktcao numeric;
-    tienthuocs cursor (p_mabn varchar,p_maql numeric) is select id,mabn,maql, idkhoa, to_char(ngay,'dd/mm/yyyy') as ngay, makp, madoituong, mabd, giamua, done,idttrv,datra,gianovat,gia_bh,id_ktcao from medibv0514.d_tienthuoc where  mabn=p_mabn and maql=p_maql and done=1;
     thuocsd cursor  (p_mabn varchar, p_maql numeric) is select a.id,a.mabn,a.mavaovien,a.maql,a.idkhoa,to_char(b.ngayylenh,'dd/mm/yyyy') as ngay, a.makhoa as makp,b.madoituong, b.mabd, case when a.loai=3 then -1*b.soluong else b.soluong end as soluong,t.giaban,t.giamua,t.gianovat, a.traituyen,b.gia_bh,b.id_ktcao from medibv0514.d_xuatsdll a, medibv0514.d_xuatsdct b,medibv0514.d_theodoi t where a.id=b.id and b.sttt=t.id and a.mabn=p_mabn and a.maql=p_maql;
 begin
-    open tienthuocs(d_mabn,d_maql);
     open thuocsd(d_mabn,d_maql);
     delete from medibv0514.d_tienthuoc where mabn=d_mabn and maql=d_maql and done=0;
     loop
@@ -1269,14 +1247,6 @@ begin
         end if;
     end loop;
     close thuocsd;
-    loop
-        fetch tienthuocs into t_id,t_mabn,t_maql,t_idkhoa,t_ngay,t_makp,t_madoituong,t_mabd,t_giamua,t_done,t_idttrv,t_datra,t_gianovat,t_gia_bh,t_id_ktcao;
-        if found=false then
-            exit;
-        end if;
-        update medibv0514.d_tienthuoc set done=t_done,idttrv=t_idttrv,datra=t_datra,gia_bh=t_gia_bh where id=t_id and mabn=t_mabn and maql=t_maql and idkhoa=t_idkhoa and to_char(ngay,'dd/mm/yyyy')=t_ngay and makp=t_makp and madoituong=t_madoituong and mabd=t_mabd and giamua=t_giamua and done=0 and id_ktcao=t_id_ktcao;
-    end loop;
-    close tienthuocs;
 end;
 $BODY$
   LANGUAGE 'plpgsql' VOLATILE;	

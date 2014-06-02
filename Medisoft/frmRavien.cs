@@ -1405,7 +1405,8 @@ namespace Medisoft
 		}
 
 		private void butLuu_Click(object sender, System.EventArgs e)
-		{
+		
+        {
             string s_idttrv = "", s_quyenso = "", s_sobienlai = "";
             int iDone = done.SelectedIndex;
             if (done.SelectedIndex==0 && bCapcuu_noitru && i_loaiba == 4 && Capcuu_dachuyen_noitru(l_mavaovien.ToString()))
@@ -1806,6 +1807,7 @@ namespace Medisoft
 			ena_but(false);
             try { butIn.Focus(); }
             catch { }
+
 		}
 
 		private void butBoqua_Click(object sender, System.EventArgs e)
