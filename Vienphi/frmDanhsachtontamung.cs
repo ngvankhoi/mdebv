@@ -6,7 +6,9 @@ using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
 using Vienphi.VPDatasets;
-using Excel;
+//using Excel;
+using System.Reflection;
+using System.Diagnostics;
 
 namespace Vienphi
 {
@@ -760,9 +762,45 @@ namespace Vienphi
         {
             if (tabControl1.SelectedTab == tabPage2)
             {
-                Excel.Application exapp = new Excel.Application();
                 
-                exapp.Workbooks
+                saveFileDialog1.DefaultExt = "xls";
+                saveFileDialog1.Filter="File Excel | *.xls";
+                saveFileDialog1.ShowDialog();
+               if( saveFileDialog1.ValidateNames)
+               {
+                   Excel.Application exapp = new Excel.Application();
+                   try
+                   {                      
+                       exapp.Workbooks.Add(Missing.Value);
+                       Excel.Workbook wkb = exapp.Workbooks.get_Item(1);
+                       Excel.Worksheet wks = (Excel.Worksheet)wkb.Worksheets.get_Item(1);
+                       int offsetrow = 3;
+                       int offsetcol = 1;
+                       foreach (DataColumn dc in datasetDanhsachtontamung1.CHITIETTAMUNG.Columns)
+                       {
+                           ((Excel.Range)wks.Cells[offsetrow - 1, datasetDanhsachtontamung1.CHITIETTAMUNG.Columns.IndexOf(dc) + offsetcol]).Value2 = dc.ColumnName;
+                       }
+                       foreach (DataRow dr in datasetDanhsachtontamung1.CHITIETTAMUNG.Rows)
+                       {
+                           foreach (DataColumn dc in datasetDanhsachtontamung1.CHITIETTAMUNG.Columns)
+                           {
+                               ((Excel.Range)wks.Cells[datasetDanhsachtontamung1.CHITIETTAMUNG.Rows.IndexOf(dr) + offsetrow, datasetDanhsachtontamung1.CHITIETTAMUNG.Columns.IndexOf(dc) + offsetcol]).Value2 = dr[dc];
+                           }
+                       }
+                       wkb.SaveAs(saveFileDialog1.FileName, Missing.Value, Missing.Value, Missing.Value, Missing.Value, Missing.Value, Excel.XlSaveAsAccessMode.xlShared, Missing.Value, Missing.Value, Missing.Value, Missing.Value);
+                       Process pro = new Process();
+                       pro.StartInfo = new ProcessStartInfo(saveFileDialog1.FileName);
+                       pro.Start();
+                   }
+                   catch
+                   {
+ 
+                   }
+                   finally
+                   {
+                       exapp.Quit();
+                   }
+               }
             }
         }
     }
