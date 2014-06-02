@@ -9,6 +9,8 @@ using Vienphi.VPDatasets;
 //using Excel;
 using System.Reflection;
 using System.Diagnostics;
+using System.Threading;
+using System.IO;
 
 namespace Vienphi
 {
@@ -628,11 +630,10 @@ namespace Vienphi
 
         private void backgroundWorker1_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
         {
-            this.Invoke((MethodInvoker)delegate()
-            {
-                this.Cursor = Cursors.Arrow; 
-            });
-            
+           
+                this.Cursor = Cursors.Arrow;
+                dataGridView1.Cursor = Cursors.Arrow;
+                dataGridView2.Cursor = Cursors.Arrow; 
            
             if (e.Result != null)
             {
@@ -694,7 +695,7 @@ namespace Vienphi
         private void button1_Click(object sender, EventArgs e)
         {
             this.Cursor = Cursors.WaitCursor;
-             dataGridView1.Cursor = Cursors.WaitCursor;
+            dataGridView1.Cursor = Cursors.WaitCursor;
             button1.Enabled = false;
             dataGridView1.DataSource = null;
             dataGridView2.DataSource = null;
@@ -762,46 +763,189 @@ namespace Vienphi
         {
             if (tabControl1.SelectedTab == tabPage2)
             {
-                
                 saveFileDialog1.DefaultExt = "xls";
-                saveFileDialog1.Filter="File Excel | *.xls";
+                saveFileDialog1.Filter = "File Excel | *.xls";
+                saveFileDialog1.InitialDirectory = "%userprofile%/Desktop";
+                saveFileDialog1.FileName = "bangketamung";
                 saveFileDialog1.ShowDialog();
-               if( saveFileDialog1.ValidateNames)
-               {
-                   Excel.Application exapp = new Excel.Application();
-                   try
-                   {                      
-                       exapp.Workbooks.Add(Missing.Value);
-                       Excel.Workbook wkb = exapp.Workbooks.get_Item(1);
-                       Excel.Worksheet wks = (Excel.Worksheet)wkb.Worksheets.get_Item(1);
-                       int offsetrow = 3;
-                       int offsetcol = 1;
-                       foreach (DataColumn dc in datasetDanhsachtontamung1.CHITIETTAMUNG.Columns)
-                       {
-                           ((Excel.Range)wks.Cells[offsetrow - 1, datasetDanhsachtontamung1.CHITIETTAMUNG.Columns.IndexOf(dc) + offsetcol]).Value2 = dc.ColumnName;
-                       }
-                       foreach (DataRow dr in datasetDanhsachtontamung1.CHITIETTAMUNG.Rows)
-                       {
-                           foreach (DataColumn dc in datasetDanhsachtontamung1.CHITIETTAMUNG.Columns)
-                           {
-                               ((Excel.Range)wks.Cells[datasetDanhsachtontamung1.CHITIETTAMUNG.Rows.IndexOf(dr) + offsetrow, datasetDanhsachtontamung1.CHITIETTAMUNG.Columns.IndexOf(dc) + offsetcol]).Value2 = dr[dc];
-                           }
-                       }
-                       wkb.SaveAs(saveFileDialog1.FileName, Missing.Value, Missing.Value, Missing.Value, Missing.Value, Missing.Value, Excel.XlSaveAsAccessMode.xlShared, Missing.Value, Missing.Value, Missing.Value, Missing.Value);
-                       Process pro = new Process();
-                       pro.StartInfo = new ProcessStartInfo(saveFileDialog1.FileName);
-                       pro.Start();
-                   }
-                   catch
-                   {
- 
-                   }
-                   finally
-                   {
-                       exapp.Quit();
-                   }
-               }
+                if (saveFileDialog1.ValidateNames)
+                {
+                    this.Cursor = Cursors.WaitCursor;
+                    dataGridView1.Cursor = Cursors.WaitCursor;
+                    bgW_luuexel.RunWorkerAsync(saveFileDialog1.FileName);
+                    toolStripProgressBar1.Maximum = 100;
+                    toolStripProgressBar1.Step = 5;
+                }
             }
+        }
+
+        private void bgW_luuexel_DoWork(object sender, DoWorkEventArgs e)
+        {
+            string filename = e.Argument.ToString();
+                System.Globalization.CultureInfo oldcul = Thread.CurrentThread.CurrentCulture;
+                Thread.CurrentThread.CurrentCulture = new System.Globalization.CultureInfo("en-US");
+                Excel.Application exapp = new Excel.Application();
+                ThamsoKetqua kq = new ThamsoKetqua();
+                bgW_luuexel.ReportProgress(0);
+                try
+                {
+                    exapp.Workbooks.Add(Missing.Value);
+                    Excel.Workbook wkb = exapp.Workbooks.get_Item(1);
+                    //wkb. = Excel.XlFileFormat.xlExcel9795;
+                    Excel.Worksheet wks = (Excel.Worksheet)wkb.Worksheets.get_Item(1);
+                    int offsetrow = 3;
+                    //int offsetcol = 1;
+                    int colnum = 2;
+                    ((Excel.Range)wks.Cells[offsetrow - 1, 1]).Value2 = "Stt";
+                    string colname;
+                    foreach (DataColumn dc in datasetDanhsachtontamung1.CHITIETTAMUNG.Columns)
+                    {
+                        if (dc.ColumnName == "maql" || dc.ColumnName == "mavaovien")
+                            continue;
+                        switch (dc.ColumnName)
+                        {
+                            case "mabn":
+                                colname = "Mã BN";
+                                break;
+                            case "hoten":	
+                                colname = "Họ Tên";
+                                break;
+                            case "quyenso":
+                                colname = "Quyển sổ";
+                                break;
+                            case "sobienlai":
+                                colname = "Số biên lai";
+                                break;
+                            case "tiendong":
+                                colname = "Tạm ứng";
+                                break;
+                            case "ngaydong":
+                                colname = "Ngày đóng";
+                                break;                                	
+                            case "hoantra":
+                                colname = "Hoàn trả";
+                                break;
+                            case "ngaytra":
+                                colname = "Ngày trả";
+                                break;
+                            case "done":
+                                colname = "Hoàn tất";
+                                break;
+                            case "tongvienphi":
+                                colname = "Viện phí";
+                                break;
+                            case "ngayravien":
+                                colname = "Ngày ra viện";
+                                break;
+                            case "nguoithu":
+                                colname = "Người thu";
+                                break;
+                            case "tenkp":
+                                colname = "Khoa";
+                                break;
+                            default:
+                                colname = dc.ColumnName;
+                                break;
+                        }                        
+                        ((Excel.Range)wks.Cells[offsetrow - 1, colnum]).Value2 = colname;
+                        colnum++;
+                    }
+                    long numrow = 1;
+                    foreach (DataRow dr in datasetDanhsachtontamung1.CHITIETTAMUNG.Rows)
+                    {
+                        colnum=2;
+                        foreach (DataColumn dc in datasetDanhsachtontamung1.CHITIETTAMUNG.Columns)
+                        {
+                            numrow = datasetDanhsachtontamung1.CHITIETTAMUNG.Rows.IndexOf(dr) + offsetrow;
+                            ((Excel.Range)wks.Cells[numrow, 1]).Value2 = numrow - offsetrow + 1;
+                            if (dc.ColumnName == "maql" || dc.ColumnName == "mavaovien")
+                                continue;
+                            if (dr[dc].GetType() == typeof(DateTime))
+                                ((Excel.Range)wks.Cells[numrow, colnum]).Value2 = ((DateTime)dr[dc]).ToString("dd/MM/yyyy");
+                            else
+                                if (dr[dc].GetType() == typeof(decimal) && ((decimal)dr[dc]) > 1000000000000)
+                                    ((Excel.Range)wks.Cells[numrow, colnum]).Value2 = "'" + dr[dc].ToString();
+                                else
+                                {
+
+                                    if (dc.ColumnName == "done")
+                                    {
+                                        if ((decimal)dr[dc] == 0)
+                                            ((Excel.Range)wks.Cells[numrow, colnum]).Value2 = "NO";
+                                        else
+                                            ((Excel.Range)wks.Cells[numrow, colnum]).Value2 = "YES";
+                                    }
+                                    else
+                                        ((Excel.Range)wks.Cells[numrow, colnum]).Value2 = dr[dc];
+                                }
+                            colnum++;
+                        }
+                        int per = (int)((float)(numrow -offsetrow)/(float) datasetDanhsachtontamung1.CHITIETTAMUNG.Rows.Count * 90);
+                        if (per % 5 == 0)
+                            bgW_luuexel.ReportProgress(per);
+                    }
+                    ((Excel.Range)wks.Cells[numrow + 2, 1]).Value2 = "Tổng tạm ứng:"; ((Excel.Range)wks.Cells[numrow + 2, 2]).Value2 = lb_tongcong.Text;
+                    ((Excel.Range)wks.Cells[numrow + 2, 4]).Value2 = "Tổng tồn:"; ((Excel.Range)wks.Cells[numrow + 2, 5]).Value2 = lb_tongtu.Text;
+                    ((Excel.Range)wks.Cells[numrow + 2, 7]).Value2 = "Tổng hoàn:"; ((Excel.Range)wks.Cells[numrow + 2, 8]).Value2 = lb_tonghoan.Text;
+                    wkb.SaveAs(filename.Substring(0,filename.Length-4) , Missing.Value, Missing.Value, Missing.Value, Missing.Value, Missing.Value, Excel.XlSaveAsAccessMode.xlShared, Missing.Value, Missing.Value, Missing.Value, Missing.Value);
+                    bgW_luuexel.ReportProgress(100);
+                    exapp.Quit();
+                    kq.err = true;
+                    kq.filename = filename.Substring(0, filename.Length - 4);                   
+                }
+                catch
+                {
+                    kq.err = false;
+                }
+                finally
+                {
+                    //if(exapp)
+                    exapp.Quit();
+                    Thread.CurrentThread.CurrentCulture = oldcul;    
+                    e.Result = kq;
+                }
+            
+        }
+
+        private void bgW_luuexel_ProgressChanged(object sender, ProgressChangedEventArgs e)
+        {
+            toolStrip1.Invoke((MethodInvoker)delegate()
+            {
+                toolStripProgressBar1.Value = e.ProgressPercentage;
+            });            
+        }
+
+        private void bgW_luuexel_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
+        {
+            Thread.Sleep(100);
+            ThamsoKetqua kq = (ThamsoKetqua)e.Result;
+            if (kq.err)
+            {
+                try
+                {
+                    Process pro = new Process();
+                    if (File.Exists(kq.filename + ".xls"))
+                    {
+                        pro.StartInfo = new ProcessStartInfo(kq.filename + ".xls");
+                    }
+                    else
+                        pro.StartInfo = new ProcessStartInfo(kq.filename + ".xlsx");
+                    pro.Start();
+                }
+                catch
+                { 
+                }
+            }
+            else
+                MessageBox.Show("Lỗi trong khi xuất file excel!","Lỗi",MessageBoxButtons.OK,MessageBoxIcon.Error);
+            this.Cursor = Cursors.Arrow;
+            dataGridView1.Cursor = Cursors.Arrow;
+            toolStripProgressBar1.Value = 0;
+        }
+        class ThamsoKetqua
+        {
+            public bool err = false;
+            public string filename = "";
         }
     }
 }
