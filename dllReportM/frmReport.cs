@@ -12,6 +12,7 @@ using Excel;
 using System.IO;
 using LibMedi;
 using LibDuoc;
+using System.Threading;
 
 namespace dllReportM
 {
@@ -920,6 +921,8 @@ namespace dllReportM
 		{
             if (butExcel.Visible)
             {
+                System.Globalization.CultureInfo oldcul = Thread.CurrentThread.CurrentCulture;
+                Thread.CurrentThread.CurrentCulture = new System.Globalization.CultureInfo("en-US");
                 d.check_process_Excel();
                 string tenfile = (b_baohiem) ? d.Export_Excel(dt, ReportFile.Substring(0, ReportFile.Length - 4)) : d.Export_Excel(ds, ReportFile.Substring(0, ReportFile.Length - 4));
                 oxl = new Excel.Application();
@@ -937,6 +940,10 @@ namespace dllReportM
                     osheet.PageSetup.CenterFooter = "Trang : &P/&N";
                 }
                 catch { }
+                finally
+                {
+                    Thread.CurrentThread.CurrentCulture = oldcul;
+                }
                 oxl.Visible = true;
             }
 		}

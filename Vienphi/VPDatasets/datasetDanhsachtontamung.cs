@@ -29,7 +29,7 @@ namespace Vienphi.VPDatasets {
             {
                 try
                 {
-                    cmm.CommandText = "SELECT to_number(substring(substring(schema_name from '....$') from 1 for 2 )) thang,to_number('20'||(substring(substring(schema_name from '....$') from '..$'))) nam ,substring(substring(schema_name from '....$') from 1 for 2 )||'-20'||(substring(substring(schema_name from '....$') from '..$')) thangnam from information_schema.schemata where schema_name like 'medibv_%' order by thang,nam desc";
+                    cmm.CommandText = "SELECT to_number(substring(substring(schema_name from '....$') from 1 for 2 )) thang,to_number('20'||(substring(substring(schema_name from '....$') from '..$'))) nam ,substring(substring(schema_name from '....$') from 1 for 2 )||'-20'||(substring(substring(schema_name from '....$') from '..$')) thangnam from information_schema.schemata where schema_name like 'medibv0%' or schema_name like 'medibv1%' order by thang,nam desc";
                     cmm.Connection.Open();
                     Npgsql.NpgsqlDataReader dtrd = cmm.ExecuteReader();
                     while (dtrd.Read())

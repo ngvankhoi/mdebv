@@ -29,7 +29,7 @@ namespace Vienphi
             //  DateTime premonth = DateTime.Today;
             // premonth.AddMonths(-1);
             //string preSchema = m_v.get_mmyy(premonth.ToString("dd/MM/yyyy"));
-            string sql_schemammyy = "select schema_name,substring(schema_name from char_length(schema_name)-3) mmyy from information_schema.schemata where  schema_name Like 'medibv_%' ";
+            string sql_schemammyy = "select schema_name,substring(schema_name from char_length(schema_name)-3) mmyy from information_schema.schemata where  schema_name Like 'medibv0%' or schema_name Like 'medibv1%' ";
             //   formStatus fst = new formStatus();
             //  fst.progressBar1.Value = 0;
             // fst.Show();
@@ -69,15 +69,19 @@ namespace Vienphi
                     try
                     {
                         backgroundWorker1.ReportProgress((int)((((float)i) / ((float)Schemas.Count) * 100) + (1 / (float)Schemas.Count * 100) / 2));
-                        
+
                         cmm.Connection.Open();
                         cmm.ExecuteNonQuery();
                         backgroundWorker1.ReportProgress((int)(((float)i + 1) / ((float)Schemas.Count) * 100));
                         // fst.progressBar1.Value = (int)((((float)i) / ((float)Schemas.Count) * 100) + (1 / (float)Schemas.Count * 100) / 2);
                         cmm.CommandText = sql_capnhat;
                         cmm.ExecuteNonQuery();
-                        
+
                         //fst.progressBar1.Value = (int)(((float)i + 1) / ((float)Schemas.Count) * 100);
+                    }
+                    catch
+                    {
+ 
                     }
                     finally
                     {

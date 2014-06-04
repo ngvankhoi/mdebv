@@ -39,6 +39,7 @@
                 <xs:element name="manhom" type="xs:decimal" default="0" minOccurs="0" />
                 <xs:element name="tennhom" type="xs:string" minOccurs="0" />
                 <xs:element name="hotennguoinhap" type="xs:string" minOccurs="0" />
+                <xs:element name="solan" type="xs:decimal" default="0" minOccurs="0" />
                 <xs:element name="stt" type="xs:string" minOccurs="0" />
               </xs:sequence>
             </xs:complexType>
@@ -78,6 +79,7 @@
                 <xs:element name="manhom" type="xs:decimal" default="0" minOccurs="0" />
                 <xs:element name="tennhom" type="xs:string" minOccurs="0" />
                 <xs:element name="hotennguoinhap" type="xs:string" minOccurs="0" />
+                <xs:element name="solan" type="xs:decimal" default="0" minOccurs="0" />
                 <xs:element name="stt" type="xs:string" minOccurs="0" />
               </xs:sequence>
             </xs:complexType>
@@ -87,37 +89,73 @@
     </xs:element>
   </xs:schema>
   <toa1>
-    <TENBV>Pk Cán Bộ Bvđk Xanh Pôn</TENBV>
-    <MAKP>13</MAKP>
-    <TENKP>Khoa Nội TH</TENKP>
+    <TENBV>Ban BVCSSK cán bộ</TENBV>
+    <MAKP>27</MAKP>
+    <TENKP>Khoa Đông Y-PHCN</TENKP>
     <MADOITUONG>1</MADOITUONG>
     <DOITUONG>BHYT</DOITUONG>
     <PHONG>Buồng thường</PHONG>
-    <GIUONG>NTH-1-7</GIUONG>
-    <MABN>14789789</MABN>
-    <HOTEN>TEST CONGKHAI ,Giới tính :Nam, Năm sinh :1989</HOTEN>
-    <NHOM>Viện phí</NHOM>
+    <GIUONG>DY-12-2</GIUONG>
+    <MABN>14018771</MABN>
+    <HOTEN>TRẦN THỊ TUẤN KHANH ,Giới tính :Nữ, Năm sinh :1958</HOTEN>
+    <NHOM>Thuốc</NHOM>
     <LOAI>0</LOAI>
-    <MA>-11818</MA>
-    <TEN>Nội soi ống mật chủ</TEN>
-    <DVT>Lần</DVT>
-    <SOLUONG>2.000</SOLUONG>
-    <DONGIA>110000</DONGIA>
-    <NGAY>Ngày 23/05/2014</NGAY>
+    <MA>12348</MA>
+    <TEN>Cam thảo </TEN>
+    <DVT>gam</DVT>
+    <SOLUONG>600.0000</SOLUONG>
+    <DONGIA>404.2500000000</DONGIA>
+    <NGAY>Ngày 04/06/2014</NGAY>
     <TENLOAI />
     <PHIEU />
-    <BACSY>Nguyễn Thị Khang Liệu</BACSY>
-    <giaban>110000</giaban>
-    <sothe>HN8576438643674</sothe>
+    <BACSY>BsCKII. Hoàng Văn Hiếu</BACSY>
+    <giaban>404.2500</giaban>
+    <sothe>HT5100100501224</sothe>
     <tungay>01/01/2014 12:00:00 AM</tungay>
-    <denngay>12/31/2014 12:00:00 AM</denngay>
-    <mabv>01-002</mabv>
+    <denngay>31/12/2014 12:00:00 AM</denngay>
+    <mabv>10022</mabv>
     <traituyen>0</traituyen>
-    <maicd>A00.1</maicd>
-    <chandoan>Bệnh tả do Vibrio cholerae 01, typ sinh học eltor</chandoan>
-    <manhom>0</manhom>
-    <tennhom>CLS</tennhom>
-    <hotennguoinhap />
+    <maicd>A65</maicd>
+    <chandoan>Giang mai không phải hoa liễu</chandoan>
+    <manhom>6</manhom>
+    <tennhom>Dược liệu</tennhom>
+    <hotennguoinhap>1</hotennguoinhap>
+    <solan>3.0000000000000000</solan>
+    <stt>1</stt>
+  </toa1>
+  <toa1>
+    <TENBV>Ban BVCSSK cán bộ</TENBV>
+    <MAKP>27</MAKP>
+    <TENKP>Khoa Đông Y-PHCN</TENKP>
+    <MADOITUONG>1</MADOITUONG>
+    <DOITUONG>BHYT</DOITUONG>
+    <PHONG>Buồng thường</PHONG>
+    <GIUONG>DY-12-2</GIUONG>
+    <MABN>14018771</MABN>
+    <HOTEN>TRẦN THỊ TUẤN KHANH ,Giới tính :Nữ, Năm sinh :1958</HOTEN>
+    <NHOM>Thuốc</NHOM>
+    <LOAI>0</LOAI>
+    <MA>12525</MA>
+    <TEN>Sa sâm </TEN>
+    <DVT>gam</DVT>
+    <SOLUONG>600.0000</SOLUONG>
+    <DONGIA>1013.2500000000</DONGIA>
+    <NGAY>Ngày 04/06/2014</NGAY>
+    <TENLOAI />
+    <PHIEU />
+    <BACSY>BsCKII. Hoàng Văn Hiếu</BACSY>
+    <giaban>1013.2500</giaban>
+    <sothe>HT5100100501224</sothe>
+    <tungay>01/01/2014 12:00:00 AM</tungay>
+    <denngay>31/12/2014 12:00:00 AM</denngay>
+    <mabv>10022</mabv>
+    <traituyen>0</traituyen>
+    <maicd>A65</maicd>
+    <chandoan>Giang mai không phải hoa liễu</chandoan>
+    <manhom>6</manhom>
+    <tennhom>Dược liệu</tennhom>
+    <hotennguoinhap>1</hotennguoinhap>
+    <solan>3.0000000000000000</solan>
     <stt>1</stt>
   </toa1>
 </NewDataSet>
