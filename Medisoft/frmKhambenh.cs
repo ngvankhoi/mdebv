@@ -8193,6 +8193,7 @@ namespace Medisoft
 				foreach(DataRow r in dt.Rows)
 				{
 					s_mmyy=r["mmyy"].ToString();
+                   // string s = "select a.* from " + user + s_mmyy + ".d_tonkhoth a," + user + ".d_dmkho b where a.makho=b.id and b.hide=0 and b.nhom=" + m.nhom_nhathuoc;
                     if (d.get_data( "select a.* from " + user + s_mmyy + ".d_tonkhoth a," + user + ".d_dmkho b where a.makho=b.id and b.hide=0 and b.nhom=" + m.nhom_nhathuoc).Tables[0].Rows.Count > 0) break;
 				}
                 //
@@ -8209,23 +8210,35 @@ namespace Medisoft
                 string ss_madoituong = "";
                 DataSet dsdt = new DataSet();
                 dsdt = m.get_data("select * from "+user+".d_dmphieu");
+                string tenphieu="";
                 foreach(DataRow r_dt in dsdt.Tables[0].Select("id=7"))
                 {
                     ss_madoituong = r_dt["madoituong"].ToString();
+                    tenphieu = r_dt["ten"].ToString();
                 }
                 string[] s_dt = ss_madoituong.Split(',');
                 int i_dt=2;
-                if (s_dt.Length >= 1)
+                try
                 {
-                    i_dt = int.Parse(s_dt[0]);
+                    if (s_dt.Length >= 1)
+                    {
+
+                        i_dt = int.Parse(s_dt[0]);
+
+                    }
+                    frmBaohiem f = new frmBaohiem(false, s_mabn, 7, s_mmyy, ngayvv.Text + " " + giovv.Text, m.nhom_nhathuoc, i_userid, "Đơn thuốc mua ngoài", l_matd, l_maql, hoten.Text, namsinh.Text, sothe.Text, tenkp.Text, tenbs.Text, icd_chinh.Text, cd_chinh.Text, i_dt, makp.Text, mabs.Text, tendoituong.Text, cholam.Text, adiachi.Trim().Trim(','), nam, user + m.mmyy(ngayvv.Text) + ".bhyt", 3, s_noicap, false, ss_madoituong, ngayvv.Text + " " + giovv.Text, trieuchung.Text.Replace("\r\n", " "), traituyen.SelectedIndex, ngay1, ngay2, ngay3, phai.Text, bXemlai_toa, i_khudt);//Thuy 01.03.2012//Thanh Cuong - 12/05/2012
+                    f.ShowDialog(this);
+                    butLuu_Click(null, null);
+                    load_thuocdan();
+                    ena_but(!m.bCaptoa_xong_tudongluu);
+                }
+                catch
+                {
+                    MessageBox.Show("Không đặt đối tượng sử dụng cho phiếu:"+tenphieu+" hãy kiểm tra thông số chương trình","Lỗi");
                 }
                 //frmBaohiem f = new frmBaohiem(false, s_mabn, 7, s_mmyy, ngayvv.Text + " " + giovv.Text, m.nhom_nhathuoc, i_userid, "Đơn thuốc mua ngoài", l_matd, l_maql, hoten.Text, namsinh.Text, sothe.Text, tenkp.Text, tenbs.Text, icd_chinh.Text, cd_chinh.Text,5, makp.Text, mabs.Text, tendoituong.Text, cholam.Text, adiachi.Trim().Trim(','), nam, user + m.mmyy(ngayvv.Text) + ".bhyt", 3, s_noicap, false, s_madoituong, ngayvv.Text + " " + giovv.Text, trieuchung.Text.Replace("\r\n", " "), traituyen.SelectedIndex, ngay1, ngay2, ngay3, phai.Text, bXemlai_toa, i_khudt);
                 //Khuong 03/11/2011: sua doi tuong tu 5 thanh 2
-                frmBaohiem f = new frmBaohiem(false, s_mabn, 7, s_mmyy, ngayvv.Text + " " + giovv.Text, m.nhom_nhathuoc, i_userid, "Đơn thuốc mua ngoài", l_matd, l_maql, hoten.Text, namsinh.Text, sothe.Text, tenkp.Text, tenbs.Text, icd_chinh.Text, cd_chinh.Text, i_dt, makp.Text, mabs.Text, tendoituong.Text, cholam.Text, adiachi.Trim().Trim(','), nam, user + m.mmyy(ngayvv.Text) + ".bhyt", 3, s_noicap, false, ss_madoituong, ngayvv.Text + " " + giovv.Text, trieuchung.Text.Replace("\r\n", " "), traituyen.SelectedIndex, ngay1, ngay2, ngay3, phai.Text, bXemlai_toa, i_khudt);//Thuy 01.03.2012//Thanh Cuong - 12/05/2012
-				f.ShowDialog(this);
-                butLuu_Click(null, null);
-				load_thuocdan();
-                ena_but(!m.bCaptoa_xong_tudongluu);
+               
 			}
 			else
 			{

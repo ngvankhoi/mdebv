@@ -424,6 +424,7 @@ namespace Medisoft
             ds1.Tables[0].Columns.Add("manhom", typeof(decimal)).DefaultValue = 0;
             ds1.Tables[0].Columns.Add("tennhom", typeof(string));
             ds1.Tables[0].Columns.Add("hotennguoinhap", typeof(string));//Tu:11/08/2011
+            ds1.Tables[0].Columns.Add("solan", typeof(decimal)).DefaultValue = 0;
 
 			ds2.ReadXml("..//..//..//xml//d_donthuoc2.xml");
             ds2.Tables[0].Columns.Add("giaban", typeof(decimal)).DefaultValue = 0;
@@ -438,6 +439,7 @@ namespace Medisoft
             ds2.Tables[0].Columns.Add("manhom", typeof(decimal)).DefaultValue = 0;
             ds2.Tables[0].Columns.Add("tennhom", typeof(string));
             ds2.Tables[0].Columns.Add("hotennguoinhap", typeof(string));//Tu:11/08/2011
+            ds2.Tables[0].Columns.Add("solan", typeof(decimal)).DefaultValue = 0;
 
             //ds.ReadXml("..//..//..//xml//d_donthuoc.xml");
             //ds.Tables[0].Columns.Add("giaban", typeof(decimal)).DefaultValue = 0;
@@ -559,8 +561,8 @@ namespace Medisoft
             //
             ds = null;
             //
-            sql = "select distinct b.id, b.mabn,c.mabs,e.ten as phong,c.giuong, bh.sothe, bh.tungay, bh.denngay, bh.mabv, bh.traituyen, bv.tenbv, nk.maicd, nk.chandoan ";
-            sql += " from xxx.d_duyet a inner join xxx.d_dutrull b on a.id=b.idduyet ";
+            sql = "select distinct b.id, b.mabn,c.mabs,e.ten as phong,c.giuong, bh.sothe, bh.tungay, bh.denngay, bh.mabv, bh.traituyen, bv.tenbv, nk.maicd, nk.chandoan,b2.solan ";
+            sql += " from xxx.d_duyet a inner join xxx.d_dutrull b on a.id=b.idduyet inner join (select id,avg(solan) solan from xxx.d_dutruct group by id) b2 on b.id = b2.id ";
             sql += " left join xxx.d_dausinhton c on b.id=c.id inner join " + user + ".d_duockp d on a.makhoa=d.id ";
             sql += " left join "+ user + ".dmgiuong f on c.giuong=f.ma ";
             sql += " left join " + user + ".dmphong e on f.idphong=e.id ";
@@ -575,8 +577,8 @@ namespace Medisoft
             sql += " and (c.phong is not null or c.giuong is not null or c.mabs is not null)";
             //
             sql += " union all ";
-            sql += "select distinct b.id, b.mabn,c.mabs,e.ten as phong,c.giuong, bh.sothe, bh.tungay, bh.denngay, bh.mabv, bh.traituyen, bv.tenbv, nk.maicd, nk.chandoan ";
-            sql += " from xxx.d_duyet a inner join xxx.d_xtutrucll b on a.id=b.idduyet left join xxx.d_dausinhton c on b.id=c.id ";
+            sql += "select distinct b.id, b.mabn,c.mabs,e.ten as phong,c.giuong, bh.sothe, bh.tungay, bh.denngay, bh.mabv, bh.traituyen, bv.tenbv, nk.maicd, nk.chandoan,b2.solan ";
+            sql += " from xxx.d_duyet a inner join xxx.d_xtutrucll b on a.id=b.idduyet inner join (select id,avg(solan) solan from xxx.d_xtutrucct group by id) b2 on b.id = b2.id  left join xxx.d_dausinhton c on b.id=c.id ";
             sql += " left join " + user + ".d_duockp d on a.makhoa=d.id ";
             sql += " left join " + user + ".dmgiuong f on c.giuong=f.ma ";
             sql += " left join " + user + ".dmphong e on f.idphong=e.id ";
@@ -593,7 +595,7 @@ namespace Medisoft
             sql += " and (c.phong is not null or c.giuong is not null or c.mabs is not null)";
             //
             sql += " UNION ALL ";
-            sql += "select distinct b.id, b.mabn,c.mabs,e.ten as phong,c.giuong , bh.sothe, bh.tungay, bh.denngay, bh.mabv, bh.traituyen, bv.tenbv, nk.maicd, nk.chandoan ";
+            sql += "select distinct b.id, b.mabn,c.mabs,e.ten as phong,c.giuong , bh.sothe, bh.tungay, bh.denngay, bh.mabv, bh.traituyen, bv.tenbv, nk.maicd, nk.chandoan,number '1' solan ";
             sql += " from xxx.d_duyet a inner join xxx.d_hoantrall b on a.id=b.idduyet left join xxx.d_dausinhton c on b.id=c.id ";
             sql += " inner join " + user + ".d_duockp d on a.makhoa=d.id ";
             sql += " left join " + user + ".dmgiuong f on c.giuong=f.ma ";
@@ -609,13 +611,13 @@ namespace Medisoft
             sql += " and (c.phong is not null or c.giuong is not null or c.mabs is not null)";
             //
             sql += " UNION ALL ";
-            sql += " select distinct b.id, b.mabn,b.mabs,'' as phong, null as giuong , bh.sothe, bh.tungay, bh.denngay, bh.mabv, bh.traituyen, bv.tenbv, nk.maicd, nk.chandoan ";
+            sql += " select distinct b.id, b.mabn,b.mabs,'' as phong, null as giuong , bh.sothe, bh.tungay, bh.denngay, bh.mabv, bh.traituyen, bv.tenbv, nk.maicd, nk.chandoan,b.soluong solan ";
             sql += " from xxx.v_chidinh b left join " + user + ".bhyt bh on b.maql=bh.maql and (bh.sudung is null or bh.sudung=1) ";
             sql += " left join " + user + ".dmnoicapbhyt bv on bh.mabv=bv.mabv inner join " + user + ".nhapkhoa nk on b.idkhoa=nk.id and b.idkhoa>0 ";
             sql += " where to_date(to_char(b.ngay," + stime + ")," + stime + ") between to_date('" + m.DateToString("dd/MM/yyyy", dt1) + "'," + stime + ") and to_date('" + m.DateToString("dd/MM/yyyy", dt2) + "'," + stime + ")";
             //
             sql += " UNION ALL ";
-            sql += " select distinct b.id, b.mabn,'' as mabs,'' as phong, null as giuong , bh.sothe, bh.tungay, bh.denngay, bh.mabv, bh.traituyen, bv.tenbv, nk.maicd, nk.chandoan ";
+            sql += " select distinct b.id, b.mabn,'' as mabs,'' as phong, null as giuong , bh.sothe, bh.tungay, bh.denngay, bh.mabv, bh.traituyen, bv.tenbv, nk.maicd, nk.chandoan,b.soluong solan ";
             sql += " from xxx.v_vpkhoa b left join " + user + ".bhyt bh on b.maql=bh.maql and (bh.sudung is null or bh.sudung=1)";
             sql += " left join " + user + ".dmnoicapbhyt bv on  bh.mabv=bv.mabv ";
             sql += " inner join " + user + ".nhapkhoa nk on b.maql=nk.maql and b.idkhoa=nk.id ";
@@ -646,11 +648,11 @@ namespace Medisoft
                     sql = "select '0' as nhom,0 as loai,d.makp,a.mabn,trim(a.hoten)||' ,Giới tính :'||case when a.phai=0 then 'Nam' else 'Nữ' end||', Năm sinh :'||a.namsinh as hoten,c.madoituong,c.mabd as ma,";
                     sql += " case when f.loai=1 and c.madoituong<>1 then " + s_giaban + " else " + s_dongia + " end as dongia, ";
                     sql += " sum(c.soluong) as soluong";
-                    sql += " ,z.giaban, b.idduyet, bd.manhom, tt.ten as tennhom,dl.hoten as hotennguoinhap ";//Tu:11/08/2011 lay them hoten nguoi nhap
+                    sql += " ,z.giaban, b.idduyet, bd.manhom, tt.ten as tennhom,dl.hoten as hotennguoinhap, avg(b2.solan) solan";//Tu:11/08/2011 lay them hoten nguoi nhap
                     sql += " from " + user + ".btdbn a inner join xxx.d_xuatsdll b on a.mabn=b.mabn inner join xxx.d_xuatsdct c on b.id=c.id ";
                     sql += " inner join xxx.d_theodoi z on c.sttt=z.id inner join " + user + ".d_duockp d on b.makhoa=d.id ";
                     sql += " inner join " + user + ".d_loaiphieu e on b.phieu=e.id inner join " + user + ".d_doituong f on c.madoituong=f.madoituong ";
-                    sql += " inner join xxx.d_dutrull g on b.idduyet=g.id inner join xxx.d_duyet t on g.idduyet=t.id";
+                    sql += " inner join xxx.d_dutrull g on b.idduyet=g.id inner join xxx.d_dutruct b2 on g.id = b2.id inner join xxx.d_duyet t on g.idduyet=t.id";
                     sql += " inner join " + user + ".d_dmbd bd on c.mabd=bd.id inner join " + user + ".d_dmnhom tt on bd.manhom=tt.id ";
                     sql += " left join " + user + ".dlogin dl on g.userid=dl.id ";//Tu:11/08/2011 lay them hoten nguoi nhap
                     sql += " where  1=1 ";//gam 1310/2011
@@ -684,11 +686,11 @@ namespace Medisoft
                     //sql+=" sum(c.soluong) as soluong";
                     sql += " case when f.loai=1 and c.madoituong<>1 then " + s_giaban + " else " + s_dongia + " end as dongia, ";
                     sql += " sum(c.soluong) as soluong";
-                    sql += " ,z.giaban, b.idduyet, bd.manhom, tt.ten as tennhom,dl.hoten as hotennguoinhap ";//Tu:11/08/2011 lay them hoten nguoi nhap
+                    sql += " ,z.giaban, b.idduyet, bd.manhom, tt.ten as tennhom,dl.hoten as hotennguoinhap, avg(b2.solan) solan";//Tu:11/08/2011 lay them hoten nguoi nhap
                     sql += " from " + user + ".btdbn a inner join xxx.d_xuatsdll b on a.mabn=b.mabn inner join xxx.d_xuatsdct c on b.id=c.id ";
                     sql += " inner join " + user + ".d_duockp d on b.makhoa=d.id inner join " + user + ".d_loaiphieu e on b.phieu=e.id ";
                     sql += " inner join " + user + ".d_doituong f on c.madoituong=f.madoituong ";
-                    sql += " inner join  xxx.d_xtutrucll g on b.idduyet=g.id inner join xxx.d_duyet t on g.idduyet=t.id ";
+                    sql += " inner join  xxx.d_xtutrucll g on b.idduyet=g.id inner join xxx.d_xtutrucct b2 on g.id = b2.id inner join xxx.d_duyet t on g.idduyet=t.id ";
                     sql += " inner join xxx.d_theodoi z on c.sttt=z.id inner join " + user + ".d_dmbd bd on c.mabd=bd.id inner join " + user + ".d_dmnhom tt on bd.manhom=tt.id ";
                     sql += " left join " + user + ".dlogin dl on g.userid=dl.id ";//Tu:11/08/2011 lay them hoten nguoi nhap
                     sql += " where 1=1 ";
@@ -727,7 +729,7 @@ namespace Medisoft
                 sql += " from " + user + ".btdbn a inner join xxx.d_xuatsdll b on a.mabn=b.mabn inner join xxx.d_xuatsdct c on b.id=c.id ";
                 sql += " inner join xxx.d_theodoi z on c.sttt=z.id inner join " + user + ".d_duockp d on  b.makhoa=d.id ";
                 sql += " inner join " + user + ".d_loaiphieu e on b.phieu=e.id inner join " + user + ".d_doituong f on c.madoituong=f.madoituong ";
-                sql += " inner join xxx.d_hoantrall g on b.idduyet=g.id inner join xxx.d_duyet t g.idduyet=t.id ";
+                sql += " inner join xxx.d_hoantrall g on b.idduyet=g.id inner join xxx.d_duyet t on g.idduyet=t.id ";
                 sql += " inner join " + user + ".d_dmbd bd on c.mabd=bd.id inner join " + user + ".d_dmnhom tt on  bd.manhom=tt.id ";
                 sql += " where  1=1";
                 if (s_makp != "") sql += " and d.makp in (" + s_makp.Substring(0, s_makp.Length - 1) + ")";
@@ -808,7 +810,7 @@ namespace Medisoft
             catch { }
             Cursor = Cursors.Default;
         }
-		private void upd_data(DataTable dta,string makp,string madoituong,string mabn,string hoten,string nhom,int loai,string ma,string dongia,string soluong, decimal giaban, decimal l_idxuat, int d_manhom, string d_tennhom,string s_hotennguoinhap)
+		private void upd_data(DataTable dta,string makp,string madoituong,string mabn,string hoten,string nhom,int loai,string ma,string dongia,string soluong, decimal giaban, decimal l_idxuat, int d_manhom, string d_tennhom,string s_hotennguoinhap,decimal solan)
 		{
 			DataRow r1,r2,r3,r4,r5,r6,r7,r8;
 			DataRow [] dr;
@@ -835,6 +837,8 @@ namespace Medisoft
 					r2["ten"]=_loai+r5["ten"].ToString();
 					r2["dvt"]=r5["dvt"].ToString();
 					r2["nhom"]=(nhom=="0")?"Thuốc":"Viện phí";
+                    if (solan != null)
+                        r2["solan"] = solan;
                     r6 = m.getrowbyid(dsphong.Tables[0], "mabn='" + mabn + "' and id=" + l_idxuat);
                     if (r6 == null) r6 = m.getrowbyid(dsphong.Tables[0], "mabn='" + mabn + "'");
 					if (r6!=null)
@@ -904,7 +908,7 @@ namespace Medisoft
 					s=r["makp"].ToString().Trim()+r["madoituong"].ToString().Trim()+r["mabn"].ToString().Trim();
 					j++;
 				}
-                upd_data((j % 2 == 0) ? t2 : t1, r["makp"].ToString(), r["madoituong"].ToString(), r["mabn"].ToString(), r["hoten"].ToString(), r["nhom"].ToString(), int.Parse(r["loai"].ToString()), r["ma"].ToString(), r["dongia"].ToString(), r["soluong"].ToString(), decimal.Parse(r["giaban"].ToString()), (r["idduyet"].ToString() == "") ? 0 : decimal.Parse(r["idduyet"].ToString()), (r["manhom"].ToString() == "") ? 0 : int.Parse(r["manhom"].ToString()), r["tennhom"].ToString(),r["hotennguoinhap"].ToString());
+                upd_data((j % 2 == 0) ? t2 : t1, r["makp"].ToString(), r["madoituong"].ToString(), r["mabn"].ToString(), r["hoten"].ToString(), r["nhom"].ToString(), int.Parse(r["loai"].ToString()), r["ma"].ToString(), r["dongia"].ToString(), r["soluong"].ToString(), decimal.Parse(r["giaban"].ToString()), (r["idduyet"].ToString() == "") ? 0 : decimal.Parse(r["idduyet"].ToString()), (r["manhom"].ToString() == "") ? 0 : int.Parse(r["manhom"].ToString()), r["tennhom"].ToString(),r["hotennguoinhap"].ToString(),r.Table.Columns.Contains("solan")?decimal.Parse(r["solan"].ToString()):0);
 			}
 		}
 

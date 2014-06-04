@@ -888,10 +888,11 @@ namespace Vienphi
                     ((Excel.Range)wks.Cells[numrow + 2, 4]).Value2 = "Tổng tồn:"; ((Excel.Range)wks.Cells[numrow + 2, 5]).Value2 = lb_tongtu.Text;
                     ((Excel.Range)wks.Cells[numrow + 2, 7]).Value2 = "Tổng hoàn:"; ((Excel.Range)wks.Cells[numrow + 2, 8]).Value2 = lb_tonghoan.Text;
                     wkb.SaveAs(filename.Substring(0,filename.Length-4) , Missing.Value, Missing.Value, Missing.Value, Missing.Value, Missing.Value, Excel.XlSaveAsAccessMode.xlShared, Missing.Value, Missing.Value, Missing.Value, Missing.Value);
+                    
                     bgW_luuexel.ReportProgress(100);
                     exapp.Quit();
                     kq.err = true;
-                    kq.filename = filename.Substring(0, filename.Length - 4);                   
+                    kq.filename = wkb.Path;                   
                 }
                 catch
                 {
@@ -924,12 +925,7 @@ namespace Vienphi
                 try
                 {
                     Process pro = new Process();
-                    if (File.Exists(kq.filename + ".xls"))
-                    {
-                        pro.StartInfo = new ProcessStartInfo(kq.filename + ".xls");
-                    }
-                    else
-                        pro.StartInfo = new ProcessStartInfo(kq.filename + ".xlsx");
+                    pro.StartInfo = new ProcessStartInfo(kq.filename);
                     pro.Start();
                 }
                 catch

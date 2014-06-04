@@ -154,8 +154,6 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\DLLPrintchidinh\bin\Debug\DLLPrintchidinh.dll</HintPath>
     </Reference>
-    <Reference Include="DLLPrintchidinh1, Version=1.0.3513.28714, Culture=neutral, processorArchitecture=MSIL" />
-    <Reference Include="dllReportM, Version=1.0.5252.28076, Culture=neutral, processorArchitecture=MSIL" />
     <Reference Include="dllvpkhoa_chidinh, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\dllvpkhoa_chidinh\bin\Debug\dllvpkhoa_chidinh.dll</HintPath>
@@ -195,7 +193,6 @@
       <HintPath>..\lib_chung\Interop.MSCommLib.dll</HintPath>
     </Reference>
     <Reference Include="LibCaller, Version=1.0.3047.28052, Culture=neutral" />
-    <Reference Include="LibDuoc, Version=1.0.5252.24992, Culture=neutral, processorArchitecture=MSIL" />
     <Reference Include="LibKSK, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\LibKSK\bin\Debug\LibKSK.dll</HintPath>
@@ -204,7 +201,6 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\lib_chung\LibLicense.dll</HintPath>
     </Reference>
-    <Reference Include="LibList, Version=1.0.5252.25074, Culture=neutral, processorArchitecture=MSIL" />
     <Reference Include="LibMedi, Version=1.0.5214.15027, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\LibMedi\bin\Debug\LibMedi.dll</HintPath>
@@ -221,8 +217,6 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\DuTruKhoTTB\bin\Debug\LibTTB.dll</HintPath>
     </Reference>
-    <Reference Include="LibVienphi, Version=1.0.5252.27826, Culture=neutral, processorArchitecture=MSIL" />
-    <Reference Include="LibVP, Version=1.0.5246.20262, Culture=neutral, processorArchitecture=MSIL" />
     <Reference Include="LibZIP, Version=1.0.3930.24414, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\LibZIP\bin\Debug\LibZIP.dll</HintPath>
@@ -3396,6 +3390,26 @@
     <WebReferences Include="Web References\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\dllReportM\dllReportM.csproj">
+      <Project>{EB41D2E3-0273-46A4-BDDA-F3FCE23AF310}</Project>
+      <Name>dllReportM</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LibDuoc\LibDuoc.csproj">
+      <Project>{5A32EE49-C81E-4E30-B03A-37270016F430}</Project>
+      <Name>LibDuoc</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LibList\LibList.csproj">
+      <Project>{AC81AE2B-D1CF-41FA-934C-6CEBED533383}</Project>
+      <Name>LibList</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LibVienphi\LibVienphi.csproj">
+      <Project>{32440DBE-505F-455F-A334-407C1FB06123}</Project>
+      <Name>LibVienphi</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LibVP\LibVP.csproj">
+      <Project>{861BFFF9-34D6-4B84-9246-A92FA13DC317}</Project>
+      <Name>LibVP</Name>
+    </ProjectReference>
     <ProjectReference Include="..\SMSAsync\SMSAsync.csproj">
       <Project>{2A8E5C17-0772-47B6-BE8D-A3439ABBCB49}</Project>
       <Name>SMSAsync</Name>
