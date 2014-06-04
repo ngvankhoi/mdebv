@@ -1,0 +1,986 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="id_loai" type="xs:string" minOccurs="0" />
+                <xs:element name="ten" type="xs:string" minOccurs="0" />
+                <xs:element name="makt" type="xs:string" minOccurs="0" />
+                <xs:element name="tenkt" type="xs:string" minOccurs="0" />
+                <xs:element name="bsdoc" type="xs:string" minOccurs="0" />
+                <xs:element name="ktv" type="xs:string" minOccurs="0" />
+                <xs:element name="bsdoc1" type="xs:string" minOccurs="0" />
+                <xs:element name="soca" type="xs:decimal" minOccurs="0" />
+                <xs:element name="dongia" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sotien" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <id_loai>01</id_loai>
+    <ten>Siêu âm</ten>
+    <makt>SA002</makt>
+    <tenkt>Bụng  (màu) của nữ</tenkt>
+    <bsdoc>BS.CKI Lê Trung Thi</bsdoc>
+    <ktv>BS.CKI Lê Trung Thi</ktv>
+    <bsdoc1>0014</bsdoc1>
+    <soca>2</soca>
+    <dongia>50000</dongia>
+    <sotien>0.00000000000000000000</sotien>
+  </Table>
+  <Table>
+    <id_loai>01</id_loai>
+    <ten>Siêu âm</ten>
+    <makt>SA002</makt>
+    <tenkt>Bụng  (màu) của nữ</tenkt>
+    <bsdoc>Lê Nguyễn Trí Dũng</bsdoc>
+    <ktv>Lê Nguyễn Trí Dũng</ktv>
+    <bsdoc1>0007</bsdoc1>
+    <soca>20</soca>
+    <dongia>50000</dongia>
+    <sotien>0.00000000000000000000</sotien>
+  </Table>
+  <Table>
+    <id_loai>01</id_loai>
+    <ten>Siêu âm</ten>
+    <makt>SA002</makt>
+    <tenkt>Bụng  (màu) của nữ</tenkt>
+    <bsdoc>Lê Nguyễn Trí Dũng</bsdoc>
+    <ktv>Lê Nguyễn Trí Dũng</ktv>
+    <bsdoc1>0007</bsdoc1>
+    <soca>1</soca>
+    <dongia>80000</dongia>
+    <sotien>0.00000000000000000000</sotien>
+  </Table>
+  <Table>
+    <id_loai>01</id_loai>
+    <ten>Siêu âm</ten>
+    <makt>SA002</makt>
+    <tenkt>Bụng  (màu) của nữ</tenkt>
+    <bsdoc>Nguyễn Minh Trí</bsdoc>
+    <ktv>Nguyễn Minh Trí</ktv>
+    <bsdoc1>0025</bsdoc1>
+    <soca>9</soca>
+    <dongia>50000</dongia>
+    <sotien>0.00000000000000000000</sotien>
+  </Table>
+  <Table>
+    <id_loai>01</id_loai>
+    <ten>Siêu âm</ten>
+    <makt>SA002</makt>
+    <tenkt>Bụng  (màu) của nữ</tenkt>
+    <bsdoc>Nguyễn Minh Trí</bsdoc>
+    <ktv>Nguyễn Minh Trí</ktv>
+    <bsdoc1>0025</bsdoc1>
+    <soca>1</soca>
+    <dongia>80000</dongia>
+    <sotien>0.00000000000000000000</sotien>
+  </Table>
+  <Table>
+    <id_loai>01</id_loai>
+    <ten>Siêu âm</ten>
+    <makt>SA002</makt>
+    <tenkt>Bụng  (màu) của nữ</tenkt>
+    <bsdoc>Trần Thị Khánh Linh</bsdoc>
+    <ktv>Trần Thị Khánh Linh</ktv>
+    <bsdoc1>0027</bsdoc1>
+    <soca>15</soca>
+    <dongia>50000</dongia>
+    <sotien>0.00000000000000000000</sotien>
+  </Table>
+  <Table>
+    <id_loai>01</id_loai>
+    <ten>Siêu âm</ten>
+    <makt>SA002</makt>
+    <tenkt>Bụng  (màu) của nữ</tenkt>
+    <bsdoc>Trần Thị Khánh Linh</bsdoc>
+    <ktv>Trần Thị Khánh Linh</ktv>
+    <bsdoc1>0027</bsdoc1>
+    <soca>1</soca>
+    <dongia>80000</dongia>
+    <sotien>0.00000000000000000000</sotien>
+  </Table>
+  <Table>
+    <id_loai>01</id_loai>
+    <ten>Siêu âm</ten>
+    <makt>SA008</makt>
+    <tenkt>Thai (màu)</tenkt>
+    <bsdoc>Lê Nguyễn Trí Dũng</bsdoc>
+    <ktv>Lê Nguyễn Trí Dũng</ktv>
+    <bsdoc1>0007</bsdoc1>
+    <soca>5</soca>
+    <dongia>50000</dongia>
+    <sotien>0.00000000000000000000</sotien>
+  </Table>
+  <Table>
+    <id_loai>01</id_loai>
+    <ten>Siêu âm</ten>
+    <makt>SA008</makt>
+    <tenkt>Thai (màu)</tenkt>
+    <bsdoc>Nguyễn Hoàng Huy</bsdoc>
+    <ktv>Nguyễn Hoàng Huy</ktv>
+    <bsdoc1>0094</bsdoc1>
+    <soca>2</soca>
+    <dongia>50000</dongia>
+    <sotien>0.00000000000000000000</sotien>
+  </Table>
+  <Table>
+    <id_loai>01</id_loai>
+    <ten>Siêu âm</ten>
+    <makt>SA008</makt>
+    <tenkt>Thai (màu)</tenkt>
+    <bsdoc>Nguyễn Minh Trí</bsdoc>
+    <ktv>Nguyễn Minh Trí</ktv>
+    <bsdoc1>0025</bsdoc1>
+    <soca>4</soca>
+    <dongia>50000</dongia>
+    <sotien>0.00000000000000000000</sotien>
+  </Table>
+  <Table>
+    <id_loai>01</id_loai>
+    <ten>Siêu âm</ten>
+    <makt>SA008</makt>
+    <tenkt>Thai (màu)</tenkt>
+    <bsdoc>Trần Thị Khánh Linh</bsdoc>
+    <ktv>Trần Thị Khánh Linh</ktv>
+    <bsdoc1>0027</bsdoc1>
+    <soca>3</soca>
+    <dongia>50000</dongia>
+    <sotien>0.00000000000000000000</sotien>
+  </Table>
+  <Table>
+    <id_loai>01</id_loai>
+    <ten>Siêu âm</ten>
+    <makt>SA011</makt>
+    <tenkt>Tim (màu)</tenkt>
+    <bsdoc>Nguyễn Minh Trí</bsdoc>
+    <ktv>Nguyễn Minh Trí</ktv>
+    <bsdoc1>0025</bsdoc1>
+    <soca>2</soca>
+    <dongia>130000</dongia>
+    <sotien>0.00000000000000000000</sotien>
+  </Table>
+  <Table>
+    <id_loai>01</id_loai>
+    <ten>Siêu âm</ten>
+    <makt>SA011</makt>
+    <tenkt>Tim (màu)</tenkt>
+    <bsdoc>Võ Thị Trinh Nữ</bsdoc>
+    <ktv>Võ Thị Trinh Nữ</ktv>
+    <bsdoc1>0110</bsdoc1>
+    <soca>1</soca>
+    <dongia>130000</dongia>
+    <sotien>0.00000000000000000000</sotien>
+  </Table>
+  <Table>
+    <id_loai>01</id_loai>
+    <ten>Siêu âm</ten>
+    <makt>SA013</makt>
+    <tenkt>Phụ khoa (màu)</tenkt>
+    <bsdoc>Lê Nguyễn Trí Dũng</bsdoc>
+    <ktv>Lê Nguyễn Trí Dũng</ktv>
+    <bsdoc1>0007</bsdoc1>
+    <soca>3</soca>
+    <dongia>50000</dongia>
+    <sotien>0.00000000000000000000</sotien>
+  </Table>
+  <Table>
+    <id_loai>01</id_loai>
+    <ten>Siêu âm</ten>
+    <makt>SA013</makt>
+    <tenkt>Phụ khoa (màu)</tenkt>
+    <bsdoc>Nguyễn Hoàng Huy</bsdoc>
+    <ktv>Nguyễn Hoàng Huy</ktv>
+    <bsdoc1>0094</bsdoc1>
+    <soca>1</soca>
+    <dongia>50000</dongia>
+    <sotien>0.00000000000000000000</sotien>
+  </Table>
+  <Table>
+    <id_loai>01</id_loai>
+    <ten>Siêu âm</ten>
+    <makt>SA017</makt>
+    <tenkt>Phụ khoa (ĐD)</tenkt>
+    <bsdoc>Lê Nguyễn Trí Dũng</bsdoc>
+    <ktv>Lê Nguyễn Trí Dũng</ktv>
+    <bsdoc1>0007</bsdoc1>
+    <soca>2</soca>
+    <dongia>100000</dongia>
+    <sotien>0.00000000000000000000</sotien>
+  </Table>
+  <Table>
+    <id_loai>01</id_loai>
+    <ten>Siêu âm</ten>
+    <makt>SA017</makt>
+    <tenkt>Phụ khoa (ĐD)</tenkt>
+    <bsdoc>Nguyễn Hoàng Huy</bsdoc>
+    <ktv>Nguyễn Hoàng Huy</ktv>
+    <bsdoc1>0094</bsdoc1>
+    <soca>2</soca>
+    <dongia>100000</dongia>
+    <sotien>0.00000000000000000000</sotien>
+  </Table>
+  <Table>
+    <id_loai>01</id_loai>
+    <ten>Siêu âm</ten>
+    <makt>SA017</makt>
+    <tenkt>Phụ khoa (ĐD)</tenkt>
+    <bsdoc>Trần Thị Khánh Linh</bsdoc>
+    <ktv>Trần Thị Khánh Linh</ktv>
+    <bsdoc1>0027</bsdoc1>
+    <soca>6</soca>
+    <dongia>100000</dongia>
+    <sotien>0.00000000000000000000</sotien>
+  </Table>
+  <Table>
+    <id_loai>01</id_loai>
+    <ten>Siêu âm</ten>
+    <makt>SA018</makt>
+    <tenkt>Bụng ( Sa màu ) của nam</tenkt>
+    <bsdoc>BS.CKI Lê Trung Thi</bsdoc>
+    <ktv>BS.CKI Lê Trung Thi</ktv>
+    <bsdoc1>0014</bsdoc1>
+    <soca>1</soca>
+    <dongia>50000</dongia>
+    <sotien>0.00000000000000000000</sotien>
+  </Table>
+  <Table>
+    <id_loai>01</id_loai>
+    <ten>Siêu âm</ten>
+    <makt>SA018</makt>
+    <tenkt>Bụng ( Sa màu ) của nam</tenkt>
+    <bsdoc>BS.CKI Lê Trung Thi</bsdoc>
+    <ktv>BS.CKI Lê Trung Thi</ktv>
+    <bsdoc1>0014</bsdoc1>
+    <soca>1</soca>
+    <dongia>80000</dongia>
+    <sotien>0.00000000000000000000</sotien>
+  </Table>
+  <Table>
+    <id_loai>01</id_loai>
+    <ten>Siêu âm</ten>
+    <makt>SA018</makt>
+    <tenkt>Bụng ( Sa màu ) của nam</tenkt>
+    <bsdoc>Lê Nguyễn Trí Dũng</bsdoc>
+    <ktv>Lê Nguyễn Trí Dũng</ktv>
+    <bsdoc1>0007</bsdoc1>
+    <soca>6</soca>
+    <dongia>50000</dongia>
+    <sotien>0.00000000000000000000</sotien>
+  </Table>
+  <Table>
+    <id_loai>01</id_loai>
+    <ten>Siêu âm</ten>
+    <makt>SA018</makt>
+    <tenkt>Bụng ( Sa màu ) của nam</tenkt>
+    <bsdoc>Lê Nguyễn Trí Dũng</bsdoc>
+    <ktv>Lê Nguyễn Trí Dũng</ktv>
+    <bsdoc1>0007</bsdoc1>
+    <soca>1</soca>
+    <dongia>80000</dongia>
+    <sotien>0.00000000000000000000</sotien>
+  </Table>
+  <Table>
+    <id_loai>01</id_loai>
+    <ten>Siêu âm</ten>
+    <makt>SA018</makt>
+    <tenkt>Bụng ( Sa màu ) của nam</tenkt>
+    <bsdoc>Nguyễn Minh Trí</bsdoc>
+    <ktv>Nguyễn Minh Trí</ktv>
+    <bsdoc1>0025</bsdoc1>
+    <soca>6</soca>
+    <dongia>50000</dongia>
+    <sotien>0.00000000000000000000</sotien>
+  </Table>
+  <Table>
+    <id_loai>01</id_loai>
+    <ten>Siêu âm</ten>
+    <makt>SA018</makt>
+    <tenkt>Bụng ( Sa màu ) của nam</tenkt>
+    <bsdoc>Nguyễn Minh Trí</bsdoc>
+    <ktv>Nguyễn Minh Trí</ktv>
+    <bsdoc1>0025</bsdoc1>
+    <soca>1</soca>
+    <dongia>80000</dongia>
+    <sotien>0.00000000000000000000</sotien>
+  </Table>
+  <Table>
+    <id_loai>01</id_loai>
+    <ten>Siêu âm</ten>
+    <makt>SA018</makt>
+    <tenkt>Bụng ( Sa màu ) của nam</tenkt>
+    <bsdoc>Trần Thị Khánh Linh</bsdoc>
+    <ktv>Trần Thị Khánh Linh</ktv>
+    <bsdoc1>0027</bsdoc1>
+    <soca>8</soca>
+    <dongia>50000</dongia>
+    <sotien>0.00000000000000000000</sotien>
+  </Table>
+  <Table>
+    <id_loai>01</id_loai>
+    <ten>Siêu âm</ten>
+    <makt>SA021</makt>
+    <tenkt>( Acuson S2000) siêu âm định lượng xơ gan</tenkt>
+    <bsdoc>Lê Nguyễn Trí Dũng</bsdoc>
+    <ktv>Lê Nguyễn Trí Dũng</ktv>
+    <bsdoc1>0007</bsdoc1>
+    <soca>1</soca>
+    <dongia>200000</dongia>
+    <sotien>0.00000000000000000000</sotien>
+  </Table>
+  <Table>
+    <id_loai>01</id_loai>
+    <ten>Siêu âm</ten>
+    <makt>SA021</makt>
+    <tenkt>( Acuson S2000) siêu âm định lượng xơ gan</tenkt>
+    <bsdoc>Nguyễn Minh Trí</bsdoc>
+    <ktv>Nguyễn Minh Trí</ktv>
+    <bsdoc1>0025</bsdoc1>
+    <soca>1</soca>
+    <dongia>200000</dongia>
+    <sotien>0.00000000000000000000</sotien>
+  </Table>
+  <Table>
+    <id_loai>01</id_loai>
+    <ten>Siêu âm</ten>
+    <makt>SA021</makt>
+    <tenkt>( Acuson S2000) siêu âm định lượng xơ gan</tenkt>
+    <bsdoc>Trần Thị Khánh Linh</bsdoc>
+    <ktv>Trần Thị Khánh Linh</ktv>
+    <bsdoc1>0027</bsdoc1>
+    <soca>1</soca>
+    <dongia>200000</dongia>
+    <sotien>0.00000000000000000000</sotien>
+  </Table>
+  <Table>
+    <id_loai>01</id_loai>
+    <ten>Siêu âm</ten>
+    <makt>SA023</makt>
+    <tenkt>( Acuson S 2000) Siêu âm vú</tenkt>
+    <bsdoc>Lê Nguyễn Trí Dũng</bsdoc>
+    <ktv>Lê Nguyễn Trí Dũng</ktv>
+    <bsdoc1>0007</bsdoc1>
+    <soca>1</soca>
+    <dongia>150000</dongia>
+    <sotien>0.00000000000000000000</sotien>
+  </Table>
+  <Table>
+    <id_loai>01</id_loai>
+    <ten>Siêu âm</ten>
+    <makt>SA025</makt>
+    <tenkt>( Acuson) Siêu âm bụng TQ</tenkt>
+    <bsdoc>Nguyễn Minh Trí</bsdoc>
+    <ktv>Nguyễn Minh Trí</ktv>
+    <bsdoc1>0025</bsdoc1>
+    <soca>1</soca>
+    <dongia>200000</dongia>
+    <sotien>0.00000000000000000000</sotien>
+  </Table>
+  <Table>
+    <id_loai>01</id_loai>
+    <ten>Siêu âm</ten>
+    <makt>YT002</makt>
+    <tenkt>(BHYT)Siêu âm bụng  màu</tenkt>
+    <bsdoc>Lê Nguyễn Trí Dũng</bsdoc>
+    <ktv>Lê Nguyễn Trí Dũng</ktv>
+    <bsdoc1>0007</bsdoc1>
+    <soca>7</soca>
+    <dongia>80000</dongia>
+    <sotien>0.00000000000000000000</sotien>
+  </Table>
+  <Table>
+    <id_loai>01</id_loai>
+    <ten>Siêu âm</ten>
+    <makt>YT002</makt>
+    <tenkt>(BHYT)Siêu âm bụng  màu</tenkt>
+    <bsdoc>Nguyễn Minh Trí</bsdoc>
+    <ktv>Nguyễn Minh Trí</ktv>
+    <bsdoc1>0025</bsdoc1>
+    <soca>2</soca>
+    <dongia>80000</dongia>
+    <sotien>0.00000000000000000000</sotien>
+  </Table>
+  <Table>
+    <id_loai>01</id_loai>
+    <ten>Siêu âm</ten>
+    <makt>YT002</makt>
+    <tenkt>(BHYT)Siêu âm bụng  màu</tenkt>
+    <bsdoc>Trần Thị Khánh Linh</bsdoc>
+    <ktv>Trần Thị Khánh Linh</ktv>
+    <bsdoc1>0027</bsdoc1>
+    <soca>1</soca>
+    <dongia>80000</dongia>
+    <sotien>0.00000000000000000000</sotien>
+  </Table>
+  <Table>
+    <id_loai>01</id_loai>
+    <ten>Siêu âm</ten>
+    <makt>YT003</makt>
+    <tenkt>(BHYT) Siêu âm thai màu</tenkt>
+    <bsdoc>Trần Thị Khánh Linh</bsdoc>
+    <ktv>Trần Thị Khánh Linh</ktv>
+    <bsdoc1>0027</bsdoc1>
+    <soca>3</soca>
+    <dongia>80000</dongia>
+    <sotien>0.00000000000000000000</sotien>
+  </Table>
+  <Table>
+    <id_loai>02</id_loai>
+    <ten>X quang</ten>
+    <makt>KTS001</makt>
+    <tenkt>KTS - Blodeau,hirtz</tenkt>
+    <bsdoc>Điền Văn On</bsdoc>
+    <ktv>BS.CKI Lê Trung Thi</ktv>
+    <bsdoc1>0014</bsdoc1>
+    <soca>2</soca>
+    <dongia>40000</dongia>
+    <sotien>0.00000000000000000000</sotien>
+  </Table>
+  <Table>
+    <id_loai>02</id_loai>
+    <ten>X quang</ten>
+    <makt>KTS001</makt>
+    <tenkt>KTS - Blodeau,hirtz</tenkt>
+    <bsdoc>Điền Văn On</bsdoc>
+    <ktv>BS.CKI Lê Trung Thi</ktv>
+    <bsdoc1>0014</bsdoc1>
+    <soca>8</soca>
+    <dongia>60000</dongia>
+    <sotien>0.00000000000000000000</sotien>
+  </Table>
+  <Table>
+    <id_loai>02</id_loai>
+    <ten>X quang</ten>
+    <makt>KTS002</makt>
+    <tenkt>KTS -  Cột sống thắt lưng thẳng nghiêng</tenkt>
+    <bsdoc>Điền Văn On</bsdoc>
+    <ktv>BS.CKI Lê Trung Thi</ktv>
+    <bsdoc1>0014</bsdoc1>
+    <soca>2</soca>
+    <dongia>40000</dongia>
+    <sotien>0.00000000000000000000</sotien>
+  </Table>
+  <Table>
+    <id_loai>02</id_loai>
+    <ten>X quang</ten>
+    <makt>KTS002</makt>
+    <tenkt>KTS -  Cột sống thắt lưng thẳng nghiêng</tenkt>
+    <bsdoc>Điền Văn On</bsdoc>
+    <ktv>BS.CKI Lê Trung Thi</ktv>
+    <bsdoc1>0014</bsdoc1>
+    <soca>15</soca>
+    <dongia>90000</dongia>
+    <sotien>0.00000000000000000000</sotien>
+  </Table>
+  <Table>
+    <id_loai>02</id_loai>
+    <ten>X quang</ten>
+    <makt>KTS002</makt>
+    <tenkt>KTS -  Cột sống thắt lưng thẳng nghiêng</tenkt>
+    <bsdoc>Thì Tấn Thạnh</bsdoc>
+    <ktv>BS.CKI Lê Trung Thi</ktv>
+    <bsdoc1>0014</bsdoc1>
+    <soca>1</soca>
+    <dongia>90000</dongia>
+    <sotien>0.00000000000000000000</sotien>
+  </Table>
+  <Table>
+    <id_loai>02</id_loai>
+    <ten>X quang</ten>
+    <makt>KTS003</makt>
+    <tenkt>KTS - Tim phổi thẳng</tenkt>
+    <bsdoc>Điền Văn On</bsdoc>
+    <ktv>BS.CKI Lê Trung Thi</ktv>
+    <bsdoc1>0014</bsdoc1>
+    <soca>9</soca>
+    <dongia>20000</dongia>
+    <sotien>0.00000000000000000000</sotien>
+  </Table>
+  <Table>
+    <id_loai>02</id_loai>
+    <ten>X quang</ten>
+    <makt>KTS003</makt>
+    <tenkt>KTS - Tim phổi thẳng</tenkt>
+    <bsdoc>Điền Văn On</bsdoc>
+    <ktv>BS.CKI Lê Trung Thi</ktv>
+    <bsdoc1>0014</bsdoc1>
+    <soca>26</soca>
+    <dongia>60000</dongia>
+    <sotien>0.00000000000000000000</sotien>
+  </Table>
+  <Table>
+    <id_loai>02</id_loai>
+    <ten>X quang</ten>
+    <makt>KTS007</makt>
+    <tenkt>KTS - Gót chân ( P) thẳng nghiêng</tenkt>
+    <bsdoc>Điền Văn On</bsdoc>
+    <ktv>BS.CKI Lê Trung Thi</ktv>
+    <bsdoc1>0014</bsdoc1>
+    <soca>1</soca>
+    <dongia>60000</dongia>
+    <sotien>0.00000000000000000000</sotien>
+  </Table>
+  <Table>
+    <id_loai>02</id_loai>
+    <ten>X quang</ten>
+    <makt>KTS012</makt>
+    <tenkt>KTS - Sọ thẳng nghiêng</tenkt>
+    <bsdoc>Điền Văn On</bsdoc>
+    <ktv>BS.CKI Lê Trung Thi</ktv>
+    <bsdoc1>0014</bsdoc1>
+    <soca>2</soca>
+    <dongia>60000</dongia>
+    <sotien>0.00000000000000000000</sotien>
+  </Table>
+  <Table>
+    <id_loai>02</id_loai>
+    <ten>X quang</ten>
+    <makt>KTS013</makt>
+    <tenkt>KTS - Cột sống cổ thẳng nghiêng</tenkt>
+    <bsdoc>Điền Văn On</bsdoc>
+    <ktv>BS.CKI Lê Trung Thi</ktv>
+    <bsdoc1>0014</bsdoc1>
+    <soca>2</soca>
+    <dongia>60000</dongia>
+    <sotien>0.00000000000000000000</sotien>
+  </Table>
+  <Table>
+    <id_loai>02</id_loai>
+    <ten>X quang</ten>
+    <makt>KTS015</makt>
+    <tenkt>KTS - Vai ( P ) thẳng nghiêng</tenkt>
+    <bsdoc>Điền Văn On</bsdoc>
+    <ktv>BS.CKI Lê Trung Thi</ktv>
+    <bsdoc1>0014</bsdoc1>
+    <soca>1</soca>
+    <dongia>60000</dongia>
+    <sotien>0.00000000000000000000</sotien>
+  </Table>
+  <Table>
+    <id_loai>02</id_loai>
+    <ten>X quang</ten>
+    <makt>KTS020</makt>
+    <tenkt>KTS - Khớp gối  (P )thẳng nghiêng</tenkt>
+    <bsdoc>Điền Văn On</bsdoc>
+    <ktv>BS.CKI Lê Trung Thi</ktv>
+    <bsdoc1>0014</bsdoc1>
+    <soca>4</soca>
+    <dongia>60000</dongia>
+    <sotien>0.00000000000000000000</sotien>
+  </Table>
+  <Table>
+    <id_loai>02</id_loai>
+    <ten>X quang</ten>
+    <makt>KTS022</makt>
+    <tenkt>KTS - Cột sống ngực thẳng nghiêng</tenkt>
+    <bsdoc>Điền Văn On</bsdoc>
+    <ktv>BS.CKI Lê Trung Thi</ktv>
+    <bsdoc1>0014</bsdoc1>
+    <soca>1</soca>
+    <dongia>90000</dongia>
+    <sotien>0.00000000000000000000</sotien>
+  </Table>
+  <Table>
+    <id_loai>02</id_loai>
+    <ten>X quang</ten>
+    <makt>KTS023</makt>
+    <tenkt>KTS - Xương Đùi ( P) thẳng nghiêng</tenkt>
+    <bsdoc>Điền Văn On</bsdoc>
+    <ktv>BS.CKI Lê Trung Thi</ktv>
+    <bsdoc1>0014</bsdoc1>
+    <soca>1</soca>
+    <dongia>90000</dongia>
+    <sotien>0.00000000000000000000</sotien>
+  </Table>
+  <Table>
+    <id_loai>02</id_loai>
+    <ten>X quang</ten>
+    <makt>KTS026</makt>
+    <tenkt>KTS - Xương cẳng chân ( P ) thẳng, nghiêng</tenkt>
+    <bsdoc>Điền Văn On</bsdoc>
+    <ktv>BS.CKI Lê Trung Thi</ktv>
+    <bsdoc1>0014</bsdoc1>
+    <soca>1</soca>
+    <dongia>60000</dongia>
+    <sotien>0.00000000000000000000</sotien>
+  </Table>
+  <Table>
+    <id_loai>02</id_loai>
+    <ten>X quang</ten>
+    <makt>KTS034</makt>
+    <tenkt>KTS - Khuỷu tay ( T ) thẳng nghiêng</tenkt>
+    <bsdoc>Điền Văn On</bsdoc>
+    <ktv>BS.CKI Lê Trung Thi</ktv>
+    <bsdoc1>0014</bsdoc1>
+    <soca>1</soca>
+    <dongia>60000</dongia>
+    <sotien>0.00000000000000000000</sotien>
+  </Table>
+  <Table>
+    <id_loai>02</id_loai>
+    <ten>X quang</ten>
+    <makt>KTS038</makt>
+    <tenkt>KTS - Vai ( T ) thẳng nghiêng</tenkt>
+    <bsdoc>Điền Văn On</bsdoc>
+    <ktv>BS.CKI Lê Trung Thi</ktv>
+    <bsdoc1>0014</bsdoc1>
+    <soca>1</soca>
+    <dongia>60000</dongia>
+    <sotien>0.00000000000000000000</sotien>
+  </Table>
+  <Table>
+    <id_loai>02</id_loai>
+    <ten>X quang</ten>
+    <makt>KTS041</makt>
+    <tenkt>KTS - Khớp gối ( T ) thẳng nghiêng</tenkt>
+    <bsdoc>Điền Văn On</bsdoc>
+    <ktv>BS.CKI Lê Trung Thi</ktv>
+    <bsdoc1>0014</bsdoc1>
+    <soca>1</soca>
+    <dongia>60000</dongia>
+    <sotien>0.00000000000000000000</sotien>
+  </Table>
+  <Table>
+    <id_loai>02</id_loai>
+    <ten>X quang</ten>
+    <makt>KTS042</makt>
+    <tenkt>KTS - Cẳng chân ( T ) thẳng nghiêng</tenkt>
+    <bsdoc>Điền Văn On</bsdoc>
+    <ktv>BS.CKI Lê Trung Thi</ktv>
+    <bsdoc1>0014</bsdoc1>
+    <soca>1</soca>
+    <dongia>60000</dongia>
+    <sotien>0.00000000000000000000</sotien>
+  </Table>
+  <Table>
+    <id_loai>02</id_loai>
+    <ten>X quang</ten>
+    <makt>KTS043</makt>
+    <tenkt>KTS - Cổ chân ( T ) thẳng nghiêng</tenkt>
+    <bsdoc>Điền Văn On</bsdoc>
+    <ktv>BS.CKI Lê Trung Thi</ktv>
+    <bsdoc1>0014</bsdoc1>
+    <soca>1</soca>
+    <dongia>60000</dongia>
+    <sotien>0.00000000000000000000</sotien>
+  </Table>
+  <Table>
+    <id_loai>02</id_loai>
+    <ten>X quang</ten>
+    <makt>KTS044</makt>
+    <tenkt>KTS - Bàn chân ( T ) thẳng nghiêng</tenkt>
+    <bsdoc>Điền Văn On</bsdoc>
+    <ktv>BS.CKI Lê Trung Thi</ktv>
+    <bsdoc1>0014</bsdoc1>
+    <soca>1</soca>
+    <dongia>60000</dongia>
+    <sotien>0.00000000000000000000</sotien>
+  </Table>
+  <Table>
+    <id_loai>02</id_loai>
+    <ten>X quang</ten>
+    <makt>KTS044</makt>
+    <tenkt>KTS - Bàn chân ( T ) thẳng nghiêng</tenkt>
+    <bsdoc>Thì Tấn Thạnh</bsdoc>
+    <ktv>BS.CKI Lê Trung Thi</ktv>
+    <bsdoc1>0014</bsdoc1>
+    <soca>1</soca>
+    <dongia>60000</dongia>
+    <sotien>0.00000000000000000000</sotien>
+  </Table>
+  <Table>
+    <id_loai>02</id_loai>
+    <ten>X quang</ten>
+    <makt>XQ084</makt>
+    <tenkt>Chụp hệ niệu có tiêm thuốc cản quang(UIV)(4A,1 chai télébrix)</tenkt>
+    <bsdoc>Điền Văn On</bsdoc>
+    <ktv>BS.CKI Lê Trung Thi</ktv>
+    <bsdoc1>0014</bsdoc1>
+    <soca>1</soca>
+    <dongia>350000</dongia>
+    <sotien>0.00000000000000000000</sotien>
+  </Table>
+  <Table>
+    <id_loai>02</id_loai>
+    <ten>X quang</ten>
+    <makt>XQ112</makt>
+    <tenkt>Đo loãng xương(in phim)</tenkt>
+    <bsdoc>Điền Văn On</bsdoc>
+    <ktv>BS.CKI Lê Trung Thi</ktv>
+    <bsdoc1>0014</bsdoc1>
+    <soca>1</soca>
+    <dongia>200000</dongia>
+    <sotien>0.00000000000000000000</sotien>
+  </Table>
+  <Table>
+    <id_loai>03</id_loai>
+    <ten>Nội soi</ten>
+    <makt>NS001</makt>
+    <tenkt>Soi dạ dầy + Clo test</tenkt>
+    <bsdoc>Trần Minh Trí</bsdoc>
+    <ktv>Kim Thanh Lộc</ktv>
+    <bsdoc1>0028</bsdoc1>
+    <soca>4</soca>
+    <dongia>120000</dongia>
+    <sotien>0.00000000000000000000</sotien>
+  </Table>
+  <Table>
+    <id_loai>03</id_loai>
+    <ten>Nội soi</ten>
+    <makt>NS001</makt>
+    <tenkt>Soi dạ dầy + Clo test</tenkt>
+    <bsdoc>Trần Minh Trí</bsdoc>
+    <ktv>Nguyễn Minh Trí</ktv>
+    <bsdoc1>0025</bsdoc1>
+    <soca>2</soca>
+    <dongia>30000</dongia>
+    <sotien>0.00000000000000000000</sotien>
+  </Table>
+  <Table>
+    <id_loai>03</id_loai>
+    <ten>Nội soi</ten>
+    <makt>NS001</makt>
+    <tenkt>Soi dạ dầy + Clo test</tenkt>
+    <bsdoc>Trần Minh Trí</bsdoc>
+    <ktv>Nguyễn Minh Trí</ktv>
+    <bsdoc1>0025</bsdoc1>
+    <soca>3</soca>
+    <dongia>120000</dongia>
+    <sotien>0.00000000000000000000</sotien>
+  </Table>
+  <Table>
+    <id_loai>04</id_loai>
+    <ten>Điện tim</ten>
+    <makt>DOD001</makt>
+    <tenkt>EMG (Đo Điện Cơ) ( tay)</tenkt>
+    <bsdoc>Nguyễn Thị Kim Thủy</bsdoc>
+    <ktv>TS.BS Châu Hữu Hầu</ktv>
+    <bsdoc1>0003</bsdoc1>
+    <soca>2</soca>
+    <dongia>100000</dongia>
+    <sotien>0.00000000000000000000</sotien>
+  </Table>
+  <Table>
+    <id_loai>04</id_loai>
+    <ten>Điện tim</ten>
+    <makt>DT001</makt>
+    <tenkt>Điện tim (ECG)</tenkt>
+    <bsdoc>Đoàn Thị Mỹ Thiện</bsdoc>
+    <ktv>Võ Thị Trinh Nữ</ktv>
+    <bsdoc1>0110</bsdoc1>
+    <soca>3</soca>
+    <dongia>12000</dongia>
+    <sotien>0.00000000000000000000</sotien>
+  </Table>
+  <Table>
+    <id_loai>04</id_loai>
+    <ten>Điện tim</ten>
+    <makt>DT001</makt>
+    <tenkt>Điện tim (ECG)</tenkt>
+    <bsdoc>Đoàn Thị Mỹ Thiện</bsdoc>
+    <ktv>Võ Thị Trinh Nữ</ktv>
+    <bsdoc1>0110</bsdoc1>
+    <soca>14</soca>
+    <dongia>20000</dongia>
+    <sotien>0.00000000000000000000</sotien>
+  </Table>
+  <Table>
+    <id_loai>04</id_loai>
+    <ten>Điện tim</ten>
+    <makt>DT001</makt>
+    <tenkt>Điện tim (ECG)</tenkt>
+    <bsdoc>Nguyễn Thị Kim Thủy</bsdoc>
+    <ktv>Hia Kim Khuê</ktv>
+    <bsdoc1>0102</bsdoc1>
+    <soca>3</soca>
+    <dongia>20000</dongia>
+    <sotien>0.00000000000000000000</sotien>
+  </Table>
+  <Table>
+    <id_loai>04</id_loai>
+    <ten>Điện tim</ten>
+    <makt>DT001</makt>
+    <tenkt>Điện tim (ECG)</tenkt>
+    <bsdoc>Nguyễn Thị Kim Thủy</bsdoc>
+    <ktv>Lê Nguyễn Trí Dũng</ktv>
+    <bsdoc1>0007</bsdoc1>
+    <soca>1</soca>
+    <dongia>12000</dongia>
+    <sotien>0.00000000000000000000</sotien>
+  </Table>
+  <Table>
+    <id_loai>04</id_loai>
+    <ten>Điện tim</ten>
+    <makt>DT001</makt>
+    <tenkt>Điện tim (ECG)</tenkt>
+    <bsdoc>Nguyễn Thị Kim Thủy</bsdoc>
+    <ktv>Nguyễn Minh Trí</ktv>
+    <bsdoc1>0025</bsdoc1>
+    <soca>6</soca>
+    <dongia>20000</dongia>
+    <sotien>0.00000000000000000000</sotien>
+  </Table>
+  <Table>
+    <id_loai>04</id_loai>
+    <ten>Điện tim</ten>
+    <makt>DT001</makt>
+    <tenkt>Điện tim (ECG)</tenkt>
+    <bsdoc>Nguyễn Thị Kim Thủy</bsdoc>
+    <ktv>Nguyễn Thành Luân</ktv>
+    <bsdoc1>0126</bsdoc1>
+    <soca>2</soca>
+    <dongia>20000</dongia>
+    <sotien>0.00000000000000000000</sotien>
+  </Table>
+  <Table>
+    <id_loai>04</id_loai>
+    <ten>Điện tim</ten>
+    <makt>DT001</makt>
+    <tenkt>Điện tim (ECG)</tenkt>
+    <bsdoc>Nguyễn Thị Kim Thủy</bsdoc>
+    <ktv>TS.BS Châu Hữu Hầu</ktv>
+    <bsdoc1>0003</bsdoc1>
+    <soca>1</soca>
+    <dongia>12000</dongia>
+    <sotien>0.00000000000000000000</sotien>
+  </Table>
+  <Table>
+    <id_loai>04</id_loai>
+    <ten>Điện tim</ten>
+    <makt>DT001</makt>
+    <tenkt>Điện tim (ECG)</tenkt>
+    <bsdoc>Nguyễn Thị Kim Thủy</bsdoc>
+    <ktv>TS.BS Châu Hữu Hầu</ktv>
+    <bsdoc1>0003</bsdoc1>
+    <soca>3</soca>
+    <dongia>20000</dongia>
+    <sotien>0.00000000000000000000</sotien>
+  </Table>
+  <Table>
+    <id_loai>04</id_loai>
+    <ten>Điện tim</ten>
+    <makt>DT001</makt>
+    <tenkt>Điện tim (ECG)</tenkt>
+    <bsdoc>Nguyễn Thị Kim Thủy</bsdoc>
+    <ktv>Võ Thị Trinh Nữ</ktv>
+    <bsdoc1>0110</bsdoc1>
+    <soca>2</soca>
+    <dongia>20000</dongia>
+    <sotien>0.00000000000000000000</sotien>
+  </Table>
+  <Table>
+    <id_loai>04</id_loai>
+    <ten>Điện tim</ten>
+    <makt>DT001</makt>
+    <tenkt>Điện tim (ECG)</tenkt>
+    <bsdoc>Tohiroh</bsdoc>
+    <ktv>Nguyễn Thành Luân</ktv>
+    <bsdoc1>0126</bsdoc1>
+    <soca>1</soca>
+    <dongia>12000</dongia>
+    <sotien>0.00000000000000000000</sotien>
+  </Table>
+  <Table>
+    <id_loai>04</id_loai>
+    <ten>Điện tim</ten>
+    <makt>DT018</makt>
+    <tenkt>EMG (Đo điện cơ) ( chân)</tenkt>
+    <bsdoc>Nguyễn Thị Kim Thủy</bsdoc>
+    <ktv>TS.BS Châu Hữu Hầu</ktv>
+    <bsdoc1>0003</bsdoc1>
+    <soca>1</soca>
+    <dongia>100000</dongia>
+    <sotien>0.00000000000000000000</sotien>
+  </Table>
+  <Table>
+    <id_loai>05</id_loai>
+    <ten>CT Scan</ten>
+    <makt>CT001</makt>
+    <tenkt>CT sọ não</tenkt>
+    <bsdoc>BS.CKI Lê Trung Thi</bsdoc>
+    <ktv>BS.CKI Lê Trung Thi</ktv>
+    <bsdoc1>0014</bsdoc1>
+    <soca>1</soca>
+    <dongia>800000</dongia>
+    <sotien>0.00000000000000000000</sotien>
+  </Table>
+  <Table>
+    <id_loai>05</id_loai>
+    <ten>CT Scan</ten>
+    <makt>CT001</makt>
+    <tenkt>CT sọ não</tenkt>
+    <bsdoc>Điền Văn On</bsdoc>
+    <ktv>BS.CKI Lê Trung Thi</ktv>
+    <bsdoc1>0014</bsdoc1>
+    <soca>7</soca>
+    <dongia>800000</dongia>
+    <sotien>0.00000000000000000000</sotien>
+  </Table>
+  <Table>
+    <id_loai>05</id_loai>
+    <ten>CT Scan</ten>
+    <makt>CT001</makt>
+    <tenkt>CT sọ não</tenkt>
+    <bsdoc>Điền Văn On</bsdoc>
+    <ktv>Kim Thanh Lộc</ktv>
+    <bsdoc1>0028</bsdoc1>
+    <soca>7</soca>
+    <dongia>800000</dongia>
+    <sotien>0.00000000000000000000</sotien>
+  </Table>
+  <Table>
+    <id_loai>05</id_loai>
+    <ten>CT Scan</ten>
+    <makt>CT001</makt>
+    <tenkt>CT sọ não</tenkt>
+    <bsdoc>TS.BS Châu Hữu Hầu</bsdoc>
+    <ktv>TS.BS Châu Hữu Hầu</ktv>
+    <bsdoc1>0003</bsdoc1>
+    <soca>1</soca>
+    <dongia>800000</dongia>
+    <sotien>0.00000000000000000000</sotien>
+  </Table>
+  <Table>
+    <id_loai>05</id_loai>
+    <ten>CT Scan</ten>
+    <makt>CT013</makt>
+    <tenkt>CT Cột sống</tenkt>
+    <bsdoc>Điền Văn On</bsdoc>
+    <ktv>Kim Thanh Lộc</ktv>
+    <bsdoc1>0028</bsdoc1>
+    <soca>1</soca>
+    <dongia>1000000</dongia>
+    <sotien>0.00000000000000000000</sotien>
+  </Table>
+  <Table>
+    <id_loai>07</id_loai>
+    <ten>Điện não</ten>
+    <makt>DN001</makt>
+    <tenkt>Điện não(EEG)</tenkt>
+    <bsdoc>Nguyễn Thị Kim Thủy</bsdoc>
+    <ktv>TS.BS Châu Hữu Hầu</ktv>
+    <bsdoc1>0003</bsdoc1>
+    <soca>1</soca>
+    <dongia>80000</dongia>
+    <sotien>0.00000000000000000000</sotien>
+  </Table>
+  <Table>
+    <id_loai>07</id_loai>
+    <ten>Điện não</ten>
+    <makt>DN001</makt>
+    <tenkt>Điện não(EEG)</tenkt>
+    <bsdoc>Nguyễn Thị Kim Thủy</bsdoc>
+    <bsdoc1 />
+    <soca>1</soca>
+    <dongia>80000</dongia>
+    <sotien>0.00000000000000000000</sotien>
+  </Table>
+</NewDataSet>

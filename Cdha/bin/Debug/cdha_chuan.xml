@@ -1,0 +1,259 @@
+<?xml version="1.0" standalone="yes" ?>
+<NewDataSet>
+	<Table>
+		<id>15</id>
+		<ma>15</ma>
+		<ten>Siêu âm tuyến giáp (MD)</ten>
+		<id_loaicdha>1</id_loaicdha>
+		<nhap_cssan>0</nhap_cssan>
+		<loai>0</loai>
+	</Table>
+	<Table>
+		<id>14</id>
+		<ma>14</ma>
+		<ten>Siêu âm tim (MD)</ten>
+		<id_loaicdha>1</id_loaicdha>
+		<nhap_cssan>0</nhap_cssan>
+		<loai>0</loai>
+	</Table>
+	<Table>
+		<id>16</id>
+		<ma>16</ma>
+		<ten>Siêu âm phụ khoa(MD)</ten>
+		<id_loaicdha>1</id_loaicdha>
+		<nhap_cssan>0</nhap_cssan>
+		<loai>0</loai>
+	</Table>
+	<Table>
+		<id>18</id>
+		<ma>18</ma>
+		<ten>Siêu âm vú(MD)</ten>
+		<id_loaicdha>1</id_loaicdha>
+		<nhap_cssan>0</nhap_cssan>
+		<loai>0</loai>
+	</Table>
+	<Table>
+		<id>1</id>
+		<ma>01</ma>
+		<ten>Siêu âm tim</ten>
+		<id_loaicdha>1</id_loaicdha>
+		<nhap_cssan>0</nhap_cssan>
+		<loai>0</loai>
+	</Table>
+	<Table>
+		<id>3</id>
+		<ma>03</ma>
+		<ten>Siêu âm sản khoa</ten>
+		<id_loaicdha>1</id_loaicdha>
+		<nhap_cssan>0</nhap_cssan>
+		<loai>0</loai>
+	</Table>
+	<Table>
+		<id>4</id>
+		<ma>04</ma>
+		<ten>Siêu âm phụ khoa</ten>
+		<id_loaicdha>1</id_loaicdha>
+		<nhap_cssan>0</nhap_cssan>
+		<loai>0</loai>
+	</Table>
+	<Table>
+		<id>5</id>
+		<ma>05</ma>
+		<ten>Siêu âm não</ten>
+		<id_loaicdha>1</id_loaicdha>
+		<nhap_cssan>0</nhap_cssan>
+		<loai>0</loai>
+	</Table>
+	<Table>
+		<id>6</id>
+		<ma>06</ma>
+		<ten>Siêu âm mạch máu</ten>
+		<id_loaicdha>1</id_loaicdha>
+		<nhap_cssan>0</nhap_cssan>
+		<loai>0</loai>
+	</Table>
+	<Table>
+		<id>7</id>
+		<ma>07</ma>
+		<ten>Siêu âm phần mềm</ten>
+		<id_loaicdha>1</id_loaicdha>
+		<nhap_cssan>0</nhap_cssan>
+		<loai>0</loai>
+	</Table>
+	<Table>
+		<id>9</id>
+		<ma>09</ma>
+		<ten>Siêu âm tuyến giáp</ten>
+		<id_loaicdha>1</id_loaicdha>
+		<nhap_cssan>0</nhap_cssan>
+		<loai>0</loai>
+	</Table>
+	<Table>
+		<id>10</id>
+		<ma>10</ma>
+		<ten>Nội soi dạ dày</ten>
+		<id_loaicdha>3</id_loaicdha>
+		<nhap_cssan>0</nhap_cssan>
+		<loai>0</loai>
+	</Table>
+	<Table>
+		<id>11</id>
+		<ma>11</ma>
+		<ten>Nội soi đại tràng</ten>
+		<id_loaicdha>3</id_loaicdha>
+		<nhap_cssan>0</nhap_cssan>
+		<loai>0</loai>
+	</Table>
+	<Table>
+		<id>12</id>
+		<ma>12</ma>
+		<ten>Siêu âm sản chi tiết</ten>
+		<id_loaicdha>1</id_loaicdha>
+		<nhap_cssan>0</nhap_cssan>
+		<loai>0</loai>
+	</Table>
+	<Table>
+		<id>13</id>
+		<ma>13</ma>
+		<ten>Siêu âm phần mềm - khớp</ten>
+		<id_loaicdha>1</id_loaicdha>
+		<nhap_cssan>0</nhap_cssan>
+		<loai>0</loai>
+	</Table>
+	<Table>
+		<id>17</id>
+		<ma>17</ma>
+		<ten>Siêu âm mạch máu(MD)</ten>
+		<id_loaicdha>1</id_loaicdha>
+		<nhap_cssan>0</nhap_cssan>
+		<loai>0</loai>
+	</Table>
+	<Table>
+		<id>19</id>
+		<ma>19</ma>
+		<ten>Nội soi tai</ten>
+		<id_loaicdha>3</id_loaicdha>
+		<nhap_cssan>0</nhap_cssan>
+		<loai>0</loai>
+	</Table>
+	<Table>
+		<id>20</id>
+		<ma>20</ma>
+		<ten>Nội soi thanh quãn</ten>
+		<id_loaicdha>3</id_loaicdha>
+		<nhap_cssan>0</nhap_cssan>
+		<loai>0</loai>
+	</Table>
+	<Table>
+		<id>21</id>
+		<ma>21</ma>
+		<ten>Nội soi mũi xoang</ten>
+		<id_loaicdha>3</id_loaicdha>
+		<nhap_cssan>0</nhap_cssan>
+		<loai>0</loai>
+	</Table>
+	<Table>
+		<id>2</id>
+		<ma>02</ma>
+		<ten>Siêu âm tổng quát</ten>
+		<id_loaicdha>1</id_loaicdha>
+		<nhap_cssan>0</nhap_cssan>
+		<loai>0</loai>
+	</Table>
+	<Table>
+		<id>8</id>
+		<ma>08</ma>
+		<ten>Siêu âm tuyến vú</ten>
+		<id_loaicdha>1</id_loaicdha>
+		<nhap_cssan>0</nhap_cssan>
+		<loai>0</loai>
+	</Table>
+	<Table>
+		<id>22</id>
+		<ma>22</ma>
+		<ten>Siêu âm dopper màu</ten>
+		<id_loaicdha>1</id_loaicdha>
+		<nhap_cssan>0</nhap_cssan>
+		<loai>0</loai>
+	</Table>
+	<Table>
+		<id>23</id>
+		<ma>23</ma>
+		<ten>Siêu âm thai 2D</ten>
+		<id_loaicdha>1</id_loaicdha>
+		<nhap_cssan>0</nhap_cssan>
+		<loai>0</loai>
+	</Table>
+	<Table>
+		<id>24</id>
+		<ma>24</ma>
+		<ten>Siêu âm thai 4D</ten>
+		<id_loaicdha>1</id_loaicdha>
+		<nhap_cssan>0</nhap_cssan>
+		<loai>0</loai>
+	</Table>
+	<Table>
+		<id>25</id>
+		<ma>25</ma>
+		<ten>Siêu âm tuyến giáp(Hà Thành)</ten>
+		<id_loaicdha>1</id_loaicdha>
+		<nhap_cssan>0</nhap_cssan>
+		<loai>0</loai>
+	</Table>
+	<Table>
+		<id>26</id>
+		<ma>26</ma>
+		<ten>Siêu âm tuyến vú(Hà Thành)</ten>
+		<id_loaicdha>1</id_loaicdha>
+		<nhap_cssan>0</nhap_cssan>
+		<loai>0</loai>
+	</Table>
+	<Table>
+		<id>27</id>
+		<ma>27</ma>
+		<ten>Siêu âm tử cung - phần phụ</ten>
+		<id_loaicdha>1</id_loaicdha>
+		<nhap_cssan>0</nhap_cssan>
+		<loai>0</loai>
+	</Table>
+	<Table>
+		<id>28</id>
+		<ma>28</ma>
+		<ten>Siêu âm tổng quát(Hà Thành)</ten>
+		<id_loaicdha>1</id_loaicdha>
+		<nhap_cssan>0</nhap_cssan>
+		<loai>0</loai>
+	</Table>
+	<Table>
+		<id>29</id>
+		<ma>29</ma>
+		<ten>Nội soi cổ tử cung</ten>
+		<id_loaicdha>3</id_loaicdha>
+		<nhap_cssan>0</nhap_cssan>
+		<loai>0</loai>
+	</Table>
+	<Table>
+		<id>30</id>
+		<ma>1</ma>
+		<ten>Siêu âm tim(QDMD)</ten>
+		<id_loaicdha>1</id_loaicdha>
+		<nhap_cssan>0</nhap_cssan>
+		<loai>0</loai>
+	</Table>
+	<Table>
+		<id>31</id>
+		<ma>31</ma>
+		<ten>Nội soi tai(QDMD)</ten>
+		<id_loaicdha>3</id_loaicdha>
+		<nhap_cssan>0</nhap_cssan>
+		<loai>0</loai>
+	</Table>
+	<Table>
+		<id>32</id>
+		<ma>32</ma>
+		<ten>Nội soi mũi xoang - Họng - Thang quãn </ten>
+		<id_loaicdha>3</id_loaicdha>
+		<nhap_cssan>0</nhap_cssan>
+		<loai>0</loai>
+	</Table>
+</NewDataSet>

@@ -1,0 +1,3584 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <id>444</id>
+    <vande>1</vande>
+    <coquan>Para</coquan>
+    <id_chuan>29</id_chuan>
+  </Table>
+  <Table>
+    <id>445</id>
+    <vande>2</vande>
+    <coquan>Ngày kinh cuối</coquan>
+    <id_chuan>29</id_chuan>
+  </Table>
+  <Table>
+    <id>446</id>
+    <vande>3</vande>
+    <coquan>Kết quả lần 1</coquan>
+    <id_chuan>29</id_chuan>
+  </Table>
+  <Table>
+    <id>447</id>
+    <vande>4</vande>
+    <coquan>Kết quả lần 2</coquan>
+    <id_chuan>29</id_chuan>
+  </Table>
+  <Table>
+    <id>448</id>
+    <vande>5</vande>
+    <coquan>Âm hộ</coquan>
+    <id_chuan>29</id_chuan>
+  </Table>
+  <Table>
+    <id>449</id>
+    <vande>6</vande>
+    <coquan>Âm đạo</coquan>
+    <id_chuan>29</id_chuan>
+  </Table>
+  <Table>
+    <id>450</id>
+    <vande>7</vande>
+    <coquan>Biểu mô lát</coquan>
+    <id_chuan>29</id_chuan>
+  </Table>
+  <Table>
+    <id>451</id>
+    <vande>8</vande>
+    <coquan>Biểu mô trụ</coquan>
+    <id_chuan>29</id_chuan>
+  </Table>
+  <Table>
+    <id>452</id>
+    <vande>9</vande>
+    <coquan>Mô đệm</coquan>
+    <id_chuan>29</id_chuan>
+  </Table>
+  <Table>
+    <id>453</id>
+    <vande>10</vande>
+    <coquan>Junction</coquan>
+    <id_chuan>29</id_chuan>
+  </Table>
+  <Table>
+    <id>454</id>
+    <vande>11</vande>
+    <coquan>Sau acide</coquan>
+    <id_chuan>29</id_chuan>
+  </Table>
+  <Table>
+    <id>455</id>
+    <vande>12</vande>
+    <coquan>Lugol</coquan>
+    <id_chuan>29</id_chuan>
+  </Table>
+  <Table>
+    <id>456</id>
+    <vande>13</vande>
+    <coquan>Kết luận</coquan>
+    <id_chuan>29</id_chuan>
+  </Table>
+  <Table>
+    <id>457</id>
+    <vande>14</vande>
+    <coquan>Xử trí</coquan>
+    <id_chuan>29</id_chuan>
+  </Table>
+  <Table>
+    <id>458</id>
+    <vande>15</vande>
+    <coquan>Đề nghị</coquan>
+    <id_chuan>29</id_chuan>
+  </Table>
+  <Table>
+    <id>294</id>
+    <vande>18</vande>
+    <coquan>Lách</coquan>
+    <id_chuan>2</id_chuan>
+  </Table>
+  <Table>
+    <id>295</id>
+    <vande>1</vande>
+    <coquan>Nhĩ trái 34(+)(-)4</coquan>
+    <id_chuan>22</id_chuan>
+  </Table>
+  <Table>
+    <id>296</id>
+    <vande>2</vande>
+    <coquan>ĐMC 28(+)(-)3</coquan>
+    <id_chuan>22</id_chuan>
+  </Table>
+  <Table>
+    <id>297</id>
+    <vande>3</vande>
+    <coquan>Dd 46(+)(-)4</coquan>
+    <id_chuan>22</id_chuan>
+  </Table>
+  <Table>
+    <id>298</id>
+    <vande>4</vande>
+    <coquan>Ds 30(+)(-)3</coquan>
+    <id_chuan>22</id_chuan>
+  </Table>
+  <Table>
+    <id>299</id>
+    <vande>5</vande>
+    <coquan>Vd 107(+)(-)17</coquan>
+    <id_chuan>22</id_chuan>
+  </Table>
+  <Table>
+    <id>300</id>
+    <vande>6</vande>
+    <coquan>Vs 37(+)(-)9</coquan>
+    <id_chuan>22</id_chuan>
+  </Table>
+  <Table>
+    <id>301</id>
+    <vande>7</vande>
+    <coquan>%D 34(+)(-)6</coquan>
+    <id_chuan>22</id_chuan>
+  </Table>
+  <Table>
+    <id>302</id>
+    <vande>8</vande>
+    <coquan>EF 63(+)(-)7</coquan>
+    <id_chuan>22</id_chuan>
+  </Table>
+  <Table>
+    <id>303</id>
+    <vande>9</vande>
+    <coquan>Đường kính thất phải 16(+)(-)4</coquan>
+    <id_chuan>22</id_chuan>
+  </Table>
+  <Table>
+    <id>304</id>
+    <vande>10</vande>
+    <coquan>Tâm trương 7.5+1(VLT)</coquan>
+    <id_chuan>22</id_chuan>
+  </Table>
+  <Table>
+    <id>305</id>
+    <vande>11</vande>
+    <coquan>Tâm thu 10+2(VTL)</coquan>
+    <id_chuan>22</id_chuan>
+  </Table>
+  <Table>
+    <id>306</id>
+    <vande>12</vande>
+    <coquan>Tâm trương 7+1(TSTT)</coquan>
+    <id_chuan>22</id_chuan>
+  </Table>
+  <Table>
+    <id>307</id>
+    <vande>13</vande>
+    <coquan>Tâm thu 12+1(TSTT)</coquan>
+    <id_chuan>22</id_chuan>
+  </Table>
+  <Table>
+    <id>308</id>
+    <vande>14</vande>
+    <coquan>Di động - VLT</coquan>
+    <id_chuan>22</id_chuan>
+  </Table>
+  <Table>
+    <id>309</id>
+    <vande>15</vande>
+    <coquan>Di động - TSTT</coquan>
+    <id_chuan>22</id_chuan>
+  </Table>
+  <Table>
+    <id>310</id>
+    <vande>16</vande>
+    <coquan>V2L- Dạng di động</coquan>
+    <id_chuan>22</id_chuan>
+  </Table>
+  <Table>
+    <id>311</id>
+    <vande>17</vande>
+    <coquan>V2L- Dốc tâm trương</coquan>
+    <id_chuan>22</id_chuan>
+  </Table>
+  <Table>
+    <id>312</id>
+    <vande>18</vande>
+    <coquan>V2l - Biên độ mở van 2 lá</coquan>
+    <id_chuan>22</id_chuan>
+  </Table>
+  <Table>
+    <id>313</id>
+    <vande>19</vande>
+    <coquan>V2L - Khoảng cách 2 bờ van</coquan>
+    <id_chuan>22</id_chuan>
+  </Table>
+  <Table>
+    <id>314</id>
+    <vande>20</vande>
+    <coquan>V2L - Tình trạng dây chằng</coquan>
+    <id_chuan>22</id_chuan>
+  </Table>
+  <Table>
+    <id>315</id>
+    <vande>21</vande>
+    <coquan>V2L - Mép van</coquan>
+    <id_chuan>22</id_chuan>
+  </Table>
+  <Table>
+    <id>316</id>
+    <vande>22</vande>
+    <coquan>V2L - E--&gt;VLT</coquan>
+    <id_chuan>22</id_chuan>
+  </Table>
+  <Table>
+    <id>317</id>
+    <vande>23</vande>
+    <coquan>V2L - Huyết khối nhĩ trái</coquan>
+    <id_chuan>22</id_chuan>
+  </Table>
+  <Table>
+    <id>318</id>
+    <vande>24</vande>
+    <coquan>V2L - E/A</coquan>
+    <id_chuan>22</id_chuan>
+  </Table>
+  <Table>
+    <id>319</id>
+    <vande>25</vande>
+    <coquan>V2L - Gradent</coquan>
+    <id_chuan>22</id_chuan>
+  </Table>
+  <Table>
+    <id>322</id>
+    <vande>28</vande>
+    <coquan>V2L - Hờ van 2 lá</coquan>
+    <id_chuan>22</id_chuan>
+  </Table>
+  <Table>
+    <id>323</id>
+    <vande>29</vande>
+    <coquan>V2L - diện tích hở van</coquan>
+    <id_chuan>22</id_chuan>
+  </Table>
+  <Table>
+    <id>324</id>
+    <vande>30</vande>
+    <coquan>V2L - PHT</coquan>
+    <id_chuan>22</id_chuan>
+  </Table>
+  <Table>
+    <id>325</id>
+    <vande>31</vande>
+    <coquan>ĐMC - Tình trạng van</coquan>
+    <id_chuan>22</id_chuan>
+  </Table>
+  <Table>
+    <id>326</id>
+    <vande>32</vande>
+    <coquan>ĐMC - Dạng di động</coquan>
+    <id_chuan>22</id_chuan>
+  </Table>
+  <Table>
+    <id>327</id>
+    <vande>33</vande>
+    <coquan>ĐMC - Biên độ mở</coquan>
+    <id_chuan>22</id_chuan>
+  </Table>
+  <Table>
+    <id>328</id>
+    <vande>34</vande>
+    <coquan>ĐMC - Gradent</coquan>
+    <id_chuan>22</id_chuan>
+  </Table>
+  <Table>
+    <id>330</id>
+    <vande>36</vande>
+    <coquan>ĐMC - Trung bình(thất trái)</coquan>
+    <id_chuan>22</id_chuan>
+  </Table>
+  <Table>
+    <id>331</id>
+    <vande>37</vande>
+    <coquan>ĐMC - Hở van</coquan>
+    <id_chuan>22</id_chuan>
+  </Table>
+  <Table>
+    <id>332</id>
+    <vande>38</vande>
+    <coquan>ĐMC - PHT</coquan>
+    <id_chuan>22</id_chuan>
+  </Table>
+  <Table>
+    <id>333</id>
+    <vande>39</vande>
+    <coquan>ĐMC - Diện tích lỗ van</coquan>
+    <id_chuan>22</id_chuan>
+  </Table>
+  <Table>
+    <id>334</id>
+    <vande>40</vande>
+    <coquan>ĐMP - Tình trạng van</coquan>
+    <id_chuan>22</id_chuan>
+  </Table>
+  <Table>
+    <id>335</id>
+    <vande>41</vande>
+    <coquan>ĐMP - Đường kính gốc</coquan>
+    <id_chuan>22</id_chuan>
+  </Table>
+  <Table>
+    <id>336</id>
+    <vande>42</vande>
+    <coquan>ĐMP - Áp lực ĐMP</coquan>
+    <id_chuan>22</id_chuan>
+  </Table>
+  <Table>
+    <id>337</id>
+    <vande>43</vande>
+    <coquan>ĐMP - Tâm thu</coquan>
+    <id_chuan>22</id_chuan>
+  </Table>
+  <Table>
+    <id>338</id>
+    <vande>44</vande>
+    <coquan>ĐMP - Gradent</coquan>
+    <id_chuan>22</id_chuan>
+  </Table>
+  <Table>
+    <id>340</id>
+    <vande>46</vande>
+    <coquan>ĐMP - Trung bình(Tâm thu)</coquan>
+    <id_chuan>22</id_chuan>
+  </Table>
+  <Table>
+    <id>341</id>
+    <vande>47</vande>
+    <coquan>ĐMP- Hở van</coquan>
+    <id_chuan>22</id_chuan>
+  </Table>
+  <Table>
+    <id>342</id>
+    <vande>48</vande>
+    <coquan>ĐMP - Cuối tâm trương</coquan>
+    <id_chuan>22</id_chuan>
+  </Table>
+  <Table>
+    <id>343</id>
+    <vande>49</vande>
+    <coquan>ĐMP - Trung bình</coquan>
+    <id_chuan>22</id_chuan>
+  </Table>
+  <Table>
+    <id>344</id>
+    <vande>51</vande>
+    <coquan>V3L - Tình trạng van</coquan>
+    <id_chuan>22</id_chuan>
+  </Table>
+  <Table>
+    <id>345</id>
+    <vande>52</vande>
+    <coquan>V3L - Hở van</coquan>
+    <id_chuan>22</id_chuan>
+  </Table>
+  <Table>
+    <id>346</id>
+    <vande>53</vande>
+    <coquan>V3L - Gradent</coquan>
+    <id_chuan>22</id_chuan>
+  </Table>
+  <Table>
+    <id>348</id>
+    <vande>55</vande>
+    <coquan>Màng ngoài tim</coquan>
+    <id_chuan>22</id_chuan>
+  </Table>
+  <Table>
+    <id>349</id>
+    <vande>56</vande>
+    <coquan>Tần số tim</coquan>
+    <id_chuan>22</id_chuan>
+  </Table>
+  <Table>
+    <id>350</id>
+    <vande>57</vande>
+    <coquan>S - HOHL(TD)</coquan>
+    <id_chuan>22</id_chuan>
+  </Table>
+  <Table>
+    <id>351</id>
+    <vande>58</vande>
+    <coquan>S - HOHL(BB)</coquan>
+    <id_chuan>22</id_chuan>
+  </Table>
+  <Table>
+    <id>352</id>
+    <vande>59</vande>
+    <coquan>ĐK DHOC/ĐRTT</coquan>
+    <id_chuan>22</id_chuan>
+  </Table>
+  <Table>
+    <id>353</id>
+    <vande>60</vande>
+    <coquan>Kết luận</coquan>
+    <id_chuan>22</id_chuan>
+  </Table>
+  <Table>
+    <id>354</id>
+    <vande>61</vande>
+    <coquan>Đề nghị</coquan>
+    <id_chuan>22</id_chuan>
+  </Table>
+  <Table>
+    <id>320</id>
+    <vande>27</vande>
+    <coquan>V2L - Trung bình(nhĩ - thất trái)</coquan>
+    <id_chuan>22</id_chuan>
+  </Table>
+  <Table>
+    <id>355</id>
+    <vande>1</vande>
+    <coquan>Số lượng thai</coquan>
+    <id_chuan>24</id_chuan>
+  </Table>
+  <Table>
+    <id>356</id>
+    <vande>2</vande>
+    <coquan>Cử động thai</coquan>
+    <id_chuan>24</id_chuan>
+  </Table>
+  <Table>
+    <id>357</id>
+    <vande>3</vande>
+    <coquan>Ngôi thai</coquan>
+    <id_chuan>24</id_chuan>
+  </Table>
+  <Table>
+    <id>358</id>
+    <vande>4</vande>
+    <coquan>BPD</coquan>
+    <id_chuan>24</id_chuan>
+  </Table>
+  <Table>
+    <id>359</id>
+    <vande>5</vande>
+    <coquan>FL</coquan>
+    <id_chuan>24</id_chuan>
+  </Table>
+  <Table>
+    <id>360</id>
+    <vande>6</vande>
+    <coquan>AC</coquan>
+    <id_chuan>24</id_chuan>
+  </Table>
+  <Table>
+    <id>361</id>
+    <vande>7</vande>
+    <coquan>TTD</coquan>
+    <id_chuan>24</id_chuan>
+  </Table>
+  <Table>
+    <id>362</id>
+    <vande>8</vande>
+    <coquan>APTD</coquan>
+    <id_chuan>24</id_chuan>
+  </Table>
+  <Table>
+    <id>363</id>
+    <vande>9</vande>
+    <coquan>Thai tương đương</coquan>
+    <id_chuan>24</id_chuan>
+  </Table>
+  <Table>
+    <id>364</id>
+    <vande>10</vande>
+    <coquan>Trọng lượng thai</coquan>
+    <id_chuan>24</id_chuan>
+  </Table>
+  <Table>
+    <id>365</id>
+    <vande>11</vande>
+    <coquan>Ngày sinh dự kiến</coquan>
+    <id_chuan>24</id_chuan>
+  </Table>
+  <Table>
+    <id>366</id>
+    <vande>12</vande>
+    <coquan>Vị trí nhau</coquan>
+    <id_chuan>24</id_chuan>
+  </Table>
+  <Table>
+    <id>367</id>
+    <vande>13</vande>
+    <coquan>Số lượng nước ối</coquan>
+    <id_chuan>24</id_chuan>
+  </Table>
+  <Table>
+    <id>368</id>
+    <vande>14</vande>
+    <coquan>Tần số thai</coquan>
+    <id_chuan>24</id_chuan>
+  </Table>
+  <Table>
+    <id>369</id>
+    <vande>15</vande>
+    <coquan>Bờ họp sọ</coquan>
+    <id_chuan>24</id_chuan>
+  </Table>
+  <Table>
+    <id>370</id>
+    <vande>16</vande>
+    <coquan>Cấu trúc đường giữa</coquan>
+    <id_chuan>24</id_chuan>
+  </Table>
+  <Table>
+    <id>371</id>
+    <vande>17</vande>
+    <coquan>Hình ảnh tiểu não</coquan>
+    <id_chuan>24</id_chuan>
+  </Table>
+  <Table>
+    <id>372</id>
+    <vande>18</vande>
+    <coquan>Kích thước hố sau</coquan>
+    <id_chuan>24</id_chuan>
+  </Table>
+  <Table>
+    <id>373</id>
+    <vande>19</vande>
+    <coquan>Cấu trúc tim</coquan>
+    <id_chuan>24</id_chuan>
+  </Table>
+  <Table>
+    <id>374</id>
+    <vande>20</vande>
+    <coquan>Cột sống</coquan>
+    <id_chuan>24</id_chuan>
+  </Table>
+  <Table>
+    <id>375</id>
+    <vande>21</vande>
+    <coquan>Hình ảnh dạ dày</coquan>
+    <id_chuan>24</id_chuan>
+  </Table>
+  <Table>
+    <id>376</id>
+    <vande>22</vande>
+    <coquan>Bàng quang</coquan>
+    <id_chuan>24</id_chuan>
+  </Table>
+  <Table>
+    <id>377</id>
+    <vande>23</vande>
+    <coquan>Dây rốn</coquan>
+    <id_chuan>24</id_chuan>
+  </Table>
+  <Table>
+    <id>378</id>
+    <vande>24</vande>
+    <coquan>RI_ĐMR</coquan>
+    <id_chuan>24</id_chuan>
+  </Table>
+  <Table>
+    <id>379</id>
+    <vande>25</vande>
+    <coquan>RI_ĐMN</coquan>
+    <id_chuan>24</id_chuan>
+  </Table>
+  <Table>
+    <id>380</id>
+    <vande>26</vande>
+    <coquan>Kết luận</coquan>
+    <id_chuan>24</id_chuan>
+  </Table>
+  <Table>
+    <id>381</id>
+    <vande>27</vande>
+    <coquan>Đề nghị</coquan>
+    <id_chuan>24</id_chuan>
+  </Table>
+  <Table>
+    <id>382</id>
+    <vande>1</vande>
+    <coquan>Tử cung</coquan>
+    <id_chuan>23</id_chuan>
+  </Table>
+  <Table>
+    <id>383</id>
+    <vande>2</vande>
+    <coquan>GS</coquan>
+    <id_chuan>23</id_chuan>
+  </Table>
+  <Table>
+    <id>384</id>
+    <vande>3</vande>
+    <coquan>Âm vang thai</coquan>
+    <id_chuan>23</id_chuan>
+  </Table>
+  <Table>
+    <id>385</id>
+    <vande>4</vande>
+    <coquan>Túi noãn hoàn</coquan>
+    <id_chuan>23</id_chuan>
+  </Table>
+  <Table>
+    <id>386</id>
+    <vande>5</vande>
+    <coquan>CRL</coquan>
+    <id_chuan>23</id_chuan>
+  </Table>
+  <Table>
+    <id>387</id>
+    <vande>6</vande>
+    <coquan>Thai tương tương</coquan>
+    <id_chuan>23</id_chuan>
+  </Table>
+  <Table>
+    <id>388</id>
+    <vande>7</vande>
+    <coquan>Ngày sinh dự kiến</coquan>
+    <id_chuan>23</id_chuan>
+  </Table>
+  <Table>
+    <id>389</id>
+    <vande>8</vande>
+    <coquan>Tim thai</coquan>
+    <id_chuan>23</id_chuan>
+  </Table>
+  <Table>
+    <id>390</id>
+    <vande>9</vande>
+    <coquan>Buồng trứng</coquan>
+    <id_chuan>23</id_chuan>
+  </Table>
+  <Table>
+    <id>391</id>
+    <vande>10</vande>
+    <coquan>Cùng đồ</coquan>
+    <id_chuan>23</id_chuan>
+  </Table>
+  <Table>
+    <id>393</id>
+    <vande>11</vande>
+    <coquan>Số lượng</coquan>
+    <id_chuan>23</id_chuan>
+  </Table>
+  <Table>
+    <id>394</id>
+    <vande>12</vande>
+    <coquan>Cử động thai</coquan>
+    <id_chuan>23</id_chuan>
+  </Table>
+  <Table>
+    <id>395</id>
+    <vande>13</vande>
+    <coquan>Ngôi thai</coquan>
+    <id_chuan>23</id_chuan>
+  </Table>
+  <Table>
+    <id>396</id>
+    <vande>14</vande>
+    <coquan>BPD</coquan>
+    <id_chuan>23</id_chuan>
+  </Table>
+  <Table>
+    <id>397</id>
+    <vande>15</vande>
+    <coquan>FL</coquan>
+    <id_chuan>23</id_chuan>
+  </Table>
+  <Table>
+    <id>398</id>
+    <vande>16</vande>
+    <coquan>AC</coquan>
+    <id_chuan>23</id_chuan>
+  </Table>
+  <Table>
+    <id>399</id>
+    <vande>17</vande>
+    <coquan>TTD</coquan>
+    <id_chuan>23</id_chuan>
+  </Table>
+  <Table>
+    <id>400</id>
+    <vande>18</vande>
+    <coquan>APTD</coquan>
+    <id_chuan>23</id_chuan>
+  </Table>
+  <Table>
+    <id>401</id>
+    <vande>19</vande>
+    <coquan>Trọng lượng</coquan>
+    <id_chuan>23</id_chuan>
+  </Table>
+  <Table>
+    <id>402</id>
+    <vande>20</vande>
+    <coquan>Vị trí nhau</coquan>
+    <id_chuan>23</id_chuan>
+  </Table>
+  <Table>
+    <id>403</id>
+    <vande>21</vande>
+    <coquan>Số lượng nước ối</coquan>
+    <id_chuan>23</id_chuan>
+  </Table>
+  <Table>
+    <id>404</id>
+    <vande>22</vande>
+    <coquan>Kết luận</coquan>
+    <id_chuan>23</id_chuan>
+  </Table>
+  <Table>
+    <id>405</id>
+    <vande>23</vande>
+    <coquan>Đề nghị</coquan>
+    <id_chuan>23</id_chuan>
+  </Table>
+  <Table>
+    <id>406</id>
+    <vande>1</vande>
+    <coquan>Thuỳ trái</coquan>
+    <id_chuan>25</id_chuan>
+  </Table>
+  <Table>
+    <id>407</id>
+    <vande>2</vande>
+    <coquan>Thuỳ phải</coquan>
+    <id_chuan>25</id_chuan>
+  </Table>
+  <Table>
+    <id>408</id>
+    <vande>3</vande>
+    <coquan>Eo tuyến</coquan>
+    <id_chuan>25</id_chuan>
+  </Table>
+  <Table>
+    <id>409</id>
+    <vande>4</vande>
+    <coquan>Kết luận</coquan>
+    <id_chuan>25</id_chuan>
+  </Table>
+  <Table>
+    <id>410</id>
+    <vande>5</vande>
+    <coquan>Đề nghị</coquan>
+    <id_chuan>25</id_chuan>
+  </Table>
+  <Table>
+    <id>411</id>
+    <vande>1</vande>
+    <coquan>Tuyến vú phải</coquan>
+    <id_chuan>26</id_chuan>
+  </Table>
+  <Table>
+    <id>412</id>
+    <vande>2</vande>
+    <coquan>Tuyến vú trái</coquan>
+    <id_chuan>26</id_chuan>
+  </Table>
+  <Table>
+    <id>413</id>
+    <vande>3</vande>
+    <coquan>Kết luận</coquan>
+    <id_chuan>26</id_chuan>
+  </Table>
+  <Table>
+    <id>414</id>
+    <vande>4</vande>
+    <coquan>Đề nghị</coquan>
+    <id_chuan>26</id_chuan>
+  </Table>
+  <Table>
+    <id>415</id>
+    <vande>1</vande>
+    <coquan>Tư thế</coquan>
+    <id_chuan>27</id_chuan>
+  </Table>
+  <Table>
+    <id>416</id>
+    <vande>2</vande>
+    <coquan>Nội mạc</coquan>
+    <id_chuan>27</id_chuan>
+  </Table>
+  <Table>
+    <id>417</id>
+    <vande>3</vande>
+    <coquan>Buồng trứng trái</coquan>
+    <id_chuan>27</id_chuan>
+  </Table>
+  <Table>
+    <id>418</id>
+    <vande>4</vande>
+    <coquan>Buồn trứng phải</coquan>
+    <id_chuan>27</id_chuan>
+  </Table>
+  <Table>
+    <id>419</id>
+    <vande>5</vande>
+    <coquan>Túi cùng</coquan>
+    <id_chuan>27</id_chuan>
+  </Table>
+  <Table>
+    <id>420</id>
+    <vande>6</vande>
+    <coquan>Kết luận</coquan>
+    <id_chuan>27</id_chuan>
+  </Table>
+  <Table>
+    <id>421</id>
+    <vande>7</vande>
+    <coquan>Đề nghị</coquan>
+    <id_chuan>27</id_chuan>
+  </Table>
+  <Table>
+    <id>422</id>
+    <vande>1</vande>
+    <coquan>Gan</coquan>
+    <id_chuan>28</id_chuan>
+  </Table>
+  <Table>
+    <id>423</id>
+    <vande>2</vande>
+    <coquan>Đường mật trong gan</coquan>
+    <id_chuan>28</id_chuan>
+  </Table>
+  <Table>
+    <id>424</id>
+    <vande>3</vande>
+    <coquan>Ống mật chủ</coquan>
+    <id_chuan>28</id_chuan>
+  </Table>
+  <Table>
+    <id>425</id>
+    <vande>4</vande>
+    <coquan>Túi mật</coquan>
+    <id_chuan>28</id_chuan>
+  </Table>
+  <Table>
+    <id>426</id>
+    <vande>5</vande>
+    <coquan>Tỉnh mạch cửa</coquan>
+    <id_chuan>28</id_chuan>
+  </Table>
+  <Table>
+    <id>427</id>
+    <vande>6</vande>
+    <coquan>Tuỵ</coquan>
+    <id_chuan>28</id_chuan>
+  </Table>
+  <Table>
+    <id>428</id>
+    <vande>7</vande>
+    <coquan>Lách</coquan>
+    <id_chuan>28</id_chuan>
+  </Table>
+  <Table>
+    <id>429</id>
+    <vande>8</vande>
+    <coquan>Thận phải</coquan>
+    <id_chuan>28</id_chuan>
+  </Table>
+  <Table>
+    <id>430</id>
+    <vande>9</vande>
+    <coquan>Thận trái</coquan>
+    <id_chuan>28</id_chuan>
+  </Table>
+  <Table>
+    <id>431</id>
+    <vande>10</vande>
+    <coquan>Bàng quang</coquan>
+    <id_chuan>28</id_chuan>
+  </Table>
+  <Table>
+    <id>432</id>
+    <vande>11</vande>
+    <coquan>Tiền liệt tuyến</coquan>
+    <id_chuan>28</id_chuan>
+  </Table>
+  <Table>
+    <id>433</id>
+    <vande>12</vande>
+    <coquan>Nhận xét khác</coquan>
+    <id_chuan>28</id_chuan>
+  </Table>
+  <Table>
+    <id>434</id>
+    <vande>13</vande>
+    <coquan>Buồng trứng</coquan>
+    <id_chuan>28</id_chuan>
+  </Table>
+  <Table>
+    <id>435</id>
+    <vande>14</vande>
+    <coquan>Tư thế</coquan>
+    <id_chuan>28</id_chuan>
+  </Table>
+  <Table>
+    <id>436</id>
+    <vande>15</vande>
+    <coquan>Kích thước</coquan>
+    <id_chuan>28</id_chuan>
+  </Table>
+  <Table>
+    <id>437</id>
+    <vande>16</vande>
+    <coquan>Nội mạc</coquan>
+    <id_chuan>28</id_chuan>
+  </Table>
+  <Table>
+    <id>438</id>
+    <vande>17</vande>
+    <coquan>Tử cung</coquan>
+    <id_chuan>28</id_chuan>
+  </Table>
+  <Table>
+    <id>439</id>
+    <vande>18</vande>
+    <coquan>Phần phụ</coquan>
+    <id_chuan>28</id_chuan>
+  </Table>
+  <Table>
+    <id>440</id>
+    <vande>19</vande>
+    <coquan>Túi cùng</coquan>
+    <id_chuan>28</id_chuan>
+  </Table>
+  <Table>
+    <id>441</id>
+    <vande>20</vande>
+    <coquan>Lồng tử cung</coquan>
+    <id_chuan>28</id_chuan>
+  </Table>
+  <Table>
+    <id>442</id>
+    <vande>21</vande>
+    <coquan>Kết luận</coquan>
+    <id_chuan>28</id_chuan>
+  </Table>
+  <Table>
+    <id>443</id>
+    <vande>22</vande>
+    <coquan>Đề nghị</coquan>
+    <id_chuan>28</id_chuan>
+  </Table>
+  <Table>
+    <id>292</id>
+    <vande>12</vande>
+    <coquan>Mô tuyến vú phải</coquan>
+    <id_chuan>8</id_chuan>
+  </Table>
+  <Table>
+    <id>293</id>
+    <vande>9</vande>
+    <coquan>Cấu trúc thuỳ trái</coquan>
+    <id_chuan>9</id_chuan>
+  </Table>
+  <Table>
+    <id>459</id>
+    <vande>1</vande>
+    <coquan>ĐMC</coquan>
+    <id_chuan>30</id_chuan>
+  </Table>
+  <Table>
+    <id>460</id>
+    <vande>2</vande>
+    <coquan>NT</coquan>
+    <id_chuan>30</id_chuan>
+  </Table>
+  <Table>
+    <id>461</id>
+    <vande>3</vande>
+    <coquan>RVDd</coquan>
+    <id_chuan>30</id_chuan>
+  </Table>
+  <Table>
+    <id>462</id>
+    <vande>4</vande>
+    <coquan>IVSd</coquan>
+    <id_chuan>30</id_chuan>
+  </Table>
+  <Table>
+    <id>463</id>
+    <vande>5</vande>
+    <coquan>LVIDd</coquan>
+    <id_chuan>30</id_chuan>
+  </Table>
+  <Table>
+    <id>464</id>
+    <vande>6</vande>
+    <coquan>LVPWd</coquan>
+    <id_chuan>30</id_chuan>
+  </Table>
+  <Table>
+    <id>465</id>
+    <vande>7</vande>
+    <coquan>IVSs</coquan>
+    <id_chuan>30</id_chuan>
+  </Table>
+  <Table>
+    <id>466</id>
+    <vande>8</vande>
+    <coquan>LVIDs</coquan>
+    <id_chuan>30</id_chuan>
+  </Table>
+  <Table>
+    <id>467</id>
+    <vande>9</vande>
+    <coquan>LVPWs</coquan>
+    <id_chuan>30</id_chuan>
+  </Table>
+  <Table>
+    <id>468</id>
+    <vande>10</vande>
+    <coquan>FS</coquan>
+    <id_chuan>30</id_chuan>
+  </Table>
+  <Table>
+    <id>469</id>
+    <vande>11</vande>
+    <coquan>EF</coquan>
+    <id_chuan>30</id_chuan>
+  </Table>
+  <Table>
+    <id>470</id>
+    <vande>12</vande>
+    <coquan>HR</coquan>
+    <id_chuan>30</id_chuan>
+  </Table>
+  <Table>
+    <id>471</id>
+    <vande>13</vande>
+    <coquan>E - IVS</coquan>
+    <id_chuan>30</id_chuan>
+  </Table>
+  <Table>
+    <id>472</id>
+    <vande>14</vande>
+    <coquan>CE</coquan>
+    <id_chuan>30</id_chuan>
+  </Table>
+  <Table>
+    <id>473</id>
+    <vande>15</vande>
+    <coquan>CA</coquan>
+    <id_chuan>30</id_chuan>
+  </Table>
+  <Table>
+    <id>475</id>
+    <vande>17</vande>
+    <coquan>EF Stop</coquan>
+    <id_chuan>30</id_chuan>
+  </Table>
+  <Table>
+    <id>476</id>
+    <vande>18</vande>
+    <coquan>Van ĐMC</coquan>
+    <id_chuan>30</id_chuan>
+  </Table>
+  <Table>
+    <id>477</id>
+    <vande>19</vande>
+    <coquan>LVOT</coquan>
+    <id_chuan>30</id_chuan>
+  </Table>
+  <Table>
+    <id>478</id>
+    <vande>20</vande>
+    <coquan>Van 3 lá</coquan>
+    <id_chuan>30</id_chuan>
+  </Table>
+  <Table>
+    <id>479</id>
+    <vande>21</vande>
+    <coquan>Van ĐMP</coquan>
+    <id_chuan>30</id_chuan>
+  </Table>
+  <Table>
+    <id>480</id>
+    <vande>22</vande>
+    <coquan>Vmax van 2 lá</coquan>
+    <id_chuan>30</id_chuan>
+  </Table>
+  <Table>
+    <id>483</id>
+    <vande>25</vande>
+    <coquan>GdPmax</coquan>
+    <id_chuan>30</id_chuan>
+  </Table>
+  <Table>
+    <id>484</id>
+    <vande>26</vande>
+    <coquan>GdPmoy</coquan>
+    <id_chuan>30</id_chuan>
+  </Table>
+  <Table>
+    <id>486</id>
+    <vande>28</vande>
+    <coquan>Diện tích lỗ van 2 lá</coquan>
+    <id_chuan>30</id_chuan>
+  </Table>
+  <Table>
+    <id>488</id>
+    <vande>30</vande>
+    <coquan>Vmax ĐMC</coquan>
+    <id_chuan>30</id_chuan>
+  </Table>
+  <Table>
+    <id>489</id>
+    <vande>31</vande>
+    <coquan>GdPmax ĐMC</coquan>
+    <id_chuan>30</id_chuan>
+  </Table>
+  <Table>
+    <id>490</id>
+    <vande>32</vande>
+    <coquan>GdPmoy ĐMC</coquan>
+    <id_chuan>30</id_chuan>
+  </Table>
+  <Table>
+    <id>492</id>
+    <vande>34</vande>
+    <coquan>d</coquan>
+    <id_chuan>30</id_chuan>
+  </Table>
+  <Table>
+    <id>494</id>
+    <vande>36</vande>
+    <coquan>Diện tích lổ van ĐMC</coquan>
+    <id_chuan>30</id_chuan>
+  </Table>
+  <Table>
+    <id>495</id>
+    <vande>37</vande>
+    <coquan>PHT ĐMP</coquan>
+    <id_chuan>30</id_chuan>
+  </Table>
+  <Table>
+    <id>496</id>
+    <vande>38</vande>
+    <coquan>Vmax 3 lá</coquan>
+    <id_chuan>30</id_chuan>
+  </Table>
+  <Table>
+    <id>497</id>
+    <vande>39</vande>
+    <coquan>PAPs</coquan>
+    <id_chuan>30</id_chuan>
+  </Table>
+  <Table>
+    <id>498</id>
+    <vande>40</vande>
+    <coquan>GdPmax 3 lá</coquan>
+    <id_chuan>30</id_chuan>
+  </Table>
+  <Table>
+    <id>500</id>
+    <vande>42</vande>
+    <coquan>Vmax ĐMP</coquan>
+    <id_chuan>30</id_chuan>
+  </Table>
+  <Table>
+    <id>501</id>
+    <vande>43</vande>
+    <coquan>GdPmax ĐMP</coquan>
+    <id_chuan>30</id_chuan>
+  </Table>
+  <Table>
+    <id>502</id>
+    <vande>44</vande>
+    <coquan>PAPm</coquan>
+    <id_chuan>30</id_chuan>
+  </Table>
+  <Table>
+    <id>504</id>
+    <vande>46</vande>
+    <coquan>PAPd</coquan>
+    <id_chuan>30</id_chuan>
+  </Table>
+  <Table>
+    <id>487</id>
+    <vande>29</vande>
+    <coquan>PHT 2 lá</coquan>
+    <id_chuan>30</id_chuan>
+  </Table>
+  <Table>
+    <id>508</id>
+    <vande>50</vande>
+    <coquan>Đề nghị</coquan>
+    <id_chuan>30</id_chuan>
+  </Table>
+  <Table>
+    <id>505</id>
+    <vande>47</vande>
+    <coquan>Dịch màng ngoài tim</coquan>
+    <giatribt>(-)</giatribt>
+    <id_chuan>30</id_chuan>
+  </Table>
+  <Table>
+    <id>506</id>
+    <vande>48</vande>
+    <coquan>Thrombus</coquan>
+    <giatribt>(-)</giatribt>
+    <id_chuan>30</id_chuan>
+  </Table>
+  <Table>
+    <id>474</id>
+    <vande>16</vande>
+    <coquan>Van 2 lá</coquan>
+    <giatribt />
+    <id_chuan>30</id_chuan>
+  </Table>
+  <Table>
+    <id>482</id>
+    <vande>24</vande>
+    <coquan>Hở van 2 lá</coquan>
+    <giatribt>/4</giatribt>
+    <id_chuan>30</id_chuan>
+  </Table>
+  <Table>
+    <id>485</id>
+    <vande>27</vande>
+    <coquan>Hẹp van 2 lá</coquan>
+    <giatribt>()</giatribt>
+    <id_chuan>30</id_chuan>
+  </Table>
+  <Table>
+    <id>493</id>
+    <vande>35</vande>
+    <coquan>Hẹp chủ</coquan>
+    <giatribt>()</giatribt>
+    <id_chuan>30</id_chuan>
+  </Table>
+  <Table>
+    <id>481</id>
+    <vande>23</vande>
+    <coquan>Sóng EA</coquan>
+    <giatribt>1</giatribt>
+    <id_chuan>30</id_chuan>
+  </Table>
+  <Table>
+    <id>491</id>
+    <vande>33</vande>
+    <coquan>Hở chủ</coquan>
+    <giatribt>/4</giatribt>
+    <id_chuan>30</id_chuan>
+  </Table>
+  <Table>
+    <id>499</id>
+    <vande>41</vande>
+    <coquan>Hở van 3 lá</coquan>
+    <giatribt>/4</giatribt>
+    <id_chuan>30</id_chuan>
+  </Table>
+  <Table>
+    <id>503</id>
+    <vande>45</vande>
+    <coquan>Hở van ĐMP</coquan>
+    <giatribt>/4</giatribt>
+    <id_chuan>30</id_chuan>
+  </Table>
+  <Table>
+    <id>507</id>
+    <vande>49</vande>
+    <coquan>Kết luận</coquan>
+    <giatribt>Các buồng tim không dày dãn. CNTTT (T) bảo tồn EF= %. Các van nhĩ - thất không hẹp hở.Không rối loạn vận động vùng. Không tăng áp ĐMP (PAPs= mmHg). CN: Siêu âm tim trong giới hạn bình thường.</giatribt>
+    <id_chuan>30</id_chuan>
+  </Table>
+  <Table>
+    <id>181</id>
+    <vande>1</vande>
+    <coquan>Cấu trúc</coquan>
+    <id_chuan>18</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>111</id>
+    <vande>11</vande>
+    <coquan>TM2</coquan>
+    <giatribt>tm2</giatribt>
+    <id_chuan>6</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>182</id>
+    <vande>2</vande>
+    <coquan>Lan toả</coquan>
+    <id_chuan>18</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>183</id>
+    <vande>3</vande>
+    <coquan>Khu trú</coquan>
+    <id_chuan>18</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>184</id>
+    <vande>4</vande>
+    <coquan>Vị trí</coquan>
+    <id_chuan>18</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>185</id>
+    <vande>5</vande>
+    <coquan>Kích thước</coquan>
+    <id_chuan>18</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>186</id>
+    <vande>6</vande>
+    <coquan>Cấu trúc_Tổn thương</coquan>
+    <id_chuan>18</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>187</id>
+    <vande>7</vande>
+    <coquan>Bờ</coquan>
+    <id_chuan>18</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>188</id>
+    <vande>8</vande>
+    <coquan>Nền</coquan>
+    <id_chuan>18</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>189</id>
+    <vande>9</vande>
+    <coquan>Di động</coquan>
+    <id_chuan>18</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>190</id>
+    <vande>10</vande>
+    <coquan>Hạch nách</coquan>
+    <id_chuan>18</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>191</id>
+    <vande>11</vande>
+    <coquan>Hạch dưới đòn</coquan>
+    <id_chuan>18</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>192</id>
+    <vande>12</vande>
+    <coquan>Di căn</coquan>
+    <id_chuan>18</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>193</id>
+    <vande>13</vande>
+    <coquan>Doppler</coquan>
+    <id_chuan>18</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>194</id>
+    <vande>14</vande>
+    <coquan>Ghi chú</coquan>
+    <id_chuan>18</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>195</id>
+    <vande>15</vande>
+    <coquan>Kết luận</coquan>
+    <id_chuan>18</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>196</id>
+    <vande>16</vande>
+    <coquan>Đề nghị</coquan>
+    <id_chuan>18</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>153</id>
+    <vande>1</vande>
+    <coquan>Tim thai</coquan>
+    <id_chuan>12</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>61</id>
+    <vande>4</vande>
+    <coquan>Nhóm</coquan>
+    <giatribt>Nhóm</giatribt>
+    <id_chuan>3</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>171</id>
+    <vande>1</vande>
+    <coquan>Vị trí</coquan>
+    <id_chuan>13</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>172</id>
+    <vande>2</vande>
+    <coquan>Kích thước</coquan>
+    <id_chuan>13</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>173</id>
+    <vande>3</vande>
+    <coquan>Cấu trúc</coquan>
+    <id_chuan>13</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>174</id>
+    <vande>4</vande>
+    <coquan>Bờ</coquan>
+    <id_chuan>13</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>175</id>
+    <vande>5</vande>
+    <coquan>Mô mềm</coquan>
+    <id_chuan>13</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>176</id>
+    <vande>6</vande>
+    <coquan>Hạch</coquan>
+    <id_chuan>13</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>177</id>
+    <vande>7</vande>
+    <coquan>Tổn thương khác</coquan>
+    <id_chuan>13</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>178</id>
+    <vande>8</vande>
+    <coquan>Khớp</coquan>
+    <id_chuan>13</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>179</id>
+    <vande>9</vande>
+    <coquan>Kết luận</coquan>
+    <id_chuan>13</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>180</id>
+    <vande>10</vande>
+    <coquan>Đề nghị</coquan>
+    <id_chuan>13</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>154</id>
+    <vande>2</vande>
+    <coquan>Cử động</coquan>
+    <id_chuan>12</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>155</id>
+    <vande>3</vande>
+    <coquan>Ngôi thai</coquan>
+    <id_chuan>12</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>156</id>
+    <vande>4</vande>
+    <coquan>Giới trính</coquan>
+    <id_chuan>12</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>157</id>
+    <vande>5</vande>
+    <coquan>Nước ối</coquan>
+    <id_chuan>12</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>158</id>
+    <vande>6</vande>
+    <coquan>Vị trí nhau</coquan>
+    <id_chuan>12</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>159</id>
+    <vande>7</vande>
+    <coquan>Nhóm</coquan>
+    <id_chuan>12</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>160</id>
+    <vande>8</vande>
+    <coquan>Độ trưởng thành</coquan>
+    <id_chuan>12</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>161</id>
+    <vande>9</vande>
+    <coquan>Tư thế</coquan>
+    <id_chuan>12</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>162</id>
+    <vande>10</vande>
+    <coquan>DAP</coquan>
+    <id_chuan>12</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>163</id>
+    <vande>11</vande>
+    <coquan>Nội mạc</coquan>
+    <id_chuan>12</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>164</id>
+    <vande>12</vande>
+    <coquan>Cấu trúc cơ tủ cung</coquan>
+    <id_chuan>12</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>165</id>
+    <vande>13</vande>
+    <coquan>Phần phụ</coquan>
+    <id_chuan>12</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>166</id>
+    <vande>14</vande>
+    <coquan>Túi cùng</coquan>
+    <id_chuan>12</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>169</id>
+    <vande>17</vande>
+    <coquan>Kết luận</coquan>
+    <id_chuan>12</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>167</id>
+    <vande>15</vande>
+    <coquan>Dị tật bất thường</coquan>
+    <id_chuan>12</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>168</id>
+    <vande>16</vande>
+    <coquan>Ghi nhận khác</coquan>
+    <id_chuan>12</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>170</id>
+    <vande>18</vande>
+    <coquan>Đề nghị</coquan>
+    <id_chuan>12</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>59</id>
+    <vande>2</vande>
+    <coquan>Giới tính</coquan>
+    <giatribt>GT</giatribt>
+    <id_chuan>3</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>60</id>
+    <vande>3</vande>
+    <coquan>Vị trí _ Nhau</coquan>
+    <giatribt>VT</giatribt>
+    <id_chuan>3</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>63</id>
+    <vande>5</vande>
+    <coquan>Độ trưởng thành</coquan>
+    <giatribt>DTT</giatribt>
+    <id_chuan>3</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>65</id>
+    <vande>8</vande>
+    <coquan>Vấn đề khác</coquan>
+    <giatribt>VDK</giatribt>
+    <id_chuan>3</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>66</id>
+    <vande>9</vande>
+    <coquan>Đề nghị</coquan>
+    <giatribt>DN</giatribt>
+    <id_chuan>3</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>67</id>
+    <vande>10</vande>
+    <coquan>Kết luận</coquan>
+    <giatribt>KL</giatribt>
+    <id_chuan>3</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>62</id>
+    <vande>6</vande>
+    <coquan>Nước ối</coquan>
+    <giatribt>NO</giatribt>
+    <id_chuan>3</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>212</id>
+    <vande>6</vande>
+    <coquan>Gan</coquan>
+    <id_chuan>16</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>58</id>
+    <vande>1</vande>
+    <coquan>Ngôi</coquan>
+    <giatribt>N</giatribt>
+    <id_chuan>3</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>64</id>
+    <vande>7</vande>
+    <coquan>Các dị tật bất thường</coquan>
+    <giatribt>DTBT</giatribt>
+    <id_chuan>3</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>69</id>
+    <vande>2</vande>
+    <coquan>Tổn thương</coquan>
+    <giatribt>Không</giatribt>
+    <id_chuan>4</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>70</id>
+    <vande>3</vande>
+    <coquan>Vị trí</coquan>
+    <giatribt>Vt</giatribt>
+    <id_chuan>4</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>71</id>
+    <vande>4</vande>
+    <coquan>Cấu trúc</coquan>
+    <giatribt>Ct</giatribt>
+    <id_chuan>4</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>72</id>
+    <vande>5</vande>
+    <coquan>Buồng trứng trái</coquan>
+    <giatribt>BTT</giatribt>
+    <id_chuan>4</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>83</id>
+    <vande>12</vande>
+    <coquan>Đề nghị</coquan>
+    <giatribt>DN</giatribt>
+    <id_chuan>4</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>74</id>
+    <vande>7</vande>
+    <coquan>Tai vòi trái</coquan>
+    <giatribt>TVT</giatribt>
+    <id_chuan>4</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>75</id>
+    <vande>8</vande>
+    <coquan>Tai vòi phải</coquan>
+    <giatribt>TVP</giatribt>
+    <id_chuan>4</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>76</id>
+    <vande>9</vande>
+    <coquan>Túi cùng</coquan>
+    <giatribt>TC</giatribt>
+    <id_chuan>4</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>81</id>
+    <vande>10</vande>
+    <coquan>Vấn đề khác</coquan>
+    <giatribt>VDK</giatribt>
+    <id_chuan>4</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>82</id>
+    <vande>11</vande>
+    <coquan>Kết luận</coquan>
+    <giatribt>Kl</giatribt>
+    <id_chuan>4</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>68</id>
+    <vande>1</vande>
+    <coquan>Lồng tử cung</coquan>
+    <giatribt>LTC</giatribt>
+    <id_chuan>4</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>73</id>
+    <vande>6</vande>
+    <coquan>Buồng trứng phải</coquan>
+    <giatribt>BTP</giatribt>
+    <id_chuan>4</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>85</id>
+    <vande>2</vande>
+    <coquan>Não thất bên</coquan>
+    <giatribt>NTB</giatribt>
+    <id_chuan>5</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>86</id>
+    <vande>3</vande>
+    <coquan>Não thất III</coquan>
+    <giatribt>NT3</giatribt>
+    <id_chuan>5</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>84</id>
+    <vande>1</vande>
+    <coquan>Đường giữa M</coquan>
+    <giatribt>DGM</giatribt>
+    <id_chuan>5</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>89</id>
+    <vande>6</vande>
+    <coquan>Đầu nhân đuôi</coquan>
+    <giatribt>DND</giatribt>
+    <id_chuan>5</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>112</id>
+    <vande>12</vande>
+    <coquan>TM3</coquan>
+    <giatribt>tm3</giatribt>
+    <id_chuan>6</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>90</id>
+    <vande>7</vande>
+    <coquan>Đám rối màng mạch</coquan>
+    <giatribt>DRMM</giatribt>
+    <id_chuan>5</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>91</id>
+    <vande>8</vande>
+    <coquan>Màng não</coquan>
+    <giatribt>MN</giatribt>
+    <id_chuan>5</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>92</id>
+    <vande>9</vande>
+    <coquan>Nhu mô não</coquan>
+    <giatribt>NMN</giatribt>
+    <id_chuan>5</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>88</id>
+    <vande>5</vande>
+    <coquan>Đồi thị</coquan>
+    <giatribt>Dt</giatribt>
+    <id_chuan>5</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>94</id>
+    <vande>11</vande>
+    <coquan>Vị trí</coquan>
+    <giatribt>VT</giatribt>
+    <id_chuan>5</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>95</id>
+    <vande>12</vande>
+    <coquan>Cấu trúc</coquan>
+    <giatribt>Ct</giatribt>
+    <id_chuan>5</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>96</id>
+    <vande>13</vande>
+    <coquan>Kích thước</coquan>
+    <giatribt />
+    <id_chuan>5</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>97</id>
+    <vande>14</vande>
+    <coquan>Đông mạch não giữa</coquan>
+    <giatribt>DMNG</giatribt>
+    <id_chuan>5</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>100</id>
+    <vande>17</vande>
+    <coquan>Đề nghị</coquan>
+    <giatribt>DN</giatribt>
+    <id_chuan>5</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>99</id>
+    <vande>16</vande>
+    <coquan>Kết luận</coquan>
+    <giatribt>KL</giatribt>
+    <id_chuan>5</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>98</id>
+    <vande>15</vande>
+    <coquan>Vấn đề khác</coquan>
+    <giatribt>VDK</giatribt>
+    <id_chuan>5</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>87</id>
+    <vande>4</vande>
+    <coquan>Não thất IV</coquan>
+    <giatribt>NT4</giatribt>
+    <id_chuan>5</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>93</id>
+    <vande>10</vande>
+    <coquan>Tổn thương</coquan>
+    <giatribt>Không</giatribt>
+    <id_chuan>5</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>110</id>
+    <vande>10</vande>
+    <coquan>TM1</coquan>
+    <giatribt>tm1</giatribt>
+    <id_chuan>6</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>109</id>
+    <vande>9</vande>
+    <coquan>ĐM_Phổ</coquan>
+    <giatribt>dmp</giatribt>
+    <id_chuan>6</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>108</id>
+    <vande>8</vande>
+    <coquan>ĐM_Dòng</coquan>
+    <giatribt>dmd</giatribt>
+    <id_chuan>6</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>114</id>
+    <vande>14</vande>
+    <coquan>TM5</coquan>
+    <giatribt>tm5</giatribt>
+    <id_chuan>6</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>106</id>
+    <vande>6</vande>
+    <coquan>ĐM5</coquan>
+    <giatribt>dm5</giatribt>
+    <id_chuan>6</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>105</id>
+    <vande>5</vande>
+    <coquan>ĐM4</coquan>
+    <giatribt>dm4</giatribt>
+    <id_chuan>6</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>104</id>
+    <vande>4</vande>
+    <coquan>ĐM3</coquan>
+    <giatribt>dm3</giatribt>
+    <id_chuan>6</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>103</id>
+    <vande>3</vande>
+    <coquan>ĐM2</coquan>
+    <giatribt>dm2</giatribt>
+    <id_chuan>6</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>102</id>
+    <vande>2</vande>
+    <coquan>ĐM1</coquan>
+    <giatribt>dm1</giatribt>
+    <id_chuan>6</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>101</id>
+    <vande>1</vande>
+    <coquan>Vị trí</coquan>
+    <giatribt>VT</giatribt>
+    <id_chuan>6</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>115</id>
+    <vande>15</vande>
+    <coquan>TM6</coquan>
+    <giatribt>Tm6</giatribt>
+    <id_chuan>6</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>116</id>
+    <vande>16</vande>
+    <coquan>TM_Dòng</coquan>
+    <giatribt>tmd</giatribt>
+    <id_chuan>6</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>117</id>
+    <vande>17</vande>
+    <coquan>TM_Phổ</coquan>
+    <giatribt>tmp</giatribt>
+    <id_chuan>6</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>118</id>
+    <vande>18</vande>
+    <coquan>Mô mềm xung quanh</coquan>
+    <giatribt>MMXQ</giatribt>
+    <id_chuan>6</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>119</id>
+    <vande>19</vande>
+    <coquan>Vấn đề khác</coquan>
+    <giatribt>vdk</giatribt>
+    <id_chuan>6</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>120</id>
+    <vande>20</vande>
+    <coquan>Kết luận</coquan>
+    <giatribt>KL</giatribt>
+    <id_chuan>6</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>121</id>
+    <vande>21</vande>
+    <coquan>Đề nghị</coquan>
+    <giatribt>DN</giatribt>
+    <id_chuan>6</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>113</id>
+    <vande>13</vande>
+    <coquan>TM4</coquan>
+    <giatribt>tm4</giatribt>
+    <id_chuan>6</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>107</id>
+    <vande>7</vande>
+    <coquan>ĐM6</coquan>
+    <giatribt>dm6</giatribt>
+    <id_chuan>6</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>124</id>
+    <vande>3</vande>
+    <coquan>Bờ</coquan>
+    <giatribt>Bờ</giatribt>
+    <id_chuan>7</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>125</id>
+    <vande>4</vande>
+    <coquan>Mô mềm chung quanh</coquan>
+    <giatribt>MMCQ</giatribt>
+    <id_chuan>7</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>126</id>
+    <vande>5</vande>
+    <coquan>Hạch</coquan>
+    <giatribt>Hạch</giatribt>
+    <id_chuan>7</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>127</id>
+    <vande>6</vande>
+    <coquan>Tổn thương khác</coquan>
+    <giatribt>TTK</giatribt>
+    <id_chuan>7</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>128</id>
+    <vande>7</vande>
+    <coquan>Bụng</coquan>
+    <giatribt>bụng</giatribt>
+    <id_chuan>7</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>129</id>
+    <vande>8</vande>
+    <coquan>Tim mạch</coquan>
+    <giatribt>TM</giatribt>
+    <id_chuan>7</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>130</id>
+    <vande>9</vande>
+    <coquan>Kết luận</coquan>
+    <giatribt>KL</giatribt>
+    <id_chuan>7</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>131</id>
+    <vande>10</vande>
+    <coquan>Đề nghị</coquan>
+    <giatribt>DN</giatribt>
+    <id_chuan>7</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>132</id>
+    <vande>11</vande>
+    <coquan>Tổn thương</coquan>
+    <giatribt>Không</giatribt>
+    <id_chuan>7</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>122</id>
+    <vande>1</vande>
+    <coquan>Vị trí</coquan>
+    <giatribt>VT</giatribt>
+    <id_chuan>7</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>123</id>
+    <vande>2</vande>
+    <coquan>Cấu trúc</coquan>
+    <giatribt>CT</giatribt>
+    <id_chuan>7</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>141</id>
+    <vande>9</vande>
+    <coquan>Vấn đề khác</coquan>
+    <giatribt>VDK</giatribt>
+    <id_chuan>8</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>140</id>
+    <vande>8</vande>
+    <coquan>Hai nách</coquan>
+    <giatribt>HN</giatribt>
+    <id_chuan>8</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>139</id>
+    <vande>7</vande>
+    <coquan>Cấu trúc vú phải</coquan>
+    <giatribt>CTVP</giatribt>
+    <id_chuan>8</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>138</id>
+    <vande>6</vande>
+    <coquan>Vị trí vú phải</coquan>
+    <giatribt>VTVP</giatribt>
+    <id_chuan>8</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>137</id>
+    <vande>5</vande>
+    <coquan>Tổn thương vú phải</coquan>
+    <giatribt>Không</giatribt>
+    <id_chuan>8</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>136</id>
+    <vande>4</vande>
+    <coquan>Cấu trúc vú trái</coquan>
+    <giatribt>CT_VT</giatribt>
+    <id_chuan>8</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>135</id>
+    <vande>3</vande>
+    <coquan>Vị trí vú trái</coquan>
+    <giatribt>VT_VT</giatribt>
+    <id_chuan>8</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>134</id>
+    <vande>2</vande>
+    <coquan>Tổn thương vú trái</coquan>
+    <giatribt>Không</giatribt>
+    <id_chuan>8</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>133</id>
+    <vande>1</vande>
+    <coquan>Mô tuyến vú</coquan>
+    <giatribt>MTV</giatribt>
+    <id_chuan>8</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>142</id>
+    <vande>10</vande>
+    <coquan>Kết luận</coquan>
+    <giatribt>KL</giatribt>
+    <id_chuan>8</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>143</id>
+    <vande>11</vande>
+    <coquan>Đề nghị</coquan>
+    <giatribt>DN</giatribt>
+    <id_chuan>8</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>149</id>
+    <vande>6</vande>
+    <coquan>Kết luận</coquan>
+    <giatribt>KL</giatribt>
+    <id_chuan>9</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>147</id>
+    <vande>4</vande>
+    <coquan>Hạch cổ</coquan>
+    <giatribt>HC</giatribt>
+    <id_chuan>9</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>146</id>
+    <vande>3</vande>
+    <coquan>Cấu trúc</coquan>
+    <giatribt>Ct</giatribt>
+    <id_chuan>9</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>145</id>
+    <vande>2</vande>
+    <coquan>Vị trí</coquan>
+    <giatribt>VT</giatribt>
+    <id_chuan>9</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>144</id>
+    <vande>1</vande>
+    <coquan>Hồi âm</coquan>
+    <giatribt>HA</giatribt>
+    <id_chuan>9</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>151</id>
+    <vande>8</vande>
+    <coquan>Tổn thương</coquan>
+    <giatribt>Không</giatribt>
+    <id_chuan>9</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>150</id>
+    <vande>7</vande>
+    <coquan>Đề nghị</coquan>
+    <giatribt>DN</giatribt>
+    <id_chuan>9</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>148</id>
+    <vande>5</vande>
+    <coquan>Các tuyến khác</coquan>
+    <giatribt>CTK</giatribt>
+    <id_chuan>9</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>16</id>
+    <vande>8</vande>
+    <coquan>Vùng góc</coquan>
+    <giatribt>VG</giatribt>
+    <id_chuan>10</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>2</id>
+    <vande>2</vande>
+    <coquan>Đường Z cách cung răng</coquan>
+    <giatribt>DZCRR</giatribt>
+    <id_chuan>10</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>3</id>
+    <vande>3</vande>
+    <coquan>Tâm vị</coquan>
+    <giatribt>TV</giatribt>
+    <id_chuan>10</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>4</id>
+    <vande>4</vande>
+    <coquan>Phình vị</coquan>
+    <giatribt>PV</giatribt>
+    <id_chuan>10</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>5</id>
+    <vande>5</vande>
+    <coquan>Thân vị</coquan>
+    <giatribt>Thân vị</giatribt>
+    <id_chuan>10</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>6</id>
+    <vande>6</vande>
+    <coquan>Bờ cong lớn</coquan>
+    <giatribt>BCL</giatribt>
+    <id_chuan>10</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>7</id>
+    <vande>7</vande>
+    <coquan>Bờ cong nhỏ</coquan>
+    <giatribt>BCN</giatribt>
+    <id_chuan>10</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>15</id>
+    <vande>16</vande>
+    <coquan>Đề nghị</coquan>
+    <giatribt>DN</giatribt>
+    <id_chuan>10</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>14</id>
+    <vande>15</vande>
+    <coquan>Kết luận</coquan>
+    <giatribt>KL</giatribt>
+    <id_chuan>10</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>13</id>
+    <vande>14</vande>
+    <coquan>Clotest</coquan>
+    <giatribt>CT</giatribt>
+    <id_chuan>10</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>12</id>
+    <vande>13</vande>
+    <coquan>Sinh thiết</coquan>
+    <giatribt>ST</giatribt>
+    <id_chuan>10</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>11</id>
+    <vande>12</vande>
+    <coquan>Đường đến D2 tá tràng</coquan>
+    <giatribt>DDD2TT</giatribt>
+    <id_chuan>10</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>10</id>
+    <vande>11</vande>
+    <coquan>Tá  tràng</coquan>
+    <giatribt>TT</giatribt>
+    <id_chuan>10</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>9</id>
+    <vande>10</vande>
+    <coquan>Môn vị</coquan>
+    <giatribt>MV</giatribt>
+    <id_chuan>10</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>1</id>
+    <vande>1</vande>
+    <coquan>Thực quãn</coquan>
+    <giatribt>TQ</giatribt>
+    <id_chuan>10</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>8</id>
+    <vande>9</vande>
+    <coquan>Hang vị</coquan>
+    <giatribt>HV</giatribt>
+    <id_chuan>10</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>26</id>
+    <vande>10</vande>
+    <coquan>Hậu môn</coquan>
+    <giatribt>HM</giatribt>
+    <id_chuan>11</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>25</id>
+    <vande>9</vande>
+    <coquan>Trực tràng</coquan>
+    <giatribt>TT</giatribt>
+    <id_chuan>11</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>24</id>
+    <vande>8</vande>
+    <coquan>Đại tràng ∑</coquan>
+    <giatribt>DTSM</giatribt>
+    <id_chuan>11</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>23</id>
+    <vande>7</vande>
+    <coquan>Đại tràng trái</coquan>
+    <giatribt>DTT</giatribt>
+    <id_chuan>11</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>22</id>
+    <vande>6</vande>
+    <coquan>Đại tràng góc lách</coquan>
+    <giatribt>DTGL</giatribt>
+    <id_chuan>11</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>21</id>
+    <vande>5</vande>
+    <coquan>Đại tràng ngang</coquan>
+    <giatribt>DTN</giatribt>
+    <id_chuan>11</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>20</id>
+    <vande>4</vande>
+    <coquan>Đại tràng góc gan</coquan>
+    <giatribt>DTGG</giatribt>
+    <id_chuan>11</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>19</id>
+    <vande>3</vande>
+    <coquan>Đại tràng phải</coquan>
+    <giatribt>DTP</giatribt>
+    <id_chuan>11</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>18</id>
+    <vande>2</vande>
+    <coquan>Máy soi tới</coquan>
+    <giatribt>MST</giatribt>
+    <id_chuan>11</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>17</id>
+    <vande>1</vande>
+    <coquan>Bệnh nhân nằm</coquan>
+    <giatribt>BNN</giatribt>
+    <id_chuan>11</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>28</id>
+    <vande>12</vande>
+    <coquan>Đề nghị</coquan>
+    <giatribt>DN</giatribt>
+    <id_chuan>11</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>27</id>
+    <vande>11</vande>
+    <coquan>Kết luận</coquan>
+    <giatribt>KL</giatribt>
+    <id_chuan>11</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>197</id>
+    <vande>1</vande>
+    <coquan>Thành mạch</coquan>
+    <id_chuan>17</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>198</id>
+    <vande>2</vande>
+    <coquan>Khẩu kính</coquan>
+    <id_chuan>17</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>199</id>
+    <vande>3</vande>
+    <coquan>Chỉ số hẹp</coquan>
+    <id_chuan>17</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>200</id>
+    <vande>4</vande>
+    <coquan>Dạng phổ</coquan>
+    <id_chuan>17</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>201</id>
+    <vande>5</vande>
+    <coquan>Các cửa sổ phổ</coquan>
+    <id_chuan>17</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>202</id>
+    <vande>6</vande>
+    <coquan>Chỉ số khác</coquan>
+    <id_chuan>17</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>203</id>
+    <vande>7</vande>
+    <coquan>Phân độ hẹp</coquan>
+    <id_chuan>17</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>204</id>
+    <vande>8</vande>
+    <coquan>Vấn đề khác</coquan>
+    <id_chuan>17</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>205</id>
+    <vande>9</vande>
+    <coquan>Kết luận</coquan>
+    <id_chuan>17</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>206</id>
+    <vande>10</vande>
+    <coquan>Đề nghị</coquan>
+    <id_chuan>17</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>207</id>
+    <vande>1</vande>
+    <coquan>Bàng quang</coquan>
+    <id_chuan>16</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>208</id>
+    <vande>2</vande>
+    <coquan>Tử cung</coquan>
+    <id_chuan>16</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>209</id>
+    <vande>3</vande>
+    <coquan>Phần phụ phải</coquan>
+    <id_chuan>16</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>210</id>
+    <vande>4</vande>
+    <coquan>Phần phụ trái</coquan>
+    <id_chuan>16</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>47</id>
+    <vande>6</vande>
+    <coquan>Tiền liệt tuyến</coquan>
+    <giatribt>Không to</giatribt>
+    <id_chuan>2</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>48</id>
+    <vande>7</vande>
+    <coquan>Động mạch chủ bụng</coquan>
+    <giatribt>Không phình</giatribt>
+    <id_chuan>2</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>49</id>
+    <vande>8</vande>
+    <coquan>Dịch ổ bụng</coquan>
+    <giatribt>Không dịch tự do trong ổ bụng</giatribt>
+    <id_chuan>2</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>50</id>
+    <vande>9</vande>
+    <coquan>Đường tiêu hóa</coquan>
+    <giatribt>Không phát hiện bất thường</giatribt>
+    <id_chuan>2</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>51</id>
+    <vande>10</vande>
+    <coquan>Cơ tử cung</coquan>
+    <giatribt>Đồng nhất</giatribt>
+    <id_chuan>2</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>152</id>
+    <vande>17</vande>
+    <coquan>Thận phải</coquan>
+    <giatribt>TP không ứ nước</giatribt>
+    <id_chuan>2</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>211</id>
+    <vande>5</vande>
+    <coquan>Túi cùng</coquan>
+    <id_chuan>16</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>213</id>
+    <vande>7</vande>
+    <coquan>Tụy, lách</coquan>
+    <id_chuan>16</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>214</id>
+    <vande>8</vande>
+    <coquan>Hệ niệu</coquan>
+    <id_chuan>16</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>215</id>
+    <vande>9</vande>
+    <coquan>Vấn đề khác</coquan>
+    <id_chuan>16</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>216</id>
+    <vande>10</vande>
+    <coquan>Kết luận</coquan>
+    <id_chuan>16</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>217</id>
+    <vande>11</vande>
+    <coquan>Đề nghị</coquan>
+    <id_chuan>16</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>218</id>
+    <vande>1</vande>
+    <coquan>Ống tai phải</coquan>
+    <id_chuan>19</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>219</id>
+    <vande>2</vande>
+    <coquan>Ống tai trái</coquan>
+    <id_chuan>19</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>220</id>
+    <vande>3</vande>
+    <coquan>Màng nhĩ phải</coquan>
+    <id_chuan>19</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>221</id>
+    <vande>4</vande>
+    <coquan>Màng nhĩ trái</coquan>
+    <id_chuan>19</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>222</id>
+    <vande>5</vande>
+    <coquan>Cán búa phải</coquan>
+    <id_chuan>19</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>223</id>
+    <vande>6</vande>
+    <coquan>Cán búa trái</coquan>
+    <id_chuan>19</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>224</id>
+    <vande>7</vande>
+    <coquan>Hòm nhĩ phải</coquan>
+    <id_chuan>19</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>248</id>
+    <vande>19</vande>
+    <coquan>Xoang lê phải</coquan>
+    <id_chuan>20</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>249</id>
+    <vande>20</vande>
+    <coquan>Xoang lê trái</coquan>
+    <id_chuan>20</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>250</id>
+    <vande>21</vande>
+    <coquan>Khác phải</coquan>
+    <id_chuan>20</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>251</id>
+    <vande>22</vande>
+    <coquan>Khác trái</coquan>
+    <id_chuan>20</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>252</id>
+    <vande>23</vande>
+    <coquan>Kết luận</coquan>
+    <id_chuan>20</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>253</id>
+    <vande>24</vande>
+    <coquan>Đề nghị</coquan>
+    <id_chuan>20</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>254</id>
+    <vande>1</vande>
+    <coquan>Tiền đình mũi phải</coquan>
+    <id_chuan>21</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>255</id>
+    <vande>2</vande>
+    <coquan>Tiền đình mũi trái</coquan>
+    <id_chuan>21</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>256</id>
+    <vande>3</vande>
+    <coquan>Khe dưới phải</coquan>
+    <id_chuan>21</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>257</id>
+    <vande>4</vande>
+    <coquan>Khe dưới trái</coquan>
+    <id_chuan>21</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>258</id>
+    <vande>5</vande>
+    <coquan>Khe giữa phải</coquan>
+    <id_chuan>21</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>259</id>
+    <vande>6</vande>
+    <coquan>Khe giữa trái</coquan>
+    <id_chuan>21</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>260</id>
+    <vande>7</vande>
+    <coquan>Khe trên phải</coquan>
+    <id_chuan>21</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>261</id>
+    <vande>8</vande>
+    <coquan>Khe trên trái</coquan>
+    <id_chuan>21</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>262</id>
+    <vande>9</vande>
+    <coquan>Mỏm móc phải</coquan>
+    <id_chuan>21</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>263</id>
+    <vande>10</vande>
+    <coquan>Mỏm móc trái</coquan>
+    <id_chuan>21</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>264</id>
+    <vande>11</vande>
+    <coquan>Bóng sàng phải</coquan>
+    <id_chuan>21</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>265</id>
+    <vande>12</vande>
+    <coquan>Bóng sàng trái</coquan>
+    <id_chuan>21</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>266</id>
+    <vande>13</vande>
+    <coquan>Ostium xoang hàm phải</coquan>
+    <id_chuan>21</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>267</id>
+    <vande>14</vande>
+    <coquan>Ostium xoang hàm trái</coquan>
+    <id_chuan>21</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>268</id>
+    <vande>15</vande>
+    <coquan>Ostium xoang sàng phải</coquan>
+    <id_chuan>21</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>269</id>
+    <vande>16</vande>
+    <coquan>Ostium xoang sàng trái</coquan>
+    <id_chuan>21</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>270</id>
+    <vande>17</vande>
+    <coquan>Ostium xoang sàng trán phải</coquan>
+    <id_chuan>21</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>271</id>
+    <vande>18</vande>
+    <coquan>Ostium xoang sàng trán trái</coquan>
+    <id_chuan>21</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>272</id>
+    <vande>19</vande>
+    <coquan>Ostium xoang bướm phải</coquan>
+    <id_chuan>21</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>273</id>
+    <vande>20</vande>
+    <coquan>Ostium xoang bướm trái</coquan>
+    <id_chuan>21</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>274</id>
+    <vande>21</vande>
+    <coquan>Vách ngăn phải</coquan>
+    <id_chuan>21</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>275</id>
+    <vande>22</vande>
+    <coquan>Vách ngăn trái</coquan>
+    <id_chuan>21</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>276</id>
+    <vande>23</vande>
+    <coquan>Cuốn dưới phải</coquan>
+    <id_chuan>21</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>277</id>
+    <vande>24</vande>
+    <coquan>Cuốn dưới trái</coquan>
+    <id_chuan>21</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>278</id>
+    <vande>25</vande>
+    <coquan>Cuốn giữa phải</coquan>
+    <id_chuan>21</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>279</id>
+    <vande>26</vande>
+    <coquan>Cuốn giữa tarí</coquan>
+    <id_chuan>21</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>280</id>
+    <vande>27</vande>
+    <coquan>Cuốn trên phải</coquan>
+    <id_chuan>21</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>281</id>
+    <vande>28</vande>
+    <coquan>Cuốn trên trái</coquan>
+    <id_chuan>21</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>282</id>
+    <vande>29</vande>
+    <coquan>Vòm họng phải</coquan>
+    <id_chuan>21</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>283</id>
+    <vande>30</vande>
+    <coquan>Vòm họng trái</coquan>
+    <id_chuan>21</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>284</id>
+    <vande>31</vande>
+    <coquan>Vòi nhĩ phải</coquan>
+    <id_chuan>21</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>285</id>
+    <vande>32</vande>
+    <coquan>Vòi nhĩ trái</coquan>
+    <id_chuan>21</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>286</id>
+    <vande>33</vande>
+    <coquan>Dấu hiệu khác phải</coquan>
+    <id_chuan>21</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>287</id>
+    <vande>34</vande>
+    <coquan>Dấu hiệu khác trái</coquan>
+    <id_chuan>21</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>288</id>
+    <vande>35</vande>
+    <coquan>Kết luận</coquan>
+    <id_chuan>21</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>289</id>
+    <vande>36</vande>
+    <coquan>Đề nghị</coquan>
+    <id_chuan>21</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>54</id>
+    <vande>13</vande>
+    <coquan>Phần phụ</coquan>
+    <giatribt>PP</giatribt>
+    <id_chuan>2</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>56</id>
+    <vande>15</vande>
+    <coquan>Kết luận</coquan>
+    <giatribt>KL</giatribt>
+    <id_chuan>2</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>42</id>
+    <vande>1</vande>
+    <coquan>Gan</coquan>
+    <giatribt>Không to , cấu trúc đồng dạng, bờ đều</giatribt>
+    <id_chuan>2</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>225</id>
+    <vande>8</vande>
+    <coquan>Hòm nhĩ trái</coquan>
+    <id_chuan>19</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>226</id>
+    <vande>9</vande>
+    <coquan>Khác phải</coquan>
+    <id_chuan>19</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>227</id>
+    <vande>10</vande>
+    <coquan>Khác trái</coquan>
+    <id_chuan>19</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>228</id>
+    <vande>11</vande>
+    <coquan>Kết luận</coquan>
+    <id_chuan>19</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>229</id>
+    <vande>12</vande>
+    <coquan>Đề nghị</coquan>
+    <id_chuan>19</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>230</id>
+    <vande>1</vande>
+    <coquan>Hạ họng phải</coquan>
+    <id_chuan>20</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>231</id>
+    <vande>2</vande>
+    <coquan>Hạ họng trái</coquan>
+    <id_chuan>20</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>232</id>
+    <vande>3</vande>
+    <coquan>Đáy lưỡi phải</coquan>
+    <id_chuan>20</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>233</id>
+    <vande>4</vande>
+    <coquan>Đáy lưỡi trái</coquan>
+    <id_chuan>20</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>234</id>
+    <vande>5</vande>
+    <coquan>Thanh thiệt phải</coquan>
+    <id_chuan>20</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>235</id>
+    <vande>6</vande>
+    <coquan>Thanh thiệt trái</coquan>
+    <id_chuan>20</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>236</id>
+    <vande>7</vande>
+    <coquan>Nếp phễu thanh thiệt phải</coquan>
+    <id_chuan>20</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>237</id>
+    <vande>8</vande>
+    <coquan>Nếp phễu thanh thiệt trái</coquan>
+    <id_chuan>20</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>238</id>
+    <vande>9</vande>
+    <coquan>Sụn phễu trái</coquan>
+    <id_chuan>20</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>239</id>
+    <vande>10</vande>
+    <coquan>Sụn phễu phải</coquan>
+    <id_chuan>20</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>240</id>
+    <vande>11</vande>
+    <coquan>Thượng thanh môn phải</coquan>
+    <id_chuan>20</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>241</id>
+    <vande>12</vande>
+    <coquan>Thượng thanh môn  trái</coquan>
+    <id_chuan>20</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>242</id>
+    <vande>13</vande>
+    <coquan>Thanh thất phải</coquan>
+    <id_chuan>20</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>243</id>
+    <vande>14</vande>
+    <coquan>Thanh thất trái</coquan>
+    <id_chuan>20</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>244</id>
+    <vande>15</vande>
+    <coquan>Dây thanh phải</coquan>
+    <id_chuan>20</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>245</id>
+    <vande>16</vande>
+    <coquan>Dây thanh trái</coquan>
+    <id_chuan>20</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>246</id>
+    <vande>17</vande>
+    <coquan>Hạ thanh môn phải</coquan>
+    <id_chuan>20</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>247</id>
+    <vande>18</vande>
+    <coquan>Hạ thanh môn trái</coquan>
+    <id_chuan>20</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>55</id>
+    <vande>14</vande>
+    <coquan>Vấn đề khác</coquan>
+    <giatribt>VDK</giatribt>
+    <id_chuan>2</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>57</id>
+    <vande>16</vande>
+    <coquan>Đề nghị</coquan>
+    <giatribt>DN</giatribt>
+    <id_chuan>2</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>53</id>
+    <vande>12</vande>
+    <coquan>Túi cùng</coquan>
+    <giatribt>TC</giatribt>
+    <id_chuan>2</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>52</id>
+    <vande>11</vande>
+    <coquan>Lồng tử cung</coquan>
+    <giatribt>LTC</giatribt>
+    <id_chuan>2</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>35</id>
+    <vande>7</vande>
+    <coquan>Hở van ĐMC</coquan>
+    <giatribt>Không.</giatribt>
+    <id_chuan>1</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>79</id>
+    <vande>12</vande>
+    <coquan>Kết luận</coquan>
+    <giatribt>SIÊU ÂM TIM DOPPLER MÀU BÌNH THƯỜNG.</giatribt>
+    <id_chuan>1</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>37</id>
+    <vande>9</vande>
+    <coquan>Hở van 3 lá</coquan>
+    <giatribt>Không.</giatribt>
+    <id_chuan>1</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>38</id>
+    <vande>10</vande>
+    <coquan>Hở van ĐMP</coquan>
+    <giatribt>Không.</giatribt>
+    <id_chuan>1</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>39</id>
+    <vande>11</vande>
+    <coquan>Hẹp van ĐMP</coquan>
+    <giatribt>Không.</giatribt>
+    <id_chuan>1</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>36</id>
+    <vande>8</vande>
+    <coquan>Hẹp van ĐMC</coquan>
+    <giatribt>Không.</giatribt>
+    <id_chuan>1</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>29</id>
+    <vande>1</vande>
+    <coquan>Vách liên thất</coquan>
+    <giatribt>Nguyên vẹn.</giatribt>
+    <id_chuan>1</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>34</id>
+    <vande>6</vande>
+    <coquan>Hẹp van 2 lá</coquan>
+    <giatribt>Không.</giatribt>
+    <id_chuan>1</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>33</id>
+    <vande>5</vande>
+    <coquan>Hở van 2 lá</coquan>
+    <giatribt>Không.</giatribt>
+    <id_chuan>1</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>32</id>
+    <vande>4</vande>
+    <coquan>Vấn đề khác</coquan>
+    <giatribt />
+    <id_chuan>1</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>31</id>
+    <vande>3</vande>
+    <coquan>Màng ngoài tim</coquan>
+    <giatribt>Không tràn dịch.</giatribt>
+    <id_chuan>1</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>30</id>
+    <vande>2</vande>
+    <coquan>Vách liên nhỉ</coquan>
+    <giatribt>Nguyên vẹn.</giatribt>
+    <id_chuan>1</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>43</id>
+    <vande>2</vande>
+    <coquan>Mật</coquan>
+    <giatribt>Không sỏi. Đường mật trong và ngoài gan không dãn</giatribt>
+    <id_chuan>2</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>44</id>
+    <vande>3</vande>
+    <coquan>Tụy lách</coquan>
+    <giatribt>Không to</giatribt>
+    <id_chuan>2</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>45</id>
+    <vande>4</vande>
+    <coquan>Thận trái</coquan>
+    <giatribt>Không sỏi, Không ứ nước</giatribt>
+    <id_chuan>2</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>46</id>
+    <vande>5</vande>
+    <coquan>Bàng quang</coquan>
+    <giatribt>Không sỏi</giatribt>
+    <id_chuan>2</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>80</id>
+    <vande>13</vande>
+    <coquan>Đề nghị</coquan>
+    <id_chuan>1</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>290</id>
+    <vande>14</vande>
+    <coquan>Các buồng tim</coquan>
+    <giatribt>Trong giới hạn bình thường.</giatribt>
+    <id_chuan>1</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>291</id>
+    <vande>15</vande>
+    <coquan>Rối loạn vận động vùng</coquan>
+    <giatribt>Không rối loạn vận động vùng.</giatribt>
+    <id_chuan>1</id_chuan>
+    <readonly>0</readonly>
+  </Table>
+  <Table>
+    <id>509</id>
+    <vande>1</vande>
+    <coquan>Niêm mạc mũi</coquan>
+    <giatribt>Niêm mạc mũi</giatribt>
+    <id_chuan>32</id_chuan>
+  </Table>
+  <Table>
+    <id>510</id>
+    <vande>2</vande>
+    <coquan>Vách ngăn</coquan>
+    <giatribt>Vách ngăn</giatribt>
+    <id_chuan>32</id_chuan>
+  </Table>
+  <Table>
+    <id>511</id>
+    <vande>3</vande>
+    <coquan>Khe giữa</coquan>
+    <giatribt>Khe giữa</giatribt>
+    <id_chuan>32</id_chuan>
+  </Table>
+  <Table>
+    <id>512</id>
+    <vande>4</vande>
+    <coquan>Khe trên</coquan>
+    <giatribt>Khe trên</giatribt>
+    <id_chuan>32</id_chuan>
+  </Table>
+  <Table>
+    <id>513</id>
+    <vande>5</vande>
+    <coquan>Mõm móc, bóng sàng</coquan>
+    <giatribt>Mõm móc, bóng sàng</giatribt>
+    <id_chuan>32</id_chuan>
+  </Table>
+  <Table>
+    <id>514</id>
+    <vande>6</vande>
+    <coquan>Vòm</coquan>
+    <giatribt>Vòm</giatribt>
+    <id_chuan>32</id_chuan>
+  </Table>
+  <Table>
+    <id>515</id>
+    <vande>7</vande>
+    <coquan>Họng</coquan>
+    <giatribt>Họng</giatribt>
+    <id_chuan>32</id_chuan>
+  </Table>
+  <Table>
+    <id>516</id>
+    <vande>8</vande>
+    <coquan>Thanh quãn</coquan>
+    <giatribt>Thanh quãn</giatribt>
+    <id_chuan>32</id_chuan>
+  </Table>
+  <Table>
+    <id>517</id>
+    <vande>9</vande>
+    <coquan>Kết luận</coquan>
+    <giatribt>Kết luận</giatribt>
+    <id_chuan>32</id_chuan>
+  </Table>
+  <Table>
+    <id>518</id>
+    <vande>10</vande>
+    <coquan>Đề nghị</coquan>
+    <giatribt>Đề nghị</giatribt>
+    <id_chuan>32</id_chuan>
+  </Table>
+  <Table>
+    <id>519</id>
+    <vande>1</vande>
+    <coquan>Tai ngoài_Phải</coquan>
+    <giatribt>Tai ngoài_Phải</giatribt>
+    <id_chuan>31</id_chuan>
+  </Table>
+  <Table>
+    <id>520</id>
+    <vande>2</vande>
+    <coquan>Tai ngoài_Trái</coquan>
+    <giatribt>Tai ngoài_Trái</giatribt>
+    <id_chuan>31</id_chuan>
+  </Table>
+  <Table>
+    <id>521</id>
+    <vande>3</vande>
+    <coquan>Màng nhĩ_Phải</coquan>
+    <giatribt>Màng nhĩ_Phải</giatribt>
+    <id_chuan>31</id_chuan>
+  </Table>
+  <Table>
+    <id>522</id>
+    <vande>4</vande>
+    <coquan>Màng nhĩ_Trái</coquan>
+    <giatribt>Màng nhĩ_Trái</giatribt>
+    <id_chuan>31</id_chuan>
+  </Table>
+  <Table>
+    <id>523</id>
+    <vande>5</vande>
+    <coquan>Tai giữa_Phải</coquan>
+    <giatribt>Tai giữa_Phải</giatribt>
+    <id_chuan>31</id_chuan>
+  </Table>
+  <Table>
+    <id>524</id>
+    <vande>6</vande>
+    <coquan>Tai giữa_Trái</coquan>
+    <giatribt>Tai giữa_Trái</giatribt>
+    <id_chuan>31</id_chuan>
+  </Table>
+  <Table>
+    <id>525</id>
+    <vande>7</vande>
+    <coquan>Vòi nghĩ_Phải</coquan>
+    <giatribt>Vòi nghĩ_Phải</giatribt>
+    <id_chuan>31</id_chuan>
+  </Table>
+  <Table>
+    <id>526</id>
+    <vande>8</vande>
+    <coquan>Vòi nghĩ_Trái</coquan>
+    <giatribt>Vòi nghĩ_Trái</giatribt>
+    <id_chuan>31</id_chuan>
+  </Table>
+  <Table>
+    <id>527</id>
+    <vande>9</vande>
+    <coquan>Kết luận</coquan>
+    <giatribt>Kết luận</giatribt>
+    <id_chuan>31</id_chuan>
+  </Table>
+  <Table>
+    <id>528</id>
+    <vande>10</vande>
+    <coquan>Đề nghị</coquan>
+    <giatribt>Đề nghị</giatribt>
+    <id_chuan>31</id_chuan>
+  </Table>
+</NewDataSet>

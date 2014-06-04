@@ -1,0 +1,82 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="MA" type="xs:string" minOccurs="0" />
+                <xs:element name="STT" type="xs:decimal" minOccurs="0" />
+                <xs:element name="TEN" type="xs:string" minOccurs="0" />
+                <xs:element name="soca_01" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sotien_01" type="xs:decimal" minOccurs="0" />
+                <xs:element name="soca_02" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sotien_02" type="xs:decimal" minOccurs="0" />
+                <xs:element name="soca_03" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sotien_03" type="xs:decimal" minOccurs="0" />
+                <xs:element name="soca_04" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sotien_04" type="xs:decimal" minOccurs="0" />
+                <xs:element name="soca_05" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sotien_05" type="xs:decimal" minOccurs="0" />
+                <xs:element name="soca_06" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sotien_06" type="xs:decimal" minOccurs="0" />
+                <xs:element name="soca_07" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sotien_07" type="xs:decimal" minOccurs="0" />
+                <xs:element name="soca_08" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sotien_08" type="xs:decimal" minOccurs="0" />
+                <xs:element name="soca_09" type="xs:decimal" minOccurs="0" />
+                <xs:element name="sotien_09" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <MA>0009</MA>
+    <TEN>Nguyễn Mạnh Đức</TEN>
+    <soca_01>4</soca_01>
+    <sotien_01>0</sotien_01>
+    <soca_02>0</soca_02>
+    <sotien_02>0</sotien_02>
+    <soca_03>1</soca_03>
+    <sotien_03>0</sotien_03>
+    <soca_04>0</soca_04>
+    <sotien_04>0</sotien_04>
+    <soca_05>0</soca_05>
+    <sotien_05>0</sotien_05>
+    <soca_06>0</soca_06>
+    <sotien_06>0</sotien_06>
+    <soca_07>0</soca_07>
+    <sotien_07>0</sotien_07>
+    <soca_08>0</soca_08>
+    <sotien_08>0</sotien_08>
+    <soca_09>0</soca_09>
+    <sotien_09>0</sotien_09>
+  </Table>
+  <Table>
+    <MA>0010</MA>
+    <TEN>Bùi Việt Quý</TEN>
+    <soca_01>3</soca_01>
+    <sotien_01>0</sotien_01>
+    <soca_02>0</soca_02>
+    <sotien_02>0</sotien_02>
+    <soca_03>0</soca_03>
+    <sotien_03>0</sotien_03>
+    <soca_04>0</soca_04>
+    <sotien_04>0</sotien_04>
+    <soca_05>0</soca_05>
+    <sotien_05>0</sotien_05>
+    <soca_06>0</soca_06>
+    <sotien_06>0</sotien_06>
+    <soca_07>0</soca_07>
+    <sotien_07>0</sotien_07>
+    <soca_08>0</soca_08>
+    <sotien_08>0</sotien_08>
+    <soca_09>0</soca_09>
+    <sotien_09>0</sotien_09>
+  </Table>
+</NewDataSet>

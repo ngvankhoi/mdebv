@@ -577,11 +577,22 @@ namespace Duoc
 			owb=(Excel._Workbook)(oxl.Workbooks.Open(tenfile,Missing.Value,Missing.Value,Missing.Value,Missing.Value,Missing.Value,Missing.Value,Missing.Value,Missing.Value,Missing.Value,Missing.Value,Missing.Value,Missing.Value));
 			osheet=(Excel._Worksheet)owb.ActiveSheet;
 			oxl.ActiveWindow.DisplayGridlines=true;
-			
+
+            
+
 			for(int i=0;i<be;i++) osheet.get_Range(d.getIndex(i)+"1",d.getIndex(i)+"1").EntireRow.Insert(Missing.Value);
 			osheet.get_Range(d.getIndex(be-1)+dong.ToString(),d.getIndex(socot+1)+sodong.ToString()).NumberFormat="#,##0.00";
-			osheet.get_Range(d.getIndex(0)+"1",d.getIndex(socot)+dongke.ToString()).Borders.LineStyle=XlBorderWeight.xlHairline;
-			int pos=5,row=dong-2,p=5,row1=row;
+
+            if (d.Mabv == "205.2.01")
+            {
+                osheet.get_Range(d.getIndex(0)+"4",d.getIndex(socot)+dongke.ToString()).Borders.LineStyle=XlBorderWeight.xlHairline;
+            }
+            else
+            {
+                osheet.get_Range(d.getIndex(0)+"1",d.getIndex(socot)+dongke.ToString()).Borders.LineStyle=XlBorderWeight.xlHairline;
+
+            }
+            int pos = 5, row = dong - 2, p = 5, row1 = row;
 			foreach(DataRow r in dtmadt.Select("true","madoituong"))
 			{
 				osheet.Cells[row1,pos]=r["doituong"].ToString();
@@ -767,16 +778,167 @@ namespace Duoc
 			dc.ColumnName="SOTIEN";
 			dc.DataType=Type.GetType("System.Decimal");
 			ds.Tables[0].Columns.Add(dc);
-		}
+        }
+        #region  // chuong trinh lao cai 
 
-		private void get_sort_madt()
+        private void get_sort_madt_laocai()
+        {
+            dsts = ds.Copy();
+            dsxml = ds.Copy();
+            dsxml.Clear();
+            dsts.Clear();
+            int idnn = 0, stt = 0, tt = 1;
+            sql = (s_manhom != "") ? "tennhom,idnn" : "tennhom,idnn";
+            string tennhom = "";
+            tenreport = tenfile;
+            DataRow[] dr = ds.Tables[0].Select("ma<>''", sql);
+            for (int i = 0; i < dr.Length; i++)
+            {
+                idnn = int.Parse(dr[i]["idnn"].ToString());
+              //  stt = int.Parse(dr[i]["stt"].ToString());
+                tennhom = dr[i]["tennhom"].ToString();
+                exp = "idnn=" + idnn + " and stt=" + stt + " and tennhom='" + tennhom + "'";
+                r3 = d.getrowbyid(dsts.Tables[0], exp);
+                if (r3 == null)
+                {
+                    r4 = dsts.Tables[0].NewRow();
+                    r4["idnn"] = idnn;
+                    r4["tennhom"] = tennhom;
+                    foreach (DataRow r5 in dtmadt.Select("true", "madoituong"))
+                        r4["st_" + r5["madoituong"].ToString().Trim().PadLeft(2, '0')] = decimal.Parse(dr[i]["st_" + r5["madoituong"].ToString().Trim().PadLeft(2, '0')].ToString());
+                    r4["sotien"] = decimal.Parse(dr[i]["sotien"].ToString());
+                    dsts.Tables[0].Rows.Add(r4);
+                }
+                else
+                {
+                    DataRow[] dr1 = dsts.Tables[0].Select(exp);
+                    foreach (DataRow r5 in dtmadt.Select("true", "madoituong"))
+                        dr1[0]["st_" + r5["madoituong"].ToString().Trim().PadLeft(2, '0')] = decimal.Parse(dr1[0]["st_" + r5["madoituong"].ToString().Trim().PadLeft(2, '0')].ToString()) + decimal.Parse(dr[i]["st_" + r5["madoituong"].ToString().Trim().PadLeft(2, '0')].ToString());
+                    dr1[0]["sotien"] = decimal.Parse(dr1[0]["sotien"].ToString()) + decimal.Parse(dr[i]["sotien"].ToString());
+                }
+            }
+
+
+            for (int i = 0; i < dr.Length; i++)
+            {
+                if (tennhom != dr[i]["tennhom"].ToString() || idnn != int.Parse(dr[i]["idnn"].ToString()) )
+                {
+                    if (tennhom != dr[i]["tennhom"].ToString())
+                    {
+                        tennhom = dr[i]["tennhom"].ToString();
+                        stt = 0;
+                        exp = "tennhom='" + tennhom + "'";
+                        r2 = dsxml.Tables[0].NewRow();
+                        r2["stt"] = 0;
+                        r2["ten"] = dr[i]["tennhom"].ToString().ToUpper();
+                        r2["dang"] = "";
+                        r2["dongia"] = 0;
+                        foreach (DataRow r5 in dtmadt.Select("true", "madoituong"))
+                        {
+                            r2["sl_" + r5["madoituong"].ToString().Trim().PadLeft(2, '0')] = 0;
+                            r2["st_" + r5["madoituong"].ToString().Trim().PadLeft(2, '0')] = 0;
+                            foreach (DataRow r6 in dsts.Tables[0].Select(exp))
+                                r2["st_" + r5["madoituong"].ToString().Trim().PadLeft(2, '0')] = decimal.Parse(r2["st_" + r5["madoituong"].ToString().Trim().PadLeft(2, '0')].ToString()) + decimal.Parse(r6["st_" + r5["madoituong"].ToString().Trim().PadLeft(2, '0')].ToString());
+                        }
+                        r2["soluong"] = 0;
+                        r2["sotien"] = 0;
+                        foreach (DataRow r6 in dsts.Tables[0].Select(exp))
+                            r2["sotien"] = decimal.Parse(r2["sotien"].ToString()) + decimal.Parse(r6["sotien"].ToString());
+                        dsxml.Tables[0].Rows.Add(r2);
+                    }
+                    if (idnn != int.Parse(dr[i]["idnn"].ToString()))
+                    {
+                        idnn = int.Parse(dr[i]["idnn"].ToString());
+                        stt = 0;
+                        exp = "idnn=" + idnn;
+                        r2 = dsxml.Tables[0].NewRow();
+                        
+                        r2["ten"] = dr[i]["noingoai"].ToString().ToUpper();
+                        r2["dang"] = "";
+                        r2["dongia"] = 0;
+                        foreach (DataRow r5 in dtmadt.Select("true", "madoituong"))
+                        {
+                            r2["sl_" + r5["madoituong"].ToString().Trim().PadLeft(2, '0')] = 0;
+                            r2["st_" + r5["madoituong"].ToString().Trim().PadLeft(2, '0')] = 0;
+                            foreach (DataRow r6 in dsts.Tables[0].Select(exp))
+                                r2["st_" + r5["madoituong"].ToString().Trim().PadLeft(2, '0')] = decimal.Parse(r2["st_" + r5["madoituong"].ToString().Trim().PadLeft(2, '0')].ToString()) + decimal.Parse(r6["st_" + r5["madoituong"].ToString().Trim().PadLeft(2, '0')].ToString());
+                        }
+                        r2["soluong"] = 0;
+                        r2["sotien"] = 0;
+                        foreach (DataRow r6 in dsts.Tables[0].Select(exp))
+                            r2["sotien"] = decimal.Parse(r2["sotien"].ToString()) + decimal.Parse(r6["sotien"].ToString());
+                        dsxml.Tables[0].Rows.Add(r2);
+                    }
+                    
+                }
+                r2 = dsxml.Tables[0].NewRow();
+                r2["manhom"] = dr[i]["manhom"].ToString();
+                r2["tennhom"] = dr[i]["tennhom"].ToString();
+                r2["mabd"] = dr[i]["mabd"].ToString();
+                r2["ma"] = dr[i]["ma"].ToString();
+                r2["ten"] = dr[i]["ten"].ToString();
+                r2["tenhc"] = dr[i]["tenhc"].ToString();
+                r2["dang"] = dr[i]["dang"].ToString();
+                r2["dongia"] = dr[i]["dongia"].ToString();
+                r2["manguon"] = dr[i]["manguon"].ToString();
+             
+                r2["idnn"] = dr[i]["idnn"].ToString();
+                r2["noingoai"] = dr[i]["noingoai"].ToString();
+             //   r2["tenvp"] = dr[i]["tenvp"].ToString();
+                foreach (DataRow r5 in dtmadt.Select("true", "madoituong"))
+                {
+                    r2["sl_" + r5["madoituong"].ToString().Trim().PadLeft(2, '0')] = dr[i]["sl_" + r5["madoituong"].ToString().Trim().PadLeft(2, '0')].ToString();
+                    r2["st_" + r5["madoituong"].ToString().Trim().PadLeft(2, '0')] = dr[i]["st_" + r5["madoituong"].ToString().Trim().PadLeft(2, '0')].ToString();
+                }
+                r2["soluong"] = dr[i]["soluong"].ToString();
+                r2["sotien"] = dr[i]["sotien"].ToString();
+                dsxml.Tables[0].Rows.Add(r2);
+                tt++;
+            }
+            //tongcong
+            if (dr.Length > 0)
+            {
+                exp = "true";
+                r2 = dsxml.Tables[0].NewRow();
+                r2["stt"] = 0;
+                r2["ten"] = "TỔNG CỘNG :";
+                r2["dang"] = "";
+                r2["dongia"] = 0;
+                foreach (DataRow r5 in dtmadt.Select("true", "madoituong"))
+                {
+                    r2["sl_" + r5["madoituong"].ToString().Trim().PadLeft(2, '0')] = 0;
+                    r2["st_" + r5["madoituong"].ToString().Trim().PadLeft(2, '0')] = 0;
+                    foreach (DataRow r6 in dsts.Tables[0].Select(exp))
+                        r2["st_" + r5["madoituong"].ToString().Trim().PadLeft(2, '0')] = decimal.Parse(r2["st_" + r5["madoituong"].ToString().Trim().PadLeft(2, '0')].ToString()) + decimal.Parse(r6["st_" + r5["madoituong"].ToString().Trim().PadLeft(2, '0')].ToString());
+                }
+                r2["soluong"] = 0;
+                r2["sotien"] = 0;
+                foreach (DataRow r6 in dsts.Tables[0].Select(exp))
+                    r2["sotien"] = decimal.Parse(r2["sotien"].ToString()) + decimal.Parse(r6["sotien"].ToString());
+                dsxml.Tables[0].Rows.Add(r2);
+            }
+            //
+            dsxml.Tables[0].Columns.Remove("manhom");
+            dsxml.Tables[0].Columns.Remove("mabd");
+            dsxml.Tables[0].Columns.Remove("ma");
+            dsxml.Tables[0].Columns.Remove("tenhc");
+            dsxml.Tables[0].Columns.Remove("manguon");
+            dsxml.Tables[0].Columns.Remove("tennhom");
+            dsxml.Tables[0].Columns.Remove("noingoai");
+            dsxml.Tables[0].Columns.Remove("idnn");
+            dsxml.Tables[0].Columns.Remove("tenvp");
+        }
+
+        #endregion
+
+        private void get_sort_madt()
 		{
 			dsts=ds.Copy();
 			dsxml=ds.Copy();
 			dsxml.Clear();
 			dsts.Clear();
 			int idnn=0,stt=0,tt=1;
-			sql=(s_manhom!="")?"tenvp,idnn,stt,ten":"tenvp,idnn,stt,ten";
+			 sql=(s_manhom!="")?"tenvp,idnn,stt,ten":"tenvp,idnn,stt,ten"; 
             string tenvp = "";
 			tenreport=tenfile;
 			DataRow []dr=ds.Tables[0].Select("ma<>''",sql);
@@ -1543,8 +1705,18 @@ namespace Duoc
 				MessageBox.Show(lan.Change_language_MessageText("Không có số liệu !"),d.Msg);
 				return false;
 			}
-			if (chkMadt.Checked) get_sort_madt();
-			else get_sort();
+            if (chkMadt.Checked)
+            {
+                if (d.Mabv == "205.2.01")
+                {
+                    get_sort_madt_laocai();
+                }
+                else
+                {
+                    get_sort_madt();
+                }
+            }
+            else get_sort();
             return true;
 		}
 
@@ -1552,7 +1724,8 @@ namespace Duoc
 		{
 			int stt=999;
 			string ten="Khác",ma=makp;
-			makp=makp.PadLeft(3,'0');
+		//	makp=makp.PadLeft(3,'0');
+            makp = makp;//.PadLeft(3, '0');
 			exp="makp='"+makp+"'";
 			DataRow r = d.getrowbyid (dtmakp,exp); 
 			if ( r == null )

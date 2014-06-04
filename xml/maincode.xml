@@ -7,7 +7,7 @@
     <UserID />
     <Password />
     <User />
-    <Database>medisoft_laocai1</Database>
+    <Database>medisoft_laocai2</Database>
     <Mabv>711.5.001</Mabv>
     <Tenbv>Bệnh viện đa khoa Huyện Krông Pắc</Tenbv>
     <Syte>Sở Y tế ĐĂCNÔNG</Syte>
@@ -15,7 +15,8 @@
     <Dienthoai>020.3842345</Dienthoai>
     <Fox>D:\SYTHCM60\DBF</Fox>
     <Key />
-    <ngonngu/>
-   <MST />
+    <ngonngu />
+    <MST />
+    <xxxxx />
   </Row>
 </Import>

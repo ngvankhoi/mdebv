@@ -1,0 +1,423 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table1">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="LOAI" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ID_LOAI" type="xs:decimal" minOccurs="0" />
+                <xs:element name="TENLOAI" type="xs:string" minOccurs="0" />
+                <xs:element name="LOAIKP" type="xs:decimal" minOccurs="0" />
+                <xs:element name="MAKP" type="xs:string" minOccurs="0" />
+                <xs:element name="TENKP" type="xs:string" minOccurs="0" />
+                <xs:element name="SOCA_1" type="xs:decimal" minOccurs="0" />
+                <xs:element name="SOCA_2" type="xs:decimal" minOccurs="0" />
+                <xs:element name="SOCA_3" type="xs:decimal" minOccurs="0" />
+                <xs:element name="SOCA_4" type="xs:decimal" minOccurs="0" />
+                <xs:element name="SOCA_5" type="xs:decimal" minOccurs="0" />
+                <xs:element name="SOCA_6" type="xs:decimal" minOccurs="0" />
+                <xs:element name="SOCA_7" type="xs:decimal" minOccurs="0" />
+                <xs:element name="SOCA_NOI" type="xs:decimal" minOccurs="0" />
+                <xs:element name="SOCA_NGOAI" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table1>
+    <LOAI>1</LOAI>
+    <ID_LOAI>1</ID_LOAI>
+    <TENLOAI>Siêu Âm</TENLOAI>
+    <LOAIKP>0</LOAIKP>
+    <MAKP>02</MAKP>
+    <TENKP>Khoa Nội - Nhi - Lây</TENKP>
+    <SOCA_1>67</SOCA_1>
+    <SOCA_2>18</SOCA_2>
+    <SOCA_3>0</SOCA_3>
+    <SOCA_4>0</SOCA_4>
+    <SOCA_5>0</SOCA_5>
+    <SOCA_6>0</SOCA_6>
+    <SOCA_7>0</SOCA_7>
+    <SOCA_NOI>85</SOCA_NOI>
+    <SOCA_NGOAI>0</SOCA_NGOAI>
+  </Table1>
+  <Table1>
+    <LOAI>1</LOAI>
+    <ID_LOAI>1</ID_LOAI>
+    <TENLOAI>Siêu Âm</TENLOAI>
+    <LOAIKP>0</LOAIKP>
+    <MAKP>03</MAKP>
+    <TENKP>Khoa Ngoại - Sản</TENKP>
+    <SOCA_1>52</SOCA_1>
+    <SOCA_2>13</SOCA_2>
+    <SOCA_3>0</SOCA_3>
+    <SOCA_4>0</SOCA_4>
+    <SOCA_5>0</SOCA_5>
+    <SOCA_6>1</SOCA_6>
+    <SOCA_7>0</SOCA_7>
+    <SOCA_NOI>66</SOCA_NOI>
+    <SOCA_NGOAI>0</SOCA_NGOAI>
+  </Table1>
+  <Table1>
+    <LOAI>1</LOAI>
+    <ID_LOAI>1</ID_LOAI>
+    <TENLOAI>Siêu Âm</TENLOAI>
+    <LOAIKP>0</LOAIKP>
+    <MAKP>04</MAKP>
+    <TENKP>Khoa Đông Y</TENKP>
+    <SOCA_1>9</SOCA_1>
+    <SOCA_2>0</SOCA_2>
+    <SOCA_3>0</SOCA_3>
+    <SOCA_4>0</SOCA_4>
+    <SOCA_5>0</SOCA_5>
+    <SOCA_6>0</SOCA_6>
+    <SOCA_7>0</SOCA_7>
+    <SOCA_NOI>9</SOCA_NOI>
+    <SOCA_NGOAI>0</SOCA_NGOAI>
+  </Table1>
+  <Table1>
+    <LOAI>1</LOAI>
+    <ID_LOAI>1</ID_LOAI>
+    <TENLOAI>Siêu Âm</TENLOAI>
+    <LOAIKP>0</LOAIKP>
+    <MAKP>12</MAKP>
+    <TENKP>Khoa Ngoại Trú</TENKP>
+    <SOCA_1>1</SOCA_1>
+    <SOCA_2>0</SOCA_2>
+    <SOCA_3>0</SOCA_3>
+    <SOCA_4>0</SOCA_4>
+    <SOCA_5>0</SOCA_5>
+    <SOCA_6>0</SOCA_6>
+    <SOCA_7>0</SOCA_7>
+    <SOCA_NOI>1</SOCA_NOI>
+    <SOCA_NGOAI>0</SOCA_NGOAI>
+  </Table1>
+  <Table1>
+    <LOAI>1</LOAI>
+    <ID_LOAI>1</ID_LOAI>
+    <TENLOAI>Siêu Âm</TENLOAI>
+    <LOAIKP>1</LOAIKP>
+    <MAKP>06</MAKP>
+    <TENKP>Phòng Khám 1</TENKP>
+    <SOCA_1>147</SOCA_1>
+    <SOCA_2>71</SOCA_2>
+    <SOCA_3>0</SOCA_3>
+    <SOCA_4>0</SOCA_4>
+    <SOCA_5>0</SOCA_5>
+    <SOCA_6>9</SOCA_6>
+    <SOCA_7>1</SOCA_7>
+    <SOCA_NOI>0</SOCA_NOI>
+    <SOCA_NGOAI>228</SOCA_NGOAI>
+  </Table1>
+  <Table1>
+    <LOAI>1</LOAI>
+    <ID_LOAI>1</ID_LOAI>
+    <TENLOAI>Siêu Âm</TENLOAI>
+    <LOAIKP>1</LOAIKP>
+    <MAKP>09</MAKP>
+    <TENKP>Phòng Khám Sản</TENKP>
+    <SOCA_1>117</SOCA_1>
+    <SOCA_2>120</SOCA_2>
+    <SOCA_3>0</SOCA_3>
+    <SOCA_4>0</SOCA_4>
+    <SOCA_5>0</SOCA_5>
+    <SOCA_6>0</SOCA_6>
+    <SOCA_7>0</SOCA_7>
+    <SOCA_NOI>0</SOCA_NOI>
+    <SOCA_NGOAI>237</SOCA_NGOAI>
+  </Table1>
+  <Table1>
+    <LOAI>1</LOAI>
+    <ID_LOAI>2</ID_LOAI>
+    <TENLOAI>X Quang</TENLOAI>
+    <LOAIKP>0</LOAIKP>
+    <MAKP>02</MAKP>
+    <TENKP>Khoa Nội - Nhi - Lây</TENKP>
+    <SOCA_1>81</SOCA_1>
+    <SOCA_2>26</SOCA_2>
+    <SOCA_3>0</SOCA_3>
+    <SOCA_4>0</SOCA_4>
+    <SOCA_5>0</SOCA_5>
+    <SOCA_6>0</SOCA_6>
+    <SOCA_7>0</SOCA_7>
+    <SOCA_NOI>107</SOCA_NOI>
+    <SOCA_NGOAI>0</SOCA_NGOAI>
+  </Table1>
+  <Table1>
+    <LOAI>1</LOAI>
+    <ID_LOAI>2</ID_LOAI>
+    <TENLOAI>X Quang</TENLOAI>
+    <LOAIKP>0</LOAIKP>
+    <MAKP>03</MAKP>
+    <TENKP>Khoa Ngoại - Sản</TENKP>
+    <SOCA_1>25</SOCA_1>
+    <SOCA_2>36</SOCA_2>
+    <SOCA_3>0</SOCA_3>
+    <SOCA_4>0</SOCA_4>
+    <SOCA_5>0</SOCA_5>
+    <SOCA_6>6</SOCA_6>
+    <SOCA_7>0</SOCA_7>
+    <SOCA_NOI>67</SOCA_NOI>
+    <SOCA_NGOAI>0</SOCA_NGOAI>
+  </Table1>
+  <Table1>
+    <LOAI>1</LOAI>
+    <ID_LOAI>2</ID_LOAI>
+    <TENLOAI>X Quang</TENLOAI>
+    <LOAIKP>0</LOAIKP>
+    <MAKP>04</MAKP>
+    <TENKP>Khoa Đông Y</TENKP>
+    <SOCA_1>79</SOCA_1>
+    <SOCA_2>6</SOCA_2>
+    <SOCA_3>0</SOCA_3>
+    <SOCA_4>0</SOCA_4>
+    <SOCA_5>0</SOCA_5>
+    <SOCA_6>0</SOCA_6>
+    <SOCA_7>0</SOCA_7>
+    <SOCA_NOI>85</SOCA_NOI>
+    <SOCA_NGOAI>0</SOCA_NGOAI>
+  </Table1>
+  <Table1>
+    <LOAI>1</LOAI>
+    <ID_LOAI>2</ID_LOAI>
+    <TENLOAI>X Quang</TENLOAI>
+    <LOAIKP>0</LOAIKP>
+    <MAKP>12</MAKP>
+    <TENKP>Khoa Ngoại Trú</TENKP>
+    <SOCA_1>3</SOCA_1>
+    <SOCA_2>0</SOCA_2>
+    <SOCA_3>0</SOCA_3>
+    <SOCA_4>0</SOCA_4>
+    <SOCA_5>0</SOCA_5>
+    <SOCA_6>0</SOCA_6>
+    <SOCA_7>0</SOCA_7>
+    <SOCA_NOI>3</SOCA_NOI>
+    <SOCA_NGOAI>0</SOCA_NGOAI>
+  </Table1>
+  <Table1>
+    <LOAI>1</LOAI>
+    <ID_LOAI>2</ID_LOAI>
+    <TENLOAI>X Quang</TENLOAI>
+    <LOAIKP>1</LOAIKP>
+    <MAKP>06</MAKP>
+    <TENKP>Phòng Khám 1</TENKP>
+    <SOCA_1>168</SOCA_1>
+    <SOCA_2>288</SOCA_2>
+    <SOCA_3>0</SOCA_3>
+    <SOCA_4>0</SOCA_4>
+    <SOCA_5>0</SOCA_5>
+    <SOCA_6>12</SOCA_6>
+    <SOCA_7>0</SOCA_7>
+    <SOCA_NOI>0</SOCA_NOI>
+    <SOCA_NGOAI>468</SOCA_NGOAI>
+  </Table1>
+  <Table1>
+    <LOAI>1</LOAI>
+    <ID_LOAI>2</ID_LOAI>
+    <TENLOAI>X Quang</TENLOAI>
+    <LOAIKP>0</LOAIKP>
+    <MAKP>01</MAKP>
+    <TENKP>Khoa Khám Bệnh</TENKP>
+    <SOCA_1>0</SOCA_1>
+    <SOCA_2>2</SOCA_2>
+    <SOCA_3>0</SOCA_3>
+    <SOCA_4>0</SOCA_4>
+    <SOCA_5>0</SOCA_5>
+    <SOCA_6>0</SOCA_6>
+    <SOCA_7>0</SOCA_7>
+    <SOCA_NOI>0</SOCA_NOI>
+    <SOCA_NGOAI>2</SOCA_NGOAI>
+  </Table1>
+  <Table1>
+    <LOAI>1</LOAI>
+    <ID_LOAI>3</ID_LOAI>
+    <TENLOAI>Nội Soi</TENLOAI>
+    <LOAIKP>0</LOAIKP>
+    <MAKP>02</MAKP>
+    <TENKP>Khoa Nội - Nhi - Lây</TENKP>
+    <SOCA_1>24</SOCA_1>
+    <SOCA_2>6</SOCA_2>
+    <SOCA_3>0</SOCA_3>
+    <SOCA_4>0</SOCA_4>
+    <SOCA_5>0</SOCA_5>
+    <SOCA_6>1</SOCA_6>
+    <SOCA_7>0</SOCA_7>
+    <SOCA_NOI>31</SOCA_NOI>
+    <SOCA_NGOAI>0</SOCA_NGOAI>
+  </Table1>
+  <Table1>
+    <LOAI>1</LOAI>
+    <ID_LOAI>3</ID_LOAI>
+    <TENLOAI>Nội Soi</TENLOAI>
+    <LOAIKP>0</LOAIKP>
+    <MAKP>03</MAKP>
+    <TENKP>Khoa Ngoại - Sản</TENKP>
+    <SOCA_1>2</SOCA_1>
+    <SOCA_2>0</SOCA_2>
+    <SOCA_3>0</SOCA_3>
+    <SOCA_4>0</SOCA_4>
+    <SOCA_5>0</SOCA_5>
+    <SOCA_6>0</SOCA_6>
+    <SOCA_7>0</SOCA_7>
+    <SOCA_NOI>2</SOCA_NOI>
+    <SOCA_NGOAI>0</SOCA_NGOAI>
+  </Table1>
+  <Table1>
+    <LOAI>1</LOAI>
+    <ID_LOAI>3</ID_LOAI>
+    <TENLOAI>Nội Soi</TENLOAI>
+    <LOAIKP>0</LOAIKP>
+    <MAKP>12</MAKP>
+    <TENKP>Khoa Ngoại Trú</TENKP>
+    <SOCA_1>2</SOCA_1>
+    <SOCA_2>0</SOCA_2>
+    <SOCA_3>0</SOCA_3>
+    <SOCA_4>0</SOCA_4>
+    <SOCA_5>0</SOCA_5>
+    <SOCA_6>0</SOCA_6>
+    <SOCA_7>0</SOCA_7>
+    <SOCA_NOI>2</SOCA_NOI>
+    <SOCA_NGOAI>0</SOCA_NGOAI>
+  </Table1>
+  <Table1>
+    <LOAI>1</LOAI>
+    <ID_LOAI>3</ID_LOAI>
+    <TENLOAI>Nội Soi</TENLOAI>
+    <LOAIKP>1</LOAIKP>
+    <MAKP>06</MAKP>
+    <TENKP>Phòng Khám 1</TENKP>
+    <SOCA_1>91</SOCA_1>
+    <SOCA_2>2</SOCA_2>
+    <SOCA_3>0</SOCA_3>
+    <SOCA_4>0</SOCA_4>
+    <SOCA_5>0</SOCA_5>
+    <SOCA_6>3</SOCA_6>
+    <SOCA_7>0</SOCA_7>
+    <SOCA_NOI>0</SOCA_NOI>
+    <SOCA_NGOAI>96</SOCA_NGOAI>
+  </Table1>
+  <Table1>
+    <LOAI>1</LOAI>
+    <ID_LOAI>4</ID_LOAI>
+    <TENLOAI>Điện Tim</TENLOAI>
+    <LOAIKP>0</LOAIKP>
+    <MAKP>02</MAKP>
+    <TENKP>Khoa Nội - Nhi - Lây</TENKP>
+    <SOCA_1>29</SOCA_1>
+    <SOCA_2>5</SOCA_2>
+    <SOCA_3>0</SOCA_3>
+    <SOCA_4>0</SOCA_4>
+    <SOCA_5>0</SOCA_5>
+    <SOCA_6>0</SOCA_6>
+    <SOCA_7>0</SOCA_7>
+    <SOCA_NOI>34</SOCA_NOI>
+    <SOCA_NGOAI>0</SOCA_NGOAI>
+  </Table1>
+  <Table1>
+    <LOAI>1</LOAI>
+    <ID_LOAI>4</ID_LOAI>
+    <TENLOAI>Điện Tim</TENLOAI>
+    <LOAIKP>0</LOAIKP>
+    <MAKP>03</MAKP>
+    <TENKP>Khoa Ngoại - Sản</TENKP>
+    <SOCA_1>36</SOCA_1>
+    <SOCA_2>9</SOCA_2>
+    <SOCA_3>0</SOCA_3>
+    <SOCA_4>0</SOCA_4>
+    <SOCA_5>0</SOCA_5>
+    <SOCA_6>0</SOCA_6>
+    <SOCA_7>0</SOCA_7>
+    <SOCA_NOI>45</SOCA_NOI>
+    <SOCA_NGOAI>0</SOCA_NGOAI>
+  </Table1>
+  <Table1>
+    <LOAI>1</LOAI>
+    <ID_LOAI>4</ID_LOAI>
+    <TENLOAI>Điện Tim</TENLOAI>
+    <LOAIKP>1</LOAIKP>
+    <MAKP>06</MAKP>
+    <TENKP>Phòng Khám 1</TENKP>
+    <SOCA_1>41</SOCA_1>
+    <SOCA_2>9</SOCA_2>
+    <SOCA_3>0</SOCA_3>
+    <SOCA_4>0</SOCA_4>
+    <SOCA_5>0</SOCA_5>
+    <SOCA_6>0</SOCA_6>
+    <SOCA_7>0</SOCA_7>
+    <SOCA_NOI>0</SOCA_NOI>
+    <SOCA_NGOAI>50</SOCA_NGOAI>
+  </Table1>
+  <Table1>
+    <LOAI>1</LOAI>
+    <ID_LOAI>7</ID_LOAI>
+    <TENLOAI>Điện não</TENLOAI>
+    <LOAIKP>0</LOAIKP>
+    <MAKP>02</MAKP>
+    <TENKP>Khoa Nội - Nhi - Lây</TENKP>
+    <SOCA_1>27</SOCA_1>
+    <SOCA_2>3</SOCA_2>
+    <SOCA_3>0</SOCA_3>
+    <SOCA_4>0</SOCA_4>
+    <SOCA_5>0</SOCA_5>
+    <SOCA_6>0</SOCA_6>
+    <SOCA_7>0</SOCA_7>
+    <SOCA_NOI>30</SOCA_NOI>
+    <SOCA_NGOAI>0</SOCA_NGOAI>
+  </Table1>
+  <Table1>
+    <LOAI>1</LOAI>
+    <ID_LOAI>7</ID_LOAI>
+    <TENLOAI>Điện não</TENLOAI>
+    <LOAIKP>0</LOAIKP>
+    <MAKP>03</MAKP>
+    <TENKP>Khoa Ngoại - Sản</TENKP>
+    <SOCA_1>1</SOCA_1>
+    <SOCA_2>1</SOCA_2>
+    <SOCA_3>0</SOCA_3>
+    <SOCA_4>0</SOCA_4>
+    <SOCA_5>0</SOCA_5>
+    <SOCA_6>0</SOCA_6>
+    <SOCA_7>0</SOCA_7>
+    <SOCA_NOI>2</SOCA_NOI>
+    <SOCA_NGOAI>0</SOCA_NGOAI>
+  </Table1>
+  <Table1>
+    <LOAI>1</LOAI>
+    <ID_LOAI>7</ID_LOAI>
+    <TENLOAI>Điện não</TENLOAI>
+    <LOAIKP>0</LOAIKP>
+    <MAKP>12</MAKP>
+    <TENKP>Khoa Ngoại Trú</TENKP>
+    <SOCA_1>1</SOCA_1>
+    <SOCA_2>0</SOCA_2>
+    <SOCA_3>0</SOCA_3>
+    <SOCA_4>0</SOCA_4>
+    <SOCA_5>0</SOCA_5>
+    <SOCA_6>0</SOCA_6>
+    <SOCA_7>0</SOCA_7>
+    <SOCA_NOI>1</SOCA_NOI>
+    <SOCA_NGOAI>0</SOCA_NGOAI>
+  </Table1>
+  <Table1>
+    <LOAI>1</LOAI>
+    <ID_LOAI>7</ID_LOAI>
+    <TENLOAI>Điện não</TENLOAI>
+    <LOAIKP>1</LOAIKP>
+    <MAKP>06</MAKP>
+    <TENKP>Phòng Khám 1</TENKP>
+    <SOCA_1>36</SOCA_1>
+    <SOCA_2>5</SOCA_2>
+    <SOCA_3>0</SOCA_3>
+    <SOCA_4>0</SOCA_4>
+    <SOCA_5>0</SOCA_5>
+    <SOCA_6>0</SOCA_6>
+    <SOCA_7>0</SOCA_7>
+    <SOCA_NOI>0</SOCA_NOI>
+    <SOCA_NGOAI>41</SOCA_NGOAI>
+  </Table1>
+</NewDataSet>

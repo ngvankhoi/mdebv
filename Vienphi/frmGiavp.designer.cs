@@ -30,7 +30,7 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmGiavp));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.contextMenuStrip2 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.toolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem5 = new System.Windows.Forms.ToolStripMenuItem();
@@ -399,8 +399,8 @@
             this.txtPtcs.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.txtPtcs.TextMaskFormat = System.Windows.Forms.MaskFormat.ExcludePromptAndLiterals;
             this.toolTip1.SetToolTip(this.txtPtcs, "phuthu_cs");
-            this.txtPtcs.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtPtcs_KeyDown);
             this.txtPtcs.Validated += new System.EventHandler(this.txtPtcs_Validated);
+            this.txtPtcs.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtPtcs_KeyDown);
             // 
             // txtPtnuocngoai
             // 
@@ -417,8 +417,8 @@
             this.txtPtnuocngoai.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.txtPtnuocngoai.TextMaskFormat = System.Windows.Forms.MaskFormat.ExcludePromptAndLiterals;
             this.toolTip1.SetToolTip(this.txtPtnuocngoai, "phuthu_nn");
-            this.txtPtnuocngoai.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtPtnuocngoai_KeyDown);
             this.txtPtnuocngoai.Validated += new System.EventHandler(this.txtPtnuocngoai_Validated);
+            this.txtPtnuocngoai.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtPtnuocngoai_KeyDown);
             // 
             // txtPtdichvu
             // 
@@ -435,8 +435,8 @@
             this.txtPtdichvu.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.txtPtdichvu.TextMaskFormat = System.Windows.Forms.MaskFormat.ExcludePromptAndLiterals;
             this.toolTip1.SetToolTip(this.txtPtdichvu, "phuthu_dv");
-            this.txtPtdichvu.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtPtdichvu_KeyDown);
             this.txtPtdichvu.Validated += new System.EventHandler(this.txtPtdichvu_Validated);
+            this.txtPtdichvu.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtPtdichvu_KeyDown);
             // 
             // txtPtthuphi
             // 
@@ -453,8 +453,8 @@
             this.txtPtthuphi.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.txtPtthuphi.TextMaskFormat = System.Windows.Forms.MaskFormat.ExcludePromptAndLiterals;
             this.toolTip1.SetToolTip(this.txtPtthuphi, "phuthu_th");
-            this.txtPtthuphi.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtPtthuphi_KeyDown);
             this.txtPtthuphi.Validated += new System.EventHandler(this.txtPtthuphi_Validated);
+            this.txtPtthuphi.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtPtthuphi_KeyDown);
             // 
             // txtGia_cs
             // 
@@ -473,8 +473,8 @@
             this.txtGia_cs.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.txtGia_cs.TextMaskFormat = System.Windows.Forms.MaskFormat.ExcludePromptAndLiterals;
             this.toolTip1.SetToolTip(this.txtGia_cs, "gia_cs");
-            this.txtGia_cs.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtGia_cs_KeyDown);
             this.txtGia_cs.Validated += new System.EventHandler(this.txtGia_cs_Validated);
+            this.txtGia_cs.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtGia_cs_KeyDown);
             // 
             // txtGia_nn
             // 
@@ -493,8 +493,8 @@
             this.txtGia_nn.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.txtGia_nn.TextMaskFormat = System.Windows.Forms.MaskFormat.ExcludePromptAndLiterals;
             this.toolTip1.SetToolTip(this.txtGia_nn, "gia_nn");
-            this.txtGia_nn.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtGia_nn_KeyDown);
             this.txtGia_nn.Validated += new System.EventHandler(this.txtGia_nn_Validated);
+            this.txtGia_nn.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtGia_nn_KeyDown);
             // 
             // txtGia_dv
             // 
@@ -513,8 +513,8 @@
             this.txtGia_dv.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.txtGia_dv.TextMaskFormat = System.Windows.Forms.MaskFormat.ExcludePromptAndLiterals;
             this.toolTip1.SetToolTip(this.txtGia_dv, "gia_dv");
-            this.txtGia_dv.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtGia_dv_KeyDown);
             this.txtGia_dv.Validated += new System.EventHandler(this.txtGia_dv_Validated);
+            this.txtGia_dv.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtGia_dv_KeyDown);
             // 
             // txtGia_bh
             // 
@@ -532,8 +532,8 @@
             this.txtGia_bh.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.txtGia_bh.TextMaskFormat = System.Windows.Forms.MaskFormat.ExcludePromptAndLiterals;
             this.toolTip1.SetToolTip(this.txtGia_bh, "gia_bh");
-            this.txtGia_bh.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtGia_bh_KeyDown);
             this.txtGia_bh.Validated += new System.EventHandler(this.txtGia_bh_Validated);
+            this.txtGia_bh.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtGia_bh_KeyDown);
             // 
             // txtGia_th
             // 
@@ -550,14 +550,14 @@
             this.txtGia_th.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.txtGia_th.TextMaskFormat = System.Windows.Forms.MaskFormat.ExcludePromptAndLiterals;
             this.toolTip1.SetToolTip(this.txtGia_th, "gia_th");
-            this.txtGia_th.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtGia_th_KeyDown);
             this.txtGia_th.Validated += new System.EventHandler(this.txtGia_th_Validated);
+            this.txtGia_th.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtGia_th_KeyDown);
             // 
             // chkGuimau
             // 
             this.chkGuimau.AutoSize = true;
             this.chkGuimau.Enabled = false;
-            this.chkGuimau.Location = new System.Drawing.Point(607, 250);
+            this.chkGuimau.Location = new System.Drawing.Point(607, 236);
             this.chkGuimau.Name = "chkGuimau";
             this.chkGuimau.Size = new System.Drawing.Size(163, 17);
             this.chkGuimau.TabIndex = 66;
@@ -629,7 +629,7 @@
             this.label45.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label45.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label45.ForeColor = System.Drawing.Color.Blue;
-            this.label45.Location = new System.Drawing.Point(349, 2);
+            this.label45.Location = new System.Drawing.Point(350, 2);
             this.label45.Name = "label45";
             this.label45.Size = new System.Drawing.Size(59, 20);
             this.label45.TabIndex = 190;
@@ -641,7 +641,7 @@
             this.label29.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label29.AutoSize = true;
             this.label29.ForeColor = System.Drawing.Color.Blue;
-            this.label29.Location = new System.Drawing.Point(761, 5);
+            this.label29.Location = new System.Drawing.Point(763, 5);
             this.label29.Name = "label29";
             this.label29.Size = new System.Drawing.Size(49, 13);
             this.label29.TabIndex = 41;
@@ -1459,9 +1459,9 @@
             this.txtThoigiantrakq.Size = new System.Drawing.Size(37, 21);
             this.txtThoigiantrakq.TabIndex = 38;
             this.txtThoigiantrakq.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtThoigiantrakq.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtThoigiantrakq_KeyPress);
             this.txtThoigiantrakq.Validated += new System.EventHandler(this.txtThoigiantrakq_Validated);
             this.txtThoigiantrakq.KeyDown += new System.Windows.Forms.KeyEventHandler(this.chkTuyentinh_KeyDown);
-            this.txtThoigiantrakq.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtThoigiantrakq_KeyPress);
             // 
             // cboLoaiBC
             // 
@@ -1575,8 +1575,8 @@
             this.vat.Size = new System.Drawing.Size(70, 20);
             this.vat.TabIndex = 33;
             this.vat.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.vat.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtSTT_KeyDown);
             this.vat.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.vat_KeyPress);
+            this.vat.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtSTT_KeyDown);
             // 
             // label26
             // 
@@ -1617,8 +1617,8 @@
             this.txtkhuyenmai.Size = new System.Drawing.Size(70, 20);
             this.txtkhuyenmai.TabIndex = 27;
             this.txtkhuyenmai.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.txtkhuyenmai.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtkhuyenmai_KeyDown);
             this.txtkhuyenmai.Validated += new System.EventHandler(this.txtkhuyenmai_Validated);
+            this.txtkhuyenmai.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtkhuyenmai_KeyDown);
             // 
             // label19
             // 
@@ -1704,8 +1704,8 @@
             this.txtVattu_KSK.TabIndex = 20;
             this.txtVattu_KSK.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.txtVattu_KSK.TextMaskFormat = System.Windows.Forms.MaskFormat.ExcludePromptAndLiterals;
-            this.txtVattu_KSK.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtVattu_KSK_KeyDown);
             this.txtVattu_KSK.Validated += new System.EventHandler(this.txtVattu_KSK_Validated);
+            this.txtVattu_KSK.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtVattu_KSK_KeyDown);
             // 
             // txtGia_KSK
             // 
@@ -1722,8 +1722,8 @@
             this.txtGia_KSK.TabIndex = 10;
             this.txtGia_KSK.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.txtGia_KSK.TextMaskFormat = System.Windows.Forms.MaskFormat.ExcludePromptAndLiterals;
-            this.txtGia_KSK.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtGia_KSK_KeyDown);
             this.txtGia_KSK.Validated += new System.EventHandler(this.txtGia_KSK_Validated);
+            this.txtGia_KSK.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtGia_KSK_KeyDown);
             // 
             // txtVattu_cs
             // 
@@ -1740,8 +1740,8 @@
             this.txtVattu_cs.TabIndex = 19;
             this.txtVattu_cs.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.txtVattu_cs.TextMaskFormat = System.Windows.Forms.MaskFormat.ExcludePromptAndLiterals;
-            this.txtVattu_cs.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtVattu_cs_KeyDown);
             this.txtVattu_cs.Validated += new System.EventHandler(this.txtVattu_cs_Validated);
+            this.txtVattu_cs.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtVattu_cs_KeyDown);
             // 
             // chkTrongoi
             // 
@@ -1828,8 +1828,8 @@
             this.txtBHYT.Size = new System.Drawing.Size(70, 20);
             this.txtBHYT.TabIndex = 23;
             this.txtBHYT.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.txtBHYT.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtBHYT_KeyDown);
             this.txtBHYT.Validated += new System.EventHandler(this.txtBHYT_Validated);
+            this.txtBHYT.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtBHYT_KeyDown);
             // 
             // cbKythuatcao
             // 
@@ -1890,8 +1890,8 @@
             this.txtVattu_nn.TabIndex = 18;
             this.txtVattu_nn.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.txtVattu_nn.TextMaskFormat = System.Windows.Forms.MaskFormat.ExcludePromptAndLiterals;
-            this.txtVattu_nn.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtVattu_nn_KeyDown);
             this.txtVattu_nn.Validated += new System.EventHandler(this.txtVattu_nn_Validated);
+            this.txtVattu_nn.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtVattu_nn_KeyDown);
             // 
             // txtVattu_dv
             // 
@@ -1908,8 +1908,8 @@
             this.txtVattu_dv.TabIndex = 17;
             this.txtVattu_dv.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.txtVattu_dv.TextMaskFormat = System.Windows.Forms.MaskFormat.ExcludePromptAndLiterals;
-            this.txtVattu_dv.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtVattu_dv_KeyDown);
             this.txtVattu_dv.Validated += new System.EventHandler(this.txtVattu_dv_Validated);
+            this.txtVattu_dv.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtVattu_dv_KeyDown);
             // 
             // txtVattu_bh
             // 
@@ -1926,8 +1926,8 @@
             this.txtVattu_bh.TabIndex = 16;
             this.txtVattu_bh.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.txtVattu_bh.TextMaskFormat = System.Windows.Forms.MaskFormat.ExcludePromptAndLiterals;
-            this.txtVattu_bh.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtVattu_bh_KeyDown);
             this.txtVattu_bh.Validated += new System.EventHandler(this.txtVattu_bh_Validated);
+            this.txtVattu_bh.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtVattu_bh_KeyDown);
             // 
             // txtVattu_th
             // 
@@ -1944,8 +1944,8 @@
             this.txtVattu_th.TabIndex = 15;
             this.txtVattu_th.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.txtVattu_th.TextMaskFormat = System.Windows.Forms.MaskFormat.ExcludePromptAndLiterals;
-            this.txtVattu_th.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtVattu_th_KeyDown);
             this.txtVattu_th.Validated += new System.EventHandler(this.txtVattu_th_Validated);
+            this.txtVattu_th.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtVattu_th_KeyDown);
             // 
             // label14
             // 
@@ -2075,8 +2075,8 @@
             this.txtSTT.Size = new System.Drawing.Size(70, 20);
             this.txtSTT.TabIndex = 0;
             this.txtSTT.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.txtSTT.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtSTT_KeyDown);
             this.txtSTT.Validated += new System.EventHandler(this.txtSTT_Validated);
+            this.txtSTT.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtSTT_KeyDown);
             // 
             // txtID
             // 
@@ -2097,8 +2097,8 @@
             this.txtTen.Name = "txtTen";
             this.txtTen.Size = new System.Drawing.Size(358, 20);
             this.txtTen.TabIndex = 2;
-            this.txtTen.TextChanged += new System.EventHandler(this.txtTen_TextChanged);
             this.txtTen.Validated += new System.EventHandler(this.txtTen_Validated);
+            this.txtTen.TextChanged += new System.EventHandler(this.txtTen_TextChanged);
             this.txtTen.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtTen_KeyDown);
             // 
             // label5
@@ -2261,23 +2261,23 @@
             this.dtgridviewGiavp.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dtgridviewGiavp.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.gvcol_ten});
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.PaleGreen;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.Blue;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dtgridviewGiavp.DefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.PaleGreen;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.Blue;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dtgridviewGiavp.DefaultCellStyle = dataGridViewCellStyle2;
             this.dtgridviewGiavp.Enabled = false;
             this.dtgridviewGiavp.Location = new System.Drawing.Point(377, 25);
             this.dtgridviewGiavp.Name = "dtgridviewGiavp";
             this.dtgridviewGiavp.Size = new System.Drawing.Size(477, 246);
             this.dtgridviewGiavp.TabIndex = 186;
             this.dtgridviewGiavp.Visible = false;
+            this.dtgridviewGiavp.KeyDown += new System.Windows.Forms.KeyEventHandler(this.dtgridviewGiavp_KeyDown);
             this.dtgridviewGiavp.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgridviewGiavp_CellDoubleClick);
             this.dtgridviewGiavp.Leave += new System.EventHandler(this.dtgridviewGiavp_Leave);
-            this.dtgridviewGiavp.KeyDown += new System.Windows.Forms.KeyEventHandler(this.dtgridviewGiavp_KeyDown);
             // 
             // gvcol_ten
             // 

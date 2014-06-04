@@ -1,0 +1,620 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="mabn" type="xs:string" minOccurs="0" />
+                <xs:element name="hoten" type="xs:string" minOccurs="0" />
+                <xs:element name="phai" type="xs:string" minOccurs="0" />
+                <xs:element name="namsinh" type="xs:string" minOccurs="0" />
+                <xs:element name="diachi" type="xs:string" minOccurs="0" />
+                <xs:element name="ngay" type="xs:string" minOccurs="0" />
+                <xs:element name="id_loai" type="xs:string" minOccurs="0" />
+                <xs:element name="tenloai" type="xs:string" minOccurs="0" />
+                <xs:element name="soca" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <mabn>10036058</mabn>
+    <hoten>ĐỖ THỊ ÚT</hoten>
+    <phai>Nữ</phai>
+    <namsinh>1975</namsinh>
+    <diachi> Châu Long 2/   Phường Châu Phú B, Thị xã Châu Đốc, An Giang</diachi>
+    <ngay>24/11/2010</ngay>
+    <id_loai>03</id_loai>
+    <tenloai>Nội soi</tenloai>
+    <soca>1</soca>
+  </Table>
+  <Table>
+    <mabn>10036067</mabn>
+    <hoten>SIÊU</hoten>
+    <phai>Nam</phai>
+    <namsinh>1962</namsinh>
+    <diachi> Cambodia   Không Xác Định, Không Xác Định, .</diachi>
+    <ngay>24/11/2010</ngay>
+    <id_loai>01</id_loai>
+    <tenloai>Siêu âm</tenloai>
+    <soca>1</soca>
+  </Table>
+  <Table>
+    <mabn>10036088</mabn>
+    <hoten>BÙI THỊ CHÚC PHƯƠNG</hoten>
+    <phai>Nữ</phai>
+    <namsinh>1984</namsinh>
+    <diachi> Vĩnh Thạnh   Xã Vĩnh Hòa, Thị xã Tân Châu, An Giang</diachi>
+    <ngay>24/11/2010</ngay>
+    <id_loai>01</id_loai>
+    <tenloai>Siêu âm</tenloai>
+    <soca>1</soca>
+  </Table>
+  <Table>
+    <mabn>10036030</mabn>
+    <hoten>PHAN THỊ THUỲ TRANG</hoten>
+    <phai>Nữ</phai>
+    <namsinh>1965</namsinh>
+    <diachi> Chi Cục Thuế Tân Hống   Xã Long Khánh B, Thị Xã Hồng Ngự, Đồng Tháp</diachi>
+    <ngay>24/11/2010</ngay>
+    <id_loai>01</id_loai>
+    <tenloai>Siêu âm</tenloai>
+    <soca>1</soca>
+  </Table>
+  <Table>
+    <mabn>09003480</mabn>
+    <hoten>LÊ NGỌC HẢI</hoten>
+    <phai>Nam</phai>
+    <namsinh>1963</namsinh>
+    <diachi> Châu Long 7  0913821077 Phường Châu Phú B, Thị xã Châu Đốc, An Giang</diachi>
+    <ngay>24/11/2010</ngay>
+    <id_loai>01</id_loai>
+    <tenloai>Siêu âm</tenloai>
+    <soca>1</soca>
+  </Table>
+  <Table>
+    <mabn>05015805</mabn>
+    <hoten>MAI THANH TIỀN</hoten>
+    <phai>Nam</phai>
+    <namsinh>1969</namsinh>
+    <diachi> Phú Hoà   Xã Phú Lâm, Huyện Phú Tân, An Giang</diachi>
+    <ngay>24/11/2010</ngay>
+    <id_loai>01</id_loai>
+    <tenloai>Siêu âm</tenloai>
+    <soca>1</soca>
+  </Table>
+  <Table>
+    <mabn>10036064</mabn>
+    <hoten>LÊ CÔNG THƯƠNG</hoten>
+    <phai>Nam</phai>
+    <namsinh>1965</namsinh>
+    <diachi> Châu Long 4/   Phường Châu Phú B, Thị xã Châu Đốc, An Giang</diachi>
+    <ngay>24/11/2010</ngay>
+    <id_loai>01</id_loai>
+    <tenloai>Siêu âm</tenloai>
+    <soca>1</soca>
+  </Table>
+  <Table>
+    <mabn>10036073</mabn>
+    <hoten>PHAN VĂN TẤN</hoten>
+    <phai>Nam</phai>
+    <namsinh>1967</namsinh>
+    <diachi> Hưng Lợi/   Xã Đào Hữu Cảnh, Huyện Châu Phú, An Giang</diachi>
+    <ngay>24/11/2010</ngay>
+    <id_loai>01</id_loai>
+    <tenloai>Siêu âm</tenloai>
+    <soca>1</soca>
+  </Table>
+  <Table>
+    <mabn>10027702</mabn>
+    <hoten>LAI TUÔCH</hoten>
+    <phai>Nữ</phai>
+    <namsinh>1972</namsinh>
+    <diachi> Cambodia   Không Xác Định, Không Xác Định, .</diachi>
+    <ngay>24/11/2010</ngay>
+    <id_loai>01</id_loai>
+    <tenloai>Siêu âm</tenloai>
+    <soca>1</soca>
+  </Table>
+  <Table>
+    <mabn>05026434</mabn>
+    <hoten>NGUYỄN THỊ NHÌ</hoten>
+    <phai>Nữ</phai>
+    <namsinh>1964</namsinh>
+    <diachi> Mỹ Phứơc   Xã Mỹ Phú, Huyện Châu Phú, An Giang</diachi>
+    <ngay>24/11/2010</ngay>
+    <id_loai>01</id_loai>
+    <tenloai>Siêu âm</tenloai>
+    <soca>1</soca>
+  </Table>
+  <Table>
+    <mabn>10008261</mabn>
+    <hoten>VÕ THỊ HẠNH</hoten>
+    <phai>Nữ</phai>
+    <namsinh>1979</namsinh>
+    <diachi>    Xã Phú Thuận A, Thị Xã Hồng Ngự, Đồng Tháp</diachi>
+    <ngay>24/11/2010</ngay>
+    <id_loai>01</id_loai>
+    <tenloai>Siêu âm</tenloai>
+    <soca>1</soca>
+  </Table>
+  <Table>
+    <mabn>10036121</mabn>
+    <hoten>NGUYỄN THỊ KIỀU OANH</hoten>
+    <phai>Nữ</phai>
+    <namsinh>1979</namsinh>
+    <diachi> Phú Lộc   Xã Phú Thạnh, Huyện Phú Tân, An Giang</diachi>
+    <ngay>24/11/2010</ngay>
+    <id_loai>01</id_loai>
+    <tenloai>Siêu âm</tenloai>
+    <soca>1</soca>
+  </Table>
+  <Table>
+    <mabn>10036066</mabn>
+    <hoten>KHƯU CAO VÂN</hoten>
+    <phai>Nữ</phai>
+    <namsinh>1985</namsinh>
+    <diachi> Long Thị D/   Phường Long Thạnh, Thị xã Tân Châu, An Giang</diachi>
+    <ngay>24/11/2010</ngay>
+    <id_loai>01</id_loai>
+    <tenloai>Siêu âm</tenloai>
+    <soca>1</soca>
+  </Table>
+  <Table>
+    <mabn>10036070</mabn>
+    <hoten>NGÔ THỊ NGỌC DIỄM</hoten>
+    <phai>Nữ</phai>
+    <namsinh>1980</namsinh>
+    <diachi> Khóm 1/   Thị trấn Chi Lăng, Huyện Tịnh Biên, An Giang</diachi>
+    <ngay>24/11/2010</ngay>
+    <id_loai>01</id_loai>
+    <tenloai>Siêu âm</tenloai>
+    <soca>1</soca>
+  </Table>
+  <Table>
+    <mabn>10036095</mabn>
+    <hoten>VÕ VĂN VŨ</hoten>
+    <phai>Nam</phai>
+    <namsinh>1989</namsinh>
+    <diachi> Vĩnh Bình/   Xã Vĩnh Thạnh Trung, Huyện Châu Phú, An Giang</diachi>
+    <ngay>24/11/2010</ngay>
+    <id_loai>01</id_loai>
+    <tenloai>Siêu âm</tenloai>
+    <soca>1</soca>
+  </Table>
+  <Table>
+    <mabn>09002624</mabn>
+    <hoten>NGUYỄN VĂN SANG</hoten>
+    <phai>Nam</phai>
+    <namsinh>1947</namsinh>
+    <diachi> Châu Long 3   Phường Châu Phú B, Thị xã Châu Đốc, An Giang</diachi>
+    <ngay>24/11/2010</ngay>
+    <id_loai>01</id_loai>
+    <tenloai>Siêu âm</tenloai>
+    <soca>1</soca>
+  </Table>
+  <Table>
+    <mabn>10036079</mabn>
+    <hoten>TUÔTH SENH</hoten>
+    <phai>Nam</phai>
+    <namsinh>1996</namsinh>
+    <diachi> Combodia   Không Xác Định, Không Xác Định, .</diachi>
+    <ngay>24/11/2010</ngay>
+    <id_loai>01</id_loai>
+    <tenloai>Siêu âm</tenloai>
+    <soca>1</soca>
+  </Table>
+  <Table>
+    <mabn>10036087</mabn>
+    <hoten>TRỊNH THỊ ÚT</hoten>
+    <phai>Nữ</phai>
+    <namsinh>1969</namsinh>
+    <diachi> Long Hoà   Xã Phú Lâm, Huyện Phú Tân, An Giang</diachi>
+    <ngay>24/11/2010</ngay>
+    <id_loai>01</id_loai>
+    <tenloai>Siêu âm</tenloai>
+    <soca>1</soca>
+  </Table>
+  <Table>
+    <mabn>10011931</mabn>
+    <hoten>HUỲNH PHƯỚC THỌ</hoten>
+    <phai>Nam</phai>
+    <namsinh>1948</namsinh>
+    <diachi> Châu Long 3   Phường Châu Phú B, Thị xã Châu Đốc, An Giang</diachi>
+    <ngay>24/11/2010</ngay>
+    <id_loai>01</id_loai>
+    <tenloai>Siêu âm</tenloai>
+    <soca>1</soca>
+  </Table>
+  <Table>
+    <mabn>10036057</mabn>
+    <hoten>NGUYỄN THỊ THU</hoten>
+    <phai>Nữ</phai>
+    <namsinh>1988</namsinh>
+    <diachi> Phú Cường/   Xã Phú Thành, Huyện Phú Tân, An Giang</diachi>
+    <ngay>24/11/2010</ngay>
+    <id_loai>01</id_loai>
+    <tenloai>Siêu âm</tenloai>
+    <soca>1</soca>
+  </Table>
+  <Table>
+    <mabn>05004142</mabn>
+    <hoten>NGUYỄN VĂN HẬU</hoten>
+    <phai>Nam</phai>
+    <namsinh>1966</namsinh>
+    <diachi> Ấp Thượng   Xã Thường Thới Tiền, Thị Xã Hồng Ngự, Đồng Tháp</diachi>
+    <ngay>24/11/2010</ngay>
+    <id_loai>01</id_loai>
+    <tenloai>Siêu âm</tenloai>
+    <soca>1</soca>
+  </Table>
+  <Table>
+    <mabn>09017815</mabn>
+    <hoten>ĐỖ TUYẾT PHI VÂN</hoten>
+    <phai>Nữ</phai>
+    <namsinh>1982</namsinh>
+    <diachi> Vĩnh Thạnh 1   Xã Lê Chánh, Thị xã Tân Châu, An Giang</diachi>
+    <ngay>24/11/2010</ngay>
+    <id_loai>01</id_loai>
+    <tenloai>Siêu âm</tenloai>
+    <soca>1</soca>
+  </Table>
+  <Table>
+    <mabn>10028197</mabn>
+    <hoten>AZYZIAH</hoten>
+    <phai>Nữ</phai>
+    <namsinh>1979</namsinh>
+    <diachi> Châu Giang/   Xã Châu Phong, Thị xã Tân Châu, An Giang</diachi>
+    <ngay>24/11/2010</ngay>
+    <id_loai>01</id_loai>
+    <tenloai>Siêu âm</tenloai>
+    <soca>1</soca>
+  </Table>
+  <Table>
+    <mabn>10036029</mabn>
+    <hoten>NGUYỄN THỊ HOÀNG THẮM</hoten>
+    <phai>Nữ</phai>
+    <namsinh>1967</namsinh>
+    <diachi> Khóm 7.   Phường Châu Phú A, Thị xã Châu Đốc, An Giang</diachi>
+    <ngay>24/11/2010</ngay>
+    <id_loai>01</id_loai>
+    <tenloai>Siêu âm</tenloai>
+    <soca>1</soca>
+  </Table>
+  <Table>
+    <mabn>05024551</mabn>
+    <hoten>THÁI VĂN TUẤN</hoten>
+    <phai>Nam</phai>
+    <namsinh>1966</namsinh>
+    <diachi> Chi Cũc Thuế   Không xác định, Huyện Tân Hồng, Đồng Tháp</diachi>
+    <ngay>24/11/2010</ngay>
+    <id_loai>01</id_loai>
+    <tenloai>Siêu âm</tenloai>
+    <soca>1</soca>
+  </Table>
+  <Table>
+    <mabn>07032854</mabn>
+    <hoten>BÙI THỊ NƯƠNG</hoten>
+    <phai>Nữ</phai>
+    <namsinh>1967</namsinh>
+    <diachi> Vĩnh Lợi 1   Xã Châu Phong, Thị xã Tân Châu, An Giang</diachi>
+    <ngay>24/11/2010</ngay>
+    <id_loai>01</id_loai>
+    <tenloai>Siêu âm</tenloai>
+    <soca>1</soca>
+  </Table>
+  <Table>
+    <mabn>04016170</mabn>
+    <hoten>ĐỖ VĂN HÀI</hoten>
+    <phai>Nam</phai>
+    <namsinh>1956</namsinh>
+    <diachi> Phú Hưng   Xã Phú Vĩnh, Thị xã Tân Châu, An Giang</diachi>
+    <ngay>24/11/2010</ngay>
+    <id_loai>01</id_loai>
+    <tenloai>Siêu âm</tenloai>
+    <soca>1</soca>
+  </Table>
+  <Table>
+    <mabn>09021628</mabn>
+    <hoten>NGUYỄN THỊ LIÊN</hoten>
+    <phai>Nữ</phai>
+    <namsinh>1973</namsinh>
+    <diachi> Hưng Thạnh  01667247449 Xã Đào Hữu Cảnh, Huyện Châu Phú, An Giang</diachi>
+    <ngay>24/11/2010</ngay>
+    <id_loai>01</id_loai>
+    <tenloai>Siêu âm</tenloai>
+    <soca>1</soca>
+  </Table>
+  <Table>
+    <mabn>10036089</mabn>
+    <hoten>NGUYỄN THỊ XÉN</hoten>
+    <phai>Nữ</phai>
+    <namsinh>1932</namsinh>
+    <diachi> B2   Xã Long An, Thị xã Tân Châu, An Giang</diachi>
+    <ngay>24/11/2010</ngay>
+    <id_loai>01</id_loai>
+    <tenloai>Siêu âm</tenloai>
+    <soca>1</soca>
+  </Table>
+  <Table>
+    <mabn>10036065</mabn>
+    <hoten>LÊ TRỌNG HIẾU</hoten>
+    <phai>Nam</phai>
+    <namsinh>2006</namsinh>
+    <diachi> Long Thới A/   Xã Long Thuận, Thị Xã Hồng Ngự, Đồng Tháp</diachi>
+    <ngay>24/11/2010</ngay>
+    <id_loai>01</id_loai>
+    <tenloai>Siêu âm</tenloai>
+    <soca>1</soca>
+  </Table>
+  <Table>
+    <mabn>10036074</mabn>
+    <hoten>CHAU SƯƠNL</hoten>
+    <phai>Nữ</phai>
+    <namsinh>1956</namsinh>
+    <diachi> Tân Thuận   Xã Tân Lợi, Huyện Tịnh Biên, An Giang</diachi>
+    <ngay>24/11/2010</ngay>
+    <id_loai>01</id_loai>
+    <tenloai>Siêu âm</tenloai>
+    <soca>1</soca>
+  </Table>
+  <Table>
+    <mabn>10036102</mabn>
+    <hoten>DÂM</hoten>
+    <phai>Nữ</phai>
+    <namsinh>1959</namsinh>
+    <diachi> Cambodia   Không Xác Định, Không Xác Định, .</diachi>
+    <ngay>24/11/2010</ngay>
+    <id_loai>01</id_loai>
+    <tenloai>Siêu âm</tenloai>
+    <soca>1</soca>
+  </Table>
+  <Table>
+    <mabn>05027968</mabn>
+    <hoten>LÊ VĂN NGHIỆM</hoten>
+    <phai>Nam</phai>
+    <namsinh>1963</namsinh>
+    <diachi> Chi Cục Thuế Tân Hồng   Không xác định, Huyện Tân Hồng, Đồng Tháp</diachi>
+    <ngay>24/11/2010</ngay>
+    <id_loai>01</id_loai>
+    <tenloai>Siêu âm</tenloai>
+    <soca>1</soca>
+  </Table>
+  <Table>
+    <mabn>10036093</mabn>
+    <hoten>LÊ THỊ PHƯƠNG THẮM</hoten>
+    <phai>Nữ</phai>
+    <namsinh>1985</namsinh>
+    <diachi> Sơn Đông/   Thị trấn Nhà Bàng, Huyện Tịnh Biên, An Giang</diachi>
+    <ngay>24/11/2010</ngay>
+    <id_loai>01</id_loai>
+    <tenloai>Siêu âm</tenloai>
+    <soca>1</soca>
+  </Table>
+  <Table>
+    <mabn>04005542</mabn>
+    <hoten>BÙI THỊ VÂN</hoten>
+    <phai>Nữ</phai>
+    <namsinh>1959</namsinh>
+    <diachi>    Xã Đào Hữu Cảnh, Huyện Châu Phú, An Giang</diachi>
+    <ngay>24/11/2010</ngay>
+    <id_loai>01</id_loai>
+    <tenloai>Siêu âm</tenloai>
+    <soca>1</soca>
+  </Table>
+  <Table>
+    <mabn>10036098</mabn>
+    <hoten>TRƯƠNG THỊ PHƯƠNG</hoten>
+    <phai>Nữ</phai>
+    <namsinh>1992</namsinh>
+    <diachi> Tây An/   Xã Thạnh Mỹ Tây, Huyện Châu Phú, An Giang</diachi>
+    <ngay>24/11/2010</ngay>
+    <id_loai>01</id_loai>
+    <tenloai>Siêu âm</tenloai>
+    <soca>1</soca>
+  </Table>
+  <Table>
+    <mabn>10036035</mabn>
+    <hoten>LÂM VĂN ĐANG</hoten>
+    <phai>Nam</phai>
+    <namsinh>1975</namsinh>
+    <diachi> Mỹ Phước   Xã Mỹ Đức, Huyện Châu Phú, An Giang</diachi>
+    <ngay>24/11/2010</ngay>
+    <id_loai>01</id_loai>
+    <tenloai>Siêu âm</tenloai>
+    <soca>1</soca>
+  </Table>
+  <Table>
+    <mabn>10030653</mabn>
+    <hoten>PÔ NY</hoten>
+    <phai>Nữ</phai>
+    <namsinh>1985</namsinh>
+    <diachi> Cambodia   Không Xác Định, Không Xác Định, .</diachi>
+    <ngay>24/11/2010</ngay>
+    <id_loai>01</id_loai>
+    <tenloai>Siêu âm</tenloai>
+    <soca>1</soca>
+  </Table>
+  <Table>
+    <mabn>05026736</mabn>
+    <hoten>PHẠM THỊ MỸ HƯỜNG</hoten>
+    <phai>Nữ</phai>
+    <namsinh>1962</namsinh>
+    <diachi> An Thạnh   Thị trấn An Phú, Huyện An Phú, An Giang</diachi>
+    <ngay>24/11/2010</ngay>
+    <id_loai>01</id_loai>
+    <tenloai>Siêu âm</tenloai>
+    <soca>1</soca>
+  </Table>
+  <Table>
+    <mabn>10036032</mabn>
+    <hoten>NGUYỄN VĂN CƯỜNG</hoten>
+    <phai>Nam</phai>
+    <namsinh>1940</namsinh>
+    <diachi>    Phường Núi Sam, Thị xã Châu Đốc, An Giang</diachi>
+    <ngay>24/11/2010</ngay>
+    <id_loai>01</id_loai>
+    <tenloai>Siêu âm</tenloai>
+    <soca>1</soca>
+  </Table>
+  <Table>
+    <mabn>10036069</mabn>
+    <hoten>CHÂY</hoten>
+    <phai>Nam</phai>
+    <namsinh>1937</namsinh>
+    <diachi> Cambodai   Không Xác Định, Không Xác Định, .</diachi>
+    <ngay>24/11/2010</ngay>
+    <id_loai>01</id_loai>
+    <tenloai>Siêu âm</tenloai>
+    <soca>1</soca>
+  </Table>
+  <Table>
+    <mabn>10036114</mabn>
+    <hoten>PHẠM NGỌC TRƯỜNG</hoten>
+    <phai>Nam</phai>
+    <namsinh>1976</namsinh>
+    <diachi>    Phường Châu Phú A, Thị xã Châu Đốc, An Giang</diachi>
+    <ngay>24/11/2010</ngay>
+    <id_loai>01</id_loai>
+    <tenloai>Siêu âm</tenloai>
+    <soca>1</soca>
+  </Table>
+  <Table>
+    <mabn>06028771</mabn>
+    <hoten>TRẦN THỊ THANH THỦY</hoten>
+    <phai>Nữ</phai>
+    <namsinh>1978</namsinh>
+    <diachi> Chi Cục Thuế   Không xác định, Huyện Tân Hồng, Đồng Tháp</diachi>
+    <ngay>24/11/2010</ngay>
+    <id_loai>01</id_loai>
+    <tenloai>Siêu âm</tenloai>
+    <soca>1</soca>
+  </Table>
+  <Table>
+    <mabn>10036096</mabn>
+    <hoten>VÕ THỊ TÚ</hoten>
+    <phai>Nữ</phai>
+    <namsinh>2005</namsinh>
+    <diachi> Vĩnh Bình/   Xã Vĩnh Thạnh Trung, Huyện Châu Phú, An Giang</diachi>
+    <ngay>24/11/2010</ngay>
+    <id_loai>01</id_loai>
+    <tenloai>Siêu âm</tenloai>
+    <soca>1</soca>
+  </Table>
+  <Table>
+    <mabn>10036052</mabn>
+    <hoten>NGUYỄN THỊ THAO</hoten>
+    <phai>Nữ</phai>
+    <namsinh>1949</namsinh>
+    <diachi> Tân Thuận/   Xã Tân Lợi, Huyện Tịnh Biên, An Giang</diachi>
+    <ngay>24/11/2010</ngay>
+    <id_loai>01</id_loai>
+    <tenloai>Siêu âm</tenloai>
+    <soca>1</soca>
+  </Table>
+  <Table>
+    <mabn>06004926</mabn>
+    <hoten>NGUYỄN THỊ BÍCH </hoten>
+    <phai>Nữ</phai>
+    <namsinh>1976</namsinh>
+    <diachi>ko Phú Nhất  0973525604 Xã An Phú, Huyện Tịnh Biên, An Giang</diachi>
+    <ngay>24/11/2010</ngay>
+    <id_loai>01</id_loai>
+    <tenloai>Siêu âm</tenloai>
+    <soca>1</soca>
+  </Table>
+  <Table>
+    <mabn>05027974</mabn>
+    <hoten>VÕ VĂN CHÍ</hoten>
+    <phai>Nam</phai>
+    <namsinh>1977</namsinh>
+    <diachi> Chi Cục Thuế Tân Hồng   Không xác định, Huyện Tân Hồng, Đồng Tháp</diachi>
+    <ngay>24/11/2010</ngay>
+    <id_loai>01</id_loai>
+    <tenloai>Siêu âm</tenloai>
+    <soca>1</soca>
+  </Table>
+  <Table>
+    <mabn>05027973</mabn>
+    <hoten>ĐOÀN VĂN NGÔN</hoten>
+    <phai>Nam</phai>
+    <namsinh>1973</namsinh>
+    <diachi> Chi Cục Thuế Tân Hồng   Không xác định, Huyện Tân Hồng, Đồng Tháp</diachi>
+    <ngay>24/11/2010</ngay>
+    <id_loai>01</id_loai>
+    <tenloai>Siêu âm</tenloai>
+    <soca>1</soca>
+  </Table>
+  <Table>
+    <mabn>10027702</mabn>
+    <hoten>LAI TUÔCH</hoten>
+    <phai>Nữ</phai>
+    <namsinh>1972</namsinh>
+    <diachi> Cambodia   Không Xác Định, Không Xác Định, .</diachi>
+    <ngay>24/11/2010</ngay>
+    <id_loai>03</id_loai>
+    <tenloai>Nội soi</tenloai>
+    <soca>1</soca>
+  </Table>
+  <Table>
+    <mabn>10036034</mabn>
+    <hoten>HỒ THỊ NGỌC GIÀU</hoten>
+    <phai>Nữ</phai>
+    <namsinh>1989</namsinh>
+    <diachi> Khóm 2   Phường Châu Phú A, Thị xã Châu Đốc, An Giang</diachi>
+    <ngay>24/11/2010</ngay>
+    <id_loai>03</id_loai>
+    <tenloai>Nội soi</tenloai>
+    <soca>1</soca>
+  </Table>
+  <Table>
+    <mabn>10036099</mabn>
+    <hoten>PHOL BUNH THƯƠM</hoten>
+    <phai>Nam</phai>
+    <namsinh>1976</namsinh>
+    <diachi> Cambodia   Không Xác Định, Không Xác Định, .</diachi>
+    <ngay>24/11/2010</ngay>
+    <id_loai>01</id_loai>
+    <tenloai>Siêu âm</tenloai>
+    <soca>1</soca>
+  </Table>
+  <Table>
+    <mabn>10036109</mabn>
+    <hoten>ĐỔ THỊ ÍT</hoten>
+    <phai>Nữ</phai>
+    <namsinh>1955</namsinh>
+    <diachi> Tây Hưng   Xã Nhơn Hưng, Huyện Tịnh Biên, An Giang</diachi>
+    <ngay>24/11/2010</ngay>
+    <id_loai>01</id_loai>
+    <tenloai>Siêu âm</tenloai>
+    <soca>1</soca>
+  </Table>
+  <Table>
+    <mabn>10036059</mabn>
+    <hoten>HUỲNH VĂN HÙNG</hoten>
+    <phai>Nam</phai>
+    <namsinh>1965</namsinh>
+    <diachi> Vĩnh Phước/   Phường Núi Sam, Thị xã Châu Đốc, An Giang</diachi>
+    <ngay>24/11/2010</ngay>
+    <id_loai>01</id_loai>
+    <tenloai>Siêu âm</tenloai>
+    <soca>1</soca>
+  </Table>
+  <Table>
+    <mabn>10035373</mabn>
+    <hoten>CHÂU THỊ ĐẮNG</hoten>
+    <phai>Nữ</phai>
+    <namsinh>1949</namsinh>
+    <diachi> Vĩnh Nghĩa.   Xã Vĩnh Trường, Huyện An Phú, An Giang</diachi>
+    <ngay>24/11/2010</ngay>
+    <id_loai>01</id_loai>
+    <tenloai>Siêu âm</tenloai>
+    <soca>1</soca>
+  </Table>
+</NewDataSet>
