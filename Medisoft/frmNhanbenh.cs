@@ -5917,7 +5917,7 @@ namespace Medisoft
                     if (l_matd == 0)
                     {
                         l_matd = m.getidyymmddhhmiss_stt_computer;//m.get_capid(1);
-                        m.upd_tiepdon(s_mabn,l_maql, l_matd, makp.Text, ngayvv.Text + " " + giovv.Text, int.Parse(madoituong.Text), sovaovien.Text, tuoi.Text.PadLeft(3, '0') + loaituoi.SelectedIndex.ToString(), 0, i_userid, LibMedi.AccessData.Nhanbenh, 0);
+                        m.upd_tiepdon(s_mabn, l_matd, l_maql, makp.Text, ngayvv.Text + " " + giovv.Text, int.Parse(madoituong.Text), sovaovien.Text, tuoi.Text.PadLeft(3, '0') + loaituoi.SelectedIndex.ToString(), 0, i_userid, LibMedi.AccessData.Nhanbenh, 0);
                     }
                 }
                 if (l_matd == 0)

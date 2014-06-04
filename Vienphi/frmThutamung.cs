@@ -262,7 +262,7 @@ namespace Vienphi
                 if (tmn_Conhanbenh.Checked) sql1 += ",1";
                 if (tmn_ngoaitru.Checked) sql1 += ",2";
                 if (sql1 != "") sql += " where id in(" + sql1.Trim().Trim(',') + ")";
-                sql += " order by stt";
+                sql += " order by ten";
                 cbLoaibn.DataSource = m_v.get_data(sql).Tables[0];
                 cbLoaibn.DisplayMember = "ten";
                 cbLoaibn.ValueMember = "id";
@@ -2126,6 +2126,7 @@ namespace Vienphi
             }
             if (txtMabn.Text.Trim()!="" && txtMabn1.Text.Trim() != "")
             {
+              //  cbLoaibn.Text = "Nội trú";
                 f_Load_Hanhchanh(txtMabn.Text + txtMabn1.Text);
             }
         }

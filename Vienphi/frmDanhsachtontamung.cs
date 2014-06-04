@@ -5,6 +5,12 @@ using System.Data;
 using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
+using Vienphi.VPDatasets;
+//using Excel;
+using System.Reflection;
+using System.Diagnostics;
+using System.Threading;
+using System.IO;
 
 namespace Vienphi
 {
@@ -43,6 +49,8 @@ namespace Vienphi
         bool KiemtraChuyenTonTamUng()
         {
             DataTable data = new DataTable();
+            if (m_v == null)
+                m_v = new LibVP.AccessData();
             using (Npgsql.NpgsqlCommand cmm = new Npgsql.NpgsqlCommand("select * from updatedatatontamung order by stt desc ", new Npgsql.NpgsqlConnection(m_v.ConStr)))
             {
                 try
@@ -191,6 +199,7 @@ namespace Vienphi
 
         private void frmDanhsachthutamung_Load(object sender, EventArgs e)
         {
+            
             if (KiemtraChuyenTonTamUng())
                 f_Load_DG();
             else
@@ -203,6 +212,25 @@ namespace Vienphi
                 fst.ThucHien();
                 //backgroundWorker1.RunWorkerAsync();
             }
+            datasetDanhsachtontamung1.Initialize(m_v.ConStr);
+            datasetDanhsachtontamung1.ThongBaoQuaTrinhTai += new datasetDanhsachtontamung.QuaTrinhTai(datasetDanhsachtontamung1_ThongBaoQuaTrinhTai);
+        }
+
+        void datasetDanhsachtontamung1_ThongBaoQuaTrinhTai(decimal percent, long curentRecord, long maxRecord, string message)
+        {
+            if (!toolStrip1.IsDisposed)
+                toolStrip1.Invoke((MethodInvoker)delegate()
+                {
+                    if (toolStripProgressBar1.Maximum != (int)maxRecord)
+                    {
+                        toolStripProgressBar1.Maximum = (int)maxRecord;
+                        toolStripProgressBar1.Step = 1;
+                    }
+                    if (curentRecord == 0)
+                        toolStripProgressBar1.Value = 0;
+                    else
+                        toolStripProgressBar1.PerformStep();
+                });            
         }
 
         private void txtTN_KeyDown(object sender, KeyEventArgs e)
@@ -588,19 +616,24 @@ namespace Vienphi
 
         private void backgroundWorker1_ProgressChanged(object sender, ProgressChangedEventArgs e)
         {
-           // this.Invoke((MethodInvoker)delegate()
-         //   {
+            toolStrip1.Invoke((MethodInvoker)delegate()
+            {
+                if (e.ProgressPercentage == 0)
+                {
+                    toolStripProgressBar1.Maximum = 100;
+                    toolStripProgressBar1.Value = 0;
+                    toolStripProgressBar1.Step = 10;
+                }
                 this.toolStripProgressBar1.Value = e.ProgressPercentage;
-          //  });
+            });
         }
 
         private void backgroundWorker1_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
         {
-            this.Invoke((MethodInvoker)delegate()
-            {
-                this.Cursor = Cursors.Arrow; 
-            });
-            
+           
+                this.Cursor = Cursors.Arrow;
+                dataGridView1.Cursor = Cursors.Arrow;
+                dataGridView2.Cursor = Cursors.Arrow; 
            
             if (e.Result != null)
             {
@@ -638,6 +671,281 @@ namespace Vienphi
             public decimal asotienton ;
             public int sohoadon;
         }
-        
+
+        private void toolStrip3_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
+
+        private void dataGridView1_DataBindingComplete(object sender, DataGridViewBindingCompleteEventArgs e)
+        {
+           // int rcount = 0;
+            //decimal tongtamung = 0;
+            foreach (DataGridViewRow dtgr in dataGridView1.Rows)
+            {
+                dtgr.Cells["stt"].Value = int.Parse(dtgr.Index.ToString())+1;
+             //   tongtamung += decimal.Parse(dtgr.Cells["tientamung"].Value.ToString());
+            }
+            //this.Invoke((MethodInvoker)delegate()
+            //{
+            //    lb_tongcong.Text = tongtamung.ToString();
+            //});
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Cursor = Cursors.WaitCursor;
+            dataGridView1.Cursor = Cursors.WaitCursor;
+            button1.Enabled = false;
+            dataGridView1.DataSource = null;
+            dataGridView2.DataSource = null;
+            datasetDanhsachtontamung1.LoadDataAsyn(int.Parse((bds_thang_nam.Current as DataRowView)["thang"].ToString()),
+                int.Parse((bds_thang_nam.Current as DataRowView)["nam"].ToString()), new datasetDanhsachtontamung.TaiHoanTat(XulyLoadHoanTat));
+        }
+        void XulyLoadHoanTat(datasetDanhsachtontamung.ERROCODE er, datasetDanhsachtontamung data)
+        {
+            if (this.IsDisposed)
+                return;
+            button1.Enabled = true;
+            dataGridView1.Focus();
+            dataGridView1.Refresh();
+            this.Cursor = Cursors.Arrow;
+            toolStripProgressBar1.Value = 0;
+            dataGridView1.Cursor = Cursors.Arrow;
+            dataGridView1.DataSource = bds_DanhSachDongTamUng;
+            dataGridView2.DataSource = tAMUNGCHITIETTAMUNGBindingSource;
+            decimal tong = 0;
+            decimal t,th=0;
+            foreach (DataRowView drrr in bds_DanhSachDongTamUng)
+            {
+                t = 0;
+                if (decimal.TryParse(drrr["tientamung"].ToString(), out t))
+                {
+                    tong += t;
+                }
+            }
+            lb_tongcong.Text = tong!=0?tong.ToString("###,###,###.#"):"0";
+            decimal tongt = 0;
+            foreach (DataRowView drrr in bds_DanhSachDongTamUng)
+            {
+                t = 0; th = 0;
+                if (decimal.Parse(drrr["hoantatca"].ToString())==0)
+                {
+                    if (decimal.TryParse(drrr["tientamung"].ToString(), out t))
+                    {
+                        decimal.TryParse(drrr["tienhoantra"].ToString(), out th);
+                        tongt += t-th;
+                    }
+                }
+            }
+            lb_tongtu.Text = tongt!=0?tongt.ToString("###,###,###.#"):"0";
+
+            lb_tonghoan.Text = (tong - tongt)!=0?((decimal)(tong - tongt)).ToString("###,###,###.#"):"0";
+
+            decimal tonghql = 0;
+            foreach (DataRowView drrr in bds_DanhSachDongTamUng)
+            {
+                t = 0;
+                if (decimal.TryParse(drrr["tienhoantra"].ToString(), out t))
+                {
+                    tonghql += t;
+                }
+            }
+            lb_tonghoanql.Text =tonghql!=0? tonghql.ToString("###,###,###.#"):"0";
+        }
+
+        private void dataGridView1_RowValidated(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void tmn_Excel_Click(object sender, EventArgs e)
+        {
+            if (tabControl1.SelectedTab == tabPage2)
+            {
+                saveFileDialog1.DefaultExt = "xls";
+                saveFileDialog1.Filter = "File Excel | *.xls";
+                saveFileDialog1.InitialDirectory = "%userprofile%/Desktop";
+                saveFileDialog1.FileName = "bangketamung";
+                saveFileDialog1.ShowDialog();
+                if (saveFileDialog1.ValidateNames)
+                {
+                    this.Cursor = Cursors.WaitCursor;
+                    dataGridView1.Cursor = Cursors.WaitCursor;
+                    bgW_luuexel.RunWorkerAsync(saveFileDialog1.FileName);
+                    toolStripProgressBar1.Maximum = 100;
+                    toolStripProgressBar1.Step = 5;
+                }
+            }
+        }
+
+        private void bgW_luuexel_DoWork(object sender, DoWorkEventArgs e)
+        {
+            string filename = e.Argument.ToString();
+                System.Globalization.CultureInfo oldcul = Thread.CurrentThread.CurrentCulture;
+                Thread.CurrentThread.CurrentCulture = new System.Globalization.CultureInfo("en-US");
+                Excel.Application exapp = new Excel.Application();
+                ThamsoKetqua kq = new ThamsoKetqua();
+                bgW_luuexel.ReportProgress(0);
+                try
+                {
+                    exapp.Workbooks.Add(Missing.Value);
+                    Excel.Workbook wkb = exapp.Workbooks.get_Item(1);
+                    //wkb. = Excel.XlFileFormat.xlExcel9795;
+                    Excel.Worksheet wks = (Excel.Worksheet)wkb.Worksheets.get_Item(1);
+                    int offsetrow = 3;
+                    //int offsetcol = 1;
+                    int colnum = 2;
+                    ((Excel.Range)wks.Cells[offsetrow - 1, 1]).Value2 = "Stt";
+                    string colname;
+                    foreach (DataColumn dc in datasetDanhsachtontamung1.CHITIETTAMUNG.Columns)
+                    {
+                        if (dc.ColumnName == "maql" || dc.ColumnName == "mavaovien")
+                            continue;
+                        switch (dc.ColumnName)
+                        {
+                            case "mabn":
+                                colname = "Mã BN";
+                                break;
+                            case "hoten":	
+                                colname = "Họ Tên";
+                                break;
+                            case "quyenso":
+                                colname = "Quyển sổ";
+                                break;
+                            case "sobienlai":
+                                colname = "Số biên lai";
+                                break;
+                            case "tiendong":
+                                colname = "Tạm ứng";
+                                break;
+                            case "ngaydong":
+                                colname = "Ngày đóng";
+                                break;                                	
+                            case "hoantra":
+                                colname = "Hoàn trả";
+                                break;
+                            case "ngaytra":
+                                colname = "Ngày trả";
+                                break;
+                            case "done":
+                                colname = "Hoàn tất";
+                                break;
+                            case "tongvienphi":
+                                colname = "Viện phí";
+                                break;
+                            case "ngayravien":
+                                colname = "Ngày ra viện";
+                                break;
+                            case "nguoithu":
+                                colname = "Người thu";
+                                break;
+                            case "tenkp":
+                                colname = "Khoa";
+                                break;
+                            default:
+                                colname = dc.ColumnName;
+                                break;
+                        }                        
+                        ((Excel.Range)wks.Cells[offsetrow - 1, colnum]).Value2 = colname;
+                        colnum++;
+                    }
+                    long numrow = 1;
+                    foreach (DataRow dr in datasetDanhsachtontamung1.CHITIETTAMUNG.Rows)
+                    {
+                        colnum=2;
+                        foreach (DataColumn dc in datasetDanhsachtontamung1.CHITIETTAMUNG.Columns)
+                        {
+                            numrow = datasetDanhsachtontamung1.CHITIETTAMUNG.Rows.IndexOf(dr) + offsetrow;
+                            ((Excel.Range)wks.Cells[numrow, 1]).Value2 = numrow - offsetrow + 1;
+                            if (dc.ColumnName == "maql" || dc.ColumnName == "mavaovien")
+                                continue;
+                            if (dr[dc].GetType() == typeof(DateTime))
+                                ((Excel.Range)wks.Cells[numrow, colnum]).Value2 = ((DateTime)dr[dc]).ToString("dd/MM/yyyy");
+                            else
+                                if (dr[dc].GetType() == typeof(decimal) && ((decimal)dr[dc]) > 1000000000000)
+                                    ((Excel.Range)wks.Cells[numrow, colnum]).Value2 = "'" + dr[dc].ToString();
+                                else
+                                {
+
+                                    if (dc.ColumnName == "done")
+                                    {
+                                        if ((decimal)dr[dc] == 0)
+                                            ((Excel.Range)wks.Cells[numrow, colnum]).Value2 = "NO";
+                                        else
+                                            ((Excel.Range)wks.Cells[numrow, colnum]).Value2 = "YES";
+                                    }
+                                    else
+                                        ((Excel.Range)wks.Cells[numrow, colnum]).Value2 = dr[dc];
+                                }
+                            colnum++;
+                        }
+                        int per = (int)((float)(numrow -offsetrow)/(float) datasetDanhsachtontamung1.CHITIETTAMUNG.Rows.Count * 90);
+                        if (per % 5 == 0)
+                            bgW_luuexel.ReportProgress(per);
+                    }
+                    ((Excel.Range)wks.Cells[numrow + 2, 1]).Value2 = "Tổng tạm ứng:"; ((Excel.Range)wks.Cells[numrow + 2, 2]).Value2 = lb_tongcong.Text;
+                    ((Excel.Range)wks.Cells[numrow + 2, 4]).Value2 = "Tổng tồn:"; ((Excel.Range)wks.Cells[numrow + 2, 5]).Value2 = lb_tongtu.Text;
+                    ((Excel.Range)wks.Cells[numrow + 2, 7]).Value2 = "Tổng hoàn:"; ((Excel.Range)wks.Cells[numrow + 2, 8]).Value2 = lb_tonghoan.Text;
+                    wkb.SaveAs(filename.Substring(0,filename.Length-4) , Missing.Value, Missing.Value, Missing.Value, Missing.Value, Missing.Value, Excel.XlSaveAsAccessMode.xlShared, Missing.Value, Missing.Value, Missing.Value, Missing.Value);
+                    bgW_luuexel.ReportProgress(100);
+                    exapp.Quit();
+                    kq.err = true;
+                    kq.filename = filename.Substring(0, filename.Length - 4);                   
+                }
+                catch
+                {
+                    kq.err = false;
+                }
+                finally
+                {
+                    //if(exapp)
+                    exapp.Quit();
+                    Thread.CurrentThread.CurrentCulture = oldcul;    
+                    e.Result = kq;
+                }
+            
+        }
+
+        private void bgW_luuexel_ProgressChanged(object sender, ProgressChangedEventArgs e)
+        {
+            toolStrip1.Invoke((MethodInvoker)delegate()
+            {
+                toolStripProgressBar1.Value = e.ProgressPercentage;
+            });            
+        }
+
+        private void bgW_luuexel_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
+        {
+            Thread.Sleep(100);
+            ThamsoKetqua kq = (ThamsoKetqua)e.Result;
+            if (kq.err)
+            {
+                try
+                {
+                    Process pro = new Process();
+                    if (File.Exists(kq.filename + ".xls"))
+                    {
+                        pro.StartInfo = new ProcessStartInfo(kq.filename + ".xls");
+                    }
+                    else
+                        pro.StartInfo = new ProcessStartInfo(kq.filename + ".xlsx");
+                    pro.Start();
+                }
+                catch
+                { 
+                }
+            }
+            else
+                MessageBox.Show("Lỗi trong khi xuất file excel!","Lỗi",MessageBoxButtons.OK,MessageBoxIcon.Error);
+            this.Cursor = Cursors.Arrow;
+            dataGridView1.Cursor = Cursors.Arrow;
+            toolStripProgressBar1.Value = 0;
+        }
+        class ThamsoKetqua
+        {
+            public bool err = false;
+            public string filename = "";
+        }
     }
 }

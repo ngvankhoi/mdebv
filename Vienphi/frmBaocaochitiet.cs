@@ -95,6 +95,7 @@ namespace Vienphi
 			m_userid=v_userid;
 			f_SetEvent(panel2);
             f_load_data();
+            
 
 			//
 			// TODO: Add any constructor code after InitializeComponent call
@@ -951,6 +952,7 @@ namespace Vienphi
 				f_Display_User();
 				f_Load_CB_Maubaocao();
 				f_LoadHistory();
+                
 			}
 			catch
 			{

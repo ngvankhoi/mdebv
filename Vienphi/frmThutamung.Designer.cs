@@ -541,7 +541,7 @@
             this.tmn_Danhsachcho.Image = ((System.Drawing.Image)(resources.GetObject("tmn_Danhsachcho.Image")));
             this.tmn_Danhsachcho.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tmn_Danhsachcho.Name = "tmn_Danhsachcho";
-            this.tmn_Danhsachcho.Size = new System.Drawing.Size(97, 22);
+            this.tmn_Danhsachcho.Size = new System.Drawing.Size(105, 22);
             this.tmn_Danhsachcho.Text = "&Danh sách chờ";
             this.tmn_Danhsachcho.Click += new System.EventHandler(this.tmn_Danhsachcho_Click);
             // 
@@ -556,7 +556,7 @@
             this.tmn_Timbenhnhan.Image = ((System.Drawing.Image)(resources.GetObject("tmn_Timbenhnhan.Image")));
             this.tmn_Timbenhnhan.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tmn_Timbenhnhan.Name = "tmn_Timbenhnhan";
-            this.tmn_Timbenhnhan.Size = new System.Drawing.Size(97, 22);
+            this.tmn_Timbenhnhan.Size = new System.Drawing.Size(108, 22);
             this.tmn_Timbenhnhan.Text = "&Tìm bệnh nhân";
             this.tmn_Timbenhnhan.Click += new System.EventHandler(this.tmn_Timbenhnhan_Click);
             // 
@@ -571,7 +571,7 @@
             this.tmn_Timhoadon.Image = ((System.Drawing.Image)(resources.GetObject("tmn_Timhoadon.Image")));
             this.tmn_Timhoadon.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tmn_Timhoadon.Name = "tmn_Timhoadon";
-            this.tmn_Timhoadon.Size = new System.Drawing.Size(85, 22);
+            this.tmn_Timhoadon.Size = new System.Drawing.Size(95, 22);
             this.tmn_Timhoadon.Text = "Tìm h&oá đơn";
             this.tmn_Timhoadon.Click += new System.EventHandler(this.tmn_Timhoadon_Click);
             // 
@@ -586,7 +586,7 @@
             this.tmn_Bangkehoadon.Image = ((System.Drawing.Image)(resources.GetObject("tmn_Bangkehoadon.Image")));
             this.tmn_Bangkehoadon.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tmn_Bangkehoadon.Name = "tmn_Bangkehoadon";
-            this.tmn_Bangkehoadon.Size = new System.Drawing.Size(107, 22);
+            this.tmn_Bangkehoadon.Size = new System.Drawing.Size(116, 22);
             this.tmn_Bangkehoadon.Text = "Bả&ng kê hóa đơn";
             this.tmn_Bangkehoadon.Click += new System.EventHandler(this.tmn_Bangkehoadon_Click);
             // 
@@ -660,7 +660,7 @@
             this.tmn_Luuin_Hoadon.Font = new System.Drawing.Font("Tahoma", 8.25F);
             this.tmn_Luuin_Hoadon.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(51)))), ((int)(((byte)(0)))));
             this.tmn_Luuin_Hoadon.Name = "tmn_Luuin_Hoadon";
-            this.tmn_Luuin_Hoadon.Size = new System.Drawing.Size(299, 22);
+            this.tmn_Luuin_Hoadon.Size = new System.Drawing.Size(288, 22);
             this.tmn_Luuin_Hoadon.Text = "In hoá đơn";
             this.tmn_Luuin_Hoadon.Click += new System.EventHandler(this.tmn_Luuin_Hoadon_Click);
             // 
@@ -670,14 +670,14 @@
             this.tmn_Luuin_Hoadon_Chitiet.Font = new System.Drawing.Font("Tahoma", 8.25F);
             this.tmn_Luuin_Hoadon_Chitiet.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(51)))), ((int)(((byte)(0)))));
             this.tmn_Luuin_Hoadon_Chitiet.Name = "tmn_Luuin_Hoadon_Chitiet";
-            this.tmn_Luuin_Hoadon_Chitiet.Size = new System.Drawing.Size(299, 22);
+            this.tmn_Luuin_Hoadon_Chitiet.Size = new System.Drawing.Size(288, 22);
             this.tmn_Luuin_Hoadon_Chitiet.Text = "In hoá đơn chi tiết";
             this.tmn_Luuin_Hoadon_Chitiet.Click += new System.EventHandler(this.tmn_Luuin_Hoadon_Chitiet_Click);
             // 
             // toolStripSeparator11
             // 
             this.toolStripSeparator11.Name = "toolStripSeparator11";
-            this.toolStripSeparator11.Size = new System.Drawing.Size(296, 6);
+            this.toolStripSeparator11.Size = new System.Drawing.Size(285, 6);
             // 
             // tmn_Rangbuoc
             // 
@@ -691,7 +691,7 @@
             this.tmn_Rangbuoc.Font = new System.Drawing.Font("Tahoma", 8.25F);
             this.tmn_Rangbuoc.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(51)))), ((int)(((byte)(0)))));
             this.tmn_Rangbuoc.Name = "tmn_Rangbuoc";
-            this.tmn_Rangbuoc.Size = new System.Drawing.Size(299, 22);
+            this.tmn_Rangbuoc.Size = new System.Drawing.Size(288, 22);
             this.tmn_Rangbuoc.Text = "Ràng buộc bệnh nhân khi đóng tạm ứng";
             this.tmn_Rangbuoc.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.tmn_Rangbuoc.Visible = false;
@@ -703,7 +703,7 @@
             this.tmn_Cotiepdon.Font = new System.Drawing.Font("Tahoma", 8.25F);
             this.tmn_Cotiepdon.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(51)))), ((int)(((byte)(0)))));
             this.tmn_Cotiepdon.Name = "tmn_Cotiepdon";
-            this.tmn_Cotiepdon.Size = new System.Drawing.Size(138, 22);
+            this.tmn_Cotiepdon.Size = new System.Drawing.Size(127, 22);
             this.tmn_Cotiepdon.Text = "Tiếp đón";
             // 
             // tmn_Cokhambenh
@@ -713,7 +713,7 @@
             this.tmn_Cokhambenh.Font = new System.Drawing.Font("Tahoma", 8.25F);
             this.tmn_Cokhambenh.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(51)))), ((int)(((byte)(0)))));
             this.tmn_Cokhambenh.Name = "tmn_Cokhambenh";
-            this.tmn_Cokhambenh.Size = new System.Drawing.Size(138, 22);
+            this.tmn_Cokhambenh.Size = new System.Drawing.Size(127, 22);
             this.tmn_Cokhambenh.Text = "Khám bệnh";
             // 
             // tmn_Cophongluu
@@ -723,7 +723,7 @@
             this.tmn_Cophongluu.Font = new System.Drawing.Font("Tahoma", 8.25F);
             this.tmn_Cophongluu.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(51)))), ((int)(((byte)(0)))));
             this.tmn_Cophongluu.Name = "tmn_Cophongluu";
-            this.tmn_Cophongluu.Size = new System.Drawing.Size(138, 22);
+            this.tmn_Cophongluu.Size = new System.Drawing.Size(127, 22);
             this.tmn_Cophongluu.Text = "Phòng lưu";
             // 
             // tmn_Conhanbenh
@@ -733,20 +733,20 @@
             this.tmn_Conhanbenh.Font = new System.Drawing.Font("Tahoma", 8.25F);
             this.tmn_Conhanbenh.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(51)))), ((int)(((byte)(0)))));
             this.tmn_Conhanbenh.Name = "tmn_Conhanbenh";
-            this.tmn_Conhanbenh.Size = new System.Drawing.Size(138, 22);
+            this.tmn_Conhanbenh.Size = new System.Drawing.Size(127, 22);
             this.tmn_Conhanbenh.Text = "Nhận bệnh";
             // 
             // tmn_ngoaitru
             // 
             this.tmn_ngoaitru.Enabled = false;
             this.tmn_ngoaitru.Name = "tmn_ngoaitru";
-            this.tmn_ngoaitru.Size = new System.Drawing.Size(138, 22);
+            this.tmn_ngoaitru.Size = new System.Drawing.Size(127, 22);
             this.tmn_ngoaitru.Text = "Ngoại trú";
             // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(296, 6);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(285, 6);
             this.toolStripSeparator2.Visible = false;
             // 
             // tmn_Locsotheoloai
@@ -757,7 +757,7 @@
             this.tmn_Locsotheoloai.Font = new System.Drawing.Font("Tahoma", 8.25F);
             this.tmn_Locsotheoloai.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(51)))), ((int)(((byte)(0)))));
             this.tmn_Locsotheoloai.Name = "tmn_Locsotheoloai";
-            this.tmn_Locsotheoloai.Size = new System.Drawing.Size(299, 22);
+            this.tmn_Locsotheoloai.Size = new System.Drawing.Size(288, 22);
             this.tmn_Locsotheoloai.Text = "Lọc quyển sổ thu theo loại";
             this.tmn_Locsotheoloai.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.tmn_Locsotheoloai.Visible = false;
@@ -771,7 +771,7 @@
             this.tmn_Dungchungso.Font = new System.Drawing.Font("Tahoma", 8.25F);
             this.tmn_Dungchungso.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(51)))), ((int)(((byte)(0)))));
             this.tmn_Dungchungso.Name = "tmn_Dungchungso";
-            this.tmn_Dungchungso.Size = new System.Drawing.Size(299, 22);
+            this.tmn_Dungchungso.Size = new System.Drawing.Size(288, 22);
             this.tmn_Dungchungso.Text = "Cho phép dùng chung sổ";
             this.tmn_Dungchungso.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.tmn_Dungchungso.Visible = false;
@@ -783,7 +783,7 @@
             this.tmn_Nhapsotienchitiet.Font = new System.Drawing.Font("Tahoma", 8.25F);
             this.tmn_Nhapsotienchitiet.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(51)))), ((int)(((byte)(0)))));
             this.tmn_Nhapsotienchitiet.Name = "tmn_Nhapsotienchitiet";
-            this.tmn_Nhapsotienchitiet.Size = new System.Drawing.Size(299, 22);
+            this.tmn_Nhapsotienchitiet.Size = new System.Drawing.Size(288, 22);
             this.tmn_Nhapsotienchitiet.Text = "Nhập số tiền chi tiết";
             this.tmn_Nhapsotienchitiet.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.tmn_Nhapsotienchitiet.Visible = false;
@@ -791,7 +791,7 @@
             // toolStripSeparator10
             // 
             this.toolStripSeparator10.Name = "toolStripSeparator10";
-            this.toolStripSeparator10.Size = new System.Drawing.Size(296, 6);
+            this.toolStripSeparator10.Size = new System.Drawing.Size(285, 6);
             // 
             // tmn_Xemlaihoadon
             // 
@@ -801,7 +801,7 @@
             this.tmn_Xemlaihoadon.Font = new System.Drawing.Font("Tahoma", 8.25F);
             this.tmn_Xemlaihoadon.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(51)))), ((int)(((byte)(0)))));
             this.tmn_Xemlaihoadon.Name = "tmn_Xemlaihoadon";
-            this.tmn_Xemlaihoadon.Size = new System.Drawing.Size(299, 22);
+            this.tmn_Xemlaihoadon.Size = new System.Drawing.Size(288, 22);
             this.tmn_Xemlaihoadon.Text = "Xem lại hoá đơn củ sau khi nhập bệnh nhân";
             this.tmn_Xemlaihoadon.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.tmn_Xemlaihoadon.Click += new System.EventHandler(this.tmn_Xemlaihoadon_Click);
@@ -814,7 +814,7 @@
             this.tmn_Xemlaidanhsach.Font = new System.Drawing.Font("Tahoma", 8.25F);
             this.tmn_Xemlaidanhsach.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(51)))), ((int)(((byte)(0)))));
             this.tmn_Xemlaidanhsach.Name = "tmn_Xemlaidanhsach";
-            this.tmn_Xemlaidanhsach.Size = new System.Drawing.Size(299, 22);
+            this.tmn_Xemlaidanhsach.Size = new System.Drawing.Size(288, 22);
             this.tmn_Xemlaidanhsach.Text = "Xem lại danh sách thu trong ngày sau khi lưu";
             this.tmn_Xemlaidanhsach.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.tmn_Xemlaidanhsach.Click += new System.EventHandler(this.tmn_Xemlaidanhsach_Click);
