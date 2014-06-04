@@ -1,0 +1,99 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="id" type="xs:decimal" minOccurs="0" />
+                <xs:element name="maicd" type="xs:string" minOccurs="0" />
+                <xs:element name="chandoan" type="xs:string" minOccurs="0" />
+                <xs:element name="tenkp" type="xs:string" minOccurs="0" />
+                <xs:element name="mabsdt" type="xs:string" minOccurs="0" />
+                <xs:element name="bacsidt" type="xs:string" minOccurs="0" />
+                <xs:element name="ktv" type="xs:string" minOccurs="0" />
+                <xs:element name="bsdoc" type="xs:string" minOccurs="0" />
+                <xs:element name="tcls" type="xs:string" minOccurs="0" />
+                <xs:element name="tenmay" type="xs:string" minOccurs="0" />
+                <xs:element name="tinhtrang" type="xs:string" minOccurs="0" />
+                <xs:element name="sothe" type="xs:string" minOccurs="0" />
+                <xs:element name="denngay" type="xs:string" minOccurs="0" />
+                <xs:element name="tungay" type="xs:string" minOccurs="0" />
+                <xs:element name="mabv" type="xs:string" minOccurs="0" />
+                <xs:element name="doituong" type="xs:string" minOccurs="0" />
+                <xs:element name="ghichu" type="xs:string" minOccurs="0" />
+                <xs:element name="logo" type="xs:base64Binary" minOccurs="0" />
+                <xs:element name="chuky_ktv" type="xs:base64Binary" minOccurs="0" />
+                <xs:element name="chuky_bsd" type="xs:base64Binary" minOccurs="0" />
+                <xs:element name="chuky_bsdt" type="xs:base64Binary" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="btdbn">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="mabn" type="xs:string" minOccurs="0" />
+                <xs:element name="hoten" type="xs:string" minOccurs="0" />
+                <xs:element name="phai" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ngaysinh" type="xs:string" minOccurs="0" />
+                <xs:element name="tuoi" type="xs:decimal" minOccurs="0" />
+                <xs:element name="diachi" type="xs:string" minOccurs="0" />
+                <xs:element name="cholam" type="xs:string" minOccurs="0" />
+                <xs:element name="dienthoai" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="dtkq">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="id" type="xs:decimal" minOccurs="0" />
+                <xs:element name="makt" type="xs:string" minOccurs="0" />
+                <xs:element name="solan" type="xs:decimal" minOccurs="0" />
+                <xs:element name="ketluan" type="xs:string" minOccurs="0" />
+                <xs:element name="mota" type="xs:string" minOccurs="0" />
+                <xs:element name="denghi" type="xs:string" minOccurs="0" />
+                <xs:element name="tenkt" type="xs:string" minOccurs="0" />
+                <xs:element name="tenvung" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <id>130111153934053028</id>
+    <maicd />
+    <chandoan />
+    <tenkp>Phòng Khám Ngoại</tenkp>
+    <mabsdt>0000</mabsdt>
+    <bacsidt />
+    <ktv>Vũ Minh Đức</ktv>
+    <bsdoc>Lê Thị Hồng Loan</bsdoc>
+    <tcls />
+    <tinhtrang>Cấp cứu</tinhtrang>
+    <doituong>Thu phí</doituong>
+    <ghichu />
+  </Table>
+  <btdbn>
+    <mabn>13000001</mabn>
+    <hoten>PHẠM DUY CẢNH</hoten>
+    <phai>0</phai>
+    <ngaysinh>1983</ngaysinh>
+    <tuoi>30</tuoi>
+    <diachi>      P. Chiềng Lề   TP. Sơn La   Sơn La</diachi>
+    <cholam />
+    <dienthoai>  01667556448</dienthoai>
+  </btdbn>
+  <dtkq>
+    <id>130111153934053028</id>
+    <makt>DOM001</makt>
+    <solan>1</solan>
+    <ketluan>c</ketluan>
+    <mota>s</mota>
+    <denghi>b</denghi>
+    <tenkt>Đo Mật Độ Xương</tenkt>
+  </dtkq>
+</NewDataSet>

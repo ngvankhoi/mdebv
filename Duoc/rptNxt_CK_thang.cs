@@ -49,6 +49,7 @@ namespace Duoc
         private RichTextBox richTextBox1;
         private CheckBox chkTra_TinhvaoNhapkho;
         private CheckBox chkChuyenKho;
+        private CheckBox ckthuhoi_bosung;
 		/// <summary>
 		/// Required designer variable.
 		/// </summary>
@@ -120,10 +121,11 @@ namespace Duoc
             this.chktonghop = new System.Windows.Forms.CheckBox();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.chkChuyenKho = new System.Windows.Forms.CheckBox();
             this.chkTra_TinhvaoNhapkho = new System.Windows.Forms.CheckBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
-            this.chkChuyenKho = new System.Windows.Forms.CheckBox();
+            this.ckthuhoi_bosung = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.tu)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.yyyy)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.den)).BeginInit();
@@ -153,7 +155,7 @@ namespace Duoc
             // butIn
             // 
             this.butIn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.butIn.Location = new System.Drawing.Point(166, 212);
+            this.butIn.Location = new System.Drawing.Point(163, 263);
             this.butIn.Name = "butIn";
             this.butIn.Size = new System.Drawing.Size(70, 25);
             this.butIn.TabIndex = 14;
@@ -163,7 +165,7 @@ namespace Duoc
             // butKetthuc
             // 
             this.butKetthuc.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.butKetthuc.Location = new System.Drawing.Point(236, 212);
+            this.butKetthuc.Location = new System.Drawing.Point(239, 264);
             this.butKetthuc.Name = "butKetthuc";
             this.butKetthuc.Size = new System.Drawing.Size(70, 25);
             this.butKetthuc.TabIndex = 15;
@@ -361,11 +363,12 @@ namespace Duoc
             this.tabControl1.Location = new System.Drawing.Point(0, 0);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(489, 300);
+            this.tabControl1.Size = new System.Drawing.Size(489, 339);
             this.tabControl1.TabIndex = 20;
             // 
             // tabPage1
             // 
+            this.tabPage1.Controls.Add(this.ckthuhoi_bosung);
             this.tabPage1.Controls.Add(this.chkChuyenKho);
             this.tabPage1.Controls.Add(this.chkTra_TinhvaoNhapkho);
             this.tabPage1.Controls.Add(this.label1);
@@ -389,10 +392,20 @@ namespace Duoc
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(481, 274);
+            this.tabPage1.Size = new System.Drawing.Size(481, 313);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Nhập.Xuất.Tồn kho";
             this.tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // chkChuyenKho
+            // 
+            this.chkChuyenKho.AutoSize = true;
+            this.chkChuyenKho.Location = new System.Drawing.Point(16, 249);
+            this.chkChuyenKho.Name = "chkChuyenKho";
+            this.chkChuyenKho.Size = new System.Drawing.Size(131, 17);
+            this.chkChuyenKho.TabIndex = 21;
+            this.chkChuyenKho.Text = "Chuyển kho tính riêng";
+            this.chkChuyenKho.UseVisualStyleBackColor = true;
             // 
             // chkTra_TinhvaoNhapkho
             // 
@@ -410,7 +423,7 @@ namespace Duoc
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(481, 253);
+            this.tabPage2.Size = new System.Drawing.Size(481, 274);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Hướng dẫn";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -421,24 +434,24 @@ namespace Duoc
             this.richTextBox1.Location = new System.Drawing.Point(3, 3);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.ReadOnly = true;
-            this.richTextBox1.Size = new System.Drawing.Size(475, 247);
+            this.richTextBox1.Size = new System.Drawing.Size(475, 268);
             this.richTextBox1.TabIndex = 1;
             this.richTextBox1.Text = resources.GetString("richTextBox1.Text");
             // 
-            // chkChuyenKho
+            // ckthuhoi_bosung
             // 
-            this.chkChuyenKho.AutoSize = true;
-            this.chkChuyenKho.Location = new System.Drawing.Point(16, 249);
-            this.chkChuyenKho.Name = "chkChuyenKho";
-            this.chkChuyenKho.Size = new System.Drawing.Size(131, 17);
-            this.chkChuyenKho.TabIndex = 21;
-            this.chkChuyenKho.Text = "Chuyển kho tính riêng";
-            this.chkChuyenKho.UseVisualStyleBackColor = true;
+            this.ckthuhoi_bosung.AutoSize = true;
+            this.ckthuhoi_bosung.Location = new System.Drawing.Point(152, 229);
+            this.ckthuhoi_bosung.Name = "ckthuhoi_bosung";
+            this.ckthuhoi_bosung.Size = new System.Drawing.Size(208, 17);
+            this.ckthuhoi_bosung.TabIndex = 22;
+            this.ckthuhoi_bosung.Text = "Thu hồi, bổ sung tính vào chuyển kho";
+            this.ckthuhoi_bosung.UseVisualStyleBackColor = true;
             // 
             // rptNxt_CK_thang
             // 
             this.AutoScaleBaseSize = new System.Drawing.Size(5, 13);
-            this.ClientSize = new System.Drawing.Size(489, 300);
+            this.ClientSize = new System.Drawing.Size(489, 339);
             this.Controls.Add(this.tabControl1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -447,8 +460,8 @@ namespace Duoc
             this.Name = "rptNxt_CK_thang";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Nhập xuất tồn tháng";
-            this.Load += new System.EventHandler(this.rptNxt_CK_Load);
             this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.rptNxt_CK_MouseMove);
+            this.Load += new System.EventHandler(this.rptNxt_CK_Load);
             ((System.ComponentModel.ISupportInitialize)(this.tu)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.yyyy)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.den)).EndInit();
@@ -930,7 +943,7 @@ namespace Duoc
 				if (s_manhom!="") sql+=" and c.manhom in ("+s_manhom.Substring(0,s_manhom.Length-1)+")";
 				if (manguon.SelectedIndex!=-1) sql+=" and d.manguon="+int.Parse(manguon.SelectedValue.ToString());
                 //if (s_khott.Trim().Trim(',') != "") sql += " and a.khox not in (" + s_khott.Substring(0, s_khott.Length - 1) + ")";//binh comment 11062013 --
-                if (s_kho.Trim().Trim(',') != "") sql += " and a.khox not in (" + s_kho.Substring(0, s_kho.Length - 1) + ")";
+                //if (s_kho.Trim().Trim(',') != "") sql += " and a.khox not in (" + s_kho.Substring(0, s_kho.Length - 1) + ")";  //truong thuy comment 03062014
 				sql+=" group by ";
 				if (i_tt==1) sql+="a.khon,";
 				if (bGiaban)
@@ -1054,7 +1067,7 @@ namespace Duoc
 		{
             xxx = user + d_mmyy;
             string s_gia = (gianovat.Checked) ? "d.gianovat" : "d.giamua";
-			sql="select ";
+			sql="select 0 as loai ,";
 			if (i_tt==1) sql+="b.makho,";
 			if (bGiaban)
 			{
@@ -1083,8 +1096,16 @@ namespace Duoc
             if (gianovat.Checked) sql += "d.gianovat,";
             sql += "b.mabd,trunc(" + s_gia + "," + i_dongiale + "),d.manguon";
 			//xu ly tren d_thucbucstt: bu tu truc
-			sql+=" union all select ";
-			if (i_tt==1) sql+="b.makho,";
+			sql+=" union all select  ";
+            if (ckthuhoi_bosung.Checked)
+            {
+                sql += " 1 as loai, ";
+            }
+            else
+            {
+                sql += " 0 as loai, ";
+            }
+                if (i_tt==1) sql+="b.makho,";
 			if (bGiaban)
 			{
 				if (bGiabandot) sql+="b.giaban,";
@@ -1112,7 +1133,15 @@ namespace Duoc
             if (gianovat.Checked) sql += "d.gianovat,";
             sql += "b.mabd,trunc(" + s_gia + "," + i_dongiale + "),d.manguon";
 			//xuat CK, BS, XK
-			sql+=" union all select ";
+			sql+=" union all select  ";
+            if (ckthuhoi_bosung.Checked)
+            {
+                sql += " 1 as loai, ";
+            }
+            else
+            {
+                sql += " 0 as loai ,";
+            }
 			if (i_tt==1) sql+="a.khox makho,";
 			if (bGiaban)
 			{
@@ -1127,7 +1156,7 @@ namespace Duoc
             if (gianovat.Checked) sql += " sum(b.soluong*d.gianovat) as sotien ";
             else sql += " sum(b.soluong*d.giamua) as sotien ";
             sql += " from " + xxx + ".d_xuatll a," + xxx + ".d_xuatct b," + user + ".d_dmbd c," + xxx + ".d_theodoi d where a.id=b.id and b.mabd=c.id and b.sttt=d.id and a.nhom=" + i_nhom;
-			sql+=" and a.loai in ('BS','XK')";
+			sql+=" and a.loai in ('BS')";
 			if (s_kho!="") sql+=" and a.khox in ("+s_kho.Substring(0,s_kho.Length-1)+")";
 			if (s_manhom!="") sql+=" and c.manhom in ("+s_manhom.Substring(0,s_manhom.Length-1)+")";
 			if (manguon.SelectedIndex!=-1) sql+=" and d.manguon="+int.Parse(manguon.SelectedValue.ToString());
@@ -1142,7 +1171,37 @@ namespace Duoc
             if (gianovat.Checked) sql += "d.gianovat,";
             sql += "b.mabd,trunc(" + s_gia + "," + i_dongiale + "),d.manguon";
 			//BHYT
-			sql+=" union all select ";
+            sql += " union all select 0 as loai,  ";
+            if (i_tt == 1) sql += "a.khox makho,";
+            if (bGiaban)
+            {
+                if (bGiabandot) sql += "b.giaban,";
+                else sql += "c.giaban,";
+            }
+            else sql += "0 as giaban,";
+            if (gianovat.Checked) sql += "d.gianovat,";
+            else sql += "0 as gianovat,";
+            sql += "b.mabd,trunc(" + s_gia + "," + i_dongiale + ") as dongia, d.manguon,";
+            sql += "sum(b.soluong) as soluong,";
+            if (gianovat.Checked) sql += " sum(b.soluong*d.gianovat) as sotien ";
+            else sql += " sum(b.soluong*d.giamua) as sotien ";
+            sql += " from " + xxx + ".d_xuatll a," + xxx + ".d_xuatct b," + user + ".d_dmbd c," + xxx + ".d_theodoi d where a.id=b.id and b.mabd=c.id and b.sttt=d.id and a.nhom=" + i_nhom;
+            sql += " and a.loai in ('XK')";
+            if (s_kho != "") sql += " and a.khox in (" + s_kho.Substring(0, s_kho.Length - 1) + ")";
+            if (s_manhom != "") sql += " and c.manhom in (" + s_manhom.Substring(0, s_manhom.Length - 1) + ")";
+            if (manguon.SelectedIndex != -1) sql += " and d.manguon=" + int.Parse(manguon.SelectedValue.ToString());
+            sql += " and b.soluong>0";
+            sql += " group by ";
+            if (i_tt == 1) sql += " a.khox,";
+            if (bGiaban)
+            {
+                if (bGiabandot) sql += "b.giaban,";
+                else sql += "c.giaban,";
+            }
+            if (gianovat.Checked) sql += "d.gianovat,";
+            sql += "b.mabd,trunc(" + s_gia + "," + i_dongiale + "),d.manguon";
+            //BHYT
+			sql+=" union all select 0 as loai,  ";
 			if (i_tt==1) sql+="b.makho,";
 			if (bGiaban)
 			{
@@ -1172,7 +1231,7 @@ namespace Duoc
             sql += "b.mabd,trunc(" + s_gia + "," + i_dongiale + "),d.manguon";
 			//ngoaitru
 			//
-			sql+=" union all select ";
+			sql+=" union all select  0 as loai,";
 			if (i_tt==1) sql+="b.makho,";
 			if (bGiaban)
 			{
@@ -1200,8 +1259,14 @@ namespace Duoc
 			}
             if (gianovat.Checked) sql += "d.gianovat,";
             sql += "b.mabd,trunc(" + s_gia + "," + i_dongiale + "),d.manguon";
+            string f1 = "slxuat", f2 = "stxuat";
 			foreach(DataRow r in d.get_data(sql).Tables[0].Rows)
-			{				
+            {
+                f1 = "slxuat"; f2 = "stxuat";
+                if (r["loai"].ToString() == "1")// && !bGiaban)
+                {
+                    f1 += "_ck"; f2 += "_ck";
+                }
 				exp="mabd="+int.Parse(r["mabd"].ToString());
 				exp+=" and dongia="+decimal.Parse(r["dongia"].ToString());
                 exp += " and gianovat=" + decimal.Parse(r["gianovat"].ToString());
@@ -1232,8 +1297,10 @@ namespace Duoc
 						r2["stnhap_ck"]=0;
 						r2["slxuat_ck"]=0;
 						r2["stxuat_ck"]=0;
-						r2["slxuat"]=r["soluong"].ToString();
-						r2["stxuat"]=r["sotien"].ToString();
+                        r2["slxuat"] = 0;
+                        r2["stxuat"] = 0;
+                        r2[f1]= r["soluong"].ToString();
+                        r2[f2]=r["sotien"].ToString();
 						r2["dongia"]=r["dongia"].ToString();
 						r2["giaban"]=r["giaban"].ToString();
                         r2["gianovat"] = r["gianovat"].ToString();
@@ -1265,8 +1332,8 @@ namespace Duoc
 				else
 				{
 					DataRow[] dr = ds.Tables[0].Select(exp);
-					dr[0]["slxuat"]=decimal.Parse(dr[0]["slxuat"].ToString())+decimal.Parse(r["soluong"].ToString());
-					dr[0]["stxuat"]=decimal.Parse(dr[0]["stxuat"].ToString())+decimal.Parse(r["sotien"].ToString());
+					dr[0][f1]=decimal.Parse(dr[0][f1].ToString())+decimal.Parse(r["soluong"].ToString());
+					dr[0][f2]=decimal.Parse(dr[0][f2].ToString())+decimal.Parse(r["sotien"].ToString());
 				}
 			}
 			sql="select ";
@@ -1284,7 +1351,7 @@ namespace Duoc
             else sql += " sum(b.soluong*d.giamua) as sotien ";
             sql += "from " + xxx + ".d_xuatll a," + xxx + ".d_xuatct b," + user + ".d_dmbd c," + xxx + ".d_theodoi d where a.id=b.id and b.mabd=c.id and b.sttt=d.id and a.nhom=" + i_nhom + " and a.loai in ('CK')";
             if (s_kho.Trim().Trim(',') != "") sql += " and a.khox in (" + s_kho.Trim().Trim(',') + ")";
-            if (s_kho.Trim().Trim(',') != "") sql += " and a.khon not in (" + s_kho.Trim().Trim(',') + ")";
+           // if (s_kho.Trim().Trim(',') != "") sql += " and a.khon not in (" + s_kho.Trim().Trim(',') + ")"; truong thuy edit 03062014
 			if (s_manhom!="") sql+=" and c.manhom in ("+s_manhom.Substring(0,s_manhom.Length-1)+")";
 			if (manguon.SelectedIndex!=-1) sql+=" and d.manguon="+int.Parse(manguon.SelectedValue.ToString());
 			sql+=" and b.soluong>0";

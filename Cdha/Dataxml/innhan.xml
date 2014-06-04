@@ -1,0 +1,61 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Table">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="mabn" type="xs:string" minOccurs="0" />
+                <xs:element name="hoten" type="xs:string" minOccurs="0" />
+                <xs:element name="phai" type="xs:string" minOccurs="0" />
+                <xs:element name="namsinh" type="xs:string" minOccurs="0" />
+                <xs:element name="tenkt" type="xs:string" minOccurs="0" />
+                <xs:element name="tenkp" type="xs:string" minOccurs="0" />
+                <xs:element name="ngay" type="xs:string" minOccurs="0" />
+                <xs:element name="mabn1" type="xs:string" minOccurs="0" />
+                <xs:element name="hoten1" type="xs:string" minOccurs="0" />
+                <xs:element name="phai1" type="xs:string" minOccurs="0" />
+                <xs:element name="namsinh1" type="xs:string" minOccurs="0" />
+                <xs:element name="tenkt1" type="xs:string" minOccurs="0" />
+                <xs:element name="tenkp1" type="xs:string" minOccurs="0" />
+                <xs:element name="ngay1" type="xs:string" minOccurs="0" />
+                <xs:element name="mabn2" type="xs:string" minOccurs="0" />
+                <xs:element name="hoten2" type="xs:string" minOccurs="0" />
+                <xs:element name="phai2" type="xs:string" minOccurs="0" />
+                <xs:element name="namsinh2" type="xs:string" minOccurs="0" />
+                <xs:element name="tenkt2" type="xs:string" minOccurs="0" />
+                <xs:element name="tenkp2" type="xs:string" minOccurs="0" />
+                <xs:element name="ngay2" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Table>
+    <mabn>12012334</mabn>
+    <hoten>MAI TRÚC SANG</hoten>
+    <phai>Nữ</phai>
+    <namsinh>1985</namsinh>
+    <tenkt>Chụp Blondeau - Hirtz/ CR</tenkt>
+    <tenkp>P.Khám Số 10</tenkp>
+    <ngay>26/03/2012</ngay>
+    <mabn1>12012336</mabn1>
+    <hoten1>MAI VĂN THU</hoten1>
+    <phai1>Nam</phai1>
+    <namsinh1>1962</namsinh1>
+    <tenkt1>Chụp răng kỹ thuật số</tenkt1>
+    <tenkp1>P.Khám Số 3 [RHM]</tenkp1>
+    <ngay1>26/03/2012</ngay1>
+    <mabn2>12012338</mabn2>
+    <hoten2>NGUYỄN THANH THỦY</hoten2>
+    <phai2>Nữ</phai2>
+    <namsinh2>1980</namsinh2>
+    <tenkt2>Chụp cột sống thắt lưng thẳng - nghiêng / CR</tenkt2>
+    <tenkp2>P. Khám Số 2</tenkp2>
+    <ngay2>26/03/2012</ngay2>
+  </Table>
+</NewDataSet>
