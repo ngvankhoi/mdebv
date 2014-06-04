@@ -10,3 +10,4 @@
 *.suo
 /xml/maincode.xml
 /*.*
+/LinkNpgsql/*
