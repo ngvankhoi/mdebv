@@ -87,37 +87,1128 @@
     </xs:element>
   </xs:schema>
   <toa1>
-    <TENBV>Pk Cán Bộ Bvđk Xanh Pôn</TENBV>
-    <MAKP>13</MAKP>
-    <TENKP>Khoa Nội TH</TENKP>
+    <TENBV />
+    <MAKP>05</MAKP>
+    <TENKP>Pk.Nội 1</TENKP>
     <MADOITUONG>1</MADOITUONG>
     <DOITUONG>BHYT</DOITUONG>
-    <PHONG>Buồng thường</PHONG>
-    <GIUONG>NTH-1-7</GIUONG>
-    <MABN>14789789</MABN>
-    <HOTEN>TEST CONGKHAI ,Giới tính :Nam, Năm sinh :1989</HOTEN>
+    <MABN>11565656</MABN>
+    <HOTEN>GGGGGGGG ,Giới tính :Nam, Năm sinh :1989</HOTEN>
     <NHOM>Viện phí</NHOM>
     <LOAI>0</LOAI>
-    <MA>-11818</MA>
-    <TEN>Nội soi ống mật chủ</TEN>
+    <MA>-1</MA>
+    <TEN>Khám bệnh</TEN>
     <DVT>Lần</DVT>
-    <SOLUONG>2.000</SOLUONG>
-    <DONGIA>110000</DONGIA>
-    <NGAY>Ngày 23/05/2014</NGAY>
+    <SOLUONG>1</SOLUONG>
+    <DONGIA>13500</DONGIA>
+    <NGAY>Ngày 03/06/2014</NGAY>
     <TENLOAI />
     <PHIEU />
-    <BACSY>Nguyễn Thị Khang Liệu</BACSY>
-    <giaban>110000</giaban>
-    <sothe>HN8576438643674</sothe>
-    <tungay>01/01/2014 12:00:00 AM</tungay>
-    <denngay>12/31/2014 12:00:00 AM</denngay>
-    <mabv>01-002</mabv>
+    <giaban>13500</giaban>
     <traituyen>0</traituyen>
-    <maicd>A00.1</maicd>
-    <chandoan>Bệnh tả do Vibrio cholerae 01, typ sinh học eltor</chandoan>
     <manhom>0</manhom>
     <tennhom>CLS</tennhom>
     <hotennguoinhap />
     <stt>1</stt>
   </toa1>
+  <toa1>
+    <TENBV>Bệnh viện Xanh Pôn</TENBV>
+    <MAKP>24</MAKP>
+    <TENKP>Khoa HSTC</TENKP>
+    <MADOITUONG>1</MADOITUONG>
+    <DOITUONG>BHYT</DOITUONG>
+    <PHONG />
+    <GIUONG />
+    <MABN>14000170</MABN>
+    <HOTEN>TEST GAYME0306 ,Giới tính :Nam, Năm sinh :1996</HOTEN>
+    <NHOM>Viện phí</NHOM>
+    <LOAI>0</LOAI>
+    <MA>13499</MA>
+    <TEN>Giường thường 04</TEN>
+    <DVT>Ngày</DVT>
+    <SOLUONG>1.0000</SOLUONG>
+    <DONGIA>92000.0000</DONGIA>
+    <NGAY>Ngày 03/06/2014</NGAY>
+    <TENLOAI />
+    <PHIEU />
+    <BACSY>Nguyễn Thị Khang Liệu</BACSY>
+    <giaban>92000.0000</giaban>
+    <sothe>HN4354354365453</sothe>
+    <tungay>12/12/2000 12:00:00 AM</tungay>
+    <denngay>12/12/2014 12:00:00 AM</denngay>
+    <mabv>01003</mabv>
+    <traituyen>0</traituyen>
+    <maicd>A04.2</maicd>
+    <chandoan>Nhiễm Escherichia coli xâm nhập</chandoan>
+    <manhom>0</manhom>
+    <tennhom>CLS</tennhom>
+    <hotennguoinhap />
+    <stt>2</stt>
+  </toa1>
+  <toa1>
+    <TENBV>Bệnh viện Xanh Pôn</TENBV>
+    <MAKP>24</MAKP>
+    <TENKP>Khoa HSTC</TENKP>
+    <MADOITUONG>1</MADOITUONG>
+    <DOITUONG>BHYT</DOITUONG>
+    <PHONG />
+    <GIUONG />
+    <MABN>14000170</MABN>
+    <HOTEN>TEST GAYME0306 ,Giới tính :Nam, Năm sinh :1996</HOTEN>
+    <NHOM>Viện phí</NHOM>
+    <LOAI>0</LOAI>
+    <MA>-11719</MA>
+    <TEN>Phẫu thuật hạ tinh hoàn qua nội soi</TEN>
+    <DVT>Lần</DVT>
+    <SOLUONG>1</SOLUONG>
+    <DONGIA>3000000</DONGIA>
+    <NGAY>Ngày 03/06/2014</NGAY>
+    <TENLOAI />
+    <PHIEU />
+    <BACSY>Nguyễn Thị Khang Liệu</BACSY>
+    <giaban>3000000</giaban>
+    <sothe>HN4354354365453</sothe>
+    <tungay>12/12/2000 12:00:00 AM</tungay>
+    <denngay>12/12/2014 12:00:00 AM</denngay>
+    <mabv>01003</mabv>
+    <traituyen>0</traituyen>
+    <maicd>A04.2</maicd>
+    <chandoan>Nhiễm Escherichia coli xâm nhập</chandoan>
+    <manhom>0</manhom>
+    <tennhom>CLS</tennhom>
+    <hotennguoinhap />
+    <stt>2</stt>
+  </toa1>
+  <toa1>
+    <TENBV>Bệnh viện Xanh Pôn</TENBV>
+    <MAKP>24</MAKP>
+    <TENKP>Khoa HSTC</TENKP>
+    <MADOITUONG>1</MADOITUONG>
+    <DOITUONG>BHYT</DOITUONG>
+    <PHONG />
+    <GIUONG />
+    <MABN>14000170</MABN>
+    <HOTEN>TEST GAYME0306 ,Giới tính :Nam, Năm sinh :1996</HOTEN>
+    <NHOM>Viện phí</NHOM>
+    <LOAI>0</LOAI>
+    <MA>-11714</MA>
+    <TEN>Lấy sỏi niệu quản, sỏi thận qua nội soi sau phúc mạc</TEN>
+    <DVT>Lần</DVT>
+    <SOLUONG>1</SOLUONG>
+    <DONGIA>3500000</DONGIA>
+    <NGAY>Ngày 03/06/2014</NGAY>
+    <TENLOAI />
+    <PHIEU />
+    <BACSY>Nguyễn Thị Khang Liệu</BACSY>
+    <giaban>3500000</giaban>
+    <sothe>HN4354354365453</sothe>
+    <tungay>12/12/2000 12:00:00 AM</tungay>
+    <denngay>12/12/2014 12:00:00 AM</denngay>
+    <mabv>01003</mabv>
+    <traituyen>0</traituyen>
+    <maicd>A04.2</maicd>
+    <chandoan>Nhiễm Escherichia coli xâm nhập</chandoan>
+    <manhom>0</manhom>
+    <tennhom>CLS</tennhom>
+    <hotennguoinhap />
+    <stt>2</stt>
+  </toa1>
+  <toa1>
+    <TENBV>Bệnh viện Xanh Pôn</TENBV>
+    <MAKP>24</MAKP>
+    <TENKP>Khoa HSTC</TENKP>
+    <MADOITUONG>1</MADOITUONG>
+    <DOITUONG>BHYT</DOITUONG>
+    <PHONG />
+    <GIUONG />
+    <MABN>14000170</MABN>
+    <HOTEN>TEST GAYME0306 ,Giới tính :Nam, Năm sinh :1996</HOTEN>
+    <NHOM>Viện phí</NHOM>
+    <LOAI>0</LOAI>
+    <MA>-283</MA>
+    <TEN>Ghép da tự thân trong điều trị bỏng</TEN>
+    <DVT>lần</DVT>
+    <SOLUONG>1</SOLUONG>
+    <DONGIA>60000</DONGIA>
+    <NGAY>Ngày 03/06/2014</NGAY>
+    <TENLOAI />
+    <PHIEU />
+    <BACSY>Nguyễn Thị Khang Liệu</BACSY>
+    <giaban>60000</giaban>
+    <sothe>HN4354354365453</sothe>
+    <tungay>12/12/2000 12:00:00 AM</tungay>
+    <denngay>12/12/2014 12:00:00 AM</denngay>
+    <mabv>01003</mabv>
+    <traituyen>0</traituyen>
+    <maicd>A04.2</maicd>
+    <chandoan>Nhiễm Escherichia coli xâm nhập</chandoan>
+    <manhom>0</manhom>
+    <tennhom>CLS</tennhom>
+    <hotennguoinhap />
+    <stt>2</stt>
+  </toa1>
+  <toa1>
+    <TENBV>Bệnh viện Xanh Pôn</TENBV>
+    <MAKP>24</MAKP>
+    <TENKP>Khoa HSTC</TENKP>
+    <MADOITUONG>1</MADOITUONG>
+    <DOITUONG>BHYT</DOITUONG>
+    <PHONG />
+    <GIUONG />
+    <MABN>14000170</MABN>
+    <HOTEN>TEST GAYME0306 ,Giới tính :Nam, Năm sinh :1996</HOTEN>
+    <NHOM>Viện phí</NHOM>
+    <LOAI>0</LOAI>
+    <MA>-281</MA>
+    <TEN>Ghép da dị loại trong điều trị bỏng</TEN>
+    <DVT>lần</DVT>
+    <SOLUONG>1</SOLUONG>
+    <DONGIA>50000</DONGIA>
+    <NGAY>Ngày 03/06/2014</NGAY>
+    <TENLOAI />
+    <PHIEU />
+    <BACSY>Nguyễn Thị Khang Liệu</BACSY>
+    <giaban>50000</giaban>
+    <sothe>HN4354354365453</sothe>
+    <tungay>12/12/2000 12:00:00 AM</tungay>
+    <denngay>12/12/2014 12:00:00 AM</denngay>
+    <mabv>01003</mabv>
+    <traituyen>0</traituyen>
+    <maicd>A04.2</maicd>
+    <chandoan>Nhiễm Escherichia coli xâm nhập</chandoan>
+    <manhom>0</manhom>
+    <tennhom>CLS</tennhom>
+    <hotennguoinhap />
+    <stt>2</stt>
+  </toa1>
+  <toa1>
+    <TENBV>Bệnh viện Xanh Pôn</TENBV>
+    <MAKP>24</MAKP>
+    <TENKP>Khoa HSTC</TENKP>
+    <MADOITUONG>1</MADOITUONG>
+    <DOITUONG>BHYT</DOITUONG>
+    <PHONG />
+    <GIUONG />
+    <MABN>14000170</MABN>
+    <HOTEN>TEST GAYME0306 ,Giới tính :Nam, Năm sinh :1996</HOTEN>
+    <NHOM>Viện phí</NHOM>
+    <LOAI>0</LOAI>
+    <MA>-267</MA>
+    <TEN>Siêu lọc máu có kết hợp thẩm tách trong 24h (chưa bao gồm màng lọc và dây dẫn đi kèm)</TEN>
+    <DVT>lần</DVT>
+    <SOLUONG>1</SOLUONG>
+    <DONGIA>2000000</DONGIA>
+    <NGAY>Ngày 03/06/2014</NGAY>
+    <TENLOAI />
+    <PHIEU />
+    <BACSY>Nguyễn Thị Khang Liệu</BACSY>
+    <giaban>2000000</giaban>
+    <sothe>HN4354354365453</sothe>
+    <tungay>12/12/2000 12:00:00 AM</tungay>
+    <denngay>12/12/2014 12:00:00 AM</denngay>
+    <mabv>01003</mabv>
+    <traituyen>0</traituyen>
+    <maicd>A04.2</maicd>
+    <chandoan>Nhiễm Escherichia coli xâm nhập</chandoan>
+    <manhom>0</manhom>
+    <tennhom>CLS</tennhom>
+    <hotennguoinhap />
+    <stt>2</stt>
+  </toa1>
+  <toa1>
+    <TENBV />
+    <MAKP>05</MAKP>
+    <TENKP>Pk.Nội 1</TENKP>
+    <MADOITUONG>1</MADOITUONG>
+    <DOITUONG>BHYT</DOITUONG>
+    <MABN>14000172</MABN>
+    <HOTEN>TEST NGOAITRU0306 ,Giới tính :Nam, Năm sinh :1989</HOTEN>
+    <NHOM>Viện phí</NHOM>
+    <LOAI>0</LOAI>
+    <MA>-1</MA>
+    <TEN>Khám bệnh</TEN>
+    <DVT>Lần</DVT>
+    <SOLUONG>1</SOLUONG>
+    <DONGIA>13500</DONGIA>
+    <NGAY>Ngày 03/06/2014</NGAY>
+    <TENLOAI />
+    <PHIEU />
+    <giaban>13500</giaban>
+    <traituyen>0</traituyen>
+    <manhom>0</manhom>
+    <tennhom>CLS</tennhom>
+    <hotennguoinhap />
+    <stt>3</stt>
+  </toa1>
+  <toa1>
+    <TENBV />
+    <MAKP>05</MAKP>
+    <TENKP>Pk.Nội 1</TENKP>
+    <MADOITUONG>1</MADOITUONG>
+    <DOITUONG>BHYT</DOITUONG>
+    <MABN>14000174</MABN>
+    <HOTEN>TEST NGOAI TRU 0306 ,Giới tính :Nam, Năm sinh :1993</HOTEN>
+    <NHOM>Viện phí</NHOM>
+    <LOAI>0</LOAI>
+    <MA>-1</MA>
+    <TEN>Khám bệnh</TEN>
+    <DVT>Lần</DVT>
+    <SOLUONG>1</SOLUONG>
+    <DONGIA>13500</DONGIA>
+    <NGAY>Ngày 03/06/2014</NGAY>
+    <TENLOAI />
+    <PHIEU />
+    <giaban>13500</giaban>
+    <traituyen>0</traituyen>
+    <manhom>0</manhom>
+    <tennhom>CLS</tennhom>
+    <hotennguoinhap />
+    <stt>4</stt>
+  </toa1>
+  <toa1>
+    <TENBV />
+    <MAKP>05</MAKP>
+    <TENKP>Pk.Nội 1</TENKP>
+    <MADOITUONG>1</MADOITUONG>
+    <DOITUONG>BHYT</DOITUONG>
+    <MABN>14000176</MABN>
+    <HOTEN>TEST DIEUTRI NGOAI TRU 0306 ,Giới tính :Nam, Năm sinh :1990</HOTEN>
+    <NHOM>Viện phí</NHOM>
+    <LOAI>0</LOAI>
+    <MA>-1</MA>
+    <TEN>Khám bệnh</TEN>
+    <DVT>Lần</DVT>
+    <SOLUONG>1</SOLUONG>
+    <DONGIA>13500</DONGIA>
+    <NGAY>Ngày 03/06/2014</NGAY>
+    <TENLOAI />
+    <PHIEU />
+    <giaban>13500</giaban>
+    <traituyen>0</traituyen>
+    <manhom>0</manhom>
+    <tennhom>CLS</tennhom>
+    <hotennguoinhap />
+    <stt>5</stt>
+  </toa1>
+  <toa1>
+    <TENBV>PK SK cán bộ 59B Trần Phú</TENBV>
+    <MAKP>13</MAKP>
+    <TENKP>Khoa Nội TH</TENKP>
+    <MADOITUONG>1</MADOITUONG>
+    <DOITUONG>BHYT</DOITUONG>
+    <PHONG>buồng cấp cứu</PHONG>
+    <GIUONG>NTH-2-7</GIUONG>
+    <MABN>14151515</MABN>
+    <HOTEN>TEST HUY SL ,Giới tính :Nam, Năm sinh :1989</HOTEN>
+    <NHOM>Viện phí</NHOM>
+    <LOAI>0</LOAI>
+    <MA>13640</MA>
+    <TEN>Giường cấp cứu 7</TEN>
+    <DVT>Ngày</DVT>
+    <SOLUONG>1.0000</SOLUONG>
+    <DONGIA>92000.0000</DONGIA>
+    <NGAY>Ngày 03/06/2014</NGAY>
+    <TENLOAI />
+    <PHIEU />
+    <BACSY>ThS. Bùi Chí Nam</BACSY>
+    <giaban>92000.0000</giaban>
+    <sothe>HN3467496740978</sothe>
+    <tungay>01/01/2014 12:00:00 AM</tungay>
+    <denngay>12/31/2014 12:00:00 AM</denngay>
+    <mabv>01002</mabv>
+    <traituyen>0</traituyen>
+    <maicd>A01</maicd>
+    <chandoan>Bệnh thương hàn và phó thương hàn</chandoan>
+    <manhom>0</manhom>
+    <tennhom>CLS</tennhom>
+    <hotennguoinhap />
+    <stt>6</stt>
+  </toa1>
+  <toa1>
+    <TENBV>PK SK cán bộ 59B Trần Phú</TENBV>
+    <MAKP>13</MAKP>
+    <TENKP>Khoa Nội TH</TENKP>
+    <MADOITUONG>1</MADOITUONG>
+    <DOITUONG>BHYT</DOITUONG>
+    <PHONG>buồng cấp cứu</PHONG>
+    <GIUONG>NTH-2-7</GIUONG>
+    <MABN>14151515</MABN>
+    <HOTEN>TEST HUY SL ,Giới tính :Nam, Năm sinh :1989</HOTEN>
+    <NHOM>Viện phí</NHOM>
+    <LOAI>0</LOAI>
+    <MA>-15180</MA>
+    <TEN>Chọc hút dịch màng phổi</TEN>
+    <DVT>Lần</DVT>
+    <SOLUONG>1</SOLUONG>
+    <DONGIA>80000</DONGIA>
+    <NGAY>Ngày 03/06/2014</NGAY>
+    <TENLOAI />
+    <PHIEU />
+    <BACSY>ThS. Bùi Chí Nam</BACSY>
+    <giaban>80000</giaban>
+    <sothe>HN3467496740978</sothe>
+    <tungay>01/01/2014 12:00:00 AM</tungay>
+    <denngay>12/31/2014 12:00:00 AM</denngay>
+    <mabv>01002</mabv>
+    <traituyen>0</traituyen>
+    <maicd>A01</maicd>
+    <chandoan>Bệnh thương hàn và phó thương hàn</chandoan>
+    <manhom>0</manhom>
+    <tennhom>CLS</tennhom>
+    <hotennguoinhap />
+    <stt>6</stt>
+  </toa1>
+  <toa1>
+    <TENBV />
+    <MAKP>05</MAKP>
+    <TENKP>Pk.Nội 1</TENKP>
+    <MADOITUONG>1</MADOITUONG>
+    <DOITUONG>BHYT</DOITUONG>
+    <MABN>146666666</MABN>
+    <HOTEN>TEST ANH ,Giới tính :Nam, Năm sinh :1989</HOTEN>
+    <NHOM>Viện phí</NHOM>
+    <LOAI>0</LOAI>
+    <MA>-1</MA>
+    <TEN>Khám bệnh</TEN>
+    <DVT>Lần</DVT>
+    <SOLUONG>1</SOLUONG>
+    <DONGIA>13500</DONGIA>
+    <NGAY>Ngày 03/06/2014</NGAY>
+    <TENLOAI />
+    <PHIEU />
+    <giaban>13500</giaban>
+    <traituyen>0</traituyen>
+    <manhom>0</manhom>
+    <tennhom>CLS</tennhom>
+    <hotennguoinhap />
+    <stt>7</stt>
+  </toa1>
+  <toa1>
+    <TENBV />
+    <MAKP>03</MAKP>
+    <TENKP>Pk.Da Liễu</TENKP>
+    <MADOITUONG>1</MADOITUONG>
+    <DOITUONG>BHYT</DOITUONG>
+    <MABN>14777444</MABN>
+    <HOTEN>JJJ ,Giới tính :Nam, Năm sinh :1989</HOTEN>
+    <NHOM>Viện phí</NHOM>
+    <LOAI>0</LOAI>
+    <MA>-1</MA>
+    <TEN>Khám bệnh</TEN>
+    <DVT>Lần</DVT>
+    <SOLUONG>1</SOLUONG>
+    <DONGIA>13500</DONGIA>
+    <NGAY>Ngày 03/06/2014</NGAY>
+    <TENLOAI />
+    <PHIEU />
+    <giaban>13500</giaban>
+    <traituyen>0</traituyen>
+    <manhom>0</manhom>
+    <tennhom>CLS</tennhom>
+    <hotennguoinhap />
+    <stt>8</stt>
+  </toa1>
+  <toa2>
+    <TENBV />
+    <MAKP>05</MAKP>
+    <TENKP>Pk.Nội 1</TENKP>
+    <MADOITUONG>1</MADOITUONG>
+    <DOITUONG>BHYT</DOITUONG>
+    <MABN>11787878</MABN>
+    <HOTEN>TEST 2 ,Giới tính :Nam, Năm sinh :1982</HOTEN>
+    <NHOM>Viện phí</NHOM>
+    <LOAI>0</LOAI>
+    <MA>-1</MA>
+    <TEN>Khám bệnh</TEN>
+    <DVT>Lần</DVT>
+    <SOLUONG>1</SOLUONG>
+    <DONGIA>13500</DONGIA>
+    <NGAY>Ngày 03/06/2014</NGAY>
+    <TENLOAI />
+    <PHIEU />
+    <giaban>13500</giaban>
+    <traituyen>0</traituyen>
+    <manhom>0</manhom>
+    <tennhom>CLS</tennhom>
+    <hotennguoinhap />
+    <stt>9</stt>
+  </toa2>
+  <toa2>
+    <TENBV />
+    <MAKP>13</MAKP>
+    <TENKP>Khoa Nội TH</TENKP>
+    <MADOITUONG>2</MADOITUONG>
+    <DOITUONG>Thu phí</DOITUONG>
+    <PHONG>Buồng thường</PHONG>
+    <GIUONG>NTH-1-1</GIUONG>
+    <MABN>14000131</MABN>
+    <HOTEN>NOI TRU 1 ,Giới tính :Nam, Năm sinh :1990</HOTEN>
+    <NHOM>Viện phí</NHOM>
+    <LOAI>0</LOAI>
+    <MA>13357</MA>
+    <TEN>Giường thường 01</TEN>
+    <DVT>Ngày</DVT>
+    <SOLUONG>5.0000</SOLUONG>
+    <DONGIA>55000.0000</DONGIA>
+    <NGAY>Ngày 03/06/2014</NGAY>
+    <TENLOAI />
+    <PHIEU />
+    <BACSY>ThS. Phạm An Hùng</BACSY>
+    <giaban>55000.0000</giaban>
+    <sothe />
+    <tungay />
+    <denngay />
+    <mabv />
+    <traituyen>0</traituyen>
+    <maicd>A05.0</maicd>
+    <chandoan>Nhiễm độc thức ăn do tụ cầu</chandoan>
+    <manhom>0</manhom>
+    <tennhom>CLS</tennhom>
+    <hotennguoinhap />
+    <stt>10</stt>
+  </toa2>
+  <toa2>
+    <TENBV>Bệnh viện E Hà Nội</TENBV>
+    <MAKP>13</MAKP>
+    <TENKP>Khoa Nội TH</TENKP>
+    <MADOITUONG>1</MADOITUONG>
+    <DOITUONG>BHYT</DOITUONG>
+    <PHONG />
+    <GIUONG />
+    <MABN>14000171</MABN>
+    <HOTEN>TEST GAYME 0306 ,Giới tính :Nam, Năm sinh :1995</HOTEN>
+    <NHOM>Viện phí</NHOM>
+    <LOAI>0</LOAI>
+    <MA>13628</MA>
+    <TEN>Giường thường 07</TEN>
+    <DVT>Ngày</DVT>
+    <SOLUONG>1.0000</SOLUONG>
+    <DONGIA>55000.0000</DONGIA>
+    <NGAY>Ngày 03/06/2014</NGAY>
+    <TENLOAI />
+    <PHIEU />
+    <BACSY>BsCKII. Hoàng Văn Hiếu</BACSY>
+    <giaban>55000.0000</giaban>
+    <sothe>HN5343563544354</sothe>
+    <tungay>12/12/2000 12:00:00 AM</tungay>
+    <denngay>12/12/2014 12:00:00 AM</denngay>
+    <mabv>01007</mabv>
+    <traituyen>0</traituyen>
+    <maicd>A02.9</maicd>
+    <chandoan>Nhiễm salmonella không xác định khác</chandoan>
+    <manhom>0</manhom>
+    <tennhom>CLS</tennhom>
+    <hotennguoinhap />
+    <stt>11</stt>
+  </toa2>
+  <toa2>
+    <TENBV>Bệnh viện E Hà Nội</TENBV>
+    <MAKP>13</MAKP>
+    <TENKP>Khoa Nội TH</TENKP>
+    <MADOITUONG>1</MADOITUONG>
+    <DOITUONG>BHYT</DOITUONG>
+    <PHONG />
+    <GIUONG />
+    <MABN>14000171</MABN>
+    <HOTEN>TEST GAYME 0306 ,Giới tính :Nam, Năm sinh :1995</HOTEN>
+    <NHOM>Viện phí</NHOM>
+    <LOAI>0</LOAI>
+    <MA>-263</MA>
+    <TEN>Chụp hệ tiết niệu không chuẩn bị (Số hóa 1 phim)</TEN>
+    <DVT>Lần</DVT>
+    <SOLUONG>1</SOLUONG>
+    <DONGIA>55000</DONGIA>
+    <NGAY>Ngày 03/06/2014</NGAY>
+    <TENLOAI />
+    <PHIEU />
+    <BACSY>BsCKII. Hoàng Văn Hiếu</BACSY>
+    <giaban>55000</giaban>
+    <sothe>HN5343563544354</sothe>
+    <tungay>12/12/2000 12:00:00 AM</tungay>
+    <denngay>12/12/2014 12:00:00 AM</denngay>
+    <mabv>01007</mabv>
+    <traituyen>0</traituyen>
+    <maicd>A02.9</maicd>
+    <chandoan>Nhiễm salmonella không xác định khác</chandoan>
+    <manhom>0</manhom>
+    <tennhom>CLS</tennhom>
+    <hotennguoinhap />
+    <stt>11</stt>
+  </toa2>
+  <toa2>
+    <TENBV>Bệnh viện E Hà Nội</TENBV>
+    <MAKP>13</MAKP>
+    <TENKP>Khoa Nội TH</TENKP>
+    <MADOITUONG>1</MADOITUONG>
+    <DOITUONG>BHYT</DOITUONG>
+    <PHONG />
+    <GIUONG />
+    <MABN>14000171</MABN>
+    <HOTEN>TEST GAYME 0306 ,Giới tính :Nam, Năm sinh :1995</HOTEN>
+    <NHOM>Viện phí</NHOM>
+    <LOAI>0</LOAI>
+    <MA>-240</MA>
+    <TEN>Chụp các đốt sống ngực thẳng (Số hóa 1 phim)</TEN>
+    <DVT>Lần</DVT>
+    <SOLUONG>1</SOLUONG>
+    <DONGIA>55000</DONGIA>
+    <NGAY>Ngày 03/06/2014</NGAY>
+    <TENLOAI />
+    <PHIEU />
+    <BACSY>BsCKII. Hoàng Văn Hiếu</BACSY>
+    <giaban>55000</giaban>
+    <sothe>HN5343563544354</sothe>
+    <tungay>12/12/2000 12:00:00 AM</tungay>
+    <denngay>12/12/2014 12:00:00 AM</denngay>
+    <mabv>01007</mabv>
+    <traituyen>0</traituyen>
+    <maicd>A02.9</maicd>
+    <chandoan>Nhiễm salmonella không xác định khác</chandoan>
+    <manhom>0</manhom>
+    <tennhom>CLS</tennhom>
+    <hotennguoinhap />
+    <stt>11</stt>
+  </toa2>
+  <toa2>
+    <TENBV>Bệnh viện E Hà Nội</TENBV>
+    <MAKP>13</MAKP>
+    <TENKP>Khoa Nội TH</TENKP>
+    <MADOITUONG>1</MADOITUONG>
+    <DOITUONG>BHYT</DOITUONG>
+    <PHONG />
+    <GIUONG />
+    <MABN>14000171</MABN>
+    <HOTEN>TEST GAYME 0306 ,Giới tính :Nam, Năm sinh :1995</HOTEN>
+    <NHOM>Viện phí</NHOM>
+    <LOAI>0</LOAI>
+    <MA>-167</MA>
+    <TEN>Chụp cẳng tay phải thẳng (Số hóa 1 phim)</TEN>
+    <DVT>lần</DVT>
+    <SOLUONG>1</SOLUONG>
+    <DONGIA>55000</DONGIA>
+    <NGAY>Ngày 03/06/2014</NGAY>
+    <TENLOAI />
+    <PHIEU />
+    <BACSY>BsCKII. Hoàng Văn Hiếu</BACSY>
+    <giaban>55000</giaban>
+    <sothe>HN5343563544354</sothe>
+    <tungay>12/12/2000 12:00:00 AM</tungay>
+    <denngay>12/12/2014 12:00:00 AM</denngay>
+    <mabv>01007</mabv>
+    <traituyen>0</traituyen>
+    <maicd>A02.9</maicd>
+    <chandoan>Nhiễm salmonella không xác định khác</chandoan>
+    <manhom>0</manhom>
+    <tennhom>CLS</tennhom>
+    <hotennguoinhap />
+    <stt>11</stt>
+  </toa2>
+  <toa2>
+    <TENBV>Bệnh viện E Hà Nội</TENBV>
+    <MAKP>13</MAKP>
+    <TENKP>Khoa Nội TH</TENKP>
+    <MADOITUONG>1</MADOITUONG>
+    <DOITUONG>BHYT</DOITUONG>
+    <PHONG />
+    <GIUONG />
+    <MABN>14000171</MABN>
+    <HOTEN>TEST GAYME 0306 ,Giới tính :Nam, Năm sinh :1995</HOTEN>
+    <NHOM>Viện phí</NHOM>
+    <LOAI>0</LOAI>
+    <MA>-163</MA>
+    <TEN>Chụp cánh tay trái thẳng (Số hóa 1 phim)</TEN>
+    <DVT>lần</DVT>
+    <SOLUONG>1</SOLUONG>
+    <DONGIA>55000</DONGIA>
+    <NGAY>Ngày 03/06/2014</NGAY>
+    <TENLOAI />
+    <PHIEU />
+    <BACSY>BsCKII. Hoàng Văn Hiếu</BACSY>
+    <giaban>55000</giaban>
+    <sothe>HN5343563544354</sothe>
+    <tungay>12/12/2000 12:00:00 AM</tungay>
+    <denngay>12/12/2014 12:00:00 AM</denngay>
+    <mabv>01007</mabv>
+    <traituyen>0</traituyen>
+    <maicd>A02.9</maicd>
+    <chandoan>Nhiễm salmonella không xác định khác</chandoan>
+    <manhom>0</manhom>
+    <tennhom>CLS</tennhom>
+    <hotennguoinhap />
+    <stt>11</stt>
+  </toa2>
+  <toa2>
+    <TENBV>Bệnh viện E Hà Nội</TENBV>
+    <MAKP>13</MAKP>
+    <TENKP>Khoa Nội TH</TENKP>
+    <MADOITUONG>1</MADOITUONG>
+    <DOITUONG>BHYT</DOITUONG>
+    <PHONG />
+    <GIUONG />
+    <MABN>14000171</MABN>
+    <HOTEN>TEST GAYME 0306 ,Giới tính :Nam, Năm sinh :1995</HOTEN>
+    <NHOM>Viện phí</NHOM>
+    <LOAI>0</LOAI>
+    <MA>-155</MA>
+    <TEN>Chụp bàn tay trái thẳng (Số hóa 1 phim)</TEN>
+    <DVT>lần</DVT>
+    <SOLUONG>1</SOLUONG>
+    <DONGIA>55000</DONGIA>
+    <NGAY>Ngày 03/06/2014</NGAY>
+    <TENLOAI />
+    <PHIEU />
+    <BACSY>BsCKII. Hoàng Văn Hiếu</BACSY>
+    <giaban>55000</giaban>
+    <sothe>HN5343563544354</sothe>
+    <tungay>12/12/2000 12:00:00 AM</tungay>
+    <denngay>12/12/2014 12:00:00 AM</denngay>
+    <mabv>01007</mabv>
+    <traituyen>0</traituyen>
+    <maicd>A02.9</maicd>
+    <chandoan>Nhiễm salmonella không xác định khác</chandoan>
+    <manhom>0</manhom>
+    <tennhom>CLS</tennhom>
+    <hotennguoinhap />
+    <stt>11</stt>
+  </toa2>
+  <toa2>
+    <TENBV>Bệnh viện E Hà Nội</TENBV>
+    <MAKP>24</MAKP>
+    <TENKP>Khoa HSTC</TENKP>
+    <MADOITUONG>1</MADOITUONG>
+    <DOITUONG>BHYT</DOITUONG>
+    <PHONG />
+    <GIUONG />
+    <MABN>14000171</MABN>
+    <HOTEN>TEST GAYME 0306 ,Giới tính :Nam, Năm sinh :1995</HOTEN>
+    <NHOM>Viện phí</NHOM>
+    <LOAI>0</LOAI>
+    <MA>-11719</MA>
+    <TEN>Phẫu thuật hạ tinh hoàn qua nội soi</TEN>
+    <DVT>Lần</DVT>
+    <SOLUONG>1</SOLUONG>
+    <DONGIA>3000000</DONGIA>
+    <NGAY>Ngày 03/06/2014</NGAY>
+    <TENLOAI />
+    <PHIEU />
+    <BACSY>BsCKII. Hoàng Văn Hiếu</BACSY>
+    <giaban>3000000</giaban>
+    <sothe>HN5343563544354</sothe>
+    <tungay>12/12/2000 12:00:00 AM</tungay>
+    <denngay>12/12/2014 12:00:00 AM</denngay>
+    <mabv>01007</mabv>
+    <traituyen>0</traituyen>
+    <maicd>A02.9</maicd>
+    <chandoan>Nhiễm salmonella không xác định khác</chandoan>
+    <manhom>0</manhom>
+    <tennhom>CLS</tennhom>
+    <hotennguoinhap />
+    <stt>11</stt>
+  </toa2>
+  <toa2>
+    <TENBV>Bệnh viện E Hà Nội</TENBV>
+    <MAKP>24</MAKP>
+    <TENKP>Khoa HSTC</TENKP>
+    <MADOITUONG>1</MADOITUONG>
+    <DOITUONG>BHYT</DOITUONG>
+    <PHONG />
+    <GIUONG />
+    <MABN>14000171</MABN>
+    <HOTEN>TEST GAYME 0306 ,Giới tính :Nam, Năm sinh :1995</HOTEN>
+    <NHOM>Viện phí</NHOM>
+    <LOAI>0</LOAI>
+    <MA>-11714</MA>
+    <TEN>Lấy sỏi niệu quản, sỏi thận qua nội soi sau phúc mạc</TEN>
+    <DVT>Lần</DVT>
+    <SOLUONG>1</SOLUONG>
+    <DONGIA>3500000</DONGIA>
+    <NGAY>Ngày 03/06/2014</NGAY>
+    <TENLOAI />
+    <PHIEU />
+    <BACSY>BsCKII. Hoàng Văn Hiếu</BACSY>
+    <giaban>3500000</giaban>
+    <sothe>HN5343563544354</sothe>
+    <tungay>12/12/2000 12:00:00 AM</tungay>
+    <denngay>12/12/2014 12:00:00 AM</denngay>
+    <mabv>01007</mabv>
+    <traituyen>0</traituyen>
+    <maicd>A02.9</maicd>
+    <chandoan>Nhiễm salmonella không xác định khác</chandoan>
+    <manhom>0</manhom>
+    <tennhom>CLS</tennhom>
+    <hotennguoinhap />
+    <stt>11</stt>
+  </toa2>
+  <toa2>
+    <TENBV>Bệnh viện E Hà Nội</TENBV>
+    <MAKP>24</MAKP>
+    <TENKP>Khoa HSTC</TENKP>
+    <MADOITUONG>1</MADOITUONG>
+    <DOITUONG>BHYT</DOITUONG>
+    <PHONG />
+    <GIUONG />
+    <MABN>14000171</MABN>
+    <HOTEN>TEST GAYME 0306 ,Giới tính :Nam, Năm sinh :1995</HOTEN>
+    <NHOM>Viện phí</NHOM>
+    <LOAI>0</LOAI>
+    <MA>-11712</MA>
+    <TEN>Phẫu thuật cắt u niệu đạo, van niệu đạo qua nội soi</TEN>
+    <DVT>Lần</DVT>
+    <SOLUONG>1</SOLUONG>
+    <DONGIA>3200000</DONGIA>
+    <NGAY>Ngày 03/06/2014</NGAY>
+    <TENLOAI />
+    <PHIEU />
+    <BACSY>BsCKII. Hoàng Văn Hiếu</BACSY>
+    <giaban>3200000</giaban>
+    <sothe>HN5343563544354</sothe>
+    <tungay>12/12/2000 12:00:00 AM</tungay>
+    <denngay>12/12/2014 12:00:00 AM</denngay>
+    <mabv>01007</mabv>
+    <traituyen>0</traituyen>
+    <maicd>A02.9</maicd>
+    <chandoan>Nhiễm salmonella không xác định khác</chandoan>
+    <manhom>0</manhom>
+    <tennhom>CLS</tennhom>
+    <hotennguoinhap />
+    <stt>11</stt>
+  </toa2>
+  <toa2>
+    <TENBV>Bệnh viện E Hà Nội</TENBV>
+    <MAKP>24</MAKP>
+    <TENKP>Khoa HSTC</TENKP>
+    <MADOITUONG>1</MADOITUONG>
+    <DOITUONG>BHYT</DOITUONG>
+    <PHONG />
+    <GIUONG />
+    <MABN>14000171</MABN>
+    <HOTEN>TEST GAYME 0306 ,Giới tính :Nam, Năm sinh :1995</HOTEN>
+    <NHOM>Viện phí</NHOM>
+    <LOAI>0</LOAI>
+    <MA>-11710</MA>
+    <TEN>Phẫu thuật nội soi apxe - đám quánh ruôt thừa</TEN>
+    <DVT>Lần</DVT>
+    <SOLUONG>1</SOLUONG>
+    <DONGIA>3550000</DONGIA>
+    <NGAY>Ngày 03/06/2014</NGAY>
+    <TENLOAI />
+    <PHIEU />
+    <BACSY>BsCKII. Hoàng Văn Hiếu</BACSY>
+    <giaban>3550000</giaban>
+    <sothe>HN5343563544354</sothe>
+    <tungay>12/12/2000 12:00:00 AM</tungay>
+    <denngay>12/12/2014 12:00:00 AM</denngay>
+    <mabv>01007</mabv>
+    <traituyen>0</traituyen>
+    <maicd>A02.9</maicd>
+    <chandoan>Nhiễm salmonella không xác định khác</chandoan>
+    <manhom>0</manhom>
+    <tennhom>CLS</tennhom>
+    <hotennguoinhap />
+    <stt>11</stt>
+  </toa2>
+  <toa2>
+    <TENBV>Bệnh viện E Hà Nội</TENBV>
+    <MAKP>24</MAKP>
+    <TENKP>Khoa HSTC</TENKP>
+    <MADOITUONG>1</MADOITUONG>
+    <DOITUONG>BHYT</DOITUONG>
+    <PHONG />
+    <GIUONG />
+    <MABN>14000171</MABN>
+    <HOTEN>TEST GAYME 0306 ,Giới tính :Nam, Năm sinh :1995</HOTEN>
+    <NHOM>Viện phí</NHOM>
+    <LOAI>0</LOAI>
+    <MA>-11707</MA>
+    <TEN>Phẫu thuật nội soi cắt phổi kèm theo bóc vỏ màng phổi ( chưa bao gồm dụng cụ cắt nối tự động)</TEN>
+    <DVT>Lần</DVT>
+    <SOLUONG>1</SOLUONG>
+    <DONGIA>3200000</DONGIA>
+    <NGAY>Ngày 03/06/2014</NGAY>
+    <TENLOAI />
+    <PHIEU />
+    <BACSY>BsCKII. Hoàng Văn Hiếu</BACSY>
+    <giaban>3200000</giaban>
+    <sothe>HN5343563544354</sothe>
+    <tungay>12/12/2000 12:00:00 AM</tungay>
+    <denngay>12/12/2014 12:00:00 AM</denngay>
+    <mabv>01007</mabv>
+    <traituyen>0</traituyen>
+    <maicd>A02.9</maicd>
+    <chandoan>Nhiễm salmonella không xác định khác</chandoan>
+    <manhom>0</manhom>
+    <tennhom>CLS</tennhom>
+    <hotennguoinhap />
+    <stt>11</stt>
+  </toa2>
+  <toa2>
+    <TENBV>Bệnh viện E Hà Nội</TENBV>
+    <MAKP>24</MAKP>
+    <TENKP>Khoa HSTC</TENKP>
+    <MADOITUONG>1</MADOITUONG>
+    <DOITUONG>BHYT</DOITUONG>
+    <PHONG />
+    <GIUONG />
+    <MABN>14000171</MABN>
+    <HOTEN>TEST GAYME 0306 ,Giới tính :Nam, Năm sinh :1995</HOTEN>
+    <NHOM>Viện phí</NHOM>
+    <LOAI>0</LOAI>
+    <MA>-11418</MA>
+    <TEN>Chụp bàng quang có bơm thuốc cản quang</TEN>
+    <DVT>Lần</DVT>
+    <SOLUONG>1</SOLUONG>
+    <DONGIA>100000</DONGIA>
+    <NGAY>Ngày 03/06/2014</NGAY>
+    <TENLOAI />
+    <PHIEU />
+    <BACSY>BsCKII. Hoàng Văn Hiếu</BACSY>
+    <giaban>100000</giaban>
+    <sothe>HN5343563544354</sothe>
+    <tungay>12/12/2000 12:00:00 AM</tungay>
+    <denngay>12/12/2014 12:00:00 AM</denngay>
+    <mabv>01007</mabv>
+    <traituyen>0</traituyen>
+    <maicd>A02.9</maicd>
+    <chandoan>Nhiễm salmonella không xác định khác</chandoan>
+    <manhom>0</manhom>
+    <tennhom>CLS</tennhom>
+    <hotennguoinhap />
+    <stt>11</stt>
+  </toa2>
+  <toa2>
+    <TENBV>Bệnh viện E Hà Nội</TENBV>
+    <MAKP>24</MAKP>
+    <TENKP>Khoa HSTC</TENKP>
+    <MADOITUONG>1</MADOITUONG>
+    <DOITUONG>BHYT</DOITUONG>
+    <PHONG />
+    <GIUONG />
+    <MABN>14000171</MABN>
+    <HOTEN>TEST GAYME 0306 ,Giới tính :Nam, Năm sinh :1995</HOTEN>
+    <NHOM>Viện phí</NHOM>
+    <LOAI>0</LOAI>
+    <MA>-286</MA>
+    <TEN>Ghép màng tế bào nuôi cấy trong điều trị bỏng (chưa bao gồm màng nuôi)</TEN>
+    <DVT>lần</DVT>
+    <SOLUONG>1</SOLUONG>
+    <DONGIA>300000</DONGIA>
+    <NGAY>Ngày 03/06/2014</NGAY>
+    <TENLOAI />
+    <PHIEU />
+    <BACSY>BsCKII. Hoàng Văn Hiếu</BACSY>
+    <giaban>300000</giaban>
+    <sothe>HN5343563544354</sothe>
+    <tungay>12/12/2000 12:00:00 AM</tungay>
+    <denngay>12/12/2014 12:00:00 AM</denngay>
+    <mabv>01007</mabv>
+    <traituyen>0</traituyen>
+    <maicd>A02.9</maicd>
+    <chandoan>Nhiễm salmonella không xác định khác</chandoan>
+    <manhom>0</manhom>
+    <tennhom>CLS</tennhom>
+    <hotennguoinhap />
+    <stt>11</stt>
+  </toa2>
+  <toa2>
+    <TENBV>Bệnh viện E Hà Nội</TENBV>
+    <MAKP>24</MAKP>
+    <TENKP>Khoa HSTC</TENKP>
+    <MADOITUONG>1</MADOITUONG>
+    <DOITUONG>BHYT</DOITUONG>
+    <PHONG />
+    <GIUONG />
+    <MABN>14000171</MABN>
+    <HOTEN>TEST GAYME 0306 ,Giới tính :Nam, Năm sinh :1995</HOTEN>
+    <NHOM>Viện phí</NHOM>
+    <LOAI>0</LOAI>
+    <MA>-283</MA>
+    <TEN>Ghép da tự thân trong điều trị bỏng</TEN>
+    <DVT>lần</DVT>
+    <SOLUONG>1</SOLUONG>
+    <DONGIA>60000</DONGIA>
+    <NGAY>Ngày 03/06/2014</NGAY>
+    <TENLOAI />
+    <PHIEU />
+    <BACSY>BsCKII. Hoàng Văn Hiếu</BACSY>
+    <giaban>60000</giaban>
+    <sothe>HN5343563544354</sothe>
+    <tungay>12/12/2000 12:00:00 AM</tungay>
+    <denngay>12/12/2014 12:00:00 AM</denngay>
+    <mabv>01007</mabv>
+    <traituyen>0</traituyen>
+    <maicd>A02.9</maicd>
+    <chandoan>Nhiễm salmonella không xác định khác</chandoan>
+    <manhom>0</manhom>
+    <tennhom>CLS</tennhom>
+    <hotennguoinhap />
+    <stt>11</stt>
+  </toa2>
+  <toa2>
+    <TENBV>Bệnh viện E Hà Nội</TENBV>
+    <MAKP>24</MAKP>
+    <TENKP>Khoa HSTC</TENKP>
+    <MADOITUONG>1</MADOITUONG>
+    <DOITUONG>BHYT</DOITUONG>
+    <PHONG />
+    <GIUONG />
+    <MABN>14000171</MABN>
+    <HOTEN>TEST GAYME 0306 ,Giới tính :Nam, Năm sinh :1995</HOTEN>
+    <NHOM>Viện phí</NHOM>
+    <LOAI>0</LOAI>
+    <MA>-281</MA>
+    <TEN>Ghép da dị loại trong điều trị bỏng</TEN>
+    <DVT>lần</DVT>
+    <SOLUONG>1</SOLUONG>
+    <DONGIA>50000</DONGIA>
+    <NGAY>Ngày 03/06/2014</NGAY>
+    <TENLOAI />
+    <PHIEU />
+    <BACSY>BsCKII. Hoàng Văn Hiếu</BACSY>
+    <giaban>50000</giaban>
+    <sothe>HN5343563544354</sothe>
+    <tungay>12/12/2000 12:00:00 AM</tungay>
+    <denngay>12/12/2014 12:00:00 AM</denngay>
+    <mabv>01007</mabv>
+    <traituyen>0</traituyen>
+    <maicd>A02.9</maicd>
+    <chandoan>Nhiễm salmonella không xác định khác</chandoan>
+    <manhom>0</manhom>
+    <tennhom>CLS</tennhom>
+    <hotennguoinhap />
+    <stt>11</stt>
+  </toa2>
+  <toa2>
+    <TENBV>Bệnh viện E Hà Nội</TENBV>
+    <MAKP>24</MAKP>
+    <TENKP>Khoa HSTC</TENKP>
+    <MADOITUONG>1</MADOITUONG>
+    <DOITUONG>BHYT</DOITUONG>
+    <PHONG />
+    <GIUONG />
+    <MABN>14000171</MABN>
+    <HOTEN>TEST GAYME 0306 ,Giới tính :Nam, Năm sinh :1995</HOTEN>
+    <NHOM>Viện phí</NHOM>
+    <LOAI>0</LOAI>
+    <MA>-267</MA>
+    <TEN>Siêu lọc máu có kết hợp thẩm tách trong 24h (chưa bao gồm màng lọc và dây dẫn đi kèm)</TEN>
+    <DVT>lần</DVT>
+    <SOLUONG>1</SOLUONG>
+    <DONGIA>2000000</DONGIA>
+    <NGAY>Ngày 03/06/2014</NGAY>
+    <TENLOAI />
+    <PHIEU />
+    <BACSY>BsCKII. Hoàng Văn Hiếu</BACSY>
+    <giaban>2000000</giaban>
+    <sothe>HN5343563544354</sothe>
+    <tungay>12/12/2000 12:00:00 AM</tungay>
+    <denngay>12/12/2014 12:00:00 AM</denngay>
+    <mabv>01007</mabv>
+    <traituyen>0</traituyen>
+    <maicd>A02.9</maicd>
+    <chandoan>Nhiễm salmonella không xác định khác</chandoan>
+    <manhom>0</manhom>
+    <tennhom>CLS</tennhom>
+    <hotennguoinhap />
+    <stt>11</stt>
+  </toa2>
+  <toa2>
+    <TENBV />
+    <MAKP>05</MAKP>
+    <TENKP>Pk.Nội 1</TENKP>
+    <MADOITUONG>1</MADOITUONG>
+    <DOITUONG>BHYT</DOITUONG>
+    <MABN>14000173</MABN>
+    <HOTEN>TEST NGOAI TRU 0306 ,Giới tính :Nam, Năm sinh :1994</HOTEN>
+    <NHOM>Viện phí</NHOM>
+    <LOAI>0</LOAI>
+    <MA>-1</MA>
+    <TEN>Khám bệnh</TEN>
+    <DVT>Lần</DVT>
+    <SOLUONG>1</SOLUONG>
+    <DONGIA>13500</DONGIA>
+    <NGAY>Ngày 03/06/2014</NGAY>
+    <TENLOAI />
+    <PHIEU />
+    <giaban>13500</giaban>
+    <traituyen>0</traituyen>
+    <manhom>0</manhom>
+    <tennhom>CLS</tennhom>
+    <hotennguoinhap />
+    <stt>12</stt>
+  </toa2>
+  <toa2>
+    <TENBV />
+    <MAKP>05</MAKP>
+    <TENKP>Pk.Nội 1</TENKP>
+    <MADOITUONG>1</MADOITUONG>
+    <DOITUONG>BHYT</DOITUONG>
+    <MABN>14000175</MABN>
+    <HOTEN>TEST NGOAI TRU 0306 ,Giới tính :Nam, Năm sinh :1993</HOTEN>
+    <NHOM>Viện phí</NHOM>
+    <LOAI>0</LOAI>
+    <MA>-1</MA>
+    <TEN>Khám bệnh</TEN>
+    <DVT>Lần</DVT>
+    <SOLUONG>1</SOLUONG>
+    <DONGIA>13500</DONGIA>
+    <NGAY>Ngày 03/06/2014</NGAY>
+    <TENLOAI />
+    <PHIEU />
+    <giaban>13500</giaban>
+    <traituyen>0</traituyen>
+    <manhom>0</manhom>
+    <tennhom>CLS</tennhom>
+    <hotennguoinhap />
+    <stt>13</stt>
+  </toa2>
+  <toa2>
+    <TENBV />
+    <MAKP>05</MAKP>
+    <TENKP>Pk.Nội 1</TENKP>
+    <MADOITUONG>1</MADOITUONG>
+    <DOITUONG>BHYT</DOITUONG>
+    <MABN>14000177</MABN>
+    <HOTEN>TEST DIEU TRI NGOAI TRU 0306 ,Giới tính :Nam, Năm sinh :1990</HOTEN>
+    <NHOM>Viện phí</NHOM>
+    <LOAI>0</LOAI>
+    <MA>-1</MA>
+    <TEN>Khám bệnh</TEN>
+    <DVT>Lần</DVT>
+    <SOLUONG>1</SOLUONG>
+    <DONGIA>13500</DONGIA>
+    <NGAY>Ngày 03/06/2014</NGAY>
+    <TENLOAI />
+    <PHIEU />
+    <giaban>13500</giaban>
+    <traituyen>0</traituyen>
+    <manhom>0</manhom>
+    <tennhom>CLS</tennhom>
+    <hotennguoinhap />
+    <stt>14</stt>
+  </toa2>
+  <toa2>
+    <TENBV />
+    <MAKP>04</MAKP>
+    <TENKP>Pk.Ngoại</TENKP>
+    <MADOITUONG>1</MADOITUONG>
+    <DOITUONG>BHYT</DOITUONG>
+    <MABN>14044444</MABN>
+    <HOTEN>TSET 67 ,Giới tính :Nam, Năm sinh :1988</HOTEN>
+    <NHOM>Viện phí</NHOM>
+    <LOAI>0</LOAI>
+    <MA>-1</MA>
+    <TEN>Khám bệnh</TEN>
+    <DVT>Lần</DVT>
+    <SOLUONG>1</SOLUONG>
+    <DONGIA>13500</DONGIA>
+    <NGAY>Ngày 03/06/2014</NGAY>
+    <TENLOAI />
+    <PHIEU />
+    <giaban>13500</giaban>
+    <traituyen>0</traituyen>
+    <manhom>0</manhom>
+    <tennhom>CLS</tennhom>
+    <hotennguoinhap />
+    <stt>15</stt>
+  </toa2>
 </NewDataSet>

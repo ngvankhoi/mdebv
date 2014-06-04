@@ -6630,7 +6630,7 @@ namespace Medisoft
                     m.execute_data("update " + user + m.mmyy(ngayvv.Text.Substring(0, 10)) + ".benhancc set soluutru='" + s_soluutru + "' where maql=" + l_maql + "");
 
                 }
-                // truongthuy 31052014 Them so luu trữ tự động 6 số  check option D29  phing 
+                // truongthuy 31052014 Them so luu trữ tự động 6 số  check option D29   
                 if (m.bSoluutrutangtudong_PK_PL_6so)
                 {
                     string s_mmyy = "";
