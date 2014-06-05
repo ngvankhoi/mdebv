@@ -1727,6 +1727,12 @@
     <Compile Include="frmStatusProcess.Designer.cs">
       <DependentUpon>frmStatusProcess.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormAsynTask.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAsynTask.Designer.cs">
+      <DependentUpon>FormAsynTask.cs</DependentUpon>
+    </Compile>
     <Compile Include="Globals.cs" />
     <Compile Include="Language.cs">
       <SubType>Code</SubType>
@@ -3348,6 +3354,10 @@
     <EmbeddedResource Include="frmStatusProcess.resx">
       <SubType>Designer</SubType>
       <DependentUpon>frmStatusProcess.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAsynTask.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormAsynTask.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="OfficeMenus.resx">
       <DependentUpon>OfficeMenus.cs</DependentUpon>

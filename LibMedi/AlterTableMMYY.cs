@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.ComponentModel;
 
 namespace LibMedi
 {
@@ -14,11 +15,11 @@ namespace LibMedi
         {
             m = _m;
         }
-        
-        public void AlterTable_MMYY(string schema)
+        string genScripAllterSchema_part1(string schema)
         {
             string user = m.user;
-            string sql = "alter table " + schema + ".v_trongoi add column id numeric(" + iChieuDaiID + ") not null default 0;\n";
+            string sql;
+            sql = "alter table " + schema + ".v_trongoi add column id numeric(" + iChieuDaiID + ") not null default 0;\n";
             sql += "alter table " + schema + ".v_trongoi add column tamung numeric(10,0) default 0;\n";
             sql += "alter table " + schema + ".v_trongoi add column hoantra numeric(10,0) default 0;\n";
             sql += "alter table " + schema + ".v_trongoi add column pm numeric(1,0) default 0;\n";
@@ -997,12 +998,12 @@ namespace LibMedi
             sql += "alter table " + schema + ".ba_hoichan add constraint fk_ba_hoichan_dmcomputer foreign key(idcomputer) references " + user + ".dmcomputer(id) match simple on update no action on delete restrict;\n";
             sql += "alter table " + schema + ".ba_hoichan add constraint fk_ba_hoichan_dmsystem foreign key(idsystem) references " + user + ".dmsystem(id) match simple on update no action on delete restrict;\n";
             sql += "alter table " + schema + ".ba_hoichan owner to medisoft;\n";
-
-            foreach (string s_query in sql.Trim(';').Split(';'))
-            {
-                m.execute(s_query, false);
-            }
-
+            return sql;
+        }
+        string genScripAllterSchema_part2(string schema)
+        {
+            string user = m.user;
+            string sql;
             sql = "alter table " + schema + ".ba_hoichancc add column id numeric(" + iChieuDaiID + ") not null;\n";
             sql += "alter table " + schema + ".ba_hoichancc add column idthuchien numeric(25,0);\n";
             sql += "alter table " + schema + ".ba_hoichancc add column ngay timestamp without time zone;\n";
@@ -2630,11 +2631,13 @@ namespace LibMedi
             sql += "alter table " + schema + ".d_thuocbhytll add constraint fk_d_thuocbhytll_dmcomputer foreign key(idcomputer) references " + user + ".dmcomputer(id) on delete restrict;\n";
             sql += "alter table " + schema + ".d_thuocbhytll add constraint fk_d_thuocbhytll_dmsystem foreign key(idsystem) references " + user + ".dmsystem(id) match simple on update no action on delete restrict;\n";
 
-            foreach (string s_query in sql.Trim(';').Split(';'))
-            {
-                m.execute(s_query, false);
-            }
+            return sql;
+        }
 
+        string genScripAllterSchema_part3(string schema)
+        {
+            string user = m.user;
+            string sql;
             sql = "alter table " + schema + ".bhytthuoc_tmp add column id numeric(" + iChieuDaiID + ") not null default 0;\n";
             sql += "alter table " + schema + ".bhytthuoc_tmp add column stt numeric(3,0) not null default 0;\n";
             sql += "alter table " + schema + ".bhytthuoc_tmp add column sttt numeric(25,0) default 0;\n";
@@ -2993,11 +2996,13 @@ namespace LibMedi
             sql += "alter table " + schema + ".cdha_ctxq add constraint fk_cdha_ctxq_dmsystem foreign key(idsystem) references " + user + ".dmsystem(id) match simple on update no action on delete restrict;\n";
             sql += "alter table " + schema + ".cdha_ctxq owner to medisoft;\n";
 
-            foreach (string s_query in sql.Trim(';').Split(';'))
-            {
-                m.execute(s_query, false);
-            }
+            return sql;
+        }
 
+        string genScripAllterSchema_part4(string schema)
+        {
+            string user = m.user;
+            string sql;
             sql = "alter table " + schema + ".cdha_data_2d add column id numeric(" + iChieuDaiID + ") not null default 0;\n";
             sql += "alter table " + schema + ".cdha_data_2d add column makt character varying(20) not null;\n";
             sql += "alter table " + schema + ".cdha_data_2d add column ao text;\n";
@@ -3721,12 +3726,13 @@ namespace LibMedi
             sql += "alter table " + schema + ".cdha_data_tuyengiap add constraint fk_cdha_data_tuyengiap_dmcomputer foreign key(idcomputer) references " + user + ".dmcomputer(id) match simple on update no action on delete restrict;\n";
             sql += "alter table " + schema + ".cdha_data_tuyengiap add constraint fk_cdha_data_tuyengiap_dmsystem foreign key(idsystem) references " + user + ".dmsystem(id) match simple on update no action on delete restrict;\n";
             sql += "alter table " + schema + ".cdha_data_tuyengiap owner to medisoft;\n";
+            return sql;
+        }
 
-            foreach (string s_query in sql.Trim(';').Split(';'))
-            {
-                m.execute(s_query, false);
-            }
-
+        string genScripAllterSchema_part5(string schema)
+        {
+            string user = m.user;
+            string sql;
             sql = "alter table " + schema + ".cdha_data_tuyenvu add column id numeric(" + iChieuDaiID + ") not null;\n";
             sql += "alter table " + schema + ".cdha_data_tuyenvu add column makt character varying(20) not null;\n";
             sql += "alter table " + schema + ".cdha_data_tuyenvu add column mtv text;\n";
@@ -4902,11 +4908,12 @@ namespace LibMedi
             sql += "alter table " + schema + ".d_nhapll add constraint fk_d_nhapll_dmsystem foreign key(idsystem) references " + user + ".dmsystem(id) on delete restrict;\n";
             sql += "alter table " + schema + ".d_nhapll owner to medisoft;\n";
 
-            foreach (string s_query in sql.Trim(';').Split(';'))
-            {
-                m.execute(s_query, false);
-            }
-
+            return sql;
+        }
+        string genScripAllterSchema_part6(string schema)
+        {
+            string user = m.user;
+            string sql;
             sql = "alter table " + schema + ".d_nhapct add column id numeric(" + iChieuDaiID + ") not null default 0;\n";
             sql += "alter table " + schema + ".d_nhapct add column stt numeric(3,0) not null default 0;\n";
             sql += "alter table " + schema + ".d_nhapct add column mabd numeric(10,0) default 0;\n";
@@ -5417,6 +5424,7 @@ namespace LibMedi
             sql += "alter table " + schema + ".d_tienthuoc add column mmyy character varying(4) not null default substring(now()::text,6,2) || substring(now()::text,3,2);\n";
             sql += "alter table " + schema + ".d_tienthuoc add column idsystem numeric(2,0) not null default 0;\n";
             sql += "alter table " + schema + ".d_tienthuoc add column change numeric(1,0) default 0;\n";
+            sql += "alter table " + schema + ".d_tienthuoc add column stt numeric(5,0) default 0;\n";
             sql += "alter table " + schema + ".d_tienthuoc add column mac character varying(60) default lpad('0'::text,60,'0'::text);\n";
             sql += "alter table " + schema + ".d_tienthuoc add column chuyendi character varying(300) default lpad('0'::text,300,'0'::text);\n";
             sql += "alter table " + schema + ".d_tienthuoc add constraint pk_d_tienthuoc primary key(id ,giamua ,idkhoa ,mabd ,mabn ,madoituong ,makp ,maql ,ngay ,id_ktcao) using index tablespace medi_index;\n";
@@ -5799,12 +5807,12 @@ namespace LibMedi
             sql += "alter table " + schema + ".dasuamadt add constraint fk_dasuamadt_dmcomputer foreign key(idcomputer) references " + user + ".dmcomputer(id) match simple on update no action on delete restrict;\n";
             sql += "alter table " + schema + ".dasuamadt add constraint fk_dasuamadt_dmsystem foreign key(idsystem) references " + user + ".dmsystem(id) match simple on update no action on delete restrict;\n";
             sql += "alter table " + schema + ".dasuamadt owner to medisoft;\n";
-
-            foreach (string s_query in sql.Trim(';').Split(';'))
-            {
-                m.execute(s_query, false);
-            }
-
+            return sql;
+        }
+        string genScripAllterSchema_part7(string schema)
+        {
+            string user = m.user;
+            string sql;
             sql = "alter table " + schema + ".datao add column ngaygio timestamp without time zone not null;\n";
             sql += "alter table " + schema + ".datao add column userid numeric(7,0) not null default 0;\n";
             sql += "alter table " + schema + ".datao add column ngayud timestamp without time zone default now();\n";
@@ -7756,12 +7764,13 @@ namespace LibMedi
             sql += "alter table " + schema + ".v_ttrvct add constraint fk_v_ttrvct_v_ttrvll foreign key(id) references " + schema + ".v_ttrvll(id) match simple on update no action on delete restrict;\n";
             sql += "alter table " + schema + ".v_ttrvct add constraint fk_v_ttrvct_dmsystem foreign key(idsystem) references " + user + ".dmsystem(id) match simple on update no action on delete restrict;\n";
             sql += "alter table " + schema + ".v_ttrvct owner to medisoft;\n";
+            return sql;
+        }
 
-            foreach (string s_query in sql.Trim(';').Split(';'))
-            {
-                m.execute(s_query, false);
-            }
-
+        string genScripAllterSchema_part8(string schema)
+        {
+            string user = m.user;
+            string sql;
             sql = "alter table " + schema + ".v_ttrvct_m01 add column id numeric(" + iChieuDaiID + ") not null default 0;\n";
             sql += "alter table " + schema + ".v_ttrvct_m01 add column stt numeric(5,0) not null default 0;\n";
             sql += "alter table " + schema + ".v_ttrvct_m01 add column ngay timestamp without time zone;\n";
@@ -8878,12 +8887,12 @@ namespace LibMedi
             sql += "alter table " + schema + ".ttb_dutrucapct add constraint fk_ttb_dutrucapct_dmcomputer foreign key(idcomputer) references " + user + ".dmcomputer(id) match simple on update no action on delete restrict;\n";
             sql += "alter table " + schema + ".ttb_dutrucapct add constraint fk_ttb_dutrucapct_dmsystem foreign key(idsystem) references " + user + ".dmsystem(id) match simple on update no action on delete restrict;\n";
             sql += "alter table " + schema + ".ttb_dutrucapct owner to medisoft;\n";
-
-            foreach (string s_query in sql.Trim(';').Split(';'))
-            {
-                m.execute(s_query, false);
-            }
-
+            return sql;
+        }
+        string genScripAllterSchema_part9(string schema)
+        {
+            string user = m.user;
+            string sql;
             sql = "alter table " + schema + ".ttb_duyet add column id numeric(25,0) not null default 0;\n";
             sql += "alter table " + schema + ".ttb_duyet add column nhom numeric(2,0) default 0;\n";
             sql += "alter table " + schema + ".ttb_duyet add column ngay timestamp without time zone;\n";
@@ -10248,12 +10257,12 @@ namespace LibMedi
             sql += "alter table " + schema + ".ba_hausan add constraint fk_ba_hausan_dmcomputer foreign key(idcomputer) references " + user + ".dmcomputer(id) match simple on update no action on delete restrict;\n";
             sql += "alter table " + schema + ".ba_hausan add constraint fk_ba_hausan_dmsystem foreign key(idsystem) references " + user + ".dmsystem(id) match simple on update no action on delete restrict;\n";
             sql += "alter table " + schema + ".ba_hausan owner to medisoft;\n";
-
-            foreach (string s_query in sql.Trim(';').Split(';'))
-            {
-                m.execute(s_query, false);
-            }
-
+            return sql;
+        }
+        string genScripAllterSchema_part10(string schema)
+        {
+            string user = m.user;
+            string sql;
             sql = "alter table " + schema + ".ba_hausangan add column id numeric(" + iChieuDaiID + ") not null;\n";
             sql += "alter table " + schema + ".ba_hausangan add column idthuchien numeric(25,0) default 0;\n";
             sql += "alter table " + schema + ".ba_hausangan add column ngay timestamp without time zone;\n";
@@ -11255,12 +11264,12 @@ namespace LibMedi
             sql += "alter table " + schema + ".xn_phieu_ktv add constraint fk_xn_phieu_ktv_dmcomputer foreign key(idcomputer) references " + user + ".dmcomputer(id) match simple on update no action on delete restrict;\n";
             sql += "alter table " + schema + ".xn_phieu_ktv add constraint fk_xn_phieu_ktv_dmsystem foreign key(idsystem) references " + user + ".dmsystem(id) match simple on update no action on delete restrict;\n";
             sql += "alter table " + schema + ".xn_phieu_ktv owner to medisoft;\n";
-
-            foreach (string s_query in sql.Trim(';').Split(';'))
-            {
-                m.execute(s_query, false);
-            }
-
+            return sql;
+        }
+        string genScripAllterSchema_part11(string schema)
+        {
+            string user = m.user;
+            string sql;
             sql = "alter table " + schema + ".xn_phieu_shpt add column id numeric(" + iChieuDaiID + ") not null;\n";
             sql += "alter table " + schema + ".xn_phieu_shpt add column sophieu numeric(5,0);\n";
             sql += "alter table " + schema + ".xn_phieu_shpt add column mabn character varying(14);\n";
@@ -11647,13 +11656,135 @@ namespace LibMedi
             sql += " ; ALTER TABLE " + user + ".vi_benhancc OWNER TO  medisoft;\n";
             sql += " insert into " + user + ".dmsystem(id,ten) values(0,'KXD');";
             sql += " insert into " + user + ".dmcomputer(id,computer) values(0,'KXD');";
+            return sql;
+        }
+        public void AlterTable_MMYY(string schema)
+        {
+            string user = m.user;
+            string sql = genScripAllterSchema_part1(schema);
+            foreach (string s_query in sql.Trim(';').Split(';'))
+            {
+                m.execute(s_query, false);
+            }
+
+            sql = genScripAllterSchema_part2(schema);
+            foreach (string s_query in sql.Trim(';').Split(';'))
+            {
+                m.execute(s_query, false);
+            }
+
+            sql = genScripAllterSchema_part3(schema);
+            foreach (string s_query in sql.Trim(';').Split(';'))
+            {
+                m.execute(s_query, false);
+            }
+
+            sql = genScripAllterSchema_part4(schema);
+
+            foreach (string s_query in sql.Trim(';').Split(';'))
+            {
+                m.execute(s_query, false);
+            }
+
+            sql = genScripAllterSchema_part5(schema);
+            foreach (string s_query in sql.Trim(';').Split(';'))
+            {
+                m.execute(s_query, false);
+            }
+
+
+            sql = genScripAllterSchema_part6(schema);
+            foreach (string s_query in sql.Trim(';').Split(';'))
+            {
+                m.execute(s_query, false);
+            }
+
+
+            sql = genScripAllterSchema_part7(schema);
+            foreach (string s_query in sql.Trim(';').Split(';'))
+            {
+                m.execute(s_query, false);
+            }
+
+
+            sql = genScripAllterSchema_part8(schema);
+            foreach (string s_query in sql.Trim(';').Split(';'))
+            {
+                m.execute(s_query, false);
+            }
+
             
+            sql = genScripAllterSchema_part9(schema);
+            foreach (string s_query in sql.Trim(';').Split(';'))
+            {
+                m.execute(s_query, false);
+            }
+
+            sql = genScripAllterSchema_part10(schema);
+            foreach (string s_query in sql.Trim(';').Split(';'))
+            {
+                m.execute(s_query, false);
+            }
+            sql = genScripAllterSchema_part11(schema);                        
             foreach (string s_query in sql.Trim(';').Split(';'))
             {
                 m.execute(s_query, false);
             }
         }
-        
+        public void AlterTable_MMYY_Asyn(string schema, BackgroundWorker bgw)
+        {
+            if (bgw.IsBusy)
+            {
+                string sql = genScripAllterSchema_part1(schema) + genScripAllterSchema_part2(schema) + genScripAllterSchema_part3(schema)
+                + genScripAllterSchema_part4(schema) + genScripAllterSchema_part5(schema) + genScripAllterSchema_part6(schema)
+                + genScripAllterSchema_part7(schema) + genScripAllterSchema_part8(schema) + genScripAllterSchema_part9(schema)
+                + genScripAllterSchema_part10(schema) + genScripAllterSchema_part11(schema);
+                string[] listsql = sql.Trim(';').Split(';');
+                int countsql = listsql.Length;
+                using (Npgsql.NpgsqlCommand cmm = new Npgsql.NpgsqlCommand("", new Npgsql.NpgsqlConnection(m.ConStr)))
+                {
+                    try
+                    {
+                        cmm.Connection.Open();
+                      //  cmm.Transaction = cmm.Connection.BeginTransaction();
+                        int nc = 0;
+                        foreach (string squere in listsql)
+                        {
+                            cmm.CommandText = squere.Trim('\n');
+                            try
+                            {
+                                cmm.ExecuteNonQuery();
+                            }
+                            catch
+                            { 
+                            }
+                            nc++;
+                            //if (bgw.CancellationPending)
+                            //{
+                            //    throw new Exception("Cancled");
+                            //}
+                            int per = (int)( (double) nc / (double)countsql *80);
+                            if ((per+1) % 5 == 0)
+                                bgw.ReportProgress(per, "Sửa cấu trúc schema " + schema+":"+squere.Trim('\n').Substring(0,25)+"....");
+                        }
+                      //  cmm.Transaction.Commit();
+                    }
+                    catch
+                    {
+                   //     cmm.Transaction.Rollback();
+                    }
+                    finally
+                    {
+                        cmm.Connection.Close();
+                    }
+                }
+            }
+            else
+            {
+                throw new Exception("gọi hàm AlterTable_MMYY_Asyn trong sự kiện DoWork của BackgroundWorker!");
+            }
+ 
+        }
         
         public void AlterTable_MMYY1(string schema,string suser)
         {
@@ -18716,13 +18847,12 @@ namespace LibMedi
                 m.execute(s_query, false);
             }
         }
-        public void Altertable_MMYY3(string schema, string suser)
+        string genScripAltertable_MMYY3_p1(string schema, string suser)
         {
-            string s_sql = "";
-            #region mmyy
-            s_sql = "alter table "+schema+".v_ttrvll add column loaithu numeric(1,0) default 0;";//0:ttrv;1:bhyt ngoại trú
-            s_sql += " alter table "+schema+".v_thvpct add column idtonghop numeric(25) default 0;";
-            s_sql += " alter table " + schema + ".v_thvpct add column stttonghop int default 0;";                        
+            string s_sql ;
+            s_sql = "alter table " + schema + ".v_ttrvll add column loaithu numeric(1,0) default 0;";//0:ttrv;1:bhyt ngoại trú
+            s_sql += " alter table " + schema + ".v_thvpct add column idtonghop numeric(25) default 0;";
+            s_sql += " alter table " + schema + ".v_thvpct add column stttonghop int default 0;";
             s_sql += "alter table " + schema + ".d_xtutrucll add trongoi numeric(1) default 0;";
             //Thuy tao view benhanpk 14.11.2012
             s_sql += " CREATE OR REPLACE VIEW " + suser + ".vi_benhanpk AS ";
@@ -18766,23 +18896,19 @@ namespace LibMedi
             }
             s_sql += " ; ALTER TABLE " + suser + ".vi_benhancc OWNER TO  medisoft;\n";
             s_sql += " alter table " + schema + ".d_nhapct add column sodangky character varying (20);\n";
-            s_sql += " alter table " + schema + ".d_theodoi add column sodangky character varying (20);\n";            
+            s_sql += " alter table " + schema + ".d_theodoi add column sodangky character varying (20);\n";
             s_sql += " alter table " + schema + ".d_xuatll add column nguoinhan character varying (254);\n";
             s_sql += " alter table " + schema + ".bhytkb alter column maicd character varying (128);\n";
             s_sql += " alter table " + schema + ".d_tonkhoth add stt serial;\n";
             s_sql += " alter table " + schema + ".d_tutructh add stt serial;\n";
 
             s_sql += " alter table " + schema + ".d_hoantract alter column idx type numeric (25) ;\n";
-
-            foreach (string s_query in s_sql.Trim(';').Split(';'))
-            {
-                m.execute(s_query, false);
-            }
-            #endregion mmyy
-
-            #region root
-            s_sql = "";
-            s_sql += "ALTER TABLE " + suser + ".xuatvien add cophim int default 0;\n";
+            return s_sql;
+        }
+        string genScripAltertable_MMYY3_p2(string schema, string suser)
+        {
+            string s_sql;
+            s_sql = "ALTER TABLE " + suser + ".xuatvien add cophim int default 0;\n";
             s_sql += "ALTER TABLE " + suser + ".d_theodonct add madoituong numeric(2,0) default 0;\n";
             s_sql += "Alter table " + suser + ".icd10 add column vanh text;";
             s_sql += " alter table " + suser + ".d_dmbd add vtyt numeric(1) default 0;\n";//0: thuoc; 1: vat tu y te
@@ -18791,11 +18917,98 @@ namespace LibMedi
             s_sql += " alter table " + suser + ".dmtyleban add constraint pk_dmtyleban primary key(tu, den, nhomkho, vattuyte);\n";
             s_sql += " alter table " + suser + ".v_quyenso add column hide numeric(1,0) default 0;";
             s_sql += " alter table " + suser + ".doituong add column bodoi numeric(1,0) default 0;";
+            return s_sql;
+        }
+        public void Altertable_MMYY3(string schema, string suser)
+        {
+            string s_sql = "";
+            #region mmyy
+            s_sql = genScripAltertable_MMYY3_p1(schema, suser);
+            foreach (string s_query in s_sql.Trim(';').Split(';'))
+            {
+                m.execute(s_query, false);
+            }
+            #endregion mmyy
+
+            #region root
+            s_sql = genScripAltertable_MMYY3_p2(schema,suser);
+            
             foreach (string s_query in s_sql.Trim(';').Split(';'))
             {
                 m.execute(s_query, false);
             }
             #endregion
+        }
+        public void Altertable_MMYY3_Asyn(string schema, string suser, BackgroundWorker bgw)
+        {
+            if (bgw.IsBusy)
+            {
+                string sql1 = genScripAltertable_MMYY3_p1(schema, suser);
+                string sql2 = genScripAltertable_MMYY3_p2(schema, suser);
+                int countsql = sql1.Trim(';').Split(';').Length;
+                countsql += sql2.Trim(';').Split(';').Length;
+                using (Npgsql.NpgsqlCommand cmm = new Npgsql.NpgsqlCommand("", new Npgsql.NpgsqlConnection(m.ConStr)))
+                {
+                    try
+                    {
+                        cmm.Connection.Open();
+                       // cmm.Transaction = cmm.Connection.BeginTransaction();
+                        int cn = 0;
+                        foreach (string s_query in sql1.Trim(';').Split(';'))
+                        {
+                            cmm.CommandText = s_query.Trim('\n');
+                            try
+                            {
+                                cmm.ExecuteNonQuery();
+                            }
+                            catch
+                            { 
+                            }
+                            cn++;
+                            //if (bgw.CancellationPending)
+                            //{
+                            //    throw new Exception("Cancled");
+                            //}
+                            int per = (int)(((float)cn / (float)countsql)*80);
+                            if (per+1 % 5 == 0)
+                                bgw.ReportProgress(per, "Sửa cấu trúc schema " + schema+":"+s_query.Trim('\n').Substring(0,25)+"....");
+                        }
+                        foreach (string s_query in sql2.Trim(';').Split(';'))
+                        {
+                            cmm.CommandText = s_query.Trim('\n');
+                            try
+                            {
+                                cmm.ExecuteNonQuery();
+                            }
+                            catch
+                            {
+                            }
+                            cn++;
+                            //if (bgw.CancellationPending)
+                            //{
+                            //    throw new Exception("Cancled");
+                            //}
+                            int per = (int)(((float)cn / (float)countsql)*80);
+                            if (per+1 % 5 == 0)
+                                bgw.ReportProgress(per, "Sửa cấu trúc schema " + schema+":"+s_query.Trim('\n').Substring(0,25)+"...");
+                        }
+                     //   cmm.Transaction.Commit();
+                    }
+                    catch
+                    {
+                        //cmm.Transaction.Rollback();
+                    }
+                    finally
+                    {
+                        cmm.Connection.Close();
+                       
+                    }
+                }
+            }
+            else
+            {
+                throw new Exception("gọi hàm AlterTable_MMYY_Asyn trong sự kiện DoWork của BackgroundWorker!");
+            }
         }
     }
 }
