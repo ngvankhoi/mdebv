@@ -67,12 +67,12 @@ namespace Medisoft
 		private System.Windows.Forms.Label label18;
         private System.Windows.Forms.TextBox lamsang;
         private System.Windows.Forms.TextBox chandoan;
-		private System.Windows.Forms.TextBox nguoidua;
-		private System.Windows.Forms.TextBox vanchuyen;
+        private System.Windows.Forms.TextBox nguoidua;
+        protected TextBox vanchuyen;
 		private MaskedBox.MaskedBox gio;
 		private MaskedBox.MaskedBox ngay;
-		private System.Windows.Forms.Label label88;
-		private System.Windows.Forms.TextBox lydo;
+        private System.Windows.Forms.Label label88;
+        protected TextBox lydo;
 		private System.Windows.Forms.TextBox tinhtrang;
         private RichTextBox thuoc;
         private ComboBox loaibn;
@@ -97,6 +97,11 @@ namespace Medisoft
         //Tu:08/08/2011 enable nút in 
         private int i_ngoaidm = 0;
         #endregion
+
+        public frmGiaycv()
+        {
+            InitializeComponent();
+        }
 
         public frmGiaycv(AccessData acc,string makp,int userid,string _mabn,int _loai)
 		{

@@ -6960,6 +6960,7 @@ lan.Change_language_MessageText("Biểu 12.4//Công tác khám chữa bệnh và
 
         private void menuItem226_Click(object sender, System.EventArgs e)
         {
+            //if(m.Thongso())
             frmGiayravien f = new frmGiayravien(m, s_makp, i_userid,1);
             f.MdiParent = this;
             f.Show();
@@ -7493,7 +7494,19 @@ lan.Change_language_MessageText("Kết quả"), this.menuItem31.Visible);
 
 		private void menuItem307_Click(object sender, System.EventArgs e)
 		{
-            frmGiaycv f=new frmGiaycv(m,s_makp,i_userid,"",0);
+            string mabv = "";
+            try
+            {
+                string sqlts = "select ten from " + m.user + ".thongso where id =2";
+                mabv = m.get_data(sqlts).Tables[0].Rows[0][0].ToString();
+            }
+            catch
+            { }
+            frmGiaycv f;
+            if (mabv == "115.5.10")
+                f = new frmGiaycv_quynhphu(m, s_makp, i_userid, "", 0);
+            else
+                f = new frmGiaycv(m, s_makp, i_userid, "", 0);
             f.MdiParent=this;
             f.Show();		
 		}

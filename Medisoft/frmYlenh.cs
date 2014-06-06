@@ -680,7 +680,7 @@ namespace Medisoft
                 upd_mabd(sql);
 
                 //sql1 = " select * from (";
-                sql1 += "select b.stt, b.mabn,e.hoten,d.phong,d.giuong,c.mabd,c." + s_field_soluong + " as slyeucau,' ' as sovaovien,case when e.ngaysinh is null then e.namsinh else to_char(e.ngaysinh,'dd/mm/yyyy') end as ngaysinh,f.doituong from xxx.d_duyet a,xxx.d_dutrull b,xxx.d_dutruct c,xxx.d_dausinhton d," + user + ".btdbn e ," + user + ".doituong f where a.id=b.idduyet and c.madoituong=f.madoituong ";////Khuong 05/11/2011// 07/02/2014 khuyen lay cot f.doituong
+                sql1 = "select b.stt, b.mabn,e.hoten,d.phong,d.giuong,c.mabd,c." + s_field_soluong + " as slyeucau,' ' as sovaovien,case when e.ngaysinh is null then e.namsinh else to_char(e.ngaysinh,'dd/mm/yyyy') end as ngaysinh,f.doituong from xxx.d_duyet a,xxx.d_dutrull b,xxx.d_dutruct c,xxx.d_dausinhton d," + user + ".btdbn e ," + user + ".doituong f where a.id=b.idduyet and c.madoituong=f.madoituong ";////Khuong 05/11/2011// 07/02/2014 khuyen lay cot f.doituong
                 sql1 += " and b.id=c.id and b.id=d.iddutru and b.mabn=e.mabn " + cont;
                 sql1 += " union all ";
                 sql1 += "select b.stt, b.mabn,e.hoten,d.phong,d.giuong,c.mabd,c." + s_field_soluong + " as slyeucau,' ' as sovaovien,case when e.ngaysinh is null then e.namsinh else to_char(e.ngaysinh,'dd/mm/yyyy') end as ngaysinh,f.doituong from xxx.d_duyet a,xxx.d_xtutrucll b,xxx.d_xtutrucct c,xxx.d_dausinhton d," + user + ".btdbn e ," + user + ".doituong f where a.id=b.idduyet and c.madoituong=f.madoituong ";//07/02/2014 khuyen lay cot f.doituong

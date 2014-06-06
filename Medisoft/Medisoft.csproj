@@ -356,6 +356,7 @@
   <ItemGroup>
     <Content Include="App.ico" />
     <Content Include="Medisoft.ICO" />
+    <None Include="ClassDiagram3.cd" />
     <None Include="Resources\option2.jpg" />
     <None Include="Resources\option.bmp" />
     <None Include="Resources\plus.gif" />
@@ -394,6 +395,12 @@
     </Compile>
     <Compile Include="frmDoiTuongBoDoi.cs">
       <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGiaycv_quynhphu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGiaycv_quynhphu.Designer.cs">
+      <DependentUpon>frmGiaycv_quynhphu.cs</DependentUpon>
     </Compile>
     <Compile Include="frmUpdateDuLieuGoc.cs">
       <SubType>Form</SubType>

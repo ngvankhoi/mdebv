@@ -908,7 +908,7 @@ namespace Medisoft
 					s=r["makp"].ToString().Trim()+r["madoituong"].ToString().Trim()+r["mabn"].ToString().Trim();
 					j++;
 				}
-                upd_data((j % 2 == 0) ? t2 : t1, r["makp"].ToString(), r["madoituong"].ToString(), r["mabn"].ToString(), r["hoten"].ToString(), r["nhom"].ToString(), int.Parse(r["loai"].ToString()), r["ma"].ToString(), r["dongia"].ToString(), r["soluong"].ToString(), decimal.Parse(r["giaban"].ToString()), (r["idduyet"].ToString() == "") ? 0 : decimal.Parse(r["idduyet"].ToString()), (r["manhom"].ToString() == "") ? 0 : int.Parse(r["manhom"].ToString()), r["tennhom"].ToString(),r["hotennguoinhap"].ToString(),r.Table.Columns.Contains("solan")?decimal.Parse(r["solan"].ToString()):0);
+                upd_data((j % 2 == 0) ? t2 : t1, r["makp"].ToString(), r["madoituong"].ToString(), r["mabn"].ToString(), r["hoten"].ToString(), r["nhom"].ToString(), int.Parse(r["loai"].ToString()), r["ma"].ToString(), r["dongia"].ToString(), r["soluong"].ToString(), decimal.Parse(r["giaban"].ToString()), (r["idduyet"].ToString() == "") ? 0 : decimal.Parse(r["idduyet"].ToString()), (r["manhom"].ToString() == "") ? 0 : int.Parse(r["manhom"].ToString()), r["tennhom"].ToString(), r["hotennguoinhap"].ToString(), r.Table.Columns.Contains("solan") && r["solan"].ToString()!=""? decimal.Parse(r["solan"].ToString()) : 0);
 			}
 		}
 
