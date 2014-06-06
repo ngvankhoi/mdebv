@@ -561,7 +561,7 @@ namespace Medisoft
                     for (int i = 0; i < s_chandoan.Length-1; i++)
                     {
                         r1 = m.getrowbyid(dticd10,"vviet='"+s_chandoan[i]+"'");
-                        s_maicd += r1["vviet"].ToString()!=" "?r1["cicd10"].ToString()+";":"";
+                        s_maicd += r1!=null?r1["cicd10"].ToString()+";":"";
                     }
                     r["maicd"] = s_maicd;
                 }

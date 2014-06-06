@@ -65,5 +65,13 @@ namespace Medisoft
         {
             backgroundWorker1.CancelAsync();
         }
+
+        private void FormAsynTask_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if(backgroundWorker1.IsBusy)
+            {
+                e.Cancel = true;
+            }
+        }
     }
 }
