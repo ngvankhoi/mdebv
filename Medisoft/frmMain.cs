@@ -1871,6 +1871,7 @@ namespace Medisoft
             // 
             // menuItem41
             // 
+            this.menuItem41.Checked = true;
             this.menuItem41.Index = 10;
             this.menuItem41.MergeOrder = 51;
             this.menuItem41.Text = "Xuất viện";

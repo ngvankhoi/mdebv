@@ -398,10 +398,9 @@ namespace dllDanhmucMedisoft
             f.MdiParent = this;
             f.Show();
         }
+
+    
         
-        private void menuItem61_Click(object sender, EventArgs e)
-        {
-            
-        }
+     
     }
 }
