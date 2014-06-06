@@ -356,6 +356,7 @@
   <ItemGroup>
     <Content Include="App.ico" />
     <Content Include="Medisoft.ICO" />
+    <None Include="ClassDiagram3.cd" />
     <None Include="Resources\option2.jpg" />
     <None Include="Resources\option.bmp" />
     <None Include="Resources\plus.gif" />
@@ -394,6 +395,12 @@
     </Compile>
     <Compile Include="frmDoiTuongBoDoi.cs">
       <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGiaycv_quynhphu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGiaycv_quynhphu.Designer.cs">
+      <DependentUpon>frmGiaycv_quynhphu.cs</DependentUpon>
     </Compile>
     <Compile Include="frmUpdateDuLieuGoc.cs">
       <SubType>Form</SubType>
@@ -1726,6 +1733,12 @@
     </Compile>
     <Compile Include="frmStatusProcess.Designer.cs">
       <DependentUpon>frmStatusProcess.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAsynTask.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAsynTask.Designer.cs">
+      <DependentUpon>FormAsynTask.cs</DependentUpon>
     </Compile>
     <Compile Include="Globals.cs" />
     <Compile Include="Language.cs">
@@ -3348,6 +3361,10 @@
     <EmbeddedResource Include="frmStatusProcess.resx">
       <SubType>Designer</SubType>
       <DependentUpon>frmStatusProcess.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAsynTask.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormAsynTask.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="OfficeMenus.resx">
       <DependentUpon>OfficeMenus.cs</DependentUpon>

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.ComponentModel;
 
 namespace LibMedi
 {
@@ -13,9 +14,10 @@ namespace LibMedi
             // TODO: Add constructor logic here
             //
         }
-        public void Create_table_mmyy(string schema)
+        string genScripCreateTable_p1(string schema)
         {
-            string s_sql = " alter table " + schema + ".bhyt add column mabn character varying;\n";
+            string s_sql;
+            s_sql = " alter table " + schema + ".bhyt add column mabn character varying;\n";
             s_sql += " alter table " + schema + ".bhyt add column maql numeric;\n";
             s_sql += " alter table " + schema + ".bhyt add column sothe character varying;\n";
             s_sql += " alter table " + schema + ".bhyt add column denngay timestamp without time zone;\n";
@@ -904,17 +906,12 @@ namespace LibMedi
             s_sql += " alter table " + schema + ".bask_donvi add column vongbung numeric;\n";
             s_sql += " alter table " + schema + ".bask_donvi add column coso numeric;\n";
             s_sql += " alter table " + schema + ".bask_donvi add column ngayud timestamp without time zone;\n";
+            return s_sql;
+        }
 
-            s_sql = s_sql.Trim('\n');
-            s_sql = s_sql.Trim(';');
-            foreach (string query in s_sql.Split(';'))
-            {
-                string s_tmp = query.Trim('\n');
-                if (s_tmp != "")
-                {
-                    m.execute(s_tmp);
-                }
-            }
+        string genScripCreateTable_p2(string schema)
+        {
+            string s_sql;
             s_sql = " table " + schema + ".bask_mat add column maql numeric;\n";
             s_sql += " alter table " + schema + ".bask_mat add column mavaovien numeric;\n";
             s_sql += " alter table " + schema + ".bask_mat add column ngay timestamp without time zone;\n";
@@ -2602,17 +2599,11 @@ namespace LibMedi
             s_sql += " alter table " + schema + ".d_xtutrucct add column solan numeric;\n";
             s_sql += " alter table " + schema + ".d_xtutrucct add column lan numeric;\n";
             s_sql += " alter table " + schema + ".d_xtutrucct add column ngayud timestamp without time zone;\n";
-
-            s_sql = s_sql.Trim('\n');
-            s_sql = s_sql.Trim(';');
-            foreach (string query in s_sql.Split(';'))
-            {
-                string s_tmp = query.Trim('\n');
-                if (s_tmp != "")
-                {
-                    m.execute(s_tmp);
-                }
-            }
+            return s_sql;
+        }
+        string genScripCreateTable_p3(string schema)
+        {
+            string s_sql;
             s_sql = " table " + schema + ".d_xtutrucct add column userid numeric;\n";
             s_sql += " alter table " + schema + ".d_xtutrucct add column sttt numeric;\n";
             s_sql += " alter table " + schema + ".d_xtutrucct add column loaipttt numeric;\n";
@@ -4431,7 +4422,12 @@ namespace LibMedi
             s_sql += " alter table " + schema + ".v_ttrvds add column chandoan text;\n";
             s_sql += " alter table " + schema + ".v_ttrvds add column maicd character varying;\n";
             s_sql += " alter table " + schema + ".v_ttrvds add column dain38 numeric;\n";
-
+            return s_sql;
+        }
+        public void Create_table_mmyy(string schema)
+        {
+            string s_sql;
+            s_sql = genScripCreateTable_p1(schema);
             s_sql = s_sql.Trim('\n');
             s_sql = s_sql.Trim(';');
             foreach (string query in s_sql.Split(';'))
@@ -4443,6 +4439,79 @@ namespace LibMedi
                 }
             }
 
+            s_sql = genScripCreateTable_p2(schema);
+            s_sql = s_sql.Trim('\n');
+            s_sql = s_sql.Trim(';');
+            foreach (string query in s_sql.Split(';'))
+            {
+                string s_tmp = query.Trim('\n');
+                if (s_tmp != "")
+                {
+                    m.execute(s_tmp);
+                }
+            }
+
+            s_sql = genScripCreateTable_p3(schema);
+            s_sql = s_sql.Trim('\n');
+            s_sql = s_sql.Trim(';');
+            foreach (string query in s_sql.Split(';'))
+            {
+                string s_tmp = query.Trim('\n');
+                if (s_tmp != "")
+                {
+                    m.execute(s_tmp);
+                }
+            }
+
+        }
+        public void Create_table_mmyy_Asyn(string schema,BackgroundWorker bgw)
+        {
+            if (bgw.IsBusy)
+            {
+                string sql = genScripCreateTable_p1(schema) + genScripCreateTable_p2(schema) + genScripCreateTable_p3(schema);
+                //sql.Trim('\n');
+                string[] listsql = sql.Trim(';').Split(';');
+                int countsql = listsql.Length;
+                using (Npgsql.NpgsqlCommand cmm = new Npgsql.NpgsqlCommand("", new Npgsql.NpgsqlConnection(m.ConStr)))
+                {
+                    cmm.Connection.Open();
+                    try
+                    {
+                        int nr = 0;
+                        cmm.Transaction = cmm.Connection.BeginTransaction();
+                        foreach (string sqe in listsql)
+                        {
+                            if (bgw.CancellationPending)
+                                throw new Exception("Cancel!");
+                            cmm.CommandText = sqe.Trim('\n');
+                            try
+                            {
+                                cmm.ExecuteNonQuery();
+                            }
+                            catch
+                            { 
+                            }
+                            nr++;
+                            int per = (int)((float)nr/(float)countsql*80);
+                            if (((per + 1) % 5) == 0)
+                                bgw.ReportProgress(per,"Tạo Schema "+schema+":"+sqe.Substring(0,30)+"....");
+                        }
+                        cmm.Transaction.Commit();
+                    }
+                    catch
+                    {
+                        cmm.Transaction.Rollback();
+                    }
+                    finally
+                    {
+                        cmm.Connection.Close();
+                    }
+                }
+            }
+            else
+            {
+                throw new Exception("Gọi hàm này trong sự kiện DoWork của BackgroundWorker");
+            }
         }
         public void Create_table()
         {
