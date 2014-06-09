@@ -490,8 +490,8 @@ namespace Medisoft
             if (solieu.SelectedIndex == 0)
             {
                 sql = "select a.mabn,nullif(e.soluutru,' ') soluutru,c.hoten,substr(g.tuoivao,1,3)||decode(substr(g.tuoivao,4,1),'0','TU',decode(substr(g.tuoivao,4,1),'1','TH',decode(substr(g.tuoivao,4,1),'2','NG','GI'))) as tuoivao,";
-                sql += "nullif(c.sonha,' ') sonha,nullif(c.thon,' ') thon,i.tenpxa,j.tenquan,k.tentt,";
-                sql += "nullif(d.quanhe,' ')||' '||nullif(d.hoten,' ') as quanhe,b.chandoan,e.maicd,";                
+                sql += "case when c.phai=0 then 'NAM' else 'NỮ' end gioitinh,nullif(c.sonha,' ') sonha,nullif(c.thon,' ') thon,i.tenpxa,j.tenquan,k.tentt,";
+                sql += "c.cholam,nullif(d.quanhe,' ')||' '||nullif(d.hoten,' ') as quanhe,b.chandoan,e.maicd,";                
                 sql += "to_char(a.ngay,'dd/mm/yyyy hh24:mi') ngayvao,to_char(e.ngay,'dd/mm/yyyy hh24:mi') ngayra,h.tenbv,h.mabv,a.ngay";
                 sql += ", e.makp, l.tenkp, a.madoituong, dt.doituong, bh.sothe, bh.tungay, bh.denngay ";//binh101208
                 sql += ", e.mabs, bs.hoten as tenbs, b.lydo, b.vanchuyen, b.tinhtrang, b.yeucau ";
@@ -505,8 +505,8 @@ namespace Medisoft
             else if (solieu.SelectedIndex == 1)
             {
                 sql = "select a.mabn,nullif(a.soluutru,' ') soluutru,c.hoten,substr(g.tuoivao,1,3)||decode(substr(g.tuoivao,4,1),'0','TU',decode(substr(g.tuoivao,4,1),'1','TH',decode(substr(g.tuoivao,4,1),'2','NG','GI'))) as tuoivao,";
-                sql += "nullif(c.sonha,' ') sonha,nullif(c.thon,' ') thon,i.tenpxa,j.tenquan,k.tentt,";
-                sql += "nullif(d.quanhe,' ')||' '||nullif(d.hoten,' ') as quanhe,a.chandoan,a.maicd,";
+                sql += "case when c.phai=0 then 'NAM' else 'NỮ' end gioitinh,nullif(c.sonha,' ') sonha,nullif(c.thon,' ') thon,i.tenpxa,j.tenquan,k.tentt,";
+                sql += "c.cholam,nullif(d.quanhe,' ')||' '||nullif(d.hoten,' ') as quanhe,a.chandoan,a.maicd,";
                 sql += "to_char(a.ngay,'dd/mm/yyyy hh24:mi') ngayvao,to_char(a.ngayrv,'dd/mm/yyyy hh24:mi') ngayra,h.tenbv,h.mabv,a.ngay";
                 sql += ", a.makp, l.tenkp, a.madoituong, dt.doituong, bh.sothe, bh.tungay, bh.denngay ";//binh101208
                 sql += ", a.mabs, bs.hoten as tenbs, b.lydo, b.vanchuyen, b.tinhtrang, b.yeucau ";
@@ -520,8 +520,8 @@ namespace Medisoft
             else if (solieu.SelectedIndex == 2)
             {
                 sql = "select a.mabn,nullif(a.soluutru,' ') soluutru,c.hoten,substr(g.tuoivao,1,3)||decode(substr(g.tuoivao,4,1),'0','TU',decode(substr(g.tuoivao,4,1),'1','TH',decode(substr(g.tuoivao,4,1),'2','NG','GI'))) as tuoivao,";
-                sql += "nullif(c.sonha,' ') sonha,nullif(c.thon,' ') thon,i.tenpxa,j.tenquan,k.tentt,";
-                sql += "nullif(d.quanhe,' ')||' '||nullif(d.hoten,' ') as quanhe,a.chandoan,a.maicd,";
+                sql += "case when c.phai=0 then 'NAM' else 'NỮ' end gioitinh,nullif(c.sonha,' ') sonha,nullif(c.thon,' ') thon,i.tenpxa,j.tenquan,k.tentt,";
+                sql += "c.cholam,nullif(d.quanhe,' ')||' '||nullif(d.hoten,' ') as quanhe,a.chandoan,a.maicd,";
                 sql += "to_char(a.ngay,'dd/mm/yyyy hh24:mi') ngayvao,to_char(a.ngayrv,'dd/mm/yyyy hh24:mi') ngayra,h.tenbv,h.mabv,a.ngay";
                 sql += ", a.makp, l.tenkp , a.madoituong, dt.doituong, bh.sothe, bh.tungay, bh.denngay ";//binh101208
                 sql += ", a.mabs, bs.hoten as tenbs, b.lydo, b.vanchuyen, b.tinhtrang, b.yeucau ";
@@ -535,8 +535,8 @@ namespace Medisoft
             else
             {
                 sql = "select a.mabn,nullif(g.soluutru,' ') soluutru,c.hoten,substr(g.tuoivao,1,3)||decode(substr(g.tuoivao,4,1),'0','TU',decode(substr(g.tuoivao,4,1),'1','TH',decode(substr(g.tuoivao,4,1),'2','NG','GI'))) as tuoivao,";
-                sql += "nullif(c.sonha,' ') sonha,nullif(c.thon,' ') thon,i.tenpxa,j.tenquan,k.tentt,";
-                sql += "nullif(d.quanhe,' ')||' '||nullif(d.hoten,' ') as quanhe,a.chandoan,a.maicd,";
+                sql += "case when c.phai=0 then 'NAM' else 'NỮ' end gioitinh,nullif(c.sonha,' ') sonha,nullif(c.thon,' ') thon,i.tenpxa,j.tenquan,k.tentt,";
+                sql += "c.cholam,nullif(d.quanhe,' ')||' '||nullif(d.hoten,' ') as quanhe,a.chandoan,a.maicd,";
                 sql += "to_char(a.ngay,'dd/mm/yyyy hh24:mi') ngayvao,to_char(a.ngay,'dd/mm/yyyy hh24:mi') ngayra,h.tenbv,h.mabv,a.ngay";
                 sql += ", a.makp, l.tenkp , a.madoituong, dt.doituong, bh.sothe, bh.tungay, bh.denngay ";//binh101208
                 sql += ", a.mabs, bs.hoten as tenbs, b.lydo, b.vanchuyen, b.tinhtrang, b.yeucau ";

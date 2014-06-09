@@ -356,7 +356,6 @@
   <ItemGroup>
     <Content Include="App.ico" />
     <Content Include="Medisoft.ICO" />
-    <None Include="ClassDiagram3.cd" />
     <None Include="Resources\option2.jpg" />
     <None Include="Resources\option.bmp" />
     <None Include="Resources\plus.gif" />
