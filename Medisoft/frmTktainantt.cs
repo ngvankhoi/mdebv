@@ -1078,6 +1078,13 @@ namespace Medisoft
             ts.GridColumnStyles.Add(TextCol);
             dataGrid1.TableStyles.Add(ts);
 
+            TextCol = new DataGridTextBoxColumn();
+            TextCol.MappingName = "phai";
+            TextCol.HeaderText = "Giới tính";
+            TextCol.Width = 40;
+            ts.GridColumnStyles.Add(TextCol);
+            dataGrid1.TableStyles.Add(ts);
+
 			TextCol=new DataGridTextBoxColumn();
 			TextCol.MappingName = "diachi";
 			TextCol.HeaderText = "Địa chỉ";

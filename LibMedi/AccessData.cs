@@ -19807,8 +19807,8 @@ namespace LibMedi
                 den = den + " " + sGiobaocao;
             }
             hoten = Hoten_khongdau(hoten);
-            sql = "select distinct a.mabn,a.hoten,to_char(a.ngaysinh,'dd/mm/yyyy') ngaysinh,substr(k.tuoivao,1,3)||case when substr(k.tuoivao,4,1)=0 then 'TU' else case when substr(k.tuoivao,4,1)=1 then 'TH' else case when substr(k.tuoivao,4,1)=2 then 'NG' else 'GI' end end end as tuoi,";
-            sql += "a.namsinh,a.sonha,a.thon,b.tenpxa,c.tenquan,d.tentt,";
+            sql = "select distinct a.mabn,a.hoten,case when a.phai=0 then 'NAM' else 'NỮ' end gioitinh, to_char(a.ngaysinh,'dd/mm/yyyy') ngaysinh,substr(k.tuoivao,1,3)||case when substr(k.tuoivao,4,1)=0 then 'TU' else case when substr(k.tuoivao,4,1)=1 then 'TH' else case when substr(k.tuoivao,4,1)=2 then 'NG' else 'GI' end end end as tuoi,";
+            sql += "a.namsinh,a.sonha,a.thon,b.tenpxa,c.tenquan,d.tentt,a.cholam,";
             sql += "g.tennn,to_char(f.ngay,'dd/mm/yyyy hh24:mi') as ngay,e.tenkp,h.doituong,bh.sothe,";
             sql += "f.chandoan,f.maicd,f.sovaovien,i.ten as nhantu,j.ten as dentu, k.soluutru,u.hoten as tenuser, f.tuchoi,f.maql,nk.khoachuyen ";
             sql += "from " + user + ".btdbn a inner join " + user + ".btdpxa b on a.maphuongxa=b.maphuongxa"+
@@ -19885,8 +19885,8 @@ namespace LibMedi
                     den = den + " " + sGiobaocao;
                 }
                 hoten = Hoten_khongdau(hoten);
-                sql = "select f.id,a.mabn,a.hoten, to_char(a.ngaysinh,'dd/mm/yyyy') ngaysinh,substr(f.tuoivao,1,3)||case when substr(f.tuoivao,4,1)=0 then 'TU' else case when substr(f.tuoivao,4,1)=1 then 'TH' else case when substr(f.tuoivao,4,1)=2 then 'NG' else 'GI' end end end as tuoi,";
-                sql += "a.namsinh,a.sonha,a.thon,b.tenpxa,c.tenquan,d.tentt,";
+                sql = "select f.id,a.mabn,a.hoten,case when a.phai =0 then 'NAM' else 'NỮ' end gioitinh, to_char(a.ngaysinh,'dd/mm/yyyy') ngaysinh,substr(f.tuoivao,1,3)||case when substr(f.tuoivao,4,1)=0 then 'TU' else case when substr(f.tuoivao,4,1)=1 then 'TH' else case when substr(f.tuoivao,4,1)=2 then 'NG' else 'GI' end end end as tuoi,";
+                sql += "a.namsinh,a.sonha,a.thon,b.tenpxa,c.tenquan,d.tentt, a.cholam,";
                 sql += "g.tennn,to_char(f.ngay,'dd/mm/yyyy hh24:mi') as ngay,e.tenkp,h.doituong,";
                 sql += "f.chandoan,f.maicd,k.sovaovien,i.ten as nhantu,j.ten as dentu,f.giuong,l.tenkp as noichuyen,u.hoten as tenuser,bh.sothe ";
                 sql += "from " + user + ".btdbn a inner join " + user + ".btdpxa b on a.maphuongxa=b.maphuongxa inner join " + user + 
@@ -20045,8 +20045,8 @@ namespace LibMedi
                     execute_data(sql);
                 }
                 hoten = Hoten_khongdau(hoten);
-                sql = "select a.mabn,a.hoten,to_char(a.ngaysinh,'dd/mm/yyyy') ngaysinh,substr(f.tuoivao,1,3)||case when substr(f.tuoivao,4,1)=0 then 'TU' else case when substr(f.tuoivao,4,1)=1 then 'TH' else case when substr(f.tuoivao,4,1)=2 then 'NG' else 'GI' end end end as tuoi,";
-                sql += "a.namsinh,a.sonha,a.thon,b.tenpxa,c.tenquan,d.tentt,";
+                sql = "select a.mabn,a.hoten,case when a.phai=0 then 'NAM' else 'NỮ' end gioitinh,to_char(a.ngaysinh,'dd/mm/yyyy') ngaysinh,substr(f.tuoivao,1,3)||case when substr(f.tuoivao,4,1)=0 then 'TU' else case when substr(f.tuoivao,4,1)=1 then 'TH' else case when substr(f.tuoivao,4,1)=2 then 'NG' else 'GI' end end end as tuoi,";
+                sql += "a.namsinh,a.sonha,a.thon,b.tenpxa,c.tenquan,d.tentt,a.cholam,";
                 sql += "g.tennn,to_char(f.ngay,'dd/mm/yyyy hh24:mi') as ngayvk,e.tenkp,h.doituong,";
                 sql += "l.chandoan,l.maicd,k.sovaovien,i.ten as ketqua,j.ten as ttlucrk,f.giuong,";
                 sql += "to_char(l.ngay,'dd/mm/yyyy hh24:mi') as ngayrk,m.sothe,";
@@ -20220,8 +20220,8 @@ namespace LibMedi
                     execute_data(sql);
                 }
                 hoten = Hoten_khongdau(hoten);
-                sql = "select a.mabn,a.hoten, to_char(a.ngaysinh,'dd/mm/yyyy') ngaysinh,substr(m.tuoivao,1,3)||case when substr(m.tuoivao,4,1)=0 then 'TU' else case when substr(m.tuoivao,4,1)=1 then 'TH' else case when substr(m.tuoivao,4,1)=2 then 'NG' else 'GI' end end end as tuoi,";
-                sql += "a.namsinh,a.sonha,a.thon,b.tenpxa,c.tenquan,d.tentt,";
+                sql = "select a.mabn,a.hoten,case when a.phai=0 then 'NAM' else 'NỮ' end gioitinh , to_char(a.ngaysinh,'dd/mm/yyyy') ngaysinh,substr(m.tuoivao,1,3)||case when substr(m.tuoivao,4,1)=0 then 'TU' else case when substr(m.tuoivao,4,1)=1 then 'TH' else case when substr(m.tuoivao,4,1)=2 then 'NG' else 'GI' end end end as tuoi,";
+                sql += "a.namsinh,a.sonha,a.thon,b.tenpxa,c.tenquan,d.tentt,a.cholam,";
                 sql += "g.tennn,to_char(k.ngay,'dd/mm/yyyy hh24:mi') as ngayvk,e.tenkp,h.doituong,";
                 sql += "l.chandoan as chandoanra,l.maicd as maicdra,k.chandoan as chandoanvao,k.maicd as maicdvao,k.sovaovien,i.ten as ketqua,j.ten as ttlucrk,";//Thuy 02.04.2012
                 sql += "to_char(l.ngay,'dd/mm/yyyy hh24:mi') as ngayrk,l.soluutru, ";
@@ -67326,7 +67326,7 @@ namespace LibMedi
                 den = den + " " + sGiobaocao;
             }
             hoten = Hoten_khongdau(hoten);
-            sql = "SELECT a.mabn,t.hoten,t.namsinh,case when t.phai=1 then 'Nữ' else 'Nam' end as phai,c.tennn,c.viettat as nnviettat,d.ten as diadiem," +
+            sql = "SELECT a.mabn,t.hoten,t.namsinh,case when t.phai=1 then 'Nữ' else 'Nam' end as phai,t.cholam,c.tennn,c.viettat as nnviettat,d.ten as diadiem," +
                 "d.viettat as ddviettat,e.ten as bophan,e.viettat as bpviettat, f.TEN as nguyennhan," +
                 "f.viettat as ngnhanviettat, g.TEN as ngodoc,h.ten as dienbien,h.viettat as dbviettat," +
                 "i.TEN as xutri,i.viettat as xtviettat,t0.sonha,t0.thon,x.tentt,x.viettat as ttviettat,y.tenquan," +

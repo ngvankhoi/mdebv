@@ -547,7 +547,7 @@ namespace Medisoft
             if (chkHientai.Checked)
             {
                 sql = "select e.tenkp as khoa,a.mabn,b.hoten,case when b.phai=0 then 'Nam' else 'Nữ' end as phai,";
-                sql +=" b.namsinh,to_char(a.ngay,'dd/mm/yyyy hh24:mi') as ngay,c.tenkp,f.doituong,g.sothe,h.ma as giuong,";
+                sql +=" b.namsinh,b.cholam,to_char(a.ngay,'dd/mm/yyyy hh24:mi') as ngay,c.tenkp,f.doituong,g.sothe,h.ma as giuong,";
                 sql += "a.id,a.maql,b.nam";
                 //Khuong 03/11 Them option trong tuy chon, cho phep hien thi ngay gio vao vien
                 if(tmn_hienthingayvaovien.Checked)sql+=",to_char(d.ngay,'dd/mm/yyyy hh24:mi') as ngayvaovien";
@@ -579,7 +579,7 @@ namespace Medisoft
             else
             {
                 sql = "select i.tenkp as khoa,a.mabn,a.hoten,case when a.phai=0 then 'Nam' else 'Nữ' end as phai,";
-                sql+="a.namsinh,to_char(b.ngay,'dd/mm/yyyy hh24:mi') as ngay,j.tenkp,l.doituong,m.sothe,b.giuong,";
+                sql+="a.namsinh,a.cholam,to_char(b.ngay,'dd/mm/yyyy hh24:mi') as ngay,j.tenkp,l.doituong,m.sothe,b.giuong,";
                 sql += "b.id,b.maql,a.nam";
                 if (tmn_hienthingayvaovien.Checked) sql += ",to_char(k.ngay,'dd/mm/yyyy hh24:mi') as ngayvaovien";
                 if (tmn_hienthitamung.Checked) sql += ", n.sotien as tamung ";
@@ -709,13 +709,20 @@ namespace Medisoft
 			TextCol.HeaderText = "Nơi chuyển";
 			TextCol.Width = 80;
 			ts.GridColumnStyles.Add(TextCol);
-            dataGrid1.TableStyles.Add(ts);
+            dataGrid1.TableStyles.Add(ts);           
 
             TextCol = new DataGridColoredTextBoxColumn(de, 7);
             TextCol.MappingName = "tennn";
             TextCol.HeaderText = "Nghề nghiệp";
             TextCol.Width = 80;
             TextCol.NullText = string.Empty;
+            ts.GridColumnStyles.Add(TextCol);
+            dataGrid1.TableStyles.Add(ts);
+
+            TextCol = new DataGridColoredTextBoxColumn(de, 6);
+            TextCol.MappingName = "cholam";
+            TextCol.HeaderText = "Nơi làm việc";
+            TextCol.Width = 100;
             ts.GridColumnStyles.Add(TextCol);
             dataGrid1.TableStyles.Add(ts);
 

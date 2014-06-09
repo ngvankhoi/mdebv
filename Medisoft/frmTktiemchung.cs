@@ -1253,8 +1253,8 @@ namespace Medisoft
                 den = den + " " + m.sGiobaocao;
             }
             hoten = m.Hoten_khongdau(hoten);
-            sql = "SELECT a.MABN,f.maql,a.HOTEN,to_char(a.ngaysinh,'dd/mm/yyyy') ngaysinh, a.NAMSINH, coalesce(a.SONHA,'') as sonha,";
-            sql += "coalesce(a.THON,' ') as thon, b.TENPXA, c.TENQUAN, d.TENTT, g.TENNN, to_char(f.ngay,'dd/mm/yyyy hh24:mi') AS ngay,";
+            sql = "SELECT a.MABN,f.maql,a.HOTEN,to_char(a.ngaysinh,'dd/mm/yyyy') ngaysinh, a.NAMSINH,case when a.phai =0 then 'Nam' else 'Nữ' end gioitinh ,coalesce(a.SONHA,'') as sonha,";
+            sql += "coalesce(a.THON,' ') as thon, b.TENPXA, c.TENQUAN, d.TENTT, g.TENNN, to_char(f.ngay,'dd/mm/yyyy hh24:mi') AS ngay,a.cholam";
             sql += "coalesce(y.tenkp,' ') as khoanhap,coalesce(to_char(z.ngaysanh,'dd/mm/yyyy'),' ') as ngaysanh,coalesce(u.hoten,' ') as tenuser,coalesce(l.sothe,' ') as sothe,v.tenbv ";
             sql += ", l.traituyen ";
             sql += " FROM " + user + ".btdbn a inner join "+user+".benhantc f on a.mabn=f.mabn";
@@ -1358,6 +1358,13 @@ namespace Medisoft
 			TextCol.Width = 120;
 			ts.GridColumnStyles.Add(TextCol);
 			dataGrid1.TableStyles.Add(ts);
+
+            TextCol = new DataGridTextBoxColumn();
+            TextCol.MappingName = "gioitinh";
+            TextCol.HeaderText = "Giới tính";
+            TextCol.Width = 40;
+            ts.GridColumnStyles.Add(TextCol);
+            dataGrid1.TableStyles.Add(ts);
 
 			TextCol=new DataGridTextBoxColumn();
 			TextCol.MappingName = "tuoi";

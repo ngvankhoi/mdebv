@@ -228,8 +228,8 @@ namespace Medisoft
             if (makp.CheckedItems.Count > 0)
                 for (int i = 0; i < makp.Items.Count; i++) if (makp.GetItemChecked(i)) s_makp += "'" + dt.Rows[i]["makp"].ToString() + "',";
 			s_makp=(s_makp!="")?s_makp.Substring(0,s_makp.Length-1):"";
-			sql="select a.mabn,a.hoten,case when a.phai=0 then 'Nam' else 'Nu' end as phai,a.namsinh,";
-			sql+="trim(a.sonha)||' '||trim(a.thon)||' '||trim(f.tenpxa)||','||trim(e.tenquan)||','||trim(d.tentt) as diachi,";
+			sql="select a.mabn,a.hoten,case when a.phai=0 then 'Nam' else 'Nữ' end as phai,a.namsinh,";
+			sql+="trim(a.sonha)||' '||trim(a.thon)||' '||trim(f.tenpxa)||','||trim(e.tenquan)||','||trim(d.tentt) as diachi,a.cholam";
             sql += "to_char(b.ngay,'dd/mm/yyyy hh24:mi') as ngayvao,i.tenkp as khoavao,nullif(h.tenbv,' ') as tenbv,";
             sql += "b.chandoan as chandoanvao,b.maicd as icdvao,";
             if (i_loaiba == 1)

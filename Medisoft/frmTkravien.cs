@@ -1580,6 +1580,14 @@ namespace Medisoft
 			ts.GridColumnStyles.Add(TextCol);
 			dataGrid1.TableStyles.Add(ts);
 
+            TextCol = new DataGridTextBoxColumn();
+            TextCol.MappingName = "gioitinh";
+            TextCol.HeaderText = "Giới tính";
+            TextCol.Width = 40;
+            ts.GridColumnStyles.Add(TextCol);
+            dataGrid1.TableStyles.Add(ts);
+
+			
 			TextCol=new DataGridTextBoxColumn();
 			TextCol.MappingName = "sonha";
 			TextCol.HeaderText = "Số nhà";
@@ -1622,6 +1630,14 @@ namespace Medisoft
             TextCol.NullText = string.Empty;
 			ts.GridColumnStyles.Add(TextCol);
 			dataGrid1.TableStyles.Add(ts);
+
+            TextCol = new DataGridTextBoxColumn();
+            TextCol.MappingName = "cholam";
+            TextCol.HeaderText = "Nơi làm việc";
+            TextCol.Width = 150;
+            TextCol.NullText = string.Empty;
+            ts.GridColumnStyles.Add(TextCol);
+            dataGrid1.TableStyles.Add(ts);
 
 			TextCol=new DataGridTextBoxColumn();
 			TextCol.MappingName = "ngayvk";
