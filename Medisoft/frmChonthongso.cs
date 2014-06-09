@@ -409,6 +409,7 @@ namespace Medisoft
             this.Name = "frmChonthongso";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Chọn thông số";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmChonthongso_FormClosing);
             this.Load += new System.EventHandler(this.frmChonthongso_Load);
             ((System.ComponentModel.ISupportInitialize)(this.mm)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.yyyy)).EndInit();
@@ -536,6 +537,7 @@ namespace Medisoft
 		}
 		private void butOk_Click(object sender, System.EventArgs e)
 		{
+            _bbutok = false;
 			if (!kiemtra()) return;
 			s_mmyy=mm.Value.ToString().PadLeft(2,'0')+yyyy.Value.ToString().PadLeft(4,'0').Substring(2,2);
 			if (!d.bMmyy(s_mmyy))
@@ -544,6 +546,7 @@ namespace Medisoft
 				mm.Focus();
 				return;
 			}
+            
 			i_nhom=int.Parse(nhom.SelectedValue.ToString());
 			Cursor=Cursors.WaitCursor;
             s_manguon = d.get_data("select nguon from " + user + ".d_dmphieu where id=" + i_loai).Tables[0].Rows[0][0].ToString();
@@ -637,6 +640,7 @@ namespace Medisoft
                     }
                 }
             }
+            _bbutok = true;
 			m.close();this.Close();
 		}
 
@@ -645,7 +649,7 @@ namespace Medisoft
 			s_makp="";
 			m.close();this.Close();
 		}
-
+        bool _bbutok = false;
 		private void frmChonthongso_Load(object sender, System.EventArgs e)
 		{
             user = d.user;
@@ -715,7 +719,7 @@ namespace Medisoft
             if (d_idxuattutruc != 0)
             {
                 f_get_thongtinphieu(d_idxuattutruc );
-            }
+            } 
 		}
 
 		private void load_matutruc()
@@ -821,6 +825,11 @@ namespace Medisoft
         private void chkAll_CheckedChanged(object sender, System.EventArgs e)
         {
             if (this.ActiveControl == chkAll) loc_phieu(chkAll.Checked);
+        }
+
+        private void frmChonthongso_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (!_bbutok) s_makp = "";
         }
 	}
 }
