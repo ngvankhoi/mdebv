@@ -734,7 +734,7 @@ namespace dllvpkhoa_chidinh
             if (s_loaivp != "") sql += " and  a.id in (" + s_loaivp + ")";
             if (loaivp != "") sql += " and  a.id in (" + loaivp + ")";
             //if (i_madoituong==1 && bChidinh_thutienlien && bVpkhoa) sql += " and b.chenhlech=0 ";
-            if (bSortTen) sql += " order by b.ten ";
+            if (bSortTen) sql += " order by  "+((loaivp.Trim() == "") ? "aa.ten" : "a.ten");// b.ten ";
             else sql += " order by "+((loaivp.Trim() == "") ? "aa.stt" : "a.stt");
             tabControl1.TabPages.Clear();
             string s_ten = "";
@@ -767,7 +767,7 @@ namespace dllvpkhoa_chidinh
                     }
                 }
                 sql += " and (loaibn=0 or loaibn=" + i_loai + ")";
-                if (bSortTen) sql += " order by a.ten ";
+                if (bSortTen) sql += " order by a.ma ";
                 else sql += " order by a.stt";
                 
                 foreach (DataRow r1 in m.get_data(sql).Tables[0].Rows)

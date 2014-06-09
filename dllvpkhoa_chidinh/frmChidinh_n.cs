@@ -875,6 +875,7 @@ namespace dllvpkhoa_chidinh
             // 
             // mnuSapXepTenTheoABC
             // 
+            this.mnuSapXepTenTheoABC.CheckOnClick = true;
             this.mnuSapXepTenTheoABC.Name = "mnuSapXepTenTheoABC";
             this.mnuSapXepTenTheoABC.Size = new System.Drawing.Size(316, 22);
             this.mnuSapXepTenTheoABC.Text = "Liệt kê các dịch vụ sắp xếp Tên theo thứ tự ABC";
