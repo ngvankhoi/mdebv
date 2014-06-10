@@ -935,8 +935,10 @@ namespace Medisoft
 		}
         private void exp_excelCanLoc(bool print)
         {
+            System.Globalization.CultureInfo old = Thread.CurrentThread.CurrentCulture;
             try
             {
+                Thread.CurrentThread.CurrentCulture = new System.Globalization.CultureInfo("en-US");
                 d.check_process_Excel();
 
                 int be = 3, cot = ds.Tables[0].Columns.Count, dong = ds.Tables[0].Rows.Count + be + 2, sss = dong - 1, sodong = dong + 1;
@@ -1057,6 +1059,7 @@ namespace Medisoft
             {
                 MessageBox.Show(ex.Message);
             }
+            Thread.CurrentThread.CurrentCulture = old;
         }
 		private void exp_excel(bool print)
 		{

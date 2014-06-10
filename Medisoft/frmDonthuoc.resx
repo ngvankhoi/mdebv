@@ -120,30 +120,31 @@
   <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="butXem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        R0lGODlhFgAWAPMAAMLC1WuMwjtdnCZKjCxYqtHS4Nrj9pOt109so091u////4qiyv///wAAAAAAAAAA
-        ACH5BAEAAAwALAAAAAAWABYAAAR0kMlJq7046837LAJRMAUhjBwSBAJArG1qsO4cb4hd0xthHKzQjIW6
-        BBaBBGFwGBAIiUSgWPEBnQLB4Me7WAODQSHMvVm+AwBpCzRXuel1We2Fq8dzDEERaN4HfAduFANZWn+G
-        cRcFAI0AI4yOjx6UlZaXHBEAOw==
+        R0lGODlhFgAWAIMAAMLC1WuMwjtdnCZKjCxYqtHS4Nrj9pOt109so091u////4qiyv///wAAAAAAAAAA
+        ACH/C05FVFNDQVBFMi4wAwEBAAAh+QQBAAAMACwAAAAAFgAWAAAInAAZCBxIsKDBgwgTKlzIsOHAAgII
+        FGBQgICAiQwRBAggAACBjR0zGuDocWTIhQhMliS5kICBAxwjjuSI8WCABQESEBhwYAABAgkSBKhZ0CVM
+        nwIEDHjJ8qDRAAMGFIjK9KTBpwMAUFwK02pRplm3VtXqFKzWqWMRElAQoOfZAWwPeCU4IKnSt3bDHiwA
+        oC+AiXz9/nVIuLDhwwwDAgA7
 </value>
   </data>
   <data name="butIn.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        R0lGODlhEAAQAPYAALrCzD5MWqfK8mp1gHmImuXq8Orv8tLd5eDn7aWvvK23wrC+zJuotvb3+oGRou7x
+        R0lGODlhEAAQAIYAALrCzD5MWqfK8mp1gHmImuXq8Orv8tLd5eDn7aWvvK23wrC+zJuotvb3+oGRou7x
         9dno+eDm7djo+dzj62p0f9fd5fL093KAkrLQ9NTl+Nzk68Lb987j+NLl+f39/s7X4lFebu3w9b3Y9cvg
         +Oru867P87jU9P3+/rzX9cfd9rfU9VFebcPd94iWqJKfr4KRo256h5Ogr3uLnPr6+8bd99be6Njf57/a
         9kZTYsoCAvL0+HaEk9Dk+MrU4LrW9V1re1xrekZUYv///5Kgr8Hb9tfn+cnf99vq+dXm+LbT9dfg53aF
         lrTS82d1h8je9puotdTl98rW4MfU4HOAj213g+3w9HB9ivX2+dPl+IiXqM/j+EKsAPr7/M7Z4omYp6nL
         8tbn+Wt1gNbg6M7Y49fp+Wl3h3yLnf///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAGcALAAAAAAQABAAAAfDgGeC
-        CwCFhoUUgopnAEInM1cWVQYFA4uCAB4KCU8xWQ4IlpcAXA06IZQIE6KLAA2bDC4tL2KsigAWDyQFERNK
-        B7aYD7BDXg5dwYyUERo2Bx9RwQBmBQgaNQdjPVIDAIIVAAQyBEs7U1YwVGEUBADgRxIZHRxOLDc+SRgC
-        XwIBABBkMvAYkWKDCBNMcgjY0u8fGCxajNAggkIFhhICMvqTgISAxwtlgIAIEiCARgBFoCwgcKHJjxU4
-        Si44OaCkzZs3AQQCADs=
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQB
+        AABnACwAAAAAEAAQAAAI0wDPCFwAoKDBghQEKjwDQMiJGVcsVDFQYMBCgQA8KEjwJEYWBwgsXgTApYGO
+        EBQRTBC5EECDjQxctHghhqVCABYekCgQYYKSAzYxPoA5xIuDLkEZUoygwcaBD1GCAjBTAIGGGgfG9JAy
+        AIDACgAIyCCwZMcUKzCohKFAAADYIxIydODghMUNH0kwCPgiIAAACGQy8BiRYoMIE0xyCNjS9y8YLFqM
+        0CCCQgWGEgIy+5WAhIDnC2WAgAgSIIBmAEWgLCBwocmPFThKLzg9oLTt27cBBAQAOw==
 </value>
   </data>
   <data name="butKetthuc.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        R0lGODlhDgAOAPcAAP//////zP//mf//Zv//M///AP/M///MzP/Mmf/MZv/MM//MAP+Z//+ZzP+Zmf+Z
+        R0lGODlhDgAOAIcAAP//////zP//mf//Zv//M///AP/M///MzP/Mmf/MZv/MM//MAP+Z//+ZzP+Zmf+Z
         Zv+ZM/+ZAP9m//9mzP9mmf9mZv9mM/9mAP8z//8zzP8zmf8zZv8zM/8zAP8A//8AzP8Amf8AZv8AM/8A
         AMz//8z/zMz/mcz/Zsz/M8z/AMzM/8zMzMzMmczMZszMM8zMAMyZ/8yZzMyZmcyZZsyZM8yZAMxm/8xm
         zMxmmcxmZsxmM8xmAMwz/8wzzMwzmcwzZswzM8wzAMwA/8wAzMwAmcwAZswAM8wAAJn//5n/zJn/mZn/
@@ -156,16 +157,18 @@
         ZgCZMwCZAABm/wBmzABmmQBmZgBmMwBmAAAz/wAzzAAzmQAzZgAzMwAzAAAA/wAAzAAAmQAAZgAAMwAA
         AP38/PybnPyWl/yEh/x2evxvc/xobPxJUPxCSvw6Q/w0PPwmL/xwc/x3evyEhvyRkvyfoPyjpPsOGfwa
         JPwtNvwzPPxCSfxKUdZCR/xRV9ZITfxZX/xfZfxgZfxobfxtcfx9gPyKjfwUH/wfKtYaI9YgKfynp///
-        /yH5BAEAAP8ALAAAAAAOAA4AAAiSAA/MG0iw4LxxAtOhy6btXD5z+Lh181Zv3LyFDfNti0jOXr2D8xgC
-        ALCRGzls2ObFs5hxZLluKOXJe2fR4caRMeF9A2dRY8RuALDJ/OYunMWSE4PqBBdOnMWf3lCiZNqOncWX
-        9lDCg4dSnFWLE3MWRTlun0WK8+TBK1q1H79148Z9jEe0qdV96/QhjMu3L98DAQEAOw==
+        /yH/C05FVFNDQVBFMi4wAwEBAAAh+QQBAAD/ACwAAAAADgAOAAAIkgAPzBtIsOC8cQLTocum7Vw+c/i4
+        dfNWb9y8hQ3zbYtIzl69g/MYAgCwkRs5bNjmxbOYcWS5bijlyXtn0eHGkTHhfQNnUWPEbgCwyfzmLpzF
+        khOD6gQXTpzFn95QomTajp3Fl/ZQwoOHUpxVixNzFkU5bp9FivPkwStatR+/dePGfYxHtKnVfev0IYzL
+        ty/fAwEBADs=
 </value>
   </data>
   <data name="butDanhsach.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        R0lGODlhEgASAPMAADFjl8DAwP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        ACH5BAEAAAEALAAAAAASABIAAAQ+MMhJKwU4a2yB+GAIdMKWlWSojpVnYmirruSpxdcs1vDNSiOP7vPj
-        uGC0AEc5QwaLut4S+NpYrlSsdsudRAAAOw==
+        R0lGODlhEgASAIMAADFjl8DAwP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        ACH/C05FVFNDQVBFMi4wAwEBAAAh+QQBAAABACwAAAAAEgASAAAIWQADCBxIsCBBAAgTKkRoEICAhxAj
+        AmgoYGHCihQjapxY0KFFhBg7atxI8aLCkAdHSiwJ8iRHgRMdqnz4kqFHkCQDMNQ5EmfMmipb7oT5caHB
+        o0SRKl3KdGBAADs=
 </value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
