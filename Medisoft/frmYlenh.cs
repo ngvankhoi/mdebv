@@ -9,6 +9,7 @@ using LibMedi;
 using System.Reflection;
 using System.Runtime.InteropServices;
 using Excel;
+using System.Threading;
 
 namespace Medisoft
 {
@@ -680,17 +681,18 @@ namespace Medisoft
                 upd_mabd(sql);
 
                 //sql1 = " select * from (";
-                sql1 = "select b.stt, b.mabn,e.hoten,d.phong,d.giuong,c.mabd,c." + s_field_soluong + " as slyeucau,' ' as sovaovien,case when e.ngaysinh is null then e.namsinh else to_char(e.ngaysinh,'dd/mm/yyyy') end as ngaysinh,f.doituong from xxx.d_duyet a,xxx.d_dutrull b,xxx.d_dutruct c,xxx.d_dausinhton d," + user + ".btdbn e ," + user + ".doituong f where a.id=b.idduyet and c.madoituong=f.madoituong ";////Khuong 05/11/2011// 07/02/2014 khuyen lay cot f.doituong
+                sql1 = "select  b.mabn,e.hoten,d.phong,d.giuong,c.mabd,c." + s_field_soluong + " as slyeucau,' ' as sovaovien,case when e.ngaysinh is null then e.namsinh else to_char(e.ngaysinh,'dd/mm/yyyy') end as ngaysinh,f.doituong from xxx.d_duyet a,xxx.d_dutrull b,xxx.d_dutruct c,xxx.d_dausinhton d," + user + ".btdbn e ," + user + ".doituong f where a.id=b.idduyet and c.madoituong=f.madoituong ";////Khuong 05/11/2011// 07/02/2014 khuyen lay cot f.doituong
                 sql1 += " and b.id=c.id and b.id=d.iddutru and b.mabn=e.mabn " + cont;
                 sql1 += " union all ";
-                sql1 += "select b.stt, b.mabn,e.hoten,d.phong,d.giuong,c.mabd,c." + s_field_soluong + " as slyeucau,' ' as sovaovien,case when e.ngaysinh is null then e.namsinh else to_char(e.ngaysinh,'dd/mm/yyyy') end as ngaysinh,f.doituong from xxx.d_duyet a,xxx.d_xtutrucll b,xxx.d_xtutrucct c,xxx.d_dausinhton d," + user + ".btdbn e ," + user + ".doituong f where a.id=b.idduyet and c.madoituong=f.madoituong ";//07/02/2014 khuyen lay cot f.doituong
+                sql1 += "select  b.mabn,e.hoten,d.phong,d.giuong,c.mabd,c." + s_field_soluong + " as slyeucau,' ' as sovaovien,case when e.ngaysinh is null then e.namsinh else to_char(e.ngaysinh,'dd/mm/yyyy') end as ngaysinh,f.doituong from xxx.d_duyet a,xxx.d_xtutrucll b,xxx.d_xtutrucct c,xxx.d_dausinhton d," + user + ".btdbn e ," + user + ".doituong f where a.id=b.idduyet and c.madoituong=f.madoituong ";//07/02/2014 khuyen lay cot f.doituong
                 sql1 += " and b.id=c.id and b.id=d.iddutru and b.mabn=e.mabn " + cont;
                // sql1 += " and b.id=c.id and b.id=d.iddutru and b.mabn=e.mabn " + cont;
                 sql1 += " union all ";
-                sql1 += "select  b.stt, b.mabn,e.hoten,d.phong,d.giuong,c.mabd,-c." + s_field_soluong + " as slyeucau,' ' as sovaovien,case when e.ngaysinh is null then e.namsinh else to_char(e.ngaysinh,'dd/mm/yyyy') end as ngaysinh,f.doituong from xxx.d_duyet a,xxx.d_hoantrall b,xxx.d_hoantract c,xxx.d_dausinhton d," + user + ".btdbn e, " + user + ".doituong f where a.id=b.idduyet and c.madoituong=f.madoituong ";//07/02/2014 khuyen lay cot f.doituong
+                sql1 += "select   b.mabn,e.hoten,d.phong,d.giuong,c.mabd,-c." + s_field_soluong + " as slyeucau,' ' as sovaovien,case when e.ngaysinh is null then e.namsinh else to_char(e.ngaysinh,'dd/mm/yyyy') end as ngaysinh,f.doituong from xxx.d_duyet a,xxx.d_hoantrall b,xxx.d_hoantract c,xxx.d_dausinhton d," + user + ".btdbn e, " + user + ".doituong f where a.id=b.idduyet and c.madoituong=f.madoituong ";//07/02/2014 khuyen lay cot f.doituong
                 sql1 += " and b.id=c.id and b.id=d.iddutru and b.mabn=e.mabn " + cont;
                 //sql1 += " ) order by stt ";
                // sql1 += " and b.id=c.id and b.id=d.iddutru and b.mabn=e.mabn " + cont;
+                sql1 = "select * from ("+sql1+") order by mabn";
                 upd_soluong(sql1);
             }
             else
@@ -740,7 +742,7 @@ namespace Medisoft
                 }
                 if (!chkTutruc.Checked)
                     upd_mabd(sql);
-
+                sql1 = "select * from (" + sql1 + ") order by mabn";
                 upd_soluong(sql1);
             }
 		}
@@ -893,6 +895,7 @@ namespace Medisoft
 				tu.Focus();
 				return;
 			}
+            
             Get_buoi();
             if (ds.Tables[0].Rows.Count > 0)
             {
@@ -1057,45 +1060,47 @@ namespace Medisoft
         }
 		private void exp_excel(bool print)
 		{
-			try
-			{
-                ds.Tables[0].Columns.Remove("doituong");
-				d.check_process_Excel();
+            System.Globalization.CultureInfo old = Thread.CurrentThread.CurrentCulture;
+            try
+            {
+                ds.Tables[0].Columns.Remove("doituong");               
+                Thread.CurrentThread.CurrentCulture = new System.Globalization.CultureInfo("en-US");
+                d.check_process_Excel();
                 int be = 3, cot = ds.Tables[0].Columns.Count, dong = ds.Tables[0].Rows.Count + be + 2, sss = dong - 1, sodong = dong + 1;
-				tenfile=d.Export_Excel(ds,"ylenh");
-				oxl=new Excel.Application();
+                tenfile = d.Export_Excel(ds, "ylenh");
+                oxl = new Excel.Application();
                 owb = (Excel._Workbook)(oxl.Workbooks.Open(tenfile, Missing.Value, Missing.Value, Missing.Value, Missing.Value, Missing.Value, Missing.Value, Missing.Value, Missing.Value, Missing.Value, Missing.Value, Missing.Value, Missing.Value));
-				osheet=(Excel._Worksheet)owb.ActiveSheet;
-				oxl.ActiveWindow.DisplayGridlines=true;
+                osheet = (Excel._Worksheet)owb.ActiveSheet;
+                oxl.ActiveWindow.DisplayGridlines = true;
                 for (int i = 0; i < be; i++) osheet.get_Range(d.getIndex(i) + "1", d.getIndex(i) + "1").EntireRow.Insert(Missing.Value);
-				for(int i=0;i<6;i++) osheet.Cells[be+1,i+1]=get_ten(i); //Khuong 05/11/2011
-				DataRow [] dr=dsmabd.Tables[0].Select("true","tenbd");
-				for(int i=0;i<dr.Length;i++)
-				{
+                for (int i = 0; i < 6; i++) osheet.Cells[be + 1, i + 1] = get_ten(i); //Khuong 05/11/2011
+                DataRow[] dr = dsmabd.Tables[0].Select("true", "tenbd");
+                for (int i = 0; i < dr.Length; i++)
+                {
                     osheet.Cells[be + 1, i + 7] = dr[i]["tenbd"].ToString(); //Khuong 05/11/2011
                     osheet.Cells[dong, i + 7] = dr[i]["soluong"].ToString(); //Khuong 05/11/2011
-				}
+                }
                 if (chkTutruc.Checked)
                 {
 
                     osheet.Cells[dong + 1, 3] = "TỔNG TỒN CUỐI";
                     for (int i = 5; i < dsmabd.Tables[0].Rows.Count + 6; i++) //Khuong 05/11/2011
                     {
-                        osheet.Cells[dong + 1, i] = "=" + d.getIndex(i - 1) + "5" + "-" + d.getIndex(i-1) + dong.ToString() + "";
+                        osheet.Cells[dong + 1, i] = "=" + d.getIndex(i - 1) + "5" + "-" + d.getIndex(i - 1) + dong.ToString() + "";
                     }
                 }
                 orange = osheet.get_Range(d.getIndex(be) + "4", d.getIndex(cot - 1) + "4");
-				orange.VerticalAlignment=XlVAlign.xlVAlignBottom;
-				orange.Orientation=90;
-				orange.RowHeight = 200;
-				orange.EntireRow.AutoFit();
+                orange.VerticalAlignment = XlVAlign.xlVAlignBottom;
+                orange.Orientation = 90;
+                orange.RowHeight = 200;
+                orange.EntireRow.AutoFit();
                 orange = osheet.get_Range(d.getIndex(0) + "1", d.getIndex(cot - 1) + dong.ToString());
-				orange.Font.Name="Arial";
-				orange.Font.Size=10;
-				orange.Font.Bold=false;
+                orange.Font.Name = "Arial";
+                orange.Font.Size = 10;
+                orange.Font.Bold = false;
                 osheet.get_Range(d.getIndex(0) + "5", d.getIndex(cot - 1) + sodong.ToString()).Borders.LineStyle = XlBorderWeight.xlHairline;
-				//orange.EntireRow.AutoFit();
-				orange.EntireColumn.AutoFit();
+                //orange.EntireRow.AutoFit();
+                orange.EntireColumn.AutoFit();
                 osheet.get_Range(d.getIndex(4) + dong.ToString(), d.getIndex(cot - 1) + dong.ToString()).Font.Bold = true;
                 if (chkTutruc.Checked)
                 {
@@ -1103,16 +1108,16 @@ namespace Medisoft
                     orange = osheet.get_Range(d.getIndex(4) + sodong.ToString(), d.getIndex(cot - 1) + sodong.ToString());
                     orange.Font.ColorIndex = 5;
                 }
-				oxl.ActiveWindow.DisplayZeros=false;
-				osheet.Cells[1,2]=makp.Text;
+                oxl.ActiveWindow.DisplayZeros = false;
+                osheet.Cells[1, 2] = makp.Text;
                 osheet.Cells[2, 2] = ((manguon.SelectedIndex != -1) ? manguon.Text.Trim() + "," : "") + ((madoituong.SelectedIndex != -1) ? madoituong.Text.Trim() + "," : "") + ((tu.Text == den.Text) ? "Ngày " + tu.Text : "Ngày " + tu.Text + " - " + den.Text);
                 osheet.Cells[2, 6] = ((s_tenphieu == "") ? "" : s_tenphieu + " :  ") + ((s_buoi == "") ? "Cả ngày" : s_buoi);
 
-				osheet.Cells[1,3]="TỔNG HỢP Y LỆNH";
+                osheet.Cells[1, 3] = "TỔNG HỢP Y LỆNH";
                 orange = osheet.get_Range(d.getIndex(2) + "1", d.getIndex(cot - 1) + "1");
-				orange.HorizontalAlignment=XlHAlign.xlHAlignCenterAcrossSelection;
-				orange.Font.Size=12;
-				orange.Font.Bold=true;
+                orange.HorizontalAlignment = XlHAlign.xlHAlignCenterAcrossSelection;
+                orange.Font.Size = 12;
+                orange.Font.Bold = true;
                 try
                 {
                     osheet.PageSetup.Orientation = XlPageOrientation.xlLandscape;
@@ -1122,14 +1127,19 @@ namespace Medisoft
                     osheet.PageSetup.TopMargin = 30;
                     osheet.PageSetup.CenterFooter = "Trang : &P/&N";
                 }
-                catch{}
-				if (print) osheet.PrintOut(Missing.Value,Missing.Value,Missing.Value,Missing.Value,Missing.Value,Missing.Value,Missing.Value,Missing.Value);
-				else oxl.Visible=true;
-			}
-			catch(Exception ex)
-			{
-				MessageBox.Show(ex.Message);
-			}
+                catch { }
+                if (print) osheet.PrintOut(Missing.Value, Missing.Value, Missing.Value, Missing.Value, Missing.Value, Missing.Value, Missing.Value, Missing.Value);
+                else oxl.Visible = true;
+               
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            finally
+            {
+                Thread.CurrentThread.CurrentCulture = old;
+            }
 		}
 
         private void frmYlenh_FormClosing(object sender, FormClosingEventArgs e)

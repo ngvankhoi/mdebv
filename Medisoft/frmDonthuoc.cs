@@ -622,6 +622,7 @@ namespace Medisoft
             sql += " left join " + user + ".dmnoicapbhyt bv on  bh.mabv=bv.mabv ";
             sql += " inner join " + user + ".nhapkhoa nk on b.maql=nk.maql and b.idkhoa=nk.id ";
             sql += " where  to_date(to_char(b.ngay," + stime + ")," + stime + ") between to_date('" + m.DateToString("dd/MM/yyyy", dt1) + "'," + stime + ") and to_date('" + m.DateToString("dd/MM/yyyy", dt2) + "'," + stime + ")";
+            sql = "select * from ("+sql+") order by mabn";
             // gam 26-04-2011
             dsphong.Merge(d.get_thuoc(m.DateToString("dd/MM/yyyy", dt1), m.DateToString("dd/MM/yyyy", dt2), sql));
             //
@@ -676,6 +677,7 @@ namespace Medisoft
                     sql += " group by d.makp,a.mabn,trim(a.hoten)||' ,Giới tính :'||case when a.phai=0 then 'Nam' else 'Nữ' end||', Năm sinh :'||a.namsinh,c.madoituong,c.mabd,";//case when f.loai=0 then z.giamua else z.giaban end";
                     sql += " case when f.loai=1 and c.madoituong<>1 then " + s_giaban + " else " + s_dongia + " end, ";
                     sql += " z.giaban, b.idduyet, bd.manhom, tt.ten,dl.hoten  ";//Tu:11/08/2011 lay them hoten nguoi nhap
+                    sql = "select * from("+sql+") order by mabn";
                     if (ds == null || ds.Tables.Count <= 0) ds = d.get_thuoc(tu.Text, den.Text, sql);
                     else ds.Merge(d.get_thuoc(tu.Text, den.Text, sql));
                 }
@@ -714,6 +716,7 @@ namespace Medisoft
                     sql += " group by b.loai,d.makp,a.mabn,trim(a.hoten)||' ,Giới tính :'||case when a.phai=0 then 'Nam' else 'Nữ' end||', Năm sinh :'||a.namsinh,c.madoituong,c.mabd,";//case when f.loai=0 then z.giamua else z.giaban end";
                     sql += " case when f.loai=1 and c.madoituong<>1 then " + s_giaban + " else " + s_dongia + " end, ";
                     sql += " z.giaban, b.idduyet, bd.manhom, tt.ten,dl.hoten ";//Tu:11/08/2011 lay them hoten nguoi nhap
+                    sql = "select * from(" + sql + ") order by mabn";
                     if (ds == null || ds.Tables.Count <= 0) ds = d.get_thuoc(tu.Text, den.Text, sql);
                     else ds.Merge(d.get_thuoc(tu.Text, den.Text, sql));
                 }
@@ -751,10 +754,11 @@ namespace Medisoft
                 sql += " group by d.makp,a.mabn,trim(a.hoten)||' ,Giới tính :'||case when a.phai=0 then 'Nam' else 'Nữ' end||', Năm sinh :'||a.namsinh,c.madoituong,c.mabd,";//case when f.loai=0 then z.giamua else z.giaban end";
                 sql += " case when f.loai=1 and c.madoituong<>1 then " + s_giaban + " else " + s_dongia + " end, ";
                 sql += " z.giaban, b.idduyet, bd.manhom, tt.ten ";
+                sql = "select * from(" + sql + ") order by mabn";
                 if (ds == null || ds.Tables.Count <= 0) ds = d.get_thuoc(tu.Text, den.Text, sql);
                 else ds.Merge(d.get_thuoc(tu.Text, den.Text, sql));
             }
-
+            
             if (chkvienphi.Checked)
             {
                 sql = "select '1' as nhom,0 as loai,b.makp,a.mabn,trim(a.hoten)||' ,Giới tính :'||case when a.phai=0 then 'Nam' else 'Nữ' end||', Năm sinh :'||a.namsinh as hoten,b.madoituong,b.mavp as ma,(b.dongia+b.vattu) as dongia,sum(b.soluong) as soluong, (b.dongia+b.vattu) as giaban, to_number('0') as idduyet, to_number('0') as manhom, 'CLS' as tennhom";
@@ -793,6 +797,7 @@ namespace Medisoft
                 else */
                 sql += " and " + m.for_ngay("b.ngay", stime) + " between to_date('" + tu.Text + "'," + stime + ") and to_date('" + den.Text + "'," + stime + ")";
                 sql += " group by b.makp,a.mabn,trim(a.hoten)||' ,Giới tính :'||case when a.phai=0 then 'Nam' else 'Nữ' end||', Năm sinh :'||a.namsinh,b.madoituong,b.mavp,(b.dongia+b.vattu)";
+                sql = "select * from(" + sql + ") order by mabn";
                 if (ds == null || ds.Tables.Count <= 0) ds = d.get_thuoc(tu.Text, den.Text, sql);
                 else ds.Merge(d.get_thuoc(tu.Text, den.Text, sql));
             }
