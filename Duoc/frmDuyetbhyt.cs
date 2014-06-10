@@ -3106,7 +3106,30 @@ namespace Duoc
                 dsxmlin.Tables[0].Columns.Add("trieuchung");
             }
             catch { }
-            string s_trieuchung = m.get_trieuchung(s_ngayvv, l_maql);
+            try
+            {
+                dsxmlin.Tables[0].Columns.Add("cdkemtheo");
+            }
+            catch { }
+            string s_trieuchung = "";
+            s_trieuchung = m.get_trieuchung(s_ngay, l_maql);
+            string s_cdkemtheo = "";
+            if (s_trieuchung == "") // truongthuy 10062014 đối với BN phòng khám xứ trí ngoại trú trong ngoại trú chọn F10 thì lấy triệu chứng tại xxx.lydokham
+            {
+                foreach (DataRow r in d.get_data("select b.lydo from " + user + s_mmyy + ".benhanpk a inner join " + user + s_mmyy + ".lydokham b on a.maql=b.maql   where a.mabn=" + s_mabn + "").Tables[0].Rows)
+                {
+
+
+                    s_trieuchung = r["lydo"].ToString();
+
+                }
+            }
+            foreach (DataRow r in d.get_data("select b.chandoan from "+user+s_mmyy+".benhanpk a inner join "+user+s_mmyy+".cdkemtheo b on a.maql=b.maql   where a.mabn="+s_mabn+"").Tables[0].Rows)
+            {
+
+                s_cdkemtheo = r["chandoan"].ToString();
+
+            }
             foreach (DataRow r in dsxmlin.Tables[0].Select("","madoituong"))
             {
                 r23 = m.getrowbyid(dtvpin,"id="+r["ma"].ToString());
@@ -3128,6 +3151,7 @@ namespace Duoc
                 r["chuyenvien"] = schuyenvien;
                 r["nhapvien"] = snhapvien;
                 r["trieuchung"] = s_trieuchung;
+                r["cdkemtheo"] = s_cdkemtheo;
                 //gam 16/08/2011 chi phi van chuyen tinh theo the khai 100%
                 
                 //if (s_sothe_huong_cpvc != ""  && _sothe != "" && s_sothe_huong_cpvc.IndexOf(_sothe.Substring(iKytubegin_xet_chiphivanchuyen, ikytuend_xet_chiphivanchuyen)) >= 0)

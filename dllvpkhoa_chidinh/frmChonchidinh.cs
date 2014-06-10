@@ -783,7 +783,8 @@ namespace dllvpkhoa_chidinh
                     Addchkbox(s_ten, r1["id"].ToString(), t, l, r1[fie].ToString(), r1[fie].ToString(), b_bhyttra, new EventHandler(chkEvent));
                     t += 23;//32
                     j++;
-                    if (loaivp.Trim() == "" && j > 100) break;
+                    if (loaivp.Trim() == "" && j > 160) break; // truong thuy lay hon 160 de lay het toan bo vien loai vp 
+                   // if (loaivp.Trim() == "" && j > 100) break; goc 
                 }
                 tab.AutoScroll = true;
             }

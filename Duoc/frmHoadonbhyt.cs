@@ -5769,7 +5769,24 @@ namespace Duoc
                 dsxmlin.Tables[0].Columns.Add("trieuchung");
             }
             catch { }
-            string s_trieuchung = m.get_trieuchung(s_ngay, l_maql);
+            try
+            {
+                dsxmlin.Tables[0].Columns.Add("cdkemtheo");
+            }
+            catch { }
+            string s_trieuchung = "";
+            s_trieuchung= m.get_trieuchung(s_ngay, l_maql);
+            string s_cdkemtheo = "";
+            if (s_trieuchung == "") // truongthuy 10062014 đối với BN phòng khám xứ trí ngoại trú trong ngoại trú chọn F10 thì lấy triệu chứng tại xxx.lydokham
+            {
+                s_trieuchung = m.get_lydokham(s_ngay, l_maql).ToString().Trim();  
+            }
+            foreach (DataRow r in d.get_data_mmyy("select chandoan from xxx.cdkemtheo  where maql=" + l_maql,s_ngay,s_ngay,false).Tables[0].Rows)
+            {
+
+                s_cdkemtheo = r["chandoan"].ToString();
+              
+            }
 
             foreach (DataRow row in dsxmlin.Tables[0].Select("mabn='" + cmbSophieu.Text + "'"))
             {
@@ -5777,6 +5794,7 @@ namespace Duoc
                 row["quyenso"] = quyenso.Text;
                 row["sotoa"] = d_toaso.ToString();
                 row["trieuchung"] = s_trieuchung;
+                row["cdkemtheo"] = s_cdkemtheo;
             }
             //thêm số tháng
             if (int.Parse(s_tuoi) <= 6 && s_ngaysinh != "")
