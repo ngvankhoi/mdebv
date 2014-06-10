@@ -7,6 +7,7 @@ using System.Data;
 using LibDuoc;
 using LibVienphi;
 using LibMedi;
+using System.Collections.Generic;
 
 namespace Medisoft
 {
@@ -63,6 +64,8 @@ namespace Medisoft
 		private System.Windows.Forms.CheckBox chkCachdung;
 		private System.ComponentModel.Container components = null;
         private bool bGia_bh_quydinh = false, bGia_bh_quydinh_giamua = false;
+        private CheckBox chk_inthuoc_only;
+        private CheckedListBox nhomthuocbc;
         private CheckBox chkchenhlech;
         #endregion
 
@@ -124,6 +127,8 @@ namespace Medisoft
             this.dataGrid1 = new System.Windows.Forms.DataGrid();
             this.chkCachdung = new System.Windows.Forms.CheckBox();
             this.chkchenhlech = new System.Windows.Forms.CheckBox();
+            this.chk_inthuoc_only = new System.Windows.Forms.CheckBox();
+            this.nhomthuocbc = new System.Windows.Forms.CheckedListBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGrid1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -184,14 +189,14 @@ namespace Medisoft
             this.madoituong.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.madoituong.Location = new System.Drawing.Point(258, 8);
             this.madoituong.Name = "madoituong";
-            this.madoituong.Size = new System.Drawing.Size(160, 132);
+            this.madoituong.Size = new System.Drawing.Size(321, 132);
             this.madoituong.TabIndex = 3;
             this.madoituong.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tu_KeyDown);
             // 
             // chksang_chieu
             // 
             this.chksang_chieu.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.chksang_chieu.Location = new System.Drawing.Point(64, 284);
+            this.chksang_chieu.Location = new System.Drawing.Point(64, 338);
             this.chksang_chieu.Name = "chksang_chieu";
             this.chksang_chieu.Size = new System.Drawing.Size(192, 22);
             this.chksang_chieu.TabIndex = 9;
@@ -203,7 +208,7 @@ namespace Medisoft
             this.butXem.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.butXem.Image = ((System.Drawing.Image)(resources.GetObject("butXem.Image")));
             this.butXem.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.butXem.Location = new System.Drawing.Point(74, 315);
+            this.butXem.Location = new System.Drawing.Point(74, 382);
             this.butXem.Name = "butXem";
             this.butXem.Size = new System.Drawing.Size(70, 25);
             this.butXem.TabIndex = 6;
@@ -215,7 +220,7 @@ namespace Medisoft
             this.butIn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.butIn.Image = ((System.Drawing.Image)(resources.GetObject("butIn.Image")));
             this.butIn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.butIn.Location = new System.Drawing.Point(144, 315);
+            this.butIn.Location = new System.Drawing.Point(144, 382);
             this.butIn.Name = "butIn";
             this.butIn.Size = new System.Drawing.Size(70, 25);
             this.butIn.TabIndex = 7;
@@ -227,7 +232,7 @@ namespace Medisoft
             this.butKetthuc.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.butKetthuc.Image = ((System.Drawing.Image)(resources.GetObject("butKetthuc.Image")));
             this.butKetthuc.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.butKetthuc.Location = new System.Drawing.Point(297, 315);
+            this.butKetthuc.Location = new System.Drawing.Point(297, 382);
             this.butKetthuc.Name = "butKetthuc";
             this.butKetthuc.Size = new System.Drawing.Size(70, 25);
             this.butKetthuc.TabIndex = 8;
@@ -243,7 +248,7 @@ namespace Medisoft
             this.makp.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.makp.Location = new System.Drawing.Point(64, 32);
             this.makp.Name = "makp";
-            this.makp.Size = new System.Drawing.Size(192, 180);
+            this.makp.Size = new System.Drawing.Size(192, 228);
             this.makp.TabIndex = 2;
             this.makp.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tu_KeyDown);
             // 
@@ -256,7 +261,7 @@ namespace Medisoft
             this.phieu.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.phieu.Location = new System.Drawing.Point(258, 144);
             this.phieu.Name = "phieu";
-            this.phieu.Size = new System.Drawing.Size(160, 100);
+            this.phieu.Size = new System.Drawing.Size(321, 132);
             this.phieu.TabIndex = 5;
             this.phieu.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tu_KeyDown);
             // 
@@ -265,7 +270,7 @@ namespace Medisoft
             this.loai.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.loai.CheckOnClick = true;
             this.loai.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.loai.Location = new System.Drawing.Point(64, 214);
+            this.loai.Location = new System.Drawing.Point(64, 266);
             this.loai.Name = "loai";
             this.loai.Size = new System.Drawing.Size(192, 68);
             this.loai.TabIndex = 4;
@@ -275,7 +280,7 @@ namespace Medisoft
             // label5
             // 
             this.label5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.label5.Location = new System.Drawing.Point(7, 214);
+            this.label5.Location = new System.Drawing.Point(7, 263);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(56, 23);
             this.label5.TabIndex = 10;
@@ -287,7 +292,7 @@ namespace Medisoft
             this.chkvienphi.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.chkvienphi.Checked = true;
             this.chkvienphi.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.chkvienphi.Location = new System.Drawing.Point(263, 268);
+            this.chkvienphi.Location = new System.Drawing.Point(263, 292);
             this.chkvienphi.Name = "chkvienphi";
             this.chkvienphi.Size = new System.Drawing.Size(160, 22);
             this.chkvienphi.TabIndex = 10;
@@ -298,7 +303,7 @@ namespace Medisoft
             this.butDanhsach.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.butDanhsach.Image = ((System.Drawing.Image)(resources.GetObject("butDanhsach.Image")));
             this.butDanhsach.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.butDanhsach.Location = new System.Drawing.Point(214, 315);
+            this.butDanhsach.Location = new System.Drawing.Point(214, 382);
             this.butDanhsach.Name = "butDanhsach";
             this.butDanhsach.Size = new System.Drawing.Size(83, 25);
             this.butDanhsach.TabIndex = 12;
@@ -310,7 +315,7 @@ namespace Medisoft
             // 
             this.tim.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.tim.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tim.Location = new System.Drawing.Point(420, 8);
+            this.tim.Location = new System.Drawing.Point(581, 8);
             this.tim.Name = "tim";
             this.tim.Size = new System.Drawing.Size(260, 21);
             this.tim.TabIndex = 13;
@@ -330,10 +335,10 @@ namespace Medisoft
             this.dataGrid1.FlatMode = true;
             this.dataGrid1.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dataGrid1.HeaderForeColor = System.Drawing.SystemColors.ControlText;
-            this.dataGrid1.Location = new System.Drawing.Point(422, 13);
+            this.dataGrid1.Location = new System.Drawing.Point(583, 13);
             this.dataGrid1.Name = "dataGrid1";
             this.dataGrid1.RowHeaderWidth = 5;
-            this.dataGrid1.Size = new System.Drawing.Size(258, 334);
+            this.dataGrid1.Size = new System.Drawing.Size(258, 401);
             this.dataGrid1.TabIndex = 24;
             // 
             // chkCachdung
@@ -341,7 +346,7 @@ namespace Medisoft
             this.chkCachdung.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.chkCachdung.Checked = true;
             this.chkCachdung.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.chkCachdung.Location = new System.Drawing.Point(263, 248);
+            this.chkCachdung.Location = new System.Drawing.Point(263, 272);
             this.chkCachdung.Name = "chkCachdung";
             this.chkCachdung.Size = new System.Drawing.Size(160, 22);
             this.chkCachdung.TabIndex = 25;
@@ -350,17 +355,41 @@ namespace Medisoft
             // chkchenhlech
             // 
             this.chkchenhlech.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.chkchenhlech.Location = new System.Drawing.Point(262, 290);
+            this.chkchenhlech.Location = new System.Drawing.Point(262, 314);
             this.chkchenhlech.Name = "chkchenhlech";
             this.chkchenhlech.Size = new System.Drawing.Size(160, 22);
             this.chkchenhlech.TabIndex = 26;
             this.chkchenhlech.Text = "Chênh lệch thuốc in riêng";
             this.chkchenhlech.Click += new System.EventHandler(this.chkchenhlech_Click);
             // 
+            // chk_inthuoc_only
+            // 
+            this.chk_inthuoc_only.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.chk_inthuoc_only.AutoSize = true;
+            this.chk_inthuoc_only.Location = new System.Drawing.Point(429, 274);
+            this.chk_inthuoc_only.Name = "chk_inthuoc_only";
+            this.chk_inthuoc_only.Size = new System.Drawing.Size(132, 17);
+            this.chk_inthuoc_only.TabIndex = 27;
+            this.chk_inthuoc_only.Text = "Chỉ in các nhóm vật tư";
+            this.chk_inthuoc_only.UseVisualStyleBackColor = true;
+            this.chk_inthuoc_only.CheckedChanged += new System.EventHandler(this.chk_inthuoc_only_CheckedChanged);
+            // 
+            // nhomthuocbc
+            // 
+            this.nhomthuocbc.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.nhomthuocbc.FormattingEnabled = true;
+            this.nhomthuocbc.Location = new System.Drawing.Point(429, 292);
+            this.nhomthuocbc.Name = "nhomthuocbc";
+            this.nhomthuocbc.Size = new System.Drawing.Size(156, 94);
+            this.nhomthuocbc.TabIndex = 28;
+            this.nhomthuocbc.Visible = false;
+            // 
             // frmDonthuoc
             // 
             this.AutoScaleBaseSize = new System.Drawing.Size(5, 13);
-            this.ClientSize = new System.Drawing.Size(688, 357);
+            this.ClientSize = new System.Drawing.Size(849, 424);
+            this.Controls.Add(this.nhomthuocbc);
+            this.Controls.Add(this.chk_inthuoc_only);
             this.Controls.Add(this.chkchenhlech);
             this.Controls.Add(this.tim);
             this.Controls.Add(this.dataGrid1);
@@ -489,7 +518,7 @@ namespace Medisoft
 			phieu.DisplayMember="TEN";
 			phieu.ValueMember="ID";
 			dtloai=d.get_data("select * from "+user+".d_dmphieu where id in (1,2,3) order by stt").Tables[0];
-			loai.DataSource=dtloai;
+			loai.DataSource=dtloai;            
             loai.DisplayMember = "TEN";
             loai.ValueMember = "ID";
 
@@ -507,6 +536,14 @@ namespace Medisoft
 			
 			this.currentRowFont = new Font(this.dataGrid1.Font.Name, this.dataGrid1.Font.Size, FontStyle.Regular);
 			this.currentRowBackBrush = new SolidBrush(Color.FromArgb(0,255, 255));
+            nhomthuocbc.DataSource = m.get_data("select id,ten from medibv.d_dmnhom order by id").Tables[0];
+            nhomthuocbc.DisplayMember = "ten";
+            nhomthuocbc.ValueMember = "id";
+            for (int i = 0; i < nhomthuocbc.Items.Count;i++ )
+            {
+                nhomthuocbc.SetItemChecked(i, true);
+            }
+           
 		}
 
 		private void butKetthuc_Click(object sender, System.EventArgs e)
@@ -560,7 +597,22 @@ namespace Medisoft
             DateTime dt2 = d.StringToDate(den.Text).AddDays(d.iNgaykiemke);
             //
             ds = null;
-            //
+            //    
+            List<string> ds_nhomvatu = new List<string>();
+            if (chk_inthuoc_only.Checked)
+            {
+                if (nhomthuocbc.CheckedItems.Count == 0)
+                {
+                    MessageBox.Show("Phải chọn ít nhất một nhóm vật tư trong danh sách!","Thông báo");
+                    nhomthuocbc.Focus();
+                    ds_nhomvatu.Add("-99");
+                }
+                foreach (DataRowView it in nhomthuocbc.CheckedItems)
+                {
+                    ds_nhomvatu.Add(it["id"].ToString());
+                }
+            }
+           // string ex = String.Join(",", ds_nhomvatu.ToArray());
             sql = "select distinct b.id, b.mabn,c.mabs,e.ten as phong,c.giuong, bh.sothe, bh.tungay, bh.denngay, bh.mabv, bh.traituyen, bv.tenbv, nk.maicd, nk.chandoan,b2.solan ";
             sql += " from xxx.d_duyet a inner join xxx.d_dutrull b on a.id=b.idduyet inner join (select id,avg(solan) solan from xxx.d_dutruct group by id) b2 on b.id = b2.id ";
             sql += " left join xxx.d_dausinhton c on b.id=c.id inner join " + user + ".d_duockp d on a.makhoa=d.id ";
@@ -622,6 +674,10 @@ namespace Medisoft
             sql += " left join " + user + ".dmnoicapbhyt bv on  bh.mabv=bv.mabv ";
             sql += " inner join " + user + ".nhapkhoa nk on b.maql=nk.maql and b.idkhoa=nk.id ";
             sql += " where  to_date(to_char(b.ngay," + stime + ")," + stime + ") between to_date('" + m.DateToString("dd/MM/yyyy", dt1) + "'," + stime + ") and to_date('" + m.DateToString("dd/MM/yyyy", dt2) + "'," + stime + ")";
+            sql = "select * from(" + sql + ")";
+            if (chk_inthuoc_only.Checked)
+                sql += " where manhom in (" + String.Join(",", ds_nhomvatu.ToArray()) + ")";
+            sql += " order by mabn";
             // gam 26-04-2011
             dsphong.Merge(d.get_thuoc(m.DateToString("dd/MM/yyyy", dt1), m.DateToString("dd/MM/yyyy", dt2), sql));
             //
@@ -652,7 +708,7 @@ namespace Medisoft
                     sql += " from " + user + ".btdbn a inner join xxx.d_xuatsdll b on a.mabn=b.mabn inner join xxx.d_xuatsdct c on b.id=c.id ";
                     sql += " inner join xxx.d_theodoi z on c.sttt=z.id inner join " + user + ".d_duockp d on b.makhoa=d.id ";
                     sql += " inner join " + user + ".d_loaiphieu e on b.phieu=e.id inner join " + user + ".d_doituong f on c.madoituong=f.madoituong ";
-                    sql += " inner join xxx.d_dutrull g on b.idduyet=g.id inner join xxx.d_dutruct b2 on g.id = b2.id inner join xxx.d_duyet t on g.idduyet=t.id";
+                    sql += " inner join xxx.d_dutrull g on b.idduyet=g.id inner join (select id,solan from xxx.d_dutruct group by id,solan) b2 on g.id = b2.id inner join xxx.d_duyet t on g.idduyet=t.id";
                     sql += " inner join " + user + ".d_dmbd bd on c.mabd=bd.id inner join " + user + ".d_dmnhom tt on bd.manhom=tt.id ";
                     sql += " left join " + user + ".dlogin dl on g.userid=dl.id ";//Tu:11/08/2011 lay them hoten nguoi nhap
                     sql += " where  1=1 ";//gam 1310/2011
@@ -676,6 +732,11 @@ namespace Medisoft
                     sql += " group by d.makp,a.mabn,trim(a.hoten)||' ,Giới tính :'||case when a.phai=0 then 'Nam' else 'Nữ' end||', Năm sinh :'||a.namsinh,c.madoituong,c.mabd,";//case when f.loai=0 then z.giamua else z.giaban end";
                     sql += " case when f.loai=1 and c.madoituong<>1 then " + s_giaban + " else " + s_dongia + " end, ";
                     sql += " z.giaban, b.idduyet, bd.manhom, tt.ten,dl.hoten  ";//Tu:11/08/2011 lay them hoten nguoi nhap
+
+                    sql = "select * from(" + sql + ")";
+                    if( chk_inthuoc_only.Checked)
+                        sql+= " where manhom in ("+String.Join(",",ds_nhomvatu.ToArray())+")";
+                    sql+= " order by mabn";
                     if (ds == null || ds.Tables.Count <= 0) ds = d.get_thuoc(tu.Text, den.Text, sql);
                     else ds.Merge(d.get_thuoc(tu.Text, den.Text, sql));
                 }
@@ -690,7 +751,7 @@ namespace Medisoft
                     sql += " from " + user + ".btdbn a inner join xxx.d_xuatsdll b on a.mabn=b.mabn inner join xxx.d_xuatsdct c on b.id=c.id ";
                     sql += " inner join " + user + ".d_duockp d on b.makhoa=d.id inner join " + user + ".d_loaiphieu e on b.phieu=e.id ";
                     sql += " inner join " + user + ".d_doituong f on c.madoituong=f.madoituong ";
-                    sql += " inner join  xxx.d_xtutrucll g on b.idduyet=g.id inner join xxx.d_xtutrucct b2 on g.id = b2.id inner join xxx.d_duyet t on g.idduyet=t.id ";
+                    sql += " inner join  xxx.d_xtutrucll g on b.idduyet=g.id inner join (select distinct id,solan from xxx.d_xtutrucct) b2 on g.id = b2.id inner join xxx.d_duyet t on g.idduyet=t.id ";
                     sql += " inner join xxx.d_theodoi z on c.sttt=z.id inner join " + user + ".d_dmbd bd on c.mabd=bd.id inner join " + user + ".d_dmnhom tt on bd.manhom=tt.id ";
                     sql += " left join " + user + ".dlogin dl on g.userid=dl.id ";//Tu:11/08/2011 lay them hoten nguoi nhap
                     sql += " where 1=1 ";
@@ -714,6 +775,10 @@ namespace Medisoft
                     sql += " group by b.loai,d.makp,a.mabn,trim(a.hoten)||' ,Giới tính :'||case when a.phai=0 then 'Nam' else 'Nữ' end||', Năm sinh :'||a.namsinh,c.madoituong,c.mabd,";//case when f.loai=0 then z.giamua else z.giaban end";
                     sql += " case when f.loai=1 and c.madoituong<>1 then " + s_giaban + " else " + s_dongia + " end, ";
                     sql += " z.giaban, b.idduyet, bd.manhom, tt.ten,dl.hoten ";//Tu:11/08/2011 lay them hoten nguoi nhap
+                    sql = "select * from(" + sql + ")";
+                    if (chk_inthuoc_only.Checked)
+                        sql += " where manhom in (" + String.Join(",", ds_nhomvatu.ToArray()) + ")";
+                    sql += " order by mabn";
                     if (ds == null || ds.Tables.Count <= 0) ds = d.get_thuoc(tu.Text, den.Text, sql);
                     else ds.Merge(d.get_thuoc(tu.Text, den.Text, sql));
                 }
@@ -751,10 +816,14 @@ namespace Medisoft
                 sql += " group by d.makp,a.mabn,trim(a.hoten)||' ,Giới tính :'||case when a.phai=0 then 'Nam' else 'Nữ' end||', Năm sinh :'||a.namsinh,c.madoituong,c.mabd,";//case when f.loai=0 then z.giamua else z.giaban end";
                 sql += " case when f.loai=1 and c.madoituong<>1 then " + s_giaban + " else " + s_dongia + " end, ";
                 sql += " z.giaban, b.idduyet, bd.manhom, tt.ten ";
+                sql = "select * from(" + sql + ")";
+                if (chk_inthuoc_only.Checked)
+                    sql += " where manhom in (" + String.Join(",", ds_nhomvatu.ToArray()) + ")";
+                sql += " order by mabn";
                 if (ds == null || ds.Tables.Count <= 0) ds = d.get_thuoc(tu.Text, den.Text, sql);
                 else ds.Merge(d.get_thuoc(tu.Text, den.Text, sql));
             }
-
+            
             if (chkvienphi.Checked)
             {
                 sql = "select '1' as nhom,0 as loai,b.makp,a.mabn,trim(a.hoten)||' ,Giới tính :'||case when a.phai=0 then 'Nam' else 'Nữ' end||', Năm sinh :'||a.namsinh as hoten,b.madoituong,b.mavp as ma,(b.dongia+b.vattu) as dongia,sum(b.soluong) as soluong, (b.dongia+b.vattu) as giaban, to_number('0') as idduyet, to_number('0') as manhom, 'CLS' as tennhom";
@@ -774,6 +843,10 @@ namespace Medisoft
                 else */
                 sql += " and to_date(to_char(b.ngay,'dd/mm/yyyy'),'dd/mm/yyyy') between to_date('" + tu.Text + "'," + stime + ") and to_date('" + den.Text + "'," + stime + ")";
                 sql += " group by b.makp,a.mabn,trim(a.hoten)||' ,Giới tính :'||case when a.phai=0 then 'Nam' else 'Nữ' end||', Năm sinh :'||a.namsinh,b.madoituong,b.mavp,(b.dongia+b.vattu)";
+                sql = "select * from(" + sql + ")";
+                if (chk_inthuoc_only.Checked)
+                    sql += " where manhom in (" + String.Join(",", ds_nhomvatu.ToArray()) + ")";
+                sql += " order by mabn";
                 ds.Merge(d.get_thuoc(tu.Text, den.Text, sql));
                 //
                 sql = "select '1' as nhom,0 as loai,b.makp,a.mabn,trim(a.hoten)||' ,Giới tính :'||case when a.phai=0 then 'Nam' else 'Nữ' end||', Năm sinh :'||a.namsinh as hoten,b.madoituong,b.mavp as ma,(b.dongia+b.vattu) as dongia,sum(b.soluong) as soluong, (b.dongia+b.vattu) as giaban, to_number('0') as idduyet, to_number('0') as manhom, 'CLS' as tennhom";
@@ -793,6 +866,10 @@ namespace Medisoft
                 else */
                 sql += " and " + m.for_ngay("b.ngay", stime) + " between to_date('" + tu.Text + "'," + stime + ") and to_date('" + den.Text + "'," + stime + ")";
                 sql += " group by b.makp,a.mabn,trim(a.hoten)||' ,Giới tính :'||case when a.phai=0 then 'Nam' else 'Nữ' end||', Năm sinh :'||a.namsinh,b.madoituong,b.mavp,(b.dongia+b.vattu)";
+                sql = "select * from(" + sql + ")";
+                if (chk_inthuoc_only.Checked)
+                    sql += " where manhom in (" + String.Join(",", ds_nhomvatu.ToArray()) + ")";
+                sql += " order by mabn";
                 if (ds == null || ds.Tables.Count <= 0) ds = d.get_thuoc(tu.Text, den.Text, sql);
                 else ds.Merge(d.get_thuoc(tu.Text, den.Text, sql));
             }
@@ -1263,6 +1340,12 @@ namespace Medisoft
             m.writeXml("thongso", "indonthuoc_tachchenhlech", chkchenhlech.Checked ? "1" : "0");
         }
 
-        
+        private void chk_inthuoc_only_CheckedChanged(object sender, EventArgs e)
+        {
+            if (chk_inthuoc_only.Checked)
+                nhomthuocbc.Visible = true;
+            else
+                nhomthuocbc.Visible = false;
+        }        
 	}
 }
