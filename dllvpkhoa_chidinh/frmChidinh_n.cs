@@ -1893,6 +1893,18 @@ namespace dllvpkhoa_chidinh
 			return true;
 		
         }
+        ///// <summary>
+        ///// truong thuy Cảnh báo chỉ định trùng
+        ///// </summary>
+        ///// <returns></returns>
+        //private bool bCanhbaochidinhtrung()
+        //{
+        //    string s_sql1 = "select mavp,loaibn from xxx.v_chidinh where mavaovien=" + l_mavaovien + " and mabn=" + mabn.Text + "";
+        //    DataSet dschidinh = new DataSet();
+        //    dschidinh = m.get_data_mmyy(s_ngayvao, s_ngay.Substring(0, 10), false);
+
+        
+        //}
 		private void butLuu_Click(object sender, System.EventArgs e)
 		{
 			if (!kiemtra()) return;
