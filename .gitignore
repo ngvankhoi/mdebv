@@ -1,6 +1,7 @@
 *.dll
 *.exe
 *.xls
+
 *.pdb
 /*/obj/*
 /Language
@@ -12,3 +13,4 @@
 /xml/maincode.xml
 /*.*
 /LinkNpgsql/*
+!/ThongBaoChung.xls
