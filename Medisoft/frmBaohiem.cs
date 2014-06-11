@@ -8,10 +8,11 @@ using System.Data;
 using LibDuoc;
 using LibMedi;
 using LibVienphi;
+using System.Collections.Generic;
 
 namespace Medisoft
 {
-	public class frmBaohiem : System.Windows.Forms.Form
+   	public class frmBaohiem : System.Windows.Forms.Form
     {
         //linh
         int i_songaytoathuoccancanhbao = 0;
@@ -541,8 +542,8 @@ namespace Medisoft
             this.tenbd.Name = "tenbd";
             this.tenbd.Size = new System.Drawing.Size(241, 21);
             this.tenbd.TabIndex = 17;
-            this.tenbd.Validated += new System.EventHandler(this.tenbd_Validated);
             this.tenbd.TextChanged += new System.EventHandler(this.tenbd_TextChanged);
+            this.tenbd.Validated += new System.EventHandler(this.tenbd_Validated);
             this.tenbd.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tenbd_KeyDown);
             // 
             // tenhc
@@ -554,7 +555,7 @@ namespace Medisoft
             this.tenhc.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tenhc.Location = new System.Drawing.Point(569, 421);
             this.tenhc.Name = "tenhc";
-            this.tenhc.Size = new System.Drawing.Size(143, 21);
+            this.tenhc.Size = new System.Drawing.Size(367, 21);
             this.tenhc.TabIndex = 18;
             this.tenhc.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tenhc_KeyDown);
             // 
@@ -627,7 +628,7 @@ namespace Medisoft
             // ldvt
             // 
             this.ldvt.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.ldvt.Location = new System.Drawing.Point(707, 422);
+            this.ldvt.Location = new System.Drawing.Point(931, 422);
             this.ldvt.Name = "ldvt";
             this.ldvt.Size = new System.Drawing.Size(39, 23);
             this.ldvt.TabIndex = 57;
@@ -643,10 +644,10 @@ namespace Medisoft
             this.cachdung.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cachdung.Location = new System.Drawing.Point(400, 1);
             this.cachdung.Name = "cachdung";
-            this.cachdung.Size = new System.Drawing.Size(222, 21);
+            this.cachdung.Size = new System.Drawing.Size(446, 21);
             this.cachdung.TabIndex = 28;
-            this.cachdung.Validated += new System.EventHandler(this.cachdung_Validated);
             this.cachdung.TextChanged += new System.EventHandler(this.cachdung_TextChanged);
+            this.cachdung.Validated += new System.EventHandler(this.cachdung_Validated);
             this.cachdung.KeyDown += new System.Windows.Forms.KeyEventHandler(this.cachdung_KeyDown);
             // 
             // label25
@@ -731,7 +732,7 @@ namespace Medisoft
             // 
             this.stt.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.stt.Enabled = false;
-            this.stt.Location = new System.Drawing.Point(688, 231);
+            this.stt.Location = new System.Drawing.Point(912, 231);
             this.stt.Name = "stt";
             this.stt.Size = new System.Drawing.Size(24, 20);
             this.stt.TabIndex = 53;
@@ -742,7 +743,7 @@ namespace Medisoft
             this.diung.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.diung.ForeColor = System.Drawing.Color.Blue;
             this.diung.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.diung.Location = new System.Drawing.Point(276, 2);
+            this.diung.Location = new System.Drawing.Point(500, 2);
             this.diung.Name = "diung";
             this.diung.Size = new System.Drawing.Size(75, 23);
             this.diung.TabIndex = 33;
@@ -753,7 +754,7 @@ namespace Medisoft
             // mahc
             // 
             this.mahc.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.mahc.Location = new System.Drawing.Point(701, 195);
+            this.mahc.Location = new System.Drawing.Point(925, 195);
             this.mahc.Name = "mahc";
             this.mahc.Size = new System.Drawing.Size(48, 20);
             this.mahc.TabIndex = 50;
@@ -786,7 +787,7 @@ namespace Medisoft
                         | System.Windows.Forms.AnchorStyles.Right)));
             this.treeView1.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.treeView1.ItemHeight = 16;
-            this.treeView1.Location = new System.Drawing.Point(628, 145);
+            this.treeView1.Location = new System.Drawing.Point(852, 145);
             this.treeView1.Name = "treeView1";
             this.treeView1.Size = new System.Drawing.Size(161, 245);
             this.treeView1.TabIndex = 49;
@@ -814,7 +815,7 @@ namespace Medisoft
             this.sothe.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.sothe.Location = new System.Drawing.Point(611, 27);
             this.sothe.Name = "sothe";
-            this.sothe.Size = new System.Drawing.Size(176, 21);
+            this.sothe.Size = new System.Drawing.Size(400, 21);
             this.sothe.TabIndex = 3;
             // 
             // chandoan
@@ -839,8 +840,8 @@ namespace Medisoft
             this.maicd.Name = "maicd";
             this.maicd.Size = new System.Drawing.Size(38, 21);
             this.maicd.TabIndex = 5;
-            this.maicd.Validated += new System.EventHandler(this.maicd_Validated);
             this.maicd.TextChanged += new System.EventHandler(this.maicd_TextChanged);
+            this.maicd.Validated += new System.EventHandler(this.maicd_Validated);
             this.maicd.KeyDown += new System.Windows.Forms.KeyEventHandler(this.maicd_KeyDown);
             // 
             // tenpk
@@ -862,7 +863,7 @@ namespace Medisoft
             this.tenbs.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tenbs.Location = new System.Drawing.Point(611, 51);
             this.tenbs.Name = "tenbs";
-            this.tenbs.Size = new System.Drawing.Size(177, 21);
+            this.tenbs.Size = new System.Drawing.Size(401, 21);
             this.tenbs.TabIndex = 7;
             this.tenbs.TextChanged += new System.EventHandler(this.tenbs_TextChanged);
             this.tenbs.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tenbs_KeyDown);
@@ -931,10 +932,10 @@ namespace Medisoft
             this.ghichu.Location = new System.Drawing.Point(64, 119);
             this.ghichu.Name = "ghichu";
             this.ghichu.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.ghichu.Size = new System.Drawing.Size(725, 21);
+            this.ghichu.Size = new System.Drawing.Size(949, 21);
             this.ghichu.TabIndex = 9;
-            this.ghichu.Validated += new System.EventHandler(this.ghichu_Validated);
             this.ghichu.TextChanged += new System.EventHandler(this.ghichu_TextChanged);
+            this.ghichu.Validated += new System.EventHandler(this.ghichu_Validated);
             this.ghichu.KeyDown += new System.Windows.Forms.KeyEventHandler(this.ghichu_KeyDown_1);
             // 
             // songay
@@ -1007,7 +1008,7 @@ namespace Medisoft
             // 
             this.makp.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.makp.Enabled = false;
-            this.makp.Location = new System.Drawing.Point(666, 205);
+            this.makp.Location = new System.Drawing.Point(890, 205);
             this.makp.Name = "makp";
             this.makp.Size = new System.Drawing.Size(46, 20);
             this.makp.TabIndex = 51;
@@ -1016,7 +1017,7 @@ namespace Medisoft
             // 
             this.mabs.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.mabs.Enabled = false;
-            this.mabs.Location = new System.Drawing.Point(696, 205);
+            this.mabs.Location = new System.Drawing.Point(920, 205);
             this.mabs.Name = "mabs";
             this.mabs.Size = new System.Drawing.Size(33, 20);
             this.mabs.TabIndex = 52;
@@ -1041,8 +1042,8 @@ namespace Medisoft
             this.moilan.Size = new System.Drawing.Size(43, 21);
             this.moilan.TabIndex = 1;
             this.moilan.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.moilan.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.moilan_KeyPress);
             this.moilan.Validated += new System.EventHandler(this.solan_Validated);
+            this.moilan.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.moilan_KeyPress);
             // 
             // lbldvt
             // 
@@ -1063,7 +1064,7 @@ namespace Medisoft
             this.donthuoc.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.donthuoc.Location = new System.Drawing.Point(64, 74);
             this.donthuoc.Name = "donthuoc";
-            this.donthuoc.Size = new System.Drawing.Size(682, 21);
+            this.donthuoc.Size = new System.Drawing.Size(906, 21);
             this.donthuoc.TabIndex = 9;
             this.donthuoc.SelectedIndexChanged += new System.EventHandler(this.donthuoc_SelectedIndexChanged);
             // 
@@ -1073,7 +1074,7 @@ namespace Medisoft
             this.chkChon.Appearance = System.Windows.Forms.Appearance.Button;
             this.chkChon.AutoSize = true;
             this.chkChon.Enabled = false;
-            this.chkChon.Location = new System.Drawing.Point(747, 72);
+            this.chkChon.Location = new System.Drawing.Point(971, 72);
             this.chkChon.Name = "chkChon";
             this.chkChon.Size = new System.Drawing.Size(42, 23);
             this.chkChon.TabIndex = 94;
@@ -1087,7 +1088,7 @@ namespace Medisoft
             this.sum.BackColor = System.Drawing.SystemColors.HighlightText;
             this.sum.Enabled = false;
             this.sum.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.sum.Location = new System.Drawing.Point(516, 397);
+            this.sum.Location = new System.Drawing.Point(740, 397);
             this.sum.Masked = MaskedTextBox.MaskedTextBox.Mask.Decimal;
             this.sum.Name = "sum";
             this.sum.Size = new System.Drawing.Size(114, 22);
@@ -1098,7 +1099,7 @@ namespace Medisoft
             // lblsum
             // 
             this.lblsum.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.lblsum.Location = new System.Drawing.Point(424, 397);
+            this.lblsum.Location = new System.Drawing.Point(648, 397);
             this.lblsum.Name = "lblsum";
             this.lblsum.Size = new System.Drawing.Size(88, 23);
             this.lblsum.TabIndex = 99;
@@ -1120,7 +1121,7 @@ namespace Medisoft
             this.p1.Controls.Add(this.label25);
             this.p1.Location = new System.Drawing.Point(170, 444);
             this.p1.Name = "p1";
-            this.p1.Size = new System.Drawing.Size(618, 24);
+            this.p1.Size = new System.Drawing.Size(842, 24);
             this.p1.TabIndex = 22;
             this.p1.VisibleChanged += new System.EventHandler(this.p1_VisibleChanged);
             // 
@@ -1143,7 +1144,7 @@ namespace Medisoft
             this.p2.Controls.Add(this.label15);
             this.p2.Location = new System.Drawing.Point(59, 445);
             this.p2.Name = "p2";
-            this.p2.Size = new System.Drawing.Size(733, 23);
+            this.p2.Size = new System.Drawing.Size(957, 23);
             this.p2.TabIndex = 22;
             this.p2.VisibleChanged += new System.EventHandler(this.p2_VisibleChanged);
             // 
@@ -1158,8 +1159,8 @@ namespace Medisoft
             this.c3.Size = new System.Drawing.Size(30, 21);
             this.c3.TabIndex = 3;
             this.c3.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.c3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.c3_KeyPress);
             this.c3.Validated += new System.EventHandler(this.c3_Validated);
+            this.c3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.c3_KeyPress);
             // 
             // soluong1
             // 
@@ -1185,8 +1186,8 @@ namespace Medisoft
             this.c1.Size = new System.Drawing.Size(39, 21);
             this.c1.TabIndex = 0;
             this.c1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.c1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.c1_KeyPress);
             this.c1.Validated += new System.EventHandler(this.c1_Validated);
+            this.c1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.c1_KeyPress);
             // 
             // label18
             // 
@@ -1215,10 +1216,10 @@ namespace Medisoft
             this.ghichuct.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ghichuct.Location = new System.Drawing.Point(510, 2);
             this.ghichuct.Name = "ghichuct";
-            this.ghichuct.Size = new System.Drawing.Size(220, 21);
+            this.ghichuct.Size = new System.Drawing.Size(444, 21);
             this.ghichuct.TabIndex = 23;
-            this.ghichuct.Validated += new System.EventHandler(this.ghichuct_Validated);
             this.ghichuct.TextChanged += new System.EventHandler(this.ghichuct_TextChanged);
+            this.ghichuct.Validated += new System.EventHandler(this.ghichuct_Validated);
             this.ghichuct.KeyDown += new System.Windows.Forms.KeyEventHandler(this.ghichuct_KeyDown);
             // 
             // label23
@@ -1241,8 +1242,8 @@ namespace Medisoft
             this.c4.Size = new System.Drawing.Size(31, 21);
             this.c4.TabIndex = 2;
             this.c4.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.c4.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.c4_KeyPress);
             this.c4.Validated += new System.EventHandler(this.c4_Validated);
+            this.c4.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.c4_KeyPress);
             // 
             // lblduongdung
             // 
@@ -1283,8 +1284,8 @@ namespace Medisoft
             this.c2.Size = new System.Drawing.Size(30, 21);
             this.c2.TabIndex = 1;
             this.c2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.c2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.c2_KeyPress);
             this.c2.Validated += new System.EventHandler(this.c2_Validated);
+            this.c2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.c2_KeyPress);
             // 
             // label15
             // 
@@ -1387,7 +1388,7 @@ namespace Medisoft
             this.dang.BackColor = System.Drawing.SystemColors.HighlightText;
             this.dang.Enabled = false;
             this.dang.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dang.Location = new System.Drawing.Point(751, 421);
+            this.dang.Location = new System.Drawing.Point(975, 421);
             this.dang.Name = "dang";
             this.dang.Size = new System.Drawing.Size(41, 21);
             this.dang.TabIndex = 19;
@@ -1398,7 +1399,7 @@ namespace Medisoft
             this.chkChitiet.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.chkChitiet.Checked = true;
             this.chkChitiet.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.chkChitiet.Location = new System.Drawing.Point(680, 322);
+            this.chkChitiet.Location = new System.Drawing.Point(904, 322);
             this.chkChitiet.Name = "chkChitiet";
             this.chkChitiet.Size = new System.Drawing.Size(45, 17);
             this.chkChitiet.TabIndex = 274;
@@ -1416,7 +1417,7 @@ namespace Medisoft
             this.huyet.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.huyet.Location = new System.Drawing.Point(64, 96);
             this.huyet.Name = "huyet";
-            this.huyet.Size = new System.Drawing.Size(682, 21);
+            this.huyet.Size = new System.Drawing.Size(906, 21);
             this.huyet.TabIndex = 8;
             this.huyet.SelectedIndexChanged += new System.EventHandler(this.huyet_SelectedIndexChanged);
             // 
@@ -1426,7 +1427,7 @@ namespace Medisoft
             this.chkHuyet.Appearance = System.Windows.Forms.Appearance.Button;
             this.chkHuyet.AutoSize = true;
             this.chkHuyet.Enabled = false;
-            this.chkHuyet.Location = new System.Drawing.Point(747, 95);
+            this.chkHuyet.Location = new System.Drawing.Point(971, 95);
             this.chkHuyet.Name = "chkHuyet";
             this.chkHuyet.Size = new System.Drawing.Size(42, 23);
             this.chkHuyet.TabIndex = 275;
@@ -1441,14 +1442,14 @@ namespace Medisoft
             this.tim.Enabled = false;
             this.tim.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tim.ForeColor = System.Drawing.Color.Red;
-            this.tim.Location = new System.Drawing.Point(673, 2);
+            this.tim.Location = new System.Drawing.Point(897, 2);
             this.tim.Name = "tim";
             this.tim.Size = new System.Drawing.Size(114, 21);
             this.tim.TabIndex = 276;
             this.tim.Text = "Tìm kiếm";
             this.tim.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.tim.Enter += new System.EventHandler(this.tim_Enter);
             this.tim.TextChanged += new System.EventHandler(this.tim_TextChanged);
+            this.tim.Enter += new System.EventHandler(this.tim_Enter);
             // 
             // banin
             // 
@@ -1487,7 +1488,7 @@ namespace Medisoft
             this.dataGrid1.RowHeaderWidth = 10;
             this.dataGrid1.SelectionBackColor = System.Drawing.Color.CadetBlue;
             this.dataGrid1.SelectionForeColor = System.Drawing.Color.WhiteSmoke;
-            this.dataGrid1.Size = new System.Drawing.Size(616, 240);
+            this.dataGrid1.Size = new System.Drawing.Size(840, 240);
             this.dataGrid1.TabIndex = 281;
             this.dataGrid1.CurrentCellChanged += new System.EventHandler(this.dataGrid1_CurrentCellChanged);
             // 
@@ -1506,7 +1507,7 @@ namespace Medisoft
             this.txtgiaban.BackColor = System.Drawing.SystemColors.HighlightText;
             this.txtgiaban.Enabled = false;
             this.txtgiaban.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtgiaban.Location = new System.Drawing.Point(339, 469);
+            this.txtgiaban.Location = new System.Drawing.Point(563, 469);
             this.txtgiaban.Masked = MaskedTextBox.MaskedTextBox.Mask.Decimal;
             this.txtgiaban.Name = "txtgiaban";
             this.txtgiaban.Size = new System.Drawing.Size(84, 22);
@@ -1521,7 +1522,7 @@ namespace Medisoft
             this.txtdongia.BackColor = System.Drawing.SystemColors.HighlightText;
             this.txtdongia.Enabled = false;
             this.txtdongia.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtdongia.Location = new System.Drawing.Point(469, 470);
+            this.txtdongia.Location = new System.Drawing.Point(693, 470);
             this.txtdongia.Masked = MaskedTextBox.MaskedTextBox.Mask.Decimal;
             this.txtdongia.Name = "txtdongia";
             this.txtdongia.Size = new System.Drawing.Size(161, 22);
@@ -1578,7 +1579,7 @@ namespace Medisoft
             this.butDongy.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.butDongy.Image = ((System.Drawing.Image)(resources.GetObject("butDongy.Image")));
             this.butDongy.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.butDongy.Location = new System.Drawing.Point(162, 547);
+            this.butDongy.Location = new System.Drawing.Point(386, 547);
             this.butDongy.Name = "butDongy";
             this.butDongy.Size = new System.Drawing.Size(70, 25);
             this.butDongy.TabIndex = 277;
@@ -1593,7 +1594,7 @@ namespace Medisoft
             this.butGoi.Enabled = false;
             this.butGoi.Image = ((System.Drawing.Image)(resources.GetObject("butGoi.Image")));
             this.butGoi.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.butGoi.Location = new System.Drawing.Point(88, 522);
+            this.butGoi.Location = new System.Drawing.Point(312, 522);
             this.butGoi.Name = "butGoi";
             this.butGoi.Size = new System.Drawing.Size(70, 25);
             this.butGoi.TabIndex = 273;
@@ -1605,7 +1606,7 @@ namespace Medisoft
             this.butTuongtac.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.butTuongtac.Image = ((System.Drawing.Image)(resources.GetObject("butTuongtac.Image")));
             this.butTuongtac.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.butTuongtac.Location = new System.Drawing.Point(706, 396);
+            this.butTuongtac.Location = new System.Drawing.Point(930, 396);
             this.butTuongtac.Name = "butTuongtac";
             this.butTuongtac.Size = new System.Drawing.Size(85, 25);
             this.butTuongtac.TabIndex = 269;
@@ -1631,7 +1632,7 @@ namespace Medisoft
             this.butIn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.butIn.Image = ((System.Drawing.Image)(resources.GetObject("butIn.Image")));
             this.butIn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.butIn.Location = new System.Drawing.Point(650, 522);
+            this.butIn.Location = new System.Drawing.Point(874, 522);
             this.butIn.Name = "butIn";
             this.butIn.Size = new System.Drawing.Size(70, 25);
             this.butIn.TabIndex = 34;
@@ -1644,7 +1645,7 @@ namespace Medisoft
             this.butCholai.Enabled = false;
             this.butCholai.Image = ((System.Drawing.Image)(resources.GetObject("butCholai.Image")));
             this.butCholai.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.butCholai.Location = new System.Drawing.Point(630, 396);
+            this.butCholai.Location = new System.Drawing.Point(854, 396);
             this.butCholai.Name = "butCholai";
             this.butCholai.Size = new System.Drawing.Size(77, 25);
             this.butCholai.TabIndex = 252;
@@ -1658,7 +1659,7 @@ namespace Medisoft
             this.butKetthuc.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.butKetthuc.Image = ((System.Drawing.Image)(resources.GetObject("butKetthuc.Image")));
             this.butKetthuc.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.butKetthuc.Location = new System.Drawing.Point(720, 522);
+            this.butKetthuc.Location = new System.Drawing.Point(944, 522);
             this.butKetthuc.Name = "butKetthuc";
             this.butKetthuc.Size = new System.Drawing.Size(70, 25);
             this.butKetthuc.TabIndex = 35;
@@ -1671,7 +1672,7 @@ namespace Medisoft
             this.butHuy.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.butHuy.Image = ((System.Drawing.Image)(resources.GetObject("butHuy.Image")));
             this.butHuy.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.butHuy.Location = new System.Drawing.Point(580, 522);
+            this.butHuy.Location = new System.Drawing.Point(804, 522);
             this.butHuy.Name = "butHuy";
             this.butHuy.Size = new System.Drawing.Size(70, 25);
             this.butHuy.TabIndex = 33;
@@ -1684,7 +1685,7 @@ namespace Medisoft
             this.butBoqua.Enabled = false;
             this.butBoqua.Image = ((System.Drawing.Image)(resources.GetObject("butBoqua.Image")));
             this.butBoqua.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.butBoqua.Location = new System.Drawing.Point(510, 522);
+            this.butBoqua.Location = new System.Drawing.Point(734, 522);
             this.butBoqua.Name = "butBoqua";
             this.butBoqua.Size = new System.Drawing.Size(70, 25);
             this.butBoqua.TabIndex = 31;
@@ -1698,7 +1699,7 @@ namespace Medisoft
             this.butXoa.Enabled = false;
             this.butXoa.Image = ((System.Drawing.Image)(resources.GetObject("butXoa.Image")));
             this.butXoa.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.butXoa.Location = new System.Drawing.Point(440, 522);
+            this.butXoa.Location = new System.Drawing.Point(664, 522);
             this.butXoa.Name = "butXoa";
             this.butXoa.Size = new System.Drawing.Size(70, 25);
             this.butXoa.TabIndex = 29;
@@ -1711,7 +1712,7 @@ namespace Medisoft
             this.butThem.Enabled = false;
             this.butThem.Image = ((System.Drawing.Image)(resources.GetObject("butThem.Image")));
             this.butThem.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.butThem.Location = new System.Drawing.Point(370, 522);
+            this.butThem.Location = new System.Drawing.Point(594, 522);
             this.butThem.Name = "butThem";
             this.butThem.Size = new System.Drawing.Size(70, 25);
             this.butThem.TabIndex = 28;
@@ -1726,7 +1727,7 @@ namespace Medisoft
             this.butLuu.Enabled = false;
             this.butLuu.Image = ((System.Drawing.Image)(resources.GetObject("butLuu.Image")));
             this.butLuu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.butLuu.Location = new System.Drawing.Point(300, 522);
+            this.butLuu.Location = new System.Drawing.Point(524, 522);
             this.butLuu.Name = "butLuu";
             this.butLuu.Size = new System.Drawing.Size(70, 25);
             this.butLuu.TabIndex = 30;
@@ -1738,7 +1739,7 @@ namespace Medisoft
             this.butSua.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.butSua.Image = ((System.Drawing.Image)(resources.GetObject("butSua.Image")));
             this.butSua.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.butSua.Location = new System.Drawing.Point(230, 522);
+            this.butSua.Location = new System.Drawing.Point(454, 522);
             this.butSua.Name = "butSua";
             this.butSua.Size = new System.Drawing.Size(70, 25);
             this.butSua.TabIndex = 33;
@@ -1750,7 +1751,7 @@ namespace Medisoft
             this.butMoi.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.butMoi.Image = ((System.Drawing.Image)(resources.GetObject("butMoi.Image")));
             this.butMoi.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.butMoi.Location = new System.Drawing.Point(158, 522);
+            this.butMoi.Location = new System.Drawing.Point(382, 522);
             this.butMoi.Name = "butMoi";
             this.butMoi.Size = new System.Drawing.Size(70, 25);
             this.butMoi.TabIndex = 32;
@@ -1865,7 +1866,7 @@ namespace Medisoft
             this.toolStripLabel1});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(794, 25);
+            this.toolStrip1.Size = new System.Drawing.Size(1018, 25);
             this.toolStrip1.TabIndex = 306;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -1886,7 +1887,7 @@ namespace Medisoft
             this.toolTuychon.Image = ((System.Drawing.Image)(resources.GetObject("toolTuychon.Image")));
             this.toolTuychon.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolTuychon.Name = "toolTuychon";
-            this.toolTuychon.Size = new System.Drawing.Size(80, 22);
+            this.toolTuychon.Size = new System.Drawing.Size(86, 22);
             this.toolTuychon.Text = "Tùy chọn";
             this.toolTuychon.Click += new System.EventHandler(this.toolTuychon_Click);
             // 
@@ -1894,7 +1895,7 @@ namespace Medisoft
             // 
             this.chkThuoc.CheckOnClick = true;
             this.chkThuoc.Name = "chkThuoc";
-            this.chkThuoc.Size = new System.Drawing.Size(260, 22);
+            this.chkThuoc.Size = new System.Drawing.Size(267, 22);
             this.chkThuoc.Text = "Xem thuốc đã sử dụng";
             this.chkThuoc.CheckedChanged += new System.EventHandler(this.chkThuoc_CheckedChanged);
             // 
@@ -1902,42 +1903,42 @@ namespace Medisoft
             // 
             this.chkXem.CheckOnClick = true;
             this.chkXem.Name = "chkXem";
-            this.chkXem.Size = new System.Drawing.Size(260, 22);
+            this.chkXem.Size = new System.Drawing.Size(267, 22);
             this.chkXem.Text = "Xem trước khi in";
             // 
             // chkXML
             // 
             this.chkXML.CheckOnClick = true;
             this.chkXML.Name = "chkXML";
-            this.chkXML.Size = new System.Drawing.Size(260, 22);
+            this.chkXML.Size = new System.Drawing.Size(267, 22);
             this.chkXML.Text = "Xml";
             // 
             // chkVP
             // 
             this.chkVP.CheckOnClick = true;
             this.chkVP.Name = "chkVP";
-            this.chkVP.Size = new System.Drawing.Size(260, 22);
+            this.chkVP.Size = new System.Drawing.Size(267, 22);
             this.chkVP.Text = "In kèm theo chỉ định";
             // 
             // chkTodieutri
             // 
             this.chkTodieutri.CheckOnClick = true;
             this.chkTodieutri.Name = "chkTodieutri";
-            this.chkTodieutri.Size = new System.Drawing.Size(260, 22);
+            this.chkTodieutri.Size = new System.Drawing.Size(267, 22);
             this.chkTodieutri.Text = "Tờ điều trị";
             // 
             // chkLuuin
             // 
             this.chkLuuin.CheckOnClick = true;
             this.chkLuuin.Name = "chkLuuin";
-            this.chkLuuin.Size = new System.Drawing.Size(260, 22);
+            this.chkLuuin.Size = new System.Drawing.Size(267, 22);
             this.chkLuuin.Text = "Lưu && in";
             // 
             // chkDoituong
             // 
             this.chkDoituong.CheckOnClick = true;
             this.chkDoituong.Name = "chkDoituong";
-            this.chkDoituong.Size = new System.Drawing.Size(260, 22);
+            this.chkDoituong.Size = new System.Drawing.Size(267, 22);
             this.chkDoituong.Text = "Chỉnh sửa đối tượng";
             this.chkDoituong.Click += new System.EventHandler(this.chkDoituong_Click);
             // 
@@ -1945,7 +1946,7 @@ namespace Medisoft
             // 
             this.chkDongy.CheckOnClick = true;
             this.chkDongy.Name = "chkDongy";
-            this.chkDongy.Size = new System.Drawing.Size(260, 22);
+            this.chkDongy.Size = new System.Drawing.Size(267, 22);
             this.chkDongy.Text = "In toa đông y";
             this.chkDongy.CheckedChanged += new System.EventHandler(this.chkDongy_CheckedChanged);
             // 
@@ -1953,14 +1954,14 @@ namespace Medisoft
             // 
             this.chkDongia.CheckOnClick = true;
             this.chkDongia.Name = "chkDongia";
-            this.chkDongia.Size = new System.Drawing.Size(260, 22);
+            this.chkDongia.Size = new System.Drawing.Size(267, 22);
             this.chkDongia.Text = "In kèm đơn giá";
             // 
             // chkQuanlyngaynghiphep
             // 
             this.chkQuanlyngaynghiphep.CheckOnClick = true;
             this.chkQuanlyngaynghiphep.Name = "chkQuanlyngaynghiphep";
-            this.chkQuanlyngaynghiphep.Size = new System.Drawing.Size(260, 22);
+            this.chkQuanlyngaynghiphep.Size = new System.Drawing.Size(267, 22);
             this.chkQuanlyngaynghiphep.Text = "Quản lý ngày nghỉ phép";
             this.chkQuanlyngaynghiphep.CheckedChanged += new System.EventHandler(this.chkQuanlyngaynghiphep_CheckedChanged);
             // 
@@ -1968,7 +1969,7 @@ namespace Medisoft
             // 
             this.chkCanhbaotoathuoclonhon10ngay.CheckOnClick = true;
             this.chkCanhbaotoathuoclonhon10ngay.Name = "chkCanhbaotoathuoclonhon10ngay";
-            this.chkCanhbaotoathuoclonhon10ngay.Size = new System.Drawing.Size(260, 22);
+            this.chkCanhbaotoathuoclonhon10ngay.Size = new System.Drawing.Size(267, 22);
             this.chkCanhbaotoathuoclonhon10ngay.Text = "Cảnh báo toa thuốc lớn hơn 10 ngày";
             // 
             // toolStripSeparator1
@@ -2030,7 +2031,7 @@ namespace Medisoft
             this.tong_chidinh.BackColor = System.Drawing.SystemColors.HighlightText;
             this.tong_chidinh.Enabled = false;
             this.tong_chidinh.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tong_chidinh.Location = new System.Drawing.Point(329, 396);
+            this.tong_chidinh.Location = new System.Drawing.Point(553, 396);
             this.tong_chidinh.Masked = MaskedTextBox.MaskedTextBox.Mask.Decimal;
             this.tong_chidinh.Name = "tong_chidinh";
             this.tong_chidinh.Size = new System.Drawing.Size(116, 22);
@@ -2044,7 +2045,7 @@ namespace Medisoft
             this.tong_chiphi.BackColor = System.Drawing.SystemColors.HighlightText;
             this.tong_chiphi.Enabled = false;
             this.tong_chiphi.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tong_chiphi.Location = new System.Drawing.Point(116, 393);
+            this.tong_chiphi.Location = new System.Drawing.Point(340, 393);
             this.tong_chiphi.Masked = MaskedTextBox.MaskedTextBox.Mask.Decimal;
             this.tong_chiphi.Name = "tong_chiphi";
             this.tong_chiphi.Size = new System.Drawing.Size(116, 22);
@@ -2055,7 +2056,7 @@ namespace Medisoft
             // label26
             // 
             this.label26.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.label26.Location = new System.Drawing.Point(219, 393);
+            this.label26.Location = new System.Drawing.Point(443, 393);
             this.label26.Name = "label26";
             this.label26.Size = new System.Drawing.Size(104, 23);
             this.label26.TabIndex = 99;
@@ -2065,7 +2066,7 @@ namespace Medisoft
             // label27
             // 
             this.label27.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.label27.Location = new System.Drawing.Point(22, 393);
+            this.label27.Location = new System.Drawing.Point(246, 393);
             this.label27.Name = "label27";
             this.label27.Size = new System.Drawing.Size(88, 23);
             this.label27.TabIndex = 99;
@@ -2075,7 +2076,7 @@ namespace Medisoft
             // frmBaohiem
             // 
             this.AutoScaleBaseSize = new System.Drawing.Size(5, 13);
-            this.ClientSize = new System.Drawing.Size(794, 575);
+            this.ClientSize = new System.Drawing.Size(1018, 575);
             this.Controls.Add(this.tong_chiphi);
             this.Controls.Add(this.tong_chidinh);
             this.Controls.Add(this.listICD);
@@ -2181,11 +2182,11 @@ namespace Medisoft
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Đơn thuốc";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
-            this.Layout += new System.Windows.Forms.LayoutEventHandler(this.frmBaohiem_Layout);
-            this.Validated += new System.EventHandler(this.frmBaohiem_Validated);
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmBaohiem_FormClosing);
-            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.frmBaohiem_KeyDown);
             this.Load += new System.EventHandler(this.frmBaohiem_Load);
+            this.Layout += new System.Windows.Forms.LayoutEventHandler(this.frmBaohiem_Layout);
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmBaohiem_FormClosing);
+            this.Validated += new System.EventHandler(this.frmBaohiem_Validated);
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.frmBaohiem_KeyDown);
             ((System.ComponentModel.ISupportInitialize)(this.songay)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.solan)).EndInit();
             this.p1.ResumeLayout(false);
@@ -3581,10 +3582,43 @@ namespace Medisoft
                     }
                 }
             }
+            ///Kiểm tra số lượng tồn kho
+           // dtton = d.get_tonkhoth_dutru_bhyt(i_nhom, s_mmyy, s_makho, s_makho_kp, s_manguon, (bDieutringtr) ? 0 : i_madoituong, bLocdichvu);
+
 			return true;
 		}
+        //Predicate<BietDuocSuDung> ab = new Predicate<BietDuocSuDung>(
+        static Predicate<BietDuocSuDung> FindBDByMa(string mabd)
+        {
+            return delegate(BietDuocSuDung bd)
+            {
+                return bd.MaBD == mabd;
+            };
+        }
 		private void butLuu_Click(object sender, System.EventArgs e)
 		{
+            List<BietDuocSuDung> listdonthuoc = new List<BietDuocSuDung>();
+          //  listdonthuoc.Find( );
+            foreach (DataRow drrr in dtct.Rows)
+            {
+                if (listdonthuoc.Exists(FindBDByMa(drrr["ma"].ToString())))
+                {
+                    listdonthuoc.Find(FindBDByMa(drrr["ma"].ToString())).SoLuong += decimal.Parse(drrr["soluong"].ToString());
+                }
+                else
+                {
+                    string t = drrr["soluong"].ToString();
+                    listdonthuoc.Add(new BietDuocSuDung(drrr["ma"].ToString(), drrr["ten"].ToString(), decimal.Parse(drrr["soluong"].ToString()), drrr["makho"].ToString(), drrr["manguon"].ToString())); 
+                }
+            }
+            foreach (BietDuocSuDung bd in listdonthuoc)
+            {
+                if (!KiemtraVuotkho(bd.MaBD, bd.MaKho, bd.MaNguon,bd.SoLuong))
+                {
+                    MessageBox.Show("Số lượng thuốc " + bd.TenBD + " trong kho sau khi kiểm tra lại không còn đủ số lượng " + bd.SoLuong + "\nXin điều chỉnh lại đơn thuốc", "Lỗi thiếu thuốc", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+            }
 			bEdit=false;
 			upd_table(dtct,"-");
 			dtct.AcceptChanges();
@@ -4354,21 +4388,6 @@ namespace Medisoft
 
 		private void butThem_Click(object sender, System.EventArgs e)
 		{
-			
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
             if (d.bNhapmaso) mabd.Enabled=true;
 			tenbd.Enabled=true;			
 			 
@@ -5742,7 +5761,30 @@ namespace Medisoft
         {
             if (this.ActiveControl == chk2 && chk2.Checked) chk1.Checked = false;
         }
-
+        /// <summary>
+        /// Kiểm tra số lượng thuốc tồn kho 
+        /// Khôi:11/6   
+        /// </summary>
+        /// <param name="MaBD">Mã biệt dược</param>   
+        /// <returns>số lượng tồn của một một loại thuốc</returns>
+        private bool KiemtraVuotkho(string MaBD,string makho, string manguon,decimal soluongkiemtra)
+        {
+            DataTable dtton = d.get_tonkhoth_dutru_bhyt(i_nhom, s_mmyy, makho, s_makho_kp, manguon, (bDieutringtr) ? 0 : i_madoituong, bLocdichvu);            
+            if ( bMuangoai_tonkho)
+            {
+               DataRow r = d.getrowbyid(dtton, "ma='" + MaBD + "'");
+                if (r != null && r["manguon"].ToString() != "-1")
+                {
+                    int i_mabd = int.Parse(r["id"].ToString());                    
+                   decimal d_soluongton = d.get_slton_nguon_tutruc(dtton, int.Parse(makho), i_mabd, int.Parse(manguon), 0, d_soluongcu);
+                    if (soluongkiemtra > d_soluongton)
+                    {                        
+                        return false;
+                    }
+                }
+            }            
+            return true;
+        }
         private void soluong1_Validated(object sender, EventArgs e)
         {
             try
@@ -6513,6 +6555,24 @@ namespace Medisoft
             //DataTable tmp = d.get_bhytthuoc(s_mmyy, load_thuoc(l_id), l_id, (i_loaiba == 2) ? 0 : i_madoituong);
             d.execute_data("update " + xxx + ".d_thuocbhytll set done=1 where id=" + l_id);
             DataTable tmp = d.get_ngtruct(s_mmyy, load_thuoc(l_id), l_id);
+        }
+        class BietDuocSuDung
+        {
+            string mabd="", ten="",makho="",manguon="";
+            decimal soluong=0;
+            public string MaBD { set { mabd = value; } get { return mabd; } }
+            public string TenBD { set { ten = value; } get { return ten; } }
+            public string MaKho { set { makho = value; } get { return makho; } }
+            public string MaNguon { set { manguon = value; } get { return manguon; } }
+            public decimal SoLuong { set { soluong = value; } get { return soluong; } }
+            public BietDuocSuDung(string maBd, string Tenbd, decimal sl,string makho, string manguon)
+            {
+                this.mabd = maBd;
+                this.ten = Tenbd;
+                this.soluong = sl;
+                this.makho = makho;
+                this.manguon = manguon;
+            }
         }
 	}
 }
