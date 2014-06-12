@@ -3607,7 +3607,7 @@ namespace Medisoft
                 }
                 else
                 {
-                    string t = drrr["soluong"].ToString();
+                    //string t = drrr["soluong"].ToString();
                     listdonthuoc.Add(new BietDuocSuDung(drrr["ma"].ToString(), drrr["ten"].ToString(), decimal.Parse(drrr["soluong"].ToString()), drrr["makho"].ToString(), drrr["manguon"].ToString())); 
                 }
             }
@@ -5775,7 +5775,11 @@ namespace Medisoft
                DataRow r = d.getrowbyid(dtton, "ma='" + MaBD + "'");
                 if (r != null && r["manguon"].ToString() != "-1")
                 {
-                    int i_mabd = int.Parse(r["id"].ToString());                    
+                    int i_mabd = int.Parse(r["id"].ToString());
+                    if (i_mabdcu != 0 && i_mabdcu != i_mabd)
+                    {
+                        d_soluongcu = 0;
+                    }
                    decimal d_soluongton = d.get_slton_nguon_tutruc(dtton, int.Parse(makho), i_mabd, int.Parse(manguon), 0, d_soluongcu);
                     if (soluongkiemtra > d_soluongton)
                     {                        

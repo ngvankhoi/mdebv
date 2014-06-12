@@ -7,6 +7,7 @@ using System.Windows.Forms;
 using System.Data;
 using LibDuoc;
 using LibMedi;
+using System.Collections.Generic;
 
 namespace Medisoft
 {
@@ -2531,10 +2532,37 @@ namespace Medisoft
 			ref_text();
 			dataGrid1.Focus();
 		}
-
+        static Predicate<BietDuocSuDung> FindBDByMa(string mabd)
+        {
+            return delegate(BietDuocSuDung bd)
+            {
+                return bd.MaBD == mabd;
+            };
+        }
 		private void butLuu_Click(object sender, System.EventArgs e)
-		{
-			if (!KiemtraHead()) return;
+        {
+            List<BietDuocSuDung> listdonthuoc = new List<BietDuocSuDung>();
+            foreach (DataRow drrr in dtct.Rows)
+            {
+                if (listdonthuoc.Exists(FindBDByMa(drrr["ma"].ToString())))
+                {
+                    listdonthuoc.Find(FindBDByMa(drrr["ma"].ToString())).SoLuong += decimal.Parse(drrr["soluong"].ToString());
+                }
+                else
+                {
+                    string t = drrr["soluong"].ToString();
+                    listdonthuoc.Add(new BietDuocSuDung(drrr["ma"].ToString(), drrr["ten"].ToString(), decimal.Parse(drrr["soluong"].ToString()), drrr["makho"].ToString(), drrr["manguon"].ToString(),int.Parse(drrr["tutruc"].ToString())));
+                }
+            }
+            foreach (BietDuocSuDung bd in listdonthuoc)
+            {
+                if (!KiemtraVuotkho(bd.MaBD, bd.MaKho, bd.MaNguon, bd.SoLuong,bd.TuTruc))
+                {
+                    MessageBox.Show("Số lượng thuốc " + bd.TenBD + " trong kho sau khi kiểm tra lại không còn đủ số lượng " + bd.SoLuong + "\nXin điều chỉnh lại đơn thuốc", "Lỗi thiếu thuốc", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+            }
+            if (!KiemtraHead()) return;
 			bEdit=false;
 			upd_table(dtct,"-");
 			dtct.AcceptChanges();
@@ -3560,7 +3588,36 @@ namespace Medisoft
 		{
 			ref_text();
 		}
-
+        /// <summary>
+        /// Kiểm tra số lượng thuốc tồn kho 
+        /// Khôi:11/6   
+        /// </summary>
+        /// <param name="MaBD">Mã biệt dược</param>   
+        /// <returns>số lượng tồn của một một loại thuốc</returns>
+        private bool KiemtraVuotkho(string MaBD, string makho, string manguon, decimal soluongkiemtra,int tutruc)
+        {
+            DataTable dtton =d.get_tonkhoth_dutru(s_mmyy, makho, manguon, i_nhom);
+           // = d.get_tonkhoth_dutru_bhyt(i_nhom, s_mmyy, makho, s_makho_kp, manguon, (bDieutringtr) ? 0 : i_madoituong, bLocdichvu);
+         //   if (bMuangoai_tonkho)
+            {
+                DataRow r = d.getrowbyid(dtton, "ma='" + MaBD + "'");
+                if (r != null && r["manguon"].ToString() != "-1")
+                {
+                    int i_mabd = int.Parse(r["id"].ToString());
+                    if (i_mabdcu != 0 && i_mabdcu != i_mabd)
+                    {
+                        d_soluongcu = 0;
+                    }
+                    decimal d_soluongton = d.get_slton_nguon_tutruc(dtton, int.Parse(makho), i_mabd, int.Parse(manguon), tutruc, d_soluongcu);
+                   // d.get_slton_nguon_tutruc(dtton, int.Parse(makho.SelectedValue.ToString()), i_mabd, int.Parse(manguon.SelectedValue.ToString()), tutruc, d_soluongcu);
+                    if (soluongkiemtra > d_soluongton)
+                    {
+                        return false;
+                    }
+                }
+            }
+            return true;
+        }
 		private void soluong_Validated(object sender, System.EventArgs e)
 		{
 			try
@@ -4565,5 +4622,26 @@ namespace Medisoft
             }
         }
         //
+        class BietDuocSuDung
+        {
+            string mabd = "", ten = "", makho = "", manguon = "";
+            int tutruc = -1;
+            decimal soluong = 0;
+            public string MaBD { set { mabd = value; } get { return mabd; } }
+            public string TenBD { set { ten = value; } get { return ten; } }
+            public string MaKho { set { makho = value; } get { return makho; } }
+            public string MaNguon { set { manguon = value; } get { return manguon; } }
+            public decimal SoLuong { set { soluong = value; } get { return soluong; } }
+            public int TuTruc { set { tutruc = value; } get { return tutruc; } }
+            public BietDuocSuDung(string maBd, string Tenbd, decimal sl, string makho, string manguon,int tuTruc)
+            {
+                this.mabd = maBd;
+                this.ten = Tenbd;
+                this.soluong = sl;
+                this.makho = makho;
+                this.manguon = manguon;
+                this.tutruc = tuTruc;
+            }
+        }
 	}
 }
