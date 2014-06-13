@@ -12,6 +12,7 @@ using Excel;
 using LibDuoc;
 using LibMedi;
 using System.IO;
+using System.Threading;
 
 namespace Duoc
 {
@@ -635,6 +636,8 @@ namespace Duoc
 
 		private void butExcel_Click(object sender, System.EventArgs e)
 		{
+            System.Globalization.CultureInfo oldcul = Thread.CurrentThread.CurrentCulture;
+            Thread.CurrentThread.CurrentCulture = new System.Globalization.CultureInfo("en-US");
             if (butExcel.Enabled == false) return;
 			d.check_process_Excel();
 			string tenfile=d.Export_Excel(dt,ReportFile.Substring(0,ReportFile.Length-4));
@@ -654,6 +657,7 @@ namespace Duoc
             }
             catch { }
 			oxl.Visible=true;
+            Thread.CurrentThread.CurrentCulture = oldcul;
 		}
 
 		private void banin_KeyDown(object sender, System.Windows.Forms.KeyEventArgs e)
