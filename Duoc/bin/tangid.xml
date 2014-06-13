@@ -15,4 +15,7 @@
       </xs:complexType>
     </xs:element>
   </xs:schema>
+  <Table>
+    <ten>alter table medibv0614.lienhe alter column soluutru type varchar(12);</ten>
+  </Table>
 </NewDataSet>

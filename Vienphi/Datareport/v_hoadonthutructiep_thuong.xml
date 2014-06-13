@@ -77,189 +77,41 @@
     <cucthue>CỤC THUẾ</cucthue>
     <masothue />
     <mauso />
-    <quyenso>19</quyenso>
-    <sohieuquyenso>TEST</sohieuquyenso>
-    <sobienlai>11</sobienlai>
-    <ngayin>22/04/2014</ngayin>
-    <nguoiin>administrator</nguoiin>
-    <ghichu>(In lần 4)</ghichu>
+    <quyenso>31</quyenso>
+    <sohieuquyenso>THU TRỰC TIẾP TC</sohieuquyenso>
+    <sobienlai>6954</sobienlai>
+    <ngayin>13/06/2014</ngayin>
+    <nguoiin>Nguyễn Thị Dậu</nguoiin>
+    <ghichu>(In lần 2)</ghichu>
     <lien>Liên 1: Giao cho bệnh nhân</lien>
-    <mabn>14789789</mabn>
-    <hoten>THUYTEST</hoten>
-    <ngaysinh>1989</ngaysinh>
+    <mabn>14025505</mabn>
+    <hoten>TRẦN VĂN TAM</hoten>
+    <ngaysinh>1972</ngaysinh>
     <gioitinh>Nam</gioitinh>
-    <khoa>Phòng Khám Răng 1</khoa>
-    <diachi>Thái Bình</diachi>
-    <lydo>Lưu huyết não [28,000 đ], Vá da dày toàn bộ, diện tích bằng và trên 10cm [1,000,000 đ], Ghép da tự thân trên 10% diện tích cơ thể ở người lớn [1,000,000 đ], Phản ứng Pandy [8,000 đ], Rivalta [8,000 đ]</lydo>
-    <loaivp>Lưu huyết não, Phẫu thuật Bỏng, Xét nghiệm chất dịch</loaivp>
-    <sotien>2,044,000</sotien>
-    <chutien>Hai triệu không trăm bốn mươi bốn ngàn  đồng</chutien>
-    <nguoithu>administrator</nguoithu>
+    <khoa>Pk.Nội 5</khoa>
+    <diachi>P. Kim Tân, Tp. Lào Cai, Lào Cai</diachi>
+    <lydo>Khám bệnh [13,500 đ]</lydo>
+    <loaivp>Khám thông thường</loaivp>
+    <sotien>13,500</sotien>
+    <chutien>Mười ba ngàn năm trăm  đồng</chutien>
+    <nguoithu>Nguyễn Thị Dậu</nguoithu>
     <diengiai />
-    <bacsithuchien>Trần Đình Chương^1</bacsithuchien>
+    <bacsithuchien>^0</bacsithuchien>
     <bacsilamsang />
-    <sttkham>1</sttkham>
-    <id>85140422090945843</id>
-  </BienLaiTamUng>
-  <BienLaiTamUng>
-    <syt>Sở Y tế ĐĂCNÔNG</syt>
-    <bv>Bệnh viện đa khoa Huyện Krông Pắc</bv>
-    <diachibv>Đường 23/3</diachibv>
-    <tongcucthue>TỔNG CỤC THUẾ</tongcucthue>
-    <cucthue>CỤC THUẾ</cucthue>
-    <masothue />
-    <mauso />
-    <quyenso>19</quyenso>
-    <sohieuquyenso>TEST</sohieuquyenso>
-    <sobienlai>11</sobienlai>
-    <ngayin>22/04/2014</ngayin>
-    <nguoiin>administrator</nguoiin>
-    <ghichu>(In lần 4)</ghichu>
-    <lien>Liên 1: Giao cho bệnh nhân</lien>
-    <mabn>14789789</mabn>
-    <hoten>THUYTEST</hoten>
-    <ngaysinh>1989</ngaysinh>
-    <gioitinh>Nam</gioitinh>
-    <khoa>Phòng Khám Răng 1</khoa>
-    <diachi>Thái Bình</diachi>
-    <lydo>Lưu huyết não [28,000 đ], Vá da dày toàn bộ, diện tích bằng và trên 10cm [1,000,000 đ], Ghép da tự thân trên 10% diện tích cơ thể ở người lớn [1,000,000 đ], Phản ứng Pandy [8,000 đ], Rivalta [8,000 đ]</lydo>
-    <loaivp>Lưu huyết não, Phẫu thuật Bỏng, Xét nghiệm chất dịch</loaivp>
-    <sotien>2,044,000</sotien>
-    <chutien>Hai triệu không trăm bốn mươi bốn ngàn  đồng</chutien>
-    <nguoithu>administrator</nguoithu>
-    <diengiai />
-    <bacsithuchien>Trần Đình Chương^1</bacsithuchien>
-    <bacsilamsang />
-    <sttkham>1</sttkham>
-    <id>85140422090945843</id>
-  </BienLaiTamUng>
-  <BienLaiTamUng>
-    <syt>Sở Y tế ĐĂCNÔNG</syt>
-    <bv>Bệnh viện đa khoa Huyện Krông Pắc</bv>
-    <diachibv>Đường 23/3</diachibv>
-    <tongcucthue>TỔNG CỤC THUẾ</tongcucthue>
-    <cucthue>CỤC THUẾ</cucthue>
-    <masothue />
-    <mauso />
-    <quyenso>19</quyenso>
-    <sohieuquyenso>TEST</sohieuquyenso>
-    <sobienlai>11</sobienlai>
-    <ngayin>22/04/2014</ngayin>
-    <nguoiin>administrator</nguoiin>
-    <ghichu>(In lần 4)</ghichu>
-    <lien>Liên 2: Lưu</lien>
-    <mabn>14789789</mabn>
-    <hoten>THUYTEST</hoten>
-    <ngaysinh>1989</ngaysinh>
-    <gioitinh>Nam</gioitinh>
-    <khoa>Phòng Khám Răng 1</khoa>
-    <diachi>Thái Bình</diachi>
-    <lydo>Lưu huyết não [28,000 đ], Vá da dày toàn bộ, diện tích bằng và trên 10cm [1,000,000 đ], Ghép da tự thân trên 10% diện tích cơ thể ở người lớn [1,000,000 đ], Phản ứng Pandy [8,000 đ], Rivalta [8,000 đ]</lydo>
-    <loaivp>Lưu huyết não, Phẫu thuật Bỏng, Xét nghiệm chất dịch</loaivp>
-    <sotien>2,044,000</sotien>
-    <chutien>Hai triệu không trăm bốn mươi bốn ngàn  đồng</chutien>
-    <nguoithu>administrator</nguoithu>
-    <diengiai />
-    <bacsithuchien>Trần Đình Chương^1</bacsithuchien>
-    <bacsilamsang />
-    <sttkham>1</sttkham>
-    <id>85140422090945843</id>
-  </BienLaiTamUng>
-  <BienLaiTamUng>
-    <syt>Sở Y tế ĐĂCNÔNG</syt>
-    <bv>Bệnh viện đa khoa Huyện Krông Pắc</bv>
-    <diachibv>Đường 23/3</diachibv>
-    <tongcucthue>TỔNG CỤC THUẾ</tongcucthue>
-    <cucthue>CỤC THUẾ</cucthue>
-    <masothue />
-    <mauso />
-    <quyenso>19</quyenso>
-    <sohieuquyenso>TEST</sohieuquyenso>
-    <sobienlai>11</sobienlai>
-    <ngayin>22/04/2014</ngayin>
-    <nguoiin>administrator</nguoiin>
-    <ghichu>(In lần 4)</ghichu>
-    <lien>Liên 2: Lưu</lien>
-    <mabn>14789789</mabn>
-    <hoten>THUYTEST</hoten>
-    <ngaysinh>1989</ngaysinh>
-    <gioitinh>Nam</gioitinh>
-    <khoa>Phòng Khám Răng 1</khoa>
-    <diachi>Thái Bình</diachi>
-    <lydo>Lưu huyết não [28,000 đ], Vá da dày toàn bộ, diện tích bằng và trên 10cm [1,000,000 đ], Ghép da tự thân trên 10% diện tích cơ thể ở người lớn [1,000,000 đ], Phản ứng Pandy [8,000 đ], Rivalta [8,000 đ]</lydo>
-    <loaivp>Lưu huyết não, Phẫu thuật Bỏng, Xét nghiệm chất dịch</loaivp>
-    <sotien>2,044,000</sotien>
-    <chutien>Hai triệu không trăm bốn mươi bốn ngàn  đồng</chutien>
-    <nguoithu>administrator</nguoithu>
-    <diengiai />
-    <bacsithuchien>Trần Đình Chương^1</bacsithuchien>
-    <bacsilamsang />
-    <sttkham>1</sttkham>
-    <id>85140422090945843</id>
+    <sttkham>0</sttkham>
+    <id>405140613080041548</id>
   </BienLaiTamUng>
   <Chitiet>
     <madoituong>2</madoituong>
-    <mavp>7517</mavp>
-    <id_loaivp>4</id_loaivp>
-    <loaivp>Lưu huyết não</loaivp>
-    <id_nhomvp>2</id_nhomvp>
-    <nhomvp>Chẩn đoán hình ảnh</nhomvp>
-    <sotien>28000.0000</sotien>
-    <vat>0</vat>
-    <id>85140422090945843</id>
-    <gia_dv>28000</gia_dv>
-    <gia_bh>28000</gia_bh>
-  </Chitiet>
-  <Chitiet>
-    <madoituong>2</madoituong>
-    <mavp>9916</mavp>
-    <id_loaivp>38</id_loaivp>
-    <loaivp>Phẫu thuật Bỏng</loaivp>
-    <id_nhomvp>26</id_nhomvp>
-    <nhomvp>Phẫu thuật</nhomvp>
-    <sotien>1000000.0000</sotien>
-    <vat>0</vat>
-    <id>85140422090945843</id>
-    <gia_dv>1000000</gia_dv>
-    <gia_bh>1000000</gia_bh>
-  </Chitiet>
-  <Chitiet>
-    <madoituong>2</madoituong>
-    <mavp>10253</mavp>
-    <id_loaivp>38</id_loaivp>
-    <loaivp>Phẫu thuật Bỏng</loaivp>
-    <id_nhomvp>26</id_nhomvp>
-    <nhomvp>Phẫu thuật</nhomvp>
-    <sotien>1000000.0000</sotien>
-    <vat>0</vat>
-    <id>85140422090945843</id>
-    <gia_dv>1000000</gia_dv>
-    <gia_bh>1000000</gia_bh>
-  </Chitiet>
-  <Chitiet>
-    <madoituong>2</madoituong>
-    <mavp>10608</mavp>
-    <id_loaivp>133</id_loaivp>
-    <loaivp>Xét nghiệm chất dịch</loaivp>
+    <mavp>-1</mavp>
+    <id_loaivp>1</id_loaivp>
+    <loaivp>Khám thông thường</loaivp>
     <id_nhomvp>1</id_nhomvp>
-    <nhomvp>Xét nghiệm</nhomvp>
-    <sotien>8000.0000</sotien>
+    <nhomvp>Khám bệnh</nhomvp>
+    <sotien>13500.00000000</sotien>
     <vat>0</vat>
-    <id>85140422090945843</id>
-    <gia_dv>8000</gia_dv>
-    <gia_bh>8000</gia_bh>
-  </Chitiet>
-  <Chitiet>
-    <madoituong>2</madoituong>
-    <mavp>10609</mavp>
-    <id_loaivp>133</id_loaivp>
-    <loaivp>Xét nghiệm chất dịch</loaivp>
-    <id_nhomvp>1</id_nhomvp>
-    <nhomvp>Xét nghiệm</nhomvp>
-    <sotien>8000.0000</sotien>
-    <vat>0</vat>
-    <id>85140422090945843</id>
-    <gia_dv>8000</gia_dv>
-    <gia_bh>8000</gia_bh>
+    <id>405140613080041548</id>
+    <gia_dv>13500</gia_dv>
+    <gia_bh>13500</gia_bh>
   </Chitiet>
 </NewDataSet>

@@ -77,153 +77,48 @@
     <cucthue>CỤC THUẾ</cucthue>
     <masothue />
     <mauso />
-    <quyenso>1876</quyenso>
-    <sohieuquyenso>TEST 1</sohieuquyenso>
-    <sobienlai>19701</sobienlai>
-    <ngayin>28/04/2014</ngayin>
-    <nguoiin>Hữu Thắng</nguoiin>
-    <ghichu>(In lần 1)</ghichu>
+    <quyenso>31</quyenso>
+    <sohieuquyenso>THU TRỰC TIẾP TC</sohieuquyenso>
+    <sobienlai>6954</sobienlai>
+    <ngayin>13/06/2014</ngayin>
+    <nguoiin>Nguyễn Thị Dậu</nguoiin>
+    <ghichu>(In lần 2)</ghichu>
     <lien>Liên 1: Giao cho bệnh nhân</lien>
-    <mabn>14151515</mabn>
-    <hoten>TEST BGE </hoten>
-    <ngaysinh>1989</ngaysinh>
+    <mabn>14025505</mabn>
+    <hoten>TRẦN VĂN TAM</hoten>
+    <ngaysinh>1972</ngaysinh>
     <gioitinh>Nam</gioitinh>
-    <khoa>Phòng Khám Số 1</khoa>
-    <diachi>Đắc Lắc</diachi>
-    <lydo>Công Khám [7,000 đ]</lydo>
-    <loaivp>Khám bệnh</loaivp>
-    <sotien>7,000</sotien>
-    <chutien>Bảy ngàn  đồng</chutien>
-    <nguoithu>Hữu Thắng</nguoithu>
+    <khoa>Pk.Nội 5</khoa>
+    <diachi>P. Kim Tân, Tp. Lào Cai, Lào Cai</diachi>
+    <lydo>Khám bệnh [13,500 đ]</lydo>
+    <loaivp>Khám thông thường</loaivp>
+    <sotien>13,500</sotien>
+    <chutien>Mười ba ngàn năm trăm  đồng</chutien>
+    <nguoithu>Nguyễn Thị Dậu</nguoithu>
     <diengiai />
-    <bacsithuchien>^2</bacsithuchien>
+    <bacsithuchien>^0</bacsithuchien>
     <bacsilamsang />
-    <sttkham>2</sttkham>
+    <sttkham>0</sttkham>
     <dtnha />
     <dtdidong />
     <dtcoquan />
-    <id>80140428170042866</id>
-  </BienLaiTamUng>
-  <BienLaiTamUng>
-    <syt>Sở Y tế ĐĂCNÔNG</syt>
-    <bv>Bệnh viện đa khoa Huyện Krông Pắc</bv>
-    <diachibv>Đường 23/3</diachibv>
-    <tongcucthue>TỔNG CỤC THUẾ</tongcucthue>
-    <cucthue>CỤC THUẾ</cucthue>
-    <masothue />
-    <mauso />
-    <quyenso>1876</quyenso>
-    <sohieuquyenso>TEST 1</sohieuquyenso>
-    <sobienlai>19701</sobienlai>
-    <ngayin>28/04/2014</ngayin>
-    <nguoiin>Hữu Thắng</nguoiin>
-    <ghichu>(In lần 1)</ghichu>
-    <lien>Liên 1: Giao cho bệnh nhân</lien>
-    <mabn>14151515</mabn>
-    <hoten>TEST BGE </hoten>
-    <ngaysinh>1989</ngaysinh>
-    <gioitinh>Nam</gioitinh>
-    <khoa>Phòng Khám Số 1</khoa>
-    <diachi>Đắc Lắc</diachi>
-    <lydo>Công Khám [7,000 đ]</lydo>
-    <loaivp>Khám bệnh</loaivp>
-    <sotien>7,000</sotien>
-    <chutien>Bảy ngàn  đồng</chutien>
-    <nguoithu>Hữu Thắng</nguoithu>
-    <diengiai />
-    <bacsithuchien>^2</bacsithuchien>
-    <bacsilamsang />
-    <sttkham>2</sttkham>
-    <dtnha />
-    <dtdidong />
-    <dtcoquan />
-    <id>80140428170042866</id>
-  </BienLaiTamUng>
-  <BienLaiTamUng>
-    <syt>Sở Y tế ĐĂCNÔNG</syt>
-    <bv>Bệnh viện đa khoa Huyện Krông Pắc</bv>
-    <diachibv>Đường 23/3</diachibv>
-    <tongcucthue>TỔNG CỤC THUẾ</tongcucthue>
-    <cucthue>CỤC THUẾ</cucthue>
-    <masothue />
-    <mauso />
-    <quyenso>1876</quyenso>
-    <sohieuquyenso>TEST 1</sohieuquyenso>
-    <sobienlai>19701</sobienlai>
-    <ngayin>28/04/2014</ngayin>
-    <nguoiin>Hữu Thắng</nguoiin>
-    <ghichu>(In lần 1)</ghichu>
-    <lien>Liên 2: Lưu</lien>
-    <mabn>14151515</mabn>
-    <hoten>TEST BGE </hoten>
-    <ngaysinh>1989</ngaysinh>
-    <gioitinh>Nam</gioitinh>
-    <khoa>Phòng Khám Số 1</khoa>
-    <diachi>Đắc Lắc</diachi>
-    <lydo>Công Khám [7,000 đ]</lydo>
-    <loaivp>Khám bệnh</loaivp>
-    <sotien>7,000</sotien>
-    <chutien>Bảy ngàn  đồng</chutien>
-    <nguoithu>Hữu Thắng</nguoithu>
-    <diengiai />
-    <bacsithuchien>^2</bacsithuchien>
-    <bacsilamsang />
-    <sttkham>2</sttkham>
-    <dtnha />
-    <dtdidong />
-    <dtcoquan />
-    <id>80140428170042866</id>
-  </BienLaiTamUng>
-  <BienLaiTamUng>
-    <syt>Sở Y tế ĐĂCNÔNG</syt>
-    <bv>Bệnh viện đa khoa Huyện Krông Pắc</bv>
-    <diachibv>Đường 23/3</diachibv>
-    <tongcucthue>TỔNG CỤC THUẾ</tongcucthue>
-    <cucthue>CỤC THUẾ</cucthue>
-    <masothue />
-    <mauso />
-    <quyenso>1876</quyenso>
-    <sohieuquyenso>TEST 1</sohieuquyenso>
-    <sobienlai>19701</sobienlai>
-    <ngayin>28/04/2014</ngayin>
-    <nguoiin>Hữu Thắng</nguoiin>
-    <ghichu>(In lần 1)</ghichu>
-    <lien>Liên 2: Lưu</lien>
-    <mabn>14151515</mabn>
-    <hoten>TEST BGE </hoten>
-    <ngaysinh>1989</ngaysinh>
-    <gioitinh>Nam</gioitinh>
-    <khoa>Phòng Khám Số 1</khoa>
-    <diachi>Đắc Lắc</diachi>
-    <lydo>Công Khám [7,000 đ]</lydo>
-    <loaivp>Khám bệnh</loaivp>
-    <sotien>7,000</sotien>
-    <chutien>Bảy ngàn  đồng</chutien>
-    <nguoithu>Hữu Thắng</nguoithu>
-    <diengiai />
-    <bacsithuchien>^2</bacsithuchien>
-    <bacsilamsang />
-    <sttkham>2</sttkham>
-    <dtnha />
-    <dtdidong />
-    <dtcoquan />
-    <id>80140428170042866</id>
+    <id>405140613080041548</id>
   </BienLaiTamUng>
   <Chitiet>
     <madoituong>2</madoituong>
-    <mavp>120614</mavp>
-    <tenvp>Công Khám</tenvp>
-    <dongia>7000.0000</dongia>
+    <mavp>-1</mavp>
+    <tenvp>Khám bệnh</tenvp>
+    <dongia>13500.0000</dongia>
     <soluong>1.0000</soluong>
-    <id_loaivp>20</id_loaivp>
-    <loaivp>Khám bệnh</loaivp>
-    <id_nhomvp>4</id_nhomvp>
-    <nhomvp>Công khám</nhomvp>
-    <sotien>7000.00000000</sotien>
+    <id_loaivp>1</id_loaivp>
+    <loaivp>Khám thông thường</loaivp>
+    <id_nhomvp>1</id_nhomvp>
+    <nhomvp>Khám bệnh</nhomvp>
+    <sotien>13500.00000000</sotien>
     <vat>0</vat>
     <mien>0.0000</mien>
-    <id>80140428170042866</id>
-    <gia_dv>97000</gia_dv>
-    <gia_bh>7000</gia_bh>
+    <id>405140613080041548</id>
+    <gia_dv>13500</gia_dv>
+    <gia_bh>13500</gia_bh>
   </Chitiet>
 </NewDataSet>
