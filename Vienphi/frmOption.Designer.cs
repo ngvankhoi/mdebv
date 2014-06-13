@@ -192,6 +192,7 @@
             this.label14 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.BHYT_032 = new System.Windows.Forms.CheckBox();
             this.BHYT_031 = new System.Windows.Forms.CheckBox();
             this.label30 = new System.Windows.Forms.Label();
             this.BHYT_028 = new System.Windows.Forms.CheckBox();
@@ -264,7 +265,6 @@
             this.butCopy = new System.Windows.Forms.Button();
             this.butPaste = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.BHYT_032 = new System.Windows.Forms.CheckBox();
             tabPage5 = new System.Windows.Forms.TabPage();
             tabPage5.SuspendLayout();
             this.toolStrip3.SuspendLayout();
@@ -1307,7 +1307,7 @@
             // TT_043
             // 
             this.TT_043.AutoSize = true;
-            this.TT_043.Location = new System.Drawing.Point(494, 119);
+            this.TT_043.Location = new System.Drawing.Point(531, 236);
             this.TT_043.Name = "TT_043";
             this.TT_043.Size = new System.Drawing.Size(226, 17);
             this.TT_043.TabIndex = 78;
@@ -1606,7 +1606,7 @@
             // TT_020
             // 
             this.TT_020.AutoSize = true;
-            this.TT_020.Location = new System.Drawing.Point(551, 120);
+            this.TT_020.Location = new System.Drawing.Point(494, 118);
             this.TT_020.Name = "TT_020";
             this.TT_020.Size = new System.Drawing.Size(152, 17);
             this.TT_020.TabIndex = 33;
@@ -2240,6 +2240,16 @@
             this.tabPage3.Size = new System.Drawing.Size(755, 402);
             this.tabPage3.TabIndex = 8;
             this.tabPage3.Text = "Viện phí BHYT Ngoại trú   ";
+            // 
+            // BHYT_032
+            // 
+            this.BHYT_032.AutoSize = true;
+            this.BHYT_032.Location = new System.Drawing.Point(171, 185);
+            this.BHYT_032.Name = "BHYT_032";
+            this.BHYT_032.Size = new System.Drawing.Size(237, 17);
+            this.BHYT_032.TabIndex = 82;
+            this.BHYT_032.Text = "Cảnh báo khi còn dịch vụ tự chi trả chưa thu";
+            this.BHYT_032.UseVisualStyleBackColor = true;
             // 
             // BHYT_031
             // 
@@ -3029,16 +3039,6 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "NGƯỜI DÙNG:";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // BHYT_032
-            // 
-            this.BHYT_032.AutoSize = true;
-            this.BHYT_032.Location = new System.Drawing.Point(171, 185);
-            this.BHYT_032.Name = "BHYT_032";
-            this.BHYT_032.Size = new System.Drawing.Size(237, 17);
-            this.BHYT_032.TabIndex = 82;
-            this.BHYT_032.Text = "Cảnh báo khi còn dịch vụ tự chi trả chưa thu";
-            this.BHYT_032.UseVisualStyleBackColor = true;
             // 
             // frmOption
             // 

@@ -2866,7 +2866,7 @@ namespace Vienphi
                         this.Text = lan.Change_language_MessageText("In biên lai thu viện phí trực tiếp") + " (" + aReport1 + ")";
                         //this.TopMost = true;
                         banin.Value = (v_sobanin == "") ? 1 : int.Parse(v_sobanin);
-                        this.ShowDialog(this.Parent);
+                        this.ShowDialog();
                     }
                     else
                     {
