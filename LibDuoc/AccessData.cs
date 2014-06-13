@@ -22196,8 +22196,8 @@ namespace LibDuoc
             sql += "b.id,a.makho,b.bhyt,b.mahc,a.manguon,0 as tutruc,b.manhom,b.madoituong,b.choduyet, e.ten as dungluc,d.mien ";//gam 28/09/2011 them d.mien
             sql += " from " + user + mmyy + ".d_tonkhoth a," + user + ".d_dmbd b," + user + ".d_dmkho c," + user + ".d_dmnguon d," + user + ".d_dmthoidiemdung e";
             sql += " where a.mabd=b.id and a.makho=c.id and a.manguon=d.id and b.mathoidiemdung=e.id(+) ";
-            if (makho != "") sql += " and a.makho in (" + makho.Substring(0, makho.Length - 1) + ")";
-            if (manguon != "") sql += " and a.manguon in (" + manguon.Substring(0, manguon.Length - 1) + ")";
+            if (makho != "") sql += " and a.makho in (" +String.Join(",", makho.Trim(',').Split(',')) + ")";
+            if (manguon != "") sql += " and a.manguon in (" + String.Join(",",manguon.Trim(',').Split(',')) + ")";
             if (bSort_mabd) sql += " order by b.ma";
             else sql += " order by b.ten";
             DataTable tmp = get_data(sql).Tables[0];
@@ -22236,8 +22236,8 @@ namespace LibDuoc
             sql += "trunc(a.tondau+a.slnhap-a.slxuat," + sole + ") as soluong,b.id,a.makho,b.bhyt,b.mahc,a.manguon,1 as tutruc,";
             sql += "b.manhom,b.madoituong,b.choduyet from " + user + mmyy + ".d_tutructh a," + user + ".d_dmbd b," + user + ".d_dmkho c," + user + ".d_dmnguon d where a.mabd=b.id and a.makho=c.id and a.manguon=d.id and a.makp=" + makp;
             if (tutruc == 1) sql += " and b.tutruc=1";
-            if (makho != "") sql += " and a.makho in (" + makho.Substring(0, makho.Length - 1) + ")";
-            if (manguon != "") sql += " and a.manguon in (" + manguon.Substring(0, manguon.Length - 1) + ")";
+            if (makho != "") sql += " and a.makho in (" + String.Join(",",makho.Trim(',').Split(',')) + ")";
+            if (manguon != "") sql += " and a.manguon in (" + String.Join(",", manguon.Trim(',').Split(',')) + ")";
             sql += " order by b.ten";
             DataTable tmp = get_data(sql).Tables[0];
             DataRow r1;
@@ -22249,8 +22249,8 @@ namespace LibDuoc
                     mmyys = r2["mmyy"].ToString();
                     sql = "select a.makho,a.mabd,a.manguon,sum(a.slxuat+case when a.slyeucau>0 then a.slyeucau else 0 end) as soluong from " + user + mmyys + ".d_tutructh a," + user + ".d_dmbd b where a.mabd=b.id and a.slxuat+case when a.slyeucau>0 then a.slyeucau else 0 end>0 and a.makp=" + makp;
                     if (tutruc == 1) sql += " and b.tutruc=1";
-                    if (makho != "") sql += " and a.makho in (" + makho.Substring(0, makho.Length - 1) + ")";
-                    if (manguon != "") sql += " and a.manguon in (" + manguon.Substring(0, manguon.Length - 1) + ")";
+                    if (makho != "") sql += " and a.makho in (" + String.Join(",", makho.Trim(',').Split(',')) + ")";
+                    if (manguon != "") sql += " and a.manguon in (" + String.Join(",", manguon.Trim(',').Split(',')) + ")";
                     sql += " group by a.makho,a.mabd,a.manguon";
                     foreach (DataRow r in get_data(sql).Tables[0].Rows)
                     {
@@ -22543,9 +22543,9 @@ namespace LibDuoc
             sql += " inner join " + user + ".d_dmnguon d on a.manguon=d.id left join " + user + ".d_dmthoidiemdung e on b.mathoidiemdung=e.id ";
             sql += " left join " + user + ".d_dmloai f on b.maloai=f.id ";
             sql += " where c.nhom=" + nhom;
-            if (makho.Trim().Trim(',') != "") sql += " and a.makho in (" + makho.Substring(0, makho.Length - 1) + ")";
+            if (makho.Trim().Trim(',') != "") sql += " and a.makho in (" + String.Join(",",makho.Trim(',').Split(',')) + ")";
             if (makho_kp.Trim().Trim(',') != "") sql += " and a.makho in (" + makho_kp.Trim().Trim(',') + ")";
-            if (manguon.Trim().Trim(',') != "") sql += " and a.manguon in (" + manguon.Substring(0, manguon.Length - 1) + ")";
+            if (manguon.Trim().Trim(',') != "") sql += " and a.manguon in (" +String.Join(",", manguon.Trim(',').Split(',')) + ")";
             if (madoituong == 1 && locdichvu) sql += " and b.bhyt<>0";            
             if (bSort_mabd) sql += " order by b.ma";
             else sql += " order by b.ten";

@@ -1,7 +1,6 @@
 *.dll
 *.exe
 *.xls
-
 *.pdb
 /*/obj/*
 /Language
