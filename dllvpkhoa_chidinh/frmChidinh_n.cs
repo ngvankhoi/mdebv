@@ -1889,22 +1889,25 @@ namespace dllvpkhoa_chidinh
                     chandoan.Focus();
                     return false;
                 }
+
+                bCanhbaochidinhtrung();
             }
 			return true;
+
 		
         }
-        ///// <summary>
-        ///// truong thuy Cảnh báo chỉ định trùng
-        ///// </summary>
-        ///// <returns></returns>
-        //private bool bCanhbaochidinhtrung()
-        //{
-        //    string s_sql1 = "select mavp,loaibn from xxx.v_chidinh where mavaovien=" + l_mavaovien + " and mabn=" + mabn.Text + "";
-        //    DataSet dschidinh = new DataSet();
-        //    dschidinh = m.get_data_mmyy(s_ngayvao, s_ngay.Substring(0, 10), false);
+        /// <summary>
+        /// truong thuy Cảnh báo chỉ định trùng
+        /// </summary>
+        /// <returns></returns>
+        private bool bCanhbaochidinhtrung()
+        {
+            string s_sql1 = "select mavp,loaibn from xxx.v_chidinh where mavaovien=" + l_mavaovien + " and mabn=" + mabn.Text + "";
+            DataSet dschidinh = new DataSet();
+            dschidinh = m.get_data_mmyy(s_sql1,s_ngayvao, s_ngay.Substring(0, 10), false);
 
-        
-        //}
+            return true;
+        }
 		private void butLuu_Click(object sender, System.EventArgs e)
 		{
 			if (!kiemtra()) return;

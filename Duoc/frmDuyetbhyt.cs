@@ -2480,7 +2480,8 @@ namespace Duoc
                        dst.Tables[0].Rows.Add(r2);
                     }
                 }
-                s_maicd += r["maicd"].ToString().Trim() + ";";
+                //s_maicd += r["maicd"].ToString().Trim() + ";"; goc 12062014 
+                if (s_maicd.IndexOf(r["maicd"].ToString().Trim() + ";") < 0) s_maicd += r["maicd"].ToString().Trim() + ";";  // truong thuy 12062014
                 if (s_chandoan.IndexOf(r["chandoan"].ToString().Trim() + ";") < 0) s_chandoan += r["chandoan"].ToString().Trim() + ";";
                 s_tenkp += r["tenkp"].ToString().Trim() + ";";
                 s_tenbs += r["tenbs"].ToString() + ";";
@@ -2514,11 +2515,11 @@ namespace Duoc
                     }
                 }
             }
-            if (s_chandoan == "" || i_loaiba==2)
-            {
-                s_chandoan = chandoan.Trim(';') ;
-                s_maicd = maicd.Trim(';');
-            }
+            //if (s_chandoan == "" || i_loaiba==2)
+            //{
+            //    s_chandoan = chandoan.Trim(';') ;
+            //    s_maicd = maicd.Trim(';');
+            //}
 
             if (mavaovien == 0)
             {
@@ -3219,13 +3220,15 @@ namespace Duoc
                     }
                     //
                 }
+
+            
                 if (bInchiphi_chandoan_bacsy)
                 {
                     r1 = m.getrowbyid(dst.Tables[0], "maql=" + decimal.Parse(r["maql"].ToString()));
                     if (r1 != null)
-                    {
-                        r["maicd"] = r1["maicd"].ToString();
-                        r["chandoan"] = r1["chandoan"].ToString();
+                    {  
+                        r["maicd"] = s_cd_ct; // truong thuy  12062014
+                        r["chandoan"] = s_icd_ct;  // r1["chandoan"].ToString(); truong thuy 12062014
                         r["mabs"] = r1["mabs"].ToString();
                         r["tenbs"] = r1["tenbs"].ToString();
                         r["image"] = r1["image"];
@@ -3236,8 +3239,8 @@ namespace Duoc
                         r1 = m.getrowbyid(dst.Tables[0], "makp='" + r["makp"].ToString() + "'");
                         if (r1 != null)
                         {
-                            r["maicd"] = r1["maicd"].ToString();
-                            r["chandoan"] = r1["chandoan"].ToString();
+                            r["maicd"] = s_icd_ct;//r1["maicd"].ToString();
+                            r["chandoan"] = s_icd_ct;// r1["chandoan"].ToString();
                             r["mabs"] = r1["mabs"].ToString();
                             r["tenbs"] = r1["tenbs"].ToString();
                             r["image"] = r1["image"];
