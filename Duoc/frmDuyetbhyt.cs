@@ -1017,7 +1017,7 @@ namespace Duoc
             else sql += "c.sothe,coalesce(c.traituyen,0) as traituyen,c.sothe as sothengtr,";
             //
             sql += " b.hoten,b.namsinh,trim(b.sonha)||' '||b.thon as diachi,b.cholam,x.tentt,y.tenquan,z.tenpxa,";
-            if (i_loaiba == 2) sql += " coalesce(c.mabv,'0') as mabv,";
+            if (i_loaiba == 2) sql += " case when c.mabv isnull then cc.mabv else c.mabv end as mabv,";
             else sql += "c.mabv,";
             sql += "a.makp,d.tenkp,a.chandoan,a.maicd,a.mabs,a.madoituong,e.mien,coalesce(e.field_gia,'gia_th') as field_gia,a.loaiba,a.ngaynghi,0 as mangtr";//coalesce(c.mabv,f.mabv) as mabv// Thuy 03.01.2012
             sql += " from xxx.d_thuocbhytll a inner join " + user + ".btdbn b on a.mabn=b.mabn ";
@@ -1060,13 +1060,15 @@ namespace Duoc
             if (bHoadon)
             {
                 // lay thong tin chi dinh dich vu
-                sql += " union all select distinct 0 as id,a.mabn,to_number('0') as maql,a.mavaovien,";
+                sql += " union all ";
+                sql+=" select distinct 0 as id,a.mabn,to_number('0') as maql,a.mavaovien,";
                 ////binh 31082013
+                ///Khoi 16/4/2014 sua coalesce(c.mabv,'0') thành case when c.mabv isnull then cc.mabv else c.mabv end do một số trường hợp ko có mã bệnh viện chuyển đến trong phần trong báo cáo duyệt thuốc.
                 if (i_loaiba != 2) sql += " c.sothe,coalesce(c.traituyen,0) as traituyen,c.sothe as sothengtr";
                 else sql += " coalesce(cc.sothe, c.sothe) as sothe,coalesce(cc.traituyen,coalesce(c.traituyen,0)) as traituyen,coalesce(cc.sothe,c.sothe) as sothengtr";
                 //
                 sql += " ,b.hoten,b.namsinh,trim(b.sonha)||' '||b.thon as diachi,b.cholam,x.tentt,y.tenquan,z.tenpxa,";
-                sql += " c.mabv,a.makp,f.tenkp,";
+                sql += " case when c.mabv isnull then cc.mabv else c.mabv end ,a.makp,f.tenkp,";
                 sql += "'' as chandoan,'' as maicd,'' as mabs,";//PK(co icd)+TD(0 co icd) --> de khong hien thi 2 dong: nen khong lay cd, chi lay chan doa khi luu
                 sql += " a.madoituong,e.mien,coalesce(e.field_gia,'gia_th') as field_gia,a.loaiba,0 as ngaynghi,a.mangtr ";
                 sql += " from (select distinct u.ngay,u.mabn,u.mavaovien,u.maql,u.madoituong,u.makp,u.loaiba,u.paid, " +
@@ -1120,7 +1122,7 @@ namespace Duoc
                 {
                     sql += " and loaiba<>2";
                 }
-                sql += ")";
+                sql += ")";        
             }
             dt = d.get_data_mmyy(sql, s_tu, s_den, songayduyet).Tables[0];
             DataRow r1;
@@ -2171,7 +2173,7 @@ namespace Duoc
             if (i_madoituong == 1) sql += " and d.madoituong=1";
             else sql += " and d.madoituong<>1";
             sql += " and d.mabn not in (select mabn from " + user + s_mmyy + ".bhytkb where to_char(ngay,'dd/mm/yyyy')='" + s_ngay + "')";
-			dt=d.get_data(sql).Tables[0];
+			dt=d.get_data_mmyy(sql,s_tu,s_den,songayduyet).Tables[0];
             DataColumn dc = new DataColumn("id", typeof(decimal));
             dt.Columns.Add(dc);
             DataTable dt1 = dt.Copy();
@@ -3056,11 +3058,13 @@ namespace Duoc
             //
             int _maphu = d.get_maphu_ngtru(_sothe,tc, i_nhom);
             string sovaovien="";
+            DataSet lds11=null;
             if (i_loaiba == 3)
             {
                 sql = "select b.soluutru from " + user + s_mmyy + ".benhanpk a," + user + s_mmyy + ".lienhe b where a.maql=b.maql and a.mabn='" + mabn + "'";
+
+                 lds11= d.get_data(sql);
             }
-            DataSet lds11 = d.get_data(sql);
             if (lds11 == null || lds11.Tables.Count <= 0 || lds11.Tables[0].Rows.Count<=0)
             {
                 sovaovien = "";
