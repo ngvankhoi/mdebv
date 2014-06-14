@@ -95,6 +95,7 @@
                 <xs:element name="nhapvien" type="xs:string" minOccurs="0" />
                 <xs:element name="thangtuoi" type="xs:string" minOccurs="0" />
                 <xs:element name="trieuchung" type="xs:string" minOccurs="0" />
+                <xs:element name="cdkemtheo" type="xs:string" minOccurs="0" />
               </xs:sequence>
             </xs:complexType>
           </xs:element>
@@ -105,298 +106,677 @@
   <ravien>
     <DONE>0</DONE>
     <MADOITUONGVAO>1</MADOITUONGVAO>
-    <MATT>12016053</MATT>
-    <MABN>12016053</MABN>
-    <MAQL>6</MAQL>
-    <IDKHOA>83</IDKHOA>
-    <HOTEN>PHẠM THỊ LIỄU</HOTEN>
-    <NAMSINH>1984</NAMSINH>
-    <PHAI>Nữ</PHAI>
-    <DIACHI>Quỳnh Hội H. Quỳnh Phụ Thái Bình^Công Nhân Công Ty Tnhh Sao Vàng Tại Qp</DIACHI>
+    <MATT>14037145</MATT>
+    <MABN>14037145</MABN>
+    <MAQL>1</MAQL>
+    <IDKHOA>1</IDKHOA>
+    <HOTEN>BN TESST 001</HOTEN>
+    <NAMSINH>1981</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <DIACHI>Không Xác Định Không Xác Định Bình Dương^</DIACHI>
     <MADOITUONG>1</MADOITUONG>
     <DOITUONG>BHYT</DOITUONG>
-    <SOTHE>DN734020110030934007</SOTHE>
+    <SOTHE>HS779546533333333333</SOTHE>
     <MAPHU>0</MAPHU>
     <DENNGAY>31/12/2014 01/01/2014</DENNGAY>
-    <NOIGIOITHIEU>BVĐK Huyện Quỳnh Phụ^34007^</NOIGIOITHIEU>
-    <NOICAP>0135</NOICAP>
-    <GIUONG>BS Vũ Văn Nhân;</GIUONG>
-    <MAKP>24</MAKP>
-    <TENKP>PK Sản</TENKP>
-    <NGAYVAO>28/05/2014 07:31</NGAYVAO>
-    <NGAYRA>28/05/2014 16:31</NGAYRA>
-    <CHANDOAN>Theo dõi thai có nguy cơ cao khác,trong 3 tháng đầu của thai kỳ;</CHANDOAN>
-    <MAICD>O09.891;</MAICD>
-    <STTNHOM>2</STTNHOM>
-    <NHOM>Chẩn đoán hình ảnh</NHOM>
-    <STTLOAI>65</STTLOAI>
-    <LOAI>Siêu âm</LOAI>
-    <MA>115045</MA>
-    <TEN>Siêu âm</TEN>
-    <DVT>Lần</DVT>
-    <SOLUONG>1.00</SOLUONG>
-    <DONGIA>30000</DONGIA>
-    <SOTIEN>30000.00</SOTIEN>
+    <NOIGIOITHIEU>Trạm Y tế Xã Nguyên Hòa^33333^</NOIGIOITHIEU>
+    <NOICAP>0424</NOICAP>
+    <GIUONG>Vũ Như Hát;</GIUONG>
+    <MAKP>11</MAKP>
+    <TENKP>Phòng 14</TENKP>
+    <NGAYVAO>11/06/2014 11:57</NGAYVAO>
+    <NGAYRA>13/06/2014 12:10</NGAYRA>
+    <CHANDOAN>Viêm họng cấp;</CHANDOAN>
+    <MAICD>J02;</MAICD>
+    <STTNHOM>15</STTNHOM>
+    <NHOM>Thuốc</NHOM>
+    <STTLOAI>14</STTLOAI>
+    <LOAI>THUỐC TÁC DỤNG TRÊN ĐƯỜNG HÔ HẤP</LOAI>
+    <MA>299</MA>
+    <TEN>Aceblue 100mg [Acetylcystein]</TEN>
+    <DVT>gói</DVT>
+    <SOLUONG>500.0000</SOLUONG>
+    <DONGIA>1050.0000000000</DONGIA>
+    <SOTIEN>525000.00000000000000</SOTIEN>
     <TAMUNG>0</TAMUNG>
     <BHYT>0</BHYT>
     <BHYTT0107>0</BHYTT0107>
-    <TCSOTIEN>102000.00</TCSOTIEN>
-    <DICHSO>Một trăm  linh hai nghìn</DICHSO>
+    <TCSOTIEN>2107000.00000000000000</TCSOTIEN>
+    <DICHSO>Hai triệu một trăm  linh bảy nghìn</DICHSO>
     <MIEN>0</MIEN>
-    <BHYTTRA>102000.00</BHYTTRA>
-    <BNTRA>0</BNTRA>
+    <BHYTTRA>1685600.00000000000000</BHYTTRA>
+    <BNTRA>421400.00000000000000</BNTRA>
     <DICHSOTRA />
     <SBLTAMUNG xml:space="preserve"> </SBLTAMUNG>
-    <SOLUUTRU>^^^Theo dõi thai có nguy cơ cao khác,trong 3 tháng đầu của thai kỳ;</SOLUUTRU>
+    <SOLUUTRU>^^^Viêm họng cấp;</SOLUUTRU>
     <NGUOINHA />
     <HINHTHUC>1</HINHTHUC>
-    <PHUONGPHAP>2</PHUONGPHAP>
+    <PHUONGPHAP>3</PHUONGPHAP>
     <KETQUA>0</KETQUA>
     <mabs />
     <tenbs />
     <makprv />
     <tenuser>Administrator</tenuser>
-    <cholam>^</cholam>
-    <gianovat>30000</gianovat>
+    <cholam>sau^sau</cholam>
+    <gianovat>1050.0000000000</gianovat>
     <idttrv>0</idttrv>
-    <sotientra>30000.00</sotientra>
+    <sotientra>525000.00000000000000</sotientra>
     <traituyen>0</traituyen>
     <kythuat>-1</kythuat>
     <loaikythuat />
-    <sotoa>227</sotoa>
-    <sttbhyt>2</sttbhyt>
-    <idnhombhyt>2</idnhombhyt>
-    <tennhombhyt>Chẩn đoán hình ảnh</tennhombhyt>
+    <sotoa>1</sotoa>
+    <sttbhyt>9</sttbhyt>
+    <idnhombhyt>3</idnhombhyt>
+    <tennhombhyt>Thuốc, dịch truyền</tennhombhyt>
     <cpvc_100>False</cpvc_100>
     <tylechitra>BHYT 80%</tylechitra>
-    <sokham>11</sokham>
+    <sokham />
     <dienthoai />
     <sovaovien />
-    <tyletra>100</tyletra>
-    <chuyenvien>^</chuyenvien>
-    <nhapvien>^</nhapvien>
+    <tyletra>80</tyletra>
+    <chuyenvien>^^</chuyenvien>
+    <nhapvien>^^</nhapvien>
     <trieuchung />
+    <cdkemtheo />
   </ravien>
   <ravien>
     <DONE>0</DONE>
     <MADOITUONGVAO>1</MADOITUONGVAO>
-    <MATT>12016053</MATT>
-    <MABN>12016053</MABN>
-    <MAQL>6</MAQL>
-    <IDKHOA>83</IDKHOA>
-    <HOTEN>PHẠM THỊ LIỄU</HOTEN>
-    <NAMSINH>1984</NAMSINH>
-    <PHAI>Nữ</PHAI>
-    <DIACHI>Quỳnh Hội H. Quỳnh Phụ Thái Bình^Công Nhân Công Ty Tnhh Sao Vàng Tại Qp</DIACHI>
+    <MATT>14037145</MATT>
+    <MABN>14037145</MABN>
+    <MAQL>1</MAQL>
+    <IDKHOA>1</IDKHOA>
+    <HOTEN>BN TESST 001</HOTEN>
+    <NAMSINH>1981</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <DIACHI>Không Xác Định Không Xác Định Bình Dương^</DIACHI>
     <MADOITUONG>1</MADOITUONG>
     <DOITUONG>BHYT</DOITUONG>
-    <SOTHE>DN734020110030934007</SOTHE>
+    <SOTHE>HS779546533333333333</SOTHE>
     <MAPHU>0</MAPHU>
     <DENNGAY>31/12/2014 01/01/2014</DENNGAY>
-    <NOIGIOITHIEU>BVĐK Huyện Quỳnh Phụ^34007^</NOIGIOITHIEU>
-    <NOICAP>0135</NOICAP>
-    <GIUONG>BS Vũ Văn Nhân;</GIUONG>
-    <MAKP>24</MAKP>
-    <TENKP>PK Sản</TENKP>
-    <NGAYVAO>28/05/2014 07:31</NGAYVAO>
-    <NGAYRA>28/05/2014 16:31</NGAYRA>
-    <CHANDOAN>Theo dõi thai có nguy cơ cao khác,trong 3 tháng đầu của thai kỳ;</CHANDOAN>
-    <MAICD>O09.891;</MAICD>
-    <STTNHOM>1</STTNHOM>
-    <NHOM>Xét nghiệm</NHOM>
-    <STTLOAI>80</STTLOAI>
-    <LOAI>Xét nghiệm Nước tiểu</LOAI>
-    <MA>114319</MA>
-    <TEN>Nước tiểu thường quy cơ bản (10 thông số (máy) )</TEN>
-    <DVT>Lần</DVT>
-    <SOLUONG>1.00</SOLUONG>
-    <DONGIA>35000</DONGIA>
-    <SOTIEN>35000.00</SOTIEN>
-    <TAMUNG>0</TAMUNG>
-    <BHYT>0</BHYT>
-    <BHYTT0107>0</BHYTT0107>
-    <TCSOTIEN>102000.00</TCSOTIEN>
-    <DICHSO>Một trăm  linh hai nghìn</DICHSO>
-    <MIEN>0</MIEN>
-    <BHYTTRA>102000.00</BHYTTRA>
-    <BNTRA>0</BNTRA>
-    <DICHSOTRA />
-    <SBLTAMUNG xml:space="preserve"> </SBLTAMUNG>
-    <SOLUUTRU>^^^Theo dõi thai có nguy cơ cao khác,trong 3 tháng đầu của thai kỳ;</SOLUUTRU>
-    <NGUOINHA />
-    <HINHTHUC>1</HINHTHUC>
-    <PHUONGPHAP>2</PHUONGPHAP>
-    <KETQUA>0</KETQUA>
-    <mabs />
-    <tenbs />
-    <makprv />
-    <tenuser>Administrator</tenuser>
-    <cholam>^</cholam>
-    <gianovat>35000</gianovat>
-    <idttrv>0</idttrv>
-    <sotientra>35000.00</sotientra>
-    <traituyen>0</traituyen>
-    <kythuat>-1</kythuat>
-    <loaikythuat />
-    <sotoa>227</sotoa>
-    <sttbhyt>1</sttbhyt>
-    <idnhombhyt>1</idnhombhyt>
-    <tennhombhyt>Xét Nghiệm, Thăm dò chức năng</tennhombhyt>
-    <cpvc_100>False</cpvc_100>
-    <tylechitra>BHYT 80%</tylechitra>
-    <sokham>11</sokham>
-    <dienthoai />
-    <tyletra>100</tyletra>
-    <chuyenvien>^</chuyenvien>
-    <nhapvien>^</nhapvien>
-    <trieuchung />
-  </ravien>
-  <ravien>
-    <DONE>0</DONE>
-    <MADOITUONGVAO>1</MADOITUONGVAO>
-    <MATT>12016053</MATT>
-    <MABN>12016053</MABN>
-    <MAQL>6</MAQL>
-    <IDKHOA>83</IDKHOA>
-    <HOTEN>PHẠM THỊ LIỄU</HOTEN>
-    <NAMSINH>1984</NAMSINH>
-    <PHAI>Nữ</PHAI>
-    <DIACHI>Quỳnh Hội H. Quỳnh Phụ Thái Bình^Công Nhân Công Ty Tnhh Sao Vàng Tại Qp</DIACHI>
-    <MADOITUONG>1</MADOITUONG>
-    <DOITUONG>BHYT</DOITUONG>
-    <SOTHE>DN734020110030934007</SOTHE>
-    <MAPHU>0</MAPHU>
-    <DENNGAY>31/12/2014 01/01/2014</DENNGAY>
-    <NOIGIOITHIEU>BVĐK Huyện Quỳnh Phụ^34007^</NOIGIOITHIEU>
-    <NOICAP>0135</NOICAP>
-    <GIUONG>BS Vũ Văn Nhân;</GIUONG>
-    <MAKP>24</MAKP>
-    <TENKP>PK Sản</TENKP>
-    <NGAYVAO>28/05/2014 07:31</NGAYVAO>
-    <NGAYRA>28/05/2014 16:31</NGAYRA>
-    <CHANDOAN>Theo dõi thai có nguy cơ cao khác,trong 3 tháng đầu của thai kỳ;</CHANDOAN>
-    <MAICD>O09.891;</MAICD>
+    <NOIGIOITHIEU>Trạm Y tế Xã Nguyên Hòa^33333^</NOIGIOITHIEU>
+    <NOICAP>0424</NOICAP>
+    <GIUONG>Vũ Như Hát;</GIUONG>
+    <MAKP>11</MAKP>
+    <TENKP>Phòng 14</TENKP>
+    <NGAYVAO>11/06/2014 11:57</NGAYVAO>
+    <NGAYRA>13/06/2014 12:10</NGAYRA>
+    <CHANDOAN>Viêm họng cấp;</CHANDOAN>
+    <MAICD>J02;</MAICD>
     <STTNHOM>2</STTNHOM>
     <NHOM>Chẩn đoán hình ảnh</NHOM>
-    <STTLOAI>4</STTLOAI>
-    <LOAI>CĐHA loại khác</LOAI>
-    <MA>190005</MA>
-    <TEN>Điện tâm đồ</TEN>
+    <STTLOAI>1</STTLOAI>
+    <LOAI>Nội soi trực tràng</LOAI>
+    <MA>-387</MA>
+    <TEN>NS trực tràng có sinh thiết</TEN>
     <DVT>Lần</DVT>
     <SOLUONG>1.00</SOLUONG>
-    <DONGIA>25000</DONGIA>
-    <SOTIEN>25000.00</SOTIEN>
+    <DONGIA>150000.0000000000</DONGIA>
+    <SOTIEN>150000.000000000000</SOTIEN>
     <TAMUNG>0</TAMUNG>
     <BHYT>0</BHYT>
     <BHYTT0107>0</BHYTT0107>
-    <TCSOTIEN>102000.00</TCSOTIEN>
-    <DICHSO>Một trăm  linh hai nghìn</DICHSO>
+    <TCSOTIEN>2107000.00000000000000</TCSOTIEN>
+    <DICHSO>Hai triệu một trăm  linh bảy nghìn</DICHSO>
     <MIEN>0</MIEN>
-    <BHYTTRA>102000.00</BHYTTRA>
-    <BNTRA>0</BNTRA>
+    <BHYTTRA>1685600.00000000000000</BHYTTRA>
+    <BNTRA>421400.00000000000000</BNTRA>
     <DICHSOTRA />
     <SBLTAMUNG xml:space="preserve"> </SBLTAMUNG>
-    <SOLUUTRU>^^^Theo dõi thai có nguy cơ cao khác,trong 3 tháng đầu của thai kỳ;</SOLUUTRU>
+    <SOLUUTRU>^^^Viêm họng cấp;</SOLUUTRU>
     <NGUOINHA />
     <HINHTHUC>1</HINHTHUC>
-    <PHUONGPHAP>2</PHUONGPHAP>
+    <PHUONGPHAP>3</PHUONGPHAP>
     <KETQUA>0</KETQUA>
     <mabs />
     <tenbs />
     <makprv />
     <tenuser>Administrator</tenuser>
     <cholam>^</cholam>
-    <gianovat>25000</gianovat>
+    <gianovat>150000.0000000000</gianovat>
     <idttrv>0</idttrv>
-    <sotientra>25000.00</sotientra>
+    <sotientra>150000.000000000000</sotientra>
     <traituyen>0</traituyen>
     <kythuat>-1</kythuat>
     <loaikythuat />
-    <sotoa>227</sotoa>
-    <sttbhyt>2</sttbhyt>
+    <sotoa>1</sotoa>
+    <sttbhyt>4</sttbhyt>
     <idnhombhyt>2</idnhombhyt>
     <tennhombhyt>Chẩn đoán hình ảnh</tennhombhyt>
     <cpvc_100>False</cpvc_100>
     <tylechitra>BHYT 80%</tylechitra>
-    <sokham>11</sokham>
+    <sokham />
     <dienthoai />
-    <tyletra>100</tyletra>
-    <chuyenvien>^</chuyenvien>
-    <nhapvien>^</nhapvien>
+    <tyletra>80</tyletra>
+    <chuyenvien>^^</chuyenvien>
+    <nhapvien>^^</nhapvien>
     <trieuchung />
+    <cdkemtheo />
   </ravien>
   <ravien>
     <DONE>0</DONE>
     <MADOITUONGVAO>1</MADOITUONGVAO>
-    <MATT>12016053</MATT>
-    <MABN>12016053</MABN>
-    <MAQL>6</MAQL>
-    <IDKHOA>83</IDKHOA>
-    <HOTEN>PHẠM THỊ LIỄU</HOTEN>
-    <NAMSINH>1984</NAMSINH>
-    <PHAI>Nữ</PHAI>
-    <DIACHI>Quỳnh Hội H. Quỳnh Phụ Thái Bình^Công Nhân Công Ty Tnhh Sao Vàng Tại Qp</DIACHI>
+    <MATT>14037145</MATT>
+    <MABN>14037145</MABN>
+    <MAQL>1</MAQL>
+    <IDKHOA>1</IDKHOA>
+    <HOTEN>BN TESST 001</HOTEN>
+    <NAMSINH>1981</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <DIACHI>Không Xác Định Không Xác Định Bình Dương^</DIACHI>
     <MADOITUONG>1</MADOITUONG>
     <DOITUONG>BHYT</DOITUONG>
-    <SOTHE>DN734020110030934007</SOTHE>
+    <SOTHE>HS779546533333333333</SOTHE>
     <MAPHU>0</MAPHU>
     <DENNGAY>31/12/2014 01/01/2014</DENNGAY>
-    <NOIGIOITHIEU>BVĐK Huyện Quỳnh Phụ^34007^</NOIGIOITHIEU>
-    <NOICAP>0135</NOICAP>
-    <GIUONG>BS Vũ Văn Nhân;</GIUONG>
-    <MAKP>24</MAKP>
-    <TENKP>PK Sản</TENKP>
-    <NGAYVAO>28/05/2014 07:31</NGAYVAO>
-    <NGAYRA>28/05/2014 16:31</NGAYRA>
-    <CHANDOAN>Theo dõi thai có nguy cơ cao khác,trong 3 tháng đầu của thai kỳ;</CHANDOAN>
-    <MAICD>O09.891;</MAICD>
-    <STTNHOM>4</STTNHOM>
-    <NHOM>Công khám</NHOM>
-    <STTLOAI>20</STTLOAI>
-    <LOAI>Khám bệnh</LOAI>
-    <MA>116829</MA>
-    <TEN>Khám bệnh</TEN>
-    <DVT>Lần</DVT>
+    <NOIGIOITHIEU>Trạm Y tế Xã Nguyên Hòa^33333^</NOIGIOITHIEU>
+    <NOICAP>0424</NOICAP>
+    <GIUONG>Vũ Như Hát;</GIUONG>
+    <MAKP>11</MAKP>
+    <TENKP>Phòng 14</TENKP>
+    <NGAYVAO>11/06/2014 11:57</NGAYVAO>
+    <NGAYRA>13/06/2014 12:10</NGAYRA>
+    <CHANDOAN>Viêm họng cấp;</CHANDOAN>
+    <MAICD>J02;</MAICD>
+    <STTNHOM>2</STTNHOM>
+    <NHOM>Chẩn đoán hình ảnh</NHOM>
+    <STTLOAI>75</STTLOAI>
+    <LOAI>X quang kỹ thuật số</LOAI>
+    <MA>-1635</MA>
+    <TEN>Chụp XQ Bolondorl - Hizt  ( CR)</TEN>
+    <DVT />
     <SOLUONG>1.00</SOLUONG>
-    <DONGIA>12000</DONGIA>
-    <SOTIEN>12000.00</SOTIEN>
+    <DONGIA>110000.0000000000</DONGIA>
+    <SOTIEN>110000.000000000000</SOTIEN>
     <TAMUNG>0</TAMUNG>
     <BHYT>0</BHYT>
     <BHYTT0107>0</BHYTT0107>
-    <TCSOTIEN>102000.00</TCSOTIEN>
-    <DICHSO>Một trăm  linh hai nghìn</DICHSO>
+    <TCSOTIEN>2107000.00000000000000</TCSOTIEN>
+    <DICHSO>Hai triệu một trăm  linh bảy nghìn</DICHSO>
     <MIEN>0</MIEN>
-    <BHYTTRA>102000.00</BHYTTRA>
-    <BNTRA>0</BNTRA>
+    <BHYTTRA>1685600.00000000000000</BHYTTRA>
+    <BNTRA>421400.00000000000000</BNTRA>
     <DICHSOTRA />
     <SBLTAMUNG xml:space="preserve"> </SBLTAMUNG>
-    <SOLUUTRU>^^^Theo dõi thai có nguy cơ cao khác,trong 3 tháng đầu của thai kỳ;</SOLUUTRU>
+    <SOLUUTRU>^^^Viêm họng cấp;</SOLUUTRU>
     <NGUOINHA />
     <HINHTHUC>1</HINHTHUC>
-    <PHUONGPHAP>2</PHUONGPHAP>
+    <PHUONGPHAP>3</PHUONGPHAP>
     <KETQUA>0</KETQUA>
     <mabs />
     <tenbs />
     <makprv />
     <tenuser>Administrator</tenuser>
     <cholam>^</cholam>
-    <gianovat>12000</gianovat>
+    <gianovat>110000.0000000000</gianovat>
     <idttrv>0</idttrv>
-    <sotientra>12000.00</sotientra>
+    <sotientra>110000.000000000000</sotientra>
     <traituyen>0</traituyen>
     <kythuat>-1</kythuat>
     <loaikythuat />
-    <sotoa>227</sotoa>
-    <sttbhyt>9</sttbhyt>
-    <idnhombhyt>9</idnhombhyt>
-    <tennhombhyt>Công khám</tennhombhyt>
+    <sotoa>1</sotoa>
+    <sttbhyt>4</sttbhyt>
+    <idnhombhyt>2</idnhombhyt>
+    <tennhombhyt>Chẩn đoán hình ảnh</tennhombhyt>
     <cpvc_100>False</cpvc_100>
     <tylechitra>BHYT 80%</tylechitra>
-    <sokham>11</sokham>
+    <sokham />
     <dienthoai />
-    <tyletra>100</tyletra>
-    <chuyenvien>^</chuyenvien>
-    <nhapvien>^</nhapvien>
+    <tyletra>80</tyletra>
+    <chuyenvien>^^</chuyenvien>
+    <nhapvien>^^</nhapvien>
     <trieuchung />
+    <cdkemtheo />
+  </ravien>
+  <ravien>
+    <DONE>0</DONE>
+    <MADOITUONGVAO>1</MADOITUONGVAO>
+    <MATT>14037145</MATT>
+    <MABN>14037145</MABN>
+    <MAQL>1</MAQL>
+    <IDKHOA>1</IDKHOA>
+    <HOTEN>BN TESST 001</HOTEN>
+    <NAMSINH>1981</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <DIACHI>Không Xác Định Không Xác Định Bình Dương^</DIACHI>
+    <MADOITUONG>1</MADOITUONG>
+    <DOITUONG>BHYT</DOITUONG>
+    <SOTHE>HS779546533333333333</SOTHE>
+    <MAPHU>0</MAPHU>
+    <DENNGAY>31/12/2014 01/01/2014</DENNGAY>
+    <NOIGIOITHIEU>Trạm Y tế Xã Nguyên Hòa^33333^</NOIGIOITHIEU>
+    <NOICAP>0424</NOICAP>
+    <GIUONG>Vũ Như Hát;</GIUONG>
+    <MAKP>11</MAKP>
+    <TENKP>Phòng 14</TENKP>
+    <NGAYVAO>11/06/2014 11:57</NGAYVAO>
+    <NGAYRA>13/06/2014 12:10</NGAYRA>
+    <CHANDOAN>Viêm họng cấp;</CHANDOAN>
+    <MAICD>J02;</MAICD>
+    <STTNHOM>2</STTNHOM>
+    <NHOM>Chẩn đoán hình ảnh</NHOM>
+    <STTLOAI>8</STTLOAI>
+    <LOAI>CT Scanner</LOAI>
+    <MA>-394</MA>
+    <TEN>Chụp CT Scanner không có thuốc</TEN>
+    <DVT>lần</DVT>
+    <SOLUONG>1.00</SOLUONG>
+    <DONGIA>800000.0000000000</DONGIA>
+    <SOTIEN>800000.000000000000</SOTIEN>
+    <TAMUNG>0</TAMUNG>
+    <BHYT>0</BHYT>
+    <BHYTT0107>0</BHYTT0107>
+    <TCSOTIEN>2107000.00000000000000</TCSOTIEN>
+    <DICHSO>Hai triệu một trăm  linh bảy nghìn</DICHSO>
+    <MIEN>0</MIEN>
+    <BHYTTRA>1685600.00000000000000</BHYTTRA>
+    <BNTRA>421400.00000000000000</BNTRA>
+    <DICHSOTRA />
+    <SBLTAMUNG xml:space="preserve"> </SBLTAMUNG>
+    <SOLUUTRU>^^^Viêm họng cấp;</SOLUUTRU>
+    <NGUOINHA />
+    <HINHTHUC>1</HINHTHUC>
+    <PHUONGPHAP>3</PHUONGPHAP>
+    <KETQUA>0</KETQUA>
+    <mabs />
+    <tenbs />
+    <makprv />
+    <tenuser>Administrator</tenuser>
+    <cholam>^</cholam>
+    <gianovat>800000.0000000000</gianovat>
+    <idttrv>0</idttrv>
+    <sotientra>800000.000000000000</sotientra>
+    <traituyen>0</traituyen>
+    <kythuat>-1</kythuat>
+    <loaikythuat />
+    <sotoa>1</sotoa>
+    <sttbhyt>4</sttbhyt>
+    <idnhombhyt>2</idnhombhyt>
+    <tennhombhyt>Chẩn đoán hình ảnh</tennhombhyt>
+    <cpvc_100>False</cpvc_100>
+    <tylechitra>BHYT 80%</tylechitra>
+    <sokham />
+    <dienthoai />
+    <tyletra>80</tyletra>
+    <chuyenvien>^^</chuyenvien>
+    <nhapvien>^^</nhapvien>
+    <trieuchung />
+    <cdkemtheo />
+  </ravien>
+  <ravien>
+    <DONE>0</DONE>
+    <MADOITUONGVAO>1</MADOITUONGVAO>
+    <MATT>14037145</MATT>
+    <MABN>14037145</MABN>
+    <MAQL>1</MAQL>
+    <IDKHOA>1</IDKHOA>
+    <HOTEN>BN TESST 001</HOTEN>
+    <NAMSINH>1981</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <DIACHI>Không Xác Định Không Xác Định Bình Dương^</DIACHI>
+    <MADOITUONG>1</MADOITUONG>
+    <DOITUONG>BHYT</DOITUONG>
+    <SOTHE>HS779546533333333333</SOTHE>
+    <MAPHU>0</MAPHU>
+    <DENNGAY>31/12/2014 01/01/2014</DENNGAY>
+    <NOIGIOITHIEU>Trạm Y tế Xã Nguyên Hòa^33333^</NOIGIOITHIEU>
+    <NOICAP>0424</NOICAP>
+    <GIUONG>Vũ Như Hát;</GIUONG>
+    <MAKP>11</MAKP>
+    <TENKP>Phòng 14</TENKP>
+    <NGAYVAO>11/06/2014 11:57</NGAYVAO>
+    <NGAYRA>13/06/2014 12:10</NGAYRA>
+    <CHANDOAN>Viêm họng cấp;</CHANDOAN>
+    <MAICD>J02;</MAICD>
+    <STTNHOM>2</STTNHOM>
+    <NHOM>Chẩn đoán hình ảnh</NHOM>
+    <STTLOAI>75</STTLOAI>
+    <LOAI>X quang kỹ thuật số</LOAI>
+    <MA>-1692</MA>
+    <TEN>Chụp XQ lồng ngực T_N (CR)</TEN>
+    <DVT>Lần</DVT>
+    <SOLUONG>1.00</SOLUONG>
+    <DONGIA>110000.0000000000</DONGIA>
+    <SOTIEN>110000.000000000000</SOTIEN>
+    <TAMUNG>0</TAMUNG>
+    <BHYT>0</BHYT>
+    <BHYTT0107>0</BHYTT0107>
+    <TCSOTIEN>2107000.00000000000000</TCSOTIEN>
+    <DICHSO>Hai triệu một trăm  linh bảy nghìn</DICHSO>
+    <MIEN>0</MIEN>
+    <BHYTTRA>1685600.00000000000000</BHYTTRA>
+    <BNTRA>421400.00000000000000</BNTRA>
+    <DICHSOTRA />
+    <SBLTAMUNG xml:space="preserve"> </SBLTAMUNG>
+    <SOLUUTRU>^^^Viêm họng cấp;</SOLUUTRU>
+    <NGUOINHA />
+    <HINHTHUC>1</HINHTHUC>
+    <PHUONGPHAP>3</PHUONGPHAP>
+    <KETQUA>0</KETQUA>
+    <mabs />
+    <tenbs />
+    <makprv />
+    <tenuser>Administrator</tenuser>
+    <cholam>^</cholam>
+    <gianovat>110000.0000000000</gianovat>
+    <idttrv>0</idttrv>
+    <sotientra>110000.000000000000</sotientra>
+    <traituyen>0</traituyen>
+    <kythuat>-1</kythuat>
+    <loaikythuat />
+    <sotoa>1</sotoa>
+    <sttbhyt>4</sttbhyt>
+    <idnhombhyt>2</idnhombhyt>
+    <tennhombhyt>Chẩn đoán hình ảnh</tennhombhyt>
+    <cpvc_100>False</cpvc_100>
+    <tylechitra>BHYT 80%</tylechitra>
+    <sokham />
+    <dienthoai />
+    <tyletra>80</tyletra>
+    <chuyenvien>^^</chuyenvien>
+    <nhapvien>^^</nhapvien>
+    <trieuchung />
+    <cdkemtheo />
+  </ravien>
+  <ravien>
+    <DONE>0</DONE>
+    <MADOITUONGVAO>1</MADOITUONGVAO>
+    <MATT>14037145</MATT>
+    <MABN>14037145</MABN>
+    <MAQL>1</MAQL>
+    <IDKHOA>1</IDKHOA>
+    <HOTEN>BN TESST 001</HOTEN>
+    <NAMSINH>1981</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <DIACHI>Không Xác Định Không Xác Định Bình Dương^</DIACHI>
+    <MADOITUONG>1</MADOITUONG>
+    <DOITUONG>BHYT</DOITUONG>
+    <SOTHE>HS779546533333333333</SOTHE>
+    <MAPHU>0</MAPHU>
+    <DENNGAY>31/12/2014 01/01/2014</DENNGAY>
+    <NOIGIOITHIEU>Trạm Y tế Xã Nguyên Hòa^33333^</NOIGIOITHIEU>
+    <NOICAP>0424</NOICAP>
+    <GIUONG>Vũ Như Hát;</GIUONG>
+    <MAKP>11</MAKP>
+    <TENKP>Phòng 14</TENKP>
+    <NGAYVAO>11/06/2014 11:57</NGAYVAO>
+    <NGAYRA>13/06/2014 12:10</NGAYRA>
+    <CHANDOAN>Viêm họng cấp;</CHANDOAN>
+    <MAICD>J02;</MAICD>
+    <STTNHOM>2</STTNHOM>
+    <NHOM>Chẩn đoán hình ảnh</NHOM>
+    <STTLOAI>1</STTLOAI>
+    <LOAI>Nội soi trực tràng</LOAI>
+    <MA>-386</MA>
+    <TEN>NS trực tràng ống mềm không sinh thiết</TEN>
+    <DVT>Lần</DVT>
+    <SOLUONG>1.00</SOLUONG>
+    <DONGIA>92000.0000000000</DONGIA>
+    <SOTIEN>92000.000000000000</SOTIEN>
+    <TAMUNG>0</TAMUNG>
+    <BHYT>0</BHYT>
+    <BHYTT0107>0</BHYTT0107>
+    <TCSOTIEN>2107000.00000000000000</TCSOTIEN>
+    <DICHSO>Hai triệu một trăm  linh bảy nghìn</DICHSO>
+    <MIEN>0</MIEN>
+    <BHYTTRA>1685600.00000000000000</BHYTTRA>
+    <BNTRA>421400.00000000000000</BNTRA>
+    <DICHSOTRA />
+    <SBLTAMUNG xml:space="preserve"> </SBLTAMUNG>
+    <SOLUUTRU>^^^Viêm họng cấp;</SOLUUTRU>
+    <NGUOINHA />
+    <HINHTHUC>1</HINHTHUC>
+    <PHUONGPHAP>3</PHUONGPHAP>
+    <KETQUA>0</KETQUA>
+    <mabs />
+    <tenbs />
+    <makprv />
+    <tenuser>Administrator</tenuser>
+    <cholam>^</cholam>
+    <gianovat>92000.0000000000</gianovat>
+    <idttrv>0</idttrv>
+    <sotientra>92000.000000000000</sotientra>
+    <traituyen>0</traituyen>
+    <kythuat>-1</kythuat>
+    <loaikythuat />
+    <sotoa>1</sotoa>
+    <sttbhyt>4</sttbhyt>
+    <idnhombhyt>2</idnhombhyt>
+    <tennhombhyt>Chẩn đoán hình ảnh</tennhombhyt>
+    <cpvc_100>False</cpvc_100>
+    <tylechitra>BHYT 80%</tylechitra>
+    <sokham />
+    <dienthoai />
+    <tyletra>80</tyletra>
+    <chuyenvien>^^</chuyenvien>
+    <nhapvien>^^</nhapvien>
+    <trieuchung />
+    <cdkemtheo />
+  </ravien>
+  <ravien>
+    <DONE>0</DONE>
+    <MADOITUONGVAO>1</MADOITUONGVAO>
+    <MATT>14037145</MATT>
+    <MABN>14037145</MABN>
+    <MAQL>1</MAQL>
+    <IDKHOA>1</IDKHOA>
+    <HOTEN>BN TESST 001</HOTEN>
+    <NAMSINH>1981</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <DIACHI>Không Xác Định Không Xác Định Bình Dương^</DIACHI>
+    <MADOITUONG>1</MADOITUONG>
+    <DOITUONG>BHYT</DOITUONG>
+    <SOTHE>HS779546533333333333</SOTHE>
+    <MAPHU>0</MAPHU>
+    <DENNGAY>31/12/2014 01/01/2014</DENNGAY>
+    <NOIGIOITHIEU>Trạm Y tế Xã Nguyên Hòa^33333^</NOIGIOITHIEU>
+    <NOICAP>0424</NOICAP>
+    <GIUONG>Vũ Như Hát;</GIUONG>
+    <MAKP>11</MAKP>
+    <TENKP>Phòng 14</TENKP>
+    <NGAYVAO>11/06/2014 11:57</NGAYVAO>
+    <NGAYRA>13/06/2014 12:10</NGAYRA>
+    <CHANDOAN>Viêm họng cấp;</CHANDOAN>
+    <MAICD>J02;</MAICD>
+    <STTNHOM>2</STTNHOM>
+    <NHOM>Chẩn đoán hình ảnh</NHOM>
+    <STTLOAI>75</STTLOAI>
+    <LOAI>X quang kỹ thuật số</LOAI>
+    <MA>-1110</MA>
+    <TEN>Chụp dạ dày - tá tràng có uống thuốc cản quang số hóa</TEN>
+    <DVT>lần</DVT>
+    <SOLUONG>1.00</SOLUONG>
+    <DONGIA>115000.0000000000</DONGIA>
+    <SOTIEN>115000.000000000000</SOTIEN>
+    <TAMUNG>0</TAMUNG>
+    <BHYT>0</BHYT>
+    <BHYTT0107>0</BHYTT0107>
+    <TCSOTIEN>2107000.00000000000000</TCSOTIEN>
+    <DICHSO>Hai triệu một trăm  linh bảy nghìn</DICHSO>
+    <MIEN>0</MIEN>
+    <BHYTTRA>1685600.00000000000000</BHYTTRA>
+    <BNTRA>421400.00000000000000</BNTRA>
+    <DICHSOTRA />
+    <SBLTAMUNG xml:space="preserve"> </SBLTAMUNG>
+    <SOLUUTRU>^^^Viêm họng cấp;</SOLUUTRU>
+    <NGUOINHA />
+    <HINHTHUC>1</HINHTHUC>
+    <PHUONGPHAP>3</PHUONGPHAP>
+    <KETQUA>0</KETQUA>
+    <mabs />
+    <tenbs />
+    <makprv />
+    <tenuser>Administrator</tenuser>
+    <cholam>^</cholam>
+    <gianovat>115000.0000000000</gianovat>
+    <idttrv>0</idttrv>
+    <sotientra>115000.000000000000</sotientra>
+    <traituyen>0</traituyen>
+    <kythuat>-1</kythuat>
+    <loaikythuat />
+    <sotoa>1</sotoa>
+    <sttbhyt>4</sttbhyt>
+    <idnhombhyt>2</idnhombhyt>
+    <tennhombhyt>Chẩn đoán hình ảnh</tennhombhyt>
+    <cpvc_100>False</cpvc_100>
+    <tylechitra>BHYT 80%</tylechitra>
+    <sokham />
+    <dienthoai />
+    <tyletra>80</tyletra>
+    <chuyenvien>^^</chuyenvien>
+    <nhapvien>^^</nhapvien>
+    <trieuchung />
+    <cdkemtheo />
+  </ravien>
+  <ravien>
+    <DONE>0</DONE>
+    <MADOITUONGVAO>1</MADOITUONGVAO>
+    <MATT>14037145</MATT>
+    <MABN>14037145</MABN>
+    <MAQL>1</MAQL>
+    <IDKHOA>1</IDKHOA>
+    <HOTEN>BN TESST 001</HOTEN>
+    <NAMSINH>1981</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <DIACHI>Không Xác Định Không Xác Định Bình Dương^</DIACHI>
+    <MADOITUONG>1</MADOITUONG>
+    <DOITUONG>BHYT</DOITUONG>
+    <SOTHE>HS779546533333333333</SOTHE>
+    <MAPHU>0</MAPHU>
+    <DENNGAY>31/12/2014 01/01/2014</DENNGAY>
+    <NOIGIOITHIEU>Trạm Y tế Xã Nguyên Hòa^33333^</NOIGIOITHIEU>
+    <NOICAP>0424</NOICAP>
+    <GIUONG>Vũ Như Hát;</GIUONG>
+    <MAKP>11</MAKP>
+    <TENKP>Phòng 14</TENKP>
+    <NGAYVAO>11/06/2014 11:57</NGAYVAO>
+    <NGAYRA>13/06/2014 12:10</NGAYRA>
+    <CHANDOAN>Viêm họng cấp;</CHANDOAN>
+    <MAICD>J02;</MAICD>
+    <STTNHOM>2</STTNHOM>
+    <NHOM>Chẩn đoán hình ảnh</NHOM>
+    <STTLOAI>75</STTLOAI>
+    <LOAI>X quang kỹ thuật số</LOAI>
+    <MA>-478</MA>
+    <TEN>Chụp mật qua kehr</TEN>
+    <DVT>Lần</DVT>
+    <SOLUONG>1.00</SOLUONG>
+    <DONGIA>150000.0000000000</DONGIA>
+    <SOTIEN>150000.000000000000</SOTIEN>
+    <TAMUNG>0</TAMUNG>
+    <BHYT>0</BHYT>
+    <BHYTT0107>0</BHYTT0107>
+    <TCSOTIEN>2107000.00000000000000</TCSOTIEN>
+    <DICHSO>Hai triệu một trăm  linh bảy nghìn</DICHSO>
+    <MIEN>0</MIEN>
+    <BHYTTRA>1685600.00000000000000</BHYTTRA>
+    <BNTRA>421400.00000000000000</BNTRA>
+    <DICHSOTRA />
+    <SBLTAMUNG xml:space="preserve"> </SBLTAMUNG>
+    <SOLUUTRU>^^^Viêm họng cấp;</SOLUUTRU>
+    <NGUOINHA />
+    <HINHTHUC>1</HINHTHUC>
+    <PHUONGPHAP>3</PHUONGPHAP>
+    <KETQUA>0</KETQUA>
+    <mabs />
+    <tenbs />
+    <makprv />
+    <tenuser>Administrator</tenuser>
+    <cholam>^</cholam>
+    <gianovat>150000.0000000000</gianovat>
+    <idttrv>0</idttrv>
+    <sotientra>150000.000000000000</sotientra>
+    <traituyen>0</traituyen>
+    <kythuat>-1</kythuat>
+    <loaikythuat />
+    <sotoa>1</sotoa>
+    <sttbhyt>4</sttbhyt>
+    <idnhombhyt>2</idnhombhyt>
+    <tennhombhyt>Chẩn đoán hình ảnh</tennhombhyt>
+    <cpvc_100>False</cpvc_100>
+    <tylechitra>BHYT 80%</tylechitra>
+    <sokham />
+    <dienthoai />
+    <tyletra>80</tyletra>
+    <chuyenvien>^^</chuyenvien>
+    <nhapvien>^^</nhapvien>
+    <trieuchung />
+    <cdkemtheo />
+  </ravien>
+  <ravien>
+    <DONE>0</DONE>
+    <MADOITUONGVAO>1</MADOITUONGVAO>
+    <MATT>14037145</MATT>
+    <MABN>14037145</MABN>
+    <MAQL>1</MAQL>
+    <IDKHOA>1</IDKHOA>
+    <HOTEN>BN TESST 001</HOTEN>
+    <NAMSINH>1981</NAMSINH>
+    <PHAI>Nam</PHAI>
+    <DIACHI>Không Xác Định Không Xác Định Bình Dương^</DIACHI>
+    <MADOITUONG>1</MADOITUONG>
+    <DOITUONG>BHYT</DOITUONG>
+    <SOTHE>HS779546533333333333</SOTHE>
+    <MAPHU>0</MAPHU>
+    <DENNGAY>31/12/2014 01/01/2014</DENNGAY>
+    <NOIGIOITHIEU>Trạm Y tế Xã Nguyên Hòa^33333^</NOIGIOITHIEU>
+    <NOICAP>0424</NOICAP>
+    <GIUONG>Vũ Như Hát;</GIUONG>
+    <MAKP>11</MAKP>
+    <TENKP>Phòng 14</TENKP>
+    <NGAYVAO>11/06/2014 11:57</NGAYVAO>
+    <NGAYRA>13/06/2014 12:10</NGAYRA>
+    <CHANDOAN>Viêm họng cấp;</CHANDOAN>
+    <MAICD>J02;</MAICD>
+    <STTNHOM>2</STTNHOM>
+    <NHOM>Chẩn đoán hình ảnh</NHOM>
+    <STTLOAI>75</STTLOAI>
+    <LOAI>X quang kỹ thuật số</LOAI>
+    <MA>-2089</MA>
+    <TEN>chụp XQ vai ( CR - một tư thế)</TEN>
+    <DVT>Lần</DVT>
+    <SOLUONG>1.00</SOLUONG>
+    <DONGIA>55000.0000000000</DONGIA>
+    <SOTIEN>55000.000000000000</SOTIEN>
+    <TAMUNG>0</TAMUNG>
+    <BHYT>0</BHYT>
+    <BHYTT0107>0</BHYTT0107>
+    <TCSOTIEN>2107000.00000000000000</TCSOTIEN>
+    <DICHSO>Hai triệu một trăm  linh bảy nghìn</DICHSO>
+    <MIEN>0</MIEN>
+    <BHYTTRA>1685600.00000000000000</BHYTTRA>
+    <BNTRA>421400.00000000000000</BNTRA>
+    <DICHSOTRA />
+    <SBLTAMUNG xml:space="preserve"> </SBLTAMUNG>
+    <SOLUUTRU>^^^Viêm họng cấp;</SOLUUTRU>
+    <NGUOINHA />
+    <HINHTHUC>1</HINHTHUC>
+    <PHUONGPHAP>3</PHUONGPHAP>
+    <KETQUA>0</KETQUA>
+    <mabs />
+    <tenbs />
+    <makprv />
+    <tenuser>Administrator</tenuser>
+    <cholam>^</cholam>
+    <gianovat>55000.0000000000</gianovat>
+    <idttrv>0</idttrv>
+    <sotientra>55000.000000000000</sotientra>
+    <traituyen>0</traituyen>
+    <kythuat>-1</kythuat>
+    <loaikythuat />
+    <sotoa>1</sotoa>
+    <sttbhyt>4</sttbhyt>
+    <idnhombhyt>2</idnhombhyt>
+    <tennhombhyt>Chẩn đoán hình ảnh</tennhombhyt>
+    <cpvc_100>False</cpvc_100>
+    <tylechitra>BHYT 80%</tylechitra>
+    <sokham />
+    <dienthoai />
+    <tyletra>80</tyletra>
+    <chuyenvien>^^</chuyenvien>
+    <nhapvien>^^</nhapvien>
+    <trieuchung />
+    <cdkemtheo />
   </ravien>
 </NewDataSet>
