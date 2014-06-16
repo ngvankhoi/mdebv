@@ -1068,7 +1068,10 @@ namespace Duoc
                 else sql += " coalesce(cc.sothe, c.sothe) as sothe,coalesce(cc.traituyen,coalesce(c.traituyen,0)) as traituyen,coalesce(cc.sothe,c.sothe) as sothengtr";
                 //
                 sql += " ,b.hoten,b.namsinh,trim(b.sonha)||' '||b.thon as diachi,b.cholam,x.tentt,y.tenquan,z.tenpxa,";
-                sql += " case when c.mabv isnull then cc.mabv else c.mabv end ,a.makp,f.tenkp,";
+                if (i_loaiba == 2 || i_loaiba == 1)
+                    sql += " case when c.mabv isnull then cc.mabv else c.mabv end ,a.makp,f.tenkp,";
+                else
+                    sql += " c.mabv,a.makp,f.tenkp,";
                 sql += "'' as chandoan,'' as maicd,'' as mabs,";//PK(co icd)+TD(0 co icd) --> de khong hien thi 2 dong: nen khong lay cd, chi lay chan doa khi luu
                 sql += " a.madoituong,e.mien,coalesce(e.field_gia,'gia_th') as field_gia,a.loaiba,0 as ngaynghi,a.mangtr ";
                 sql += " from (select distinct u.ngay,u.mabn,u.mavaovien,u.maql,u.madoituong,u.makp,u.loaiba,u.paid, " +
