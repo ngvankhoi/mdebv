@@ -96,8 +96,8 @@ namespace Vienphi
                 chkNhapsotienchitiet_tu.Checked = m_v.sys_nhapsotienchitiet_tu;
                 chkHoantramon_TT.Checked = m_v.sys_hoantramon_tt;
 
-                txtReport_Tructiep_thuong.Text=m_v.sys_report_thutructiep;
-                txtReport_Tructiep_dacthu.Text = m_v.sys_report_thutructiep_thuong;
+                txtReport_Tructiep_thuong.Text=m_v.sys_report_thutructiep_thuong;
+                txtReport_Tructiep_dacthu.Text = m_v.sys_report_thutructiep_dacthu;
                 txtReport_Tructiep_gtgt.Text = m_v.sys_report_thutructiep_gtgt;
                 txtReport_Tamung.Text = m_v.sys_report_thutamung;
                 txtReport_Ravien.Text = m_v.sys_report_ravien;
@@ -193,7 +193,8 @@ namespace Vienphi
 
                 m_v.sys_hoantramon_tt = chkHoantramon_TT.Checked;
                 m_v.sys_report_thutructiep = txtReport_Tructiep_thuong.Text;
-                m_v.sys_report_thutructiep_thuong = txtReport_Tructiep_dacthu.Text;
+                m_v.sys_report_thutructiep_thuong = txtReport_Tructiep_thuong.Text;
+                m_v.sys_report_thutructiep_dacthu = txtReport_Tructiep_dacthu.Text;
                 m_v.sys_report_thutructiep_gtgt = txtReport_Tructiep_gtgt.Text;
                 m_v.sys_report_thutamung = txtReport_Tamung.Text;
                 m_v.sys_report_ravien = txtReport_Ravien.Text;

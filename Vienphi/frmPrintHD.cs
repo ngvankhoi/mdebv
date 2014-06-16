@@ -321,14 +321,27 @@ namespace Vienphi
                     adst.Tables[0].Columns.Add(new DataColumn("lydo", typeof(string)));
                     adst.Tables[0].Columns.Add(new DataColumn("masothue", typeof(string)));
                     adst.Tables[0].Columns.Add(new DataColumn("sttkham", typeof(string)));
+                    adst.Tables[0].Columns.Add(new DataColumn("tienchu",typeof(string)));
+                    adst.Tables[0].Columns.Add(new DataColumn("diachi", typeof(string)));
+
                     foreach (DataRow r in adst.Tables[0].Rows)
                     {
                         r["lydo"] = alydo;
                         r["masothue"] = amasothue;
                         r["sttkham"] = v_sttkham;
+                        r["tienchu"] = m_v.Doiso_Unicode(r["sotien"].ToString());
+                        r["diachi"] = (r["sonha"].ToString() != "" ? r["sonha"].ToString() + ", " : "") + (r["thon"].ToString() != "" ? r["thon"].ToString() + ", " : "") + (r["xa"].ToString() != "" ? r["xa"].ToString() + ", " : "") + (r["quan"].ToString() != "" ? r["quan"].ToString() + ", " : "") + r["tinh"].ToString();
                     }
-                    adst.WriteXml("..\\..\\Datareport\\v_hoadonthutructiep.xml", XmlWriteMode.WriteSchema);
-
+                    switch (aReport)
+                    {
+                        case "v_bienlaithuvienphi_thuong.rpt":
+                            adst.Tables[0].TableName = "BienLaiTamUng";
+                            adst.WriteXml("..\\..\\Datareport\\v_hoadonthutructiep_thuong.xml", XmlWriteMode.WriteSchema);
+                            break;
+                        default :
+                            adst.WriteXml("..\\..\\Datareport\\v_hoadonthutructiep.xml", XmlWriteMode.WriteSchema);
+                            break;
+                    }
                     cMain = new ReportDocument();
 
                     cMain.Load("..\\..\\..\\report\\" + aReport, OpenReportMethod.OpenReportByDefault);
@@ -2170,7 +2183,7 @@ namespace Vienphi
                     adiachi = adiachi.Trim().Replace(lan.Change_language_MessageText("Không xác định"), "").Trim().Trim(',') + ", " + adst.Tables[0].Rows[0]["tenpxa"].ToString();
                     adiachi = adiachi.Trim().Replace(lan.Change_language_MessageText("Không xác định"), "").Trim().Trim(',') + ", " + adst.Tables[0].Rows[0]["tenquan"].ToString();
                     adiachi = adiachi.Trim().Replace(lan.Change_language_MessageText("Không xác định"), "").Trim().Trim(',') + ", " + adst.Tables[0].Rows[0]["tentt"].ToString();
-                    adiachi = adiachi.Trim().Trim(',').Trim();
+                    adiachi = adiachi.Trim().Trim(',').Trim(); 
                     if (adiachi.Trim() == "")
                     {
                         adiachi = adst.Tables[0].Rows[0]["diachi"].ToString().Trim();

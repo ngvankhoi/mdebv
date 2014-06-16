@@ -541,6 +541,7 @@ namespace Medisoft
             this.mnquanlihinhanhbn = new System.Windows.Forms.ToolStripMenuItem();
             this.chkBangDienGoiDocLapTheoTungQuay = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuthongtinbodoi = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripButton8 = new System.Windows.Forms.ToolStripButton();
             this.label42 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.phai = new System.Windows.Forms.ComboBox();
@@ -694,7 +695,6 @@ namespace Medisoft
             this.chkView = new System.Windows.Forms.CheckBox();
             this.butget_msbn_from_internet = new System.Windows.Forms.Button();
             this.barcode = new System.Windows.Forms.Label();
-            this.toolStripButton8 = new System.Windows.Forms.ToolStripButton();
             this.phanhchinh.SuspendLayout();
             this.pnmakp.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGrid1)).BeginInit();
@@ -881,9 +881,9 @@ namespace Medisoft
             this.tuoi.Name = "tuoi";
             this.tuoi.Size = new System.Drawing.Size(25, 21);
             this.tuoi.TabIndex = 10;
-            this.tuoi.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tuoi_KeyPress);
             this.tuoi.Validated += new System.EventHandler(this.tuoi_Validated);
             this.tuoi.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tuoi_KeyDown);
+            this.tuoi.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tuoi_KeyPress);
             // 
             // hoten
             // 
@@ -1606,7 +1606,7 @@ namespace Medisoft
             this.toolStripButton3.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripButton3.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton3.Name = "toolStripButton3";
-            this.toolStripButton3.Size = new System.Drawing.Size(42, 20);
+            this.toolStripButton3.Size = new System.Drawing.Size(43, 20);
             this.toolStripButton3.Text = "^D";
             this.toolStripButton3.ToolTipText = "Dị ứng thuốc";
             this.toolStripButton3.Click += new System.EventHandler(this.l_diungthuoc_Click);
@@ -1622,7 +1622,7 @@ namespace Medisoft
             this.toolStripButton4.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.toolStripButton4.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton4.Name = "toolStripButton4";
-            this.toolStripButton4.Size = new System.Drawing.Size(40, 20);
+            this.toolStripButton4.Size = new System.Drawing.Size(41, 20);
             this.toolStripButton4.Text = "^L";
             this.toolStripButton4.ToolTipText = "Lịch hẹn";
             this.toolStripButton4.Click += new System.EventHandler(this.l_lichhen_Click);
@@ -1751,7 +1751,7 @@ namespace Medisoft
             // 
             this.chkLCD.CheckOnClick = true;
             this.chkLCD.Name = "chkLCD";
-            this.chkLCD.Size = new System.Drawing.Size(264, 22);
+            this.chkLCD.Size = new System.Drawing.Size(273, 22);
             this.chkLCD.Text = "Xuất số từ .. đến ra LCD";
             this.chkLCD.Click += new System.EventHandler(this.chkLCD_Click);
             // 
@@ -1759,20 +1759,20 @@ namespace Medisoft
             // 
             this.chkDieutri.CheckOnClick = true;
             this.chkDieutri.Name = "chkDieutri";
-            this.chkDieutri.Size = new System.Drawing.Size(264, 22);
+            this.chkDieutri.Size = new System.Drawing.Size(273, 22);
             this.chkDieutri.Text = "In phiếu điều trị";
             // 
             // chkXem
             // 
             this.chkXem.CheckOnClick = true;
             this.chkXem.Name = "chkXem";
-            this.chkXem.Size = new System.Drawing.Size(264, 22);
+            this.chkXem.Size = new System.Drawing.Size(273, 22);
             this.chkXem.Text = "Xem trước khi in";
             // 
             // lblLCD
             // 
             this.lblLCD.Name = "lblLCD";
-            this.lblLCD.Size = new System.Drawing.Size(264, 22);
+            this.lblLCD.Size = new System.Drawing.Size(273, 22);
             this.lblLCD.Text = "Thông số LCD";
             this.lblLCD.Click += new System.EventHandler(this.lblLCD_Click);
             // 
@@ -1780,7 +1780,7 @@ namespace Medisoft
             // 
             this.tmn_bienlaikhongdong.CheckOnClick = true;
             this.tmn_bienlaikhongdong.Name = "tmn_bienlaikhongdong";
-            this.tmn_bienlaikhongdong.Size = new System.Drawing.Size(264, 22);
+            this.tmn_bienlaikhongdong.Size = new System.Drawing.Size(273, 22);
             this.tmn_bienlaikhongdong.Text = "In biên lai 0 đồng (Miễn+BHYT)";
             this.tmn_bienlaikhongdong.Click += new System.EventHandler(this.tmn_bienlaikhongdong_Click);
             // 
@@ -1788,7 +1788,7 @@ namespace Medisoft
             // 
             this.mnquanlihinhanhbn.CheckOnClick = true;
             this.mnquanlihinhanhbn.Name = "mnquanlihinhanhbn";
-            this.mnquanlihinhanhbn.Size = new System.Drawing.Size(264, 22);
+            this.mnquanlihinhanhbn.Size = new System.Drawing.Size(273, 22);
             this.mnquanlihinhanhbn.Text = "Quản lí hình ảnh bệnh nhân";
             this.mnquanlihinhanhbn.CheckedChanged += new System.EventHandler(this.mnquanlihinhanhbn_CheckedChanged);
             this.mnquanlihinhanhbn.Click += new System.EventHandler(this.mnquanlihinhanhbn_Click);
@@ -1797,7 +1797,7 @@ namespace Medisoft
             // 
             this.chkBangDienGoiDocLapTheoTungQuay.CheckOnClick = true;
             this.chkBangDienGoiDocLapTheoTungQuay.Name = "chkBangDienGoiDocLapTheoTungQuay";
-            this.chkBangDienGoiDocLapTheoTungQuay.Size = new System.Drawing.Size(264, 22);
+            this.chkBangDienGoiDocLapTheoTungQuay.Size = new System.Drawing.Size(273, 22);
             this.chkBangDienGoiDocLapTheoTungQuay.Text = "Bảng điện gọi độc lập theo từng quầy";
             this.chkBangDienGoiDocLapTheoTungQuay.Click += new System.EventHandler(this.chkBangDienGoiDocLapTheoTungQuay_Click);
             // 
@@ -1805,9 +1805,18 @@ namespace Medisoft
             // 
             this.mnuthongtinbodoi.Enabled = false;
             this.mnuthongtinbodoi.Name = "mnuthongtinbodoi";
-            this.mnuthongtinbodoi.Size = new System.Drawing.Size(264, 22);
+            this.mnuthongtinbodoi.Size = new System.Drawing.Size(273, 22);
             this.mnuthongtinbodoi.Text = "Thông tin đối tượng bộ đội";
             this.mnuthongtinbodoi.Click += new System.EventHandler(this.mnuthongtinbodoi_Click);
+            // 
+            // toolStripButton8
+            // 
+            this.toolStripButton8.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton8.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton8.Image")));
+            this.toolStripButton8.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton8.Name = "toolStripButton8";
+            this.toolStripButton8.Size = new System.Drawing.Size(23, 20);
+            this.toolStripButton8.Text = "toolStripButton8";
             // 
             // label42
             // 
@@ -2459,8 +2468,8 @@ namespace Medisoft
             this.quanhe.Name = "quanhe";
             this.quanhe.Size = new System.Drawing.Size(88, 21);
             this.quanhe.TabIndex = 19;
-            this.quanhe.Validated += new System.EventHandler(this.quanhe_Validated);
             this.quanhe.TextChanged += new System.EventHandler(this.quanhe_TextChanged);
+            this.quanhe.Validated += new System.EventHandler(this.quanhe_Validated);
             this.quanhe.KeyDown += new System.Windows.Forms.KeyEventHandler(this.quanhe_KeyDown);
             // 
             // qh_diachi
@@ -2497,9 +2506,9 @@ namespace Medisoft
             this.madoituong.Name = "madoituong";
             this.madoituong.Size = new System.Drawing.Size(18, 21);
             this.madoituong.TabIndex = 7;
-            this.madoituong.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.madoituong_KeyPress);
             this.madoituong.Validated += new System.EventHandler(this.madoituong_Validated);
             this.madoituong.KeyDown += new System.Windows.Forms.KeyEventHandler(this.madoituong_KeyDown);
+            this.madoituong.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.madoituong_KeyPress);
             // 
             // lbldkkcb
             // 
@@ -2704,10 +2713,10 @@ namespace Medisoft
             this.sothe.Name = "sothe";
             this.sothe.Size = new System.Drawing.Size(132, 21);
             this.sothe.TabIndex = 9;
-            this.sothe.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.sothe_KeyPress);
-            this.sothe.Validated += new System.EventHandler(this.sothe_Validated);
             this.sothe.TextChanged += new System.EventHandler(this.sothe_TextChanged);
+            this.sothe.Validated += new System.EventHandler(this.sothe_Validated);
             this.sothe.KeyDown += new System.Windows.Forms.KeyEventHandler(this.sothe_KeyDown);
+            this.sothe.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.sothe_KeyPress);
             // 
             // label37
             // 
@@ -2754,8 +2763,8 @@ namespace Medisoft
             this.tendstt.Name = "tendstt";
             this.tendstt.Size = new System.Drawing.Size(173, 21);
             this.tendstt.TabIndex = 6;
-            this.tendstt.Validated += new System.EventHandler(this.tendstt_Validated);
             this.tendstt.TextChanged += new System.EventHandler(this.tendstt_TextChanged);
+            this.tendstt.Validated += new System.EventHandler(this.tendstt_Validated);
             this.tendstt.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tendstt_KeyDown);
             // 
             // madstt
@@ -3493,8 +3502,8 @@ namespace Medisoft
             this.bacsy.Name = "bacsy";
             this.bacsy.Size = new System.Drawing.Size(345, 21);
             this.bacsy.TabIndex = 26;
-            this.bacsy.Validated += new System.EventHandler(this.bacsy_Validated);
             this.bacsy.TextChanged += new System.EventHandler(this.bacsy_TextChanged);
+            this.bacsy.Validated += new System.EventHandler(this.bacsy_Validated);
             this.bacsy.KeyDown += new System.Windows.Forms.KeyEventHandler(this.bacsy_KeyDown);
             // 
             // listbv
@@ -3522,8 +3531,8 @@ namespace Medisoft
             this.benhvien.Name = "benhvien";
             this.benhvien.Size = new System.Drawing.Size(345, 21);
             this.benhvien.TabIndex = 27;
-            this.benhvien.Validated += new System.EventHandler(this.benhvien_Validated);
             this.benhvien.TextChanged += new System.EventHandler(this.benhvien_TextChanged);
+            this.benhvien.Validated += new System.EventHandler(this.benhvien_Validated);
             this.benhvien.KeyDown += new System.Windows.Forms.KeyEventHandler(this.benhvien_KeyDown);
             // 
             // n_makp
@@ -3667,8 +3676,8 @@ namespace Medisoft
             this.chklistDTuutien.Name = "chklistDTuutien";
             this.chklistDTuutien.Size = new System.Drawing.Size(120, 64);
             this.chklistDTuutien.TabIndex = 271;
-            this.chklistDTuutien.SelectedIndexChanged += new System.EventHandler(this.chklistDTuutien_SelectedIndexChanged);
             this.chklistDTuutien.VisibleChanged += new System.EventHandler(this.chklistDTuutien_VisibleChanged);
+            this.chklistDTuutien.SelectedIndexChanged += new System.EventHandler(this.chklistDTuutien_SelectedIndexChanged);
             // 
             // lbbsgioithieu
             // 
@@ -3703,8 +3712,8 @@ namespace Medisoft
             this.txtTenBSGioiThieu.Name = "txtTenBSGioiThieu";
             this.txtTenBSGioiThieu.Size = new System.Drawing.Size(269, 21);
             this.txtTenBSGioiThieu.TabIndex = 276;
-            this.txtTenBSGioiThieu.Validated += new System.EventHandler(this.txtTenBSGioiThieu_Validated);
             this.txtTenBSGioiThieu.TextChanged += new System.EventHandler(this.txtTenBSGioiThieu_TextChanged);
+            this.txtTenBSGioiThieu.Validated += new System.EventHandler(this.txtTenBSGioiThieu_Validated);
             this.txtTenBSGioiThieu.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtTenBSGioiThieu_KeyDown);
             // 
             // lblchieudaithe
@@ -3812,6 +3821,7 @@ namespace Medisoft
             this.dataGrid2.SelectionForeColor = System.Drawing.Color.WhiteSmoke;
             this.dataGrid2.Size = new System.Drawing.Size(160, 241);
             this.dataGrid2.TabIndex = 267;
+            this.dataGrid2.Navigate += new System.Windows.Forms.NavigateEventHandler(this.dataGrid2_Navigate);
             // 
             // chkView
             // 
@@ -3848,15 +3858,6 @@ namespace Medisoft
             this.barcode.TabIndex = 270;
             this.barcode.Text = "label41";
             this.barcode.Visible = false;
-            // 
-            // toolStripButton8
-            // 
-            this.toolStripButton8.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton8.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton8.Image")));
-            this.toolStripButton8.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton8.Name = "toolStripButton8";
-            this.toolStripButton8.Size = new System.Drawing.Size(23, 20);
-            this.toolStripButton8.Text = "toolStripButton8";
             // 
             // frmDkkb_chung
             // 
@@ -3911,8 +3912,8 @@ namespace Medisoft
             this.Name = "frmDkkb_chung";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Medisoft THIS - Đăng ký ";
-            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.frmDkkb_chung_KeyDown);
             this.Load += new System.EventHandler(this.frmDkkb_chung_Load);
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.frmDkkb_chung_KeyDown);
             this.phanhchinh.ResumeLayout(false);
             this.phanhchinh.PerformLayout();
             this.pnmakp.ResumeLayout(false);
@@ -11119,6 +11120,11 @@ lan.Change_language_MessageText("Thông tin đăng ký chưa cập nhật !"), L
         }
 
         private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dataGrid2_Navigate(object sender, NavigateEventArgs ne)
         {
 
         }

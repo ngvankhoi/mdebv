@@ -487,7 +487,7 @@ namespace LibVP
             }
             set
             {
-                upd_v_option("txtReport_Tructiep", value);
+                upd_v_option("txtReport_Tructiep_dacthu", value);
             }
         }
         public string sys_report_thutructiep_thuong
