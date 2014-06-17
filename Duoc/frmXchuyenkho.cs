@@ -1917,7 +1917,7 @@ namespace Duoc
                 sql += " from " + xxx + ".d_xuatll a0," + xxx + ".d_xuatct a," + user + ".d_dmbd b," + user + ".d_dmnguon c," + user + ".d_dmnx d," + user + ".d_dmhang e," + d.user + ".d_dmnhom f," + user + ".d_dmnuoc g," + user + ".d_nhomhang h," + xxx + ".d_theodoi t";
                 sql += " ,"+user+".d_nhomin k ";
                 sql += " where a0.id=a.id and a.sttt=t.id and a.mabd=b.id and t.manguon=c.id and t.nhomcc=d.id and b.mahang=e.id and b.manhom=f.id ";
-                sql += " and b.manuoc=g.id and e.loai=h.id(+) and b.nhomin=k.id ";
+                sql += " and b.manuoc=g.id and e.loai=h.id(+) and b.nhomin=k.id(+) ";
                 sql += " and a.id=" + l_id;
                 //Thuy 21.01.2013
                 if (s_doc != "")
