@@ -466,7 +466,11 @@ namespace LibVP
         {
             get
             {
-                string atmp = "v_bienlaithuvienphi.rpt";
+                string atmp = get_v_option("txtReport_Tructiep").Trim();
+                if (atmp == "")
+                {
+                    atmp = "v_bienlaithuvienphi.rpt";
+                }
                 return atmp;
             }
             set
