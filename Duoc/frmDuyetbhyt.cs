@@ -1122,7 +1122,6 @@ namespace Duoc
                 else sql += " and madoituong<>1";
                 if (i_loaiba == 2) sql += " and loaiba=" + i_loaiba;
                 else
-                    ko
                 {
                     sql += " and loaiba<>2";
                 }
