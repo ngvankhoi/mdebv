@@ -3154,7 +3154,7 @@ namespace Vienphi
                         }
                         if (m_v.tt_InHD_thuong(m_userid))
                         {
-                            m_frmprinthd.f_Print_BienlaiKB(!tmn_Xemtruockhiin_Icon.Checked, m_id, m_v.get_mmyy(txtNgaythu.Text.Substring(0, 10)), "1", "v_bienlaithuvienphi_vp.rpt","");
+                            m_frmprinthd.f_Print_BienlaiKB(!tmn_Xemtruockhiin_Icon.Checked, m_id, m_v.get_mmyy(txtNgaythu.Text.Substring(0, 10)), "1", "","");
                         }
                         if (m_v.tt_InHDdacthu(m_userid))
                         {
@@ -3212,7 +3212,10 @@ namespace Vienphi
                             //tam thoi khoa lai chua nho bv nao dung
                             //m_frmprinthd.f_Print_BienlaiKB_Thuong(!tmn_Xemtruockhiin_Icon.Checked, m_id, m_v.get_mmyy(txtNgaythu.Text.Substring(0, 10)), "1", cbBacsi.Text + "^" + lblSTTKham.Text, "", ttrv_bienlai_dichvu, b_Inhddichvu);
                             //bv binh an
-                            m_frmprinthd.f_Print_BienlaiKB(!tmn_Xemtruockhiin_Icon.Checked, m_id, m_v.get_mmyy(txtNgaythu.Text.Substring(0, 10)), "1", "v_bienlaithuvienphi_vp.rpt", "");
+                            //if (m_v.Mabv == "205.2.01")
+                            //    m_frmprinthd.f_Print_BienlaiKB(!tmn_Xemtruockhiin_Icon.Checked, m_id, m_v.get_mmyy(txtNgaythu.Text.Substring(0, 10)), "1", "v_bienlaithuvienphi_vp.rpt", "");
+                            //else
+                                m_frmprinthd.f_Print_BienlaiKB(!tmn_Xemtruockhiin_Icon.Checked, m_id, m_v.get_mmyy(txtNgaythu.Text.Substring(0, 10)), "1", "", "");
 
                         }
                         if (!m_v.tt_Intheoloai(m_userid) && !m_v.tt_Intheonhom(m_userid) && !m_v.tt_InchitietHD(m_userid) && !m_v.tt_InHDdacthu(m_userid) && !m_v.tt_InHD_thuong(m_userid))
