@@ -295,7 +295,7 @@ namespace Vienphi
 		public void Changelanguage_to_English(string frmName, Form frm)
 		{
 			//ds.ReadXml(@"..\..\..\language_vp\"+frmName+".xml");
-            ds = m.get_data("select vietnamese as Vviet,english as Vanh,id,other from " + m.user + ".language order by id");
+            ds = m.BangChuyenNgonNgu;//get_data("select vietnamese as Vviet,english as Vanh,id,other from " + m.user + ".language order by id");
 			string lbl="",m_ngonngu="";
 			string rong="";
             char[] c = new char[] { ' ' }; 
@@ -437,7 +437,14 @@ namespace Vienphi
             {
                 try
                 {
-                    ds = m.get_data("select vietnamese as Vviet,english as Vanh,id from " + m.user + ".language where (english = '' or english is null) order by id");
+                   DataRow[] rrw = m.BangChuyenNgonNgu.Tables[0].Select("Vanh = '' or Vanh is null");
+                   ds = new DataSet();
+                   ds.Tables.Add();
+                    foreach(DataRow cr in rrw )
+                    {
+                        ds.Tables[0].Rows.Add(cr.ItemArray);
+                    }
+                    //m.get_data("select vietnamese as Vviet,english as Vanh,id from " + m.user + ".language where (english = '' or english is null) order by id");
                     DataRow r = getrowbyid(ds.Tables[0], "vviet='" + s_text + "'");
                     if (r == null)
                     {
@@ -578,7 +585,7 @@ namespace Vienphi
 			try
 			{
 				//dsTemp.ReadXml(@"..\..\..\language_vp\"+frmName+".xml");
-                dsTemp = m.get_data("select vietnamese as Vviet,english as Vanh,id from " + m.user + ".language order by id");
+                dsTemp = m.BangChuyenNgonNgu;// m.get_data("select vietnamese as Vviet,english as Vanh,id from " + m.user + ".language order by id");
 				Write_to_Xml(frmName,frm,dsTemp.Tables[0]);
 			}
 			catch//(Exception eee)
@@ -1466,7 +1473,7 @@ namespace Vienphi
 			try
 			{
 				//dsTemp.ReadXml(@"..\..\..\language_vp\"+frmName+".xml");
-                dsTemp = m.get_data("select vietnamese as Vviet,english as Vanh,id from " + m.user + ".language order by id");
+                dsTemp = m.BangChuyenNgonNgu;
 				write_mainmenu_to_xml(frmName,mnu,dsTemp.Tables[0]);
 			}
 			catch
@@ -1481,7 +1488,7 @@ namespace Vienphi
             try
             {
                // dsTemp.ReadXml(@"..\..\..\language_vp\" + frmName + ".xml");
-                dsTemp = m.get_data("select vietnamese as Vviet,english as Vanh,id from " + m.user + ".language order by id");
+                dsTemp = m.BangChuyenNgonNgu;
                 write_ContextMenuStrip_to_xml(frmName, mnu, dsTemp.Tables[0]);
             }
             catch//(Exception ex)
@@ -1526,7 +1533,7 @@ namespace Vienphi
 		public void Change_mainmenu_to_English(string frmName,MenuStrip mnu )
 		{
 			//ds.ReadXml(@"..\..\..\language_vp\"+frmName+".xml");
-            ds = m.get_data("select vietnamese as Vviet,english as Vanh,id,other from " + m.user + ".language order by id");
+            ds = m.BangChuyenNgonNgu;// get_data("select vietnamese as Vviet,english as Vanh,id,other from " + m.user + ".language order by id");
 			flag_language=int.Parse(m.Thongso("Ngonngu").ToString());
             foreach (ToolStripItem ait in mnu.Items)
 			{
@@ -1632,7 +1639,7 @@ namespace Vienphi
 			try
 			{
 				//dsTemp.ReadXml(@"..\..\..\language_vp\"+f_name+".xml");
-                dsTemp = m.get_data("select vietnamese as Vviet,english as Vanh,id from " + m.user + ".language order by id");
+                dsTemp = m.BangChuyenNgonNgu;//get_data("select vietnamese as Vviet,english as Vanh,id from " + m.user + ".language order by id");
 				Write_dtgrid_to_xml(grid,f_name,dsTemp.Tables[0]);
 			}
 			catch
@@ -1643,7 +1650,7 @@ namespace Vienphi
 		public void Change_dtgrid_HeaderText_to_English(DataGridView grid,string f_name)
 		{
 			//ds.ReadXml(@"..\..\..\language_vp\"+f_name+".xml");
-            ds = m.get_data("select vietnamese as Vviet,english as Vanh,id,other from " + m.user + ".language order by id");
+            ds = m.BangChuyenNgonNgu;//get_data("select vietnamese as Vviet,english as Vanh,id,other from " + m.user + ".language order by id");
             for(int i=0; i<=grid.Columns.Count-1;i++)
             {
                 grid.Columns[i].HeaderText = get_text(ds.Tables[0], "vviet='" + grid.Columns[i].HeaderText.ToString() + "'");
