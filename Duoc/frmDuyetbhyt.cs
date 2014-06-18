@@ -3123,12 +3123,22 @@ namespace Duoc
             s_trieuchung = m.get_trieuchung(s_ngay, l_maql);
             string s_cdkemtheo = "";
             if (s_trieuchung == "") // truongthuy 10062014 đối với BN phòng khám xứ trí ngoại trú trong ngoại trú chọn F10 thì lấy triệu chứng tại xxx.lydokham
-            {
+            {  
                 string t = "select b.lydo from " + user + s_mmyy + ".benhanpk a inner join " + user + s_mmyy + ".lydokham b on a.maql=b.maql   where a.mabn=" + mabn + "";//+ s_mabn + "";
                 foreach (DataRow r in d.get_data(t).Tables[0].Rows)
                 {
                     s_trieuchung = r["lydo"].ToString();
                 }
+                if (s_trieuchung == "")
+                {
+                    string t1 = "select b.ten from " + user + s_mmyy + ".benhanpk a inner join " + user + s_mmyy + ".trieuchung b on a.maql=b.maql   where a.mavaovien=" + mavaovien + "";//+ s_mabn + "";
+                    foreach (DataRow r in d.get_data(t1).Tables[0].Rows)
+                    {
+                        s_trieuchung+= r["ten"].ToString();
+                    }
+                }
+                //uyhuh
+
             }
             foreach (DataRow r in d.get_data("select b.chandoan from " + user + s_mmyy + ".benhanpk a inner join " + user + s_mmyy + ".cdkemtheo b on a.maql=b.maql   where a.mabn=" + mabn + "").Tables[0].Rows)//+ s_mabn + "";
             {
