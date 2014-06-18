@@ -65,7 +65,7 @@ namespace Medisoft
             rab13.Text = "Bệnh nhân tự túc";
             rab13.Location = new System.Drawing.Point(300, 1);
             rab13.Width = 150;
-            rab13.Checked = false;
+           // rab13.Checked = false;
             rab13.Enabled = false;
             rab13.CheckedChanged += new System.EventHandler(rab11_CheckedChanged);
 

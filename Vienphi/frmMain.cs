@@ -20,7 +20,7 @@ namespace Vienphi
         private string __userid = "";
         private string __ngaylv = "";
         private string __ngaysl = "";
-
+        public ProgressBar ProgressBar { get { return Main_progressBar; } }
         public frmMain(string v_userid, string v_ngaylv, string v_ngaysl)
         {
             __userid = v_userid;

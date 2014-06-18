@@ -1091,8 +1091,8 @@ namespace Vienphi
                 bool aok = false;
                 string sql = "";
                 m_bnmoi = true;
-                sql = "select a.mabn,a.hoten,to_char(a.ngaysinh,'dd/mm/yyyy') as ngaysinh,a.namsinh,a.phai,a.sonha,a.thon,a.cholam,a.maphuongxa,a.mann,a.madantoc,nam from medibv.btdbn a where a.mabn='" + v_mabn + "'";
-                f_Clear_HC();
+                sql = " select a.mabn,a.hoten,to_char(a.ngaysinh,'dd/mm/yyyy') as ngaysinh,a.namsinh,a.phai,a.sonha,a.thon,a.cholam,a.maphuongxa,a.mann,a.madantoc,nam from medibv.btdbn a where a.mabn='" + v_mabn + "'";
+                f_Clear_HC();               
                 foreach (DataRow r in m_v.get_data(sql).Tables[0].Rows)
                 {
                     txtHoten.Text = r["hoten"].ToString();
@@ -9427,6 +9427,21 @@ namespace Vienphi
             if (tmn_Luuin_Chiphi_cadot.Checked) tmn_Luuin_Chiphi.Checked = false;
             m_v.set_o_luuin_chiphi_cadot_frmthutructiep(m_userid, tmn_Luuin_Chiphi_cadot.Checked);
             m_v.set_o_luuin_chiphi_frmthutructiep(m_userid, tmn_Luuin_Chiphi.Checked);    
+        }
+
+        private void backgroundWorker1_DoWork(object sender, DoWorkEventArgs e)
+        {
+
+        }
+
+        private void backgroundWorker1_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
+        {
+
+        }
+
+        private void backgroundWorker1_ProgressChanged(object sender, ProgressChangedEventArgs e)
+        {
+
         }
     }
 }

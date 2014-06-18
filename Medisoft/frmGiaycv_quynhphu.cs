@@ -21,13 +21,13 @@ namespace Medisoft
             if (rab1.Checked)
             {
                 lydo.Text = rab1.Text;
-                rab13.Enabled = false;
+               // rab13.Enabled = false;
                 rab11.Checked = true;
             }
             else
             {
                 lydo.Text = rab1.Text;
-                rab13.Enabled = true;
+               // rab13.Enabled = true;
             }
         }
         void rab11_CheckedChanged(object sender, System.EventArgs e)

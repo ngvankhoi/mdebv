@@ -13,6 +13,7 @@ using System.Threading;
 using Microsoft.VisualBasic;
 using Microsoft.VisualBasic.CompilerServices;
 using System.Runtime.InteropServices;
+using System.Collections.Generic;
 
 namespace LibVP
 {
@@ -7744,6 +7745,110 @@ namespace LibVP
             execute_data(sql);
 
         }
+        public enum GetDataState
+        {
+            OK,Fail
+        }
+        public delegate void GetDataReport(int per, object obj,GetDataState status);
+        public event GetDataReport GetdataProgressReport;
+        
+        public DataSet get_data2(string sql)
+        {
+            string ammyy = "";
+            ammyy = m_cur_mmyy;
+            DataSet m_ds = new DataSet();
+            m_ds.Tables.Add("Data");
+
+            sql = sql.Replace("medibvmmyy.", m_db_schemaroot + ammyy + ".");
+            sql = sql.Replace("medibv.", m_db_schemaroot + ".");
+            using (Npgsql.NpgsqlCommand cmm = new NpgsqlCommand( "explain "+sql, new NpgsqlConnection(sConn)))
+            {
+                cmm.Connection.Open();
+                try
+                {
+                    NpgsqlDataReader drd ;
+                    long numrow=0;
+                    if (GetdataProgressReport != null)
+                    {
+                        drd = cmm.ExecuteReader();
+                        string explaininfor = "";
+                        if (drd.HasRows && drd.Read())
+                        {
+                            explaininfor = drd[0].ToString();
+                        }
+                        else
+                            throw new Exception();
+                        int i = explaininfor.IndexOf('(');
+                        int j = explaininfor.IndexOf(')');
+                        explaininfor = explaininfor.Substring(i, j - i);                        
+                        foreach (string pr in explaininfor.Trim('(', ')', ' ').Split(' '))
+                        {
+                            if (pr.Contains("rows"))
+                            {
+                                numrow = long.Parse(pr.Split('=')[1]);
+                                break;
+                            }
+                        }
+                        drd.Dispose();
+                    }
+                    cmm.CommandText = sql;
+                    drd = cmm.ExecuteReader();
+                    List<DataColumn> listcl = new List<DataColumn>();
+                    for(int ij = 0; ij< drd.FieldCount ; ij++)
+                    {
+                        listcl.Add(new DataColumn(drd.GetName(ij),drd.GetFieldType(ij)));
+                    }
+                     m_ds.Tables[0].Columns.AddRange(listcl.ToArray());
+                     long currow = 0;
+                     bool hassend = false;
+                     while (drd.Read())
+                     {
+                         object[] value = new object[drd.FieldCount];
+                         drd.GetValues(value);
+                         m_ds.Tables[0].Rows.Add(value);
+                         if (GetdataProgressReport != null)
+                         {
+                             currow++;
+                             int percent = (int)(currow * 99 / numrow);
+                             if ((percent + 1) % 5==0 && hassend)
+                             {
+                                 try
+                                 {
+                                     GetdataProgressReport(percent, currow, GetDataState.OK);
+                                     hassend = true;
+                                 }
+                                 catch
+                                 {
+                                 }
+                             }
+                             else
+                             {
+                                 hassend = false;
+                             }
+                         }
+                     }
+                }
+                catch (Exception ex)
+                {
+                    if (GetdataProgressReport != null)
+                    {
+                        GetdataProgressReport(0, "Lỗi khi thực hiện câu truy vấn:" + sql, GetDataState.Fail);
+                    }
+                    upd_error("sql: " + sql + "; " + ex.Message, m_computername, "");
+                    //m_ds = null;
+                }
+                finally
+                {
+                    cmm.Connection.Close();
+                }
+            }
+            if(GetdataProgressReport != null)
+                foreach (GetDataReport dl in GetdataProgressReport.GetInvocationList())
+                {
+                    GetdataProgressReport -= dl;
+                }
+            return m_ds;
+        }
         public DataSet get_data(string sql)
         {
             string ammyy = "";
@@ -7780,6 +7885,12 @@ namespace LibVP
             }
             return m_ds;
         }
+        static DataSet ds_ngongu = null;
+        public DataSet BangChuyenNgonNgu { get {
+            if (ds_ngongu == null)
+                ds_ngongu = get_data("select vietnamese as Vviet,english as Vanh,id from "+user+".language order by id");
+            return ds_ngongu;
+        } }
         public DataSet get_data_all(string str)
         {
             try
