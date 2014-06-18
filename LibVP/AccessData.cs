@@ -7752,7 +7752,7 @@ namespace LibVP
         public delegate void GetDataReport(int per, object obj,GetDataState status);
         public event GetDataReport GetdataProgressReport;
         
-        public DataSet get_data2(string sql)
+        public DataSet get_data(string sql)
         {
             string ammyy = "";
             ammyy = m_cur_mmyy;
@@ -7796,7 +7796,34 @@ namespace LibVP
                     List<DataColumn> listcl = new List<DataColumn>();
                     for(int ij = 0; ij< drd.FieldCount ; ij++)
                     {
-                        listcl.Add(new DataColumn(drd.GetName(ij),drd.GetFieldType(ij)));
+                        bool has = false;
+                        foreach (DataColumn dcl in listcl)
+                        {
+                            if (dcl.ColumnName == drd.GetName(ij))
+                            {
+                                has = true;
+                                break;
+                            }
+
+                        }
+                        if(!has)
+                            listcl.Add(new DataColumn(drd.GetName(ij), drd.GetFieldType(ij)));
+                        else
+                            listcl.Add(new DataColumn(drd.GetName(ij)+"1", drd.GetFieldType(ij)));
+                        //try
+                        //{
+                        //    DataColumn dc = new DataColumn(drd.GetName(ij), drd.GetFieldType(ij));
+                        //    m_ds.Tables[0].Columns.Add(dc);
+                        //}
+                        //catch
+                        //{
+                        //    if (m_ds.Tables[0].Columns.Contains(drd.GetName(ij)))
+                        //    {
+                        //        DataColumn dc = new DataColumn(drd.GetName(ij)+"1", drd.GetFieldType(ij));
+                        //        dc.Caption = drd.GetName(ij);                              
+                        //        m_ds.Tables[0].Columns.Add(dc);
+                        //    }
+                        //}
                     }
                      m_ds.Tables[0].Columns.AddRange(listcl.ToArray());
                      long currow = 0;
@@ -7849,7 +7876,7 @@ namespace LibVP
                 }
             return m_ds;
         }
-        public DataSet get_data(string sql)
+        public DataSet get_data0(string sql)
         {
             string ammyy = "";
             ammyy = m_cur_mmyy;
@@ -7889,7 +7916,7 @@ namespace LibVP
         public DataSet BangChuyenNgonNgu { get {
             if (ds_ngongu == null)
                 ds_ngongu = get_data("select vietnamese as Vviet,english as Vanh,id from "+user+".language order by id");
-            return ds_ngongu;
+            return ds_ngongu.Copy();
         } }
         public DataSet get_data_all(string str)
         {
