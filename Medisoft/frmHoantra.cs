@@ -845,6 +845,7 @@ namespace Medisoft
             dsxoa.Tables[0].Columns.Add("idx", typeof(decimal)).DefaultValue = 0;
             dsxoa.Tables[0].Columns.Add("sttx", typeof(decimal)).DefaultValue = 0;
             dsxoa.Tables[0].Columns.Add("slcu", typeof(decimal)).DefaultValue = 0;
+            dsxoa.Tables[0].Columns.Add("hoten", typeof(string));
             //
 			if (l_duyet!=0)
 			{

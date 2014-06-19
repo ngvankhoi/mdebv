@@ -506,7 +506,7 @@ namespace Duoc
 						if (dk!="") sql+=dk;
                         sql += " and a.ngay between to_date('" + tu.Text + "'," + stime + ") and to_date('" + den.Text + "'," + stime + ")";
 						sql+=" and a.nhom="+i_nhom;
-						sql+=" group by b.mabd, b.giaban, to_char(a.ngay,'yyyy/mm/dd'),d.ma, d.ten, d.hamluong, d.tenhc, d.dang, f.ten, f.loai, g.ten, a.loai, h.ten";
+                        sql += " group by b.mabd, b.giaban, to_char(a.ngay,'yyyy/mm/dd'),d.ma, d.ten, d.hamluong, d.tenhc, d.dang, f.ten, f.loai, g.ten, a.loai, h.ten,c.giamua,c.gianovat";
 						if (be==0) ds=d.get_data(sql);
 						else ds.Merge(d.get_data(sql));
 						be++;
