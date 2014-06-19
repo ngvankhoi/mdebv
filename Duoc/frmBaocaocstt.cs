@@ -291,6 +291,10 @@ namespace Duoc
 		{
 			d.check_process_Excel();
 			ds=dsxml.Copy();
+            ds.Tables[0].Columns.Remove("losx");
+            ds.Tables[0].Columns.Remove("handung");
+            ds.Tables[0].Columns.Remove("hangsx");
+            ds.Tables[0].Columns.Remove("nuocsx");
 			int dong=2,sodong=ds.Tables[0].Rows.Count+dong,socot=ds.Tables[0].Columns.Count-1,dongke=sodong-1;
 			tenfile=d.Export_Excel(ds,"cosotutruc");
 			oxl=new Excel.Application();
