@@ -14,7 +14,7 @@ namespace Vienphi
 	{
 		private DataSet ds = new DataSet();
         private int flag_language = 0;
-        private AccessData m = new AccessData();
+        private AccessData m = AccessData.GetImplement();
         //==================================
         private string m_db_database = "medisoft2007";
         private string m_db_host = "192.168.1.14";

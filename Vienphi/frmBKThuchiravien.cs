@@ -32,7 +32,7 @@ namespace Vienphi
         Excel.Range orange;
 
         private LibVP.AccessData m_v;
-        //private LibVP.AccessData b = new LibVP.AccessData();
+        //private LibVP.AccessData b = LibVP.AccessData.GetImplement();
         public frmBKThuchiravien(LibVP.AccessData v_v, string v_userid)
         {
             try

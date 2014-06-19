@@ -24,7 +24,7 @@ namespace Vienphi
         private string m_id_gia = "";
         Language lan = new Language(); Bogotiengviet tv = new Bogotiengviet(); private System.Windows.Forms.TextBox textBox111 = new System.Windows.Forms.TextBox();
         private string m_menu_id = "menu_C_1_1_Giavp";
-        private LibVP.AccessData m_v = new AccessData();
+        private LibVP.AccessData m_v = AccessData.GetImplement();
         private LibMedi.AccessData m = new LibMedi.AccessData();
         private string m_userid = "", m_id_loai = "", m_id = "", sql, user, sdbclient = "";
         private int itable, ichinhanh;

@@ -32,7 +32,7 @@ namespace Vienphi
             //
             lan.Read_Language_to_Xml(this.Name.ToString(), this);
             lan.Changelanguage_to_English(this.Name.ToString(), this);
-            m_v = new LibVP.AccessData();
+            m_v = LibVP.AccessData.GetImplement();
         }
         private void frmMain_Load(object sender, EventArgs e)
         {
@@ -1500,6 +1500,11 @@ namespace Vienphi
         private void menuStrip1_ItemClicked_1(object sender, ToolStripItemClickedEventArgs e)
         {
 
+        }
+
+        private void frmMain_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            LibVP.AccessData.SavelogSQL("%userprofile%");
         }
 
        

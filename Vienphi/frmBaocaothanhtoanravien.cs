@@ -27,7 +27,7 @@ namespace Vienphi
 		private DataSet m_ds=new DataSet();
 		private DataSet m_ds1=new DataSet();
 		private DataSet m_ds2=new DataSet();
-		private LibVP.AccessData m_v = new LibVP.AccessData();
+		private LibVP.AccessData m_v = LibVP.AccessData.GetImplement();
 
         private int i_nhomvp_thuoc = 0;
 		private System.Windows.Forms.Panel panel1;

@@ -50,7 +50,7 @@ namespace Vienphi
         {
             DataTable data = new DataTable();
             if (m_v == null)
-                m_v = new LibVP.AccessData();
+                m_v = LibVP.AccessData.GetImplement();
             using (Npgsql.NpgsqlCommand cmm = new Npgsql.NpgsqlCommand("select * from updatedatatontamung order by stt desc ", new Npgsql.NpgsqlConnection(m_v.ConStr)))
             {
                 try

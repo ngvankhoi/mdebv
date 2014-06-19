@@ -17,7 +17,7 @@ namespace Vienphi
         private string m_field_dt = "";
         private DataSet m_ds2 = new DataSet();
         private DataSet m_dsdt = new DataSet();
-        private LibVP.AccessData m_v = new LibVP.AccessData();
+        private LibVP.AccessData m_v = LibVP.AccessData.GetImplement();
 
         public frmBCtamung(string v_userid)
         {

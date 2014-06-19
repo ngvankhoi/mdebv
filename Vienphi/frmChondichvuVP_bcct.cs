@@ -47,7 +47,7 @@ namespace Vienphi
 			f_SetEvent(panel2);
 
 			//khởi tạo các biến toàn cục
-			m_v =  new LibVP.AccessData();
+			m_v =  LibVP.AccessData.GetImplement();
 			f_load_history();
 			f_LoadDMVienPhi();
 			//
@@ -64,7 +64,7 @@ namespace Vienphi
 			m_loai=v_loai;
 
 			//khởi tạo các biến toàn cục
-			m_v =  new LibVP.AccessData();
+			m_v =  LibVP.AccessData.GetImplement();
 			f_load_history();
 			f_LoadDMVienPhi();
 			//

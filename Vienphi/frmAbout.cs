@@ -12,7 +12,7 @@ namespace Vienphi
 	/// </summary>
 	public class frmAbout : System.Windows.Forms.Form
     {
-        private AccessData m_v = new AccessData();
+        private AccessData m_v = AccessData.GetImplement();
 		private System.Windows.Forms.Label label6;
 		private System.Windows.Forms.Label label5;
 		private System.Windows.Forms.Label label3;

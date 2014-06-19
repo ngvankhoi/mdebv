@@ -23,7 +23,7 @@ namespace Vienphi
         string s_values = "";
         private int iLoaiImport = 0;
         //
-        private LibVP.AccessData m_v = new LibVP.AccessData();
+        private LibVP.AccessData m_v = LibVP.AccessData.GetImplement();
 		private int i_userid,i_phai;
         private decimal l_doan = 0, l_idcongty=0;
         private string s_mmyy,s_ma = "",s_mabn="",s_hoten="",s_ngaysinh="",s_namsinh="",nam="",s_mann="",s_madantoc="",s_matt="",vd_namsinh="",sql,tenchucvu="";

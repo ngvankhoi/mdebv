@@ -17,7 +17,7 @@ namespace Vienphi
         public frmChonchinhanh()
         {
             InitializeComponent();
-            v = new LibVP.AccessData();
+            v = LibVP.AccessData.GetImplement();
         }
         public frmChonchinhanh(LibVP.AccessData _v)
         {

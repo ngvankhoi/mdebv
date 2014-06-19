@@ -10,7 +10,7 @@ namespace Vienphi
 {
     public partial class frmDmnhommien : Form
     {
-        LibVP.AccessData v = new LibVP.AccessData();
+        LibVP.AccessData v = LibVP.AccessData.GetImplement();
         Language lan = new Language();
         string sql = "", strRight = "", s_tam = "", s_msg = "";
         bool bMoi = false;

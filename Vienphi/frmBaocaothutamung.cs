@@ -24,7 +24,7 @@ namespace Vienphi
 		private string m_field_dt="";
 		private DataSet m_ds2=new DataSet();
 		private DataSet m_dsdt=new DataSet();
-		private LibVP.AccessData m_v = new LibVP.AccessData();
+		private LibVP.AccessData m_v = LibVP.AccessData.GetImplement();
 		private System.Windows.Forms.Panel panel1;
 		private System.Windows.Forms.Label lbTitle;
 		private System.Windows.Forms.Label lbNgayDN;

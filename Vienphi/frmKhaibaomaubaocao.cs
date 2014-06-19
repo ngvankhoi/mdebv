@@ -11,7 +11,7 @@ namespace Vienphi
     public partial class frmKhaibaomaubaocao : Form
     {
         private string m_userid = "", user = "";
-        private LibVP.AccessData m_v=new LibVP.AccessData();
+        private LibVP.AccessData m_v=LibVP.AccessData.GetImplement();
 
         public frmKhaibaomaubaocao(string v_userid)
         {            

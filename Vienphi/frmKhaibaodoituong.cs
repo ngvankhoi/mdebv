@@ -21,7 +21,7 @@ namespace Vienphi
 		private bool m_saved=false;
 		private string m_file="v_optionchithudoituong_thanhtoannoitru.xml";
 
-		private LibVP.AccessData m_v = new LibVP.AccessData();
+		private LibVP.AccessData m_v = LibVP.AccessData.GetImplement();
 
 		private System.Windows.Forms.Panel panel1;
 		private System.Windows.Forms.Label lbTitle;

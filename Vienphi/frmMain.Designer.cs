@@ -35,6 +35,8 @@
             this.lbNgaylv = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.lbNgay = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.Main_progressBar = new System.Windows.Forms.ProgressBar();
             this.menu_A_Xetnghiem = new System.Windows.Forms.ToolStripMenuItem();
             this.menu_A_1_Laymau = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem18 = new System.Windows.Forms.ToolStripMenuItem();
@@ -124,11 +126,9 @@
             this.menu_E_2_Vechuongtrinh = new System.Windows.Forms.ToolStripMenuItem();
             this.menu_F_Ketthuc = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.Main_progressBar = new System.Windows.Forms.ProgressBar();
             this.panel1.SuspendLayout();
-            this.menuStrip1.SuspendLayout();
             this.panel2.SuspendLayout();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -193,6 +193,23 @@
             this.lbNgay.Size = new System.Drawing.Size(187, 21);
             this.lbNgay.TabIndex = 2;
             this.lbNgay.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.Main_progressBar);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel2.Location = new System.Drawing.Point(664, 2);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(121, 21);
+            this.panel2.TabIndex = 5;
+            // 
+            // Main_progressBar
+            // 
+            this.Main_progressBar.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Main_progressBar.Location = new System.Drawing.Point(0, 0);
+            this.Main_progressBar.Name = "Main_progressBar";
+            this.Main_progressBar.Size = new System.Drawing.Size(121, 21);
+            this.Main_progressBar.TabIndex = 0;
             // 
             // menu_A_Xetnghiem
             // 
@@ -912,23 +929,6 @@
             this.menuStrip1.Text = "menuStrip1";
             this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
             // 
-            // panel2
-            // 
-            this.panel2.Controls.Add(this.Main_progressBar);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel2.Location = new System.Drawing.Point(664, 2);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(121, 21);
-            this.panel2.TabIndex = 5;
-            // 
-            // Main_progressBar
-            // 
-            this.Main_progressBar.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Main_progressBar.Location = new System.Drawing.Point(0, 0);
-            this.Main_progressBar.Name = "Main_progressBar";
-            this.Main_progressBar.Size = new System.Drawing.Size(121, 21);
-            this.Main_progressBar.TabIndex = 0;
-            // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -947,10 +947,11 @@
             this.Text = "Quản lý viện phí";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.frmMain_Load);
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmMain_FormClosing);
             this.panel1.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
-            this.panel2.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 

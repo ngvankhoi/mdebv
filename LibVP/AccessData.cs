@@ -14,6 +14,8 @@ using Microsoft.VisualBasic;
 using Microsoft.VisualBasic.CompilerServices;
 using System.Runtime.InteropServices;
 using System.Collections.Generic;
+using System.Reflection;
+using System.IO;
 
 namespace LibVP
 {
@@ -54,7 +56,14 @@ namespace LibVP
                 return sConn;
             }
         }
-        public AccessData()
+        static AccessData imp = null;
+        static public AccessData GetImplement()
+        {
+            if (imp == null)
+                imp = new AccessData();
+            return imp;
+        }
+        protected AccessData()
         {
             m_computername = System.Environment.MachineName.Trim().ToUpper();
             f_load_maincode();
@@ -7223,7 +7232,19 @@ namespace LibVP
         #endregion CẬP NHẬT CẤU TRÚC TABLES
 
         #region LẤY CẤU TRÚC DATABASE
-
+        void UpdateQueryStringOfAttribute()
+        {
+            foreach (PropertyInfo pro in this.GetType().GetProperties())
+            {
+                if (pro.PropertyType == typeof(DataSet))
+                {
+                    foreach(SqlQueryAttribute sqlatt in pro.GetCustomAttributes(typeof(SqlQueryAttribute),true))
+                    {
+                        sqlatt.SQLQuery = sqlatt.SQLQuery.Replace("$USER", user);
+                    }
+                }
+            }
+        }
         private void f_load_maincode()
         {
             try
@@ -7248,6 +7269,7 @@ namespace LibVP
                     //if (Maincode("xxxxx") == "*****") m_db_password = decode(xxxxx).ToLower();
                 }
                 if (Maincode("User") != "") m_db_schemaroot = Maincode("User");
+                UpdateQueryStringOfAttribute();
             }
             catch { }
         }
@@ -7745,22 +7767,185 @@ namespace LibVP
             execute_data(sql);
 
         }
+
+        #region Các Dataset lưu tạm thời để tăng tốc truy vấn
+        static DataSet _IDdmcomputer;
+        [SqlQuery("select max(id)+1 from $USER.dmcomputer")]
+      public  static DataSet DS_IDdmcomputer
+        {
+            get { if (_IDdmcomputer != null) return _IDdmcomputer.Copy(); else return null; }
+            set
+            {
+                if (_IDdmcomputer != null)
+                {
+                    _IDdmcomputer.Clear();
+                    _IDdmcomputer.Dispose();
+                }
+                _IDdmcomputer = value;
+            }
+        }
+        [SqlQuery("select distinct schemaname from pg_tables where schemaname like 'medibv____'")]
+      public  static DataSet Ds_schma
+        {
+            get { if (ds_schma != null) return ds_schma.Copy(); else return null; }
+            set
+            {
+                if (ds_schma != null)
+                {
+                    ds_schma.Clear();
+                    ds_schma.Dispose();
+                }
+                ds_schma = value;
+            }
+        }
+        static DataSet ds_schma;
+        [SqlQuery("select ten from medibv.thongso where id=999")]
+        static public DataSet Ds_thongso_ten
+        {
+            get { if (ds_thongso_ten != null) return ds_thongso_ten.Copy(); else return null; }
+            set
+            {
+                if (ds_thongso_ten != null)
+                {
+                    ds_thongso_ten.Clear();
+                    ds_thongso_ten.Dispose();
+                }
+                ds_thongso_ten = value;
+            }
+        }
+        static public DataSet ds_thongso_ten;
+
+        [SqlQuery("select id, computer from medibv.dmcomputer")]
+        static public DataSet Ds_dmcomputer_tenid
+        {
+            get { if (ds_dmcomputer_tenid != null) return ds_dmcomputer_tenid.Copy(); else return null; }
+            set
+            {
+                if (ds_dmcomputer_tenid != null)
+                {
+                    ds_dmcomputer_tenid.Clear();
+                    ds_dmcomputer_tenid.Dispose();
+                }
+                ds_dmcomputer_tenid = value;
+            }
+        }
+        static DataSet ds_dmcomputer_tenid;
+        #endregion
+        static DataSet dslogsql =null;
+        public static void SavelogSQL(string path)
+        {
+            try
+            {
+                if (dslogsql != null)
+                {
+                    
+                    string fname = "LogSQLVP.txt";
+                    fname= Environment.ExpandEnvironmentVariables(path+ "\\" + fname);
+                    StreamWriter sw = File.CreateText(fname);                   
+                     // = new StreamWriter(fst);                    
+                    foreach (DataRow dr in dslogsql.Tables[0].Rows)
+                    {
+                        sw.Write(dr["sql"].ToString().Trim() + "\t");
+                        sw.WriteLine(dr["solan"]);
+                    }
+                    sw.Close();
+                   // fst.Close();
+                }
+            }
+            catch { }
+        }
+        static void logsql(string sql)
+        {
+            
+            if (dslogsql == null)
+            {
+                dslogsql = new DataSet();
+                dslogsql.Tables.Add();
+                dslogsql.Tables[0].Columns.Add("sql",typeof(string));
+                dslogsql.Tables[0].Columns.Add("solan", typeof(decimal));
+            }
+           // string exp = "sql =\"" + sql + "\"";
+           // DataRow[] drs = dslogsql.Tables[0].Select(exp);
+            bool has = false;
+            foreach (DataRow dddd in dslogsql.Tables[0].Rows)
+            {
+                if (dddd["sql"].ToString().ToUpper() == sql.ToUpper())
+                {
+                    dddd["solan"] = (decimal)dddd["solan"] + 1;
+                    has = true;
+                    break;
+                }
+            }
+            if (!has)
+            {
+                DataRow nr = dslogsql.Tables[0].NewRow();
+                dslogsql.Tables[0].Rows.Add(nr);
+                nr["sql"] = sql;
+                nr["solan"] = 1;
+            }      
+             
+        }
         public enum GetDataState
         {
             OK,Fail
         }
+        static readonly TimeSpan MAXTIMEUPDATE = new TimeSpan(0,3,0);
         public delegate void GetDataReport(int per, object obj,GetDataState status);
         public event GetDataReport GetdataProgressReport;
-        
+        /// <summary>
+        /// lấy dữ liệu từ medibv gốc, kèm theo lấy dữ liệu từ dataset lưu tạm. có phát sự kiện báo tiến trình
+        /// </summary>
+        /// <param name="sql"></param>
+        /// <returns></returns>
         public DataSet get_data(string sql)
         {
             string ammyy = "";
             ammyy = m_cur_mmyy;
-            DataSet m_ds = new DataSet();
-            m_ds.Tables.Add("Data");
-
             sql = sql.Replace("medibvmmyy.", m_db_schemaroot + ammyy + ".");
             sql = sql.Replace("medibv.", m_db_schemaroot + ".");
+            #region Kiểm tra SQL trong Attribute trong danh sách property class nếu có trả về dataset của property, không truy vấn
+            foreach(PropertyInfo Prope in this.GetType().GetProperties() )
+            {
+                if (Prope.PropertyType == typeof(DataSet))
+                {
+                    object o =  Prope.Attributes ;
+                    foreach(SqlQueryAttribute sqlatr in Prope.GetCustomAttributes(typeof(SqlQueryAttribute), true))
+                    {
+
+                        string at = sqlatr.SQLQuery.Replace("$USER", user).ToLower();
+                        string sll = sql.ToLower();
+                        if (sqlatr.SQLQuery.Replace("$USER",user).ToLower() == sql.ToLower())
+                        {
+                            //if (Prope.GetValue(this, null) != null)
+                            //{
+                            //    return Prope.GetValue(this, null) as DataSet;
+                            //}
+                            //else
+                            //{
+                            //    Prope.SetValue(this, get_data0(sql), null);
+                            //    return Prope.GetValue(this, null) as DataSet;
+                            //}
+                            #region
+                            if (DateTime.Now.Subtract(sqlatr.LastUpdate) < MAXTIMEUPDATE)
+                            {
+                                sqlatr.LastAccess = DateTime.Now;
+                                return Prope.GetValue(this, null) as DataSet;
+                            }
+                            else
+                            {
+                                Prope.SetValue(this, get_data0(sql), null);
+                                sqlatr.LastUpdate = sqlatr.LastAccess = DateTime.Now;
+                                return Prope.GetValue(this, null) as DataSet;
+                            } 
+                            #endregion
+                        }
+                    }
+                }
+            }
+            #endregion
+            DataSet m_ds = new DataSet();
+            m_ds.Tables.Add("Data");
+            logsql(sql);
             using (Npgsql.NpgsqlCommand cmm = new NpgsqlCommand( "explain "+sql, new NpgsqlConnection(sConn)))
             {
                 cmm.Connection.Open();
@@ -7810,20 +7995,7 @@ namespace LibVP
                             listcl.Add(new DataColumn(drd.GetName(ij), drd.GetFieldType(ij)));
                         else
                             listcl.Add(new DataColumn(drd.GetName(ij)+"1", drd.GetFieldType(ij)));
-                        //try
-                        //{
-                        //    DataColumn dc = new DataColumn(drd.GetName(ij), drd.GetFieldType(ij));
-                        //    m_ds.Tables[0].Columns.Add(dc);
-                        //}
-                        //catch
-                        //{
-                        //    if (m_ds.Tables[0].Columns.Contains(drd.GetName(ij)))
-                        //    {
-                        //        DataColumn dc = new DataColumn(drd.GetName(ij)+"1", drd.GetFieldType(ij));
-                        //        dc.Caption = drd.GetName(ij);                              
-                        //        m_ds.Tables[0].Columns.Add(dc);
-                        //    }
-                        //}
+                      
                     }
                      m_ds.Tables[0].Columns.AddRange(listcl.ToArray());
                      long currow = 0;
@@ -7876,6 +8048,11 @@ namespace LibVP
                 }
             return m_ds;
         }
+        /// <summary>
+        /// dùng để lấy dữ liệu cho các dataset lưu tạm, không phát sự kiện tiến trình.
+        /// </summary>
+        /// <param name="sql"></param>
+        /// <returns></returns>
         public DataSet get_data0(string sql)
         {
             string ammyy = "";
@@ -7885,6 +8062,7 @@ namespace LibVP
             {
                 sql = sql.Replace("medibvmmyy.", m_db_schemaroot + ammyy + ".");
                 sql = sql.Replace("medibv.", m_db_schemaroot + ".");
+                logsql(sql);
                 if (con != null)
                 {
                     con.Close(); con.Dispose();
@@ -7913,11 +8091,22 @@ namespace LibVP
             return m_ds;
         }
         static DataSet ds_ngongu = null;
-        public DataSet BangChuyenNgonNgu { get {
-            if (ds_ngongu == null)
-                ds_ngongu = get_data("select vietnamese as Vviet,english as Vanh,id from "+user+".language order by id");
-            return ds_ngongu.Copy();
-        } }
+       // [SqlQuery("select vietnamese as Vviet,english as Vanh,id from $USER.language order by id")]
+        public DataSet BangChuyenNgonNgu
+        {
+            get
+            {
+                if (ds_ngongu == null)
+                    ds_ngongu = get_data("select vietnamese as Vviet,english as Vanh,id from " + user + ".language order by id");
+                return ds_ngongu.Copy();
+            }
+            set
+            {
+                if (ds_ngongu != null)
+                    ds_ngongu.Dispose();
+                ds_ngongu = value;
+            }
+        }
         public DataSet get_data_all(string str)
         {
             try
@@ -24233,6 +24422,49 @@ namespace LibVP
             Import_DMKT_MaNhom_Machuyenkhoa = 3,
             Import_DMKT_Tenviettat = 4
 
+        }
+    }
+    public class SqlQueryAttribute : Attribute
+    {
+        static Predicate<SqlQueryAttribute> SoSanh(string sql)
+        {
+            return delegate(SqlQueryAttribute node)
+            {
+                return node.sql == sql;
+            };
+        }
+        static List<SqlQueryAttribute> ListSqlQuery = new List<SqlQueryAttribute>();
+        private string sql;
+        private DateTime lastcall,lastup;
+        public SqlQueryAttribute(string sql)
+        {
+            if (ListSqlQuery.Exists(SoSanh(sql)))
+            {
+                SqlQueryAttribute t = ListSqlQuery.Find(SoSanh(sql));
+                this.lastcall = t.lastcall;
+                this.lastup = t.lastup;
+                this.sql = sql;
+            }
+            else
+            {
+                this.sql = sql;
+                ListSqlQuery.Add(this);
+            }
+            
+        }
+        public string SQLQuery { get { return sql; } set { sql = value; } }
+        public DateTime LastAccess
+        {
+            get { return ListSqlQuery.Find(SoSanh(SQLQuery)).lastcall; }
+            set
+            {
+                ListSqlQuery.Find(SoSanh(SQLQuery)).lastcall = value;
+            }
+        }
+        public DateTime LastUpdate
+        {
+            get { return ListSqlQuery.Find(SoSanh(SQLQuery)).lastup; }
+            set { ListSqlQuery.Find(SoSanh(SQLQuery)).lastup = value; }
         }
     }
 }

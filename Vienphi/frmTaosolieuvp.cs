@@ -11,7 +11,7 @@ namespace Vienphi
     public partial class frmTaosolieuvp : Form
     {
         Language lan = new Language(); Bogotiengviet tv = new Bogotiengviet(); private System.Windows.Forms.TextBox textBox111 = new System.Windows.Forms.TextBox();
-        private LibVP.AccessData m_v = new LibVP.AccessData();
+        private LibVP.AccessData m_v = LibVP.AccessData.GetImplement();
         private string m_userid = "";
         public frmTaosolieuvp(string s_userid)
         {

@@ -10,7 +10,7 @@ namespace Vienphi
 {
     public partial class frmGioihanVP : Form
     {
-        private LibVP.AccessData m_v=new LibVP.AccessData();
+        private LibVP.AccessData m_v=LibVP.AccessData.GetImplement();
         private decimal m_userid ;
         private string m_thongso = "";
         private DataSet m_dsgiavp = new DataSet();

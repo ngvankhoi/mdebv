@@ -12,7 +12,7 @@ namespace Vienphi
     {
         decimal s_userid;
         string s_option="";
-        private LibVP.AccessData m_v=new LibVP.AccessData();
+        private LibVP.AccessData m_v=LibVP.AccessData.GetImplement();
         private DataSet ads = new DataSet();
         private string s_doituong = "";
         public frmOptiondoituong(decimal auserid)

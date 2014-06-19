@@ -46,7 +46,7 @@ namespace Vienphi
 			f_SetEvent(panel2);
 
 			//khởi tạo các biến toàn cục
-			m_v =  new LibVP.AccessData();
+			m_v =  LibVP.AccessData.GetImplement();
 
 			//
 			// TODO: Add any constructor code after InitializeComponent call

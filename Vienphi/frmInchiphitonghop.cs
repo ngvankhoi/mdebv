@@ -14,7 +14,7 @@ namespace Vienphi
     public partial class frmInchiphitonghop : Form
     {
         #region Khai bao
-        private LibVP.AccessData m_v = new LibVP.AccessData();
+        private LibVP.AccessData m_v = LibVP.AccessData.GetImplement();
         private LibMedi.AccessData m = new LibMedi.AccessData();
         private DataSet ads = new DataSet();
         private DataSet ads1=new DataSet();

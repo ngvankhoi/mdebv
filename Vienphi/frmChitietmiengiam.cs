@@ -13,7 +13,7 @@ namespace Vienphi
         private Language lan = new Language();Bogotiengviet tv = new Bogotiengviet();private System.Windows.Forms.TextBox textBox111 = new System.Windows.Forms.TextBox();
         private string m_cur_yy = "";
         private DateTime m_cur_ngay = DateTime.Now;
-        private LibVP.AccessData m_v = new LibVP.AccessData();        
+        private LibVP.AccessData m_v = LibVP.AccessData.GetImplement();        
         private string m_id = "", m_mavaovien = "", m_maql = "", m_userid = "";
         private TableLayoutPanel m_table;
         private frmTimbenhnhan m_frmtimbenhnhan;

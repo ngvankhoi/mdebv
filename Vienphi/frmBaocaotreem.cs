@@ -26,7 +26,7 @@ namespace Vienphi
 		private string m_ngaythu="";
 		private string m_doituongtreem="";
 
-		private LibVP.AccessData m_v = new LibVP.AccessData();		
+		private LibVP.AccessData m_v = LibVP.AccessData.GetImplement();		
 
 		private string m_sqlloai="";
 		private string m_sqlnhom="";
