@@ -334,8 +334,8 @@ namespace Medisoft
             this.ngayvao.Name = "ngayvao";
             this.ngayvao.Size = new System.Drawing.Size(112, 21);
             this.ngayvao.TabIndex = 3;
-            this.ngayvao.SelectedIndexChanged += new System.EventHandler(this.ngayvao_SelectedIndexChanged);
             this.ngayvao.Validated += new System.EventHandler(this.ngayvv_Validated);
+            this.ngayvao.SelectedIndexChanged += new System.EventHandler(this.ngayvao_SelectedIndexChanged);
             this.ngayvao.KeyDown += new System.Windows.Forms.KeyEventHandler(this.ngayvao_KeyDown);
             // 
             // label1
@@ -455,7 +455,7 @@ namespace Medisoft
             this.dataGrid1.HeaderFont = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dataGrid1.HeaderForeColor = System.Drawing.Color.WhiteSmoke;
             this.dataGrid1.LinkColor = System.Drawing.Color.Teal;
-            this.dataGrid1.Location = new System.Drawing.Point(8, 59);
+            this.dataGrid1.Location = new System.Drawing.Point(8, -88);
             this.dataGrid1.Name = "dataGrid1";
             this.dataGrid1.ParentRowsBackColor = System.Drawing.Color.Gainsboro;
             this.dataGrid1.ParentRowsForeColor = System.Drawing.Color.MidnightBlue;
@@ -512,8 +512,8 @@ namespace Medisoft
             this.ngayvv.Size = new System.Drawing.Size(100, 21);
             this.ngayvv.TabIndex = 4;
             this.ngayvv.Text = "  /  /    ";
-            this.ngayvv.Validated += new System.EventHandler(this.ngayvv_Validated);
             this.ngayvv.Click += new System.EventHandler(this.ngayvv_Click);
+            this.ngayvv.Validated += new System.EventHandler(this.ngayvv_Validated);
             // 
             // label9
             // 
@@ -649,8 +649,11 @@ namespace Medisoft
             if (i_loaiba == 3)
             {
                 solieu.SelectedIndex = 1;
-                solieu.Enabled = false;
-            }
+             
+                //  solieu.Enabled = false;
+
+
+    }
             bQuanly_Theo_Chinhanh = m.bQuanly_Theo_Chinhanh;
 		}
 
